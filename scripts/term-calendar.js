@@ -39,6 +39,22 @@
     });
   }
 
+  function getCourseName(courses, courseKey) {
+    var course = courses[courseKey];
+    if (!course) {
+      return courseKey;
+    }
+    return typeof course === "string" ? course : course.name;
+  }
+
+  function getCourseHome(courses, courseKey) {
+    var course = courses[courseKey];
+    if (!course || typeof course === "string") {
+      return "";
+    }
+    return course.home || "";
+  }
+
   function compareDeadlines(a, b) {
     var dateCompare = a.date.localeCompare(b.date);
     if (dateCompare !== 0) {
@@ -89,6 +105,13 @@
     return endDate < today;
   }
 
+  function createDeadlineLink(deadline, label) {
+    var link = document.createElement("a");
+    link.href = resolveUrl(deadline.url);
+    link.textContent = label || deadline.title;
+    return link;
+  }
+
   function renderDeadlineItem(deadline, courses, options) {
     options = options || {};
     var li = document.createElement("li");
@@ -113,19 +136,25 @@
     titleLine.className = "deadline-item__title";
 
     if (deadline.url) {
-      var link = document.createElement("a");
-      link.href = resolveUrl(deadline.url);
-      link.textContent = deadline.title;
-      titleLine.appendChild(link);
+      titleLine.appendChild(createDeadlineLink(deadline, deadline.title));
     } else {
       titleLine.textContent = deadline.title;
     }
     li.appendChild(titleLine);
 
-    if (!courseFilter && deadline.course && courses[deadline.course]) {
+    if (!courseFilter && deadline.course && getCourseName(courses, deadline.course)) {
       var courseLine = document.createElement("p");
       courseLine.className = "deadline-item__course";
-      courseLine.textContent = courses[deadline.course];
+      var courseHome = getCourseHome(courses, deadline.course);
+
+      if (courseHome) {
+        var courseLink = document.createElement("a");
+        courseLink.href = resolveUrl(courseHome);
+        courseLink.textContent = getCourseName(courses, deadline.course);
+        courseLine.appendChild(courseLink);
+      } else {
+        courseLine.textContent = getCourseName(courses, deadline.course);
+      }
       li.appendChild(courseLine);
     }
 
@@ -134,6 +163,15 @@
       typeLine.className = "deadline-item__type";
       typeLine.textContent = TYPE_LABELS[deadline.type] || deadline.type;
       li.appendChild(typeLine);
+    }
+
+    if (deadline.url && options.showActionLink !== false) {
+      var actionLine = document.createElement("p");
+      actionLine.className = "deadline-item__action";
+      var actionLink = createDeadlineLink(deadline, "Open page");
+      actionLink.className = "deadline-item__action-link";
+      actionLine.appendChild(actionLink);
+      li.appendChild(actionLine);
     }
 
     return li;
@@ -182,6 +220,25 @@
     return map;
   }
 
+  function createCalendarMarker(deadline) {
+    if (deadline.url) {
+      var markerLink = document.createElement("a");
+      markerLink.className = "calendar-marker calendar-marker--" + deadline.type;
+      markerLink.href = resolveUrl(deadline.url);
+      markerLink.title = deadline.title;
+      markerLink.setAttribute("aria-label", deadline.title);
+      markerLink.addEventListener("click", function (event) {
+        event.stopPropagation();
+      });
+      return markerLink;
+    }
+
+    var marker = document.createElement("span");
+    marker.className = "calendar-marker calendar-marker--" + deadline.type;
+    marker.title = deadline.title;
+    return marker;
+  }
+
   function renderCalendar(container, deadlines, courses) {
     if (!container) {
       return;
@@ -218,7 +275,7 @@
       var firstDay = new Date(year, monthNumber - 1, 1);
       var daysInMonth = new Date(year, monthNumber, 0).getDate();
 
-      for (var i = 0; i < firstDay.getDay(); i += 1) {
+      for (var blankIndex = 0; blankIndex < firstDay.getDay(); blankIndex += 1) {
         var blank = document.createElement("span");
         blank.className = "calendar-day calendar-day--blank";
         blank.setAttribute("aria-hidden", "true");
@@ -227,6 +284,7 @@
 
       for (var day = 1; day <= daysInMonth; day += 1) {
         var dateKey = year + "-" + pad(monthNumber) + "-" + pad(day);
+        var dayItems = dateMap[dateKey] || [];
         var dayCell = document.createElement("button");
         dayCell.type = "button";
         dayCell.className = "calendar-day";
@@ -241,26 +299,28 @@
           dayCell.classList.add("calendar-day--today");
         }
 
-        if (dateMap[dateKey]) {
+        if (dayItems.length) {
           dayCell.classList.add("calendar-day--has-deadline");
-          dayCell.setAttribute("aria-label", formatDisplayDate(parseDate(dateKey)) + ", " + dateMap[dateKey].length + " item(s)");
+          dayCell.setAttribute(
+            "aria-label",
+            formatDisplayDate(parseDate(dateKey)) + ", " + dayItems.length + " item(s)"
+          );
 
           var markers = document.createElement("span");
           markers.className = "calendar-day__markers";
-          dateMap[dateKey].forEach(function (deadline) {
-            var marker = document.createElement("span");
-            marker.className = "calendar-marker calendar-marker--" + deadline.type;
-            marker.title = deadline.title;
-            markers.appendChild(marker);
+          dayItems.forEach(function (deadline) {
+            markers.appendChild(createCalendarMarker(deadline));
           });
           dayCell.appendChild(markers);
         } else {
           dayCell.setAttribute("aria-label", formatDisplayDate(parseDate(dateKey)));
         }
 
-        dayCell.addEventListener("click", function () {
-          showCalendarDetail(container, dateKey, dateMap[dateKey] || [], courses);
-        });
+        dayCell.addEventListener("click", (function (selectedDate, selectedItems) {
+          return function () {
+            showCalendarDetail(container, selectedDate, selectedItems, courses);
+          };
+        })(dateKey, dayItems));
 
         grid.appendChild(dayCell);
       }
@@ -272,8 +332,40 @@
     var detail = document.createElement("div");
     detail.className = "calendar-detail";
     detail.id = "calendar-detail-panel";
-    detail.innerHTML = "<p class=\"calendar-detail__hint\">Select a marked day to see deadlines for that date.</p>";
+    detail.innerHTML = "<p class=\"calendar-detail__hint\">Select a marked day to see linked items, or click a colored marker to open its page directly.</p>";
     container.appendChild(detail);
+
+    renderCalendarAgenda(container, deadlines, courses);
+  }
+
+  function renderCalendarAgenda(container, deadlines, courses) {
+    var agenda = document.createElement("div");
+    agenda.className = "calendar-agenda";
+    agenda.id = "calendar-agenda-list";
+
+    var heading = document.createElement("h3");
+    heading.className = "calendar-agenda__title";
+    heading.textContent = "All Term Dates";
+    agenda.appendChild(heading);
+
+    var list = document.createElement("ul");
+    list.className = "deadline-list";
+
+    filterDeadlines(deadlines).forEach(function (deadline) {
+      list.appendChild(renderDeadlineItem(deadline, courses, { showActionLink: false }));
+    });
+
+    if (!list.children.length) {
+      var empty = document.createElement("p");
+      empty.className = "deadline-empty";
+      empty.textContent = "No dates listed for this view.";
+      agenda.appendChild(empty);
+      container.appendChild(agenda);
+      return;
+    }
+
+    agenda.appendChild(list);
+    container.appendChild(agenda);
   }
 
   function showCalendarDetail(container, dateKey, items, courses) {
