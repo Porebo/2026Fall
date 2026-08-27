@@ -148,6 +148,31 @@ a {
   font-size: 1rem;
 }
 
+.deadline-item__action {
+  margin: 0.5rem 0 0;
+}
+
+.deadline-item__action-link {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.deadline-item__action-link:hover,
+.deadline-item__action-link:focus-visible {
+  text-decoration: underline;
+}
+
+.calendar-agenda {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #d9e2ec;
+}
+
+.calendar-agenda__title {
+  margin: 0 0 0.75rem;
+}
+
 .deadline-empty {
   color: #52606d;
   margin: 0;
@@ -224,6 +249,14 @@ a {
   height: 0.45rem;
   border-radius: 999px;
   display: inline-block;
+  text-decoration: none;
+}
+
+a.calendar-marker:hover,
+a.calendar-marker:focus-visible {
+  transform: scale(1.35);
+  outline: 2px solid #174ea6;
+  outline-offset: 1px;
 }
 
 .calendar-marker--homework { background: #174ea6; }

@@ -23,6 +23,8 @@ Add or edit entries in `data/deadlines.json`. Each deadline supports:
 - `type`: `homework`, `exam`, `admin`, or `event`
 - `title` and optional `url` to the assignment or reference page
 
+Each course entry in `data/deadlines.json` also includes a `home` URL used for linked course names in deadline lists and the calendar.
+
 The semester page shows all upcoming action items plus a Fall calendar. Each class home page shows filtered upcoming items and assignments for that course.
 
 ## Courses

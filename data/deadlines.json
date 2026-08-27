@@ -5,10 +5,22 @@
     "end": "2026-12-31"
   },
   "courses": {
-    "principles-of-iq": "Principles of IQ",
-    "research-methods": "Research Methods",
-    "graduate-project": "Graduate Project",
-    "master-thesis": "Master Thesis"
+    "principles-of-iq": {
+      "name": "Principles of IQ",
+      "home": "classes/principles-of-iq/home-principles-of-iq.html"
+    },
+    "research-methods": {
+      "name": "Research Methods",
+      "home": "classes/research-methods/home-research-methods.html"
+    },
+    "graduate-project": {
+      "name": "Graduate Project",
+      "home": "classes/graduate-project/home-graduate-project.html"
+    },
+    "master-thesis": {
+      "name": "Master Thesis",
+      "home": "classes/master-thesis/home-master-thesis.html"
+    }
   },
   "deadlines": [
     {
