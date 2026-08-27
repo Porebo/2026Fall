@@ -112,6 +112,162 @@ a {
   margin-top: 1.5rem;
 }
 
+.deadline-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.deadline-item {
+  border-left: 4px solid #cbd2d9;
+  padding: 0.85rem 1rem;
+  margin-bottom: 0.75rem;
+  background: #f8fafc;
+  border-radius: 0 8px 8px 0;
+}
+
+.deadline-item--homework { border-left-color: #174ea6; }
+.deadline-item--exam { border-left-color: #b42318; }
+.deadline-item--admin { border-left-color: #b7791f; }
+.deadline-item--event { border-left-color: #52606d; }
+
+.deadline-item--past {
+  opacity: 0.65;
+}
+
+.deadline-item__date,
+.deadline-item__course,
+.deadline-item__type {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #52606d;
+}
+
+.deadline-item__title {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+}
+
+.deadline-empty {
+  color: #52606d;
+  margin: 0;
+}
+
+.calendar-month {
+  margin-bottom: 1.5rem;
+}
+
+.calendar-month__title {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.calendar-weekdays,
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0.35rem;
+}
+
+.calendar-weekdays span {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #52606d;
+  padding-bottom: 0.25rem;
+}
+
+.calendar-day {
+  min-height: 3.25rem;
+  border: 1px solid #d9e2ec;
+  border-radius: 8px;
+  background: #fff;
+  padding: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+
+.calendar-day--blank {
+  border: none;
+  background: transparent;
+  cursor: default;
+}
+
+.calendar-day--today {
+  border-color: #174ea6;
+  box-shadow: inset 0 0 0 1px #174ea6;
+}
+
+.calendar-day--has-deadline {
+  background: #eef5ff;
+}
+
+.calendar-day__number {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.calendar-day__markers {
+  display: flex;
+  gap: 0.15rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.calendar-marker {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.calendar-marker--homework { background: #174ea6; }
+.calendar-marker--exam { background: #b42318; }
+.calendar-marker--admin { background: #b7791f; }
+.calendar-marker--event { background: #52606d; }
+
+.calendar-detail {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d9e2ec;
+}
+
+.calendar-detail__title {
+  margin: 0 0 0.75rem;
+}
+
+.calendar-detail__hint {
+  margin: 0;
+  color: #52606d;
+}
+
+.deadline-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.deadline-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: #52606d;
+}
+
+.deadline-legend .calendar-marker {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
 @media (min-width: 720px) {
   .card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));

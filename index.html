@@ -12,8 +12,30 @@
     <header class="hero">
       <p class="eyebrow">College Term Portal</p>
       <h1>2026 Fall Classes</h1>
-      <p class="lede">Use this central index page to enter each class site and then browse meeting pages by date.</p>
+      <p class="lede">Use this central index page to enter each class site, track deadlines, and browse meeting pages by date.</p>
     </header>
+
+    <section class="card" aria-labelledby="upcoming-heading">
+      <p class="eyebrow">Action Items</p>
+      <h2 id="upcoming-heading">Upcoming Deadlines</h2>
+      <div id="upcoming-deadlines" aria-live="polite">
+        <p class="deadline-empty">Loading deadlines…</p>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="calendar-heading">
+      <p class="eyebrow">Fall 2026</p>
+      <h2 id="calendar-heading">Term Calendar</h2>
+      <ul class="deadline-legend" aria-label="Deadline types">
+        <li><span class="calendar-marker calendar-marker--homework" aria-hidden="true"></span> Homework</li>
+        <li><span class="calendar-marker calendar-marker--exam" aria-hidden="true"></span> Exam</li>
+        <li><span class="calendar-marker calendar-marker--admin" aria-hidden="true"></span> Admin</li>
+        <li><span class="calendar-marker calendar-marker--event" aria-hidden="true"></span> Event</li>
+      </ul>
+      <div id="term-calendar" aria-live="polite">
+        <p class="deadline-empty">Loading calendar…</p>
+      </div>
+    </section>
 
     <section>
       <h2>Classes</h2>
@@ -76,5 +98,12 @@
       </div>
     </section>
   </main>
+  <script>
+    window.TERM_CALENDAR_CONFIG = {
+      deadlinesUrl: "data/deadlines.json",
+      linkPrefix: ""
+    };
+  </script>
+  <script src="scripts/term-calendar.js"></script>
 </body>
 </html>
