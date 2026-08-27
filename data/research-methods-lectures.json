@@ -4,6 +4,18 @@
     "months": [8, 9, 10, 11, 12],
     "year": 2026
   },
+  "meetingSchedule": {
+    "dayOfWeek": 1,
+    "startDate": "2026-08-24",
+    "endDate": "2026-12-15",
+    "timezoneClass": "America/Chicago",
+    "timezoneStudent": "America/Los_Angeles",
+    "startTime": "18:00",
+    "endTime": "20:40",
+    "location": "Little Rock, AR",
+    "displayCentral": "Mondays 6:00 PM – 8:40 PM CT",
+    "displayPacific": "Mondays 4:00 PM – 6:40 PM PT (California)"
+  },
   "lectures": [
     {
       "date": "2026-08-24",

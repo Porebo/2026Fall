@@ -47,6 +47,127 @@ a {
   color: #52606d;
 }
 
+.lecture-channel__schedule {
+  margin-bottom: 1.25rem;
+  padding: 0.85rem;
+  background: #eef5ff;
+  border: 1px solid #c7d7f2;
+  border-radius: 8px;
+}
+
+.lecture-channel__schedule-title {
+  margin: 0 0 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #52606d;
+}
+
+.lecture-channel__schedule-time {
+  margin: 0.2rem 0;
+  font-size: 0.88rem;
+}
+
+.lecture-channel__schedule-time--local {
+  font-weight: 700;
+  color: #174ea6;
+}
+
+.lecture-channel__legend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.82rem;
+  color: #52606d;
+}
+
+.lecture-channel__legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.lecture-channel__legend-box {
+  width: 0.95rem;
+  height: 0.95rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.lecture-channel__legend-box--meeting {
+  border: 2px solid #174ea6;
+  background: #fff;
+}
+
+.lecture-channel__legend-box--lecture {
+  background: #174ea6;
+}
+
+.lecture-channel__day-grid {
+  margin-bottom: 0.75rem;
+}
+
+.lecture-channel__weekdays,
+.lecture-channel__days {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0.25rem;
+}
+
+.lecture-channel__weekdays span {
+  text-align: center;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #52606d;
+}
+
+.lecture-channel__day {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-size: 0.76rem;
+  color: inherit;
+  text-decoration: none;
+  background: #f8fafc;
+}
+
+.lecture-channel__day--blank {
+  visibility: hidden;
+}
+
+.lecture-channel__day--meeting {
+  border: 2px solid #174ea6;
+  font-weight: 700;
+}
+
+.lecture-channel__day--lecture {
+  background: #174ea6;
+  color: #fff;
+}
+
+.lecture-channel__day--meeting.lecture-channel__day--lecture {
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+a.lecture-channel__day:hover,
+a.lecture-channel__day:focus-visible {
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+.lecture-channel__notes-title {
+  margin: 0 0 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #52606d;
+}
+
 .lecture-channel__month {
   margin-bottom: 1.25rem;
   padding-bottom: 1rem;
