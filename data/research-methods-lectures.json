@@ -1,0 +1,14 @@
+{
+  "term": {
+    "name": "Fall 2026",
+    "months": [8, 9, 10, 11, 12],
+    "year": 2026
+  },
+  "lectures": [
+    {
+      "date": "2026-08-24",
+      "title": "Research fundamentals & proposal foundations",
+      "url": "2026-08-24.html"
+    }
+  ]
+}

@@ -7,49 +7,49 @@
   <link rel="stylesheet" href="../../styles.css">
 </head>
 <body>
-  <main class="page">
+  <main class="page page--with-channel">
     <nav class="breadcrumb"><a href="../../index.html">Home</a> / Research Methods</nav>
-    <header class="hero">
-      <p class="eyebrow">Class Page</p>
-      <h1>Research Methods</h1>
-      <p class="lede">This class landing page is ready for dated meeting pages as they are added for the term.</p>
-    </header>
 
-    <section class="card" aria-labelledby="upcoming-heading">
-      <p class="eyebrow">Action Items</p>
-      <h2 id="upcoming-heading">Upcoming for This Class</h2>
-      <div id="upcoming-deadlines" aria-live="polite">
-        <p class="deadline-empty">Loading deadlines…</p>
+    <div class="class-layout">
+      <aside class="lecture-channel" id="lecture-channel" aria-label="Lecture calendar by month">
+        <p class="deadline-empty">Loading lecture calendar…</p>
+      </aside>
+
+      <div class="class-content">
+        <header class="hero">
+          <p class="eyebrow">Class Page</p>
+          <h1>Research Methods</h1>
+          <p class="lede">Browse lectures by month in the left calendar, track deadlines below, and open dated meeting pages for notes and recordings.</p>
+        </header>
+
+        <section class="card" aria-labelledby="upcoming-heading">
+          <p class="eyebrow">Action Items</p>
+          <h2 id="upcoming-heading">Upcoming for This Class</h2>
+          <div id="upcoming-deadlines" aria-live="polite">
+            <p class="deadline-empty">Loading deadlines…</p>
+          </div>
+        </section>
+
+        <section class="card" aria-labelledby="assignments-heading">
+          <p class="eyebrow">Homework</p>
+          <h2 id="assignments-heading">Assignments</h2>
+          <div id="assignments-list" aria-live="polite">
+            <p class="deadline-empty">Loading assignments…</p>
+          </div>
+        </section>
+
+        <section class="card" aria-labelledby="books-heading">
+          <p class="eyebrow">Course Books</p>
+          <h2 id="books-heading">Shared Reading PDFs</h2>
+          <ul class="link-list">
+            <li><a href="../Books/Ranjit_Kumar_Research_Methodology_A_Step.pdf">Introduction To Research Methodology (Ranjit Kumar)</a></li>
+            <li><a href="../Books/Art_of_Discovery_Oliver2.pdf">The Incomplete Guide to the Art of Discovery</a></li>
+            <li><a href="../Books/engineering_research_methodology.pdf">Engineering Research Methodology</a></li>
+            <li><a href="../Books/Student-Guide-to-AI-final-081224.pdf">Student Guide to AI</a></li>
+          </ul>
+        </section>
       </div>
-    </section>
-
-    <section class="card" aria-labelledby="assignments-heading">
-      <p class="eyebrow">Homework</p>
-      <h2 id="assignments-heading">Assignments</h2>
-      <div id="assignments-list" aria-live="polite">
-        <p class="deadline-empty">Loading assignments…</p>
-      </div>
-    </section>
-
-    <section class="meeting-nav">
-      <h2>Meetings</h2>
-      <ul class="link-list">
-        <li><a href="2026-08-24.html">2026-08-24 &mdash; Research fundamentals &amp; proposal foundations</a></li>
-        <li><a href="w01/w01_lecture.html">Week 1 overview, reading list &amp; materials</a></li>
-        <li><a href="w01/how01.html">Understanding the Research Process Assignment</a></li>
-      </ul>
-    </section>
-
-    <section class="card" aria-labelledby="books-heading">
-      <p class="eyebrow">Course Books</p>
-      <h2 id="books-heading">Shared Reading PDFs</h2>
-      <ul class="link-list">
-        <li><a href="../Books/Ranjit_Kumar_Research_Methodology_A_Step.pdf">Introduction To Research Methodology (Ranjit Kumar)</a></li>
-        <li><a href="../Books/Art_of_Discovery_Oliver2.pdf">The Incomplete Guide to the Art of Discovery</a></li>
-        <li><a href="../Books/engineering_research_methodology.pdf">Engineering Research Methodology</a></li>
-        <li><a href="../Books/Student-Guide-to-AI-final-081224.pdf">Student Guide to AI</a></li>
-      </ul>
-    </section>
+    </div>
   </main>
   <script>
     window.TERM_CALENDAR_CONFIG = {
@@ -57,7 +57,12 @@
       linkPrefix: "../../",
       course: "research-methods"
     };
+    window.RESEARCH_METHODS_LECTURES_CONFIG = {
+      lecturesUrl: "../../data/research-methods-lectures.json",
+      linkPrefix: ""
+    };
   </script>
   <script src="../../scripts/term-calendar.js"></script>
+  <script src="../../scripts/research-methods-lecture-nav.js"></script>
 </body>
 </html>
