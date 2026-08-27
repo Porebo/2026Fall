@@ -27,6 +27,8 @@ Each course entry in `data/deadlines.json` also includes a `home` URL used for l
 
 The semester page shows all upcoming action items plus a Fall calendar. Each class home page shows filtered upcoming items and assignments for that course.
 
+Research Methods also uses `data/research-methods-lectures.json` to render the month-by-month lecture sidebar on its class home page.
+
 ## Courses
 
 | Course | Folder | Home page |
