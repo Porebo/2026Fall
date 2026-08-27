@@ -164,36 +164,6 @@
     return grid;
   }
 
-  function renderLectureList(monthLectures) {
-    if (!monthLectures.length) {
-      return null;
-    }
-
-    var listWrap = document.createElement("div");
-    listWrap.className = "lecture-channel__notes";
-
-    var listTitle = document.createElement("p");
-    listTitle.className = "lecture-channel__notes-title";
-    listTitle.textContent = "Posted lecture notes";
-    listWrap.appendChild(listTitle);
-
-    var list = document.createElement("ul");
-    list.className = "lecture-channel__list";
-
-    monthLectures.forEach(function (lecture) {
-      var item = document.createElement("li");
-      var link = document.createElement("a");
-      link.className = "lecture-channel__link";
-      link.href = resolveUrl(lecture.url);
-      link.textContent = lecture.date.slice(5).replace("-", "/") + " — " + lecture.title;
-      item.appendChild(link);
-      list.appendChild(item);
-    });
-
-    listWrap.appendChild(list);
-    return listWrap;
-  }
-
   function renderChannel(container, data) {
     if (!container) {
       return;
@@ -228,19 +198,6 @@
       monthSection.appendChild(monthHeading);
 
       monthSection.appendChild(renderMonthGrid(monthNumber, year, meetingDates, lectureMap));
-
-      var monthLectures = lectures
-        .filter(function (lecture) {
-          return lecture.date.slice(0, 7) === monthKey;
-        })
-        .sort(function (a, b) {
-          return a.date.localeCompare(b.date);
-        });
-
-      var notes = renderLectureList(monthLectures);
-      if (notes) {
-        monthSection.appendChild(notes);
-      }
 
       container.appendChild(monthSection);
     });
