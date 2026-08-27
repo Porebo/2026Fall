@@ -15,6 +15,22 @@
       <p class="lede">This landing page groups thesis development documents as they are added for the term.</p>
     </header>
 
+    <section class="card" aria-labelledby="upcoming-heading">
+      <p class="eyebrow">Action Items</p>
+      <h2 id="upcoming-heading">Upcoming for This Class</h2>
+      <div id="upcoming-deadlines" aria-live="polite">
+        <p class="deadline-empty">Loading deadlines…</p>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="assignments-heading">
+      <p class="eyebrow">Homework</p>
+      <h2 id="assignments-heading">Assignments</h2>
+      <div id="assignments-list" aria-live="polite">
+        <p class="deadline-empty">Loading assignments…</p>
+      </div>
+    </section>
+
     <section class="meeting-nav">
       <h2>Documents</h2>
       <ul class="link-list">
@@ -23,5 +39,13 @@
       </ul>
     </section>
   </main>
+  <script>
+    window.TERM_CALENDAR_CONFIG = {
+      deadlinesUrl: "../../data/deadlines.json",
+      linkPrefix: "../../",
+      course: "master-thesis"
+    };
+  </script>
+  <script src="../../scripts/term-calendar.js"></script>
 </body>
 </html>

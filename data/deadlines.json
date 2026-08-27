@@ -1,0 +1,81 @@
+{
+  "term": {
+    "name": "Fall 2026",
+    "start": "2026-08-01",
+    "end": "2026-12-31"
+  },
+  "courses": {
+    "principles-of-iq": "Principles of IQ",
+    "research-methods": "Research Methods",
+    "graduate-project": "Graduate Project",
+    "master-thesis": "Master Thesis"
+  },
+  "deadlines": [
+    {
+      "id": "rm-hw01",
+      "date": "2026-08-31",
+      "timeDisplay": "9:59 PM PDT",
+      "course": "research-methods",
+      "type": "homework",
+      "title": "Understanding the Research Process",
+      "url": "classes/research-methods/w01/how01.html"
+    },
+    {
+      "id": "iq-labor-day",
+      "date": "2026-09-07",
+      "course": "principles-of-iq",
+      "type": "event",
+      "title": "Labor Day — no classes",
+      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+    },
+    {
+      "id": "iq-midterm",
+      "date": "2026-10-08",
+      "course": "principles-of-iq",
+      "type": "exam",
+      "title": "Midterm exam",
+      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+    },
+    {
+      "id": "iq-drop-deadline",
+      "date": "2026-10-20",
+      "course": "principles-of-iq",
+      "type": "admin",
+      "title": "Last day to drop a class (W grade)",
+      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+    },
+    {
+      "id": "iq-workday-completion",
+      "date": "2026-10-20",
+      "course": "principles-of-iq",
+      "type": "admin",
+      "title": "Program completion request due in Workday",
+      "url": "classes/principles-of-iq/2026-08-25.html#admin-heading"
+    },
+    {
+      "id": "iq-fall-break",
+      "date": "2026-11-23",
+      "endDate": "2026-11-27",
+      "course": "principles-of-iq",
+      "type": "event",
+      "title": "Fall break — Thanksgiving week (no classes)",
+      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+    },
+    {
+      "id": "iq-final",
+      "date": "2026-12-10",
+      "course": "principles-of-iq",
+      "type": "exam",
+      "title": "Final exam",
+      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+    },
+    {
+      "id": "iq-commencement",
+      "date": "2026-12-19",
+      "course": "principles-of-iq",
+      "type": "event",
+      "title": "Commencement (optional)",
+      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+    }
+  ]
+}

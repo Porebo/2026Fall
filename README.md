@@ -10,6 +10,20 @@ Static website for the Fall 2026 college term.
 - `/classes/<course-slug>/assignments/` or week folders — homework pages
 - `/classes/<course-slug>/documents/` — syllabi and course PDFs
 - `/classes/Books/` — shared reading PDFs used across courses
+- `/data/deadlines.json` — single source of truth for homework, exams, admin dates, and events
+- `/scripts/term-calendar.js` — renders upcoming deadlines, assignments, and the term calendar
+
+## Deadlines
+
+Add or edit entries in `data/deadlines.json`. Each deadline supports:
+
+- `date` (required) and optional `endDate` for multi-day events
+- `timeDisplay` for human-readable due times
+- `course` slug matching a class folder name
+- `type`: `homework`, `exam`, `admin`, or `event`
+- `title` and optional `url` to the assignment or reference page
+
+The semester page shows all upcoming action items plus a Fall calendar. Each class home page shows filtered upcoming items and assignments for that course.
 
 ## Courses
 
