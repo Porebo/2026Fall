@@ -108,6 +108,34 @@ a {
   font-size: 0.95rem;
 }
 
+.class-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.class-nav__button {
+  display: inline-block;
+  padding: 0.55rem 1rem;
+  border: 1px solid #174ea6;
+  border-radius: 999px;
+  background: #fff;
+  color: #174ea6;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.class-nav__button:hover,
+.class-nav__button:focus-visible {
+  background: #174ea6;
+  color: #fff;
+  text-decoration: none;
+}
+
 .meeting-nav {
   margin-top: 1.5rem;
 }
