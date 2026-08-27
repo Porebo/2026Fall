@@ -7,43 +7,44 @@
   <link rel="stylesheet" href="../../styles.css">
 </head>
 <body>
-  <main class="page">
+  <main class="page page--with-channel">
     <nav class="breadcrumb"><a href="../../index.html">Home</a> / Principles of IQ</nav>
 
-    <section class="card" aria-labelledby="syllabus-heading">
-      <p class="eyebrow">Course Document</p>
-      <h2 id="syllabus-heading">Syllabus</h2>
-      <p><a href="documents/INFQ%207303%20Fall%202026%20Syllabus.pdf">Open INFQ 7303 Fall 2026 Syllabus (PDF)</a></p>
-    </section>
+    <div class="class-layout">
+      <aside class="lecture-channel" id="lecture-channel" aria-label="Lecture calendar by month">
+        <p class="deadline-empty">Loading lecture calendar…</p>
+      </aside>
 
-    <header class="hero">
-      <p class="eyebrow">Class Page</p>
-      <h1>Principles of IQ</h1>
-      <p class="lede">This class landing page groups meeting pages by date so the course archive stays easy to browse.</p>
-    </header>
+      <div class="class-content">
+        <section class="card" aria-labelledby="syllabus-heading">
+          <p class="eyebrow">Course Document</p>
+          <h2 id="syllabus-heading">Syllabus</h2>
+          <p><a href="documents/INFQ%207303%20Fall%202026%20Syllabus.pdf">Open INFQ 7303 Fall 2026 Syllabus (PDF)</a></p>
+        </section>
 
-    <section class="card" aria-labelledby="upcoming-heading">
-      <p class="eyebrow">Action Items</p>
-      <h2 id="upcoming-heading">Upcoming for This Class</h2>
-      <div id="upcoming-deadlines" aria-live="polite">
-        <p class="deadline-empty">Loading deadlines…</p>
+        <header class="hero">
+          <p class="eyebrow">Class Page</p>
+          <h1>Principles of IQ</h1>
+          <p class="lede">Browse lectures by month in the left calendar, track deadlines below, and open dated meeting pages for notes.</p>
+        </header>
+
+        <section class="card" aria-labelledby="upcoming-heading">
+          <p class="eyebrow">Action Items</p>
+          <h2 id="upcoming-heading">Upcoming for This Class</h2>
+          <div id="upcoming-deadlines" aria-live="polite">
+            <p class="deadline-empty">Loading deadlines…</p>
+          </div>
+        </section>
+
+        <section class="card" aria-labelledby="assignments-heading">
+          <p class="eyebrow">Homework</p>
+          <h2 id="assignments-heading">Assignments</h2>
+          <div id="assignments-list" aria-live="polite">
+            <p class="deadline-empty">Loading assignments…</p>
+          </div>
+        </section>
       </div>
-    </section>
-
-    <section class="card" aria-labelledby="assignments-heading">
-      <p class="eyebrow">Homework</p>
-      <h2 id="assignments-heading">Assignments</h2>
-      <div id="assignments-list" aria-live="polite">
-        <p class="deadline-empty">Loading assignments…</p>
-      </div>
-    </section>
-
-    <section class="meeting-nav">
-      <h2>Meetings</h2>
-      <ul class="link-list">
-        <li><a href="2026-08-25.html">2026-08-25 &mdash; Program overview &amp; course introduction</a></li>
-      </ul>
-    </section>
+    </div>
   </main>
   <script>
     window.TERM_CALENDAR_CONFIG = {
@@ -51,7 +52,12 @@
       linkPrefix: "../../",
       course: "principles-of-iq"
     };
+    window.LECTURE_CHANNEL_CONFIG = {
+      lecturesUrl: "../../data/principles-of-iq-lectures.json",
+      linkPrefix: ""
+    };
   </script>
   <script src="../../scripts/term-calendar.js"></script>
+  <script src="../../scripts/lecture-channel.js"></script>
 </body>
 </html>
