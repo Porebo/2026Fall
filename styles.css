@@ -108,6 +108,19 @@ a {
   line-height: 1.35;
 }
 
+.syllabus-document h2 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+.syllabus-section {
+  margin-top: 1.5rem;
+}
+
+.syllabus-section ul {
+  padding-left: 1.25rem;
+}
+
 @media (min-width: 900px) {
   .class-layout {
     grid-template-columns: 240px minmax(0, 1fr);
