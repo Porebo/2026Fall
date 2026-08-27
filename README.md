@@ -29,6 +29,8 @@ The semester page shows all upcoming action items plus a Fall calendar. Each cla
 
 Research Methods also uses `data/research-methods-lectures.json` to render the month-by-month lecture sidebar on its class home page.
 
+Principles of IQ uses `data/principles-of-iq-lectures.json` with the same shared `scripts/lecture-channel.js` calendar component.
+
 ## Courses
 
 | Course | Folder | Home page |

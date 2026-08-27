@@ -1,7 +1,8 @@
 (function () {
-  var config = window.RESEARCH_METHODS_LECTURES_CONFIG || {};
+  var config = window.LECTURE_CHANNEL_CONFIG || window.RESEARCH_METHODS_LECTURES_CONFIG || {};
   var lecturesUrl = config.lecturesUrl || "data/research-methods-lectures.json";
   var linkPrefix = config.linkPrefix || "";
+  var channelId = config.channelId || "lecture-channel";
 
   var MONTH_NAMES = [
     "January", "February", "March", "April", "May", "June",
@@ -28,6 +29,38 @@
     return linkPrefix + url;
   }
 
+  function isExcluded(dateKey, schedule) {
+    var excludedDates = schedule.excludedDates || [];
+
+    if (excludedDates.indexOf(dateKey) !== -1) {
+      return true;
+    }
+
+    var current = parseDate(dateKey);
+    var ranges = schedule.excludedRanges || [];
+
+    for (var i = 0; i < ranges.length; i += 1) {
+      var range = ranges[i];
+      if (current >= parseDate(range.start) && current <= parseDate(range.end)) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  function getMeetingDays(schedule) {
+    if (schedule.daysOfWeek && schedule.daysOfWeek.length) {
+      return schedule.daysOfWeek;
+    }
+
+    if (typeof schedule.dayOfWeek === "number") {
+      return [schedule.dayOfWeek];
+    }
+
+    return [1];
+  }
+
   function buildMeetingDates(schedule) {
     if (!schedule || !schedule.startDate || !schedule.endDate) {
       return {};
@@ -36,15 +69,16 @@
     var map = {};
     var current = parseDate(schedule.startDate);
     var end = parseDate(schedule.endDate);
-    var targetDay = typeof schedule.dayOfWeek === "number" ? schedule.dayOfWeek : 1;
-
-    while (current.getDay() !== targetDay) {
-      current.setDate(current.getDate() + 1);
-    }
+    var meetingDays = getMeetingDays(schedule);
 
     while (current <= end) {
-      map[formatDate(current)] = true;
-      current.setDate(current.getDate() + 7);
+      var dateKey = formatDate(current);
+
+      if (meetingDays.indexOf(current.getDay()) !== -1 && !isExcluded(dateKey, schedule)) {
+        map[dateKey] = true;
+      }
+
+      current.setDate(current.getDate() + 1);
     }
 
     return map;
@@ -70,18 +104,29 @@
 
     var title = document.createElement("p");
     title.className = "lecture-channel__schedule-title";
-    title.textContent = "Weekly class meeting";
+    title.textContent = schedule.headerTitle || "Weekly class meeting";
     block.appendChild(title);
 
-    var central = document.createElement("p");
-    central.className = "lecture-channel__schedule-time";
-    central.textContent = schedule.displayCentral + " · " + schedule.location;
-    block.appendChild(central);
+    if (schedule.displayCentral) {
+      var central = document.createElement("p");
+      central.className = "lecture-channel__schedule-time";
+      central.textContent = schedule.displayCentral + (schedule.location ? " · " + schedule.location : "");
+      block.appendChild(central);
+    }
 
-    var pacific = document.createElement("p");
-    pacific.className = "lecture-channel__schedule-time lecture-channel__schedule-time--local";
-    pacific.textContent = schedule.displayPacific;
-    block.appendChild(pacific);
+    if (schedule.displayPacific) {
+      var pacific = document.createElement("p");
+      pacific.className = "lecture-channel__schedule-time lecture-channel__schedule-time--local";
+      pacific.textContent = schedule.displayPacific;
+      block.appendChild(pacific);
+    }
+
+    if (schedule.scheduleNote) {
+      var note = document.createElement("p");
+      note.className = "lecture-channel__schedule-note";
+      note.textContent = schedule.scheduleNote;
+      block.appendChild(note);
+    }
 
     var legend = document.createElement("ul");
     legend.className = "lecture-channel__legend";
@@ -211,10 +256,10 @@
       return response.json();
     })
     .then(function (data) {
-      renderChannel(document.getElementById("lecture-channel"), data);
+      renderChannel(document.getElementById(channelId), data);
     })
     .catch(function (error) {
-      var container = document.getElementById("lecture-channel");
+      var container = document.getElementById(channelId);
       if (container) {
         container.innerHTML = "<p class=\"deadline-empty\">" + error.message + "</p>";
       }

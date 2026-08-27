@@ -74,6 +74,12 @@ a {
   color: #174ea6;
 }
 
+.lecture-channel__schedule-note {
+  margin: 0.45rem 0 0;
+  font-size: 0.82rem;
+  color: #52606d;
+}
+
 .lecture-channel__legend {
   display: flex;
   flex-direction: column;

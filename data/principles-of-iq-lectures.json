@@ -1,0 +1,28 @@
+{
+  "term": {
+    "name": "Fall 2026",
+    "months": [8, 9, 10, 11, 12],
+    "year": 2026
+  },
+  "meetingSchedule": {
+    "daysOfWeek": [2, 4],
+    "startDate": "2026-08-25",
+    "endDate": "2026-12-09",
+    "excludedDates": ["2026-09-07"],
+    "excludedRanges": [
+      { "start": "2026-11-23", "end": "2026-11-27" }
+    ],
+    "location": "Little Rock, AR",
+    "headerTitle": "Class meetings (Tuesdays & Thursdays)",
+    "displayCentral": "Class starts 1:40 PM CT",
+    "displayPacific": "11:40 AM PT (California)",
+    "scheduleNote": "Section 9U1: online. Section 01: in person Tuesdays, online Thursdays."
+  },
+  "lectures": [
+    {
+      "date": "2026-08-25",
+      "title": "Program overview & course introduction",
+      "url": "2026-08-25.html"
+    }
+  ]
+}
