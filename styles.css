@@ -13,11 +13,31 @@ a {
 .page {
   max-width: 960px;
   margin: 0 auto;
-  padding: 2rem 1.5rem 3rem;
+  padding: 1.25rem 1.5rem 3rem;
 }
 
 .page--with-channel {
   max-width: 1200px;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  margin: -1.25rem -1.5rem 1.25rem;
+  padding: 0.85rem 1.5rem 0.75rem;
+  background: rgba(245, 247, 250, 0.96);
+  border-bottom: 1px solid #d9e2ec;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+  backdrop-filter: blur(8px);
+}
+
+.site-header .breadcrumb {
+  margin-bottom: 0.65rem;
+}
+
+.site-header .class-nav {
+  margin-bottom: 0;
 }
 
 .class-layout {
@@ -35,7 +55,7 @@ a {
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
   padding: 1rem;
-  max-height: calc(100vh - 4rem);
+  max-height: calc(100vh - var(--site-header-offset, 6rem) - 1.5rem);
   overflow-y: auto;
 }
 
@@ -204,7 +224,7 @@ a.lecture-channel__day:focus-visible {
 
   .lecture-channel {
     position: sticky;
-    top: 1.5rem;
+    top: calc(var(--site-header-offset, 6rem) + 0.75rem);
   }
 }
 
@@ -326,6 +346,11 @@ a.lecture-channel__day:focus-visible {
   background: #174ea6;
   color: #fff;
   text-decoration: none;
+}
+
+.class-nav__button--active {
+  background: #174ea6;
+  color: #fff;
 }
 
 .meeting-nav {
