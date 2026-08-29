@@ -1,0 +1,16 @@
+{
+  "name": "2026Fall",
+  "ports": [
+    {
+      "name": "static-site",
+      "port": 8000
+    }
+  ],
+  "terminals": [
+    {
+      "name": "static-server",
+      "command": "python3 -m http.server 8000 --directory /workspace",
+      "description": "Serves the static Fall 2026 course site over HTTP at http://localhost:8000. Required because pages load data/*.json via fetch(), which does not work over file://."
+    }
+  ]
+}
