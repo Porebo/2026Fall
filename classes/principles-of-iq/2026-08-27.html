@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principles of IQ - 2026-08-27</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb">
+      <a href="../../index.html">Home</a> /
+      <a href="./home-principles-of-iq.html">Principles of IQ</a> /
+      2026-08-27
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Class Meeting &mdash; August 27, 2026</p>
+      <h1 class="meeting-title">Information Quality Principles &amp; Domains</h1>
+      <p class="lede">
+        First content session of INFQ 70303-01 Principles of Information Quality with John Talburt.
+        Seven underlying principles of the IQ discipline, history of the field, data quality vs. information quality,
+        and the Wang &amp; Strong data quality dimensions framework.
+      </p>
+    </header>
+
+    <section class="card" aria-labelledby="recording-heading">
+      <p class="eyebrow">Recording</p>
+      <h2 id="recording-heading">Lecture Video</h2>
+      <p>Zoom recording for the August 27, 2026 session (requires UALR Zoom login):</p>
+      <p><a href="https://ualr-edu.zoom.us/rec/play/55YDz_WPYbvOGPNpegI6mjhH6iegkLAlnJfMS_0GT3-46DoXRSo4OL1tmW0j_cIsqZhklxN67mg-bROp.QTmay5vQ3LePuexY?accessLevel=meeting&amp;canPlayFromShare=true&amp;from=share_recording_detail&amp;startTime=1787856018000&amp;oldStyle=true&amp;pwd=DHsiluBd5iLmryBl-wAAIAAAABdTpOuWRGCchIx0DdZB_F531C1U8vRAT125es-NlGlDj2dT8cPdEQ2H1HfFDCRFJTAwMDAwNA&amp;componentName=rec-play&amp;originRequestUrl=https%3A%2F%2Fualr-edu.zoom.us%2Frec%2Fshare%2FjaZXCq4_9DECNVenNVrP4_2XoC0A0TtYUDRFz-4PSaMTm2t2TX5L22397b-iWIbI.ABbFHjrfaUrzdeMg%3FstartTime%3D1787856018000%26pwd%3DDHsiluBd5iLmryBl-wAAIAAAABdTpOuWRGCchIx0DdZB_F531C1U8vRAT125es-NlGlDj2dT8cPdEQ2H1HfFDCRFJTAwMDAwNA" target="_blank" rel="noopener noreferrer">Watch lecture recording on Zoom</a></p>
+    </section>
+
+    <section class="card" aria-labelledby="iq-definition-heading">
+      <p class="eyebrow">Core Concept</p>
+      <h2 id="iq-definition-heading">What Is Information Quality?</h2>
+      <p>Common street-level answers focus on <strong>accuracy</strong>, but IQ is broader. Other frequently cited attributes include completeness, timeliness, and freedom from defects.</p>
+      <ul>
+        <li><strong>Fitness for use / fitness for purpose</strong> &mdash; from Joseph Juran (TQM). Originally referred to the finished product, not raw source data.</li>
+        <li><strong>Program definition</strong> (two parts): maximize value and minimize risk of an organization&rsquo;s information assets.</li>
+        <li><strong>Internal view:</strong> how data creates value for the organization that holds it.</li>
+        <li><strong>External view:</strong> whether information products and services create value for consumers (people or systems).</li>
+        <li><strong>Danette McGilvra</strong> emphasizes <em>trusted data</em> in her 10-step method; value and trust are closely related perspectives.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="value-propositions-heading">
+      <p class="eyebrow">Framework</p>
+      <h2 id="value-propositions-heading">Three Value Propositions</h2>
+      <p>Value = benefits outweighing investment. Value is not only monetary:</p>
+      <ol>
+        <li><strong>Monetary</strong> &mdash; profit, revenue, cost reduction (typical business view).</li>
+        <li><strong>Quality of life</strong> &mdash; hospitals, physicians, medicines; improving human well-being.</li>
+        <li><strong>Mission accomplishment</strong> &mdash; nonprofits, government, military; achieving organizational missions regardless of dollar metrics.</li>
+      </ol>
+      <p><strong>Don&rsquo;t confuse results with value.</strong> Technical results (precision 88% &rarr; 92%, recall 70% &rarr; 80%) are not the same as business value. Complete the value chain: results &rarr; intermediate outcomes &rarr; measurable value (e.g., customer retention &rarr; projected $20M revenue over 5 years).</p>
+    </section>
+
+    <section class="card" aria-labelledby="history-heading">
+      <p class="eyebrow">History</p>
+      <h2 id="history-heading">Evolution of Information Quality</h2>
+      <p>IQ emerged primarily from industry consultants, not academia. Jan Lee (<em>Journey to Data Quality</em>) traces roots even further (e.g., the Rosetta Stone), but the modern field begins with data warehousing in the 1980s.</p>
+      <ol>
+        <li><strong>Data cleansing phase</strong> &mdash; 1980s data warehousing exposed inconsistent representation (e.g., &ldquo;AR&rdquo; vs. &ldquo;ARK&rdquo; for Arkansas). Larry English and Information Impact International led early warehouse cleanup work.</li>
+        <li><strong>Prevention phase</strong> &mdash; root cause analysis: fix inconsistent sources, not just warehouse symptoms. Parallels Deming, Juran, and Shewhart&rsquo;s continual improvement.</li>
+        <li><strong>Product management phase</strong> &mdash; MIT (Richard Wang): manage information as a product, not just clean source files. GIGO misapplied: clean inputs do not guarantee a good product (El Camino example: great parts, wrong car).</li>
+        <li><strong>Enterprise architecture phase</strong> &mdash; information architecture matters. Enterprise architecture: business &rarr; information &rarr; solution &rarr; technical. Information as enterprise asset brings governance, CDO role, MDM, and analytics.</li>
+        <li><strong>Interoperability phase</strong> &mdash; sharing data across enterprises (healthcare ecosystems, supply chains). Emerging topics: ISO standards, streaming data, unstructured data, IoT, AI/LLMs, agentic data quality, data literacy, democratization, monetization.</li>
+      </ol>
+      <p><strong>Key figures mentioned:</strong> Larry English, Tom Redman (&ldquo;the Data Doc&rdquo;), Richard Wang (MIT), Danette McGilvra, Doug Laney.</p>
+    </section>
+
+    <section class="card" aria-labelledby="principles-heading">
+      <p class="eyebrow">Framework</p>
+      <h2 id="principles-heading">Seven Principles of Information Quality</h2>
+
+      <h3>1. Data is a resource for creating value</h3>
+      <ul>
+        <li>Data collected, processed, and formatted for a particular use becomes an <strong>information product or service</strong>.</li>
+        <li>When value is created, data and information become <strong>organizational assets</strong>.</li>
+        <li>IQ should not be framed as merely &ldquo;cleaning dirty data&rdquo; &mdash; start from what customers need, then work backward to required data conditions.</li>
+      </ul>
+
+      <h3>2. Information is an organizational asset requiring governance</h3>
+      <ul>
+        <li><strong>Data governance</strong> &ne; data management. Governance = rules for making decisions; management = the decisions themselves.</li>
+        <li>Serves both value maximization and risk minimization (regulation, liability, data protection).</li>
+        <li>Federal agencies now required to have a <strong>Chief Data Officer (CDO)</strong>. CDO oversees strategy for information products, sourcing, management, and governance.</li>
+      </ul>
+
+      <h3>3. Information produces value when used</h3>
+      <ul>
+        <li>Unused data has <strong>potential</strong> value (like potential energy); value is <strong>produced</strong> only when information is used for a purpose.</li>
+        <li>Information product quality is measured in value units, not just conformance metrics.</li>
+      </ul>
+
+      <h3>4. Information should be managed as a product</h3>
+      <ul>
+        <li>The product of an information system &mdash; not a byproduct. CIOs focus on systems/software/hardware uptime; CDOs focus on data strategy.</li>
+        <li>CDO and CIO should be <strong>peer roles</strong>, not CDO under CIO.</li>
+        <li>Four principles of successful product management (from TQM):
+          <ol>
+            <li>Understand information customer needs and wants.</li>
+            <li>Manage information through well-defined, well-documented production processes.</li>
+            <li>Understand product life cycle (initiation &rarr; growth &rarr; maturity &rarr; retirement).</li>
+            <li>Appoint <strong>information product managers</strong> as liaisons between consumers and producers.</li>
+          </ol>
+        </li>
+      </ul>
+
+      <h3>5. Data quality and information quality are related but distinct</h3>
+      <ul>
+        <li><strong>Information quality:</strong> outward focus; measured in value (money, treatment outcomes, mission achievement); covers governance, improvement loops, and the full ecosystem.</li>
+        <li><strong>Data quality:</strong> inward focus; measured as degree to which data meets requirements (ISO: quality = meeting requirements); expressed in percentages, counts, ratios.</li>
+        <li>Tom Redman: <em>Is the data right?</em> vs. <em>Do you have the right data?</em> Engineering analogy: building the thing right vs. building the right thing.</li>
+        <li><strong>Information quality gap:</strong> internal data quality work can produce &ldquo;gold-plated&rdquo; products nobody wants without user feedback via product managers.</li>
+      </ul>
+
+      <h3>6. Information quality is contextual</h3>
+      <ul>
+        <li>Same data can have different information quality for different products and purposes.</li>
+        <li>Data quality is fixed for a given dataset and requirement set until data or requirements change.</li>
+        <li><strong>Example:</strong> a name/address file with poor name quality and missing phone numbers works well for a <strong>direct-mail pizza coupon</strong> (needs mailable addresses) but poorly for an <strong>online name lookup</strong> (needs accurate names and phones).</li>
+      </ul>
+
+      <h3>7. Data has measurable quality dimensions</h3>
+      <p>Many competing dimension frameworks exist (consultants differentiated themselves). The course primarily uses the <strong>Wang &amp; Strong framework</strong> (MIT, research-backed): 16 dimensions in four categories:</p>
+      <ul>
+        <li><strong>Intrinsic:</strong> accuracy, believability, objectivity, reputation</li>
+        <li><strong>Contextual:</strong> value-added, relevance, timeliness, completeness, appropriate amount</li>
+        <li><strong>Representational:</strong> interpretability, understandability, consistency, concise representation, manipulability</li>
+        <li><strong>Accessibility:</strong> accessibility and security (often in tension)</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="redman-heading">
+      <p class="eyebrow">Key Quotes</p>
+      <h2 id="redman-heading">Redman &amp; GIGO</h2>
+      <ul>
+        <li><strong>GIGO</strong> (garbage in, garbage out) &mdash; clean inputs do not logically guarantee good outputs.</li>
+        <li><strong>Tom Redman:</strong> ask both &ldquo;Is the data right?&rdquo; and &ldquo;Is it the right data?&rdquo;</li>
+        <li><strong>George Box (paraphrased):</strong> all models are wrong, but some are useful &mdash; schemas cannot anticipate every future change.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="domains-heading">
+      <p class="eyebrow">Professional Practice</p>
+      <h2 id="domains-heading">IQCP Domains &amp; Career Paths</h2>
+      <p>International Association for Information and Data Quality (job analysis for <strong>Certified Information Quality Professional</strong>):</p>
+      <ol>
+        <li>Information quality value and business impact</li>
+        <li>Information quality strategy and governance</li>
+        <li>Information quality environment and culture</li>
+        <li>Information quality measurement and improvement (sustaining IQ)</li>
+        <li>Information architecture quality</li>
+        <li>Data quality</li>
+      </ol>
+      <p><strong>Graduate career paths:</strong> data quality analysts, data governance stewards/directors, solution developers, data developers, chief data officers, data analysts, risk data analysts.</p>
+    </section>
+
+    <section class="card" aria-labelledby="ai-heading">
+      <p class="eyebrow">Emerging Topics</p>
+      <h2 id="ai-heading">AI &amp; Future Directions</h2>
+      <ul>
+        <li>LLMs are massive conditional-probability repositories &mdash; data quality matters for training data.</li>
+        <li><strong>Virtuous cycle:</strong> good data builds good models; good models can help improve data (agentic data quality &mdash; covered later in the course).</li>
+        <li>Next frontier beyond single-enterprise IQ: <strong>interoperability</strong>, shared standards, data portability.</li>
+        <li>Other emerging areas: streaming/real-time DQ, unstructured data, semantic computing, IoT, automated DQ assessment/cleansing (Data Washing Machine research), automated governance.</li>
+      </ul>
+    </section>
+
+    <section class="meeting-nav" aria-labelledby="action-items-heading">
+      <h2 id="action-items-heading">Action Items</h2>
+      <ol>
+        <li>Review the seven principles and be able to explain each in your own words</li>
+        <li>Understand the difference between data quality and information quality (internal vs. external focus)</li>
+        <li>Study the Wang &amp; Strong 16 dimensions and their four categories</li>
+        <li>Practice tracing a technical result to a business value (complete the value chain)</li>
+        <li>Continue reading <em>Journey to Data Quality</em> (Blackboard Resources)</li>
+        <li>Submit homework through Blackboard by 1:40 PM CT on due dates</li>
+      </ol>
+      <p>Previous session: <a href="2026-08-25.html">August 25 &mdash; Program Overview &amp; Course Introduction</a></p>
+    </section>
+  </main>
+  <script src="../../scripts/site-nav.js"></script>
+</body>
+</html>
