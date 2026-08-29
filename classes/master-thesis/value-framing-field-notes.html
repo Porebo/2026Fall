@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Value Framing Field Notes</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <style>
+    .content-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+      padding: 2rem;
+      margin-top: 1.5rem;
+    }
+
+    .callout {
+      background: #eef5ff;
+      border-left: 4px solid #174ea6;
+      padding: 1rem 1.25rem;
+      margin: 1.25rem 0;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .callout--warning {
+      background: #fff8ee;
+      border-left-color: #c45c00;
+    }
+
+    pre.chain {
+      background: #f1f5f9;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      overflow-x: auto;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    h2 { margin-top: 2rem; }
+    h3 { margin-top: 1.25rem; }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb">
+      <a href="../../index.html">Home</a> /
+      <a href="home-master-thesis.html">Master Thesis</a> /
+      Value Framing Field Notes
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Field Notes &mdash; Anonymized</p>
+      <h1>From Janitorial Metrics to Value Framing</h1>
+      <p class="lede">
+        Professional observations on how upstream data &amp; analytics teams report work to management,
+        grounded in John Talburt&rsquo;s Principles of Information Quality (INFQ 70303, Fall 2026).
+        All employer, person, and system identifiers are generalized.
+      </p>
+    </header>
+
+    <section class="content-card">
+      <div class="callout">
+        <strong>Disclaimer:</strong> Examples are drawn from real work situations but anonymized for this academic site.
+        No employer name, employee names, or confidential identifiers appear here. Patterns are described as industry observations, not criticism of individuals.
+      </div>
+
+      <h2>Why This Matters for Thesis Work</h2>
+      <p>
+        Technical research gaps in upstream data quality (streaming DQ, AI-ready data, emissions integration) are well documented in
+        <a href="research-gaps.html">Research Gaps in Data Quality for Upstream Oil Businesses</a>.
+        A complementary gap is <strong>organizational</strong>: data quality functions often deliver real value but report it as
+        janitorial activity. When leadership cannot see impact, competent teams lose funding &mdash; even while defects remain.
+      </p>
+      <p>
+        <strong>Potential thesis angle:</strong> How upstream operators can institutionalize value-based reporting for data quality
+        and analytics work, especially during platform migrations, acquisitions, and audit cycles.
+      </p>
+      <p>Course application (shorter study guide): <a href="../principles-of-iq/applied/value-vs-janitorial-reporting.html">Principles of IQ &mdash; Applied concepts</a></p>
+    </section>
+
+    <section class="content-card">
+      <h2>Talburt&rsquo;s Frame (Summary)</h2>
+      <p>From the Aug 25&ndash;27, 2026 Principles of IQ sessions with John Talburt:</p>
+      <ul>
+        <li>IQ maximizes <strong>value</strong> and minimizes <strong>risk</strong> of information assets.</li>
+        <li>Data quality asks: <em>Is the data right?</em> Information quality asks: <em>Are we building the right thing?</em> (Tom Redman)</li>
+        <li>Field history: cleansing (1980s warehousing) &rarr; prevention &rarr; product management &rarr; enterprise governance &rarr; interoperability.</li>
+        <li><strong>Results</strong> (%, counts, speed) &ne; <strong>value</strong> (revenue, risk, mission, quality of life).</li>
+      </ul>
+      <pre class="chain">CUSTOMER     Who needs the information?
+BLOCKED      What decision, audit, or process was at risk?
+DELIVERED    What we did (brief — load, bot, rules, conversion)
+ENABLED      What became possible — headline for management
+METRIC       87%, 14,700 wells — footnote only</pre>
+    </section>
+
+    <section class="content-card">
+      <h2>Pattern: Why DQ Teams Get Cut</h2>
+      <p>
+        In a prior role, a data quality department was dismissed after a decade centered on janitorial cleansing.
+        Business intelligence tools had surfaced defects; the team responded with profiling, rules, and remediation.
+        Leadership eventually saw cost without a clear impact story and eliminated the function.
+      </p>
+      <div class="callout callout--warning">
+        <strong>Lesson:</strong> Activity metrics protect team pride. Impact metrics protect team budgets.
+        Cleaning is necessary work; it must not be the story told to executives.
+      </div>
+    </section>
+
+    <section class="content-card">
+      <h2>Case 1: Management Round Table (Activity Deck)</h2>
+      <p>
+        A monthly &ldquo;workflow round table&rdquo; deck for a data &amp; analytics group illustrated the framing problem.
+        Accomplishments were listed as tasks: loaded data to a subsurface platform, fixed connection issues, added DQ rules,
+        batch-loaded completion records, updated column identifiers. A scorecard celebrated <strong>LOADED</strong> vs.
+        <strong>data not received</strong> for new drills.
+      </p>
+      <p><strong>What management heard:</strong> the team was busy moving files.</p>
+      <p><strong>What was missing:</strong> customers (geology, engineering, compliance), decisions at risk, and outcomes enabled.</p>
+      <p>
+        Ironically, the work-request process asked submitters <em>&ldquo;What are you trying to accomplish?&rdquo;</em> but the team
+        did not apply the same standard to its own reporting.
+      </p>
+      <h3>One stronger slide in the deck</h3>
+      <p>
+        A Call Out Sheet QC application came closest to value framing: validate well-header fields on Excel instructions
+        sent to field contractors <strong>before</strong> bad data reaches downstream systems. It still led with
+        &ldquo;improving data quality&rdquo; and emphasized tooling (validation tests, scripting stack) rather than
+        the risk of wrong field mobilization.
+      </p>
+    </section>
+
+    <section class="content-card">
+      <h2>Case 2: Wellbore Path Automation (Acquisition)</h2>
+      <h3>Situation</h3>
+      <p>
+        Multiple teams use wellbore path data for reservoir characterization supporting historical production analysis,
+        current operations, and future development planning. After a recent acquisition, a large share of acquired wellbores
+        lacked complete path data.
+      </p>
+      <h3>Stakeholders</h3>
+      <ul>
+        <li>Regulatory compliance (subset of ~1,200 wells under audit/reporting focus)</li>
+        <li>Geologists (could not find path information when needed)</li>
+      </ul>
+      <h3>Delivery</h3>
+      <ul>
+        <li>~12,800 of 14,700 wells corrected (~87%)</li>
+        <li>Manual estimate: two analysts &times; ~3 months</li>
+        <li>Automated bot: ~2 weeks</li>
+        <li>Remaining ~13% still in progress; highest-impact workflows already covered</li>
+      </ul>
+      <h3>Value framing (correct)</h3>
+      <p>
+        Unblocked reservoir characterization and compliance reporting during asset integration; avoided a multi-month delay
+        in subsurface and regulatory workflows. The bot and the 87% are evidence, not the headline.
+      </p>
+    </section>
+
+    <section class="content-card">
+      <h2>Case 3: Inbox Opportunities Not Reported Upward</h2>
+      <p>Real customer pain often appears in email threads that never reach management slides.</p>
+
+      <h3>Annual audit well counts</h3>
+      <p>
+        An internal audit group reported that ~148 wells were not appearing in a well&ndash;completion association table,
+        blocking a query used to validate well counts for the <strong>annual audit</strong>.
+      </p>
+      <ul>
+        <li><strong>Janitorial report:</strong> &ldquo;Fixed 148 missing wells.&rdquo;</li>
+        <li><strong>Value report:</strong> Restored audit-ready well inventory for annual validation; reduced risk of incomplete or incorrect official counts.</li>
+      </ul>
+
+      <h3>GIS spatial integrity</h3>
+      <p>
+        Operations reported wells missing from GIS and wells plotted in the wrong state on spatial views (e.g., assets
+        associated with one region appearing near another). Three wells never reached GIS; two had incorrect coordinates.
+      </p>
+      <ul>
+        <li><strong>Janitorial report:</strong> &ldquo;Updated coordinates in master system.&rdquo;</li>
+        <li><strong>Value report:</strong> Restored map integrity for operational and planning workflows; prevented decisions based on geographically wrong well locations.</li>
+      </ul>
+
+      <h3>BI conversion request without context</h3>
+      <p>
+        A reservoir engineer requested conversion of a &ldquo;constraint oil and gross&rdquo; surveillance view from a legacy
+        BI tool to the corporate standard. The email named only the workbook &mdash; no deadline, no workflow, no impact.
+      </p>
+      <p>
+        With enterprise context (<strong>legacy BI platform ends December 31, 2026</strong>), the same request becomes:
+        <strong>business continuity for diatomite reservoir surveillance before platform shutdown</strong> &mdash; not
+        &ldquo;another dashboard conversion.&rdquo;
+      </p>
+      <p>
+        <strong>Team practice:</strong> When intake lacks context, ask three questions (workflow, deadline, pain if delayed)
+        and record answers for round-table reporting.
+      </p>
+    </section>
+
+    <section class="content-card">
+      <h2>Reporting Standards (Proposed)</h2>
+      <h3>Every management bullet uses four fields</h3>
+      <ol>
+        <li>Customer / team</li>
+        <li>What was blocked</li>
+        <li>What we delivered (short)</li>
+        <li>What was enabled (headline)</li>
+      </ol>
+      <h3>Ban as headlines (sub-bullets only)</h3>
+      <ul>
+        <li>&ldquo;Improved data quality&rdquo;</li>
+        <li>&ldquo;Fixed errors&rdquo; / &ldquo;loaded X to Y&rdquo;</li>
+        <li>&ldquo;Added DQ rules&rdquo; without stating what they protect</li>
+        <li>% complete without business context</li>
+      </ul>
+      <h3>Tableau exit program (through Dec 31, 2026)</h3>
+      <p>Report conversions as a portfolio:</p>
+      <ul>
+        <li>Critical views migrated / in progress / not started</li>
+        <li>Business owner and workflow per view</li>
+        <li>Days to platform blackout</li>
+      </ul>
+      <p>Open one management slide each month with <strong>customer impact from the inbox</strong>, not only closed task logs.</p>
+    </section>
+
+    <section class="content-card">
+      <h2>Research Questions (Draft)</h2>
+      <ol>
+        <li>What reporting frameworks help upstream DQ/analytics teams translate defect remediation into value and risk language executives fund?</li>
+        <li>How should intake processes capture business impact when requesters only describe tools?</li>
+        <li>During enterprise BI decommissioning, how should criticality ranking link technical migration to operational continuity?</li>
+        <li>Does agentic/automated DQ change the value story (speed, scale) or only amplify janitorial metrics if framing stays the same?</li>
+      </ol>
+    </section>
+
+    <section class="content-card">
+      <h2>Sources &amp; Links</h2>
+      <ul class="link-list">
+        <li><a href="../principles-of-iq/2026-08-25.html">Principles of IQ &mdash; Aug 25, 2026 notes</a></li>
+        <li><a href="../principles-of-iq/2026-08-27.html">Principles of IQ &mdash; Aug 27, 2026 notes</a></li>
+        <li><a href="../principles-of-iq/applied/value-vs-janitorial-reporting.html">Principles of IQ &mdash; Applied study guide</a></li>
+        <li><a href="research-gaps.html">Thesis &mdash; Research gaps (technical)</a></li>
+      </ul>
+    </section>
+  </main>
+  <script src="../../scripts/site-nav.js"></script>
+</body>
+</html>
