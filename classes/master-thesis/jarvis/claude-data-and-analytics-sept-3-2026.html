@@ -71,13 +71,27 @@
       margin-top: 1.25rem;
     }
 
-    .meta span {
+    .meta a {
       font-size: 0.85rem;
       background: var(--surface);
       border: 1px solid var(--border);
       padding: 0.35rem 0.75rem;
       border-radius: 999px;
       color: var(--muted);
+      text-decoration: none;
+      transition: border-color 0.15s, color 0.15s, background 0.15s;
+    }
+
+    .meta a:hover,
+    .meta a:focus-visible {
+      color: var(--accent);
+      border-color: rgba(61, 139, 253, 0.45);
+      background: var(--accent-soft);
+      outline: none;
+    }
+
+    section[id] {
+      scroll-margin-top: 1rem;
     }
 
     section {
@@ -314,12 +328,17 @@
         September 3, 2026 — Staff briefing on value framing, project choices, meeting cadence,
         and what Jarvis success really means. Self-contained meeting page for screen share and SharePoint.
       </p>
-      <div class="meta">
-        <span>30 minutes · 1:15 PM</span>
-        <span>Staff decides projects &amp; cadence</span>
-        <span>Value beyond app count</span>
-        <span>Anonymized examples</span>
-      </div>
+      <nav class="meta" aria-label="Jump to section">
+        <a href="#purpose">Meeting purpose</a>
+        <a href="#agenda">Agenda · 1:15 PM</a>
+        <a href="#four-questions">Four questions</a>
+        <a href="#delivery-modes">Apps &amp; value</a>
+        <a href="#examples">Five examples</a>
+        <a href="#leadership-wins">Staff decisions</a>
+        <a href="#round-robin">Round-robin</a>
+        <a href="#staff-message">Staff message</a>
+        <a href="#close">Closing</a>
+      </nav>
     </header>
 
     <section id="purpose">
