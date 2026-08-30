@@ -294,7 +294,7 @@
       <div class="meta">
         <span>75 minutes</span>
         <span>Staff decides projects &amp; cadence</span>
-        <span>Value &gt; apps</span>
+        <span>Value beyond app count</span>
         <span>Anonymized examples</span>
       </div>
     </header>
@@ -304,13 +304,14 @@
       <p class="callout">
         <strong>Opening line:</strong> Jarvis leadership gave <em>us</em> choices — how often we meet,
         whether we keep our old AI project ideas or propose new ones, and whether anyone wants to stay.
-        Today we align on <strong>what success means</strong> (AI creating business value, not just apps)
+        Today we align on <strong>what success means</strong> (AI creating business value &mdash; with an app when the case calls for it, and without one when it doesn&rsquo;t)
         and we make those choices together.
       </p>
       <p>
         This session applies lessons from <strong>Principles of Information Quality (INFQ 70303)</strong>:
         information quality is about <strong>maximizing value and minimizing risk</strong> &mdash; not celebrating
-        data cleaning or app delivery as the end product.
+        delivery alone. An app, a bot, a data load, and AI-assisted analysis are all valid deliveries when they fit the case;
+        the story is incomplete until question 4 states what was enabled.
       </p>
       <div class="credentials" aria-label="Course instructor credentials">
         <p class="name">John R. Talburt, PhD, IQCP</p>
@@ -394,7 +395,7 @@
           <tr>
             <td>3</td>
             <td><strong>What did we deliver?</strong></td>
-            <td>What we did — keep brief (bot, load, rules, conversion, validation). AI/app lives here.</td>
+            <td>What we did &mdash; keep brief (bot, app, load, rules, conversion, validation). Delivery lives here; apps are a strong choice when repeatability, guardrails, or automation matter.</td>
           </tr>
           <tr>
             <td>4</td>
@@ -413,19 +414,28 @@
       </ol>
     </section>
 
-    <section id="app-myth">
-      <h2>Project ≠ app ≠ value</h2>
-      <div class="callout callout--warn">
-        <strong>Jarvis goal:</strong> show that <strong>AI usage creates value</strong> for the business —
-        not that we shipped the most tools. Leadership is not running an app contest.
+    <section id="delivery-modes">
+      <h2>Apps when needed &mdash; value always</h2>
+      <div class="callout">
+        <strong>We build apps.</strong> Scripts, GUIs, and bots are legitimate ways to solve and automate recurring workflows.
+        Example 5 (Call Out Sheet validation) is exactly the kind of work we want when the business case calls for a repeatable tool.
       </div>
-      <p>Making apps with AI has been interpreted as value generation. That is an <strong>illusion</strong>:
-        apps are deliverables (question 3), not outcomes (question 4).</p>
+      <p>
+        <strong>The distinction:</strong> not every AI win requires an app. Some cases are best served by assist-only work (Tier 1) &mdash;
+        analysis, drafting, one-time investigation. Other cases <em>do</em> require a tool or product because the workflow repeats,
+        multiple users need guardrails, or bad output must be caught before release.
+      </p>
+      <p>
+        Leadership is not running an app contest &mdash; and they are not asking us to avoid apps.
+        The trap is twofold: (1) shipping an app and stopping at question 3 without stating what was enabled, and
+        (2) forcing every project into app form when assist or a one-time fix would deliver the same value faster.
+      </p>
       <table>
         <thead>
           <tr>
             <th>Tier</th>
             <th>What</th>
+            <th>When it fits</th>
             <th>Maintenance</th>
           </tr>
         </thead>
@@ -433,22 +443,25 @@
           <tr>
             <td><strong>1 — Assist</strong></td>
             <td>AI helps do the work; no new app</td>
+            <td>One-off analysis, investigation, drafting; value is in the decision or deliverable produced</td>
             <td>None</td>
           </tr>
           <tr>
             <td><strong>2 — Tool</strong></td>
             <td>Script/GUI for one workflow; named owner + sunset</td>
+            <td>Repeatable workflow, multiple users, or pre-release validation (see Example 5)</td>
             <td>Bounded</td>
           </tr>
           <tr>
             <td><strong>3 — Product</strong></td>
             <td>Rare; business + IT owns long-term</td>
+            <td>Enterprise-wide dependency; formal handoff required</td>
             <td>Handoff required</td>
           </tr>
         </tbody>
       </table>
-      <p><strong>Jarvis KPI (proposed):</strong> enabled workflows with named customer — not app count.</p>
-      <p><strong>Rule:</strong> No app demos in leadership updates without a filled-in <em>enabled</em> line.</p>
+      <p><strong>Jarvis KPI (proposed):</strong> enabled workflows with a named customer &mdash; whether delivery was assist, tool, or product.</p>
+      <p><strong>Rule for leadership updates:</strong> Pair every demo (app or otherwise) with a filled-in <em>enabled</em> line. App demos are welcome when the case warrants them.</p>
     </section>
 
     <section id="examples">
@@ -590,7 +603,7 @@
       </div>
 
       <div class="callout">
-        <strong>Teaching point:</strong> Example 1 is the most complete chain. Examples 2 and 4 show inbox work that never becomes a value story unless someone asks questions 1&ndash;4 before closing the ticket. Example 4 shows a <em>request</em> where only customer (partial) and blocked (via enterprise context) are known &mdash; delivered and enabled are still open.
+        <strong>Teaching point:</strong> Examples 1 and 5 show apps and automation used well &mdash; the delivery fits the case and the enabled line is clear. Examples 2 and 4 show inbox work that never becomes a value story unless someone asks questions 1&ndash;4 before closing the ticket. Example 4 shows a <em>request</em> where only customer (partial) and blocked (via enterprise context) are known &mdash; delivered and enabled are still open.
       </div>
     </section>
 
@@ -648,14 +661,15 @@
         <p>Jarvis agreed that anyone may step back voluntarily and return their Claude license to the <strong>waiting list</strong>. No penalty.</p>
         <p>I am <strong>not</strong> asking anyone to leave. I want a committed team that sees value in this experiment. If participation does not fit your priorities, you may opt out — please talk to me first so we handle license and handoff cleanly.</p>
 
-        <h3>3. A project is not the same as an app</h3>
-        <p>Common belief: <strong>app = project = success.</strong> That is not what leadership is asking for.</p>
-        <p><strong>Jarvis goal:</strong> show that <strong>AI usage creates value</strong> — better decisions, less delay, less risk — not that we shipped the most tools. An app may be one delivery method (Tier 2). Value is always question 4: <em>what did we enable?</em></p>
+        <h3>3. Apps are one delivery mode &mdash; not the only one</h3>
+        <p>Some business cases <strong>require</strong> an app: repeatable workflows, multiple users, guardrails before release. Example 5 (Call Out Sheet validation) is that pattern done right.</p>
+        <p>Other cases deliver equal value without a new app &mdash; assist-only analysis, one-time remediation, or a bot run that closes a gap. <strong>Not all AI value is expressed as an app.</strong></p>
+        <p><strong>Jarvis goal:</strong> show that <strong>AI usage creates value</strong> &mdash; better decisions, less delay, less risk. Count enabled workflows, not app count. When we do build an app, pair the demo with question 4: <em>what did we enable?</em></p>
 
         <h3>4. Meeting cadence — your input</h3>
         <p>Jarvis left cadence to each team. We will vote or agree on a trial (e.g. four weeks weekly, then revisit) based on how we actually work — not because other teams meet weekly.</p>
 
-        <p>We won staff choice on projects and cadence at the leadership table. Let’s use that to pursue work we can explain as <strong>blocked → enabled</strong>, not as app counts.</p>
+        <p>We won staff choice on projects and cadence at the leadership table. Let&rsquo;s use that to pursue work we can explain as <strong>blocked &rarr; enabled</strong> &mdash; whether the delivery is an app, automation, or assist.</p>
 
         <p>See you on Zoom September 3.</p>
       </div>
@@ -664,9 +678,8 @@
     <section id="close">
       <h2>Closing line</h2>
       <p class="callout">
-        <strong>“We won the right to choose our rhythm and our priorities. Let’s choose work we can explain in four sentences —
-        customer, blocked, delivered, enabled — so Jarvis proves AI value the way leadership actually needs,
-        not the way the app myth suggests.”</strong>
+        <strong>&ldquo;We won the right to choose our rhythm and our priorities. Let&rsquo;s choose work we can explain in four sentences &mdash;
+        customer, blocked, delivered, enabled &mdash; so Jarvis proves AI value whether we ship an app, run automation, or deliver assist-only wins.&rdquo;</strong>
       </p>
     </section>
 
