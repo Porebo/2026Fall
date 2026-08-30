@@ -221,6 +221,42 @@
     .bad { color: #f87171; }
     .good { color: var(--success); }
 
+    .gap-note {
+      font-size: 0.88rem;
+      color: var(--warning);
+      background: rgba(240, 180, 41, 0.08);
+      border: 1px dashed rgba(240, 180, 41, 0.35);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin-top: 0.75rem;
+    }
+
+    .gap-note strong { color: var(--warning); }
+
+    .example-block {
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .example-block:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .example-block h3 { margin-top: 0; }
+
+    .janitorial-trap {
+      font-size: 0.9rem;
+      color: #f87171;
+      margin-bottom: 0.75rem;
+      font-style: italic;
+    }
+
+    table.four-q th:first-child { width: 11rem; }
+    table.four-q td.gap-cell { color: var(--warning); font-style: italic; }
+
     .message-box {
       background: #0c1118;
       border: 1px solid var(--border);
@@ -416,28 +452,146 @@
     </section>
 
     <section id="examples">
-      <h2>Five examples: janitorial → value</h2>
-      <p>Real patterns from normal operations (anonymized). Same work — different story.</p>
+      <h2>Five examples: the four questions in practice</h2>
+      <p>
+        Real patterns from normal operations (anonymized). Each case is filled in only with what we actually know.
+        <strong>Gaps are shown on purpose</strong> &mdash; they teach what happens when intake or reporting stops early,
+        and what you must ask before claiming value.
+      </p>
 
-      <h3>1. Wellbore path restoration (post-acquisition)</h3>
-      <p class="bad">Janitorial: “AI bot fixed 87% of 14,700 wells in two weeks.”</p>
-      <p class="good">Value: Compliance and geology needed wellbore path data for regulatory reporting and reservoir characterization. Automation restored ~12,800 wells in two weeks vs. ~3 months manual work — characterization and compliance continued without a multi-month integration delay.</p>
+      <div class="example-block">
+        <h3>1. Wellbore path restoration (post-acquisition)</h3>
+        <p class="janitorial-trap">Janitorial trap: &ldquo;AI bot fixed 87% of 14,700 wells in two weeks.&rdquo;</p>
+        <table class="four-q">
+          <tbody>
+            <tr>
+              <th>1. Customer</th>
+              <td>Regulatory compliance team (reporting focus on ~1,200 wells) and geologists performing reservoir characterization</td>
+            </tr>
+            <tr>
+              <th>2. Blocked</th>
+              <td>After a recent acquisition, a large share of acquired wellbores lacked complete wellbore path data. Geologists could not find path information when needed. Compliance and characterization workflows were at risk of delay.</td>
+            </tr>
+            <tr>
+              <th>3. Delivered</th>
+              <td>Automated correction bot restored path data on ~12,800 of 14,700 wells (~87%) in ~2 weeks. Manual estimate: two analysts &times; ~3 months. ~13% (~1,900 wells) still in progress.</td>
+            </tr>
+            <tr>
+              <th>4. Enabled</th>
+              <td>Reservoir characterization and compliance reporting could continue without a multi-month integration delay while the remaining gap is closed.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="gap-note"><strong>Gaps (not yet stated):</strong> Dollar value of delay avoided; production volume (boe/d) tied to affected assets; named audit deliverable date; root cause of acquisition data gap.</p>
+      </div>
 
-      <h3>2. Annual audit well counts</h3>
-      <p class="bad">Janitorial: “Fixed 148 missing wells in an association table.”</p>
-      <p class="good">Value: Internal audit could not reconcile well counts for the annual audit. Restoring records unblocks official well-inventory validation — risk minimization, not a row count.</p>
+      <div class="example-block">
+        <h3>2. Annual audit well counts</h3>
+        <p class="janitorial-trap">Janitorial trap: &ldquo;Fixed 148 missing wells in an association table.&rdquo;</p>
+        <table class="four-q">
+          <tbody>
+            <tr>
+              <th>1. Customer</th>
+              <td>Internal audit team validating well counts for the <strong>annual audit</strong></td>
+            </tr>
+            <tr>
+              <th>2. Blocked</th>
+              <td>~148 wells were not appearing in a well&ndash;completion association table, so the audit team&rsquo;s reconciliation query could not produce a complete well inventory.</td>
+            </tr>
+            <tr>
+              <th>3. Delivered</th>
+              <td class="gap-cell">Investigation requested; remediation status not confirmed in the intake thread at time of documentation.</td>
+            </tr>
+            <tr>
+              <th>4. Enabled</th>
+              <td class="gap-cell">Likely: official well-inventory validation for annual audit can proceed. <em>Cannot claim until delivered is confirmed.</em></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="gap-note"><strong>Gaps (intake incomplete):</strong> Is remediation complete? Root cause? Audit submission deadline? This case arrived as email only &mdash; would not appear on a round-table slide unless someone completes the chain.</p>
+      </div>
 
-      <h3>3. GIS / spatial integrity</h3>
-      <p class="bad">Janitorial: “Updated field names and coordinates in the master system.”</p>
-      <p class="good">Value: Wells missing from GIS; some plotted in the wrong state. Map integrity restored so operational and planning workflows are not based on wrong locations.</p>
+      <div class="example-block">
+        <h3>3. GIS / spatial integrity</h3>
+        <p class="janitorial-trap">Janitorial trap: &ldquo;Updated field names and coordinates in the master system.&rdquo;</p>
+        <table class="four-q">
+          <tbody>
+            <tr>
+              <th>1. Customer</th>
+              <td>Operations / GIS users relying on spatial views for field assets (regional well portfolio)</td>
+            </tr>
+            <tr>
+              <th>2. Blocked</th>
+              <td>Three wells never reached GIS; two wells plotted in the wrong state on spatial maps; field-name gaps prevented reliable lookup. Users could not trust map-based workflows.</td>
+            </tr>
+            <tr>
+              <th>3. Delivered</th>
+              <td>Coordinate and field-name corrections in the master data system; partial reconciliation (thread closed with thanks &mdash; scope may be subset of full list).</td>
+            </tr>
+            <tr>
+              <th>4. Enabled</th>
+              <td>GIS map integrity improved for the corrected wells so operational and planning views are not based on obviously wrong locations.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="gap-note"><strong>Gaps:</strong> Full well count reconciled (e.g. 10 vs. 12 reported); whether all three missing-from-GIS wells are resolved; quantified impact of wrong-state plotting; downstream systems affected beyond GIS.</p>
+      </div>
 
-      <h3>4. BI platform migration</h3>
-      <p class="bad">Janitorial: “Convert another dashboard to Spotfire.”</p>
-      <p class="good">Value: Legacy BI platform ends <strong>December 31, 2026</strong>. Reservoir surveillance views must migrate before cutoff — business continuity, not IT plumbing.</p>
+      <div class="example-block">
+        <h3>4. BI platform migration</h3>
+        <p class="janitorial-trap">Janitorial trap: &ldquo;Convert another dashboard to Spotfire.&rdquo;</p>
+        <table class="four-q">
+          <tbody>
+            <tr>
+              <th>1. Customer</th>
+              <td>Reservoir engineers (diatomite asset team) using a &ldquo;constraint oil and gross&rdquo; surveillance view</td>
+            </tr>
+            <tr>
+              <th>2. Blocked</th>
+              <td>Legacy BI platform ends <strong>December 31, 2026</strong>. Without migration, the surveillance view is unavailable after cutoff.</td>
+            </tr>
+            <tr>
+              <th>3. Delivered</th>
+              <td class="gap-cell">Conversion requested and queued &mdash; <em>not confirmed complete</em>. Intake email named only the workbook.</td>
+            </tr>
+            <tr>
+              <th>4. Enabled</th>
+              <td class="gap-cell">Likely: diatomite constraint/gross surveillance continues after platform shutdown. <em>Requires delivered + confirmation of who else uses the view and which planning cycle depends on it.</em></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="gap-note"><strong>Gaps (classic thin request):</strong> No deadline stated in intake beyond enterprise cutoff; no list of other users; no description of decisions made from this view; no production or planning impact quantified. <strong>Three intake questions would fill most of this.</strong></p>
+      </div>
 
-      <h3>5. Call Out Sheet validation</h3>
-      <p class="bad">Janitorial: “Built a 6-test validation GUI with AI-assisted PowerShell.”</p>
-      <p class="good">Value: Prevent bad well-header instructions from reaching field contractors before they affect downstream systems. Technology is the footnote; wrong mobilization is the risk.</p>
+      <div class="example-block">
+        <h3>5. Call Out Sheet validation</h3>
+        <p class="janitorial-trap">Janitorial trap: &ldquo;Built a 6-test validation GUI with AI-assisted PowerShell.&rdquo;</p>
+        <table class="four-q">
+          <tbody>
+            <tr>
+              <th>1. Customer</th>
+              <td>Staff who issue Call Out Sheets (field work instructions to service contractors); daily users identified in development</td>
+            </tr>
+            <tr>
+              <th>2. Blocked</th>
+              <td>Mismatched well-header fields (API, name, field, location, datum, etc.) could reach contractors and downstream systems before anyone caught the error.</td>
+            </tr>
+            <tr>
+              <th>3. Delivered</th>
+              <td>GUI validation app: reads Excel callout sheets, queries master well records, runs six checks, reports differences in seconds; built with enterprise-safe scripting (no external libraries).</td>
+            </tr>
+            <tr>
+              <th>4. Enabled</th>
+              <td>Users can QC one or many callout sheets before release, reducing risk of bad field instructions entering downstream systems.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="gap-note"><strong>Gaps:</strong> Number of incidents or rework events prevented; cost of a wrong mobilization; volume of sheets processed per month; whether any contractor job was actually stopped by the tool. Without these, reporting should stop at &ldquo;risk reduced before release&rdquo; &mdash; not invent savings.</p>
+      </div>
+
+      <div class="callout">
+        <strong>Teaching point:</strong> Example 1 is the most complete chain. Examples 2 and 4 show inbox work that never becomes a value story unless someone asks questions 1&ndash;4 before closing the ticket. Example 4 shows a <em>request</em> where only customer (partial) and blocked (via enterprise context) are known &mdash; delivered and enabled are still open.
+      </div>
     </section>
 
     <section id="leadership-wins">
