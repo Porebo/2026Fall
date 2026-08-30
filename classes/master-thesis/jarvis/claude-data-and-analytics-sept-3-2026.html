@@ -317,11 +317,30 @@
       font-size: 0.8rem;
       color: var(--muted);
     }
+
+    .back-to-top {
+      margin-top: 1.25rem;
+      margin-bottom: 0;
+      text-align: right;
+      font-size: 0.82rem;
+    }
+
+    .back-to-top a {
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .back-to-top a:hover,
+    .back-to-top a:focus-visible {
+      color: var(--accent);
+      outline: none;
+    }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <header>
+    <header id="top">
       <p class="eyebrow">Jarvis Team · Zoom Session</p>
       <h1>Claude Data and Analytics</h1>
       <p class="subtitle">
@@ -349,6 +368,7 @@
         Today we align on <strong>what success means</strong> (AI creating business value &mdash; with an app when the case calls for it, and without one when it doesn&rsquo;t)
         and we make those choices together.
       </p>
+      <p class="back-to-top"><a href="#top">Back to top</a></p>
     </section>
 
     <section id="agenda">
@@ -399,6 +419,7 @@
           </tr>
         </tbody>
       </table>
+      <p class="back-to-top"><a href="#top">Back to top</a></p>
     </section>
 
     <section id="four-questions">
@@ -443,6 +464,7 @@
         <li>Is there a deadline (audit, platform shutdown, planning cycle)?</li>
         <li>What breaks if this waits 30–60 days?</li>
       </ol>
+      <p class="back-to-top"><a href="#top">Back to top</a></p>
     </section>
 
     <section id="delivery-modes">
@@ -493,6 +515,7 @@
       </table>
       <p><strong>Jarvis KPI (proposed):</strong> enabled workflows with a named customer &mdash; whether delivery was assist, tool, or product.</p>
       <p><strong>Rule for leadership updates:</strong> Pair every demo (app or otherwise) with a filled-in <em>enabled</em> line. App demos are welcome when the case warrants them.</p>
+      <p class="back-to-top"><a href="#top">Back to top</a></p>
     </section>
 
     <section id="examples">
@@ -636,6 +659,7 @@
       <div class="callout">
         <strong>Teaching point:</strong> Examples 1 and 5 show apps and automation used well &mdash; the delivery fits the case and the enabled line is clear. Examples 2 and 4 show inbox work that never becomes a value story unless someone asks questions 1&ndash;4 before closing the ticket. Example 4 shows a <em>request</em> where only customer (partial) and blocked (via enterprise context) are known &mdash; delivered and enabled are still open.
       </div>
+      <p class="back-to-top"><a href="#top">Back to top</a></p>
     </section>
 
     <section id="leadership-wins">
@@ -658,6 +682,7 @@
           <p>Voluntary exit is allowed; license returns to the waiting list. No penalty. Not asking anyone to leave — talk to the team lead before stepping back.</p>
         </div>
       </div>
+      <p class="back-to-top"><a href="#top">Back to top</a></p>
     </section>
 
     <section id="round-robin">
