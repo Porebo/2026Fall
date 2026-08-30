@@ -145,7 +145,30 @@
       font-weight: 600;
     }
 
-    tr:last-child td { border-bottom: none; }
+    tr:last-child:not(.value-highlight) td { border-bottom: none; }
+
+    table.four-pivotal {
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+
+    tr.value-highlight td {
+      border-top: 4px solid #ef4444;
+      border-bottom: 4px solid #ef4444;
+      background: rgba(239, 68, 68, 0.06);
+      padding-top: calc(0.7rem + 0.35rem);
+      padding-bottom: calc(0.7rem + 0.35rem);
+    }
+
+    tr.value-highlight td:first-child {
+      border-left: 4px solid #ef4444;
+      border-radius: 10px 0 0 10px;
+    }
+
+    tr.value-highlight td:last-child {
+      border-right: 4px solid #ef4444;
+      border-radius: 0 10px 10px 0;
+    }
 
     .time { color: var(--accent); font-weight: 600; white-space: nowrap; }
 
@@ -362,7 +385,7 @@
     <section id="four-questions">
       <h2>The four pivotal questions</h2>
       <p>Use these for every case, round-table bullet, and project proposal. <strong>Never stop at question 3.</strong></p>
-      <table>
+      <table class="four-pivotal">
         <thead>
           <tr>
             <th>#</th>
@@ -386,7 +409,7 @@
             <td><strong>What did we deliver?</strong></td>
             <td>What we did &mdash; keep brief (bot, app, load, rules, conversion, validation). Delivery lives here; apps are a strong choice when repeatability, guardrails, or automation matter.</td>
           </tr>
-          <tr>
+          <tr class="value-highlight">
             <td>4</td>
             <td><strong>What did we enable?</strong></td>
             <td><strong>Headline for management.</strong> What became possible? This is value.</td>
