@@ -187,6 +187,37 @@
       overflow-x: auto;
     }
 
+    .credentials {
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem 1.35rem;
+      margin: 1.25rem 0;
+    }
+
+    .credentials .name {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.35rem;
+    }
+
+    .credentials .titles {
+      font-size: 0.92rem;
+      color: #c5d0e0;
+      margin-bottom: 0.75rem;
+      line-height: 1.5;
+    }
+
+    .credentials .lineage {
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-style: italic;
+      line-height: 1.55;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+
     .bad { color: #f87171; }
     .good { color: var(--success); }
 
@@ -241,10 +272,15 @@
         and we make those choices together.
       </p>
       <p>
-        This session applies lessons from <strong>Principles of Information Quality</strong> (John Talburt, UALR):
-        information quality is about <strong>maximizing value and minimizing risk</strong> — not celebrating
+        This session applies lessons from <strong>Principles of Information Quality (INFQ 70303)</strong>:
+        information quality is about <strong>maximizing value and minimizing risk</strong> &mdash; not celebrating
         data cleaning or app delivery as the end product.
       </p>
+      <div class="credentials" aria-label="Course instructor credentials">
+        <p class="name">John R. Talburt, PhD, IQCP</p>
+        <p class="titles">Acxiom Chair of Information Quality &middot; Director, Information Quality Graduate Program &middot; University of Arkansas at Little Rock</p>
+        <p class="lineage">Carrying forward the MIT information quality lineage (Richard Wang, TDQM) in the program UALR built with industry to extend what MIT pioneered in professional IQ training.</p>
+      </div>
     </section>
 
     <section id="agenda">
@@ -266,7 +302,7 @@
           <tr>
             <td class="time">0:10</td>
             <td>15 min</td>
-            <td><strong>Value framing</strong> — Talburt in plain language; four pivotal questions</td>
+            <td><strong>Value framing</strong> &mdash; Professor Talburt&rsquo;s IQ framework; four pivotal questions</td>
           </tr>
           <tr>
             <td class="time">0:25</td>
