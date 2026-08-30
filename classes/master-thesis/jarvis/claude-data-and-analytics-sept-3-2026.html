@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude Data and Analytics — September 3, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --surface-alt: #243044;
+      --text: #e8edf4;
+      --muted: #9aa8bc;
+      --accent: #3d8bfd;
+      --accent-soft: rgba(61, 139, 253, 0.12);
+      --success: #3ecf8e;
+      --warning: #f0b429;
+      --border: rgba(255, 255, 255, 0.08);
+      --radius: 12px;
+      --font: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: linear-gradient(160deg, #0b1017 0%, #121a28 45%, #0f1419 100%);
+      color: var(--text);
+      line-height: 1.65;
+      min-height: 100vh;
+      padding: 2rem 1.25rem 4rem;
+    }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.35rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+
+    .subtitle {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 42rem;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.25rem;
+    }
+
+    .meta span {
+      font-size: 0.85rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      color: var(--muted);
+    }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+
+    h3 {
+      font-size: 1rem;
+      margin: 1.25rem 0 0.5rem;
+      color: #dce6f5;
+    }
+
+    p { margin-bottom: 0.85rem; color: var(--text); }
+    p:last-child { margin-bottom: 0; }
+
+    ul, ol {
+      padding-left: 1.35rem;
+      margin-bottom: 0.85rem;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    .callout {
+      background: var(--accent-soft);
+      border-left: 3px solid var(--accent);
+      padding: 1rem 1.15rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1rem 0;
+    }
+
+    .callout strong { color: #fff; }
+
+    .callout--warn {
+      background: rgba(240, 180, 41, 0.1);
+      border-left-color: var(--warning);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin: 1rem 0;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 0.7rem 0.85rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--surface-alt);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    .time { color: var(--accent); font-weight: 600; white-space: nowrap; }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 640px) {
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+
+    .card-mini {
+      background: var(--surface-alt);
+      border-radius: 8px;
+      padding: 1rem;
+      border: 1px solid var(--border);
+    }
+
+    .card-mini h4 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .chain {
+      font-family: ui-monospace, "Cascadia Code", monospace;
+      font-size: 0.82rem;
+      background: #0c1118;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.15rem;
+      line-height: 1.7;
+      color: #b8c5d9;
+      overflow-x: auto;
+    }
+
+    .bad { color: #f87171; }
+    .good { color: var(--success); }
+
+    .message-box {
+      background: #0c1118;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      font-size: 0.95rem;
+    }
+
+    .message-box p { margin-bottom: 1rem; }
+    .message-box h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.65rem;
+      font-size: 1.05rem;
+      color: var(--accent);
+    }
+    .message-box h3:first-child { margin-top: 0; }
+
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="eyebrow">Jarvis Team · Zoom Session</p>
+      <h1>Claude Data and Analytics</h1>
+      <p class="subtitle">
+        September 3, 2026 — Staff briefing on value framing, project choices, meeting cadence,
+        and what Jarvis success really means. Self-contained meeting page for screen share and SharePoint.
+      </p>
+      <div class="meta">
+        <span>75 minutes</span>
+        <span>Staff decides projects &amp; cadence</span>
+        <span>Value &gt; apps</span>
+        <span>Anonymized examples</span>
+      </div>
+    </header>
+
+    <section id="purpose">
+      <h2>Meeting purpose</h2>
+      <p class="callout">
+        <strong>Opening line:</strong> Jarvis leadership gave <em>us</em> choices — how often we meet,
+        whether we keep our old AI project ideas or propose new ones, and whether anyone wants to stay.
+        Today we align on <strong>what success means</strong> (AI creating business value, not just apps)
+        and we make those choices together.
+      </p>
+      <p>
+        This session applies lessons from <strong>Principles of Information Quality</strong> (John Talburt, UALR):
+        information quality is about <strong>maximizing value and minimizing risk</strong> — not celebrating
+        data cleaning or app delivery as the end product.
+      </p>
+    </section>
+
+    <section id="agenda">
+      <h2>Agenda &amp; time allocations</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Duration</th>
+            <th>Topic</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="time">0:00</td>
+            <td>10 min</td>
+            <td>Leadership context — staff choice on projects &amp; cadence; Jarvis mission</td>
+          </tr>
+          <tr>
+            <td class="time">0:10</td>
+            <td>15 min</td>
+            <td><strong>Value framing</strong> — Talburt in plain language; four pivotal questions</td>
+          </tr>
+          <tr>
+            <td class="time">0:25</td>
+            <td>15 min</td>
+            <td><strong>Five examples</strong> — janitorial reporting vs. true value interventions</td>
+          </tr>
+          <tr>
+            <td class="time">0:40</td>
+            <td>10 min</td>
+            <td><strong>Projects</strong> — continue ~3-month ideas or propose new (token drought context)</td>
+          </tr>
+          <tr>
+            <td class="time">0:50</td>
+            <td>10 min</td>
+            <td><strong>Cadence</strong> — vote or 4-week weekly trial, then revisit</td>
+          </tr>
+          <tr>
+            <td class="time">1:00</td>
+            <td>8 min</td>
+            <td><strong>Membership</strong> — voluntary exit; licenses to waiting list; no pressure</td>
+          </tr>
+          <tr>
+            <td class="time">1:08</td>
+            <td>7 min</td>
+            <td>Actions, homework, next meeting on calendar</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="four-questions">
+      <h2>The four pivotal questions</h2>
+      <p>Use these for every case, round-table bullet, and project proposal. <strong>Never stop at question 3.</strong></p>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Question</th>
+            <th>Role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><strong>Who is the customer?</strong></td>
+            <td>Who needs this information? (geology, compliance, reservoir eng, audit, field ops)</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><strong>What was blocked?</strong></td>
+            <td>What decision, audit, report, or workflow could not proceed?</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><strong>What did we deliver?</strong></td>
+            <td>What we did — keep brief (bot, load, rules, conversion, validation). AI/app lives here.</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><strong>What did we enable?</strong></td>
+            <td><strong>Headline for management.</strong> What became possible? This is value.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="chain">CUSTOMER  →  BLOCKED  →  DELIVERED  →  ENABLED
+   who          risk         brief          VALUE (headline)</div>
+      <h3>Three intake questions (when requests lack context)</h3>
+      <ol>
+        <li>What decision or workflow does this support? Who else uses it?</li>
+        <li>Is there a deadline (audit, platform shutdown, planning cycle)?</li>
+        <li>What breaks if this waits 30–60 days?</li>
+      </ol>
+    </section>
+
+    <section id="app-myth">
+      <h2>Project ≠ app ≠ value</h2>
+      <div class="callout callout--warn">
+        <strong>Jarvis goal:</strong> show that <strong>AI usage creates value</strong> for the business —
+        not that we shipped the most tools. Leadership is not running an app contest.
+      </div>
+      <p>Making apps with AI has been interpreted as value generation. That is an <strong>illusion</strong>:
+        apps are deliverables (question 3), not outcomes (question 4).</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Tier</th>
+            <th>What</th>
+            <th>Maintenance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1 — Assist</strong></td>
+            <td>AI helps do the work; no new app</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><strong>2 — Tool</strong></td>
+            <td>Script/GUI for one workflow; named owner + sunset</td>
+            <td>Bounded</td>
+          </tr>
+          <tr>
+            <td><strong>3 — Product</strong></td>
+            <td>Rare; business + IT owns long-term</td>
+            <td>Handoff required</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Jarvis KPI (proposed):</strong> enabled workflows with named customer — not app count.</p>
+      <p><strong>Rule:</strong> No app demos in leadership updates without a filled-in <em>enabled</em> line.</p>
+    </section>
+
+    <section id="examples">
+      <h2>Five examples: janitorial → value</h2>
+      <p>Real patterns from normal operations (anonymized). Same work — different story.</p>
+
+      <h3>1. Wellbore path restoration (post-acquisition)</h3>
+      <p class="bad">Janitorial: “AI bot fixed 87% of 14,700 wells in two weeks.”</p>
+      <p class="good">Value: Compliance and geology needed wellbore path data for regulatory reporting and reservoir characterization. Automation restored ~12,800 wells in two weeks vs. ~3 months manual work — characterization and compliance continued without a multi-month integration delay.</p>
+
+      <h3>2. Annual audit well counts</h3>
+      <p class="bad">Janitorial: “Fixed 148 missing wells in an association table.”</p>
+      <p class="good">Value: Internal audit could not reconcile well counts for the annual audit. Restoring records unblocks official well-inventory validation — risk minimization, not a row count.</p>
+
+      <h3>3. GIS / spatial integrity</h3>
+      <p class="bad">Janitorial: “Updated field names and coordinates in the master system.”</p>
+      <p class="good">Value: Wells missing from GIS; some plotted in the wrong state. Map integrity restored so operational and planning workflows are not based on wrong locations.</p>
+
+      <h3>4. BI platform migration</h3>
+      <p class="bad">Janitorial: “Convert another dashboard to Spotfire.”</p>
+      <p class="good">Value: Legacy BI platform ends <strong>December 31, 2026</strong>. Reservoir surveillance views must migrate before cutoff — business continuity, not IT plumbing.</p>
+
+      <h3>5. Call Out Sheet validation</h3>
+      <p class="bad">Janitorial: “Built a 6-test validation GUI with AI-assisted PowerShell.”</p>
+      <p class="good">Value: Prevent bad well-header instructions from reaching field contractors before they affect downstream systems. Technology is the footnote; wrong mobilization is the risk.</p>
+    </section>
+
+    <section id="leadership-wins">
+      <h2>Decisions from Jarvis leadership (staff choice)</h2>
+      <div class="grid-2">
+        <div class="card-mini">
+          <h4>Projects</h4>
+          <p>~3 months ago each member proposed an AI project. After token limits stalled progress, <strong>staff may continue old projects or propose new ones</strong>. Justify with customer + enabled, not “I proposed it in May.”</p>
+        </div>
+        <div class="card-mini">
+          <h4>Meeting cadence</h4>
+          <p>Each team sets its own rhythm (weekly, biweekly, or hybrid). <strong>We decide together</strong> based on coordination need vs. focus time — not because another Jarvis team chose weekly.</p>
+        </div>
+        <div class="card-mini">
+          <h4>Token drought</h4>
+          <p>Former ~$20/month cap — some used it in 1–2 days and had no Claude access for the rest of the month. IT plan is now more generous. Rebaseline what is worth doing today.</p>
+        </div>
+        <div class="card-mini">
+          <h4>Membership</h4>
+          <p>Voluntary exit is allowed; license returns to the waiting list. No penalty. Not asking anyone to leave — talk to the team lead before stepping back.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="round-robin">
+      <h2>Round-robin prompt (2 min each)</h2>
+      <ol>
+        <li>Continue original project or propose new? One sentence why.</li>
+        <li>Draft <strong>customer</strong> + <strong>enabled</strong> (even if rough).</li>
+        <li>Cadence preference: weekly / biweekly / weekly async + biweekly live / 4-week trial.</li>
+      </ol>
+      <p><strong>Homework by follow-up date:</strong> half-page per person — continue or new project + four questions completed.</p>
+    </section>
+
+    <section id="staff-message">
+      <h2>Full message to staff</h2>
+      <div class="message-box">
+        <p><strong>Subject:</strong> Jarvis team — Zoom September 3: project choices, cadence, and how we measure success</p>
+
+        <p>Team,</p>
+
+        <p>Following the latest Jarvis leadership meeting, several decisions affect <strong>our</strong> team directly. We will align on Zoom <strong>September 3, 2026</strong> before we set cadence and priorities together.</p>
+
+        <h3>1. Projects: old ideas vs. new ones</h3>
+        <p>Each of us was asked months ago to propose an AI project. Some Jarvis leaders want teams to keep pushing those original ideas. I argued — and <strong>the table agreed</strong> — that <strong>you</strong> should decide whether to:</p>
+        <ul>
+          <li><strong>Continue</strong> your original project if it still matters and is feasible, or</li>
+          <li><strong>Propose something new</strong> if priorities, data, or access have changed.</li>
+        </ul>
+        <p>For a period we had a <strong>$20/month Claude cap</strong>. Some people used that in a day or two and had no AI access for the rest of the month. IT has since improved the plan, but <strong>three-month-old project plans may not reflect today’s work</strong>.</p>
+        <p><strong>Before or at the meeting:</strong> be ready to say continue or new, and draft <strong>customer</strong> + <strong>enabled</strong> using the four questions on this page.</p>
+
+        <h3>2. Membership is voluntary</h3>
+        <p>Jarvis agreed that anyone may step back voluntarily and return their Claude license to the <strong>waiting list</strong>. No penalty.</p>
+        <p>I am <strong>not</strong> asking anyone to leave. I want a committed team that sees value in this experiment. If participation does not fit your priorities, you may opt out — please talk to me first so we handle license and handoff cleanly.</p>
+
+        <h3>3. A project is not the same as an app</h3>
+        <p>Common belief: <strong>app = project = success.</strong> That is not what leadership is asking for.</p>
+        <p><strong>Jarvis goal:</strong> show that <strong>AI usage creates value</strong> — better decisions, less delay, less risk — not that we shipped the most tools. An app may be one delivery method (Tier 2). Value is always question 4: <em>what did we enable?</em></p>
+
+        <h3>4. Meeting cadence — your input</h3>
+        <p>Jarvis left cadence to each team. We will vote or agree on a trial (e.g. four weeks weekly, then revisit) based on how we actually work — not because other teams meet weekly.</p>
+
+        <p>We won staff choice on projects and cadence at the leadership table. Let’s use that to pursue work we can explain as <strong>blocked → enabled</strong>, not as app counts.</p>
+
+        <p>See you on Zoom September 3.</p>
+      </div>
+    </section>
+
+    <section id="close">
+      <h2>Closing line</h2>
+      <p class="callout">
+        <strong>“We won the right to choose our rhythm and our priorities. Let’s choose work we can explain in four sentences —
+        customer, blocked, delivered, enabled — so Jarvis proves AI value the way leadership actually needs,
+        not the way the app myth suggests.”</strong>
+      </p>
+    </section>
+
+    <footer>
+      Claude Data and Analytics · Jarvis staff briefing · September 3, 2026 · Self-contained meeting page
+    </footer>
+  </div>
+</body>
+</html>
