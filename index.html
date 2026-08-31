@@ -23,11 +23,48 @@
       <p class="lede">Use this central index page to enter each class site, track deadlines, and browse meeting pages by date.</p>
     </header>
 
-    <section class="card" aria-labelledby="upcoming-heading">
-      <p class="eyebrow">Action Items</p>
-      <h2 id="upcoming-heading">Upcoming Deadlines</h2>
-      <div id="upcoming-deadlines" aria-live="polite">
-        <p class="deadline-empty">Loading deadlines…</p>
+    <section class="dashboard" aria-labelledby="dashboard-heading">
+      <h2 id="dashboard-heading">Coming Up By Class</h2>
+      <div class="class-dashboard">
+        <article class="card dashboard-card dashboard-card-project">
+          <p class="course-code">FALL_2026_IFSC_78603_9U2</p>
+          <h3><a href="classes/graduate-project/home-graduate-project.html">Graduate Project</a></h3>
+          <p class="instructor">Nitin Agarwal</p>
+          <ul class="upcoming-list">
+            <li><a href="classes/graduate-project/2026-09-02.html">Sep 2: Introduction to algebraic expressions</a></li>
+            <li><a href="classes/graduate-project/2026-09-09.html">Sep 9: Linear equations workshop</a></li>
+          </ul>
+        </article>
+
+        <article class="card dashboard-card dashboard-card-iq">
+          <p class="course-code">FALL_2026_INFQ_70303_9U1</p>
+          <h3><a href="classes/principles-of-iq/home-principles-of-iq.html">Principles of IQ</a></h3>
+          <p class="instructor">John Talburt</p>
+          <ul class="upcoming-list">
+            <li><a href="classes/principles-of-iq/w01/how01.html">JDQ 1 Review Assignment</a></li>
+            <li><a href="classes/principles-of-iq/2026-08-25.html">Review Week 1 program overview</a></li>
+          </ul>
+        </article>
+
+        <article class="card dashboard-card dashboard-card-methods">
+          <p class="course-code">FALL_2026_INFQ_72203_9U1</p>
+          <h3><a href="classes/research-methods/home-research-methods.html">Research Methods</a></h3>
+          <p class="instructor">Multiple Instructors</p>
+          <ul class="upcoming-list">
+            <li>No upcoming item recorded.</li>
+            <li><a href="classes/research-methods/2026-08-24.html">Review Aug 24 class summary</a></li>
+          </ul>
+        </article>
+
+        <article class="card dashboard-card dashboard-card-thesis">
+          <p class="course-code">MASTER_THESIS_2026</p>
+          <h3><a href="classes/master-thesis/home-master-thesis.html">Master Thesis</a></h3>
+          <p class="instructor">Thesis Development</p>
+          <ul class="upcoming-list">
+            <li><a href="classes/master-thesis/research-gaps.html">Research gaps document</a></li>
+            <li><a href="classes/master-thesis/advisor-request-letter.html">Advisor request letter</a></li>
+          </ul>
+        </article>
       </div>
     </section>
 
@@ -42,67 +79,6 @@
       </ul>
       <div id="term-calendar" aria-live="polite">
         <p class="deadline-empty">Loading calendar…</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Classes</h2>
-      <div class="card-grid">
-        <article class="card course-card">
-          <img
-            class="course-image"
-            src="images/01.jpg"
-            alt="Graduate Project course image"
-          >
-          <div class="course-body">
-            <p class="course-code">FALL_2026_IFSC_78603_9U2</p>
-            <h3><a href="classes/graduate-project/home-graduate-project.html">FALL_2026 IFSC 78603-9U2 - Graduate Project</a></h3>
-            <hr>
-            <p class="instructor">Nitin Agarwal</p>
-          </div>
-        </article>
-
-        <article class="card course-card">
-          <img
-            class="course-image"
-            src="images/02.jpg"
-            alt="Principles of IQ course image"
-          >
-          <div class="course-body">
-            <p class="course-code">FALL_2026_INFQ_70303_9U1</p>
-            <h3><a href="classes/principles-of-iq/home-principles-of-iq.html">FALL_2026 INFQ 70303-9U1 - Principles of IQ</a></h3>
-            <hr>
-            <p class="instructor">John Talburt</p>
-          </div>
-        </article>
-
-        <article class="card course-card">
-          <img
-            class="course-image"
-            src="images/03.jpg"
-            alt="Research Methods course image"
-          >
-          <div class="course-body">
-            <p class="course-code">FALL_2026_INFQ_72203_9U1</p>
-            <h3><a href="classes/research-methods/home-research-methods.html">FALL_2026 INFQ 72203-9U1 - Research Methods</a></h3>
-            <hr>
-            <p class="instructor">Multiple Instructors</p>
-          </div>
-        </article>
-
-        <article class="card course-card">
-          <img
-            class="course-image"
-            src="images/04.jpg"
-            alt="Master Thesis research gaps course image"
-          >
-          <div class="course-body">
-            <p class="course-code">MASTER_THESIS_2026</p>
-            <h3><a href="classes/master-thesis/home-master-thesis.html">Master Thesis</a></h3>
-            <hr>
-            <p class="instructor">Thesis Development</p>
-          </div>
-        </article>
       </div>
     </section>
   </main>

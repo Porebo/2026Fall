@@ -44,7 +44,16 @@
     .status-noreply { color: #b7791f; }
     .status-retired { color: #6b7280; font-style: italic; }
     .status-helped { color: #174ea6; }
+    .status-yes { color: #1a7f37; font-weight: 600; }
     .notes-col { color: #4b5563; font-size: 0.95rem; }
+
+    .callout-resolved {
+      background: #eafaf1;
+      border-left: 4px solid #1a7f37;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 0 8px 8px 0;
+    }
   </style>
 </head>
 <body>
@@ -57,6 +66,10 @@
       <p class="lede">Letter sent to prospective faculty advisors for the final two semesters of the Master's program.</p>
       <p class="lede">Date sent: August 27, 2026</p>
     </header>
+
+    <div class="callout-resolved">
+      <strong>Advisor secured:</strong> Ningning Wu accepted on August 27, 2026. Remaining outreach is now for the two additional committee members required.
+    </div>
 
     <section class="content-card">
       <p>Dear Professor,</p>
@@ -85,10 +98,10 @@
           <tr><th>Professor</th><th>Status</th><th>Notes</th></tr>
         </thead>
         <tbody>
-          <tr><td>Ningning Wu</td><td class="status-sent">Sent</td><td class="notes-col"></td></tr>
+          <tr><td>Ningning Wu</td><td class="status-yes">Said yes</td><td class="notes-col">Replied Aug 27, 2026: "Sure. I am happy to serve."</td></tr>
           <tr><td>Jami Eubanks</td><td class="status-sent">Sent</td><td class="notes-col"></td></tr>
           <tr><td>Xiaowei Xu</td><td class="status-sent">Sent</td><td class="notes-col"></td></tr>
-          <tr><td>Skyler Thompson</td><td class="status-sent">Sent</td><td class="notes-col"></td></tr>
+          <tr><td>Skyler Thompson</td><td class="status-no">Said no</td><td class="notes-col">Replied Aug 27, 2026: new faculty focusing on teaching, research, and service this first semester; respectfully declined advising for now.</td></tr>
           <tr><td>Abdelrahman Elfikky</td><td class="status-sent">Sent</td><td class="notes-col"></td></tr>
           <tr><td>Billy Spann</td><td class="status-sent">Sent</td><td class="notes-col"></td></tr>
           <tr><td>Arya Basu</td><td class="status-sent">Sent</td><td class="notes-col"></td></tr>
