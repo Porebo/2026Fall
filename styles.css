@@ -479,6 +479,73 @@ a.lecture-channel__day:focus-visible {
   margin: 0 0 0.75rem;
 }
 
+.calendar-agenda--bare {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.calendar--compact .calendar-month {
+  margin-bottom: 1rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid #d9e2ec;
+}
+
+.calendar--compact .calendar-month:last-of-type {
+  border-bottom: 0;
+}
+
+.calendar--compact .calendar-month__title {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.calendar--compact .calendar-weekdays,
+.calendar--compact .calendar-grid {
+  gap: 0.2rem;
+}
+
+.calendar--compact .calendar-weekdays span {
+  font-size: 0.65rem;
+  padding-bottom: 0.15rem;
+}
+
+.calendar--compact .calendar-day {
+  min-height: 0;
+  aspect-ratio: 1;
+  padding: 0.1rem;
+  border-radius: 6px;
+  gap: 0.1rem;
+  justify-content: center;
+}
+
+.calendar--compact .calendar-day__number {
+  font-size: 0.7rem;
+}
+
+.calendar--compact .calendar-marker {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+
+.calendar--compact .calendar-detail {
+  font-size: 0.85rem;
+}
+
+.term-calendar-channel {
+  max-width: 340px;
+}
+
+.term-calendar-channel .deadline-legend--stacked {
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 0.85rem;
+}
+
+.term-calendar-channel .deadline-legend--stacked li {
+  font-size: 0.8rem;
+}
+
 .deadline-empty {
   color: #52606d;
   margin: 0;

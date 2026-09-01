@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
+  <main class="page page--with-channel">
     <nav class="breadcrumb"><a href="index.html">Home</a> / 2026 Fall Classes</nav>
 
     <nav class="class-nav" aria-label="Class navigation">
@@ -17,6 +17,21 @@
       <a class="class-nav__button" href="classes/master-thesis/home-master-thesis.html">Master Thesis</a>
     </nav>
 
+    <div class="class-layout">
+      <aside class="lecture-channel term-calendar-channel" aria-label="Term calendar by month">
+        <h2 class="lecture-channel__title">Term Calendar</h2>
+        <ul class="deadline-legend deadline-legend--stacked" aria-label="Deadline types">
+          <li><span class="calendar-marker calendar-marker--homework" aria-hidden="true"></span> Homework</li>
+          <li><span class="calendar-marker calendar-marker--exam" aria-hidden="true"></span> Exam</li>
+          <li><span class="calendar-marker calendar-marker--admin" aria-hidden="true"></span> Admin</li>
+          <li><span class="calendar-marker calendar-marker--event" aria-hidden="true"></span> Event</li>
+        </ul>
+        <div id="term-calendar" aria-live="polite">
+          <p class="deadline-empty">Loading calendar…</p>
+        </div>
+      </aside>
+
+      <div class="class-content">
     <header class="hero">
       <p class="eyebrow">College Term Portal</p>
       <h1>2026 Fall Classes</h1>
@@ -51,7 +66,7 @@
           <h3><a href="classes/research-methods/home-research-methods.html">Research Methods</a></h3>
           <p class="instructor">Multiple Instructors</p>
           <ul class="upcoming-list">
-            <li>No upcoming item recorded.</li>
+            <li><a href="classes/research-methods/2026-08-31.html">Aug 31: Formulating research questions &amp; the proposal</a></li>
             <li><a href="classes/research-methods/2026-08-24.html">Review Aug 24 class summary</a></li>
           </ul>
         </article>
@@ -68,25 +83,22 @@
       </div>
     </section>
 
-    <section class="card" aria-labelledby="calendar-heading">
+    <section class="card" aria-labelledby="agenda-heading">
       <p class="eyebrow">Fall 2026</p>
-      <h2 id="calendar-heading">Term Calendar</h2>
-      <ul class="deadline-legend" aria-label="Deadline types">
-        <li><span class="calendar-marker calendar-marker--homework" aria-hidden="true"></span> Homework</li>
-        <li><span class="calendar-marker calendar-marker--exam" aria-hidden="true"></span> Exam</li>
-        <li><span class="calendar-marker calendar-marker--admin" aria-hidden="true"></span> Admin</li>
-        <li><span class="calendar-marker calendar-marker--event" aria-hidden="true"></span> Event</li>
-      </ul>
-      <div id="term-calendar" aria-live="polite">
-        <p class="deadline-empty">Loading calendar…</p>
+      <h2 id="agenda-heading">All Term Dates</h2>
+      <div id="term-calendar-agenda" aria-live="polite">
+        <p class="deadline-empty">Loading term dates…</p>
       </div>
     </section>
+      </div>
+    </div>
   </main>
   <script src="scripts/site-nav.js"></script>
   <script>
     window.TERM_CALENDAR_CONFIG = {
       deadlinesUrl: "data/deadlines.json",
-      linkPrefix: ""
+      linkPrefix: "",
+      compact: true
     };
   </script>
   <script src="scripts/term-calendar.js"></script>

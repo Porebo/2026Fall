@@ -14,13 +14,19 @@
     "endTime": "20:40",
     "location": "Little Rock, AR",
     "displayCentral": "Mondays 6:00 PM – 8:40 PM CT",
-    "displayPacific": "Mondays 4:00 PM – 6:40 PM PT (California)"
+    "displayPacific": "Mondays 4:00 PM – 6:40 PM PT (California)",
+    "excludedDates": ["2026-09-07"]
   },
   "lectures": [
     {
       "date": "2026-08-24",
       "title": "Research fundamentals & proposal foundations",
       "url": "2026-08-24.html"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Formulating research questions & writing the proposal",
+      "url": "2026-08-31.html"
     }
   ]
 }

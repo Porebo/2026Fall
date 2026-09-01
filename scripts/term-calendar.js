@@ -3,6 +3,7 @@
   var deadlinesUrl = config.deadlinesUrl || "data/deadlines.json";
   var courseFilter = config.course || null;
   var linkPrefix = config.linkPrefix || "";
+  var compact = config.compact === true;
 
   var TYPE_LABELS = {
     homework: "Homework",
@@ -245,6 +246,7 @@
     }
 
     container.innerHTML = "";
+    container.classList.toggle("calendar--compact", compact);
     var dateMap = buildDateMap(deadlines);
     var todayKey = formatDate(new Date());
     var year = 2026;
@@ -335,7 +337,9 @@
     detail.innerHTML = "<p class=\"calendar-detail__hint\">Select a marked day to see linked items, or click a colored marker to open its page directly.</p>";
     container.appendChild(detail);
 
-    renderCalendarAgenda(container, deadlines, courses);
+    var agendaHost = document.getElementById("term-calendar-agenda") || container;
+    agendaHost.innerHTML = "";
+    renderCalendarAgenda(agendaHost, deadlines, courses);
   }
 
   function renderCalendarAgenda(container, deadlines, courses) {
@@ -346,7 +350,11 @@
     var heading = document.createElement("h3");
     heading.className = "calendar-agenda__title";
     heading.textContent = "All Term Dates";
-    agenda.appendChild(heading);
+    if (container.id !== "term-calendar-agenda") {
+      agenda.appendChild(heading);
+    } else {
+      agenda.classList.add("calendar-agenda--bare");
+    }
 
     var list = document.createElement("ul");
     list.className = "deadline-list";
@@ -435,7 +443,7 @@
     })
     .then(init)
     .catch(function (error) {
-      ["upcoming-deadlines", "assignments-list", "term-calendar"].forEach(function (id) {
+      ["upcoming-deadlines", "assignments-list", "term-calendar", "term-calendar-agenda"].forEach(function (id) {
         var container = document.getElementById(id);
         if (container) {
           container.innerHTML = "<p class=\"deadline-empty\">" + error.message + "</p>";
