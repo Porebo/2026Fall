@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principles of IQ - 2026-09-01</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb">
+      <a href="../../index.html">Home</a> /
+      <a href="./home-principles-of-iq.html">Principles of IQ</a> /
+      2026-09-01
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Class Meeting &mdash; September 1, 2026</p>
+      <h1 class="meeting-title">Information Quality Value &amp; Business Impact</h1>
+      <p class="lede">
+        Relating information to value: the two entry paths (business issue first vs. data assessment first),
+        ROI and net present value, building the business case for information quality, the IQ context
+        (data, people, process, technology), and the POSMAD information life cycle.
+      </p>
+    </header>
+
+    <section class="card" aria-labelledby="recording-heading">
+      <p class="eyebrow">Recording</p>
+      <h2 id="recording-heading">Lecture Video</h2>
+      <p>Zoom recording for the September 1, 2026 session (requires UALR Zoom login):</p>
+      <p><a href="https://ualr-edu.zoom.us/rec/play/6CPpsuNB5DKD0pqqg9fF47aNKGtv2GK5falFi3Bt9V5Ufw1uyDVxhBa1UlqRLJ2SEIiYOZfR3cCzHXBM.k8KUPvx2phhzpMAb?accessLevel=meeting&amp;canPlayFromShare=true&amp;from=share_recording_detail&amp;startTime=1788288105000&amp;oldStyle=true&amp;pwd=DHl8RS1CefqTpm49jQAAIAAAABNdXgxMX5P1P5ExGDSIBeen6h8FFN2ZSJBzNAb8wlHlMSMybm5xMOeb_o0Oz2pmXjAwMDAwNA&amp;componentName=rec-play&amp;originRequestUrl=https%3A%2F%2Fualr-edu.zoom.us%2Frec%2Fshare%2Fe7wB0MGSYFkKel1x_06-PZZnGn3wYqS8naKP0w7OygVPCKCWeQpdsvGySvvakL67.eYxOf6pFptqFSUV_%3FstartTime%3D1788288105000%26pwd%3DDHl8RS1CefqTpm49jQAAIAAAABNdXgxMX5P1P5ExGDSIBeen6h8FFN2ZSJBzNAb8wlHlMSMybm5xMOeb_o0Oz2pmXjAwMDAwNA" target="_blank" rel="noopener noreferrer">Watch lecture recording on Zoom</a></p>
+    </section>
+
+    <section class="card" aria-labelledby="announcements-heading">
+      <p class="eyebrow">Announcements</p>
+      <h2 id="announcements-heading">Class Logistics</h2>
+      <ul>
+        <li><strong>All sessions move online</strong> (Tuesday and Thursday) until further notice &mdash; room collision with another class; a replacement room with webcasting facilities is being arranged.</li>
+        <li><strong>Labs are starting.</strong> A 1,000-record file has been posted in the Blackboard <em>Resources</em> folder for the next assignment; we will investigate it for data and information quality issues.</li>
+        <li><strong>Tooling:</strong> the labs start with <a href="https://openrefine.org/" target="_blank" rel="noopener noreferrer">OpenRefine</a>, with additional tools later and possibly agentic AI by the end of the course.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="relating-heading">
+      <p class="eyebrow">Core Concept</p>
+      <h2 id="relating-heading">Two Ways to Relate Information to Value</h2>
+      <p>Every organization uses data, and every organization has problems. IQ work lives in the <strong>intersection</strong> &mdash; not every problem is a data problem (some are cultural or communication issues), and not every data defect is a business problem.</p>
+      <ol>
+        <li><strong>Start with the business issue.</strong> Business issue &rarr; is it related to data? &rarr; find the root cause in the data &rarr; improve data quality &rarr; improve business results. Example: invoices not reaching customers because addresses are wrong, out of date, or incomplete.</li>
+        <li><strong>Start with the data quality assessment.</strong> Assess data against requirements &rarr; find anomalies &rarr; <strong>determine whether the anomaly actually impacts the business</strong> &rarr; if so, improve data quality &rarr; improve business results.</li>
+      </ol>
+      <p><strong>Critical caveat:</strong> a data quality anomaly does not automatically mean a business problem. Any relational database has fully null tables nobody uses. Sweeping assessments are time-consuming and labor-intensive, and &ldquo;perfect data everywhere&rdquo; is not a goal &mdash; starting from business impact gives you a specific target to fix.</p>
+    </section>
+
+    <section class="card" aria-labelledby="value-sources-heading">
+      <p class="eyebrow">Framework</p>
+      <h2 id="value-sources-heading">Where to Find Information Value</h2>
+      <ul>
+        <li><strong>Financial:</strong> operating costs, revenue, cash flow, charges, budget.</li>
+        <li><strong>Compliance:</strong> regulatory reporting (education, medical, financial), government and industry requirements, privacy.</li>
+        <li><strong>Confidence &amp; trust:</strong> if people don&rsquo;t trust the data they won&rsquo;t use it, and unused data produces no value.</li>
+        <li><strong>Use:</strong> decisions, system control, forecasting, reporting.</li>
+        <li><strong>Satisfaction:</strong> customer experience, suppliers, employees.</li>
+        <li><strong>Risk:</strong> regulatory penalties, credit, investment, competitiveness, data leakage (&ldquo;two kinds of companies: those that have been breached and those that don&rsquo;t know it yet&rdquo;).</li>
+        <li><strong>Productivity:</strong> LLMs and agentic AI improving workflows &mdash; agents as &ldquo;little employees&rdquo; inside the model, all requiring context, which is data.</li>
+        <li><strong>Health:</strong> disease control, treatments, mental health, diet, fitness.</li>
+        <li><strong>Safety:</strong> environmental protection, accident prevention, self-driving cars, traffic flow, vehicle safety.</li>
+      </ul>
+      <p><strong>Reminder:</strong> data has <em>potential</em> value at rest, but it only <em>produces</em> value when it is used.</p>
+    </section>
+
+    <section class="card" aria-labelledby="roi-heading">
+      <p class="eyebrow">Quantitative Methods</p>
+      <h2 id="roi-heading">Value, ROI, and Net Present Value</h2>
+      <p><strong>Value = benefits &minus; cost.</strong> Cost can be money, time, wear and tear &mdash; anything you must give up to act.</p>
+      <p><strong>Return on investment</strong> is the net gain as a percentage of the amount invested:</p>
+      <p><code>ROI = ((benefits &minus; cost) / cost) &times; 100%</code></p>
+      <p>ROI applies to financial, medical, and mission endeavors alike, and it is the standard way to compare competing improvement opportunities when you cannot fund them all.</p>
+
+      <h3>Discounting: the time value of money</h3>
+      <p>For anything longer than a year, use discounted values for cost and revenue. The assumption is that money should always be working &mdash; uninvested money loses value. The <strong>annual discount rate</strong> varies by industry.</p>
+      <ul>
+        <li>At a 5% annual return, $100 paid one year from now is worth $100 / 1.05 &asymp; <strong>$95 today</strong>.</li>
+        <li>Future dollars are worth less today &mdash; this is the <strong>net present value (NPV)</strong>.</li>
+      </ul>
+
+      <h3>Lottery example</h3>
+      <p>A &ldquo;$1,000,000 jackpot&rdquo; paid as $100,000 today plus $100,000 per year for 9 more years is <strong>not</strong> worth $1,000,000. At a 10% discount rate it is worth about <strong>$675,000 today</strong>. Annuity-buying companies compute exactly this, then offer you the discounted value minus their profit.</p>
+
+      <h3>Excel formulas</h3>
+      <ul>
+        <li><code>NPV(rate, value1, value2, ...)</code> &mdash; use when payments differ; list each future payment. Add the immediate payment separately.</li>
+        <li><code>PV(rate, nper, pmt, 0)</code> &mdash; use when all payments are equal; no need to list each one. The trailing <code>0</code> excludes the immediate first payment.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="scenarios-heading">
+      <p class="eyebrow">Worked Example</p>
+      <h2 id="scenarios-heading">Timing Changes ROI: SPOT Reference Data Project</h2>
+      <p>A not-for-profit has inconsistent reference tables across operating units, causing costly erroneous shipments. The proposed fix is a <strong>single point of truth (SPOT)</strong> corporate reference &mdash; master data. Implementation takes 4 years: total cost $120,000, total benefit $160,000.</p>
+      <p>Simple ROI, ignoring time: ($160,000 &minus; $120,000) / $120,000 = <strong>33%</strong> in every scenario. But timing changes everything (5% annual discount rate). Costs and benefits by year, in thousands of dollars:</p>
+      <ul>
+        <li><strong>Scenario 1</strong> &mdash; costs 45, 35, 25, 15; benefits 10, 20, 40, 90. NPV ROI = <strong>26%</strong></li>
+        <li><strong>Scenario 2</strong> &mdash; costs 45, 35, 25, 15; benefits 90, 40, 20, 10. NPV ROI = <strong>36%</strong></li>
+        <li><strong>Scenario 3</strong> &mdash; costs 15, 25, 35, 45; benefits 90, 40, 20, 10. NPV ROI = <strong>40%</strong></li>
+      </ul>
+      <p><strong>Interpretation:</strong> Scenario 1 is worst &mdash; high costs now, benefits far out (and therefore discounted). Scenario 3 is best &mdash; benefits now, costs pushed into cheaper future dollars. Scenario 2 tracks close to the naive 33% because costs and benefits move together.</p>
+    </section>
+
+    <section class="card" aria-labelledby="business-case-heading">
+      <p class="eyebrow">Professional Practice</p>
+      <h2 id="business-case-heading">Making the Business Case for Information Quality</h2>
+      <p>The prevailing view treats IQ as <strong>janitorial work</strong> &mdash; cleaning up dirty data, a pure expense. The business case reframes it as an <strong>investment</strong> that returns more than it costs.</p>
+      <ul>
+        <li>Argues that the IQ improvement will succeed and create value.</li>
+        <li>Shifts perception from added expense to investment.</li>
+        <li>Gains management support, which unlocks the resources a project needs to succeed.</li>
+        <li>Must align explicitly with organizational goals and objectives &mdash; for businesses, healthcare, government, and nonprofits alike.</li>
+      </ul>
+      <h3>Consider all the factors</h3>
+      <ul>
+        <li>Time required, and whether the benefit is short-term or long-term.</li>
+        <li>Risk of failure &mdash; could the project return nothing?</li>
+        <li>Resource availability: right people in the right roles, IT infrastructure, data experts, project leaders.</li>
+        <li>Visibility &mdash; will people see and understand the results? IQ practitioners rarely blow their own horn.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="context-heading">
+      <p class="eyebrow">Framework</p>
+      <h2 id="context-heading">The Information Quality Context</h2>
+      <p>Any data issue has four components, not one. Data alone is never the whole picture:</p>
+      <ol>
+        <li><strong>Data</strong> &mdash; what is in it, and which items matter most. <strong>Critical data elements (CDEs)</strong> are identified by asking what would happen to the process or organization if that element disappeared, and what recovery would cost.</li>
+        <li><strong>People</strong> &mdash; those who use, manipulate, and manage the data. Many IQ issues are people issues, which is why the program includes a Project and Change Management course.</li>
+        <li><strong>Process</strong> &mdash; how data is transformed into a product or service.</li>
+        <li><strong>Technology</strong> &mdash; the specific tools (IBM, Informatica, SAP) that execute those processes, with different efficiencies for different work.</li>
+      </ol>
+    </section>
+
+    <section class="card" aria-labelledby="matrix-heading">
+      <p class="eyebrow">Decision Tool</p>
+      <h2 id="matrix-heading">Cost-Benefit Matrix</h2>
+      <p>Plot each opportunity on a two-dimensional matrix: benefit on the y-axis, cost on the x-axis. Ranking of the quadrants:</p>
+      <ol>
+        <li><strong>High benefit / low cost</strong> &mdash; first choice.</li>
+        <li><strong>High benefit / high cost</strong> &mdash; second choice; always chase the most benefit available.</li>
+        <li><strong>Low benefit / low cost</strong> &mdash; third choice; easy but small.</li>
+        <li><strong>Low benefit / high cost</strong> &mdash; last choice, though still net positive.</li>
+      </ol>
+      <p>Benefits can mean increased revenue, lower operational cost, or avoided fines and penalties. Costs can mean additional software or personnel.</p>
+    </section>
+
+    <section class="card" aria-labelledby="quantitative-heading">
+      <p class="eyebrow">Worked Example</p>
+      <h2 id="quantitative-heading">Qualitative vs. Quantitative Justification</h2>
+      <p><strong>Qualitative (weak):</strong> &ldquo;Project A will improve information product X, which will increase customer satisfaction.&rdquo; No numbers, so management just sees a spending request.</p>
+      <p><strong>Quantitative (strong):</strong> the same project, expressed as measurable dollars:</p>
+      <ul>
+        <li>Expected improvement: customer retention up 10% per year.</li>
+        <li>Cost to acquire a new customer (advertising, onboarding): $1,200.</li>
+        <li>Cost to service an existing customer per year: $400.</li>
+        <li>Current customer base: 2,000.</li>
+      </ul>
+      <p><code>2,000 &times; 10% &times; ($1,200 &minus; $400) = $160,000 per year</code></p>
+      <p>Any project cost below $160,000 is a winning formula. In business this write-up is called a <strong>pro forma</strong>: show the money coming back over time, even if the inputs are estimates.</p>
+    </section>
+
+    <section class="card" aria-labelledby="lifecycle-heading">
+      <p class="eyebrow">Framework</p>
+      <h2 id="lifecycle-heading">POSMAD: The Information Life Cycle</h2>
+      <p>All data has a life cycle, but lengths vary wildly: stock quotes last seconds; a date of birth stays valid for as long as the person is a customer or patient. Danette McGilvra&rsquo;s <em>Executing Data Quality Projects</em> gives the mnemonic <strong>POSMAD</strong>:</p>
+      <ol>
+        <li><strong>Plan</strong> &mdash; do we even need this information? What will it cost? Compile it ourselves, buy it, or lease it? Check <strong>use restrictions</strong> on licensed data (marketing-only data cannot become permanent reference data). Request vendor samples (e.g., specific ZIP codes) to compare quality and quantity across vendors.</li>
+        <li><strong>Obtain</strong> &mdash; create/compile or acquire. Compiling example: 2,000 U.S. telephone directories were unbound, shipped overseas, and double-keyed by two independent operators with a third resolving discrepancies &mdash; near-100% keying accuracy. Loading is expensive: 825 employees at Acxiom did nothing but inspect incoming files, identify fields, and map them to the standard format.</li>
+        <li><strong>Store &amp; share</strong> &mdash; design storage and access. A double-edged sword: unused data creates no value, but over-sharing creates leakage risk.</li>
+        <li><strong>Maintain</strong> &mdash; keep it current (people move, phones and emails change). Common operations: parsing (splitting a name into first/middle/last/suffix), standardization (postal abbreviations like ST for Street), enhancement (e.g., gender inference from names), <strong>deduplication</strong> and merging (Bill Smith vs. William Smith; merging patient encounters into a single medical chart).</li>
+        <li><strong>Apply</strong> &mdash; build the information product or service that creates value.</li>
+        <li><strong>Dispose</strong> &mdash; archive or destroy. Some regulations require retention for 7 years <em>and</em> destruction afterward.</li>
+      </ol>
+      <p><strong>The key insight:</strong> all six phases cost money, but only <strong>Apply</strong> produces benefit. The apply phase must carry all the others &mdash; which is exactly why the business case must show positive ROI.</p>
+      <p><strong>Not linear:</strong> Plan and Obtain come first, but Maintain and Apply run in a continuous cycle &mdash; monthly data feeds arriving while a website serves users in real time.</p>
+    </section>
+
+    <section class="card" aria-labelledby="unstructured-heading">
+      <p class="eyebrow">Emerging Topics</p>
+      <h2 id="unstructured-heading">Unstructured Data &amp; LLM Extraction</h2>
+      <p>Telephone directories are <em>semi-structured</em>; corporate action filings are <em>unstructured</em> narrative forms describing ownership changes with no fields to parse. Extracting &ldquo;who bought whom, and when&rdquo; historically required a human reader.</p>
+      <ul>
+        <li>LLMs can now read documents and extract structured information &mdash; one of the major current applications of AI in data quality.</li>
+        <li>Extends to audio (speech-to-text captions, as in this recording) and images (OCR, object detection).</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="unique-resource-heading">
+      <p class="eyebrow">Core Concept</p>
+      <h2 id="unique-resource-heading">Information Is a Unique Resource</h2>
+      <p>The manufacturing analogy is useful &mdash; raw data in, processing machinery, finished information product &mdash; but it breaks down in two places:</p>
+      <ol>
+        <li><strong>Tolerances are not intuitive.</strong> In manufacturing, diameter, tensile strength, and weight are physical and understandable. Data quality dimensions like <em>timeliness</em> are far less obvious.</li>
+        <li><strong>Raw material is not consumed.</strong> Steel is used up building cars; data can be copied and reused infinitely.
+          <ul>
+            <li><strong>Upside:</strong> marginal value increases with use &mdash; acquire once, sell copies many times.</li>
+            <li><strong>Downside:</strong> copies of bad data are bad data, replicated everywhere. Spilled oil can be cleaned up; spilled data can never be recalled.</li>
+          </ul>
+        </li>
+      </ol>
+      <p><strong>Data is non-fungible.</strong> One barrel of a given crude is interchangeable with another; barrels have no identity. Data describes entities &mdash; customers, patients, products &mdash; that are unique and separately identifiable, so records are not interchangeable.</p>
+    </section>
+
+    <section class="meeting-nav" aria-labelledby="action-items-heading">
+      <h2 id="action-items-heading">Action Items</h2>
+      <ol>
+        <li>Download the 1,000-record file from the Blackboard <em>Resources</em> folder and begin exploring it</li>
+        <li>Install and start experimenting with OpenRefine ahead of the first lab</li>
+        <li>Practice an ROI calculation with and without net present value (Excel <code>NPV</code> and <code>PV</code>) &mdash; an exercise like the scenario table is coming</li>
+        <li>Be able to explain the two paths from information to value, and why a data anomaly is not automatically a business problem</li>
+        <li>Memorize POSMAD and know which phase produces benefit</li>
+        <li>Continue reading <em>Journey to Data Quality</em> (Blackboard Resources)</li>
+      </ol>
+      <p>Previous session: <a href="2026-08-27.html">August 27 &mdash; Information Quality Principles &amp; Domains</a></p>
+      <p>Applied practice: <a href="applied/value-vs-janitorial-reporting.html">From Janitorial Metrics to Value Framing</a></p>
+    </section>
+  </main>
+  <script src="../../scripts/site-nav.js"></script>
+</body>
+</html>
