@@ -1,0 +1,2386 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.399
+John Talburt: Plus… Thank you.
+
+2
+00:00:04.250 --> 00:00:10.000
+John Talburt: Okay, so a couple of things. First of all, we're having, some problems with scheduling.
+
+3
+00:00:10.280 --> 00:00:11.760
+John Talburt: So,
+
+4
+00:00:12.300 --> 00:00:24.169
+John Talburt: Until I give you further notice, we're going to have all of our classes online, okay? So our Monday… I'm sorry, Tuesday and Thursday will all be online until we can find another room.
+
+5
+00:00:24.350 --> 00:00:27.669
+John Talburt: We've got a collision here with another class.
+
+6
+00:00:27.910 --> 00:00:31.600
+John Talburt: And I need to get another room that has these webcasting facilities.
+
+7
+00:00:31.760 --> 00:00:37.350
+John Talburt: So… So, I'll let you know when it's time to come back in person, okay?
+
+8
+00:00:37.560 --> 00:00:40.970
+John Talburt: Of course, that doesn't impact the rest of you who are already online.
+
+9
+00:00:41.140 --> 00:00:44.540
+John Talburt: But, anyway, hope to have that resolved soon.
+
+10
+00:00:44.940 --> 00:00:54.520
+John Talburt: Also, we're going to be shifting a little today. I'm going to give another lecture. We're going to talk about data information quality value and business impact.
+
+11
+00:00:54.650 --> 00:00:58.100
+John Talburt: But we're also going to start having some labs along with the course.
+
+12
+00:00:58.410 --> 00:01:04.840
+John Talburt: And, If you want a little bit of a preview, if you go to the resources.
+
+13
+00:01:05.209 --> 00:01:07.710
+John Talburt: One of the first,
+
+14
+00:01:08.500 --> 00:01:10.530
+John Talburt: Things that we're going to look at.
+
+15
+00:01:11.910 --> 00:01:23.450
+John Talburt: If you want to start… In the resources folder, gonna move this over here.
+
+16
+00:01:23.850 --> 00:01:26.939
+John Talburt: So everybody can see it in the resources folder.
+
+17
+00:01:33.890 --> 00:01:35.219
+John Talburt: I'll get it open.
+
+18
+00:01:41.050 --> 00:01:51.270
+John Talburt: You'll see, of course, there's your book, or textbook you need for this assignment, but in our next assignment, we're going to be using this file. So there's a file out there with a thousand records.
+
+19
+00:01:51.420 --> 00:01:55.680
+John Talburt: And we're going to be investigating that file, looking for…
+
+20
+00:01:55.880 --> 00:02:00.090
+John Talburt: Data and information quality issues related to that pile.
+
+21
+00:02:00.700 --> 00:02:05.909
+John Talburt: So, if you want to start playing a little bit on your own. We're also going to start using a tool
+
+22
+00:02:06.430 --> 00:02:08.889
+John Talburt: called Open Refine.
+
+23
+00:02:09.270 --> 00:02:19.649
+John Talburt: And it'll be one of several tools that we'll be using in our labs, but we're going to start with Open Refined. Hopefully, we'll work up to a little bit of Agentic AI for this class.
+
+24
+00:02:20.340 --> 00:02:22.489
+John Talburt: So, with that…
+
+25
+00:02:23.440 --> 00:02:28.950
+John Talburt: Let's continue the lecture. So last time, we talked about the seven Principles of information quality.
+
+26
+00:02:29.310 --> 00:02:39.380
+John Talburt: And the differentiation between… that I make, anyway, and in this program, we make a differentiation between information quality and data quality.
+
+27
+00:02:39.510 --> 00:02:44.499
+John Talburt: Data quality, basically, is do data meet data requirements?
+
+28
+00:02:44.830 --> 00:02:51.659
+John Talburt: And so, we're looking at the condition of the data. But, as I mentioned earlier.
+
+29
+00:02:52.030 --> 00:02:57.519
+John Talburt: You can have data that's in really good condition, it's meeting all the requirements you set for.
+
+30
+00:02:57.660 --> 00:03:03.820
+John Talburt: But when you use that data to build an information product or service.
+
+31
+00:03:03.960 --> 00:03:13.589
+John Talburt: It's not necessarily a quality product or service if it doesn't fit the needs, fill the needs of the users of that information, product, or service.
+
+32
+00:03:14.080 --> 00:03:18.090
+John Talburt: So, again, as Tom Redman likes to say.
+
+33
+00:03:18.350 --> 00:03:26.850
+John Talburt: Is the data right? In other words, does the data fit your requirements? But is it the right data for what you're trying to do?
+
+34
+00:03:27.150 --> 00:03:31.829
+John Talburt: So we're gonna investigate both of those for the file that, just put out there.
+
+35
+00:03:32.070 --> 00:03:36.760
+John Talburt: So, anyway, we talked about those principles, and…
+
+36
+00:03:37.270 --> 00:03:42.090
+John Talburt: Again, in our definition of information quality, the key term
+
+37
+00:03:42.370 --> 00:03:52.509
+John Talburt: is value. So, what we're trying to do is we're trying to maximize value, minimize risk for the data assets that are in an organization.
+
+38
+00:03:52.640 --> 00:03:57.199
+John Talburt: And at the same time, we're trying to produce value for the users of that information.
+
+39
+00:03:57.800 --> 00:04:01.080
+John Talburt: So, it's really all about value.
+
+40
+00:04:01.390 --> 00:04:08.620
+John Talburt: And of course, along with that, as I mentioned, Annette McGilvery likes to use the term trust, but those go hand in hand, right?
+
+41
+00:04:08.740 --> 00:04:10.910
+John Talburt: If you, if you have,
+
+42
+00:04:11.350 --> 00:04:28.710
+John Talburt: an information product or service that's producing value for you, then you… you need to be able to trust that in order for… if it's producing value, it gives you trust. If you trust it, it helps you produce value. So, they kind of go hand in hand, but we're going with the value proposition.
+
+43
+00:04:29.250 --> 00:04:33.679
+John Talburt: So, so let's talk a little bit, then, about the value.
+
+44
+00:04:35.850 --> 00:04:39.679
+John Talburt: And so, as I just mentioned, information quality
+
+45
+00:04:39.900 --> 00:04:42.859
+John Talburt: It's about relating information to value.
+
+46
+00:04:43.360 --> 00:04:45.890
+John Talburt: And again, this is our,
+
+47
+00:04:46.530 --> 00:04:57.789
+John Talburt: Definition that we use, maximizing the value of an organization's information assets, and making sure that the information products and services are valuable to the people that use them.
+
+48
+00:04:58.580 --> 00:05:04.450
+John Talburt: So, there's a couple of ways to relate information to value.
+
+49
+00:05:04.980 --> 00:05:06.860
+John Talburt: And…
+
+50
+00:05:07.180 --> 00:05:23.579
+John Talburt: I like to use pictures for this. So, in any organization, you're going to have all info… I think it's virtually true that every organization that I can think of uses data. So there's some use of data in any organization.
+
+51
+00:05:23.970 --> 00:05:27.970
+John Talburt: And any organization is going to have some kind of problems.
+
+52
+00:05:28.780 --> 00:05:40.249
+John Talburt: But since generally there's an intersection there, it may be true that some problems are not related directly to data. Maybe they're cultural problems, they're having problems with communication.
+
+53
+00:05:40.360 --> 00:05:47.410
+John Talburt: But in general, we… what we're looking for is the intersection between business problems
+
+54
+00:05:47.450 --> 00:06:03.389
+John Talburt: And the data that's running the business, or the… I say business, but it could be an organization, right? We talked about the three value propositions. There's for-profit, that would be a business. But there's also quality of life, like in a hospital or research center.
+
+55
+00:06:03.450 --> 00:06:16.379
+John Talburt: And then there's also mission accomplishment. So, I want to talk generally about organizations and their value. So, the value might be not necessarily money, but it could be in accomplishing their given mission.
+
+56
+00:06:16.670 --> 00:06:23.750
+John Talburt: But anyway, so what we want to investigate is… say you go into an organization, you're graduating, you're now…
+
+57
+00:06:23.930 --> 00:06:27.449
+John Talburt: Data quality analyst, and you've been hired by this company.
+
+58
+00:06:27.720 --> 00:06:34.720
+John Talburt: And so, they're having problems, so… so the first step is this.
+
+59
+00:06:35.240 --> 00:06:43.739
+John Talburt: We need to understand what's the intersection between the data and those problems, and so this gives us two ways to go about it.
+
+60
+00:06:44.110 --> 00:06:49.070
+John Talburt: So one way is that we can start with a business issue.
+
+61
+00:06:49.320 --> 00:06:55.620
+John Talburt: Okay, every organization has some kind of an issue that it's facing. Then the first step would be
+
+62
+00:06:56.160 --> 00:07:03.060
+John Talburt: does… is it related to the data in the organization? And it may not be, but oftentimes that it is.
+
+63
+00:07:03.430 --> 00:07:17.159
+John Talburt: So… so one way to start is you go to the managers, you go to the executives, and they know, okay, we're having this problem, we're not getting our invoices out.
+
+64
+00:07:17.160 --> 00:07:26.800
+John Talburt: to the customers properly, or we're not getting payments, we're, we're not… we have a problem retaining customers. We have some kind of a business issue.
+
+65
+00:07:27.070 --> 00:07:28.100
+John Talburt: then…
+
+66
+00:07:28.240 --> 00:07:37.200
+John Talburt: the next step would be to look, and is there a cause, is there a root cause of this problem in the data? Is something in the data causing this?
+
+67
+00:07:37.370 --> 00:07:45.899
+John Talburt: Once I know that, then I can improve the data quality, right? So again, we're making the distinction between information quality and data quality.
+
+68
+00:07:46.410 --> 00:07:52.129
+John Talburt: There's something wrong with the condition of it's not meeting the requirements that are needed to produce.
+
+69
+00:07:52.340 --> 00:07:56.160
+John Talburt: To solve the problem that we're having.
+
+70
+00:07:56.300 --> 00:08:02.069
+John Talburt: If it's the invoicing, maybe the addresses are wrong, maybe they're out of date, maybe they're incomplete.
+
+71
+00:08:03.210 --> 00:08:11.020
+John Talburt: So, once we investigate… we know it's related to data, and we investigate the quality of the data in terms of the meeting requirements.
+
+72
+00:08:11.250 --> 00:08:13.779
+John Talburt: Does it have all the information that we need?
+
+73
+00:08:14.010 --> 00:08:19.189
+John Talburt: Then, we can impr… once we improve that quality, we can improve the business results.
+
+74
+00:08:19.340 --> 00:08:26.300
+John Talburt: So, this is one way of looking at the issue, is starting with the business issue.
+
+75
+00:08:26.780 --> 00:08:35.430
+John Talburt: Seeing if it's related to data, solving the data problem, and then, hopefully addressing the business issue.
+
+76
+00:08:35.780 --> 00:08:38.589
+John Talburt: That's one way to do it. The other way to do it
+
+77
+00:08:40.520 --> 00:08:45.130
+John Talburt: is we start with a data quality assessment. In other words, we go in, you're new.
+
+78
+00:08:45.490 --> 00:09:00.329
+John Talburt: nobody's given you any predictor problem yet, but you look at all the data systems that are running, and you say, okay, well, what's the condition of the data? Do we have data quality requirements for the data? Are the data really meeting those requirements?
+
+79
+00:09:00.530 --> 00:09:08.210
+John Talburt: So you could start with the data quality assessment and say, are the data really meeting the requirements that we've set for the data?
+
+80
+00:09:08.770 --> 00:09:14.090
+John Talburt: And if we discover that there are data quality issues, that is.
+
+81
+00:09:14.250 --> 00:09:18.459
+John Talburt: The data are not in alignment with our requirements.
+
+82
+00:09:18.740 --> 00:09:24.169
+John Talburt: Then we can address those, and then,
+
+83
+00:09:24.340 --> 00:09:32.889
+John Talburt: Well, first, then we say… this is very important, by the way, I didn't mean to skip this step. Once we find that there's some data quality anomalies.
+
+84
+00:09:33.440 --> 00:09:42.959
+John Talburt: That does not automatically mean that there's a business problem. I can guarantee you I can go into any organization that has a relational database system.
+
+85
+00:09:43.270 --> 00:09:47.869
+John Talburt: and find many tables that are completely null. There's nothing in them.
+
+86
+00:09:48.630 --> 00:10:03.270
+John Talburt: But it's not necessarily impacting the business because they're not using that data. They're not using those columns, okay? So, the very important step is once we discover that data has some kind of anomaly, it's not meeting requirements.
+
+87
+00:10:03.460 --> 00:10:08.810
+John Talburt: The next step is to determine then, is that having an impact on the business?
+
+88
+00:10:09.140 --> 00:10:11.450
+John Talburt: It's the opposite of what we said before.
+
+89
+00:10:11.890 --> 00:10:20.859
+John Talburt: Is bad data causing a problem with the business? And if it is, of course, then we can improve the data quality and improve our business results.
+
+90
+00:10:21.270 --> 00:10:25.590
+John Talburt: So this happens oftentimes in both ways.
+
+91
+00:10:25.850 --> 00:10:36.680
+John Talburt: In the old days, they used to say, when it was very data quality oriented, they would say, okay, we have all these data quality requirements, we go in and we assess all of our data.
+
+92
+00:10:36.690 --> 00:10:54.370
+John Talburt: But that can be very time-consuming and labor-intensive to go in and assess all the data when not necessarily you'll find… I mean, you may find problems, but even those data quality problems may not have any impact on the business or on the organization.
+
+93
+00:10:54.880 --> 00:10:56.230
+John Talburt: So,
+
+94
+00:10:56.820 --> 00:11:14.710
+John Talburt: I'm not advising you to go either in any particular way, it could work either way, but oftentimes it's most fruitful to start with a business impact, something that's going wrong with the organization that you can relate to data. Then that gives you a specific target of things to fix.
+
+95
+00:11:15.200 --> 00:11:19.669
+John Talburt: If you just go sweeping through the data looking for data quality problems.
+
+96
+00:11:19.810 --> 00:11:26.770
+John Talburt: That's good, but you want to hold back and not say, you know, well, we want all perfect data in our systems.
+
+97
+00:11:26.990 --> 00:11:37.880
+John Talburt: Because, again, making it perfect is not necessarily going to improve your business results if the data are not involved in the business or in some significant part of the business.
+
+98
+00:11:38.400 --> 00:11:41.860
+John Talburt: So, it's good to look at this, in both ways.
+
+99
+00:11:44.030 --> 00:11:53.270
+John Talburt: So, these are the two views of how to relate information to value.
+
+100
+00:11:53.660 --> 00:12:03.350
+John Talburt: Starting with a business problem that's related to data, that you can fix the data to improve the business, or you can look for defects in the data.
+
+101
+00:12:03.530 --> 00:12:09.580
+John Talburt: determine if those defects are impacting the business. If they are, you can fix them and improve business results.
+
+102
+00:12:10.820 --> 00:12:14.200
+John Talburt: So there's lots of places to find information valuable.
+
+103
+00:12:15.050 --> 00:12:20.360
+John Talburt: Obviously, we think often of financial, like the examples of the invoices going out.
+
+104
+00:12:20.490 --> 00:12:40.480
+John Talburt: But… and that can, affect, you know, operating costs, revenue, cash flow, charges, budget, compliance. This is a big area. Many organizations, have external, agencies that require them to comply to certain,
+
+105
+00:12:40.900 --> 00:12:53.030
+John Talburt: requirements. For example, we have that here at the university. We have to report everything into the Arkansas Department of Education. We're getting ready to make a big report now that,
+
+106
+00:12:53.200 --> 00:13:11.679
+John Talburt: we're… you see the final enrollments in our courses, we have to report all that. So we have a lot of regulation related to education. Certainly, that's true in medical, but especially in financial organizations, you have a lot of issues that have to be reported.
+
+107
+00:13:12.040 --> 00:13:16.919
+John Talburt: government, industry, privacy.
+
+108
+00:13:17.330 --> 00:13:21.909
+John Talburt: confidence, trust, so this, this gets back to the,
+
+109
+00:13:22.230 --> 00:13:24.950
+John Talburt: Issue, or not the issue, but the…
+
+110
+00:13:25.340 --> 00:13:30.670
+John Talburt: Danette McGilver is, that raises, that you're really trying to build
+
+111
+00:13:30.770 --> 00:13:33.829
+John Talburt: Trustworthy data in your organization.
+
+112
+00:13:34.180 --> 00:13:40.119
+John Talburt: People trust it. If they don't trust it, they won't use it, and if it's not used, it won't create any value.
+
+113
+00:13:40.230 --> 00:13:43.060
+John Talburt: So, as I mentioned last time.
+
+114
+00:13:44.200 --> 00:13:50.549
+John Talburt: You know, we say that, you have to be careful how you say it. I said it wrong to Doug Laney one time, is that
+
+115
+00:13:50.920 --> 00:13:58.830
+John Talburt: Data only produces value when it's used, okay?
+
+116
+00:14:00.230 --> 00:14:07.380
+John Talburt: And so the key word there is produce. Data has value even when you're not using it. It has potential value.
+
+117
+00:14:07.580 --> 00:14:11.660
+John Talburt: But the value is only realized when you actually use it for something.
+
+118
+00:14:12.140 --> 00:14:16.049
+John Talburt: Like, making decisions, or controlling systems.
+
+119
+00:14:16.740 --> 00:14:25.429
+John Talburt: Forecasting, that can be a very important thing that you do with data, as well as just general reporting. And then satisfaction, you know.
+
+120
+00:14:25.600 --> 00:14:31.040
+John Talburt: If you're using… you're in a business, especially where you have customers.
+
+121
+00:14:31.180 --> 00:14:36.880
+John Talburt: Then, you know, customers are at the top of the… Pyramid.
+
+122
+00:14:36.980 --> 00:14:45.439
+John Talburt: They need to be… if you want to be successful, you need to have good customer satisfaction, what they call customer experience.
+
+123
+00:14:45.820 --> 00:15:03.989
+John Talburt: And data has a lot to do with that, right? So, I don't know if you've had this experience of going into a website and trying to order something or buy something, and you go through a bunch of pages and things, and they ask you things that you don't know exactly how to answer. Maybe you have that experience with Workday trying to register.
+
+124
+00:15:04.260 --> 00:15:08.240
+John Talburt: I know I have a lot of bad experiences with work.
+
+125
+00:15:08.540 --> 00:15:16.169
+John Talburt: So, that's poor customer experience, or poor customer satisfaction. And oftentimes, that's related to data.
+
+126
+00:15:16.680 --> 00:15:21.450
+John Talburt: Suppliers, employees, so there are many ways that you can find
+
+127
+00:15:21.750 --> 00:15:26.070
+John Talburt: Inf… use information to create value.
+
+128
+00:15:26.280 --> 00:15:30.390
+John Talburt: As we mentioned, your risk, you want to minimize risk.
+
+129
+00:15:30.540 --> 00:15:33.710
+John Talburt: You want to meet all the regulatory requirements.
+
+130
+00:15:33.870 --> 00:15:36.380
+John Talburt: credit, investment.
+
+131
+00:15:36.790 --> 00:15:45.329
+John Talburt: Competitiveness, this is another thing that's sort of an intangible, but it's an extremely important value, is to be…
+
+132
+00:15:45.610 --> 00:15:53.059
+John Talburt: part of customer satisfaction. How are you competing with other organizations that are in your same field?
+
+133
+00:15:53.350 --> 00:15:57.410
+John Talburt: And again, data can have an important part in that.
+
+134
+00:15:57.910 --> 00:16:03.550
+John Talburt: Leakage. Of course, this is what a lot of people think about immediately when we think about risk.
+
+135
+00:16:04.140 --> 00:16:10.870
+John Talburt: is, we have sensitive data that gets out of our control, right?
+
+136
+00:16:11.890 --> 00:16:13.799
+John Talburt: Hackers get in still.
+
+137
+00:16:14.040 --> 00:16:17.500
+John Talburt: It was often said that there's two kinds of companies.
+
+138
+00:16:17.860 --> 00:16:26.260
+John Talburt: Those companies That have had their personality or customer information exposed, or hacked.
+
+139
+00:16:26.620 --> 00:16:29.050
+John Talburt: And those that don't know it yet.
+
+140
+00:16:29.590 --> 00:16:36.780
+John Talburt: That everybody, to some extent, has been hacked or leaked information that they wanted to keep private.
+
+141
+00:16:38.960 --> 00:16:44.950
+John Talburt: Productivity, we often think about now, in the age of AI, this is the key word, right?
+
+142
+00:16:45.860 --> 00:16:49.930
+John Talburt: We want to use these large language models
+
+143
+00:16:50.140 --> 00:17:07.180
+John Talburt: to improve our workflows through agents, right? So Agentic AI is the big thing right now. And agents are like little employees inside of the LLM that can do work, and so we can be potentially more productive through data.
+
+144
+00:17:07.550 --> 00:17:14.829
+John Talburt: Namely, through these, Large language models, which require some kind of contact, which is also data.
+
+145
+00:17:15.670 --> 00:17:21.830
+John Talburt: And then… Health, we talked about the other value propositions.
+
+146
+00:17:22.050 --> 00:17:28.750
+John Talburt: In healthcare disease control treatments, Mental, treatment, diet, fitness.
+
+147
+00:17:29.210 --> 00:17:33.349
+John Talburt: Safety, this is another big area, right? We're seeing a lot of that now.
+
+148
+00:17:33.540 --> 00:17:36.779
+John Talburt: And… and environmental protection.
+
+149
+00:17:36.900 --> 00:17:39.200
+John Talburt: safety issues.
+
+150
+00:17:39.320 --> 00:17:51.740
+John Talburt: Accident prevention. A lot of that goes along with now we have self-driving cars, we're trying to make things safer, we're trying to study traffic flows, we're trying to assess the safety of
+
+151
+00:17:51.950 --> 00:17:59.670
+John Talburt: of automobiles. So, everywhere you look, there's data involved, and you… if you're making the right
+
+152
+00:17:59.910 --> 00:18:07.379
+John Talburt: making that data into the right information, products, and services, you can create value. So there are many, many places to find it.
+
+153
+00:18:07.960 --> 00:18:12.899
+John Talburt: Now, So, just as an aside.
+
+154
+00:18:14.990 --> 00:18:23.950
+John Talburt: If value is a very simple formula, right? So, value is the difference Between benefits and cost.
+
+155
+00:18:25.230 --> 00:18:32.869
+John Talburt: So if I'm gonna undertake some enterprise, which is doing something, I'm gonna do something, there's some cost involved.
+
+156
+00:18:33.870 --> 00:18:36.390
+John Talburt: It could be money, it could be time.
+
+157
+00:18:36.620 --> 00:18:42.009
+John Talburt: Could be wear and tear, could be a lot of things. There's something you have to give
+
+158
+00:18:42.350 --> 00:18:54.360
+John Talburt: in terms of cost, to get some… to do your action, whatever it is you're trying to do. And the idea is that when you get finished doing it, like building a product, or…
+
+159
+00:18:54.530 --> 00:18:59.369
+John Talburt: You know, you're, you're gonna fix up your house, you're gonna do something.
+
+160
+00:18:59.670 --> 00:19:11.009
+John Talburt: It's gonna cost you something to do that, but the idea is you're gonna realize some benefit out of it. It'll give you some benefit. And of course, what we would like is for that benefit
+
+161
+00:19:11.360 --> 00:19:20.980
+John Talburt: the value of that, or that benefit, to be greater than the cost that it required to get that benefit, and that's what the value is. The value's the difference.
+
+162
+00:19:21.190 --> 00:19:27.009
+John Talburt: And so, we have a very simple formula for measuring that. We call it return on investment.
+
+163
+00:19:27.120 --> 00:19:40.459
+John Talburt: And it applies to all kinds of data issues, financial issues, medical issues, whatever endeavor that you'd want to think about, we can think of it in terms of return on investment.
+
+164
+00:19:40.790 --> 00:19:45.209
+John Talburt: And it's the net gain calculated as a percentage of the amount invested.
+
+165
+00:19:45.400 --> 00:19:57.029
+John Talburt: In other words, what was my gain that I got? How much were the benefits above the cost? And then divide that by the cost, and that gives me my return on investment.
+
+166
+00:19:57.490 --> 00:20:03.640
+John Talburt: So the return on investment expressed as a percentage, we multiply by 100 to get percentage.
+
+167
+00:20:03.760 --> 00:20:09.719
+John Talburt: Is the net gain divided by the cost that it took to get that net gain?
+
+168
+00:20:10.410 --> 00:20:18.540
+John Talburt: So, we always want that to be positive, right? So why would we want to do something? Invest time, money, all types of costs.
+
+169
+00:20:18.800 --> 00:20:30.919
+John Talburt: and get a benefit that was smaller than the cost that required to get that benefit. We always want the benefit to be larger than the cost to get the benefit, and that would be a positive ROI.
+
+170
+00:20:31.550 --> 00:20:32.870
+John Talburt: So,
+
+171
+00:20:33.120 --> 00:20:41.760
+John Talburt: And it's a good way to compare alternative opportunities. So, in business, we use the return on investment all the time, because typically we have
+
+172
+00:20:42.020 --> 00:21:00.320
+John Talburt: many opportunities to improve things, right? And we can't do everything at once, so we have to make decisions about, do we want to do Improvement A, or improvement B, or improvement C? And so one way to help evaluate is calculate the return on investments of each one of those opportunities.
+
+173
+00:21:01.170 --> 00:21:09.400
+John Talburt: So, also, if we're looking at anything long-term, Longer than a year.
+
+174
+00:21:09.740 --> 00:21:14.190
+John Talburt: Then we really should use discounted values for cost and revenue.
+
+175
+00:21:14.470 --> 00:21:16.570
+John Talburt: And so, what do we mean by that?
+
+176
+00:21:17.750 --> 00:21:22.240
+John Talburt: So, if I can get a 5% annual return on my investment.
+
+177
+00:21:23.210 --> 00:21:27.450
+John Talburt: What is today's present value of a $100 payment?
+
+178
+00:21:27.730 --> 00:21:30.150
+John Talburt: To me, one year from now, so…
+
+179
+00:21:31.240 --> 00:21:38.150
+John Talburt: The idea of an annual return on investment is that money should be working all the time.
+
+180
+00:21:38.720 --> 00:21:46.679
+John Talburt: Money shouldn't be setting idle in a… in a savings account. Well, not… that's not good… under your mattress at home.
+
+181
+00:21:46.900 --> 00:21:50.350
+John Talburt: Just sitting there, because money needs to be working.
+
+182
+00:21:50.420 --> 00:22:07.949
+John Talburt: You need to be investing it, so it's… so if we have some general idea of what the working value of money should be, in this case we're calling it annual return, say it's 5%. So the way to think about this, suppose that somebody says, okay, I'm going to pay you $100,
+
+183
+00:22:08.080 --> 00:22:11.119
+John Talburt: But I'm not gonna pay it until one year from now.
+
+184
+00:22:11.760 --> 00:22:13.690
+John Talburt: So the question becomes.
+
+185
+00:22:13.810 --> 00:22:19.470
+John Talburt: what's the value of $100 one year from now? So we have to back up and say, well.
+
+186
+00:22:19.580 --> 00:22:31.109
+John Talburt: what would I need to… how much money would I need today so that it would grow to $100 at a 5% interest rate? So that's a pretty easy one to solve.
+
+187
+00:22:31.520 --> 00:22:34.900
+John Talburt: You know, how much money do I need today
+
+188
+00:22:35.010 --> 00:22:41.890
+John Talburt: to have $100 at the end of one year. And of course, it's very easy to solve. We say, well, I've got,
+
+189
+00:22:42.740 --> 00:22:51.149
+John Talburt: the X that I'm looking for is the amount of money I need today, but… but that money plus 5% gain in that money
+
+190
+00:22:51.320 --> 00:22:55.219
+John Talburt: I want, in one year, to equal $100.
+
+191
+00:22:57.030 --> 00:22:59.759
+John Talburt: So, it's a simple algebraic formula.
+
+192
+00:23:00.100 --> 00:23:05.240
+John Talburt: I'm basically gonna take $100 and divide it by 1.05,
+
+193
+00:23:05.640 --> 00:23:10.610
+John Talburt: And so that tells me that, basically, $100 a year from now.
+
+194
+00:23:11.000 --> 00:23:18.959
+John Talburt: It's only worth $95 today if my annual growth of money is expected to be at least 5%.
+
+195
+00:23:19.120 --> 00:23:22.179
+John Talburt: Okay? So that's called the discounted value.
+
+196
+00:23:22.490 --> 00:23:30.210
+John Talburt: Another place where that comes in… well, we'll talk about that in a minute. So, we call that the net present value of money.
+
+197
+00:23:30.760 --> 00:23:45.100
+John Talburt: In other words, again, the basic assumption is that money should constantly be growing in value, and we call that the annual discount rate, like 5% in the previous example. And it will vary from industry to industry, or type of business.
+
+198
+00:23:45.380 --> 00:23:48.930
+John Talburt: But you should have some idea of the annual discount rate.
+
+199
+00:23:49.660 --> 00:23:54.790
+John Talburt: Because uninvested money loses value. Put the money in your,
+
+200
+00:23:55.160 --> 00:23:58.700
+John Talburt: Safety deposit box or under your mattress at home.
+
+201
+00:23:58.900 --> 00:24:08.640
+John Talburt: Then it's basically losing, because if you could, on the average, get 5% return, or even 3% return in a savings account.
+
+202
+00:24:08.750 --> 00:24:14.360
+John Talburt: That's where it should be, working and getting… and gaining money over time, or gaining value over time.
+
+203
+00:24:14.900 --> 00:24:19.600
+John Talburt: So, future dollars are worth less today, is the basic idea.
+
+204
+00:24:20.810 --> 00:24:25.899
+John Talburt: So here's where this comes up a lot. I don't know how many of you play the lotto or play the
+
+205
+00:24:26.600 --> 00:24:33.850
+John Talburt: These, jackpot prizes. But if you read the fine print, here's how it goes. Hey!
+
+206
+00:24:34.230 --> 00:24:43.570
+John Talburt: play the lotto, and if you win, you'll get a million dollars, okay? One million dollar jackpot prize. But then you read the fine print, and it says, but…
+
+207
+00:24:44.230 --> 00:24:54.120
+John Talburt: What happens, if you win the lotto, yes, we're gonna give you $100,000 today, And then $100,000
+
+208
+00:24:54.250 --> 00:24:56.469
+John Talburt: A year for 9 years.
+
+209
+00:24:56.960 --> 00:25:12.379
+John Talburt: $100,000 today, then another payment next year of $100,000, then the year after that, $100,000, and so forth. That's your… and so it's a million dollars, that's what they say. Well, it is, if you just look at it, but if you put time into it, it's not worth a million dollars.
+
+210
+00:25:13.650 --> 00:25:18.220
+John Talburt: Let's just suppose, for argument, that the discount rate is 10%.
+
+211
+00:25:18.690 --> 00:25:25.989
+John Talburt: Pretty high, but… Say that money could, in general, gain 10% a year in value.
+
+212
+00:25:26.280 --> 00:25:36.200
+John Talburt: Then that prize money, a million dollars, paid out like that over 9 years, Is only worth $675,000 today.
+
+213
+00:25:36.530 --> 00:25:47.589
+John Talburt: And that, by the way, there are many companies that are engaged in this, right? If you win one of these lotteries where they have that, where you're required to take the money out in payments.
+
+214
+00:25:47.860 --> 00:26:01.139
+John Talburt: Then there are many companies around that will come in and say, hey, I saw that you won this, we'll give you the cash today. And this is how they figure out how much cash to give you. So their business would be, say you won this.
+
+215
+00:26:01.220 --> 00:26:10.360
+John Talburt: I'd say, okay, well, don't worry, we'll give you $500,000 today, but you give us the annuity. In other words, you give us
+
+216
+00:26:10.450 --> 00:26:20.189
+John Talburt: Those 9 years of payments, and we'll take those payments, and we'll… but we'll give you, the discounted value minus some profit today.
+
+217
+00:26:23.430 --> 00:26:33.039
+John Talburt: So, by the way, there's, thank God for Excel, right? So, Excel has a nice formula for net present value that's called NPV.
+
+218
+00:26:33.770 --> 00:26:43.339
+John Talburt: And so what we can do is, we can do it this way. We can say, okay, the first $100,000 is $100,000 because I got it today.
+
+219
+00:26:44.190 --> 00:26:49.809
+John Talburt: But then I can say, I go into my Excel formula of NPV and say, okay.
+
+220
+00:26:50.080 --> 00:26:54.739
+John Talburt: My annual growth rate is 10%, so that's the 0.1.
+
+221
+00:26:55.080 --> 00:27:01.140
+John Talburt: And then I just followed that with a series of payments for each year, so there's $100,000 for the first
+
+222
+00:27:01.260 --> 00:27:03.250
+John Talburt: At the end of the second year.
+
+223
+00:27:03.520 --> 00:27:08.349
+John Talburt: The third year, fourth year, so there's 9 of those. I just plugged those into that formula.
+
+224
+00:27:08.520 --> 00:27:12.550
+John Talburt: And it comes out, that's how I get the $675,000.
+
+225
+00:27:12.680 --> 00:27:14.479
+John Talburt: The current value.
+
+226
+00:27:16.320 --> 00:27:35.070
+John Talburt: Then there's… that one is the one where if I have uneven payments, that I need to list what payment it is. But if all the payments are the same, like this, all the payments are the same amount, $100,000, I can use a different Excel formula called PV, present value, and I can just say this. I can say.
+
+227
+00:27:35.200 --> 00:27:42.570
+John Talburt: Okay, the discount rate is 10% again. There's 10 payments of $100,000.
+
+228
+00:27:42.730 --> 00:27:50.240
+John Talburt: And then the zero says that I don't count the first one. The first one is an immediate payment, just like in my previous formula.
+
+229
+00:27:50.370 --> 00:27:59.190
+John Talburt: And so, when I do that, I get the same result, but I don't have to list out each individual payment, because all the payments are the same.
+
+230
+00:28:03.390 --> 00:28:07.299
+John Talburt: Everybody on board with the present value of money?
+
+231
+00:28:08.090 --> 00:28:11.520
+John Talburt: Alright, so here's an example.
+
+232
+00:28:12.070 --> 00:28:15.460
+John Talburt: So, there's a not-for-profit company.
+
+233
+00:28:15.990 --> 00:28:27.600
+John Talburt: And they have a problem with inconsistent reference tables across their operating unit, and it's creating a real cost in correcting erroneous shipments all the time, because their reference tables are bad.
+
+234
+00:28:27.910 --> 00:28:34.149
+John Talburt: So, they have a solution. They want to set up a single point of truth, what we call master data.
+
+235
+00:28:34.390 --> 00:28:37.299
+John Talburt: Or SPOT, single point of truth.
+
+236
+00:28:37.690 --> 00:28:42.230
+John Talburt: Corporate reference, so that every… everybody uses the same reference data.
+
+237
+00:28:42.910 --> 00:28:50.840
+John Talburt: And they do some analysis, and the cost… it's gonna take 4 years to implement this fully. It's a very large company.
+
+238
+00:28:51.060 --> 00:28:55.429
+John Talburt: And it'll… the cost will be $120,000 a year.
+
+239
+00:28:56.290 --> 00:29:02.449
+John Talburt: The benefits over 4 years, are gonna be $160,000.
+
+240
+00:29:03.850 --> 00:29:23.209
+John Talburt: So, if I just look at that without bringing time into consideration, my benefit is I'm going to benefit $160,000, it's going to cost me $120,000, so if I just use my simple return on investment, I take the $160,000 minus the $120, that's my net benefit.
+
+241
+00:29:23.340 --> 00:29:29.960
+John Talburt: and divide that by the cost it takes to get it, and so I get a 33% return on my investment.
+
+242
+00:29:30.660 --> 00:29:36.549
+John Talburt: That's just looking at it without time value over 4 years. That's just saying.
+
+243
+00:29:37.070 --> 00:29:43.560
+John Talburt: money now, in the present. But let's look at… it'll become a little more complicated here.
+
+244
+00:29:45.000 --> 00:29:53.640
+John Talburt: Because that… the money that I spend, the cost, and the benefits that I get don't necessarily come in an even way.
+
+245
+00:29:53.810 --> 00:30:00.710
+John Talburt: So, for example, in one scenario, I have to spend right off the bat.
+
+246
+00:30:01.000 --> 00:30:07.410
+John Talburt: $45,000 in the first year, but it's only going to benefit me $10,000 in the first year.
+
+247
+00:30:08.260 --> 00:30:13.780
+John Talburt: But in the second year, I have to… I can get to spend less, 35,000.
+
+248
+00:30:13.990 --> 00:30:17.700
+John Talburt: And then the second year, I'll get a $20,000 benefit.
+
+249
+00:30:18.170 --> 00:30:30.009
+John Talburt: And then, in the third year, I'd only have to spend $25,000, and I get a $40,000 benefit, and in the fourth year, I only spend $15,000, and I get a $90,000 benefit.
+
+250
+00:30:30.460 --> 00:30:40.180
+John Talburt: That scenario is the same overall in that my total expenditures is $120, and my total benefit is $160.
+
+251
+00:30:40.570 --> 00:30:50.300
+John Talburt: But each… the pay… the benefit that I get each year and the costs that I have each year are not constant, okay?
+
+252
+00:30:50.800 --> 00:31:03.139
+John Talburt: And then I look at the second scenario, then it varies again, and I say, okay, well, my first year, I have to spend $45,000, but right away, I get a $90,000 benefit.
+
+253
+00:31:03.710 --> 00:31:08.839
+John Talburt: And then the next year, I spend $35,000, and I get a $40,000 benefit.
+
+254
+00:31:08.980 --> 00:31:13.100
+John Talburt: In this one, I'm seeing, I'm sort of getting… diminishing returns.
+
+255
+00:31:14.000 --> 00:31:29.730
+John Talburt: So, and then the third year, I spend $25 and I only get $20 back. In the third year… fourth year, I spend 15 and get $10 back. Again, overall, it's the same cost and benefit. That all adds up to $120,000 in cost.
+
+256
+00:31:30.060 --> 00:31:32.940
+John Talburt: And $160,000 in benefit.
+
+257
+00:31:33.320 --> 00:31:47.109
+John Talburt: And then finally, the third scenario is sort of the opposite. My costs are very low at the beginning, and my benefits are high, but it goes the other way. So, year one, it's $15,000 costs $90,000 benefit.
+
+258
+00:31:47.220 --> 00:31:56.839
+John Talburt: 25 in the next year of my cost, and then 40, so forth and so on. Again, all 3 of these scenarios are $120,000 in cost.
+
+259
+00:31:56.980 --> 00:32:01.819
+John Talburt: And, $160,000 in benefit, but…
+
+260
+00:32:02.100 --> 00:32:08.130
+John Talburt: the return on investment, because if I take present value into account.
+
+261
+00:32:09.770 --> 00:32:13.809
+John Talburt: then I can see this, that in Scenario 1,
+
+262
+00:32:14.020 --> 00:32:19.449
+John Talburt: Again, all the returns without using time are 33%.
+
+263
+00:32:20.080 --> 00:32:34.239
+John Talburt: But, if I take the net present value, they vary dramatically. So, in scenario one, my net present value for that project is only 26% return on investment.
+
+264
+00:32:35.150 --> 00:32:43.109
+John Talburt: Whereas in Scenario 2, it's a 36% return on investment. In Scenario 3, it's 40%.
+
+265
+00:32:43.490 --> 00:32:47.030
+John Talburt: And we can see the reason why, right? Look in Scenario 1.
+
+266
+00:32:47.060 --> 00:33:05.479
+John Talburt: most of my costs are closer in time. My high costs are now, and my benefits are farther out, and those benefits farther out are worthless to me now, when I'm planning this project. So, Scenario 1 has the lowest return on investment using net present value.
+
+267
+00:33:05.720 --> 00:33:11.290
+John Talburt: Because I have upfront costs and outs, and my benefits are farther out.
+
+268
+00:33:11.430 --> 00:33:16.620
+John Talburt: Which is exactly the opposite of Scenario 3, where I have my cost
+
+269
+00:33:16.810 --> 00:33:33.379
+John Talburt: come later, and so those costs are worth less now. They have less value now because they're farther out in time, but I'm getting my benefits now, early on in the early years. So that means now my return on investment is actually much larger. It's 40%.
+
+270
+00:33:33.810 --> 00:33:41.620
+John Talburt: Whereas, where they're pretty much even in Scenario 2, my costs, my benefits will pretty much go linearly and hand in hand.
+
+271
+00:33:41.810 --> 00:33:47.089
+John Talburt: It's very close to, the actual, if I did without time.
+
+272
+00:33:47.340 --> 00:33:54.630
+John Talburt: Without using time value, it's 33%. In Scenario 2, it's just 36%. So it's a little better.
+
+273
+00:33:55.300 --> 00:34:06.480
+John Talburt: So this gives you, then, the reason that in looking at any kind of a long-term project, you really need to look at the present value of money to get a good assessment of what's going on.
+
+274
+00:34:06.800 --> 00:34:11.310
+John Talburt: And this is all done assuming an annual discount rate of 5%.
+
+275
+00:34:15.030 --> 00:34:17.459
+John Talburt: Any questions or comments on them?
+
+276
+00:34:19.449 --> 00:34:23.020
+John Talburt: You'll have an exercise like that that you can be able to do.
+
+277
+00:34:23.650 --> 00:34:27.790
+John Talburt: So, making the business case for information quality.
+
+278
+00:34:28.750 --> 00:34:35.400
+John Talburt: So, it's really important to have that business case, right? Because if we think that information quality
+
+279
+00:34:35.560 --> 00:34:39.840
+John Talburt: I hope you think that, because it's part of our curriculum.
+
+280
+00:34:39.949 --> 00:34:47.870
+John Talburt: is value, then we need to make a business case for. We want to think of information quality
+
+281
+00:34:48.070 --> 00:35:02.790
+John Talburt: the way people think about it right now is it's just about cleaning up dirty data. It's just like the janitor has to come in and clean up the floor. There's no benefit, there's no value to it other than it's just something that needs to be done.
+
+282
+00:35:03.640 --> 00:35:18.529
+John Talburt: But we want to change that thinking to people that think about information quality and improving quality as an investment, right? Yeah, we're going to spend some money to do it, but the benefits that we get out of it are going to be larger than that cost.
+
+283
+00:35:18.810 --> 00:35:20.960
+John Talburt: So that's what a business case does.
+
+284
+00:35:21.590 --> 00:35:25.549
+John Talburt: It, it, it needs to be,
+
+285
+00:35:25.730 --> 00:35:29.310
+John Talburt: A way to say that information quality improvement
+
+286
+00:35:29.470 --> 00:35:32.169
+John Talburt: We'll be successful and create value.
+
+287
+00:35:32.440 --> 00:35:35.160
+John Talburt: And so, it will help you,
+
+288
+00:35:35.470 --> 00:35:44.310
+John Talburt: get people to thinking about information quality improvement as an investment, and not just an added expense. Because even though there's expense.
+
+289
+00:35:44.490 --> 00:35:47.589
+John Talburt: It will return back more value than it costs.
+
+290
+00:35:48.760 --> 00:35:51.660
+John Talburt: And that helps you gain support from management.
+
+291
+00:35:51.930 --> 00:35:57.479
+John Talburt: And that helps you get the resources you need to have a successful project, so they all work together.
+
+292
+00:35:58.700 --> 00:36:08.409
+John Talburt: So, in order to do that, you really need to, have… understand what are the business goals, or the organizational goals. I keep using business, I probably should change this.
+
+293
+00:36:08.510 --> 00:36:18.809
+John Talburt: Because, again, it's true for business, but it's also true for healthcare, it's true for government organizations, nonprofit organizations.
+
+294
+00:36:18.930 --> 00:36:22.080
+John Talburt: They have goals, they have things they're trying to accomplish.
+
+295
+00:36:22.380 --> 00:36:24.130
+John Talburt: And you need to align with that.
+
+296
+00:36:24.560 --> 00:36:28.110
+John Talburt: And so, you need to make a clear connection between
+
+297
+00:36:28.400 --> 00:36:35.759
+John Talburt: The information quality improvement, and achieving those business… those goals and objectives of the organization.
+
+298
+00:36:37.310 --> 00:36:42.990
+John Talburt: And in order to do that, and this is something I hope that you will take away from this course.
+
+299
+00:36:43.140 --> 00:36:51.150
+John Talburt: is what we call the information quality context. So again, it's not just about data. I mean, data's super important.
+
+300
+00:36:51.280 --> 00:36:55.710
+John Talburt: And we want to process data into some information product or service.
+
+301
+00:36:56.130 --> 00:37:02.100
+John Talburt: But in addition to the data, there are 3 other things that we have to be aware of and take into consideration.
+
+302
+00:37:02.480 --> 00:37:08.969
+John Talburt: In general, but also in particular in our business case. We have to understand The data, of course.
+
+303
+00:37:09.620 --> 00:37:17.649
+John Talburt: What's in it? What data items are the most important. We need to really understand the data we're using. But there are 3 other very important things.
+
+304
+00:37:18.370 --> 00:37:27.989
+John Talburt: Well, in understanding the data, one of the things we often look at is what are the critical data elements? Some… some elements of the data are more important than others.
+
+305
+00:37:28.130 --> 00:37:31.380
+John Talburt: And we call those CDEs, or Critical Data Elements.
+
+306
+00:37:31.980 --> 00:37:40.889
+John Talburt: And the way we can tell if something is critical is what would happen to our process or our business if that particular element was gone.
+
+307
+00:37:41.710 --> 00:37:47.330
+John Talburt: How would it impact our processes? How much would it cost to go recover that? And so forth.
+
+308
+00:37:47.600 --> 00:37:52.680
+John Talburt: But now, the other three things, besides the data, are the people.
+
+309
+00:37:54.350 --> 00:38:05.729
+John Talburt: The people that are using the data, the people that are manipulating the data, that are transforming the data into some product or service, we can't leave the people out.
+
+310
+00:38:06.140 --> 00:38:14.809
+John Talburt: Oftentimes, many of the issues that we have are people issues, right? It's the reason we have this course here called Project and Change Management.
+
+311
+00:38:15.170 --> 00:38:23.970
+John Talburt: Where change managers, about how do you change people's thinking about data and information and how it's being used.
+
+312
+00:38:24.120 --> 00:38:32.869
+John Talburt: So, in addition to the data, we also need to be very aware of the people that are processing the data, that are using the data, that are managing the data.
+
+313
+00:38:33.580 --> 00:38:39.739
+John Talburt: Also, what are the processes that are being used to transform the data into some product or service?
+
+314
+00:38:39.940 --> 00:38:42.159
+John Talburt: We need to understand those processes.
+
+315
+00:38:42.460 --> 00:38:47.609
+John Talburt: And then finally, we need to understand the technology, what particular software is being used.
+
+316
+00:38:47.920 --> 00:38:51.540
+John Talburt: Now, this is different than the process, right? We have a process
+
+317
+00:38:51.650 --> 00:38:54.060
+John Talburt: Of how we want to change the data.
+
+318
+00:38:54.200 --> 00:38:56.859
+John Talburt: But the tools that we use to change it
+
+319
+00:38:57.220 --> 00:39:13.499
+John Talburt: can vary, right? So we might be using IBM, we might be using Informatica, SAP, and they're… the way they execute processes are different, and some might be more efficient than others for particular types of processes that we're applying to the data.
+
+320
+00:39:14.090 --> 00:39:28.819
+John Talburt: So, we always need to keep in mind, in any data scenario, anything related to data, there's obviously the data we need to consider, but we also need to consider the processes, the technology, and the people that are involved.
+
+321
+00:39:29.220 --> 00:39:31.930
+John Talburt: Those are the four principal components.
+
+322
+00:39:32.070 --> 00:39:35.950
+John Talburt: Of the context of any, data issue.
+
+323
+00:39:37.710 --> 00:39:52.859
+John Talburt: And, as we said before, there may be lots of opportunities to make improvements in different ways. So again, this is where the ROI and the other thing, the business cases, come into consideration. Which one should we,
+
+324
+00:39:53.260 --> 00:40:00.169
+John Talburt: go after. We know that for each opportunity, it has some value, which is the benefits less the cost.
+
+325
+00:40:00.970 --> 00:40:08.359
+John Talburt: And again, benefits could mean a lot of things, increasing revenue, lowering operational costs, avoiding
+
+326
+00:40:08.650 --> 00:40:10.989
+John Talburt: Risk of fines and penalties.
+
+327
+00:40:11.170 --> 00:40:13.709
+John Talburt: And, cost might be mean…
+
+328
+00:40:13.930 --> 00:40:18.809
+John Talburt: additional software or additional personnel. So it could be lots of things.
+
+329
+00:40:19.050 --> 00:40:23.839
+John Talburt: But we try to gather those together and estimate those to weigh the alternatives.
+
+330
+00:40:25.770 --> 00:40:29.819
+John Talburt: And we often use what's called a cost-benefit matrix.
+
+331
+00:40:30.110 --> 00:40:37.760
+John Talburt: So, we're going to build a two-dimensional matrix where the vertical, the y-axis, represents the benefit
+
+332
+00:40:38.170 --> 00:40:42.080
+John Talburt: And the x-axis, or the horizontal axis, represents the cost.
+
+333
+00:40:42.580 --> 00:40:47.000
+John Talburt: And where we want to place these opportunities are in these quadrants.
+
+334
+00:40:47.430 --> 00:40:59.889
+John Talburt: So, the upper left quadrant, we place those opportunities that have a high benefit and a low cost. That means that would be our first choice, right? We can get a good benefit, but it doesn't cost us much to get it.
+
+335
+00:41:00.090 --> 00:41:02.519
+John Talburt: So those would be top-ranked ones.
+
+336
+00:41:03.600 --> 00:41:10.430
+John Talburt: The second ranked, we have a choice here. We could go down and say, well.
+
+337
+00:41:10.700 --> 00:41:20.640
+John Talburt: we… we want low cost, but we're not going to get so much benefit. But we always want to try to get the most benefit that we can. So really, our second choice is this quadrant.
+
+338
+00:41:20.930 --> 00:41:25.370
+John Talburt: This is where we get high benefit, but it costs us more to get that benefit.
+
+339
+00:41:25.870 --> 00:41:31.070
+John Talburt: But it's important, it's a second choice, because it's a high benefit overall.
+
+340
+00:41:31.450 --> 00:41:35.499
+John Talburt: Then our third choice would be here. This is where the benefit is lower.
+
+341
+00:41:35.660 --> 00:41:41.690
+John Talburt: But the cost is low, so this is an easy one in both in terms of cost and benefit.
+
+342
+00:41:41.800 --> 00:41:53.840
+John Talburt: And that would be our third choice. And then our last choice would be those that the overall benefit is not that great, and it's going to cost us quite a bit to get there, but we will get some positive benefit out of it.
+
+343
+00:41:54.130 --> 00:42:00.459
+John Talburt: So that would be our first choice. So this gives us a way to map out different opportunities that we have.
+
+344
+00:42:00.720 --> 00:42:02.949
+John Talburt: To create value with information.
+
+345
+00:42:05.490 --> 00:42:08.019
+John Talburt: But we want to write up a business case.
+
+346
+00:42:08.430 --> 00:42:19.399
+John Talburt: And qualitative measures are useful, but it also… but it's really important to try to include some quantitative financial justification. If it's about value.
+
+347
+00:42:20.120 --> 00:42:27.699
+John Talburt: Then we either need to show that we're gonna make more money out of it, or we're gonna have a lot more benefit for,
+
+348
+00:42:28.520 --> 00:42:30.550
+John Talburt: It's say it's medical.
+
+349
+00:42:31.110 --> 00:42:33.210
+John Talburt: torrible.
+
+350
+00:42:33.820 --> 00:42:47.299
+John Talburt: That it's gonna… it's gonna be very important in treating some disease or some condition, or if it's a mission incompetence, really gonna help us complete our mission in a much better way than we were doing it before.
+
+351
+00:42:47.510 --> 00:42:53.570
+John Talburt: So, we need some quantitative, how to express those quantitatively, if we can at all.
+
+352
+00:42:54.050 --> 00:42:56.969
+John Talburt: And so, then that…
+
+353
+00:42:57.670 --> 00:43:05.619
+John Talburt: Needs to clearly explain how the benefits of the project is going to exceed the cost that it requires to get that.
+
+354
+00:43:06.160 --> 00:43:20.000
+John Talburt: That is, the project will create value, so we want to sell that project to man. We want to say, this is an investment you need to make. It's not just a cost that we need to undertake, it's an investment in our organization.
+
+355
+00:43:21.150 --> 00:43:23.180
+John Talburt: So, here's an example.
+
+356
+00:43:25.870 --> 00:43:32.750
+John Talburt: qualitative type case would be to say, well, okay, we need to do Project A because it's going to improve
+
+357
+00:43:32.910 --> 00:43:40.160
+John Talburt: our information product, some X product, that… and that will increase customer satisfaction.
+
+358
+00:43:41.230 --> 00:43:47.290
+John Talburt: That's very qualitative, because there's no numbers there, there's no percentage, nothing, it just says.
+
+359
+00:43:47.650 --> 00:43:53.140
+John Talburt: This is a good thing to do. We need to improve that because it's going to make our customers happier.
+
+360
+00:43:53.620 --> 00:43:55.230
+John Talburt: Yeah, so we should do it.
+
+361
+00:43:55.540 --> 00:44:00.399
+John Talburt: Mmm, well, okay. So, you're wanting me to spend money for this, okay?
+
+362
+00:44:01.220 --> 00:44:05.220
+John Talburt: Whereas we look at it more, quantitatively.
+
+363
+00:44:05.370 --> 00:44:16.040
+John Talburt: Okay, so yeah, this project's gonna improve customer satisfaction, but in a way that we expect that it will increase customer retention by 10% a year.
+
+364
+00:44:16.510 --> 00:44:23.949
+John Talburt: In other words, we'll lose… we won't lose as many customers each year as we do now. We're going to improve that loss rate.
+
+365
+00:44:24.170 --> 00:44:26.390
+John Talburt: We're gonna reduce it.
+
+366
+00:44:26.590 --> 00:44:28.380
+John Talburt: So, by 10%,
+
+367
+00:44:28.780 --> 00:44:45.570
+John Talburt: And now the cost… and so this is something that accountants in a business are always going to know. They're going to say, well, we know the cost to acquire a new customer. We have to do advertising, we have to do onboarding, we have to do a lot of things to get the customer in to our customer base.
+
+368
+00:44:46.040 --> 00:44:49.729
+John Talburt: And we estimate that to cost $1,200 a customer.
+
+369
+00:44:49.870 --> 00:45:03.670
+John Talburt: For a new customer. However, to service and maintain an existing customer, to do their accounts, to do their billing, all that only costs us about $400 a year, okay?
+
+370
+00:45:03.890 --> 00:45:09.190
+John Talburt: So now, if I have 2,000 customers currently in my business.
+
+371
+00:45:09.370 --> 00:45:16.089
+John Talburt: then I can make a calculation of how… what would be the impact of having,
+
+372
+00:45:16.310 --> 00:45:21.020
+John Talburt: Increasing our customer retention by 10% a year.
+
+373
+00:45:21.760 --> 00:45:39.420
+John Talburt: So for 2,000 customers, I go through the formula. I've got 2,000 customers, I've got 10% retention, I've got the difference between, acquiring them and losing them is $800, right? $1,200 minus the $400.
+
+374
+00:45:39.580 --> 00:45:42.520
+John Talburt: That's $160,000 a year.
+
+375
+00:45:43.220 --> 00:45:46.039
+John Talburt: So, I can use that to say.
+
+376
+00:45:46.220 --> 00:46:02.650
+John Talburt: Okay, if my cost of doing this, project is less than $160,000, then this is a winning formula, right? Because I can say, well, we're going to spend $50,000 to do this, but we're going to get $160,000 back.
+
+377
+00:46:05.990 --> 00:46:12.650
+John Talburt: So, again, the point of this is it's important, even though we're making estimates, or guesstimates sometimes.
+
+378
+00:46:13.000 --> 00:46:26.229
+John Talburt: it's important to have the numbers there. And in business, they call this a pro forma, right? In other words, I'm going to start a new business, or I'm proposing a project. I prepare this and say, okay, over the years, over time.
+
+379
+00:46:26.500 --> 00:46:34.590
+John Talburt: How much am I going to be spending? What do I expect to get back? Show me the money. Show me the money that's going to come back to me by doing this.
+
+380
+00:46:35.890 --> 00:46:41.269
+John Talburt: So we consider all the factors. In addition to analyzing benefit and cost.
+
+381
+00:46:41.450 --> 00:46:44.259
+John Talburt: We need to think about how much time that will take.
+
+382
+00:46:44.760 --> 00:46:51.240
+John Talburt: Will it have a long-term benefit? Is it just something that's gonna be a short-term fix, or a long-term…
+
+383
+00:46:51.410 --> 00:46:59.129
+John Talburt: What's the risk of failing? Okay, we say we're going to do this project, but could it possibly fail and we not get any return on it?
+
+384
+00:46:59.790 --> 00:47:11.800
+John Talburt: And do we have the right resources to do it? Are there enough people in the right roles to carry out the project? Do we have the right IT structure, the right data experts, project leaders, so forth?
+
+385
+00:47:12.500 --> 00:47:20.300
+John Talburt: So, and then also, how visible would the project be? How will people really see the results and understand this?
+
+386
+00:47:20.640 --> 00:47:25.619
+John Talburt: And that's something we don't do a lot in information quality, sort of blow our own horn.
+
+387
+00:47:25.820 --> 00:47:28.899
+John Talburt: To say, you know, look what we were able to do for the company.
+
+388
+00:47:30.490 --> 00:47:33.370
+John Talburt: So that brings us down to,
+
+389
+00:47:34.900 --> 00:47:40.429
+John Talburt: Some of the characteristics of information, this was going to get us into our next, project.
+
+390
+00:47:40.770 --> 00:47:42.420
+John Talburt: Our next assignment.
+
+391
+00:47:43.090 --> 00:47:50.949
+John Talburt: So, the information life cycle. Now, so, information, just like everything, has a life cycle to it.
+
+392
+00:47:51.550 --> 00:47:56.140
+John Talburt: it starts out somewhere, we acquire the data.
+
+393
+00:47:56.280 --> 00:48:02.910
+John Talburt: We… we get it, we use it, and at some point, it's not useful to us anymore, okay?
+
+394
+00:48:03.160 --> 00:48:06.840
+John Talburt: And some data lasts longer than other data.
+
+395
+00:48:07.420 --> 00:48:14.110
+John Talburt: For example, We think about timeliness of Stock quotes, right?
+
+396
+00:48:15.540 --> 00:48:26.480
+John Talburt: stock quotes don't last for only a few seconds, right? Because they're changing constantly. So what good does it do for you to give me yesterday's stock quotes? That's not what the stock's worth today, right?
+
+397
+00:48:26.620 --> 00:48:29.789
+John Talburt: So the life cycle of stock quotes is very, very short.
+
+398
+00:48:30.620 --> 00:48:36.050
+John Talburt: Other information, like, You know, customer information.
+
+399
+00:48:36.220 --> 00:48:41.810
+John Talburt: We used to… I used to work at Axiom Corporation. We used to kid each other. We would buy a lot of information.
+
+400
+00:48:42.000 --> 00:48:45.979
+John Talburt: And we'd say, well, you know, how many times do we need to buy somebody's date of birth?
+
+401
+00:48:46.240 --> 00:48:48.160
+John Talburt: Well, it doesn't typically change.
+
+402
+00:48:48.610 --> 00:49:03.849
+John Talburt: So, that has a very long life cycle. As long as that person is potentially a customer or a patient, then their date of birth is a valuable piece of information that we can use to understand their age and other things about their…
+
+403
+00:49:04.160 --> 00:49:06.069
+John Talburt: About our customer.
+
+404
+00:49:06.490 --> 00:49:13.029
+John Talburt: So, so life cycle, all data has life cycle, but it varies in length, but it all has…
+
+405
+00:49:13.270 --> 00:49:16.430
+John Talburt: Certain characteristics or stages that it goes through.
+
+406
+00:49:17.200 --> 00:49:24.720
+John Talburt: The first part is to plan for the information, before we ever get the information. Is this the information that we even need?
+
+407
+00:49:25.160 --> 00:49:27.139
+John Talburt: Why are we getting this information?
+
+408
+00:49:27.420 --> 00:49:45.060
+John Talburt: And how much is it going to cost us to acquire the information? We think about how, okay, this is information that we want, or data that we want. How do we get it? Is it data that we're going to have to compile ourselves? Are we going to get it from other sources and have to transform it some way?
+
+409
+00:49:45.130 --> 00:49:52.900
+John Talburt: Are we going to lease it? Are we just going to borrow the data and lease it? A lot of the information we used at Action
+
+410
+00:49:53.040 --> 00:49:58.940
+John Talburt: was licensed information. Really, we didn't really buy it, we just leased it and used it.
+
+411
+00:49:59.070 --> 00:50:04.659
+John Talburt: And they kept giving us fresher and fresher information, over time, so it's like a service.
+
+412
+00:50:05.290 --> 00:50:13.039
+John Talburt: And then, once we get the information, we've got to do something with it. We've got to store it.
+
+413
+00:50:13.290 --> 00:50:15.529
+John Talburt: They're fuming, and
+
+414
+00:50:16.180 --> 00:50:20.699
+John Talburt: share it, right? People need… the people that need it need to have access to it.
+
+415
+00:50:20.810 --> 00:50:26.570
+John Talburt: So we have to figure out how we're going to store it, how we're going to make it available to the people that are going to be using it.
+
+416
+00:50:26.870 --> 00:50:32.280
+John Talburt: And then we have to maintain it. Generally, stock quotes aside.
+
+417
+00:50:32.460 --> 00:50:35.800
+John Talburt: If we're talking about, like, customer information.
+
+418
+00:50:36.790 --> 00:50:44.849
+John Talburt: People move, right? So, if we're going to contact them at their address, whether that's a physical address, or an email address.
+
+419
+00:50:44.990 --> 00:50:46.860
+John Talburt: Or some social tag.
+
+420
+00:50:46.990 --> 00:51:00.750
+John Talburt: or some phone number, those tend to change, right? And so to maintain that information, we need to keep up with that and be sure that we have the most current information that we need for whatever product or service that we're building.
+
+421
+00:51:01.110 --> 00:51:05.499
+John Talburt: So that's important. Then, of course, at some point, we want to use it.
+
+422
+00:51:05.970 --> 00:51:12.409
+John Talburt: We want to build some information product or service that's going to create that value that we're looking for.
+
+423
+00:51:12.790 --> 00:51:24.160
+John Talburt: And and then at some point, we're going to dispose. We won't need it anymore, right? We might want to archive it, or we might act… in some cases, we may be required to actually get rid of it, delete it.
+
+424
+00:51:24.300 --> 00:51:37.859
+John Talburt: certain financial information. The government says you must retain it for 7 years, but at the end of 7 years, you must destroy it. So, all of those are regulatory things we have to be aware of.
+
+425
+00:51:38.140 --> 00:51:41.559
+John Talburt: And you'll notice that there's 6 things here.
+
+426
+00:51:43.470 --> 00:51:48.250
+John Talburt: All 6 of those cost. There's cost involved with all of those.
+
+427
+00:51:49.150 --> 00:51:51.510
+John Talburt: However, only one of them
+
+428
+00:51:52.430 --> 00:52:03.220
+John Talburt: brings us back any benefit, any value. And that's the apply, right? Only when we get to the point that we're actually using that data for some purpose.
+
+429
+00:52:03.250 --> 00:52:12.750
+John Talburt: and getting some value out of it, we're getting some return on it. So that's a heavy burden to bear. The apply phase has to carry all other phases.
+
+430
+00:52:13.100 --> 00:52:23.220
+John Talburt: All other faces cost without giving us any benefit, but the apply is the only place we get benefit. So that's the reason, again, for a business case. We need to be very sure
+
+431
+00:52:23.370 --> 00:52:28.280
+John Talburt: That if we're going to undertake a project, involving data, that
+
+432
+00:52:28.500 --> 00:52:37.209
+John Talburt: that the return on investment is going to be positive, right? That we're going to get back more than it costs us to do all these things in the life cycle.
+
+433
+00:52:37.580 --> 00:52:42.319
+John Talburt: I like this one because I have a bad memory, and I can remember this. It's called POSMAD.
+
+434
+00:52:42.440 --> 00:52:43.620
+John Talburt: You take the…
+
+435
+00:52:43.800 --> 00:52:52.560
+John Talburt: first letters of each one of those, plan, obtain, store, maintain, apply, and dispose. POSMAT. And I borrowed that from
+
+436
+00:52:53.020 --> 00:53:01.830
+John Talburt: Danette McGilray, who's very big in the data quality field, she has a book out called Executing Data Quality Projects.
+
+437
+00:53:02.490 --> 00:53:04.610
+John Talburt: Very well regarded in the industry.
+
+438
+00:53:07.710 --> 00:53:22.000
+John Talburt: So again, it's not a linear process. Even though I listed them in order. If we look at it sort of in a two-dimensional way, certainly we start with planning and obtaining it till we get the data. But then, once we get there, we store it and share it.
+
+439
+00:53:22.210 --> 00:53:26.419
+John Talburt: Then maintaining and applying could be in a cycle, right?
+
+440
+00:53:26.600 --> 00:53:31.719
+John Talburt: So we need to be constantly maintaining the data, gross data requires some maintenance.
+
+441
+00:53:31.820 --> 00:53:34.850
+John Talburt: And then we're applying it periodically, right?
+
+442
+00:53:35.150 --> 00:53:42.200
+John Talburt: We're building every month, or we're standing up a website and people are using it in real time, 24 hours a day.
+
+443
+00:53:42.490 --> 00:53:50.560
+John Talburt: And applying where they're using that data that we're providing, and we're constantly maintaining. So it's not linear in that sense.
+
+444
+00:53:50.770 --> 00:53:54.310
+John Talburt: Although, at some point, then, we need to dispose of it, so…
+
+445
+00:53:54.580 --> 00:53:57.269
+John Talburt: The life cycle's not linear.
+
+446
+00:53:57.600 --> 00:54:05.049
+John Talburt: the costs, vary, and the application of the data vary, too. And actually, we could be getting
+
+447
+00:54:05.300 --> 00:54:15.160
+John Talburt: for example, at Action, we were getting data all the time. We planned for data, but then once we got a license, they would give us a feed every… typically every month, sometimes every week.
+
+448
+00:54:15.420 --> 00:54:24.300
+John Talburt: That would have to be stored, we'd have to maintain it, apply it constantly. So, this is a very cyclical, and not just a linear process.
+
+449
+00:54:25.990 --> 00:54:33.040
+John Talburt: And so again, I won't go into a lot of detail on all these, because we're close.
+
+450
+00:54:33.170 --> 00:54:40.169
+John Talburt: But, again, it's very important to prepare for getting data.
+
+451
+00:54:40.860 --> 00:54:49.889
+John Talburt: For example, again, using the Axiom example, a lot of the data that we would get, which was licensed data or, lease data.
+
+452
+00:54:50.320 --> 00:55:00.960
+John Talburt: had restrictions on it. We could only use it for certain things, so it didn't do us any good to pay $20,000 to get a data feed to create some kind of a index
+
+453
+00:55:01.170 --> 00:55:12.500
+John Talburt: that wasn't allowed for… in the data. The data could, for example, only be used for marketing. It couldn't be used, to build some kind of reference data that we would use over and over.
+
+454
+00:55:12.710 --> 00:55:18.489
+John Talburt: So, you have to be aware of what any restrictions that might be on the data in your planning.
+
+455
+00:55:18.620 --> 00:55:23.120
+John Talburt: And, you know, what's the condition? We would always ask vendors
+
+456
+00:55:23.310 --> 00:55:29.710
+John Talburt: to give us samples for certain zip codes. We were mostly using demographic data, name and address at that time.
+
+457
+00:55:29.930 --> 00:55:35.489
+John Talburt: And so we would say, okay, yeah, but okay, we're interested in buying this or leasing this data.
+
+458
+00:55:35.890 --> 00:55:39.170
+John Talburt: But we need a sample to see what's the quality of it.
+
+459
+00:55:39.280 --> 00:55:46.190
+John Talburt: So we had a list of certain zip codes, and we would say, okay, here's a list of zip… give us all the data you have for these zip codes.
+
+460
+00:55:46.300 --> 00:55:51.139
+John Talburt: And that would allow us to look and see, you know, what was the quantity compared to other vendors?
+
+461
+00:55:51.260 --> 00:55:59.889
+John Talburt: We could look at the data, see what the quality is, and compare vendors, and many vendors in the space selling this, or leasing this data.
+
+462
+00:56:00.040 --> 00:56:05.569
+John Talburt: So that, that gave us a way to plan and prepare and make a decision. And then,
+
+463
+00:56:06.060 --> 00:56:16.800
+John Talburt: We also get us ready, you know, to be prepared to receive it, so that if we had to design certain applications or processes to use it.
+
+464
+00:56:17.430 --> 00:56:22.540
+John Talburt: And again, as I mentioned, what are the limitations or restrictions on the use of it?
+
+465
+00:56:23.540 --> 00:56:25.580
+John Talburt: And then you actually obtain it.
+
+466
+00:56:26.200 --> 00:56:36.130
+John Talburt: And you're either going to create, or compiling is actually generating the data yourself, so that was another thing we often did. Even though we leased a lot of data.
+
+467
+00:56:36.710 --> 00:56:42.999
+John Talburt: We would compile some of our own data, and this was back in the day when people published telephone directories.
+
+468
+00:56:43.350 --> 00:56:49.649
+John Talburt: So we would take and buy… we bought about 2,000 telephone directories from all over the United States.
+
+469
+00:56:50.280 --> 00:56:56.769
+John Talburt: Took them to a book bindery, and they cut off the binding to make it all loose-leaf.
+
+470
+00:56:57.020 --> 00:57:03.430
+John Talburt: And we bundled all the loose-leaf pages of the telephone directory and shipped it to China.
+
+471
+00:57:03.820 --> 00:57:09.720
+John Talburt: And in China, there would be these young women from the countryside that would come into town.
+
+472
+00:57:10.100 --> 00:57:17.480
+John Talburt: And there would be these, companies that were set up with laptop computers, back in the old 286 days.
+
+473
+00:57:17.790 --> 00:57:23.350
+John Talburt: And they would give one operator a page of the directory.
+
+474
+00:57:23.770 --> 00:57:31.489
+John Talburt: And she would go in, and she didn't have to understand English, just that here's an A on the page, and here's an A on the keyboard.
+
+475
+00:57:31.640 --> 00:57:34.390
+John Talburt: Of typing in all of that information.
+
+476
+00:57:34.720 --> 00:57:41.649
+John Talburt: Then they would take the same page, go over to a second operator, let the second operator key in that page.
+
+477
+00:57:41.810 --> 00:57:55.149
+John Talburt: And then they would take the two keying operations and compare them, and that way they could… we could get almost 100% accuracy in the keying, because any discrepancy would go to a third person who would reconcile and get the correct values.
+
+478
+00:57:55.670 --> 00:58:02.930
+John Talburt: So, that's called compiling the… you're generating the information yourself.
+
+479
+00:58:03.190 --> 00:58:08.500
+John Talburt: We did that some, but we also bought or, leased or rented a lot of data.
+
+480
+00:58:09.460 --> 00:58:15.810
+John Talburt: and you have to load those files. This was another big issue that was very cost-intensive. When I left.
+
+481
+00:58:16.230 --> 00:58:24.359
+John Talburt: the company, there were 825 employees That their only job
+
+482
+00:58:24.620 --> 00:58:29.469
+John Talburt: was to take, in that case, it's mostly a tape reel, a reel of tape, or
+
+483
+00:58:30.060 --> 00:58:32.889
+John Talburt: In some cases, it's a digital file of data.
+
+484
+00:58:33.470 --> 00:58:37.310
+John Talburt: And inspect it, and to look and see
+
+485
+00:58:37.910 --> 00:58:43.609
+John Talburt: How… what were the fields in the data, and were they aligned properly?
+
+486
+00:58:43.980 --> 00:58:47.470
+John Talburt: Because in our operation.
+
+487
+00:58:47.630 --> 00:58:56.089
+John Talburt: however the data came in, it had to be mapped to a standard format, and so none of the data we were getting was already in that format.
+
+488
+00:58:56.200 --> 00:59:10.150
+John Talburt: So we… so somebody had to look at it, inspect it, make a decision of how they were going to transform the data from the way it was received into the standard format that we wanted to use. And we were getting much… lots and lots of data
+
+489
+00:59:10.150 --> 00:59:20.850
+John Talburt: So it took more than 800 people to do that job every day of getting those files, looking at them, how is it aligned, and how are they going to be transformed into the standard format.
+
+490
+00:59:24.880 --> 00:59:35.569
+John Talburt: And, and so basically, a lot of our compiling was, well, semi-structured, so telephone directories are semi-structured, they're not fully structured.
+
+491
+00:59:35.910 --> 00:59:44.749
+John Talburt: But then you have a lot of unstructured data documents, for example, one of the things we were interested in
+
+492
+00:59:45.680 --> 00:59:53.020
+John Talburt: were, corporate actions, and so the federal government requires corporations to file,
+
+493
+00:59:53.210 --> 00:59:57.290
+John Talburt: Documentation when there's some major change in their business.
+
+494
+00:59:57.730 --> 01:00:00.190
+John Talburt: Well, for example, change of ownership, or…
+
+495
+01:00:00.380 --> 01:00:08.820
+John Talburt: Things like that. Then they filed a certain form, but that form was a narrative form. It wasn't a fielded form.
+
+496
+01:00:09.150 --> 01:00:18.709
+John Talburt: you just wrote in what had happened, and you could describe it. So, getting the information of who bought whom, which company bought which other company, and when.
+
+497
+01:00:19.050 --> 01:00:24.650
+John Talburt: Out of that required reading that document somehow, and structuring that information.
+
+498
+01:00:24.770 --> 01:00:36.679
+John Talburt: So that is a big issue that we're having now, and that's one of the major applications we're using for AI now, because now large language models can read and understand
+
+499
+01:00:36.890 --> 01:00:47.210
+John Talburt: So rather than having a person try to read a document and pull out information, we can now use large language models to read that data and identify information and pull it out.
+
+500
+01:00:47.770 --> 01:00:52.670
+John Talburt: So that's one of the major applications that we have right now of large language models.
+
+501
+01:00:53.750 --> 01:00:58.670
+John Talburt: And it can be applied also to images and to audio as well.
+
+502
+01:00:59.150 --> 01:01:03.200
+John Talburt: Even right now, I don't know, in this,
+
+503
+01:01:03.820 --> 01:01:09.440
+John Talburt: recording, I don't know, when you read the recording, you can see a subtitle, right? It's changing…
+
+504
+01:01:09.600 --> 01:01:14.099
+John Talburt: My voice and my… what… my narrative of the,
+
+505
+01:01:14.420 --> 01:01:18.400
+John Talburt: that I'm talking… whatever I'm talking about, into,
+
+506
+01:01:19.040 --> 01:01:21.550
+John Talburt: Text, right? So, audio to text.
+
+507
+01:01:22.200 --> 01:01:27.029
+John Talburt: And you go, same thing, image detect, with OCR.
+
+508
+01:01:29.460 --> 01:01:31.350
+John Talburt: Okay, well,
+
+509
+01:01:33.270 --> 01:01:43.639
+John Talburt: Yeah, we're still good on that. So, then again, you know, you have to store it and share it, and that's an operation all of itself, of taking and designing
+
+510
+01:01:44.070 --> 01:01:56.310
+John Talburt: If you're using a relational database, now we don't use that as much as we did. We don't worry as much about normalizing the data for big data operations. But still, we have to store it in some way.
+
+511
+01:01:56.800 --> 01:01:59.059
+John Talburt: And make a way to share it.
+
+512
+01:01:59.460 --> 01:02:09.189
+John Talburt: And that's a double-edged sword, right? We have to make it available. If people are not using it, we're not getting any value. But we have to be careful with whom we share it, right? Because
+
+513
+01:02:09.400 --> 01:02:13.650
+John Talburt: We don't want to make it so available that anybody can come in and pick up our data.
+
+514
+01:02:14.210 --> 01:02:16.280
+John Talburt: And have data leakage.
+
+515
+01:02:17.040 --> 01:02:28.380
+John Talburt: And then we've already talked about maintaining it, so that… ensure that it stays up to date and everything continues to work properly. Many operations that we often do.
+
+516
+01:02:28.590 --> 01:02:33.489
+John Talburt: To change… parsing is a big thing, where we have fields that are
+
+517
+01:02:33.790 --> 01:02:42.940
+John Talburt: Like, a person's name, and we want to parse it out so that we separate out the first name, the middle name, last name, generational suffix, things like that.
+
+518
+01:02:43.350 --> 01:02:50.979
+John Talburt: Standardize it so that Street always conforms to a certain abbreviation, ST, that the Postal Service likes.
+
+519
+01:02:51.330 --> 01:02:57.040
+John Talburt: when there's a lot of people who put STR or spell out street,
+
+520
+01:02:57.160 --> 01:03:03.669
+John Talburt: So there's a lot of things that need to be done to maintain it, to put it in, and then to keep it up to date.
+
+521
+01:03:04.300 --> 01:03:17.520
+John Talburt: And then we may want to enhance it. Oftentimes, we would take data, and we wanted to know the gender, right? So, there's lots of tools that will take and look at names and try to decide what the gender
+
+522
+01:03:17.690 --> 01:03:20.390
+John Talburt: Associated with that name.
+
+523
+01:03:20.870 --> 01:03:23.990
+John Talburt: And then a big one for us is deduplication.
+
+524
+01:03:24.120 --> 01:03:33.020
+John Talburt: That's my main research area, is how do I… when I'm getting duplicates of the same information, it may not be an exact duplicate.
+
+525
+01:03:33.320 --> 01:03:40.000
+John Talburt: It may be John, I mean, it may be Bill Smith, and another one may be William Smith, spelled differently, a nickname.
+
+526
+01:03:40.180 --> 01:03:45.160
+John Talburt: But can I identify that this is really the same Bill or William Smith?
+
+527
+01:03:45.300 --> 01:03:51.940
+John Talburt: The same customer or the same patient. And deduplicate and gather those together that, match.
+
+528
+01:03:53.040 --> 01:04:01.759
+John Talburt: And then merge together. And so, again, looking at the hospital situation, I have all of these patient encounters.
+
+529
+01:04:01.910 --> 01:04:08.450
+John Talburt: I need to identify which of those encounters are for the same patient, merge those together to build a medical chart.
+
+530
+01:04:09.060 --> 01:04:20.569
+John Talburt: So that I know from all the different visits that the patient has made, what have been all the diagnostic tests, what have been all the recommendations, the prescriptions, and so forth that were made.
+
+531
+01:04:20.700 --> 01:04:22.710
+John Talburt: Into one, bring it all together.
+
+532
+01:04:23.390 --> 01:04:33.710
+John Talburt: And then apply, of course, is the main reason we're doing all of it. We're trying to build something, some product or service, that's going to create value, either internally or externally.
+
+533
+01:04:34.440 --> 01:04:43.010
+John Talburt: The main product that we were building at Axiom… well, there's two main products, but one of the main products is that we were building an enhancement database.
+
+534
+01:04:43.170 --> 01:04:46.800
+John Talburt: By putting together all the information about consumers.
+
+535
+01:04:47.280 --> 01:04:56.579
+John Talburt: Things like, you know, were they married? Did they own a house, or were they renting? What kind of car do they own? All these many things. What were their hobbies? What were their interests?
+
+536
+01:04:56.900 --> 01:05:01.960
+John Talburt: And not… all of it didn't come from one place, so we got it from…
+
+537
+01:05:02.130 --> 01:05:04.530
+John Talburt: Probably about 80 different sources.
+
+538
+01:05:04.780 --> 01:05:15.289
+John Talburt: And then when it would come in, then the first thing we'd have to do is decide, are we talking about the same person? And if we are, then how do we merge together? Because sometimes there'd be disagreement.
+
+539
+01:05:15.400 --> 01:05:21.140
+John Talburt: Some sources would say, yes, this person owns a house. Another source would say, no, they're renting a house.
+
+540
+01:05:21.250 --> 01:05:30.330
+John Talburt: And so we'd have to make decisions about which we felt was the most correct. Was it true they were just at different times, or was one incorrect?
+
+541
+01:05:30.810 --> 01:05:43.159
+John Talburt: So, making all those decisions and merging those together to create, and so then what we had is for any particular customer, we could tell you about a thousand different things about that customer.
+
+542
+01:05:43.450 --> 01:05:53.179
+John Talburt: And so people would come in and buy that, because banks especially would want to know, okay, we have this customer in our bank, but all we know is their name and their address.
+
+543
+01:05:53.850 --> 01:06:04.869
+John Talburt: You tell us whether they own the house, or what kind of car, so we'll know how to build a model whether to offer them this kind of credit card, or this kind of credit card, or not to offer them a credit card.
+
+544
+01:06:05.280 --> 01:06:06.889
+John Talburt: So,
+
+545
+01:06:07.100 --> 01:06:14.340
+John Talburt: That was the… one of the large products, information products that we built was this enhancement database.
+
+546
+01:06:14.660 --> 01:06:16.850
+John Talburt: But there were other things we did as well.
+
+547
+01:06:17.520 --> 01:06:21.700
+John Talburt: Other types of products and services, so…
+
+548
+01:06:23.120 --> 01:06:25.759
+John Talburt: Lots of things. And then, of course, dispose.
+
+549
+01:06:25.880 --> 01:06:37.269
+John Talburt: Typically, as I say, we often just archive it, we put it aside, because we may need it later, but in some cases, regulations require us for us to destroy the information.
+
+550
+01:06:39.790 --> 01:06:46.360
+John Talburt: So, life cycle value, cost, and quality, as I mentioned earlier.
+
+551
+01:06:46.480 --> 01:06:51.810
+John Talburt: All of those phases require some cost to do, but only the apply phase
+
+552
+01:06:52.420 --> 01:06:58.009
+John Talburt: Creates value, or creates benefits, and so potentially creates value for us.
+
+553
+01:06:59.070 --> 01:07:06.480
+John Talburt: So, and the information quality can be affected by activities in all of these phases.
+
+554
+01:07:06.810 --> 01:07:15.700
+John Talburt: So, information's a unique resource. As a raw material, it's not consumed. So, remember we said that a lot of what we have in information quality
+
+555
+01:07:15.930 --> 01:07:17.769
+John Talburt: Comes from manufacturing.
+
+556
+01:07:18.730 --> 01:07:28.250
+John Talburt: And so that's a good analogy. It's like, you know, we've got an information factory, we get raw products, or raw materials, which are the raw data.
+
+557
+01:07:28.360 --> 01:07:39.880
+John Talburt: We put it through machinery, which is the programs and systems that we run, and then our end goal is to create some information, product, or service that we can sell or create value out of.
+
+558
+01:07:41.220 --> 01:07:48.619
+John Talburt: And so, it's like a manufacturing operation when we do that. However, the analogy kind of falls down on two places.
+
+559
+01:07:49.030 --> 01:07:53.759
+John Talburt: that we're going to talk quite a bit about. One important place where it falls down is
+
+560
+01:07:54.150 --> 01:07:58.820
+John Talburt: That, in a real manufacturing process,
+
+561
+01:07:59.030 --> 01:08:04.890
+John Talburt: When we… when we start to build something, we have tolerances
+
+562
+01:08:05.270 --> 01:08:17.279
+John Talburt: For the parts, right? We're gonna build a car, we have certain diameter requirements for the axle, certain tensile strength, certain… in other words, and those understanding of those tolerances
+
+563
+01:08:17.550 --> 01:08:27.120
+John Talburt: is pretty intuitive. We understand the weight of something, we understand its tensile strength, we understand how big it is, how much it weighs.
+
+564
+01:08:27.370 --> 01:08:40.079
+John Talburt: You know, how long it is, what its diameter, all of those are physical things that we can understand. But when it comes to data, the characteristics of data, those dimensions of data, data quality.
+
+565
+01:08:40.189 --> 01:08:42.320
+John Talburt: Are not as obvious, right?
+
+566
+01:08:42.630 --> 01:08:45.509
+John Talburt: Timeliness is not as obvious.
+
+567
+01:08:45.680 --> 01:08:50.770
+John Talburt: As the diameter of some, a piece of equipment.
+
+568
+01:08:51.090 --> 01:08:54.819
+John Talburt: The other place, and this is what made me think of it, this slide.
+
+569
+01:08:55.420 --> 01:09:02.000
+John Talburt: Is that when we're building something, like a car, or a toaster, or whatever we're building, a manufactured product.
+
+570
+01:09:02.670 --> 01:09:11.639
+John Talburt: the raw materials that we bring in are consumed, right? We build cars, we're using up aluminum, we're using up steel, we build more cars, we have to buy more.
+
+571
+01:09:12.720 --> 01:09:15.529
+John Talburt: That's the good and the bad thing about data.
+
+572
+01:09:15.760 --> 01:09:30.989
+John Talburt: is that once we get data, we can use it over and over. We can copy, we can use as many copies as we want, endlessly, right? An infinite amount. We're not using up the data when we process it in a program, it doesn't get used up.
+
+573
+01:09:31.740 --> 01:09:47.819
+John Talburt: That's a good thing in that it increases our marginal cost, right? If we can get data one time and sell copies of it a thousand times, then that's a great thing. We can get huge marginal increases on the… and the more we sell, the more we get.
+
+574
+01:09:47.930 --> 01:09:51.250
+John Talburt: However, the downside of that is if it's bad.
+
+575
+01:09:51.810 --> 01:09:55.630
+John Talburt: And we replicate bad data and get it out there, then it's…
+
+576
+01:09:55.780 --> 01:10:07.320
+John Talburt: You know, some people say that, like, data is the new oil. And one argument is that, no, it's not like oil, because when you spill oil, you can clean it up.
+
+577
+01:10:07.840 --> 01:10:15.970
+John Talburt: But when you spill data, and your data gets out there, you can never get it back, right? So if it's bad data, or if it's sensitive data, and it goes out.
+
+578
+01:10:16.110 --> 01:10:17.530
+John Talburt: It's gone.
+
+579
+01:10:17.900 --> 01:10:19.739
+John Talburt: And you can't get it back.
+
+580
+01:10:22.110 --> 01:10:24.640
+John Talburt: So, raw material's not consumed.
+
+581
+01:10:25.650 --> 01:10:32.200
+John Talburt: and easily copy it and use it over and over again. So quality's critical. Copies of bad data are bad data.
+
+582
+01:10:33.080 --> 01:10:37.709
+John Talburt: However, the advantage is the marginal value increases the more we use it.
+
+583
+01:10:38.850 --> 01:10:44.550
+John Talburt: And it's not a fungible asset. I don't know if you're familiar with the idea of fungibility in finance.
+
+584
+01:10:44.840 --> 01:10:49.740
+John Talburt: But fungible assets are those that are interchangeable.
+
+585
+01:10:50.310 --> 01:10:56.290
+John Talburt: So, if I have certain… If I have barrels of oil, right, a certain type of crude oil.
+
+586
+01:10:56.560 --> 01:11:04.040
+John Talburt: There are different types of crude oil, but if they're the same type of crude oil, one barrel of oil is just like another barrel of oil.
+
+587
+01:11:04.680 --> 01:11:07.230
+John Talburt: The barrels don't have identity to them.
+
+588
+01:11:07.400 --> 01:11:10.149
+John Talburt: But that's generally not true with data.
+
+589
+01:11:10.270 --> 01:11:20.730
+John Talburt: Data tends to be non-fungible, in the sense that we're describing entities like customers, like patients, like products.
+
+590
+01:11:20.980 --> 01:11:25.319
+John Talburt: And those are all unique and separately identifiable.
+
+591
+01:11:28.630 --> 01:11:30.450
+John Talburt: So they're not interchangeable.
+
+592
+01:11:31.560 --> 01:11:37.620
+John Talburt: So, I think it's probably a good place to end today's lecture. So, I'll be giving you
+
+593
+01:11:38.020 --> 01:11:45.350
+John Talburt: That data, we'll have an assignment coming up where we're going to start working with some data and looking at the quality of it.
+
+594
+01:11:45.870 --> 01:11:49.919
+John Talburt: Any quick questions or comments before we leave today?
+
+595
+01:11:53.690 --> 01:11:54.540
+John Talburt: Okay.
+
+596
+01:11:55.440 --> 01:11:59.300
+John Talburt: If not, I'm going to… Stop. I do.
+

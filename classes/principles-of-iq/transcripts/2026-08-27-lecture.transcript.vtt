@@ -1,0 +1,2246 @@
+WEBVTT
+
+1
+00:00:03.640 --> 00:00:09.579
+John Talburt: All right, well, thanks for joining. We spent a lot of time last Tuesday talking about
+
+2
+00:00:10.170 --> 00:00:16.200
+John Talburt: the course itself, and about the information quality program. I thought that was important.
+
+3
+00:00:16.620 --> 00:00:22.619
+John Talburt: So today, we're actually going to start on the content and really talk a little bit about information quality.
+
+4
+00:00:23.140 --> 00:00:28.570
+John Talburt: And we… Started this course, like, 20 years ago.
+
+5
+00:00:29.000 --> 00:00:37.400
+John Talburt: And, we thought about, and we needed some course that was a foundations course, and so we decided to call it Principles.
+
+6
+00:00:38.020 --> 00:00:41.249
+John Talburt: And then, I quickly learned that
+
+7
+00:00:41.420 --> 00:00:48.160
+John Talburt: There weren't any really real established principles, so we decided we would design some.
+
+8
+00:00:48.340 --> 00:00:56.489
+John Talburt: So today, I want to go over what I think are some 7 underlying principles of the information quality discipline.
+
+9
+00:00:58.480 --> 00:01:00.150
+John Talburt: So, let me get…
+
+10
+00:01:00.820 --> 00:01:08.360
+John Talburt: Slides going. And some of this we talked a little bit about when we talked about the program. We talked about this, what is information quality?
+
+11
+00:01:08.500 --> 00:01:17.960
+John Talburt: And again, there's a lot of different ways people describe it. Again, the most common is if you ask somebody what it is just off the street.
+
+12
+00:01:18.230 --> 00:01:22.890
+John Talburt: If they have any answer at all, it'll probably be accuracy that the data are accurate.
+
+13
+00:01:23.280 --> 00:01:26.820
+John Talburt: But that's a little bit problematic. We'll talk more about that.
+
+14
+00:01:27.450 --> 00:01:35.230
+John Talburt: Then, you know, there are other attributes, and we'll talk about this as well. So, how do we describe the quality of data?
+
+15
+00:01:35.660 --> 00:01:41.050
+John Talburt: And that leads us to something we'll talk about in the history of this topic.
+
+16
+00:01:41.300 --> 00:01:50.129
+John Talburt: Is this idea of… dimensions or characteristics of data. So, a couple of these are completeness and timeliness.
+
+17
+00:01:50.760 --> 00:01:55.889
+John Talburt: The idea that it's free of defects… This is a good one.
+
+18
+00:01:56.470 --> 00:02:07.440
+John Talburt: This one we talked about before is really quite accurate in that the way this entire topic evolved is that we borrowed
+
+19
+00:02:07.570 --> 00:02:13.100
+John Talburt: From total quality management, from manufacturing, and started deploying it to information systems.
+
+20
+00:02:14.130 --> 00:02:19.509
+John Talburt: and others. So there's many ways that people describe. Probably one of the most
+
+21
+00:02:19.790 --> 00:02:23.010
+John Talburt: Commonly one… common ones that you hear is.
+
+22
+00:02:23.110 --> 00:02:26.380
+John Talburt: Fitness for use, or fitness for purpose.
+
+23
+00:02:27.000 --> 00:02:36.649
+John Talburt: And it's a good one. It actually comes from Joseph Duran, who was one of the gurus of the total quality management in manufacturing.
+
+24
+00:02:36.890 --> 00:02:43.099
+John Talburt: And, but when… but again, this is kind of where we reach, dichotomy.
+
+25
+00:02:43.880 --> 00:02:48.970
+John Talburt: When he said that, when Duran said that, he was talking about the finished product.
+
+26
+00:02:49.620 --> 00:02:58.340
+John Talburt: He says, is this product what you really need? Does it… does it fit your needs? Is it… is it fit for use?
+
+27
+00:02:58.470 --> 00:03:08.230
+John Talburt: if they're building a car, a toaster, whatever, is this thing that we built. So, even there, we get the idea that we're talking about a product.
+
+28
+00:03:09.730 --> 00:03:26.849
+John Talburt: And so, again, a lot of people, when they use that and they say, well, data quality is fit for use, for fitness, data that's fit for use, they're talking about the… the source data. They're talking about the data coming in the door.
+
+29
+00:03:27.250 --> 00:03:41.979
+John Talburt: And you can… you can say that about that data, but that data has not been made into a product or a service yet. And so, it begs the question, what do I need to do with this raw data that's coming in?
+
+30
+00:03:42.230 --> 00:03:48.570
+John Talburt: What quality does it need in order, when I put it all together into a product.
+
+31
+00:03:48.680 --> 00:03:51.390
+John Talburt: That the product has quality.
+
+32
+00:03:51.790 --> 00:03:57.100
+John Talburt: So, it's a little bit of a debate, and we can talk about that as we go along.
+
+33
+00:03:58.470 --> 00:04:08.470
+John Talburt: But I… so, anyway, what we decided to do is just come up with our own definition of it, and we talked about this earlier. So, there's two main parts.
+
+34
+00:04:08.660 --> 00:04:19.270
+John Talburt: Maximizing the value and minimizing the risk of an organization's information assets. So this is sort of an internal view. I'm in an organization, or I own an organization.
+
+35
+00:04:19.550 --> 00:04:23.029
+John Talburt: Or maybe it's just me, and I have…
+
+36
+00:04:23.150 --> 00:04:31.250
+John Talburt: data, and so part of this is how do I make the most use, or get the most value out of that data?
+
+37
+00:04:31.880 --> 00:04:38.539
+John Talburt: But then looking at it from the external side is, okay, I'm producing some kind of product or service.
+
+38
+00:04:38.860 --> 00:04:50.370
+John Talburt: Then it should create value or be valuable to the… to the people or systems that consume that data, whatever, whether it's a person or a system consuming that data.
+
+39
+00:04:50.600 --> 00:05:05.190
+John Talburt: So, there's, again, there's always this dichotomy. There's two sides to the coin, as they say. So, information quality is about how it creates value for the organization that has that information or data.
+
+40
+00:05:05.520 --> 00:05:18.370
+John Talburt: And also, is it producing, in sort of the manufacturing sense, an information product or service that's creating value for the consumers, for the users, valuable to them?
+
+41
+00:05:18.510 --> 00:05:21.300
+John Talburt: Or, as Duran would say, it's fit for use.
+
+42
+00:05:21.840 --> 00:05:26.529
+John Talburt: It's very interesting, I just was on the phone today with another,
+
+43
+00:05:27.020 --> 00:05:31.329
+John Talburt: A very notable person in the area of data quality.
+
+44
+00:05:31.520 --> 00:05:35.129
+John Talburt: that you may have heard of before is Danette McGilvery.
+
+45
+00:05:35.230 --> 00:05:37.760
+John Talburt: The net has been, in the…
+
+46
+00:05:38.120 --> 00:05:44.919
+John Talburt: the data quality, I've been a consultant practitioner for many, many years, and has written a couple of books, and…
+
+47
+00:05:45.190 --> 00:05:53.129
+John Talburt: And she has developed what's called a 10-step method for executing data quality projects. She's very knowledgeable.
+
+48
+00:05:53.740 --> 00:06:03.910
+John Talburt: we were just, talking about this today. It's interesting, though, that in her definition of information quality.
+
+49
+00:06:04.160 --> 00:06:11.979
+John Talburt: Her emphasis is on the trust. So, as a matter of fact, that's the name of her book, is…
+
+50
+00:06:12.250 --> 00:06:18.210
+John Talburt: Of executing data quality projects to produce trusted data.
+
+51
+00:06:18.760 --> 00:06:26.470
+John Talburt: So, however you want to look at it is the main thing in our definition is value, and hers is trust.
+
+52
+00:06:26.700 --> 00:06:31.059
+John Talburt: And I think they're quite similar to each other. Now.
+
+53
+00:06:31.170 --> 00:06:33.390
+John Talburt: When we talk about value, though.
+
+54
+00:06:33.750 --> 00:06:37.710
+John Talburt: I also want to be a little more explicit about that.
+
+55
+00:06:37.840 --> 00:06:39.000
+John Talburt: And,
+
+56
+00:06:39.790 --> 00:06:49.300
+John Talburt: the way I see it, there are 3 primary value propositions. When we talk about maximizing value for an organization, we immediately think of
+
+57
+00:06:49.550 --> 00:07:00.259
+John Talburt: A business, and the value, of course, of being an asset would be something we measure in dollars, or currency, depending on what country we're in.
+
+58
+00:07:00.670 --> 00:07:08.189
+John Talburt: And that definitely is one. Value could be… the value proposition could be making a profit.
+
+59
+00:07:08.610 --> 00:07:21.359
+John Talburt: But there are a lot of other organizations that are engaged in other ways, and a couple of other ways, I think, the two other main categories are… one is quality of life.
+
+60
+00:07:21.880 --> 00:07:28.629
+John Talburt: That the value proposition, they're trying to improve the quality of life, and of course, that immediately brings us to…
+
+61
+00:07:28.750 --> 00:07:33.190
+John Talburt: Medically related, hospitals, things like that, physicians.
+
+62
+00:07:33.490 --> 00:07:42.880
+John Talburt: And so, even though, obviously, they do make money, and they need money to go on, their primary value that they're trying to bring is they're trying to bring
+
+63
+00:07:43.160 --> 00:07:48.910
+John Talburt: Better quality of life by Curing diseases and, and,
+
+64
+00:07:49.440 --> 00:07:55.479
+John Talburt: Developing, medicines and things that make life better for people.
+
+65
+00:07:55.990 --> 00:08:00.739
+John Talburt: And yet another, are the non-profits.
+
+66
+00:08:00.890 --> 00:08:14.549
+John Talburt: that have, as their value proposition, they have missions to accomplish. So, value for them is accomplishing their mission. And this is a case where dollars don't seem to count.
+
+67
+00:08:14.760 --> 00:08:19.709
+John Talburt: Because, for example, the military is willing to spend whatever money it needs
+
+68
+00:08:19.920 --> 00:08:25.790
+John Talburt: To accomplish particular missions that it's on. We're right in the middle of that right now.
+
+69
+00:08:26.170 --> 00:08:42.620
+John Talburt: So… so not all… when we talk about value, and creating value from… or maximizing value from information, it's not just helping people make money, it also, can help improve the quality of life.
+
+70
+00:08:42.730 --> 00:08:45.710
+John Talburt: Help organizations accomplish their missions.
+
+71
+00:08:46.860 --> 00:08:52.029
+John Talburt: I think this covers most of the value propositions, but if you can think of another one, let me know.
+
+72
+00:08:54.110 --> 00:08:59.779
+John Talburt: So, a little bit of history, of information quality.
+
+73
+00:09:01.040 --> 00:09:11.419
+John Talburt: Is the… there's some people, I think, Jan Lee, who… who was the first author in this book that you have called Journey to Data Quality.
+
+74
+00:09:11.850 --> 00:09:17.440
+John Talburt: I heard a lecture by her one time, and she went all the way back to…
+
+75
+00:09:17.780 --> 00:09:27.359
+John Talburt: To historical times in the, and the, this very famous,
+
+76
+00:09:27.740 --> 00:09:32.359
+John Talburt: Rosetta Stone that Napoleon's troops found in Egypt.
+
+77
+00:09:32.530 --> 00:09:36.270
+John Talburt: Talked about how that solves some data quality problems, so…
+
+78
+00:09:36.420 --> 00:09:38.750
+John Talburt: But I won't go that far back.
+
+79
+00:09:38.850 --> 00:09:45.130
+John Talburt: To me, the problem as we know it, the problem of recognition of poor information quality.
+
+80
+00:09:45.610 --> 00:09:54.450
+John Talburt: I call that the data cleansing phase, and that happened when,
+
+81
+00:09:55.760 --> 00:10:00.480
+John Talburt: People started trying to build data warehouses, and this is back in the 80s.
+
+82
+00:10:00.830 --> 00:10:06.160
+John Talburt: So, all of you are probably so young, you think there's always been data warehouses, but actually.
+
+83
+00:10:06.390 --> 00:10:12.330
+John Talburt: Back in the early days of computing, there wasn't a concept of a data warehouse.
+
+84
+00:10:12.880 --> 00:10:27.349
+John Talburt: And, when that came along, everybody really embraced that idea, yeah, we should take all of our data from all of our different departments, put it together for, like, a year, and analyze it, and see if we can do better in our business.
+
+85
+00:10:27.350 --> 00:10:33.900
+John Talburt: That'll give us tremendous business information, or business intelligence, as they call it, BI.
+
+86
+00:10:34.060 --> 00:10:49.160
+John Talburt: And so that was a really new idea, and everybody immediately said, yeah, that's great. So everybody started doing that, and what they really discovered when they tried to do that was that because all of these departments in the business
+
+87
+00:10:49.230 --> 00:11:07.639
+John Talburt: were doing their own computing, they often had their own computer systems, they had their own data architects and people designing things, and, you know, things were not quite as well organized in the early days. When they tried to put the data together, it was almost impossible, and they had a huge failure rate.
+
+88
+00:11:07.660 --> 00:11:10.280
+John Talburt: And projects to build data warehouses.
+
+89
+00:11:10.670 --> 00:11:18.649
+John Talburt: And, out of that, Emerged a business, Information International.
+
+90
+00:11:21.850 --> 00:11:28.790
+John Talburt: That, started, had huge success by going around and,
+
+91
+00:11:29.470 --> 00:11:33.160
+John Talburt: Helping companies straighten out their data warehouses.
+
+92
+00:11:33.320 --> 00:11:42.759
+John Talburt: And so this, these, really, information quality started not in academia, but it really started in business.
+
+93
+00:11:42.870 --> 00:11:49.529
+John Talburt: By consultants, primarily, and… which turned out to be a little bit of a problem to, in the beginning.
+
+94
+00:11:49.750 --> 00:12:00.180
+John Talburt: Because, consultants always want to distinguish themselves, so they kept using different terminology about describing, data and information quality problems.
+
+95
+00:12:00.400 --> 00:12:07.179
+John Talburt: But, the guy who started, Information Impact International, a guy named Larry English.
+
+96
+00:12:07.300 --> 00:12:14.479
+John Talburt: Really, he wrote a couple of books about data quality in warehouses, or information quality in warehouses.
+
+97
+00:12:14.790 --> 00:12:17.700
+John Talburt: And, made a great contribution.
+
+98
+00:12:17.890 --> 00:12:23.779
+John Talburt: Unfortunately, he passed away a couple of years ago. He's a great guy, I got to know him very well.
+
+99
+00:12:24.100 --> 00:12:31.050
+John Talburt: But anyway, this is the beginning. The real beginning, from an information system standpoint, if you want to…
+
+100
+00:12:31.360 --> 00:12:33.779
+John Talburt: not worry about the Rosetta Stone.
+
+101
+00:12:34.070 --> 00:12:40.450
+John Talburt: Is, happened in the data warehousing movement, back in the 1980s.
+
+102
+00:12:40.860 --> 00:12:43.110
+John Talburt: And so, here is…
+
+103
+00:12:43.370 --> 00:12:58.099
+John Talburt: Where they began to recognize that you really needed to pay attention to the quality of data. And then the main problem they were having, of course, with data warehousing is a problem that still persists that we call inconsistent representation.
+
+104
+00:12:58.730 --> 00:13:00.980
+John Talburt: you know.
+
+105
+00:13:01.750 --> 00:13:16.029
+John Talburt: one department was using AR for… to represent Arkansas, and another department was using ARK. So they were inconsistently representing the data. And so when they tried to put it all together into one.
+
+106
+00:13:16.360 --> 00:13:22.170
+John Talburt: Data warehouse in order to examine it, and that's where they began to see all the problems.
+
+107
+00:13:23.920 --> 00:13:25.440
+John Talburt: So,
+
+108
+00:13:26.000 --> 00:13:36.629
+John Talburt: What was lucky for Larry, and the reason he made so much money in the early days, is that he just focused on this, they would have all these problems, and he would come in.
+
+109
+00:13:36.750 --> 00:13:43.280
+John Talburt: And with his team, and with his knowledge, and he would straighten out the warehouse, right?
+
+110
+00:13:43.690 --> 00:13:47.699
+John Talburt: And so, I guess to his own benefit.
+
+111
+00:13:47.960 --> 00:13:53.160
+John Talburt: He… it took a while to get to the next phase, which was…
+
+112
+00:13:53.310 --> 00:13:58.030
+John Talburt: To say, okay, well, we're having problems, what's the root cause of this?
+
+113
+00:13:58.250 --> 00:14:04.239
+John Talburt: The root cause is that the sources of data that are coming out of these different departments and business units
+
+114
+00:14:04.510 --> 00:14:24.400
+John Talburt: they're inconsistent in the way they're representing things, and they're not structuring things the same way. So, it's all this inconsistency, and so that was the root cause of most of the problems with the data warehouse. And so, in order to solve that, you have to add another phase called the prevention phase.
+
+115
+00:14:24.840 --> 00:14:35.689
+John Talburt: And that's when people started realizing you needed to address the root causes of these problems, and not just try to fix the problems after they occur.
+
+116
+00:14:36.350 --> 00:14:40.069
+John Talburt: And so this is the beginning, again, following along with
+
+117
+00:14:40.370 --> 00:14:45.399
+John Talburt: Some of the main ideas of quality management that we find in manufacturing.
+
+118
+00:14:45.620 --> 00:14:51.620
+John Talburt: people like Deming and Duran and Shughart and people like that, that were,
+
+119
+00:14:51.750 --> 00:14:54.259
+John Talburt: Gurus, if you will, of quality.
+
+120
+00:14:54.570 --> 00:15:07.349
+John Talburt: They had already discovered this, that you need to have a feedback loop, you need to learn from your mistakes and go back and try to fix the things that were causing them, so that you got continual improvement.
+
+121
+00:15:07.440 --> 00:15:19.739
+John Talburt: So this is sort of the second wave of information quality, is where you needed to go back and do root cause analysis. Again, that's something that occurs in total quality management.
+
+122
+00:15:20.970 --> 00:15:22.710
+John Talburt: And then,
+
+123
+00:15:22.890 --> 00:15:33.590
+John Talburt: It took a little while, but the next phase, in the history was… and this was… now, even though most of all this was happening on the industry side, business side.
+
+124
+00:15:33.670 --> 00:15:48.790
+John Talburt: this is kind of where academia steps in. So one of the greatest contributions from academia, which the institution most involved at this time was MIT in Cambridge, Massachusetts.
+
+125
+00:15:49.050 --> 00:15:54.230
+John Talburt: And Dr. Rich Wong and his, A major professor there.
+
+126
+00:15:54.500 --> 00:16:00.189
+John Talburt: we're very much into this idea of analogizing
+
+127
+00:16:00.400 --> 00:16:09.109
+John Talburt: information quality management with total quality management and manufacturing. And again, in manufacturing.
+
+128
+00:16:09.210 --> 00:16:15.769
+John Talburt: going back to Duran, the primary focus was on the end product. You start with the end in mind.
+
+129
+00:16:16.150 --> 00:16:24.169
+John Talburt: So, this was then added to information quality to say, well, we need to manage information as a product.
+
+130
+00:16:24.800 --> 00:16:29.579
+John Talburt: Not just look at the data sources and the individual files.
+
+131
+00:16:29.710 --> 00:16:38.199
+John Talburt: If you just spend all your time cleaning that, it doesn't guarantee… you know, there's a, perhaps one of the most famous
+
+132
+00:16:38.410 --> 00:16:46.330
+John Talburt: quotes is, GIGO, you're probably familiar with the GIGO, which is garbage in equals garbage out.
+
+133
+00:16:46.850 --> 00:17:01.259
+John Talburt: And some people kind of misapplied the logic of that and said, well, if it's garbage in, you get garbage out. If you put clean in, or good in, you're gonna get good out. Of course, that doesn't logically follow.
+
+134
+00:17:01.530 --> 00:17:04.289
+John Talburt: But some people kind of subscribe to that.
+
+135
+00:17:04.550 --> 00:17:21.849
+John Talburt: And so, there's a certain school of thought that says, well, if I just clean up the sources and make them very consistent, make them accurate, make them timely, all the good things that we want, and I put them into my system, I'm guaranteed that I'll get a good information product.
+
+136
+00:17:22.390 --> 00:17:25.880
+John Talburt: But, certainly, that's not true.
+
+137
+00:17:27.530 --> 00:17:35.070
+John Talburt: even if you look in manufacturing, that's certainly not the way they look at it there, right? You could take,
+
+138
+00:17:35.370 --> 00:17:43.340
+John Talburt: Building a car, You know, you could take and gold plate all of the…
+
+139
+00:17:43.790 --> 00:17:51.859
+John Talburt: Axles and bearings and everything to… and make them much better, or make them out of titanium, or whatever.
+
+140
+00:17:51.960 --> 00:18:03.799
+John Talburt: But that wouldn't guarantee that the car you're building is any better, and it still could be the wrong car. I'm a big fan of the El Camino, they don't make them anymore.
+
+141
+00:18:04.110 --> 00:18:07.949
+John Talburt: Because people were not buying them. It's not what people really wanted.
+
+142
+00:18:08.230 --> 00:18:22.960
+John Talburt: So, again, just because you have good, clean source data doesn't mean when you put it into your system and get an information product out, it'll be a good… it'll be a high-quality information product. So you really need to start with what
+
+143
+00:18:23.180 --> 00:18:26.649
+John Talburt: I like a quote. There's another,
+
+144
+00:18:27.050 --> 00:18:30.090
+John Talburt: Very famous person in this field, a guy named
+
+145
+00:18:30.220 --> 00:18:38.500
+John Talburt: Tom Redman, Dr. Tom Redman, who started off his career at AT&T and got into data quality.
+
+146
+00:18:38.680 --> 00:18:42.430
+John Talburt: He's called, the data doc, actually, he calls himself.
+
+147
+00:18:42.810 --> 00:18:44.179
+John Talburt: And,
+
+148
+00:18:45.010 --> 00:18:55.639
+John Talburt: he said, you have to really ask two questions. One question, is the data right? Which is, that is, is the data kind of correct?
+
+149
+00:18:55.770 --> 00:19:06.129
+John Talburt: But is… the other question, is it the right data? And do I have the right data to build a product that I'm trying to produce? And we're going to look at an example of that here shortly.
+
+150
+00:19:06.500 --> 00:19:18.130
+John Talburt: So again, in the third phase, kind of the history of information quality, is this realization that you really needed to start from the product side. You really need to manage information as product.
+
+151
+00:19:21.330 --> 00:19:34.490
+John Talburt: The next realization, or the next phase, comes in when people realize that a lot of the problems that they were having, they're still having problems, even though they're taking this product perspective.
+
+152
+00:19:34.750 --> 00:19:40.639
+John Talburt: They're cleaning data, they're trying to continuously improve their processes.
+
+153
+00:19:41.190 --> 00:19:54.870
+John Talburt: that, sometimes the problem, the root cause, lies in the actual information architecture, the way you structured the data. And of course, most of this happened in the old days was around
+
+154
+00:19:55.100 --> 00:19:57.670
+John Talburt: Relational databases.
+
+155
+00:19:57.810 --> 00:20:06.850
+John Talburt: And of course, in a relational database, you always start with a model a schema, And,
+
+156
+00:20:06.960 --> 00:20:14.950
+John Talburt: And invariably, that's… you start building or designing that schema before you put any data into the database.
+
+157
+00:20:15.070 --> 00:20:24.029
+John Talburt: And so then you have to imagine, at the very beginning, all of the things that you want to do with the data, and try to accommodate that into your schema.
+
+158
+00:20:24.430 --> 00:20:38.870
+John Talburt: Which is impossible to do. Things change. Everything changes, the sources of data change, the kinds of data, everything changes. And so, there's a famous quote, by,
+
+159
+00:20:40.570 --> 00:20:51.239
+John Talburt: Oh, gosh, I've forgotten the guy's name. But anyway, he said, all models are wrong, but some are useful, and that's actually quite true.
+
+160
+00:20:51.310 --> 00:21:01.200
+John Talburt: It's very useful to start off with some kind of model, but you're… but it's always going to be wrong. There's always going to be something you didn't anticipate, or you left out.
+
+161
+00:21:01.320 --> 00:21:05.970
+John Talburt: No matter how many -oh columns that you put in your schema.
+
+162
+00:21:06.150 --> 00:21:10.339
+John Talburt: So, this was a realization that to really have good
+
+163
+00:21:10.530 --> 00:21:27.610
+John Talburt: quality information products and services, you needed a good information architecture that supported it. So that brings in this idea… and the dotted line here represents the difference between the implementation of an information system
+
+164
+00:21:27.970 --> 00:21:32.249
+John Talburt: And it's designed in what we call an enterprise architecture.
+
+165
+00:21:32.730 --> 00:21:42.609
+John Talburt: And of course, there are different views of what an enterprise architecture is, but… and what we're using is that it has four main components.
+
+166
+00:21:43.090 --> 00:21:47.290
+John Talburt: The business architecture, what it is I'm trying to do in my business.
+
+167
+00:21:47.570 --> 00:22:03.300
+John Talburt: the information architecture, what information do I need to accomplish that business? And once I know what the information is, how do I build a solution to use that information? And then, finally, what technical architecture do I need to support it?
+
+168
+00:22:03.460 --> 00:22:05.580
+John Talburt: So, this is…
+
+169
+00:22:06.120 --> 00:22:13.479
+John Talburt: Intended to be a way to look at how you start a business, or any kind of an enterprise.
+
+170
+00:22:13.940 --> 00:22:20.770
+John Talburt: And so, here we're… we've moved away from just the implementation of the system in the lower part.
+
+171
+00:22:20.980 --> 00:22:27.849
+John Talburt: To the first idea that we need to look at design, in this case, the design is the information architecture.
+
+172
+00:22:28.230 --> 00:22:31.299
+John Talburt: And of course, then that tells us where we're going next.
+
+173
+00:22:31.510 --> 00:22:32.900
+John Talburt: is that…
+
+174
+00:22:33.090 --> 00:22:42.469
+John Talburt: Alright, if we really need to look at the information architecture, we really need to look at the whole business architecture, the whole enterprise architecture.
+
+175
+00:22:42.800 --> 00:22:51.659
+John Talburt: Because now, in this phase of the history, is where we're beginning to look at information as an enterprise asset.
+
+176
+00:22:51.930 --> 00:22:56.749
+John Talburt: And this brings a lot of other things into the picture besides just data quality.
+
+177
+00:22:57.040 --> 00:23:00.840
+John Talburt: We're going to have to have data governance. If it's going to be an asset.
+
+178
+00:23:00.970 --> 00:23:04.910
+John Talburt: We need to control it, we need to have some kind of program.
+
+179
+00:23:05.030 --> 00:23:11.149
+John Talburt: That we call data governance, that gives us guidelines for how we make rules
+
+180
+00:23:11.300 --> 00:23:14.569
+John Talburt: About, what we do with the data.
+
+181
+00:23:14.950 --> 00:23:18.499
+John Talburt: And so, data governance comes into the picture.
+
+182
+00:23:18.620 --> 00:23:25.359
+John Talburt: The idea of a chief data officer comes into the picture, someone who's thinking or looking about
+
+183
+00:23:25.480 --> 00:23:31.140
+John Talburt: The, information and data across the entire enterprise.
+
+184
+00:23:31.570 --> 00:23:43.009
+John Talburt: Data quality, of course, information quality, data integration, integrating data, master data management, and data analytics. So there's a lot of things involved when we take an enterprise view.
+
+185
+00:23:44.650 --> 00:23:48.380
+John Talburt: So the fourth is, Enterprise Review.
+
+186
+00:23:50.890 --> 00:23:52.400
+John Talburt: So what's next?
+
+187
+00:23:52.920 --> 00:24:01.299
+John Talburt: What I'm seeing… is that… And we're… we'll talk a little bit about standards for this.
+
+188
+00:24:01.980 --> 00:24:05.350
+John Talburt: Is the whole idea of interoperability.
+
+189
+00:24:05.460 --> 00:24:21.580
+John Talburt: Everything that we've talked about in the first four phases of the development of information quality have been around one implementation, that is, one enterprise that's using it, and how it sort of evolved from discovering problems with the data warehouse.
+
+190
+00:24:21.750 --> 00:24:32.270
+John Talburt: To continuous improvement, to managing information as product, to looking at the information architecture, to now looking at the entire
+
+191
+00:24:32.400 --> 00:24:42.159
+John Talburt: enterprise architecture, and viewing information as an asset. So all this is around one enterprise, or around one implementation.
+
+192
+00:24:42.430 --> 00:24:48.659
+John Talburt: So I think what's next, and what we're seeing is that, we need to collaborate.
+
+193
+00:24:48.880 --> 00:24:57.039
+John Talburt: And so, some of the pioneers in this area are… In the medical field.
+
+194
+00:24:57.200 --> 00:25:06.180
+John Talburt: Because, in medicine, we have, for a long time, had an entire ecosystem, right? So we have multiple
+
+195
+00:25:06.240 --> 00:25:10.180
+John Talburt: Hospitals and clinics. We have multiple providers.
+
+196
+00:25:10.230 --> 00:25:17.590
+John Talburt: Doctors, we support nurses, and then, of course, we have the payers, we have the insurance companies.
+
+197
+00:25:17.610 --> 00:25:35.289
+John Talburt: And they're all sharing this information. It's not all just… we don't need it to be… well, we need it to be, but it's not necessarily just that it has to be consistent within one enterprise. We want it to somehow be consistent across multiple enterprises.
+
+198
+00:25:35.660 --> 00:25:40.650
+John Talburt: And so… Again, healthcare's kind of been a primary of our…
+
+199
+00:25:40.980 --> 00:25:50.990
+John Talburt: A leader in this, and because they've needed to share information about the same patients, and the same providers, and the same payers.
+
+200
+00:25:51.490 --> 00:25:59.839
+John Talburt: And so, this idea of how do we share information, and we'll talk later about some standards around this.
+
+201
+00:26:00.000 --> 00:26:06.039
+John Talburt: And another area that's very important, and that is in supply chains for enterprise, so…
+
+202
+00:26:06.190 --> 00:26:12.410
+John Talburt: Especially large enterprises may have hundreds, maybe even thousands of suppliers.
+
+203
+00:26:12.540 --> 00:26:18.159
+John Talburt: And so they need to be able to somehow exchange or interoperate with their data.
+
+204
+00:26:18.320 --> 00:26:24.150
+John Talburt: So, this is where the next frontier is in data and information quality, I believe.
+
+205
+00:26:24.640 --> 00:26:28.399
+John Talburt: Now, one that I haven't added a slide on this.
+
+206
+00:26:28.590 --> 00:26:32.510
+John Talburt: Is that, but we will talk about this later.
+
+207
+00:26:32.630 --> 00:26:38.449
+John Talburt: is what does AI have to do with it? And so I've got a whole lecture that we'll talk about.
+
+208
+00:26:38.790 --> 00:26:44.370
+John Talburt: AI is not so much about what we're talking about here, about the interoperability of data.
+
+209
+00:26:45.200 --> 00:26:56.160
+John Talburt: But it certainly is important, because the new large language models that are dominating are just data, really, so they are big data
+
+210
+00:26:57.770 --> 00:27:09.910
+John Talburt: repositories, huge. We talk about billions, all getting up into trillions, I guess, of parameters. And a parameter is nothing but a conditional probability.
+
+211
+00:27:10.260 --> 00:27:13.310
+John Talburt: It says, given this word or token.
+
+212
+00:27:13.430 --> 00:27:16.969
+John Talburt: What's the probability that the next token will be this?
+
+213
+00:27:17.520 --> 00:27:25.990
+John Talburt: If I have X, what's the probability it'll be followed by Y? So, that's a parameter, and so, obviously.
+
+214
+00:27:26.220 --> 00:27:39.349
+John Talburt: There's many, many ways, many ways that one token could follow another, and that's the reason that there are so many of these parameters, so many billions of the parameters, so many ways that we can say things.
+
+215
+00:27:40.070 --> 00:27:44.459
+John Talburt: So, but anyway, the point is that that is all data.
+
+216
+00:27:44.780 --> 00:27:50.489
+John Talburt: And so, data quality is very important, but in a couple of ways. One is that,
+
+217
+00:27:53.160 --> 00:28:00.400
+John Talburt: We need good data to build the models, and that's kind of where the focus is right now. But now there's a new focus starting.
+
+218
+00:28:00.840 --> 00:28:11.510
+John Talburt: that we're working on, and that is the idea, if we have an AI model, can it help us improve data? So it's sort of a virtuous cycle.
+
+219
+00:28:11.970 --> 00:28:25.089
+John Talburt: good data builds good models, and good models can help make good data. We'll talk more about that. But here, I think what we're talking about in the next phase of information quality is,
+
+220
+00:28:25.540 --> 00:28:27.550
+John Talburt: Where we have shared standards.
+
+221
+00:28:27.890 --> 00:28:43.990
+John Talburt: That help us with data interoperability and data portability, being able to move data from system to system and not get locked in where we start using a system and we want to change systems, but all of our data is in the
+
+222
+00:28:44.120 --> 00:28:53.699
+John Talburt: the initial system, and we're not allowed, or there's not feasible, to take that data out and put it into another system. It's not portable for us.
+
+223
+00:28:55.340 --> 00:28:59.060
+John Talburt: So there's a lot of emerging topics here, and
+
+224
+00:28:59.880 --> 00:29:06.660
+John Talburt: So, there's the data quality standards, from ISO, we'll talk about those.
+
+225
+00:29:08.390 --> 00:29:17.979
+John Talburt: There's data management for streaming. Most of the time, we've been talking about data quality management for large batches, large files of data, but streaming, or real-time data.
+
+226
+00:29:18.560 --> 00:29:24.810
+John Talburt: Data quality for unstructured data, how do we… and again, this is evolving as well.
+
+227
+00:29:25.010 --> 00:29:27.890
+John Talburt: Right now, people are saying that
+
+228
+00:29:28.070 --> 00:29:41.039
+John Talburt: Well, I have a lot of data. Some, you know, people use the Pareto 2080 and say 80% of my data is really in unstructured formats of documents and drawings and audio and video.
+
+229
+00:29:41.350 --> 00:29:53.989
+John Talburt: the move initially now has been to how do we structure what's unstructured? But I think beyond that, we're going to be thinking about how we do semantic computing.
+
+230
+00:29:54.100 --> 00:30:05.809
+John Talburt: Where we… where we don't have to go through that transition phase of unstructured to structured, we simply introduce the unstructured data into the systems.
+
+231
+00:30:06.360 --> 00:30:12.860
+John Talburt: Then the data quality, there's the Internet of Things, machine learning.
+
+232
+00:30:13.200 --> 00:30:21.460
+John Talburt: And AI systems, especially now the new, language model systems that I just talked about,
+
+233
+00:30:21.590 --> 00:30:29.120
+John Talburt: Automation of data quality assessment and cleansing. We've been working on a project here called the Data Washing Machine to
+
+234
+00:30:29.300 --> 00:30:31.160
+John Talburt: Research on that.
+
+235
+00:30:31.370 --> 00:30:33.779
+John Talburt: The automation of data governance.
+
+236
+00:30:33.930 --> 00:30:43.839
+John Talburt: data literacy, data democratization, data monetization, and economics. So these are new topics that are coming out of the information quality world.
+
+237
+00:30:44.610 --> 00:30:48.169
+John Talburt: So we'll be talking about some of these as we go through the course.
+
+238
+00:30:50.790 --> 00:30:57.109
+John Talburt: So with that, I'd like to get started. If any questions, feel free to interrupt at any time, or any comments.
+
+239
+00:30:59.370 --> 00:31:11.220
+John Talburt: So, we talk about this course as being Principles, so I've developed 7 principles. They might not all be comprehensive of everything, but it's a good start with it.
+
+240
+00:31:11.590 --> 00:31:17.660
+John Talburt: So, principle number one, And I think most people now recognize this.
+
+241
+00:31:17.820 --> 00:31:20.819
+John Talburt: That data is a resource which,
+
+242
+00:31:21.870 --> 00:31:33.350
+John Talburt: you can produce information products for the purpose of creating value, so that we want to think about data and information from a value standpoint, like our definition.
+
+243
+00:31:33.900 --> 00:31:44.979
+John Talburt: And data collected and processed and formatted to a particular use is what we call an information product. And I should add, and I probably will go back and revise some of these.
+
+244
+00:31:45.300 --> 00:31:51.460
+John Talburt: It's not always just a product, a static product, it could be an information service as well.
+
+245
+00:31:53.140 --> 00:32:04.289
+John Talburt: And, of course, whenever you take a resource, like data, and you create value from it, then that means that that thing becomes an asset, right?
+
+246
+00:32:04.400 --> 00:32:09.070
+John Talburt: So now there's a recognition that information is an organizational asset.
+
+247
+00:32:09.940 --> 00:32:25.169
+John Talburt: So data is the resource, we bring it, produce, use it to produce an information product or service, and by doing that, if we create value by doing that, now data and information become an asset.
+
+248
+00:32:27.860 --> 00:32:39.339
+John Talburt: So, value, just to be sure that we all comprehend, I think we do, it's very simple in terms of a formula, although it's sometimes hard to figure out what goes into the formula.
+
+249
+00:32:40.110 --> 00:32:47.709
+John Talburt: We create value whenever the benefits outweigh or larger than
+
+250
+00:32:48.110 --> 00:32:50.999
+John Talburt: The investment that it takes to get that.
+
+251
+00:32:51.160 --> 00:32:52.210
+John Talburt: benefit.
+
+252
+00:32:53.470 --> 00:32:57.730
+John Talburt: So, you know, we always want to have positive value.
+
+253
+00:32:58.110 --> 00:33:04.500
+John Talburt: We want that number to be positive. We want the benefits of what we're doing to outweigh the cost of doing them.
+
+254
+00:33:06.470 --> 00:33:15.560
+John Talburt: And so, it's really, you know, creating value should be the reason that we do things. Whatever it is that we do in life, or…
+
+255
+00:33:15.880 --> 00:33:22.430
+John Talburt: should be valued. The benefit of doing it should outweigh the cost of doing it, or otherwise, why would we do it?
+
+256
+00:33:22.920 --> 00:33:32.929
+John Talburt: And as I mentioned earlier, We can measure value in 3 basic ways. Monetary, Quality of life.
+
+257
+00:33:33.600 --> 00:33:35.500
+John Talburt: Or mission accomplishment.
+
+258
+00:33:35.680 --> 00:33:47.539
+John Talburt: I think that covers pretty much all of the value proposition. So we don't want to just think in terms of money. There are other things that, create value as well, different types of value.
+
+259
+00:33:48.860 --> 00:33:58.370
+John Talburt: And another problem we have, and this is one that I've suffered with a lot, especially when I was just mostly a technician, started off as a programmer.
+
+260
+00:33:58.760 --> 00:34:02.860
+John Talburt: Is that we often confuse results with value.
+
+261
+00:34:03.870 --> 00:34:12.500
+John Talburt: And what do I mean by that? So, we expend an effort to do something, right?
+
+262
+00:34:12.880 --> 00:34:14.550
+John Talburt: And we,
+
+263
+00:34:14.760 --> 00:34:21.419
+John Talburt: Go in and we say, well, we expended this effort, and here are the results, here's what we got out of it.
+
+264
+00:34:22.350 --> 00:34:26.649
+John Talburt: And oftentimes we just stop there. For example.
+
+265
+00:34:26.889 --> 00:34:32.050
+John Talburt: I ran into this when I was working at Axiom Corporation, and I would say, well.
+
+266
+00:34:32.409 --> 00:34:38.870
+John Talburt: I was working in a project, and we were trying to integrate information
+
+267
+00:34:39.530 --> 00:34:49.150
+John Talburt: And we measure that in terms of precision and recall, of how well, how accurately we integrated data together.
+
+268
+00:34:49.260 --> 00:34:53.510
+John Talburt: And so I was working on a project, and the manager of the project, or the
+
+269
+00:34:53.520 --> 00:35:06.630
+John Talburt: the project leader was making the presentation. He said, look, we spent, 3 months working on this, and we tried X, and we tried Y, and we tried Z, and we finally had success, and look.
+
+270
+00:35:06.630 --> 00:35:21.160
+John Talburt: We have increased the precision of our integration process. We increased it from 88% to 92%, and the recall has increased from 70% to 80%.
+
+271
+00:35:21.620 --> 00:35:27.480
+John Talburt: And he just stopped right there and looked at everyone as though they're going to really
+
+272
+00:35:28.340 --> 00:35:40.200
+John Talburt: do wow, you know, and applaud, because that seemed to him, and to me, I was on the team, a huge success, right? Because those results, we improved the results dramatically.
+
+273
+00:35:40.560 --> 00:35:43.030
+John Talburt: For that kind of an operation.
+
+274
+00:35:43.200 --> 00:35:45.089
+John Talburt: May not seem like a lot, but…
+
+275
+00:35:45.340 --> 00:35:54.309
+John Talburt: In data integration, master data management, moving precision and recall by just a few percentage points can be a real challenge.
+
+276
+00:35:54.920 --> 00:36:03.999
+John Talburt: So, if you just stop there, then, you know, the business managers and the CEO, and the CMO, and the CEO,
+
+277
+00:36:04.140 --> 00:36:07.099
+John Talburt: If they're standing in the room when you make that.
+
+278
+00:36:07.370 --> 00:36:23.130
+John Talburt: you know, their eyes roll. I mean, so, okay, so what does that mean? And that's where we often drop the ball. We say, okay, we expend an effort, we make results, we get some kind of big improvement that we measure, but what is the value of that?
+
+279
+00:36:23.360 --> 00:36:35.840
+John Talburt: Okay, so what difference does it make that I've moved the precision of our process from 88% to 92%? Does that mean we're going to retain more customers? Does that mean we lose less customers?
+
+280
+00:36:35.840 --> 00:36:49.349
+John Talburt: Is it going to be cheaper to service our customers? Is it going to mean we can expand our market by 20%? Or, you know, give me some numbers that represent value, not technical.
+
+281
+00:36:49.420 --> 00:36:52.149
+John Talburt: Statistics and percentages.
+
+282
+00:36:52.500 --> 00:36:57.289
+John Talburt: So, the way to tell the difference between results and value, typically, is that
+
+283
+00:36:57.780 --> 00:37:04.460
+John Talburt: We talk about them in different ways, right? Results, we talk about as statistics, as percentages.
+
+284
+00:37:04.640 --> 00:37:11.969
+John Talburt: But value is, we talk about in terms of increasing revenue, or lowering cost, or lowering mortality, and…
+
+285
+00:37:12.120 --> 00:37:17.890
+John Talburt: In medical, or higher success rates, and mission accomplishment, or whatever.
+
+286
+00:37:18.130 --> 00:37:23.510
+John Talburt: What… how do we measure it in terms of what we're trying to… the value that we're trying to create?
+
+287
+00:37:23.980 --> 00:37:28.039
+John Talburt: So, this was a valuable lesson to me, and…
+
+288
+00:37:28.400 --> 00:37:38.530
+John Talburt: I learned that this… to complete this value chain, you have to go from results to value. You can't just say, here's better results.
+
+289
+00:37:38.750 --> 00:37:44.040
+John Talburt: You need to think about, okay, do the better results then give me more value?
+
+290
+00:37:44.600 --> 00:37:53.100
+John Talburt: we oftentimes just leave that unstated, and we assume that people understand. So, going back to my example about the
+
+291
+00:37:53.260 --> 00:37:56.329
+John Talburt: The integration system that we were improving.
+
+292
+00:37:56.550 --> 00:38:02.330
+John Talburt: All of the members of the team were just overjoyed that we went from 88% to 92%.
+
+293
+00:38:02.570 --> 00:38:05.670
+John Talburt: Precision. We knew that that was a huge lift.
+
+294
+00:38:06.000 --> 00:38:13.520
+John Talburt: And we were rejoicing about it, but anyone from the outside that didn't understand all the technical details, it was meaningless to them.
+
+295
+00:38:13.700 --> 00:38:24.470
+John Talburt: Because we assumed they understood, yeah, now this system's better, it's gonna mean better for the business, but we never said, how. How is it gonna be better for the business?
+
+296
+00:38:25.320 --> 00:38:32.830
+John Talburt: So… Completing the value chain, don't confuse just stating results with stating what is the value.
+
+297
+00:38:35.660 --> 00:38:41.780
+John Talburt: Simple example here is that we have 5… and because some of these projects are really big.
+
+298
+00:38:42.090 --> 00:38:49.149
+John Talburt: A 5-man-year system development with a million dollars of direct costs and $500,000 of indirect costs.
+
+299
+00:38:49.280 --> 00:38:55.770
+John Talburt: The result? A new customer recognition system, 15% more accurate than the legacy system.
+
+300
+00:38:56.030 --> 00:38:56.880
+John Talburt: Wow.
+
+301
+00:38:57.150 --> 00:39:07.760
+John Talburt: 15%. If we just leave it there, and we say, well, people understand, well, it's 15% better, better is better, right? But look, we spent $1.5 million doing this.
+
+302
+00:39:08.600 --> 00:39:18.240
+John Talburt: So, to get to better results that we can interpret, survey shows, well, after doing this, the customer satisfaction is up 20%,
+
+303
+00:39:18.440 --> 00:39:25.530
+John Talburt: Another result… Keeping going with the chain. Analysis shows customer retention is up by 8%.
+
+304
+00:39:26.010 --> 00:39:34.639
+John Talburt: Now we can get to a value. The difference between customer acquisition costs and customer maintenance costs projects.
+
+305
+00:39:34.890 --> 00:39:43.719
+John Talburt: projects a net revenue increase over 5 years of $20 million, which more than makes up for the cost of it.
+
+306
+00:39:43.900 --> 00:39:48.100
+John Talburt: Right? We know in our business, most businesses know.
+
+307
+00:39:48.240 --> 00:39:56.380
+John Talburt: that it costs less to maintain a customer than we had… than to go out and market and get a new customer. And if you take that number.
+
+308
+00:39:56.460 --> 00:40:09.880
+John Talburt: and project it by the smaller, or the greater retention, the smaller loss rate of customers, you can turn that into a value, a number, in this case, $20 million.
+
+309
+00:40:10.140 --> 00:40:16.699
+John Talburt: So, we need to keep going with the value chain until we get from results to a value.
+
+310
+00:40:19.720 --> 00:40:34.910
+John Talburt: So, again, I spent a lot of time, but that's the very important principle of information quality, is it needs to be based on value. We don't want to think about information quality as just cleaning up dirty data.
+
+311
+00:40:35.090 --> 00:40:47.489
+John Talburt: Nobody's excited about that. It's just like thinking we build a new building, yeah, we gotta have janitors. We know the floor's gonna get dirty. We gotta keep cleaning them, but, you know, what good is that?
+
+312
+00:40:48.070 --> 00:40:53.390
+John Talburt: Other than just having clean floors. So, we want to have a bigger picture, bigger thought.
+
+313
+00:40:53.560 --> 00:40:58.680
+John Talburt: And it's not… it's understanding what customers need, what kind of
+
+314
+00:40:58.810 --> 00:41:16.159
+John Talburt: information, products, and services do they need and want and that they will pay for? How do we make it a quality product or service? And then we can work backwards and see what data, what condition does the data need to be in to build that quality product or service.
+
+315
+00:41:17.640 --> 00:41:22.740
+John Talburt: So, value's the first principle. The second principle is,
+
+316
+00:41:23.310 --> 00:41:29.220
+John Talburt: As we already mentioned in the history, is the recognition that, okay, if we're making money.
+
+317
+00:41:29.490 --> 00:41:37.159
+John Talburt: Or, you know, improving the quality of life or accomplishing our mission with better data and information.
+
+318
+00:41:37.650 --> 00:41:41.419
+John Talburt: then it's an organizational asset. We need to control it.
+
+319
+00:41:43.860 --> 00:41:47.779
+John Talburt: And controlling data as an asset is called data governance.
+
+320
+00:41:49.750 --> 00:41:53.290
+John Talburt: The way I like to think about data governance is, this.
+
+321
+00:41:54.500 --> 00:41:57.549
+John Talburt: Data governance is not data management.
+
+322
+00:41:58.800 --> 00:42:04.829
+John Talburt: What we do with data is data management. We decide what we're going to do with data.
+
+323
+00:42:05.010 --> 00:42:11.410
+John Talburt: data governance, It's the set of rules for making the decisions about what we do with it.
+
+324
+00:42:12.050 --> 00:42:19.679
+John Talburt: So it's sort of a meta level. If data management are the decisions about what to do with data.
+
+325
+00:42:19.850 --> 00:42:23.469
+John Talburt: Data governance is the guidelines for making those decisions.
+
+326
+00:42:24.160 --> 00:42:29.649
+John Talburt: So, it's very important, right? I mean, if something's, important to you, I mean.
+
+327
+00:42:30.460 --> 00:42:35.900
+John Talburt: There's a… there's a famous story about a guy going in to make a
+
+328
+00:42:36.700 --> 00:42:41.500
+John Talburt: A pitch about data governance and, The executive just…
+
+329
+00:42:41.680 --> 00:42:49.050
+John Talburt: kind of, you know, poo-hooing everything that he said, and just said, you know, what you're doing is not important. We don't need to…
+
+330
+00:42:49.370 --> 00:42:51.090
+John Talburt: To control all that data.
+
+331
+00:42:51.470 --> 00:42:56.560
+John Talburt: And, as he was leaving the meeting, he just stopped in the restroom, and he noticed that
+
+332
+00:42:56.710 --> 00:42:59.559
+John Talburt: All the urinals had inventory numbers on them.
+
+333
+00:42:59.690 --> 00:43:07.950
+John Talburt: So it was a company that was wanting to really take control of their assets by numbering all the urinals in the bathroom, but they didn't want to,
+
+334
+00:43:08.420 --> 00:43:13.869
+John Talburt: To engage in data governance, to take care of the data that they were using day-to-day.
+
+335
+00:43:14.310 --> 00:43:19.480
+John Talburt: So, however, it's now one of the fastest growing areas of information quality.
+
+336
+00:43:21.170 --> 00:43:26.119
+John Talburt: Because, Everyone is interested in how they govern data.
+
+337
+00:43:26.360 --> 00:43:35.239
+John Talburt: Not only to create more value out of it, but to… remember in our definition, it's not only to maximize value, but to minimize risk.
+
+338
+00:43:35.820 --> 00:43:42.130
+John Talburt: And so there's huge risk with information. You can talk to Meta about that today, I guess.
+
+339
+00:43:43.820 --> 00:43:52.670
+John Talburt: But there's a lot of regulation, a lot of oversight, especially in the financial services area and other regulated areas.
+
+340
+00:43:53.020 --> 00:44:01.029
+John Talburt: That if you're not careful with how you use data, what you use it for, how you release data, how you protect data.
+
+341
+00:44:01.220 --> 00:44:04.330
+John Talburt: You can have huge liabilities.
+
+342
+00:44:04.580 --> 00:44:12.590
+John Talburt: So, data governance is both sides. It's… it's building… it's helping to have a plan for
+
+343
+00:44:12.920 --> 00:44:17.019
+John Talburt: Building the right things, but also doing the right things with your data.
+
+344
+00:44:19.040 --> 00:44:25.350
+John Talburt: So, in the same way that every business has an accounting function, and
+
+345
+00:44:25.480 --> 00:44:28.900
+John Talburt: their technology, we typically have a CIO.
+
+346
+00:44:29.180 --> 00:44:35.350
+John Talburt: there… then this has really taken off, since I did these slides,
+
+347
+00:44:36.160 --> 00:44:43.649
+John Talburt: Of course, the federal government now has passed the regulation that every federal agency should have a chief data officer.
+
+348
+00:44:44.270 --> 00:44:45.480
+John Talburt: And,
+
+349
+00:44:49.050 --> 00:44:52.979
+John Talburt: So, if we're really going to manage information as an asset.
+
+350
+00:44:53.150 --> 00:45:00.679
+John Talburt: Somebody needs to be the gatekeeper or caretaker, and that generally falls as the role of the chief data officer.
+
+351
+00:45:01.490 --> 00:45:04.050
+John Talburt: They should be in charge of the strategy.
+
+352
+00:45:04.360 --> 00:45:10.629
+John Talburt: For how… what… what information products and services are we gonna build for our customers?
+
+353
+00:45:10.800 --> 00:45:16.080
+John Talburt: How do we get that information? How do we manage it? How do we govern it?
+
+354
+00:45:16.410 --> 00:45:20.220
+John Talburt: Somebody needs to be in charge of that.
+
+355
+00:45:20.970 --> 00:45:25.240
+John Talburt: So, we talked about value, we talked about, governance.
+
+356
+00:45:25.710 --> 00:45:31.290
+John Talburt: Then we need to talk about some of the fundamentals, and this one, I got in a little bit of a…
+
+357
+00:45:31.610 --> 00:45:35.379
+John Talburt: argument with Doug Laney about this, but I think I'm okay.
+
+358
+00:45:35.620 --> 00:45:42.449
+John Talburt: Information can only produce value when it's used for some purpose.
+
+359
+00:45:43.220 --> 00:45:44.780
+John Talburt: And,
+
+360
+00:45:46.730 --> 00:45:56.539
+John Talburt: The argument that we had over it is he made the statement that he disliked it when people say that information only has value when it's used.
+
+361
+00:45:57.330 --> 00:46:02.090
+John Talburt: And I agree with him, that's not true. It's not,
+
+362
+00:46:03.170 --> 00:46:22.239
+John Talburt: has value, but does it produce value? So it only produces the value when it's used. If you have data and you're not using it, it has potential value, just like something… a weight on a shelf has a potential energy when it falls off and expends that energy.
+
+363
+00:46:22.270 --> 00:46:34.479
+John Talburt: The same thing is true with data. So, it was sort of a misunderstanding in terminology. I never said that information only has value when it's used. It only produces value when it's used.
+
+364
+00:46:34.570 --> 00:46:36.819
+John Talburt: Certainly, it has potential value.
+
+365
+00:46:37.700 --> 00:46:47.520
+John Talburt: So, transforming, data into a form for use, again, is back to this product idea.
+
+366
+00:46:49.140 --> 00:46:59.930
+John Talburt: And the quality of an information product is measured in terms of the value, right? So again, we're seeing this… we're going to see this divide, and I'll make it a little clearer later.
+
+367
+00:47:00.360 --> 00:47:04.709
+John Talburt: That I make, anyway, and of course, I'm the teacher, so I can do this.
+
+368
+00:47:04.950 --> 00:47:09.270
+John Talburt: Between data quality and information quality.
+
+369
+00:47:09.880 --> 00:47:20.859
+John Talburt: So, information quality, of our definition, is based on value. It's based on producing value, maximizing value, or minimizing risk.
+
+370
+00:47:21.110 --> 00:47:23.760
+John Talburt: Of our information assets.
+
+371
+00:47:27.610 --> 00:47:29.630
+John Talburt: So, principle number four.
+
+372
+00:47:30.210 --> 00:47:39.410
+John Talburt: And then, as we just mentioned in the previous slide, if we're building this product, then really information should be managed as product.
+
+373
+00:47:40.150 --> 00:47:44.990
+John Talburt: The product of an information system Not a byproduct.
+
+374
+00:47:45.220 --> 00:47:52.079
+John Talburt: The reason that we invest in all these computers, the reason we invest in all these cloud services and servers.
+
+375
+00:47:52.340 --> 00:47:54.200
+John Talburt: is not,
+
+376
+00:47:55.470 --> 00:48:06.620
+John Talburt: is to produce some kind of a product or information product or service. It's not… just happens to be something that comes out of the system. That's why we got them in the first place.
+
+377
+00:48:07.520 --> 00:48:14.839
+John Talburt: So, managing information as a byproduct of computing is just not… doesn't make sense.
+
+378
+00:48:14.960 --> 00:48:23.960
+John Talburt: But often you see that, and that's the reason that we've seen the shift. You know, most organizations for many years have had a chief information officer.
+
+379
+00:48:24.180 --> 00:48:37.309
+John Talburt: So the question was, well, then why do we need a chief data officer if we're already managing? But the problem is, even though chief information officers have that title, that's not what they do.
+
+380
+00:48:37.380 --> 00:48:56.900
+John Talburt: CIOs focus on systems, software, and hardware. They're wanting to be sure that the system uptime is maximized, that they have the latest versions of the software, and it's all a technical focus, and it's not focused on the data. And that's the reason that we've needed a chief data officer.
+
+381
+00:48:56.990 --> 00:49:03.479
+John Talburt: Even though we already have a Chief Information Officer, there… even though the names…
+
+382
+00:49:03.650 --> 00:49:07.520
+John Talburt: The names are not aligned with what they actually do.
+
+383
+00:49:07.980 --> 00:49:15.729
+John Talburt: And, so… and I've seen this so many times in organizations that
+
+384
+00:49:15.970 --> 00:49:27.070
+John Talburt: The means becomes the end. And what's really tragic is that many have kind of caught on to this idea, well, sure, okay, now there's a trend, we need to get a chief data officer.
+
+385
+00:49:27.230 --> 00:49:34.029
+John Talburt: And what they do is they create a chief data officer position, but they put it under the CIO.
+
+386
+00:49:34.210 --> 00:49:38.919
+John Talburt: And that usually means that it's not going to be very successful.
+
+387
+00:49:39.150 --> 00:49:51.170
+John Talburt: The chief data officer and the chief information officer should be peers. They should be at the same level reporting up to higher levels, like the chief operations officer, or the
+
+388
+00:49:51.370 --> 00:49:54.370
+John Talburt: marketing officer, or even the CEO.
+
+389
+00:49:54.890 --> 00:50:03.800
+John Talburt: Because, really, if you don't have a balance between your data and your technology.
+
+390
+00:50:03.920 --> 00:50:14.519
+John Talburt: You're, and you're only… and you have a higher priority for the technology, you're never gonna, get the full value out of the data that you have.
+
+391
+00:50:16.090 --> 00:50:22.169
+John Talburt: So, how do you successfully manage project… products, I'm sorry, successful product management?
+
+392
+00:50:22.370 --> 00:50:26.679
+John Talburt: And we've known that for a long time, and again, most of this comes from TQM.
+
+393
+00:50:27.190 --> 00:50:29.270
+John Talburt: There's 4 main principles.
+
+394
+00:50:29.920 --> 00:50:34.590
+John Talburt: Number one, understand the information customer needs.
+
+395
+00:50:35.130 --> 00:50:37.930
+John Talburt: What information do your customers really need?
+
+396
+00:50:38.040 --> 00:50:47.780
+John Talburt: And what do they want? Whether it's information or anything, a car or whatever, what is it that the customer's wanting? You need to understand that.
+
+397
+00:50:49.000 --> 00:50:54.479
+John Talburt: And then manage information is the product of a well-defined production process.
+
+398
+00:50:54.960 --> 00:51:00.330
+John Talburt: And again, unfortunately, When we build products.
+
+399
+00:51:00.500 --> 00:51:07.910
+John Talburt: Of course, as soon as it's built, we have this beautiful set of documentation, and everybody understands what's going on.
+
+400
+00:51:08.090 --> 00:51:14.150
+John Talburt: But as time goes on, we start patching and fixing, and it goes undocumented.
+
+401
+00:51:14.270 --> 00:51:17.300
+John Talburt: And oftentimes, in several years.
+
+402
+00:51:17.450 --> 00:51:22.699
+John Talburt: You know, the only… there's one person in the company that knows how a particular process works.
+
+403
+00:51:22.800 --> 00:51:26.220
+John Talburt: And if he retires, then you have to abandon the system.
+
+404
+00:51:26.480 --> 00:51:31.540
+John Talburt: So, we really need well-defined, well-documented production processes.
+
+405
+00:51:32.300 --> 00:51:37.129
+John Talburt: And then the other is, I mentioned earlier about, really liking the,
+
+406
+00:51:37.690 --> 00:51:42.569
+John Talburt: El Camino, but you can't really buy them anymore, except on the aftermarket.
+
+407
+00:51:42.770 --> 00:51:52.550
+John Talburt: And the reason is that, you know, there was… there's been shifts in the automotive market. We've gone through a huge cycle now of,
+
+408
+00:51:52.740 --> 00:52:11.570
+John Talburt: SUVs. We used to have station wagons. No, not anymore. We have SUVs, we have pickup trucks. So, all products have a life cycle. You initiate the product, it grows, it reaches maturity, it's useful, but at some point, it retires, right?
+
+409
+00:52:11.790 --> 00:52:21.890
+John Talburt: It's like a plant or an animal has a life cycle. Products have a life cycle. So understanding where you are in the life cycle is very important in managing a product.
+
+410
+00:52:23.490 --> 00:52:35.159
+John Talburt: And then this is one that we really need, in the information quality area, and I see this happening more and more in businesses, is the appointment of product managers.
+
+411
+00:52:35.680 --> 00:52:41.790
+John Talburt: And the purpose of a product manager, and manufacturing has understood this for a long time.
+
+412
+00:52:41.970 --> 00:52:49.979
+John Talburt: Is you need someone that's the liaison between the consumer of the product and the producer of the product.
+
+413
+00:52:50.630 --> 00:53:01.370
+John Talburt: If you just leave it to the producers to imagine what they want to build, they often end up building things that are just not useful or not sellable to their consumers.
+
+414
+00:53:01.680 --> 00:53:05.810
+John Talburt: So, it's very important to listen to the consumer, what they want.
+
+415
+00:53:05.970 --> 00:53:10.750
+John Talburt: Translate that back into production so that you meet consumer needs.
+
+416
+00:53:11.210 --> 00:53:17.299
+John Talburt: And, we've done that a lot in software development. Software development has had
+
+417
+00:53:17.410 --> 00:53:20.380
+John Talburt: Product managers for a long time.
+
+418
+00:53:20.580 --> 00:53:31.260
+John Talburt: So people that sell software, they go out and they talk, what features do you want, what other things do you want in the software? They take it back, software developers implement those things.
+
+419
+00:53:31.380 --> 00:53:39.249
+John Talburt: Not so much until lately for information, products, and services, but I do see that happening. I worked with a company
+
+420
+00:53:39.390 --> 00:53:50.290
+John Talburt: for several years, doing some consulting, and I think it was 2 years ago, they implemented an information product manager group.
+
+421
+00:53:50.690 --> 00:53:54.779
+John Talburt: So they identified what are the information products that we're producing.
+
+422
+00:53:55.050 --> 00:54:03.330
+John Talburt: And who's the assigned manager for that? Who's the liaison between the user of this product and the producers of the product?
+
+423
+00:54:03.800 --> 00:54:07.580
+John Talburt: So those are the four principles of successful product management.
+
+424
+00:54:08.730 --> 00:54:10.080
+John Talburt: Number 5…
+
+425
+00:54:12.570 --> 00:54:18.349
+John Talburt: And this is what I talked about earlier, and now we talked a little bit about the difference between information quality and data quality.
+
+426
+00:54:18.510 --> 00:54:22.539
+John Talburt: And they're certainly related, but they're different in their focus.
+
+427
+00:54:23.520 --> 00:54:25.330
+John Talburt: Information quality.
+
+428
+00:54:26.050 --> 00:54:30.659
+John Talburt: Applies to information products, including their governance and use.
+
+429
+00:54:31.060 --> 00:54:40.450
+John Talburt: It's measured in value units, like money, or quality of life, you know, success rates of drugs, or mission achievement.
+
+430
+00:54:41.080 --> 00:54:51.370
+John Talburt: And that's… the information quality is the overall process of going from raw information, or raw data, Processing
+
+431
+00:54:51.720 --> 00:55:00.670
+John Talburt: Producing information products, the loopback of improvement, the governance of it, all of this infrastructure, our ecosystem.
+
+432
+00:55:00.800 --> 00:55:02.969
+John Talburt: To me, is information quality.
+
+433
+00:55:03.490 --> 00:55:10.660
+John Talburt: Data quality is a big part of that, but it applies to operational data internal to the organization.
+
+434
+00:55:11.300 --> 00:55:16.349
+John Talburt: And it's measured in percentages, the degrees to which data requirements are met.
+
+435
+00:55:16.740 --> 00:55:21.960
+John Talburt: So, those of you who are very familiar, some of you, with the idea of,
+
+436
+00:55:22.430 --> 00:55:27.090
+John Talburt: of ISO, the International Organization of Standardization.
+
+437
+00:55:27.770 --> 00:55:34.919
+John Talburt: That, re… that quality The definition of quality is meeting requirements.
+
+438
+00:55:35.360 --> 00:55:39.349
+John Talburt: So, data quality is meeting data requirements, so…
+
+439
+00:55:39.780 --> 00:55:44.169
+John Talburt: We have a requirement, for example, completeness of the data.
+
+440
+00:55:44.760 --> 00:55:50.639
+John Talburt: We have a data set of customer addresses, and we say, well.
+
+441
+00:55:50.860 --> 00:56:09.040
+John Talburt: you know, we're missing a lot of zip codes for our addresses. We need those zip codes to get the mail to the right place. So let's measure how complete are the zip codes. And they say, well, they're only 80% complete. And we can set a goal, and we say, well, okay, we want to get those to 90%, right?
+
+442
+00:56:09.170 --> 00:56:13.919
+John Talburt: So we measure, we have a metric, a completeness metric.
+
+443
+00:56:14.170 --> 00:56:17.950
+John Talburt: And we can measure that, we can count how many,
+
+444
+00:56:18.480 --> 00:56:22.739
+John Talburt: How many missing values that we have, and we can strive to reduce that.
+
+445
+00:56:22.750 --> 00:56:40.350
+John Talburt: And so that's improving the data quality. So data quality is measured in terms of some metric around… that we usually have a numerical value for that's a degree to which we're meeting the requirement. How far are we from the 90% goal that we want to get to?
+
+446
+00:56:41.000 --> 00:56:48.999
+John Talburt: So that's data quality. Information quality is the much bigger picture of value production from information products and services.
+
+447
+00:56:50.910 --> 00:57:04.389
+John Talburt: So, again, information is a lot of squabbling about this sometimes, and a lot of disagreement. People say, well, these terms are just interchangeable, and we do sometimes. Even I will not necessarily make a big distinction.
+
+448
+00:57:05.990 --> 00:57:10.839
+John Talburt: But I like to think, again, of this two sides of the coin, where,
+
+449
+00:57:11.380 --> 00:57:14.320
+John Talburt: The data quality has an inward focus.
+
+450
+00:57:14.840 --> 00:57:26.410
+John Talburt: Because it's dealing with the condition of the data. It's measured in conformance to data requirements, right? Data quality is the degree to which data meets data requirements.
+
+451
+00:57:27.270 --> 00:57:32.660
+John Talburt: And we measured in counts, percentages, proportions, ratios, things like that.
+
+452
+00:57:33.310 --> 00:57:39.349
+John Talburt: Information quality has an outward focus. It's about creating value from information.
+
+453
+00:57:39.780 --> 00:57:46.180
+John Talburt: About meeting the user requirements and expectations, which are not always measured as completeness or…
+
+454
+00:57:46.280 --> 00:57:52.959
+John Talburt: In other words, they have a… they have other types of evaluations of how useful something is to them.
+
+455
+00:57:53.720 --> 00:58:06.620
+John Talburt: And information quality measures are, you know, in these fields of value. If it's monetary, it could be monetary, could be treatment outcomes, if we're talking about medical, and so forth.
+
+456
+00:58:07.100 --> 00:58:10.300
+John Talburt: So… The focus is different.
+
+457
+00:58:10.490 --> 00:58:17.909
+John Talburt: And it's like the engineering dilemma. Are you building the thing right, or are you building the right thing?
+
+458
+00:58:19.560 --> 00:58:24.349
+John Talburt: And this is very, similar to Tom Redmond's,
+
+459
+00:58:24.720 --> 00:58:28.130
+John Talburt: Saul that's similar to this. He says,
+
+460
+00:58:28.280 --> 00:58:32.209
+John Talburt: Is the data right, or do you have the right data?
+
+461
+00:58:32.700 --> 00:58:36.270
+John Talburt: And you really want both, right? So this is saying the same thing.
+
+462
+00:58:36.990 --> 00:58:42.199
+John Talburt: So, data quality is building the thing right.
+
+463
+00:58:42.980 --> 00:58:59.779
+John Talburt: In other words, are you cleaning up the data? You're getting the data, like, in the data warehouse? You're getting it to be consistent representation? All of these attributes of the data, you try to get those right. But again, no matter how right those…
+
+464
+00:58:59.930 --> 00:59:09.790
+John Talburt: the data are, when you put it together into a product, if it's a product that nobody wants, or doesn't sell well, or is defective.
+
+465
+00:59:10.360 --> 00:59:18.199
+John Talburt: you're not building the right thing. So you really need to start off and say, am I building the right thing? I'm gonna build a building on this lot.
+
+466
+00:59:18.830 --> 00:59:25.270
+John Talburt: But if I build a building on this lot, and it's the type of building that I build, let's say it's an apartment building.
+
+467
+00:59:25.470 --> 00:59:34.460
+John Talburt: Is that… is that the right thing to do? Is it really going to sell or rent if I build this apartment in this particular location?
+
+468
+00:59:34.620 --> 00:59:48.350
+John Talburt: If the answer is yes, then I want to be sure that when I build that apartment, I build it correctly, I build it according to the blueprints and the plans. If I just go out and say, oh, here's a piece of land, I'm going to build this building because I like it.
+
+469
+00:59:48.590 --> 01:00:00.730
+John Talburt: and I build it, and I can build that building right, I can build it according to the blueprint, but if I build it in the wrong place, or it's the wrong type of building for that location, it's not the right thing.
+
+470
+01:00:00.910 --> 01:00:09.190
+John Talburt: And so you need to align both of these things. So, as Tom said, you need the right data, and you need the data to be right.
+
+471
+01:00:11.510 --> 01:00:16.769
+John Talburt: So, data quality is assuring data conforms to specifications, like building it right.
+
+472
+01:00:17.340 --> 01:00:24.559
+John Talburt: And information quality is building an information product that creates value for the user, and that's building the right thing.
+
+473
+01:00:26.080 --> 01:00:27.869
+John Talburt: Our goal is to do both.
+
+474
+01:00:30.500 --> 01:00:36.360
+John Talburt: So, that leads us to what I call the information quality gap.
+
+475
+01:00:37.300 --> 01:00:46.480
+John Talburt: And what I mean by that is that we have a process where we're building an information product. We've got data coming in, we have a process.
+
+476
+01:00:46.670 --> 01:00:58.319
+John Talburt: And we're doing the right things. We've got a continuous improvement, we keep improving the information product, and we meet the data requirements internally.
+
+477
+01:00:58.660 --> 01:01:03.399
+John Talburt: However, That's the internal view, that's data quality management.
+
+478
+01:01:03.700 --> 01:01:16.000
+John Talburt: But we're delivering this information product to some user. It could be within our own organization or outside of our organization, but there's somebody using this, information, product, or service.
+
+479
+01:01:17.020 --> 01:01:21.729
+John Talburt: And they're… they're… they have a… they're using it for something.
+
+480
+01:01:22.090 --> 01:01:25.040
+John Talburt: They have an application that they're using it for.
+
+481
+01:01:25.380 --> 01:01:26.380
+John Talburt: So…
+
+482
+01:01:26.630 --> 01:01:33.680
+John Talburt: That information product, that's what creates the value for the user, is it doing the right thing for them.
+
+483
+01:01:34.180 --> 01:01:40.540
+John Talburt: And so, if we don't communicate this back, and this is where we need the idea of a product manager.
+
+484
+01:01:40.990 --> 01:01:50.959
+John Talburt: Then, these happen in isolation, and we can end up over here on the left-hand side building things that are pretty, gold-plated.
+
+485
+01:01:51.140 --> 01:01:56.869
+John Talburt: But they're not the things that people ask for that they really want when they use it.
+
+486
+01:01:57.360 --> 01:02:09.249
+John Talburt: So, we need that communication about what's really creating value for the user, so that we can be sure we incorporate that into the building process of the information, product, or service.
+
+487
+01:02:10.150 --> 01:02:26.149
+John Talburt: So what we want is this, we don't want that gap. We want another feedback loop. Not just a feedback loop of defects in the product, but a feedback loop that says, what are the features that are going to make that information product more useful to the user?
+
+488
+01:02:29.930 --> 01:02:35.910
+John Talburt: Principle number 6, and this is… helps make the distinction.
+
+489
+01:02:36.410 --> 01:02:43.770
+John Talburt: Is that, information quality, I'm sorry, I just…
+
+490
+01:02:44.220 --> 01:02:45.920
+John Talburt: Oh, how that got out of order.
+
+491
+01:02:46.250 --> 01:02:57.980
+John Talburt: Information quality is contextual, that is, situational, it's not absolute. The same data can have different information quality when used in different information products for different purposes.
+
+492
+01:02:58.480 --> 01:03:08.290
+John Talburt: The same data with the same set of data requirements has a fixed data quality. In other words, you set requirements, it's either meeting those requirements or it's not.
+
+493
+01:03:08.970 --> 01:03:13.929
+John Talburt: So the data quality changes when either the data or the data requirements change.
+
+494
+01:03:14.730 --> 01:03:20.170
+John Talburt: However, changes in the use of information products can change the data requirements.
+
+495
+01:03:20.400 --> 01:03:23.790
+John Talburt: That's what I mean by that. Let's look at a very simple example.
+
+496
+01:03:24.690 --> 01:03:29.549
+John Talburt: I've got a file of name and address, right? So here's some examples.
+
+497
+01:03:29.720 --> 01:03:32.789
+John Talburt: I've got the doe family on 123 Oak.
+
+498
+01:03:33.210 --> 01:03:35.189
+John Talburt: With a certain phone number.
+
+499
+01:03:36.050 --> 01:03:42.870
+John Talburt: the John Doe family on Pine Street. I don't have a number. I've got Occupant on 789 Maple.
+
+500
+01:03:43.280 --> 01:03:44.900
+John Talburt: I don't have a phone number.
+
+501
+01:03:45.790 --> 01:03:52.369
+John Talburt: And so forth and so on. So, what the bottom line is that I have poor name quality.
+
+502
+01:03:52.970 --> 01:03:54.980
+John Talburt: Have good address quality.
+
+503
+01:03:55.540 --> 01:04:01.349
+John Talburt: But I have also a lot of missing telephone numbers. So from a data quality standpoint.
+
+504
+01:04:01.870 --> 01:04:12.199
+John Talburt: I can measure these. I can measure how good my names are, how good my addresses are, how good my telephone numbers are, and I can see that I've got
+
+505
+01:04:12.660 --> 01:04:23.860
+John Talburt: fairly low, poor name quality, and I've got poor telephone number quality, because I have a lot of missing numbers, but I have pretty good address quality. So now, how am I going to use this data?
+
+506
+01:04:23.870 --> 01:04:37.650
+John Talburt: Suppose the first use is I'm going to mail coupons out for free pizza. There's a new pizza store opening, and they want to give the customer, you bring in the coupon, you'll get one free pizza.
+
+507
+01:04:38.170 --> 01:04:51.019
+John Talburt: And it turns out that the use of this data for that is very high. It's a high-quality product. Even though the data has a lot of low-college features, the main feature that it needs is it needs to be mailable.
+
+508
+01:04:51.170 --> 01:04:55.879
+John Talburt: Doesn't matter if it mails it to occupants, somebody's gonna get it at that house.
+
+509
+01:04:56.220 --> 01:05:03.529
+John Talburt: And they're gonna get that coupon, and then they'll go down to Joe's Pizza, and he's got his customer prospect coming in.
+
+510
+01:05:03.940 --> 01:05:15.149
+John Talburt: So, the fact that it has poor name quality, and they're not calling them, they're mailing them. So, it actually created this idea of a direct mail list out of this.
+
+511
+01:05:15.320 --> 01:05:35.100
+John Talburt: is a high-quality information product, has high value. It's reaching the customers, or potential customers. However, if we take that same data, and we're going to make an online lookup of address and phone by name, in other words, you put in the name and you're going to try to find an address and a phone number.
+
+512
+01:05:35.190 --> 01:05:43.400
+John Talburt: It's not going to work very well, because the name quality is very poor. So there'll be a lot of names I won't be able to look up because they're not there.
+
+513
+01:05:43.570 --> 01:05:53.640
+John Talburt: And even if I looked them up, I could get an address, but I don't want to always get a phone, because there's a lot of missing phone days. So building that product out of this data.
+
+514
+01:05:53.810 --> 01:05:55.690
+John Talburt: Is very low quality.
+
+515
+01:05:55.980 --> 01:05:58.800
+John Talburt: It's a very low-quality, product.
+
+516
+01:05:59.010 --> 01:06:01.930
+John Talburt: The, name lookup.
+
+517
+01:06:02.220 --> 01:06:13.359
+John Talburt: So, here's an example where we have the same set of data, and it creates a high-quality product for one use, and a low-quality product for another use.
+
+518
+01:06:14.750 --> 01:06:18.800
+John Talburt: Same data quality, but different information quality.
+
+519
+01:06:21.670 --> 01:06:26.090
+John Talburt: The final principle is that, and we've been talking about this.
+
+520
+01:06:26.250 --> 01:06:36.430
+John Talburt: is that data can have many characteristics that we like to call dimensions that can be used to express data requirements. So this is important for data quality.
+
+521
+01:06:37.040 --> 01:06:41.979
+John Talburt: And the one that we like to use, and here's an unfortunate thing.
+
+522
+01:06:42.600 --> 01:06:54.410
+John Talburt: And it goes back to a statement that I made earlier, is that the beginnings of information quality started with consultants, people like Larry English and Tom Redman and others.
+
+523
+01:06:54.560 --> 01:06:59.890
+John Talburt: That… that went out, and of course, when you're a consultant, you want to distinguish yourself.
+
+524
+01:07:00.250 --> 01:07:04.629
+John Talburt: And so you don't want to look like somebody else. You definitely want to be different.
+
+525
+01:07:04.950 --> 01:07:13.470
+John Talburt: So what happened is, in the beginning, we had many, many different types or descriptions of data quality dimensions.
+
+526
+01:07:13.990 --> 01:07:21.500
+John Talburt: So there are many of them floating out there. They're all quite similar, but they're all quite different in some ways.
+
+527
+01:07:22.080 --> 01:07:26.970
+John Talburt: And the reason I like this one, this Wong Strong framework came out of,
+
+528
+01:07:27.220 --> 01:07:31.840
+John Talburt: university work at MIT, and it has research backing behind it.
+
+529
+01:07:32.330 --> 01:07:37.810
+John Talburt: So they came up with 16 dimensions, or features, of data.
+
+530
+01:07:38.360 --> 01:07:47.310
+John Talburt: And they categorized them into four categories. Intrinsic dimensions, contextual dimensions, representational dimensions, and accessibility dimensions.
+
+531
+01:07:48.190 --> 01:07:55.819
+John Talburt: And you can see them here. Intrinsic is… is… are the data accurate, believable, objective, reputation?
+
+532
+01:07:56.600 --> 01:08:08.130
+John Talburt: Contextual, does it add value? Is it relevant? Timely? Complete? Is it the right amount of data? Representational? Is it interpretable? Understandable?
+
+533
+01:08:08.250 --> 01:08:13.399
+John Talburt: Is it consistent? That's what we talked about earlier, representational consistency.
+
+534
+01:08:13.900 --> 01:08:17.170
+John Talburt: Concise in representation isn't manipulable.
+
+535
+01:08:17.740 --> 01:08:21.789
+John Talburt: And then accessibility, can I get to it, and is it secure?
+
+536
+01:08:22.149 --> 01:08:24.710
+John Talburt: And those two kind of fight against each other.
+
+537
+01:08:25.390 --> 01:08:30.280
+John Talburt: so these,
+
+538
+01:08:30.500 --> 01:08:39.340
+John Talburt: Again, there are many other sets of dimensions. Most practitioners have their own set of dimensions, but they tend to agree on certain things, like…
+
+539
+01:08:39.680 --> 01:08:44.469
+John Talburt: Accuracy, or timeliness, or completeness, or representation.
+
+540
+01:08:44.950 --> 01:08:54.600
+John Talburt: On others, they might disagree on things like manipulability, or representation, or, several other types of…
+
+541
+01:08:56.069 --> 01:08:59.310
+John Talburt: Features that other people come up with.
+
+542
+01:08:59.750 --> 01:09:10.379
+John Talburt: But this is the one that we typically work with, again, because it's… there's a… there's a very interesting paper. I don't know if I put it out in the resources yet, but there's a good paper about how this was developed.
+
+543
+01:09:11.210 --> 01:09:18.349
+John Talburt: And so we'll mostly be using this set of dimensions when we talk about dimensions.
+
+544
+01:09:19.760 --> 01:09:24.530
+John Talburt: And of course, they're very important, then, for being able to measure data quality.
+
+545
+01:09:25.350 --> 01:09:28.260
+John Talburt: So I mentioned this earlier, and I'll mention it again.
+
+546
+01:09:28.410 --> 01:09:37.100
+John Talburt: the work that the International Association for Information and Data Quality did a job analysis in preparation for a certification
+
+547
+01:09:37.370 --> 01:09:42.659
+John Talburt: A certified, Data quality, professional.
+
+548
+01:09:44.580 --> 01:09:47.800
+John Talburt: I'm sorry, Certified Information Quality Professional.
+
+549
+01:09:48.200 --> 01:09:52.150
+John Talburt: And… Again, the six domains are…
+
+550
+01:09:52.640 --> 01:10:01.720
+John Talburt: Information quality value and business impact. Information Quality Strategy and Governance, Information Quality Environment and Culture.
+
+551
+01:10:01.920 --> 01:10:05.170
+John Talburt: Information Quality Measurement Improvement.
+
+552
+01:10:05.430 --> 01:10:10.080
+John Talburt: And sustaining information quality, and information architecture quality.
+
+553
+01:10:10.460 --> 01:10:17.269
+John Talburt: So, they divided up the knowledge and practice that you need to be a professional into these 6 areas.
+
+554
+01:10:18.260 --> 01:10:20.430
+John Talburt: We'll talk more about those later.
+
+555
+01:10:21.690 --> 01:10:26.280
+John Talburt: So, what are some of the roles that our graduates get?
+
+556
+01:10:29.250 --> 01:10:36.310
+John Talburt: They often become data quality analysts, data governance stewards, or directors.
+
+557
+01:10:36.420 --> 01:10:44.030
+John Talburt: Solution developers, depending on their background, data developers, and we've had several now that have become chief data officers.
+
+558
+01:10:45.630 --> 01:10:51.260
+John Talburt: And many that are now data analysts and data… risk data analysts as well.
+
+559
+01:10:51.830 --> 01:10:55.869
+John Talburt: And a lot of… a lot of our graduates are now into data governance.
+
+560
+01:10:57.350 --> 01:11:05.530
+John Talburt: So, I think we're running up against time. I don't know if there's any quick questions or comments from anyone still online.
+
+561
+01:11:08.000 --> 01:11:14.389
+John Talburt: If not, now I'm going to stop the recording.
+
