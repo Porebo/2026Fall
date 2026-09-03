@@ -1,0 +1,4 @@
+# GitHub Pages build config — keeps raw lecture transcripts out of the published site.
+# Notes/summaries pages stay public; the professor's original Zoom transcript files do not.
+exclude:
+  - classes/principles-of-iq/transcripts/
