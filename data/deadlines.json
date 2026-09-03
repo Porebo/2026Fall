@@ -47,7 +47,7 @@
       "course": "principles-of-iq",
       "type": "event",
       "title": "Labor Day — no classes",
-      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+      "url": "classes/principles-of-iq/w01/2026-08-25.html#course-dates-heading"
     },
     {
       "id": "iq-midterm",
@@ -55,7 +55,7 @@
       "course": "principles-of-iq",
       "type": "exam",
       "title": "Midterm exam",
-      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+      "url": "classes/principles-of-iq/w01/2026-08-25.html#course-dates-heading"
     },
     {
       "id": "iq-drop-deadline",
@@ -63,7 +63,7 @@
       "course": "principles-of-iq",
       "type": "admin",
       "title": "Last day to drop a class (W grade)",
-      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+      "url": "classes/principles-of-iq/w01/2026-08-25.html#course-dates-heading"
     },
     {
       "id": "iq-workday-completion",
@@ -71,7 +71,7 @@
       "course": "principles-of-iq",
       "type": "admin",
       "title": "Program completion request due in Workday",
-      "url": "classes/principles-of-iq/2026-08-25.html#admin-heading"
+      "url": "classes/principles-of-iq/w01/2026-08-25.html#admin-heading"
     },
     {
       "id": "iq-fall-break",
@@ -80,7 +80,7 @@
       "course": "principles-of-iq",
       "type": "event",
       "title": "Fall break — Thanksgiving week (no classes)",
-      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+      "url": "classes/principles-of-iq/w01/2026-08-25.html#course-dates-heading"
     },
     {
       "id": "iq-final",
@@ -88,7 +88,7 @@
       "course": "principles-of-iq",
       "type": "exam",
       "title": "Final exam",
-      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+      "url": "classes/principles-of-iq/w01/2026-08-25.html#course-dates-heading"
     },
     {
       "id": "iq-commencement",
@@ -96,7 +96,7 @@
       "course": "principles-of-iq",
       "type": "event",
       "title": "Commencement (optional)",
-      "url": "classes/principles-of-iq/2026-08-25.html#course-dates-heading"
+      "url": "classes/principles-of-iq/w01/2026-08-25.html#course-dates-heading"
     }
   ]
 }

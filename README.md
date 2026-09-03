@@ -42,8 +42,7 @@ Principles of IQ uses `data/principles-of-iq-lectures.json` with the same shared
 
 ## Conventions
 
-- Meeting pages use `YYYY-MM-DD.html` where possible (e.g. `2026-08-25.html`).
-- Research Methods week content lives under `w01/`, `w02/`, etc., linked from the class home page.
+- Meeting pages use `YYYY-MM-DD.html` where possible (e.g. `2026-08-25.html`) and live inside that week's folder (`w01/`, `w02/`, etc.) alongside any assignment/lab files for that week.
 - Breadcrumbs follow: Home → Class → Page.
 
 ## Reference
