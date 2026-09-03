@@ -1,0 +1,861 @@
+show_id,type,title,director,country,date_added,release_year,rating,duration,listed_in,description,user_rating_score,number_of_reviews
+s15,Movie,Black Mirror,Martin Scorsese,United Kingdom,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s6,Documentary,Money Heist,Ava DuVernay,Spain,,2009,TV-14,,Documentaries,Description of show.,,317
+s21,tv show,The Umbrella Academy,Noah Baumbach,Canada,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s9,movie,The Crown,David Fincher,United Kingdom,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s31,Stand-Up,Dark,Martin Scorsese,Germany,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s16,Movie,BoJack Horseman,Martin Scorsese,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s26,tv show,Dark,Quentin Tarantino,Germany,,2002,,45 min,Comedies,Description of show.,6.6,227
+s17,tv show,Bird Box,Greta Gerwig,,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s8,movie,Ozark,Alfonso Cuarón,United States,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s25,Stand-Up,The Irishman,,United States,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s31,tv show,Roma,Martin Scorsese,Mexico,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s28,Stand-Up,Roma,Bong Joon-ho,Mexico,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s24,movie,Bird Box,Greta Gerwig,India,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s16,Stand-Up,You,Alfonso Cuarón,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s47,Stand-Up,Money Heist,,Spain,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s49,tv show,Marriage Story,Alfonso Cuarón,United States,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s7,tv show,Bridgerton,Bong Joon-ho,United Kingdom,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s16,Stand-Up,Marriage Story,,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s12,movie,The Umbrella Academy,Noah Baumbach,Canada,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s32,Movie,Mindhunter,Sofia Coppola,United States,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s44,Documentary,Roma,Ava DuVernay,Mexico,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s35,Movie,Breaking Bad,Sofia Coppola,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s38,tv show,The Crown,Alfonso Cuarón,United Kingdom,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s43,Documentary,You,Noah Baumbach,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s37,Movie,The Witcher,,Poland,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s38,TV Show,The Queen's Gambit,Noah Baumbach,United States,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s9,Movie,You,Ava DuVernay,United States,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s41,movie,Ozark,Martin Scorsese,United States,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s3,TV Show,Marriage Story,Sofia Coppola,United States,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s33,Documentary,Black Mirror,Noah Baumbach,United Kingdom,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s47,tv show,Stranger Things,Ava DuVernay,United States,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s22,TV Show,Bridgerton,Noah Baumbach,United Kingdom,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s26,Movie,House of Cards,Martin Scorsese,United States,,2002,,45 min,Comedies,Description of show.,6.6,227
+s43,movie,Bird Box,Alfonso Cuarón,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s37,Movie,House of Cards,Noah Baumbach,United States,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s29,TV Show,Roma,Martin Scorsese,Mexico,,2018,,,Dramas,Description of show.,9,820
+s9,TV Show,BoJack Horseman,Quentin Tarantino,United States,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s47,Movie,Roma,,Mexico,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s41,Documentary,Ozark,Quentin Tarantino,United States,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s44,TV Show,Stranger Things,Sofia Coppola,,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s40,Documentary,The Queen's Gambit,Sofia Coppola,United States,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s18,tv show,Roma,David Fincher,Mexico,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s37,TV Show,The Crown,Quentin Tarantino,United Kingdom,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s29,Stand-Up,Roma,David Fincher,Mexico,,2018,,,Dramas,Description of show.,9,820
+s16,TV Show,Marriage Story,Sofia Coppola,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s31,Documentary,BoJack Horseman,Bong Joon-ho,United States,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s11,TV Show,House of Cards,Ava DuVernay,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s47,movie,Money Heist,Noah Baumbach,Spain,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s16,Documentary,Stranger Things,Noah Baumbach,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s10,TV Show,Bird Box,Alfonso Cuarón,,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s41,tv show,Stranger Things,Christopher Nolan,United States,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s7,movie,Ozark,Quentin Tarantino,United States,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s1,Stand-Up,The Crown,Greta Gerwig,United Kingdom,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s50,tv show,Marriage Story,Quentin Tarantino,United States,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s2,Movie,The Irishman,Bong Joon-ho,United States,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s43,Stand-Up,The Queen's Gambit,,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s20,Documentary,Black Mirror,Greta Gerwig,United Kingdom,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s25,TV Show,Dark,David Fincher,Germany,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s45,Movie,The Queen's Gambit,Quentin Tarantino,United States,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s24,TV Show,Money Heist,Martin Scorsese,Spain,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s11,movie,Breaking Bad,Bong Joon-ho,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s44,Documentary,Stranger Things,,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s45,Documentary,Narcos,Noah Baumbach,Colombia,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s17,TV Show,House of Cards,,United States,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s19,Stand-Up,Bird Box,Greta Gerwig,India,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s37,tv show,Money Heist,Quentin Tarantino,Spain,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s13,movie,Bridgerton,Bong Joon-ho,United Kingdom,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s18,tv show,Money Heist,Quentin Tarantino,,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s24,Stand-Up,BoJack Horseman,,United States,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s43,Movie,The Queen's Gambit,Christopher Nolan,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s21,Movie,Mindhunter,Sofia Coppola,United States,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s11,Documentary,Stranger Things,Noah Baumbach,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s37,Stand-Up,The Crown,Noah Baumbach,United Kingdom,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s45,Movie,Dark,Noah Baumbach,Germany,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s40,tv show,Bird Box,Greta Gerwig,United Kingdom,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s6,Stand-Up,The Witcher,Christopher Nolan,Poland,,2009,TV-14,,Documentaries,Description of show.,,317
+s24,TV Show,Black Mirror,Noah Baumbach,United Kingdom,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s46,Movie,The Crown,,United Kingdom,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s50,Stand-Up,The Irishman,Bong Joon-ho,United States,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s14,Movie,Money Heist,Noah Baumbach,Spain,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s26,Movie,The Witcher,Sofia Coppola,Poland,,2002,,45 min,Comedies,Description of show.,6.6,227
+s13,Movie,Ozark,,United States,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s17,TV Show,Mindhunter,Greta Gerwig,United States,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s16,Documentary,The Queen's Gambit,David Fincher,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s2,Stand-Up,Mindhunter,Noah Baumbach,United States,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s42,Stand-Up,The Irishman,Christopher Nolan,United States,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s29,TV Show,Roma,Bong Joon-ho,Mexico,,2018,,,Dramas,Description of show.,9,820
+s28,Stand-Up,Money Heist,David Fincher,Spain,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s12,Documentary,You,Ava DuVernay,United States,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s32,Documentary,Marriage Story,Alfonso Cuarón,United States,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s37,Documentary,The Irishman,,United States,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s5,Documentary,Black Mirror,Christopher Nolan,United Kingdom,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s39,TV Show,The Crown,Ava DuVernay,United Kingdom,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s10,Documentary,Marriage Story,Quentin Tarantino,United States,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s28,Documentary,Dark,David Fincher,Germany,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s50,Stand-Up,The Crown,Martin Scorsese,United Kingdom,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s23,Movie,The Queen's Gambit,,,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s34,Stand-Up,Money Heist,,Spain,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s19,Documentary,Roma,Martin Scorsese,Mexico,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s8,Stand-Up,Black Mirror,David Fincher,United Kingdom,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s17,Documentary,The Witcher,Alfonso Cuarón,Poland,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s49,movie,The Umbrella Academy,Bong Joon-ho,Canada,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s36,Documentary,The Crown,Noah Baumbach,United Kingdom,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s30,tv show,The Umbrella Academy,Martin Scorsese,Canada,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s34,movie,Breaking Bad,Martin Scorsese,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s32,Stand-Up,The Witcher,Christopher Nolan,Poland,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s50,Stand-Up,Breaking Bad,Ava DuVernay,United States,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s7,tv show,BoJack Horseman,Bong Joon-ho,United States,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s32,Stand-Up,The Witcher,Sofia Coppola,Poland,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s40,tv show,Money Heist,Ava DuVernay,Spain,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s27,Movie,Breaking Bad,David Fincher,United States,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s48,Stand-Up,Narcos,Noah Baumbach,Colombia,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s30,TV Show,The Umbrella Academy,Quentin Tarantino,Canada,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s32,Documentary,Stranger Things,David Fincher,United States,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s10,movie,Bridgerton,,United Kingdom,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s23,tv show,BoJack Horseman,Bong Joon-ho,United States,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s28,Stand-Up,Marriage Story,Bong Joon-ho,United States,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s38,Documentary,The Queen's Gambit,Greta Gerwig,United States,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s45,movie,The Irishman,Alfonso Cuarón,United States,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s33,Stand-Up,Stranger Things,Quentin Tarantino,United States,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s44,Movie,The Crown,Ava DuVernay,,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s8,Movie,The Crown,Sofia Coppola,United Kingdom,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s2,movie,BoJack Horseman,Noah Baumbach,United States,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s17,Movie,Bird Box,Ava DuVernay,,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s4,tv show,The Queen's Gambit,,United States,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s34,tv show,The Queen's Gambit,,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s28,Documentary,Stranger Things,Bong Joon-ho,United States,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s20,movie,Narcos,Bong Joon-ho,Colombia,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s3,Stand-Up,Money Heist,David Fincher,Spain,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s47,Movie,Stranger Things,Sofia Coppola,United States,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s6,tv show,The Umbrella Academy,Quentin Tarantino,Canada,,2009,TV-14,,Documentaries,Description of show.,,317
+s5,tv show,The Witcher,Christopher Nolan,Poland,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s25,Movie,Mindhunter,Greta Gerwig,United States,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s42,tv show,Dark,,Germany,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s26,Movie,The Irishman,David Fincher,United States,,2002,,45 min,Comedies,Description of show.,6.6,227
+s48,tv show,Stranger Things,Alfonso Cuarón,United States,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s39,tv show,Black Mirror,Christopher Nolan,,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s24,Stand-Up,The Crown,Noah Baumbach,,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s45,movie,Dark,David Fincher,Germany,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s16,tv show,Breaking Bad,Martin Scorsese,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s8,tv show,House of Cards,Noah Baumbach,United States,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s35,Stand-Up,The Crown,Martin Scorsese,United Kingdom,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s11,Documentary,Mindhunter,Bong Joon-ho,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s4,Stand-Up,Bird Box,Quentin Tarantino,,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s33,tv show,Bridgerton,,United Kingdom,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s23,tv show,Black Mirror,Christopher Nolan,United Kingdom,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s19,movie,Stranger Things,,United States,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s10,movie,Ozark,David Fincher,United States,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s5,Movie,Stranger Things,Noah Baumbach,United States,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s30,Documentary,The Irishman,,United States,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s11,movie,You,Greta Gerwig,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s32,TV Show,Black Mirror,Martin Scorsese,United Kingdom,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s14,TV Show,The Crown,Sofia Coppola,United Kingdom,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s46,tv show,Mindhunter,David Fincher,United States,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s32,Movie,Stranger Things,Ava DuVernay,United States,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s16,Stand-Up,Bird Box,,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s43,tv show,The Queen's Gambit,Greta Gerwig,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s40,movie,Breaking Bad,Alfonso Cuarón,United States,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s15,movie,The Crown,Christopher Nolan,United Kingdom,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s6,Stand-Up,BoJack Horseman,Sofia Coppola,United States,,2009,TV-14,,Documentaries,Description of show.,,317
+s10,Movie,Ozark,Sofia Coppola,United States,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s1,Movie,Money Heist,Christopher Nolan,Spain,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s19,TV Show,The Queen's Gambit,,United States,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s37,Stand-Up,The Irishman,Ava DuVernay,United States,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s12,Stand-Up,You,Christopher Nolan,United States,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s12,TV Show,You,Ava DuVernay,United States,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s41,Stand-Up,Bird Box,,United Kingdom,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s12,Movie,Bird Box,,United Kingdom,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s36,movie,Marriage Story,Martin Scorsese,United States,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s34,Stand-Up,House of Cards,David Fincher,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s16,Stand-Up,BoJack Horseman,Sofia Coppola,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s45,TV Show,The Umbrella Academy,Noah Baumbach,Canada,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s8,Documentary,Ozark,Sofia Coppola,United States,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s43,tv show,Breaking Bad,Ava DuVernay,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s6,TV Show,Ozark,Greta Gerwig,United States,,2009,TV-14,,Documentaries,Description of show.,,317
+s20,movie,Money Heist,David Fincher,Spain,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s2,Movie,Roma,,Mexico,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s19,Stand-Up,The Irishman,Christopher Nolan,United States,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s24,Documentary,Ozark,Alfonso Cuarón,United States,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s26,Movie,House of Cards,Alfonso Cuarón,United States,,2002,,45 min,Comedies,Description of show.,6.6,227
+s34,tv show,House of Cards,Martin Scorsese,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s3,Stand-Up,Mindhunter,,United States,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s47,tv show,Mindhunter,Quentin Tarantino,United States,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s15,movie,BoJack Horseman,Alfonso Cuarón,United States,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s45,Documentary,Dark,,Germany,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s19,Stand-Up,Roma,David Fincher,Mexico,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s19,Movie,Marriage Story,Sofia Coppola,United States,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s38,Movie,House of Cards,Christopher Nolan,United States,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s3,movie,Money Heist,,Spain,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s49,Movie,Stranger Things,Greta Gerwig,United States,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s17,Movie,Narcos,Christopher Nolan,Colombia,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s7,movie,The Crown,,United Kingdom,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s8,tv show,Money Heist,Greta Gerwig,Spain,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s33,movie,The Umbrella Academy,Christopher Nolan,Canada,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s15,tv show,Roma,Bong Joon-ho,Mexico,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s27,movie,Narcos,Sofia Coppola,Colombia,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s17,movie,Black Mirror,Martin Scorsese,United Kingdom,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s30,movie,You,Sofia Coppola,United States,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s49,Movie,The Witcher,Greta Gerwig,,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s26,Movie,The Queen's Gambit,Ava DuVernay,United States,,2002,,45 min,Comedies,Description of show.,6.6,227
+s31,movie,Ozark,Ava DuVernay,United States,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s27,tv show,Mindhunter,Sofia Coppola,United States,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s14,Stand-Up,Black Mirror,Martin Scorsese,United Kingdom,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s45,movie,Narcos,Noah Baumbach,Colombia,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s2,Documentary,Bird Box,Sofia Coppola,India,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s38,Stand-Up,Money Heist,Christopher Nolan,Spain,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s34,Stand-Up,Breaking Bad,,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s31,movie,The Umbrella Academy,Alfonso Cuarón,Canada,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s16,tv show,Money Heist,Christopher Nolan,,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s26,tv show,The Queen's Gambit,Martin Scorsese,United States,,2002,,45 min,Comedies,Description of show.,6.6,227
+s6,Documentary,Narcos,Alfonso Cuarón,Colombia,,2009,TV-14,,Documentaries,Description of show.,,317
+s29,Movie,Stranger Things,Bong Joon-ho,United States,,2018,,,Dramas,Description of show.,9,820
+s20,tv show,Marriage Story,Alfonso Cuarón,United States,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s28,tv show,Marriage Story,,United States,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s30,Movie,Breaking Bad,Alfonso Cuarón,United States,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s35,Movie,Stranger Things,Noah Baumbach,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s5,movie,The Umbrella Academy,Noah Baumbach,Canada,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s42,movie,Ozark,Noah Baumbach,United States,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s35,Documentary,Breaking Bad,Greta Gerwig,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s41,Stand-Up,The Queen's Gambit,Noah Baumbach,United States,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s35,TV Show,Dark,Greta Gerwig,Germany,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s44,Stand-Up,The Queen's Gambit,Ava DuVernay,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s11,Documentary,Marriage Story,Martin Scorsese,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s50,movie,Breaking Bad,Quentin Tarantino,United States,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s32,Movie,You,Bong Joon-ho,United States,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s14,Documentary,Narcos,Greta Gerwig,Colombia,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s48,TV Show,The Umbrella Academy,,Canada,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s1,movie,Roma,Christopher Nolan,Mexico,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s23,Movie,Roma,Sofia Coppola,Mexico,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s49,Movie,The Irishman,Bong Joon-ho,United States,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s48,tv show,House of Cards,,United States,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s18,Documentary,The Witcher,Alfonso Cuarón,Poland,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s18,Stand-Up,Bird Box,David Fincher,United Kingdom,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s10,movie,The Queen's Gambit,,United States,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s48,tv show,Black Mirror,Christopher Nolan,United Kingdom,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s1,Movie,The Irishman,,United States,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s25,tv show,BoJack Horseman,Christopher Nolan,United States,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s41,TV Show,Bird Box,Greta Gerwig,United Kingdom,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s8,TV Show,BoJack Horseman,Greta Gerwig,United States,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s32,TV Show,You,Christopher Nolan,United States,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s48,movie,Black Mirror,Quentin Tarantino,United Kingdom,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s10,Stand-Up,BoJack Horseman,Sofia Coppola,United States,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s5,movie,Black Mirror,Ava DuVernay,United Kingdom,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s9,Stand-Up,Ozark,Noah Baumbach,United States,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s20,Movie,You,Greta Gerwig,United States,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s7,tv show,The Witcher,Greta Gerwig,Poland,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s32,Stand-Up,The Umbrella Academy,,Canada,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s45,Movie,Stranger Things,Greta Gerwig,United States,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s35,TV Show,Black Mirror,,United Kingdom,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s21,TV Show,Money Heist,Sofia Coppola,Spain,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s36,Stand-Up,Money Heist,David Fincher,Spain,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s14,tv show,The Irishman,,United States,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s15,movie,Stranger Things,Greta Gerwig,United States,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s36,movie,BoJack Horseman,Sofia Coppola,United States,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s6,TV Show,Narcos,Quentin Tarantino,Colombia,,2009,TV-14,,Documentaries,Description of show.,,317
+s40,Documentary,Black Mirror,Christopher Nolan,United Kingdom,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s36,tv show,Ozark,Alfonso Cuarón,United States,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s15,TV Show,Money Heist,Alfonso Cuarón,Spain,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s29,Stand-Up,Black Mirror,Quentin Tarantino,United Kingdom,,2018,,,Dramas,Description of show.,9,820
+s8,movie,Roma,,Mexico,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s44,TV Show,The Queen's Gambit,Ava DuVernay,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s18,TV Show,You,,United States,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s18,Movie,Breaking Bad,David Fincher,United States,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s3,movie,You,Greta Gerwig,United States,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s41,Documentary,Black Mirror,Martin Scorsese,United Kingdom,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s24,Stand-Up,Ozark,Greta Gerwig,United States,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s7,Movie,The Umbrella Academy,Noah Baumbach,,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s10,Stand-Up,Dark,Martin Scorsese,Germany,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s45,TV Show,Black Mirror,Noah Baumbach,United Kingdom,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s24,Documentary,The Irishman,Ava DuVernay,United States,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s46,tv show,BoJack Horseman,Greta Gerwig,United States,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s50,Stand-Up,The Irishman,Quentin Tarantino,United States,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s21,Stand-Up,Dark,,Germany,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s46,tv show,Narcos,Alfonso Cuarón,Colombia,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s35,Movie,The Queen's Gambit,Alfonso Cuarón,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s21,Movie,Bird Box,,,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s2,Documentary,BoJack Horseman,,United States,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s10,Movie,Bridgerton,Greta Gerwig,United Kingdom,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s33,Movie,Black Mirror,Ava DuVernay,United Kingdom,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s23,tv show,The Witcher,Martin Scorsese,Poland,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s17,TV Show,The Irishman,Martin Scorsese,United States,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s28,tv show,Money Heist,Noah Baumbach,Spain,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s42,tv show,Bird Box,Greta Gerwig,United Kingdom,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s31,tv show,Bird Box,Martin Scorsese,India,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s9,Documentary,House of Cards,Sofia Coppola,United States,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s35,Documentary,Money Heist,Greta Gerwig,Spain,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s7,Movie,House of Cards,Noah Baumbach,United States,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s31,TV Show,Money Heist,Noah Baumbach,Spain,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s37,tv show,The Irishman,Noah Baumbach,United States,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s13,tv show,The Crown,Ava DuVernay,United Kingdom,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s25,movie,Marriage Story,Bong Joon-ho,,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s50,Stand-Up,The Crown,Martin Scorsese,United Kingdom,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s47,TV Show,The Queen's Gambit,Christopher Nolan,,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s29,TV Show,Ozark,Noah Baumbach,United States,,2018,,,Dramas,Description of show.,9,820
+s2,Stand-Up,You,Alfonso Cuarón,United States,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s26,tv show,Bridgerton,,United Kingdom,,2002,,45 min,Comedies,Description of show.,6.6,227
+s40,movie,Roma,Quentin Tarantino,,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s3,Documentary,The Crown,Christopher Nolan,United Kingdom,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s15,tv show,The Witcher,Noah Baumbach,Poland,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s41,tv show,Stranger Things,,United States,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s45,Stand-Up,Narcos,Bong Joon-ho,Colombia,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s40,tv show,The Irishman,Martin Scorsese,United States,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s24,movie,Roma,,Mexico,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s19,Movie,Marriage Story,Christopher Nolan,United States,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s22,movie,The Crown,Bong Joon-ho,United Kingdom,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s49,movie,House of Cards,Alfonso Cuarón,United States,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s34,Documentary,The Crown,David Fincher,United Kingdom,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s12,tv show,BoJack Horseman,Martin Scorsese,United States,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s23,tv show,Money Heist,Alfonso Cuarón,Spain,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s36,Stand-Up,The Umbrella Academy,Christopher Nolan,Canada,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s2,tv show,The Witcher,,Poland,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s29,Documentary,You,,,,2018,,,Dramas,Description of show.,9,820
+s19,Movie,BoJack Horseman,Greta Gerwig,United States,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s33,tv show,Ozark,,United States,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s6,tv show,Breaking Bad,Noah Baumbach,United States,,2009,TV-14,,Documentaries,Description of show.,,317
+s36,movie,The Queen's Gambit,,United States,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s24,Movie,The Queen's Gambit,Ava DuVernay,United States,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s21,movie,Dark,,Germany,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s1,tv show,Dark,Ava DuVernay,Germany,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s12,Documentary,Roma,Ava DuVernay,Mexico,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s13,Stand-Up,The Irishman,Greta Gerwig,United States,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s46,Stand-Up,BoJack Horseman,Sofia Coppola,United States,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s30,Documentary,The Umbrella Academy,Sofia Coppola,Canada,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s27,tv show,Bridgerton,Quentin Tarantino,United Kingdom,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s32,Movie,Stranger Things,David Fincher,United States,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s13,tv show,Bird Box,Greta Gerwig,,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s14,tv show,The Queen's Gambit,Greta Gerwig,United States,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s49,TV Show,The Queen's Gambit,,,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s14,tv show,The Crown,Christopher Nolan,United Kingdom,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s11,tv show,You,Martin Scorsese,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s25,Documentary,Money Heist,Sofia Coppola,Spain,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s14,Stand-Up,Roma,Noah Baumbach,,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s29,Documentary,Bird Box,,United Kingdom,,2018,,,Dramas,Description of show.,9,820
+s22,Documentary,House of Cards,Alfonso Cuarón,United States,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s5,tv show,House of Cards,,United States,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s15,movie,You,Alfonso Cuarón,United States,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s13,Documentary,The Umbrella Academy,,Canada,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s43,TV Show,Money Heist,Greta Gerwig,Spain,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s23,Documentary,The Queen's Gambit,Greta Gerwig,United States,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s40,Documentary,The Witcher,Martin Scorsese,Poland,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s37,TV Show,The Crown,,United Kingdom,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s33,TV Show,The Queen's Gambit,Quentin Tarantino,United States,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s41,Documentary,Marriage Story,Greta Gerwig,United States,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s2,TV Show,The Witcher,Christopher Nolan,Poland,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s27,TV Show,Breaking Bad,Ava DuVernay,United States,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s32,Stand-Up,Bridgerton,Ava DuVernay,United Kingdom,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s45,movie,You,David Fincher,United States,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s12,movie,Bird Box,Quentin Tarantino,United Kingdom,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s49,Documentary,BoJack Horseman,Greta Gerwig,United States,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s44,Movie,Stranger Things,Martin Scorsese,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s43,Documentary,The Umbrella Academy,Bong Joon-ho,Canada,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s30,movie,The Witcher,Alfonso Cuarón,Poland,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s18,Documentary,Narcos,Alfonso Cuarón,Colombia,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s4,Movie,Breaking Bad,Greta Gerwig,United States,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s3,Documentary,Marriage Story,Sofia Coppola,United States,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s7,movie,Stranger Things,Quentin Tarantino,United States,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s13,movie,Marriage Story,Ava DuVernay,United States,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s29,Movie,You,Christopher Nolan,United States,,2018,,,Dramas,Description of show.,9,820
+s45,tv show,You,,United States,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s11,Movie,The Umbrella Academy,Noah Baumbach,Canada,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s28,Stand-Up,The Umbrella Academy,Greta Gerwig,Canada,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s40,tv show,Ozark,Noah Baumbach,United States,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s38,TV Show,Bridgerton,,United Kingdom,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s47,Documentary,The Irishman,Noah Baumbach,United States,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s8,movie,Money Heist,Greta Gerwig,Spain,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s5,movie,Black Mirror,David Fincher,,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s36,Documentary,Mindhunter,Quentin Tarantino,United States,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s35,TV Show,The Irishman,Martin Scorsese,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s16,Movie,Breaking Bad,Noah Baumbach,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s4,Stand-Up,Stranger Things,,United States,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s9,tv show,House of Cards,Alfonso Cuarón,United States,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s7,movie,House of Cards,Bong Joon-ho,United States,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s42,Movie,The Umbrella Academy,,Canada,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s40,movie,Ozark,Noah Baumbach,United States,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s33,movie,Stranger Things,Quentin Tarantino,United States,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s23,TV Show,Bridgerton,Noah Baumbach,United Kingdom,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s19,tv show,Ozark,Greta Gerwig,United States,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s36,TV Show,The Witcher,Greta Gerwig,Poland,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s39,Movie,BoJack Horseman,Alfonso Cuarón,United States,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s25,Movie,The Witcher,Noah Baumbach,Poland,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s14,tv show,The Queen's Gambit,Ava DuVernay,,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s10,Stand-Up,The Crown,David Fincher,United Kingdom,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s50,movie,Bridgerton,,United Kingdom,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s23,tv show,Stranger Things,Sofia Coppola,United States,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s7,Documentary,Bridgerton,,United Kingdom,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s22,Movie,Money Heist,Alfonso Cuarón,Spain,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s33,Movie,Bird Box,,United States,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s41,Documentary,Ozark,Christopher Nolan,United States,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s45,Stand-Up,Ozark,Greta Gerwig,United States,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s46,Documentary,You,David Fincher,United States,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s41,movie,The Crown,Noah Baumbach,United Kingdom,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s15,Stand-Up,Ozark,Sofia Coppola,United States,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s4,movie,The Crown,Noah Baumbach,United Kingdom,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s38,Documentary,The Umbrella Academy,David Fincher,,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s44,Stand-Up,Stranger Things,,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s1,TV Show,Marriage Story,Sofia Coppola,United States,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s21,Stand-Up,The Witcher,Christopher Nolan,Poland,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s43,Movie,Ozark,Christopher Nolan,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s35,TV Show,Bird Box,David Fincher,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s35,Stand-Up,You,Martin Scorsese,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s47,Stand-Up,Dark,Ava DuVernay,Germany,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s46,movie,Marriage Story,Greta Gerwig,United States,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s4,TV Show,Roma,Quentin Tarantino,Mexico,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s26,Documentary,Bird Box,Ava DuVernay,United States,,2002,,45 min,Comedies,Description of show.,6.6,227
+s43,Documentary,Money Heist,Ava DuVernay,Spain,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s34,movie,Stranger Things,Ava DuVernay,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s28,tv show,BoJack Horseman,,United States,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s19,Documentary,Black Mirror,Quentin Tarantino,United Kingdom,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s48,Movie,Ozark,Ava DuVernay,United States,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s39,Documentary,Roma,,Mexico,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s22,Movie,Marriage Story,Alfonso Cuarón,United States,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s22,Stand-Up,House of Cards,Martin Scorsese,United States,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s39,tv show,Stranger Things,David Fincher,United States,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s37,TV Show,The Crown,,United Kingdom,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s39,Documentary,The Crown,Ava DuVernay,United Kingdom,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s32,TV Show,Roma,Alfonso Cuarón,Mexico,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s18,Movie,Dark,Christopher Nolan,Germany,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s26,Documentary,The Umbrella Academy,Sofia Coppola,Canada,,2002,,45 min,Comedies,Description of show.,6.6,227
+s8,TV Show,Black Mirror,Alfonso Cuarón,United Kingdom,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s40,movie,Narcos,Ava DuVernay,Colombia,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s39,movie,Bridgerton,Alfonso Cuarón,United Kingdom,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s1,TV Show,Black Mirror,Christopher Nolan,United Kingdom,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s10,Documentary,The Crown,Bong Joon-ho,United Kingdom,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s34,tv show,Black Mirror,Alfonso Cuarón,United Kingdom,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s1,Stand-Up,Narcos,Quentin Tarantino,Colombia,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s46,movie,Black Mirror,Christopher Nolan,United Kingdom,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s15,tv show,Bridgerton,Quentin Tarantino,United Kingdom,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s27,movie,The Umbrella Academy,Sofia Coppola,Canada,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s29,Stand-Up,The Irishman,Sofia Coppola,United States,,2018,,,Dramas,Description of show.,9,820
+s19,tv show,The Umbrella Academy,David Fincher,Canada,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s17,Documentary,You,Alfonso Cuarón,United States,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s29,Documentary,Breaking Bad,Bong Joon-ho,United States,,2018,,,Dramas,Description of show.,9,820
+s4,tv show,Dark,Alfonso Cuarón,,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s13,tv show,The Irishman,Quentin Tarantino,United States,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s37,Documentary,Dark,Bong Joon-ho,Germany,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s25,TV Show,The Irishman,Quentin Tarantino,United States,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s19,movie,Bird Box,Bong Joon-ho,India,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s38,movie,The Queen's Gambit,Martin Scorsese,United States,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s45,tv show,The Witcher,Alfonso Cuarón,Poland,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s36,Movie,House of Cards,Alfonso Cuarón,United States,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s42,movie,Breaking Bad,Ava DuVernay,,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s19,Stand-Up,Bird Box,Ava DuVernay,India,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s23,movie,BoJack Horseman,Quentin Tarantino,United States,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s20,TV Show,The Crown,Bong Joon-ho,United Kingdom,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s19,TV Show,The Crown,Bong Joon-ho,United Kingdom,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s5,Documentary,Marriage Story,Greta Gerwig,United States,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s8,TV Show,The Irishman,Alfonso Cuarón,United States,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s24,movie,BoJack Horseman,Alfonso Cuarón,United States,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s11,tv show,The Queen's Gambit,Noah Baumbach,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s7,TV Show,Narcos,Sofia Coppola,Colombia,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s47,Stand-Up,The Crown,Quentin Tarantino,United Kingdom,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s50,Movie,Bridgerton,David Fincher,United Kingdom,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s22,TV Show,Bird Box,Sofia Coppola,United States,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s9,tv show,The Crown,Bong Joon-ho,United Kingdom,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s12,Stand-Up,You,,United States,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s46,tv show,Roma,Greta Gerwig,Mexico,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s6,Movie,Black Mirror,Ava DuVernay,,,2009,TV-14,,Documentaries,Description of show.,,317
+s21,Stand-Up,Breaking Bad,Quentin Tarantino,United States,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s8,tv show,The Witcher,Ava DuVernay,Poland,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s10,Stand-Up,Roma,Bong Joon-ho,Mexico,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s39,movie,The Irishman,Noah Baumbach,United States,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s45,movie,The Irishman,Ava DuVernay,United States,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s1,Documentary,The Umbrella Academy,,Canada,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s44,TV Show,Stranger Things,Noah Baumbach,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s39,Stand-Up,Mindhunter,Noah Baumbach,United States,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s23,tv show,Money Heist,Sofia Coppola,,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s21,TV Show,Narcos,Quentin Tarantino,Colombia,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s30,Stand-Up,Bridgerton,Quentin Tarantino,United Kingdom,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s30,Stand-Up,The Queen's Gambit,Martin Scorsese,United States,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s5,Movie,Stranger Things,Noah Baumbach,United States,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s2,Documentary,The Umbrella Academy,David Fincher,Canada,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s8,Stand-Up,Narcos,,Colombia,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s30,movie,BoJack Horseman,Sofia Coppola,United States,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s50,tv show,Bridgerton,Martin Scorsese,United Kingdom,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s25,Documentary,The Umbrella Academy,Christopher Nolan,Canada,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s31,Stand-Up,Money Heist,Greta Gerwig,Spain,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s27,Movie,Black Mirror,Martin Scorsese,United Kingdom,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s36,tv show,The Crown,,United Kingdom,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s27,Movie,Bird Box,Martin Scorsese,United Kingdom,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s1,Movie,Roma,Bong Joon-ho,Mexico,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s42,movie,The Queen's Gambit,Greta Gerwig,United States,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s47,Movie,Dark,,Germany,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s50,Documentary,The Witcher,,Poland,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s20,Stand-Up,Roma,,Mexico,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s22,Movie,The Crown,Greta Gerwig,United Kingdom,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s4,TV Show,Mindhunter,Martin Scorsese,United States,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s47,Stand-Up,The Crown,,United Kingdom,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s43,TV Show,The Irishman,Quentin Tarantino,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s21,TV Show,The Queen's Gambit,Noah Baumbach,United States,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s21,TV Show,Bridgerton,Ava DuVernay,United Kingdom,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s49,Documentary,The Witcher,Noah Baumbach,Poland,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s42,movie,Bird Box,,United Kingdom,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s50,TV Show,You,David Fincher,United States,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s44,Documentary,BoJack Horseman,Sofia Coppola,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s14,Movie,Ozark,,United States,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s21,TV Show,Marriage Story,Noah Baumbach,United States,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s20,movie,Mindhunter,Noah Baumbach,United States,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s23,movie,The Irishman,Greta Gerwig,United States,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s44,Movie,House of Cards,Noah Baumbach,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s13,Stand-Up,Dark,Noah Baumbach,Germany,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s41,Stand-Up,The Crown,Ava DuVernay,United Kingdom,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s4,Stand-Up,Ozark,Alfonso Cuarón,United States,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s13,movie,Narcos,Greta Gerwig,Colombia,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s8,Documentary,The Umbrella Academy,Quentin Tarantino,Canada,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s9,TV Show,BoJack Horseman,Noah Baumbach,United States,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s6,Stand-Up,Ozark,Bong Joon-ho,United States,,2009,TV-14,,Documentaries,Description of show.,,317
+s5,TV Show,Money Heist,Christopher Nolan,Spain,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s26,Stand-Up,Money Heist,Quentin Tarantino,Spain,,2002,,45 min,Comedies,Description of show.,6.6,227
+s37,Stand-Up,The Irishman,Quentin Tarantino,United States,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s20,movie,Black Mirror,David Fincher,United Kingdom,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s18,tv show,Stranger Things,Ava DuVernay,United States,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s39,movie,The Umbrella Academy,Quentin Tarantino,Canada,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s26,movie,The Crown,Quentin Tarantino,United Kingdom,,2002,,45 min,Comedies,Description of show.,6.6,227
+s46,Movie,The Irishman,Alfonso Cuarón,United States,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s17,Documentary,Breaking Bad,Greta Gerwig,United States,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s34,Documentary,Stranger Things,,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s4,Movie,Black Mirror,Noah Baumbach,United Kingdom,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s39,tv show,Ozark,Quentin Tarantino,United States,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s5,Stand-Up,The Crown,,United Kingdom,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s38,movie,Black Mirror,Sofia Coppola,United Kingdom,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s24,TV Show,The Queen's Gambit,,United States,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s18,Documentary,The Irishman,,,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s28,TV Show,Bird Box,Alfonso Cuarón,United Kingdom,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s23,Documentary,House of Cards,Sofia Coppola,United States,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s6,Documentary,Breaking Bad,Martin Scorsese,United States,,2009,TV-14,,Documentaries,Description of show.,,317
+s43,Movie,Breaking Bad,Bong Joon-ho,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s28,Movie,The Irishman,Noah Baumbach,United States,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s41,Movie,Breaking Bad,Alfonso Cuarón,United States,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s16,movie,You,Noah Baumbach,,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s37,Movie,Breaking Bad,Alfonso Cuarón,United States,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s31,Movie,The Umbrella Academy,,Canada,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s2,tv show,Marriage Story,Christopher Nolan,United States,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s10,Movie,The Crown,Ava DuVernay,United Kingdom,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s19,tv show,The Queen's Gambit,Ava DuVernay,United States,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s30,Stand-Up,Narcos,Quentin Tarantino,Colombia,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s48,Stand-Up,Bridgerton,Quentin Tarantino,United Kingdom,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s46,movie,Narcos,Quentin Tarantino,Colombia,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s18,Documentary,Bridgerton,,United Kingdom,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s46,movie,The Irishman,Noah Baumbach,United States,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s46,movie,Breaking Bad,Alfonso Cuarón,United States,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s31,TV Show,House of Cards,,United States,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s8,Stand-Up,Roma,Quentin Tarantino,Mexico,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s42,TV Show,Bridgerton,Martin Scorsese,United Kingdom,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s22,tv show,The Crown,Alfonso Cuarón,United Kingdom,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s17,movie,The Crown,,United Kingdom,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s12,Movie,The Irishman,Sofia Coppola,United States,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s49,Stand-Up,Roma,Greta Gerwig,Mexico,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s34,tv show,Mindhunter,Quentin Tarantino,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s16,movie,House of Cards,,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s16,Documentary,The Witcher,Christopher Nolan,Poland,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s49,tv show,Black Mirror,Noah Baumbach,United Kingdom,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s31,movie,Narcos,Sofia Coppola,Colombia,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s34,TV Show,The Queen's Gambit,,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s3,movie,You,,United States,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s26,Documentary,Dark,,Germany,,2002,,45 min,Comedies,Description of show.,6.6,227
+s27,tv show,Dark,Noah Baumbach,Germany,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s27,tv show,Breaking Bad,,United States,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s38,TV Show,The Witcher,Greta Gerwig,,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s15,Movie,House of Cards,,United States,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s30,Documentary,The Crown,Noah Baumbach,United Kingdom,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s38,tv show,The Crown,Noah Baumbach,United Kingdom,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s29,movie,Roma,Sofia Coppola,Mexico,,2018,,,Dramas,Description of show.,9,820
+s25,Documentary,Breaking Bad,Alfonso Cuarón,United States,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s20,Stand-Up,Roma,Martin Scorsese,Mexico,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s31,Stand-Up,Bird Box,Sofia Coppola,India,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s33,Movie,House of Cards,David Fincher,United States,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s32,tv show,Breaking Bad,,United States,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s45,Stand-Up,Breaking Bad,Christopher Nolan,United States,9-Sep-19,2019,tv-ma,45 min,Action & Adventure,Description of show.,,334
+s35,Documentary,Ozark,Martin Scorsese,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s44,tv show,The Queen's Gambit,David Fincher,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s4,tv show,The Umbrella Academy,David Fincher,Canada,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s33,Movie,Breaking Bad,Greta Gerwig,United States,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s18,tv show,Dark,Noah Baumbach,Germany,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s32,TV Show,Narcos,David Fincher,Colombia,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s13,Documentary,Dark,,Germany,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s11,Documentary,Marriage Story,Quentin Tarantino,,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s3,tv show,Roma,,Mexico,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s44,Documentary,Bird Box,,United Kingdom,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s29,tv show,The Irishman,,United States,,2018,,,Dramas,Description of show.,9,820
+s6,movie,Bridgerton,Noah Baumbach,United Kingdom,,2009,TV-14,,Documentaries,Description of show.,,317
+s12,movie,Black Mirror,Quentin Tarantino,,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s27,TV Show,The Crown,Alfonso Cuarón,United Kingdom,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s50,movie,Bird Box,Christopher Nolan,,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s4,tv show,Narcos,Christopher Nolan,Colombia,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s22,movie,Mindhunter,Quentin Tarantino,United States,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s20,Documentary,Bridgerton,,United Kingdom,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s37,movie,The Witcher,Sofia Coppola,Poland,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s20,Documentary,The Umbrella Academy,Quentin Tarantino,Canada,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s4,Movie,Black Mirror,Bong Joon-ho,United Kingdom,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s2,movie,Money Heist,Alfonso Cuarón,Spain,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s4,movie,BoJack Horseman,Martin Scorsese,United States,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s12,movie,Black Mirror,Bong Joon-ho,United Kingdom,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s8,Movie,Marriage Story,Quentin Tarantino,United States,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s40,tv show,Marriage Story,Alfonso Cuarón,United States,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s42,Stand-Up,The Umbrella Academy,Bong Joon-ho,Canada,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s9,TV Show,BoJack Horseman,Quentin Tarantino,United States,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s49,Documentary,The Irishman,David Fincher,United States,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s37,tv show,The Umbrella Academy,,Canada,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s3,TV Show,Money Heist,Ava DuVernay,Spain,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s4,movie,Stranger Things,Alfonso Cuarón,United States,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s4,tv show,The Irishman,Christopher Nolan,United States,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s50,TV Show,House of Cards,Alfonso Cuarón,United States,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s22,Movie,Black Mirror,David Fincher,United Kingdom,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s17,tv show,The Queen's Gambit,Martin Scorsese,United States,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s26,TV Show,Narcos,Martin Scorsese,Colombia,,2002,,45 min,Comedies,Description of show.,6.6,227
+s13,Movie,The Queen's Gambit,Noah Baumbach,,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s48,Movie,Ozark,Ava DuVernay,United States,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s15,tv show,Marriage Story,Ava DuVernay,United States,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s1,movie,Dark,Greta Gerwig,Germany,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s33,tv show,The Irishman,Sofia Coppola,United States,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s13,tv show,Stranger Things,Ava DuVernay,United States,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s1,Stand-Up,Dark,Bong Joon-ho,Germany,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s39,Movie,Breaking Bad,David Fincher,United States,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s48,Documentary,Money Heist,Quentin Tarantino,Spain,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s47,Stand-Up,Breaking Bad,Greta Gerwig,United States,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s27,movie,Roma,Martin Scorsese,Mexico,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s50,Stand-Up,Narcos,Quentin Tarantino,Colombia,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s10,Movie,Ozark,Christopher Nolan,United States,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s49,TV Show,Stranger Things,David Fincher,United States,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s14,Stand-Up,The Irishman,Quentin Tarantino,United States,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s26,Movie,Roma,Martin Scorsese,Mexico,,2002,,45 min,Comedies,Description of show.,6.6,227
+s37,Movie,Roma,Ava DuVernay,Mexico,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s24,Stand-Up,Roma,David Fincher,Mexico,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s34,Movie,Roma,Martin Scorsese,,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s9,movie,Money Heist,Christopher Nolan,Spain,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s44,movie,Narcos,Bong Joon-ho,Colombia,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s23,tv show,Money Heist,,Spain,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s48,tv show,Bridgerton,David Fincher,United Kingdom,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s10,TV Show,Dark,Greta Gerwig,Germany,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s30,Stand-Up,The Irishman,Noah Baumbach,United States,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s44,movie,House of Cards,David Fincher,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s1,Stand-Up,Bridgerton,Christopher Nolan,United Kingdom,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s23,tv show,Black Mirror,Christopher Nolan,United Kingdom,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s34,Stand-Up,You,David Fincher,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s3,TV Show,BoJack Horseman,Alfonso Cuarón,,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s39,TV Show,Narcos,Noah Baumbach,Colombia,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s47,Movie,Narcos,Greta Gerwig,Colombia,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s16,Stand-Up,House of Cards,Noah Baumbach,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s12,Movie,You,David Fincher,United States,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s30,Stand-Up,BoJack Horseman,Ava DuVernay,United States,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s38,Stand-Up,Bird Box,Alfonso Cuarón,United Kingdom,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s3,tv show,Mindhunter,Martin Scorsese,United States,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s29,Stand-Up,Bridgerton,Ava DuVernay,United Kingdom,,2018,,,Dramas,Description of show.,9,820
+s18,movie,Mindhunter,Alfonso Cuarón,United States,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s34,Documentary,Ozark,,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s20,TV Show,The Umbrella Academy,Greta Gerwig,Canada,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s42,Documentary,The Crown,,United Kingdom,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s36,Stand-Up,Ozark,,United States,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s3,tv show,Stranger Things,,United States,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s39,Documentary,BoJack Horseman,Quentin Tarantino,United States,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s25,Stand-Up,Ozark,,United States,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s24,TV Show,Bird Box,Noah Baumbach,India,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s11,movie,The Crown,,United Kingdom,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s37,tv show,The Irishman,Alfonso Cuarón,United States,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s35,Documentary,House of Cards,Quentin Tarantino,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s10,TV Show,Roma,Martin Scorsese,Mexico,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s18,Movie,BoJack Horseman,Greta Gerwig,United States,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s9,tv show,The Crown,Christopher Nolan,United Kingdom,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s42,TV Show,Black Mirror,,,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s47,Movie,The Witcher,Martin Scorsese,Poland,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s13,Documentary,Dark,Bong Joon-ho,Germany,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s33,tv show,The Queen's Gambit,,United States,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s14,tv show,The Crown,Greta Gerwig,United Kingdom,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s8,movie,The Queen's Gambit,,United States,1-Aug-18,2006,TV-14,100 min,Dramas,Description of show.,6.8,340
+s24,tv show,Bird Box,Sofia Coppola,India,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s44,Movie,BoJack Horseman,Christopher Nolan,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s34,tv show,Stranger Things,Bong Joon-ho,United States,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s30,Movie,BoJack Horseman,,United States,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s18,Movie,House of Cards,Quentin Tarantino,United States,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s49,Documentary,Breaking Bad,,United States,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s11,Stand-Up,Marriage Story,Quentin Tarantino,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s32,Movie,Mindhunter,David Fincher,United States,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s9,Stand-Up,The Witcher,David Fincher,Poland,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s9,TV Show,The Umbrella Academy,,Canada,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s28,movie,Marriage Story,,United States,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s33,Movie,Dark,,,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s33,Movie,You,Alfonso Cuarón,United States,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s27,Stand-Up,Black Mirror,Bong Joon-ho,United Kingdom,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s35,movie,The Irishman,Christopher Nolan,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s25,Stand-Up,Ozark,,United States,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s18,Movie,Marriage Story,Quentin Tarantino,United States,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s5,Documentary,Dark,Alfonso Cuarón,Germany,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s23,Documentary,Bird Box,Bong Joon-ho,United Kingdom,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s48,movie,Dark,Greta Gerwig,Germany,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s6,Documentary,Roma,Quentin Tarantino,Mexico,,2009,TV-14,,Documentaries,Description of show.,,317
+s40,movie,Roma,,Mexico,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s49,tv show,Mindhunter,Christopher Nolan,United States,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s48,Movie,Marriage Story,,United States,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s1,Stand-Up,Bridgerton,Martin Scorsese,United Kingdom,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s20,Documentary,Dark,Christopher Nolan,Germany,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s36,Stand-Up,Money Heist,,Spain,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s46,Movie,The Queen's Gambit,,United States,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s29,tv show,The Irishman,Bong Joon-ho,United States,,2018,,,Dramas,Description of show.,9,820
+s7,Documentary,The Queen's Gambit,David Fincher,,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s22,movie,Narcos,Bong Joon-ho,Colombia,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s28,Movie,Mindhunter,,United States,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s36,Movie,Ozark,Sofia Coppola,United States,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s43,TV Show,Black Mirror,,United Kingdom,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s10,movie,Bridgerton,Alfonso Cuarón,United Kingdom,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s25,Documentary,The Irishman,Sofia Coppola,United States,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s36,Documentary,The Queen's Gambit,,United States,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s41,Stand-Up,Money Heist,David Fincher,Spain,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s21,Movie,Narcos,Martin Scorsese,Colombia,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s5,Documentary,The Crown,,United Kingdom,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s38,Movie,Mindhunter,Christopher Nolan,United States,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s28,tv show,Marriage Story,Greta Gerwig,United States,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s11,Documentary,Mindhunter,,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s46,Movie,Roma,Ava DuVernay,Mexico,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s14,Movie,You,,United States,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s41,TV Show,Mindhunter,Christopher Nolan,United States,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s25,Movie,Mindhunter,Greta Gerwig,United States,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s41,Stand-Up,Money Heist,,Spain,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s11,Documentary,BoJack Horseman,Bong Joon-ho,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s4,Documentary,The Crown,,United Kingdom,,2002,TV-MA,100 min,Documentaries,Description of show.,8.6,
+s5,Stand-Up,Dark,Noah Baumbach,,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s7,Documentary,The Queen's Gambit,,United States,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s43,Stand-Up,Money Heist,Christopher Nolan,Spain,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s48,Stand-Up,Roma,Sofia Coppola,Mexico,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s31,TV Show,Narcos,Bong Joon-ho,Colombia,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s18,Stand-Up,You,Ava DuVernay,United States,15-Jul-20,2005,pg13,90 min,Dramas,Description of show.,,
+s5,Movie,Bridgerton,Ava DuVernay,United Kingdom,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s43,Movie,The Irishman,David Fincher,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s21,Stand-Up,Black Mirror,Martin Scorsese,United Kingdom,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s13,TV Show,Money Heist,Christopher Nolan,Spain,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s47,TV Show,Dark,Alfonso Cuarón,Germany,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s34,TV Show,Narcos,Bong Joon-ho,Colombia,9-Sep-19,2015,TV-MA, ,Comedies,Description of show.,,
+s49,Documentary,The Crown,Martin Scorsese,United Kingdom,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s28,Movie,The Witcher,David Fincher,Poland,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s24,movie,House of Cards,,United States,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s7,TV Show,Bridgerton,Christopher Nolan,United Kingdom,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s3,Movie,The Queen's Gambit,Martin Scorsese,United States,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s48,tv show,Roma,Bong Joon-ho,Mexico,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s33,movie,Bridgerton,Alfonso Cuarón,United Kingdom,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s1,TV Show,The Irishman,,United States,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s35,movie,The Umbrella Academy,Sofia Coppola,Canada,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s28,Documentary,Bird Box,David Fincher,United Kingdom,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s7,Documentary,The Crown,Bong Joon-ho,United Kingdom,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s31,Stand-Up,Money Heist,Quentin Tarantino,Spain,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s40,tv show,Marriage Story,Greta Gerwig,United States,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s29,TV Show,Narcos,Christopher Nolan,Colombia,,2018,,,Dramas,Description of show.,9,820
+s39,movie,Narcos,Christopher Nolan,Colombia,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s19,Movie,Dark,,Germany,15-Jul-20,2008,,90 min,Dramas,Description of show.,5.5,617
+s25,Documentary,The Irishman,Sofia Coppola,,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s42,tv show,The Witcher,Christopher Nolan,Poland,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s43,tv show,Bridgerton,Alfonso Cuarón,United Kingdom,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s49,movie,Breaking Bad,Martin Scorsese,United States,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s39,Stand-Up,Narcos,Noah Baumbach,,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s13,Stand-Up,Marriage Story,Martin Scorsese,United States,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s22,Stand-Up,Breaking Bad,Martin Scorsese,United States,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s48,tv show,Narcos,Bong Joon-ho,Colombia,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s29,Stand-Up,Bird Box,,United Kingdom,,2018,,,Dramas,Description of show.,9,820
+s39,Movie,Dark,Ava DuVernay,Germany,9-Sep-19,2017,TV-PG,,Children & Family Movies,Description of show.,8.6,573
+s21,movie,Narcos,Greta Gerwig,Colombia,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s15,movie,Roma,Ava DuVernay,Mexico,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s15,Documentary,Dark,Martin Scorsese,Germany,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s7,movie,Mindhunter,,United States,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s41,Stand-Up,Ozark,Martin Scorsese,United States,,2010,pg13,1 Season,Documentaries,Description of show.,6.8,553
+s43,TV Show,The Queen's Gambit,Martin Scorsese,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s30,TV Show,Money Heist,Sofia Coppola,Spain,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s38,TV Show,The Irishman,Noah Baumbach,United States,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s17,Documentary,Bridgerton,Sofia Coppola,United Kingdom,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s3,Documentary,Bird Box,Quentin Tarantino,United States,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s38,Stand-Up,BoJack Horseman,Quentin Tarantino,United States,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s49,movie,Ozark,Greta Gerwig,United States,,2017,pg13,100 min,Children & Family Movies,Description of show.,,547
+s20,Documentary,The Umbrella Academy,Sofia Coppola,Canada,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s25,movie,Dark,,Germany,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s46,Movie,Bridgerton,Alfonso Cuarón,United Kingdom,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s2,Documentary,Bridgerton,,United Kingdom,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s2,movie,The Witcher,Quentin Tarantino,Poland,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s27,Movie,The Irishman,Christopher Nolan,United States,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s12,Documentary,Black Mirror,Noah Baumbach,United Kingdom,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s6,Documentary,Marriage Story,Greta Gerwig,United States,,2009,TV-14,,Documentaries,Description of show.,,317
+s27,movie,Mindhunter,,United States,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s20,movie,The Irishman,Ava DuVernay,United States,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s2,Movie,BoJack Horseman,Sofia Coppola,United States,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s12,Stand-Up,The Crown,Bong Joon-ho,United Kingdom,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s6,tv show,Breaking Bad,Alfonso Cuarón,United States,,2009,TV-14,,Documentaries,Description of show.,,317
+s30,Movie,Marriage Story,Greta Gerwig,United States,9-Sep-19,2004,PG-13,45 min,Comedies,Description of show.,,996
+s2,Documentary,House of Cards,Quentin Tarantino,United States,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s3,movie,Roma,Sofia Coppola,Mexico,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s27,Stand-Up,Stranger Things,Noah Baumbach,United States,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s22,TV Show,The Crown,Ava DuVernay,United Kingdom,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s6,Documentary,BoJack Horseman,Ava DuVernay,United States,,2009,TV-14,,Documentaries,Description of show.,,317
+s16,Documentary,House of Cards,Quentin Tarantino,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s40,movie,The Crown,Martin Scorsese,United Kingdom,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s2,Stand-Up,Breaking Bad,Quentin Tarantino,United States,1-Oct-17,2000,pg13, ,Documentaries,Description of show.,,314
+s36,tv show,The Witcher,,Poland,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s12,TV Show,The Queen's Gambit,Bong Joon-ho,,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s31,tv show,Mindhunter,Noah Baumbach,United States,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s6,movie,Ozark,,United States,,2009,TV-14,,Documentaries,Description of show.,,317
+s35,TV Show,Ozark,Christopher Nolan,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s26,Movie,The Queen's Gambit,Quentin Tarantino,United States,,2002,,45 min,Comedies,Description of show.,6.6,227
+s9,movie,Narcos,Greta Gerwig,Colombia,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s28,movie,Bridgerton,Christopher Nolan,United Kingdom,,2002,tv-ma,,Documentaries,Description of show.,9,212
+s5,movie,BoJack Horseman,Quentin Tarantino,United States,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s17,Movie,Bridgerton,Christopher Nolan,United Kingdom,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s42,movie,The Irishman,Sofia Coppola,United States,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s40,tv show,Money Heist,David Fincher,Spain,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s15,movie,Mindhunter,Sofia Coppola,United States,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s46,movie,The Umbrella Academy,Christopher Nolan,Canada,,2019,TV-14,90 min,Dramas,Description of show.,6.8,
+s27,TV Show,The Irishman,Ava DuVernay,United States,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s42,Movie,Mindhunter,Noah Baumbach,United States,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s14,Movie,Marriage Story,Noah Baumbach,United States,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s16,Movie,House of Cards,Alfonso Cuarón,United States,15-Jul-20,2013,tv-ma,45 min,Dramas,Description of show.,5.5,
+s1,Movie,Marriage Story,Alfonso Cuarón,United States,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s38,Documentary,Bird Box,Martin Scorsese,United Kingdom,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s24,movie,Breaking Bad,Ava DuVernay,United States,15-Jul-20,2019,TV-MA,,Comedies,Description of show.,7.6,780
+s17,Movie,Dark,Noah Baumbach,Germany,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s7,Documentary,Mindhunter,Sofia Coppola,,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s47,TV Show,Mindhunter,Quentin Tarantino,United States,15-Jul-20,2007,pg13, ,Dramas,Description of show.,8.3,
+s35,TV Show,Stranger Things,Martin Scorsese,United States,1-Aug-18,2014,PG-13,90 min,Action & Adventure,Description of show.,5.6,969
+s43,Stand-Up,House of Cards,Greta Gerwig,United States,,2022,tv-ma,90 min,Comedies,Description of show.,8.6,
+s5,movie,The Crown,Quentin Tarantino,United Kingdom,1-Aug-18,2008,tv-ma,90 min,Action & Adventure,Description of show.,,80
+s44,tv show,You,David Fincher,United States,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s17,Documentary,The Umbrella Academy,Alfonso Cuarón,Canada,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s13,Movie,House of Cards,Noah Baumbach,,9-Sep-19,2014,TV-14,1 Season,Documentaries,Description of show.,8.6,359
+s37,Movie,You,Alfonso Cuarón,United States,15-Jul-20,2011,tv-ma, ,Action & Adventure,Description of show.,,
+s40,Movie,The Irishman,David Fincher,United States,1-Oct-17,2021,TV-MA,90 min,Documentaries,Description of show.,8.3,67
+s33,TV Show,The Umbrella Academy,Ava DuVernay,Canada,1-Oct-17,2001,tv-ma,45 min,Action & Adventure,Description of show.,6.8,741
+s50,movie,The Witcher,Quentin Tarantino,Poland,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s26,TV Show,House of Cards,Noah Baumbach,United States,,2002,,45 min,Comedies,Description of show.,6.6,227
+s32,movie,The Queen's Gambit,Martin Scorsese,United States,9-Sep-19,2014,pg13,,Action & Adventure,Description of show.,5.7,
+s11,movie,BoJack Horseman,Sofia Coppola,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s9,Documentary,Bridgerton,Bong Joon-ho,United Kingdom,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s25,TV Show,Mindhunter,,,,2006,TV-PG,100 min,Comedies,Description of show.,,
+s11,TV Show,Marriage Story,Alfonso Cuarón,United States,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s48,TV Show,Breaking Bad,Martin Scorsese,United States,1-Oct-17,2002,PG-13,,Action & Adventure,Description of show.,,910
+s3,tv show,Bridgerton,Quentin Tarantino,United Kingdom,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
+s22,Stand-Up,House of Cards,Noah Baumbach,United States,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s14,TV Show,Ozark,Greta Gerwig,United States,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s10,tv show,Bird Box,Alfonso Cuarón,,,2015,TV-14, ,Action & Adventure,Description of show.,7.6,
+s11,movie,The Witcher,Noah Baumbach,Poland,1-Aug-18,2018,TV-14,1 Season,Comedies,Description of show.,8.7,702
+s27,tv show,Mindhunter,Alfonso Cuarón,United States,15-Jul-20,2018,pg13,45 min,Children & Family Movies,Description of show.,8.1,
+s42,Stand-Up,The Umbrella Academy,Greta Gerwig,Canada,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s36,tv show,Bird Box,Quentin Tarantino,India,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s6,TV Show,Narcos,Quentin Tarantino,Colombia,,2009,TV-14,,Documentaries,Description of show.,,317
+s14,tv show,Bridgerton,,,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s42,movie,Mindhunter,David Fincher,United States,15-Jul-20,2001,TV-PG,90 min,Action & Adventure,Description of show.,,545
+s44,Stand-Up,Bridgerton,David Fincher,United Kingdom,15-Jul-20,2019,PG-13,100 min,Dramas,Description of show.,7.8,
+s20,Stand-Up,Black Mirror,Christopher Nolan,United Kingdom,1-Aug-18,2010,TV-14,90 min,Comedies,Description of show.,,155
+s9,TV Show,Black Mirror,Quentin Tarantino,United Kingdom,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s12,Movie,Mindhunter,Sofia Coppola,United States,1-Aug-18,2017,pg13,90 min,Comedies,Description of show.,6,192
+s31,Movie,BoJack Horseman,,United States,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s14,Stand-Up,The Irishman,Quentin Tarantino,United States,1-Oct-17,2022,TV-MA, ,Children & Family Movies,Description of show.,6.4,
+s50,Movie,The Witcher,Christopher Nolan,Poland,9-Sep-19,2003,,100 min,Documentaries,Description of show.,5.9,
+s23,movie,Black Mirror,Martin Scorsese,United Kingdom,15-Jul-20,2021,,100 min,Children & Family Movies,Description of show.,7.7,
+s38,tv show,Breaking Bad,,United States,1-Oct-17,2010,TV-14,90 min,Action & Adventure,Description of show.,,
+s9,Documentary,The Queen's Gambit,,United States,15-Jul-20,2010,pg13, ,Documentaries,Description of show.,6,456
+s31,Movie,Dark,Greta Gerwig,Germany,,2003,PG-13,1 Season,Children & Family Movies,Description of show.,,
+s15,Movie,Mindhunter,Greta Gerwig,United States,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s17,tv show,The Umbrella Academy,Sofia Coppola,,,2018,TV-MA,100 min,Documentaries,Description of show.,,
+s22,tv show,You,Greta Gerwig,United States,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s15,Stand-Up,Breaking Bad,Bong Joon-ho,United States,1-Oct-17,2006,TV-14,45 min,Documentaries,Description of show.,,859
+s21,Stand-Up,The Irishman,Quentin Tarantino,United States,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s1,Documentary,Marriage Story,Sofia Coppola,United States,9-Sep-19,2012,pg13,45 min,Action & Adventure,Description of show.,,856
+s22,TV Show,The Queen's Gambit,,United States,9-Sep-19,2018,TV-PG,1 Season,Documentaries,Description of show.,,151
+s7,TV Show,The Queen's Gambit,Quentin Tarantino,United States,1-Oct-17,2002,PG-13,45 min,Comedies,Description of show.,5.2,606
+s21,tv show,You,,United States,1-Aug-18,2000,PG-13, ,Children & Family Movies,Description of show.,6.6,
+s36,Stand-Up,BoJack Horseman,Bong Joon-ho,,1-Aug-18,2006,TV-14,45 min,Action & Adventure,Description of show.,8.7,
+s3,tv show,House of Cards,Ava DuVernay,United States,15-Jul-20,2010,PG-13,,Children & Family Movies,Description of show.,,
