@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principles of IQ - 2026-09-03</title>
+  <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a> /
+      <a href="../home-principles-of-iq.html">Principles of IQ</a> /
+      2026-09-03
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Class Meeting &mdash; September 3, 2026</p>
+      <h1 class="meeting-title">Data Categories, Requirements &amp; Data Exploration</h1>
+      <p class="lede">
+        Structured, unstructured, and semi-structured data; operational data categories;
+        data requirements and quality; and an introduction to exploring datasets with OpenRefine.
+      </p>
+    </header>
+
+    <section class="card" aria-labelledby="slides-heading">
+      <p class="eyebrow">Slides</p>
+      <h2 id="slides-heading">Lecture Slides</h2>
+      <p>This session continued the September 1 lecture deck on information quality value and business impact:</p>
+      <ul class="link-list">
+        <li><a href="../slides/2026-09-01-c2-iq-value-and-business-impact.pdf">(C2) IQ Value and Business Impact (PDF)</a></li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="continuing-heading">
+      <p class="eyebrow">Session Focus</p>
+      <h2 id="continuing-heading">From Information Value to Data Practice</h2>
+      <p>This session completed the lecture on information value by connecting data categories and data requirements to practical data work. The class then moved into the first dataset-analysis assignment and a demonstration of OpenRefine.</p>
+      <ul>
+        <li>Data categories help people communicate precisely about data and understand how it can be used.</li>
+        <li>Data analysis can reveal unusual values, blanks, inconsistent labels, and other anomalies.</li>
+        <li>An anomaly is not automatically a data quality error: quality can be determined only when the relevant data requirements are known.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="structure-heading">
+      <p class="eyebrow">Core Concept</p>
+      <h2 id="structure-heading">Data Categories by Structure</h2>
+      <dl>
+        <dt><strong>Structured data</strong></dt>
+        <dd>Data with a formal, predictable syntax that systems can read directly. Examples include relational databases, comma-separated value (CSV) files, XML, and JSON.</dd>
+        <dt><strong>Unstructured data</strong></dt>
+        <dd>Human-readable content that traditionally required preprocessing before conventional systems could use it. Examples include narrative documents, reports, and free-form text.</dd>
+        <dt><strong>Semi-structured data</strong></dt>
+        <dd>Data containing both organized fields and free-form content. Email is a familiar example: sender, recipient, date, and subject are structured, while the message is free-form.</dd>
+      </dl>
+      <p>The categories are better understood as a continuum than as completely separate boxes. A relational table may be highly structured while still containing semi-structured comments or address fields.</p>
+    </section>
+
+    <section class="card" aria-labelledby="ai-structure-heading">
+      <p class="eyebrow">Emerging Topics</p>
+      <h2 id="ai-structure-heading">AI and the Structure Transition</h2>
+      <p>Large language models can read and interpret documents, images, and audio, so much more human-readable data is now machine-readable in a practical sense. The main enterprise use today is often to transform unstructured or semi-structured material into structured records that legacy systems can process.</p>
+      <ul>
+        <li>Legacy systems such as billing, payroll, CRM, ERP, and master data management systems still expect structured inputs.</li>
+        <li>AI extraction can parse documents and free-form fields into fields such as names, addresses, dates, and entities.</li>
+        <li>Semantic computing aims toward systems that can accept ordinary documents, interpret them, and carry out processing directly.</li>
+        <li>Embedding text as numeric vectors may make semantic content faster to search and process.</li>
+        <li>AI remains slower and less deterministic than traditional rule-based systems, especially at very large scale.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="function-heading">
+      <p class="eyebrow">Framework</p>
+      <h2 id="function-heading">Operational Data Categories</h2>
+      <p>Operational data supports the day-to-day work of an organization. Four important categories are:</p>
+      <ul>
+        <li><strong>Master data</strong> describes the nouns of the organization&rsquo;s data vocabulary: people, places, and things such as customers, patients, products, employees, vehicles, and buildings.</li>
+        <li><strong>Transactional data</strong> describes events or actions, like sales orders, credit-card payments, and insurance claims. It acts like the verbs or sentences connecting master-data entities.</li>
+        <li><strong>Reference data</strong> provides agreed-upon codes and classification schemes, such as state, country, currency, postal, building, or job codes.</li>
+        <li><strong>Metadata</strong> is data about data. It labels, describes, and characterizes data so people and systems can retrieve, interpret, and use it correctly.</li>
+      </ul>
+      <p>Data can also be classified by origin or function, including user-generated data and machine-generated sensor data. Sensor readings can support predictive maintenance by identifying conditions that may precede equipment failure.</p>
+    </section>
+
+    <section class="card" aria-labelledby="master-heading">
+      <p class="eyebrow">Data Management</p>
+      <h2 id="master-heading">Master, Transactional, and Reference Data</h2>
+      <h3>Master data and semantic encoding</h3>
+      <p>Master data represents real-world entities and assigns each one a stable identifier within its context. A customer number, patient number, vehicle identification number, or employee number lets systems distinguish one entity from another even when names or addresses change or are represented differently.</p>
+      <p><strong>Semantic encoding</strong> means assigning an identifier as a stand-in for the entity and consistently reusing that identifier. This makes deduplication, integration, and aggregation possible. Master data aims for one master record per entity, while transactional data intentionally contains many records for repeated events.</p>
+      <h3>Reference data and interoperability</h3>
+      <p>Reference data standardizes codes so separate systems can interpret values consistently. Codes may be external standards, such as ISO country or currency codes, or internal organizational codes, such as campus building codes. Consistent reference codes improve integration and interoperability without requiring every code to receive a new universal identifier.</p>
+    </section>
+
+    <section class="card" aria-labelledby="metadata-heading">
+      <p class="eyebrow">Data Governance</p>
+      <h2 id="metadata-heading">Metadata, Catalogs, and Glossaries</h2>
+      <p>A raw value can be ambiguous without context. A date such as <code>07/04/1959</code> has a format, but metadata is needed to say whether it is a birth date, transaction date, or some other business date.</p>
+      <ul>
+        <li><strong>Technical metadata</strong> describes systems, structures, data types, quality rules, and standards.</li>
+        <li><strong>Business metadata</strong> describes operational meaning and rules, such as how net pay is calculated or when a product can be returned.</li>
+        <li><strong>Data catalogs</strong> describe what data an organization has, where it is located, and its characteristics.</li>
+        <li><strong>Business glossaries</strong> explain business terms and derived values, including the logic used to calculate them.</li>
+      </ul>
+      <p><strong>Data littering</strong> is distributing data without enough metadata for others to understand or use it. A file that made sense to its original creators can become nearly useless when its purpose, definitions, timing, and rules are lost.</p>
+    </section>
+
+    <section class="card" aria-labelledby="requirements-heading">
+      <p class="eyebrow">Quality Requirements</p>
+      <h2 id="requirements-heading">Data Quality Depends on Requirements</h2>
+      <p>Data requirements include data models, schemas, business rules, standards, and other specifications. The course definition is:</p>
+      <p><strong>Data quality is the conformance of data to data requirements.</strong></p>
+      <p>Therefore, missing or poorly defined requirements lead to poor data quality assessment. Finding a blank value, an unusual label, or an inconsistent format is data exploration; deciding that it is a quality defect requires knowing what the data is supposed to contain.</p>
+      <p>Models are useful but never complete. As George Box&rsquo;s well-known observation puts it, &ldquo;All models are wrong, but some are useful.&rdquo; Data lakes preserve raw data so it can be revisited when a model changes or a transformation turns out to be wrong.</p>
+    </section>
+
+    <section class="card" aria-labelledby="openrefine-heading">
+      <p class="eyebrow">Tool Demonstration</p>
+      <h2 id="openrefine-heading">Exploring Data with OpenRefine</h2>
+      <p><a href="https://openrefine.org/" target="_blank" rel="noopener noreferrer">OpenRefine</a> is an open-source tool for exploring and transforming data. It is similar to a spreadsheet but includes features for profiling and working with messy datasets.</p>
+      <ol>
+        <li>Install OpenRefine and create a project by uploading the assigned data file.</li>
+        <li>Review the project summary: file format, row count, columns, and sample records.</li>
+        <li>Use the dropdown menu on a column and choose a facet, such as a text facet.</li>
+        <li>Inspect value counts to find blanks, unusual values, capitalization differences, spelling variations, and other anomalies.</li>
+        <li>Describe what you observe without claiming a data quality error unless the requirements support that conclusion.</li>
+      </ol>
+      <p>The demonstration used a dataset with 860 rows and showed how facets can reveal inconsistent values such as variations in labels for movies and television shows, as well as blank country values.</p>
+    </section>
+
+    <section class="card" aria-labelledby="agentic-heading">
+      <p class="eyebrow">Emerging Topics</p>
+      <h2 id="agentic-heading">Agentic AI and Process Automation</h2>
+      <p>Agentic AI extends a prompt-and-response model by allowing a language model to use connected systems, make intermediate decisions, and carry out tasks such as querying a database, writing an email, creating a Jira ticket, or booking travel.</p>
+      <ul>
+        <li>Agents can act like software workers that loop through decisions and actions.</li>
+        <li>Probabilistic models can hallucinate or make incorrect predictions, so guardrails and human oversight are important.</li>
+        <li>Latency remains a challenge: traditional deterministic systems often operate in milliseconds or microseconds, while AI reasoning may take seconds or longer.</li>
+      </ul>
+    </section>
+
+    <section class="meeting-nav" aria-labelledby="action-items-heading">
+      <h2 id="action-items-heading">Action Items</h2>
+      <ol>
+        <li>Install <a href="https://openrefine.org/" target="_blank" rel="noopener noreferrer">OpenRefine</a>.</li>
+        <li>Download the assigned dataset from Blackboard&rsquo;s <em>Resources</em> folder; the local copy is <a href="student_grades_1000.csv">student_grades_1000.csv</a>.</li>
+        <li>Create an OpenRefine project and report the dataset&rsquo;s record count, fields, formats, and notable characteristics.</li>
+        <li>Use facets to identify unusual values, blanks, and inconsistencies.</li>
+        <li>Distinguish data exploration from a data quality judgment: requirements are needed to determine whether an anomaly is an error.</li>
+        <li>Continue reading <em>Journey to Data Quality</em> in Blackboard Resources.</li>
+      </ol>
+      <p>Previous session: <a href="2026-09-01.html">September 1 &mdash; Information Quality Value &amp; Business Impact</a></p>
+    </section>
+  </main>
+  <script src="../../../scripts/site-nav.js"></script>
+</body>
+</html>
