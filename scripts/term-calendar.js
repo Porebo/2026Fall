@@ -376,6 +376,173 @@
     container.appendChild(agenda);
   }
 
+  function getSubmittedLabel(deadline) {
+    if (deadline.submitted === true) {
+      return "Submitted";
+    }
+    if (deadline.submitted === false) {
+      return "Not submitted";
+    }
+    return "Unknown";
+  }
+
+  function getGradeLabel(deadline) {
+    return deadline.grade || "Not posted";
+  }
+
+  function getDueLabel(deadline) {
+    var dueLabel = formatDisplayDate(parseDate(deadline.date));
+    if (deadline.timeDisplay) {
+      dueLabel += " · " + deadline.timeDisplay;
+    }
+    return dueLabel;
+  }
+
+  function addHomeworkFilter(header, label, key, values, filters, tableBody) {
+    var labelSpan = document.createElement("span");
+    labelSpan.className = "homework-table__heading-label";
+    labelSpan.textContent = label;
+    header.appendChild(labelSpan);
+
+    var select = document.createElement("select");
+    select.className = "homework-table__filter";
+    select.setAttribute("aria-label", "Filter " + label);
+
+    var allOption = document.createElement("option");
+    allOption.value = "";
+    allOption.textContent = "All";
+    select.appendChild(allOption);
+
+    values.forEach(function (value) {
+      var option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      select.appendChild(option);
+    });
+
+    select.addEventListener("change", function () {
+      filters[key] = select.value;
+      Array.prototype.forEach.call(tableBody.rows, function (row) {
+        var visible = Object.keys(filters).every(function (filterKey) {
+          return !filters[filterKey] || row.dataset[filterKey] === filters[filterKey];
+        });
+        row.hidden = !visible;
+      });
+    });
+
+    header.appendChild(select);
+  }
+
+  function getUniqueValues(rows, key) {
+    var values = [];
+    rows.forEach(function (row) {
+      if (values.indexOf(row[key]) === -1) {
+        values.push(row[key]);
+      }
+    });
+    return values;
+  }
+
+  function appendHomeworkCell(row, label, value, linkUrl) {
+    var cell = document.createElement("td");
+    cell.setAttribute("data-label", label);
+
+    if (linkUrl) {
+      var link = document.createElement("a");
+      link.href = resolveUrl(linkUrl);
+      link.textContent = value;
+      cell.appendChild(link);
+    } else {
+      cell.textContent = value;
+    }
+
+    row.appendChild(cell);
+  }
+
+  function renderHomeworkTable(container, deadlines, courses) {
+    if (!container) {
+      return;
+    }
+
+    container.innerHTML = "";
+
+    var rows = filterDeadlines(deadlines)
+      .filter(function (deadline) {
+        return deadline.type === "homework";
+      })
+      .map(function (deadline) {
+        return {
+          course: getCourseName(courses, deadline.course),
+          homework: deadline.title,
+          due: getDueLabel(deadline),
+          submitted: getSubmittedLabel(deadline),
+          grade: getGradeLabel(deadline),
+          url: deadline.url
+        };
+      });
+
+    if (!rows.length) {
+      var empty = document.createElement("p");
+      empty.className = "deadline-empty";
+      empty.textContent = "No homework listed yet.";
+      container.appendChild(empty);
+      return;
+    }
+
+    var tableWrap = document.createElement("div");
+    tableWrap.className = "homework-table-wrap";
+
+    var table = document.createElement("table");
+    table.className = "homework-table";
+
+    var thead = document.createElement("thead");
+    var headerRow = document.createElement("tr");
+    var tableBody = document.createElement("tbody");
+    var filters = {
+      course: "",
+      homework: "",
+      due: "",
+      submitted: "",
+      grade: ""
+    };
+
+    [
+      ["course", "Class"],
+      ["homework", "Homework"],
+      ["due", "Due"],
+      ["submitted", "Submitted"],
+      ["grade", "Grade"]
+    ].forEach(function (column) {
+      var header = document.createElement("th");
+      header.scope = "col";
+      addHomeworkFilter(header, column[1], column[0], getUniqueValues(rows, column[0]), filters, tableBody);
+      headerRow.appendChild(header);
+    });
+
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    rows.forEach(function (homework) {
+      var row = document.createElement("tr");
+      row.dataset.course = homework.course;
+      row.dataset.homework = homework.homework;
+      row.dataset.due = homework.due;
+      row.dataset.submitted = homework.submitted;
+      row.dataset.grade = homework.grade;
+
+      appendHomeworkCell(row, "Class", homework.course);
+      appendHomeworkCell(row, "Homework", homework.homework, homework.url);
+      appendHomeworkCell(row, "Due", homework.due);
+      appendHomeworkCell(row, "Submitted", homework.submitted);
+      appendHomeworkCell(row, "Grade", homework.grade);
+      tableBody.appendChild(row);
+    });
+
+    table.appendChild(tableBody);
+    tableWrap.appendChild(table);
+    container.appendChild(tableWrap);
+  }
+
   function showCalendarDetail(container, dateKey, items, courses) {
     var detail = container.querySelector("#calendar-detail-panel");
     if (!detail) {
@@ -431,6 +598,7 @@
       }
     );
 
+    renderHomeworkTable(document.getElementById("homework-table"), deadlines, courses);
     renderCalendar(document.getElementById("term-calendar"), deadlines, courses);
   }
 
@@ -443,7 +611,7 @@
     })
     .then(init)
     .catch(function (error) {
-      ["upcoming-deadlines", "assignments-list", "term-calendar", "term-calendar-agenda"].forEach(function (id) {
+      ["upcoming-deadlines", "assignments-list", "homework-table", "term-calendar", "term-calendar-agenda"].forEach(function (id) {
         var container = document.getElementById(id);
         if (container) {
           container.innerHTML = "<p class=\"deadline-empty\">" + error.message + "</p>";

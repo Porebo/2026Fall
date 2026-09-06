@@ -30,6 +30,8 @@
       "course": "research-methods",
       "type": "homework",
       "title": "Understanding the Research Process",
+      "submitted": true,
+      "grade": "Not posted",
       "url": "classes/research-methods/w01/how01.html"
     },
     {
@@ -39,6 +41,8 @@
       "course": "principles-of-iq",
       "type": "homework",
       "title": "JDQ 1 Review (submitted)",
+      "submitted": true,
+      "grade": "Not posted",
       "url": "classes/principles-of-iq/w01/how01.html"
     },
     {
@@ -48,6 +52,8 @@
       "course": "principles-of-iq",
       "type": "homework",
       "title": "HW02 Data Analysis",
+      "submitted": false,
+      "grade": "Not posted",
       "url": "classes/principles-of-iq/w02/data-analysis.html"
     },
     {

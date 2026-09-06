@@ -281,6 +281,10 @@ a.lecture-channel__day:focus-visible {
   margin-top: 1.5rem;
 }
 
+.class-content > .card {
+  margin-top: 1.5rem;
+}
+
 .class-dashboard {
   display: grid;
   gap: 1rem;
@@ -667,6 +671,58 @@ a.lecture-channel__day:focus-visible {
 .deadline-empty {
   color: #52606d;
   margin: 0;
+}
+
+.homework-table-wrap {
+  overflow-x: auto;
+}
+
+.homework-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  table-layout: fixed;
+}
+
+.homework-table th,
+.homework-table td {
+  padding: 0.65rem 0.7rem;
+  border: 1px solid #d9e2ec;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.homework-table th {
+  background: #eef5fb;
+  color: #334e68;
+}
+
+.homework-table__heading-label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.homework-table__filter {
+  width: 100%;
+  min-height: 2rem;
+  border: 1px solid #bcccdc;
+  border-radius: 6px;
+  background: #fff;
+  color: #1f2933;
+  font: inherit;
+}
+
+.homework-table tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.homework-table tbody tr[hidden] {
+  display: none;
 }
 
 .calendar-month {
