@@ -245,6 +245,23 @@ a.lecture-channel__day:focus-visible {
   color: #52606d;
 }
 
+.breadcrumb .visits {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: 0.75rem;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid #d9e2ec;
+  border-radius: 999px;
+  background: #fff;
+  font-size: 0.8rem;
+  color: #52606d;
+}
+
+.visits__badge {
+  vertical-align: middle;
+}
+
 .hero h1,
 .card h3,
 .meeting-title {

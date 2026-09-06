@@ -81,6 +81,42 @@
     updateHeaderOffset();
   }
 
+  function addVisitCounter() {
+    var breadcrumb = document.querySelector(".breadcrumb");
+    if (!breadcrumb || breadcrumb.querySelector(".visits")) {
+      return;
+    }
+
+    var wrap = document.createElement("span");
+    wrap.className = "visits";
+    wrap.title = "Visits to this page";
+
+    // GitHub Pages is static, so the per-page count comes from the free hits.sh badge service.
+    var key = ((location.host || "local") + (location.pathname || "/"))
+      .replace(/^\/+|\/+$/g, "");
+    var badge = document.createElement("img");
+    badge.className = "visits__badge";
+    badge.alt = "Visits to this page";
+    badge.height = 20;
+
+    badge.onerror = function () {
+      badge.hidden = true;
+      var storageKey = "visits:" + key;
+      var mine = Number(localStorage.getItem(storageKey) || 0) + 1;
+      localStorage.setItem(storageKey, String(mine));
+      var fallback = document.createElement("span");
+      fallback.className = "visits__fallback";
+      fallback.textContent = mine + " (this browser only)";
+      wrap.appendChild(fallback);
+    };
+
+    badge.src = "https://hits.sh/" + encodeURI(key) +
+      ".svg?style=flat-square&label=visits&color=174ea6";
+    wrap.appendChild(badge);
+    breadcrumb.appendChild(wrap);
+  }
+
   wrapSiteHeader();
+  addVisitCounter();
   window.addEventListener("resize", updateHeaderOffset);
 })();
