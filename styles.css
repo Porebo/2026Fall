@@ -272,6 +272,11 @@ a.lecture-channel__day:focus-visible {
   max-width: 44rem;
 }
 
+.note {
+  color: #52606d;
+  font-size: 0.9rem;
+}
+
 .card-grid {
   display: grid;
   gap: 1.5rem;
@@ -646,8 +651,9 @@ a.lecture-channel__day:focus-visible {
 }
 
 .calendar--compact .calendar-marker {
-  width: 0.3rem;
-  height: 0.3rem;
+  min-width: 1rem;
+  height: 0.75rem;
+  font-size: 0.45rem;
 }
 
 .calendar--compact .calendar-detail {
@@ -708,13 +714,73 @@ a.lecture-channel__day:focus-visible {
   text-decoration: line-through;
 }
 
+.next-actions {
+  display: grid;
+  gap: 0.8rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.next-actions__item {
+  padding: 0.85rem 1rem;
+  border-left: 4px solid #174ea6;
+  border-radius: 0 8px 8px 0;
+  background: #f8fafc;
+}
+
+.next-actions__item--exam {
+  border-left-color: #b42318;
+}
+
+.next-actions__item--admin {
+  border-left-color: #b7791f;
+}
+
+.next-actions__title,
+.next-actions__meta,
+.next-actions__description,
+.next-actions__details,
+.next-actions__urgency {
+  margin: 0;
+}
+
+.next-actions__title {
+  font-weight: 700;
+}
+
+.next-actions__meta,
+.next-actions__details,
+.next-actions__urgency {
+  margin-top: 0.25rem;
+  color: #52606d;
+  font-size: 0.9rem;
+}
+
+.next-actions__description {
+  margin-top: 0.45rem;
+}
+
+.next-actions__urgency {
+  font-weight: 700;
+  color: #174ea6;
+}
+
 .assignment-table--filterable th,
 .assignment-table--filterable td {
   border: 1px solid #d9e2ec;
 }
 
 .assignment-table--filterable {
-  min-width: 760px;
+  min-width: 980px;
+}
+
+.assignment-table__preview {
+  display: block;
+  margin-top: 0.3rem;
+  color: #52606d;
+  font-size: 0.84rem;
+  line-height: 1.35;
 }
 
 .assignment-table__heading-label {
@@ -850,10 +916,17 @@ a.lecture-channel__day:focus-visible {
 }
 
 .calendar-marker {
-  width: 0.45rem;
-  height: 0.45rem;
+  min-width: 1.25rem;
+  height: 0.9rem;
   border-radius: 999px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.2rem;
+  color: #fff;
+  font-size: 0.5rem;
+  font-weight: 700;
+  line-height: 1;
   text-decoration: none;
 }
 
@@ -902,8 +975,9 @@ a.calendar-marker:focus-visible {
 }
 
 .deadline-legend .calendar-marker {
-  width: 0.6rem;
-  height: 0.6rem;
+  min-width: 1.45rem;
+  height: 1rem;
+  font-size: 0.54rem;
 }
 
 @media (min-width: 720px) {

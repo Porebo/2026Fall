@@ -12,6 +12,13 @@
     event: "Event"
   };
 
+  var TYPE_ABBREVIATIONS = {
+    homework: "HW",
+    exam: "EX",
+    admin: "AD",
+    event: "EV"
+  };
+
   var MONTHS = [
     "August", "September", "October", "November", "December"
   ];
@@ -106,6 +113,12 @@
     return endDate < today;
   }
 
+  function getDaysUntil(deadline) {
+    var today = parseDate(formatDate(new Date()));
+    var dueDate = parseDate(deadline.date);
+    return Math.ceil((dueDate - today) / 86400000);
+  }
+
   function createDeadlineLink(deadline, label) {
     var link = document.createElement("a");
     link.href = resolveUrl(deadline.url);
@@ -166,6 +179,13 @@
       li.appendChild(typeLine);
     }
 
+    if (deadline.description && options.showDescription) {
+      var descriptionLine = document.createElement("p");
+      descriptionLine.className = "deadline-item__description";
+      descriptionLine.textContent = deadline.description;
+      li.appendChild(descriptionLine);
+    }
+
     if (deadline.url && options.showActionLink !== false) {
       var actionLine = document.createElement("p");
       actionLine.className = "deadline-item__action";
@@ -222,12 +242,17 @@
   }
 
   function createCalendarMarker(deadline) {
+    var typeLabel = TYPE_LABELS[deadline.type] || deadline.type;
+    var markerLabel = typeLabel + ": " + deadline.title;
+    var markerText = TYPE_ABBREVIATIONS[deadline.type] || typeLabel.slice(0, 2).toUpperCase();
+
     if (deadline.url) {
       var markerLink = document.createElement("a");
       markerLink.className = "calendar-marker calendar-marker--" + deadline.type;
       markerLink.href = resolveUrl(deadline.url);
-      markerLink.title = deadline.title;
-      markerLink.setAttribute("aria-label", deadline.title);
+      markerLink.title = markerLabel;
+      markerLink.setAttribute("aria-label", markerLabel);
+      markerLink.textContent = markerText;
       markerLink.addEventListener("click", function (event) {
         event.stopPropagation();
       });
@@ -236,8 +261,78 @@
 
     var marker = document.createElement("span");
     marker.className = "calendar-marker calendar-marker--" + deadline.type;
-    marker.title = deadline.title;
+    marker.title = markerLabel;
+    marker.setAttribute("aria-label", markerLabel);
+    marker.textContent = markerText;
     return marker;
+  }
+
+  function renderNextActions(container, deadlines, courses) {
+    if (!container) {
+      return;
+    }
+
+    container.innerHTML = "";
+
+    var upcoming = filterDeadlines(deadlines)
+      .filter(function (deadline) {
+        return deadline.type !== "event" && (deadline.endDate || deadline.date) >= formatDate(new Date());
+      })
+      .slice(0, 3);
+
+    if (!upcoming.length) {
+      var empty = document.createElement("p");
+      empty.className = "deadline-empty";
+      empty.textContent = "No upcoming action items.";
+      container.appendChild(empty);
+      return;
+    }
+
+    var list = document.createElement("ol");
+    list.className = "next-actions";
+
+    upcoming.forEach(function (deadline) {
+      var item = document.createElement("li");
+      item.className = "next-actions__item next-actions__item--" + deadline.type;
+
+      var title = document.createElement("p");
+      title.className = "next-actions__title";
+      if (deadline.url) {
+        title.appendChild(createDeadlineLink(deadline, deadline.assignmentName || deadline.title));
+      } else {
+        title.textContent = deadline.assignmentName || deadline.title;
+      }
+      item.appendChild(title);
+
+      var meta = document.createElement("p");
+      meta.className = "next-actions__meta";
+      meta.textContent = getCourseName(courses, deadline.course) + " · " + getDueLabel(deadline);
+      item.appendChild(meta);
+
+      if (deadline.description) {
+        var description = document.createElement("p");
+        description.className = "next-actions__description";
+        description.textContent = deadline.description;
+        item.appendChild(description);
+      }
+
+      if (deadline.type === "homework") {
+        var details = document.createElement("p");
+        details.className = "next-actions__details";
+        details.textContent = "Status: " + getStatusLabel(deadline) + " · Points: " + getPointsLabel(deadline) + " · Effort: " + getEstimatedHoursLabel(deadline);
+        item.appendChild(details);
+      }
+
+      var days = getDaysUntil(deadline);
+      var urgency = document.createElement("p");
+      urgency.className = "next-actions__urgency";
+      urgency.textContent = days === 0 ? "Due today" : "Due in " + days + " day" + (days === 1 ? "" : "s");
+      item.appendChild(urgency);
+
+      list.appendChild(item);
+    });
+
+    container.appendChild(list);
   }
 
   function renderCalendar(container, deadlines, courses) {
@@ -395,6 +490,17 @@
     return deadline.grade || "Not graded";
   }
 
+  function getPointsLabel(deadline) {
+    if (deadline.points === null || typeof deadline.points === "undefined") {
+      return "Not listed";
+    }
+    return deadline.points + " point" + (deadline.points === 1 ? "" : "s");
+  }
+
+  function getEstimatedHoursLabel(deadline) {
+    return deadline.estimatedHours || "Not listed";
+  }
+
   function formatAssignmentDate(dateValue) {
     return dateValue.toLocaleDateString("en-US", {
       month: "short",
@@ -456,7 +562,7 @@
     return values;
   }
 
-  function appendAssignmentCell(row, label, value, linkUrl, asHeader) {
+  function appendAssignmentCell(row, label, value, linkUrl, asHeader, description) {
     var cell = document.createElement(asHeader ? "th" : "td");
     if (asHeader) {
       cell.scope = "row";
@@ -470,6 +576,13 @@
       cell.appendChild(link);
     } else {
       cell.textContent = value;
+    }
+
+    if (description) {
+      var preview = document.createElement("span");
+      preview.className = "assignment-table__preview";
+      preview.textContent = description;
+      cell.appendChild(preview);
     }
 
     row.appendChild(cell);
@@ -492,10 +605,15 @@
           course: getCourseName(courses, deadline.course),
           number: deadline.assignmentNumber || deadline.id,
           name: deadline.assignmentName || deadline.title,
+          description: deadline.description || "No preview listed.",
           assigned: deadline.assignedDate ? formatAssignmentDate(parseDate(deadline.assignedDate)) : "Unknown",
           due: getDueLabel(deadline),
           status: getStatusLabel(deadline),
           grade: getGradeLabel(deadline),
+          points: getPointsLabel(deadline),
+          submit: deadline.submissionLocation || "Not listed",
+          effort: getEstimatedHoursLabel(deadline),
+          blackboardUrl: deadline.blackboardUrl,
           url: deadline.url
         };
       });
@@ -535,7 +653,10 @@
       ["assigned", "Assigned"],
       ["due", "Due"],
       ["status", "Status"],
-      ["grade", "Grade"]
+      ["grade", "Grade"],
+      ["points", "Points"],
+      ["submit", "Submit"],
+      ["effort", "Effort"]
     ]);
 
     columns.forEach(function (column) {
@@ -559,11 +680,14 @@
         appendAssignmentCell(row, "Class", assignment.course);
       }
       appendAssignmentCell(row, "HW #", assignment.number, assignment.url, true);
-      appendAssignmentCell(row, "Name", assignment.name, assignment.url);
+      appendAssignmentCell(row, "Name", assignment.name, assignment.url, false, assignment.description);
       appendAssignmentCell(row, "Assigned", assignment.assigned);
       appendAssignmentCell(row, "Due", assignment.due);
       appendAssignmentCell(row, "Status", assignment.status);
       appendAssignmentCell(row, "Grade", assignment.grade);
+      appendAssignmentCell(row, "Points", assignment.points);
+      appendAssignmentCell(row, "Submit", assignment.submit, assignment.blackboardUrl);
+      appendAssignmentCell(row, "Effort", assignment.effort);
       tableBody.appendChild(row);
     });
 
@@ -619,6 +743,7 @@
 
     renderAssignmentTable(document.getElementById("assignments-list"), deadlines, courses);
     renderAssignmentTable(document.getElementById("homework-table"), deadlines, courses, { includeCourse: true });
+    renderNextActions(document.getElementById("next-actions"), deadlines, courses);
     renderCalendar(document.getElementById("term-calendar"), deadlines, courses);
   }
 
@@ -631,7 +756,7 @@
     })
     .then(init)
     .catch(function (error) {
-      ["upcoming-deadlines", "assignments-list", "homework-table", "term-calendar", "term-calendar-agenda"].forEach(function (id) {
+      ["upcoming-deadlines", "assignments-list", "homework-table", "next-actions", "term-calendar", "term-calendar-agenda"].forEach(function (id) {
         var container = document.getElementById(id);
         if (container) {
           container.innerHTML = "<p class=\"deadline-empty\">" + error.message + "</p>";

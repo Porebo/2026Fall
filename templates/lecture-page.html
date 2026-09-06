@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{COURSE_NAME}} - {{MEETING_DATE}}</title>
+  <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a> /
+      <a href="../home-{{COURSE_SLUG}}.html">{{COURSE_NAME}}</a> /
+      {{MEETING_DATE}}
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Class Meeting &mdash; {{MEETING_DISPLAY_DATE}}</p>
+      <h1 class="meeting-title">{{MEETING_TITLE}}</h1>
+      <p class="lede">{{MEETING_SUMMARY}}</p>
+    </header>
+
+    <section class="card" aria-labelledby="recording-heading">
+      <p class="eyebrow">Recording</p>
+      <h2 id="recording-heading">Lecture Video</h2>
+      <p><a href="{{RECORDING_URL}}" target="_blank" rel="noopener noreferrer">Watch lecture recording</a></p>
+    </section>
+
+    <section class="card" aria-labelledby="notes-heading">
+      <p class="eyebrow">Notes</p>
+      <h2 id="notes-heading">Key Topics</h2>
+      <ul>
+        <li>{{TOPIC_1}}</li>
+        <li>{{TOPIC_2}}</li>
+        <li>{{TOPIC_3}}</li>
+      </ul>
+    </section>
+
+    <section class="meeting-nav" aria-labelledby="action-items-heading">
+      <h2 id="action-items-heading">Action Items</h2>
+      <ol>
+        <li>{{ACTION_ITEM_1}}</li>
+        <li>{{ACTION_ITEM_2}}</li>
+      </ol>
+    </section>
+  </main>
+  <script src="../../../scripts/site-nav.js"></script>
+</body>
+</html>

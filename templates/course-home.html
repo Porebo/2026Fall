@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{COURSE_NAME}}</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="page page--with-channel">
+    <nav class="breadcrumb"><a href="../../index.html">Home</a> / {{COURSE_NAME}}</nav>
+
+    <div class="class-layout">
+      <aside class="lecture-channel" id="lecture-channel" aria-label="Lecture calendar by month">
+        <p class="deadline-empty">Loading lecture calendar...</p>
+      </aside>
+
+      <div class="class-content">
+        <header class="hero">
+          <p class="eyebrow">Class Page</p>
+          <h1>{{COURSE_NAME}}</h1>
+          <p class="lede">{{COURSE_DESCRIPTION}}</p>
+        </header>
+
+        <section class="card" aria-labelledby="syllabus-heading">
+          <p class="eyebrow">Course Document</p>
+          <h2 id="syllabus-heading">Syllabus</h2>
+          <p><a href="{{SYLLABUS_URL}}">{{SYLLABUS_LABEL}}</a></p>
+        </section>
+
+        <section class="card" aria-labelledby="upcoming-heading">
+          <p class="eyebrow">Action Items</p>
+          <h2 id="upcoming-heading">Upcoming for This Class</h2>
+          <div id="upcoming-deadlines" aria-live="polite">
+            <p class="deadline-empty">Loading deadlines...</p>
+          </div>
+        </section>
+
+        <section class="card" aria-labelledby="assignments-heading">
+          <p class="eyebrow">Homework</p>
+          <h2 id="assignments-heading">Assignments</h2>
+          <div id="assignments-list" aria-live="polite">
+            <p class="deadline-empty">Loading assignments...</p>
+          </div>
+        </section>
+
+        <section class="meeting-nav" aria-labelledby="meetings-heading">
+          <h2 id="meetings-heading">Meetings</h2>
+          <ul class="link-list">
+            <li><a href="{{FIRST_MEETING_URL}}">{{FIRST_MEETING_LABEL}}</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <script src="../../scripts/site-nav.js"></script>
+  <script>
+    window.TERM_CALENDAR_CONFIG = {
+      deadlinesUrl: "../../data/deadlines.json",
+      linkPrefix: "../../",
+      course: "{{COURSE_SLUG}}"
+    };
+    window.LECTURE_CHANNEL_CONFIG = {
+      lecturesUrl: "../../data/{{COURSE_SLUG}}-lectures.json",
+      linkPrefix: ""
+    };
+  </script>
+  <script src="../../scripts/term-calendar.js"></script>
+  <script src="../../scripts/lecture-channel.js"></script>
+</body>
+</html>
