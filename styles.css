@@ -289,6 +289,7 @@ a.lecture-channel__day:focus-visible {
 .dashboard-card {
   display: flex;
   flex-direction: column;
+  container-type: inline-size;
   min-height: 100%;
   border: 1px solid transparent;
 }
@@ -315,8 +316,9 @@ a.lecture-channel__day:focus-visible {
 
 .dashboard-card h3 {
   margin: 0.35rem 0 0.45rem;
-  font-size: 1.35rem;
+  font-size: clamp(1rem, 4.8cqw, 1.35rem);
   line-height: 1.25;
+  overflow-wrap: anywhere;
 }
 
 .dashboard-card h3 a {
