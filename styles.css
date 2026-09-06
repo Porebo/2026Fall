@@ -673,32 +673,51 @@ a.lecture-channel__day:focus-visible {
   margin: 0;
 }
 
-.homework-table-wrap {
-  overflow-x: auto;
+.checklist {
+  display: grid;
+  gap: 0.65rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
 }
 
-.homework-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.92rem;
-  table-layout: fixed;
-}
-
-.homework-table th,
-.homework-table td {
-  padding: 0.65rem 0.7rem;
+.checklist li {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.65rem;
+  align-items: start;
+  padding: 0.75rem 0.85rem;
   border: 1px solid #d9e2ec;
-  text-align: left;
-  vertical-align: top;
-  overflow-wrap: anywhere;
+  border-radius: 8px;
+  background: #f8fafc;
 }
 
-.homework-table th {
-  background: #eef5fb;
-  color: #334e68;
+.checklist input[type="checkbox"] {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-top: 0.2rem;
+  accent-color: #174ea6;
 }
 
-.homework-table__heading-label {
+.checklist label {
+  cursor: pointer;
+}
+
+.checklist input[type="checkbox"]:checked + label {
+  color: #52606d;
+  text-decoration: line-through;
+}
+
+.assignment-table--filterable th,
+.assignment-table--filterable td {
+  border: 1px solid #d9e2ec;
+}
+
+.assignment-table--filterable {
+  min-width: 760px;
+}
+
+.assignment-table__heading-label {
   display: block;
   margin-bottom: 0.35rem;
   font-size: 0.76rem;
@@ -707,7 +726,7 @@ a.lecture-channel__day:focus-visible {
   letter-spacing: 0.04em;
 }
 
-.homework-table__filter {
+.assignment-table__filter {
   width: 100%;
   min-height: 2rem;
   border: 1px solid #bcccdc;
@@ -717,12 +736,51 @@ a.lecture-channel__day:focus-visible {
   font: inherit;
 }
 
-.homework-table tbody tr:nth-child(even) {
+.assignment-table--filterable tbody tr:nth-child(even) {
   background: #f8fafc;
 }
 
-.homework-table tbody tr[hidden] {
+.assignment-table--filterable tbody tr[hidden] {
   display: none;
+}
+
+@media (max-width: 700px) {
+  .assignment-table--filterable {
+    display: table;
+  }
+
+  .assignment-table--filterable thead {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    border: 0;
+  }
+
+  .assignment-table--filterable tbody {
+    display: table-row-group;
+  }
+
+  .assignment-table--filterable tr {
+    display: table-row;
+    padding: 0;
+    border-bottom: 0;
+  }
+
+  .assignment-table--filterable th,
+  .assignment-table--filterable td {
+    display: table-cell;
+    padding: 0.65rem 0.7rem;
+  }
+
+  .assignment-table--filterable th::before,
+  .assignment-table--filterable td::before {
+    content: none;
+  }
 }
 
 .calendar-month {
