@@ -1,0 +1,64 @@
+DATASET OVERVIEW
+
+The dataset contains information about shows while maintaining a cohesive theme of describing show attributes without off-topic noise.
+
+Each row represents one information record for a show containing 13 attribute columns divided into three major categories: 2 record identification fields (show_id, date_added), 9 intrinsic show descriptors, and 2 performance measures (user_rating_score, number_of_reviews).
+
+
+SCHEMA TAXONOMY
+
+Metadata
+  - Record & System Identification: show_id, date_added
+
+Dimensional
+  - Core Info & Format: title, type, description, duration
+  - Production: director, country, release_year
+  - Taxonomy & Rating: rating, listed_in
+
+Fact
+  - Performance Measures: user_rating_score, number_of_reviews
+
+MODEL RECORD BREAKDOWN (FULLY POPULATED ENTRY)
+
+Row Values:
+[s15, 15-Jul-20, The Crown, Movie, Description of show., 90 min, Noah Baumbach, United Kingdom, 2018, TV-MA, Dramas, 8, 1250]
+
+Attribute-by-Attribute Taxonomy:
+1.  show_id (Metadata): s15
+2.  date_added (Metadata): 15-Jul-20
+3.  title (Dimensional - Core Info): The Crown
+4.  type (Dimensional - Core Info): Movie
+5.  description (Dimensional - Core Info): Description of show.
+6.  duration (Dimensional - Core Info): 90 min
+7.  director (Dimensional - Production): Noah Baumbach
+8.  country (Dimensional - Production): United Kingdom
+9.  release_year (Dimensional - Production): 2018
+10. rating (Dimensional - Taxonomy): TV-MA
+11. listed_in (Dimensional - Taxonomy): Dramas
+12. user_rating_score (Fact): 8
+13. number_of_reviews (Fact): 1250
+
+NARRATIVE TRANSLATION EXAMPLES
+Across 1250 number_of_reviews, the Movie "The Crown" received a user_rating_score of 8. Directed by Noah Baumbach and released in the United Kingdom in 2018, this 90 min title is listed in Dramas with a rating of TV-MA, cataloged under show_id s15 on date_added 15-Jul-20.
+
+OBSERVED DATA CHARACTERISTICS & PATTERNS
+
+A. Multi-Instance Entity Grain
+- Dataset Behavior: The file contains 860 rows across 50 unique show_id values and 20 unique show titles. On average, each show_id appears 17.2 times.
+- Anchored Example: The title "The Crown" appears across 57 distinct records. Rather than representing a deduplicated master catalog, individual rows pair this title with differing dimensional values—such as alternating type values ("Movie" vs. "TV Show"), varying release_year values, and distinct director assignments (e.g., Noah Baumbach vs. David Fincher).
+
+B. Incomplete Field Population
+- Dataset Behavior: 5 of the 13 attributes contain empty or null entries: date_added (225 nulls / 26.2%), director (145 nulls / 16.9%), duration (138 nulls / 16.0%), rating (85 nulls / 9.9%), and country (51 nulls / 5.9%).
+- Anchored Example: While record s15 for "The Crown" contains values across all 13 fields, record s9 for "The Crown" leaves the duration attribute unpopulated. This demonstrates that field completeness varies across entries sharing the same title.
+
+C. Categorical Casing Variations
+- Dataset Behavior: Categorical attributes display string entries that differ only by character casing.
+- Anchored Example: Across the 57 records for "The Crown", the type attribute contains both "Movie" and lower-case "movie". Similarly, the rating field contains variations such as "TV-MA", "PG-13", and lower-case "pg13".
+
+D. Uniform String Distribution
+- Dataset Behavior: 100% of rows (860 out of 860) contain the exact string "Description of show." in the description column.
+- Anchored Example: In model record s15, description yields identical text to every other row in the file, resulting in zero variance for this field across the dataset.
+
+E. Metric Variance Across Repeated Titles
+- Dataset Behavior: Quantitative performance measures (user_rating_score and number_of_reviews) record distinct values across separate entries for the same show title.
+- Anchored Example: Records associated with "The Crown" display varying engagement metrics rather than a static total, ranging from lower review counts up to a user_rating_score of 8 with 1250 number_of_reviews in s15, compared to 456 reviews in s9.
