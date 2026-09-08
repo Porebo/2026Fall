@@ -517,6 +517,15 @@
     return dueLabel;
   }
 
+  function applyAssignmentFilters(filters, tableBody) {
+    Array.prototype.forEach.call(tableBody.rows, function (row) {
+      var visible = Object.keys(filters).every(function (filterKey) {
+        return !filters[filterKey] || row.dataset[filterKey] === filters[filterKey];
+      });
+      row.hidden = !visible;
+    });
+  }
+
   function addAssignmentFilter(header, label, key, values, filters, tableBody) {
     var labelSpan = document.createElement("span");
     labelSpan.className = "assignment-table__heading-label";
@@ -541,15 +550,11 @@
 
     select.addEventListener("change", function () {
       filters[key] = select.value;
-      Array.prototype.forEach.call(tableBody.rows, function (row) {
-        var visible = Object.keys(filters).every(function (filterKey) {
-          return !filters[filterKey] || row.dataset[filterKey] === filters[filterKey];
-        });
-        row.hidden = !visible;
-      });
+      applyAssignmentFilters(filters, tableBody);
     });
 
     header.appendChild(select);
+    return select;
   }
 
   function getUniqueValues(rows, key) {
@@ -610,9 +615,6 @@
           due: getDueLabel(deadline),
           status: getStatusLabel(deadline),
           grade: getGradeLabel(deadline),
-          points: getPointsLabel(deadline),
-          submit: deadline.submissionLocation || "Not listed",
-          effort: getEstimatedHoursLabel(deadline),
           blackboardUrl: deadline.blackboardUrl,
           url: deadline.url
         };
@@ -632,6 +634,11 @@
     var table = document.createElement("table");
     table.className = "assignment-table assignment-table--filterable";
 
+    var clearFiltersButton = document.createElement("button");
+    clearFiltersButton.type = "button";
+    clearFiltersButton.className = "assignment-table__clear-filters";
+    clearFiltersButton.textContent = "Clear filters";
+
     var caption = document.createElement("caption");
     caption.className = "sr-only";
     caption.textContent = options.includeCourse ? "Homework assignments for all classes" : "Homework assignments for this class";
@@ -641,6 +648,7 @@
     var headerRow = document.createElement("tr");
     var tableBody = document.createElement("tbody");
     var filters = {};
+    var filterSelects = [];
     var columns = [];
 
     if (options.includeCourse) {
@@ -653,18 +661,26 @@
       ["assigned", "Assigned"],
       ["due", "Due"],
       ["status", "Status"],
-      ["grade", "Grade"],
-      ["points", "Points"],
-      ["submit", "Submit"],
-      ["effort", "Effort"]
+      ["grade", "Grade"]
     ]);
 
     columns.forEach(function (column) {
       var header = document.createElement("th");
       header.scope = "col";
       filters[column[0]] = "";
-      addAssignmentFilter(header, column[1], column[0], getUniqueValues(rows, column[0]), filters, tableBody);
+      var filterSelect = addAssignmentFilter(header, column[1], column[0], getUniqueValues(rows, column[0]), filters, tableBody);
+      filterSelects.push(filterSelect);
       headerRow.appendChild(header);
+    });
+
+    clearFiltersButton.addEventListener("click", function () {
+      Object.keys(filters).forEach(function (filterKey) {
+        filters[filterKey] = "";
+      });
+      filterSelects.forEach(function (select) {
+        select.value = "";
+      });
+      applyAssignmentFilters(filters, tableBody);
     });
 
     thead.appendChild(headerRow);
@@ -685,13 +701,11 @@
       appendAssignmentCell(row, "Due", assignment.due);
       appendAssignmentCell(row, "Status", assignment.status);
       appendAssignmentCell(row, "Grade", assignment.grade);
-      appendAssignmentCell(row, "Points", assignment.points);
-      appendAssignmentCell(row, "Submit", assignment.submit, assignment.blackboardUrl);
-      appendAssignmentCell(row, "Effort", assignment.effort);
       tableBody.appendChild(row);
     });
 
     table.appendChild(tableBody);
+  tableWrap.appendChild(clearFiltersButton);
     tableWrap.appendChild(table);
     container.appendChild(tableWrap);
   }

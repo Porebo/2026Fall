@@ -872,6 +872,23 @@ a.lecture-channel__day:focus-visible {
   min-width: 980px;
 }
 
+.assignment-table__clear-filters {
+  margin-bottom: 0.75rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid #bcccdc;
+  border-radius: 6px;
+  background: #fff;
+  color: #1f2933;
+  font: inherit;
+  cursor: pointer;
+}
+
+.assignment-table__clear-filters:hover,
+.assignment-table__clear-filters:focus-visible {
+  border-color: #174ea6;
+  color: #174ea6;
+}
+
 .assignment-table__preview {
   display: block;
   margin-top: 0.3rem;
