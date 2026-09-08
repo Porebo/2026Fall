@@ -1,11 +1,10 @@
 DATASET OVERVIEW
 
-The dataset contains information about shows while maintaining a cohesive theme of describing show attributes without off-topic noise.
+The dataset contains information about shows (TV show, documentary, stand-up, movies), and it maintains a cohesive theme without off-topic noise.
 
-Each row represents one information record for a show containing 13 attribute columns divided into three major categories: 2 record identification fields (show_id, date_added), 9 intrinsic show descriptors, and 2 performance measures (user_rating_score, number_of_reviews).
+A total of 860 rows comprise the full set where each row represents one information record for a show. The information per case contains 13 attribute columns divided into three major categories (see taxonomy below).
 
-
-SCHEMA TAXONOMY
+COLUMNS SCHEMA TAXONOMY
 
 Metadata
   - Record & System Identification: show_id, date_added
@@ -18,10 +17,7 @@ Dimensional
 Fact
   - Performance Measures: user_rating_score, number_of_reviews
 
-MODEL RECORD BREAKDOWN (FULLY POPULATED ENTRY)
-
-Row Values:
-[s15, 15-Jul-20, The Crown, Movie, Description of show., 90 min, Noah Baumbach, United Kingdom, 2018, TV-MA, Dramas, 8, 1250]
+SAMPLE OF A FULLY POPULATED ROW
 
 Attribute-by-Attribute Taxonomy:
 1.  show_id (Metadata): s15
@@ -39,26 +35,103 @@ Attribute-by-Attribute Taxonomy:
 13. number_of_reviews (Fact): 1250
 
 NARRATIVE TRANSLATION EXAMPLES
-Across 1250 number_of_reviews, the Movie "The Crown" received a user_rating_score of 8. Directed by Noah Baumbach and released in the United Kingdom in 2018, this 90 min title is listed in Dramas with a rating of TV-MA, cataloged under show_id s15 on date_added 15-Jul-20.
+The data sample leads to understand what it represents by setting the attributes in a sentence.
 
-OBSERVED DATA CHARACTERISTICS & PATTERNS
+Across 1,250 reviews, the movie 'The Crown' achieved a user rating score of 8. Directed by Noah Baumbach and released in the United Kingdom in 2018, this 90-minute title is listed under Dramas with a TV-MA rating (ID: s15, Added: 15-Jul-20).
 
-A. Multi-Instance Entity Grain
-- Dataset Behavior: The file contains 860 rows across 50 unique show_id values and 20 unique show titles. On average, each show_id appears 17.2 times.
-- Anchored Example: The title "The Crown" appears across 57 distinct records. Rather than representing a deduplicated master catalog, individual rows pair this title with differing dimensional values—such as alternating type values ("Movie" vs. "TV Show"), varying release_year values, and distinct director assignments (e.g., Noah Baumbach vs. David Fincher).
+OBSERVED DATA CHARACTERISTICS
 
-B. Incomplete Field Population
-- Dataset Behavior: 5 of the 13 attributes contain empty or null entries: date_added (225 nulls / 26.2%), director (145 nulls / 16.9%), duration (138 nulls / 16.0%), rating (85 nulls / 9.9%), and country (51 nulls / 5.9%).
-- Anchored Example: While record s15 for "The Crown" contains values across all 13 fields, record s9 for "The Crown" leaves the duration attribute unpopulated. This demonstrates that field completeness varies across entries sharing the same title.
+I used OpenRefine's text facet feature and observed variance in how the columns are populated — in terms of value repetition, variation in how the same term is expressed, and null values. I was inclined to label these variances as data quality errors, but I did not, because no specifications (requirements) exist to confirm them as such.
 
-C. Categorical Casing Variations
-- Dataset Behavior: Categorical attributes display string entries that differ only by character casing.
-- Anchored Example: Across the 57 records for "The Crown", the type attribute contains both "Movie" and lower-case "movie". Similarly, the rating field contains variations such as "TV-MA", "PG-13", and lower-case "pg13".
+To establish an objective analytical framework, I utilized generative AI to help define three standardized profiling pillars (Distribution Variance, Sequencing & Format, and Domain Cardinality). Quantitative metrics were programmatically calculated using a custom PowerShell script, while AI assisted in synthesizing these measurements into structured narrative observations. All AI-generated interpretations were independently reviewed and verified against the source dataset to ensure factual accuracy.
 
-D. Uniform String Distribution
-- Dataset Behavior: 100% of rows (860 out of 860) contain the exact string "Description of show." in the description column.
-- Anchored Example: In model record s15, description yields identical text to every other row in the file, resulting in zero variance for this field across the dataset.
+The PowerShell script imports MovieDataset.csv and, for each of its 13 columns, groups the values to calculate three metrics: a distribution-variance figure (the minimum and maximum frequency among the column's distinct values), a completeness/format check (count of blank or whitespace-only entries, with data type reported generically as 'String' since CSV import always yields text), and a domain-cardinality ratio (distinct value count divided by the 860 total rows, expressed as a percentage). It then prints these three findings for every column in a consistent, repeatable format.
 
-E. Metric Variance Across Repeated Titles
-- Dataset Behavior: Quantitative performance measures (user_rating_score and number_of_reviews) record distinct values across separate entries for the same show title.
-- Anchored Example: Records associated with "The Crown" display varying engagement metrics rather than a static total, ranging from lower review counts up to a user_rating_score of 8 with 1250 number_of_reviews in s15, compared to 456 reviews in s9.
+RESULTS
+
+Evaluating Distribution Variance, Sequencing & Format, and Domain Cardinality is preferred because these three measures analyze data from a purely objective, context-neutral standpoint—requiring no prior business specifications to yield deep insights. Applied systematically across this dataset, this framework maps out how evenly values are distributed, how cleanly they are structured and populated, and whether each column functions as a unique record marker or a high-level categorical grouping.
+
+Distribution variance measures how evenly record counts are spread across the different choices within a column. Low variance means choices appear at nearly identical frequencies, while high variance indicates that a few dominant values make up most of the dataset.
+
+Across this dataset, distribution variance spans from complete uniformity to severe imbalance. Key structural categories (like `show_id`) show virtually zero variance with values appearing almost identically between 17 and 18 times, whereas metadata columns like `country` exhibit extreme variance, with a single dominant location accounting for nearly half of all records (415 out of 860 rows).
+
+Sequencing and format examine how data values are stored, ordered, and structured, focusing on data types, text capitalization, and missing entries. It reveals whether values sort in a logical sequence and if fields suffer from inconsistent formatting.
+
+In this dataset, every column is stored as plain text, which creates text-sorting artifacts that place numeric identifiers in orders like `s1, s10, s11... s2`. Additionally, formatting lacks standardization across several fields, displaying mixed capitalization (such as "Movie" alongside "movie") and missing data levels reaching up to 44% in engagement columns.
+
+Domain cardinality measures the proportion of distinct choices relative to total rows to determine if a column acts as a unique marker, a category bucket, or a static default.
+
+Across this 860-row dataset, nearly every column functions as a low-cardinality grouping attribute (0.12% to 5.81%). The description column represents the extreme end of low cardinality: with only 1 distinct placeholder string repeated across all 860 rows, it has zero variance and carries no analytical meaning.
+
+CONCLUSION
+
+Evaluating `MovieDataset.csv` across these three dimensions reveals a dataset structured around multi-row entity groupings rather than isolated, unique records. The low cardinality of attributes like `show_id` (5.81%) and `title` (2.33%) confirms that multiple rows belong to shared parent entities, while `description` acts as a zero-variance constant ("Description of show." across all 860 rows) that offers no meaningful row-level distinction. Simultaneously, the analysis highlights clear data-hygiene priorities: string-sorting artifacts (`s1, s10, s2`), inconsistent text casing (e.g., "Movie" vs. "movie"), and missing data reaching up to 44% in user review fields must be standardized prior to downstream analysis. 
+
+Ultimately, while the dataset demonstrates intentional categorical grouping, its variance skews, static placeholder constants, and formatting gaps emphasize the necessity of observational profiling in preparing raw data for real-world use.
+
+
+Column: show_id
+1. Distribution Variance: Frequency range is 17 to 18.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 0 missing entries.
+3. Domain Cardinality: 50 distinct choices out of 860 rows (Cardinality Ratio: 5.81%).
+
+Column: type
+1. Distribution Variance: Frequency range is 138 to 302.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 0 missing entries.
+3. Domain Cardinality: 4 distinct choices out of 860 rows (Cardinality Ratio: 0.47%).
+
+Column: title
+1. Distribution Variance: Frequency range is 35 to 57.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 0 missing entries.
+3. Domain Cardinality: 20 distinct choices out of 860 rows (Cardinality Ratio: 2.33%).
+
+Column: director
+1. Distribution Variance: Frequency range is 57 to 145.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 145 missing entries.
+3. Domain Cardinality: 11 distinct choices out of 860 rows (Cardinality Ratio: 1.28%).
+
+Column: country
+1. Distribution Variance: Frequency range is 10 to 415.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 51 missing entries.
+3. Domain Cardinality: 10 distinct choices out of 860 rows (Cardinality Ratio: 1.16%).
+
+Column: date_added
+1. Distribution Variance: Frequency range is 137 to 225.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 225 missing entries.
+3. Domain Cardinality: 5 distinct choices out of 860 rows (Cardinality Ratio: 0.58%).
+
+Column: release_year
+1. Distribution Variance: Frequency range is 17 to 86.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 0 missing entries.
+3. Domain Cardinality: 21 distinct choices out of 860 rows (Cardinality Ratio: 2.44%).
+
+Column: rating
+1. Distribution Variance: Frequency range is 68 to 223.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 85 missing entries.
+3. Domain Cardinality: 6 distinct choices out of 860 rows (Cardinality Ratio: 0.70%).
+
+Column: duration
+1. Distribution Variance: Frequency range is 85 to 276.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 276 missing entries.
+3. Domain Cardinality: 5 distinct choices out of 860 rows (Cardinality Ratio: 0.58%).
+
+Column: listed_in
+1. Distribution Variance: Frequency range is 137 to 207.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 0 missing entries.
+3. Domain Cardinality: 5 distinct choices out of 860 rows (Cardinality Ratio: 0.58%).
+
+Column: description
+1. Distribution Variance: Frequency range is 860 to 860.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 0 missing entries.
+3. Domain Cardinality: 1 distinct choice out of 860 rows (Cardinality Ratio: 0.12%).
+
+Column: user_rating_score
+1. Distribution Variance: Frequency range is 17 to 344.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 344 missing entries.
+3. Domain Cardinality: 18 distinct choices out of 860 rows (Cardinality Ratio: 2.09%).
+
+Column: number_of_reviews
+1. Distribution Variance: Frequency range is 17 to 381.
+2. Sequencing & Format: Inferred data type is 'String'. Contains 381 missing entries.
+3. Domain Cardinality: 29 distinct choices out of 860 rows (Cardinality Ratio: 3.37%).
+

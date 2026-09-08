@@ -95,8 +95,10 @@
       "submissionLocation": "Blackboard",
       "points": null,
       "estimatedHours": "3-4 hours",
-      "status": "Assigned",
-      "submitted": false,
+      "status": "Submitted",
+      "submitted": true,
+      "submittedDate": "2026-09-07",
+      "submittedTime": "10:04 PM PDT",
       "grade": "Not graded",
       "url": "classes/principles-of-iq/w02/data-analysis.html"
     },
