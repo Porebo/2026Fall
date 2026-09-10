@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
   color: #1f2933;
-  background: #f5f7fa;
+  background: #c7cdd2;
 }
 
 a {
@@ -26,7 +26,7 @@ a {
   z-index: 200;
   margin: -1.25rem -1.5rem 1.25rem;
   padding: 0.85rem 1.5rem 0.75rem;
-  background: rgba(245, 247, 250, 0.96);
+  background: rgba(199, 205, 210, 0.96);
   border-bottom: 1px solid #d9e2ec;
   box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
   backdrop-filter: blur(8px);
@@ -48,6 +48,7 @@ a {
 
 .class-content {
   min-width: 0;
+  line-height: 1.0;
 }
 
 .lecture-channel {
@@ -231,7 +232,7 @@ a.lecture-channel__day:focus-visible {
 .hero,
 .card,
 .meeting-nav {
-  background: #fff;
+  background: #dfe3e6;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
   padding: 1.5rem;
@@ -288,6 +289,11 @@ a.lecture-channel__day:focus-visible {
 
 .class-content > .card {
   margin-top: 1.5rem;
+}
+
+.class-content > .hero p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .class-dashboard {

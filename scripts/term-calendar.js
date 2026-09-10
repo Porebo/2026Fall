@@ -486,6 +486,10 @@
     return "Unknown";
   }
 
+  function getWorkTypeLabel(deadline) {
+    return deadline.workType === "soft" ? "Soft" : "Hard";
+  }
+
   function getGradeLabel(deadline) {
     return deadline.grade || "Not graded";
   }
@@ -567,6 +571,18 @@
     return values;
   }
 
+  function getAssignmentFilterValues(rows, key) {
+    var values = getUniqueValues(rows, key);
+    if (key === "status") {
+      ["Assigned", "In Progress", "Completed"].forEach(function (status) {
+        if (values.indexOf(status) === -1) {
+          values.push(status);
+        }
+      });
+    }
+    return values;
+  }
+
   function appendAssignmentCell(row, label, value, linkUrl, asHeader, description) {
     var cell = document.createElement(asHeader ? "th" : "td");
     if (asHeader) {
@@ -613,6 +629,7 @@
           description: deadline.description || "No preview listed.",
           assigned: deadline.assignedDate ? formatAssignmentDate(parseDate(deadline.assignedDate)) : "Unknown",
           due: getDueLabel(deadline),
+          workType: getWorkTypeLabel(deadline),
           status: getStatusLabel(deadline),
           grade: getGradeLabel(deadline),
           blackboardUrl: deadline.blackboardUrl,
@@ -641,7 +658,7 @@
 
     var caption = document.createElement("caption");
     caption.className = "sr-only";
-    caption.textContent = options.includeCourse ? "Homework assignments for all classes" : "Homework assignments for this class";
+    caption.textContent = options.includeCourse ? "Course work assignments for all classes" : "Course work assignments for this class";
     table.appendChild(caption);
 
     var thead = document.createElement("thead");
@@ -656,10 +673,11 @@
     }
 
     columns = columns.concat([
-      ["number", "HW #"],
+      ["number", "Item #"],
       ["name", "Name"],
       ["assigned", "Assigned"],
       ["due", "Due"],
+      ["workType", "Category"],
       ["status", "Status"],
       ["grade", "Grade"]
     ]);
@@ -668,7 +686,7 @@
       var header = document.createElement("th");
       header.scope = "col";
       filters[column[0]] = "";
-      var filterSelect = addAssignmentFilter(header, column[1], column[0], getUniqueValues(rows, column[0]), filters, tableBody);
+      var filterSelect = addAssignmentFilter(header, column[1], column[0], getAssignmentFilterValues(rows, column[0]), filters, tableBody);
       filterSelects.push(filterSelect);
       headerRow.appendChild(header);
     });
@@ -695,10 +713,11 @@
       if (options.includeCourse) {
         appendAssignmentCell(row, "Class", assignment.course);
       }
-      appendAssignmentCell(row, "HW #", assignment.number, assignment.url, true);
+      appendAssignmentCell(row, "Item #", assignment.number, assignment.url, true);
       appendAssignmentCell(row, "Name", assignment.name, assignment.url, false, assignment.description);
       appendAssignmentCell(row, "Assigned", assignment.assigned);
       appendAssignmentCell(row, "Due", assignment.due);
+      appendAssignmentCell(row, "Category", assignment.workType);
       appendAssignmentCell(row, "Status", assignment.status);
       appendAssignmentCell(row, "Grade", assignment.grade);
       tableBody.appendChild(row);

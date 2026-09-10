@@ -6,12 +6,20 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "deadlines.json"
 VALID_TYPES = {"homework", "exam", "admin", "event"}
-HOMEWORK_REQUIRED_FIELDS = [
+HARD_HOMEWORK_REQUIRED_FIELDS = [
     "assignmentNumber",
     "assignmentName",
     "assignedDate",
     "description",
     "submissionLocation",
+    "status",
+    "grade",
+]
+SOFT_HOMEWORK_REQUIRED_FIELDS = [
+    "assignmentNumber",
+    "assignmentName",
+    "assignedDate",
+    "description",
     "status",
     "grade",
 ]
@@ -54,7 +62,8 @@ def validate_deadline(deadline, courses, failures):
         failures.append(f"{label}: course '{course_key}' is not listed in courses")
 
     if deadline_type == "homework":
-        for field_name in HOMEWORK_REQUIRED_FIELDS:
+        required_fields = SOFT_HOMEWORK_REQUIRED_FIELDS if deadline.get("workType") == "soft" else HARD_HOMEWORK_REQUIRED_FIELDS
+        for field_name in required_fields:
             require_field(deadline, field_name, label, failures)
 
     check_local_url(label, deadline.get("url"), failures)
