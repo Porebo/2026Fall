@@ -40,7 +40,7 @@
       "estimatedHours": "2-3 hours",
       "status": "Submitted",
       "submitted": true,
-      "grade": "Not graded",
+      "grade": "5/5",
       "url": "classes/research-methods/w01/how01.html"
     },
     {
@@ -59,8 +59,10 @@
       "blackboardUrl": "https://blackboard.ualr.edu/ultra/courses/_294361_1/assessment/_5994353_1/attempt/create?courseId=_294361_1",
       "points": 5,
       "estimatedHours": "3-5 hours",
-      "status": "Pending",
-      "submitted": false,
+      "status": "Submitted",
+      "submitted": true,
+      "submittedDate": "2026-09-13",
+      "submittedTime": "11:21 PM PDT",
       "grade": "Not graded",
       "url": "classes/research-methods/w02/defining-a-problem.html"
     },
@@ -195,7 +197,7 @@
       "estimatedHours": "1-2 hours",
       "status": "Submitted",
       "submitted": true,
-      "grade": "Not graded",
+      "grade": "100/100",
       "url": "classes/principles-of-iq/w01/how01.html"
     },
     {
@@ -217,8 +219,24 @@
       "submitted": true,
       "submittedDate": "2026-09-07",
       "submittedTime": "10:04 PM PDT",
-      "grade": "Not graded",
+      "grade": "100/100",
       "url": "classes/principles-of-iq/w02/data-analysis.html"
+    },
+    {
+      "id": "iq-hw03",
+      "date": "2026-09-17",
+      "course": "principles-of-iq",
+      "type": "homework",
+      "title": "Define Data Requirement",
+      "assignmentNumber": "HW03",
+      "assignmentName": "Define Data Requirement",
+      "description": "Define the data requirements for the next Principles of IQ assignment.",
+      "submissionLocation": "Blackboard",
+      "points": null,
+      "status": "Unopened",
+      "submitted": false,
+      "grade": "Not graded",
+      "url": "classes/principles-of-iq/w03/define-data-requirement.html"
     },
     {
       "id": "iq-labor-day",
