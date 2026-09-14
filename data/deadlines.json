@@ -225,6 +225,7 @@
     {
       "id": "iq-hw03",
       "date": "2026-09-17",
+      "assignedDate": "2026-09-10",
       "course": "principles-of-iq",
       "type": "homework",
       "title": "Define Data Requirement",
