@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Important Payment Dates</title>
+  <style>
+    :root {
+      --ink: #20262d;
+      --navy: #17365d;
+      --blue: #2f75b5;
+      --pale-blue: #eaf2f8;
+      --border: #c9d2d9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #eef1f4;
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.5;
+    }
+    main {
+      max-width: 760px;
+      margin: 48px auto;
+      padding: 36px 42px;
+      background: #fff;
+      border: 1px solid var(--border);
+    }
+    h1 { margin-top: 0; color: var(--navy); }
+    table { width: 100%; border-collapse: collapse; margin-top: 24px; }
+    th, td { padding: 12px 14px; border: 1px solid var(--border); text-align: left; }
+    th { background: var(--navy); color: #fff; }
+    tbody tr { background: var(--pale-blue); }
+    .amount { color: var(--navy); font-weight: 700; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Important Payment Dates</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Account</th>
+        <th>Payment date</th>
+        <th>Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Lowe's</td>
+        <td>October 3, 2026</td>
+        <td class="amount">$39.20</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+</body>
+</html>
