@@ -62,6 +62,17 @@ Research Methods also uses `data/research-methods-lectures.json` to render the m
 
 Principles of IQ uses `data/principles-of-iq-lectures.json` with the same shared `scripts/lecture-channel.js` calendar component.
 
+## Personal accounting ledger
+
+The account ledger at `classes/master-thesis/jarvis/paymentsImportanDates.html` is backed by `data/accounts.json` and rendered by `scripts/accounting.js`. Keep financial updates in the JSON source rather than editing the dashboard tables directly:
+
+- `chartOfAccounts` defines account codes, types, and normal balances.
+- `journalEntries` records balanced debit and credit lines for daily activity.
+- `transactions` keeps the user-facing payment history tied to an account.
+- The dashboard derives posted ledger activity and an activity-only trial balance from the journal entries.
+
+Opening balances are not entered yet, so the trial balance currently checks that journal activity balances; it is not a complete financial statement.
+
 ## Courses
 
 | Course | Folder | Home page |
