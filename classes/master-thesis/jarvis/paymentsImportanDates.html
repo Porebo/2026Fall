@@ -3,57 +3,188 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Important Payment Dates</title>
+  <title>Account Ledger</title>
+  <link rel="stylesheet" href="../../../styles.css">
   <style>
-    :root {
-      --ink: #20262d;
-      --navy: #17365d;
-      --blue: #2f75b5;
-      --pale-blue: #eaf2f8;
-      --border: #c9d2d9;
+    .accounting-page { max-width: 1180px; }
+    .accounting-meta { color: #52606d; font-size: 0.92rem; }
+    .accounting-summary { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 1.5rem 0; }
+    .accounting-stat { background: #fff; border: 1px solid #d9e2ec; border-radius: 10px; padding: 1.1rem 1.25rem; }
+    .accounting-stat__label { color: #52606d; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+    .accounting-stat__value { color: #17365d; font-size: 1.55rem; font-weight: 700; margin-top: 0.35rem; }
+    .accounting-section { margin-top: 1.5rem; }
+    .accounting-section h2 { margin-bottom: 0.35rem; }
+    .accounting-table-wrap { overflow-x: auto; }
+    .accounting-table { width: 100%; min-width: 880px; border-collapse: collapse; }
+    .accounting-table th, .accounting-table td { padding: 0.75rem; border-bottom: 1px solid #d9e2ec; text-align: left; vertical-align: top; }
+    .accounting-table th { background: #eef5fb; color: #334e68; font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; }
+    .accounting-table tbody tr:nth-child(even) { background: #f8fafc; }
+    .accounting-table .amount { color: #17365d; font-weight: 700; white-space: nowrap; }
+    .accounting-note { background: #eef5fb; border-left: 4px solid #2f75b5; color: #334e68; padding: 1rem 1.25rem; }
+    .trial-status { color: #1a7f37; font-weight: 700; }
+    .status { font-size: 0.82rem; font-weight: 700; }
+    .status--paid { color: #1a7f37; }
+    .status--open { color: #9a6700; }
+    .accounting-error { background: #fff4f2; border-left: 4px solid #b42318; color: #8a1c13; padding: 1rem; }
+    @media (max-width: 760px) {
+      .accounting-summary { grid-template-columns: repeat(2, 1fr); }
     }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: #eef1f4;
-      color: var(--ink);
-      font-family: "Segoe UI", Arial, sans-serif;
-      line-height: 1.5;
-    }
-    main {
-      max-width: 760px;
-      margin: 48px auto;
-      padding: 36px 42px;
-      background: #fff;
-      border: 1px solid var(--border);
-    }
-    h1 { margin-top: 0; color: var(--navy); }
-    table { width: 100%; border-collapse: collapse; margin-top: 24px; }
-    th, td { padding: 12px 14px; border: 1px solid var(--border); text-align: left; }
-    th { background: var(--navy); color: #fff; }
-    tbody tr { background: var(--pale-blue); }
-    .amount { color: var(--navy); font-weight: 700; }
   </style>
 </head>
 <body>
-<main>
-  <h1>Important Payment Dates</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Account</th>
-        <th>Payment date</th>
-        <th>Amount</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Lowe's</td>
-        <td>October 3, 2026</td>
-        <td class="amount">$39.20</td>
-      </tr>
-    </tbody>
-  </table>
-</main>
+  <main class="page accounting-page">
+    <nav class="breadcrumb"><a href="../../../index.html">Home</a> / <a href="../home-master-thesis.html">Master Thesis</a> / Account Ledger</nav>
+
+    <header class="hero">
+      <p class="eyebrow">Personal Finance</p>
+      <h1>Account Ledger</h1>
+      <p class="lede">Track statement obligations, payments, and recorded balances in one place.</p>
+      <p class="accounting-meta">Data as of <strong id="as-of">Loading...</strong></p>
+    </header>
+
+    <div id="accounting-error" class="accounting-error" hidden></div>
+
+    <section class="accounting-summary" aria-label="Account summary">
+      <article class="accounting-stat">
+        <div class="accounting-stat__label">Accounts</div>
+        <div class="accounting-stat__value" id="account-count">-</div>
+      </article>
+      <article class="accounting-stat">
+        <div class="accounting-stat__label">Minimums due</div>
+        <div class="accounting-stat__value" id="minimum-due-total">-</div>
+      </article>
+      <article class="accounting-stat">
+        <div class="accounting-stat__label">Recorded balances</div>
+        <div class="accounting-stat__value" id="balance-total">-</div>
+      </article>
+      <article class="accounting-stat">
+        <div class="accounting-stat__label">Payments recorded</div>
+        <div class="accounting-stat__value" id="paid-total">-</div>
+      </article>
+    </section>
+
+    <section class="card accounting-section" aria-labelledby="accounts-heading">
+      <p class="eyebrow">Accounts</p>
+      <h2 id="accounts-heading">Upcoming obligations</h2>
+      <p class="accounting-meta">Balances are recorded values from the available statements and payment updates.</p>
+      <div class="accounting-table-wrap">
+        <table class="accounting-table">
+          <thead>
+            <tr>
+              <th>Bank</th>
+              <th>Account</th>
+              <th>Due date</th>
+              <th>Minimum due</th>
+              <th>Balance</th>
+              <th>Payment completed</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="account-rows">
+            <tr><td colspan="7">Loading accounts...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card accounting-section" aria-labelledby="transactions-heading">
+      <p class="eyebrow">Transactions</p>
+      <h2 id="transactions-heading">Payment history</h2>
+      <div class="accounting-table-wrap">
+        <table class="accounting-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Account</th>
+              <th>Description</th>
+              <th>Amount</th>
+              <th>Balance after</th>
+            </tr>
+          </thead>
+          <tbody id="transaction-rows">
+            <tr><td colspan="5">Loading transactions...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card accounting-section" aria-labelledby="journal-heading">
+      <p class="eyebrow">General Journal</p>
+      <h2 id="journal-heading">Daily activity</h2>
+      <p class="accounting-meta">Each transaction is recorded as balanced debit and credit lines before posting.</p>
+      <div class="accounting-table-wrap">
+        <table class="accounting-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Account</th>
+              <th>Debit</th>
+              <th>Credit</th>
+            </tr>
+          </thead>
+          <tbody id="journal-rows">
+            <tr><td colspan="5">Loading journal...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card accounting-section" aria-labelledby="ledger-heading">
+      <p class="eyebrow">General Ledger</p>
+      <h2 id="ledger-heading">Posted account activity</h2>
+      <p class="accounting-meta">This is the posting layer between the journal and the trial balance.</p>
+      <div class="accounting-table-wrap">
+        <table class="accounting-table">
+          <thead>
+            <tr>
+              <th>Code</th>
+              <th>Account</th>
+              <th>Type</th>
+              <th>Debits posted</th>
+              <th>Credits posted</th>
+              <th>Net activity</th>
+            </tr>
+          </thead>
+          <tbody id="ledger-rows">
+            <tr><td colspan="6">Loading ledger...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card accounting-section" aria-labelledby="trial-balance-heading">
+      <p class="eyebrow">Trial Balance</p>
+      <h2 id="trial-balance-heading">Activity trial balance</h2>
+      <p class="accounting-note">This first trial balance reflects journal activity only. Opening balances are not entered yet, so it is not a complete statement of financial position.</p>
+      <div class="accounting-table-wrap">
+        <table class="accounting-table">
+          <thead>
+            <tr>
+              <th>Code</th>
+              <th>Account</th>
+              <th>Debit balance</th>
+              <th>Credit balance</th>
+            </tr>
+          </thead>
+          <tbody id="trial-balance-rows">
+            <tr><td colspan="4">Loading trial balance...</td></tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th colspan="2">Totals <span id="trial-balance-status" class="trial-status"></span></th>
+              <th id="trial-balance-debits" class="amount">-</th>
+              <th id="trial-balance-credits" class="amount">-</th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="../../../scripts/site-nav.js"></script>
+  <script>
+    window.ACCOUNTING_CONFIG = { dataUrl: "../../../data/accounts.json" };
+  </script>
+  <script src="../../../scripts/accounting.js"></script>
 </body>
 </html>
