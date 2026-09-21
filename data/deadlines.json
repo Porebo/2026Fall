@@ -67,6 +67,26 @@
       "url": "classes/research-methods/w02/defining-a-problem.html"
     },
     {
+      "id": "rm-hw03",
+      "date": "2026-09-21",
+      "timeDisplay": "9:59 PM PDT",
+      "course": "research-methods",
+      "type": "homework",
+      "workType": "hard",
+      "title": "Literature Review Assignment",
+      "assignmentNumber": "HW03",
+      "assignmentName": "Literature Review",
+      "assignedDate": "2026-09-08",
+      "description": "Answer five questions about the assigned systematic review of how educators are teaching AI in K-12 education.",
+      "submissionLocation": "Blackboard",
+      "blackboardUrl": "https://blackboard.ualr.edu/ultra/courses/_294361_1/assessment/_5994364_1/attempt/create?courseId=_294361_1",
+      "points": 5,
+      "estimatedHours": "2-3 hours",
+      "status": "Not started",
+      "submitted": false,
+      "url": "classes/research-methods/w03/literature-review.html"
+    },
+    {
       "id": "rm-read-w01-kumar",
       "date": "2026-08-31",
       "timeDisplay": "4:00 PM PDT",
