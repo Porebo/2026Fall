@@ -82,9 +82,12 @@
       "blackboardUrl": "https://blackboard.ualr.edu/ultra/courses/_294361_1/assessment/_5994364_1/attempt/create?courseId=_294361_1",
       "points": 5,
       "estimatedHours": "2-3 hours",
-      "status": "Not started",
-      "submitted": false,
-      "url": "classes/research-methods/w03/homework-03-instructions.html"
+      "status": "Submitted",
+      "submitted": true,
+      "submittedDate": "2026-09-21",
+      "submittedTime": "1:58 PM PDT",
+      "url": "classes/research-methods/w03/homework-03-instructions.html",
+      "grade": "Not graded"
     },
     {
       "id": "rm-read-w01-kumar",

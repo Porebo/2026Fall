@@ -1,0 +1,2226 @@
+
+===== PAGE 1 =====
+Contents lists available at ScienceDirect
+Natural Language Processing Journal
+journal homepage: www.elsevier.com/locate/nlp
+Hallucination detection, veriﬁcation, and correction in generative AI: A 
+comprehensive survey
+Syed Muhammad Waqas
+ a,b, Ziyan Umer a, Aﬀan Alim a,b, Muhammad Arham a, 
+Mazliham Mohd Su’udb,∗, Syed Jafar Ali Kazmi a, Muhammad Mansoor Alam c
+a Faculty of Engineering Science and Technology, IQRA University, Karachi, Pakistan
+b Faculty of Computing and Informatics, Multimedia University, Cyberjaya, Malaysia
+c Faculty of Computing, Riphah International University, Islamabad, Pakistan
+a r t i c l e  i n f o
+Keywords:
+AI hallucination detection
+Retrieval-augmented generation
+Automated fact-checking
+Cross-model veriﬁcation
+Trustworthy AI
+Misinformation detection
+ a b s t r a c t
+The rapid adoption of large language models (LLMs) and generative artiﬁcial intelligence (AI) systems has 
+brought AI hallucinations to the forefront of contemporary natural language processing research. AI hallucina-
+tions refer to statements made by the system which are either factually incorrect, illogical, or not substantiated by 
+any credible sources but sound coherent and ﬂuent on the face of it. These behaviors raise serious problems when 
+using AI in high-stakes applications such as medicine, teaching, legal matters, ﬁnance, or science, where accurate 
+facts are required. The present survey aims to provide an extensive overview of current techniques employed 
+to detect, verify, mitigate, or correct hallucinations in generative AI models. Initially, we provide a taxonomy 
+of diﬀerent types of AI hallucinations. Subsequently, we examine major detection and veriﬁcation paradigms, 
+including retrieval-augmented generation (RAG), factuality evaluation metrics, automated fact-checking, natu-
+ral language inference (NLI), knowledge-grounded reasoning, multi-model veriﬁcation, and self-reﬂection-based 
+approaches. The survey further reviews widely used benchmark datasets, evaluation frameworks, and emerging 
+multi-layer veriﬁcation architectures for improving AI trustworthiness. In addition, enabling technologies such 
+as transformer-based language models, dense retrieval systems, knowledge graphs, credibility assessment mech-
+anisms, and truth-scoring frameworks are analyzed from the perspective of reliable content veriﬁcation. Lastly, 
+we highlight important limitations of existing approaches along with potential future research directions, such 
+as scaling veriﬁcation, multilingual reasoning, real-time veriﬁcation, and privacy-enhanced trusted artiﬁcial in-
+telligence systems. In summary, this survey oﬀers a comprehensive guide to researchers and developers aiming 
+to design reliable, interpretable, and trustworthy generative AI models.
+1.  Introduction
+The advent of large language models (LLMs) has profoundly trans-
+formed how humans acquire, analyze, and convey information. While 
+AI text generation stems from rule based NLP systems, the transformer 
+model by Vaswani et al. (2017) enabled modern systems like GPT 
+4 (Achiam et al., 2023) and LLaMA 2 (Touvron et al., 2023) to pro-
+duce authoritative text indistinguishable from human writing. However, 
+a severe failure mode is hallucination, where a system generates gram-
+matically ﬂawless text that is factually incorrect, logically inconsistent, 
+or temporally implausible (Huang et al., 2025a; Tonmoy et al., 2024). 
+Crucially, contemporary LLMs present hallucinations as conﬁdently as 
+veriﬁed facts (Anh-Hoang et al., 2025; Pesaranghader and Li, 2026). The 
+∗ Corresponding author.
+ E-mail addresses: muhammad.waqas01@iqra.edu.pk, syed.muhammad.waqas@student.mmu.edu.my (S.M. Waqas), muhammad.15783.ac@iqra.edu.pk (Z. 
+Umer), aﬀan.alim@mmu.edu.my, dr.aﬀan@iqra.edu.pk (A. Alim), muhammad.16116.ac@iqra.edu.pk (M. Arham), mazliham@mmu.edu.my (M.M. Su’ud), 
+syed.15713.ac@iqra.edu.pk (S.J. Ali Kazmi), m.mansoor@riphah.edu.pk (M.M. Alam).
+consequences are severe: false clinical guidelines harm patient health, 
+legal professionals cite non existent rulings, and erroneous data erodes 
+scientiﬁc credibility. Ultimately, misinformation diminishes trust in sci-
+ence, journalism, and democratic institutions (Broda and Strömbäck, 
+2024; Tomassi et al., 2025), making AI reliability a critical social issue.
+Extensive literature addresses veriﬁcation aspects, including halluci-
+nation taxonomy, retrieval-augmented generation (RAG) (Lewis et al., 
+2020; Shuster et al., 2021), factuality metrics (Min et al., 2023b; Fab-
+bri et al., 2022; Durmus et al., 2020), fact checking (Guo et al., 2022; 
+Schlichtkrull et al., 2023), cross-model validation (Adlakha et al., 2024), 
+and trustworthy AI (Amodei et al., 2016; Bommasani et al., 2021; Wei-
+dinger et al., 2021). However, these focus on narrow subsets. RAG re-
+duces but cannot eliminate hallucination (Niu et al., 2024). Factuality 
+https://doi.org/10.1016/j.nlp.2026.100231
+Received 16 June 2026; Received in revised form 10 August 2026; Accepted 23 August 2026
+Natural Language Processing Journal 16 (2026) 100231 
+Available online 25 August 2026 
+2949-7191/© 2026 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). 
+===== PAGE 2 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+metrics like FActScore (Min et al., 2023b), QAFactEval (Fabbri et al., 
+2022), and FEQA (Durmus et al., 2020) gauge consistency but lack 
+full stack implementation. Furthermore, Ramprasad and Wallace (Ram-
+prasad and Wallace, 2024) show that automatic scores overestimate 
+LLM performance in speciﬁc domains. Consequently, a cohesive and 
+model-agnostic framework for text veriﬁcation remains unsurveyed. 
+This paper ﬁlls that gap.
+1.1.  Motivation and scope
+The rapid proliferation of large language models across high-stakes 
+domains including healthcare, law, education, and scientiﬁc research 
+has exposed a critical and persistent reliability gap: while individual 
+veriﬁcation techniques such as retrieval-augmented generation (Lewis 
+et al., 2020), factuality scoring (Min et al., 2023b), and cross-model val-
+idation (Adlakha et al., 2024) have advanced signiﬁcantly in isolation, 
+no uniﬁed framework has consolidated these fragmented advances into 
+a single, model-agnostic, end-to-end veriﬁcation pipeline. This gap is not 
+merely technical; its consequences are societal. Hallucinated drug inter-
+actions in clinical decision support, fabricated legal citations in judicial 
+proceedings, and invented statistics in scientiﬁc literature represent doc-
+umented failure modes with real-world impact (Beauvais, 2022; Adams 
+et al., 2023). As Broda and Strömbäck (Broda and Strömbäck, 2024) 
+demonstrate through interdisciplinary analysis, the unchecked diﬀusion 
+of AI generated misinformation systematically erodes public trust in sci-
+ence, journalism, and institutional authority.
+Despite extensive research investment, the veriﬁcation landscape re-
+mains fragmented along three dimensions. First, methodological frag-
+mentation: RAG systems (Lewis et al., 2020; Shuster et al., 2021) re-
+duce but do not eliminate hallucination, as RAGTruth (Niu et al., 2024) 
+empirically conﬁrms; factuality metrics such as FActScore (Min et al., 
+2023b), QAFactEval (Fabbri et al., 2022), and FEQA (Durmus et al., 
+2020) measure consistency without providing interactive correction; 
+and cross-model validation (Shami et al., 2026; Adlakha et al., 2024) 
+shows promise without integration into deployable pipelines. Second, 
+taxonomic fragmentation: Huang et al. (2025a) and Pesaranghader and 
+Li (2026) identify four distinct hallucination categories factual, faithful, 
+logical, and temporal yet no existing system addresses all four simulta-
+neously. Third, operational fragmentation: existing solutions are model-
+speciﬁc, non-interpretable, or lack automated correction, limiting their 
+applicability in real-world deployments where model-agnosticism, ex-
+plainability, and actionability are required (Bommasani et al., 2021; 
+Thorne, 2024).
+This survey is motivated by the need to resolve this three-
+dimensional fragmentation. Synthesizing peer-reviewed literature span-
+ning 2016 to 2026 across eight research dimensions hallucination tax-
+onomy and evaluation, retrieval-augmented generation, automated fact-
+checking, NLP foundations, truth scoring and factuality metrics, mis-
+information detection, trustworthy AI frameworks, and cross-model 
+veriﬁcation we provide the ﬁrst comprehensive, structured synthesis 
+of hallucination mitigation research and propose TruthGuard AI as a 
+theoretically-driven concept implementation of the uniﬁed veriﬁcation 
+framework, developed by directly analyzing the observed patterns from 
+the reviewed literature. The TruthGuard AI is considered as a concep-
+tual framework in this literature survey rather than being an empirically 
+tested one; a full empirical analysis including datasets, baselines, imple-
+mentations, and ablation tests is out of the scope of the current literature 
+survey and is noted as an important future direction (Section 9.2). The 
+procedure of search and screening that was performed for this literature 
+survey and its description, including databases, search strings, screening 
+phases, and criteria for inclusion/exclusion, can be found in Section 2.
+The scope of this survey is bounded as follows. We focus exclusively 
+on text-generating LLMs and their hallucination failure modes; multi-
+modal veriﬁcation (Jiang et al., 2024; Kim et al., 2024; Wang et al., 
+2024) is discussed as a future extension but not comprehensively sur-
+veyed. We cover veriﬁcation approaches applicable as post-generation 
+middleware systems that assess and correct LLM outputs without requir-
+ing access to model internals consistent with the model-agnostic deploy-
+ment principle articulated by Bommasani et al. (2021). This model-
+agnostic approach is in reference to model-parameter independence 
+speciﬁcally; the limitations of this independence, considering the fact 
+that veriﬁcation is dependent on the output features of the generat-
+ing model, are explored in Section 7. We restrict our primary empiri-
+cal analysis to English-language systems and general-domain content, 
+while identifying multilingual and domain-speciﬁc extension as a pri-
+ority future direction (Panchendrarajan and Zubiaga, 2026; Panchen-
+drarajan et al., 2025). The survey covers literature from 2016, the year 
+of the foundational AI safety framework of Amodei et al. (2016), through 
+2026, encompassing the most recent advances in LLM-based veriﬁcation 
+research.
+1.2.  Contributions of this paper
+There are numerous existing works that discuss individual aspects 
+of hallucination detection (Huang et al., 2025a; Tonmoy et al., 2024; 
+Pesaranghader and Li, 2026), factuality evaluation (Min et al., 2023b; 
+Ramprasad and Wallace, 2024; Malin et al., 2025), and retrieval-
+augmented generation (Gupta et al., 2024; Gao et al., 2023b). How-
+ever, while there is much existing literature, no survey has yet been 
+conducted that considers the above topics in terms of hallucination tax-
+onomy, architecture for multi-layered veriﬁcation, supporting technolo-
+gies, application scenarios, and open challenges. Table 1 provides an 
+overview of important surveys related to hallucination studies and as-
+pects covered by these surveys.The H/M/L coverage ratings provided for 
+Table 1, and subsequently for Table 5 introduced later in this survey, in-
+dicate a consistent qualitative scoring approach uniformly applied to all 
+surveys under investigation: a dimension is considered as having High
+coverage if the cited survey features a separate section or subsection 
+that provides some technical consideration of the dimension under ex-
+amination (e.g., describes methods, architectures, or evaluation results 
+relating to it); Medium coverage if the dimension is covered as a sub-
+topic within a broader category without any technical discussion (e.g., 
+brieﬂy touched upon within a relevant section, without any particular 
+consideration devoted to it), and Low coverage if there are isolated ref-
+erences to the dimension without any integration. This methodology is 
+carried out manually on the basis of a review of the table of contents 
+and body of text of each cited survey; it does not rely on a quantitative 
+analysis of citations or inter-rater reliability analysis, and this constraint 
+is recognized in Section 9.3. Based on the above, the key contributions 
+of this survey can be listed as follows.
+• Firstly, we provide a hierarchical taxonomy for diﬀerent categories 
+of hallucinations reported in recent literature, which includes var-
+ious deﬁnitions proposed by researchers, along with their causes, 
+forms, and diﬃculties  in detecting them.
+• A review of the current approaches for hallucination detection is pre-
+sented in this work. These methods include retrieval-augmented gen-
+eration, factuality measures, automatic fact checking, natural lan-
+guage inference, multi-model veriﬁcation, and techniques of self-
+reﬂection.
+• This paper analyzes the technologies that allow for the development 
+of hallucination veriﬁcation systems such as transformers, dense re-
+trieval, knowledge graphs, credibility scoring, and truth scoring tech-
+niques.
+• The review will examine the major areas where the use of halluci-
+nation detection technologies is of paramount importance, including 
+the healthcare sector, law, science, education, and information sys-
+tems.
+• The review will conduct a comparative study of existing veriﬁcation 
+tools, highlight the common weaknesses and deﬁciencies, and com-
+pile lessons learned from which future studies can beneﬁt.
+Natural Language Processing Journal 16 (2026) 100231 
+2 
+===== PAGE 3 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+Table 1 
+Summary of representative surveys on hallucination detection and related domains. Coverage levels: H = High, M = Medium, L = Low, NA = Not Applicable. 
+Rating criteria are deﬁned in Section 1, paragraph preceding this table.
+ Reference  Halluci. Tax.  RAG  Fact Check.  NLP Found.  Truth Score  Misinfo.  Cross-Model  Remarks
+Huang et al. (2025a)  H  L  L  M  M  L  M  Comprehensive hallucination taxonomy; ACM TOIS
+Tonmoy et al. (2024)  H  M  M  M  L  L  M  Surveys 20+ mitigation strategies
+ Guo et al. (2022)  L  L  H  L  L  L  L  Canonical 3-stage fact-checking pipeline
+Min et al. (2023b)  M  L  M  M  H  L  L  FActScore atomic factuality evaluation
+Malin et al. (2025)  M  L  M  M  H  L  M  Faithfulness metrics review; IEEE JTSP
+Bommasani et al. (2021)  L  L  L  M  L  M  H  Foundation model risks; societal implications
+Adlakha et al. (2024)  M  L  M  M  M  L  L  Cross-model evaluation; correctness/faithfulness
+Pesaranghader and Li (2026)  H  M  M  M  M  M  M  Four-category hallucination detection taxonomy
+ This survey  H  H  H  H  H  H  H  Comprehensive multi-dimension survey, 2016–2026
+• We identify some open problems and avenues for future work related 
+to scaling, domain adaptation, multilingualism, real-time validation, 
+and privacy-preserving systems in the development of trustworthy 
+artiﬁcial intelligence.
+1.3.  Paper organization
+The rest of this survey paper is structured as follows. The systematic 
+review methodology adopted to identify, screen, and select the literature 
+synthesized in this survey is described in Section 2. Deﬁnitions and back-
+ground information on AI hallucinations, fact veriﬁcation, trustworthy 
+AI, and reliability testing will be covered in Section 3. State-of-the-art 
+literature on hallucination detection and correction will be reviewed in 
+Section 4. Applications where hallucination detection is crucial will be 
+discussed in Section 5. Enabling technologies used for the veriﬁcation 
+process will be covered in Section 6. Comparative analysis of diﬀerent 
+approaches is provided in Section 7. Open problems in the area are ad-
+dressed in Section 8. Lessons learned and possible research directions 
+are provided in Section 9. This survey ends with conclusions
+2.  Review methodology
+The transparency and reproducibility of the literature synthesis con-
+ducted in this survey require that the systematic process of identiﬁca-
+tion, screening, and selection of the studies discussed in Sections 3–9 be 
+reported, following the staged process represented in Fig. 1.
+2.1.  Preliminary investigation
+This is where the systematic literature synthesis presented in this sur-
+vey took its start. A preliminary investigation was made ﬁrst in order to 
+gain clarity on the scope of the search and focus the scope of the review 
+before the systematic screening. The preliminary search was conducted 
+using Google Scholar with the key search term phrase “hallucination 
+detection generative AI”, as well as two or more additional terms di-
+rectly related to it, for example, “factuality”, “retrieval-augmented gen-
+eration”, and “fact-checking”.
+After ﬁnding an initial set of relevant papers, additional keywords 
+were identiﬁed based on their abstracts, and the bibliographic databases 
+likely to index the target literature were found. Thereafter, the search 
+was extended to ﬁve bibliographic databases – Scopus, Web of Science, 
+IEEE Xplore, the ACM Digital Library, and the ACL Anthology – com-
+plemented with searches on arXiv and citation chaining using Google 
+Scholar for recent preprints not yet indexed elsewhere. Search dates 
+were limited to January 2016 – the date of publication of the seminal 
+AI safety framework paper by Amodei et al. (2016) – through 30 June 
+2026.
+Search queries were built using Boolean operators and consisted of 
+three concept groups, for example: (“hallucination” OR “factuality” OR 
+“factual consistency”) AND (“large language model” OR “LLM” OR “gen-
+erative AI” OR “natural language generation”) AND (“detection” OR 
+“veriﬁcation” OR “fact-checking” OR “retrieval-augmented generation” 
+OR “mitigation” OR “correction”), adapted to the ﬁeld tagging and trun-
+cation features of each database.
+2.2.  Conducting research
+Database search was chosen as the primary search strategy due to the 
+sheer number of papers and speed of publication in this domain mak-
+ing it impossible to rely solely on manual searching; citation chaining 
+using Google Scholar supplemented the structured searches with recent 
+preprints not yet indexed elsewhere. The following inclusion and exclu-
+sion criteria were used uniformly in screening all the records found in 
+the database searches conducted according to Section 2.1.
+Inclusion: The records were included if they (i) were peer-reviewed 
+journal articles, peer-reviewed conference papers, or oﬃcial  
+technical/model reports from major AI laboratories; (ii) were 
+written in English; (iii) were directly addressing hallucination 
+detection, veriﬁcation, mitigation, or correction in generative AI 
+or large language models, or were directly addressing a founda-
+tional NLP, retrieval, or evaluation technique that the surveyed 
+hallucination literature relied upon; and (iv) were published be-
+tween January 2016 and the search cut-oﬀ date.
+Exclusion: The records were excluded if they were (i) non-peer-
+reviewed blog posts, preprints without a peer-reviewed or oﬃ-
+cially released technical report, or opinion pieces; (ii) duplicates 
+across databases; (iii) studies where the full text could not be ac-
+cessed; or (iv) studies unrelated to text-generating LLMs or to the 
+technologies, application domains, and evaluation frameworks 
+covered in this survey.
+Screening was carried out in two steps: (1) title-and-abstract screen-
+ing against the criteria above, followed by (2) full-text screening of 
+the screened-out records. Diﬀerences in screening decisions were solved 
+through discussion within the author team until reaching agreement.
+2.3.  Examining publications
+Examining publications for their relevance was a two-step process. 
+First, an initial pool of approximately 600 candidate records was identi-
+ﬁed in the database and citation chaining searches performed according 
+to Section 2.1. Second, the relevant records were examined and selected 
+as those signiﬁcant in relation to the research aims: title-and-abstract 
+screening against the inclusion and exclusion criteria of Section 2.2 re-
+duced the initial pool to approximately 300 records selected for full-
+text screening. In relation to their relevance, the record was selected 
+in the review only if the topic of hallucination detection, veriﬁcation, 
+mitigation, or correction was the central methodological focus of this 
+paper, or if the paper addressed a foundational NLP, retrieval, or eval-
+uation technique that the surveyed hallucination literature relied upon. 
+Speciﬁcally, the record was retained if it (i) presented a new method of 
+Natural Language Processing Journal 16 (2026) 100231 
+3 
+===== PAGE 4 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+Fig. 1. Systematic process followed to identify, screen, and select the literature synthesized in this survey.
+hallucination detection, veriﬁcation, or correction; (ii) proposed a new 
+extension or a new variant of an existing veriﬁcation approach, for ex-
+ample, RAG, NLI entailment scoring, knowledge graph validation, or 
+automated fact-checking; (iii) performed a comparative study involv-
+ing one or more hallucination veriﬁcation systems; or (iv) presented a 
+foundational NLP, retrieval, or evaluation technique underlying the sur-
+veyed literature. The record was excluded if it mentioned hallucination 
+or factuality superﬁcially, but had no methodological contribution to 
+make in relation to it. The result of full-text screening against the inclu-
+sion and exclusion criteria of Section 2.2 was 90 studies, which form the 
+literature synthesized in Sections 3–9 and correspond to the reference 
+list of the manuscript.
+2.4.  Extracting data
+In order to fulﬁll the research aims of this survey, a structured 
+spreadsheet was made to document several attributes of each of the 
+90 retained publications: the reference number, title, authors, publi-
+cation year, publication venue, publication type (journal, conference 
+proceeding, or oﬃcial  technical report), the research dimension ad-
+dressed (one of the eight dimensions introduced in Section 1: halluci-
+nation taxonomy and evaluation, retrieval-augmented generation, au-
+tomated fact-checking, NLP foundations, truth scoring and factuality 
+metrics, misinformation detection, trustworthy AI frameworks, or cross-
+model veriﬁcation), and, if applicable, the pipeline stage(s) addressed 
+(detection, veriﬁcation, mitigation, or correction, as explained in Sec-
+tion 3.3). Within each dimension, studies were synthesized narratively, 
+and comparative tables were made to show the coverage of each di-
+mension across studies (see Section 1.2 for the scoring protocol used in 
+these tables). No formal meta-analysis or risk-of-bias score (e.g., GRADE, 
+Cochrane RoB) was done, being consistent with the qualitative and syn-
+thesis nature of this survey; this is discussed in more detail in Section 9.3. 
+The full list of the studies used in the qualitative synthesis corresponds 
+to the reference list of the manuscript; given the number of entries in 
+this list (less than 100), no separate table of inclusions is provided apart 
+from the qualitative ﬂow of studies selection reported in Section 2.3. 
+consistent with common practice for narrative (as opposed to system-
+atic) surveys of this scope.
+3.  Background and deﬁnitions
+This section reviews the foundational concepts that underpin the hal-
+lucination veriﬁcation literature. Similar to how the development of 
+industrial standards involved agreeing on terminology before the cre-
+ation of technology to enable the application (Huang et al., 2025a), the 
+AI hallucination community has devoted considerable eﬀort to creating 
+precise deﬁnitions. Deﬁnitions for AI hallucinations, fact veriﬁcation, 
+trustworthy AI, and reliability veriﬁcation are discussed from various 
+viewpoints provided by practitioners in the ﬁeld.
+3.1.  AI hallucinations: deﬁnitions and taxonomy
+The concept of hallucination with regard to natural language gener-
+ation can be deﬁned as the generation of something which has no basis 
+or even contradicts what has been provided from knowledge or input 
+sources. Various deﬁnitions have been proposed in the literature.
+Deﬁnition 1. Huang et al. (2025a) describe hallucination as any gen-
+erated text that does not align with real-life facts, contradicts the given 
+context, or is self-inconsistent in its generated output. This classiﬁcation 
+system classiﬁes hallucinations according to three parameters, namely, 
+factuality, faithfulness, and consistency, with the underlying reasons be-
+ing training data errors and attention calibration failure. 
+Deﬁnition 2.  According to  Tonmoy et al. (2024), hallucinations refer 
+to LLMs’ behavior of making false but conﬁdent claims which are either 
+impossible to verify or are contradicted by known information. They 
+classify more than twenty examples of such behavior depending on tasks 
+and models used. 
+Deﬁnition 3.  According to  Pesaranghader and Li (2026), there are 
+four categories of detections fact, faithful, logic, and time hallucination, 
+and each of which needs to be tackled diﬀerently. 
+Deﬁnition 4.  According to  Anh-Hoang et al. (2025), hallucinations 
+can be understood as output varying systematically based on prompting 
+approach but not based on the actual facts, highlighting the impact of 
+how the input is formulated on the rate of hallucinations generated in 
+diﬀerent types of tasks. 
+Based on the above deﬁnitions, it becomes clear that hallucination 
+is a multidimensional concept consisting of, at least, four kinds of er-
+rors: factual hallucination, where an assertion is contradicted by world 
+facts; faithful hallucination, where an assertion is inconsistent with the 
+provided input; logical hallucination, where an assertion contradicts it-
+self; and temporal hallucination, where date information is inaccurate. 
+Table 2 shows a taxonomy of these types of hallucinations along with 
+their deﬁnitions, sample examples, and detection methods.
+Natural Language Processing Journal 16 (2026) 100231 
+4 
+===== PAGE 5 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+Table 2 
+Taxonomy of hallucination types in generative AI, with deﬁnitions, examples, and primary detection approaches documented in recent literature.
+ Type Deﬁnition Example Primary Detection Approach
+ Factual Hallucination Claim contradicted by veriﬁable 
+world knowledge
+Stating a historical ﬁgure was born in the 
+wrong country
+RAG retrieval (Lewis et al., 2020; Asai et al., 
+2023); atomic factuality scoring (Min et al., 
+2023b)
+ Faithful Hallucination Claim inconsistent with provided 
+input context
+Summarizing a document as stating 𝑋
+when it states 𝑌
+NLI entailment scoring (Fabbri et al., 2022; 
+Durmus et al., 2020); faithfulness 
+metrics (Lamsiyah et al., 2025; Malin et al., 
+2025)
+ Logical Hallucination Internally contradictory or 
+self-inconsistent claim
+Asserting an event preceded its own 
+stated preconditions
+Consistency checking (Wang et al., 2020; 
+Song et al., 2025); NLI contradiction 
+scoring (He et al., 2020)
+ Temporal Hallucination Incorrect dates, durations, or 
+chronological ordering
+Claiming a documented event occurred in 
+the wrong year
+Temporal graph validation (Drchal et al., 
+2024); date extraction NER (Devlin et al., 
+2019)
+ Entity Hallucination Invented names, organizations, or 
+products
+Citing a non-existent paper by a real 
+author
+Named entity grounding (Panchendrarajan 
+and Zubiaga, 2026); knowledge graph 
+validation (Shami et al., 2026)
+3.2.  Diﬀerences between hallucination and related terms
+The terms hallucination, misinformation, factual error, and unfaithful 
+generation are often used interchangeably within the literature covered 
+in this survey, but they denote related yet distinct concepts that require 
+diﬀerent approaches to veriﬁcation.
+Hallucination is a property of the generation process where the output 
+of a generative model contains unsupported or contradictory to training 
+knowledge, input, and itself information, regardless of whether it hap-
+pens to be a true claim in the real world. Factual error is a property of a 
+claim – a false claim about veriﬁable knowledge of the real world, unre-
+lated to its source. Misinformation – as addressed in the misinformation 
+detection literature surveyed in Section 4 – is a property of circulating 
+content, regardless of its origin and intent, and includes disinformation, 
+human factual errors, and AI hallucinations, among others. Misinforma-
+tion detection is thus a superset problem that cannot be solved solely 
+with the help of hallucination veriﬁcation techniques. Unfaithful gener-
+ation is, in turn, a property of context-grounded generation tasks such as 
+summarization or RAG: the output is considered unfaithful if it contra-
+dicts the given source or evidence, even if it happens to be a factually 
+correct claim about the world – i.e., a faithful summary can reproduce 
+a factual error from its source without being unfaithful, while an un-
+faithful summary can include a factually correct claim not present in 
+the source. The primary concern of this survey, in accordance with the 
+deﬁnition in Section 1, is hallucination in the former sense (a generation 
+process property), while factual error and unfaithful generation veriﬁ-
+cation serve as operational measures for this property, with the misin-
+formation detection being a related adjacent ﬁeld with useful credibility 
+assessment techniques (Section 3.4).
+3.3.  Detection, veriﬁcation, mitigation, and correction: deﬁnition of 
+pipeline stages
+The terms detection, veriﬁcation, mitigation, and correction are used 
+together in many studies about hallucination, but they correspond to 
+distinct stages of the veriﬁcation process each having a unique goal, 
+input, and output. This survey employs the following explicit deﬁnitions 
+consistently in the remaining part of the paper.
+Detection is an identiﬁcation of the generated content suspected to 
+be a hallucination, but not conﬁrmed or disproven against evidence. De-
+tection usually involves the analysis of internal or external generation 
+process signals, such as model uncertainty, consistency of multiple out-
+puts (Manakul et al., 2023), or consistency with a retrieved passage, and 
+generates a ﬂag or conﬁdence score rather than a deﬁnitive judgement.
+Veriﬁcation is a process of checking of a ﬂagged (or unﬂagged) 
+claim against the evidence and determining if it is supported, refuted, 
+or unveriﬁable. Veriﬁcation extends directly the fact-checking pipeline 
+proposed by Guo et al. (2022) (claim detection, evidence retrieval, ver-
+dict prediction) and performs an evidence-grounded evaluation of the 
+claim, usually with the help of NLI entailment scoring (Fabbri et al., 
+2022; Durmus et al., 2020; He et al., 2020) or knowledge-graph valida-
+tion (Wang et al., 2020; Shami et al., 2026).
+Mitigation refers to the interventions made during or before the gen-
+eration process that reduces the likelihood of hallucinating in the ﬁrst 
+place, rather than checking the content afterwards. RAG (Lewis et al., 
+2020; Asai et al., 2023), instruction tuning with RLHF (Ouyang et al., 
+2022), and DPO-based preference alignment (Rafailov et al., 2023) are 
+examples of mitigation techniques – they lower the base rate of hallu-
+cination but do not prevent hallucination in any particular output (Niu 
+et al., 2024).
+Correction is the post-generation re-writing of the output to elimi-
+nate unsupported claims, once they have been ﬂagged and veriﬁed. The 
+RARR framework (Gao et al., 2023a) exempliﬁes a correction technique 
+that retrieves evidence for or against a generated claim and re-writes it 
+accordingly.
+Table 3 shows how individual techniques covered in this survey are 
+mapped to the pipeline stage(s) they solve, and demonstrates that most 
+of them address one or two of the four stages only, which is the reason 
+for the multi-layer architectures described in Section 7.
+3.4.  Fact veriﬁcation
+Fact-checking, deﬁned as the task of determining whether a certain 
+claim can be substantiated, rejected, or neither based on evidence, has 
+been investigated intensively within the NLP literature before the advent 
+of LLMs. Guo et al. (2022) set up the gold-standard three-step pipeline 
+for automatic fact-checking: detecting claims, retrieving evidence, and 
+making judgment predictions. This pipeline has motivated a number of 
+hallucination veriﬁcation architectures (Schlichtkrull et al., 2023; Putta 
+et al., 2025; Gong et al., 2026).
+Some of the research on extending the fundamental pipeline is as fol-
+lows. Schlichtkrull et al. (2023) created AVerITeC, which is a dataset for 
+real-world claim veriﬁcation through multi-hop web evidence retrieval 
+and sets the benchmark for testing the end-to-end performance of ver-
+iﬁcation systems. Akhtar et al. (2024) propose Ev2r metric for system-
+atically analyzing the quality of evidence used to make verdicts during 
+automated fact-checking. Gong et al. (2026) extend the paradigm by 
+adding multiple sources and agents for evidence retrieval, showing that 
+spreading the retrieval task among agents increases diversity and lowers 
+biases of retrieval processes. Eldifrawi et al. (2024) address the problem 
+of automated justiﬁcation for claims by arguing that fact-checking with-
+out a veriﬁable justiﬁcation has limited practical value.
+The issue of evidential veriﬁcation has also received attention in re-
+lation to source credibility. According to Chrysidis et al. (2024), reliable 
+Natural Language Processing Journal 16 (2026) 100231 
+5 
+===== PAGE 6 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+Table 3 
+Mapping of representative hallucination-related methods discussed in this survey to the detection, veriﬁcation, mitigation, and 
+correction pipeline stages.
+ Method / System  Detection  Veriﬁcation  Mitigation  Correction  Key Reference
+ Standard RAG  3 Lewis et al. (2020)
+ Self-RAG  3  3 Asai et al. (2023)
+ RAGAS  3  3 Es et al. (2024)
+ Three-step fact-checking pipeline  3 Guo et al. (2022)
+ AVerITeC  3 Schlichtkrull et al. (2023)
+ SelfCheckGPT  3 Manakul et al. (2023)
+ RARR  3  3 Gao et al. (2023a)
+ NLI entailment scoring (DeBERTa)  3 He et al. (2020)
+ Knowledge-graph validation  3 Shami et al. (2026)
+ Instruction tuning / RLHF / DPO  3 Ouyang et al. (2022), Rafailov et al. (2023)
+source information, indicating credible, unreliable or leaked evidence, 
+greatly impacts the accuracy of judgement and therefore warrants the 
+consideration of source authority rating as part of veriﬁcation processes. 
+Srba et al. (2026), oﬀer an extensive survey of automatically assessing 
+credibility from textual information in the era of LLMs, providing the 
+necessary theoretical foundation for domain authority rating as part of 
+multi-layer veriﬁcation. Panchendrarajan and Zubiaga (2026), extend 
+claim detection to cross-lingual contexts via entity-based approaches, 
+showing that successful hallucination detection must consider multilin-
+guality.
+Read together, these works reﬂect two complementary rather than 
+competing conceptions of fact veriﬁcation. The ﬁrst, exempliﬁed by 
+Guo et al. (2022) and its extensions (Schlichtkrull et al., 2023; Gong 
+et al., 2026; Akhtar et al., 2024), treats veriﬁcation as a pipeline prob-
+lem: a claim is detected, evidence is retrieved, and a verdict is pre-
+dicted, with recent work reﬁning the quality of each stage (multi-hop 
+retrieval (Schlichtkrull et al., 2023), evidence-quality scoring (Akhtar 
+et al., 2024), multi-agent retrieval (Gong et al., 2026)) or adding a justi-
+ﬁcation requirement (Eldifrawi et al., 2024). The second, exempliﬁed 
+by Chrysidis et al. (2024) and Srba et al. (2026), treats veriﬁcation 
+as a source-credibility problem: the reliability of a verdict depends on 
+the trustworthiness of the evidence source, independent of how that 
+evidence was retrieved. These are not mutually exclusive framings; a 
+source-credibility signal can be incorporated as an additional weighting 
+factor within the verdict-prediction stage of the pipeline view. This sur-
+vey adopts the pipeline view of Guo et al. (2022) as the structural back-
+bone for the veriﬁcation stage deﬁned in Section 3.3, augmented with 
+source-credibility weighting (Chrysidis et al., 2024; Srba et al., 2026) 
+and cross-lingual claim detection (Panchendrarajan and Zubiaga, 2026) 
+as reﬁnements within that pipeline, rather than as a separate competing 
+framework. This adopted framing is used consistently in the compara-
+tive analysis of Section 7.
+3.5.  Trustworthy AI
+The concept of trustworthy AI encompasses reliability, interpretabil-
+ity, fairness, safety, and alignment with human values as fundamental 
+design requirements for AI systems (Amodei et al., 2016; Bommasani 
+et al., 2021; Weidinger et al., 2021). For generative AI speciﬁcally, veri-
+ﬁable hallucination detection is a necessary condition for achieving such 
+trustworthy systems.
+The paper by Bommasani et al. (2021) discusses how foundation 
+models create social-scale propagation of training errors, and therefore 
+calls for external veriﬁcation middleware as a necessary safety layer. 
+Weidinger et al. (2021) consider ethical and social implications of LLMs 
+on several levels of potential harms, including generation of mislead-
+ing content, thus showing the ethical necessity of hallucination miti-
+gation. Thorne Thorne (2024) establishes that interpretability is a key 
+prerequisite for correct user trust estimation, arguing that a single ag-
+gregate score is insuﬃcient  for users to make reasonable decisions on 
+AI-generated content. Jeong et al. (2025) propose a framework for ana-
+lyzing ethics and trustworthiness of generative AI systems based on sev-
+eral critical aspects including factual accuracy, transparency, fairness, 
+and safety.
+Principles on which Amodei et al. (2016) base their work on the 
+topic of AI safety can be applied to the research on hallucination veri-
+ﬁcation since they discuss issues connected to side eﬀects of AI, in case 
+if the system is working under misaligned conﬁdence. Hendrycks et al. 
+(2020) explore more general topic, concerning issues connected to the 
+alignment of AI with common human values, thus, hallucination being 
+one of the problems connected with such an alignment.
+The above perspectives of trustworthy AI can be categorized into 
+three diﬀerent but intersecting framings rather than a single deﬁnition. 
+The societal-risk framing of Bommasani et al. (2021) and Weidinger et al. 
+(2021) sees trustworthiness as an attribute of deployment at scale, focus-
+ing on the risks a foundation model can cause through the propagation 
+of the errors it makes. The interpretability framing of Thorne (2024) and 
+Jeong et al. (2025) regards trustworthiness as an attribute of the ver-
+iﬁcation output, focusing on the question of whether a user is able to 
+comprehend and calibrate their trust in the veriﬁcation result appro-
+priately. The alignment framing of Amodei et al. (2016) and  Hendrycks 
+et al. (2020) sees trustworthiness as an attribute of the training objec-
+tive of the model, asking whether the behavior of the system reﬂects 
+the human values intended. In this survey, none of the above framings 
+are chosen exclusively; on the contrary, the approach is to view hal-
+lucination veriﬁcation as an essential but alone insuﬃcient  element of 
+trustworthy AI, while choosing the interpretability framing of Thorne 
+(2024) speciﬁcally for veriﬁcation output (Section 8) and the societal-
+risk framing of Bommasani et al. (2021) for the argument made in this 
+survey about model-agnostic veriﬁcation middleware (Section 1).
+3.6.  Reliability assessment
+Reliability assessment in the context of LLM outputs refers to the 
+systematic quantiﬁcation of the degree to which generated content can 
+be trusted to be factually accurate and contextually appropriate. Several 
+approaches have been proposed in the literature.
+As shown by Ramprasad and Wallace (2024), automatic factual-
+ity scoring tends to overestimate the accuracy of language models in 
+domain-speciﬁc scenarios, which underscores the limitations of reliabil-
+ity estimation using only one type of metrics in contrast to human assess-
+ments of actual accuracy. Zhang et al. (2024a) also ﬁnd discrepancies 
+between automated measures of faithfulness and human assessments of 
+citation accuracy, pointing to the need for composite multi-signal relia-
+bility scoring. Finally, FACTS Grounding Leaderboard created by Jacovi 
+et al. (2025) provides a comparative evaluation framework that tests the 
+ability of LLMs to ground their responses to long-form inputs. In their 
+thorough review of faithfulness measures for assessing hallucinations in 
+LLMs, published in IEEE Journal of Selected Topics in Signal Processing, 
+Malin et al. (2025) conclude that there is no single metric capable of cap-
+turing all aspects of factual accuracy, advocating for multi-faithfulness 
+evaluation methods.
+Natural Language Processing Journal 16 (2026) 100231 
+6 
+===== PAGE 7 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+4.  State-of-the-art literature review
+This section provides a comprehensive review of the principal re-
+search directions in hallucination detection, evaluation, and mitigation. 
+This analysis is conducted across eight dimensions, which correspond to 
+the methodological lines within this ﬁeld. They include: hallucination 
+taxonomy and evaluation, retrieval-augmented generation, automatic 
+fact-checking, foundations of NLP, truth scoring and metrics, misinfor-
+mation detection, cross-model and knowledge graph veriﬁcation, and 
+self-veriﬁcation.
+While Section 3 provided the conceptual framework of terms and 
+taxonomies utilized in this survey (the nature of hallucination, the 
+meaning of veriﬁcation and trustworthy AI, and the pipeline phase that 
+the method targets), this section provides the synthesis of the relevant 
+methodology literature in each of the eight dimensions: the particular 
+methodologies, benchmarks, and systems that embody the previously 
+deﬁned concepts, in chronological order within each dimension to illus-
+trate the development of methodology. If the subsections below need to 
+revisit a term introduced in Section 3 (such as hallucination taxonomy 
+and the deﬁnition of trustworthy AI), then the discussion is restricted to 
+the methodology-related content not provided in the latter section.
+4.1.  Hallucination taxonomy and evaluation
+The taxonomic categories underlying this subsection – factual, faith-
+ful, logical, and temporal hallucination – were deﬁned and compared in 
+Section 3.1; this subsection does not restate those deﬁnitions but instead 
+traces the chronological development of the benchmarks used to opera-
+tionalize them. Benchmark development became an important step to-
+wards better understanding and assessing hallucinations. Speciﬁcally, 
+TruthfulQA (Lin et al., 2022) created the ﬁrst benchmark by identifying 
+factual failures in high-performing LLMs, while FActScore (Min et al., 
+2023b) developed the method of atomic claim decomposition for pre-
+cise factual evaluation. QAFactEval (Fabbri et al., 2022) and FEQA (Dur-
+mus et al., 2020) were used to assess the consistency of LLM-generated 
+summaries in QA paradigm. However, an important follow-up study by 
+Ramprasad and Wallace (2024), Zhang et al. (2024a) showed that auto-
+matic metrics overestimated performance by multiple metrics compared 
+to human evaluation. This issue was addressed by several composite 
+multi-metric evaluation approaches suggested by Malin et al. (2025), 
+Lamsiyah et al. (2025), and the FACTS Grounding Leaderboard (Jacovi 
+et al., 2025).
+The approximate sizes reported above reﬂect the authors’ famil-
+iarity with these widely cited benchmarks as documented in their 
+original publications. Table 4 makes clear that no single benchmark 
+jointly covers multiple languages, multiple domains, and end-to-end 
+(detection-through-correction) evaluation: English-only, single-domain 
+benchmarks such as FActScore, QAFactEval, and FEQA dominate the 
+landscape, multilingual coverage is conﬁned to claim-clustering re-
+sources such as MultiClaimNet rather than full veriﬁcation bench-
+marks, and evaluation strategies range from human span annotation 
+(RAGTruth) to LLM-judge scoring (FACTS Grounding), which are not 
+directly comparable to one another. This fragmentation reinforces the 
+case, developed further in Section 8, for benchmark suites that jointly 
+vary language, domain, and pipeline stage rather than treating each as 
+an independent axis.
+4.2.  Retrieval-augmented generation
+Retrieval-augmented generation (RAG) became one of the most ac-
+tive areas in developing approaches for mitigating hallucinations. The 
+basic design of the RAG architecture has been proposed by Lewis et al. 
+(2020) in NeurIPS 2020. They discovered that conditioning genera-
+tion on external retrieval passages greatly reduced hallucinations in 
+knowledge-intensive tasks, a result corroborated by Shuster et al. (2021) 
+for conversation scenarios. Further developments in RAG models in-
+cluded Self-RAG (Asai et al., 2023), which allows adaptive retrieval 
+through self-critiquing using reﬂection tokens, and Search-in-the-Chain 
+(Xu et al., 2024), which reﬁnes answers through iterative retrieval. A 
+novel framework, RAGAS (Es et al., 2024), allows automatic evaluation 
+of RAG pipelines on diﬀerent dimensions including faithfulness, answer 
+relevance, and retrieval recall. Moreover, recent studies have provided 
+an extensive overview of RAG architectures; e.g., those presented by 
+Gao et al. (2023b) and (Gupta et al., 2024). Despite these improve-
+ments, however, RAG systems are not yet fully reliable. Niu et al. (2024) 
+proves empirically that even well-structured RAG pipelines may hallu-
+cinate if the retrieved context is inadequate or ambiguous. Wang et al. 
+(2023) prove that self-knowledge estimation helps reduce unnecessary 
+retrieval costs, whereas (Manakul et al., 2023) proposes a zero-resource 
+detection of hallucinations using stochastic self-sampling. Moreover, the 
+RARR framework (Gao et al., 2023a) aims at correcting hallucinated 
+claims after generation through context retrieval. Mallen et al. (2023) 
+have demonstrated that parametric and non-parametric models are vul-
+nerable to long-tail factual queries, and Shi et al. (2023) have proven 
+that even if factual information is present, LLMs are easily distracted by 
+irrelevant context.
+4.2.1.  Traditional RAG versus agentic RAG
+The RAG variations mentioned above – standard RAG (Lewis et al., 
+2020), Self-RAG (Asai et al., 2023), RAGAS (Es et al., 2024), and 
+RAGTruth (Niu et al., 2024) – are all largely examples of what tradi-
+tional retrieval entails: a static evidence set conditioned via a single pass 
+of retrieval is the basis for generation with no room for re-planning of 
+retrieval operations in light of intermediate reasoning failures. The dif-
+ference between the traditional and agentic RAG is clearly articulated 
+by Neha and Bhati Neha and Bhati (2025), where agentic RAG means 
+autonomous agent(s) planning and conducting retrieval operations, in-
+voking tools, reiterating retrieval in light of intermediate outputs, and 
+reﬂecting on partial results before giving the ﬁnal output. When it comes 
+to veriﬁcation of hallucinations, agentic RAG becomes especially rel-
+evant due to the fact that, unlike in the traditional setting, evidence 
+gathering here is a process that involves multiple retrieval stages and 
+is not reduced to a single lookup operation: agents may ask for more 
+evidence when needed, divide the claim into smaller parts and verify 
+those separately, invoke specialized tools like calculators, knowledge 
+graph searches, or citation checkers during reﬂection before giving the 
+ﬁnal verdict (Neha and Bhati, 2025). The Search-In-The-Chain frame-
+work (Xu et al., 2024) and the multi-agent evidence-retrieval system by 
+Gong et al. (2026) may both be considered an early example of agentic 
+RAG in the context of hallucination veriﬁcation research, despite the 
+fact that agentic RAG was not explicitly stated. Agentic RAG should be 
+preferred over traditional one when complex multi-hop reasoning is de-
+sired while the latter works better in terms of latency and simplicity; 
+however, agentic RAG requires more inference calls (Neha and Bhati, 
+2025), which directly aﬀects our scalability discussions in Section 8.
+4.3.  Automated fact-checking
+Automated fact-checking is a critical component of the evidence-
+based methodology for hallucination veriﬁcation. The foundational 
+three-step pipeline of claim detection, evidence retrieval, and verdict 
+prediction was ﬁrst proposed by Guo et al. (2022). This framework has 
+subsequently led to a plethora of designs for verifying claims with hal-
+lucinations.Schlichtkrull et al. (2023) expanded on this paradigm to ad-
+dress the problem of multi-hop claim veriﬁcation on web-sourced ev-
+idence, whereas (Putta et al., 2025) and Gong et al. (2026) advanced 
+the ﬁeld with web-sourced and multi-agent heterogeneous source meth-
+ods for evidence retrieval respectively. The Akhtar et al. (2024) iden-
+tiﬁed a critical gap by evaluating the evidence retrieval phase in the 
+fact-checking pipeline. Recent research has enhanced and broadened the 
+Natural Language Processing Journal 16 (2026) 100231 
+7 
+===== PAGE 8 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+Table 4 
+Benchmark datasets for hallucination detection and veriﬁcation research, with scope, approximate size, language coverage, domain, annotation strategy, evalu-
+ation metric, and key limitations.
+Benchmark (Ref., 
+Year)
+Size (approx.) Scope / Task Type Language(s) Domain Annotation Strategy, Metric & Key 
+Limitation
+TruthfulQA (Lin 
+et al., 2022),
+∼800 questions Factual failure detection in 
+high-performing LLMs
+English Open-domain, 
+adversarially 
+selected topics
+Human-authored adversarial questions; 
+human/automated truthful + informative 
+judgment; small scale limits statistical 
+power and its adversarial framing may not 
+generalize to naturalistic prompts
+FActScore (Min 
+et al., 2023b),
+∼500 
+generations
+Atomic-level factual precision in 
+long-form generation
+English Biography 
+generation
+Atomic-fact decomposition validated 
+against Wikipedia; FActScore (% supported 
+atomic facts); reliant on Wikipedia as 
+ground truth and limited to the biography 
+domain
+QAFactEval (Fabbri 
+et al., 2022),
+Standard 
+summarization 
+test sets (e.g., 
+CNN/DM, 
+XSum)
+QA-based factual consistency in 
+summarization
+English News 
+summarization
+Automatically generated QA pairs; 
+QA-answer-overlap score; 
+summarization-speciﬁc and sensitive to 
+question-generation quality
+FEQA (Durmus 
+et al., 2020),
+Standard 
+summarization 
+test sets
+Faithfulness in abstractive 
+summarization
+English News 
+summarization
+QG/QA-based answer-overlap F1; 
+summarization-only scope and dependent 
+on QG model quality
+AVerITeC (Schlichtkrull 
+et al., 2023),
+∼4,500 
+real-world 
+claims
+Real-world multi-hop claim 
+veriﬁcation via web evidence
+English Open-domain, 
+fact-checked news 
+claims
+Claims sourced from fact-checking sites 
+with human-collected justiﬁcations; 
+question-answer and verdict match; noisy, 
+fast-changing web evidence complicates 
+reproducibility
+RAGTruth (Niu 
+et al., 2024),
+∼18,000 
+response-level 
+annotations
+Hallucination corpus for RAG 
+system evaluation
+English QA, summarization, 
+data-to-text (RAG 
+settings)
+Human span-level hallucination 
+annotation; span-level precision/recall; 
+single-language and RAG-speciﬁc, may not 
+generalize to non-RAG generation
+FACTS 
+Grounding (Jacovi 
+et al., 2025),
+Leaderboard-
+scale long-form 
+responses
+Source-grounding accuracy for 
+long-form LLM responses
+English Long-form, 
+document-
+grounded 
+generation
+LLM-judge-based grounding scoring; 
+grounding accuracy score; reliance on LLM 
+judges raises circularity concerns for 
+LLM-generated text
+MultiClaim-
+Net (Panchendrara-
+jan et al., 2025),
+Large-scale 
+multilingual 
+claim clusters
+Multilingual fact-checked claim 
+cluster evaluation
+Multiple 
+languages
+Open-domain 
+fact-checked claims
+Cluster-based claim aggregation; 
+clustering-quality metrics; language 
+coverage is uneven across resource-rich vs. 
+low-resource languages
+Ev2r (Akhtar et al., 
+2024),
+Evidence sets 
+drawn from 
+existing 
+fact-checking 
+corpora
+Evidence retrieval quality in 
+fact-checking pipelines
+English Fact-checking 
+evidence retrieval
+Reference-based evidence-quality scoring; 
+Ev2r score; narrowly scoped to the 
+evidence-retrieval stage rather than 
+end-to-end veriﬁcation
+GO FIGURE (Gabriel 
+et al., 2021),
+Meta-
+evaluation over 
+multiple 
+summarization 
+datasets
+Meta-evaluation of factuality 
+metrics in summarization
+English News 
+summarization
+Correlation with human factuality 
+judgments; meta-evaluation correlation 
+score; evaluates metrics rather than 
+generation systems directly
+scope of automated fact-checking. For example, the ability to discrimi-
+nate between credible, unreliable, and leaked sources greatly improved 
+verdict performance in the study conducted by Chrysidis et al. (2024), 
+whereas the importance of automated justiﬁcation generation along 
+with verdict was noted by Eldifrawi et al. (2024). Panchendrarajan and 
+Zubiaga (2026) introduced entity-aware methods for claim detection 
+in cross-lingual settings, and Panchendrarajan et al. (2025) contributed 
+the ﬁrst massively multilingual benchmark for fact-checked claim clus-
+ters. Drchal et al. (2024) designed a language-agnostic fact-checking 
+pipeline, whereas (Sahitaj et al., 2025) demonstrated that large LLMs 
+could generate and evaluate fact-checking rationales with appropriate 
+prompts.
+4.4.  Natural language processing foundations
+The NLP principles underlying the technology to detect hallucina-
+tions rely on the transformer model designed by Vaswani et al. (2017), 
+with its multi-headed self-attention feature which makes the model ca-
+pable of capturing long-term dependencies necessary to decompose the 
+claim and assess the implications. Bidirectional pre-training was shown 
+to be important for ﬁne-tuning BERT (Devlin et al., 2019) for NLI and 
+NER; Liu et al. (2019) enhanced pre-training procedures while He et al. 
+(2020), with its disentangled attention mechanism, is currently the best-
+performing model for detecting entailments. Larger generative models 
+such as Brown et al. (2020), Achiam et al. (2023), Touvron et al. (2023) 
+play a dual role as sources of hallucinations in need of veriﬁcation and 
+references in cross-model consensus approaches (Adlakha et al., 2024). 
+Finally, certain training practices were reported to impact hallucina-
+tion rates within large language models. For instance, instruction tun-
+ing with RLHF (Ouyang et al., 2022) as well as direct optimization of 
+preferences (Rafailov et al., 2023) lead to lower hallucination frequen-
+cies via preference alignment. Chain-of-thought prompting (Wei et al., 
+2022b) contributes to better structured multi-step reasoning and thus to 
+more reliable fact-checking of complicated statements. The HELM eval-
+uation system (Liang et al., 2022) oﬀers a holistic view of the evaluation 
+process by integrating factuality among other dimensions. (Min et al., 
+2023a; Zhao et al., 2023) survey pre-training progress relevant for ver-
+iﬁcation applications.
+Moreover, the exact architectural features and alignments that have 
+been designed into each LLM family also aﬀect how likely the model 
+will be to hallucinate and how suitable it is for hallucination veriﬁ-
+cation purposes. Bhati et al. (2026) conduct a comparative survey of 
+the major architectures of decoder-only models such as GPT, LLaMA 2, 
+Gemini, Claude, DeepSeek, Falcon, and Qwen, systematically analyzing 
+Natural Language Processing Journal 16 (2026) 100231 
+8 
+===== PAGE 9 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+such aspects as attention mechanics (e.g., multi-head, grouped-query 
+and multi-head latent attention), normalization techniques, mixture-of-
+experts routing, long-context modeling, as well as diﬀerent alignment 
+pipelines like instruction tuning, RLHF, DPO, and Constitutional AI. Ac-
+cording to the researchers’ analysis, deeper alignment pipelines (e.g., 
+Constitutional AI and RLAIF) typically contradict attention-eﬃciency  
+optimization, while the ﬁgures of benchmark performance reported by 
+model vendors usually diﬀer from those that can be independently repli-
+cated by several percentage points (Bhati et al., 2026). The relevance of 
+these conclusions to hallucination veriﬁcation is twofold: ﬁrst, the re-
+sults suggest that alignment technique in itself is not enough to predict 
+factual reliability of the model since eﬃciency-related  and alignment-
+related design choices tend to overlap at the architectural level; sec-
+ond, self-reported benchmark performance, including factuality-related 
+benchmarks, cannot always be trusted as a measure of hallucination 
+rate and, therefore, reinforces the argument made throughout the en-
+tire paper regarding the importance of using external veriﬁcation mid-
+dleware rather than just evaluating vendor-provided evaluation (Bom-
+masani et al., 2021).
+4.5.  Misinformation detection
+The literature on misinformation detection and veriﬁcation includes 
+numerous methodological resources and conceptual frames that can be 
+applied directly to the problem of hallucination detection. Srba et al. 
+(2026) present an extensive overview of automatic credibility assess-
+ment based on textual data which provides solid theoretical ground for 
+the development of multi-layer credibility veriﬁcation systems. Nguea-
+jio et al. (2025) experimentally show that transformer models always 
+outperform traditional machine learning algorithms in the problem of 
+detecting fakes. In turn, Raza et al. (2025), Qazi et al. (2025) general-
+ize this result to various languages and corpora, proving that evidence-
+based retrieval works better than generation in cases of large-scale fake 
+news detection. Beer and Matthee (2020), Thibault et al. (2025) of-
+fer overviews of detection methodology for the evaluation of credibil-
+ity. Sociological and psychological aspects of misinformation are also 
+relevant for developing the veriﬁcation system. Automation bias docu-
+mented by Beauvais (2022), Adams et al. (2023) causes users, especially 
+non-experts within a particular domain, to blindly trust algorithmic out-
+puts, making the interpretability feature crucial for credibility veriﬁca-
+tion. Broda and Strömbäck (2024) provide interdisciplinarity-supported 
+evidence that AI-based misinformation systematically decreases trust 
+within institutions. Domain-related and regional examples of AI-based 
+fake content spread are provided by Tomassi et al. (2025), Kishwar and 
+Zafar (2023), respectively. Multimodal applications of AI-based fakes in 
+a cloud environment are studied by Wang et al. (2024), Abduljaleel and 
+Ali (2024), Cavus et al. (2024).
+Misinformation-detection models presented in the preceding para-
+graphs either separate the two tasks into retrieval and fake-news classi-
+ﬁcation or consider them separately for RAG and classiﬁcation. Systems 
+that integrate the fact-checking process based on retrieval-augmented 
+generation architecture provide a closer integration of these two tasks. 
+For instance, TrumorGPT (Hang et al., 2025) proposes to combine 
+a language model with graph-based retrieval-augmented generation 
+(GraphRAG) on constantly refreshed semantic health knowledge graphs 
+for fact-checking of health claims, tackling the problem of hallucinations 
+at the fact-checking stage rather than only considering article classiﬁ-
+cation as fake or real. Similarly, Bai and Fu (2024) present FCRV (Full-
+Context Retrieval and Veriﬁcation), in which a fact-checking task is inte-
+grated through LLM-based extraction of claims and evidence retrieval by 
+RAG to build “full-context” representation of the news article prior to its 
+veriﬁcation. These models demonstrate that for the hallucination fact-
+checking problem in particular, a coupled pipeline approach proposed 
+in Section 4.2.1 is more appropriate than approaches from the mostly 
+classiﬁcation-oriented misinformation detection literature above.
+4.6.  Cross-model veriﬁcation and knowledge graph approaches
+The technique of cross-model veriﬁcation relies on the idea that 
+independent models cannot hallucinate in the same way; thus, their 
+inter-model agreement is an eﬃcient  veriﬁcation cue. Adlakha et al. 
+(2024) show empirically that the scores in cross-model evaluation align 
+highly with human assessments of hallucination presence. Meanwhile, 
+Manakul et al. (2023) use stochastic self-sampling during generation to 
+detect hallucinations at zero-resource conditions, called SelfCheckGPT. 
+Shami et al. (2026) prove the eﬃcacy  of using SPARQL-NLI methods in 
+verifying knowledge graphs’ factuality, speciﬁcally in entity-attribute 
+consistency tasks. Knowledge graph-based techniques are beneﬁcial ad-
+ditions to retrieval-based approaches as they oﬀer symbolic and explain-
+able paths to veriﬁcation. According to Wang et al. (2020), cross-graph 
+representation learning provides the theoretical framework behind the 
+approach to entity-attribute consistency veriﬁcation in pipelines. Huang 
+et al. (2025b) apply a similar principle to verify factuality of a statement 
+using graph-based fact checking and propagation of evidence along 
+multi-hop relational chains. Song et al. (2025) achieve promising re-
+sults with energy networks that perform set-consistency veriﬁcation in 
+a structured manner.
+4.7.  Trustworthy AI and ethical frameworks
+The normative foundations of trustworthy AI relevant to hallucina-
+tion veriﬁcation – the societal-risk, interpretability, and alignment fram-
+ings, and the framework this survey adopts from them – are established 
+in Section 3.5 and are not repeated here. The literature-speciﬁc addi-
+tion this subsection contributes is empirical rather than deﬁnitional: 
+Perez et al. (2022) show by adversarial red-teaming experiments that 
+even properly aligned models can be made to generate hallucinations if 
+prompted correctly, demonstrating that the alignment framing of Sec-
+tion 3.5 (Amodei et al., 2016; Hendrycks et al., 2020) is necessary but 
+not suﬃcient  on its own, and that red-teaming of veriﬁcation systems – 
+not just of the underlying generative model – is an important comple-
+mentary safeguard, a point returned to in the future-directions discus-
+sion of Section 9.2.
+5.  Applications of hallucination detection systems
+Hallucination detection and mitigation techniques are highly rele-
+vant to many ﬁelds, where factual accuracy plays a crucial role. This 
+section covers key application areas where such techniques have been 
+investigated or applied, providing domain-speciﬁc details based on the 
+existing literature. Fig. 2 depicts the key application domains for hallu-
+cination detection systems.
+5.1.  Healthcare and clinical decision support
+Healthcare emerges as a critical domain of applications for the pur-
+pose of verifying hallucinations. Using AI content in clinical decision 
+support, patient interactions, and literature summarization poses seri-
+ous risks, especially in case of possible hallucinations. Multiple studies 
+show that guidelines or medical information generated by LLMs con-
+tain proven hallucinations (Beauvais, 2022; Adams et al., 2023), posing 
+a clear threat to patient health and safety.
+The current body of literature states that the prevalence of halluci-
+nations in medical domains signiﬁcantly exceeds general QA scenarios 
+for queries regarding specialized clinical knowledge (Pesaranghader and 
+Li, 2026; Kaddour et al., 2023). Such increase can be explained by the 
+long tail distribution of specialized knowledge compared to general pre-
+training datasets, as proven by Mallen et al. (2023). In their work, they 
+showed that parametric memories cannot be considered reliable sources 
+of knowledge within a domain underrepresented in training corpora. 
+While RAG systems perform promisingly in specialized domains, by us-
+ing the context from specialized literature (Lewis et al., 2020; Asai et al., 
+Natural Language Processing Journal 16 (2026) 100231 
+9 
+===== PAGE 10 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+Fig. 2. Principal application domains of hallucination detection systems in generative AI. Each domain presents distinct veriﬁcation requirements with respect to 
+hallucination type, acceptable false-positive rate, evidence source requirements, and interpretability standards.
+2023), RAGTruth (Niu et al., 2024) proved that the hallucinations still 
+happen when the context is ambiguous or retrieval fails to identify all 
+relevant evidence Trustworthy AI frameworks designed for healthcare 
+pay special attention to model interpretability and uncertainty (Jeong 
+et al., 2025; Thorne, 2024).  Bommasani et al. (2021) highlight that so-
+cietal consequences of deploying a foundation model in medicine make 
+the external middleware veriﬁcation necessary, not just internal model 
+calibration. Finally, recent literature on multimodal veriﬁcation (Jiang 
+et al., 2024; Abduljaleel and Ali, 2024) proves that veriﬁcation of AI 
+systems used in healthcare should not be limited only to text hallucina-
+tion detection but also include images, structured clinical information, 
+and temporal records.
+For healthcare speciﬁcally, the evidence sources most relevant 
+to veriﬁcation are peer-reviewed clinical literature, curated drug-
+interaction and dosage databases, and institutionally endorsed clinical 
+practice guidelines, since these are the sources against which clinicians 
+themselves would check a claim (Lewis et al., 2020; Bommasani et al., 
+2021). Given the potential for patient harm, the literature reviewed 
+in this survey supports treating clinical hallucination as warranting a 
+near-zero acceptable error rate for claims with direct treatment implica-
+tions (e.g., dosage, contraindication, or diagnostic criteria), in contrast 
+to the higher tolerance for error that may be acceptable in low-stakes, 
+exploratory information-access settings discussed in Section 5.
+5.2.  Legal and judicial applications
+The ﬁeld of law also entails similarly high stakes. It has been reported 
+that LLMs are capable of inventing cases, misattribution of legal prece-
+dents, and creating a legally valid but factually erroneous summary of 
+a statute (Kaddour et al., 2023; Adams et al., 2023). The repercussions 
+associated with such a phenomenon for legal practice can be signiﬁcant, 
+ranging from punishment for lawyers to miscarriages of justice during 
+adversarial proceedings.
+Current methods of verifying facts in a legal context have involved 
+adopting the established three-step process of fact checking (Guo et al., 
+2022) and using ontology or knowledge graph techniques tailored to 
+legal documents (Wang et al., 2020; Huang et al., 2025b). Shami et al. 
+(2026) prove that knowledge graph validation techniques are highly 
+useful for entity-attribute consistency tasks in legal texts, especially be-
+cause accurate attribution of a holding to a court and date is very im-
+portant. Eldifrawi et al. (2024) highlight the importance of automated 
+Natural Language Processing Journal 16 (2026) 100231 
+10 
+===== PAGE 11 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+justiﬁcation generation in the legal domain, as users need both a verdict 
+on the veracity of a claim and its evidence base.
+In the legal context, the evidence sources that are most relevant in 
+terms of veriﬁcation are the primary legal sources: oﬃcial  reporters of 
+case law, statute and regulations databases, and court docket records, 
+because these are the oﬃcial  authorities against which the claim can be 
+veriﬁed (Wang et al., 2020; Shami et al., 2026). As a single fake citation 
+is capable of damaging the reputation of an entire legal document and 
+getting the individual involved in trouble, the literature presented in 
+this survey indicates the tolerance of error in the claims about citation 
+existence and holding attribution as equal to zero or close to zero.
+5.3.  Scientiﬁc research and academic integrity
+In scientiﬁc research, hallucination is manifested through the inclu-
+sion of ﬁctitious citations, incorrect attribution of statistics, and erro-
+neous representations of experimental results  (Huang et al., 2025a; Pe-
+saranghader and Li, 2026). The rapid proliferation of LLM-based writing 
+support tools within academia has caused a great concern regarding hal-
+lucination in scientiﬁc text, prompting institutions such as journal edi-
+tors and research integrity oﬃces  to develop strategies for hallucination 
+detection (Amodei et al., 2016; Weidinger et al., 2021).
+FActScore (Min et al., 2023b) was developed for the speciﬁc purpose 
+of measuring the precision of facts in text generation and can be used di-
+rectly to verify scientiﬁc text. Muhlgay et al. (2024) propose techniques 
+to automatically generate benchmarks for evaluating factuality in lan-
+guage models, creating scalable means for assessing LLMs for factual 
+information. FACTS Grounding Leaderboard (Jacovi et al., 2025) is a 
+benchmark for measuring an LLM’s capability for grounding text based 
+on input documents.
+For scientiﬁc writing, the main sources of evidence are peer-
+reviewed publication databases and citation indices (such as the indexed 
+literature on which Scopus and Web of Science rely), which allow one 
+to verify the existence, authorship, and claims made in an artiﬁcial cita-
+tion (Min et al., 2023b; Muhlgay et al., 2024). Since artiﬁcial citations 
+and misattributions of statistics jeopardize research integrity and could 
+contaminate the scientiﬁc record if not identiﬁed, the literature shows 
+that there should be close to zero tolerance for such mistakes when it 
+comes to citation existence and statistical attribution in the context of 
+scientiﬁc writing.
+5.4.  Education and information access
+Application areas of LLMs within education such as AI-powered tu-
+toring systems, automated question answering, and curriculum content 
+generation face potential risks of hallucinations that are especially harm-
+ful to users who lack suﬃcient  background to recognize the errors of the 
+model (Kaddour et al., 2023; Liang et al., 2022). Hallucination poses 
+an especially big problem in the ﬁeld due to the population asymme-
+try where the users do not have the required competence to critically 
+evaluate the information presented by LLMs, which can lead to learning 
+incorrect data by heart.
+Frameworks used to detect misinformation (Beer and Matthee, 2020; 
+Cavus et al., 2024; Thibault et al., 2025) have oﬀered approaches that 
+can be used in the context of educational moderation to detect explana-
+tions with factual errors regarding science and history.  Beauvais (2022), 
+Adams et al. (2023) have found that automation bias the inclination to 
+take the outputs from an algorithm without questioning them is higher 
+among users who have lower expertise within the speciﬁc domain.
+In the context of education, the appropriate sources of evidence are 
+already accepted curriculum standards, peer-reviewed textbooks, and 
+reference material on the subject matter in question, as these provide 
+the “ground truth” that must be reproduced by the tutoring/curriculum 
+generation system (Beer and Matthee, 2020; Cavus et al., 2024). As the 
+users of the tutoring system lack domain knowledge and therefore would 
+be unlikely to detect errors made in the learning process, as well as the 
+fact that incorrect information may become internalized by the learner, 
+it is recommended to set a low level of tolerance for factual mistakes 
+(dates, deﬁnitions, procedures) but higher tolerance for pedagogically 
+open-ended statements.
+5.5.  Public information and journalism
+The deployment of LLMs in news generation, content summarization, 
+and public information dissemination creates macro-level hallucination 
+risks that extend to societal trust in information ecosystems.  Broda and 
+Strömbäck (2024) have shown that the spread of misinformation under-
+mines people’s trust in journalism and democratic institutions. Tomassi 
+et al. (2025) report how AI disinformation has been propagated within 
+the discussion on climate science. Cavus et al. (2024) have developed 
+a cloud-based system to detect fake news in online social networks in 
+real-time.
+6.  Enabling technologies
+Several technological enablers support the creation of hallucination 
+veriﬁcation systems. Similarly to the industrial technological enablers 
+required to realize advanced production concepts (Lewis et al., 2020), 
+veriﬁcation technology could be considered the basic components from 
+which multi-tier detection structures are created. The following is an 
+overview of the key technological enablers discussed, presented in Ta-
+ble 5 and Fig. 3.
+6.1.  Transformer architectures and pre-trained language models
+Building on the transformer architecture of Vaswani et al. (2017), 
+the speciﬁc capability that transformer-based models contribute to hal-
+lucination veriﬁcation is self-attention-based contextual representation 
+of long-range dependencies, which is a necessary representational capa-
+bility for claim decomposition, entailment analysis, and entity extrac-
+tion in veriﬁcation processes; the general architecture itself is not re-
+derived here, as it is well established in the NLP literature. The impor-
+tance of bidirectional pre-training for NLI ﬁne-tuning was illustrated by 
+BERT (Devlin et al., 2019); RoBERTa (Liu et al., 2019) improved model 
+robustness; and DeBERTa (He et al., 2020) utilized disentangled atten-
+tion, allowing for the best publicly available framework for entailment-
+based hallucination detection.
+Larger models like GPT-3 (Brown et al., 2020), GPT-4 (Achiam et al., 
+2023), and LLaMA-2 (Touvron et al., 2023) play a double role in hal-
+lucination validation by providing the hallucinated text that needs to 
+be validated and being used as the reference model for a multi-model 
+consensus-based approach (Adlakha et al., 2024). Instruction tuning 
+based on RLHF (Ouyang et al., 2022) and DPO (Rafailov et al., 2023) is 
+an eﬀective strategy in lowering the number of hallucinations by pref-
+erence alignment. A detailed cross-family comparison of these archi-
+tectural and alignment choices, and their implications for hallucination 
+veriﬁcation, is provided in Section 3.4 (Bhati et al., 2026).
+6.2.  Dense retrieval and retrieval-augmented generation
+Retrieval-based techniques for hallucination mitigation using RAG 
+embed queries and documents into common vector spaces based on 
+semantic similarity for retrieval. These dense retrieval systems repre-
+sent the core of current RAG-based techniques for mitigating halluci-
+nations (Lewis et al., 2020; Asai et al., 2023). The main breakthrough 
+achieved by the RAG architecture for addressing hallucinations is the 
+exchange of parametric knowledge (which is prone to hallucinations) 
+stored within the weights of the NLP model with non-parametric knowl-
+edge retrieved at inference time from external sources. This technique 
+has been shown to eﬀectively reduce the error rates in knowledge-
+intensive NLP tasks by  Lewis et al. (2020). The Self-RAG technique (Asai 
+et al., 2023) further improves upon this approach by enabling models 
+Natural Language Processing Journal 16 (2026) 100231 
+11 
+===== PAGE 12 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+Table 5 
+Enabling technologies for hallucination veriﬁcation systems and their roles across veriﬁcation dimensions. Utilization levels: H = High, M = Medium, L = Low. 
+Ratings follow the scoring protocol deﬁned in Section 1 (paragraph preceding Table 1).
+ Technology  Factual Detect.  Faithful Detect.  Logical Detect.  Temporal Detect.  Entity Detect.  Key References
+ Transformer / Pre-trained LMs  H  H  H  M  H Vaswani et al. (2017), Devlin et al. (2019), He et al. (2020)
+ Dense Retrieval / RAG  H  H  M  M  M Lewis et al. (2020), Asai et al. (2023), Gao et al. (2023b)
+ Knowledge Graphs  M  L  H  H  H Wang et al. (2020), Huang et al. (2025b), Shami et al. (2026)
+ Natural Language Inference  H  H  H  M  M Zaman and Srivastava (2025), Devlin et al. (2019), He et al. (2020)
+ Credibility Scoring  H  M  L  L  M Chrysidis et al. (2024), Akhtar et al. (2024), Srba et al. (2026)
+ Cross-Model Consensus  H  H  M  M  H Shami et al. (2026), Adlakha et al. (2024), Manakul et al. (2023)
+ Self-Veriﬁcation / Self-RAG  H  M  M  L  M Asai et al. (2023), Manakul et al. (2023), Gao et al. (2023a)
+ Multimodal Fusion  M  M  L  L  M Zhang et al. (2024b), Jiang et al. (2024), Wang et al. (2024)
+to self-decide when retrieving information is necessary in order to re-
+duce unnecessary retrieval overheads while retaining full coverage of 
+the space. The RAGAS evaluation framework for RAG-based pipelines 
+addresses their evaluation in terms of faithfulness, relevance, and re-
+call (Es et al., 2024).
+Based on recent research, dense retrieval using semantic vector em-
+beddings, as provided by models such as sentence transformers, sur-
+passes sparse retrieval methods like BM25 in tasks involving semantic 
+similarity important for detecting hallucinations (Gao et al., 2023b; Xu 
+et al., 2024). However, it has been shown by  Mallen et al. (2023) that 
+both parameterized and non-parameterized systems fail in the context 
+of long-tail factual search. The distinction between such single-pass re-
+trieval designs and iterative, tool-using agentic RAG pipelines is dis-
+cussed in detail in Section 4.2.1.
+6.3.  Knowledge graphs and structured veriﬁcation
+Graphs of Knowledge – structured databases comprised of entities, 
+attributes, and relations – allow the veriﬁcation of claims by LLMs using 
+symbolic veriﬁcation based on grounded assertions. Wang et al. (2020) 
+show how cross-graph representation learning can be used for knowl-
+edge graph validation, which constitutes the theoretical underpinning 
+for the use of attribute-entity consistency veriﬁcation in veriﬁcations 
+pipelines. Huang et al. (2025b) propose an approach to graph-based 
+veriﬁcation that is speciﬁcally tailored to fact-checking, utilizing rela-
+tional structure in order to propagate evidence through multi-hop claim 
+chains.  Shami et al. (2026) compare LLMs for knowledge graph veriﬁca-
+tion, identifying a hybrid approach consisting of SPARQL-based query-
+ing and NLI entailments as the most accurate.  Song et al. (2025) devise 
+set-consistency energy networks, achieving competitive results in the 
+context of structured consistency veriﬁcation for multi-hop veriﬁcation 
+tasks.
+The use of knowledge graphs within hallucination veriﬁcation sys-
+tems brings several strengths when compared to retrieval-based tech-
+niques, including computational eﬃciency  for the veriﬁcation of entity-
+attribute assertions, provision of traceable evidence pathways, and im-
+munity to failure due to retrieval issues based on improper query formu-
+lation. Existing challenges include the insuﬃcient  coverage of speciﬁc 
+domains within publicly available knowledge graphs like Wikidata and 
+the cost of computational resources to maintain current entity represen-
+tations within fast-changing domains.
+6.4.  Natural language inference and entailment scoring
+The task of natural language inference (NLI), where it is needed to 
+determine if a premise contradicts, entails, or is neutral with respect to a 
+hypothesis, is an integral part of hallucination detection. Within the con-
+text of veriﬁcation systems, the statement to be veriﬁed is the hypothesis 
+and the gathered evidence is the premise. The entailment probability is 
+an appropriate method of evaluating the consistency between the two 
+and the degree of the factual relationship. DeBERTa (He et al., 2020), 
+which was ﬁne-tuned on MultiNLI dataset, provides cutting-edge per-
+formance when used for entailment scoring within the context of ver-
+iﬁcation, reaching high accuracy when processing scientiﬁc and news 
+domain texts.  Zaman and Srivastava (2025) perform causal analysis 
+of faithfulness metrics, ﬁnding factors which negatively inﬂuence the 
+evaluation when only using NLI scores.
+However, several papers (Pesaranghader and Li, 2026; Malin et al., 
+2025) ﬁnd out that although the NLI-based entailment scoring is eﬃ-
+cient in identifying factual hallucinations when there is unambiguous 
+counter-evidence provided, it is rather unreliable when dealing with 
+faithful and logical hallucinations with implicit contradiction or multi-
+hop reasoning.
+6.5.  Credibility scoring and source authority assessment
+Evidence found in support of the claim and used for claim veriﬁca-
+tion becomes reliable or unreliable based on the reliability of the ev-
+idence source. Srba et al. (2026) present an extensive review of auto-
+matic credibility assessment based on textual credibility cues, outlin-
+ing the taxonomy of authority markers relevant to hallucination veri-
+ﬁcation scenarios. Chrysidis et al. (2024) show that the ability to dif-
+ferentiate between credible and noncredible, or even leaked, pieces 
+of evidence greatly boosts the accuracy of automated verdicts. Akhtar 
+et al. (2024) propose the Ev2r measure as an evaluation measure 
+for evidence retrieval-based fact-checking pipelines. Thus, the above-
+mentioned works prove that the authority of sources can be considered 
+a valuable claim veriﬁcation signal.
+7.  Comparative analysis of existing approaches
+The following is an overview of comparative studies on existing hal-
+lucination detection and mitigation methodologies, with respect to their 
+capabilities. In Table 6, the characteristics of some sample systems re-
+ported in the literature are presented on six diﬀerent veriﬁcation ca-
+pabilities, while Fig. 4 shows the multi-layer veriﬁcation architecture 
+adopted by contemporary methodologies. Similar to the H/M/L rating 
+used in Section 1 for Table 1, the Yes/Partial/No rating in Table 6 uses 
+a clear criterion as opposed to an implicit one: The capability gets a rat-
+ing of Yes when it is a core component of the system being described 
+and evaluated; Partial if the capability is there in an optional way that 
+may or may not be well-evaluated (e.g., supported but not explicitly 
+tested, or tested only as a side-eﬀect of some other contribution); and 
+No if the capability does not exist in the cited work at all. Similar to the 
+H/M/L rating protocol, this Yes/Partial/No rating was assigned manu-
+ally, through a careful reading of the papers in question, and was not 
+done using any multi-rater independent procedure, as was noted in Sec-
+tion 9.3.
+7.1.  Single-layer versus multi-layer veriﬁcation
+The most basic division among approaches described in the litera-
+ture can be made between single-layer solutions using only one type of 
+evaluation method such as RAG retrieval or NLI evaluation and multi-
+layer approaches combining several independent evaluation criteria. 
+Natural Language Processing Journal 16 (2026) 100231 
+12 
+===== PAGE 13 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+Fig. 3. Key enabling technologies of hallucination veriﬁcation systems and their inter-relationships within multi-layer veriﬁcation architectures.
+Single-layer solutions such as FActScore (Min et al., 2023b) or QAFactE-
+val (Fabbri et al., 2022) provide eﬃciency  and interpretability but are 
+inherently limited to detecting only the speciﬁc hallucination types for 
+which they were designed. Ramprasad and Wallace (2024) show how 
+single-metric approaches systematically overestimate accuracy for do-
+main evaluation tasks, thus giving practical reason to adopt multi-layer 
+approaches.
+Empirical evidence consistently demonstrates that an ensemble 
+of retrieval, cross-model comparison, and logical consistency sig-
+nals provides superior performance compared to any single-layer ap-
+proach (Manakul et al., 2023; Gao et al., 2023a). Furthermore, ablation 
+studies (Manakul et al., 2023; Gao et al., 2023a) demonstrate that the 
+removal of both retrieval and cross-model comparison components re-
+sults in substantial degradation of veriﬁcation performance, conﬁrming 
+Natural Language Processing Journal 16 (2026) 100231 
+13 
+===== PAGE 14 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+Table 6 
+Comparative analysis of representative hallucination detection and veriﬁcation systems across key capability dimensions. Yes/Partial/No rating criteria are 
+deﬁned in Section 7, paragraph preceding this table.
+ System / Method  Year  Halluci. Detect.  RAG / Knowledge  Cross-Model  Truth Score  Auto-Correct  Multilingual  Key Reference
+ TruthfulQA  2022  Yes  No  No  Partial  No  No Lin et al. (2022)
+ FActScore  2023  Yes  Partial  No  Yes  No  No Min et al. (2023b)
+ QAFactEval  2022  Yes  Partial  No  Yes  No  No Fabbri et al. (2022)
+ FEQA  2020  Yes  No  No  Partial  No  No Durmus et al. (2020)
+ Self-RAG  2023  Partial  Yes  No  No  Partial  No Asai et al. (2023)
+ RAGAS  2024  Partial  Yes  No  Partial  No  No Es et al. (2024)
+ RAGTruth  2024  Yes  Yes  No  Partial  No  No Niu et al. (2024)
+ AVerITeC  2023  Yes  Yes  No  No  No  No Schlichtkrull et al. (2023)
+ ClaimCheck  2025  Yes  Yes  No  Partial  No  No Putta et al. (2025)
+ SelfCheckGPT  2023  Yes  No  Partial  No  No  No Manakul et al. (2023)
+ RARR  2023  Yes  Yes  No  No  Yes  No Gao et al. (2023a)
+ Multi-Agent FC  2026  Yes  Yes  No  No  No  No Gong et al. (2026)
+ MultiClaimNet  2025  Yes  No  No  No  No  Yes Panchendrarajan et al. (2025)
+ KG Veriﬁcation  2025  Partial  No  No  Partial  No  No Huang et al. (2025b)
+Fig. 4. Conceptual multi-layer hallucination veriﬁcation architecture synthesized from the surveyed literature, illustrating the convergent multi-signal design pattern 
+that characterizes state-of-the-art veriﬁcation systems.
+Natural Language Processing Journal 16 (2026) 100231 
+14 
+===== PAGE 15 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+their complementary contributions to robust detection.
+The multi-layer approach shown in Fig. 4 relies on a combination of 
+evidence gathered from retrieval, cross-model comparison, NLI entail-
+ment, and knowledge-graph validation, but the literature synthesized 
+here does not suggest any single strategy for handling the conﬂicts be-
+tween these evidence types - such as when the evidence from retrieval 
+suggests a certain claim is true while an NLI model ﬁnds a contradic-
+tion, or when there is a consensus across models that disagrees with 
+a knowledge-graph evaluation. Three conﬂict resolution strategies can 
+be inferred from the layer-speciﬁc approaches discussed elsewhere in 
+this survey despite the fact that none of the surveyed systems employ 
+all three: (i) precedence rules - a form of hard-wired policy that makes 
+a certain type of signal more authoritative over other types when re-
+solving conﬂicts for a speciﬁc type of hallucination, e.g., precedence of 
+knowledge-graph validation for entity-attribute claims (Section 6.3) due 
+to its higher rating for the type of hallucination (Table 5), and prece-
+dence of NLI entailment for faithfulness claims; (ii) uncertainty aggrega-
+tion, i.e., making every layer output a calibrated measure of uncertainty 
+rather than a binary classiﬁcation, and combining these uncertainties 
+using either a weighted aggregation (which could be optimized in a 
+data-driven fashion as suggested in Section 9.2), or a Bayesian one; and 
+(iii) human review, i.e., escalation of conﬂict resolution to a human ex-
+pert in case the degree of disagreement between the signals passes a 
+certain threshold. In the absence of a validated conﬂict resolution algo-
+rithm in the current literature, the latter is the most conservative and 
+currently best-supported default approach in high-stakes settings (Sec-
+tion 5), while the two former are more applicable in low-stakes, high-
+throughput situations.
+7.2.  Retrieval-grounded versus model-internal approaches
+Another important dichotomy is between retrieval-grounded veriﬁ-
+cation, which grounds its claims on externally retrieved information, 
+and veriﬁcation methods that utilize consistency signals generated by 
+the model itself. RAG models (Lewis et al., 2020; Asai et al., 2023; Gao 
+et al., 2023b) and fact-checking pipelines (Guo et al., 2022; Schlichtkrull 
+et al., 2023; Putta et al., 2025) fall under the former category while 
+self-consistency-based methods (Manakul et al., 2023) and model self-
+evaluation (Pesaranghader and Li, 2026) belong to the latter one.
+While veriﬁcation methods based on externally retrieved informa-
+tion beneﬁt from independence from biased knowledge representation 
+of the generating model, their performance is limited by retrieval qual-
+ity and coverage (Mallen et al., 2023; Niu et al., 2024). Model internal 
+veriﬁcation approaches, on the other hand, can identify hallucinations 
+independently of external APIs but suﬀer from correlated errors due 
+to consistent model misrepresentations in certain domains (Bommasani 
+et al., 2021; Shami et al., 2026). Current literature points to the beneﬁts 
+of hybrid approaches that prefer retrieval-based signals to cross-model 
+consensus in detecting diverse hallucinations.
+The model-agnostic framing adopted throughout this survey (Sec-
+tion 1) refers speciﬁcally to parameter access: post-generation middle-
+ware of this kind does not require access to the generating model’s 
+weights, training data, or internal activations. This should not be read 
+as implying that such middleware is agnostic to the generating model 
+in every respect. In practice, the eﬀectiveness of externally applied ver-
+iﬁcation still depends on properties of the generating model’s output: its 
+verbosity and formatting conventions aﬀect how cleanly a response can 
+be decomposed into independently veriﬁable claims (Min et al., 2023b); 
+its citation behavior (whether and how it attributes claims to sources) 
+determines how much veriﬁcation work the middleware must perform 
+versus can oﬄoad  to the model itself; and its output language deter-
+mines which retrieval, NLI, and knowledge-graph resources are avail-
+able downstream, a constraint discussed further in Section 8 on mul-
+tilingual coverage. Consequently, “model-agnostic” is more accurately 
+understood as parameter-agnostic but not output-agnostic: the middleware 
+can be applied to any generating model without modiﬁcation to that 
+model, but its practical performance is still shaped by that model’s out-
+put characteristics, and this distinction should be kept in mind when 
+comparing veriﬁcation systems across diﬀerent generating models.
+7.3.  Factuality metrics: automated versus human evaluation
+The diﬀerence between automated metrics of factuality and human 
+judgment is an enduring problem in the literature. As  Ramprasad and 
+Wallace (2024) show, automated metrics tend to overestimate the ac-
+curacy of large language models, while  Zhang et al. (2024a) report 
+contradictions between automated measures of faithfulness and human 
+citation judgment. According to the literature reviews by  Lamsiyah et al. 
+(2025) and Malin et al. (2025), there is no automated metric that covers 
+all aspects of factual accuracy in diﬀerent application areas and tasks.
+Such evidence inspires the idea of combining multiple automated 
+metrics with human assessment on sample datasets (Jacovi et al., 2025). 
+The results of causality analysis conducted by  Zaman and Srivastava 
+(2025) indicate that some factors aﬀecting the evaluation of a sin-
+gle metric may lead to the wrong estimate of the model reliability. 
+HELM (Liang et al., 2022) is currently the most ambitious framework 
+for evaluating diﬀerent metrics such as factuality, toxicity, fairness, and 
+eﬃciency  at once.
+7.4.  Domain speciﬁcity and generalization
+Diﬀerent solutions exhibit wide variations in terms of domain. 
+General-purpose veriﬁcation solutions like TruthfulQA (Lin et al., 2022), 
+AVerITeC (Schlichtkrull et al., 2023), and RAGAS (Es et al., 2024), 
+for example, oﬀer extensive benchmarking capabilities but might fail 
+to accommodate the specialized nature of knowledge required by ver-
+iﬁcation in medical, legal or scientiﬁc settings. On the other hand, 
+domain-speciﬁc approaches such as solutions designed to detect fake 
+news within particular regions (Kishwar and Zafar, 2023) and to ver-
+ify multimodal content in e-commerce (Liu et al., 2024) exhibit greater 
+precision but lack generalizability.
+The recent body of work shows that the choice of the retrieval 
+sources has a strong impact on the ability of a RAG solution to handle 
+various domains: systems with access to specialized academic resources 
+and institution-speciﬁc repositories outperform other systems at detect-
+ing domain-speciﬁc hallucinations signiﬁcantly (Chrysidis et al., 2024; 
+Srba et al., 2026). These ﬁndings suggest that scalable domain-speciﬁc 
+hallucination detection requires customized retrieval sources tailored to 
+specialized knowledge repositories, rather than improvements to base 
+model architectures alone.
+8.  Open challenges and research gaps
+Despite advancements in detecting and mitigating hallucinations, 
+there are certain challenges within the research literature that consti-
+tute the current frontier of research within the ﬁeld. The following is a 
+synthesis of these key open challenges and research gaps.
+8.1.  Scalability and computational eﬃciency
+The multi-layer veriﬁcation architectures that achieve the best de-
+tection performance are computationally expensive, typically requiring 
+multiple API calls to large generative models, dense vector retrieval 
+across large corpora, and knowledge graph lookups (Gao et al., 2023b; 
+Shami et al., 2026). The end-to-end delay latency of existing frame-
+works often surpasses ﬁve seconds, making it impractical for real-time 
+generation processes as well as browser-based applications (Asai et al., 
+2023; Manakul et al., 2023). According to the current literature, evi-
+dence caching with time-to-live (TTL) expiration policies for commonly 
+veriﬁed themes, asynchronous processing of veriﬁcation stages, and fast 
+mode for certain claims can be considered promising techniques for low-
+ering latency costs (Es et al., 2024; Xu et al., 2024).
+Natural Language Processing Journal 16 (2026) 100231 
+15 
+===== PAGE 16 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+8.2.  Temporal inconsistency and knowledge staleness
+Temporal hallucinations, which involve LLMs stating facts that are 
+valid at training time but subsequently become obsolete, constitute an 
+especially tricky type of hallucination that is poorly handled by most 
+current solutions (Pesaranghader and Li, 2026; Drchal et al., 2024). 
+Temporal staleness can be countered by RAGs via retrieval of current ev-
+idence; however, the success of such an approach hinges on the freshness 
+and scope of the retrieval corpus (Gupta et al., 2024; Gao et al., 2023b). 
+Knowledge graphs are also subject to temporal staleness when attributes 
+of entities are updated faster than knowledge graph updates (Wang 
+et al., 2020; Shami et al., 2026). The current state-of-the-art lacks a 
+robust method of detecting temporal hallucinations applicable to fast-
+evolving ﬁelds like politics, ﬁnance, and medicine.
+There are two failure modes that both take the form of an LLM as-
+serting a now out-of-date fact, which require diﬀerent types of mitiga-
+tion strategies. Proper temporal hallucination, as outlined in Table 2, 
+is where an LLM asserts an incorrect date, duration, or chronological 
+order, often arising from a training-time snapshot that is not kept up-
+to-date. A second, distinct type of failure is the retrieval of outdated but 
+formerly correct evidence, where a RAG or veriﬁcation process ﬁnds a 
+passage that was accurate at its time of publication, but which has since 
+been rendered obsolete by later events (for example, an outdated clini-
+cal guideline, a repealed statute, or a superseded oﬃce-holder  record), 
+and the veriﬁcation system mistakenly marks the information as still be-
+ing current. The ﬁrst is a property of the generating LLM’s knowledge 
+base; the second is a property of the retrieved evidence itself and doesn’t 
+require any LLM hallucinations at all. Since the second failure mode is 
+not addressed by conditioning the generation process on the retrieved 
+facts alone, there are three speciﬁc types of mitigations found in the 
+wider literature on RAG and knowledge graphs that are directly appli-
+cable: timestamped retrieval, where evidence is indexed and ranked by 
+recency and where older-than-threshold passages are ignored or down-
+weighed; temporal knowledge graphs, where entity attributes are stored 
+with versioning information, allowing a veriﬁcation system to distin-
+guish between facts that were true as of some past 𝑡, and those that are 
+true now (Wang et al., 2020; Shami et al., 2026); and evidence expiry 
+and re-veriﬁcation policies, where claims are assigned a validity period 
+after which they are expired and must be re-veriﬁed rather than being 
+treated as permanently veriﬁed. No systems found in Table 6 use all 
+three forms of mitigation together, which is highlighted by this survey 
+as an important area for future research and benchmarking.
+8.3.  Interpretability and explainability
+Present systems for detecting hallucinations generate verdicts about 
+their validity that remain inaccessible to the lay user; they provide an ag-
+gregated measure of reliability without specifying the particular claims 
+that were ﬂagged and the reason for ﬂagging (Jeong et al., 2025; Thorne, 
+2024). According to Thorne, interpretability is a pre-requisite for cor-
+rect calibration of user trust regarding veriﬁcation output as it makes 
+no sense to act responsibly when dealing with results whose meaning 
+cannot be understood (Thorne, 2024). Jeong et al. show that trans-
+parency and interpretability constitute basic conditions for a reliable AI 
+system (Jeong et al., 2025). However, the majority of systems designed 
+for hallucination detection still provide only aggregated measurements.
+8.4.  Domain dependency and specialization
+The performance of both retrieval-grounded and model-based veriﬁ-
+cation approaches degrades substantially in specialized domains where 
+training data coverage is limited and specialized knowledge is required 
+for accurate veriﬁcation. Similarly,  Niu et al. (2024) argue that RAG 
+models are likely to hallucinate when they rely on insuﬃciently  special-
+ized information. Medical, legal, and ﬁnancial ﬁelds have their speciﬁc 
+terminology, referencing style, and standard requirements for evidence, 
+which are not taken into account by generalized veriﬁcation tools (Kad-
+dour et al., 2023; Bommasani et al., 2021). Comprehensive domain-
+adaptive veriﬁcation frameworks that systematically address these spe-
+cialized requirements remain an understudied area, representing a crit-
+ical gap for future research.
+8.5.  Multilingual coverage
+The vast amount of research regarding hallucination detection has 
+been carried out in English with multilingual approaches receiving much 
+less focus (Panchendrarajan and Zubiaga, 2026; Panchendrarajan et al., 
+2025; Drchal et al., 2024). An example of work that stands out in this re-
+gard is the work by  Panchendrarajan and Zubiaga (2026), who present 
+cross linguistic claim detection that is aware of entities at the EACL 
+2026 conference. The authors  Panchendrarajan et al. (2025) present 
+MultiClaimNet as a multilingual tool to evaluate clusters of fact checked 
+claims. The authors  (Drchal et al., 2024) propose an approach to auto-
+mated fact checking in multiple languages.
+8.6.  Multimodal hallucination
+As LLMs increasingly incorporate visual, auditory, and structured 
+data inputs, hallucination extends beyond text to encompass multi-
+modal content. Jiang et al. (2024) propose a hallucination enhanced 
+contrastive learning technique for multimodal LLMs in CVPR 2024, il-
+lustrating that multimodal hallucinations happen in diﬀerent ways com-
+pared to hallucinations in text-based LLMs. Zhang et al. (2024b) eval-
+uate factuality on multimodal summarization, stressing the problems 
+encountered in verifying multimodal hallucinations outside text.  Wang 
+et al. (2024) introduce multimodal fake news detection through LLMs. 
+Nevertheless, multimodal benchmark datasets that tackle all three types 
+of problems together require further development.
+8.7.  Privacy-preserving veriﬁcation
+LLM hallucination veriﬁcation systems typically require transmitting 
+user queries and AI-generated responses to external modules, including 
+retrieval APIs, cross-model evaluation APIs, and knowledge graph ser-
+vices (Lewis et al., 2020; Gao et al., 2023b; Shami et al., 2026). This 
+process raises signiﬁcant privacy concerns in critical domains such as 
+healthcare and legal practice, where user inputs may contain personally 
+identiﬁable information. According to  Weidinger et al. (2021), privacy 
+becomes an ethical issue with respect to LLMs, while  Bommasani et al. 
+(2021) observe that while veriﬁcation modules are necessary for the 
+proper functioning of LLMs, they complicate data governance consider-
+ably. In the current literature, there is no architectural design for veri-
+fying LLM outputs without transmitting sensitive data externally (refer 
+to Table 7).
+8.8.  Human-in-the-loop veriﬁcation
+Most of the veriﬁcation architectures discussed in Section 7 are fully 
+automated end-to-end, despite the domain-speciﬁc error-threshold anal-
+ysis presented in Section 5 implying that fully automated decisions 
+might be unsuitable for high-risk and truly ambiguous claims (for exam-
+ple, disputed legal precedent, emerging clinical recommendation, or a 
+claim contradicting evidence presented in Section 7). However, the sur-
+veyed literature gives little guidance on human review integration into 
+the veriﬁcation cycle. Automation bias – the phenomenon of the user, es-
+pecially the non-expert user, trusting algorithmic output blindly (Beau-
+vais, 2022; Adams et al., 2023) – is the key challenge here: adding a 
+human reviewer to the process without showing him or her the evi-
+dence underlying the verdict does not mitigate the bias, as the liter-
+ature on claim-level evidence presentation and interpretability (Jeong 
+et al., 2025; Thorne, 2024) emphasizes. As we adopt the concept of in-
+terpretability from Thorne (Thorne, 2024) in Section 3.5, the human re-
+view needs to have access not only to the aggregated conﬁdence score 
+Natural Language Processing Journal 16 (2026) 100231 
+16 
+===== PAGE 17 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+Table 7 
+Open research challenges and potential future directions in hallucination detection and mitigation.
+Challenge Current Limitation Promising Future Direction
+Scalability and Latency Multi-layer pipelines exceed 5 s per query (Gao et al., 2023b; Shami 
+et al., 2026)
+Evidence caching; parallel async execution; early-exit fast mode (Asai 
+et al., 2023; Es et al., 2024)
+Temporal Inconsistency Knowledge staleness in RAG and KG systems (Gupta et al., 2024; 
+Wang et al., 2020)
+Real-time retrieval indexing; temporal hallucination-speciﬁc 
+benchmarks (Drchal et al., 2024)
+Interpretability Aggregate scores without claim-level evidence (Jeong et al., 2025; 
+Thorne, 2024)
+Claim-highlighting interfaces; evidence attribution dashboards (Jeong 
+et al., 2025; Thorne, 2024)
+Domain Dependency Performance degradation in medical / legal domains (Mallen et al., 
+2023; Niu et al., 2024)
+Domain-tailored retrieval portfolios; domain-speciﬁc NLI 
+ﬁne-tuning (Chrysidis et al., 2024)
+Multilingual Coverage English-language bias across benchmarks (Panchendrarajan and 
+Zubiaga, 2026; Drchal et al., 2024)
+Cross-lingual NER/NLI; low-resource multilingual 
+benchmarks (Panchendrarajan et al., 2025)
+Multimodal Extension Text-only veriﬁcation inadequate for multimodal LLMs (Zhang et al., 
+2024b; Jiang et al., 2024)
+Visual grounding; audio veriﬁcation; structured data 
+consistency (Wang et al., 2024; Abduljaleel and Ali, 2024)
+Privacy Preservation External API calls transmit sensitive query content (Bommasani et al., 
+2021; Weidinger et al., 2021)
+Federated veriﬁcation; on-device NLI models; local knowledge 
+graphs (Hendrycks et al., 2020)
+Weight Calibration Expert-deﬁned composite score weights lack empirical 
+grounding (Ramprasad and Wallace, 2024; Malin et al., 2025)
+Bayesian regression weight optimization over annotated 
+datasets (Muhlgay et al., 2024)
+Human-in-the-Loop Veriﬁcation No systematic guidance on when human adjudication is needed, what 
+evidence to show reviewers, or how to reduce automation 
+bias (Beauvais, 2022; Adams et al., 2023)
+Evidence-grounded review interfaces; disagreement-driven escalation 
+policies (Section 8.8)
+Coverage–Usability Trade-oﬀ No explicit policy for varying veriﬁcation depth by context in 
+surveyed systems (Table 6)
+Risk-adaptive veriﬁcation depth by domain, claim importance, and 
+consequence of error (Section 8.9)
+but to the evidence underlying the verdict. Identifying when the hu-
+man intervention is necessary (e.g., via conﬂicting signals criteria dis-
+cussed in Section 7), reducing the reviewer’s load without automating 
+him out of the process, and resolving the disagreements between the 
+expert reviewer and the automated verdicts are additional open chal-
+lenges, not covered in the surveyed literature, and, thus, listed among 
+the research priorities alongside with the governance issues mentioned 
+in Section 9.2.
+8.9.  Coverage-usability trade-oﬀs and risk-adaptive veriﬁcation
+An open challenge related to, but diﬀerent from the latency issue 
+discussed in Section 8.1 is the trade-oﬀ between the veriﬁcation cov-
+erage and usability. Independent veriﬁcation of all the atomic claims 
+composing the response, as in the case of the FActScore-style atomic 
+decomposition (Min et al., 2023b), increases the factual coverage of the 
+response, but implementing such approach to all the claims in all the re-
+sponses can fragment the response, generate excessive warnings to the 
+user, degrade user experience, and increase latency and computational 
+costs, as described in Section 8.1. None of the compared systems listed in 
+Table 6 explicitly describe any policy of veriﬁcation depth adaptation. 
+Given the domain-speciﬁc error thresholds established in Section 5, the 
+solution appears obvious: risk-adaptive veriﬁcation, in which the depth 
+of the claim veriﬁcation (e.g., full atomic decomposition or single holis-
+tic veriﬁcation) is determined based on the domain (medical and legal 
+claims deserve deeper veriﬁcation than casual information search), im-
+portance of the claim to the response (the more important the claim is, 
+the deeper the veriﬁcation needs to be performed), the uncertainty of the 
+model (conﬁdence score), the expertise of the user (and thus the amount 
+of risk that can be left on the user), and consequences of the false an-
+swer being uncaught. Implementation of the risk-adaptive veriﬁcation 
+in practice depends on solving the human-in-the-loop problem stated in 
+Section 8.8 and conﬂicting signals handling strategy of Section 7.
+9.  Lessons learned and future research directions
+This section discusses the lessons learned from the current state-of-
+the-art studies, and based on these lessons, synthesizes the future re-
+search challenges that need to be addressed to pave the way for reli-
+able, interpretable, and scalable hallucination detection and mitigation 
+ecosystems in next-generation generative AI systems.
+9.1.  Lessons learned
+Rapid progress in generative AI has brought forward the increasing 
+relevance of mechanisms aimed at hallucination detection, validation, 
+and mitigation in various spheres of application such as medicine, edu-
+cation, science, law, and informational services for the general public. It 
+is clear from the ﬁndings of the reviewed literature that there is no uni-
+versal method for detecting and validating hallucinations, and therefore 
+it is crucial to develop a multi-tier system of mechanisms that include 
+data retrieval, fact checking, reasoning and trustworthiness assessment 
+methods. This section outlines key lessons learned from cutting-edge re-
+search, technologies, and real-life implementation cases of generative 
+artiﬁcial intelligence.
+9.1.1.  On hallucination taxonomy
+Based on the deﬁnitions and categorizations provided in the liter-
+ature,it can be seen that hallucinations are multidimensional concepts 
+that cannot be deﬁned by one type of error only. According to Huang 
+et al. (2025a), factuality, faithfulness, and consistency are three diﬀer-
+ent failures that have diﬀerent origins and requirements. In turn, Pe-
+saranghader and Li (2026) have expanded the taxonomy into four types 
+of errors, including factual, faithful, logical, and temporal. The common 
+theme in all these studies is that the design of a detection algorithm for 
+one speciﬁc error type would not work for other error types.
+9.1.2.  On detection methodologies
+The surveyed literature consistently shows that there exists no sin-
+gle detection method that performs reliably across all types of halluci-
+nation and across all application domains. RAG systems decrease but 
+do not eliminate hallucinations (Niu et al., 2024); factuality metrics 
+overestimate accuracy systematically (Ramprasad and Wallace, 2024); 
+cross-model agreement is constrained by the extent of overlap in train-
+ing data (Bommasani et al., 2021); and self-evaluating models are sub-
+ject to self-referential bias (Pesaranghader and Li, 2026). One of the 
+strongest lessons from the literature is that veriﬁcation systems that 
+combine retrieval, cross-model agreement, and logical coherence layers 
+signiﬁcantly outperform single-layer systems, a result that has been con-
+ﬁrmed repeatedly in ablation studies (Manakul et al., 2023; Gao et al., 
+2023a).
+9.1.3.  On enabling technologies
+Enabling technologies such as transformer-based NLI, dense re-
+trieval, knowledge graphs, and credibility scoring each contribute dis-
+tinct veriﬁcation abilities. Transformer NLI systems produce claim-level 
+Natural Language Processing Journal 16 (2026) 100231 
+17 
+===== PAGE 18 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+entailment scores (Devlin et al., 2019; He et al., 2020); dense retriev-
+ers ensure that veriﬁcation is grounded in current external knowl-
+edge (Lewis et al., 2020; Asai et al., 2023); knowledge graphs enable 
+entity-attribute consistency checks (Wang et al., 2020; Huang et al., 
+2025b; Shami et al., 2026); and credibility scorers weight evidence 
+based on source authority (Chrysidis et al., 2024; Srba et al., 2026). 
+The use of enabling technologies in combination is what deﬁnes the 
+state-of-the-art approach in hallucination veriﬁcation system design.
+9.1.4.  On application domains
+Analysis of veriﬁcation across various application domains suggests 
+that false positive rates, hallucination types, and acceptable rates of cor-
+rections diﬀer signiﬁcantly between them. In healthcare and legal do-
+mains, very low false positives rates are needed to correct hallucinations, 
+while information access applications can accept higher false positive 
+rates in return for higher recall (Kaddour et al., 2023; Bommasani et al., 
+2021; Weidinger et al., 2021). This need to account for the variation in 
+performance criteria motivates the development of conﬁgurable veriﬁ-
+cation systems that allow for adjusting veriﬁcation performance based 
+on context.
+9.2.  Future research directions
+Although there has been signiﬁcant progress towards detecting and 
+mitigating hallucinations in AI-generated content, there are some chal-
+lenges left to be solved, such as scalability, computational eﬃciency,  
+explainability, multilingual capability, privacy preservation, and mul-
+timodel veriﬁcation. From reviewing the relevant studies, it is possi-
+ble to conclude that existing methods have their limitations in terms 
+of providing consistent, explainable, and domain-adaptive veriﬁcation 
+mechanisms. Taking into account identiﬁed gaps and innovative devel-
+opments, this part will address potential areas of future research for the 
+development of more eﬃcient  veriﬁcation methods.
+9.2.1.  Data-driven weight optimization
+A limitation that is common across composite trust scoring ap-
+proaches is that weight assignments are typically made based on ex-
+pert judgment rather than data-driven optimization (Ramprasad and 
+Wallace, 2024; Malin et al., 2025). A future research direction would 
+therefore be to develop methodologies to optimize component weights 
+using, for example, Bayesian regression techniques on veriﬁcation 
+datasets (Muhlgay et al., 2024). Developing weight vectors for medicine, 
+law, and ﬁnance would be of particular importance given the perfor-
+mance degradation seen in these domains.
+9.2.2.  Multilingual and cross-Lingual veriﬁcation
+It is necessary to overcome the heavy English-language bias of exist-
+ing research on hallucination detection through the multilingual expan-
+sion of benchmarks and veriﬁcation systems. Cross-lingual entity-aware 
+claim detection (Panchendrarajan and Zubiaga, 2026) and multilingual 
+claim clustering (Panchendrarajan et al., 2025) lay important founda-
+tions, but multilingual components for NER, NLI, and retrieval are neces-
+sary for veriﬁcation systems to operate across multiple languages. Mul-
+tilingual fact checking infrastructure such as MultiClaimNet (Panchen-
+drarajan et al., 2025) and multilingual fact checking pipelines (Drchal 
+et al., 2024) should be extended to include lower-resource languages 
+absent from the literature.
+9.2.3.  Real-time veriﬁcation and latency reduction
+Veriﬁcation systems will have to reduce end-to-end veriﬁcation la-
+tency considerably before practical deployment is possible. A promising 
+avenue of future research would be the use of pre-computed embed-
+dings for topics that are frequently queried, progressive user interfaces 
+that provide results before full veriﬁcation has taken place, local device-
+based NLI systems for privacy-sensitive use cases, and adaptive veriﬁca-
+tion depth that allocates computational resources proportional to query 
+complexity and domain-speciﬁc risks (Asai et al., 2023; Manakul et al., 
+2023; Gao et al., 2023a).
+9.2.4.  Open-source and privacy-preserving architectures
+Proprietary LLM APIs limit the cost, privacy, and reproducibility of 
+veriﬁcation systems considerably. Future research could systematically 
+analyze the potential of open-source models such as LLaMA 2 (Touvron 
+et al., 2023) as drop-in replacements in cross-model veriﬁcation systems, 
+evaluating the performance-cost trade-oﬀ in these systems. Federated 
+veriﬁcation approaches that localize entity-grounding and entailment 
+scoring while preserving the conﬁdentiality of input queries is an im-
+portant avenue for veriﬁcation within privacy-sensitive contexts.
+9.2.5.  Multimodal hallucination veriﬁcation
+The extension of veriﬁcation systems to multimodal content, includ-
+ing images, audio, and structured data, is an inevitable necessity for 
+the growing capabilities of generative models. Augmented hallucina-
+tion learning for multimodal LLMs (Jiang et al., 2024) and multimodal 
+factuality evaluation (Zhang et al., 2024b) establish important founda-
+tions, but benchmark datasets and end-to-end veriﬁcation pipelines for 
+multimodal claims remain severely underdeveloped in the existing lit-
+erature.
+9.2.6.  Alignment, ethics, and governance
+Future research should focus on addressing the ethical implications 
+of verifying the output of LLMs, including automation bias (Beauvais, 
+2022; Adams et al., 2023), governance of veriﬁcation decisions in high-
+stakes contexts (Jeong et al., 2025; Thorne, 2024), and aligning veriﬁ-
+cation systems with diverse cultures and epistemic norms (Hendrycks 
+et al., 2020; Perez et al., 2022). The research by  Perez et al. (2022) 
+shows that even aligned models can generate hallucinations under ad-
+versarial prompting conditions, establishing red teaming of veriﬁcation 
+systems as an important part of the veriﬁcation process. The issue of 
+veriﬁcation infrastructure governance which includes questions such as 
+control over evidence sources and credibility tier assignment and cor-
+rection decisions, is a neglected sociotechnical problem that requires 
+interdisciplinary collaboration.
+9.3.  Directions for strengthening this survey’s methodology
+In addition to the open questions for future research inherent in the 
+surveyed literature itself (Section 8), the review methodology on which 
+this survey is based (Section 2) presents a number of avenues for im-
+proving the robustness of any future iterations of this analysis. To start 
+with, future updates to this survey could conduct a pre-registered sys-
+tematic review against all included literature to address the publication 
+bias whereby studies presenting novel or positive ﬁndings tend to be 
+more readily published and indexed than studies presenting null or neg-
+ative ﬁndings. Secondly, broadening the search protocol to venues out-
+side the English language could help future studies take into account 
+any veriﬁcation research not covered by the English-language literature 
+considered in this survey. Next, given the rapid developments occurring 
+in the ﬁeld of hallucination detection and veriﬁcation, one promising 
+approach going forward is to create a living version of this survey by 
+periodically updating the search protocol cut-oﬀ date (Section 2). Ad-
+ditionally, future replication of the comparative analysis conducted in 
+this survey (Section 1.2) could use an independently validated multi-
+rater score as well as the structured author judgments conducted in this 
+study. Finally, as discussed in Section 9.2, conducting the full empirical 
+evaluation of the TruthGuard AI architecture proposed in this survey 
+(Section 1) is a critical next step towards validating this concept.
+10.  Conclusion
+This survey has presented a comprehensive review of hallucination 
+detection, evaluation, mitigation, and veriﬁcation research in genera-
+tive AI systems, synthesizing literature spanning 2016 through 2026 
+Natural Language Processing Journal 16 (2026) 100231 
+18 
+===== PAGE 19 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+across eight major research dimensions. We established deﬁnitional 
+clarity around hallucination types, healthcare, law, scientiﬁc research, 
+education, and public information. We then reviewed state-of-the-art 
+methodologies across retrieval-augmented generation, automated fact-
+checking, natural language inference, language modeling, misinforma-
+tion detection, cross-model veriﬁcation, and trustworthy AI frameworks. 
+Key application domains, including healthcare, law, scientiﬁc research, 
+education, and public information, were examined alongside their en-
+abling technologies, such as dense retrieval, knowledge graphs, and 
+credibility scoring. A comparative analysis revealed the superiority of 
+convergent multi-signal architectures over single-layer approaches, a 
+persistent gap between automated metrics and human evaluation, and 
+substantial domain dependence. Several consistent lessons emerge. Hal-
+lucination is a multi-dimensional phenomenon resisting single veriﬁca-
+tion methodologies. Combining retrieval-based, cross-model, and log-
+ical consistency signals provides the most robust detection. Enabling 
+technologies are complementary rather than competitive, with each ad-
+dressing distinct hallucination categories that other technologies can-
+not cover alone. Furthermore, application domains determine neces-
+sary precision–recall trade-oﬀs, demanding conﬁgurable architectures. 
+Finally, open challenges like scalability, temporal inconsistency, inter-
+pretability, and multilingual coverage deﬁne a critical research agenda. 
+Systematic hallucination veriﬁcation remains a societal imperative, and 
+the research agenda outlined in this survey provides a structured path-
+way toward trustworthy, interpretable, and domain-adaptive generative 
+AI systems.
+CRediT authorship contribution statement
+Syed Muhammad Waqas: Writing – review & editing, Writing 
+– original draft, Visualization, Validation, Supervision, Software, Re-
+sources, Methodology, Investigation, Formal analysis, Data curation, 
+Conceptualization; Ziyan Umer: Writing – review & editing, Writing – 
+original draft, Validation, Software, Methodology, Investigation, Formal 
+analysis, Data curation, Conceptualization; Aﬀan Alim: Writing – re-
+view & editing, Writing – original draft, Visualization, Validation, Inves-
+tigation, Funding acquisition, Formal analysis, Data curation, Concep-
+tualization; Muhammad Arham: Writing – review & editing, Writing – 
+original draft, Resources, Methodology, Formal analysis, Data curation, 
+Conceptualization; Mazliham Mohd Su’ud: Writing – review & editing, 
+Software, Resources, Project administration, Methodology, Funding ac-
+quisition, Formal analysis, Data curation, Data curation; Syed Jafar Ali 
+Kazmi: Writing – review & editing, Software, Resources, Investigation, 
+Formal analysis, Data curation, Conceptualization; Muhammad Man-
+soor Alam: Writing – review & editing, Software, Investigation, Formal 
+analysis, Data curation, Conceptualization.
+Funding
+This research received no speciﬁc grant from any funding agency in 
+the public, commercial, or not-for-proﬁt sectors.
+Declaration of competing interest
+The authors declare that they have no known competing ﬁnancial 
+interests or personal relationships that could have appeared to inﬂuence 
+the work reported in this paper. 
+Data availability
+Data will be made available on request.
+References
+Abduljaleel, I.Q., Ali, I.H., 2024. Deep learning and fusion mechanism-based multimodal 
+fake news detection methodologies: a review, engineering. Technol. Appl. Sci. Res. 14 
+(4), 15665–15675.
+Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F.L., Almeida, D., Al-
+tenschmidt, J., Altman, S., Anadkat, S., et al., 2023. Gpt-4 technical report. arXiv 
+preprint arXiv:2303.08774.
+Adams, Z., Osman, M., Bechlivanidis, C., Meder, B., 2023. (Why) is misinformation a 
+problem? Perspect. Psychol. Sci. 18 (6), 1436–1463.
+Adlakha, V., Behnamghader, P., Lu, X.H., Meade, N., Reddy, S., 2024. Evaluating correct-
+ness and faithfulness of instruction-following models for question answering. Trans. 
+Assoc. Comput. Linguist. 12, 681–699.
+Akhtar, M., Schlichtkrull, M., Vlachos, A., 2024. EV2R: Evaluating evidence retrieval in 
+automated fact-checking. arXiv preprint arXiv:2411.05375.
+Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., Mané, D., 2016. Concrete 
+problems in AI safety. arXiv preprint arXiv:1606.06565.
+Anh-Hoang, D., Tran, V., Nguyen, L., 2025. Survey and analysis of hallucinations in large 
+language models: attribution to prompting strategies or model behavior. Front. Artif. 
+Intell. 8, 1622292.
+Asai, A., Wu, Z., Wang, Y., Sil, A., Hajishirzi, H., 2023. Self-rag: learning to retrieve, 
+generate, and critique through self-reﬂection. In: The Twelfth International Conference 
+on Learning Representations.
+Bai, Y., Fu, K., 2024. A large language model-based fake news detection framework with 
+rag fact-checking. In: 2024 IEEE International Conference on Big Data (BigData), pp. 
+8617–8619.
+Beauvais, C., 2022. Fake news: why do we believe it? Jt. Bone Spine 89 (4), 105371.
+Beer, D.D., Matthee, M., 2020. Approaches to identify fake news: a systematic literature 
+review. In: International Conference on Integrated Science, pp. 13–22.
+Bhati, D., Neha, F., Bandaru, D.S., Weber, M., Gajera, I.D., 2026. Mapping the.  LLM 
+Landsc. Cross-Fam. Surv. Archit. Alignment Methods Benchmark Perform. 7, 142.
+Bommasani, R., Hudson, D.A., Adeli, E., Altman, R., Arora, S., Arx, S., Bernstein, M.S., 
+Bohg, J., Bosselut, A., Brunskill, E., et al., 2021. On the opportunities and risks of 
+foundation models. arXiv preprint arXiv:2108.07258.
+Broda, E., Strömbäck, J., 2024. Misinformation, disinformation, and fake news: lessons 
+from an interdisciplinary, systematic literature review. Ann. Int. Commun. Assoc. 48 
+(2), 139–166.
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J.D., Dhariwal, P., Neelakantan, A., 
+Shyam, P., Sastry, G., Askell, A., et al., 2020. Language models are few-shot learners. 
+Adv. Neural Inf. Process. Syst. 33, 1877–1901.
+Cavus, N., Goksu, M., Oktekin, B., 2024. Real-time fake news detection in online social 
+networks: FANDC cloud-based system, Sci. Rep. 14 (1), 25954.
+Chrysidis, Z., Papadopoulos, S., Papadopoulos, S., Petrantonakis, P., 2024. Credible, un-
+reliable or leaked? Evidence veriﬁcation for enhanced automated fact-checking. In: 
+Proceedings of the 3rd ACM International Workshop on Multimedia AI Against Disin-
+formation, pp. 73–81.
+Devlin, J., Chang, M., Lee, K., Toutanova, K., 2019. BERT: pre-training of deep bidirec-
+tional transformers for language understanding. In: Proceedings of the 2019 conference 
+of the North American chapter of the association for computational linguistics: human 
+language technologies Vol. 1, pp. 4171–4186.
+Drchal, J., Ullrich, H., Mlynáˇr, T., Moravec, V., 2024. Pipeline and dataset generation 
+for automated fact-checking in almost any language. Neural Comput. Appl. 36 (30), 
+19023–19054.
+Durmus, E., He, H., Diab, M., 2020. FEQA: a question answering evaluation frame-
+work for faithfulness assessment in abstractive summarization. In: Proceedings of the 
+58th Annual Meeting of the Association for Computational Linguistics, pp. 5055–
+5070.
+Eldifrawi, I., Wang, S., Trabelsi, A., 2024. Automated justiﬁcation production for claim ve-
+racity in fact checking: a survey on architectures and approaches. In:The 62nd Annual 
+Meeting of the Association for Computational Linguistics Vol. 1 of Long Papers.
+Es, S., James, J., Anke, L.E., Schockaert, S., 2024. Ragas: automated evaluation of retrieval 
+augmented generation. In: Proceedings of the 18, pp. 150–158. Th conference of the 
+european chapter of the association for computational linguistics: system demonstra-
+tions.
+Fabbri, A.R., Wu, C., Liu, W., Xiong, C., 2022. QAFactEval: improved qa-based factual 
+consistency evaluation for summarization. In: Proceedings of the 2022 Conference of 
+the North American Chapter. Human Language Technologies, pp. 2587–2601.
+Gabriel, S., Celikyilmaz, A., Jha, R., Choi, Y., Gao, J., 2021. Go ﬁgure: a meta evalua-
+tion of factuality in summarization. In: Findings of the Association for Computational 
+Linguistics: ACL-IJCNLP 2021, pp. 478–487.
+Gao, L., Dai, Z., Pasupat, P., Chen, A., Chaganty, A.T., Fan, Y., Zhao, V., Lao, N., Lee, 
+H., Juan, D., et al., 2023a. RARR: researching and revising what language models 
+say, using language models. vol. 1 of the 61st Annual Meeting of the Association for 
+Computational Linguistics. Long Papers.
+Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., Dai, Y., Sun, J., Wang, H., Wang, H., 
+et al., 2023b. Retrieval-augmented generation for large language models: a survey. 2, 
+1, 32. arXiv preprint arXiv:2312.10997.
+Gong, S., Sinnott, R.O., Qi, J., Paris, C., Nakov, P., Xie, Z., 2026. Multi-sourced, multi-agent 
+evidence retrieval for fact-checking. arXiv preprint arXiv:2603.00267.
+Hang, C.N., Yu, P.-D., Tan, C.W., 2025. TrumorGPT: graph-based retrieval-augmented 
+large language model for fact-checking. IEEE Transactions on Artiﬁcial Intelligence 6 
+(11), 3148–3162.
+Gupta, S., Ranjan, R., Singh, S.N., 2024. A comprehensive survey of retrieval-augmented 
+generation (RAG): evolution, current landscape and future directions. arXiv preprint 
+arXiv:2410.12837.
+Hang, C.N., Yu, P., Tan, C.W., 2025. TrumorGPT: graph-based retrieval-augmented large 
+language model for fact-checking.
+He, P., Liu, X., Gao, J., Chen, W., 2020. DeBERTa: Decoding-enhanced bert with disentan-
+gled attention. arXiv preprint arXiv:2006.03654.
+Hendrycks, D., Burns, C., Basart, S., Critch, A., Li, J., Song, D., Steinhardt, J., 2020. Align-
+ing ai with shared human values. arXiv preprint arXiv:2008.02275.
+Natural Language Processing Journal 16 (2026) 100231 
+19 
+===== PAGE 20 =====
+S.M. Waqas, Z. Umer, A. Alim et al.
+Huang, L., Yu, W., Ma, W., Zhong, W., Feng, Z., Wang, H., Chen, Q., Peng, W., Feng, X., 
+Qin, B., et al., 2025a. A survey on hallucination in large language models: principles, 
+taxonomy, challenges, and open questions. ACM Trans. Inf. Syst. 43 (2), 1–55.
+Huang, Y., Zhang, R., Nie, Z., Chen, J., Zhang, X., 2025b. A graph-based veriﬁcation frame-
+work for fact-checking. arXiv preprint arXiv:2503.07282.
+Jacovi, A., Wang, A., Alberti, C., Tao, C., Lipovetz, J., Olszewska, K., Haas, L., Liu, M., Keat-
+ing, N., Bloniarz, A., et al., 2025. The FACTS grounding leaderboard: benchmarking 
+LLMs’ ability to ground responses to long-form input. arXiv preprint arXiv:2501.03200.
+Jeong, C., Lee, S., Jeong, S., Kim, S., 2025. A study on the framework for evaluating the 
+ethics and trustworthiness of generative AI. arXiv preprint arXiv:2509.00398.
+Jiang, C., Xu, H., Dong, M., Chen, J., Ye, W., Yan, M., Ye, Q., Zhang, J., Huang, F., Zhang, 
+S., 2024. Hallucination augmented contrastive learning for multimodal large language 
+model. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern 
+Recognition, pp. 27036–27046.
+Kaddour, J., Harris, J., Mozes, M., Bradley, H., Raileanu, R., Mchardy, R., 2023. Challenges 
+and applications of large language models. arXiv preprint arXiv:2307.10169.
+Kim, Y., Chang, Y., Karpinska, M., Garimella, A., Manjunatha, V., Lo, K., Goyal, T., Iyyer, 
+M., 2024. Fables: evaluating faithfulness and content selection in book-length summa-
+rization. arXiv preprint arXiv:2404.01261.
+Kishwar, A., Zafar, A., 2023. Fake news detection on pakistani news using machine learn-
+ing and deep learning. Expert Syst. Appl. 211, 118558.
+Lamsiyah, S., Nourbakhsh, A., Schommer, C., 2025. Trust but verify: a comprehensive 
+survey of faithfulness evaluation methods in abstractive text summarization. In: Pro-
+ceedings of the 15th International Conference on Recent Advances in Natural Language 
+Processing-Natural Language Processing in the Generative AI Era, pp. 633–643.
+Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., 
+Yih, W., Rocktäschel, T., et al., 2020. Retrieval-augmented generation for knowledge-
+intensive NLP tasks. Adv. Neural Inf. Process. Syst. 33, 9459–9474.
+Liang, P., Bommasani, R., Lee, T., Tsipras, D., Soylu, D., Yasunaga, M., Zhang, Y., 
+Narayanan, D., Wu, Y., Kumar, A., et al., 2022. Holistic evaluation of language models. 
+arXiv preprint arXiv:2211.09110.
+Lin, S., Hilton, J., Evans, O., 2022. TruthfulQA: measuring how models mimic human 
+falsehoods. In:Proceedings of the 60th Annual Meeting of the Association for Compu-
+tational Linguistics Vol. 1 long papers, 3214–3252.
+Liu, C., He, X., Yi, L., 2024. Determinants of multimodal fake review generation in China’s 
+e-commerce platforms Sci. Rep. 14, 8524.
+Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L., 
+Stoyanov, V., 2019. RoBERTa: a robustly optimized bert pretraining approach. arXiv 
+preprint arXiv:1907.11692.
+Malin, B., Kalganova, T., Boulgouris, N., 2025. A review of faithfulness metrics for hallu-
+cination assessment in large language models. In: IEEE Journal of Selected Topics in 
+Signal Processing
+Mallen, A., Asai, A., Zhong, V., Das, R., Khashabi, D., Hajishirzi, H., 2023. When not to 
+trust language models: investigating eﬀectiveness of parametric and non-parametric 
+memories. In: Proceedings of the 61st annual meeting of the association for computa-
+tional linguistics Vol. 1 Long papers, 9802–9822.
+Manakul, P., Liusie, A., Gales, M., 2023. SelfCheckGPT: zero-resource red-box halluci-
+nation detection for generative large language models. In: Proceedings of the 2023 
+Conference on Empirical Methods in Natural Language Processing, pp. 9004–9017.
+Guo, Z., Schlichtkrull, M., Vlachos, A., 2022. A survey on automated fact-checking. Trans. 
+Assoc. Comput. Linguist. 10, 178–206.
+Min, B., Ross, H., Sulem, E., Veyseh, A. P.B., Nguyen, T.H., Sainz, O., Agirre, E., Heintz, I., 
+Roth, D., 2023a. Recent advances in natural language processing via large pre-trained 
+language models: a survey. ACM Comput. Surv. 56 (2), 1–40.
+Min, S., Krishna, K., Lyu, X., Lewis, M., Yih, W., Koh, P., Iyyer, M., Zettlemoyer, L., Ha-
+jishirzi, H., 2023b. Factscore: ﬁne-grained atomic evaluation of factual precision in 
+long form text generation. In: Proceedings of the 2023 Conference on Empirical Meth-
+ods in Natural Language Processing, pp. 12076–12100.
+Muhlgay, D., Ram, O., Magar, I., Levine, Y., Ratner, N., Belinkov, Y., Abend, O., Leyton-
+Brown, K., Shashua, A., Shoham, Y., 2024. Generating benchmarks for factuality eval-
+uation of language models. The 18th Conference of the European Chapter Vol. 1 of 
+Long Papers, 49–66.
+Neha, F., Bhati, D., 2025. Traditional RAG vs. Agentic RAG: A Comparative Study of 
+Retrieval-Augmented Systems. Technical Report. TechRxiv preprint.
+Ngueajio, M.K., Aryal, S., Atemkeng, M., Washington, G., Rawat, D., 2025. Decoding fake 
+news and hate speech: a survey of explainable ai techniques. ACM Comput. Surv. 57 
+(7), 1–37.
+Niu, C., Wu, Y., Zhu, J., Xu, S., Shum, K., Zhong, R., Song, J., Zhang, T., 2024. RAGTruth: 
+a hallucination corpus for developing trustworthy retrieval-augmented language mod-
+els. The 62nd Annual Meeting of the Association for Computational Linguistics. Vol. 1 
+Long Papers, 10862–10878.
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., Zhang, C., Agarwal, 
+S., Slama, K., Ray, A., et al., 2022. Training language models to follow instructions with 
+human feedback. Adv. Neural Inf. Process. Syst. 35, 27730–27744.
+Panchendrarajan, R., Míguez, R., Zubiaga, A., 2025. MultiClaimNet: a massively multilin-
+gual dataset of fact-checked claim clusters. arXiv preprint arXiv:2503.22280.
+Panchendrarajan, R., Zubiaga, A., 2026. Entity-aware cross-lingual claim detection for 
+automated fact-checking. In: Findings of the Association for Computational Linguistics: 
+EACL 2026, pp. 17–33.
+Perez, E., Huang, S., Song, F., Cai, T., Ring, R., Aslanides, J., Glaese, A., Mcaleese, N., 
+Irving, G., 2022. Red teaming language models with language models. In: Proceedings 
+of the 2022 Conference on Empirical Methods in Natural Language Processing, pp. 
+3419–3448.
+Pesaranghader, A., Li, E., 2026. Hallucination detection and mitigation in large language 
+models. arXiv preprint arXiv:2601.09929.
+Putta, A.R., Devasier, J., Li, C., 2025. ClaimCheck: automatic fact-checking of 
+textual claims using web evidence. In: Proceedings of the 4th International 
+Workshop on Knowledge-Augmented Methods for Natural Language Processing,
+pp. 303–316.
+Qazi, A.M., Mccrae, J.P., Nasir, J.A., 2025. When retrieval outperforms generation: dense 
+evidence retrieval for scalable fake news detection. In: Proceedings of the 5th Confer-
+ence on Language, Data and Knowledge, pp. 255–265.
+Rafailov, R., Sharma, A., Mitchell, E., Manning, C.D., Ermon, S., Finn, C., 2023. Direct 
+preference optimization: your language model is secretly a reward model. Adv. Neural 
+Inf. Process. Syst. 36, 53728–53741.
+Ramprasad, S., Wallace, B.C., 2024. Do automatic factuality metrics measure factuality? 
+A critical evaluation. arXiv preprint arXiv:2411.16638.
+Raza, S., Paulen-Patterson, D., Ding, C., 2025. Fake news detection: comparative evalua-
+tion of bert-like models and large language models with generative AI-annotated data. 
+Knowl. Inf. Syst. 67 (4), 3267–3292.
+Sahitaj, P., Maab, I., Yamagishi, J., Kolanowski, J., Möller, S., Schmitt, V., 2025. Towards 
+automated fact-checking of real-world claims: exploring task formulation and assess-
+ment with LLMs. arXiv preprint arXiv:2502.08909.
+Schlichtkrull, M., Guo, Z., Vlachos, A., 2023. AVeriTeC: a dataset for real-world claim ver-
+iﬁcation with evidence from the web. Adv. Neural Inf. Process. Syst. 36, 65128–65167.
+Shami, F., Marchesin, S., Silvello, G., 2026. Benchmarking Large Language Models for 
+Knowledge Graph Validation. arXiv preprint arXiv:2602.10748.
+Shi, F., Chen, X., Misra, K., Scales, N., Dohan, D., Chi, E.H., Schärli, N., Zhou, D., 2023. 
+Large language models can be easily distracted by irrelevant context. In: International 
+Conference on Machine Learning, pp. 31210–31227.
+Shuster, K., Poﬀ, S., Chen, M., Kiela, D., Weston, J., 2021. Retrieval augmentation re-
+duces hallucination in conversation. In: Findings of the Association for Computational 
+Linguistics: EMNLP 2021, pp. 3784–3803.
+Song, M., Son, H.R., Lee, J., 2025. Introducing Veriﬁcation Task of set Consistency with 
+Set-Consistency Energy Networks. vol. 1 of the 63rd Annual Meeting of the Association 
+for Computational Linguistics. Long Papers.
+Srba, I., Razuvayevskaya, O., Leite, J.A., Moro, R., Schlicht, I.B., Tonelli, S., García, F.M., 
+Lottmann, S.B., Teyssou, D., Porcellini, V., et al., 2026. A survey on automatic credi-
+bility assessment using textual credibility signals in the era of large language models. 
+ACM Trans. Intell. Syst. Technol. 17 (2), 1–80.
+Thibault, C., Tian, J., Péloquin-Skulski, G., Curtis, T.L., Zhou, J., Laﬂamme, F., Guan, L.Y., 
+Rabbany, R., Godbout, J., Pelrine, K., 2025. A guide to misinformation detection data 
+and evaluation. In: Proceedings of the 31st ACM SIGKDD Conference on Knowledge 
+Discovery and Data Mining, pp. 5801–5809.
+Thorne, S., 2024. Understanding the interplay between trust, reliability, and human fac-
+tors in the age of generative ai. Int. J. Simul.-Syst. Sci. Technol. 25 (1).
+Tomassi, A., Falegnami, A., Romano, E., 2025. Disinformation in the digital age: climate 
+change, media dynamics, and strategies for resilience Publications 13, 24.
+Tonmoy, S., Zaman, S., Jain, V., Rani, A., Rawte, V., Chadha, A., Das, A., 2024. A com-
+prehensive survey of hallucination mitigation techniques in large language models. 
+Technical Report. arXiv preprint arXiv:2401.01313.
+Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., Bashlykov, N., 
+Batra, S., Bhargava, P., Bhosale, S., et al., 2023. LLAMA 2: open foundation and ﬁne-
+tuned chat models. arXiv preprint arXiv:2307.09288.
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., Kaiser, L., 
+Polosukhin, I., 2017. Attention is all you need. Adv. Neural Inf. Process. Syst. 30.
+Wang, J., Zhu, Z., Liu, C., Li, R., Wu, X., 2024. LLM-enhanced multimodal detection of 
+fake news. PloS one 19 (10), e0312240.
+Wang, Y., Li, P., Sun, M., Liu, Y., 2023. Self-knowledge guided retrieval augmentation for 
+large language models. In: Findings of the Association for Computational Linguistics: 
+EMNLP 2023, pp. 10303–10315.
+Wang, Y., Ma, F., Gao, J., 2020. Eﬃcient  knowledge graph validation via cross-graph 
+representation learning. In: Proceedings of the 29th ACM International Conference on 
+Information & Knowledge Management, pp. 1595–1604.
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., Le, Q.V., Zhou, D., et al., 
+2022b. Chain-of-thought prompting elicits reasoning in large language models. Adv. 
+Neural Inf. Process. Syst. 35, 24824–24837.
+Weidinger, L., Mellor, J., Rauh, M., Griﬃn,  C., Uesato, J., Huang, P., Cheng, M., Glaese, 
+M., Balle, B., Kasirzadeh, A., et al., 2021. Ethical and social risks of harm from language 
+models. arXiv preprint arXiv:2112.04359.
+Xu, S., Pang, L., Shen, H., Cheng, X., Chua, T., 2024. Search-in-the-chain: interactively 
+enhancing large language models with search for knowledge-intensive tasks. In: Pro-
+ceedings of the ACM Web Conference. pp. 1362–1373.
+Zaman, K., Srivastava, S., 2025. A causal lens for evaluating faithfulness metrics. In: Pro-
+ceedings of the 2025 Conference on Empirical Methods in Natural Language Process-
+ing, pp. 29413–29437.
+Zhang, W., Aliannejadi, M., Pei, J., Yuan, Y., Huang, J., Kanoulas, E., 2024a. A compara-
+tive analysis of faithfulness metrics and humans in citation evaluation. arXiv preprint 
+arXiv:2408.12398.
+Zhang, Y., Zuo, J., Su, K., Jing, L., 2024b. Fine-grained and explainable factuality evalu-
+ation for multimodal summarization. arXiv preprint arXiv:2402.11414.
+Zhao, W.X., Zhou, K., Li, J., Tang, T., Wang, X., Hou, Y., Min, Y., Zhang, B., Zhang, J., 
+Dong, Z., et al., 2023. A survey of large language models. 1 (2), 1–124. arXiv preprint 
+arXiv:2303.18223.
+Natural Language Processing Journal 16 (2026) 100231 
+20 

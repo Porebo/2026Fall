@@ -1,0 +1,1139 @@
+
+===== PAGE 1 =====
+Review
+A systematic review on how educators teach AI in K-12 education
+Xiaofan Liu, Baichang Zhong
+*
+School of Information Technology in Education, South China Normal University, No.55 West Zhongshan Avenue, Guangzhou, 510631, China
+ARTICLE INFO
+Keywords:
+K-12 education
+AI education
+AI literacy
+Research design
+Teaching practice
+ABSTRACT
+Developing Artificial Intelligence (AI) education in K-12 contexts, i.e., teaching students about AI, 
+is critical to promote students ’ AI literacy. However, the state-of-the-art of AI education is not 
+clear enough. To this end, this study reviewed 45 high-quality empirical studies on K-12 AI ed -
+ucation over the past decade from both research and instruction perspectives. Regarding the 
+research design, this study revealed the relationship between publication year, sample size, 
+learning stage, educational setting, research method, research focus and duration. Regarding the 
+instruction design, this study revealed the relationship between learning stage, pedagogical 
+strategy, learning tool, learning activity, learning content, assessment method and learning effect. 
+Besides, this study also derived recommendations for research (i.e., time allocation, samples se -
+lection, longitudinal design, rigorous methodology and technical democracy) and instruction (i. 
+e., group learning, authentic context, teacher involvement, triangular evidence and learning 
+scaffolding). Overall, the main findings indicate that K-12 AI education has the potential to 
+develop students ’ AI literacy, which contains AI knowledge, AI affectivity, and AI thinking. 
+However, deficiencies in research and instructional design still remain, including short durations, 
+small sample sizes, non-standardized research methods, lack of long-term and cross-age AI cur -
+riculum, etc. This study also discussed several critical topics for future research and instruction.
+1. Introduction
+Nowadays, the rapid development of Artificial Intelligence (AI) is fundamentally transforming the industries and human lifestyles. 
+This is evidenced by the increasing use of AI to address complex problems in fields such as healthcare, engineering, economics, 
+agriculture, shopping, transportation and psychology ( Su et al., 2023a ). The ubiquity of AI applications requires future generations to 
+acquire sufficient AI literacy to most effectively use such technologies ( Chiu, 2021 ). In this context, K-12 AI education has become 
+increasingly essential to preparing children early for social and technological changes ( Ng et al., 2023a ). This section will clarify the 
+definition of AI education, elucidate the development of K-12 AI education, and provide an overview of existing relevant reviews.
+1.1. Definition of Al education
+According to the diverse AI roles in education, there are multiple interpretations of AI education. Through a systematic literature 
+review, Xu and Ouyang (2022) summarized three AI roles in education: (1) AI as a direct mediator (a platform or a tool); (2) AI as a 
+* Corresponding author. School of Information Technology in Education, South China Normal University, No.55, West of zhongshan Avenue, PO 
+Box 510631, Guangzhou, China.
+E-mail address: zhongbc@163.com (B. Zhong). 
+Contents lists available at ScienceDirect
+Educational Research Review
+journal homepag e: www.else vier.com/loc ate/edurev
+https://doi.org/10.1016/j.edurev.2024.100642
+Received 18 January 2024; Received in revised form 25 August 2024; Accepted 2 October 2024  
+Educational Research Review 45 (2024) 100642 
+Available online 4 October 2024 
+1747-938X/© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+===== PAGE 2 =====
+supplementary assistant (data mining, learning analysis and predictive ability); and (3) AI as a new subject (an instructor or a student). 
+Currently, AI plays the former two roles, which are dedicated to meeting demands, assessing performance or providing feedback in 
+various educational scenarios ( Marr, 2018 ). AIED (AI in Education) has captured the interest of educators who are devoted to 
+enhancing the application of AI technologies in teaching, learning, evaluation, and management (e.g., Moore et al., 2023 ; Nguyen 
+et al., 2023 ). On this basis, AI education can be broadly defined as the use of AI technology to accelerate the reform of talent training 
+modes.
+However, the possibilities for AI in education exist beyond simple online platforms, tools or applications. Especially, the emergence 
+of ChatGPT highlights the potential for AI as a new subject to replace the original subjects ( Jeon & Lee, 2023 ). In the future, AI may 
+work as a tutor to transform the instructor-student relationship, a tutee to transform the student-self relationship, and a peer to 
+transform the student-student relationship ( Xu & Ouyang, 2022 ). In this context, a growing body of studies emphasize that future 
+generations should acquire sufficient AI literacy to better adapt to human-machine collaboration ( Chiu et al., 2021 ; Long & Magerko, 
+2020 ). With the rapid advances in technology, the concept of literacy has transcended its original meaning associated with books and 
+printing ( Buckingham & Burn, 2007 ). As an emerging technology that simulates and extends human intelligence, AI involves multiple 
+disciplines such as neurophysiology, psychology, computer science, and mathematics, etc. The cross-disciplinary nature of AI requires 
+both domain-specific and domain-general attributes of AI literacy ( Authors, 2024a ). The former enables students to master scientific, 
+technical and ethics foundations of AI, while the latter equips students with the higher-order thinking required to address unfamiliar 
+problems, uncertainties, or dilemmas in an AI-powered society.
+Education should not only take the present situation into consideration but also be future-oriented ( Huang, 2021 ). The escalating 
+significance of AI literacy necessitates a shift in AI education from “AI in education” to “education about AI”. From a domain-specific 
+perspective, this type of AI education focuses on designing learning contents within the AI discipline, such as “knowledge in AI," 
+"impact of AI," and "process in AI " ( Chiu, 2021 ). From a domain-general perspective, this type of AI education focuses on developing 
+higher-order thinking activities (e.g., craft AI-based artifacts, design AI applications) that involve real-world problems ( Ng et al., 
+2021 ). These two aspects form the meaning of "AI education" in this paper, which aims to cultivate students’ AI literacy by teaching 
+students about AI through higher-order thinking activities in real-world contexts.
+1.2. Development of K-12 AI education
+Various governmental initiatives, university, school and enterprise efforts have been expended to promote K-12 AI education. For 
+instance, UNESCO (2020) announced an education policy titled “Al in Education: Change at the Speed of Learning” to describe the 
+current practices of Al curriculum in K-12 schools. Besides, AAAI and CSTA (2019) proposed the “five big ideas” to elucidate essential 
+AI concepts for K-12 students in the United States in terms of perception, representation and reasoning, learning, natural interaction, 
+and societal impact of AI. Furthermore, ISTE (2022) provided a set of guidelines for teachers who are seeking AI instructional and 
+curriculum resources for all grades and disciplines in K-12. In alignment with the national trend, Macquarie University’s School of 
+Education (MUSE) collaborated with IBM to propose an inclusive AI curriculum framework for middle schools ( Sabuncuoglu, 2020 ). 
+Besides, East China Normal University (ECNU) collaborated with SenseTime to publish the inaugural series of high school textbooks 
+titled “Fundamentals of Artificial Intelligence” ( Tang et al., 2018 ). Moreover, the Massachusetts Institute of Technology (MIT) focused 
+on creating AI tools for kindergarten children - robots, and examined their uses and effects (Williams et al., 2019). Therefore, the 
+development of AI education guidelines, curriculum, and tools has become a national strategy pushed by public and private sectors, 
+which reflects a concerted commitment to systematically advancing educational frameworks aligned with the evolving landscape of AI 
+technologies. Nevertheless, these curriculum and tools still require rigorous examination to better understand global guidelines and 
+develop effective instructional design in K-12 education.
+1.3. Reviews on studies of K-12 Al education
+With a development of AI education, researchers have initiated empirical studies to report on AI education in K-12 schools. Several 
+exploratory reviews have started to summarize the effective practices of AI education across different levels. For instance, Ng et al. 
+(2023d) performed a thematic analysis of 50 studies from 2016 to 2022 to evaluate pedagogy, instructional tools, learning contents, 
+and assessment methods of AI education in secondary school. However, their studies did not focus on the entire range of K-12 
+education.
+Von Wangenheim et al. (2021) presented a ten-year systematic mapping of emerging visual tools from 24 artifacts to support ML 
+teaching in K-12 settings in terms of educational characteristics, deployment, and evaluation of these tools. Additionally, Ng et al. 
+(2023a) conducted a thematic and content analysis of 49 empirical studies from 2000 to 2020 to summarize the teaching tools and 
+pedagogical strategies of AI education in K-12 levels. However, these reviews have not revealed what is being taught about AI and how 
+it affects student learning in K-12 education.
+Su et al. (2023a) synthesized 21 empirical studies from 1984 to 2021 to show how AI curriculum have been designed and 
+implemented in K-12 classrooms in terms of learning goals, contents, teaching methods, assessments, and learning effects. Yue et al. 
+(2022) analyzed 32 empirical studies from 2010 to 2022 both descriptively and thematically to provide the research status, peda -
+gogical design, assessments and outcomes of the AI teaching programs. Sanusi et al. (2023c) reviewed 43 conference and journal 
+papers to identify three focus areas for K-12 ML teaching: curriculum development, technology development, pedagogical develop -
+ment, and teacher training/professional development. These reviews summarize learning contents, tools, and pedagogy in K-12 AI 
+education while assessing students’ learning effects, which provides valuable insights for this study. However, they involve several 
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+2 
+===== PAGE 3 =====
+limitations: (1) did not focus on studies within a refined time span; (2) did not ensure the quality of reviewed papers, as the selected 
+papers included many conference papers; (3) did not utilize multiple search strategies to retrieve sufficient papers; (4) did not cover 
+more AI topics such as neural networks, natural language processing, etc. (5) did not examine the research design of empirical studies; 
+(6) did not examine the relationships between multiple coded elements. The term “ AI literacy ” was first introduced in 2016, which 
+signaled the rise of AI education for non-technical students ( Kandlhofer et al., 2019 ). Thus, the last decade is a suitable time span to 
+explore K-12 AI education.
+Considering aforementioned limitations, the purpose of this review is twofold: (1) to systematically review high-quality empirical 
+studies from January 2014 to April 2024 on K-12 AI education from both research and instruction perspectives, and (2) to explore 
+future directions for research and instruction in K-12 AI education based on the reviewed papers. The term “ empirical study ” refers to 
+field-based research which gathers data from real-world observations or instructional experiments, such as action research, design- 
+based research, experimental research, and case study ( Flynn et al., 1990 ). Therefore, this review aims to examine the empirical 
+evidence on K-12 AI education to answer three research questions.
+(1) What research has been conducted on K-12 AI education?
+(2) How has K-12 AI education been designed and implemented?
+(3) What recommendations for K-12 AI education are addressed in these empirical studies?
+2. Method
+The review follows the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines ( Page et al., 
+2021 ) for conducting a systematic literature review and proceeds through four stages: data collection, data selection, data extraction, 
+and data synthesis.
+2.1. Literature search
+The literature search was conducted in April 2024 using the Web of Science (WOS) and Scopus Databases. The search keywords 
+were constructed by Boolean logic as follows: Topics = ( “ Artificial Intelligence ” OR "Machine Learning" OR “ Deep Learning ” OR 
+“ Neuralnetwork* ” OR “ Natural Language Processing ” ) AND (Education OR School OR Curriculum OR Curricula OR Course OR Learn* 
+OR Teach* OR Instruction OR Pedagogy OR Student) AND ( “ K12 ” OR “ K 12 ” OR “ high school ” OR “ secondary school ” OR “ middle 
+school ” OR “ primary school ” OR “ elementary school ” OR Child* OR Kindergarten OR “ Preschool ” ). The initial search yielded 20738 
+WOS publications and 16826 Scopus publications.
+2.2. Screening and data extraction
+The selection process involved two stages.
+Stage 1. The first stage was a preliminary screening.
+Publications retrieved from the query were considered if they were.
+(1) published between January 2014 to April 2024.
+(2) written in English, but not necessarily in an English-speaking country.
+(3) research areas categorized as “ Education Educational Research ” in WOS or “ Social Science ” in Scopus.
+(4) article or journal paper or journal article or research article (including early access).
+(5) sourced from Web of Science Core Collection in WOS or Scopus CiteScore Q1 or Q2 in Education.
+After the preliminary screening, 875 WOS publications and 429 Scopus publications were yielded for further selection. After 
+removing duplicates, 1093 articles were retained.
+Table 1 
+Inclusion and exclusion criteria.
+Inclusion criteria Exclusion criteria
+Papers belonged to empirical studies. Review, editorials, or other theoretical papers.
+Papers reported studies conducted in 
+K-12.
+Papers focused on college/university education or adult education.
+Papers in which the participants were 
+students.
+Papers in which the participants were teachers.
+Papers involved in teaching and 
+learning AI.
+Papers that mentioned the term “ AI ” but were actually about applying AI in education or investing participants ’ attitudes, 
+intentions, or perception of AI education without implement details.
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+3 
+===== PAGE 4 =====
+Stage 2. The second stage applied the following selection criteria (See Table 1 ) to identify which papers could be included in this 
+review.
+The titles and abstracts of 1093 papers were analyzed according to the above four inclusion criteria. As a result, 60 papers 
+remained. Subsequently, all papers were full-text read by two back-to-back authors. 15 papers were eliminated because two studies 
+investigated teachers ’ evaluations of AI learning tools developed in K-12 education ( Park & Shin, 2021 , 2022 ), four studies involved 
+the application of AI tools in early childhood education ( Duji ´c Rodi ´c et al., 2023 ; Kewalramani et al., 2021 ; Tian & Cui, 2022 ; Wang 
+et al., 2021 ), and nine other studies focused on the development of K-12 AI learning tools ( Cen et al., 2023 ; Naya-Varela et al., 2023 ), 
+curriculum ( Bellas et al., 2023 ) or assessment ( Gresse Von Wangenheim et al., 2022 ); students ’ intentions and perceptions of learning 
+AI ( Chai et al., 2021 ; Sing et al., 2022 ); or the influencing factors (e.g., AI knowledge, AI readiness, AI engagement and AI attitude) of 
+AI education ( Huang et al., 2024 ; Xia et al., 2023a , 2023b ), but did not provide details on the implementation of AI education. In the 
+end, 45 papers were left.
+2.3. Snowballing searching
+To track papers that we might have ignored initially, we utilized the snowballing approach ( Wohlin, 2014 ) to examine the ref -
+erences and citations of well-referenced literature reviews and previously selected papers based on our predetermined eligibility 
+criteria (see Table 2 ).
+In the first round of snowballing, three well-referenced literature reviews ( Gresse von Wangenheim et al., 2021 ; Ng et al., 2023a ; 
+Sanusi et al., 2023c ) were selected as seeds to search for papers in Web of Science. 351 references from backward snowballing and 63 
+citations from forward snowballing were found (414 papers in total). One new paper was selected based on the above four inclusion 
+criteria.
+In the second round of snowballing, four papers ( Chiu et al., 2021 ; Estevez et al., 2019 ; Salas-Pilco, 2020 ; Xia et al., 2022 ) that were 
+highly cited in the aforementioned search were identified as new seeds. 206 references from backward snowball and 155 citations from 
+forward snowball were examined (361 papers in total). As a result, two new papers were singled out.
+In the third round of snowballing, two papers ( Chang & Tsai, 2021 ; Kong et al., 2023 ) were identified as new seeds. 157 references 
+from backward snowball and 12 citations from forward snowball were examined (169 papers in total), but no more papers were found. 
+This indicates that the iterative process of the snowball approach could be ended.
+Therefore, after employing 3 rounds of snowballing searches, two additional relevant paper was identified. Finally, 47 papers were 
+included for further coding. An overview of the search protocol is presented in a PRISMA diagram (see Fig. 1 ).
+2.4. Quality appraisal
+The quality of the papers was evaluated following the criteria employed by Gao et al. (2023) , which were developed based on the 
+evaluation of qualitative studies ( Savin-Baden & Major, 2007 ) and quantitative studies ( NICE, 2012 ). Among the included studies, 
+there are qualitative studies (n = 16), quantitative studies (n = 10), and mixed method studies (n = 21). The quality of mixed-method 
+studies was evaluated according to both qualitative and quantitative criteria. As shown in Table 3 , paper quality was measured from 
+“ no mention ” (NM, 0), “ some mention ” (SM, 1), “ good mention ” (GM, 2) to “ extensive mention ” (EM, 3). Each paper was assigned an 
+average score based on its results in each category. The first and second authors evaluated three papers based on the criteria. All three 
+papers scored above 2 (good mention), but for slightly different reasons. After reaching consensus on the criteria through discussion, 
+the first author performed the quality appraisal of the remaining papers. Finally, 45 papers were included in the analysis except for two 
+papers ( Chiang et al., 2023 ; Zammit et al., 2022 ) that scored below 2.
+Table 2 
+Summary of snowballing approach.
+Procedure Seeds References Selected Citations Selected
+Round 1 Gresse von Wangenheim et al. (2021) 94 0 25 0 ( + 3
+a
+)
+Ng et al. (2023a) 173 1 ( + 3
+a
+) 23 0 ( + 2
+a
+)
+Sanusi et al. (2023c) 84 0 ( + 1
+a
+) 15 0 ( + 1
+a
+)
+Round 2 Chiu et al. (2021) 47 0 43 0 ( + 6
+a
+)
+Estevez et al. (2019) 46 0 43 1 ( + 4
+a
+)
+Salas-Pilco (2020) 54 0 20 0
+Xia et al. (2022) 59 0 ( + 1
+a
+) 49 0 ( + 6
+a
+)
+Round 3 Chang & Tsai (2021) 86 0 6 0
+Kong et al., 2023 71 0 ( + 2
+a
+) 6 0 ( + 2
+a
+)
+Total 714 1 230 1
+Note.
+a
+The number of papers selected before, which are not added to the total.
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+4 
+===== PAGE 5 =====
+Fig. 1. PRISMA diagram.
+Table 3 
+Criteria for the quality appraisal.
+Criteria NM 
+(0)
+SM 
+(1)
+GM 
+(2)
+EM 
+(3)
+Qualitative studies Study is clear methodologically 0 0 16 21
+Study theoretically situated 0 5 19 13
+Ethical process transparent 19 3 9 6
+Researcher(s’) relation to participants is clear 0 0 19 18
+Researcher(s’) relation to the data is clear 0 1 18 18
+Researcher(s’) takes a critical stance towards own research 0 0 29 8
+Congruence between methodology and methods used for data collection, analysis, and 
+interpretation
+0 3 18 16
+Participants involvement in data interpretation 0 5 15 17
+Limitations voiced 9 2 21 5
+Quantitative 
+studies
+Is the source population or source area well-described? 0 2 16 13
+Were interventions and comparisons well-described and appropriate? 0 6 9 16
+Were outcome measures reliable? 0 6 15 10
+Were outcomes relevant? 1 1 12 17
+Were the analytical methods appropriate? 0 4 17 10
+Are the study results internally valid (i.e., unbiased)? 0 2 26 3
+Are the findings generalizable to the source population (i.e., externally valid)? 0 4 24 3
+Note. The above criteria for the quality appraisal were derived from Gao et al. (2023) .
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+5 
+===== PAGE 6 =====
+2.5. Coding scheme
+General information about 45 papers including publish time, learning stage, educational setting, and paper title were coded into 
+Appendix A . The specific coding elements for each research question are as follows.
+2.5.1. Coding elements for Q1
+To answer the first question, information on sample size, duration, research method, research type, analysis methods and research 
+focus were coded in Appendix B . By synthesizing Lv et al. (2023) and Authors (2018 , 2023) , sample sizes were categorized as 4 – 20, 
+21 – 40, 41 – 60, 61 – 80, and > 80; durations were categorized as ≤ 1 day, ≤ 1 week, ≤ 3 weeks, ≤ 5 weeks, ≤ 9 weeks, and ≥ 12 weeks; and 
+research methods were categorized as true experiment, quasi-experiment, non-experiment, case study, and design-based research. 
+Regarding the research types, the first three categories of research methods will be denoted by specialized symbols. Analysis methods 
+will be determined based on the specific adoption of each study. Adapted from Sanusi et al. (2023c) ’ s summary of research focus in 
+K-12 ML teaching and learning, four elements were identified to determine the research focus of each study: (1) pedagogical devel -
+opment: strategies employed to teach AI; (2) curriculum development: content designed to introduce AI; (3) tool development: 
+technology developed to teach AI; and (4) evaluation development: approaches employed to evaluate AI learning.
+2.5.2. Coding elements for Q2
+The rise of learning tools and pedagogical strategies has attributed the popularity of AI teaching ( Ng et al., 2023a ; Xia et al., 2022 ). 
+Incorporating AI education into schools also requires a comprehensive evaluation of students ’ learning effects ( Kim & Kwon, 2024a ). 
+According to the definition of AI education in Section 1.1 , the learning effects of AI education focus on AI literacy, which was inex -
+tricably linked to the design of learning contents and activities. On this basis, a set of instructional elements based on Scott ’ s (2007)
+model of curriculum design was identified, including learning tool, pedagogical strategy, learning activity, learning content, assess -
+ment method, and learning effect (see Appendix C ). Meanwhile, learning stages were also incorporated into the framework to observe 
+the specifics of the above elements in K-12 education. Fig. 2 summarizes the theoretical framework for coding.
+● Learning supports
+Fig. 2. The theoretical framework for designing and implementing AI education 
+Note. The dimensions of the inductive thematic analysis were based on Ng et al. (2023a , 2023b , 2023d) , Lv et al. (2023) and Authors (2023 , 
+2024a , 2024b) .
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+6 
+===== PAGE 7 =====
+Four categories of learning tools aligned with Ng et al. (2023a , 2023d) were identified, including hardware (e.g., robotics, sensors 
+and Arduino devices), software (e.g., programming environments, WebAPPs), intelligent agents (e.g., machine learning trainers, 
+expert systems, chatbots) and unplugged activities (e.g., lectures, textbooks, storytelling).
+Four categories of pedagogical strategies were identified by integrating Ng et al. (2023a , 2023d) , including (1) Collaborative 
+learning: students solve problems, accomplish tasks, or create products through group intelligence ( Van Leeuwen & Janssen, 2019 ); (2) 
+Project-based learning: students acquire knowledge and skills by investigating authentic problems and developing real-world products 
+( Chen & Yang, 2019 ); (3) Game-based learning: students enhance their understanding, interest, motivation and engagement by 
+incorporating game elements ( Sun et al., 2023b ); and (4) Experiential learning: students learn by doing through hands-on learning 
+experiences ( Chiu et al., 2021 ).
+● Learning contents
+Three types of learning contents adapted from Chiu (2021) were identified, including (1) Knowledge in AI: definition, history, 
+application and latest development of AI; (2) Impact of AI: social impact, AI ethics and human bias; and (3) Process in AI: principles of 
+how AI use data to develop their abilities, which include modeling, statistical inference, and algorithms, etc.
+● Learning activities
+Three levels of AI learning activities derived from Authors (2024b) were identified, including (1) Experience & Perception: students 
+experience simplified or pre-trained models to produce artifacts using block-based programming; (2) Applications & Design: students 
+go through the complete model training process to produce simple AI systems using low-code programming; and (3) Synthesis & 
+Creation: students produce multi-modal AI systems by combining different tools, algorithms and models.
+● Learning outcomes
+Three categories of assessment methods aligned with Ng et al. (2023d) were identified, including quantitative, qualitative and 
+mixed methods.
+Regarding the learning effects, three dimensions of Al literacy divided by Authors (2024a) were identified, including (1) AI 
+knowledge: basic concepts and techniques behind AI; (2) AI affectivity: perception on the relationship between AI, humans and society; 
+and (3) AI thinking: high-order thinking required to apply AI to solve unfamiliar problems, uncertainties, or dilemmas. This cate -
+gorization is based on Anderson & Krathwohl (2001) ’ s revised Bloom ’ s Taxonomy of Educational Objectives (BTEO), which em -
+phasizes cognitive development by integrating knowledge and thinking along the continuum from recognition to creation. 
+Additionally, the early BTEO included an affective domain, which encompassed interests, attitudes and values along the continuum 
+from acceptance to characterization ( Krathwohl et al., 1964 ). Moreover, the affective and cognitive continuums overlap significantly, 
+which contributes to the overall development of the individual. On this basis, AI knowledge, AI affectivity, and AI thinking were 
+identified as the three dimensions that logically constitute AI literacy.
+2.5.3. Coding elements for Q3
+To answer the third question, research and instructional recommendations based on Authors (2023) were generalized from 
+findings, implications, limitations and future directions in these empirical studies (see Appendix D ). This will not only help teachers 
+implement effective K-12 AI instruction, but also encourage researchers to conduct more valuable and standardized research on K-12 
+AI education.
+Fig. 3. Publishing year and educational setting. 
+Note. Since two studies ( Lin et al., 2023b ; Priya et al., 2022 ) did not mention their settings, 43 samples were included in the statistics.
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+7 
+===== PAGE 8 =====
+For Q1 and Q2, inductive thematic analysis was employed to categorize content with similar meanings into themes pertaining to 
+above elements. All papers were qualitatively coded by the first and second authors, which demonstrated a high inter-reliability 
+(Cohen ’ s Kappa = .80). Discrepancies in responses between the two researchers were subsequently compared and discussed. For 
+Q3, the first author employed an inductive thematic analysis to code and categorize the recommendations into research or instruc -
+tional themes.
+3. Results
+In this section, Sankey diagrams were used to visualize the main results. These diagrams represent categories with lines whose 
+widths are proportional to flow magnitude, thereby illustrating flow distribution and the relative sizes of different categories ( Vosough 
+et al., 2019 ).
+3.1. What research has been conducted on K-12 AI education?
+This section, analyzed the 45 studies from the perspectives of publishing year, sample size, learning stage, educational setting, 
+duration, research method and research focus, as well as the intersecting relationship between any two of them.
+3.1.1. The rising status of K-12 AI education
+According to Fig. 3 , the publication year of K-12 AI education has been concentrated in 2019 – 2024 in the last decade. Among them, 
+the number of relevant papers published in 2022 and 2023 accounted for 76.7% (n = 33) of the total publications.
+A further mapping between publishing year and educational setting was performed. It was identified that all papers between 2019 
+and 2020 were implemented in informal settings (e.g., workshops, after-school programs, summer camps), which indicates that early 
+researchers tended to explore the effects of K-12 AI education in informal settings. Research on teaching AI in school curriculum has 
+gradually increased since 2021, indicating the rising status of K-12 AI education. This trend is likely to be more pronounced as the 
+literature search is still in early 2024. Besides, there was also a study ( Park et al., 2022 ) conducted separate experiments in formal and 
+informal settings, respectively.
+3.1.2. Different learning stages vary in duration and sample size
+As shown in Fig. 4 , junior middle schools (15 or 35.7%) were the most researched educational levels, followed by primary schools 
+(13 or 31%) and high schools (11 or 26.2%), and finally kindergartens (3 or 7.1%). This indicates that research on K-12 AI education is 
+primarily conducted in junior middle schools.
+Besides, most high school experiments lasted less than 3 weeks (8 or 72.7%) and had fewer than 40 participants (6 or 54.5%). Most 
+Fig. 4. Duration and sample size corresponding to each learning stage. 
+Note. Among the 45 studies, 2 studies ( Sanusi et al., 2023c ; Vartiainen et al., 2020 ) did not specify the learning stage, 3 studies ( Huang & Qiao, 
+2022 ; Lin et al., 2023b ; Martins et al., 2023 ) involved participants in junior middle and high schools. Since Huang & Qiao (2022) and Martins et al. 
+(2023) ’ s study did not specify the sample size of the two learning stages involved, they are excluded from the statistics. Therefore, 42 samples were 
+included in the final statistics. Besides, some studies ( Dai et al., 2023b ; Kong et al., 2023 ; Relmasira et al., 2023 ; Williams et al., 2023 ; Xia et al., 
+2022 ) conducted multi-stage experiments, and only the largest sample size participating in the experiment was included in the analysis.
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+8 
+===== PAGE 9 =====
+junior middle school experiments lasted less than 5 weeks (11 or 73.3%) and had fewer than 60 participants (11 or 73.3%). Most 
+primary school experiments lasted for less than 9 weeks (12 or 92.3%) and involved fewer than 60 participants (9 or 69.2%). All 
+kindergarten experiments lasted for less than 9 weeks with less than 40 participants. Meanwhile, experiments lasting more than 12 
+weeks were conducted in junior middle (1 or 50%) and primary school (1 or 50%) with more than 80 participants. This indicates that 
+higher-grade experiments are shorter than lower-grade experiments, and large-scale experiments were concentrated in primary and 
+junior middle schools.
+3.1.3. Different research methods vary in duration and sample size
+As illustrated in Fig. 5 , the most popular research method was quasi-experiment (19 or 42.2%), followed by case study (13 or 
+28.9%). Meanwhile, 14 of the 19 quasi-experimental studies were found to have no control group.
+Besides, studies with sample sizes greater than 60 were predominantly quasi-experiments (6 or 54.5%), which usually lasted for 
+more than 3 weeks (11 or 57.9%). Most case studies (11 or 84.6%) and design-based research (6 or 100%) had sample sizes of less than 
+60, with 14 or 73.7% out of them lasting less than 3 weeks. This indicates that the experimental research typically requires larger 
+samples and longer duration than other types of research.
+3.1.4. Different research focuses vary in learning stages and research methods
+According to Fig. 6 , the most popular research focus was pedagogical development (19 or 41.3%) and curriculum development (19 
+or 41.3%), followed by tool development (8 or 17.4%), and no studies focused on evaluation development.
+Besides, most pedagogical development studies were quasi-experimental (6 or 31.6%) or case studies (6 or 31.6%) and conducted 
+in primary schools (8 or 42.1%). Most tool development studies were case studies (3 or 37.5%) or design-based research (2 or 25%) and 
+conducted in high schools (4 or 50%). Most curriculum development studies were quasi-experiments (12 or 63.2%) and conducted in 
+junior middle schools (10 or 52.6%). This indicates that the lower grades focus on how to get students to effectively learn introductory 
+AI (i.e., developing pedagogy), while the higher grades focus on getting students to learn systematic AI knowledge (i.e., developing 
+curriculum) and experience AI practices (i.e., developing tools). Besides, pedagogical and curriculum development studies prefer 
+quasi-experiments, while tool development studies favor case studies.
+3.2. How has K-12 AI education been designed and implemented?
+This section analyzed the 45 studies from the perspectives of learning stage, pedagogical strategy, learning tool, learning activity, 
+learning content, assessment method, and learning effect, as well as the intersecting relationship between any two of them.
+3.2.1. Different learning activities vary in learning stages and pedagogical strategies
+As shown in Fig. 7 , most learning activities focused on Experience & Perception (54 or 65.9%), followed by Application & Design 
+(21 or 25.6%), and finally Synthesis & Creation (7 or 8.5%). This indicates that the overall difficulty of K-12 AI learning activity is still 
+at the introductory level. Besides, the most adopted pedagogy in K-12 AI education was collaborative learning (33 or 40.2%), followed 
+by project-based learning (28 or 34.1%), and finally experiential learning (13 or 15.9%) and game-based learning (8 or 9.6%). 
+Fig. 5. Duration and sample size corresponding to each research method.
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+9 
+===== PAGE 10 =====
+Meanwhile, 23 or 82.1% out of the project-based learning were employed concomitantly with collaborative learning, which illustrated 
+the close connection between the two types of pedagogy.
+Besides, most game-based learning strategies (8 or 100%) were adopted by Experience & Perception activities in kindergartens or 
+primary schools (7 or 87.5%). Most experiential learning strategies were adopted by Experience & Perception (8 or 61.5%) activities in 
+junior middle schools (5 or 62.5%). Applications & Design and Synthesis & Creation activities were primarily implemented through 
+collaborative or project-based learning strategies (23 or 82.1%) in junior middle or high schools (21 or 91.3%). Consequently, game- 
+Fig. 6. Research methods and learning stages corresponding to each research focus 
+Note. Among the 45 studies, 2 studies ( Sanusi et al., 2023c ; Vartiainen et al., 2020 ) did not specify the learning stage, 3 studies ( Huang & Qiao, 
+2022 ; Lin et al., 2023b ; Martins et al., 2023 ) involved participants in junior middle and high schools. Therefore, 46 samples were included in 
+the statistics.
+Fig. 7. Pedagogical strategies and learning stages corresponding to each learning activity. 
+Note. Among the 45 studies, 2 studies ( Sanusi et al., 2023c ; Vartiainen et al., 2020 ) did not specify the learning stage, 3 studies ( Huang & Qiao, 
+2022 ; Lin et al., 2023b ; Martins et al., 2023 ) involved participants in junior middle and high schools. Besides, one study would adopt multiple 
+pedagogical strategies. Finally, 82 samples were included in the statistics.
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+10 
+===== PAGE 11 =====
+based and experiential learning strategies are commonly used in introductory activities for lower grades, while collaborative and 
+project-based learning strategies are prevalent in advanced activities for higher grades.
+3.2.2. Different learning contents vary in learning activities and stages
+As shown in Fig. 8 , most learning contents focused on process in AI (40 or 38.1%), followed by impact of AI (34 or 32.4%), and 
+finally knowledge in AI (31 or 29.5%). This indicates that K-12 AI education prioritizes learning “ how AI works ” over “ what AI is ” .
+Besides, most kindergartens (3 or 100%) and primary schools (9 or 88.9%) taught “ process in AI ” contents through Experience & 
+Perception activities. Most junior middle and high schools taught “ process in AI ” contents through Experience & Perception (12 or 
+42.9%) or Application & Design (12 or 42.9%) activities. Since the "process in AI" contents were rarely taught through Synthesis & 
+Creation activities, this indicates that K-12 AI education prioritizes experiential learning of complex contents.
+3.2.3. Different learning tools vary in learning activities and stages
+According to Fig. 9 , the most commonly adopted learning tools were intelligent agents (26 or 34.7%), software (23 or 30.7%), 
+hardware (20 or 26.7%), and finally unplugged tools (6 or 8%).
+Besides, most intelligent agents were adopted by junior middle and high schools (15 or 53.4%) to design Applications & Design or 
+Synthesis & Creation activities (11 or 73.3%). All unplugged tools were used for Experience & Perception activities (6 or 100%) in 
+primary schools (4 or 66.7%). Similarly, most hardware and software were used for Experience & Perception activities (29 or 67.4%) in 
+primary (14 or 48.3%) and junior middle schools (10 or 34.5%). This indicates that hardware, software and unplugged tools are 
+typically used for introductory learning activities in the lower grades. In contrast, intelligent agents are typically used for advanced 
+learning activities in the higher grades.
+3.2.4. Different learning effects vary in assessment methods and learning stages
+As illustrated in Fig. 10 , the most popular assessments were qualitative methods (38 or 40%), followed by quantitative methods (33 
+or 34.7%) and mixed methods (24 or 25.3%). Besides, most studies reported learning effects of curriculum, tools, or pedagogical 
+interventions on students ’ AI knowledge (31 or 32.6%) (e.g., AI concepts, ML concepts), AI affectivity (37 or 38.9%) (e.g., AI ethics, AI 
+readiness, AI confidence, AI attitude), and AI thinking (27 or 28.4%) (e.g., creativity, abstract thinking, system thinking, computa -
+tional thinking). Since most studies proved the positive effects of AI instruction, p-values and effect sizes were tallied in Appendix C , 
+except for those studies that did not involve or provide relevant statistical values. Most p-values (28 or 46.7%) showed extremely 
+significant differences (i.e., p < 0.001), followed (23 or 38.3%) by significant differences (i.e., p < 0.05). Besides, most calculations 
+resulted in large effect sizes (18 or 37.5%), followed by small (16 or 33.3%) or medium (14 or 29.2%) effect sizes. This suggests that 
+most AI instruction has yielded the desired results.
+Besides, quantitative methods were primarily used to assess students ’ AI knowledge (14 or 42.4%) in high schools (6 or 42.9%). 
+Most qualitative methods were used to assess students ’ AI thinking (16 or 42.1%) in primary (6 or 37.5%) and junior middle schools (6 
+or 37.5%). Most mixed methods were used to assess students ’ AI affectivity (15 or 62.5%) in junior middle schools (6 or 40%). 
+Fig. 8. Learning activities and stages corresponding to each learning content. 
+Note. Among the 45 studies, 2 studies ( Sanusi et al., 2023c ; Vartiainen et al., 2020 ) did not specify the learning stage, 3 studies ( Huang & Qiao, 
+2022 ; Lin et al., 2023b ; Martins et al., 2023 ) involved participants in junior middle and high schools. Besides, one study would teach multiple types 
+of contents. Finally, 105 samples were included in the statistics.
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+11 
+===== PAGE 12 =====
+Meanwhile, most kindergarten studies measure students ’ learning effects through qualitative methods (7 or 77.7%). Thus, quanti -
+tative, mixed and qualitative methods are suitable for assessing knowledge, affectivity and thinking respectively. Besides, the higher 
+grades preferred quantitative methods, whereas the lower grades preferred qualitative methods.
+Fig. 9. Learning activities and stages corresponding to each learning tool. 
+Note. Among the 45 studies, 2 studies ( Sanusi et al., 2023c ; Vartiainen et al., 2020 ) did not specify the learning stage, 3 studies ( Huang & Qiao, 
+2022 ; Lin et al., 2023b ; Martins et al., 2023 ) involved participants in junior middle and high schools. Besides, 2 studies ( Huang & Qiao, 2022 ; Kong 
+et al., 2023 ) did not mention the tools used and one study would use multiple tools. Finally, 75 samples were included in the statistics.
+Fig. 10. Assessment methods and learning stages corresponding to each learning effect. 
+Note. Among the 45 studies, 2 studies ( Sanusi et al., 2023c ; Vartiainen et al., 2020 ) did not specify the learning stage, 5 studies aimed to describe 
+students ’ process of exploring, developing, and testing of models ( Jiang et al., 2022 , 2023a , 2023b ), the roles of children and researchers as 
+meta-design partners in ML education ( Irgens et al., 2022a ), as well as students ’ naive conceptions about AI concepts ( Kim et al., 2023 ), so they are 
+excluded from the statistics. Among the remaining 38 studies, each study would measure multiple aspects of learning effects, and 3 studies ( Huang & 
+Qiao, 2022 ; Lin et al., 2023b ; Martins et al., 2023 ) involved participants in junior middle and high schools. Finally, 95 samples were included in 
+the statistics.
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+12 
+===== PAGE 13 =====
+3.3. What implications for K-12 AI education are addressed in these empirical studies?
+In order to provide researchers and teachers with research and instruction references, some useful recommendations have been 
+extracted from 45 papers.
+3.3.1. Research design
+● Time allocation
+Seven papers concluded that setting a longer duration can improve the reliability of research results. For example, Kong et al. 
+(2023) suggested that sufficient learning time are required to strengthen high school students’ comprehension of AI ethics. Similarly, 
+Salas-Pilco (2020) argued that providing students with adequate space and time to develop robotic models could encourage their 
+creativity. Moreover, Zhang et al. (2023) emphasized that complex AI processes such as neural networks may require longer exposures 
+and more time for students to internalize.
+● Samples selection
+Twenty-three papers supported that multi-source samples are key to improving the generalizability of findings. For example, Dai 
+et al. (2023a) and Relmasira et al. (2023) suggested that further research should explore the generalizability and transferability of the 
+pedagogy to other student populations. Likewise, Ng et al. (2022) and Kim & Kwon (2024b) planned to broaden the sample to provide 
+generalizable results for a wider population. Moreover, Choi et al. (2024) and Vartiainenn et al. (2021) argued that future research will 
+incorporate other age groups to provide a more comprehensive understanding of AI education.
+● Longitudinal design
+Eight papers suggested that longitudinal studies could capture the dynamics and complexity of student learning. For example, Chiu 
+et al. (2021) , Park and Kwon (2023) deemed that tracking teaching and learning activities will capture valuable data to support 
+learning analytics. Additionally, Lin et al. (2023a) argued that a longitudinal design was necessary to examine the impact of the 
+proposed approach on higher-order thinking, i.e. creativity and metacognitive awareness in solving complex problems. Moreover, 
+Sanusi et al. (2023b) and Xia et al. (2022) suggested that future studies could adopt a longitudinal research design and study programs 
+offered as part of regular schooling.
+● Rigorous methodology
+Nine papers highlighted that rigorous experimental design is essential for promoting research and practices in early AI education. 
+For example, Sanusi et al. (2023d) argued that the lack of more structured tasks or pre-post testing makes it difficult to conclude that 
+the ML concept was learned in a robust way. Besides, Lu & Fan (2023) and Zhang et al. (2023) addressed that due to the lack of 
+comparison groups in teaching experiments, caution must be exercised when drawing inferences from their results. Moreover, Kim & 
+Kwon (2024b) and Williams et al. (2023) planned a randomized controlled trials with a control group to provide stronger evidence for 
+causation.
+● Technical democracy
+Four papers indicated that educational research is crucial for breaking the harmful tradition of technology development and 
+consumption without a critical lens. For example, Irgens et al. (2022a) argued that the awareness of technical democracy is critical to 
+enabling youth early to think critically about social, ethical, and political issues. Besides, Ali et al. (2021) deemed that future studies 
+could focus on awareness about how evolving technology influences the spread of information. Moreover, Jiang et al. (2023a , 2023b)
+concurred that future studies should stimulate productive reasoning about how we can shape the way technology functions in society.
+3.3.2. Instructional design
+● Group learning
+Six studies regarded group learning as an effective approach to enhance students’ hands-on experience in AI education. For 
+instance, Ng et al. (2023c) showed that by working together in a structured and collaborative environment, students can learn from 
+each other and develop their AI literacy, socialization, motivation, and confidence. Besides, Jiang et al. (2023a) deemed that students’ 
+naive concepts will gradually be transformed into scientific concepts through explaining why they employ these AI concepts, and 
+modifying them in response to feedback. Moreover, Hsu et al. (2021) and Zhan et al. (2022) suggested that more evidence of the 
+correlation between the learning effects and collaborative behavioral patterns should be explored.
+● Authentic context
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+13 
+===== PAGE 14 =====
+Five studies agreed that integrating authentic elements into learning experiences can be an effective strategy for enhancing stu -
+dents’ AI literacy. For example, Irgens et al. (2022b) indicated that ML education cannot be separated from the social, historical, and 
+political contexts in which people consume and produce technology. Additionally, Jiang et al. (2022, 2023a) claimed that modelling 
+unstructured data from real-world datasets can help students reason about computer decision making and understand social issues 
+about AI technologies. Moreover, Lin et al. (2023b) and Ng et al. (2023c) argued that engaging in authentic contexts with learning 
+activities can encourage students to create AI artifacts and recognize AI ethics.
+● Teacher involvement
+Seven papers emphasize the role of teacher involvement in AI education. For example, Irgens et al. (2022a) considered that children 
+should be offered autonomy in developmentally appropriate ways with adult support. Besides, Jiang et al. (2022) showed that teacher 
+involvement was crucial for helping younger children reach agreement, understand unfamiliar concepts and steps when performing AI 
+practices. Moreover, Jiang et al. (2023a) argued that teachers can position themselves as co-inquirers in exploring the applications of 
+AI technology.
+● Triangular evidence
+Twelve papers highlighted triangular evidence in data collection. For example, several studies concluded that future research could 
+gather more valuable insights for interpreting quantitative findings by including teacher interviews, as teachers are the most 
+knowledgeable about their students and classroom dynamics ( Hu et al., 2023 ; Huang & Qiao, 2022 ; Sanusi et al., 2023b ; Su & Yang, 
+2023b ). Besides, Kim et al. (2023) and Sanusi et al. (2023d) indicated that future research could employ a variety of data collection 
+methods, not only student videos and artifacts, but also quantitative data such as surveys or tests to identify more generalized findings.
+● Learning scaffolding
+Nine papers identified the role of scaffolding in supporting students’ learning. For example, Lu & Fan (2023) and Relmasira et al. 
+(2023) suggested that teachers can provide students with self-directed learning materials in advance and appropriate support at the 
+right moments. Besides, Jiang et al. (2023b) and Kim et al. (2023) advocates for teachers to develop instructional and technological 
+strategies to help students overcome misconceptions or naive conceptions. Moreover, Schaper et al. (2022) developed a framework for 
+applying computational empowerment in formal educational contexts to scaffold teenagers’ learning about emerging technologies.
+4. Discussion
+In this section, we further summarize the main ideas of 45 papers based on Section 3 , and discuss the future research prospects and 
+practice directions for K-12 AI education.
+4.1. Research status of K-12 AI education
+4.1.1. Publication status
+Empirical research on formal K-12 AI education has increased rapidly since 2021. In the past, students were required to use syntax 
+programming to make neural networks, intelligent agents, and classification models, which was challenging for novices. The dearth of 
+age-appropriate tools and comprehensive curriculum is thus one of the reasons why K-12 AI education was not popular before 2021 
+( Sakulkueakulsuk et al., 2018 ). Nowadays, students can utilize block-based programming with more developmentally appropriate 
+learning tools to develop their AI-driven artifacts ( Long & Magerko, 2020 ). Besides, a number of tool-supported curriculum has been 
+developed for the primary and even pre-school levels. As demonstrated by the AI4KG curriculum, which exposes preschoolers to basic 
+AI concepts via three AI learning tools (i.e., AI for Oceans, Teachable Machine, and Quick, Draw!) ( Su & Yang, 2023a ; 2023b ).
+However, few K-12 schools consider AI courses as independent courses. Most AI courses are combined with STEAM, robotics, or 
+maker courses, with programming as the main content and supplemented by popular science lectures and technology exhibitions. For 
+instance, Estevez et al. (2019) provided students with an academic use-create-modify scaffolding to perform K-means and artificial 
+neural network algorithms for Scratch coding. Additionally, Hu et al. (2023) explored how students interact with their peers in AI 
+teaching contents of “The Use of Micro: bit Programming Tools” and “The Definition and Application of Sensors”. Similarly, Salas-Pilco 
+(2020) explored how learning designs for constructing robotic models can influence students’ physical, social-emotional, and intel -
+lectual learning outcomes. Moreover, Ng et al. (2023c) integrated AI into maker education to enhance students’ motivation, career 
+interest, confidence, collaboration, and AI literacy by making AI-driven recycling bins. Therefore, AI education in K-12 schools as a 
+whole is still in its infancy.
+4.1.2. Learning stage
+K-12 AI education research is largely focused on junior middle schools, which is in contrast to previous research that advocated 
+high schools. For instance, Kong et al. (2023) argued that senior secondary students are particularly suitable targets for AI education 
+because one’s political and social views start shaping at this stage. Likewise, Estevez et al. (2019) argued that high school is a great time 
+to expose students to AI curriculum, as students are mature enough to handle complex issues. Additionally, Lin et al. (2023b) suggested 
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+14 
+===== PAGE 15 =====
+that high school students are better suited for the AI learning context because they may be interested in continuing their future 
+professional development. Furthermore, Jiang et al. (2022) aimed to plant intellectual seeds of AI at the high school level so that they 
+can be nurtured and grown as they enter higher education. As the concept of "intellectual seeds" suggests here, planting the seeds of AI 
+literacy at an early age will not only help them better adapt to the AI society by acquiring knowledge and skills to address complex 
+problems, but also inspire them to further pursue AI in their studies and careers by stimulating their interest in AI. Thus, student 
+characteristics and developmental readiness determine high school as the optimal stage for AI education.
+However, high school studies have a shorter duration and a smaller sample size than other learning stages, possibly due to the 
+greater pressure of taking entrance examinations, as inferred by Lv et al. (2023) and Authors (2023) . Large-scale experiments can 
+enhance the generality of conclusions ( Estevez et al., 2019 ), while longitudinal studies can help examine long-term effects over time 
+( Chiu et al., 2021 ). Thus, future research on AI education in high schools should include large-scale and longitudinal studies.
+4.1.3. Research method
+K-12 AI education research favors quasi-experiments and case studies. However, the prevalence of quasi-experimental designs 
+without a control group may raise concerns regarding the robustness and generalizability of the findings ( Bithell, 1994 ). Besides, 
+dependence on case studies may pose replication difficulties and limited generalizability due to its heavy reliance on retrospective data 
+( Denzin & Lincoln, 2011 ). Although six studies ( Estevez et al., 2019 ; Hsu et al., 2021 ; Irgens et al., 2022b ; Relmasira et al., 2023 ; 
+Salas-Pilco, 2020 ; Sanusi et al., 2023a ) purported to utilize design-based research (DBR) as the methodology, their implementation or 
+presentation was not standardized.
+Actually, DBR does not focus only on developing an intervention (e.g. software tools, appropriate scaffolding), but also intends to 
+generate, modify or enhance a theory through a series of experiments (Design- Based Research Collective, 2003 ). According to 
+Gravemeijer and Cobb (2006) , the DBR methodology consists of the following phases: (1) Preparation: defining the initial conditions of 
+the study; (2) Implementation: intervening using defined design principles and refining the intervention through iterations; and (3) 
+Closure: conducting a retrospective analysis. A complete DBR not only develops new theories or develops existing ones, but also es -
+tablishes design principles for solving specific problems. By integrating design, research, and practice tightly, DBR bridges the gap 
+between theory and practice encountered in traditional research methodologies in educational settings ( Anderson & Shattuck, 2012 ).
+However, with the exception of Salas-Pilco (2020) and Relmasira et al. (2023) who examined how AI impact students’ learning 
+outcomes through three or four iterations of learning design, the remaining four studies focused only on the effects of pedagogical, tool 
+or curriculum interventions without theoretical optimization or iterative processes. The reason may be attributed to the researchers’ 
+incomplete presentation of the DBR process or an ambiguous understanding of DBR. For instance, Estevez et al. (2019) explained that 
+their paper reported the first iteration of a long-term effort, whose results will sever as the basis for the next experiments. Likewise, 
+Irgens et al. (2022b) claimed that their study was the third iteration of an ongoing participatory design study. Moreover, Sanusi et al. 
+(2023a) described DBR as “design experiment”, which aims to develop students’ conceptual and procedural understanding of ML 
+through the design process. Notably, half of the purported design-based studies lasted less than a day, which was not conducive to 
+thorough implementation of the DBR methodology. In the future, K-12 AI education is expected to implement and present authentic 
+DBR with extended duration.
+4.1.4. Research focus
+Lower-grade studies emphasize pedagogy development through quasi-experiments, whereas higher-grade studies emphasize 
+curriculum or tool development through quasi-experiments and case studies. For instance, Lin et al. (2023a) compared the effects of 
+contextualized dilemma discussion approach based on Augmented Reality (AR) and mobile learning for developing primary students’ 
+AI ethics. Besides, Ng et al. (2023c) evaluated the effects of an AI learning course on the topic of "making an AI recycling bin (p. 9724)" 
+in enhancing secondary students’ motivation, collaboration, and AI literacy. Moreover, Jiang et al. (2022) conducted a descriptive 
+analysis of high school youth engaging in text mining practices in StoryQ, a web-based text mining and narrative modeling platform.
+As AI education proliferates into K-12 settings, it is essential to develop a broader range of free curriculum and tools tailored to 
+different grade levels and AI concepts. Particularly for the process of tool development, while case studies can provide more detailed 
+insights into students’ perceptions of their usage and effects, comparative experiments using two or more tools are also encouraged to 
+expose which tools work, and which do not, as well as their effects in introducing AI concepts ( Sanusi et al., 2023d ). Meanwhile, the 
+theoretical underpinnings of pedagogical approaches should be further detailed so that educators can adapt and apply them in various 
+contexts. More importantly, more research is needed on how to evaluate K-12 AI education, as comprehensive assessments can provide 
+valuable insight into learning effects ( Ng et al., 2023a ).
+4.2. Status of K-12 AI teaching and learning
+4.2.1. Learning activities
+Lower grades favor Experience & Perception activities (e.g., Dai et al., 2023a ; Hu et al., 2023 ; Kim & Kwon, 2024b ; Yang et al., 
+2024 ). For instance, Dai et al. (2023a) organized an eight-week workshop in Grade 6 that introduced AI concepts using unplugged 
+activities in the initial half and emphasized block-based programming in Scratch in the latter half. Besides, Yang et al. (2024) con -
+ducted a two-month program for kindergartens to understand how AI can help humans solve real-world problems. Moreover, Kim & 
+Kwon (2024b) designed a two-week program to help primary students create AI-based artifacts using tangible computing tools.
+Meanwhile, higher grades favor Application & Design activities (e.g., Aung et al., 2022 ; Jiang et al., 2022 ; Martins et al., 2023 ; 
+Williams et al., 2023 ). For instance, Aung et al. (2022) conducted a four-week workshop in Grade 7–8 to take students through basic 
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+15 
+===== PAGE 16 =====
+ML steps including data collection, training, and testing using a web-based learning platform. Besides, Martins et al. (2023) guided 
+middle and high school students to develop an image classification model following the basic steps of a human-centric ML process, 
+including data preparation, model training, performance evaluation, and prediction. Moreover, Williams et al. (2023) taught middle 
+school students about creative ML techniques and how to train their own supervised ML models.
+Moreover, only four studies ( Lu & Fan, 2023 ; Oskotsky et al., 2022 ; Sanusi et al., 2023a ; Schaper et al., 2022 ) focused on Synthesis 
+& Creation activities. For instance, Oskotsky et al. (2022) held a three-week program at high schools that guides students in applying AI 
+to characterize, classify, or predict COVID-19 using different types of biomedical data (gene expression, proteomics, imaging, and 
+clinical). Besides, Lu & Fan (2023) instructed high school students to build a weather prediction system that combined weather data 
+with ML techniques. Moreover, Sanusi et al. (2023a) guided middle school students to develop prototypes of ML applications con -
+taining multimodal data, such as images, sound, or poses.
+Considering that AI curriculum was the guaranteed way to implement AI education in schools, future educators should consider 
+cognitive development at all stages to design longer-term and cross-age AI curriculum. For instance, AI education in primary schools 
+should emphasize Experience & Perception activities, so that students can know and understand the basics of AI. Subsequently, AI 
+education in junior middle schools should emphasize “Application & Design” activities, so that students can apply AI concepts and 
+applications to different scenarios. Finally, AI education in high schools should emphasize “Synthesis & Creation” activities, so that 
+students can synthesize AI concepts and applications to creatively solve complex problems. Thus, the three levels of activities identify 
+the goals for students’ AI literacy at each stage, which aligns with Ng et al. (2023b , 2023c) ’s framework for scaffolding students’ 
+knowledge and thinking from lower to high cognitive levels. On this basis, Authors (2024a) analyzed and compared various com -
+ponents of AIL, while Ng et al. (2023b , 2023c) distinguished different levels of AIL. The combination of the two will facilitate adaptive 
+evaluation of AI literacy across K-12 stages.
+4.2.2. Learning contents
+K-12 AI education prioritizes experiential learning of complex principles. For instance, Sanusi et al. (2023b) introduced an un -
+plugged paper-based activity to junior middle school students on how computers reinforce the concept of convolutional neural net -
+works (CNNs). Besides, Priya et al. (2022) designed a 3D video game that presented three ML concepts (i.e., supervised learning, 
+gradient descent and K-nearest neighbor classification) to high school students. Moreover, Kong et al. (2023) explained the concepts of 
+supervised and unsupervised learning algorithms to high school students through practical examples.
+Prior studies showed that junior middle students should focus on preliminary Al principles such as machine learning, natural 
+language processing, and Turing tests ( Chiu et al., 2021 ), while high school students should learn more advanced AI principles such as 
+computational game theory, agent-based modeling, probabilistic reasoning and graph theories ( Estevez et al., 2019 ; Reyes et al., 
+2020 ). Design learning for authentic problems is critical to the successful teaching of these emerging principles, which aims to translate 
+abstract ideas into concrete ones through developing digital and physical artifacts ( Chiu, 2021 ). Once grounded in authentic design 
+learning, students will develop a better historical and contextual understanding of principles. Therefore, educators should prioritize 
+engaging students in physical manipulation of tangible artifacts and sensory-motor activities to facilitate their comprehension of 
+complex AI principles.
+4.2.3. Pedagogical strategies
+Lower grades favor game-based and experiential learning in introductory learning activities, while higher grades favor collabo -
+rative and project-based learning in advanced learning activities. For instance, Lin et al. (2023a) employed game-based learning in an 
+AR-based game with dilemma discussions to develop primary students’ AI ethics. Besides, Aung et al. (2022) used experiential learning 
+to allow middle school students to build a simple AI application and train their own ML models. Moreover, Oskotsky et al. (2022)
+adopted collaborative project-based learning to enable high school students to develop AI models capable of characterizing, classi -
+fying, or predicting COVID-19 cases.
+Prior research has shown that playful and experiential learning are considered as low-barrier approaches for introducing AI 
+concepts and maintaining motivation among novices with limited computer science backgrounds ( Long & Magerko, 2020 ; Ng et al., 
+2021 ). In contrast, collaborative project-based learning involves open-ended goals, which enables students to form teams and design 
+projects based on their interests and experiences ( Ng et al., 2023a ; Yue et al., 2022 ). For instance, Ng et al. (2023a) found that 
+incorporating game elements into AI curricula aids beginners in developing AI concepts and sustaining their learning motivation, while 
+Reyes et al. (2020) demonstrated that experiential activities offer students hands-on experience to visualize advanced concepts and 
+construct ML models. Besides, Deng et al. (2021) found that collaborative learning facilitates students’ communication with peers to 
+acquire AI knowledge and manipulate smart devices, while Wan et al. (2020) found that project-based learning motivates students to 
+tackle authentic, complex problems through real-world applications. Therefore, educators can further combine these pedagogical 
+strategies based on different contents to create an engaging learning environment that prepares students to succeed in future 
+Al-powered world.
+4.2.4. Learning tools
+The reviewed studies have shown that unplugged activities can stimulate learners’ enthusiasm and motivation, as well as facili -
+tating their conceptual understanding of AI (e.g., Dai et al., 2023b ; Kim et al., 2023 ; Park et al., 2022 ). Hardware such as robotics kits 
+could engage students to use physical and digital artifacts to make Al-driven applications (e.g., Chiu et al., 2021 ; Salas-Pilco, 2020 ; 
+Zhan et al., 2022 ). Meanwhile, most studies employed visual programming languages (e.g., Scratch, SNAP! Blockly, and App Inventor) 
+to help novices prevent errors, support recognition over recall, and provide a limited set of domain-specific instructions to reduce 
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+16 
+===== PAGE 17 =====
+cognitive load (e.g., Estevez et al., 2019 ; Irgens et al., 2022a ; Park & Kwon, 2023 ). Furthermore, intelligent agents (e.g., Google CoLab, 
+Machine Learning for Kids and Teachable Machine) were favored by many studies to develop students ’ technical skills, critical thinking 
+skills, and collaboration (e.g., Jiang et al., 2023b ; Oskotsky et al., 2022 ; Sanusi et al., 2023a ).
+In addition to general AI tools that are well-designed for novices to experience AI, some teaching units incorporate AI tools 
+developed by researchers, typified by AIThaiGen, a web-based learning platform to introduces AI concepts ( Aung et al., 2022 ) and 
+StoryQ, a web-based text mining and narrative modelling platform ( Jiang et al., 2022 , 2023a , 2023b ). Prior studies have demonstrated 
+that high-tech and programming activities offer more opportunities for students to acquire high-order thinking skills than low-tech and 
+unplugged activities ( Li et al., 2022 ). Therefore, more low-floor and high-ceiling tools are required so that novices can easily get started 
+and potentially engage in increasingly complex activities.
+4.2.5. Assessment methods
+Generally, quantitative data was collected by surveys/questionnaires, tests/examinations, or system logs (e.g., Aung et al., 2022 ; 
+Chiu 2021 ; Huang & Qiao, 2022 ), while qualitative data was collected by capturing students ’ interviews, video/audio materials, 
+observations, learning artifacts, drawings, written reflections, field notes, activity reports, or photographs (e.g., Hu et al., 2023 ; Irgens 
+et al., 2022a ). However, there are also special cases, such as quantitative or mixed analysis for data collected in a qualitative manner. 
+For instance, Dai et al. (2023a) scored students ’ understanding levels based on coded interview results. Then, nonparametric statis -
+tics — Wilcoxon signed-rank test and the Wilcoxon rank-sum test — were adopted to compare the within-group and between-group 
+differences. Additionally, Aung et al. (2022) conducted thematic analysis on students ’ learning artifacts, while Chang & Tsai 
+(2021) conducted an independent sample t -test after assigning scores to students ’ learning artifacts. This highlights the flexibility 
+between data collection and assessment methods in K-12 AI education.
+Meanwhile, prior studies have suggested that quantitative methods may not fully capture the deep understanding of AI concepts, 
+while qualitative methods may not be feasible for large-scale assessments ( Denzin & Lincoln, 2011 ; Perrotta & Selwyn, 2020 ). 
+Although many studies adopted mixed methods to gather detailed information about students ’ learning experiences and outcomes, 
+only ten studies ( Ali et al., 2021 ; Choi et al., 2024 ; Dai et al., 2023b ; Kim & Kwon, 2024b ; Lu & Fan, 2023 ; Ng et al., 2023c ; Su & Yang, 
+2023a , 2023b ; Williams et al., 2023 ; Zhang et al., 2023 ) triangulated the results of qualitative analyses with quantitative findings. For 
+instance, Ng et al. (2023c) conducted artifact-based interviews to triangulate quantitative results from questionnaires and knowledge 
+tests. Besides, Kim & Kwon (2024b) utilized a concurrent triangulation design to collect different but complementary data on the same 
+topic to provide a solid explanation. While the learning effects of several studies have not been statistically proven, mixed methods 
+helps to explain the results. For instance, Su & Yang (2023a) conducted parent interviews to verify improvement in children ’ s 
+knowledge, skills, and attitudes after the AI4KG program, although the Wilcoxon signed-rank test did not show any significant dif -
+ferences due to the small sample size. Besides, Lu & Fan (2023) collected students ’ opinions to analyze the reasons why paired t -test 
+showed no significant change in their attitudes towards AI learning after participating in the teaching experiment.
+Moreover, the priority of mixed methods to evaluate students ’ affective-related learning outcomes was observed. Obviously, 
+evaluation of AI education is an extremely complex and abstract process, which is not only limited to the individual ’ s external be -
+haviors, but also contains the individual ’ s internal psychological and cognitive processes. Therefore, relying entirely on traditional 
+means such as surveys and tests is far from enough to accurately assess students ’ learning effects in AI education. In the future, ed -
+ucators should employ intelligent methods to evaluate and triangulate students ’ learning performance to improve instructional 
+implementation.
+4.2.6. Learning effects
+The reviewed studies generally reported positive instances of implementing interventions on students ’ Al knowledge, affectivity, 
+and thinking. In terms of AI knowledge, several studies showed a significant improvement (Cohen ’ s d > .80) on students ’ un -
+derstandings of AI concepts (e.g., Aung et al., 2022 ; Chang & Tsai, 2021 ; Dai et al., 2023a ), but few studies explicitly identified which 
+AI concepts (e.g., machine learning, computer vision, and image recognition, etc.) were enhanced. In terms of AI affectivity, an 
+increasing body of research highlighted improvements in students ’ attitudes (Cohen ’ s d = 2.25) ( Choi et al., 2024 ), ethical awareness 
+(Cohen ’ s d = .91) ( Dai et al., 2023a ), motivation (Cohen ’ s f = .50) ( Huang & Qiao, 2022 ) and collaboration (Cohen ’ s d = .81) ( Ng 
+et al., 2023 ). In terms of AI thinking, the reviewed studies reported significant effects of implementing interventions on students ’ 
+creativity (Cohen ’ s d = 2.95) ( Chang & Tsai, 2021 ), critical thinking (Cohen ’ s d = .62) ( Dai et al., 2023a ) and computational thinking 
+(Cohen ’ s d = .94) ( Lu & Fan, 2023 ).
+Prior studies have emphasized that successful AI education should not superficially implement learning activities such as simply 
+demanding that students understand concepts, but need to employ a deep strategy to reach higher-order thinking skills ( Lin et al., 
+2023b ; Pedro et al., 2019 ). The question is, however, what kind of higher-order thinking is most needed for humans to adapt to the AI 
+era? In this regard, Authors (2024b) ’ s categorization of AI thinking may provide valuable references. This study defined AI thinking as 
+the high-order thinking that every citizen should possess to adapt to the future AI-powered society. Additionally, the four most critical 
+types of higher-order thinking were identified, including engineering thinking, design thinking, computational thinking, and systems 
+thinking. Among them, design thinking and engineering thinking are logically related, with the former referring to "designing 
+conceived results that do not exist in the real world" and the latter referring to "transforming the design into real artifacts". Therefore, 
+design thinking and engineering thinking are frequently merged into "engineering design thinking" in AI education, which requires 
+students not only to identify problems and propose creative solutions based on real-world needs, but also to develop, test, and optimize 
+AI systems based on these solutions. Computational thinking can enable students to comprehend AI problem-solving mechanisms, 
+which can be fostered through seven phases in AI education: decomposition and modularity, abstraction and modeling, data and 
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+17 
+===== PAGE 18 =====
+labeling, training and simulation, deployment and inference, optimization and iteration, reuse and transfer. Systems thinking pene -
+trates into engineering design thinking and computational thinking, which work together in the entire process of designing, devel -
+oping, testing and optimizing AI system. Students are required to reasonably coordinate various elements such as system function, 
+structure, and aesthetics, as well as the interactions between them. Therefore, educators should pay more attention to examining the 
+learning effects of AI thinking through matched learning designs.
+4.3. Future challenges of K-12 AI education
+4.3.1. Inclusive attention to underrepresented groups
+AI is typically regarded as a computer science education offered at the post-secondary level and mostly to high-achieving male 
+students, leaving girls and less able students underrepresented ( Delaine et al., 2016 ). Therefore, inclusive attention was emphasized in 
+the review studies to ensure the success of AI education. For example, Chiu et al. (2021) claimed that further research should 
+investigate how the curriculum addresses the needs of varied academic abilities and gender differences. Besides, Hsu et al. (2022)
+deemed that further research should explore the effects of different methods on gender-specific AI learning. Similarly, Kim et al. (2023)
+emphasized that future research will examine the disparities in naive conceptions between genders. Moreover, Sanusi et al. (2023a)
+suggested that future work could consider how to best introduce ML to middle schools based on the uniqueness of each social context.
+Future efforts are required to explore the reasons for the imbalance and how to achieve inclusive AI education. On the one hand, 
+several studies have found that girls have less interest, competence, and confidence in their discipline skills due to the stereotypes that 
+boys are better at computer science activities ( Master et al., 2017 ). Thus, capturing students ’ interest early at the K-12 level may 
+motivate more underrepresented groups to pursue computer science-related studies or careers ( Delaine et al., 2016 ). On the other 
+hand, most computer science-related activities in K-12 education are designed for high achievers to join competitions in informal 
+setting. The heavy emphasis on coding activities may be too challenging for students who do not have solid foundation such as logical 
+and mathematics thinking ( Xia et al., 2022 ). Since all children should be supported to achieve their potential, K-12 AI teachers should 
+ensure that learning activities are designed and delivered appropriately to students ’ needs and capabilities ( Chiu & Chai, 2020 ). In 
+addition, more pairing strategies, such as "boy-girl" or "veteran-novice" pairings, could be employed to narrow the gender or foun -
+dation gap in AI learning activities.
+4.3.2. The dearth of qualified and certified AI teachers
+Nowadays, most AI teachers did not receive formal AI education during their studies ( Chiu & Chai, 2020 ). A large number of 
+in-service K-12 teachers are unable to teach AI courses in schools due to a lack of AI knowledge, skills and confidence. Therefore, the 
+dearth of qualified and certified AI teachers was regarded as a major barrier to implementing K-12 AI education, which is also 
+emphasized in the review studies. For example, Lin et al. (2023a) identified the need to train teachers in designing AR resources, 
+authentic contextual dilemmas, role-play scenarios, and case-based visual stimulation. Additionally, Salas-Pilco (2020) showed that 
+teachers should receive technical training on AI and robotics as well as pedagogical training on how to integrate AI and robotics into 
+various disciplines. Moreover, Xia et al. (2022) contended that future research could investigate how to develop teachers ’ professional 
+capacities to address inclusion and diversity in their curriculum designs.
+Future efforts are required to better prepare teachers for teaching AI courses. In particular, researchers and educator should further 
+collaborate to focus on what constitutes and how to develop teachers ’ AI teaching competence. For the former, several studies have 
+identified self-efficacy as one of the most important constructs in teaching competency ( Buri ´c & Kim, 2020 ; Orakcı et al., 2020 ). 
+Besides, Sun et al. (2023a) utilized the TPACK framework to identify the teaching competencies required for teaching AI courses at the 
+K-12 level, including pedagogical knowledge, content knowledge, and technological knowledge. Still, all these elements need to be 
+sorted out into a systematic framework for teachers ’ AI teaching competence. For the latter, Lin and Van Brummelen (2021) worked 
+with non-computer science K-12 teachers via a two-day workshop to co-design integrated AI curriculum to prepare AI teachers. Be -
+sides, Kandlhofer et al. (2019) developed a professional training and certifying system for teachers in AI education. However, 
+short-term teacher training programs primarily provide teachers with basic AI knowledge and experience without in-depth profes -
+sional development. Therefore, future research needs to develop long-term curriculum and accompanying tools for teacher training.
+5. Conclusion
+This study conducted a systematic review for empirical research on K-12 AI education over the past decade with 45 empirical 
+studies. While earlier systematic reviews explored the development of AI education, they provided much more descriptive information 
+than in-depth analysis and meaningful synthesis.
+From a research perspective, this study reveals the relationship between publication year, sample size, learning stage, educational 
+setting, research method, research focus and duration, which reveals the following research landscape in K-12 AI education: (1) 
+empirical research on formal K-12 AI education has increased rapidly since 2021, (2) most experiments are conducted in junior middle 
+schools with relatively short durations and large sample sizes, (3) the most popular research method is quasi-experiment, which 
+typically requires larger samples and longer duration, and (4) most studies focus on pedagogical development through quasi- 
+experiments or case studies in primary schools. Concerning the future research, some important topics are discussed as follows: (1) 
+K-12 schools should consider AI courses as independent courses, (2) more large-sample and longitudinally designed experiments on AI 
+education in high schools should be conducted, (3) the authentic DBR with extended duration should be conducted, and (4) research 
+on how to evaluate K-12 AI education should be conducted.
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+18 
+===== PAGE 19 =====
+From an instruction perspective, this study reveals the relationship between learning stage, pedagogical strategy, learning tool, 
+learning activity, learning content, assessment method, and learning effect of the reviewed papers, which presents the following 
+instructional landscape of K-12 AI education: (1) the overall difficulty of K-12 AI learning activity is still at the introductory level, (2) K- 
+12 AI education prioritizes experiential learning of complex contents, (3) the most widely adopted pedagogical strategies is collab -
+orative learning, which was employed concurrently with project-based learning in the higher grades, (4) the most commonly adopted 
+learning tools are intelligent agents, which are used for advanced learning activities in the higher grades, and (5) the most popular 
+assessments are qualitative methods, which are mostly used to assess students’ AI thinking in the lower grades. Concerning the future 
+instruction, some important directions are discussed as follows: (1) educators should consider the cognitive development of each stage 
+to design longer-term and cross-age AI curriculum, (2) educators should prioritize engaging students in physical manipulation of 
+tangible artifacts and sensory-motor activities to facilitate their comprehension of complex AI principles, (3) educators can further 
+combine these pedagogical strategies based on different contents to create an engaging learning environment, (4) more tools with low 
+floors and high ceilings are required to make it easy for novices to get started and potentially work on increasingly complex projects, 
+(5) educators should employ intelligent assessment methods to evaluate and triangulate students’ learning performance, and (5) 
+educators should pay more attention to examining the learning effects of AI thinking through matched learning designs.
+Moreover, this study summarizes the recommendations for research and instruction. The former is divided into the following four 
+themes: time allocation, samples selection, longitudinal design, rigorous methodology and technical democracy, while the latter is 
+divided into the following four themes: group learning, authentic context, teacher involvement, triangular evidence and learning 
+scaffolding. Meanwhile, future research and instruction should focus on two valuable topics: “inclusive attention to underrepresented 
+groups" and "the dearth of qualified and certified AI teachers”.
+Overall, this study describes a promising picture of K-12 AI education. It is hoped that this study will be valuable for both practical 
+and research-oriented perspectives on an unexplored but important topic. However, this review also has some limitations. First, there 
+are more empirical studies on applying AI in K-12 education, but fewer empirical studies on K-12 AI education, which results in a 
+relatively small sample size. Second, we only reviewed papers included in the WOS and Scopus, which ensured a representative sample 
+but lacking comprehensiveness. Third, we did not consider social and economic factors when analyzing the reviewed papers, which 
+could affect the implementation of K-12 AI education due to the widespread digital divide ( Su et al., 2023b ). Therefore, future research 
+will expand the sample size or range, as well as incorporate social and economic factors to fully explore the research and instruction of 
+K-12 AI education.
+Credit authorship statement
+Xiaofan Liu: Writing - original draft, Methodology, Writing - review & editing. Baichang Zhong: Conceptualization, Writing - review 
+& editing, Supervision.
+Funding
+This study is funded by the General Project for Education from National Social Science Fund of China (Study on 4C Teaching Model 
+for Cultivating Students’ Interdisciplinary Creativity, Grant Number: BCA220219).
+Declaration of competing interest
+The authors have no relevant financial or non-financial interests to disclose.
+Data availability
+No data was used for the research described in the article.
+Acknowledgement
+None.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.edurev.2024.100642 .
+References
+papers are included in the reviewed studies
+AAAI & CSTA. (2019). Five big ideas about AI. Retrieved from https://ai4k12.org/big-idea-1-overview/ .
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+19 
+===== PAGE 20 =====
+* Ali, S., DiPaola, D., Lee, I., Sindato, V., Kim, G., Blumofe, R., & Breazeal, C. (2021). Children as creators, thinkers and citizens in an AI-driven future. Computers & 
+Education: Artificial Intelligence, 2 , Article 100040. https://doi.org/10.1016/j.caeai.2021.100040 .
+Anderson, L. W., & Krathwohl, D. R. (Eds.). (2001). A taxonomy for learning, teaching and assessing: A revision of bloom ’ s Taxonomy of educational objectives . New York: 
+Longman . 
+Anderson, T., & Shattuck, J. (2012). Design-based research: A decade of progress in education research? Educational Researcher, 41 (1), 16 – 25. https://doi.org/ 
+10.3102/0013189X11428813
+* Aung, Z. H., Sanium, S., Songsaksuppachok, C., Kusakunniran, W., Precharattana, M., Chuechote, S., … Ritthipravat, P. (2022). Designing a novel teaching platform 
+for AI: A case study in a Thai school context. Journal of Computer Assisted Learning, 38 (6), 1714 – 1729. https://doi.org/10.1111/jcal.12706 .
+Authors. (2018). Computers & Education .
+Authors. (2023). Interactive Learning Environments .
+Authors. (2024a). Journal of East China Normal University .
+Authors. (2024b). Curriculum, Teaching Material and Method .
+Bellas, F., Guerreiro-Santalla, S., Naya, M., & Duro, R. J. (2023). AI curriculum for European high schools: An embedded intelligence approach. International Journal of 
+Artificial Intelligence in Education, 33 (2), 399 – 426. https://doi.org/10.1007/s40593-022-00315-0
+Bithell, C. (1994). Single subject experimental design: A case for concern? Physiotherapy, 80 (2), 85 – 87. https://doi.org/10.1016/S0031-9406(10)61015-2
+Buckingham, D., & Burn, A. (2007). Game literacy in theory and practice. Journal of Educational Multimedia and Hypermedia, 16 (3), 323 – 349. https://www. 
+learntechlib.org/primary/p/24376/ .
+Buri ´c, I., & Kim, L. E. (2020). Teacher self-efficacy, instructional quality, and student motivational beliefs: An analysis using multilevel structural equation modeling. 
+Learning and Instruction, 66 , Article 101302. https://doi.org/10.1016/j.learninstruc.2019.101302
+Cen, C., Luo, G., Li, L., Liang, Y., Li, K., Jiang, T., & Xiong, Q. (2023). User-centered software design: User interface redesign for Blockly – electron, artificial 
+intelligence educational software for primary and secondary schools. Sustainability, 15 (6), 5232. https://doi.org/10.3390/su15065232
+Chai, C. S., Lin, P. Y., Jong, M. S. Y., Dai, Y., Chiu, T. K., & Qin, J. (2021). Perceptions of and behavioral intentions towards learning artificial intelligence in primary 
+school students. Educational Technology & Society, 24 (3), 89 – 101. https://www.jstor.org/stable/27032858 .
+* Chang, Y. S., & Tsai, M. C. (2021). Effects of design thinking on artificial intelligence learning and creativity. Educational Studies , 1 – 18. https://doi. 
+org/10.1080/03055698.2021.1999213 .
+Chen, C. H., & Yang, Y. C. (2019). Revisiting the effects of project-based learning on students ’ academic achievement: A meta-analysis investigating moderators. 
+Educational Research Review, 26 , 71 – 81. https://doi.org/10.1016/j.edurev.2018.11.001
+Chiang, F. K., Liang, X. N., Xiao, X. Z. Y., Jiang, Z. J., & Zhou, Y. (2023). Design-based research on the development and implementation of AI courses from the 
+perspective of university-enterprise cooperation. Frontiers of Education in China, 18 (4). https://doi.org/10.3868/s110-008-023-0031-5
+Chiu, T. K. (2021). A holistic approach to the design of artificial intelligence (AI) education for K-12 schools. TechTrends, 65 (5), 796 – 807. https://doi.org/10.1007/ 
+s11528-021-00637-1
+Chiu, T. K., & Chai, C. S. (2020). Sustainable curriculum planning for artificial intelligence education: A self-determination theory perspective. Sustainability, 12 (14), 
+5568. https://doi.org/10.3390/su12145568
+* Chiu, T. K., Meng, H., Chai, C. S., King, I., Wong, S., & Yam, Y. (2021). Creation and evaluation of a pretertiary artificial intelligence (AI) curriculum. IEEE 
+Transactions on Education, 65 (1), 30 – 39. https://doi.org/10.1109/TE.2021.3085878 .
+* Choi, J. I., Yang, E., & Goo, E. H. (2024). The effects of an ethics education program on artificial intelligence among middle school students: Analysis of perception 
+and attitude changes. Applied Sciences, 14 (4), 1588. https://doi.org/10.3390/app14041588 .
+* Dai, Y., Lin, Z., Liu, A., Dai, D., & Wang, W. (2023b). Effect of an analogy-based approach of artificial intelligence pedagogy in upper primary schools. Journal of 
+Educational Computing Research . , Article 07356331231201342. https://doi.org/10.1177/07356331231201342 .
+* Dai, Y., Lin, Z., Liu, A., & Wang, W. (2023a). An embodied, analogical and disruptive approach of AI pedagogy in upper elementary education: An experimental 
+study. British Journal of Educational Technology . https://doi.org/10.1111/bjet.13371 .
+Delaine, D. A., Williams, D. N., Sigamoney, R., & Tull, R. G. (2016). Global diversity and inclusion in engineering education: Developing platforms toward global 
+alignment. International Journal of Engineering Pedagogy, 6 (1). https://doi.org/10.3991/ijep.v6i1.5372
+Deng, W., Huang, X., Liu, Q., & Wang, Z. (2021). Curriculum design of artificial intelligence in middle school-taking posture recognition as an example. In 2021 tenth 
+international conference of educational innovation through technology (EITT) (pp. 310 – 315). Chongqing, China .
+Denzin, N. K., & Lincoln, Y. S. (Eds.). (2011). The Sage handbook of qualitative research . Sage . 
+Design-Based Research Collective. (2003). Design-based research: An emerging paradigm for educational inquiry. Educational Researcher, 32 (1), 5 – 8. https://doi.org/ 
+10.3102/0013189X032001005
+Duji ´c Rodi ´c, L., Stan ˇci ´c, I., 
+ˇ
+Coko, D., Perkovi ´c, T., & Grani ´c, A. (2023). Towards a machine learning smart toy design for early childhood geometry education: Usability 
+and performance. Electronics, 12 (8), 1951. https://doi.org/10.3390/electronics12081951
+* Estevez, J., Garate, G., & Gra ˜na, M. (2019). Gentle introduction to artificial intelligence for high-school students using scratch. IEEE Access, 7 , 179027 – 179036. 
+https://doi.org/10.1109/ACCESS.2019.2956136 .
+Flynn, B. B., Sakakibara, S., Schroeder, R. G., Bates, K. A., & Flynn, E. J. (1990). Empirical research methods in operations management. Journal of Operations 
+Management, 9 (2), 250 – 284. https://doi.org/10.1016/0272-6963(90)90098-X
+Gao, X., Noroozi, O., Gulikers, J. T. M., Biemans, H. J., & Banihashem, S. K. (2023). A systematic review of the key components of online peer feedback practices in 
+higher education. Educational Research Review, 100588 . https://doi.org/10.1016/j.edurev.2023.100588
+Gravemeijer, K., & Cobb, P. (2006). Design research from a learning design perspective. In J. van den Akker, K. Gravemeijer, S. McKenney, & N. Nieven (Eds.), 
+Educational design research (pp. 17 – 51). New York, NY: Routledge . 
+Gresse Von Wangenheim, C., Alves, N. D. C., Rauber, M. F., Hauck, J. C., & Yeter, I. H. (2022). A proposal for performance-based assessment of the learning of machine 
+learning concepts and practices in K-12. Informatics in Education, 21 (3), 479 – 500. https://www.ceeol.com/search/article-detail?id = 1065978 .
+Gresse von Wangenheim, C., Hauck, J. C., Pacheco, F. S., & Bertonceli Bueno, M. F. (2021). Visual tools for teaching machine learning in K-12: A ten-year systematic 
+mapping. Education and Information Technologies, 26 (5), 5733 – 5778. https://doi.org/10.1007/s10639-021-10570-8
+* Hsu, T. C., Abelson, H., Lao, N., Tseng, Y. H., & Lin, Y. T. (2021). Behavioral-pattern exploration and development of an instructional tool for young children to learn 
+AI. Computers & Education: Artificial Intelligence, 2 , Article 100012. https://doi.org/10.1016/j.caeai.2021.100012 .
+* Hsu, T. C., Abelson, H., & Van Brummelen, J. (2022). The effects on secondary school students of applying experiential learning to the conversational AI learning 
+curriculum. International Review of Research in Open and Distance Learning, 23 (1), 82 – 103. https://doi.org/10.19173/irrodl.v22i4.5474 .
+* Hu, X., He, W., Chiu, T. K., & Zhao, L. (2023). Using a teacher scheme for educational dialogue analysis to investigate student-student interaction patterns for 
+optimal group activities in an artificial intelligence course. Education and Information Technologies, 28 (7), 8789 – 8813. https://doi. 
+org/10.1007/s10639-022-11556-w .
+Huang, X. (2021). Aims for cultivating students ’ key competencies based on artificial intelligence education in China. Education and Information Technologies, 26 , 
+5127 – 5147. https://doi.org/10.1007/s10639-021-10530-2
+Huang, T., Geng, J., Chen, Y., Wang, H., Yang, H., & Hu, S. (2024). Simulation and prediction study of artificial intelligence education dynamics model for primary 
+and secondary schools. Education and Information Technologies , 1 – 27. https://doi.org/10.1007/s10639-024-12470-z
+* Huang, X., & Qiao, C. (2022). Enhancing computational thinking skills through artificial intelligence education at a STEAM high school. Science & Education , 1 – 21. 
+https://doi.org/10.1007/s11191-022-00392-6 .
+International Society for Technology in Education (ISTE). (2022). Hands-on AI projects for the classroom. Retrieved from https://cdn.iste.org/www-root/Libraries/ 
+Documents/20/26/20Files/Artificial/20Intelligence/AIGDEL_0820-red.pdf .
+* Irgens, G. A., Adisa, I., Bailey, C., & Quesada, H. V. (2022a). Designing with and for youth. Educational Technology & Society, 25 (4), 126 – 141 https://www.jstor.org/ 
+stable/48695986 .
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+20 
+===== PAGE 21 =====
+* Irgens, G. A., Vega, H., Adisa, I., & Bailey, C. (2022b). Characterizing children ’ s conceptual knowledge and computational practices in a critical machine learning 
+educational program. International Journal of Child-Computer Interaction, 34 , Article 100541 .
+Jeon, J., & Lee, S. (2023). Large language models in education: A focus on the complementary relationship between human teachers and ChatGPT. Education and 
+Information Technologies, 28 (12), 15873 – 15892. https://doi.org/10.1007/s10639-023-11834-1
+* Jiang, S., Nocera, A., Tatar, C., Yoder, M. M., Chao, J., Wiedemann, K., … Ros ´e, C. P. (2022). An empirical analysis of high school students ’ practices of modelling 
+with unstructured data. British Journal of Educational Technology, 53 (5), 1114 – 1133. https://doi.org/10.1111/bjet.13253 .
+* Jiang, S., Qian, Y., Tang, H., Yalcinkaya, R., Ros ´e, C. P., Chao, J., & Finzer, W. (2023a). Examining computational thinking processes in modeling unstructured data. 
+Education and Information Technologies, 28 (4), 4309 – 4333. https://doi.org/10.1007/s10639-022-11355-3 .
+* Jiang, S., Tang, H., Tatar, C., Ros ´e, C. P., & Chao, J. (2023b). High school students ’ data modeling practices and processes: From modeling unstructured data to 
+evaluating automated decisions. Learning, Media and Technology, 48 (2), 350 – 368. https://doi.org/10.1080/17439884.2023.2189735 .
+Kandlhofer, M., Steinbauer, G., La ß nig, J. P., Baumann, W., Plomer, S., Ballagi, A., & Alfoldi, I. (2019). Enabling the creation of intelligent things: Bringing artificial 
+intelligence and robotics to schools. In 2019 IEEE frontiers in education conference (FIE) (pp. 1 – 5). Covington, KY, USA .
+Kewalramani, S., Kidman, G., & Palaiologou, I. (2021). Using artificial intelligence (AI)-interfaced robotic toys in early childhood settings: A case for children ’ s inquiry 
+literacy. European Early Childhood Education Research Journal, 29 (5), 652 – 668. https://doi.org/10.1080/1350293X.2021.1968458
+Kim, K., & Kwon, K. (2024a). A systematic review of the evaluation in K-12 artificial intelligence education from 2013 to 2022. Interactive Learning Environments , 1 – 29. 
+https://doi.org/10.1080/10494820.2024.2335499
+* Kim, K., & Kwon, K. (2024b). Tangible computing tools in AI education: Approach to improve elementary students ’ knowledge, perception, and behavioral intention 
+towards AI. Education and Information Technologies , 1 – 32. https://doi.org/10.1007/s10639-024-12497-2 .
+* Kim, K., Kwon, K., Ottenbreit-Leftwich, A., Bae, H., & Glazewski, K. (2023). Exploring middle school students ’ common naive conceptions of Artificial Intelligence 
+concepts, and the evolution of these ideas. Education and Information Technologies , 1 – 28. https://doi.org/10.1007/s10639-023-11600-3 .
+* Kong, S. C., Cheung, W. M. Y., & Tsang, O. (2023a). Evaluating an artificial intelligence literacy programme for empowering and developing concepts, literacy and 
+ethical awareness in senior secondary students. Education and Information Technologies, 28 (4), 4703 – 4724. https://doi.org/10.1007/s10639-022-11408-7 .
+Krathwohl, D. R., Bloom, B. S., & Masia, B. B. (1964). Taxonomy of educational objectives: The classification of educational goals. Handbook II: Affective domain . New 
+York: David McKay Co . 
+Li, F., Wang, X., He, X., Cheng, L., & Wang, Y. (2022). The effectiveness of unplugged activities and programming exercises in computational thinking education: A 
+meta-analysis. Education and Information Technologies, 27 (6), 7993 – 8013. https://doi.org/10.1007/s10639-022-10915-x
+Lin, P., & Van Brummelen, J. (2021). Engaging teachers to co-design integrated AI curriculum for K-12 classrooms. In In proceedings of the 2021 CHI conference on 
+human factors in computing systems (pp. 1 – 12). Yokohama, Japan .
+* Lin, X. F., Wang, Z., Zhou, W., Luo, G., Hwang, G. J., Zhou, Y., … Liang, Z. M. (2023a). Technological support to foster students ’ artificial intelligence ethics: An 
+augmented reality-based contextualized dilemma discussion approach. Computers & Education, 201 , Article 104813. https://doi.org/10.1016/j. 
+compedu.2023.104813 .
+* Lin, X. F., Zhou, Y., Shen, W., Luo, G., Xian, X., & Pang, B. (2023b). Modeling the structural relationships among Chinese secondary school students ’ computational 
+thinking efficacy in learning AI, AI literacy, and approaches to learning AI. Education and Information Technologies , 1 – 27. https://doi. 
+org/10.1007/s10639-023-12029-4 .
+Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. In In proceedings of the 2020 CHI conference on human factors in computing 
+systems (pp. 1 – 16). Honolulu, HI, USA .
+* Lu, W. Y., & Fan, S. C. (2023). Developing a weather prediction project-based machine learning course in facilitating AI learning among high school students. 
+Computers & Education: Artificial Intelligence, 5 , Article 100154. https://doi.org/10.1016/j.caeai.2023.100154 .
+Lv, L., Zhong, B., & Liu, X. (2023). A literature review on the empirical studies of the integration of mathematics and computational thinking. Education and 
+Information Technologies, 28 (7), 8171 – 8193. https://doi.org/10.1007/s10639-022-11518-2
+Marr, B. (2018). How is AI used in education-Real world examples of today and a peek into the future. Forbes, Forbes Magazine, 25 . http://gdac.uqam.ca/dic9340/ 
+IAetEducation/How/20Is/20AI/20Used/20In/20Education/20–/20Real/20World/20Examples/20Of/20Today/20And/20A/20Peek/20Into/20The/20Future. 
+pdf .
+* Martins, R. M., von Wangenheim, C. G., Rauber, M. F., & Hauck, J. C. (2023). Machine learning for all! — introducing machine learning in middle and high school. 
+International Journal of Artificial Intelligence in Education , 1 – 39. https://doi.org/10.1007/s40593-022-00325-y .
+Master, A., Cheryan, S., Moscatelli, A., & Meltzoff, A. N. (2017). Programming experience promotes higher STEM motivation among first-grade girls. Journal of 
+Experimental Child Psychology, 160 , 92 – 106. https://doi.org/10.1016/j.jecp.2017.03.013
+Moore, R. L., Jiang, S., & Abramowitz, B. (2023). What would the matrix do?: A systematic review of K-12 AI learning contexts and learner-interface interactions. 
+Journal of Research on Technology in Education, 55 (1), 7 – 20. https://doi.org/10.1080/15391523.2022.2148785
+Naya-Varela, M., Guerreiro-Santalla, S., Baamonde, T., & Bellas, F. (2023). Robobo smartCity: An autonomous driving model for computational intelligence learning through 
+educational robotics . IEEE Transactions on Learning Technologies. https://doi.org/10.1109/TLT.2023.3244604
+Ng, D. T. K., Lee, M., Tan, R. J. Y., Hu, X., Downie, J. S., & Chu, S. K. W. (2023a). A review of AI teaching and learning from 2000 to 2020. Education and Information 
+Technologies, 28 (7), 8445 – 8501. https://doi.org/10.1007/s10639-022-11491-w
+Ng, D. T. K., Leung, J. K. L., Chu, S. K. W., & Qiao, M. S. (2021). Conceptualizing AI literacy: An exploratory review. Computers & Education: Artificial Intelligence, 2 , 
+Article 100041. https://doi.org/10.1016/j.caeai.2021.100041
+Ng, D. T. K., Leung, J. K. L., Su, J., Ng, R. C. W., & Chu, S. K. W. (2023b). Teachers ’ AI digital competencies and twenty-first century skills in the post-pandemic world. 
+Educational Technology Research & Development, 71 (1), 137 – 161. https://doi.org/10.1007/s11423-023-10203-6
+* Ng, D. T. K., Su, J., & Chu, S. K. W. (2023c). Fostering secondary school students ’ AI literacy through making AI-driven recycling bins. Education and Information 
+Technologies , 1 – 32. https://doi.org/10.1007/s10639-023-12183-9 .
+Ng, D. T. K., Su, J., Leung, J. K. L., & Chu, S. K. W. (2023d). Artificial intelligence (AI) literacy education in secondary schools: A review. Interactive Learning 
+Environments , 1 – 21. https://doi.org/10.1080/10494820.2023.2255228
+Nguyen, A., Ngo, H. N., Hong, Y., Dang, B., & Nguyen, B. P. T. (2023). Ethical principles for artificial intelligence in education. Education and Information Technologies, 
+28 (4), 4221 – 4241. https://doi.org/10.1007/s10639-022-11316-w
+NICE. (2012). Methods for the development of NICE public health guidance: Process and methods guides. https://www.nice.org.uk/process/pmg4/chapter/ 
+introduction .
+Orakcı, S ¸ ., Dilekli, Y., & Erda ˘g, C. (2020). The structural relationship between accountability felt and responsible teaching in Turkish teachers: The mediating effect of 
+innovative thinking. Thinking Skills and Creativity, 36 , Article 100662. https://doi.org/10.1016/j.tsc.2020.100662
+* Oskotsky, T., Bajaj, R., Burchard, J., Cavazos, T., Chen, I., Connell, W. T., … Sirota, M. (2022). Nurturing diversity and inclusion in AI in Biomedicine through a 
+virtual summer program for high school students. PLoS Computational Biology, 18 (1), Article e1009719. https://doi.org/10.1371/journal.pcbi.1009719 .
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., … Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for 
+reporting systematic reviews. International Journal of Surgery, 88 , Article 105906. https://doi.org/10.1016/j.ijsu.2021.105906
+* Park, W., & Kwon, H. (2023). Implementing artificial intelligence education for middle school technology education in Republic of Korea. International Journal of 
+Technology and Design Education , 1 – 27. https://doi.org/10.1007/s10798-023-09812-2 .
+* Park, K., Mott, B., Lee, S., Gupta, A., Jantaraweragul, K., Glazewski, K., … Lester, J. (2022). Investigating a visual interface for elementary students to formulate AI 
+planning tasks. Journal of Computer Languages, 73 , Article 101157. https://doi.org/10.1016/j.cola.2022.101157 .
+Park, Y., & Shin, Y. (2021). Tooee: A novel scratch extension for K-12 big data and artificial intelligence education using text-based visual blocks. IEEE Access, 9 , 
+149630 – 149646. https://doi.org/10.1109/ACCESS.2021.3125060
+Park, Y., & Shin, Y. (2022). A block-based interactive programming environment for large-scale machine learning education. Applied Sciences, 12 (24), Article 13008. 
+https://doi.org/10.3390/app122413008
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+21 
+===== PAGE 22 =====
+Pedro, F., Subosa, M., Rivas, A., & Valverde, P. (2019). Artificial intelligence in education: Challenges and opportunities for sustainable development. Retrieved from 
+https://hdl.handle.net/20.500.12799/6533 .
+Perrotta, C., & Selwyn, N. (2020). Deep learning goes to school: Toward a relational understanding of AI in education. Learning, Media and Technology, 45 (3), 251 – 269. 
+https://doi.org/10.1080/17439884.2020.1686017
+* Priya, S., Bhadra, S., Chimalakonda, S., & Venigalla, A. S. M. (2022). ML-quest: A game for introducing machine learning concepts to K-12 students. Interactive 
+Learning Environments , 1 – 16. https://doi.org/10.1080/10494820.2022.2084115 .
+* Relmasira, S. C., Lai, Y. C., & Donaldson, J. P. (2023). Fostering AI literacy in elementary science, technology, engineering, art, and mathematics (STEAM) education 
+in the age of generative AI. Sustainability, 15 (18), Article 13595. https://doi.org/10.3390/su151813595 .
+Reyes, A. A., Elkin, C., Niyaz, Q., Yang, X., Paheding, S., & Devabhaktuni, V. K. (2020). A preliminary work on visualization-based education tool for high school 
+machine learning education. In 2020 IEEE integrated STEM education conference (ISEC) (pp. 1 – 5). Princeton, NJ, USA .
+Sabuncuoglu, A. (2020). Designing one year curriculum to teach artificial intelligence for middle school. In In Proceedings of the 2020 ACM conference on innovation and 
+technology in computer science education (pp. 96 – 102). Norway: Trondheim . 
+Sakulkueakulsuk, B., Witoon, S., Ngarmkajornwiwat, P., Pataranutaporn, P., Surareungchai, W., Pataranutaporn, P., & Subsoontorn, P. (2018). Kids making AI: 
+Integrating machine learning, gamification, and social context in STEM education. In 2018 IEEE international conference on teaching, assessment, & learning for 
+engineering (TALE) (pp. 1005 – 1010). Wollongong, NSW, Australia .
+* Salas-Pilco, S. Z. (2020). The impact of AI and robotics on physical, social-emotional and intellectual learning outcomes: An integrated analytical framework. British 
+Journal of Educational Technology, 51 (5), 1808 – 1825. https://doi.org/10.1111/bjet.12984 .
+* Sanusi, I. T., Omidiora, J. O., Oyelere, S. S., Vartiainen, H., Suhonen, J., & Tukiainen, M. (2023a). Preparing middle schoolers for a machine learning-enabled future 
+through design-oriented pedagogy. IEEE Access . https://doi.org/10.1109/ACCESS.2023.3269025 .
+* Sanusi, I. T., Oyelere, S. S., Vartiainen, H., Suhonen, J., & Tukiainen, M. (2023b). Developing middle school students ’ understanding of machine learning in an 
+African school. Computers & Education: Artificial Intelligence, 5 , Article 100155. https://doi.org/10.1016/j.caeai.2023.100155 .
+Sanusi, I. T., Oyelere, S. S., Vartiainen, H., Suhonen, J., & Tukiainen, M. (2023c). A systematic review of teaching and learning machine learning in K-12 education. 
+Education and Information Technologies, 28 (5), 5967 – 5997. https://doi.org/10.1007/s10639-022-11416-7
+* Sanusi, I. T., Sunday, K., Oyelere, S. S., Suhonen, J., Vartiainen, H., & Tukiainen, M. (2023d). Learning machine learning with young children: Exploring informal 
+settings in an African context. Computer Science Education , 1 – 32. https://doi.org/10.1080/08993408.2023.2175559 .
+Savin-Baden, M., & Major, C. H. (2007). Using interpretative meta-ethnography to explore the relationship between innovative approaches to learning and their 
+influence on faculty understanding of teaching. Higher Education, 54 , 833 – 852. https://doi.org/10.1007/s10734-006-9035-3
+* Schaper, M. M., Smith, R. C., Tamashiro, M. A., Van Mechelen, M., Lunding, M. S., Bilstrup, K. E. K., … Iversen, O. S. (2022). Computational empowerment in 
+practice: Scaffolding teenagers ’ learning about emerging technologies and their ethical and societal impact. International Journal of Child-Computer Interaction, 34 , 
+Article 100537. https://doi.org/10.1016/j.ijcci.2022.100537 .
+Scott, D. (2007). Critical essays on major curriculum theorists . Routledge . 
+Sing, C. C., Teo, T., Huang, F., Chiu, T. K., & Xing Wei, W. (2022). Secondary school students ’ intentions to learn AI: Testing moderation effects of readiness, social 
+good and optimism. Educational Technology Research & Development, 70 (3), 765 – 782. https://doi.org/10.1007/s11423-022-10111-1
+Su, J., Guo, K., Chen, X., & Chu, S. K. W. (2023a). Teaching artificial intelligence in K-12 classrooms: A scoping review. Interactive Learning Environments , 1 – 20. 
+https://doi.org/10.1080/10494820.2023.2212706
+* Su, J., & Yang, W. (2023a). AI literacy curriculum and its relation to children ’ s perceptions of robots and attitudes towards engineering and science: An intervention 
+study in early childhood education. Journal of Computer Assisted Learning . https://doi.org/10.1111/jcal.12867 .
+* Su, J., & Yang, W. (2023b). Artificial Intelligence (AI) literacy in early childhood education: An intervention study in Hong Kong. Interactive Learning Environments , 
+1 – 15. https://doi.org/10.1080/10494820.2023.2217864 .
+Su, J., Yang, W., & Zhong, Y. (2023b). Influences of gender and socioeconomic status on children ’ s use of robotics in early childhood education: A systematic review. 
+Early Education & Development, 34 (4), 910 – 926. https://doi.org/10.1080/10409289.2022.2078617
+Sun, L., Kangas, M., Ruokamo, H., & Siklander, S. (2023b). A systematic literature review of teacher scaffolding in game-based learning in primary education. 
+Educational Research Review . , Article 100546. https://doi.org/10.1016/j.edurev.2023.100546
+Sun, J., Ma, H., Zeng, Y., Han, D., & Jin, Y. (2023a). Promoting the AI teaching competency of K-12 computer science teachers: A TPACK-based professional 
+development approach. Education and Information Technologies, 28 (2), 1509 – 1533. https://doi.org/10.1007/s10639-022-11256-5
+Tang, X., Pan, Y., & Yao, Q. (2018). Fundamentals of artificial intelligence . Shanghai, China: East China Normal University Press (in Chinese) .
+Tian, X., & Cui, S. (2022). The application of scientific games by artificial intelligence in preschool education under the smart city. Security and Communication 
+Networks . https://doi.org/10.1155/2022/7483566
+UNESCO. (2020). Al in education: Change at the speed of learning . ite.unesco.org/wp-content/uploads/2020/11/StevenDugganAl-in-Education2020.pdf .
+Van Leeuwen, A., & Janssen, J. (2019). A systematic review of teacher guidance during collaborative learning in primary and secondary education. Educational 
+Research Review, 27 , 71 – 89. https://doi.org/10.1016/j.edurev.2019.02.001
+* Vartiainen, H., Tedre, M., & Valtonen, T. (2020). Learning machine learning with very young children: Who is teaching whom?. International journal of child-computer 
+interaction, 25 , Article 100182. https://doi.org/10.1016/j.ijcci.2020.100182 .
+* Vartiainen, H., Toivonen, T., Jormanainen, I., Kahila, J., Tedre, M., & Valtonen, T. (2021). Machine learning for middle schoolers: Learning through data-driven 
+design. International Journal of Child-Computer Interaction, 29 , Article 100281. https://doi.org/10.1016/j.ijcci.2021.100281 .
+Vosough, Z., Kammer, D., Keck, M., & Groh, R. (2019). Visualization approaches for understanding uncertainty in flow diagrams. Journal of Computer Languages, 52 , 
+44 – 54. https://doi.org/10.1016/j.cola.2019.03.002
+Wan, X., Zhou, X., Ye, Z., Mortensen, C. K., & Bai, Z. (2020). SmileyCluster: Supporting accessible machine learning in K-12 scientific discovery. In In proceedings of the 
+interaction design & children conference (pp. 23 – 35). London, UK .
+Wang, X., Yin, N., & Zhang, Z. (2021). Smart design of intelligent companion toys for preschool children. Artificial Intelligence for Engineering Design, Analysis and 
+Manufacturing, 35 (2), 151 – 164. https://doi.org/10.1017/S0890060420000499
+* Williams, R., Ali, S., Devasia, N., DiPaola, D., Hong, J., Kaputsos, S. P., … Breazeal, C. (2023). AI + ethics curricula for middle school youth: Lessons learned from 
+three project-based curricula. International Journal of Artificial Intelligence in Education, 33 (2), 325 – 383. https://doi.org/10.1007/s40593-022-00298-y .
+Wohlin, C. (2014). Guidelines for snowballing in systematic literature studies and a replication in software engineering. In In proceedings of the 18th international 
+conference on evaluation & assessment in software engineering (pp. 1 – 10). London, UK .
+Xia, Q., Chiu, T. K., & Chai, C. S. (2023a). The moderating effects of gender and need satisfaction on self-regulated learning through Artificial Intelligence (AI). 
+Education and Information Technologies, 28 (7), 8691 – 8713. https://doi.org/10.1007/s10639-022-11547-x
+Xia, Q., Chiu, T. K., Chai, C. S., & Xie, K. (2023b). The mediating effects of needs satisfaction on the relationships between prior knowledge and self-regulated learning 
+through artificial intelligence chatbot. British Journal of Educational Technology . https://doi.org/10.1111/bjet.13305
+* Xia, Q., Chiu, T. K., Lee, M., Sanusi, I. T., Dai, Y., & Chai, C. S. (2022). A self-determination theory (SDT) design approach for inclusive and diverse artificial 
+intelligence (AI) education. Computers & Education, 189 , Article 104582. https://doi.org/10.1016/j.compedu.2022.104582 .
+Xu, W., & Ouyang, F. (2022). A systematic review of AI role in the educational system based on a proposed conceptual framework. Education and Information 
+Technologies , 1 – 29. https://doi.org/10.1007/s10639-021-10774-y
+* Yang, W., Hu, X., Yeter, I. H., Su, J., Yang, Y., & Lee, J. C. K. (2024). Artificial intelligence education for young children: A case study of technology-enhanced 
+embodied learning. Journal of Computer Assisted Learning, 40 (2), 465 – 477. https://doi.org/10.1111/jcal.12892 .
+Yue, M., Jong, M. S. Y., & Dai, Y. (2022). Pedagogical design of K-12 artificial intelligence education: A systematic review. Sustainability, 14 (23), Article 15620. 
+https://doi.org/10.3390/su142315620
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+22 
+===== PAGE 23 =====
+Zammit, M., Voulgari, I., Liapis, A., & Yannakakis, G. N. (2022). Learn to machine learn via games in the classroom. Frontiers in Education, 7, Article 913530. https:// 
+doi.org/10.3389/feduc.2022.913530
+* Zhan, Z., He, G., Li, T., He, L., & Xiang, S. (2022). Effect of groups size on students’ learning achievement, motivation, cognitive load, collaborative problem-solving 
+quality, and in-class interaction in an introductory AI course. Journal of Computer Assisted Learning, 38(6), 1807–1818. https://doi.org/10.1111/jcal.12722.
+* Zhang, H., Lee, I., Ali, S., DiPaola, D., Cheng, Y., & Breazeal, C. (2023). Integrating ethics and career futures with technical learning to promote AI literacy for middle 
+school students: An exploratory study. International Journal of Artificial Intelligence in Education, 33(2), 290–324. https://doi.org/10.1007/s40593-022-00293-3.
+Xiaofan Liu is an excellent PhD student of educational technology at South China Normal University in China. Her research interests cover STEM education and AI 
+education. ORCID https://orcid.org/0000-0002-3693-5217
+Baichang Zhong (Ph.D) is a distinguished professor from School of Information Technology in Education at South China Normal University, China. He has published 
+over 200 academic papers in Chinese and international journals indexed by CSSCI and SSCI in the field of educational technology. ORCID https://orcid.org/0000-0001- 
+5837-4433
+X. Liu and B. Zhong                                                                                                                                                                                                   Educational Research Review 45 (2024) 100642 
+23 
