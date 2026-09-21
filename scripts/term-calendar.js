@@ -405,9 +405,17 @@
 
           var markers = document.createElement("span");
           markers.className = "calendar-day__markers";
-          dayItems.forEach(function (deadline) {
+          var maxMarkers = compact ? 3 : 6;
+          dayItems.slice(0, maxMarkers).forEach(function (deadline) {
             markers.appendChild(createCalendarMarker(deadline));
           });
+          if (dayItems.length > maxMarkers) {
+            var overflow = document.createElement("span");
+            overflow.className = "calendar-marker calendar-marker--overflow";
+            overflow.title = (dayItems.length - maxMarkers) + " more item(s)";
+            overflow.textContent = "+" + (dayItems.length - maxMarkers);
+            markers.appendChild(overflow);
+          }
           dayCell.appendChild(markers);
         } else {
           dayCell.setAttribute("aria-label", formatDisplayDate(parseDate(dateKey)));

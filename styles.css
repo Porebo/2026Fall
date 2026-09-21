@@ -644,12 +644,13 @@ a.lecture-channel__day:focus-visible {
 }
 
 .calendar--compact .calendar-day {
-  min-height: 0;
-  aspect-ratio: 1;
+  min-height: 2.6rem;
+  aspect-ratio: auto;
   padding: 0.1rem;
   border-radius: 6px;
   gap: 0.1rem;
   justify-content: center;
+  overflow: hidden;
 }
 
 .calendar--compact .calendar-day__number {
@@ -1006,6 +1007,7 @@ a.lecture-channel__day:focus-visible {
   cursor: pointer;
   font: inherit;
   color: inherit;
+  overflow: hidden;
 }
 
 .calendar-day--blank {
@@ -1061,6 +1063,7 @@ a.calendar-marker:focus-visible {
 .calendar-marker--exam { background: #b42318; }
 .calendar-marker--admin { background: #b7791f; }
 .calendar-marker--event { background: #52606d; }
+.calendar-marker--overflow { background: #9aa5b1; cursor: default; }
 
 .calendar-detail {
   margin-top: 1rem;

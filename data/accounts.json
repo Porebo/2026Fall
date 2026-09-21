@@ -1,0 +1,205 @@
+{
+  "asOf": "2026-09-16",
+  "chartOfAccounts": [
+    {
+      "id": "cash-checking",
+      "code": "1000",
+      "name": "Checking account",
+      "type": "asset",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "citi-aadvantage-3006",
+      "code": "2100",
+      "name": "Citi AAdvantage Mastercard ending in 3006",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "citi-costco-8182",
+      "code": "2101",
+      "name": "Costco Anywhere Visa ending in 8182",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "synchrony-amazon-9883",
+      "code": "2102",
+      "name": "Amazon Synchrony ending in 9883",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "synchrony-lowes",
+      "code": "2103",
+      "name": "Lowe's account",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "goldman-gm-rewards",
+      "code": "2104",
+      "name": "GM Rewards Mastercard",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "td-target-6343",
+      "code": "2105",
+      "name": "Target Circle Card ending in 6343",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "citi-aadvantage-3811",
+      "code": "2106",
+      "name": "Citi AAdvantage Mastercard ending in 3811",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "wells-fargo-active-cash-9110",
+      "code": "2107",
+      "name": "Wells Fargo Active Cash ending in 9110",
+      "type": "liability",
+      "normalBalance": "credit"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "citi-costco-8182",
+      "bank": "Citi",
+      "name": "Costco Anywhere Visa by Citi",
+      "lastFour": "8182",
+      "dueDate": "2026-09-17",
+      "minimumDueCents": 0,
+      "statementBalanceCents": 139715,
+      "balanceCents": 139715,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open"
+    },
+    {
+      "id": "synchrony-amazon-9883",
+      "bank": "Synchrony Bank",
+      "name": "Amazon Synchrony",
+      "lastFour": "9883",
+      "dueDate": "2026-09-20",
+      "minimumDueCents": 499,
+      "statementBalanceCents": 499,
+      "balanceCents": 499,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open"
+    },
+    {
+      "id": "synchrony-lowes",
+      "bank": "Synchrony Bank",
+      "name": "Lowe's",
+      "lastFour": null,
+      "dueDate": "2026-10-03",
+      "minimumDueCents": 3920,
+      "statementBalanceCents": 3920,
+      "balanceCents": 3920,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open"
+    },
+    {
+      "id": "goldman-gm-rewards",
+      "bank": "Goldman Sachs Bank USA",
+      "name": "GM Rewards Mastercard",
+      "lastFour": null,
+      "dueDate": "2026-10-05",
+      "minimumDueCents": 3000,
+      "statementBalanceCents": 68058,
+      "balanceCents": 68058,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open"
+    },
+    {
+      "id": "td-target-6343",
+      "bank": "TD Bank",
+      "name": "Target Circle Card",
+      "lastFour": "6343",
+      "dueDate": "2026-10-06",
+      "minimumDueCents": 7400,
+      "statementBalanceCents": 392556,
+      "balanceCents": 392556,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open"
+    },
+    {
+      "id": "citi-aadvantage-3811",
+      "bank": "Citi",
+      "name": "Citi AAdvantage Platinum Select Mastercard",
+      "lastFour": "3811",
+      "dueDate": "2026-10-06",
+      "minimumDueCents": 0,
+      "statementBalanceCents": 19440,
+      "balanceCents": 19440,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open"
+    },
+    {
+      "id": "citi-aadvantage-3006",
+      "bank": "Citi",
+      "name": "Citi AAdvantage Platinum Select Mastercard",
+      "lastFour": "3006",
+      "dueDate": "2026-10-09",
+      "minimumDueCents": 2900,
+      "statementBalanceCents": 10873,
+      "balanceCents": 0,
+      "completedPaymentDate": "2026-09-16",
+      "completedPaymentCents": 10873,
+      "status": "paid"
+    },
+    {
+      "id": "wells-fargo-active-cash-9110",
+      "bank": "Wells Fargo",
+      "name": "Wells Fargo Active Cash Visa",
+      "lastFour": "9110",
+      "dueDate": "2026-10-18",
+      "minimumDueCents": 15718,
+      "statementBalanceCents": 15718,
+      "balanceCents": 15718,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "payment-citi-3006-2026-09-16",
+      "date": "2026-09-16",
+      "accountId": "citi-aadvantage-3006",
+      "type": "payment",
+      "amountCents": 10873,
+      "description": "Statement payment",
+      "balanceAfterCents": 0
+    }
+  ],
+  "journalEntries": [
+    {
+      "id": "je-2026-09-16-citi-3006-payment",
+      "date": "2026-09-16",
+      "description": "Payment to Citi AAdvantage Mastercard ending in 3006",
+      "sourceTransactionId": "payment-citi-3006-2026-09-16",
+      "lines": [
+        {
+          "accountId": "citi-aadvantage-3006",
+          "debitCents": 10873,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 10873
+        }
+      ]
+    }
+  ]
+}

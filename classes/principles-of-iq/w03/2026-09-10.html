@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principles of IQ - 2026-09-10</title>
+  <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a> /
+      <a href="../home-principles-of-iq.html">Principles of IQ</a> /
+      2026-09-10
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Class Meeting &mdash; September 10, 2026</p>
+      <h1 class="meeting-title">Principles of Data Quality Management &amp; ISO 8000-61</h1>
+      <p class="lede">
+        The Plan-Do-Check-Act foundations of data quality management, the ISO 8000-61 Data
+        Quality Management Reference Model, and the difference between data quality control
+        and data quality assurance.
+      </p>
+    </header>
+
+    <section class="card" aria-labelledby="recording-heading">
+      <p class="eyebrow">Recording</p>
+      <h2 id="recording-heading">Lecture Video</h2>
+      <p>September 10, 2026 class recording. The professor noted the original live lecture on this topic (given the previous Thursday) failed to record, so this session is a re-recorded repeat of that material for students who were not in live attendance.</p>
+      <p><a href="https://ualr-edu.zoom.us/rec/play/5ttjXmLVdpBvToimanPQnVx4SjliK08tX1_AUVPVGxdtAmLaUMQQuVi0TpZ-pQM6J7mfX1i5CEtki-6_.Ssa22OrKBwg4MGcw?accessLevel=meeting&amp;canPlayFromShare=true&amp;from=share_recording_detail&amp;startTime=1789323639000&amp;oldStyle=true&amp;pwd=DJKHX5ibbIZEiPA8awAAIAAAAGhAFqjPHeb0Juc0OK_uOICKuJ8QRlYiETgGUiDojoQhZ0sd7CKB_PoUCNHw5RCLmzAwMDAwNA&amp;componentName=rec-play&amp;originRequestUrl=https%3A%2F%2Fualr-edu.zoom.us%2Frec%2Fshare%2F1s1TZFfnT5V_WEXzpepP1Qbddkl652avyfwdQVMFuFIT8Z7DNSkvM-LEFYmvmvdP.ealbvpuuGlPWHqz9%3FstartTime%3D1789323639000%26pwd%3DDJKHX5ibbIZEiPA8awAAIAAAAGhAFqjPHeb0Juc0OK_uOICKuJ8QRlYiETgGUiDojoQhZ0sd7CKB_PoUCNHw5RCLmzAwMDAwNA" target="_blank" rel="noopener noreferrer">Watch lecture recording on Zoom</a></p>
+    </section>
+
+    <section class="card" aria-labelledby="overview-heading">
+      <p class="eyebrow">Session Focus</p>
+      <h2 id="overview-heading">Quality Is Meeting Requirements</h2>
+      <p>The ISO definition of quality is meeting requirements. Quality only makes sense in the context of requirements: a data value can be missing or unusual and still not be a data quality problem if no requirement says otherwise. This session used the full ISO 8000-61 standard (posted in the course resources folder) to walk through the international reference model for managing data quality.</p>
+      <ul>
+        <li>Data quality is the degree to which data meet data requirements, specifications, or standards.</li>
+        <li>Analysis of a dataset (such as the OpenRefine movie-file exercise) is not the same as a data quality assessment unless documented requirements exist to compare against.</li>
+        <li>The current assignment asks students to work backward from a target report&rsquo;s requirements to infer the data requirements needed to build it.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="product-heading">
+      <p class="eyebrow">Manage Information as Product</p>
+      <h2 id="product-heading">The Information Product Factory</h2>
+      <p>Information quality inherited its thinking from the manufacturing quality revolution: Deming, Shewhart, Juran, and others found their ideas embraced in Japan after World War II, giving rise to the Toyota Production System and the broader quality movement. Information products (reports, transcripts, medical charts, even AI chat responses) are manufactured from raw material &mdash; source data &mdash; through machinery that is mostly software.</p>
+      <ul>
+        <li>Raw materials (source data) &rarr; operational systems / programs &rarr; information product or service &rarr; consumer.</li>
+        <li>Design and requirements for the product should come first, driven by what the consumer needs.</li>
+        <li>Work backward: consumer needs define product requirements, which define the data requirements for the raw materials feeding the process.</li>
+        <li>You cannot judge whether data is fit for use until you know how the resulting product will be used (e.g., missing movie duration may not matter if the report never uses duration).</li>
+      </ul>
+      <p>Four axioms adapted from total quality management: understand the consumer&rsquo;s needs, build a well-defined process to produce what they want, understand the product&rsquo;s life cycle, and use a product manager to bridge consumer needs back into the building process.</p>
+    </section>
+
+    <section class="card" aria-labelledby="reference-model-heading">
+      <p class="eyebrow">ISO 8000-61</p>
+      <h2 id="reference-model-heading">Data Quality Management Reference Model</h2>
+      <p>The international standard does not prescribe exactly how to do data quality management, but it defines what should be done and what outcomes should result. It has three parts:</p>
+      <ol>
+        <li><strong>Implementation process</strong> &mdash; the Shewhart/Deming Plan-Do-Check-Act (or Plan-Do-Study-Act) cycle applied to data: quality planning &amp; requirements (plan), quality control (do), quality assurance (check), and analysis &amp; improvement (act).</li>
+        <li><strong>Data-related support processes</strong> &mdash; data architecture, data transfer, data operations management, and data security.</li>
+        <li><strong>Resource provisioning</strong> &mdash; organizational roles, training, and data governance.</li>
+      </ol>
+    </section>
+
+    <section class="card" aria-labelledby="qc-qa-heading">
+      <p class="eyebrow">Key Distinction</p>
+      <h2 id="qc-qa-heading">Data Quality Control vs. Data Quality Assurance</h2>
+      <p>Understanding this distinction was called out as one of the most important takeaways of the course.</p>
+      <ul>
+        <li><strong>Data quality control</strong> is applied to the finished product: does it meet the consumer requirements gathered for it? Control happens at the end of the process.</li>
+        <li><strong>Data quality assurance</strong> is applied during the process: do the components and the process meet the requirements needed to make quality control succeed? Assurance is the manufacturing analogy of measuring part tolerances before final assembly.</li>
+        <li>A credit reporting agency example: the company had strong quality assurance on incoming data but no quality control on outgoing credit reports, effectively relying on consumers who disputed errors to catch problems. After review, the agency added quality control using stratified sampling (flagging reports with multiple SSNs or frequent address changes) since 100% manual inspection of thousands of daily reports was impractical.</li>
+        <li>Good data in does not guarantee a good product out &mdash; garbage-in/garbage-out only works in one direction.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="dimensions-heading">
+      <p class="eyebrow">Measuring &ldquo;Tolerances&rdquo; in Data</p>
+      <h2 id="dimensions-heading">Data Quality Dimensions</h2>
+      <p>In manufacturing, tolerances (diameter, tensile strength) are well understood and easy to measure. Information quality needed analogous dimensions because many data qualities are intangible.</p>
+      <ul>
+        <li>Easily automated checks: validity (values outside an allowed set), completeness (null/blank detection), consistency, accuracy, timeliness.</li>
+        <li>Harder to automate, more important in the age of AI: objectivity/bias, reputation, relevance, and usefulness &mdash; these often require surveys or interviews rather than rule-based checks.</li>
+        <li>Frameworks such as the Wang &amp; Strong 16-dimension model give structure to these measurements.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="support-heading">
+      <p class="eyebrow">Data-Related Support Processes</p>
+      <h2 id="support-heading">Architecture, Transfer, Operations &amp; Security</h2>
+      <ul>
+        <li><strong>Data architecture:</strong> the right database schema and transformations matter as much as having the right data.</li>
+        <li><strong>Data transfer:</strong> moving data between systems can silently change its representation. Example from the movie dataset: a director&rsquo;s Spanish surname contained an accented character encoded correctly in UTF-8. It rendered correctly in a plain text editor, but appeared corrupted in OpenRefine and differently corrupted in Excel &mdash; the underlying data was fine, only the rendering broke, which could be misdiagnosed as a data quality defect.</li>
+        <li><strong>Data operations management:</strong> running systems efficiently and in the right order.</li>
+        <li><strong>Data security:</strong> restricting access to only those who need it, especially for PII or regulated financial data &mdash; the balance at the heart of cybersecurity.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="resource-heading">
+      <p class="eyebrow">Resource Provisioning</p>
+      <h2 id="resource-heading">Program, Not Project &mdash; and Data Governance</h2>
+      <ul>
+        <li>Data quality management should run as an ongoing <strong>program</strong> with defined roles (e.g., data stewards, a data quality director), not a one-time <strong>project</strong> with a fixed start/end date &mdash; though a program will contain individual improvement projects.</li>
+        <li>Data quality responsibilities are increasingly absorbed into data governance, but should still carry their own documented requirements and review processes rather than being lost inside governance generally.</li>
+        <li><strong>Data governance</strong> sets the rules for how data decisions are made; <strong>data management</strong> is the set of decisions made about data within those rules.</li>
+        <li>ISO 8000-61 compliance is a self-study: the standard defines 51 activities organizations should perform and 82 outcomes they should achieve, documented anywhere the organization creates or uses data &mdash; even a spreadsheet built by an administrative assistant for an executive counts.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="assessment-heading">
+      <p class="eyebrow">Assessment</p>
+      <h2 id="assessment-heading">The Data Quality Assessment Triangle</h2>
+      <p>A full data quality assessment requires three elements together: documented data requirements, data profiling/analysis of the actual data, and an understanding of the architecture/process used to build the product. Profiling data alone (as in the movie-file exercise, which had no documented requirements) is analysis, not assessment.</p>
+      <p>Information quality assessment goes further: it adds the business value proposition on top of data quality. A product can meet all its documented data quality requirements and still fail to be high information quality if it does not create value for its users &mdash; information quality means maximizing value and minimizing risk, not just building things correctly.</p>
+    </section>
+
+    <section class="meeting-nav" aria-labelledby="action-items-heading">
+      <h2 id="action-items-heading">Action Items</h2>
+      <ol>
+        <li>Explain the ISO definition of quality (meeting requirements) and why quality only makes sense relative to documented requirements.</li>
+        <li>Distinguish data quality control (finished product) from data quality assurance (in-process checks), using the credit reporting agency example.</li>
+        <li>Summarize the three parts of the ISO 8000-61 Data Quality Management Reference Model: implementation (Plan-Do-Check-Act), data-related support processes, and resource provisioning.</li>
+        <li>Identify which data quality dimensions are easy to automate versus which require surveys/interviews (objectivity, reputation, relevance, usefulness).</li>
+        <li>Explain how a data transfer/rendering issue (e.g., an encoded character) can look like a data quality defect without being one.</li>
+        <li>Explain the difference between a data quality program and a data quality project, and between data governance and data management.</li>
+        <li>Describe the data quality assessment triangle and why profiling alone is not a full assessment.</li>
+        <li>Continue applying these ideas to the current dataset/report assignment: infer data requirements from the target product&rsquo;s requirements.</li>
+      </ol>
+      <p>Previous session: <a href="2026-09-08.html">September 8 &mdash; Quality Pioneers &amp; the Evolution of Information Quality</a></p>
+    </section>
+  </main>
+  <script src="../../../scripts/site-nav.js"></script>
+</body>
+</html>

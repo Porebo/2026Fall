@@ -16,14 +16,61 @@
 
     <header class="hero">
       <p class="eyebrow">HW03 &mdash; Week 3 Assignment</p>
-      <h1>Define Data Requirement</h1>
-      <p class="lede">Assignment record created from the Blackboard gradebook listing.</p>
+      <h1>Define Data Quality Requirements and Remediation Plan</h1>
+      <p class="lede">
+        Do not use AI for this assignment. The instructors for IQ101 and IQ102 want to build an
+        information product: a final grade report for both courses, from the
+        <a href="StudentGrades.csv">student grades CSV file</a>.
+      </p>
+      <p><strong>Original file:</strong> <a href="Define%20Data%20Quality%20Requirements%20and%20Remediation%20Plan.docx">Define Data Quality Requirements and Remediation Plan.docx</a></p>
     </header>
+
+    <section class="card" aria-labelledby="report-heading">
+      <p class="eyebrow">Information Product</p>
+      <h2 id="report-heading">Report Requirements</h2>
+      <p>The report should be in two parts, one for IQ101 and the other for IQ102. Each part should start with a title that indicates the course, followed by a tabular list of students in the course in alphabetical order by last name. The first row should be a header describing the values in each column.</p>
+      <p>The columns should contain, for each student:</p>
+      <ul>
+        <li>ID</li>
+        <li>Last Name</li>
+        <li>First Name</li>
+        <li>Program (Major) Code</li>
+        <li>Course Average</li>
+        <li>Final Letter Grade</li>
+      </ul>
+      <p>The Course Average value is calculated by 0.45 &times; Midterm + 0.45 &times; Final + 0.10 &times; Attendance, rounded to an integer value.</p>
+      <p>The Final Letter Grade should be assigned as follows:</p>
+      <table>
+        <thead>
+          <tr><th>Course Avg</th><th>Final Grade</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>90&ndash;100</td><td>A</td></tr>
+          <tr><td>80&ndash;89</td><td>B</td></tr>
+          <tr><td>70&ndash;79</td><td>C</td></tr>
+          <tr><td>60&ndash;69</td><td>D</td></tr>
+          <tr><td>0&ndash;59</td><td>F</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="meeting-nav" aria-labelledby="tasks-heading">
+      <h2 id="tasks-heading">Tasks</h2>
+      <ol class="question-list">
+        <li>Based on the requirements for the information product (report) above, define a list of data requirements for the StudentGrades.csv file.</li>
+        <li>Based on these requirements and your assessment of the file, list the deficiencies you observe where the data does not meet the requirements. (You can use OpenRefine for this.)</li>
+        <li>Explain your plan for remediating each deficiency.</li>
+      </ol>
+    </section>
 
     <section class="card" aria-labelledby="details-heading">
       <p class="eyebrow">Assignment</p>
-      <h2 id="details-heading">Define Data Requirement</h2>
+      <h2 id="details-heading">Assignment Details</h2>
       <dl class="details-list">
+        <div>
+          <dt>Assigned</dt>
+          <dd>September 10, 2026</dd>
+        </div>
         <div>
           <dt>Due</dt>
           <dd>September 17, 2026</dd>
@@ -35,6 +82,10 @@
         <div>
           <dt>Submission location</dt>
           <dd>Blackboard</dd>
+        </div>
+        <div>
+          <dt>AI use</dt>
+          <dd>Do not use AI for this assignment.</dd>
         </div>
       </dl>
     </section>

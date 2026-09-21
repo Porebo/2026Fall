@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Lester Carcamo">
+  <meta name="research-timestamp" content="2026-09-14 21:17:27 -07:00">
+  <title>ORGLEV4_NAME Data Lineage and Transformation Findings</title>
+  <style>
+    :root {
+      --navy: #17365d;
+      --blue: #2f75b5;
+      --light-blue: #eaf2f8;
+      --light-gray: #f4f6f7;
+      --border: #c9d2d9;
+      --text: #20262d;
+      --muted: #566573;
+      --green: #2e7d32;
+      --amber: #9a6700;
+      --red: #9b2c2c;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    section { scroll-margin-top: 20px; }
+    a:focus-visible {
+      outline: 2px solid var(--blue);
+      outline-offset: 3px;
+    }
+    body {
+      margin: 0;
+      background: #eef1f4;
+      color: var(--text);
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 1100px;
+      margin: 28px auto;
+      padding: 42px 52px 56px;
+      background: #fff;
+      border: 1px solid #dfe4e8;
+      box-shadow: 0 3px 15px rgba(0,0,0,.07);
+    }
+    h1, h2, h3 { color: var(--navy); line-height: 1.25; }
+    h1 { margin: 0 0 8px; font-size: 30px; }
+    h2 {
+      margin-top: 34px;
+      padding-bottom: 7px;
+      border-bottom: 2px solid var(--blue);
+      font-size: 21px;
+    }
+    h3 { margin-top: 24px; font-size: 17px; }
+    p { margin: 10px 0; }
+    .subtitle { color: var(--muted); font-size: 16px; margin-bottom: 24px; }
+    .finding { margin: 20px 0; }
+    .finding strong { color: var(--navy); }
+    .note, .caution { margin: 16px 0; }
+    code {
+      font-family: Consolas, "Courier New", monospace;
+      font-size: .94em;
+      background: #f1f3f5;
+      padding: 1px 4px;
+      border-radius: 3px;
+    }
+    pre {
+      overflow-x: auto;
+      padding: 18px;
+      background: #17212b;
+      color: #edf2f7;
+      border-radius: 5px;
+      font: 13px/1.5 Consolas, "Courier New", monospace;
+      white-space: pre-wrap;
+    }
+    pre code { padding: 0; color: inherit; background: transparent; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 22px;
+    }
+    th, td {
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--navy); color: #fff; }
+    tbody tr:nth-child(even) { background: var(--light-gray); }
+    .lineage {
+      margin: 18px 0;
+      font-family: Consolas, "Courier New", monospace;
+      line-height: 1.8;
+    }
+    .arrow { color: var(--blue); font-weight: 700; }
+    .good { color: var(--green); font-weight: 600; }
+    .warning { color: var(--amber); font-weight: 600; }
+    header nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+    header nav a {
+      color: var(--navy);
+      background: var(--light-blue);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      padding: 6px 12px;
+      font-family: "Arial Narrow", "Roboto Condensed", sans-serif;
+      font-size: 12px;
+      letter-spacing: .04em;
+      line-height: 1.2;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    header nav a:hover,
+    header nav a:focus-visible {
+      color: var(--navy);
+      background: #fff;
+      border-color: var(--blue);
+    }
+    .section-number {
+      margin-right: 8px;
+      color: var(--blue);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: .85em;
+    }
+    .back-top {
+      display: inline-block;
+      margin-top: 24px;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      padding: 3px 7px;
+      font-size: 12px;
+      text-decoration: none;
+    }
+    .back-top:hover,
+    .back-top:focus-visible {
+      color: var(--navy);
+      border-color: var(--blue);
+    }
+    footer {
+      margin-top: 42px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 12px;
+    }
+    @media print {
+      body { background: #fff; }
+      main { max-width: none; margin: 0; padding: 20px; border: 0; box-shadow: none; }
+      pre, table, .finding, .note, .caution { break-inside: avoid; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+<main id="top">
+  <header>
+  <h1><code>ORGLEV4_NAME</code> Data Lineage and Transformation Findings</h1>
+  <div class="subtitle">Database investigation of the value used by <code>bi_surv.mv_fv_surv_well_summary.orglev4_name</code></div>
+  <p><strong>Researcher:</strong> Lester Carcamo<br><strong>Research timestamp:</strong> 2026-09-14 21:17:27 -07:00</p>
+  <nav aria-label="Document sections">
+    <a href="#s1"><span class="section-number">01</span>Executive finding</a>
+    <a href="#s2"><span class="section-number">02</span>Investigation scope</a>
+    <a href="#s3"><span class="section-number">03</span>Numbered lineage</a>
+    <a href="#s4"><span class="section-number">04</span>Transformation layers</a>
+    <a href="#s5"><span class="section-number">05</span>Final CASE logic</a>
+    <a href="#s6"><span class="section-number">06</span>Output definitions</a>
+    <a href="#s7"><span class="section-number">07</span>GENERAL branch</a>
+    <a href="#s8"><span class="section-number">08</span>Alias objects</a>
+    <a href="#s9"><span class="section-number">09</span>Raw organizational data</a>
+    <a href="#s10"><span class="section-number">10</span>Procedure findings</a>
+    <a href="#s11"><span class="section-number">11</span>Conclusion</a>
+  </nav>
+  </header>
+
+  <section id="s1">
+    <h2><span class="section-number">1</span>Executive Finding</h2>
+    <div class="finding">
+    <strong>Executive finding:</strong> <code>orglev4_name</code> is a curated reporting classification, not necessarily a raw organizational attribute. Its value is produced by ordered <code>CASE</code> expressions, stored in downstream materialized views, and exposed by the summary table. Some outputs come from source data; others are injected as hard-coded reporting labels.
+    </div>
+    <a class="back-top" href="#top">&#8593; Back to top</a>
+  </section>
+
+  <section id="s2">
+  <h2><span class="section-number">2</span>What This Investigation Needed to Establish</h2>
+  <p>The investigation addressed two related questions:</p>
+  <ol>
+    <li><strong>Definitions:</strong> What does each output name mean, and is it inherited from source data or assigned by business logic?</li>
+    <li><strong>Lineage:</strong> Where, exactly, is the value transformed before it reaches the summary table?</li>
+  </ol>
+  <p>The summary table does not explain its own derivation. It receives an already manufactured value from upstream objects.</p>
+  <a class="back-top" href="#top">&#8593; Back to top</a>
+  </section>
+
+  <section id="s3">
+  <h2><span class="section-number">3</span>Numbered Lineage</h2>
+  <div class="lineage">
+    <strong>1. Raw and integration sources</strong><br>
+    &nbsp;&nbsp;<strong>CRC:</strong> <code>bi.dv_wc_crc_wellcomp</code><br>
+    &nbsp;&nbsp;<strong>Wilmington/Ingres:</strong> <code>ingres_dev.fv_wilmington_completions</code><br>
+    &nbsp;&nbsp;<strong>Manual/legacy:</strong> <code>legacy_integrations.tbmanual_well_entry</code><br>
+    &nbsp;&nbsp;These are the three well-completion source branches.<br>
+    <span class="arrow">&#8595;</span><br>
+    <strong>2. bi.dv_wc_wellcomp_union</strong><br>
+    &nbsp;&nbsp;Unions those sources and applies additional source-system mappings<br>
+    <span class="arrow">&#8595;</span><br>
+    <strong>3. bi.fv_wellcomp</strong><br>
+    &nbsp;&nbsp;Selects one ranked completion record per <code>api_no14</code><br>
+    <span class="arrow">&#8595;</span><br>
+    <strong>4. crc.mv_bi_wellcomp</strong><br>
+    &nbsp;&nbsp;Materialized well-completion data<br>
+    <span class="arrow">&#8595;</span><br>
+    <strong>5. bi.fv_wellcomp_v</strong><br>
+    &nbsp;&nbsp;Joins organizational data and applies the first <code>CASE</code> transformation<br>
+    <span class="arrow">&#8595;</span><br>
+    <strong>6. crc.mv_bi_wellcomp_v</strong> (<code>wc</code>)<br>
+    &nbsp;&nbsp;Materialized result containing a transformed <code>orglev4_name</code><br>
+    <span class="arrow">&#8595;</span><br>
+    <strong>7. bi_surv.dv_surv_ws_org_units</strong><br>
+    &nbsp;&nbsp;Applies the surveillance-specific, second <code>CASE</code> transformation<br>
+    <span class="arrow">&#8595;</span><br>
+    <strong>8. bi_surv.dv_surv_ws_well_dictionary</strong><br>
+    &nbsp;&nbsp;Joins the calculated organization value to well data by <code>api_no14</code><br>
+    <span class="arrow">&#8595;</span><br>
+    <strong>9. bi_surv.mv_dv_surv_ws_well_dictionary</strong><br>
+    &nbsp;&nbsp;Materialized well dictionary result<br>
+    <span class="arrow">&#8595;</span><br>
+    <strong>10. bi_surv.fv_surv_well_summary</strong><br>
+    &nbsp;&nbsp;Adds production, test, and cumulative measures<br>
+    <span class="arrow">&#8595;</span><br>
+    <strong>11. bi_surv.mv_fv_surv_well_summary</strong> (<code>ws</code>)<br>
+    &nbsp;&nbsp;Stores and exposes the final calculated value used by the query
+  </div>
+
+  <p>The summary layer only forwards the field:</p>
+  <pre><code>SELECT ws.orglev4_name
+FROM bi_surv.fv_surv_well_summary ws;</code></pre>
+  <p>The well dictionary layer also forwards the result from the organization view:</p>
+  <pre><code>SELECT ou.orglev4_name
+FROM ...
+LEFT JOIN bi_surv.dv_surv_ws_org_units ou
+    ON wcv.api_no14 = ou.api_no14;</code></pre>
+  <a class="back-top" href="#top">&#8593; Back to top</a>
+  </section>
+
+  <section id="s4">
+  <h2><span class="section-number">4</span>The Two Transformation Layers</h2>
+  <h3>Layer 1: <code>bi.fv_wellcomp_v</code></h3>
+  <p>This view reads the materialized well-completion data and joins:</p>
+  <ul>
+    <li><code>ds_usoxyp.mast_organization_unit</code> as <code>m</code>, using <code>org_seqno</code>.</li>
+    <li><code>ds_ekpspp.dss_wn_team</code> as <code>wn</code>, using <code>reservoir_cd</code> and <code>cost_center</code>.</li>
+  </ul>
+  <p>It then creates a normalized <code>orglev4_name</code> with its own <code>CASE</code> expression.</p>
+
+  <h3>Layer 2: <code>bi_surv.dv_surv_ws_org_units</code></h3>
+  <p>This view reads <code>crc.mv_bi_wellcomp_v</code> and applies the surveillance-specific classification. This is the controlling transformation for the value that reaches the surveillance well dictionary and summary chain.</p>
+
+  <div class="caution">
+    <strong>Important distinction:</strong> the database does not mutate the original source rows. It transforms source attributes into a reporting value, then materialized views store that result. The resulting value is therefore modeled reporting data, not necessarily the original organizational value.
+  </div>
+  <a class="back-top" href="#top">&#8593; Back to top</a>
+  </section>
+
+  <section id="s5">
+  <h2><span class="section-number">5</span>Confirmed Final CASE Logic</h2>
+  <pre><code>CASE
+    WHEN UPPER(wc.reg_name) = 'ELK HILLS'
+        THEN COALESCE(
+            UPPER(wn.kpi_group),
+            UPPER(wc.orglev4_name)
+        )
+
+    WHEN wc.org_seqno = 1901030000
+        THEN 'PICO'
+
+    WHEN wc.org_seqno = 1901000000
+        THEN 'LONG BEACH UNIT'
+
+    WHEN UPPER(wc.orglev4_name) IN (
+        'NPR2E', 'NPR2W', 'SPRB', 'NPR1', 'SPRA'
+    )
+    OR UPPER(wc.at_name) = 'TIDELANDS'
+        THEN 'TIDELANDS'
+
+    WHEN UPPER(wc.orglev4_name) = 'GENERAL'
+        THEN CASE
+            WHEN UPPER(wc.subat_name) = 'GENERAL'
+                THEN CASE
+                    WHEN UPPER(wc.at_name) = 'GENERAL'
+                        THEN UPPER(wc.reg_name)
+                    ELSE UPPER(wc.at_name)
+                END
+            ELSE UPPER(wc.subat_name)
+        END
+
+    ELSE COALESCE(
+        UPPER(wc.orglev4_name),
+        UPPER(wc.subat_name),
+        UPPER(wc.at_name),
+        UPPER(wc.reg_name)
+    )
+END AS orglev4_name</code></pre>
+  <a class="back-top" href="#top">&#8593; Back to top</a>
+  </section>
+
+  <section id="s6">
+  <h2><span class="section-number">6</span>Output Names and Their Definitions</h2>
+  <p>Each row receives one output name. PostgreSQL evaluates the branches from top to bottom and returns the result from the first matching branch.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Output category</th>
+        <th>How the value is produced</th>
+        <th>Data status</th>
+        <th>Interpretation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Elk Hills KPI group</td>
+        <td><code>wn.kpi_group</code>, when <code>UPPER(wc.reg_name) = 'ELK HILLS'</code></td>
+        <td>Lookup-derived</td>
+        <td>A classification supplied by the team mapping table.</td>
+      </tr>
+      <tr>
+        <td>Original organizational name</td>
+        <td><code>wc.orglev4_name</code> when no earlier rule overrides it</td>
+        <td>Source-derived, then uppercased</td>
+        <td>The closest value to the upstream organizational hierarchy in this layer.</td>
+      </tr>
+      <tr>
+        <td><code>PICO</code></td>
+        <td><code>wc.org_seqno = 1901030000</code></td>
+        <td>Hard-coded</td>
+        <td>A fixed reporting classification injected by the SQL rule.</td>
+      </tr>
+      <tr>
+        <td><code>LONG BEACH UNIT</code></td>
+        <td><code>wc.org_seqno = 1901000000</code></td>
+        <td>Hard-coded</td>
+        <td>A fixed reporting classification injected by the SQL rule.</td>
+      </tr>
+      <tr>
+        <td><code>TIDELANDS</code></td>
+        <td>Specific source names or <code>wc.at_name = 'TIDELANDS'</code></td>
+        <td>Hard-coded consolidation</td>
+        <td>Several source organizational values are painted into one reporting category.</td>
+      </tr>
+      <tr>
+        <td>Hierarchy fallback</td>
+        <td>First non-null value from <code>orglev4_name</code>, <code>subat_name</code>, <code>at_name</code>, and <code>reg_name</code></td>
+        <td>Source-derived</td>
+        <td>A fallback classification based on available organizational attributes.</td>
+      </tr>
+    </tbody>
+  </table>
+  <a class="back-top" href="#top">&#8593; Back to top</a>
+  </section>
+
+  <section id="s7">
+  <h2><span class="section-number">7</span>The <code>GENERAL</code> Branch</h2>
+  <p>When the source level-four value is <code>GENERAL</code>, the logic tries to replace that generic name with a more specific hierarchy value:</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Source state</th>
+        <th>Returned value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>orglev4_name = 'GENERAL'</code> and <code>subat_name &lt;&gt; 'GENERAL'</code></td>
+        <td><code>UPPER(wc.subat_name)</code></td>
+      </tr>
+      <tr>
+        <td><code>orglev4_name = 'GENERAL'</code>, <code>subat_name = 'GENERAL'</code>, and <code>at_name &lt;&gt; 'GENERAL'</code></td>
+        <td><code>UPPER(wc.at_name)</code></td>
+      </tr>
+      <tr>
+        <td>The three levels are <code>GENERAL</code></td>
+        <td><code>UPPER(wc.reg_name)</code></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="note">
+    <strong>Null behavior:</strong> the nested <code>GENERAL</code> branch does not use <code>COALESCE</code>. A null <code>subat_name</code> or <code>at_name</code> can therefore produce a null result instead of continuing to another available hierarchy level.
+  </div>
+  <a class="back-top" href="#top">&#8593; Back to top</a>
+  </section>
+
+  <section id="s8">
+  <h2><span class="section-number">8</span>The Two Alias Objects</h2>
+  <h3><code>wc</code>: <code>crc.mv_bi_wellcomp_v</code></h3>
+  <p>This is a 70-column materialized view containing well-completion, organizational, status, location, engineering, and ownership information. It contained 43,812 rows when inspected.</p>
+  <p>The fields used by the final <code>CASE</code> include:</p>
+  <pre><code>wc.reg_name
+wc.at_name
+wc.subat_name
+wc.orglev4_name
+wc.org_seqno
+wc.reservoir_cd
+wc.cost_center
+wc.curr_comp_status</code></pre>
+
+  <h3><code>wn</code>: <code>ds_ekpspp.dss_wn_team</code></h3>
+  <p>This is a 10-column table containing team, cost-center, reservoir, economics, acquisition, and KPI grouping information. It contained 362 rows when inspected.</p>
+  <pre><code>wn.team
+wn.cost_center
+wn.cost_center_desc
+wn.reservoir_cd
+wn.nri
+wn.depletion_unit
+wn.wi
+wn.acquired_date
+wn.kpi_group
+wn.cc_type</code></pre>
+  <p>The join key is:</p>
+  <pre><code>wc.reservoir_cd = wn.reservoir_cd
+AND wc.cost_center = wn.cost_center</code></pre>
+  <p>The table had 362 distinct join keys and 28 distinct KPI groups. It supplies an Elk Hills override; it is not the raw organizational source.</p>
+  <a class="back-top" href="#top">&#8593; Back to top</a>
+  </section>
+
+  <section id="s9">
+  <h2><span class="section-number">9</span>Where to Examine the Closest Raw Organizational Data</h2>
+  <p>To inspect the organizational value before the downstream surveillance classification, start with:</p>
+  <pre><code>ds_usoxyp.mast_organization_unit</code></pre>
+  <p>Join it to the well-completion data by <code>org_seqno</code>:</p>
+  <pre><code>SELECT
+    wc.api_no14,
+    wc.org_seqno,
+    m.reg_name,
+    m.at_name,
+    m.subat_name,
+    m.orglev4_name AS source_orglev4_name,
+    m.orglev5_name
+FROM crc.mv_bi_wellcomp wc
+LEFT JOIN ds_usoxyp.mast_organization_unit m
+    ON wc.org_seqno = m.org_seqno;</code></pre>
+  <p>This is the best starting point for comparing the source organizational name with the painted reporting output.</p>
+  <p>For deeper well-completion lineage, do not treat <code>bi.dv_wc_wellcomp_union</code> as a single raw source. It is an integration view with three branches:</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Union branch</th>
+        <th>Upstream object</th>
+        <th>Role</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CRC</td>
+        <td><code>bi.dv_wc_crc_wellcomp</code></td>
+        <td>Uses <code>ds_usoxyp.mast_zone</code>, <code>ds_usoxyp.mast_well</code>, and related reference objects.</td>
+      </tr>
+      <tr>
+        <td>Wilmington / Ingres</td>
+        <td><code>ingres_dev.fv_wilmington_completions</code></td>
+        <td>Forwards from <code>ingres_dev.fv_completions</code> and applies source-specific classifications.</td>
+      </tr>
+      <tr>
+        <td>Other / manual</td>
+        <td><code>legacy_integrations.tbmanual_well_entry</code></td>
+        <td>Manual well records with their own supplied attributes.</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>The union itself also injects values. For example, Ingres <code>asset_name</code> values are mapped to fixed <code>org_seqno</code> values for <code>LONG BEACH UNIT</code>, <code>PICO</code>, and <code>TIDELANDS</code>. It also translates status, well type, redrill, and operating-method codes.</p>
+  <h3>Query-ready branch objects</h3>
+  <p>Query these three objects separately to inspect the inputs before they are combined by <code>bi.dv_wc_wellcomp_union</code>:</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Branch</th>
+        <th>Object to query</th>
+        <th>Starter query</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CRC</td>
+        <td><code>bi.dv_wc_crc_wellcomp</code></td>
+        <td><code>SELECT * FROM bi.dv_wc_crc_wellcomp LIMIT 100;</code></td>
+      </tr>
+      <tr>
+        <td>Wilmington / Ingres</td>
+        <td><code>ingres_dev.fv_wilmington_completions</code></td>
+        <td><code>SELECT * FROM ingres_dev.fv_wilmington_completions LIMIT 100;</code></td>
+      </tr>
+      <tr>
+        <td>Manual / legacy supplemental</td>
+        <td><code>legacy_integrations.tbmanual_well_entry</code></td>
+        <td><code>SELECT * FROM legacy_integrations.tbmanual_well_entry LIMIT 100;</code></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>To inspect the standardized combined result, query:</p>
+  <pre><code>SELECT *
+FROM bi.dv_wc_wellcomp_union
+LIMIT 100;</code></pre>
+  <div class="note">
+    <strong>Set-operation detail:</strong> the database definition uses <code>UNION</code>, not <code>UNION ALL</code>. The three branch queries provide compatible, positionally aligned column lists, and the <code>UNION</code> removes rows that are exact duplicates across the combined output. The inputs are not all physical tables: the CRC and Wilmington/Ingres branches are views, while the manual/legacy branch is a table.
+  </div>
+  <div class="finding">
+    <strong>Important discovery:</strong> the three upstream objects do not have the same native schema. The CRC branch returned 49 columns, the Wilmington/Ingres branch returned 36 columns, and the manual/legacy table returned 17 columns. The union makes them compatible by explicitly selecting columns in a common order, renaming source fields, converting source codes, and supplying typed <code>NULL</code> values where a branch has no equivalent field. Therefore, the shared schema is manufactured by the union query; it is not inherited unchanged from the three sources.
+  </div>
+  <p>Examples of this standardization include:</p>
+  <ul>
+    <li>The Wilmington/Ingres branch converts values such as <code>Oil</code> and <code>Inj</code> into standardized completion types such as <code>PROD_OIL</code> and <code>INJ_H2O</code>.</li>
+    <li>The Wilmington/Ingres branch converts asset names such as <code>PICO</code>, <code>LONG BEACH UNIT</code>, and <code>TIDELANDS</code> into fixed organization sequence values.</li>
+    <li>The manual/legacy branch supplies a smaller set of fields, while the union supplies <code>NULL</code> for fields that do not exist in that source.</li>
+  </ul>
+  <p>The deeper lineage is therefore:</p>
+  <div class="lineage">
+    <strong>CRC / Ingres / manual sources</strong>
+    <span class="arrow">&#8594;</span>
+    <strong>bi.dv_wc_wellcomp_union</strong>
+    <span class="arrow">&#8594;</span>
+    <strong>bi.fv_wellcomp</strong>
+    <span class="arrow">&#8594;</span>
+    <strong>crc.mv_bi_wellcomp</strong>
+  </div>
+  <div class="caution">
+    <strong>Correction to the earlier endpoint:</strong> <code>bi.dv_wc_wellcomp_union</code> is not the highest/root object. There is no single root table for the entire population because the view combines multiple source systems. For the closest organizational source specifically, <code>ds_usoxyp.mast_organization_unit</code> remains the key object joined by <code>org_seqno</code> in <code>bi.fv_wellcomp_v</code>.
+  </div>
+  <p><code>ds_ekpspp.dss_wn_team</code> should be examined separately as a reporting lookup because it can provide a KPI group that replaces the source organizational name for Elk Hills.</p>
+  <a class="back-top" href="#top">&#8593; Back to top</a>
+  </section>
+
+  <section id="s10">
+  <h2><span class="section-number">10</span>Procedure and Materialized-View Findings</h2>
+  <ul>
+    <li><span class="good">Confirmed:</span> the relevant transformations are SQL <code>CASE</code> expressions in views.</li>
+    <li><span class="good">Confirmed:</span> no relevant stored procedure was found constructing this field.</li>
+    <li><span class="good">Confirmed:</span> the summary materialized view forwards the value and does not document its derivation.</li>
+    <li><span class="warning">Review point:</span> materialized views show upstream changes only after refresh.</li>
+    <li><span class="warning">Review point:</span> the output is authoritative only as a governed reporting classification, not automatically as raw source truth.</li>
+  </ul>
+  <a class="back-top" href="#top">&#8593; Back to top</a>
+  </section>
+
+  <section id="s11">
+  <h2><span class="section-number">11</span>Conclusion</h2>
+  <p><code>orglev4_name</code> is a curated reporting value. Some output names are inherent in source organizational data; others are injected by hard-coded business rules so that records fit a desired reporting schema. The summary table stores the final painted result but contains no indication that the value was manufactured upstream.</p>
+  <p>The most defensible interpretation is:</p>
+  <pre><code>Source attributes
+    + lookup mappings
+    + ordered business rules
+    = derived reporting classification</code></pre>
+  <a class="back-top" href="#top">&#8593; Back to top</a>
+  </section>
+
+  <footer>
+    Technical lineage record prepared by Lester Carcamo from PostgreSQL object definitions and catalog checks performed on 2026-09-14 at 21:17:27 -07:00.
+  </footer>
+</main>
+</body>
+</html>
