@@ -48,6 +48,11 @@
       "date": "2026-09-10",
       "title": "Principles of data quality management & ISO 8000-61",
       "url": "w03/2026-09-10.html"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Data quality dimensions, missing values & data profiling",
+      "url": "w04/2026-09-15.html"
     }
   ]
 }

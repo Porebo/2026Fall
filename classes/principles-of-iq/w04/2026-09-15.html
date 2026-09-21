@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principles of IQ - 2026-09-15</title>
+  <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a> /
+      <a href="../home-principles-of-iq.html">Principles of IQ</a> /
+      2026-09-15
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Class Meeting &mdash; September 15, 2026</p>
+      <h1 class="meeting-title">Data Quality Dimensions, Missing Values &amp; Data Profiling</h1>
+      <p class="lede">
+        Assessing data quality without documented requirements: the dimensional frameworks
+        (Wang &amp; Strong, McGilvray, ISO), the critical distinction between validity and
+        accuracy, the four forms of missing value, consistent representation, and the
+        three-dimensional model of data profiling.
+      </p>
+    </header>
+
+    <section class="card" aria-labelledby="recording-heading">
+      <p class="eyebrow">Recording</p>
+      <h2 id="recording-heading">Lecture Video</h2>
+      <p>September 15, 2026 class recording. This session picks up where the re-recorded September 10 lecture left off, and was framed throughout as direct support for the in-progress student grades assignment.</p>
+      <p class="deadline-empty">Zoom recording link to be added.</p>
+    </section>
+
+    <section class="card" aria-labelledby="resources-heading">
+      <p class="eyebrow">Course Shell</p>
+      <h2 id="resources-heading">New Items in the Resources Folder</h2>
+      <p>Beyond the textbook, the professor has posted supplementary material in the course shell&rsquo;s resources folder. None of it is assigned yet, but it is available for students who want to pursue the topics.</p>
+      <ul>
+        <li><strong>The full ISO 8000-61 standard (PDF)</strong> &mdash; the class only covered it in general terms; the standard itself has all the detail on the activities to perform and the results they should produce.</li>
+        <li><strong>Ehrlinger et al., data quality rule generation using large language models</strong> &mdash; a very recent paper on the emerging use of AI in information quality. You start from a hand-built rule set (exactly what the current assignment asks for), then let an LLM analyze the defects you discover and propose additional rules, growing the rule set over time. One author, Lisa Ehrlinger, is an Austrian researcher whose dissertation committee the professor served on.</li>
+        <li><strong>Wang, &ldquo;manage information as product&rdquo;</strong> &mdash; an older research paper by one of the <em>Journey to Data Quality</em> textbook authors, establishing the argument that information quality must be managed as a product. Many concepts already covered in class appear here, including the four principles for managing products effectively.</li>
+      </ul>
+      <p class="deadline-empty">Housekeeping: the current assignment may be completed in Excel, OpenRefine, or any other tool the student finds convenient.</p>
+    </section>
+
+    <section class="card" aria-labelledby="triangle-heading">
+      <p class="eyebrow">Where the Assignment Sits</p>
+      <h2 id="triangle-heading">The Data Assessment Triangle</h2>
+      <p>Data quality assessment needs three things together: <strong>data requirements</strong>, the <strong>data</strong> itself (examined through profiling), and the <strong>data architecture</strong> that turns input data into the product. The arrows run both directions.</p>
+      <ul>
+        <li>If requirements are documented, apply them to the data and ask whether the data satisfies them.</li>
+        <li>If only the data and a description of the product exist &mdash; the situation in the current assignment &mdash; work backward and <em>derive</em> the data requirements from what the product needs.</li>
+        <li>Requirements function like tolerances for manufactured parts. You cannot say a part is unfit until you know the required diameter, weight, or configuration; the same holds for data.</li>
+        <li>Data architecture (transformations, storage, the path from input data to product) is the third leg, but is deliberately out of scope for this assignment.</li>
+      </ul>
+      <p>Going one step further gives <strong>information quality assessment</strong>, which adds value to the picture: maximizing the value and minimizing the risk of the data held, and ensuring the product creates value for its consumer. It is a two-sided definition &mdash; value to the organization and value to the consumer.</p>
+      <p>Most organizations the professor has assessed are strong on the left side (profiling, data specifications) and weak on relating that work to the product being built and the value of that product &mdash; the cart before the horse.</p>
+    </section>
+
+    <section class="card" aria-labelledby="frameworks-heading">
+      <p class="eyebrow">Expressing Requirements</p>
+      <h2 id="frameworks-heading">Dimensional Frameworks</h2>
+      <p>Physical materials have well-understood, measurable characteristics; nobody argues about them. Data is not physical &mdash; it cannot be picked up or measured with calipers &mdash; so its dimensions are somewhat subjective and soft, and different people arrive at different sets. Many frameworks were built by consultants who deliberately differentiated their models from competitors&rsquo;, which is part of why so many exist.</p>
+      <ul>
+        <li><strong>Wang &amp; Strong (16 dimensions)</strong> &mdash; the framework preferred in this program because it rests on a rigorous academic survey of data workers rather than ad hoc consulting practice, including work to reconcile synonyms. Accuracy, believability, objectivity, reputation, value added, relevancy, timeliness, completeness, amount of data, interpretability, ease of understanding, representational consistency, conciseness of representation, manipulability, access, and security.</li>
+        <li><strong>McGilvray (12 dimensions)</strong> &mdash; notable for starting with <em>data specifications</em> as a dimension in its own right: not part of the data, but required in order to assess it. Groups timeliness, completeness, and amount of data under &ldquo;data integrity fundamentals,&rdquo; and adds duplication, accuracy, consistency and synchronization, timeliness and availability, ease of use and manipulability, coverage, presentation quality, perception/relevance/trust, data decay, and transactability.</li>
+        <li><strong>ISO characteristics</strong> &mdash; accuracy, completeness, consistency, credibility, currentness (their term for timeliness), accessibility, compliance, confidentiality, efficiency, precision, traceability (also called lineage), understandability, portability, and recoverability.</li>
+      </ul>
+      <p>Cross-framework equivalences worth knowing: McGilvray&rsquo;s coverage = Wang &amp; Strong&rsquo;s completeness; her presentation quality &asymp; ease of understanding; her perception/relevance/trust bundles believability, objectivity, and reputation; ISO&rsquo;s compliance &asymp; McGilvray&rsquo;s data specifications; ISO&rsquo;s credibility &asymp; believability.</p>
+      <p>Two asides: <strong>portability</strong> has its own ISO standard and raises legal questions of data ownership &mdash; if you put data into a vendor&rsquo;s system, do you have the right to take it out again? Vendors now recognize this (Word can export to plain text or PDF). <strong>Recoverability</strong>, by contrast, is arguably a characteristic of the system rather than of the data.</p>
+      <p>Which framework is used matters less than thinking broadly &mdash; not just about accuracy, but about the full range of characteristics. Most assessments use only a handful of dimensions.</p>
+    </section>
+
+    <section class="card" aria-labelledby="perception-heading">
+      <p class="eyebrow">Beyond the Data Itself</p>
+      <h2 id="perception-heading">Dimensions You Cannot Profile</h2>
+      <p>Believability, relevance, trust, and objectivity cannot be obtained by looking at the data. They must be gathered from the people who produce and consume it.</p>
+      <ul>
+        <li>Users can perceive data to be accurate when it is not, and can lose trust in data that is in fact accurate.</li>
+        <li>Surveying producers and consumers separately often reveals a discrepancy between how accurate each group believes the data to be &mdash; a gap that then needs reconciliation.</li>
+        <li>Not everything can be assessed from inside the organization&rsquo;s data stores; sometimes you have to reach out.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="validity-heading">
+      <p class="eyebrow">The Central Distinction</p>
+      <h2 id="validity-heading">Validity Is Not Accuracy</h2>
+      <p>Accuracy shows up in every framework because it is the first thing anyone names as constituting quality data. Yet in most data quality processes that claim to measure accuracy, accuracy is not actually being measured &mdash; validation is being substituted for it.</p>
+      <ul>
+        <li><strong>Accuracy</strong> requires comparing your data against an external source known or believed to be accurate: the Department of Health, driver&rsquo;s license records, a film repository or the studio&rsquo;s own credits, or first-person verification (as when a hospital asks your date of birth at admission). This is extremely difficult at scale, which is why it is so often skipped.</li>
+        <li><strong>Validity</strong> requires only the data itself. Rules ask whether a value is reasonable: February cannot have a day past 29, and only past 28 in a leap year; a date of birth cannot be in the future or 200 years ago; a customer for an age-restricted product should compute to 18 or older as of today.</li>
+      </ul>
+      <p><strong>The asymmetry:</strong> a value that fails validation is likely incorrect, but a value that passes validation is not necessarily accurate. <code>1975-12-03</code> for John Doe has the right format, falls in an acceptable range, and violates no rule &mdash; so it is valid. It still may not be his date of birth. Inaccurate values pass validation all the time.</p>
+      <p>Validation rule types covered:</p>
+      <ul>
+        <li><strong>Range checks</strong> &mdash; dates falling inside acceptable bounds.</li>
+        <li><strong>Reasonable combinations</strong> &mdash; February 30 cannot happen.</li>
+        <li><strong>Set membership</strong> &mdash; account type must be A, B, or C; state must be a valid USPS code such as AR or CA, checked against a reference table.</li>
+        <li><strong>Field-to-field (dependency) rules</strong> &mdash; termination date must fall after hire date. Violation proves an error exists somewhere; conformance proves only reasonableness, not that either date is the true one.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="completeness-heading">
+      <p class="eyebrow">Completeness</p>
+      <h2 id="completeness-heading">Breadth vs. Depth of Coverage</h2>
+      <ul>
+        <li><strong>Breadth of coverage</strong> &mdash; for a target population, is every member represented? A record in the customer master for every customer, in the product master for every product, every building code for every building on campus.</li>
+        <li><strong>Depth of coverage</strong> &mdash; how much information is in each record? The customer master may have complete breadth yet still be missing current and previous address, phone number, or email for a given customer.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="missing-heading">
+      <p class="eyebrow">Missing Values</p>
+      <h2 id="missing-heading">Null, Empty, Blank &amp; Placeholder</h2>
+      <p>Missing values take four distinct forms, and conflating them produces erroneous or at least inconsistent query results.</p>
+      <ul>
+        <li><strong>Null</strong> &mdash; an artifact of relational database systems only. A null means the value was never defined. CSV files cannot technically contain nulls; Python often surfaces empty CSV fields as its own special value.</li>
+        <li><strong>Empty</strong> &mdash; the value is defined but contains no characters. In a delimited file this is two separators adjacent to each other, with the separators still present so the fields stay aligned.</li>
+        <li><strong>Blank</strong> &mdash; the field contains only blank characters or whitespace, such as spaces or a tab between the two commas. Something is there; it just is not interesting.</li>
+        <li><strong>Placeholder</strong> &mdash; the hardest to detect, and the one that trips people up. A value entered solely to satisfy a required field.</li>
+      </ul>
+      <p>Placeholders arise because forms mark required fields with an asterisk and refuse to submit while they are empty, so the operator invents something: <code>movie description</code> in the movie dataset&rsquo;s description column, a fake email address, not applicable, none, a question mark, TBD, or a default date such as July 1 of the current year or January 1, 1900. One that fooled the professor years ago was <code>NMN</code> &mdash; a common abbreviation for &ldquo;no middle name.&rdquo; These are missing values, not incorrect values: nobody was guessing at the real value, they just needed to get through the form.</p>
+    </section>
+
+    <section class="card" aria-labelledby="standardization-heading">
+      <p class="eyebrow">Consistent Representation</p>
+      <h2 id="standardization-heading">Data Standardization &amp; the ISO Date Standard</h2>
+      <p>Consistent representation is not about correctness, accuracy, or missing values &mdash; it is about expressing the same meaning the same way every time. If a value carries a meaning, always use that same value to express it. The movie dataset&rsquo;s lowercase and uppercase &ldquo;movie&rdquo; is the class example.</p>
+      <p><strong>Dates</strong> are the biggest offender: <code>5/7/87</code> is May 7 in the U.S. and July 5 in Europe. <strong>The professor asks everyone in this class to use the ISO date standard from now on</strong>, in coursework and in signed documents. The principle is descending order of magnitude &mdash; longest unit first:</p>
+      <ul>
+        <li>Four-digit year (two-digit years created the Y2K ambiguity; 1926 and 2026 are not distinguishable as &ldquo;26&rdquo;), then two-digit month, then two-digit day: <code>1997-05-12</code>.</li>
+        <li>The companion ISO time standard continues the pattern: two-digit hour in 24-hour format, then minutes, then seconds, then milliseconds if needed.</li>
+      </ul>
+      <p>Other standardization problems covered:</p>
+      <ul>
+        <li><strong>Phone numbers</strong> &mdash; dashes, periods, or nothing; U.S. numbers are 10 digits but other countries vary in length and add a country prefix; extensions add another layer.</li>
+        <li><strong>Names</strong> &mdash; parsed versus unparsed (&ldquo;John R. Talburt&rdquo; versus separate first, middle initial, and last fields); punctuation decisions for names such as O&rsquo;Brien (keep the apostrophe, concatenate to OBrien, or treat the O as a middle initial); prefix titles (Dr.) versus suffix titles (IQ Certified Professional) versus generational suffixes (Jr., Sr., II, III).</li>
+      </ul>
+      <p>None of these can be judged good or bad without a documented requirement stating which form the organization has chosen.</p>
+    </section>
+
+    <section class="card" aria-labelledby="acute-heading">
+      <p class="eyebrow">Key Takeaway</p>
+      <h2 id="acute-heading">Acute vs. Chronic Data Quality Problems</h2>
+      <p>In the professor&rsquo;s experience assessing organizations, the two most common data quality issues by far are missing data and inconsistent representation &mdash; and they behave very differently.</p>
+      <ul>
+        <li><strong>Missing data is acute.</strong> Serious, but immediately solvable, like a headache treated with an aspirin. Once the data is obtained, it stays obtained.</li>
+        <li><strong>Inconsistent representation is chronic.</strong> Like diabetes, it must be managed continuously. You can clean and standardize everything you have, then the next batch of incoming data arrives with the same problems and must be fixed again, indefinitely.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="redundancy-heading">
+      <p class="eyebrow">Redundancy</p>
+      <h2 id="redundancy-heading">Duplication Depends on the Requirement</h2>
+      <ul>
+        <li>In a <strong>customer master</strong>, the requirement is one record and only one record per customer, so redundancy is a defect.</li>
+        <li>In <strong>sales data</strong>, redundancy is desirable &mdash; you want the same customer buying and the same product selling many times.</li>
+        <li>Redundancy is nonetheless the root cause of many data quality issues, largely because copies lose synchronization: a student&rsquo;s address stored in two places, updated in only one, yields two conflicting versions of the record.</li>
+        <li><strong>Over-counting:</strong> duplicate customer records look like distinct customers, inflating the customer count.</li>
+        <li><strong>Under-counting:</strong> one product represented by two records in the product master splits its sales into an A total and a B total, so the true combined figure is never seen.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="profiling-heading">
+      <p class="eyebrow">Data Profiling</p>
+      <h2 id="profiling-heading">Three-Dimensional Analysis</h2>
+      <p>Data profiling examines a dataset to collect statistics about it and, in many cases, relationships between records. When no data specifications exist, <strong>the profiling statistics become the de facto data specification</strong>.</p>
+      <p>The framing comes from Ed Lindsey&rsquo;s book on three-dimensional analysis and data profiling techniques, using spatial rather than data quality dimensions:</p>
+      <ol>
+        <li><strong>Column analysis</strong> (linear) &mdash; all the values within a single column.</li>
+        <li><strong>Dependency profiling</strong> (planar) &mdash; relationships between columns inside one table, such as the hire-date/termination-date rule.</li>
+        <li><strong>Cross-table relationships</strong> (three-dimensional) &mdash; dependencies between tables, from the era when relational databases dominated. The concept still holds for today&rsquo;s unnormalized and denormalized data.</li>
+      </ol>
+      <p>What column analysis looks at:</p>
+      <ul>
+        <li>Degree of uniqueness, and the frequency of each unique value &mdash; this is exactly what OpenRefine&rsquo;s facet feature shows when you click a column.</li>
+        <li><strong>Frequency of unique patterns</strong>, mostly for strings, and possibly not available in OpenRefine. For state codes the expected pattern is two capital letters; <code>ARK</code> surfaces as a three-capital-letter pattern and <code>Ark</code> as capital-then-two-lowercase. With 54 to 56 valid state and territory codes, scanning a handful of patterns beats scanning every unique value for anomalies. Note that a matching pattern is not validation &mdash; it confirms two capital letters, not a real USPS code.</li>
+        <li>Null and blank counts and percentages, inferred data type, outlier values (largest and smallest by collation, longest and shortest strings), and averages.</li>
+      </ul>
+      <p>The worked example was a column named only &ldquo;Field 12,&rdquo; left ambiguous so students would guess its purpose from the profile alone: ordinal position 12, row count 10,081, 324 nulls, zero blanks &mdash; the split between the two confirming it came from a relational database.</p>
+      <p><strong>Why profiling matters:</strong> organizations have requirements for their data and simply assume the data follows them. Managers and salespeople carry a picture of what the data looks like because that is how it is supposed to look. When someone finally examines the actual data, it is routinely not that way &mdash; unchecked new data arrives, requirements go unapplied, and bad data creeps in and accumulates. Profiling is also, in the professor&rsquo;s words, genuinely fun: it brings out the detective, and for a while you know things about the company&rsquo;s data that nobody else knows.</p>
+    </section>
+
+    <section class="meeting-nav" aria-labelledby="action-items-heading">
+      <h2 id="action-items-heading">Action Items</h2>
+      <ol>
+        <li>Derive data requirements for the student grades assignment from the described product, using the data assessment triangle; Excel, OpenRefine, or any other tool is acceptable.</li>
+        <li>Adopt the ISO date format (<code>YYYY-MM-DD</code>) in all coursework from now on, per the professor&rsquo;s explicit request.</li>
+        <li>Be able to explain the asymmetry between validity and accuracy, and why most processes claiming to measure accuracy are really validating.</li>
+        <li>Distinguish the four forms of missing value &mdash; null, empty, blank, and placeholder &mdash; and know why nulls do not exist in CSV files.</li>
+        <li>Check the grades dataset specifically for placeholder values, which are the hardest missing-value form to detect.</li>
+        <li>Compare Wang &amp; Strong, McGilvray, and the ISO characteristics, including which dimensions map onto each other across frameworks.</li>
+        <li>Explain why missing data is an acute problem while inconsistent representation is chronic.</li>
+        <li>Distinguish breadth of coverage from depth of coverage when assessing completeness.</li>
+        <li>Optional reading in the resources folder: ISO 8000-61, the Ehrlinger LLM rule-generation paper, and the Wang information-as-product paper.</li>
+      </ol>
+      <p>Previous session: <a href="../w03/2026-09-10.html">September 10 &mdash; Principles of Data Quality Management &amp; ISO 8000-61</a></p>
+    </section>
+  </main>
+  <script src="../../../scripts/site-nav.js"></script>
+</body>
+</html>
