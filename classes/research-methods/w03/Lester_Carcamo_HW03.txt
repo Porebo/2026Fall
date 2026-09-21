@@ -1,0 +1,53 @@
+Lester Carcamo
+HW03: Literature Review Analysis
+
+Assigned paper: A systematic review on how educators teach AI in K-12 education
+
+1. How many articles did the authors review for this paper?
+
+The authors describe the review as a systematic review of 45 high-quality empirical studies in the abstract. However, the Methods section explains that after the main database screening, 45 papers remained, and then 2 additional papers were identified through snowballing. That means the final coding set included 47 papers, while 45 is the number of studies left after the first screening stage. In other words, the study is best understood as a review of 47 papers total, with 45 as the core set before snowballing.
+
+2. What corpus (collections, sources, or conference proceedings of papers) did they examine?
+
+The review focuses on empirical studies of K-12 AI education published between January 2014 and April 2024. The authors followed PRISMA guidelines and used a systematic search strategy, then added an additional snowballing step. The main search used Web of Science, and they also used backward and forward snowballing from well-cited literature reviews and previously selected papers. Their inclusion criteria required the studies to be empirical, related to K-12 AI education, focused on implementation or teaching practice, and provide information about how AI was taught or learned. Studies were excluded if they were not empirical, were not clearly about K-12 AI education, focused only on tools without classroom implementation, or were about early childhood education or non-implementation factors.
+
+3. What keywords did they use to find potential articles to include in their literature review?
+
+The paper does not present one simple Boolean search string in the excerpt, but it clearly indicates the review targeted concepts around K-12 AI education, AI literacy, and AI instruction/teaching practice. The authors searched for literature related to AI education in school settings and limited the review to studies that described actual educational design and implementation. Their screening process focused on the following themes:
+
+- K-12 education
+- AI education
+- AI literacy
+- teaching or learning of AI
+- empirical classroom or instructional studies
+
+They then screened titles and abstracts using a set of inclusion criteria and removed studies that were not directly about teaching AI in K-12 contexts or that did not provide details on implementation.
+
+4. Describe how the authors organized and presented their findings from their literature review.
+
+The paper is organized in two major ways: research design and instructional design.
+
+First, the authors report findings about research design. They examine publication year, sample size, learning stage, educational setting, research method, research focus, and duration. This helps show how K-12 AI education has been studied over time.
+
+Second, they report findings about instructional design. They examine learning stage, pedagogical strategy, learning tool, activity type, learning content, assessment method, and learning effect. This shows how AI education has been implemented in practice.
+
+The authors also use a PRISMA diagram to show the search and selection process, and they use tables to summarize quality appraisal and coding criteria. Their conclusions are organized around major themes and recommendations, rather than simply listing articles one by one. This makes the review more analytical and useful for future research.
+
+5. What were the major findings and opportunities for further research that the authors discovered from their literature review?
+
+The major findings show that K-12 AI education has potential to develop students' AI literacy, which includes AI knowledge, AI affectivity, and AI thinking. The authors conclude that AI education can help students better understand AI concepts and participate in human-AI collaboration.
+
+At the same time, the review identifies several weaknesses in current research and instructional design. These include:
+
+- short program duration
+- small sample sizes
+- non-standardized or limited research methods
+- lack of long-term and cross-age curriculum design
+- insufficient attention to teacher involvement
+- limited authentic or real-world learning contexts
+- uneven assessment strategies
+- inadequate scaffolding for student learning
+
+The paper also proposes recommendations for future work. For research, the authors suggest better time allocation, stronger sample selection, longitudinal designs, more rigorous methodology, and greater technical democracy. For instruction, they recommend group learning, authentic context, teacher involvement, triangulated evidence, and learning scaffolding.
+
+Overall, the paper suggests that AI education in K-12 has promise, but the field still needs stronger research methods and more thoughtful instruction design to support lasting learning and broader adoption.
