@@ -1,0 +1,37 @@
+Lester Carcamo
+Research Methods
+HW02 - Defining a Problem
+September 13, 2026
+
+Central Intention: 
+I want to use this proposed research as graduate project or master thesis.
+
+Research Title: 
+Artificial Intelligence Data Cleaning: Mitigating Hallucination and Ensuring Auditability in AI-Driven Data Remediation
+
+Introduction
+Workers at the forefront of fixing data quality errors may ask: Could artificial intelligence help me do this work faster? The same question may also occupy the minds of supervisors, mid-level line executives, and leaders all the way up to the CEO. Yet these initiatives may be restrained by apprehension about AI hallucinations: organizations may fear that an automated system intended to correct data could instead introduce more serious and less visible errors.
+
+To examine whether AI can safely deliver that benefit, this research will use established information-quality techniques to evaluate several data-quality dimensions. These measures will first be applied to calculate a baseline data-quality score for a dataset. AI will then be used with several specialized prompts to correct data-quality problems. After each intervention, the dataset will be measured again to determine whether AI improved, worsened, or had no effect on data quality, and whether the results varied according to the prompt used.
+
+Specific subject or what type of data to examine
+I wish to use data in the company where I work, but I am insecure about how to deal with information that may be considered private of a business entity. If that is a problem, I may also use public domain information in the realm of oil exploration. Specific from the California State website that offers much tabulated data about dimensional and fact data over oil production. 
+
+I do not intend to point blame on anyone as my intention is to test how good is LLM to correct DQ and how effective are the prompts. 
+
+Target Stakeholders: 
+technical staff who directly work on dq errors fixing and their upper level directors. I have found few papers that reach the hands-on worker as the papers become much technical. I want this research to become if not a model, a spark, a motivation for the reader. 
+
+Current State of Knowledge: 
+Current literature focuses primarily on custom agentic architectures rather than providing a standardized benchmark showing how specific, accessible prompt techniques (e.g., zero-shot, few-shot, role-based, multi-step) quantitatively impact standard Information Quality (IQ) dimensions (completeness, accuracy, consistency, validity).
+
+The Knowledge Gap:
+While current literature confirms that LLMs can perform basic data cleaning, there is a critical lack of empirical research measuring how different prompt engineering strategies quantitatively affect standardized Information Quality (IQ) metrics
+
+Proposed Insight & Value: 
+this research will contribute a quantifiable, empirical benchmark for deploying Large Language Models in enterprise Data Quality Management (DQM). Rather than relying on theoretical assumptions or fully autonomous black-box systems, this study provides a repeatable framework that measures how distinct prompting strategies directly impact standardized Information Quality (IQ) dimensions—such as accuracy, completeness, and validity—before and after AI intervention.
+
+Research Questions:
+1. To what extent do different prompting strategies improve or worsen standardized data-quality measures after AI intervention?
+2. Which prompting strategy produces the most reliable data-quality improvements?
+3. How frequently do AI-generated corrections introduce new errors or reduce data quality?
