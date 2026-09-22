@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-22",
   "chartOfAccounts": [
     {
       "id": "cash-checking",
@@ -73,8 +73,8 @@
       "lastFour": "8182",
       "dueDate": "2026-09-17",
       "minimumDueCents": 0,
-      "statementBalanceCents": 139715,
-      "balanceCents": 139715,
+      "statementBalanceCents": 180249,
+      "balanceCents": 180249,
       "completedPaymentDate": null,
       "completedPaymentCents": 0,
       "status": "open"
