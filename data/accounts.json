@@ -85,11 +85,11 @@
       "name": "Amazon Synchrony",
       "lastFour": "9883",
       "dueDate": "2026-09-20",
-      "minimumDueCents": 499,
-      "statementBalanceCents": 499,
-      "balanceCents": 499,
-      "completedPaymentDate": null,
-      "completedPaymentCents": 0,
+      "minimumDueCents": 0,
+      "statementBalanceCents": 8912,
+      "balanceCents": 40000,
+      "completedPaymentDate": "2026-09-22",
+      "completedPaymentCents": 8912,
       "status": "open"
     },
     {
@@ -99,11 +99,11 @@
       "lastFour": null,
       "dueDate": "2026-10-03",
       "minimumDueCents": 3920,
-      "statementBalanceCents": 3920,
-      "balanceCents": 3920,
-      "completedPaymentDate": null,
-      "completedPaymentCents": 0,
-      "status": "open"
+      "statementBalanceCents": 3921,
+      "balanceCents": 0,
+      "completedPaymentDate": "2026-09-22",
+      "completedPaymentCents": 3921,
+      "status": "paid"
     },
     {
       "id": "goldman-gm-rewards",
@@ -180,6 +180,24 @@
       "amountCents": 10873,
       "description": "Statement payment",
       "balanceAfterCents": 0
+    },
+    {
+      "id": "payment-lowes-2026-09-22",
+      "date": "2026-09-22",
+      "accountId": "synchrony-lowes",
+      "type": "payment",
+      "amountCents": 3921,
+      "description": "Statement payment",
+      "balanceAfterCents": 0
+    },
+    {
+      "id": "payment-amazon-9883-2026-09-22",
+      "date": "2026-09-22",
+      "accountId": "synchrony-amazon-9883",
+      "type": "payment",
+      "amountCents": 8912,
+      "description": "Partial payment (statement balance)",
+      "balanceAfterCents": 40000
     }
   ],
   "journalEntries": [
@@ -198,6 +216,42 @@
           "accountId": "cash-checking",
           "debitCents": 0,
           "creditCents": 10873
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-22-lowes-payment",
+      "date": "2026-09-22",
+      "description": "Payment to Lowe's account",
+      "sourceTransactionId": "payment-lowes-2026-09-22",
+      "lines": [
+        {
+          "accountId": "synchrony-lowes",
+          "debitCents": 3921,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 3921
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-22-amazon-9883-payment",
+      "date": "2026-09-22",
+      "description": "Payment to Amazon Synchrony ending in 9883",
+      "sourceTransactionId": "payment-amazon-9883-2026-09-22",
+      "lines": [
+        {
+          "accountId": "synchrony-amazon-9883",
+          "debitCents": 8912,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 8912
         }
       ]
     }
