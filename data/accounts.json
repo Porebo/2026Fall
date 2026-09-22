@@ -63,6 +63,13 @@
       "name": "Wells Fargo Active Cash ending in 9110",
       "type": "liability",
       "normalBalance": "credit"
+    },
+    {
+      "id": "chase-freedom-flex-3254",
+      "code": "2108",
+      "name": "Chase Freedom Flex ending in 3254",
+      "type": "liability",
+      "normalBalance": "credit"
     }
   ],
   "accounts": [
@@ -169,6 +176,19 @@
       "completedPaymentDate": null,
       "completedPaymentCents": 0,
       "status": "open"
+    },
+    {
+      "id": "chase-freedom-flex-3254",
+      "bank": "Chase",
+      "name": "Chase Freedom Flex",
+      "lastFour": "3254",
+      "dueDate": "2026-09-21",
+      "minimumDueCents": 3299,
+      "statementBalanceCents": 3299,
+      "balanceCents": 0,
+      "completedPaymentDate": "2026-09-22",
+      "completedPaymentCents": 3299,
+      "status": "paid"
     }
   ],
   "transactions": [
@@ -198,6 +218,15 @@
       "amountCents": 8912,
       "description": "Partial payment (statement balance)",
       "balanceAfterCents": 40000
+    },
+    {
+      "id": "payment-chase-flex-3254-2026-09-22",
+      "date": "2026-09-22",
+      "accountId": "chase-freedom-flex-3254",
+      "type": "payment",
+      "amountCents": 3299,
+      "description": "Statement payment",
+      "balanceAfterCents": 0
     }
   ],
   "journalEntries": [
@@ -252,6 +281,24 @@
           "accountId": "cash-checking",
           "debitCents": 0,
           "creditCents": 8912
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-22-chase-flex-3254-payment",
+      "date": "2026-09-22",
+      "description": "Payment to Chase Freedom Flex ending in 3254",
+      "sourceTransactionId": "payment-chase-flex-3254-2026-09-22",
+      "lines": [
+        {
+          "accountId": "chase-freedom-flex-3254",
+          "debitCents": 3299,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 3299
         }
       ]
     }
