@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="robots" content="noindex, nofollow">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Account Ledger</title>
@@ -29,6 +30,12 @@
     .sort-button { background: none; border: 0; color: inherit; cursor: pointer; font: inherit; letter-spacing: inherit; padding: 0; text-transform: inherit; }
     .sort-button:hover, .sort-button:focus-visible { color: #17365d; text-decoration: underline; }
     .sort-arrow { display: inline-block; margin-left: 0.25rem; }
+    .journal-credit { padding-left: 2rem !important; }
+    .journal-toolbar { align-items: center; display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 0.75rem 0; }
+    .journal-button { background: #fff; border: 1px solid #9fb3c8; border-radius: 6px; color: #17365d; cursor: pointer; font: inherit; font-size: 0.9rem; font-weight: 600; padding: 0.45rem 0.9rem; }
+    .journal-button--primary { background: #2f75b5; border-color: #2f75b5; color: #fff; }
+    .journal-button:disabled { cursor: not-allowed; opacity: 0.5; }
+    .posted-toggle { align-items: center; cursor: pointer; display: inline-flex; gap: 0.4rem; }
     @media (max-width: 760px) {
       .accounting-summary { grid-template-columns: repeat(2, 1fr); }
     }
@@ -115,10 +122,17 @@
       <p class="eyebrow">General Journal</p>
       <h2 id="journal-heading">Daily activity</h2>
       <p class="accounting-meta">Each transaction is recorded as balanced debit and credit lines before posting.</p>
+      <div class="journal-toolbar">
+        <button type="button" class="journal-button journal-button--primary" id="journal-save" disabled>Save to GitHub</button>
+        <button type="button" class="journal-button" id="journal-token">Connect GitHub</button>
+        <span class="accounting-meta" id="journal-save-status" role="status"></span>
+      </div>
       <div class="accounting-table-wrap">
         <table class="accounting-table">
           <thead>
             <tr>
+              <th>Transaction #</th>
+              <th>Posted</th>
               <th data-sort-header="journal"><button type="button" class="sort-button" data-sort="journal">Date <span class="sort-arrow" aria-hidden="true"></span></button></th>
               <th>Description</th>
               <th>Account</th>
@@ -127,7 +141,7 @@
             </tr>
           </thead>
           <tbody id="journal-rows">
-            <tr><td colspan="5">Loading journal...</td></tr>
+            <tr><td colspan="7">Loading journal...</td></tr>
           </tbody>
         </table>
       </div>
@@ -186,7 +200,10 @@
   </main>
   <script src="../../../scripts/site-nav.js"></script>
   <script>
-    window.ACCOUNTING_CONFIG = { dataUrl: "../../../data/accounts.json" };
+    window.ACCOUNTING_CONFIG = {
+      dataUrl: "../../../data/accounts.json",
+      github: { owner: "Porebo", repo: "2026Fall", branch: "main", path: "data/accounts.json" }
+    };
   </script>
   <script src="../../../scripts/accounting.js"></script>
 </body>

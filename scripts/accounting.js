@@ -2,6 +2,11 @@
   var dataUrl = window.ACCOUNTING_CONFIG && window.ACCOUNTING_CONFIG.dataUrl || "data/accounts.json";
   var currency = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
   var sortDirections = { accounts: "asc", transactions: "desc", journal: "desc" };
+  var github = window.ACCOUNTING_CONFIG && window.ACCOUNTING_CONFIG.github;
+  var tokenKey = "accounting.githubToken";
+  var token = readToken();
+  var savedPosted = {};
+  var pendingPosted = {};
 
   function compareDates(a, b, direction) {
     return direction === "asc" ? a.localeCompare(b) : b.localeCompare(a);
@@ -73,7 +78,7 @@
     var accounts = data.accounts.filter(function (account) {
       return account.balanceCents !== 0;
     }).sort(function (a, b) {
-      return a.dueDate.localeCompare(b.dueDate);
+      return compareDates(a.dueDate, b.dueDate, sortDirections.accounts);
     });
 
     if (accounts.length === 0) {
@@ -110,7 +115,7 @@
     });
 
     data.transactions.slice().sort(function (a, b) {
-      return b.date.localeCompare(a.date);
+      return compareDates(a.date, b.date, sortDirections.transactions);
     }).forEach(function (transaction) {
       var account = accounts[transaction.accountId];
       var row = document.createElement("tr");
@@ -135,7 +140,9 @@
       activity[account.id] = { debitCents: 0, creditCents: 0 };
     });
 
-    data.journalEntries.forEach(function (entry) {
+    data.journalEntries.filter(function (entry) {
+      return entry.posted;
+    }).forEach(function (entry) {
       entry.lines.forEach(function (line) {
         if (!activity[line.accountId]) {
           activity[line.accountId] = { debitCents: 0, creditCents: 0 };
@@ -152,20 +159,58 @@
     return cents < 0 ? "-" + money(Math.abs(cents)) : money(cents);
   }
 
+  function makePostedCell(data, entry) {
+    var cell = document.createElement("td");
+    var label = document.createElement("label");
+    var box = document.createElement("input");
+    var text = document.createElement("span");
+    label.className = "posted-toggle";
+    box.type = "checkbox";
+    box.checked = Boolean(entry.posted);
+    box.setAttribute("aria-label", "Posted " + entry.number);
+
+    function showState() {
+      text.textContent = entry.posted ? "Yes" : "No";
+      text.className = entry.posted ? "status status--paid" : "status status--open";
+    }
+
+    box.addEventListener("change", function () {
+      entry.posted = box.checked;
+      if (savedPosted[entry.id] === entry.posted) {
+        delete pendingPosted[entry.id];
+      } else {
+        pendingPosted[entry.id] = entry.posted;
+      }
+      showState();
+      renderLedger(data);
+      renderTrialBalance(data);
+      updateSaveControls();
+    });
+
+    showState();
+    label.appendChild(box);
+    label.appendChild(text);
+    cell.appendChild(label);
+    return cell;
+  }
+
   function renderJournal(data) {
     var body = document.getElementById("journal-rows");
     body.innerHTML = "";
     data.journalEntries.slice().sort(function (a, b) {
-      return b.date.localeCompare(a.date);
+      return compareDates(a.date + a.number, b.date + b.number, sortDirections.journal);
     }).forEach(function (entry) {
-      entry.lines.forEach(function (line) {
+      entry.lines.forEach(function (line, index) {
         var account = getChartAccount(data, line.accountId);
+        var first = index === 0;
         var row = document.createElement("tr");
-        row.appendChild(makeCell(date(entry.date)));
-        row.appendChild(makeCell(entry.description));
-        row.appendChild(makeCell(account ? account.name : line.accountId));
-        row.appendChild(makeCell(money(line.debitCents), "amount"));
-        row.appendChild(makeCell(money(line.creditCents), "amount"));
+        row.appendChild(makeCell(first ? entry.number : ""));
+        row.appendChild(first ? makePostedCell(data, entry) : makeCell(""));
+        row.appendChild(makeCell(first ? date(entry.date) : ""));
+        row.appendChild(makeCell(first ? entry.description : ""));
+        row.appendChild(makeCell(account ? account.name : line.accountId, line.creditCents > 0 ? "journal-credit" : ""));
+        row.appendChild(makeCell(line.debitCents ? money(line.debitCents) : "", "amount"));
+        row.appendChild(makeCell(line.creditCents ? money(line.creditCents) : "", "amount"));
         body.appendChild(row);
       });
     });
@@ -238,16 +283,220 @@
     renderJournal(data);
     renderLedger(data);
     renderTrialBalance(data);
+    setupSorting(data);
   }
 
-  fetch(dataUrl)
-    .then(function (response) {
+  function readToken() {
+    try {
+      return localStorage.getItem(tokenKey) || "";
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function writeToken(value) {
+    try {
+      if (value) {
+        localStorage.setItem(tokenKey, value);
+      } else {
+        localStorage.removeItem(tokenKey);
+      }
+    } catch (error) {
+      // Storage blocked: the token lasts until the page is closed.
+    }
+  }
+
+  function setSaveStatus(text) {
+    setText("journal-save-status", text);
+  }
+
+  function updateSaveControls() {
+    var saveButton = document.getElementById("journal-save");
+    var tokenButton = document.getElementById("journal-token");
+    var pendingCount = Object.keys(pendingPosted).length;
+    if (!saveButton || !tokenButton) {
+      return;
+    }
+    saveButton.disabled = !github || !token || pendingCount === 0;
+    saveButton.textContent = pendingCount ? "Save to GitHub (" + pendingCount + ")" : "Save to GitHub";
+    tokenButton.textContent = token ? "Disconnect GitHub" : "Connect GitHub";
+  }
+
+  function githubRequest(method, body) {
+    var url = "https://api.github.com/repos/" + github.owner + "/" + github.repo + "/contents/" + github.path;
+    if (method === "GET") {
+      url += "?ref=" + encodeURIComponent(github.branch);
+    }
+    return fetch(url, {
+      method: method,
+      cache: "no-store",
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: "Bearer " + token,
+        "X-GitHub-Api-Version": "2022-11-28"
+      },
+      body: body ? JSON.stringify(body) : undefined
+    }).then(function (response) {
+      if (response.ok) {
+        return response.json();
+      }
+      var error = new Error("GitHub returned " + response.status + ".");
+      error.status = response.status;
+      throw error;
+    });
+  }
+
+  function githubErrorMessage(error) {
+    if (error.status === 401) {
+      return "GitHub rejected the token. It may have expired; disconnect and connect again with a new one.";
+    }
+    if (error.status === 403 || error.status === 404) {
+      return "The token cannot write to " + github.owner + "/" + github.repo + ". Check it has Contents: Read and write on this repository.";
+    }
+    if (error.status === 409) {
+      return "The file changed on GitHub while saving. Click Save again.";
+    }
+    return "Could not reach GitHub: " + error.message;
+  }
+
+  function decodeBase64(value) {
+    var binary = atob(value.replace(/\n/g, ""));
+    var bytes = new Uint8Array(binary.length);
+    for (var i = 0; i < binary.length; i += 1) {
+      bytes[i] = binary.charCodeAt(i);
+    }
+    return new TextDecoder().decode(bytes);
+  }
+
+  function encodeBase64(value) {
+    var bytes = new TextEncoder().encode(value);
+    var binary = "";
+    for (var i = 0; i < bytes.length; i += 1) {
+      binary += String.fromCharCode(bytes[i]);
+    }
+    return btoa(binary);
+  }
+
+  function loadFromGitHub() {
+    return githubRequest("GET").then(function (file) {
+      return JSON.parse(decodeBase64(file.content));
+    });
+  }
+
+  function saveToGitHub() {
+    var changes = pendingPosted;
+    setSaveStatus("Saving...");
+    document.getElementById("journal-save").disabled = true;
+
+    // Apply only the posted changes onto the latest file, so edits made on another computer are kept.
+    githubRequest("GET").then(function (file) {
+      var latest = JSON.parse(decodeBase64(file.content));
+      latest.journalEntries.forEach(function (entry) {
+        if (Object.prototype.hasOwnProperty.call(changes, entry.id)) {
+          entry.posted = changes[entry.id];
+        }
+      });
+      return githubRequest("PUT", {
+        message: "Update posted status in general journal",
+        content: encodeBase64(JSON.stringify(latest, null, 2) + "\n"),
+        sha: file.sha,
+        branch: github.branch
+      });
+    }).then(function () {
+      Object.keys(changes).forEach(function (id) {
+        savedPosted[id] = changes[id];
+      });
+      pendingPosted = {};
+      setSaveStatus("Saved to GitHub at " + new Date().toLocaleTimeString() + ".");
+      updateSaveControls();
+    }).catch(function (error) {
+      setSaveStatus(githubErrorMessage(error));
+      updateSaveControls();
+    });
+  }
+
+  function toggleConnection() {
+    if (token) {
+      if (!window.confirm("Remove the GitHub token from this browser?")) {
+        return;
+      }
+      token = "";
+      writeToken("");
+      setSaveStatus("Disconnected. Changes can no longer be saved from this browser.");
+      updateSaveControls();
+      return;
+    }
+
+    var entered = window.prompt("Paste a GitHub fine-grained token with Contents: Read and write on " + github.owner + "/" + github.repo + ". It is stored only in this browser.");
+    if (!entered || !entered.trim()) {
+      return;
+    }
+    token = entered.trim();
+    setSaveStatus("Checking token...");
+    githubRequest("GET").then(function () {
+      writeToken(token);
+      setSaveStatus("Connected to GitHub.");
+      updateSaveControls();
+    }).catch(function (error) {
+      token = "";
+      setSaveStatus(githubErrorMessage(error));
+      updateSaveControls();
+    });
+  }
+
+  function setupSaving() {
+    var saveButton = document.getElementById("journal-save");
+    var tokenButton = document.getElementById("journal-token");
+    if (!saveButton || !tokenButton) {
+      return;
+    }
+    if (!github) {
+      tokenButton.hidden = true;
+      saveButton.hidden = true;
+      return;
+    }
+    saveButton.addEventListener("click", saveToGitHub);
+    tokenButton.addEventListener("click", toggleConnection);
+    window.addEventListener("beforeunload", function (event) {
+      if (Object.keys(pendingPosted).length) {
+        event.preventDefault();
+        event.returnValue = "";
+      }
+    });
+    updateSaveControls();
+  }
+
+  function loadFromSite() {
+    return fetch(dataUrl).then(function (response) {
       if (!response.ok) {
         throw new Error("Could not load accounting data.");
       }
       return response.json();
+    });
+  }
+
+  function loadData() {
+    if (!github || !token) {
+      return loadFromSite();
+    }
+    // The published site can lag a minute behind GitHub, so read the repository directly when connected.
+    return loadFromGitHub().then(function (data) {
+      setSaveStatus("Connected. Showing the latest data from GitHub.");
+      return data;
+    }).catch(function (error) {
+      setSaveStatus(githubErrorMessage(error));
+      return loadFromSite();
+    });
+  }
+
+  setupSaving();
+  loadData()
+    .then(function (data) {
+      data.journalEntries.forEach(function (entry) {
+        savedPosted[entry.id] = Boolean(entry.posted);
+      });
+      render(data);
     })
-    .then(render)
     .catch(function (error) {
       var message = document.getElementById("accounting-error");
       message.hidden = false;

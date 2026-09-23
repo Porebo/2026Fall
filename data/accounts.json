@@ -441,7 +441,9 @@
   "journalEntries": [
     {
       "id": "je-2026-09-16-citi-3006-payment",
+      "number": "JE-0001",
       "date": "2026-09-16",
+      "posted": true,
       "description": "Payment to Citi AAdvantage Mastercard ending in 3006",
       "sourceTransactionId": "payment-citi-3006-2026-09-16",
       "lines": [
@@ -459,7 +461,9 @@
     },
     {
       "id": "je-2026-09-22-lowes-payment",
+      "number": "JE-0002",
       "date": "2026-09-22",
+      "posted": true,
       "description": "Payment to Lowe's account",
       "sourceTransactionId": "payment-lowes-2026-09-22",
       "lines": [
@@ -477,7 +481,9 @@
     },
     {
       "id": "je-2026-09-22-amazon-9883-payment",
+      "number": "JE-0003",
       "date": "2026-09-22",
+      "posted": true,
       "description": "Payment to Amazon Synchrony ending in 9883",
       "sourceTransactionId": "payment-amazon-9883-2026-09-22",
       "lines": [
@@ -495,7 +501,9 @@
     },
     {
       "id": "je-2026-09-22-chase-flex-3254-payment",
+      "number": "JE-0004",
       "date": "2026-09-22",
+      "posted": true,
       "description": "Payment to Chase Freedom Flex ending in 3254",
       "sourceTransactionId": "payment-chase-flex-3254-2026-09-22",
       "lines": [
@@ -513,7 +521,9 @@
     },
     {
       "id": "je-2026-09-23-target-6343-payment",
+      "number": "JE-0005",
       "date": "2026-09-23",
+      "posted": true,
       "description": "Payment to Target Circle Card ending in 6343",
       "sourceTransactionId": "payment-target-6343-2026-09-23",
       "lines": [
