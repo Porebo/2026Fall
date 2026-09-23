@@ -33,6 +33,10 @@
     return cell;
   }
 
+  function remainingMinimumDue(account) {
+    return Math.max(0, account.minimumDueCents - account.completedPaymentCents);
+  }
+
   function renderAccounts(data) {
     var body = document.getElementById("account-rows");
     body.innerHTML = "";
@@ -48,7 +52,7 @@
       row.appendChild(makeCell(account.bank));
       row.appendChild(makeCell(accountLabel(account)));
       row.appendChild(makeCell(date(account.dueDate)));
-      row.appendChild(makeCell(money(account.minimumDueCents), "amount"));
+      row.appendChild(makeCell(money(remainingMinimumDue(account)), "amount"));
       row.appendChild(makeCell(money(account.balanceCents), "amount"));
       row.appendChild(makeCell(date(account.completedPaymentDate)));
       row.appendChild(makeCell(status, statusClass));
@@ -177,7 +181,7 @@
 
   function render(data) {
     var totals = data.accounts.reduce(function (result, account) {
-      result.minimumDueCents += account.minimumDueCents;
+      result.minimumDueCents += remainingMinimumDue(account);
       result.balanceCents += account.balanceCents;
       result.paidCents += account.completedPaymentCents;
       return result;
