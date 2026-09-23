@@ -122,7 +122,80 @@
     breadcrumb.appendChild(wrap);
   }
 
+  function addCopyButtons() {
+    document.querySelectorAll(".sourceCode").forEach(function (codeBlock) {
+      if (codeBlock.parentElement.closest(".sourceCode") ||
+          codeBlock.querySelector(".copy-code-button")) {
+        return;
+      }
+
+      var button = document.createElement("button");
+      button.className = "copy-code-button";
+      button.type = "button";
+      button.textContent = "Copy SQL";
+      codeBlock.insertBefore(button, codeBlock.firstChild);
+    });
+
+    document.querySelectorAll(".copy-code-button").forEach(function (button) {
+      button.addEventListener("click", function () {
+        var targetId = button.getAttribute("data-copy-target");
+        var target = targetId ? document.getElementById(targetId) : null;
+        var text = target ? target.value : button.parentNode.querySelector("code").textContent;
+        if (!text) {
+          return;
+        }
+
+        function showCopied() {
+          button.textContent = "Copied";
+          window.setTimeout(function () {
+            button.textContent = "Copy SQL";
+          }, 1500);
+        }
+
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard.writeText(text).then(showCopied);
+          return;
+        }
+
+        var fallback = document.createElement("textarea");
+        fallback.value = text;
+        fallback.setAttribute("readonly", "");
+        fallback.style.position = "fixed";
+        fallback.style.opacity = "0";
+        document.body.appendChild(fallback);
+        fallback.select();
+        document.execCommand("copy");
+        fallback.remove();
+        window.getSelection().removeAllRanges();
+        showCopied();
+      });
+    });
+  }
+
+  function addCollapsibleSubsections() {
+    document.querySelectorAll(".entity-subsection").forEach(function (section) {
+      var heading = section.querySelector("h4");
+      if (!heading) {
+        return;
+      }
+
+      var toggle = document.createElement("button");
+      toggle.className = "subsection-toggle";
+      toggle.type = "button";
+      toggle.setAttribute("aria-expanded", "true");
+      toggle.textContent = heading.textContent;
+      heading.replaceWith(toggle);
+
+      toggle.addEventListener("click", function () {
+        var isCollapsed = section.classList.toggle("is-collapsed");
+        toggle.setAttribute("aria-expanded", String(!isCollapsed));
+      });
+    });
+  }
+
   wrapSiteHeader();
   addVisitCounter();
+  addCopyButtons();
+  addCollapsibleSubsections();
   window.addEventListener("resize", updateHeaderOffset);
 })();

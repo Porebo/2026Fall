@@ -238,6 +238,14 @@ a.lecture-channel__day:focus-visible {
   padding: 1.5rem;
 }
 
+.card {
+  border: 1px solid #000;
+}
+
+.page > .card + .card {
+  margin-top: 1.5rem;
+}
+
 .eyebrow {
   margin: 0;
   text-transform: uppercase;
@@ -275,6 +283,255 @@ a.lecture-channel__day:focus-visible {
 
 .hero-divider {
   margin: 0.25rem 0 0.75rem;
+}
+
+.constraint-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.constraint-nav a {
+  flex: 1 1 9rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #9bb6d3;
+  border-radius: 999px;
+  background: #eef5ff;
+  color: #174ea6;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.constraint-nav a:hover,
+.constraint-nav a:focus-visible {
+  background: #dbeafe;
+  text-decoration: underline;
+}
+
+.back-to-top {
+  margin: 1.25rem 0 1.5rem;
+  font-size: 0.88rem;
+  text-align: right;
+}
+
+.carcamo-interpretation {
+  margin: 1.5rem 0 0;
+  padding: 1rem 1.25rem;
+  border: 2px solid #000;
+  border-left-width: 8px;
+  background: #fff;
+}
+
+.carcamo-interpretation p:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.carcamo-interpretation footer {
+  color: #52606d;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.entity-subsection {
+  margin: 1rem 0;
+  padding: 1rem 1.15rem;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.entity-subsection h4 {
+  margin: 0 0 0.65rem;
+}
+
+.subsection-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0 0.65rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  text-align: left;
+}
+
+.subsection-toggle::after {
+  content: "−";
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.subsection-toggle[aria-expanded="false"]::after {
+  content: "+";
+}
+
+.subsection-toggle:focus-visible {
+  outline: 2px solid #174ea6;
+  outline-offset: 3px;
+}
+
+.entity-subsection.is-collapsed > :not(.subsection-toggle) {
+  display: none;
+}
+
+.entity-subsection p:last-child,
+.entity-subsection table:last-child,
+.entity-subsection pre:last-child,
+.entity-subsection div:last-child {
+  margin-bottom: 0;
+}
+
+.entity-subsection--concept {
+  background: #eef5ff;
+}
+
+.entity-subsection--formula {
+  background: #f7f2e8;
+}
+
+.entity-subsection--metric {
+  background: #f0f8f4;
+}
+
+.entity-subsection--example {
+  background: #fff4f2;
+}
+
+.entity-subsection--example ol {
+  margin-top: 0;
+}
+
+.metric-result {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.metric-result th,
+.metric-result td {
+  padding: 0.65rem 0.8rem;
+  border: 1px solid #000;
+  text-align: left;
+}
+
+.metric-calculation {
+  margin: 1rem 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.1rem;
+}
+
+.metric-interpretation-title {
+  margin-bottom: 0;
+}
+
+.copyable-code {
+  position: relative;
+}
+
+.copy-code-button {
+  display: block;
+  margin: 0 0 0.35rem auto;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid #174ea6;
+  border-radius: 4px;
+  background: #fff;
+  color: #174ea6;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.copy-code-button:hover,
+.copy-code-button:focus-visible {
+  background: #eef5ff;
+}
+
+.copy-code-source {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.metric-result th {
+  background: #e5e7eb;
+  font-size: 0.85rem;
+}
+
+.constraint-card table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.constraint-card th,
+.constraint-card td {
+  padding: 0.65rem 0.8rem;
+  border: 1px solid #000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.constraint-card th {
+  background: #e5e7eb;
+  font-size: 0.85rem;
+}
+
+.formula-equation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+.formula-constant {
+  display: inline-block;
+  margin: 0 0.1rem;
+  font-size: 1.45em;
+  font-style: normal;
+}
+
+.formula-fraction {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 13rem;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.formula-fraction span:first-child {
+  padding: 0 0.35rem 0.2rem;
+  border-bottom: 1px solid #000;
+}
+
+.formula-fraction span:last-child {
+  padding: 0.2rem 0.35rem 0;
+}
+
+.formula-components-intro {
+  margin-bottom: 0;
+}
+
+.interpretation-warning {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border-left: 6px solid #000;
+  background: #fff8d6;
 }
 
 .lede {

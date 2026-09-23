@@ -94,7 +94,7 @@
   </style>
   <link rel="stylesheet" href="../../styles.css" />
 </head>
-<body>
+<body id="top">
 <main class="page">
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> /
@@ -107,25 +107,137 @@ JDQ Chapter 4
 <hr class="hero-divider">
 <p>Interpreted by Lester S. Carcamo. September 22. 2026</p>
 <p class="lede">Notes from <em>Assessing Data Quality, Part II</em> (printed pp. 53–66).</p>
+<nav class="constraint-nav" aria-label="Codd integrity constraints">
+<a href="#entity-integrity">1. Entity integrity</a>
+<a href="#referential-integrity">2. Referential integrity</a>
+<a href="#domain-integrity">3. Domain integrity</a>
+<a href="#column-integrity">4. Column integrity</a>
+<a href="#business-rules">5. Business rules</a>
+</nav>
 </header>
 <section class="card">
 <h2 id="codds-five-integrity-constraints">Codd’s Five Integrity
 Constraints</h2>
-<p>Source: chapter’s presentation of Codd (1970), printed p. 53.</p>
+<p class="source-note"><strong>Source:</strong> Yang W. Lee, Leo L. Pipino,
+James D. Funk, and Richard Y. Wang, <em>Journey to Data Quality</em>,
+Chapter 4, “Assessing Data Quality, Part II,” printed pp. 53–66.
+The MIT Press, 2006. The five constraints below follow the chapter’s
+presentation of Codd (1970).</p>
+<p>In simple terms, the first four metrics can be calculated from the
+data and database structure alone. They do not require knowledge of how
+the organization uses the data. They ask whether the data is structurally
+sound: whether keys are present and unique, relationships point to valid
+records, and values follow their defined rules. These questions apply to
+any dataset, regardless of the task or application.</p>
+<p>The fifth category, <strong>business rules</strong>, is different. A
+rule such as “a completed payment must not exceed the account balance”
+depends on the organization and its application. It cannot be judged
+correctly without that business context.</p>
+<blockquote class="carcamo-interpretation">
+<p>Codd’s first four integrity constraints help qualify a dataset’s
+structural validity and conformity to formal constraints. They reveal how
+the dataset is organized and whether its values follow a coherent
+structure, but they do not by themselves establish the dataset’s meaning,
+usefulness, or business correctness.</p>
+<p>This is especially useful when examining data from a newly purchased
+business, where the acquiring organization may have little historical
+context and no documented data rules. The constraints provide a baseline
+for examining whether keys, relationships, domains, and column values
+follow an apparently coherent structure. The analyst can use these
+observations to infer provisional expectations and identify questions for
+further investigation.</p>
+<p>The constraints are also useful when a data analyst first encounters an
+unfamiliar dataset. They provide a structured way to begin learning how
+the data is organized, identify inconsistencies, and form preliminary
+questions before the analyst understands the dataset’s business meaning or
+history. This initial assessment does not explain what the data means, but
+it provides a disciplined starting point for learning about it.</p>
+<footer>Ideas and interpretation by Lester S. Carcamo.</footer>
+</blockquote>
+ </section>
+<section class="card constraint-card">
 <h3 id="entity-integrity">1. Entity integrity</h3>
-<p>No primary key field value in a table may be null. Codd also requires
-the key be unique; the chapter’s metric counts only nulls.</p>
-<pre><code>Degree of adherence = 1 − (null primary keys / total rows)</code></pre>
+<section class="entity-subsection entity-subsection--concept">
+<h4>Concept</h4>
+<p>No primary key field value in a table may be null.</p>
+</section>
+<section class="entity-subsection entity-subsection--formula">
+<h4>Formula</h4>
+<div class="formula-equation" role="img" aria-label="Degree of adherence to entity integrity equals 1 minus the number of null primary keys divided by the total number of rows">
+<span>Degree of adherence to entity integrity = <strong class="formula-constant">1</strong> −</span>
+<span class="formula-fraction" aria-hidden="true">
+<span>Number of null primary keys</span>
+<span>Total number of rows</span>
+</span>
+</div>
+</section>
+<section class="entity-subsection entity-subsection--metric">
+<h4>Metric</h4>
+<ul>
+<li><strong>1.0:</strong> No null primary keys exist in the dataset.</li>
+<li><strong>Below 1.0:</strong> One or more null primary keys exist in the dataset.</li>
+<li>The lower the value, the greater the proportion of rows with null primary keys.</li>
+</ul>
+<p>This metric reports adherence to the measurable rule that primary-key
+values should not be null. Without documented data specifications, a value
+below 1.0 identifies null primary keys without labeling them as business
+defects.</p>
+</section>
+<section class="entity-subsection entity-subsection--example">
+<h4>Practical example</h4>
+<div class="formula-equation" role="img" aria-label="Degree of adherence to entity integrity equals 1 minus the number of null primary keys divided by the total number of rows">
+<span>Degree of adherence to entity integrity = <strong class="formula-constant">1</strong> −</span>
+<span class="formula-fraction" aria-hidden="true">
+<span>Number of null primary keys</span>
+<span>Total number of rows</span>
+</span>
+</div>
+<p class="formula-components-intro">The formula has three components:</p>
+<ol type="A">
+<li><strong>1</strong> is the constant representing complete adherence.</li>
+<li><strong>Number of null primary keys</strong> is the numerator: the count of rows whose primary-key value is null.</li>
+<li><strong>Total number of rows</strong> is the denominator: the count of all rows in the table.</li>
+</ol>
+<aside class="interpretation-warning">
+<strong>Interpretive warning:</strong> The entity-integrity test is most
+naturally applied to a base data table, where the primary key is intended
+to identify each entity and connect that entity to its related attributes
+or columns. A view may present the same entity and may appear to have an
+identifying column, but a view is a constructed result produced from one
+or more underlying tables. Its apparent identifier may be affected by
+joins, filters, unions, or transformations, and it is not necessarily a
+declared or enforced primary key. Entity integrity can still be measured
+on a view, but the result describes the view’s current output rather than
+an enforced primary key in the underlying data.
+</aside>
+<p>The following example uses the <code>RPLC_LEGO.WELL</code> table,
+which contains well-level attributes such as <code>FAC_ID</code>,
+<code>WELL_API_NBR</code>, <code>DOG_CRIT_INDC</code>, elevation
+quantities, datum measurements, and other descriptive columns.
+<code>FAC_ID</code> is the primary-key column examined for entity
+integrity. Although the table contains many attributes, this calculation
+focuses only on whether <code>FAC_ID</code> is null across the table’s
+rows.</p>
 <p>Example — <code>RPLC_LEGO.WELL</code>, primary key
 <code>FAC_ID</code>:</p>
-<div class="sourceCode" id="cb2"><pre
+<p>In this query, <code>COUNT(*)</code> counts every row in
+<code>RPLC_LEGO.WELL</code>, including rows where <code>FAC_ID</code> is
+null. <code>COUNT(fac_id)</code> counts only rows where
+<code>FAC_ID</code> has a value. Subtracting <code>COUNT(fac_id)</code>
+from <code>COUNT(*)</code> therefore gives the number of rows with a null
+primary key.</p>
+<div class="sourceCode copyable-code" id="cb2"><button class="copy-code-button" type="button" data-copy-target="cb2-code">Copy SQL</button><pre
 class="sourceCode sql"><code class="sourceCode sql"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">COUNT</span>(<span class="op">*</span>)                                            <span class="kw">AS</span> total_rows,</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="op">-</span> <span class="fu">COUNT</span>(fac_id)                            <span class="kw">AS</span> null_pk,</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(<span class="kw">DISTINCT</span> fac_id)                              <span class="kw">AS</span> distinct_pk,</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>       <span class="fu">ROUND</span>(<span class="dv">1</span> <span class="op">-</span> (<span class="fu">COUNT</span>(<span class="op">*</span>) <span class="op">-</span> <span class="fu">COUNT</span>(fac_id)) <span class="op">/</span> <span class="fu">COUNT</span>(<span class="op">*</span>), <span class="dv">6</span>) <span class="kw">AS</span> entity_integrity</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   RPLC_LEGO.WELL;</span></code></pre></div>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   RPLC_LEGO.WELL;</span></code></pre><textarea id="cb2-code" class="copy-code-source" aria-hidden="true">SELECT COUNT(*)                                            AS total_rows,
+  COUNT(*) - COUNT(fac_id)                            AS null_pk,
+  COUNT(DISTINCT fac_id)                              AS distinct_pk,
+  ROUND(1 - (COUNT(*) - COUNT(fac_id)) / COUNT(*), 6) AS entity_integrity
+FROM   RPLC_LEGO.WELL;</textarea></div>
 <p>Result:</p>
-<table>
+<table class="metric-result">
 <thead>
 <tr>
 <th>TOTAL_ROWS</th>
@@ -143,62 +255,52 @@ class="sourceCode sql"><code class="sourceCode sql"><span id="cb2-1"><a href="#c
 </tr>
 </tbody>
 </table>
-<p><code>COUNT(col)</code> skips nulls while <code>COUNT(*)</code> does
-not, so their difference is the null count. <code>distinct_pk</code>
-equal to <code>total_rows</code> means no duplicates — the uniqueness
-half of the rule, which the chapter’s formula omits.</p>
-<p>Tautological here: <code>WELL_WELL_PK</code> is ENABLED, so the
-database rejects nulls at entry and the metric cannot return anything
-but 1.</p>
-<p><strong>Worked examples</strong></p>
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr>
-<th>Object</th>
-<th>Type</th>
-<th>Key</th>
-<th>Result</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>RPLC_LEGO.WELL</code></td>
-<td>table</td>
-<td><code>FAC_ID</code>, PK <code>WELL_WELL_PK</code> ENABLED
-VALIDATED</td>
-<td>103,886 rows, 0 nulls, 103,886 distinct → 1.000 (tautological)</td>
-</tr>
-<tr>
-<td><code>EDMADMIN.CD_WELL_SOURCE</code></td>
-<td>view over <code>RPLC_EDMADMIN.CD_WELL_SOURCE</code></td>
-<td><code>WELL_ID</code>, no declaration reachable</td>
-<td>113,507 rows, 0 nulls, 113,507 distinct → 1.000 (a real
-finding)</td>
-</tr>
-</tbody>
-</table>
-<p>Generic form of the measuring query:</p>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode sql"><code class="sourceCode sql"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">COUNT</span>(<span class="op">*</span>)                  <span class="kw">AS</span> total_rows,</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="op">-</span> <span class="fu">COUNT</span>(key_col) <span class="kw">AS</span> null_keys,</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(<span class="kw">DISTINCT</span> key_col)   <span class="kw">AS</span> distinct_keys</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   owner.<span class="dt">object</span>;</span></code></pre></div>
+<div class="formula-equation metric-calculation" role="img" aria-label="Degree of adherence to entity integrity equals 1 minus 0 divided by 103,886 equals 1 minus 0 equals 1">
+<span>Degree of adherence to entity integrity = <strong class="formula-constant">1</strong> −</span>
+<span class="formula-fraction" aria-hidden="true">
+<span>0</span>
+<span>103,886</span>
+</span>
+<span>= 1 − 0 = 1</span>
+</div>
+<h4 class="metric-interpretation-title">Metric Interpretation</h4>
+<p>The entity-integrity metric shows <strong>1</strong>, meaning that
+this table meets perfect measured entity integrity because no null primary
+keys were found.</p>
+</section>
+<p class="back-to-top"><a href="#top">Back to top</a></p>
+</section>
+<section class="card constraint-card">
 <h3 id="referential-integrity">2. Referential integrity</h3>
+<section class="entity-subsection entity-subsection--concept">
+<h4>Concept</h4>
 <p>The value of a foreign key must match a primary key value in the
 designated related table, or the foreign key must be null.</p>
-<pre><code>Degree of adherence = 1 − (nonmatching values excluding nulls / rows in dependent table)</code></pre>
 <p>Note: the constraint spans two tables, but the metric is scoped to
 the dependent one. A table whose foreign keys are all null scores 1.0
 while being fully disconnected.</p>
 <p>A violation is a <strong>non-null</strong> foreign key value with no
 matching parent — an orphan. Nulls are excluded by design: a null
 foreign key means “no relationship,” not “broken relationship.”</p>
+ </section>
+<section class="entity-subsection entity-subsection--formula">
+<h4>Formula</h4>
+<div class="formula-equation" role="img" aria-label="Degree of adherence to reference integrity equals 1 minus the number of nonmatching values excluding nulls in the dependent table divided by total rows in the dependent table">
+<span>Degree of adherence to reference integrity = <strong class="formula-constant">1</strong> −</span>
+<span class="formula-fraction" aria-hidden="true">
+<span>Number of nonmatching values excluding nulls in the dependent table</span>
+<span>Total rows in the dependent table</span>
+</span>
+</div>
+</section>
+<section class="entity-subsection entity-subsection--metric">
+<h4>Metric</h4>
+<p>The metric counts non-null foreign-key values that do not match a
+parent key. Null foreign keys are excluded because they represent no
+relationship rather than a broken relationship.</p>
+</section>
+<section class="entity-subsection entity-subsection--example">
+<h4>Practical example</h4>
 <p>Example — <code>RPLC_LEGO.WELL</code>. The schema has <strong>no
 declared foreign keys at all</strong> (replication carried the primary
 keys but not the FKs), so every relationship is convention only and must
@@ -322,7 +424,13 @@ has 562 declared foreign keys:</p>
 <p>Only 27 of 562 are worth measuring. <code>ENABLE NOVALIDATE</code> is
 the state to watch: enforcement starts at a point in time and says
 nothing about the data before it.</p>
+</section>
+<p class="back-to-top"><a href="#top">Back to top</a></p>
+</section>
+<section class="card constraint-card">
 <h3 id="domain-integrity">3. Domain integrity</h3>
+<section class="entity-subsection entity-subsection--concept">
+<h4>Concept</h4>
 <p>The set of permissible values for a column — the type definition
 itself. Named in the chapter but given no metric, since a domain is a
 property of the schema rather than something counted row by row.
@@ -362,6 +470,12 @@ the real domain may be four status codes. Three levels:</p>
 </tr>
 </tbody>
 </table>
+ </section>
+<section class="entity-subsection entity-subsection--formula">
+<h4>Formula</h4>
+</section>
+<section class="entity-subsection entity-subsection--metric">
+<h4>Metric</h4>
 <p>The third is the common case here. <code>UIC_CLASS_TYPE_ID</code>’s
 permissible values live as rows in <code>UIC_CLASS_TYPE</code> — a
 domain expressed as data. With no FK declared, the orphan check under
@@ -376,6 +490,9 @@ boundary. Rule 3 sits closer to rule 5 than its numbering suggests.</p>
 100k rows is a code column; one distinct value per row is an identifier;
 two values at 40k each plus six appearing once makes those six
 suspicious whatever the spec says.</p>
+ </section>
+<section class="entity-subsection entity-subsection--example">
+<h4>Practical example</h4>
 <p>Example — <code>DWRPTG.CMPL_DMN.INIT_PROD_DTE</code>:</p>
 <div class="sourceCode" id="cb7"><pre
 class="sourceCode sql"><code class="sourceCode sql"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">COUNT</span>(<span class="op">*</span>)                        <span class="kw">AS</span> total_rows,</span>
@@ -454,13 +571,32 @@ jump at 1945 — so they are real production dates, not violations.</p>
 <p>The denominator caveat in action: 0.9994 reads as fine while 106 rows
 carry a date off by 150 years. Anything averaging or trending this
 column silently includes them.</p>
+</section>
+<p class="back-to-top"><a href="#top">Back to top</a></p>
+</section>
+<section class="card constraint-card">
 <h3 id="column-integrity">4. Column integrity</h3>
-<p>Values in a column must be drawn from the set of permissible values.
-This is where rule 3’s domain gets measured.</p>
-<pre><code>Degree of adherence = 1 − (invalid column values / rows in table)</code></pre>
+<section class="entity-subsection entity-subsection--concept">
+<h4>Concept</h4>
+<p>Column integrity requires that the values in the column be drawn from
+the set of permissible values. Again, a simple ratio reflecting the
+percentage of rows that adhere to this rule can be used.</p>
 <p>The chapter also notes that where a column represents a required
 property, this doubles as a check of <strong>column
 completeness</strong>.</p>
+ </section>
+<section class="entity-subsection entity-subsection--formula">
+<h4>Formula</h4>
+<div class="formula-equation" role="img" aria-label="Degree of adherence to column integrity equals 1 minus the number of invalid column values divided by the number of rows in table">
+<span>Degree of adherence to column integrity = <strong class="formula-constant">1</strong> −</span>
+<span class="formula-fraction" aria-hidden="true">
+<span>Number of invalid column values</span>
+<span>Number of rows in table</span>
+</span>
+</div>
+</section>
+<section class="entity-subsection entity-subsection--metric">
+<h4>Metric</h4>
 <p>Profiling query — distinct values with counts:</p>
 <div class="sourceCode" id="cb11"><pre
 class="sourceCode sql"><code class="sourceCode sql"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">NVL</span>(col,<span class="st">&#39;(null)&#39;</span>) <span class="kw">AS</span> val,</span>
@@ -478,6 +614,9 @@ class="sourceCode sql"><code class="sourceCode sql"><span id="cb12-1"><a href="#
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>                                 <span class="kw">WHERE</span> l.code <span class="op">=</span> c.col)</span>
 <span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>                <span class="cf">THEN</span> <span class="dv">1</span> <span class="cf">ELSE</span> <span class="dv">0</span> <span class="cf">END</span>) <span class="kw">AS</span> invalid_values</span>
 <span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   owner.tbl c;</span></code></pre></div>
+ </section>
+<section class="entity-subsection entity-subsection--example">
+<h4>Practical example</h4>
 <p><strong>Example 1 —
 <code>DWRPTG.CMPL_DMN.CMPL_STATE_TYPE_CDE</code></strong>, declared
 <code>VARCHAR2(50)</code>:</p>
@@ -584,9 +723,28 @@ integrity holds throughout.</p>
 290,253 rows. Perfect column integrity on an empty column. The same
 blind spot as an all-null foreign key under rule 2 — caught by the
 completeness dimension, not by integrity.</p>
+</section>
+<p class="back-to-top"><a href="#top">Back to top</a></p>
+</section>
+<section class="card constraint-card">
 <h3 id="business-rules">5. Business rules</h3>
+<section class="entity-subsection entity-subsection--concept">
+<h4>Concept</h4>
 <p>Codd’s all-purpose category for integrity rules specific to an
 organization. Cannot be task-independent by definition.</p>
+</section>
+<section class="entity-subsection entity-subsection--formula">
+<h4>Formula</h4>
+</section>
+<section class="entity-subsection entity-subsection--metric">
+<h4>Metric</h4>
+</section>
+<section class="entity-subsection entity-subsection--example">
+<h4>Practical example</h4>
+</section>
+<p class="back-to-top"><a href="#top">Back to top</a></p>
+</section>
+<section class="card chapter-notes">
 <h2 id="task-independent-vs.-context-dependent">Task-independent
 vs. context-dependent</h2>
 <p>The first four constraints yield <strong>task-independent</strong>
