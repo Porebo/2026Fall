@@ -269,6 +269,14 @@ a.lecture-channel__day:focus-visible {
   margin-top: 0.25rem;
 }
 
+.hero .meeting-title {
+  margin-bottom: 0.25rem;
+}
+
+.hero-divider {
+  margin: 0.25rem 0 0.75rem;
+}
+
 .lede {
   max-width: 44rem;
 }

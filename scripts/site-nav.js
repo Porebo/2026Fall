@@ -110,9 +110,15 @@
       wrap.appendChild(fallback);
     };
 
-    badge.src = "https://hits.sh/" + encodeURI(key) +
-      ".svg?style=flat-square&label=visits&color=174ea6";
     wrap.appendChild(badge);
+
+    if (location.protocol === "file:") {
+      badge.onerror();
+    } else {
+      badge.src = "https://hits.sh/" + encodeURI(key) +
+        ".svg?style=flat-square&label=visits&color=174ea6";
+    }
+
     breadcrumb.appendChild(wrap);
   }
 
