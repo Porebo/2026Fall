@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.11" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Journey to Data Quality - Chapter 4</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <style>
+    /* Site styles used by this page (inlined for sharing) */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #1f2933;
+  background: #c7cdd2;
+}
+
+a {
+  color: #174ea6;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem 3rem;
+}
+.hero,
+.card,
+.meeting-nav {
+  background: #dfe3e6;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  padding: 1.5rem;
+}
+
+.card {
+  border: 1px solid #000;
+}
+
+.page > .card + .card {
+  margin-top: 1.5rem;
+}
+
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  color: #52606d;
+}
+
+.hero h1,
+.card h3,
+.meeting-title {
+  margin-top: 0.25rem;
+}
+
+.hero .meeting-title {
+  margin-bottom: 0.25rem;
+}
+
+.hero-divider {
+  margin: 0.25rem 0 0.75rem;
+}
+
+.constraint-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.constraint-nav a {
+  flex: 1 1 9rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #9bb6d3;
+  border-radius: 999px;
+  background: #eef5ff;
+  color: #174ea6;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.constraint-nav a:hover,
+.constraint-nav a:focus-visible {
+  background: #dbeafe;
+  text-decoration: underline;
+}
+
+.back-to-top {
+  margin: 1.25rem 0 1.5rem;
+  font-size: 0.88rem;
+  text-align: right;
+}
+
+.carcamo-interpretation {
+  margin: 1.5rem 0 0;
+  padding: 1rem 1.25rem;
+  border: 2px solid #000;
+  border-left-width: 8px;
+  background: #fff;
+}
+
+.carcamo-interpretation p:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.carcamo-interpretation footer {
+  color: #52606d;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.entity-subsection {
+  margin: 1rem 0;
+  padding: 1rem 1.15rem;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.entity-subsection h4 {
+  margin: 0 0 0.65rem;
+}
+
+.subsection-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0 0.65rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  text-align: left;
+}
+
+.subsection-toggle::after {
+  content: "−";
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.subsection-toggle[aria-expanded="false"]::after {
+  content: "+";
+}
+
+.subsection-toggle:focus-visible {
+  outline: 2px solid #174ea6;
+  outline-offset: 3px;
+}
+
+.entity-subsection.is-collapsed > :not(.subsection-toggle) {
+  display: none;
+}
+
+.entity-subsection p:last-child,
+.entity-subsection table:last-child,
+.entity-subsection pre:last-child,
+.entity-subsection div:last-child {
+  margin-bottom: 0;
+}
+
+.entity-subsection--concept {
+  background: #eef5ff;
+}
+
+.entity-subsection--formula {
+  background: #f7f2e8;
+}
+
+.entity-subsection--metric {
+  background: #f0f8f4;
+}
+
+.entity-subsection--example {
+  background: #fff4f2;
+}
+
+.entity-subsection--example ol {
+  margin-top: 0;
+}
+
+.metric-result {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.metric-result th,
+.metric-result td {
+  padding: 0.65rem 0.8rem;
+  border: 1px solid #000;
+  text-align: left;
+}
+
+.metric-calculation {
+  margin: 1rem 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.1rem;
+}
+
+.metric-interpretation-title {
+  margin-bottom: 0;
+}
+
+.copyable-code {
+  position: relative;
+}
+
+.copy-code-button {
+  display: block;
+  margin: 0 0 0.35rem auto;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid #174ea6;
+  border-radius: 4px;
+  background: #fff;
+  color: #174ea6;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.copy-code-button:hover,
+.copy-code-button:focus-visible {
+  background: #eef5ff;
+}
+
+.copy-code-source {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.metric-result th {
+  background: #e5e7eb;
+  font-size: 0.85rem;
+}
+
+.constraint-card table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.constraint-card th,
+.constraint-card td {
+  padding: 0.65rem 0.8rem;
+  border: 1px solid #000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.constraint-card th {
+  background: #e5e7eb;
+  font-size: 0.85rem;
+}
+
+.formula-equation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+.formula-constant {
+  display: inline-block;
+  margin: 0 0.1rem;
+  font-size: 1.45em;
+  font-style: normal;
+}
+
+.formula-fraction {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 13rem;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.formula-fraction span:first-child {
+  padding: 0 0.35rem 0.2rem;
+  border-bottom: 1px solid #000;
+}
+
+.formula-fraction span:last-child {
+  padding: 0.2rem 0.35rem 0;
+}
+
+.formula-components-intro {
+  margin-bottom: 0;
+}
+
+.interpretation-warning {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border-left: 6px solid #000;
+  background: #fff8d6;
+}
+.lede {
+  max-width: 44rem;
+}
+.back-to-top a {
+  text-decoration: none;
+}
+.section-nav a:focus-visible,
+.back-to-top a:hover,
+.back-to-top a:focus-visible {
+  text-decoration: underline;
+}
+.back-to-top {
+  margin: 1.25rem 0 0;
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 1080px) {
+  .page {
+    max-width: 1360px;
+  }
+}
+  </style>
+</head>
+<body id="top">
+<main class="page">
+<header class="hero">
+<p class="eyebrow">Textbook Notes</p>
+<h1 class="meeting-title">Journey to Data Quality — Chapter 4</h1>
+<hr class="hero-divider">
+<p>Interpreted by Lester S. Carcamo. September 22. 2026</p>
+<p class="lede">Notes from <em>Assessing Data Quality, Part II</em> (printed pp. 53–66).</p>
+<nav class="constraint-nav" aria-label="Codd integrity constraints">
+<a href="#entity-integrity">1. Entity integrity</a>
+<a href="#referential-integrity">2. Referential integrity</a>
+<a href="#domain-integrity">3. Domain integrity</a>
+<a href="#column-integrity">4. Column integrity</a>
+<a href="#business-rules">5. Business rules</a>
+</nav>
+</header>
+<section class="card">
+<h2 id="codds-five-integrity-constraints">Codd’s Five Integrity
+Constraints</h2>
+<p class="source-note"><strong>Source:</strong> Yang W. Lee, Leo L. Pipino,
+James D. Funk, and Richard Y. Wang, <em>Journey to Data Quality</em>,
+Chapter 4, “Assessing Data Quality, Part II,” printed pp. 53–66.
+The MIT Press, 2006. The five constraints below follow the chapter’s
+presentation of Codd (1970).</p>
+<p>In simple terms, the first four metrics can be calculated from the
+data and database structure alone. They do not require knowledge of how
+the organization uses the data. They ask whether the data is structurally
+sound: whether keys are present and unique, relationships point to valid
+records, and values follow their defined rules. These questions apply to
+any dataset, regardless of the task or application.</p>
+<p>The fifth category, <strong>business rules</strong>, is different. A
+rule such as “a completed payment must not exceed the account balance”
+depends on the organization and its application. It cannot be judged
+correctly without that business context.</p>
+<blockquote class="carcamo-interpretation">
+<p>Codd’s first four integrity constraints help qualify a dataset’s
+structural validity and conformity to formal constraints. They reveal how
+the dataset is organized and whether its values follow a coherent
+structure, but they do not by themselves establish the dataset’s meaning,
+usefulness, or business correctness.</p>
+<p>This is especially useful when examining data from a newly purchased
+business, where the acquiring organization may have little historical
+context and no documented data rules. The constraints provide a baseline
+for examining whether keys, relationships, domains, and column values
+follow an apparently coherent structure. The analyst can use these
+observations to infer provisional expectations and identify questions for
+further investigation.</p>
+<p>The constraints are also useful when a data analyst first encounters an
+unfamiliar dataset. They provide a structured way to begin learning how
+the data is organized, identify inconsistencies, and form preliminary
+questions before the analyst understands the dataset’s business meaning or
+history. This initial assessment does not explain what the data means, but
+it provides a disciplined starting point for learning about it.</p>
+<footer>Ideas and interpretation by Lester S. Carcamo.</footer>
+</blockquote>
+ </section>
+<section class="card constraint-card">
+<h3 id="entity-integrity">1. Entity integrity</h3>
+<section class="entity-subsection entity-subsection--concept">
+<h4>Concept</h4>
+<p>No primary key field value in a table may be null.</p>
+</section>
+<section class="entity-subsection entity-subsection--formula">
+<h4>Formula</h4>
+<div class="formula-equation" role="img" aria-label="Degree of adherence to entity integrity equals 1 minus the number of null primary keys divided by the total number of rows">
+<span>Degree of adherence to entity integrity = <strong class="formula-constant">1</strong> −</span>
+<span class="formula-fraction" aria-hidden="true">
+<span>Number of null primary keys</span>
+<span>Total number of rows</span>
+</span>
+</div>
+</section>
+<section class="entity-subsection entity-subsection--metric">
+<h4>Metric</h4>
+<ul>
+<li><strong>1.0:</strong> No null primary keys exist in the dataset.</li>
+<li><strong>Below 1.0:</strong> One or more null primary keys exist in the dataset.</li>
+<li>The lower the value, the greater the proportion of rows with null primary keys.</li>
+</ul>
+<p>This metric reports adherence to the measurable rule that primary-key
+values should not be null. Without documented data specifications, a value
+below 1.0 identifies null primary keys without labeling them as business
+defects.</p>
+</section>
+<section class="entity-subsection entity-subsection--example">
+<h4>Practical example</h4>
+<div class="formula-equation" role="img" aria-label="Degree of adherence to entity integrity equals 1 minus the number of null primary keys divided by the total number of rows">
+<span>Degree of adherence to entity integrity = <strong class="formula-constant">1</strong> −</span>
+<span class="formula-fraction" aria-hidden="true">
+<span>Number of null primary keys</span>
+<span>Total number of rows</span>
+</span>
+</div>
+<p class="formula-components-intro">The formula has three components:</p>
+<ol type="A">
+<li><strong>1</strong> is the constant representing complete adherence.</li>
+<li><strong>Number of null primary keys</strong> is the numerator: the count of rows whose primary-key value is null.</li>
+<li><strong>Total number of rows</strong> is the denominator: the count of all rows in the table.</li>
+</ol>
+<aside class="interpretation-warning">
+<strong>Interpretive warning:</strong> The entity-integrity test is most
+naturally applied to a base data table, where the primary key is intended
+to identify each entity and connect that entity to its related attributes
+or columns. A view may present the same entity and may appear to have an
+identifying column, but a view is a constructed result produced from one
+or more underlying tables. Its apparent identifier may be affected by
+joins, filters, unions, or transformations, and it is not necessarily a
+declared or enforced primary key. Entity integrity can still be measured
+on a view, but the result describes the view’s current output rather than
+an enforced primary key in the underlying data.
+</aside>
+<p>The following example uses the <code>RPLC_LEGO.WELL</code> table,
+which contains well-level attributes such as <code>FAC_ID</code>,
+<code>WELL_API_NBR</code>, <code>DOG_CRIT_INDC</code>, elevation
+quantities, datum measurements, and other descriptive columns.
+<code>FAC_ID</code> is the primary-key column examined for entity
+integrity. Although the table contains many attributes, this calculation
+focuses only on whether <code>FAC_ID</code> is null across the table’s
+rows.</p>
+<p>Example — <code>RPLC_LEGO.WELL</code>, primary key
+<code>FAC_ID</code>:</p>
+<p>In this query, <code>COUNT(*)</code> counts every row in
+<code>RPLC_LEGO.WELL</code>, including rows where <code>FAC_ID</code> is
+null. <code>COUNT(fac_id)</code> counts only rows where
+<code>FAC_ID</code> has a value. Subtracting <code>COUNT(fac_id)</code>
+from <code>COUNT(*)</code> therefore gives the number of rows with a null
+primary key.</p>
+<div class="sourceCode copyable-code" id="cb2"><button class="copy-code-button" type="button" data-copy-target="cb2-code">Copy SQL</button><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">COUNT</span>(<span class="op">*</span>)                                            <span class="kw">AS</span> total_rows,</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="op">-</span> <span class="fu">COUNT</span>(fac_id)                            <span class="kw">AS</span> null_pk,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(<span class="kw">DISTINCT</span> fac_id)                              <span class="kw">AS</span> distinct_pk,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>       <span class="fu">ROUND</span>(<span class="dv">1</span> <span class="op">-</span> (<span class="fu">COUNT</span>(<span class="op">*</span>) <span class="op">-</span> <span class="fu">COUNT</span>(fac_id)) <span class="op">/</span> <span class="fu">COUNT</span>(<span class="op">*</span>), <span class="dv">6</span>) <span class="kw">AS</span> entity_integrity</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   RPLC_LEGO.WELL;</span></code></pre><textarea id="cb2-code" class="copy-code-source" aria-hidden="true">SELECT COUNT(*)                                            AS total_rows,
+  COUNT(*) - COUNT(fac_id)                            AS null_pk,
+  COUNT(DISTINCT fac_id)                              AS distinct_pk,
+  ROUND(1 - (COUNT(*) - COUNT(fac_id)) / COUNT(*), 6) AS entity_integrity
+FROM   RPLC_LEGO.WELL;</textarea></div>
+<p>Result:</p>
+<table class="metric-result">
+<thead>
+<tr>
+<th>TOTAL_ROWS</th>
+<th>NULL_PK</th>
+<th>DISTINCT_PK</th>
+<th>ENTITY_INTEGRITY</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>103,886</td>
+<td>0</td>
+<td>103,886</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<div class="formula-equation metric-calculation" role="img" aria-label="Degree of adherence to entity integrity equals 1 minus 0 divided by 103,886 equals 1 minus 0 equals 1">
+<span>Degree of adherence to entity integrity = <strong class="formula-constant">1</strong> −</span>
+<span class="formula-fraction" aria-hidden="true">
+<span>0</span>
+<span>103,886</span>
+</span>
+<span>= 1 − 0 = 1</span>
+</div>
+<h4 class="metric-interpretation-title">Metric Interpretation</h4>
+<p>The entity-integrity metric shows <strong>1</strong>, meaning that
+this table meets perfect measured entity integrity because no null primary
+keys were found.</p>
+</section>
+<p class="back-to-top"><a href="#top">Back to top</a></p>
+</section>
+<section class="card constraint-card">
+<h3 id="referential-integrity">2. Referential integrity</h3>
+<section class="entity-subsection entity-subsection--concept">
+<h4>Concept</h4>
+<p>The value of a foreign key must match a primary key value in the
+designated related table, or the foreign key must be null.</p>
+<p>Note: the constraint spans two tables, but the metric is scoped to
+the dependent one. A table whose foreign keys are all null scores 1.0
+while being fully disconnected.</p>
+<p>A violation is a <strong>non-null</strong> foreign key value with no
+matching parent — an orphan. Nulls are excluded by design: a null
+foreign key means “no relationship,” not “broken relationship.”</p>
+ </section>
+<section class="entity-subsection entity-subsection--formula">
+<h4>Formula</h4>
+<div class="formula-equation" role="img" aria-label="Degree of adherence to reference integrity equals 1 minus the number of nonmatching values excluding nulls in the dependent table divided by total rows in the dependent table">
+<span>Degree of adherence to reference integrity = <strong class="formula-constant">1</strong> −</span>
+<span class="formula-fraction" aria-hidden="true">
+<span>Number of nonmatching values excluding nulls in the dependent table</span>
+<span>Total rows in the dependent table</span>
+</span>
+</div>
+</section>
+<section class="entity-subsection entity-subsection--metric">
+<h4>Metric</h4>
+<p>The metric counts non-null foreign-key values that do not match a
+parent key. Null foreign keys are excluded because they represent no
+relationship rather than a broken relationship.</p>
+</section>
+<section class="entity-subsection entity-subsection--example">
+<h4>Practical example</h4>
+<p>Example — <code>RPLC_LEGO.WELL</code>. The schema has <strong>no
+declared foreign keys at all</strong> (replication carried the primary
+keys but not the FKs), so every relationship is convention only and must
+be measured:</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">COUNT</span>(<span class="op">*</span>)                   <span class="kw">AS</span> total_rows,</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(c.fk_col)            <span class="kw">AS</span> non_null_fk,</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="op">-</span> <span class="fu">COUNT</span>(c.fk_col) <span class="kw">AS</span> null_fk,</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>       <span class="fu">SUM</span>(<span class="cf">CASE</span> <span class="cf">WHEN</span> c.fk_col <span class="kw">IS</span> <span class="kw">NOT</span> <span class="kw">NULL</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>                 <span class="kw">AND</span> <span class="kw">NOT</span> <span class="kw">EXISTS</span> (<span class="kw">SELECT</span> <span class="dv">1</span> <span class="kw">FROM</span> parent_owner.parent_tbl p</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>                                 <span class="kw">WHERE</span>  p.pk_col <span class="op">=</span> c.fk_col)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>                <span class="cf">THEN</span> <span class="dv">1</span> <span class="cf">ELSE</span> <span class="dv">0</span> <span class="cf">END</span>) <span class="kw">AS</span> orphans</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   child_owner.child_tbl c;</span></code></pre></div>
+<p>The <code>IS NOT NULL</code> guard is Codd’s “excluding nulls” clause
+expressed in SQL.</p>
+<p>Results, five undeclared foreign keys on <code>RPLC_LEGO.WELL</code>
+(103,886 rows):</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>FK column</th>
+<th>Parent</th>
+<th>Non-null FK</th>
+<th>Orphans</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>FAC_ID</code></td>
+<td><code>FAC</code></td>
+<td>103,886</td>
+<td>0</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td><code>REPL_WELL_FAC_ID</code></td>
+<td><code>WELL</code> (self)</td>
+<td>7,034</td>
+<td>0</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td><code>WELL_DATUM_TYPE_ID</code></td>
+<td><code>WELL_DATUM_TYPE</code></td>
+<td>68,628</td>
+<td>0</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td><code>UIC_CLASS_TYPE_ID</code></td>
+<td><code>UIC_CLASS_TYPE</code></td>
+<td>1,574</td>
+<td>0</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td><code>WELL_INIT_DRLG_RSN_TYPE_ID</code></td>
+<td><code>WELL_INIT_DRLG_RSN_TYPE</code></td>
+<td>54,076</td>
+<td>0</td>
+<td>1.000</td>
+</tr>
+</tbody>
+</table>
+<p>A real finding, not a tautology: nothing enforces these, and
+integrity held anyway — evidence the replication is faithful and the
+source system enforced them.</p>
+<p>Also shows the null asymmetry. <code>UIC_CLASS_TYPE_ID</code> scores
+1.000 on only 1,574 actual references out of 103,886 rows — 98.5% null.
+The rating would look identical if the column were entirely empty, which
+is why the non-null count belongs beside it.</p>
+<p>To list the offending rows rather than count them (the Integrity
+Analyzer’s “Improve” step):</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> c.<span class="op">*</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   child_owner.child_tbl c</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span>  c.fk_col <span class="kw">IS</span> <span class="kw">NOT</span> <span class="kw">NULL</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="kw">AND</span>    <span class="kw">NOT</span> <span class="kw">EXISTS</span> (<span class="kw">SELECT</span> <span class="dv">1</span> <span class="kw">FROM</span> parent_owner.parent_tbl p</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>                   <span class="kw">WHERE</span> p.pk_col <span class="op">=</span> c.fk_col);</span></code></pre></div>
+<p><strong>Where measurement is worth doing.</strong> <code>EDS</code>
+has 562 declared foreign keys:</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>State</th>
+<th>Count</th>
+<th>What the metric tells you</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ENABLED, VALIDATED</code></td>
+<td>535</td>
+<td>Nothing — 1.000 guaranteed</td>
+</tr>
+<tr>
+<td><code>ENABLED, NOT VALIDATED</code></td>
+<td>17</td>
+<td>New rows checked; pre-existing never were</td>
+</tr>
+<tr>
+<td><code>DISABLED, NOT VALIDATED</code></td>
+<td>10</td>
+<td>Nothing is enforced at all</td>
+</tr>
+</tbody>
+</table>
+<p>Only 27 of 562 are worth measuring. <code>ENABLE NOVALIDATE</code> is
+the state to watch: enforcement starts at a point in time and says
+nothing about the data before it.</p>
+</section>
+<p class="back-to-top"><a href="#top">Back to top</a></p>
+</section>
+<section class="card constraint-card">
+<h3 id="domain-integrity">3. Domain integrity</h3>
+<section class="entity-subsection entity-subsection--concept">
+<h4>Concept</h4>
+<p>The set of permissible values for a column — the type definition
+itself. Named in the chapter but given no metric, since a domain is a
+property of the schema rather than something counted row by row.
+Violations surface as column integrity (rule 4).</p>
+<p><strong>Declared domain vs. real domain.</strong> The declaration
+sets an outer bound that is usually far wider than the actual
+permissible set. <code>VARCHAR2(8)</code> permits any eight characters;
+the real domain may be four status codes. Three levels:</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Level</th>
+<th>Declared?</th>
+<th>Enforced?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Datatype, length, precision, NOT NULL</td>
+<td>yes</td>
+<td>always</td>
+</tr>
+<tr>
+<td>Check constraint</td>
+<td>yes</td>
+<td>if ENABLED</td>
+</tr>
+<tr>
+<td>Lookup table</td>
+<td>as data, not as declaration</td>
+<td>only if an FK points at it</td>
+</tr>
+</tbody>
+</table>
+ </section>
+<section class="entity-subsection entity-subsection--formula">
+<h4>Formula</h4>
+</section>
+<section class="entity-subsection entity-subsection--metric">
+<h4>Metric</h4>
+<p>The third is the common case here. <code>UIC_CLASS_TYPE_ID</code>’s
+permissible values live as rows in <code>UIC_CLASS_TYPE</code> — a
+domain expressed as data. With no FK declared, the orphan check under
+rule 2 <em>is</em> the domain check.</p>
+<p><strong>Why there is no metric.</strong> The permissible set has to
+come from outside the data — a dictionary, a spec, a domain expert. It
+cannot be derived from the column, because what is there may already be
+wrong. Profiling gets you candidates; only a human confirms the
+boundary. Rule 3 sits closer to rule 5 than its numbering suggests.</p>
+<p>Profiling is still structurally useful before any spec arrives. The
+<em>shape</em> of the distribution is informative: 4 distinct values in
+100k rows is a code column; one distinct value per row is an identifier;
+two values at 40k each plus six appearing once makes those six
+suspicious whatever the spec says.</p>
+ </section>
+<section class="entity-subsection entity-subsection--example">
+<h4>Practical example</h4>
+<p>Example — <code>DWRPTG.CMPL_DMN.INIT_PROD_DTE</code>:</p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">COUNT</span>(<span class="op">*</span>)                        <span class="kw">AS</span> total_rows,</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(init_prod_dte)            <span class="kw">AS</span> non_null,</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="op">-</span> <span class="fu">COUNT</span>(init_prod_dte) <span class="kw">AS</span> <span class="kw">nulls</span>,</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>       <span class="fu">TO_CHAR</span>(<span class="fu">MIN</span>(init_prod_dte),<span class="st">&#39;YYYY-MM-DD&#39;</span>) <span class="kw">AS</span> min_date,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>       <span class="fu">TO_CHAR</span>(<span class="fu">MAX</span>(init_prod_dte),<span class="st">&#39;YYYY-MM-DD&#39;</span>) <span class="kw">AS</span> max_date,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>       <span class="fu">SUM</span>(<span class="cf">CASE</span> <span class="cf">WHEN</span> init_prod_dte <span class="op">&gt;</span> <span class="fu">SYSDATE</span> <span class="cf">THEN</span> <span class="dv">1</span> <span class="cf">ELSE</span> <span class="dv">0</span> <span class="cf">END</span>) <span class="kw">AS</span> future_dates</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   DWRPTG.CMPL_DMN;</span></code></pre></div>
+<p>Result:</p>
+<table>
+<thead>
+<tr>
+<th>TOTAL_ROWS</th>
+<th>NON_NULL</th>
+<th>NULLS</th>
+<th>MIN_DATE</th>
+<th>MAX_DATE</th>
+<th>FUTURE_DATES</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>290,253</td>
+<td>175,085</td>
+<td>115,168</td>
+<td>1800-01-01</td>
+<td>2026-09-21</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>Max is yesterday and no future dates — sensible. But the minimum is
+<strong>1800</strong>, predating the oil industry. The datatype permits
+it, so nothing objected.</p>
+<p>Distribution by year to locate the boundary:</p>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">TO_CHAR</span>(init_prod_dte,<span class="st">&#39;YYYY&#39;</span>) <span class="kw">AS</span> yr, <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="kw">AS</span> cnt</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   DWRPTG.CMPL_DMN</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span>  init_prod_dte <span class="op">&lt;</span> <span class="dt">DATE</span> <span class="st">&#39;1950-01-01&#39;</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="kw">GROUP</span>  <span class="kw">BY</span> <span class="fu">TO_CHAR</span>(init_prod_dte,<span class="st">&#39;YYYY&#39;</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span>  <span class="kw">BY</span> yr;</span></code></pre></div>
+<table>
+<thead>
+<tr>
+<th>Range</th>
+<th>Count</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1800</td>
+<td>106</td>
+<td>Sentinel — violation</td>
+</tr>
+<tr>
+<td>1900</td>
+<td>12</td>
+<td>Possible sentinel — needs a human</td>
+</tr>
+<tr>
+<td>1901–1949</td>
+<td>~10,000</td>
+<td>Legitimate</td>
+</tr>
+</tbody>
+</table>
+<p>All 106 sit at exactly <code>1800-01-01</code> with no scatter,
+confirming a deliberate placeholder for “unknown” rather than data entry
+noise. The 1901–1949 values climb smoothly and track real history — a
+bump at 1915–1917, growth through the 1920s, a dip in the early 1940s, a
+jump at 1945 — so they are real production dates, not violations.</p>
+<p>Taking “plausible production date” as the permissible set:</p>
+<pre><code>Rating = 1 − (106 / 175,085) = 0.99939</code></pre>
+<p>The denominator caveat in action: 0.9994 reads as fine while 106 rows
+carry a date off by 150 years. Anything averaging or trending this
+column silently includes them.</p>
+</section>
+<p class="back-to-top"><a href="#top">Back to top</a></p>
+</section>
+<section class="card constraint-card">
+<h3 id="column-integrity">4. Column integrity</h3>
+<section class="entity-subsection entity-subsection--concept">
+<h4>Concept</h4>
+<p>Column integrity requires that the values in the column be drawn from
+the set of permissible values. Again, a simple ratio reflecting the
+percentage of rows that adhere to this rule can be used.</p>
+<p>The chapter also notes that where a column represents a required
+property, this doubles as a check of <strong>column
+completeness</strong>.</p>
+ </section>
+<section class="entity-subsection entity-subsection--formula">
+<h4>Formula</h4>
+<div class="formula-equation" role="img" aria-label="Degree of adherence to column integrity equals 1 minus the number of invalid column values divided by the number of rows in table">
+<span>Degree of adherence to column integrity = <strong class="formula-constant">1</strong> −</span>
+<span class="formula-fraction" aria-hidden="true">
+<span>Number of invalid column values</span>
+<span>Number of rows in table</span>
+</span>
+</div>
+</section>
+<section class="entity-subsection entity-subsection--metric">
+<h4>Metric</h4>
+<p>Profiling query — distinct values with counts:</p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">NVL</span>(col,<span class="st">&#39;(null)&#39;</span>) <span class="kw">AS</span> val,</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(<span class="op">*</span>)          <span class="kw">AS</span> cnt,</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>       <span class="fu">MAX</span>(<span class="fu">LENGTH</span>(col))  <span class="kw">AS</span> len</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   owner.tbl</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="kw">GROUP</span>  <span class="kw">BY</span> col</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span>  <span class="kw">BY</span> cnt <span class="kw">DESC</span>;</span></code></pre></div>
+<p>Where a lookup table holds the domain, the measurable version — same
+form as the orphan check under rule 2:</p>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="kw">AS</span> total_rows,</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">SUM</span>(<span class="cf">CASE</span> <span class="cf">WHEN</span> c.col <span class="kw">IS</span> <span class="kw">NOT</span> <span class="kw">NULL</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>                 <span class="kw">AND</span> <span class="kw">NOT</span> <span class="kw">EXISTS</span> (<span class="kw">SELECT</span> <span class="dv">1</span> <span class="kw">FROM</span> owner.lookup_tbl l</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>                                 <span class="kw">WHERE</span> l.code <span class="op">=</span> c.col)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>                <span class="cf">THEN</span> <span class="dv">1</span> <span class="cf">ELSE</span> <span class="dv">0</span> <span class="cf">END</span>) <span class="kw">AS</span> invalid_values</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   owner.tbl c;</span></code></pre></div>
+ </section>
+<section class="entity-subsection entity-subsection--example">
+<h4>Practical example</h4>
+<p><strong>Example 1 —
+<code>DWRPTG.CMPL_DMN.CMPL_STATE_TYPE_CDE</code></strong>, declared
+<code>VARCHAR2(50)</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Count</th>
+<th>Length</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>OPNL</code></td>
+<td>171,196</td>
+<td>4</td>
+</tr>
+<tr>
+<td><code>ABND</code></td>
+<td>61,499</td>
+<td>4</td>
+</tr>
+<tr>
+<td><code>TA</code></td>
+<td>28,585</td>
+<td>2</td>
+</tr>
+<tr>
+<td><code>PRPO</code></td>
+<td>22,028</td>
+<td>4</td>
+</tr>
+<tr>
+<td><code>FUTR</code></td>
+<td>3,792</td>
+<td>4</td>
+</tr>
+<tr>
+<td>(null)</td>
+<td>1,915</td>
+<td></td>
+</tr>
+<tr>
+<td><code>CANCD</code></td>
+<td>1,229</td>
+<td>5</td>
+</tr>
+<tr>
+<td><code>INPRGS</code></td>
+<td><strong>9</strong></td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<p>Declared domain is 50 characters; the real domain is 7 values, max
+length 6.</p>
+<p>The shape is a closed set with one straggler: <code>INPRGS</code> at
+9 rows against a next-smallest of 1,229 — three orders of magnitude
+apart. Structurally the thing to ask about, though its form (uppercase
+abbreviation, consistent with the rest) suggests a deprecated or rare
+state rather than a typo. Confirming that needs a domain expert.</p>
+<p>If <code>INPRGS</code> is deemed invalid:</p>
+<pre><code>Rating = 1 − (9 / 288,338) = 0.99997</code></pre>
+<p>The denominator problem at its most extreme — a value worth
+investigating, scoring as indistinguishable from perfect.</p>
+<p><strong>Example 2 — the <code>_INDC</code> columns</strong>, all
+declared <code>VARCHAR2(1)</code> or <code>CHAR(1)</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Values</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ACTV_INDC</code></td>
+<td>N 179,842 / Y 110,411</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td><code>IN_SVC_INDC</code></td>
+<td>null 142,637 / Y 101,956 / N 45,660</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td><code>PMTD_TO_CYCL_INDC</code></td>
+<td>null 266,004 / N 17,396 / Y 6,853</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td><code>LOW_USE_CYC_INDC</code></td>
+<td>null 290,253</td>
+<td>1.000</td>
+</tr>
+</tbody>
+</table>
+<p>Every non-null value is <code>Y</code> or <code>N</code> — no stray
+<code>y</code>, <code>1</code>, <code>T</code> or blanks. Column
+integrity holds throughout.</p>
+<p>But the profile surfaces what the rating cannot:
+<strong><code>LOW_USE_CYC_INDC</code> is 100% null</strong> across all
+290,253 rows. Perfect column integrity on an empty column. The same
+blind spot as an all-null foreign key under rule 2 — caught by the
+completeness dimension, not by integrity.</p>
+</section>
+<p class="back-to-top"><a href="#top">Back to top</a></p>
+</section>
+<section class="card constraint-card">
+<h3 id="business-rules">5. Business rules</h3>
+<section class="entity-subsection entity-subsection--concept">
+<h4>Concept</h4>
+<p>Codd’s all-purpose category for integrity rules specific to an
+organization. Cannot be task-independent by definition.</p>
+</section>
+<section class="entity-subsection entity-subsection--formula">
+<h4>Formula</h4>
+</section>
+<section class="entity-subsection entity-subsection--metric">
+<h4>Metric</h4>
+</section>
+<section class="entity-subsection entity-subsection--example">
+<h4>Practical example</h4>
+</section>
+<p class="back-to-top"><a href="#top">Back to top</a></p>
+</section>
+<section class="card chapter-notes">
+<h2 id="task-independent-vs.-context-dependent">Task-independent
+vs. context-dependent</h2>
+<p>The first four constraints yield <strong>task-independent</strong>
+metrics: they reflect the state of the data without contextual knowledge
+of the application, and apply to any dataset regardless of task.</p>
+<p>The fifth cannot. It is where expectations that live outside the
+schema belong — e.g. “this view column should behave like a primary
+key.”</p>
+<h2 id="canonical-form">Canonical form</h2>
+<p>All four metrics above are instances of one ratio:</p>
+<pre><code>Rating = 1 − (number of undesirable outcomes / total outcomes)</code></pre>
+<p>1 is most desirable, 0 least. Exceptions are counted because they are
+fewer and easier to tabulate, then inverted so the reported figure
+expresses adherence.</p>
+<h2 id="enforcement-vs.-diagnosis">Enforcement vs. diagnosis</h2>
+<p>Commercial RDBMS check Codd’s constraints <strong>at entry</strong> —
+violations never land (printed p. 61). Measuring adherence on an
+enforced key can only return 1.0, so the result is a tautology rather
+than a finding.</p>
+<p>The metrics earn their keep where enforcement is absent or
+weaker:</p>
+<ul>
+<li>views (no key to enforce; a stored query, not stored rows)</li>
+<li>replicated copies, where constraints may not have shipped</li>
+<li>legacy systems, imports, staging tables</li>
+</ul>
+<h3 id="checking-the-declaration">Checking the declaration</h3>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> c.constraint_name, c.constraint_type, c.status, c.validated,</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>       cc.column_name, cc.position</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   all_constraints c</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="kw">JOIN</span>   all_cons_columns cc</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>       <span class="kw">ON</span> cc.owner <span class="op">=</span> c.owner <span class="kw">AND</span> cc.constraint_name <span class="op">=</span> c.constraint_name</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span>  c.owner <span class="op">=</span> <span class="st">&#39;&lt;OWNER&gt;&#39;</span> <span class="kw">AND</span> c.table_name <span class="op">=</span> <span class="st">&#39;&lt;TABLE&gt;&#39;</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="kw">AND</span>    c.constraint_type <span class="kw">IN</span> (<span class="st">&#39;P&#39;</span>,<span class="st">&#39;U&#39;</span>,<span class="st">&#39;R&#39;</span>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span>  <span class="kw">BY</span> c.constraint_type, c.constraint_name, cc.position;</span></code></pre></div>
+<p>Types: <code>P</code> primary key, <code>R</code> referential,
+<code>U</code> unique, <code>C</code> check (includes NOT NULL).</p>
+<h3 id="on-views-specifically">On views specifically</h3>
+<p>A view has no room for an enforced key — the data materializes at
+query time. Oracle permits a declared PK on a view only as
+<code>DISABLE NOVALIDATE</code>, as metadata for query rewrite; it
+enforces nothing.</p>
+<p>So for a view, entity integrity is <strong>measured, never
+guaranteed</strong>. Views also break key properties in non-obvious
+ways: joins fan out rows and destroy uniqueness, outer joins introduce
+nulls in columns that were non-null at the base, unions collide keys
+from separate sources.</p>
+<p>Uniqueness is the more important half to test on a view. Nulls tend
+to get noticed; duplicates silently fan out downstream joins and inflate
+counts.</p>
+<h2 id="caveats">Caveats</h2>
+<ul>
+<li><strong>Denominator sensitivity.</strong> The metric is a rate, not
+a count. Five bad rows score 0.95 in a 100-row table and 0.999995 in a
+million-row table. Report the raw violation count alongside the
+rating.</li>
+<li><strong>Per-table scope.</strong> Each metric is scoped to one
+table, so scores across tables are not commensurable and should not be
+pooled. Aggregate with <code>min</code> if a database-level figure is
+needed.</li>
+<li><strong>Naming.</strong> “Codd’s fifth” here means the fifth
+<em>integrity constraint</em> in this book’s framing — not Codd’s 12
+Rules for relational DBMS, a different list.</li>
+</ul>
+</section>
+</main>
+<script>
+(function () {
+  function addCopyButtons() {
+    document.querySelectorAll(".sourceCode").forEach(function (codeBlock) {
+      if (codeBlock.parentElement.closest(".sourceCode") ||
+          codeBlock.querySelector(".copy-code-button")) {
+        return;
+      }
+
+      var button = document.createElement("button");
+      button.className = "copy-code-button";
+      button.type = "button";
+      button.textContent = "Copy SQL";
+      codeBlock.insertBefore(button, codeBlock.firstChild);
+    });
+
+    document.querySelectorAll(".copy-code-button").forEach(function (button) {
+      button.addEventListener("click", function () {
+        var targetId = button.getAttribute("data-copy-target");
+        var target = targetId ? document.getElementById(targetId) : null;
+        var text = target ? target.value : button.parentNode.querySelector("code").textContent;
+        if (!text) {
+          return;
+        }
+
+        function showCopied() {
+          button.textContent = "Copied";
+          window.setTimeout(function () {
+            button.textContent = "Copy SQL";
+          }, 1500);
+        }
+
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard.writeText(text).then(showCopied);
+          return;
+        }
+
+        var fallback = document.createElement("textarea");
+        fallback.value = text;
+        fallback.setAttribute("readonly", "");
+        fallback.style.position = "fixed";
+        fallback.style.opacity = "0";
+        document.body.appendChild(fallback);
+        fallback.select();
+        document.execCommand("copy");
+        fallback.remove();
+        window.getSelection().removeAllRanges();
+        showCopied();
+      });
+    });
+  }
+
+  function addCollapsibleSubsections() {
+    document.querySelectorAll(".entity-subsection").forEach(function (section) {
+      var heading = section.querySelector("h4");
+      if (!heading) {
+        return;
+      }
+
+      var toggle = document.createElement("button");
+      toggle.className = "subsection-toggle";
+      toggle.type = "button";
+      toggle.setAttribute("aria-expanded", "true");
+      toggle.textContent = heading.textContent;
+      heading.replaceWith(toggle);
+
+      toggle.addEventListener("click", function () {
+        var isCollapsed = section.classList.toggle("is-collapsed");
+        toggle.setAttribute("aria-expanded", String(!isCollapsed));
+      });
+    });
+  }
+
+  addCopyButtons();
+  addCollapsibleSubsections();
+})();
+</script>
+</body>
+</html>
