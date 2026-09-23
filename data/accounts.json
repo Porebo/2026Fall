@@ -70,6 +70,62 @@
       "name": "Chase Freedom Flex ending in 3254",
       "type": "liability",
       "normalBalance": "credit"
+    },
+    {
+      "id": "freedom-mortgage",
+      "code": "2200",
+      "name": "Freedom Mortgage",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "irs-payment-plan",
+      "code": "2300",
+      "name": "IRS",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "mazda-financial",
+      "code": "2201",
+      "name": "Mazda Financial",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "service-finance-company",
+      "code": "2202",
+      "name": "Service Finance Company",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "pge-utilities",
+      "code": "2400",
+      "name": "PG&E",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "dovenmuehle",
+      "code": "2203",
+      "name": "Dovenmuehle",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "pentagon-federal",
+      "code": "2204",
+      "name": "Pentagon Federal",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "netflix",
+      "code": "2401",
+      "name": "Netflix",
+      "type": "liability",
+      "normalBalance": "credit"
     }
   ],
   "accounts": [
@@ -189,6 +245,150 @@
       "completedPaymentDate": "2026-09-22",
       "completedPaymentCents": 3299,
       "status": "paid"
+    },
+    {
+      "id": "freedom-mortgage",
+      "bank": "Freedom Mortgage",
+      "name": "Freedom Mortgage",
+      "lastFour": null,
+      "dueDate": "2026-10-01",
+      "minimumDueCents": 147802,
+      "statementBalanceCents": 147802,
+      "balanceCents": 147802,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 1,
+        "amountCents": 147802
+      }
+    },
+    {
+      "id": "irs-payment-plan",
+      "bank": "IRS",
+      "name": "IRS",
+      "lastFour": null,
+      "dueDate": "2026-10-01",
+      "minimumDueCents": 50000,
+      "statementBalanceCents": 50000,
+      "balanceCents": 50000,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 1,
+        "amountCents": 50000
+      }
+    },
+    {
+      "id": "mazda-financial",
+      "bank": "Mazda Financial Services",
+      "name": "Mazda Financial",
+      "lastFour": null,
+      "dueDate": "2026-10-04",
+      "minimumDueCents": 47522,
+      "statementBalanceCents": 47522,
+      "balanceCents": 47522,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 4,
+        "amountCents": 47522
+      }
+    },
+    {
+      "id": "service-finance-company",
+      "bank": "Service Finance Company",
+      "name": "Service Finance Company",
+      "lastFour": null,
+      "dueDate": "2026-10-01",
+      "minimumDueCents": 25643,
+      "statementBalanceCents": 25643,
+      "balanceCents": 25643,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 1,
+        "amountCents": 25643
+      }
+    },
+    {
+      "id": "pge-utilities",
+      "bank": "PG&E",
+      "name": "PG&E",
+      "lastFour": null,
+      "dueDate": "2026-10-11",
+      "minimumDueCents": 41500,
+      "statementBalanceCents": 41500,
+      "balanceCents": 41500,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 11,
+        "amountCents": 41500
+      }
+    },
+    {
+      "id": "dovenmuehle",
+      "bank": "Dovenmuehle Mortgage",
+      "name": "Dovenmuehle",
+      "lastFour": null,
+      "dueDate": "2026-10-14",
+      "minimumDueCents": 37612,
+      "statementBalanceCents": 37612,
+      "balanceCents": 37612,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 14,
+        "amountCents": 37612
+      }
+    },
+    {
+      "id": "pentagon-federal",
+      "bank": "Pentagon Federal Credit Union",
+      "name": "Pentagon Federal",
+      "lastFour": null,
+      "dueDate": "2026-10-16",
+      "minimumDueCents": 53043,
+      "statementBalanceCents": 53043,
+      "balanceCents": 53043,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 16,
+        "amountCents": 53043
+      }
+    },
+    {
+      "id": "netflix",
+      "bank": "Netflix",
+      "name": "Netflix",
+      "lastFour": null,
+      "dueDate": "2026-10-17",
+      "minimumDueCents": 2699,
+      "statementBalanceCents": 2699,
+      "balanceCents": 2699,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 17,
+        "amountCents": 2699
+      }
     }
   ],
   "transactions": [

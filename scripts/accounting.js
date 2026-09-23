@@ -1,6 +1,36 @@
 (function () {
   var dataUrl = window.ACCOUNTING_CONFIG && window.ACCOUNTING_CONFIG.dataUrl || "data/accounts.json";
   var currency = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
+  var sortDirections = { accounts: "asc", transactions: "desc", journal: "desc" };
+
+  function compareDates(a, b, direction) {
+    return direction === "asc" ? a.localeCompare(b) : b.localeCompare(a);
+  }
+
+  function updateSortHeaders() {
+    Object.keys(sortDirections).forEach(function (table) {
+      var header = document.querySelector('[data-sort-header="' + table + '"]');
+      if (!header) {
+        return;
+      }
+      var ascending = sortDirections[table] === "asc";
+      header.setAttribute("aria-sort", ascending ? "ascending" : "descending");
+      header.querySelector(".sort-arrow").textContent = ascending ? "▲" : "▼";
+    });
+  }
+
+  function setupSorting(data) {
+    var renderers = { accounts: renderAccounts, transactions: renderTransactions, journal: renderJournal };
+    document.querySelectorAll("[data-sort]").forEach(function (button) {
+      button.addEventListener("click", function () {
+        var table = button.getAttribute("data-sort");
+        sortDirections[table] = sortDirections[table] === "asc" ? "desc" : "asc";
+        renderers[table](data);
+        updateSortHeaders();
+      });
+    });
+    updateSortHeaders();
+  }
 
   function money(cents) {
     return currency.format(cents / 100);

@@ -26,6 +26,9 @@
     .status--paid { color: #1a7f37; }
     .status--open { color: #9a6700; }
     .accounting-error { background: #fff4f2; border-left: 4px solid #b42318; color: #8a1c13; padding: 1rem; }
+    .sort-button { background: none; border: 0; color: inherit; cursor: pointer; font: inherit; letter-spacing: inherit; padding: 0; text-transform: inherit; }
+    .sort-button:hover, .sort-button:focus-visible { color: #17365d; text-decoration: underline; }
+    .sort-arrow { display: inline-block; margin-left: 0.25rem; }
     @media (max-width: 760px) {
       .accounting-summary { grid-template-columns: repeat(2, 1fr); }
     }
@@ -73,7 +76,7 @@
             <tr>
               <th>Bank</th>
               <th>Account</th>
-              <th>Due date</th>
+              <th data-sort-header="accounts"><button type="button" class="sort-button" data-sort="accounts">Due date <span class="sort-arrow" aria-hidden="true"></span></button></th>
               <th>Minimum due</th>
               <th>Balance</th>
               <th>Payment completed</th>
@@ -94,7 +97,7 @@
         <table class="accounting-table">
           <thead>
             <tr>
-              <th>Date</th>
+              <th data-sort-header="transactions"><button type="button" class="sort-button" data-sort="transactions">Date <span class="sort-arrow" aria-hidden="true"></span></button></th>
               <th>Account</th>
               <th>Description</th>
               <th>Amount</th>
@@ -116,7 +119,7 @@
         <table class="accounting-table">
           <thead>
             <tr>
-              <th>Date</th>
+              <th data-sort-header="journal"><button type="button" class="sort-button" data-sort="journal">Date <span class="sort-arrow" aria-hidden="true"></span></button></th>
               <th>Description</th>
               <th>Account</th>
               <th>Debit</th>
