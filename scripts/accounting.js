@@ -40,9 +40,20 @@
   function renderAccounts(data) {
     var body = document.getElementById("account-rows");
     body.innerHTML = "";
-    var accounts = data.accounts.slice().sort(function (a, b) {
+    var accounts = data.accounts.filter(function (account) {
+      return account.balanceCents !== 0;
+    }).sort(function (a, b) {
       return a.dueDate.localeCompare(b.dueDate);
     });
+
+    if (accounts.length === 0) {
+      var emptyRow = document.createElement("tr");
+      var emptyCell = makeCell("No upcoming obligations.");
+      emptyCell.colSpan = 7;
+      emptyRow.appendChild(emptyCell);
+      body.appendChild(emptyRow);
+      return;
+    }
 
     accounts.forEach(function (account) {
       var row = document.createElement("tr");
