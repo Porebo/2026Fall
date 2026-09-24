@@ -193,9 +193,36 @@
     });
   }
 
+  function addCollapsibleCards() {
+    document.querySelectorAll(".constraint-card").forEach(function (card) {
+      var heading = card.querySelector(":scope > h3");
+      if (!heading || heading.querySelector(".card-toggle")) {
+        return;
+      }
+
+      var title = heading.textContent.trim();
+      var toggle = document.createElement("button");
+      toggle.className = "card-toggle";
+      toggle.type = "button";
+      toggle.setAttribute("aria-expanded", "true");
+      toggle.setAttribute("aria-label", "Collapse " + title);
+      heading.appendChild(toggle);
+
+      toggle.addEventListener("click", function () {
+        var isCollapsed = card.classList.toggle("is-collapsed");
+        toggle.setAttribute("aria-expanded", String(!isCollapsed));
+        toggle.setAttribute(
+          "aria-label",
+          (isCollapsed ? "Expand " : "Collapse ") + title
+        );
+      });
+    });
+  }
+
   wrapSiteHeader();
   addVisitCounter();
   addCopyButtons();
   addCollapsibleSubsections();
+  addCollapsibleCards();
   window.addEventListener("resize", updateHeaderOffset);
 })();

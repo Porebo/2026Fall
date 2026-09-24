@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "research-papers-sqlite": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "${workspaceFolder}/mcp/research-papers-sqlite/bin/Debug/net8.0/ResearchPapersSqliteMcp.dll"
+      ],
+      "env": {
+        "RESEARCH_PAPERS_DB_PATH": "${workspaceFolder}/classes/graduate-project/research-papers/research_papers.db"
+      }
+    }
+  }
+}

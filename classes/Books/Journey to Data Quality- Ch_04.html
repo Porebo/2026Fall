@@ -430,149 +430,12 @@ nothing about the data before it.</p>
 </section>
 <section class="card constraint-card">
 <h3 id="domain-integrity">3. Domain integrity</h3>
-<section class="entity-subsection entity-subsection--concept">
-<h4>Concept</h4>
-<p>The set of permissible values for a column — the type definition
-itself. Named in the chapter but given no metric, since a domain is a
-property of the schema rather than something counted row by row.
-Violations surface as column integrity (rule 4).</p>
-<p><strong>Declared domain vs. real domain.</strong> The declaration
-sets an outer bound that is usually far wider than the actual
-permissible set. <code>VARCHAR2(8)</code> permits any eight characters;
-the real domain may be four status codes. Three levels:</p>
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr>
-<th>Level</th>
-<th>Declared?</th>
-<th>Enforced?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Datatype, length, precision, NOT NULL</td>
-<td>yes</td>
-<td>always</td>
-</tr>
-<tr>
-<td>Check constraint</td>
-<td>yes</td>
-<td>if ENABLED</td>
-</tr>
-<tr>
-<td>Lookup table</td>
-<td>as data, not as declaration</td>
-<td>only if an FK points at it</td>
-</tr>
-</tbody>
-</table>
- </section>
-<section class="entity-subsection entity-subsection--formula">
-<h4>Formula</h4>
-</section>
-<section class="entity-subsection entity-subsection--metric">
-<h4>Metric</h4>
-<p>The third is the common case here. <code>UIC_CLASS_TYPE_ID</code>’s
-permissible values live as rows in <code>UIC_CLASS_TYPE</code> — a
-domain expressed as data. With no FK declared, the orphan check under
-rule 2 <em>is</em> the domain check.</p>
-<p><strong>Why there is no metric.</strong> The permissible set has to
-come from outside the data — a dictionary, a spec, a domain expert. It
-cannot be derived from the column, because what is there may already be
-wrong. Profiling gets you candidates; only a human confirms the
-boundary. Rule 3 sits closer to rule 5 than its numbering suggests.</p>
-<p>Profiling is still structurally useful before any spec arrives. The
-<em>shape</em> of the distribution is informative: 4 distinct values in
-100k rows is a code column; one distinct value per row is an identifier;
-two values at 40k each plus six appearing once makes those six
-suspicious whatever the spec says.</p>
- </section>
-<section class="entity-subsection entity-subsection--example">
-<h4>Practical example</h4>
-<p>Example — <code>DWRPTG.CMPL_DMN.INIT_PROD_DTE</code>:</p>
-<div class="sourceCode" id="cb7"><pre
-class="sourceCode sql"><code class="sourceCode sql"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">COUNT</span>(<span class="op">*</span>)                        <span class="kw">AS</span> total_rows,</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(init_prod_dte)            <span class="kw">AS</span> non_null,</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="op">-</span> <span class="fu">COUNT</span>(init_prod_dte) <span class="kw">AS</span> <span class="kw">nulls</span>,</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>       <span class="fu">TO_CHAR</span>(<span class="fu">MIN</span>(init_prod_dte),<span class="st">&#39;YYYY-MM-DD&#39;</span>) <span class="kw">AS</span> min_date,</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>       <span class="fu">TO_CHAR</span>(<span class="fu">MAX</span>(init_prod_dte),<span class="st">&#39;YYYY-MM-DD&#39;</span>) <span class="kw">AS</span> max_date,</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>       <span class="fu">SUM</span>(<span class="cf">CASE</span> <span class="cf">WHEN</span> init_prod_dte <span class="op">&gt;</span> <span class="fu">SYSDATE</span> <span class="cf">THEN</span> <span class="dv">1</span> <span class="cf">ELSE</span> <span class="dv">0</span> <span class="cf">END</span>) <span class="kw">AS</span> future_dates</span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   DWRPTG.CMPL_DMN;</span></code></pre></div>
-<p>Result:</p>
-<table>
-<thead>
-<tr>
-<th>TOTAL_ROWS</th>
-<th>NON_NULL</th>
-<th>NULLS</th>
-<th>MIN_DATE</th>
-<th>MAX_DATE</th>
-<th>FUTURE_DATES</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>290,253</td>
-<td>175,085</td>
-<td>115,168</td>
-<td>1800-01-01</td>
-<td>2026-09-21</td>
-<td>0</td>
-</tr>
-</tbody>
-</table>
-<p>Max is yesterday and no future dates — sensible. But the minimum is
-<strong>1800</strong>, predating the oil industry. The datatype permits
-it, so nothing objected.</p>
-<p>Distribution by year to locate the boundary:</p>
-<div class="sourceCode" id="cb8"><pre
-class="sourceCode sql"><code class="sourceCode sql"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">TO_CHAR</span>(init_prod_dte,<span class="st">&#39;YYYY&#39;</span>) <span class="kw">AS</span> yr, <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="kw">AS</span> cnt</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span>   DWRPTG.CMPL_DMN</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span>  init_prod_dte <span class="op">&lt;</span> <span class="dt">DATE</span> <span class="st">&#39;1950-01-01&#39;</span></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="kw">GROUP</span>  <span class="kw">BY</span> <span class="fu">TO_CHAR</span>(init_prod_dte,<span class="st">&#39;YYYY&#39;</span>)</span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span>  <span class="kw">BY</span> yr;</span></code></pre></div>
-<table>
-<thead>
-<tr>
-<th>Range</th>
-<th>Count</th>
-<th>Verdict</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1800</td>
-<td>106</td>
-<td>Sentinel — violation</td>
-</tr>
-<tr>
-<td>1900</td>
-<td>12</td>
-<td>Possible sentinel — needs a human</td>
-</tr>
-<tr>
-<td>1901–1949</td>
-<td>~10,000</td>
-<td>Legitimate</td>
-</tr>
-</tbody>
-</table>
-<p>All 106 sit at exactly <code>1800-01-01</code> with no scatter,
-confirming a deliberate placeholder for “unknown” rather than data entry
-noise. The 1901–1949 values climb smoothly and track real history — a
-bump at 1915–1917, growth through the 1920s, a dip in the early 1940s, a
-jump at 1945 — so they are real production dates, not violations.</p>
-<p>Taking “plausible production date” as the permissible set:</p>
-<pre><code>Rating = 1 − (106 / 175,085) = 0.99939</code></pre>
-<p>The denominator caveat in action: 0.9994 reads as fine while 106 rows
-carry a date off by 150 years. Anything averaging or trending this
-column silently includes them.</p>
-</section>
+<p>The textbook identifies domain integrity as one of Codd's integrity
+constraints, but it does not develop the topic in detail.</p>
+<p>Unlike entity, referential, and column integrity, the textbook does
+not provide a dedicated formula, metric, or worked example for domain
+integrity. This card records the source's scope rather than extending it
+with an independent analysis.</p>
 <p class="back-to-top"><a href="#top">Back to top</a></p>
 </section>
 <section class="card constraint-card">
@@ -580,11 +443,10 @@ column silently includes them.</p>
 <section class="entity-subsection entity-subsection--concept">
 <h4>Concept</h4>
 <p>Column integrity requires that the values in the column be drawn from
-the set of permissible values. Again, a simple ratio reflecting the
+the set of permissible values. Expressed as a simple ratio reflecting the
 percentage of rows that adhere to this rule can be used.</p>
-<p>The chapter also notes that where a column represents a required
-property, this doubles as a check of <strong>column
-completeness</strong>.</p>
+<p>Unless the data specification is known, this check cannot be performed
+reliably because the valid values to check against are unknown.</p>
  </section>
 <section class="entity-subsection entity-subsection--formula">
 <h4>Formula</h4>

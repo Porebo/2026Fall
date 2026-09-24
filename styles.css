@@ -346,6 +346,45 @@ a.lecture-channel__day:focus-visible {
   margin: 0 0 0.65rem;
 }
 
+.constraint-card > h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card-toggle {
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background: #fff;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.card-toggle::before {
+  content: "−";
+}
+
+.card-toggle[aria-expanded="false"]::before {
+  content: "+";
+}
+
+.card-toggle:focus-visible {
+  outline: 2px solid #174ea6;
+  outline-offset: 3px;
+}
+
+.constraint-card.is-collapsed > :not(h3):not(.back-to-top) {
+  display: none;
+}
+
 .subsection-toggle {
   display: flex;
   align-items: center;
