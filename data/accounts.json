@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-23",
+  "asOf": "2026-09-29",
   "chartOfAccounts": [
     {
       "id": "cash-checking",
@@ -126,6 +126,20 @@
       "name": "Netflix",
       "type": "liability",
       "normalBalance": "credit"
+    },
+    {
+      "id": "gm-marketplace-expense",
+      "code": "5000",
+      "name": "GM Marketplace purchases",
+      "type": "expense",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "credit-card-interest-expense",
+      "code": "5001",
+      "name": "Credit card interest expense",
+      "type": "expense",
+      "normalBalance": "debit"
     }
   ],
   "accounts": [
@@ -172,13 +186,13 @@
       "id": "goldman-gm-rewards",
       "bank": "Goldman Sachs Bank USA",
       "name": "GM Rewards Mastercard",
-      "lastFour": null,
+      "lastFour": "2946",
       "dueDate": "2026-10-05",
       "minimumDueCents": 3000,
       "statementBalanceCents": 68058,
-      "balanceCents": 68058,
-      "completedPaymentDate": null,
-      "completedPaymentCents": 0,
+      "balanceCents": 40000,
+      "completedPaymentDate": "2026-09-28",
+      "completedPaymentCents": 34186,
       "status": "open"
     },
     {
@@ -228,9 +242,9 @@
       "dueDate": "2026-10-18",
       "minimumDueCents": 15718,
       "statementBalanceCents": 15718,
-      "balanceCents": 15718,
-      "completedPaymentDate": null,
-      "completedPaymentCents": 0,
+      "balanceCents": 5021,
+      "completedPaymentDate": "2026-09-28",
+      "completedPaymentCents": 10697,
       "status": "open"
     },
     {
@@ -254,10 +268,10 @@
       "dueDate": "2026-10-01",
       "minimumDueCents": 147802,
       "statementBalanceCents": 147802,
-      "balanceCents": 147802,
-      "completedPaymentDate": null,
-      "completedPaymentCents": 0,
-      "status": "open",
+      "balanceCents": 0,
+      "completedPaymentDate": "2026-09-29",
+      "completedPaymentCents": 147802,
+      "status": "paid",
       "recurrence": {
         "frequency": "monthly",
         "dayOfMonth": 1,
@@ -290,10 +304,10 @@
       "dueDate": "2026-10-04",
       "minimumDueCents": 47522,
       "statementBalanceCents": 47522,
-      "balanceCents": 47522,
-      "completedPaymentDate": null,
-      "completedPaymentCents": 0,
-      "status": "open",
+      "balanceCents": 0,
+      "completedPaymentDate": "2026-09-28",
+      "completedPaymentCents": 47522,
+      "status": "paid",
       "recurrence": {
         "frequency": "monthly",
         "dayOfMonth": 4,
@@ -436,6 +450,78 @@
       "amountCents": 392556,
       "description": "Statement payment",
       "balanceAfterCents": 0
+    },
+    {
+      "id": "payment-wells-fargo-9110-2026-09-28",
+      "date": "2026-09-28",
+      "accountId": "wells-fargo-active-cash-9110",
+      "type": "payment",
+      "amountCents": 10697,
+      "description": "Partial payment(s) recorded",
+      "balanceAfterCents": 5021
+    },
+    {
+      "id": "payment-freedom-mortgage-2026-09-29",
+      "date": "2026-09-29",
+      "accountId": "freedom-mortgage",
+      "type": "payment",
+      "amountCents": 147802,
+      "description": "Monthly mortgage payment",
+      "balanceAfterCents": 0
+    },
+    {
+      "id": "payment-mazda-financial-2026-09-28",
+      "date": "2026-09-28",
+      "accountId": "mazda-financial",
+      "type": "payment",
+      "amountCents": 47522,
+      "description": "Monthly auto payment",
+      "balanceAfterCents": 0
+    },
+    {
+      "id": "payment-gm-rewards-2946-2026-09-01",
+      "date": "2026-09-01",
+      "accountId": "goldman-gm-rewards",
+      "type": "payment",
+      "amountCents": 3000,
+      "description": "Payment Received",
+      "balanceAfterCents": 67000
+    },
+    {
+      "id": "interest-gm-rewards-2946-2026-09-08",
+      "date": "2026-09-08",
+      "accountId": "goldman-gm-rewards",
+      "type": "interest",
+      "amountCents": 1058,
+      "description": "Interest charge - purchases",
+      "balanceAfterCents": 68058
+    },
+    {
+      "id": "purchase-gm-rewards-2946-2026-09-09",
+      "date": "2026-09-09",
+      "accountId": "goldman-gm-rewards",
+      "type": "purchase",
+      "amountCents": 3128,
+      "description": "GM Marketplace",
+      "balanceAfterCents": 71186
+    },
+    {
+      "id": "payment-gm-rewards-2946-2026-09-16",
+      "date": "2026-09-16",
+      "accountId": "goldman-gm-rewards",
+      "type": "payment",
+      "amountCents": 11186,
+      "description": "Payment Received",
+      "balanceAfterCents": 60000
+    },
+    {
+      "id": "payment-gm-rewards-2946-2026-09-28",
+      "date": "2026-09-28",
+      "accountId": "goldman-gm-rewards",
+      "type": "payment",
+      "amountCents": 20000,
+      "description": "Additional payment",
+      "balanceAfterCents": 40000
     }
   ],
   "journalEntries": [
@@ -536,6 +622,166 @@
           "accountId": "cash-checking",
           "debitCents": 0,
           "creditCents": 392556
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-28-wells-fargo-9110-payment",
+      "number": "JE-0006",
+      "date": "2026-09-28",
+      "posted": true,
+      "description": "Partial payment to Wells Fargo Active Cash ending in 9110",
+      "sourceTransactionId": "payment-wells-fargo-9110-2026-09-28",
+      "lines": [
+        {
+          "accountId": "wells-fargo-active-cash-9110",
+          "debitCents": 10697,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 10697
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-29-freedom-mortgage-payment",
+      "number": "JE-0007",
+      "date": "2026-09-29",
+      "posted": true,
+      "description": "Monthly payment to Freedom Mortgage",
+      "sourceTransactionId": "payment-freedom-mortgage-2026-09-29",
+      "lines": [
+        {
+          "accountId": "freedom-mortgage",
+          "debitCents": 147802,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 147802
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-28-mazda-financial-payment",
+      "number": "JE-0008",
+      "date": "2026-09-28",
+      "posted": true,
+      "description": "Monthly payment to Mazda Financial",
+      "sourceTransactionId": "payment-mazda-financial-2026-09-28",
+      "lines": [
+        {
+          "accountId": "mazda-financial",
+          "debitCents": 47522,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 47522
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-01-gm-rewards-payment",
+      "number": "JE-0009",
+      "date": "2026-09-01",
+      "posted": true,
+      "description": "Payment to GM Rewards Mastercard ending in 2946",
+      "sourceTransactionId": "payment-gm-rewards-2946-2026-09-01",
+      "lines": [
+        {
+          "accountId": "goldman-gm-rewards",
+          "debitCents": 3000,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 3000
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-08-gm-rewards-interest",
+      "number": "JE-0010",
+      "date": "2026-09-08",
+      "posted": true,
+      "description": "GM Rewards credit card interest charge",
+      "sourceTransactionId": "interest-gm-rewards-2946-2026-09-08",
+      "lines": [
+        {
+          "accountId": "credit-card-interest-expense",
+          "debitCents": 1058,
+          "creditCents": 0
+        },
+        {
+          "accountId": "goldman-gm-rewards",
+          "debitCents": 0,
+          "creditCents": 1058
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-09-gm-rewards-purchase",
+      "number": "JE-0011",
+      "date": "2026-09-09",
+      "posted": true,
+      "description": "GM Marketplace purchase on GM Rewards Mastercard ending in 2946",
+      "sourceTransactionId": "purchase-gm-rewards-2946-2026-09-09",
+      "lines": [
+        {
+          "accountId": "gm-marketplace-expense",
+          "debitCents": 3128,
+          "creditCents": 0
+        },
+        {
+          "accountId": "goldman-gm-rewards",
+          "debitCents": 0,
+          "creditCents": 3128
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-16-gm-rewards-payment",
+      "number": "JE-0012",
+      "date": "2026-09-16",
+      "posted": true,
+      "description": "Payment to GM Rewards Mastercard ending in 2946",
+      "sourceTransactionId": "payment-gm-rewards-2946-2026-09-16",
+      "lines": [
+        {
+          "accountId": "goldman-gm-rewards",
+          "debitCents": 11186,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 11186
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-28-gm-rewards-additional-payment",
+      "number": "JE-0013",
+      "date": "2026-09-28",
+      "posted": true,
+      "description": "Additional payment to GM Rewards Mastercard ending in 2946",
+      "sourceTransactionId": "payment-gm-rewards-2946-2026-09-28",
+      "lines": [
+        {
+          "accountId": "goldman-gm-rewards",
+          "debitCents": 20000,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 20000
         }
       ]
     }
