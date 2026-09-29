@@ -1,10 +1,63 @@
 {
   "asOf": "2026-09-29",
+  "cashBalanceSnapshot": {
+    "accountId": "cash-checking",
+    "bank": "Bank of America",
+    "balanceCents": 348160,
+    "asOf": "2026-09-27",
+    "nextPaydayDate": "2026-10-09",
+    "nextPaydayAmountCents": 220000
+  },
+  "cashForecastEntries": [
+    {
+      "id": "planned-transfer-capital-one-to-bofa-2026-10-05",
+      "date": "2026-10-05",
+      "accountId": "cash-checking",
+      "sourceAccountId": "capital-one-checking",
+      "type": "transfer",
+      "direction": "in",
+      "amountCents": 220000,
+      "description": "Transfer from Capital One",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 5
+      }
+    }
+  ],
+  "paycheckSchedule": [
+    { "date": "2026-10-09", "employer": "CRC", "amountCents": 220000 },
+    { "date": "2026-10-23", "employer": "CRC", "amountCents": 220000 },
+    { "date": "2026-11-06", "employer": "CRC", "amountCents": 220000 },
+    { "date": "2026-11-20", "employer": "CRC", "amountCents": 220000 },
+    { "date": "2026-12-04", "employer": "CRC", "amountCents": 220000 },
+    { "date": "2026-12-18", "employer": "CRC", "amountCents": 220000 }
+  ],
   "chartOfAccounts": [
     {
       "id": "cash-checking",
       "code": "1000",
-      "name": "Checking account",
+      "name": "Bank of America checking account",
+      "type": "asset",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "wells-fargo-checking",
+      "code": "1001",
+      "name": "Wells Fargo checking account",
+      "type": "asset",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "capital-one-checking",
+      "code": "1002",
+      "name": "Capital One checking account",
+      "type": "asset",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "other-funding-account",
+      "code": "1003",
+      "name": "Other funding account (unspecified)",
       "type": "asset",
       "normalBalance": "debit"
     },
@@ -12,6 +65,13 @@
       "id": "citi-aadvantage-3006",
       "code": "2100",
       "name": "Citi AAdvantage Mastercard ending in 3006",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "apple-card",
+      "code": "2109",
+      "name": "Apple Card",
       "type": "liability",
       "normalBalance": "credit"
     },
@@ -140,6 +200,27 @@
       "name": "Credit card interest expense",
       "type": "expense",
       "normalBalance": "debit"
+    },
+    {
+      "id": "spouse-support-irene",
+      "code": "5002",
+      "name": "Spouse support - Irene Carcamo",
+      "type": "expense",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "gardening-expense",
+      "code": "5003",
+      "name": "Gardening",
+      "type": "expense",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "church-tithing",
+      "code": "5004",
+      "name": "Church tithing",
+      "type": "expense",
+      "normalBalance": "debit"
     }
   ],
   "accounts": [
@@ -161,13 +242,28 @@
       "bank": "Synchrony Bank",
       "name": "Amazon Synchrony",
       "lastFour": "9883",
-      "dueDate": "2026-09-20",
-      "minimumDueCents": 0,
-      "statementBalanceCents": 8912,
-      "balanceCents": 40000,
-      "completedPaymentDate": "2026-09-22",
-      "completedPaymentCents": 8912,
+      "dueDate": "2026-10-20",
+      "minimumDueCents": 2900,
+      "plannedPaymentCents": 50412,
+      "statementBalanceCents": 50412,
+      "balanceCents": 50412,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
       "status": "open"
+    },
+    {
+      "id": "apple-card",
+      "bank": "Apple Card",
+      "name": "Apple Card",
+      "lastFour": null,
+      "dueDate": "2026-09-30",
+      "minimumDueCents": null,
+      "plannedPaymentCents": 14531,
+      "statementBalanceCents": 14531,
+      "balanceCents": 0,
+      "completedPaymentDate": "2026-09-28",
+      "completedPaymentCents": 14531,
+      "status": "paid"
     },
     {
       "id": "synchrony-lowes",
@@ -333,6 +429,60 @@
       }
     },
     {
+      "id": "spouse-support-irene",
+      "bank": "Household",
+      "name": "Spouse support - Irene Carcamo",
+      "lastFour": null,
+      "dueDate": "2026-10-01",
+      "minimumDueCents": 40000,
+      "statementBalanceCents": 40000,
+      "balanceCents": 40000,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 1,
+        "amountCents": 40000
+      }
+    },
+    {
+      "id": "gardening-expense",
+      "bank": "Home",
+      "name": "Gardening",
+      "lastFour": null,
+      "dueDate": "2026-10-01",
+      "minimumDueCents": 13000,
+      "statementBalanceCents": 13000,
+      "balanceCents": 0,
+      "completedPaymentDate": "2026-09-27",
+      "completedPaymentCents": 13000,
+      "status": "paid",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 1,
+        "amountCents": 13000
+      }
+    },
+    {
+      "id": "church-tithing",
+      "bank": "Church",
+      "name": "Church tithing",
+      "lastFour": null,
+      "dueDate": "2026-10-01",
+      "minimumDueCents": 44000,
+      "statementBalanceCents": 44000,
+      "balanceCents": 44000,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 1,
+        "amountCents": 44000
+      }
+    },
+    {
       "id": "pge-utilities",
       "bank": "PG&E",
       "name": "PG&E",
@@ -455,9 +605,10 @@
       "id": "payment-wells-fargo-9110-2026-09-28",
       "date": "2026-09-28",
       "accountId": "wells-fargo-active-cash-9110",
+      "paidFromAccountId": "other-funding-account",
       "type": "payment",
       "amountCents": 10697,
-      "description": "Partial payment(s) recorded",
+      "description": "Partial payment from another account",
       "balanceAfterCents": 5021
     },
     {
@@ -522,6 +673,34 @@
       "amountCents": 20000,
       "description": "Additional payment",
       "balanceAfterCents": 40000
+    },
+    {
+      "id": "payment-apple-card-2026-09-28",
+      "date": "2026-09-28",
+      "accountId": "apple-card",
+      "type": "payment",
+      "amountCents": 14531,
+      "description": "Payment toward statement due at month-end",
+      "balanceAfterCents": null
+    },
+    {
+      "id": "payment-gardening-2026-09-27",
+      "date": "2026-09-27",
+      "accountId": "gardening-expense",
+      "type": "payment",
+      "amountCents": 13000,
+      "description": "October gardening expense paid before opening balance",
+      "balanceAfterCents": null
+    },
+    {
+      "id": "transfer-wells-fargo-to-bofa-2026-09-29",
+      "date": "2026-09-29",
+      "accountId": "cash-checking",
+      "type": "transfer",
+      "direction": "in",
+      "amountCents": 30000,
+      "description": "Transfer from Wells Fargo",
+      "balanceAfterCents": 137608
     }
   ],
   "journalEntries": [
@@ -630,7 +809,7 @@
       "number": "JE-0006",
       "date": "2026-09-28",
       "posted": true,
-      "description": "Partial payment to Wells Fargo Active Cash ending in 9110",
+      "description": "Partial payment from another account to Wells Fargo Active Cash ending in 9110",
       "sourceTransactionId": "payment-wells-fargo-9110-2026-09-28",
       "lines": [
         {
@@ -639,7 +818,7 @@
           "creditCents": 0
         },
         {
-          "accountId": "cash-checking",
+          "accountId": "other-funding-account",
           "debitCents": 0,
           "creditCents": 10697
         }
@@ -782,6 +961,66 @@
           "accountId": "cash-checking",
           "debitCents": 0,
           "creditCents": 20000
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-28-apple-card-payment",
+      "number": "JE-0014",
+      "date": "2026-09-28",
+      "posted": true,
+      "description": "Payment to Apple Card",
+      "sourceTransactionId": "payment-apple-card-2026-09-28",
+      "lines": [
+        {
+          "accountId": "apple-card",
+          "debitCents": 14531,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 14531
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-29-wells-fargo-transfer",
+      "number": "JE-0015",
+      "date": "2026-09-29",
+      "posted": true,
+      "description": "Transfer from Wells Fargo to Bank of America checking",
+      "sourceTransactionId": "transfer-wells-fargo-to-bofa-2026-09-29",
+      "lines": [
+        {
+          "accountId": "cash-checking",
+          "debitCents": 30000,
+          "creditCents": 0
+        },
+        {
+          "accountId": "wells-fargo-checking",
+          "debitCents": 0,
+          "creditCents": 30000
+        }
+      ]
+    },
+    {
+      "id": "je-2026-09-27-gardening-payment",
+      "number": "JE-0016",
+      "date": "2026-09-27",
+      "posted": true,
+      "description": "October gardening expense paid before opening balance",
+      "sourceTransactionId": "payment-gardening-2026-09-27",
+      "lines": [
+        {
+          "accountId": "gardening-expense",
+          "debitCents": 13000,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 13000
         }
       ]
     }

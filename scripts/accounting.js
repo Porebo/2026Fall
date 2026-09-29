@@ -12,6 +12,17 @@
     return direction === "asc" ? a.localeCompare(b) : b.localeCompare(a);
   }
 
+  function parseDate(value) {
+    var parts = value.split("-");
+    return new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
+  }
+
+  function formatDate(value) {
+    var month = String(value.getMonth() + 1).padStart(2, "0");
+    var day = String(value.getDate()).padStart(2, "0");
+    return value.getFullYear() + "-" + month + "-" + day;
+  }
+
   function updateSortHeaders() {
     Object.keys(sortDirections).forEach(function (table) {
       var header = document.querySelector('[data-sort-header="' + table + '"]');
@@ -41,6 +52,10 @@
     return currency.format(cents / 100);
   }
 
+  function moneyOrDash(cents) {
+    return cents == null ? "-" : money(cents);
+  }
+
   function date(value) {
     if (!value) {
       return "-";
@@ -68,8 +83,272 @@
     return cell;
   }
 
+  function makeBalanceCell(cents) {
+    var cell = makeCell(moneyOrDash(cents), "amount");
+    if (cents != null && cents < 0) {
+      cell.classList.add("amount--negative");
+    }
+    return cell;
+  }
+
   function remainingMinimumDue(account) {
+    if (account.minimumDueCents == null) {
+      return null;
+    }
     return Math.max(0, account.minimumDueCents - account.completedPaymentCents);
+  }
+
+  function remainingPlannedPayment(account) {
+    var plannedPayment = account.plannedPaymentCents === undefined ? account.minimumDueCents : account.plannedPaymentCents;
+    if (plannedPayment == null) {
+      return null;
+    }
+    return Math.max(0, plannedPayment - account.completedPaymentCents);
+  }
+
+  function plannedObligationCents(account, data) {
+    var chartAccount = getChartAccount(data, account.id);
+    var chartCode = chartAccount ? Number(chartAccount.code) : 0;
+    var isCreditCard = chartCode >= 2100 && chartCode < 2200;
+    var amountDue = account.plannedPaymentCents !== undefined
+      ? account.plannedPaymentCents
+      : isCreditCard ? account.statementBalanceCents : account.minimumDueCents;
+
+    return amountDue == null ? null : Math.max(0, amountDue - (account.completedPaymentCents || 0));
+  }
+
+  function expenseClass(account) {
+    return account && account.recurrence && account.recurrence.frequency === "monthly" ? "R" : account ? "F" : "-";
+  }
+
+  function getProjectedPaymentEvents(data, startDate, endDate) {
+    var events = [];
+
+    data.accounts.forEach(function (account) {
+      if (account.recurrence && account.recurrence.frequency === "monthly") {
+        var occurrence = parseDate(account.dueDate);
+        if (account.status === "paid") {
+          occurrence.setMonth(occurrence.getMonth() + 1);
+        }
+
+        while (formatDate(occurrence) <= endDate) {
+          var occurrenceDate = formatDate(occurrence);
+          if (occurrenceDate > startDate) {
+            var amountCents = occurrenceDate === account.dueDate
+              ? plannedObligationCents(account, data)
+              : account.recurrence.amountCents;
+            events.push({ type: "payment", date: occurrenceDate, account: account, amountCents: amountCents });
+          }
+          occurrence.setMonth(occurrence.getMonth() + 1);
+        }
+      } else if (account.status !== "paid" && account.dueDate > startDate && account.dueDate <= endDate) {
+        events.push({ type: "payment", date: account.dueDate, account: account, amountCents: plannedObligationCents(account, data) });
+      }
+    });
+
+    return events;
+  }
+
+  function renderPaycheckSchedule(data) {
+    var target = document.getElementById("paycheck-schedule");
+    if (!target) {
+      return;
+    }
+
+    target.innerHTML = "";
+    (data.paycheckSchedule || []).forEach(function (paycheck) {
+      var item = document.createElement("li");
+      var amount = paycheck.amountCents == null ? "" : " - " + money(paycheck.amountCents);
+      item.textContent = date(paycheck.date) + " - Paycheck from " + paycheck.employer + amount;
+      target.appendChild(item);
+    });
+  }
+
+  function renderCashRunway(data) {
+    var target = document.getElementById("cash-runway");
+    var snapshot = data.cashBalanceSnapshot;
+    if (!target || !snapshot) {
+      return;
+    }
+
+    var paymentsSinceSnapshotCents = data.transactions.filter(function (transaction) {
+      return transaction.type === "payment" && (!transaction.paidFromAccountId || transaction.paidFromAccountId === snapshot.accountId) && transaction.date > snapshot.asOf && transaction.date < snapshot.nextPaydayDate;
+    }).reduce(function (total, transaction) {
+      return total + transaction.amountCents;
+    }, 0);
+    var transfersIntoCheckingCents = data.transactions.filter(function (transaction) {
+      return transaction.type === "transfer" && transaction.direction === "in" && transaction.accountId === snapshot.accountId && transaction.date > snapshot.asOf && transaction.date < snapshot.nextPaydayDate;
+    }).reduce(function (total, transaction) {
+      return total + transaction.amountCents;
+    }, 0);
+    var plannedTransfersIntoCheckingCents = (data.cashForecastEntries || []).filter(function (entry) {
+      return entry.type === "transfer" && entry.direction === "in" && entry.accountId === snapshot.accountId && entry.date > snapshot.asOf && entry.date < snapshot.nextPaydayDate;
+    }).reduce(function (total, entry) {
+      return total + entry.amountCents;
+    }, 0);
+    var upcoming = data.accounts.filter(function (account) {
+      return account.status !== "paid" && account.dueDate > snapshot.asOf && account.dueDate < snapshot.nextPaydayDate;
+    });
+    var knownUpcomingCents = 0;
+    var unknownUpcoming = [];
+
+    upcoming.forEach(function (account) {
+      var amountDue = plannedObligationCents(account, data);
+      if (amountDue == null) {
+        unknownUpcoming.push(account.name);
+        return;
+      }
+      knownUpcomingCents += amountDue;
+    });
+
+    var afterRecordedActivityCents = snapshot.balanceCents - paymentsSinceSnapshotCents + transfersIntoCheckingCents;
+    var projectedBalanceCents = afterRecordedActivityCents - knownUpcomingCents + plannedTransfersIntoCheckingCents;
+    var projectedAfterPaydayCents = projectedBalanceCents + (snapshot.nextPaydayAmountCents || 0);
+    target.replaceChildren();
+
+    [
+      snapshot.bank + " balance on " + snapshot.asOf + ": " + money(snapshot.balanceCents),
+      "Payments recorded since snapshot: " + money(paymentsSinceSnapshotCents),
+      "Transfers into checking since snapshot: " + money(transfersIntoCheckingCents),
+      "Remaining before unpaid bills: " + money(afterRecordedActivityCents),
+      "Known bills due before " + snapshot.nextPaydayDate + ": " + money(knownUpcomingCents),
+      "Planned transfers into checking: " + money(plannedTransfersIntoCheckingCents),
+      "Projected balance before next deposit: " + money(projectedBalanceCents),
+      "Planned paycheck on " + snapshot.nextPaydayDate + ": " + money(snapshot.nextPaydayAmountCents || 0),
+      "Projected balance after next deposit: " + money(projectedAfterPaydayCents)
+    ].forEach(function (text) {
+      var line = document.createElement("p");
+      line.textContent = text;
+      target.appendChild(line);
+    });
+
+    if (unknownUpcoming.length > 0) {
+      var note = document.createElement("p");
+      note.textContent = "Not included because the amount is unknown: " + unknownUpcoming.join(", ") + ".";
+      target.appendChild(note);
+    }
+  }
+
+  function renderCheckingLedger(data) {
+    var body = document.getElementById("checking-ledger-rows");
+    var snapshot = data.cashBalanceSnapshot;
+    if (!body || !snapshot) {
+      return;
+    }
+
+    body.innerHTML = "";
+    var balanceCents = snapshot.balanceCents;
+    var openingRow = document.createElement("tr");
+    openingRow.appendChild(makeCell(date(snapshot.asOf)));
+    openingRow.appendChild(makeCell("1"));
+    openingRow.appendChild(makeCell("-"));
+    openingRow.appendChild(makeCell("-"));
+    openingRow.appendChild(makeCell("Beginning balance - " + snapshot.bank));
+    openingRow.appendChild(makeBalanceCell(balanceCents));
+    openingRow.appendChild(makeCell("-", "amount"));
+    openingRow.appendChild(makeBalanceCell(balanceCents));
+    body.appendChild(openingRow);
+
+    var referenceNumber = 2;
+    data.transactions.filter(function (transaction) {
+      var isCheckingPayment = transaction.type === "payment" && (!transaction.paidFromAccountId || transaction.paidFromAccountId === snapshot.accountId);
+      var isCheckingDeposit = transaction.type === "transfer" && transaction.direction === "in" && transaction.accountId === snapshot.accountId;
+      return (isCheckingPayment || isCheckingDeposit) && transaction.date > snapshot.asOf && transaction.date < snapshot.nextPaydayDate;
+    }).sort(function (a, b) {
+      return compareDates(a.date, b.date, "asc") || a.id.localeCompare(b.id);
+    }).forEach(function (transaction) {
+      var isCredit = transaction.type === "payment" || transaction.direction === "out";
+      balanceCents += isCredit ? -transaction.amountCents : transaction.amountCents;
+      var account = data.accounts.find(function (item) {
+        return item.id === transaction.accountId;
+      });
+      var chartAccount = getChartAccount(data, transaction.accountId);
+      var row = document.createElement("tr");
+      row.appendChild(makeCell(date(transaction.date)));
+      row.appendChild(makeCell(String(referenceNumber)));
+      referenceNumber += 1;
+      row.appendChild(makeCell(transaction.type === "payment" ? expenseClass(account) : "-"));
+      row.appendChild(makeCell("C"));
+      row.appendChild(makeCell((account ? account.name : chartAccount ? chartAccount.name : transaction.accountId) + " - " + transaction.description));
+      row.appendChild(makeCell(isCredit ? "-" : money(transaction.amountCents), "amount"));
+      row.appendChild(makeCell(isCredit ? money(transaction.amountCents) : "-", "amount"));
+      row.appendChild(makeBalanceCell(balanceCents));
+      body.appendChild(row);
+    });
+
+    var paycheckSchedule = data.paycheckSchedule || [];
+    var endDate = paycheckSchedule.length ? paycheckSchedule[paycheckSchedule.length - 1].date : snapshot.nextPaydayDate;
+
+    var forecastEvents = getProjectedPaymentEvents(data, snapshot.asOf, endDate);
+    (data.cashForecastEntries || []).filter(function (entry) {
+      return entry.type === "transfer" && entry.direction === "in" && entry.accountId === snapshot.accountId;
+    }).forEach(function (entry) {
+      var occurrence = parseDate(entry.date);
+      while (formatDate(occurrence) <= endDate) {
+        var occurrenceDate = formatDate(occurrence);
+        if (occurrenceDate > snapshot.asOf) {
+          forecastEvents.push({ type: "transfer", date: occurrenceDate, entry: entry, amountCents: entry.amountCents });
+        }
+        if (!entry.recurrence || entry.recurrence.frequency !== "monthly") {
+          break;
+        }
+        occurrence.setMonth(occurrence.getMonth() + 1);
+      }
+    });
+    paycheckSchedule.filter(function (paycheck) {
+      return paycheck.date > snapshot.asOf;
+    }).forEach(function (paycheck) {
+      forecastEvents.push({ type: "paycheck", date: paycheck.date, paycheck: paycheck, amountCents: paycheck.amountCents });
+    });
+    forecastEvents.sort(function (a, b) {
+      var dateOrder = compareDates(a.date, b.date, "asc");
+      if (dateOrder !== 0) {
+        return dateOrder;
+      }
+      var eventOrder = { payment: 0, transfer: 1, paycheck: 2 };
+      return eventOrder[a.type] - eventOrder[b.type];
+    }).forEach(function (event) {
+      var row = document.createElement("tr");
+      row.className = "ledger-row--projected";
+      if (event.type === "payment" && event.account.id === "church-tithing") {
+        row.classList.add("ledger-row--tithing");
+      }
+      row.appendChild(makeCell(date(event.date)));
+      row.appendChild(makeCell(String(referenceNumber)));
+      referenceNumber += 1;
+      row.appendChild(makeCell(event.type === "payment" ? expenseClass(event.account) : "-"));
+      row.appendChild(makeCell("S"));
+      if (event.type === "payment") {
+        row.appendChild(makeCell(event.account.name + (event.amountCents == null ? " (amount unknown)" : "")));
+        row.appendChild(makeCell("-", "amount"));
+        row.appendChild(makeCell(moneyOrDash(event.amountCents), "amount"));
+        if (event.amountCents != null) {
+          if (balanceCents != null) {
+            balanceCents -= event.amountCents;
+          }
+        } else {
+          balanceCents = null;
+        }
+      } else if (event.type === "transfer") {
+        row.appendChild(makeCell(event.entry.description));
+        row.appendChild(makeCell(money(event.amountCents), "amount"));
+        row.appendChild(makeCell("-", "amount"));
+        if (balanceCents != null) {
+          balanceCents += event.amountCents;
+        }
+      } else {
+        row.appendChild(makeCell("Paycheck from " + event.paycheck.employer + (event.amountCents == null ? " (amount unknown)" : "")));
+        row.appendChild(makeCell(moneyOrDash(event.amountCents), "amount"));
+        row.appendChild(makeCell("-", "amount"));
+        if (event.amountCents == null || balanceCents == null) {
+          balanceCents = null;
+        } else {
+          balanceCents += event.amountCents;
+        }
+      }
+      row.appendChild(makeBalanceCell(balanceCents));
+      body.appendChild(row);
+    });
   }
 
   function renderAccounts(data) {
@@ -98,8 +377,8 @@
       row.appendChild(makeCell(account.bank));
       row.appendChild(makeCell(accountLabel(account)));
       row.appendChild(makeCell(date(account.dueDate)));
-      row.appendChild(makeCell(money(remainingMinimumDue(account)), "amount"));
-      row.appendChild(makeCell(money(account.balanceCents), "amount"));
+      row.appendChild(makeCell(moneyOrDash(remainingPlannedPayment(account)), "amount"));
+      row.appendChild(makeCell(moneyOrDash(account.balanceCents), "amount"));
       row.appendChild(makeCell(date(account.completedPaymentDate)));
       row.appendChild(makeCell(status, statusClass));
       body.appendChild(row);
@@ -118,12 +397,13 @@
       return compareDates(a.date, b.date, sortDirections.transactions);
     }).forEach(function (transaction) {
       var account = accounts[transaction.accountId];
+      var chartAccount = getChartAccount(data, transaction.accountId);
       var row = document.createElement("tr");
       row.appendChild(makeCell(date(transaction.date)));
-      row.appendChild(makeCell(account ? accountLabel(account) : transaction.accountId));
+      row.appendChild(makeCell(account ? accountLabel(account) : chartAccount ? chartAccount.name : transaction.accountId));
       row.appendChild(makeCell(transaction.description));
       row.appendChild(makeCell(money(transaction.amountCents), "amount"));
-      row.appendChild(makeCell(money(transaction.balanceAfterCents), "amount"));
+      row.appendChild(makeCell(transaction.balanceAfterCents == null ? "-" : money(transaction.balanceAfterCents), "amount"));
       body.appendChild(row);
     });
   }
@@ -267,17 +547,23 @@
 
   function render(data) {
     var totals = data.accounts.reduce(function (result, account) {
-      result.minimumDueCents += remainingMinimumDue(account);
-      result.balanceCents += account.balanceCents;
-      result.paidCents += account.completedPaymentCents;
+      var plannedPayment = remainingPlannedPayment(account);
+      result.plannedPaymentCents += plannedPayment == null ? 0 : plannedPayment;
+      result.balanceCents += account.balanceCents == null ? 0 : account.balanceCents;
       return result;
-    }, { minimumDueCents: 0, balanceCents: 0, paidCents: 0 });
+    }, { plannedPaymentCents: 0, balanceCents: 0, paidCents: 0 });
+    totals.paidCents = data.transactions.reduce(function (total, transaction) {
+      return total + (transaction.type === "payment" ? transaction.amountCents : 0);
+    }, 0);
 
     setText("as-of", data.asOf);
-    setText("minimum-due-total", money(totals.minimumDueCents));
+    setText("minimum-due-total", money(totals.plannedPaymentCents));
     setText("balance-total", money(totals.balanceCents));
     setText("paid-total", money(totals.paidCents));
     setText("account-count", String(data.accounts.length));
+    renderPaycheckSchedule(data);
+    renderCashRunway(data);
+    renderCheckingLedger(data);
     renderAccounts(data);
     renderTransactions(data);
     renderJournal(data);
