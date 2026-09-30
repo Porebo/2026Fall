@@ -546,6 +546,12 @@
   }
 
   function render(data) {
+    if (document.body.dataset.accountingView === "checking-ledger") {
+      setText("as-of", data.asOf);
+      renderCheckingLedger(data);
+      return;
+    }
+
     var totals = data.accounts.reduce(function (result, account) {
       var plannedPayment = remainingPlannedPayment(account);
       result.plannedPaymentCents += plannedPayment == null ? 0 : plannedPayment;

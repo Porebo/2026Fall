@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BofA 7632 Ledger</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .accounting-page { max-width: 1180px; }
+    .accounting-meta { color: #52606d; font-size: 0.92rem; }
+    .accounting-section { margin-top: 1.5rem; }
+    .accounting-section h2 { margin-bottom: 0.35rem; }
+    .accounting-table-wrap { overflow-x: auto; }
+    .accounting-table { width: 100%; min-width: 880px; border-collapse: collapse; }
+    .accounting-table th, .accounting-table td { padding: 0.75rem; border-bottom: 1px solid #d9e2ec; text-align: left; vertical-align: top; }
+    .accounting-table--compact { font-size: 0.76rem; line-height: 1.1; }
+    .accounting-table--compact th, .accounting-table--compact td { padding: 0.2rem 0.4rem; line-height: 1.1; }
+    .accounting-table--compact th { font-size: 0.64rem; }
+    .accounting-table--compact th:nth-child(2), .accounting-table--compact td:nth-child(2), .accounting-table--compact th:nth-child(3), .accounting-table--compact td:nth-child(3), .accounting-table--compact th:nth-child(4), .accounting-table--compact td:nth-child(4) { width: 1%; white-space: nowrap; }
+    .accounting-table--compact .ledger-row--projected, .accounting-table--compact .ledger-row--projected .amount { color: #2f75b5; }
+    .accounting-table--compact .ledger-row--tithing, .accounting-table--compact .ledger-row--tithing .amount { color: #16803c; }
+    .accounting-table .amount--negative, .accounting-table--compact .ledger-row--projected .amount.amount--negative { color: #b42318; }
+    .accounting-table th { background: #eef5fb; color: #334e68; font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; }
+    .accounting-table tbody tr:nth-child(even) { background: #f8fafc; }
+    .accounting-table .amount { color: #17365d; font-weight: 700; white-space: nowrap; }
+    .accounting-error { background: #fff4f2; border-left: 4px solid #b42318; color: #8a1c13; padding: 1rem; }
+  </style>
+</head>
+<body data-accounting-view="checking-ledger">
+  <main class="page accounting-page">
+    <nav class="breadcrumb"><a href="../index.html">Home</a> / BofA 7632 Ledger</nav>
+
+    <header class="hero">
+      <p class="eyebrow">Personal Finance · Checking</p>
+      <h1>Bank of America · 7632</h1>
+      <p class="lede">Checking account ledger</p>
+      <p class="accounting-meta">Data as of <strong id="as-of">Loading...</strong></p>
+    </header>
+
+    <div id="accounting-error" class="accounting-error" hidden></div>
+
+    <section class="card accounting-section" aria-labelledby="checking-ledger-heading">
+      <h2 id="checking-ledger-heading">Account activity and projected balance</h2>
+      <p class="accounting-meta">Recorded activity is followed by projected recurring bills, known statements, transfers, and CRC paychecks. <strong>C</strong> = completed; <strong>S</strong> = scheduled.</p>
+      <div class="accounting-table-wrap">
+        <table class="accounting-table accounting-table--compact">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Ref.</th>
+              <th>Code</th>
+              <th>Status</th>
+              <th>Description</th>
+              <th>Debit (Dr)</th>
+              <th>Credit (Cr)</th>
+              <th>Balance</th>
+            </tr>
+          </thead>
+          <tbody id="checking-ledger-rows">
+            <tr><td colspan="8">Loading checking ledger...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script>
+    window.ACCOUNTING_CONFIG = { dataUrl: "../data/accounts.json" };
+  </script>
+  <script src="../scripts/accounting.js"></script>
+</body>
+</html>
