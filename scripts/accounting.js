@@ -440,7 +440,7 @@
     var balanceCents = snapshot.balanceCents;
     var openingRow = document.createElement("tr");
     openingRow.appendChild(makeCell(date(snapshot.asOf)));
-    openingRow.appendChild(makeCell("1"));
+    openingRow.appendChild(makeCell("-"));
     openingRow.appendChild(makeCell("-"));
     openingRow.appendChild(makeCell("-"));
     openingRow.appendChild(makeCell("Beginning balance - " + snapshot.bank));
@@ -464,10 +464,12 @@
     }).forEach(function (transaction) {
       if (data.checkingLedgerTransactions) {
         var isDebit = transaction.amountCents < 0;
+        var journalIndex = data.checkingLedgerTransactions.indexOf(transaction) + 1;
+        var journalEntry = "GJ-" + String(journalIndex).padStart(4, "0");
         balanceCents += transaction.amountCents;
         var statementRow = document.createElement("tr");
         statementRow.appendChild(makeCell(date(transaction.date)));
-        statementRow.appendChild(makeCell(String(referenceNumber)));
+        statementRow.appendChild(makeCell(journalEntry));
         referenceNumber += 1;
         statementRow.appendChild(makeCell(transaction.code || "-"));
         statementRow.appendChild(makeCell("C \u2713"));
@@ -486,7 +488,7 @@
       var chartAccount = getChartAccount(data, transaction.accountId);
       var row = document.createElement("tr");
       row.appendChild(makeCell(date(transaction.date)));
-      row.appendChild(makeCell(String(referenceNumber)));
+      row.appendChild(makeCell("-"));
       referenceNumber += 1;
       row.appendChild(makeCell(transaction.type === "payment" ? expenseClass(account) : "-"));
       row.appendChild(makeCell("C \u2713"));
@@ -539,7 +541,7 @@
         row.classList.add("ledger-row--tithing");
       }
       row.appendChild(makeCell(date(event.date)));
-      row.appendChild(makeCell(String(referenceNumber)));
+      row.appendChild(makeCell("-"));
       referenceNumber += 1;
       var eventCode = event.type === "payment"
         ? expenseClass(event.account)

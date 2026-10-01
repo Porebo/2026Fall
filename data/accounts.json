@@ -11,17 +11,17 @@
   },
   "checkingLedgerTransactions": [
     { "id": "bofa-2026-08-28-payroll", "date": "2026-08-28", "code": "4000", "amountCents": 219355, "description": "CRC Services payroll" },
-    { "id": "bofa-2026-08-28-transfer-to-savings", "date": "2026-08-28", "amountCents": -2500, "description": "Automatic transfer to savings 3435" },
-    { "id": "bofa-2026-08-31-transfer-from-savings", "date": "2026-08-31", "amountCents": 220000, "description": "Online transfer from savings 3435" },
+    { "id": "bofa-2026-08-28-transfer-to-savings", "date": "2026-08-28", "code": "1004", "amountCents": -2500, "description": "Automatic transfer to BofA Savings ending in 3435" },
+    { "id": "bofa-2026-08-31-transfer-from-savings", "date": "2026-08-31", "code": "1002", "amountCents": 220000, "description": "Online transfer from savings 3435" },
     { "id": "bofa-2026-08-31-apple-card", "date": "2026-08-31", "code": "2109", "amountCents": -122081, "description": "Apple Card payment" },
     { "id": "bofa-2026-08-31-amazon", "date": "2026-08-31", "code": "2102", "amountCents": -9873, "description": "Amazon Synchrony payment" },
-    { "id": "bofa-2026-08-31-barclaycard", "date": "2026-08-31", "amountCents": -9800, "description": "Barclaycard payment" },
+    { "id": "bofa-2026-08-31-barclaycard", "date": "2026-08-31", "code": "2112", "amountCents": -9800, "description": "Barclays Rewards World Mastercard payment ending in 0741" },
     { "id": "bofa-2026-09-01-freedom-mortgage", "date": "2026-09-01", "code": "2200", "amountCents": -147802, "description": "Freedom Mortgage payment" },
     { "id": "bofa-2026-09-01-irs", "date": "2026-09-01", "code": "2300", "amountCents": -50000, "description": "IRS tax payment" },
     { "id": "bofa-2026-09-01-mazda", "date": "2026-09-01", "code": "2201", "amountCents": -47522, "description": "Mazda Financial payment" },
     { "id": "bofa-2026-09-02-crd-2391-1", "date": "2026-09-02", "amountCents": -3500, "description": "Mobile Banking payment to CRD 2391" },
     { "id": "bofa-2026-09-02-service-finance", "date": "2026-09-02", "code": "2202", "amountCents": -25643, "description": "Service Finance Company bill payment" },
-    { "id": "bofa-2026-09-02-barclaycard", "date": "2026-09-02", "amountCents": -3000, "description": "Barclaycard payment" },
+    { "id": "bofa-2026-09-02-barclaycard", "date": "2026-09-02", "code": "2104", "amountCents": -3000, "description": "GM Rewards Mastercard payment ending in 2946" },
     { "id": "bofa-2026-09-02-citi", "date": "2026-09-02", "amountCents": -1783, "description": "Citi Card Online payment" },
     { "id": "bofa-2026-09-03-capital-one", "date": "2026-09-03", "amountCents": 220000, "description": "Capital One transfer" },
     { "id": "bofa-2026-09-04-transfer-to-checking-4504", "date": "2026-09-04", "amountCents": -32000, "description": "Mobile transfer to checking 4504" },
@@ -53,6 +53,168 @@
     { "id": "bofa-2026-09-25-amex", "date": "2026-09-25", "code": "2110", "amountCents": -60437, "description": "American Express payment" },
     { "id": "bofa-2026-09-28-transfer", "date": "2026-09-28", "amountCents": 80000, "description": "Transfer from Lester S Carcamo" },
     { "id": "bofa-2026-09-28-transfer-to-savings", "date": "2026-09-28", "code": "1004", "amountCents": -2500, "description": "Automatic transfer to savings 3435" }
+  ],
+  "supplementalJournalEntries": [
+    {
+      "number": "GJ-0044",
+      "date": "2026-08-17",
+      "sourceDocument": "Barclays-2026-08-0741.pdf",
+      "description": "San Joaquin Pest Control monthly service charged to Barclays 0741",
+      "lines": [
+        { "accountId": "san-joaquin-pest-control", "debitCents": 4900, "creditCents": 0 },
+        { "accountId": "barclays-rewards-0741", "debitCents": 0, "creditCents": 4900 }
+      ]
+    },
+    {
+      "number": "GJ-0045",
+      "date": "2026-08-18",
+      "sourceDocument": "Barclays-2026-08-0741.pdf",
+      "description": "San Joaquin Pest Control payment by Barclays 0741",
+      "lines": [
+        { "accountId": "barclays-rewards-0741", "debitCents": 4900, "creditCents": 0 },
+        { "accountId": "san-joaquin-pest-control", "debitCents": 0, "creditCents": 4900 }
+      ]
+    },
+    {
+      "number": "GJ-0046",
+      "date": "2026-09-08",
+      "sourceDocument": "Barclays-2026-08-2946.pdf",
+      "description": "GM Rewards Mastercard interest charge",
+      "lines": [
+        { "accountId": "credit-card-interest-expense", "debitCents": 1058, "creditCents": 0 },
+        { "accountId": "goldman-gm-rewards", "debitCents": 0, "creditCents": 1058 }
+      ]
+    },
+    {
+      "number": "GJ-0047",
+      "date": "2026-09-09",
+      "sourceDocument": "Pending source document",
+      "description": "GM Marketplace purchase pending card-statement confirmation",
+      "lines": [
+        { "accountId": "gm-marketplace-expense", "debitCents": 3128, "creditCents": 0 },
+        { "accountId": "suspense-unclassified", "debitCents": 0, "creditCents": 3128 }
+      ]
+    },
+    {
+      "number": "GJ-0048",
+      "date": "2026-09-16",
+      "sourceDocument": "Pending source document",
+      "description": "Unclassified card payment pending statement confirmation",
+      "lines": [
+        { "accountId": "suspense-unclassified", "debitCents": 11186, "creditCents": 0 },
+        { "accountId": "cash-checking", "debitCents": 0, "creditCents": 11186 }
+      ]
+    },
+    {
+      "number": "GJ-0049",
+      "date": "2026-09-28",
+      "sourceDocument": "Pending source document",
+      "description": "Unclassified card payment pending statement confirmation",
+      "lines": [
+        { "accountId": "suspense-unclassified", "debitCents": 20000, "creditCents": 0 },
+        { "accountId": "cash-checking", "debitCents": 0, "creditCents": 20000 }
+      ]
+    },
+    {
+      "number": "GJ-0050",
+      "date": "2026-08-20",
+      "sourceDocument": "WellsFargo-2026-08_0805.pdf",
+      "description": "Transfer from Wells Fargo Everyday Checking to Way2Save Savings",
+      "lines": [
+        { "accountId": "wells-fargo-way2save-0805", "debitCents": 2500, "creditCents": 0, "sourceDocuments": ["WellsFargo-2026-08_0805.pdf"] },
+        { "accountId": "wells-fargo-checking", "debitCents": 0, "creditCents": 2500, "sourceDocuments": ["Pending source document"] }
+      ]
+    },
+    {
+      "number": "GJ-0051",
+      "date": "2026-08-28",
+      "sourceDocument": "WellsFargo-2026-09_0009.pdf",
+      "description": "CRC Services payroll deposit to Wells Fargo Everyday Checking",
+      "lines": [
+        { "accountId": "wells-fargo-checking", "debitCents": 37500, "creditCents": 0, "sourceDocuments": ["WellsFargo-2026-09_0009.pdf"] },
+        { "accountId": "crc-payroll-income", "debitCents": 0, "creditCents": 37500, "sourceDocuments": ["WellsFargo-2026-09_0009.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0052",
+      "date": "2026-08-29",
+      "sourceDocument": "WellsFargo-2026-09_9110.pdf",
+      "description": "AT&T Mobility charge to Wells Fargo Active Cash",
+      "lines": [
+        { "accountId": "att-mobility-expense", "debitCents": 15718, "creditCents": 0, "sourceDocuments": ["WellsFargo-2026-09_9110.pdf"] },
+        { "accountId": "wells-fargo-active-cash-9110", "debitCents": 0, "creditCents": 15718, "sourceDocuments": ["WellsFargo-2026-09_9110.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0053",
+      "date": "2026-08-31",
+      "sourceDocument": "WellsFargo-2026-09_0009.pdf",
+      "description": "ATM withdrawal from Wells Fargo Everyday Checking",
+      "lines": [
+        { "accountId": "suspense-unclassified", "debitCents": 30000, "creditCents": 0, "sourceDocuments": ["WellsFargo-2026-09_0009.pdf"] },
+        { "accountId": "wells-fargo-checking", "debitCents": 0, "creditCents": 30000, "sourceDocuments": ["WellsFargo-2026-09_0009.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0054",
+      "date": "2026-08-31",
+      "sourceDocument": "WellsFargo-2026-08_0805.pdf",
+      "description": "Interest paid to Wells Fargo Way2Save Savings",
+      "lines": [
+        { "accountId": "wells-fargo-way2save-0805", "debitCents": 1, "creditCents": 0, "sourceDocuments": ["WellsFargo-2026-08_0805.pdf"] },
+        { "accountId": "bank-interest-income", "debitCents": 0, "creditCents": 1, "sourceDocuments": ["WellsFargo-2026-08_0805.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0055",
+      "date": "2026-09-11",
+      "sourceDocument": "WellsFargo-2026-09_0009.pdf",
+      "description": "CRC Services payroll deposit to Wells Fargo Everyday Checking",
+      "lines": [
+        { "accountId": "wells-fargo-checking", "debitCents": 37500, "creditCents": 0, "sourceDocuments": ["WellsFargo-2026-09_0009.pdf"] },
+        { "accountId": "crc-payroll-income", "debitCents": 0, "creditCents": 37500, "sourceDocuments": ["WellsFargo-2026-09_0009.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0056",
+      "date": "2026-09-14",
+      "sourceDocument": "WellsFargo-2026-09_0009.pdf",
+      "description": "ATM withdrawal from Wells Fargo Everyday Checking",
+      "lines": [
+        { "accountId": "suspense-unclassified", "debitCents": 40000, "creditCents": 0, "sourceDocuments": ["WellsFargo-2026-09_0009.pdf"] },
+        { "accountId": "wells-fargo-checking", "debitCents": 0, "creditCents": 40000, "sourceDocuments": ["WellsFargo-2026-09_0009.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0057",
+      "date": "2026-09-21",
+      "sourceDocument": "WellsFargo-2026-09_0009.pdf",
+      "description": "Transfer from Wells Fargo Everyday Checking to Way2Save Savings",
+      "lines": [
+        { "accountId": "wells-fargo-way2save-0805", "debitCents": 2500, "creditCents": 0, "sourceDocuments": ["WellsFargo-2026-09_0009.pdf"] },
+        { "accountId": "wells-fargo-checking", "debitCents": 0, "creditCents": 2500, "sourceDocuments": ["WellsFargo-2026-09_0009.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0058",
+      "date": "2026-09-23",
+      "sourceDocument": "WellsFargo-2026-09_0009.pdf",
+      "description": "Wells Fargo Everyday Checking payment to Active Cash Visa",
+      "lines": [
+        { "accountId": "wells-fargo-active-cash-9110", "debitCents": 718, "creditCents": 0, "sourceDocuments": ["WellsFargo-2026-09_9110.pdf"] },
+        { "accountId": "wells-fargo-checking", "debitCents": 0, "creditCents": 718, "sourceDocuments": ["WellsFargo-2026-09_0009.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0059",
+      "date": "2026-09-28",
+      "sourceDocument": "Pending source document",
+      "description": "Payment to Wells Fargo Active Cash from another account",
+      "lines": [
+        { "accountId": "wells-fargo-active-cash-9110", "debitCents": 10697, "creditCents": 0, "sourceDocuments": ["Pending source document"] },
+        { "accountId": "other-funding-account", "debitCents": 0, "creditCents": 10697, "sourceDocuments": ["Pending source document"] }
+      ]
+    }
   ],
   "cashForecastEntries": [
     {
@@ -103,7 +265,7 @@
     {
       "id": "wells-fargo-checking",
       "code": "1001",
-      "name": "Wells Fargo checking account",
+      "name": "Wells Fargo Everyday Checking ending in 0009",
       "type": "asset",
       "normalBalance": "debit"
     },
@@ -125,6 +287,13 @@
       "id": "bofa-savings-3435",
       "code": "1004",
       "name": "Bank of America savings ending in 3435",
+      "type": "asset",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "wells-fargo-way2save-0805",
+      "code": "1005",
+      "name": "Wells Fargo Way2Save Savings ending in 0805",
       "type": "asset",
       "normalBalance": "debit"
     },
@@ -255,6 +424,13 @@
       "normalBalance": "credit"
     },
     {
+      "id": "suspense-unclassified",
+      "code": "2999",
+      "name": "Unclassified activity (suspense)",
+      "type": "asset",
+      "normalBalance": "debit"
+    },
+    {
       "id": "american-express",
       "code": "2110",
       "name": "American Express",
@@ -269,9 +445,23 @@
       "normalBalance": "credit"
     },
     {
+      "id": "barclays-rewards-0741",
+      "code": "2112",
+      "name": "Barclays Rewards World Mastercard ending in 0741",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
       "id": "crc-payroll-income",
       "code": "4000",
       "name": "CRC Services payroll income",
+      "type": "income",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "bank-interest-income",
+      "code": "4001",
+      "name": "Bank interest income",
       "type": "income",
       "normalBalance": "credit"
     },
@@ -307,6 +497,20 @@
       "id": "church-tithing",
       "code": "5004",
       "name": "Church tithing",
+      "type": "expense",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "san-joaquin-pest-control",
+      "code": "5005",
+      "name": "San Joaquin Pest Control",
+      "type": "expense",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "att-mobility-expense",
+      "code": "5006",
+      "name": "AT&T mobility",
       "type": "expense",
       "normalBalance": "debit"
     }
@@ -368,16 +572,83 @@
     },
     {
       "id": "goldman-gm-rewards",
-      "bank": "Goldman Sachs Bank USA",
+      "bank": "Barclays Bank Delaware",
       "name": "GM Rewards Mastercard",
       "lastFour": "2946",
-      "dueDate": "2026-10-05",
+      "dueDate": "2026-10-01",
       "minimumDueCents": 3000,
+      "plannedPaymentCents": 3000,
       "statementBalanceCents": 68058,
-      "balanceCents": 40000,
-      "completedPaymentDate": "2026-09-28",
-      "completedPaymentCents": 34186,
-      "status": "open"
+      "balanceCents": 68058,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 1,
+        "amountCents": 3000
+      },
+      "openingBalanceDate": "2026-08-09",
+      "openingBalanceCents": 70000,
+      "ledgerEntries": [
+        {
+          "date": "2026-09-01",
+          "amountCents": 3000,
+          "description": "Payment received from Bank of America",
+          "balanceAfterCents": 67000,
+          "isDebit": true,
+          "journalEntry": "GJ-0012"
+        },
+        {
+          "date": "2026-09-08",
+          "amountCents": 1058,
+          "description": "Interest charge on purchases",
+          "balanceAfterCents": 68058,
+          "isDebit": false,
+          "journalEntry": "GJ-0046"
+        }
+      ]
+    },
+    {
+      "id": "suspense-unclassified",
+      "bank": "Pending classification",
+      "name": "Unclassified activity (suspense)",
+      "lastFour": null,
+      "dueDate": "2026-09-28",
+      "minimumDueCents": null,
+      "statementBalanceCents": null,
+      "balanceCents": 28058,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "openingBalanceDate": "2026-09-08",
+      "openingBalanceCents": 0,
+      "ledgerEntries": [
+        {
+          "date": "2026-09-09",
+          "amountCents": 3128,
+          "description": "GM Marketplace purchase pending statement confirmation",
+          "balanceAfterCents": -3128,
+          "isDebit": false,
+          "journalEntry": "GJ-0047"
+        },
+        {
+          "date": "2026-09-16",
+          "amountCents": 11186,
+          "description": "Unclassified card payment pending statement confirmation",
+          "balanceAfterCents": 8058,
+          "isDebit": true,
+          "journalEntry": "GJ-0048"
+        },
+        {
+          "date": "2026-09-28",
+          "amountCents": 20000,
+          "description": "Unclassified card payment pending statement confirmation",
+          "balanceAfterCents": 28058,
+          "isDebit": true,
+          "journalEntry": "GJ-0049"
+        }
+      ]
     },
     {
       "id": "td-target-6343",
@@ -424,12 +695,21 @@
       "name": "Wells Fargo Active Cash Visa",
       "lastFour": "9110",
       "dueDate": "2026-10-18",
-      "minimumDueCents": 15718,
-      "statementBalanceCents": 15718,
-      "balanceCents": 5021,
-      "completedPaymentDate": "2026-09-28",
-      "completedPaymentCents": 10697,
-      "status": "open"
+      "minimumDueCents": 2500,
+      "plannedPaymentCents": 2500,
+      "statementBalanceCents": 15000,
+      "balanceCents": 4303,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": { "frequency": "monthly", "dayOfMonth": 18, "amountCents": 2500 },
+      "openingBalanceDate": "2026-08-25",
+      "openingBalanceCents": 0,
+      "ledgerEntries": [
+        { "date": "2026-08-29", "amountCents": 15718, "description": "AT&T Mobility ePay charge", "balanceAfterCents": 15718, "isDebit": false, "journalEntry": "GJ-0052" },
+        { "date": "2026-09-23", "amountCents": 718, "description": "Online payment from Wells Fargo Everyday Checking", "balanceAfterCents": 15000, "isDebit": true, "journalEntry": "GJ-0058" },
+        { "date": "2026-09-28", "amountCents": 10697, "description": "Payment from another account pending source confirmation", "balanceAfterCents": 4303, "isDebit": true, "journalEntry": "GJ-0059" }
+      ]
     },
     {
       "id": "chase-freedom-flex-3254",
@@ -677,6 +957,136 @@
         "dayOfMonth": 4,
         "amountCents": 59477
       }
+    },
+    {
+      "id": "barclays-rewards-0741",
+      "bank": "Barclays",
+      "name": "Barclays Rewards World Mastercard",
+      "lastFour": "0741",
+      "dueDate": "2026-10-12",
+      "minimumDueCents": 0,
+      "statementBalanceCents": 0,
+      "balanceCents": 0,
+      "openingBalanceDate": "2026-08-16",
+      "openingBalanceCents": 4900,
+      "completedPaymentDate": "2026-08-30",
+      "completedPaymentCents": 9800,
+      "status": "paid",
+      "ledgerEntries": [
+        {
+          "date": "2026-08-17",
+          "amountCents": 4900,
+          "description": "PY *SAN JOAQUIN PEST C VISALIA CA",
+          "balanceAfterCents": 9800,
+          "journalEntry": "GJ-0044"
+        },
+        {
+          "date": "2026-08-30",
+          "amountCents": -9800,
+          "description": "Payment received from Bank of America",
+          "balanceAfterCents": 0,
+          "journalEntry": "GJ-0006"
+        }
+      ]
+    },
+    {
+      "id": "san-joaquin-pest-control",
+      "bank": "San Joaquin Pest Control",
+      "name": "San Joaquin Pest Control",
+      "lastFour": null,
+      "dueDate": "2026-08-17",
+      "minimumDueCents": null,
+      "statementBalanceCents": null,
+      "balanceCents": 0,
+      "completedPaymentDate": "2026-08-17",
+      "completedPaymentCents": 4900,
+      "status": "paid",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 17,
+        "amountCents": 4900
+      },
+      "openingBalanceDate": "2026-08-16",
+      "openingBalanceCents": 0,
+      "ledgerEntries": [
+        {
+          "date": "2026-08-17",
+          "amountCents": 4900,
+          "description": "Monthly pest-control service charged to Barclays 0741",
+          "balanceAfterCents": 4900,
+          "isDebit": true,
+          "journalEntry": "GJ-0044"
+        },
+        {
+          "date": "2026-08-18",
+          "amountCents": 4900,
+          "description": "Payment by Barclays 0741",
+          "balanceAfterCents": 0,
+          "isDebit": false,
+          "journalEntry": "GJ-0045"
+        }
+      ]
+    },
+    {
+      "id": "wells-fargo-checking",
+      "bank": "Wells Fargo",
+      "name": "Wells Fargo Everyday Checking",
+      "lastFour": "0009",
+      "dueDate": "2026-09-24",
+      "minimumDueCents": null,
+      "statementBalanceCents": 12479,
+      "balanceCents": 12479,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "openingBalanceDate": "2026-08-26",
+      "openingBalanceCents": 10697,
+      "ledgerEntries": [
+        { "date": "2026-08-28", "amountCents": 37500, "description": "CRC Services payroll", "balanceAfterCents": 48197, "isDebit": true, "journalEntry": "GJ-0051" },
+        { "date": "2026-08-31", "amountCents": 30000, "description": "ATM withdrawal", "balanceAfterCents": 18197, "isDebit": false, "journalEntry": "GJ-0053" },
+        { "date": "2026-09-11", "amountCents": 37500, "description": "CRC Services payroll", "balanceAfterCents": 55697, "isDebit": true, "journalEntry": "GJ-0055" },
+        { "date": "2026-09-14", "amountCents": 40000, "description": "ATM withdrawal", "balanceAfterCents": 15697, "isDebit": false, "journalEntry": "GJ-0056" },
+        { "date": "2026-09-21", "amountCents": 2500, "description": "Recurring transfer to Way2Save Savings ending in 0805", "balanceAfterCents": 13197, "isDebit": false, "journalEntry": "GJ-0057" },
+        { "date": "2026-09-23", "amountCents": 718, "description": "Online payment to Wells Fargo Active Cash Visa ending in 9110", "balanceAfterCents": 12479, "isDebit": false, "journalEntry": "GJ-0058" }
+      ]
+    },
+    {
+      "id": "wells-fargo-way2save-0805",
+      "bank": "Wells Fargo",
+      "name": "Wells Fargo Way2Save Savings",
+      "lastFour": "0805",
+      "dueDate": "2026-08-31",
+      "minimumDueCents": null,
+      "statementBalanceCents": 127586,
+      "balanceCents": 130086,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "openingBalanceDate": "2026-08-01",
+      "openingBalanceCents": 125085,
+      "ledgerEntries": [
+        { "date": "2026-08-20", "amountCents": 2500, "description": "Recurring transfer from Everyday Checking ending in 0009", "balanceAfterCents": 127585, "isDebit": true, "journalEntry": "GJ-0050" },
+        { "date": "2026-08-31", "amountCents": 1, "description": "Interest payment", "balanceAfterCents": 127586, "isDebit": true, "journalEntry": "GJ-0054" },
+        { "date": "2026-09-21", "amountCents": 2500, "description": "Recurring transfer from Everyday Checking ending in 0009", "balanceAfterCents": 130086, "isDebit": true, "journalEntry": "GJ-0057" }
+      ]
+    },
+    {
+      "id": "att-mobility-expense",
+      "bank": "AT&T",
+      "name": "AT&T Mobility",
+      "lastFour": null,
+      "dueDate": "2026-08-29",
+      "minimumDueCents": null,
+      "statementBalanceCents": null,
+      "balanceCents": 0,
+      "completedPaymentDate": "2026-08-29",
+      "completedPaymentCents": 15718,
+      "status": "paid",
+      "openingBalanceDate": "2026-08-25",
+      "openingBalanceCents": 0,
+      "ledgerEntries": [
+        { "date": "2026-08-29", "amountCents": 15718, "description": "AT&T Mobility ePay charged to Wells Fargo Active Cash", "balanceAfterCents": 15718, "isDebit": true, "journalEntry": "GJ-0052" }
+      ]
     }
   ],
   "transactions": [
@@ -774,7 +1184,7 @@
     {
       "id": "purchase-gm-rewards-2946-2026-09-09",
       "date": "2026-09-09",
-      "accountId": "goldman-gm-rewards",
+      "accountId": "suspense-unclassified",
       "type": "purchase",
       "amountCents": 3128,
       "description": "GM Marketplace",
@@ -783,7 +1193,7 @@
     {
       "id": "payment-gm-rewards-2946-2026-09-16",
       "date": "2026-09-16",
-      "accountId": "goldman-gm-rewards",
+      "accountId": "suspense-unclassified",
       "type": "payment",
       "amountCents": 11186,
       "description": "Payment Received",
@@ -792,7 +1202,7 @@
     {
       "id": "payment-gm-rewards-2946-2026-09-28",
       "date": "2026-09-28",
-      "accountId": "goldman-gm-rewards",
+      "accountId": "suspense-unclassified",
       "type": "payment",
       "amountCents": 20000,
       "description": "Additional payment",
@@ -1033,7 +1443,7 @@
       "number": "JE-0011",
       "date": "2026-09-09",
       "posted": true,
-      "description": "GM Marketplace purchase on GM Rewards Mastercard ending in 2946",
+      "description": "GM Marketplace purchase pending card-statement confirmation",
       "sourceTransactionId": "purchase-gm-rewards-2946-2026-09-09",
       "lines": [
         {
@@ -1042,7 +1452,7 @@
           "creditCents": 0
         },
         {
-          "accountId": "goldman-gm-rewards",
+          "accountId": "suspense-unclassified",
           "debitCents": 0,
           "creditCents": 3128
         }
@@ -1053,11 +1463,11 @@
       "number": "JE-0012",
       "date": "2026-09-16",
       "posted": true,
-      "description": "Payment to GM Rewards Mastercard ending in 2946",
+      "description": "Unclassified card payment pending statement confirmation",
       "sourceTransactionId": "payment-gm-rewards-2946-2026-09-16",
       "lines": [
         {
-          "accountId": "goldman-gm-rewards",
+          "accountId": "suspense-unclassified",
           "debitCents": 11186,
           "creditCents": 0
         },
@@ -1073,11 +1483,11 @@
       "number": "JE-0013",
       "date": "2026-09-28",
       "posted": true,
-      "description": "Additional payment to GM Rewards Mastercard ending in 2946",
+      "description": "Unclassified card payment pending statement confirmation",
       "sourceTransactionId": "payment-gm-rewards-2946-2026-09-28",
       "lines": [
         {
-          "accountId": "goldman-gm-rewards",
+          "accountId": "suspense-unclassified",
           "debitCents": 20000,
           "creditCents": 0
         },

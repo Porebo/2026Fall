@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trial Balance</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="account-ledger.css">
+</head>
+<body>
+  <main class="page accounting-page">
+    <nav class="breadcrumb"><a href="../index.html">Home</a> / <a href="0000.html">Ledger Index</a> / Trial Balance</nav>
+    <header class="hero">
+      <p class="eyebrow">Personal Finance</p>
+      <h1>Trial Balance</h1>
+      <p class="lede">Posted activity from the General Journal.</p>
+    </header>
+    <div id="trial-balance-error" class="accounting-error" hidden></div>
+    <section class="card accounting-section" aria-labelledby="trial-balance-heading">
+      <h2 id="trial-balance-heading">Activity Trial Balance</h2>
+      <p class="accounting-meta">Opening balances are excluded. Account 2999 is a temporary suspense line for activity awaiting classification.</p>
+      <div class="accounting-table-wrap">
+        <table class="accounting-table accounting-table--compact">
+          <thead><tr><th>Code</th><th>Account</th><th>Debit Balance</th><th>Credit Balance</th></tr></thead>
+          <tbody id="trial-balance-rows"><tr><td colspan="4">Loading trial balance...</td></tr></tbody>
+          <tfoot><tr><th colspan="2">Totals</th><th class="amount" id="trial-total-debits">-</th><th class="amount" id="trial-total-credits">-</th></tr></tfoot>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="../scripts/trial-balance.js?v=2"></script>
+</body>
+</html>

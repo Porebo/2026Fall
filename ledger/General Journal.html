@@ -6,6 +6,11 @@
   <title>General Journal</title>
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="account-ledger.css">
+  <style>
+    .journal-credit-account { padding-left: 2rem !important; }
+    #journal-rows tr:not(.journal-description-row) td { background: #fff; }
+    .journal-description-row td { background: #e9eef3; color: #52606d; font-style: italic; padding-bottom: 0.65rem; padding-top: 0.35rem; }
+  </style>
 </head>
 <body data-general-journal="true">
   <main class="page accounting-page">
@@ -17,24 +22,25 @@
     </header>
     <div id="journal-error" class="accounting-error" hidden></div>
     <section class="card accounting-section" aria-labelledby="journal-heading">
-      <h2 id="journal-heading">BofA Statement Activity</h2>
-      <p class="accounting-meta">Transactions without an assigned account code use Unclassified bank activity until categorized.</p>
+      <h2 id="journal-heading">Journal Activity</h2>
+      <p class="accounting-meta">The Source column identifies the document used to create each entry. Transactions without an assigned account code use Unclassified bank activity until categorized.</p>
       <div class="accounting-table-wrap">
         <table class="accounting-table accounting-table--compact">
           <thead>
             <tr>
               <th>Entry</th>
+              <th>Source</th>
+              <th>Post</th>
               <th>Date</th>
               <th>Description</th>
-              <th>Account</th>
               <th>Debit</th>
               <th>Credit</th>
             </tr>
           </thead>
-          <tbody id="journal-rows"><tr><td colspan="6">Loading journal entries...</td></tr></tbody>
+          <tbody id="journal-rows"><tr><td colspan="7">Loading journal entries...</td></tr></tbody>
           <tfoot>
             <tr>
-              <th colspan="4">Totals</th>
+              <th colspan="5">Totals</th>
               <th class="amount" id="journal-total-debits">-</th>
               <th class="amount" id="journal-total-credits">-</th>
             </tr>
@@ -43,6 +49,6 @@
       </div>
     </section>
   </main>
-  <script src="../scripts/general-journal.js"></script>
+  <script src="../scripts/general-journal.js?v=3"></script>
 </body>
 </html>
