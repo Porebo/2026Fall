@@ -1,0 +1,25 @@
+.accounting-page { max-width: 1180px; }
+.accounting-meta { color: #52606d; font-size: 0.92rem; }
+.accounting-section { margin-top: 1.5rem; }
+.accounting-section h2 { margin-bottom: 0.35rem; }
+.accounting-table-wrap { overflow-x: auto; }
+.accounting-table { width: 100%; min-width: 760px; border-collapse: collapse; }
+.accounting-table th, .accounting-table td { padding: 0.4rem; border-bottom: 1px solid #d9e2ec; text-align: left; vertical-align: top; }
+.accounting-table--compact { font-size: 0.68rem; line-height: 1.05; }
+.accounting-table--compact th, .accounting-table--compact td { padding: 0.2rem 0.4rem; }
+.accounting-table--compact th { font-size: 0.58rem; }
+.accounting-table th { background: #eef5fb; color: #334e68; font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; }
+.accounting-table tbody tr:nth-child(even) { background: #f8fafc; }
+.accounting-table .amount { color: #17365d; font-weight: 700; white-space: nowrap; }
+.accounting-table .amount--negative { color: #b42318; }
+.accounting-error { background: #fff4f2; border-left: 4px solid #b42318; color: #8a1c13; padding: 1rem; }
+.ledger-header { align-items: center; display: flex; gap: 0.1rem; }
+.ledger-sort-button, .ledger-filter-button { background: none; border: 1px solid transparent; border-radius: 3px; color: inherit; cursor: pointer; font: inherit; height: 1rem; line-height: 1; padding: 0; width: 1rem; }
+.ledger-sort-button:hover, .ledger-sort-button:focus-visible, .ledger-filter-button:hover, .ledger-filter-button:focus-visible, .ledger-filter-button--active { border-color: #9fb3c8; color: #17365d; }
+.ledger-filter-menu { background: #fff; border: 1px solid #9fb3c8; box-shadow: 0 6px 18px rgba(51, 78, 104, 0.2); color: #243b53; font-size: 0.72rem; max-width: calc(100vw - 1rem); min-width: 11rem; padding: 0.45rem; position: fixed; z-index: 10; }
+.ledger-filter-menu input[type="search"] { box-sizing: border-box; font: inherit; margin-bottom: 0.35rem; padding: 0.25rem; width: 100%; }
+.ledger-filter-options { border-bottom: 1px solid #d9e2ec; border-top: 1px solid #d9e2ec; max-height: 10rem; overflow-y: auto; padding: 0.25rem 0; }
+.ledger-filter-option { align-items: center; display: flex; gap: 0.4rem; padding: 0.15rem 0; }
+.ledger-filter-actions { display: flex; gap: 0.35rem; justify-content: flex-end; margin-top: 0.35rem; }
+.ledger-filter-action { background: #fff; border: 1px solid #9fb3c8; border-radius: 3px; color: #17365d; cursor: pointer; font: inherit; padding: 0.2rem 0.4rem; }
+.ledger-filter-action--apply { background: #2f75b5; border-color: #2f75b5; color: #fff; }

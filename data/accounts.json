@@ -1,13 +1,59 @@
 {
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-28",
   "cashBalanceSnapshot": {
     "accountId": "cash-checking",
     "bank": "Bank of America",
-    "balanceCents": 348160,
-    "asOf": "2026-09-27",
+    "balanceCents": 73473,
+    "asOf": "2026-08-28",
+    "statementEndDate": "2026-09-28",
     "nextPaydayDate": "2026-10-09",
     "nextPaydayAmountCents": 220000
   },
+  "checkingLedgerTransactions": [
+    { "id": "bofa-2026-08-28-payroll", "date": "2026-08-28", "code": "4000", "amountCents": 219355, "description": "CRC Services payroll" },
+    { "id": "bofa-2026-08-28-transfer-to-savings", "date": "2026-08-28", "amountCents": -2500, "description": "Automatic transfer to savings 3435" },
+    { "id": "bofa-2026-08-31-transfer-from-savings", "date": "2026-08-31", "amountCents": 220000, "description": "Online transfer from savings 3435" },
+    { "id": "bofa-2026-08-31-apple-card", "date": "2026-08-31", "code": "2109", "amountCents": -122081, "description": "Apple Card payment" },
+    { "id": "bofa-2026-08-31-amazon", "date": "2026-08-31", "code": "2102", "amountCents": -9873, "description": "Amazon Synchrony payment" },
+    { "id": "bofa-2026-08-31-barclaycard", "date": "2026-08-31", "amountCents": -9800, "description": "Barclaycard payment" },
+    { "id": "bofa-2026-09-01-freedom-mortgage", "date": "2026-09-01", "code": "2200", "amountCents": -147802, "description": "Freedom Mortgage payment" },
+    { "id": "bofa-2026-09-01-irs", "date": "2026-09-01", "code": "2300", "amountCents": -50000, "description": "IRS tax payment" },
+    { "id": "bofa-2026-09-01-mazda", "date": "2026-09-01", "code": "2201", "amountCents": -47522, "description": "Mazda Financial payment" },
+    { "id": "bofa-2026-09-02-crd-2391-1", "date": "2026-09-02", "amountCents": -3500, "description": "Mobile Banking payment to CRD 2391" },
+    { "id": "bofa-2026-09-02-service-finance", "date": "2026-09-02", "code": "2202", "amountCents": -25643, "description": "Service Finance Company bill payment" },
+    { "id": "bofa-2026-09-02-barclaycard", "date": "2026-09-02", "amountCents": -3000, "description": "Barclaycard payment" },
+    { "id": "bofa-2026-09-02-citi", "date": "2026-09-02", "amountCents": -1783, "description": "Citi Card Online payment" },
+    { "id": "bofa-2026-09-03-capital-one", "date": "2026-09-03", "amountCents": 220000, "description": "Capital One transfer" },
+    { "id": "bofa-2026-09-04-transfer-to-checking-4504", "date": "2026-09-04", "amountCents": -32000, "description": "Mobile transfer to checking 4504" },
+    { "id": "bofa-2026-09-04-robinhood", "date": "2026-09-04", "code": "2111", "amountCents": -59477, "description": "Robinhood payment" },
+    { "id": "bofa-2026-09-08-crd-2391", "date": "2026-09-08", "amountCents": -35000, "description": "Online Banking payment to CRD 2391" },
+    { "id": "bofa-2026-09-08-target", "date": "2026-09-08", "code": "2105", "amountCents": -3000, "description": "Target Card payment" },
+    { "id": "bofa-2026-09-09-branch-messenger", "date": "2026-09-09", "amountCents": 10045, "description": "UBER - Branch Messenger P2P transfer" },
+    { "id": "bofa-2026-09-09-crd-2391", "date": "2026-09-09", "amountCents": -3329, "description": "Online Banking payment to CRD 2391" },
+    { "id": "bofa-2026-09-10-lyft", "date": "2026-09-10", "amountCents": 125812, "description": "Lyft Direct deposit" },
+    { "id": "bofa-2026-09-10-amazon", "date": "2026-09-10", "code": "2102", "amountCents": -10000, "description": "Amazon Synchrony payment" },
+    { "id": "bofa-2026-09-11-payroll", "date": "2026-09-11", "code": "4000", "amountCents": 221048, "description": "CRC Services payroll" },
+    { "id": "bofa-2026-09-11-pge", "date": "2026-09-11", "code": "2400", "amountCents": -41500, "description": "PG&E bill payment" },
+    { "id": "bofa-2026-09-14-citi", "date": "2026-09-14", "amountCents": -195903, "description": "Citi Card Online payment" },
+    { "id": "bofa-2026-09-14-crd-2391", "date": "2026-09-14", "amountCents": -41829, "description": "Scheduled payment to CRD 2391" },
+    { "id": "bofa-2026-09-14-dovenmuehle", "date": "2026-09-14", "code": "2203", "amountCents": -37612, "description": "Dovenmuehle mortgage payment" },
+    { "id": "bofa-2026-09-14-amazon", "date": "2026-09-14", "code": "2102", "amountCents": -499, "description": "Amazon Synchrony payment" },
+    { "id": "bofa-2026-09-16-penfed", "date": "2026-09-16", "code": "2204", "amountCents": -53043, "description": "Pentagon Federal transfer" },
+    { "id": "bofa-2026-09-17-citi", "date": "2026-09-17", "amountCents": -10873, "description": "Citi Card Online payment" },
+    { "id": "bofa-2026-09-18-netflix", "date": "2026-09-18", "code": "2401", "amountCents": -2699, "description": "Netflix" },
+    { "id": "bofa-2026-09-18-barclaycard", "date": "2026-09-18", "amountCents": -11186, "description": "Barclaycard payment" },
+    { "id": "bofa-2026-09-18-keep-the-change", "date": "2026-09-18", "amountCents": -1, "description": "Keep the Change transfer to savings 3435" },
+    { "id": "bofa-2026-09-22-apple-card", "date": "2026-09-22", "code": "2109", "amountCents": -2500, "description": "Apple Card payment" },
+    { "id": "bofa-2026-09-23-transfer-from-savings", "date": "2026-09-23", "amountCents": 400000, "description": "Online transfer from savings 3435" },
+    { "id": "bofa-2026-09-24-target", "date": "2026-09-24", "code": "2105", "amountCents": -392556, "description": "Target Card payment" },
+    { "id": "bofa-2026-09-24-church", "date": "2026-09-24", "code": "5004", "amountCents": -10000, "description": "Church donation" },
+    { "id": "bofa-2026-09-24-amazon", "date": "2026-09-24", "code": "2102", "amountCents": -8912, "description": "Amazon Synchrony payment" },
+    { "id": "bofa-2026-09-24-lowes", "date": "2026-09-24", "code": "2103", "amountCents": -3921, "description": "Lowe's payment" },
+    { "id": "bofa-2026-09-25-payroll", "date": "2026-09-25", "code": "4000", "amountCents": 220708, "description": "CRC Services payroll" },
+    { "id": "bofa-2026-09-25-amex", "date": "2026-09-25", "code": "2110", "amountCents": -60437, "description": "American Express payment" },
+    { "id": "bofa-2026-09-28-transfer", "date": "2026-09-28", "amountCents": 80000, "description": "Transfer from Lester S Carcamo" },
+    { "id": "bofa-2026-09-28-transfer-to-savings", "date": "2026-09-28", "code": "1004", "amountCents": -2500, "description": "Automatic transfer to savings 3435" }
+  ],
   "cashForecastEntries": [
     {
       "id": "planned-transfer-capital-one-to-bofa-2026-10-05",
@@ -22,15 +68,29 @@
         "frequency": "monthly",
         "dayOfMonth": 5
       }
+    },
+    {
+      "id": "planned-transfer-bofa-savings-to-bofa-checking-2026-10-31",
+      "date": "2026-10-31",
+      "accountId": "cash-checking",
+      "sourceAccountId": "bofa-savings-3435",
+      "type": "transfer",
+      "direction": "in",
+      "amountCents": 220000,
+      "description": "Monthly transfer from BofA savings 3435",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 31
+      }
     }
   ],
   "paycheckSchedule": [
-    { "date": "2026-10-09", "employer": "CRC", "amountCents": 220000 },
-    { "date": "2026-10-23", "employer": "CRC", "amountCents": 220000 },
-    { "date": "2026-11-06", "employer": "CRC", "amountCents": 220000 },
-    { "date": "2026-11-20", "employer": "CRC", "amountCents": 220000 },
-    { "date": "2026-12-04", "employer": "CRC", "amountCents": 220000 },
-    { "date": "2026-12-18", "employer": "CRC", "amountCents": 220000 }
+    { "date": "2026-10-09", "employer": "CRC", "accountId": "crc-payroll-income", "amountCents": 220000 },
+    { "date": "2026-10-23", "employer": "CRC", "accountId": "crc-payroll-income", "amountCents": 220000 },
+    { "date": "2026-11-06", "employer": "CRC", "accountId": "crc-payroll-income", "amountCents": 220000 },
+    { "date": "2026-11-20", "employer": "CRC", "accountId": "crc-payroll-income", "amountCents": 220000 },
+    { "date": "2026-12-04", "employer": "CRC", "accountId": "crc-payroll-income", "amountCents": 220000 },
+    { "date": "2026-12-18", "employer": "CRC", "accountId": "crc-payroll-income", "amountCents": 220000 }
   ],
   "chartOfAccounts": [
     {
@@ -58,6 +118,13 @@
       "id": "other-funding-account",
       "code": "1003",
       "name": "Other funding account (unspecified)",
+      "type": "asset",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "bofa-savings-3435",
+      "code": "1004",
+      "name": "Bank of America savings ending in 3435",
       "type": "asset",
       "normalBalance": "debit"
     },
@@ -185,6 +252,27 @@
       "code": "2401",
       "name": "Netflix",
       "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "american-express",
+      "code": "2110",
+      "name": "American Express",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "robinhood",
+      "code": "2111",
+      "name": "Robinhood",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "crc-payroll-income",
+      "code": "4000",
+      "name": "CRC Services payroll income",
+      "type": "income",
       "normalBalance": "credit"
     },
     {
@@ -552,6 +640,42 @@
         "frequency": "monthly",
         "dayOfMonth": 17,
         "amountCents": 2699
+      }
+    },
+    {
+      "id": "american-express",
+      "bank": "American Express",
+      "name": "American Express",
+      "lastFour": null,
+      "dueDate": "2026-10-25",
+      "minimumDueCents": 60437,
+      "statementBalanceCents": 60437,
+      "balanceCents": 60437,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 25,
+        "amountCents": 60437
+      }
+    },
+    {
+      "id": "robinhood",
+      "bank": "Robinhood",
+      "name": "Robinhood",
+      "lastFour": null,
+      "dueDate": "2026-10-04",
+      "minimumDueCents": 59477,
+      "statementBalanceCents": 59477,
+      "balanceCents": 59477,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 4,
+        "amountCents": 59477
       }
     }
   ],

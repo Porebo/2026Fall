@@ -229,6 +229,206 @@
     }
   }
 
+  function setupLedgerTableControls(table, body) {
+    if (!table || !body || table.dataset.ledgerControlsReady === "true") {
+      return;
+    }
+    table.dataset.ledgerControlsReady = "true";
+    var sortColumn = null;
+    var sortDirection = 1;
+    var selectedValuesByColumn = {};
+    var filterMenu = null;
+    var outsideFilterHandler = null;
+
+    function filterRows() {
+      Array.prototype.forEach.call(body.rows, function (row) {
+        var matches = Object.keys(selectedValuesByColumn).every(function (column) {
+          var selectedValues = selectedValuesByColumn[column];
+          return !selectedValues || selectedValues.indexOf(row.cells[column].textContent.trim()) !== -1;
+        });
+        row.hidden = !matches;
+      });
+    }
+
+    function closeFilterMenu() {
+      if (filterMenu) {
+        filterMenu.remove();
+        filterMenu = null;
+      }
+      if (outsideFilterHandler) {
+        document.removeEventListener("click", outsideFilterHandler);
+        outsideFilterHandler = null;
+      }
+    }
+
+    function openFilterMenu(button) {
+      closeFilterMenu();
+      var column = button.dataset.ledgerFilterButton;
+      var values = Array.prototype.map.call(body.rows, function (row) {
+        return row.cells[column].textContent.trim();
+      }).filter(function (value, index, allValues) {
+        return allValues.indexOf(value) === index;
+      }).sort(function (first, second) {
+        return first.localeCompare(second, undefined, { numeric: true });
+      });
+      var selectedValues = selectedValuesByColumn[column] ? selectedValuesByColumn[column].slice() : values.slice();
+      var menu = document.createElement("div");
+      menu.className = "ledger-filter-menu";
+      menu.setAttribute("role", "dialog");
+      menu.setAttribute("aria-label", "Filter column values");
+      var search = document.createElement("input");
+      search.type = "search";
+      search.placeholder = "Search values";
+      search.setAttribute("aria-label", "Search filter values");
+      var selectAllLabel = document.createElement("label");
+      selectAllLabel.className = "ledger-filter-option";
+      var selectAll = document.createElement("input");
+      selectAll.type = "checkbox";
+      selectAllLabel.appendChild(selectAll);
+      selectAllLabel.appendChild(document.createTextNode("Select All"));
+      var options = document.createElement("div");
+      options.className = "ledger-filter-options";
+
+      function updateSelectAll() {
+        selectAll.checked = selectedValues.length === values.length;
+        selectAll.indeterminate = selectedValues.length > 0 && selectedValues.length < values.length;
+      }
+
+      values.forEach(function (value) {
+        var label = document.createElement("label");
+        label.className = "ledger-filter-option";
+        var checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.value = value;
+        checkbox.checked = selectedValues.indexOf(value) !== -1;
+        checkbox.addEventListener("change", function () {
+          if (checkbox.checked) {
+            selectedValues.push(value);
+          } else {
+            selectedValues = selectedValues.filter(function (selected) {
+              return selected !== value;
+            });
+          }
+          updateSelectAll();
+        });
+        label.appendChild(checkbox);
+        label.appendChild(document.createTextNode(value || "(Blanks)"));
+        options.appendChild(label);
+      });
+      updateSelectAll();
+      selectAll.addEventListener("change", function () {
+        selectedValues = selectAll.checked ? values.slice() : [];
+        Array.prototype.forEach.call(options.querySelectorAll("input"), function (checkbox) {
+          checkbox.checked = selectAll.checked;
+        });
+        updateSelectAll();
+      });
+      search.addEventListener("input", function () {
+        var query = search.value.trim().toLowerCase();
+        Array.prototype.forEach.call(options.children, function (label) {
+          label.hidden = query && label.textContent.toLowerCase().indexOf(query) === -1;
+        });
+      });
+      search.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          closeFilterMenu();
+          button.focus();
+        }
+      });
+
+      var actions = document.createElement("div");
+      actions.className = "ledger-filter-actions";
+      var clear = document.createElement("button");
+      clear.type = "button";
+      clear.className = "ledger-filter-action";
+      clear.textContent = "Clear";
+      clear.addEventListener("click", function () {
+        delete selectedValuesByColumn[column];
+        button.classList.remove("ledger-filter-button--active");
+        filterRows();
+        closeFilterMenu();
+      });
+      var apply = document.createElement("button");
+      apply.type = "button";
+      apply.className = "ledger-filter-action ledger-filter-action--apply";
+      apply.textContent = "Apply";
+      apply.addEventListener("click", function () {
+        selectedValuesByColumn[column] = selectedValues.length === values.length ? null : selectedValues;
+        button.classList.toggle("ledger-filter-button--active", Boolean(selectedValuesByColumn[column]));
+        filterRows();
+        closeFilterMenu();
+      });
+      actions.appendChild(clear);
+      actions.appendChild(apply);
+      menu.appendChild(search);
+      menu.appendChild(selectAllLabel);
+      menu.appendChild(options);
+      menu.appendChild(actions);
+      document.body.appendChild(menu);
+      var buttonBounds = button.getBoundingClientRect();
+      var left = Math.min(Math.max(8, buttonBounds.left), window.innerWidth - menu.offsetWidth - 8);
+      var top = Math.min(Math.max(8, buttonBounds.bottom + 4), window.innerHeight - menu.offsetHeight - 8);
+      menu.style.left = left + "px";
+      menu.style.top = top + "px";
+      filterMenu = menu;
+      window.setTimeout(function () {
+        outsideFilterHandler = function (event) {
+          if (!menu.contains(event.target) && event.target !== button) {
+            closeFilterMenu();
+          }
+        };
+        document.addEventListener("click", outsideFilterHandler);
+      }, 0);
+      search.focus();
+    }
+
+    function sortableValue(row, column) {
+      var text = row.cells[column].textContent.trim();
+      if (column === 1 || column >= 5) {
+        var numeric = Number(text.replace(/[^0-9.-]/g, ""));
+        return Number.isNaN(numeric) ? 0 : numeric;
+      }
+      return text.toLowerCase();
+    }
+
+    Array.prototype.forEach.call(table.querySelectorAll("[data-ledger-filter-button]"), function (button) {
+      button.addEventListener("click", function () {
+        openFilterMenu(button);
+      });
+    });
+    Array.prototype.forEach.call(table.querySelectorAll("[data-ledger-sort]"), function (button) {
+      button.addEventListener("click", function () {
+        var column = Number(button.dataset.ledgerSort);
+        sortDirection = sortColumn === column ? -sortDirection : 1;
+        sortColumn = column;
+        Array.prototype.slice.call(body.rows).sort(function (first, second) {
+          var firstValue = sortableValue(first, column);
+          var secondValue = sortableValue(second, column);
+          if (firstValue < secondValue) {
+            return -sortDirection;
+          }
+          if (firstValue > secondValue) {
+            return sortDirection;
+          }
+          return 0;
+        }).forEach(function (row) {
+          body.appendChild(row);
+        });
+        Array.prototype.forEach.call(table.querySelectorAll("[data-ledger-sort]"), function (header) {
+          var active = header === button;
+          header.setAttribute("aria-pressed", String(active));
+          header.textContent = active ? String.fromCharCode(sortDirection === 1 ? 8593 : 8595) : String.fromCharCode(8597);
+        });
+      });
+    });
+  }
+
+  window.setupLedgerTableControls = setupLedgerTableControls;
+
+  function setupCheckingLedgerControls() {
+    setupLedgerTableControls(document.querySelector(".accounting-table--compact"), document.getElementById("checking-ledger-rows"));
+  }
+
   function renderCheckingLedger(data) {
     var body = document.getElementById("checking-ledger-rows");
     var snapshot = data.cashBalanceSnapshot;
@@ -250,13 +450,34 @@
     body.appendChild(openingRow);
 
     var referenceNumber = 2;
-    data.transactions.filter(function (transaction) {
+    var ledgerEndDate = snapshot.statementEndDate || snapshot.nextPaydayDate;
+    var ledgerTransactions = data.checkingLedgerTransactions || data.transactions;
+    ledgerTransactions.filter(function (transaction) {
+      if (data.checkingLedgerTransactions) {
+        return transaction.date >= snapshot.asOf && transaction.date <= ledgerEndDate;
+      }
       var isCheckingPayment = transaction.type === "payment" && (!transaction.paidFromAccountId || transaction.paidFromAccountId === snapshot.accountId);
       var isCheckingDeposit = transaction.type === "transfer" && transaction.direction === "in" && transaction.accountId === snapshot.accountId;
-      return (isCheckingPayment || isCheckingDeposit) && transaction.date > snapshot.asOf && transaction.date < snapshot.nextPaydayDate;
+      return (isCheckingPayment || isCheckingDeposit) && transaction.date > snapshot.asOf && transaction.date < ledgerEndDate;
     }).sort(function (a, b) {
       return compareDates(a.date, b.date, "asc") || a.id.localeCompare(b.id);
     }).forEach(function (transaction) {
+      if (data.checkingLedgerTransactions) {
+        var isDebit = transaction.amountCents < 0;
+        balanceCents += transaction.amountCents;
+        var statementRow = document.createElement("tr");
+        statementRow.appendChild(makeCell(date(transaction.date)));
+        statementRow.appendChild(makeCell(String(referenceNumber)));
+        referenceNumber += 1;
+        statementRow.appendChild(makeCell(transaction.code || "-"));
+        statementRow.appendChild(makeCell("C \u2713"));
+        statementRow.appendChild(makeCell(transaction.description));
+        statementRow.appendChild(makeCell(isDebit ? money(-transaction.amountCents) : "-", "amount"));
+        statementRow.appendChild(makeCell(isDebit ? "-" : money(transaction.amountCents), "amount"));
+        statementRow.appendChild(makeBalanceCell(balanceCents));
+        body.appendChild(statementRow);
+        return;
+      }
       var isCredit = transaction.type === "payment" || transaction.direction === "out";
       balanceCents += isCredit ? -transaction.amountCents : transaction.amountCents;
       var account = data.accounts.find(function (item) {
@@ -268,7 +489,7 @@
       row.appendChild(makeCell(String(referenceNumber)));
       referenceNumber += 1;
       row.appendChild(makeCell(transaction.type === "payment" ? expenseClass(account) : "-"));
-      row.appendChild(makeCell("C"));
+      row.appendChild(makeCell("C \u2713"));
       row.appendChild(makeCell((account ? account.name : chartAccount ? chartAccount.name : transaction.accountId) + " - " + transaction.description));
       row.appendChild(makeCell(isCredit ? "-" : money(transaction.amountCents), "amount"));
       row.appendChild(makeCell(isCredit ? money(transaction.amountCents) : "-", "amount"));
@@ -278,25 +499,29 @@
 
     var paycheckSchedule = data.paycheckSchedule || [];
     var endDate = paycheckSchedule.length ? paycheckSchedule[paycheckSchedule.length - 1].date : snapshot.nextPaydayDate;
+    var forecastStartDate = snapshot.statementEndDate || snapshot.asOf;
 
-    var forecastEvents = getProjectedPaymentEvents(data, snapshot.asOf, endDate);
+    var forecastEvents = getProjectedPaymentEvents(data, forecastStartDate, endDate);
     (data.cashForecastEntries || []).filter(function (entry) {
       return entry.type === "transfer" && entry.direction === "in" && entry.accountId === snapshot.accountId;
     }).forEach(function (entry) {
       var occurrence = parseDate(entry.date);
       while (formatDate(occurrence) <= endDate) {
         var occurrenceDate = formatDate(occurrence);
-        if (occurrenceDate > snapshot.asOf) {
+        if (occurrenceDate > forecastStartDate) {
           forecastEvents.push({ type: "transfer", date: occurrenceDate, entry: entry, amountCents: entry.amountCents });
         }
         if (!entry.recurrence || entry.recurrence.frequency !== "monthly") {
           break;
         }
-        occurrence.setMonth(occurrence.getMonth() + 1);
+        var nextMonth = occurrence.getMonth() + 1;
+        var recurringDay = entry.recurrence.dayOfMonth || occurrence.getDate();
+        var daysInNextMonth = new Date(occurrence.getFullYear(), nextMonth + 1, 0).getDate();
+        occurrence = new Date(occurrence.getFullYear(), nextMonth, Math.min(recurringDay, daysInNextMonth));
       }
     });
     paycheckSchedule.filter(function (paycheck) {
-      return paycheck.date > snapshot.asOf;
+      return paycheck.date > forecastStartDate;
     }).forEach(function (paycheck) {
       forecastEvents.push({ type: "paycheck", date: paycheck.date, paycheck: paycheck, amountCents: paycheck.amountCents });
     });
@@ -316,7 +541,14 @@
       row.appendChild(makeCell(date(event.date)));
       row.appendChild(makeCell(String(referenceNumber)));
       referenceNumber += 1;
-      row.appendChild(makeCell(event.type === "payment" ? expenseClass(event.account) : "-"));
+      var eventCode = event.type === "payment"
+        ? expenseClass(event.account)
+        : event.type === "paycheck" && event.paycheck.accountId
+          ? (getChartAccount(data, event.paycheck.accountId) || {}).code || "-"
+          : event.type === "transfer" && event.entry.sourceAccountId
+            ? (getChartAccount(data, event.entry.sourceAccountId) || {}).code || "-"
+          : "-";
+      row.appendChild(makeCell(eventCode));
       row.appendChild(makeCell("S"));
       if (event.type === "payment") {
         row.appendChild(makeCell(event.account.name + (event.amountCents == null ? " (amount unknown)" : "")));
@@ -349,6 +581,7 @@
       row.appendChild(makeBalanceCell(balanceCents));
       body.appendChild(row);
     });
+    setupCheckingLedgerControls();
   }
 
   function renderAccounts(data) {
@@ -546,6 +779,9 @@
   }
 
   function render(data) {
+    if (document.body.dataset.accountingView === "account-ledger") {
+      return;
+    }
     if (document.body.dataset.accountingView === "checking-ledger") {
       setText("as-of", data.asOf);
       renderCheckingLedger(data);

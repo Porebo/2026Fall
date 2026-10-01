@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>General Journal</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="account-ledger.css">
+</head>
+<body data-general-journal="true">
+  <main class="page accounting-page">
+    <nav class="breadcrumb"><a href="../index.html">Home</a> / <a href="0000.html">Ledger Index</a> / General Journal</nav>
+    <header class="hero">
+      <p class="eyebrow">Personal Finance</p>
+      <h1>General Journal</h1>
+      <p class="lede">Balanced journal entries from the reconciled Bank of America statement.</p>
+    </header>
+    <div id="journal-error" class="accounting-error" hidden></div>
+    <section class="card accounting-section" aria-labelledby="journal-heading">
+      <h2 id="journal-heading">BofA Statement Activity</h2>
+      <p class="accounting-meta">Transactions without an assigned account code use Unclassified bank activity until categorized.</p>
+      <div class="accounting-table-wrap">
+        <table class="accounting-table accounting-table--compact">
+          <thead>
+            <tr>
+              <th>Entry</th>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Account</th>
+              <th>Debit</th>
+              <th>Credit</th>
+            </tr>
+          </thead>
+          <tbody id="journal-rows"><tr><td colspan="6">Loading journal entries...</td></tr></tbody>
+          <tfoot>
+            <tr>
+              <th colspan="4">Totals</th>
+              <th class="amount" id="journal-total-debits">-</th>
+              <th class="amount" id="journal-total-credits">-</th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="../scripts/general-journal.js"></script>
+</body>
+</html>
