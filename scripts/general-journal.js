@@ -38,6 +38,9 @@
 
   function appendLine(body, entryNumber, sourceDocument, post, date, account, debitCents, creditCents, creditAccount) {
     var row = document.createElement("tr");
+    if (entryNumber) {
+      row.id = entryNumber;
+    }
     row.appendChild(makeCell(entryNumber));
     row.appendChild(makeSourceCell(sourceDocument));
     row.appendChild(makeCell(post));
@@ -130,6 +133,12 @@
     if (totalDebits !== totalCredits) {
       error.hidden = false;
       error.textContent = "Journal totals are not balanced.";
+    }
+    var target = window.location.hash
+      ? document.getElementById(window.location.hash.slice(1))
+      : null;
+    if (target) {
+      target.scrollIntoView();
     }
   }).catch(function (exception) {
     var error = document.getElementById("journal-error");

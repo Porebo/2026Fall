@@ -6,6 +6,10 @@
     return currency.format(Math.abs(cents) / 100);
   }
 
+  function balanceMoney(cents) {
+    return currency.format(cents / 100);
+  }
+
   function institution(account, detail) {
     if (detail && detail.bank) {
       return detail.bank;
@@ -36,6 +40,19 @@
     if (className) {
       cell.className = className;
     }
+    return cell;
+  }
+
+  function makeJournalReference(number) {
+    var cell = document.createElement("td");
+    if (!number || number === "-") {
+      cell.textContent = "-";
+      return cell;
+    }
+    var link = document.createElement("a");
+    link.href = "General Journal.html#" + encodeURIComponent(number);
+    link.textContent = number;
+    cell.appendChild(link);
     return cell;
   }
 
@@ -86,6 +103,12 @@
       return;
     }
     ensureAccountLayout();
+    var breadcrumb = document.querySelector(".breadcrumb");
+    var trialBalanceLink = document.createElement("a");
+    trialBalanceLink.href = "Trial%20Balance.html";
+    trialBalanceLink.textContent = "Trial Balance";
+    breadcrumb.appendChild(document.createTextNode(" / "));
+    breadcrumb.appendChild(trialBalanceLink);
     var detail = data.accounts.find(function (item) {
       return item.id === accountId;
     });
@@ -111,8 +134,31 @@
         entries.push({ date: entry.date, code: account.code, description: entry.description, amountCents: entry.amountCents, balanceAfterCents: entry.balanceAfterCents, journalEntry: entry.journalEntry || "-", sequence: 100000 + index });
       });
     }
+    var representedJournalEntries = {};
+    entries.forEach(function (entry) {
+      if (entry.journalEntry && entry.journalEntry !== "-") {
+        representedJournalEntries[entry.journalEntry] = true;
+      }
+    });
+    (data.supplementalJournalEntries || []).forEach(function (journalEntry, entryIndex) {
+      journalEntry.lines.forEach(function (line, lineIndex) {
+        if (line.accountId !== accountId || representedJournalEntries[journalEntry.number]) {
+          return;
+        }
+        entries.push({
+          date: journalEntry.date,
+          code: account.code,
+          description: journalEntry.description,
+          amountCents: line.debitCents || line.creditCents,
+          balanceAfterCents: null,
+          isDebit: line.debitCents > 0,
+          journalEntry: journalEntry.number,
+          sequence: 200000 + entryIndex * 2 + lineIndex
+        });
+      });
+    });
     entries.sort(function (a, b) {
-      return a.date.localeCompare(b.date) || a.sequence - b.sequence;
+      return a.date.localeCompare(b.date) || (a.isOpeningBalance ? -1 : 0) || a.sequence - b.sequence;
     });
     var openingBalanceCents = accountId === "cash-checking" && data.cashBalanceSnapshot
       ? data.cashBalanceSnapshot.balanceCents
@@ -122,18 +168,34 @@
       : detail && detail.openingBalanceDate;
     if (openingBalanceCents != null && openingBalanceDate) {
       var runningBalanceCents = openingBalanceCents;
-      entries.unshift({
+      var openingEntry = {
         date: openingBalanceDate,
         code: "-",
         description: "Beginning balance - " + institution(account, detail),
         amountCents: openingBalanceCents,
         balanceAfterCents: runningBalanceCents,
         journalEntry: "-",
-        isOpeningBalance: true
+        isOpeningBalance: true,
+        sequence: -1
+      };
+      entries.push(openingEntry);
+      entries.sort(function (a, b) {
+        return a.date.localeCompare(b.date) || (a.isOpeningBalance ? -1 : 0) || a.sequence - b.sequence;
       });
       if (accountId === "cash-checking") {
-        entries.slice(1).forEach(function (entry) {
-          runningBalanceCents += entry.amountCents;
+        var openingBalanceReached = false;
+        entries.forEach(function (entry) {
+          if (entry.isOpeningBalance) {
+            openingBalanceReached = true;
+            return;
+          }
+          if (!openingBalanceReached) {
+            entry.balanceAfterCents = null;
+            return;
+          }
+          runningBalanceCents += entry.isDebit === undefined
+            ? entry.amountCents
+            : entry.isDebit ? entry.amountCents : -entry.amountCents;
           entry.balanceAfterCents = runningBalanceCents;
         });
       }
@@ -150,7 +212,7 @@
     entries.forEach(function (entry, index) {
       var row = document.createElement("tr");
       row.appendChild(makeCell(entry.date));
-      row.appendChild(makeCell(entry.journalEntry || "-"));
+      row.appendChild(makeJournalReference(entry.journalEntry || "-"));
       row.appendChild(makeCell(entry.code));
       row.appendChild(makeCell(entry.isOpeningBalance ? "-" : "C " + String.fromCharCode(10003)));
       row.appendChild(makeCell(entry.description));
@@ -159,7 +221,7 @@
         : entry.isDebit;
       row.appendChild(makeCell(debitEntry ? money(entry.amountCents) : "-", entry.amountCents < 0 ? "amount amount--negative" : "amount"));
       row.appendChild(makeCell(!debitEntry ? money(entry.amountCents) : "-", "amount"));
-      row.appendChild(makeCell(entry.balanceAfterCents == null ? "-" : money(entry.balanceAfterCents), "amount"));
+      row.appendChild(makeCell(entry.balanceAfterCents == null ? "-" : balanceMoney(entry.balanceAfterCents), "amount"));
       body.appendChild(row);
     });
     window.setupLedgerTableControls(document.querySelector(".accounting-table--compact"), body);

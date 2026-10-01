@@ -131,12 +131,16 @@
           occurrence.setMonth(occurrence.getMonth() + 1);
         }
 
-        while (formatDate(occurrence) <= endDate) {
+        while (formatDate(occurrence) <= endDate &&
+               (!account.recurrence.endDate || formatDate(occurrence) <= account.recurrence.endDate)) {
           var occurrenceDate = formatDate(occurrence);
           if (occurrenceDate > startDate) {
-            var amountCents = occurrenceDate === account.dueDate
-              ? plannedObligationCents(account, data)
-              : account.recurrence.amountCents;
+            var amountCents = occurrenceDate === account.recurrence.endDate &&
+                account.recurrence.finalAmountCents != null
+              ? account.recurrence.finalAmountCents
+              : occurrenceDate === account.dueDate
+                ? plannedObligationCents(account, data)
+                : account.recurrence.amountCents;
             events.push({ type: "payment", date: occurrenceDate, account: account, amountCents: amountCents });
           }
           occurrence.setMonth(occurrence.getMonth() + 1);
@@ -553,7 +557,10 @@
       row.appendChild(makeCell(eventCode));
       row.appendChild(makeCell("S"));
       if (event.type === "payment") {
-        row.appendChild(makeCell(event.account.name + (event.amountCents == null ? " (amount unknown)" : "")));
+        var paymentSource = event.account.paymentSourceLabel
+          ? " - from " + event.account.paymentSourceLabel
+          : "";
+        row.appendChild(makeCell(event.account.name + paymentSource + (event.amountCents == null ? " (amount unknown)" : "")));
         row.appendChild(makeCell("-", "amount"));
         row.appendChild(makeCell(moneyOrDash(event.amountCents), "amount"));
         if (event.amountCents != null) {

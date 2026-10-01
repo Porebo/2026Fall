@@ -1,0 +1,2510 @@
+- main [ref=f3e2]:
+  - navigation [ref=f3e3]:
+    - link "Home" [ref=f3e4] [cursor=pointer]:
+      - /url: ../index.html
+    - text: /
+    - link "Ledger Index" [ref=f3e5] [cursor=pointer]:
+      - /url: 0000.html
+    - text: / General Journal
+  - generic [ref=f3e6]:
+    - paragraph [ref=f3e7]: Personal Finance
+    - heading "General Journal" [level=1] [ref=f3e8]
+    - paragraph [ref=f3e9]: Balanced journal entries from the reconciled Bank of America statement.
+  - region [ref=f3e10]:
+    - heading "Journal Activity" [level=2] [ref=f3e11]
+    - paragraph [ref=f3e12]: The Source column identifies the document used to create each entry. Transactions without an assigned account code use Unclassified bank activity until categorized.
+    - table [ref=f3e14]:
+      - rowgroup [ref=f3e15]:
+        - row [ref=f3e16]:
+          - columnheader "Entry" [ref=f3e17]
+          - columnheader "Source" [ref=f3e18]
+          - columnheader "Post" [ref=f3e19]
+          - columnheader "Date" [ref=f3e20]
+          - columnheader "Description" [ref=f3e21]
+          - columnheader "Debit" [ref=f3e22]
+          - columnheader "Credit" [ref=f3e23]
+      - rowgroup [ref=f3e24]:
+        - row [ref=f3e25]:
+          - cell "GJ-0001" [ref=f3e26]
+          - cell [ref=f3e27]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e28] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e29]
+          - cell "2026-08-28" [ref=f3e30]
+          - cell "Bank of America checking account" [ref=f3e31]
+          - cell "$2,193.55" [ref=f3e32]
+          - cell [ref=f3e33]
+        - row [ref=f3e34]:
+          - cell [ref=f3e35]
+          - cell [ref=f3e36]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e37] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "4000" [ref=f3e38]
+          - cell [ref=f3e39]
+          - cell "CRC Services payroll income" [ref=f3e40]
+          - cell [ref=f3e41]
+          - cell "$2,193.55" [ref=f3e42]
+        - row [ref=f3e43]:
+          - cell [ref=f3e44]
+          - cell [ref=f3e45]
+          - cell [ref=f3e46]
+          - cell [ref=f3e47]
+          - cell "CRC payroll - 2nd of the month" [ref=f3e48]
+          - cell [ref=f3e49]
+          - cell [ref=f3e50]
+        - row [ref=f3e51]:
+          - cell "GJ-0002" [ref=f3e52]
+          - cell [ref=f3e53]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e54] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1004" [ref=f3e55]
+          - cell "2026-08-28" [ref=f3e56]
+          - cell "Bank of America savings ending in 3435" [ref=f3e57]
+          - cell "$25.00" [ref=f3e58]
+          - cell [ref=f3e59]
+        - row [ref=f3e60]:
+          - cell [ref=f3e61]
+          - cell [ref=f3e62]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e63] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e64]
+          - cell [ref=f3e65]
+          - cell "Bank of America checking account" [ref=f3e66]
+          - cell [ref=f3e67]
+          - cell "$25.00" [ref=f3e68]
+        - row [ref=f3e69]:
+          - cell [ref=f3e70]
+          - cell [ref=f3e71]
+          - cell [ref=f3e72]
+          - cell [ref=f3e73]
+          - cell "Automatic transfer to BofA Savings ending in 3435" [ref=f3e74]
+          - cell [ref=f3e75]
+          - cell [ref=f3e76]
+        - row [ref=f3e77]:
+          - cell "GJ-0003" [ref=f3e78]
+          - cell [ref=f3e79]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e80] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e81]
+          - cell "2026-08-31" [ref=f3e82]
+          - cell "Bank of America checking account" [ref=f3e83]
+          - cell "$2,200.00" [ref=f3e84]
+          - cell [ref=f3e85]
+        - row [ref=f3e86]:
+          - cell [ref=f3e87]
+          - cell [ref=f3e88]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e89] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1002" [ref=f3e90]
+          - cell [ref=f3e91]
+          - cell "Capital One checking account" [ref=f3e92]
+          - cell [ref=f3e93]
+          - cell "$2,200.00" [ref=f3e94]
+        - row [ref=f3e95]:
+          - cell [ref=f3e96]
+          - cell [ref=f3e97]
+          - cell [ref=f3e98]
+          - cell [ref=f3e99]
+          - cell "Online transfer from savings 3435" [ref=f3e100]
+          - cell [ref=f3e101]
+          - cell [ref=f3e102]
+        - row [ref=f3e103]:
+          - cell "GJ-0004" [ref=f3e104]
+          - cell [ref=f3e105]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e106] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2109" [ref=f3e107]
+          - cell "2026-08-31" [ref=f3e108]
+          - cell "Apple Card" [ref=f3e109]
+          - cell "$1,220.81" [ref=f3e110]
+          - cell [ref=f3e111]
+        - row [ref=f3e112]:
+          - cell [ref=f3e113]
+          - cell [ref=f3e114]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e115] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e116]
+          - cell [ref=f3e117]
+          - cell "Bank of America checking account" [ref=f3e118]
+          - cell [ref=f3e119]
+          - cell "$1,220.81" [ref=f3e120]
+        - row [ref=f3e121]:
+          - cell [ref=f3e122]
+          - cell [ref=f3e123]
+          - cell [ref=f3e124]
+          - cell [ref=f3e125]
+          - cell "Apple Card payment" [ref=f3e126]
+          - cell [ref=f3e127]
+          - cell [ref=f3e128]
+        - row [ref=f3e129]:
+          - cell "GJ-0005" [ref=f3e130]
+          - cell [ref=f3e131]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e132] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2102" [ref=f3e133]
+          - cell "2026-08-31" [ref=f3e134]
+          - cell "Amazon Synchrony ending in 9883" [ref=f3e135]
+          - cell "$98.73" [ref=f3e136]
+          - cell [ref=f3e137]
+        - row [ref=f3e138]:
+          - cell [ref=f3e139]
+          - cell [ref=f3e140]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e141] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e142]
+          - cell [ref=f3e143]
+          - cell "Bank of America checking account" [ref=f3e144]
+          - cell [ref=f3e145]
+          - cell "$98.73" [ref=f3e146]
+        - row [ref=f3e147]:
+          - cell [ref=f3e148]
+          - cell [ref=f3e149]
+          - cell [ref=f3e150]
+          - cell [ref=f3e151]
+          - cell "Amazon Synchrony payment" [ref=f3e152]
+          - cell [ref=f3e153]
+          - cell [ref=f3e154]
+        - row [ref=f3e155]:
+          - cell "GJ-0006" [ref=f3e156]
+          - cell [ref=f3e157]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e158] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2112" [ref=f3e159]
+          - cell "2026-08-31" [ref=f3e160]
+          - cell "Barclays Rewards World Mastercard ending in 0741" [ref=f3e161]
+          - cell "$98.00" [ref=f3e162]
+          - cell [ref=f3e163]
+        - row [ref=f3e164]:
+          - cell [ref=f3e165]
+          - cell [ref=f3e166]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e167] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e168]
+          - cell [ref=f3e169]
+          - cell "Bank of America checking account" [ref=f3e170]
+          - cell [ref=f3e171]
+          - cell "$98.00" [ref=f3e172]
+        - row [ref=f3e173]:
+          - cell [ref=f3e174]
+          - cell [ref=f3e175]
+          - cell [ref=f3e176]
+          - cell [ref=f3e177]
+          - cell "Barclays Rewards World Mastercard payment ending in 0741" [ref=f3e178]
+          - cell [ref=f3e179]
+          - cell [ref=f3e180]
+        - row [ref=f3e181]:
+          - cell "GJ-0007" [ref=f3e182]
+          - cell [ref=f3e183]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e184] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2200" [ref=f3e185]
+          - cell "2026-09-01" [ref=f3e186]
+          - cell "Freedom Mortgage" [ref=f3e187]
+          - cell "$1,478.02" [ref=f3e188]
+          - cell [ref=f3e189]
+        - row [ref=f3e190]:
+          - cell [ref=f3e191]
+          - cell [ref=f3e192]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e193] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e194]
+          - cell [ref=f3e195]
+          - cell "Bank of America checking account" [ref=f3e196]
+          - cell [ref=f3e197]
+          - cell "$1,478.02" [ref=f3e198]
+        - row [ref=f3e199]:
+          - cell [ref=f3e200]
+          - cell [ref=f3e201]
+          - cell [ref=f3e202]
+          - cell [ref=f3e203]
+          - cell "Freedom Mortgage payment" [ref=f3e204]
+          - cell [ref=f3e205]
+          - cell [ref=f3e206]
+        - row [ref=f3e207]:
+          - cell "GJ-0008" [ref=f3e208]
+          - cell [ref=f3e209]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e210] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2300" [ref=f3e211]
+          - cell "2026-09-01" [ref=f3e212]
+          - cell "IRS" [ref=f3e213]
+          - cell "$500.00" [ref=f3e214]
+          - cell [ref=f3e215]
+        - row [ref=f3e216]:
+          - cell [ref=f3e217]
+          - cell [ref=f3e218]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e219] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e220]
+          - cell [ref=f3e221]
+          - cell "Bank of America checking account" [ref=f3e222]
+          - cell [ref=f3e223]
+          - cell "$500.00" [ref=f3e224]
+        - row [ref=f3e225]:
+          - cell [ref=f3e226]
+          - cell [ref=f3e227]
+          - cell [ref=f3e228]
+          - cell [ref=f3e229]
+          - cell "IRS tax payment" [ref=f3e230]
+          - cell [ref=f3e231]
+          - cell [ref=f3e232]
+        - row [ref=f3e233]:
+          - cell "GJ-0009" [ref=f3e234]
+          - cell [ref=f3e235]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e236] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2201" [ref=f3e237]
+          - cell "2026-09-01" [ref=f3e238]
+          - cell "Mazda Financial" [ref=f3e239]
+          - cell "$475.22" [ref=f3e240]
+          - cell [ref=f3e241]
+        - row [ref=f3e242]:
+          - cell [ref=f3e243]
+          - cell [ref=f3e244]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e245] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e246]
+          - cell [ref=f3e247]
+          - cell "Bank of America checking account" [ref=f3e248]
+          - cell [ref=f3e249]
+          - cell "$475.22" [ref=f3e250]
+        - row [ref=f3e251]:
+          - cell [ref=f3e252]
+          - cell [ref=f3e253]
+          - cell [ref=f3e254]
+          - cell [ref=f3e255]
+          - cell "Mazda Financial payment" [ref=f3e256]
+          - cell [ref=f3e257]
+          - cell [ref=f3e258]
+        - row [ref=f3e259]:
+          - cell "GJ-0010" [ref=f3e260]
+          - cell [ref=f3e261]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e262] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e263]
+          - cell "2026-09-02" [ref=f3e264]
+          - cell "Unclassified bank activity" [ref=f3e265]
+          - cell "$35.00" [ref=f3e266]
+          - cell [ref=f3e267]
+        - row [ref=f3e268]:
+          - cell [ref=f3e269]
+          - cell [ref=f3e270]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e271] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e272]
+          - cell [ref=f3e273]
+          - cell "Bank of America checking account" [ref=f3e274]
+          - cell [ref=f3e275]
+          - cell "$35.00" [ref=f3e276]
+        - row [ref=f3e277]:
+          - cell [ref=f3e278]
+          - cell [ref=f3e279]
+          - cell [ref=f3e280]
+          - cell [ref=f3e281]
+          - cell "Mobile Banking payment to CRD 2391" [ref=f3e282]
+          - cell [ref=f3e283]
+          - cell [ref=f3e284]
+        - row [ref=f3e285]:
+          - cell "GJ-0011" [ref=f3e286]
+          - cell [ref=f3e287]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e288] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2202" [ref=f3e289]
+          - cell "2026-09-02" [ref=f3e290]
+          - cell "Service Finance Company" [ref=f3e291]
+          - cell "$256.43" [ref=f3e292]
+          - cell [ref=f3e293]
+        - row [ref=f3e294]:
+          - cell [ref=f3e295]
+          - cell [ref=f3e296]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e297] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e298]
+          - cell [ref=f3e299]
+          - cell "Bank of America checking account" [ref=f3e300]
+          - cell [ref=f3e301]
+          - cell "$256.43" [ref=f3e302]
+        - row [ref=f3e303]:
+          - cell [ref=f3e304]
+          - cell [ref=f3e305]
+          - cell [ref=f3e306]
+          - cell [ref=f3e307]
+          - cell "Service Finance Company bill payment" [ref=f3e308]
+          - cell [ref=f3e309]
+          - cell [ref=f3e310]
+        - row [ref=f3e311]:
+          - cell "GJ-0012" [ref=f3e312]
+          - cell [ref=f3e313]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e314] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2104" [ref=f3e315]
+          - cell "2026-09-02" [ref=f3e316]
+          - cell "GM Rewards Mastercard" [ref=f3e317]
+          - cell "$30.00" [ref=f3e318]
+          - cell [ref=f3e319]
+        - row [ref=f3e320]:
+          - cell [ref=f3e321]
+          - cell [ref=f3e322]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e323] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e324]
+          - cell [ref=f3e325]
+          - cell "Bank of America checking account" [ref=f3e326]
+          - cell [ref=f3e327]
+          - cell "$30.00" [ref=f3e328]
+        - row [ref=f3e329]:
+          - cell [ref=f3e330]
+          - cell [ref=f3e331]
+          - cell [ref=f3e332]
+          - cell [ref=f3e333]
+          - cell "GM Rewards Mastercard payment ending in 2946" [ref=f3e334]
+          - cell [ref=f3e335]
+          - cell [ref=f3e336]
+        - row [ref=f3e337]:
+          - cell "GJ-0013" [ref=f3e338]
+          - cell [ref=f3e339]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e340] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e341]
+          - cell "2026-09-02" [ref=f3e342]
+          - cell "Unclassified bank activity" [ref=f3e343]
+          - cell "$17.83" [ref=f3e344]
+          - cell [ref=f3e345]
+        - row [ref=f3e346]:
+          - cell [ref=f3e347]
+          - cell [ref=f3e348]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e349] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e350]
+          - cell [ref=f3e351]
+          - cell "Bank of America checking account" [ref=f3e352]
+          - cell [ref=f3e353]
+          - cell "$17.83" [ref=f3e354]
+        - row [ref=f3e355]:
+          - cell [ref=f3e356]
+          - cell [ref=f3e357]
+          - cell [ref=f3e358]
+          - cell [ref=f3e359]
+          - cell "Citi Card Online payment" [ref=f3e360]
+          - cell [ref=f3e361]
+          - cell [ref=f3e362]
+        - row [ref=f3e363]:
+          - cell "GJ-0014" [ref=f3e364]
+          - cell [ref=f3e365]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e366] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e367]
+          - cell "2026-09-03" [ref=f3e368]
+          - cell "Bank of America checking account" [ref=f3e369]
+          - cell "$2,200.00" [ref=f3e370]
+          - cell [ref=f3e371]
+        - row [ref=f3e372]:
+          - cell [ref=f3e373]
+          - cell [ref=f3e374]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e375] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e376]
+          - cell [ref=f3e377]
+          - cell "Unclassified bank activity" [ref=f3e378]
+          - cell [ref=f3e379]
+          - cell "$2,200.00" [ref=f3e380]
+        - row [ref=f3e381]:
+          - cell [ref=f3e382]
+          - cell [ref=f3e383]
+          - cell [ref=f3e384]
+          - cell [ref=f3e385]
+          - cell "Capital One transfer" [ref=f3e386]
+          - cell [ref=f3e387]
+          - cell [ref=f3e388]
+        - row [ref=f3e389]:
+          - cell "GJ-0015" [ref=f3e390]
+          - cell [ref=f3e391]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e392] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e393]
+          - cell "2026-09-04" [ref=f3e394]
+          - cell "Unclassified bank activity" [ref=f3e395]
+          - cell "$320.00" [ref=f3e396]
+          - cell [ref=f3e397]
+        - row [ref=f3e398]:
+          - cell [ref=f3e399]
+          - cell [ref=f3e400]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e401] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e402]
+          - cell [ref=f3e403]
+          - cell "Bank of America checking account" [ref=f3e404]
+          - cell [ref=f3e405]
+          - cell "$320.00" [ref=f3e406]
+        - row [ref=f3e407]:
+          - cell [ref=f3e408]
+          - cell [ref=f3e409]
+          - cell [ref=f3e410]
+          - cell [ref=f3e411]
+          - cell "Mobile transfer to checking 4504" [ref=f3e412]
+          - cell [ref=f3e413]
+          - cell [ref=f3e414]
+        - row [ref=f3e415]:
+          - cell "GJ-0016" [ref=f3e416]
+          - cell [ref=f3e417]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e418] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2111" [ref=f3e419]
+          - cell "2026-09-04" [ref=f3e420]
+          - cell "Robinhood" [ref=f3e421]
+          - cell "$594.77" [ref=f3e422]
+          - cell [ref=f3e423]
+        - row [ref=f3e424]:
+          - cell [ref=f3e425]
+          - cell [ref=f3e426]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e427] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e428]
+          - cell [ref=f3e429]
+          - cell "Bank of America checking account" [ref=f3e430]
+          - cell [ref=f3e431]
+          - cell "$594.77" [ref=f3e432]
+        - row [ref=f3e433]:
+          - cell [ref=f3e434]
+          - cell [ref=f3e435]
+          - cell [ref=f3e436]
+          - cell [ref=f3e437]
+          - cell "Robinhood payment" [ref=f3e438]
+          - cell [ref=f3e439]
+          - cell [ref=f3e440]
+        - row [ref=f3e441]:
+          - cell "GJ-0017" [ref=f3e442]
+          - cell [ref=f3e443]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e444] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e445]
+          - cell "2026-09-08" [ref=f3e446]
+          - cell "Unclassified bank activity" [ref=f3e447]
+          - cell "$350.00" [ref=f3e448]
+          - cell [ref=f3e449]
+        - row [ref=f3e450]:
+          - cell [ref=f3e451]
+          - cell [ref=f3e452]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e453] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e454]
+          - cell [ref=f3e455]
+          - cell "Bank of America checking account" [ref=f3e456]
+          - cell [ref=f3e457]
+          - cell "$350.00" [ref=f3e458]
+        - row [ref=f3e459]:
+          - cell [ref=f3e460]
+          - cell [ref=f3e461]
+          - cell [ref=f3e462]
+          - cell [ref=f3e463]
+          - cell "Online Banking payment to CRD 2391" [ref=f3e464]
+          - cell [ref=f3e465]
+          - cell [ref=f3e466]
+        - row [ref=f3e467]:
+          - cell "GJ-0018" [ref=f3e468]
+          - cell [ref=f3e469]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e470] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2105" [ref=f3e471]
+          - cell "2026-09-08" [ref=f3e472]
+          - cell "Target Circle Card ending in 6343" [ref=f3e473]
+          - cell "$30.00" [ref=f3e474]
+          - cell [ref=f3e475]
+        - row [ref=f3e476]:
+          - cell [ref=f3e477]
+          - cell [ref=f3e478]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e479] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e480]
+          - cell [ref=f3e481]
+          - cell "Bank of America checking account" [ref=f3e482]
+          - cell [ref=f3e483]
+          - cell "$30.00" [ref=f3e484]
+        - row [ref=f3e485]:
+          - cell [ref=f3e486]
+          - cell [ref=f3e487]
+          - cell [ref=f3e488]
+          - cell [ref=f3e489]
+          - cell "Target Card payment" [ref=f3e490]
+          - cell [ref=f3e491]
+          - cell [ref=f3e492]
+        - row [ref=f3e493]:
+          - cell "GJ-0019" [ref=f3e494]
+          - cell [ref=f3e495]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e496] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e497]
+          - cell "2026-09-09" [ref=f3e498]
+          - cell "Bank of America checking account" [ref=f3e499]
+          - cell "$100.45" [ref=f3e500]
+          - cell [ref=f3e501]
+        - row [ref=f3e502]:
+          - cell [ref=f3e503]
+          - cell [ref=f3e504]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e505] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e506]
+          - cell [ref=f3e507]
+          - cell "Unclassified bank activity" [ref=f3e508]
+          - cell [ref=f3e509]
+          - cell "$100.45" [ref=f3e510]
+        - row [ref=f3e511]:
+          - cell [ref=f3e512]
+          - cell [ref=f3e513]
+          - cell [ref=f3e514]
+          - cell [ref=f3e515]
+          - cell "UBER - Branch Messenger P2P transfer" [ref=f3e516]
+          - cell [ref=f3e517]
+          - cell [ref=f3e518]
+        - row [ref=f3e519]:
+          - cell "GJ-0020" [ref=f3e520]
+          - cell [ref=f3e521]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e522] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e523]
+          - cell "2026-09-09" [ref=f3e524]
+          - cell "Unclassified bank activity" [ref=f3e525]
+          - cell "$33.29" [ref=f3e526]
+          - cell [ref=f3e527]
+        - row [ref=f3e528]:
+          - cell [ref=f3e529]
+          - cell [ref=f3e530]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e531] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e532]
+          - cell [ref=f3e533]
+          - cell "Bank of America checking account" [ref=f3e534]
+          - cell [ref=f3e535]
+          - cell "$33.29" [ref=f3e536]
+        - row [ref=f3e537]:
+          - cell [ref=f3e538]
+          - cell [ref=f3e539]
+          - cell [ref=f3e540]
+          - cell [ref=f3e541]
+          - cell "Online Banking payment to CRD 2391" [ref=f3e542]
+          - cell [ref=f3e543]
+          - cell [ref=f3e544]
+        - row [ref=f3e545]:
+          - cell "GJ-0021" [ref=f3e546]
+          - cell [ref=f3e547]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e548] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e549]
+          - cell "2026-09-10" [ref=f3e550]
+          - cell "Bank of America checking account" [ref=f3e551]
+          - cell "$1,258.12" [ref=f3e552]
+          - cell [ref=f3e553]
+        - row [ref=f3e554]:
+          - cell [ref=f3e555]
+          - cell [ref=f3e556]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e557] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e558]
+          - cell [ref=f3e559]
+          - cell "Unclassified bank activity" [ref=f3e560]
+          - cell [ref=f3e561]
+          - cell "$1,258.12" [ref=f3e562]
+        - row [ref=f3e563]:
+          - cell [ref=f3e564]
+          - cell [ref=f3e565]
+          - cell [ref=f3e566]
+          - cell [ref=f3e567]
+          - cell "Lyft Direct deposit" [ref=f3e568]
+          - cell [ref=f3e569]
+          - cell [ref=f3e570]
+        - row [ref=f3e571]:
+          - cell "GJ-0022" [ref=f3e572]
+          - cell [ref=f3e573]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e574] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2102" [ref=f3e575]
+          - cell "2026-09-10" [ref=f3e576]
+          - cell "Amazon Synchrony ending in 9883" [ref=f3e577]
+          - cell "$100.00" [ref=f3e578]
+          - cell [ref=f3e579]
+        - row [ref=f3e580]:
+          - cell [ref=f3e581]
+          - cell [ref=f3e582]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e583] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e584]
+          - cell [ref=f3e585]
+          - cell "Bank of America checking account" [ref=f3e586]
+          - cell [ref=f3e587]
+          - cell "$100.00" [ref=f3e588]
+        - row [ref=f3e589]:
+          - cell [ref=f3e590]
+          - cell [ref=f3e591]
+          - cell [ref=f3e592]
+          - cell [ref=f3e593]
+          - cell "Amazon Synchrony payment" [ref=f3e594]
+          - cell [ref=f3e595]
+          - cell [ref=f3e596]
+        - row [ref=f3e597]:
+          - cell "GJ-0023" [ref=f3e598]
+          - cell [ref=f3e599]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e600] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e601]
+          - cell "2026-09-11" [ref=f3e602]
+          - cell "Bank of America checking account" [ref=f3e603]
+          - cell "$2,210.48" [ref=f3e604]
+          - cell [ref=f3e605]
+        - row [ref=f3e606]:
+          - cell [ref=f3e607]
+          - cell [ref=f3e608]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e609] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "4000" [ref=f3e610]
+          - cell [ref=f3e611]
+          - cell "CRC Services payroll income" [ref=f3e612]
+          - cell [ref=f3e613]
+          - cell "$2,210.48" [ref=f3e614]
+        - row [ref=f3e615]:
+          - cell [ref=f3e616]
+          - cell [ref=f3e617]
+          - cell [ref=f3e618]
+          - cell [ref=f3e619]
+          - cell "CRC payroll - 1st of the month" [ref=f3e620]
+          - cell [ref=f3e621]
+          - cell [ref=f3e622]
+        - row [ref=f3e623]:
+          - cell "GJ-0024" [ref=f3e624]
+          - cell [ref=f3e625]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e626] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2400" [ref=f3e627]
+          - cell "2026-09-11" [ref=f3e628]
+          - cell "PG&E" [ref=f3e629]
+          - cell "$415.00" [ref=f3e630]
+          - cell [ref=f3e631]
+        - row [ref=f3e632]:
+          - cell [ref=f3e633]
+          - cell [ref=f3e634]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e635] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e636]
+          - cell [ref=f3e637]
+          - cell "Bank of America checking account" [ref=f3e638]
+          - cell [ref=f3e639]
+          - cell "$415.00" [ref=f3e640]
+        - row [ref=f3e641]:
+          - cell [ref=f3e642]
+          - cell [ref=f3e643]
+          - cell [ref=f3e644]
+          - cell [ref=f3e645]
+          - cell "PG&E bill payment" [ref=f3e646]
+          - cell [ref=f3e647]
+          - cell [ref=f3e648]
+        - row [ref=f3e649]:
+          - cell "GJ-0025" [ref=f3e650]
+          - cell [ref=f3e651]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e652] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e653]
+          - cell "2026-09-14" [ref=f3e654]
+          - cell "Unclassified bank activity" [ref=f3e655]
+          - cell "$1,959.03" [ref=f3e656]
+          - cell [ref=f3e657]
+        - row [ref=f3e658]:
+          - cell [ref=f3e659]
+          - cell [ref=f3e660]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e661] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e662]
+          - cell [ref=f3e663]
+          - cell "Bank of America checking account" [ref=f3e664]
+          - cell [ref=f3e665]
+          - cell "$1,959.03" [ref=f3e666]
+        - row [ref=f3e667]:
+          - cell [ref=f3e668]
+          - cell [ref=f3e669]
+          - cell [ref=f3e670]
+          - cell [ref=f3e671]
+          - cell "Citi Card Online payment" [ref=f3e672]
+          - cell [ref=f3e673]
+          - cell [ref=f3e674]
+        - row [ref=f3e675]:
+          - cell "GJ-0026" [ref=f3e676]
+          - cell [ref=f3e677]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e678] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e679]
+          - cell "2026-09-14" [ref=f3e680]
+          - cell "Unclassified bank activity" [ref=f3e681]
+          - cell "$418.29" [ref=f3e682]
+          - cell [ref=f3e683]
+        - row [ref=f3e684]:
+          - cell [ref=f3e685]
+          - cell [ref=f3e686]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e687] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e688]
+          - cell [ref=f3e689]
+          - cell "Bank of America checking account" [ref=f3e690]
+          - cell [ref=f3e691]
+          - cell "$418.29" [ref=f3e692]
+        - row [ref=f3e693]:
+          - cell [ref=f3e694]
+          - cell [ref=f3e695]
+          - cell [ref=f3e696]
+          - cell [ref=f3e697]
+          - cell "Scheduled payment to CRD 2391" [ref=f3e698]
+          - cell [ref=f3e699]
+          - cell [ref=f3e700]
+        - row [ref=f3e701]:
+          - cell "GJ-0027" [ref=f3e702]
+          - cell [ref=f3e703]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e704] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2203" [ref=f3e705]
+          - cell "2026-09-14" [ref=f3e706]
+          - cell "Dovenmuehle" [ref=f3e707]
+          - cell "$376.12" [ref=f3e708]
+          - cell [ref=f3e709]
+        - row [ref=f3e710]:
+          - cell [ref=f3e711]
+          - cell [ref=f3e712]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e713] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e714]
+          - cell [ref=f3e715]
+          - cell "Bank of America checking account" [ref=f3e716]
+          - cell [ref=f3e717]
+          - cell "$376.12" [ref=f3e718]
+        - row [ref=f3e719]:
+          - cell [ref=f3e720]
+          - cell [ref=f3e721]
+          - cell [ref=f3e722]
+          - cell [ref=f3e723]
+          - cell "Dovenmuehle mortgage payment" [ref=f3e724]
+          - cell [ref=f3e725]
+          - cell [ref=f3e726]
+        - row [ref=f3e727]:
+          - cell "GJ-0028" [ref=f3e728]
+          - cell [ref=f3e729]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e730] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2102" [ref=f3e731]
+          - cell "2026-09-14" [ref=f3e732]
+          - cell "Amazon Synchrony ending in 9883" [ref=f3e733]
+          - cell "$4.99" [ref=f3e734]
+          - cell [ref=f3e735]
+        - row [ref=f3e736]:
+          - cell [ref=f3e737]
+          - cell [ref=f3e738]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e739] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e740]
+          - cell [ref=f3e741]
+          - cell "Bank of America checking account" [ref=f3e742]
+          - cell [ref=f3e743]
+          - cell "$4.99" [ref=f3e744]
+        - row [ref=f3e745]:
+          - cell [ref=f3e746]
+          - cell [ref=f3e747]
+          - cell [ref=f3e748]
+          - cell [ref=f3e749]
+          - cell "Amazon Synchrony payment" [ref=f3e750]
+          - cell [ref=f3e751]
+          - cell [ref=f3e752]
+        - row [ref=f3e753]:
+          - cell "GJ-0029" [ref=f3e754]
+          - cell [ref=f3e755]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e756] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2204" [ref=f3e757]
+          - cell "2026-09-16" [ref=f3e758]
+          - cell "Pentagon Federal" [ref=f3e759]
+          - cell "$530.43" [ref=f3e760]
+          - cell [ref=f3e761]
+        - row [ref=f3e762]:
+          - cell [ref=f3e763]
+          - cell [ref=f3e764]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e765] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e766]
+          - cell [ref=f3e767]
+          - cell "Bank of America checking account" [ref=f3e768]
+          - cell [ref=f3e769]
+          - cell "$530.43" [ref=f3e770]
+        - row [ref=f3e771]:
+          - cell [ref=f3e772]
+          - cell [ref=f3e773]
+          - cell [ref=f3e774]
+          - cell [ref=f3e775]
+          - cell "Pentagon Federal transfer" [ref=f3e776]
+          - cell [ref=f3e777]
+          - cell [ref=f3e778]
+        - row [ref=f3e779]:
+          - cell "GJ-0030" [ref=f3e780]
+          - cell [ref=f3e781]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e782] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e783]
+          - cell "2026-09-17" [ref=f3e784]
+          - cell "Unclassified bank activity" [ref=f3e785]
+          - cell "$108.73" [ref=f3e786]
+          - cell [ref=f3e787]
+        - row [ref=f3e788]:
+          - cell [ref=f3e789]
+          - cell [ref=f3e790]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e791] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e792]
+          - cell [ref=f3e793]
+          - cell "Bank of America checking account" [ref=f3e794]
+          - cell [ref=f3e795]
+          - cell "$108.73" [ref=f3e796]
+        - row [ref=f3e797]:
+          - cell [ref=f3e798]
+          - cell [ref=f3e799]
+          - cell [ref=f3e800]
+          - cell [ref=f3e801]
+          - cell "Citi Card Online payment" [ref=f3e802]
+          - cell [ref=f3e803]
+          - cell [ref=f3e804]
+        - row [ref=f3e805]:
+          - cell "GJ-0031" [ref=f3e806]
+          - cell [ref=f3e807]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e808] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2401" [ref=f3e809]
+          - cell "2026-09-18" [ref=f3e810]
+          - cell "Netflix" [ref=f3e811]
+          - cell "$26.99" [ref=f3e812]
+          - cell [ref=f3e813]
+        - row [ref=f3e814]:
+          - cell [ref=f3e815]
+          - cell [ref=f3e816]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e817] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e818]
+          - cell [ref=f3e819]
+          - cell "Bank of America checking account" [ref=f3e820]
+          - cell [ref=f3e821]
+          - cell "$26.99" [ref=f3e822]
+        - row [ref=f3e823]:
+          - cell [ref=f3e824]
+          - cell [ref=f3e825]
+          - cell [ref=f3e826]
+          - cell [ref=f3e827]
+          - cell "Netflix" [ref=f3e828]
+          - cell [ref=f3e829]
+          - cell [ref=f3e830]
+        - row [ref=f3e831]:
+          - cell "GJ-0032" [ref=f3e832]
+          - cell [ref=f3e833]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e834] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e835]
+          - cell "2026-09-18" [ref=f3e836]
+          - cell "Unclassified bank activity" [ref=f3e837]
+          - cell "$111.86" [ref=f3e838]
+          - cell [ref=f3e839]
+        - row [ref=f3e840]:
+          - cell [ref=f3e841]
+          - cell [ref=f3e842]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e843] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e844]
+          - cell [ref=f3e845]
+          - cell "Bank of America checking account" [ref=f3e846]
+          - cell [ref=f3e847]
+          - cell "$111.86" [ref=f3e848]
+        - row [ref=f3e849]:
+          - cell [ref=f3e850]
+          - cell [ref=f3e851]
+          - cell [ref=f3e852]
+          - cell [ref=f3e853]
+          - cell "Barclaycard payment" [ref=f3e854]
+          - cell [ref=f3e855]
+          - cell [ref=f3e856]
+        - row [ref=f3e857]:
+          - cell "GJ-0033" [ref=f3e858]
+          - cell [ref=f3e859]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e860] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e861]
+          - cell "2026-09-18" [ref=f3e862]
+          - cell "Unclassified bank activity" [ref=f3e863]
+          - cell "$0.01" [ref=f3e864]
+          - cell [ref=f3e865]
+        - row [ref=f3e866]:
+          - cell [ref=f3e867]
+          - cell [ref=f3e868]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e869] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e870]
+          - cell [ref=f3e871]
+          - cell "Bank of America checking account" [ref=f3e872]
+          - cell [ref=f3e873]
+          - cell "$0.01" [ref=f3e874]
+        - row [ref=f3e875]:
+          - cell [ref=f3e876]
+          - cell [ref=f3e877]
+          - cell [ref=f3e878]
+          - cell [ref=f3e879]
+          - cell "Keep the Change transfer to savings 3435" [ref=f3e880]
+          - cell [ref=f3e881]
+          - cell [ref=f3e882]
+        - row [ref=f3e883]:
+          - cell "GJ-0034" [ref=f3e884]
+          - cell [ref=f3e885]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e886] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2109" [ref=f3e887]
+          - cell "2026-09-22" [ref=f3e888]
+          - cell "Apple Card" [ref=f3e889]
+          - cell "$25.00" [ref=f3e890]
+          - cell [ref=f3e891]
+        - row [ref=f3e892]:
+          - cell [ref=f3e893]
+          - cell [ref=f3e894]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e895] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e896]
+          - cell [ref=f3e897]
+          - cell "Bank of America checking account" [ref=f3e898]
+          - cell [ref=f3e899]
+          - cell "$25.00" [ref=f3e900]
+        - row [ref=f3e901]:
+          - cell [ref=f3e902]
+          - cell [ref=f3e903]
+          - cell [ref=f3e904]
+          - cell [ref=f3e905]
+          - cell "Apple Card payment" [ref=f3e906]
+          - cell [ref=f3e907]
+          - cell [ref=f3e908]
+        - row [ref=f3e909]:
+          - cell "GJ-0035" [ref=f3e910]
+          - cell [ref=f3e911]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e912] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e913]
+          - cell "2026-09-23" [ref=f3e914]
+          - cell "Bank of America checking account" [ref=f3e915]
+          - cell "$4,000.00" [ref=f3e916]
+          - cell [ref=f3e917]
+        - row [ref=f3e918]:
+          - cell [ref=f3e919]
+          - cell [ref=f3e920]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e921] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e922]
+          - cell [ref=f3e923]
+          - cell "Unclassified bank activity" [ref=f3e924]
+          - cell [ref=f3e925]
+          - cell "$4,000.00" [ref=f3e926]
+        - row [ref=f3e927]:
+          - cell [ref=f3e928]
+          - cell [ref=f3e929]
+          - cell [ref=f3e930]
+          - cell [ref=f3e931]
+          - cell "Online transfer from savings 3435" [ref=f3e932]
+          - cell [ref=f3e933]
+          - cell [ref=f3e934]
+        - row [ref=f3e935]:
+          - cell "GJ-0036" [ref=f3e936]
+          - cell [ref=f3e937]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e938] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2105" [ref=f3e939]
+          - cell "2026-09-24" [ref=f3e940]
+          - cell "Target Circle Card ending in 6343" [ref=f3e941]
+          - cell "$3,925.56" [ref=f3e942]
+          - cell [ref=f3e943]
+        - row [ref=f3e944]:
+          - cell [ref=f3e945]
+          - cell [ref=f3e946]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e947] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e948]
+          - cell [ref=f3e949]
+          - cell "Bank of America checking account" [ref=f3e950]
+          - cell [ref=f3e951]
+          - cell "$3,925.56" [ref=f3e952]
+        - row [ref=f3e953]:
+          - cell [ref=f3e954]
+          - cell [ref=f3e955]
+          - cell [ref=f3e956]
+          - cell [ref=f3e957]
+          - cell "Target Card payment" [ref=f3e958]
+          - cell [ref=f3e959]
+          - cell [ref=f3e960]
+        - row [ref=f3e961]:
+          - cell "GJ-0037" [ref=f3e962]
+          - cell [ref=f3e963]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e964] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "5004" [ref=f3e965]
+          - cell "2026-09-24" [ref=f3e966]
+          - cell "Church tithing" [ref=f3e967]
+          - cell "$100.00" [ref=f3e968]
+          - cell [ref=f3e969]
+        - row [ref=f3e970]:
+          - cell [ref=f3e971]
+          - cell [ref=f3e972]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e973] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e974]
+          - cell [ref=f3e975]
+          - cell "Bank of America checking account" [ref=f3e976]
+          - cell [ref=f3e977]
+          - cell "$100.00" [ref=f3e978]
+        - row [ref=f3e979]:
+          - cell [ref=f3e980]
+          - cell [ref=f3e981]
+          - cell [ref=f3e982]
+          - cell [ref=f3e983]
+          - cell "Church donation" [ref=f3e984]
+          - cell [ref=f3e985]
+          - cell [ref=f3e986]
+        - row [ref=f3e987]:
+          - cell "GJ-0038" [ref=f3e988]
+          - cell [ref=f3e989]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e990] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2102" [ref=f3e991]
+          - cell "2026-09-24" [ref=f3e992]
+          - cell "Amazon Synchrony ending in 9883" [ref=f3e993]
+          - cell "$89.12" [ref=f3e994]
+          - cell [ref=f3e995]
+        - row [ref=f3e996]:
+          - cell [ref=f3e997]
+          - cell [ref=f3e998]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e999] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e1000]
+          - cell [ref=f3e1001]
+          - cell "Bank of America checking account" [ref=f3e1002]
+          - cell [ref=f3e1003]
+          - cell "$89.12" [ref=f3e1004]
+        - row [ref=f3e1005]:
+          - cell [ref=f3e1006]
+          - cell [ref=f3e1007]
+          - cell [ref=f3e1008]
+          - cell [ref=f3e1009]
+          - cell "Amazon Synchrony payment" [ref=f3e1010]
+          - cell [ref=f3e1011]
+          - cell [ref=f3e1012]
+        - row [ref=f3e1013]:
+          - cell "GJ-0039" [ref=f3e1014]
+          - cell [ref=f3e1015]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e1016] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2103" [ref=f3e1017]
+          - cell "2026-09-24" [ref=f3e1018]
+          - cell "Lowe's account" [ref=f3e1019]
+          - cell "$39.21" [ref=f3e1020]
+          - cell [ref=f3e1021]
+        - row [ref=f3e1022]:
+          - cell [ref=f3e1023]
+          - cell [ref=f3e1024]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e1025] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e1026]
+          - cell [ref=f3e1027]
+          - cell "Bank of America checking account" [ref=f3e1028]
+          - cell [ref=f3e1029]
+          - cell "$39.21" [ref=f3e1030]
+        - row [ref=f3e1031]:
+          - cell [ref=f3e1032]
+          - cell [ref=f3e1033]
+          - cell [ref=f3e1034]
+          - cell [ref=f3e1035]
+          - cell "Lowe's payment" [ref=f3e1036]
+          - cell [ref=f3e1037]
+          - cell [ref=f3e1038]
+        - row [ref=f3e1039]:
+          - cell "GJ-0040" [ref=f3e1040]
+          - cell [ref=f3e1041]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e1042] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e1043]
+          - cell "2026-09-25" [ref=f3e1044]
+          - cell "Bank of America checking account" [ref=f3e1045]
+          - cell "$2,207.08" [ref=f3e1046]
+          - cell [ref=f3e1047]
+        - row [ref=f3e1048]:
+          - cell [ref=f3e1049]
+          - cell [ref=f3e1050]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e1051] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "4000" [ref=f3e1052]
+          - cell [ref=f3e1053]
+          - cell "CRC Services payroll income" [ref=f3e1054]
+          - cell [ref=f3e1055]
+          - cell "$2,207.08" [ref=f3e1056]
+        - row [ref=f3e1057]:
+          - cell [ref=f3e1058]
+          - cell [ref=f3e1059]
+          - cell [ref=f3e1060]
+          - cell [ref=f3e1061]
+          - cell "CRC payroll - 2nd of the month" [ref=f3e1062]
+          - cell [ref=f3e1063]
+          - cell [ref=f3e1064]
+        - row [ref=f3e1065]:
+          - cell "GJ-0041" [ref=f3e1066]
+          - cell [ref=f3e1067]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e1068] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "2110" [ref=f3e1069]
+          - cell "2026-09-25" [ref=f3e1070]
+          - cell "American Express" [ref=f3e1071]
+          - cell "$604.37" [ref=f3e1072]
+          - cell [ref=f3e1073]
+        - row [ref=f3e1074]:
+          - cell [ref=f3e1075]
+          - cell [ref=f3e1076]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e1077] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e1078]
+          - cell [ref=f3e1079]
+          - cell "Bank of America checking account" [ref=f3e1080]
+          - cell [ref=f3e1081]
+          - cell "$604.37" [ref=f3e1082]
+        - row [ref=f3e1083]:
+          - cell [ref=f3e1084]
+          - cell [ref=f3e1085]
+          - cell [ref=f3e1086]
+          - cell [ref=f3e1087]
+          - cell "American Express payment" [ref=f3e1088]
+          - cell [ref=f3e1089]
+          - cell [ref=f3e1090]
+        - row [ref=f3e1091]:
+          - cell "GJ-0042" [ref=f3e1092]
+          - cell [ref=f3e1093]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e1094] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e1095]
+          - cell "2026-09-28" [ref=f3e1096]
+          - cell "Bank of America checking account" [ref=f3e1097]
+          - cell "$800.00" [ref=f3e1098]
+          - cell [ref=f3e1099]
+        - row [ref=f3e1100]:
+          - cell [ref=f3e1101]
+          - cell [ref=f3e1102]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e1103] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell [ref=f3e1104]
+          - cell [ref=f3e1105]
+          - cell "Unclassified bank activity" [ref=f3e1106]
+          - cell [ref=f3e1107]
+          - cell "$800.00" [ref=f3e1108]
+        - row [ref=f3e1109]:
+          - cell [ref=f3e1110]
+          - cell [ref=f3e1111]
+          - cell [ref=f3e1112]
+          - cell [ref=f3e1113]
+          - cell "Transfer from Lester S Carcamo" [ref=f3e1114]
+          - cell [ref=f3e1115]
+          - cell [ref=f3e1116]
+        - row [ref=f3e1117]:
+          - cell "GJ-0043" [ref=f3e1118]
+          - cell [ref=f3e1119]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e1120] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1004" [ref=f3e1121]
+          - cell "2026-09-28" [ref=f3e1122]
+          - cell "Bank of America savings ending in 3435" [ref=f3e1123]
+          - cell "$25.00" [ref=f3e1124]
+          - cell [ref=f3e1125]
+        - row [ref=f3e1126]:
+          - cell [ref=f3e1127]
+          - cell [ref=f3e1128]:
+            - link "BofA-2026-09-7632.pdf" [ref=f3e1129] [cursor=pointer]:
+              - /url: BofA-2026-09-7632.pdf
+          - cell "1000" [ref=f3e1130]
+          - cell [ref=f3e1131]
+          - cell "Bank of America checking account" [ref=f3e1132]
+          - cell [ref=f3e1133]
+          - cell "$25.00" [ref=f3e1134]
+        - row [ref=f3e1135]:
+          - cell [ref=f3e1136]
+          - cell [ref=f3e1137]
+          - cell [ref=f3e1138]
+          - cell [ref=f3e1139]
+          - cell "Automatic transfer to savings 3435" [ref=f3e1140]
+          - cell [ref=f3e1141]
+          - cell [ref=f3e1142]
+        - row [ref=f3e1143]:
+          - cell "GJ-0044" [ref=f3e1144]
+          - cell [ref=f3e1145]:
+            - link "Barclays-2026-08-0741.pdf" [ref=f3e1146] [cursor=pointer]:
+              - /url: Barclays-2026-08-0741.pdf
+          - cell "5005" [ref=f3e1147]
+          - cell "2026-08-17" [ref=f3e1148]
+          - cell "San Joaquin Pest Control" [ref=f3e1149]
+          - cell "$49.00" [ref=f3e1150]
+          - cell [ref=f3e1151]
+        - row [ref=f3e1152]:
+          - cell [ref=f3e1153]
+          - cell [ref=f3e1154]:
+            - link "Barclays-2026-08-0741.pdf" [ref=f3e1155] [cursor=pointer]:
+              - /url: Barclays-2026-08-0741.pdf
+          - cell "2112" [ref=f3e1156]
+          - cell [ref=f3e1157]
+          - cell "Barclays Rewards World Mastercard ending in 0741" [ref=f3e1158]
+          - cell [ref=f3e1159]
+          - cell "$49.00" [ref=f3e1160]
+        - row [ref=f3e1161]:
+          - cell [ref=f3e1162]
+          - cell [ref=f3e1163]
+          - cell [ref=f3e1164]
+          - cell [ref=f3e1165]
+          - cell "San Joaquin Pest Control monthly service charged to Barclays 0741" [ref=f3e1166]
+          - cell [ref=f3e1167]
+          - cell [ref=f3e1168]
+        - row [ref=f3e1169]:
+          - cell "GJ-0045" [ref=f3e1170]
+          - cell [ref=f3e1171]:
+            - link "Barclays-2026-08-0741.pdf" [ref=f3e1172] [cursor=pointer]:
+              - /url: Barclays-2026-08-0741.pdf
+          - cell "2112" [ref=f3e1173]
+          - cell "2026-08-18" [ref=f3e1174]
+          - cell "Barclays Rewards World Mastercard ending in 0741" [ref=f3e1175]
+          - cell "$49.00" [ref=f3e1176]
+          - cell [ref=f3e1177]
+        - row [ref=f3e1178]:
+          - cell [ref=f3e1179]
+          - cell [ref=f3e1180]:
+            - link "Barclays-2026-08-0741.pdf" [ref=f3e1181] [cursor=pointer]:
+              - /url: Barclays-2026-08-0741.pdf
+          - cell "5005" [ref=f3e1182]
+          - cell [ref=f3e1183]
+          - cell "San Joaquin Pest Control" [ref=f3e1184]
+          - cell [ref=f3e1185]
+          - cell "$49.00" [ref=f3e1186]
+        - row [ref=f3e1187]:
+          - cell [ref=f3e1188]
+          - cell [ref=f3e1189]
+          - cell [ref=f3e1190]
+          - cell [ref=f3e1191]
+          - cell "San Joaquin Pest Control payment by Barclays 0741" [ref=f3e1192]
+          - cell [ref=f3e1193]
+          - cell [ref=f3e1194]
+        - row [ref=f3e1195]:
+          - cell "GJ-0046" [ref=f3e1196]
+          - cell [ref=f3e1197]:
+            - link "Barclays-2026-08-2946.pdf" [ref=f3e1198] [cursor=pointer]:
+              - /url: Barclays-2026-08-2946.pdf
+          - cell "5001" [ref=f3e1199]
+          - cell "2026-09-08" [ref=f3e1200]
+          - cell "Credit card interest expense" [ref=f3e1201]
+          - cell "$10.58" [ref=f3e1202]
+          - cell [ref=f3e1203]
+        - row [ref=f3e1204]:
+          - cell [ref=f3e1205]
+          - cell [ref=f3e1206]:
+            - link "Barclays-2026-08-2946.pdf" [ref=f3e1207] [cursor=pointer]:
+              - /url: Barclays-2026-08-2946.pdf
+          - cell "2104" [ref=f3e1208]
+          - cell [ref=f3e1209]
+          - cell "GM Rewards Mastercard" [ref=f3e1210]
+          - cell [ref=f3e1211]
+          - cell "$10.58" [ref=f3e1212]
+        - row [ref=f3e1213]:
+          - cell [ref=f3e1214]
+          - cell [ref=f3e1215]
+          - cell [ref=f3e1216]
+          - cell [ref=f3e1217]
+          - cell "GM Rewards Mastercard interest charge" [ref=f3e1218]
+          - cell [ref=f3e1219]
+          - cell [ref=f3e1220]
+        - row [ref=f3e1221]:
+          - cell "GJ-0047" [ref=f3e1222]
+          - cell "Pending source document" [ref=f3e1223]
+          - cell "5000" [ref=f3e1224]
+          - cell "2026-09-09" [ref=f3e1225]
+          - cell "GM Marketplace purchases" [ref=f3e1226]
+          - cell "$31.28" [ref=f3e1227]
+          - cell [ref=f3e1228]
+        - row [ref=f3e1229]:
+          - cell [ref=f3e1230]
+          - cell "Pending source document" [ref=f3e1231]
+          - cell "2999" [ref=f3e1232]
+          - cell [ref=f3e1233]
+          - cell "Unclassified activity (suspense)" [ref=f3e1234]
+          - cell [ref=f3e1235]
+          - cell "$31.28" [ref=f3e1236]
+        - row [ref=f3e1237]:
+          - cell [ref=f3e1238]
+          - cell [ref=f3e1239]
+          - cell [ref=f3e1240]
+          - cell [ref=f3e1241]
+          - cell "GM Marketplace purchase pending card-statement confirmation" [ref=f3e1242]
+          - cell [ref=f3e1243]
+          - cell [ref=f3e1244]
+        - row [ref=f3e1245]:
+          - cell "GJ-0048" [ref=f3e1246]
+          - cell "Pending source document" [ref=f3e1247]
+          - cell "2999" [ref=f3e1248]
+          - cell "2026-09-16" [ref=f3e1249]
+          - cell "Unclassified activity (suspense)" [ref=f3e1250]
+          - cell "$111.86" [ref=f3e1251]
+          - cell [ref=f3e1252]
+        - row [ref=f3e1253]:
+          - cell [ref=f3e1254]
+          - cell "Pending source document" [ref=f3e1255]
+          - cell "1000" [ref=f3e1256]
+          - cell [ref=f3e1257]
+          - cell "Bank of America checking account" [ref=f3e1258]
+          - cell [ref=f3e1259]
+          - cell "$111.86" [ref=f3e1260]
+        - row [ref=f3e1261]:
+          - cell [ref=f3e1262]
+          - cell [ref=f3e1263]
+          - cell [ref=f3e1264]
+          - cell [ref=f3e1265]
+          - cell "Unclassified card payment pending statement confirmation" [ref=f3e1266]
+          - cell [ref=f3e1267]
+          - cell [ref=f3e1268]
+        - row [ref=f3e1269]:
+          - cell "GJ-0049" [ref=f3e1270]
+          - cell "Pending source document" [ref=f3e1271]
+          - cell "2999" [ref=f3e1272]
+          - cell "2026-09-28" [ref=f3e1273]
+          - cell "Unclassified activity (suspense)" [ref=f3e1274]
+          - cell "$200.00" [ref=f3e1275]
+          - cell [ref=f3e1276]
+        - row [ref=f3e1277]:
+          - cell [ref=f3e1278]
+          - cell "Pending source document" [ref=f3e1279]
+          - cell "1000" [ref=f3e1280]
+          - cell [ref=f3e1281]
+          - cell "Bank of America checking account" [ref=f3e1282]
+          - cell [ref=f3e1283]
+          - cell "$200.00" [ref=f3e1284]
+        - row [ref=f3e1285]:
+          - cell [ref=f3e1286]
+          - cell [ref=f3e1287]
+          - cell [ref=f3e1288]
+          - cell [ref=f3e1289]
+          - cell "Unclassified card payment pending statement confirmation" [ref=f3e1290]
+          - cell [ref=f3e1291]
+          - cell [ref=f3e1292]
+        - row [ref=f3e1293]:
+          - cell "GJ-0050" [ref=f3e1294]
+          - cell [ref=f3e1295]:
+            - link "WellsFargo-2026-08_0805.pdf" [ref=f3e1296] [cursor=pointer]:
+              - /url: WellsFargo-2026-08_0805.pdf
+          - cell "1005" [ref=f3e1297]
+          - cell "2026-08-20" [ref=f3e1298]
+          - cell "Wells Fargo Way2Save Savings ending in 0805" [ref=f3e1299]
+          - cell "$25.00" [ref=f3e1300]
+          - cell [ref=f3e1301]
+        - row [ref=f3e1302]:
+          - cell [ref=f3e1303]
+          - cell "Pending source document" [ref=f3e1304]
+          - cell "1001" [ref=f3e1305]
+          - cell [ref=f3e1306]
+          - cell "Wells Fargo Everyday Checking ending in 0009" [ref=f3e1307]
+          - cell [ref=f3e1308]
+          - cell "$25.00" [ref=f3e1309]
+        - row [ref=f3e1310]:
+          - cell [ref=f3e1311]
+          - cell [ref=f3e1312]
+          - cell [ref=f3e1313]
+          - cell [ref=f3e1314]
+          - cell "Transfer from Wells Fargo Everyday Checking to Way2Save Savings" [ref=f3e1315]
+          - cell [ref=f3e1316]
+          - cell [ref=f3e1317]
+        - row [ref=f3e1318]:
+          - cell "GJ-0051" [ref=f3e1319]
+          - cell [ref=f3e1320]:
+            - link "WellsFargo-2026-09_0009.pdf" [ref=f3e1321] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_0009.pdf
+          - cell "1001" [ref=f3e1322]
+          - cell "2026-08-28" [ref=f3e1323]
+          - cell "Wells Fargo Everyday Checking ending in 0009" [ref=f3e1324]
+          - cell "$375.00" [ref=f3e1325]
+          - cell [ref=f3e1326]
+        - row [ref=f3e1327]:
+          - cell [ref=f3e1328]
+          - cell [ref=f3e1329]:
+            - link "WellsFargo-2026-09_0009.pdf" [ref=f3e1330] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_0009.pdf
+          - cell "4000" [ref=f3e1331]
+          - cell [ref=f3e1332]
+          - cell "CRC Services payroll income" [ref=f3e1333]
+          - cell [ref=f3e1334]
+          - cell "$375.00" [ref=f3e1335]
+        - row [ref=f3e1336]:
+          - cell [ref=f3e1337]
+          - cell [ref=f3e1338]
+          - cell [ref=f3e1339]
+          - cell [ref=f3e1340]
+          - cell "CRC Services payroll deposit to Wells Fargo Everyday Checking" [ref=f3e1341]
+          - cell [ref=f3e1342]
+          - cell [ref=f3e1343]
+        - row [ref=f3e1344]:
+          - cell "GJ-0052" [ref=f3e1345]
+          - cell [ref=f3e1346]:
+            - link "WellsFargo-2026-09_9110.pdf" [ref=f3e1347] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_9110.pdf
+          - cell "5006" [ref=f3e1348]
+          - cell "2026-08-29" [ref=f3e1349]
+          - cell "AT&T mobility" [ref=f3e1350]
+          - cell "$157.18" [ref=f3e1351]
+          - cell [ref=f3e1352]
+        - row [ref=f3e1353]:
+          - cell [ref=f3e1354]
+          - cell [ref=f3e1355]:
+            - link "WellsFargo-2026-09_9110.pdf" [ref=f3e1356] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_9110.pdf
+          - cell "2107" [ref=f3e1357]
+          - cell [ref=f3e1358]
+          - cell "Wells Fargo Active Cash ending in 9110" [ref=f3e1359]
+          - cell [ref=f3e1360]
+          - cell "$157.18" [ref=f3e1361]
+        - row [ref=f3e1362]:
+          - cell [ref=f3e1363]
+          - cell [ref=f3e1364]
+          - cell [ref=f3e1365]
+          - cell [ref=f3e1366]
+          - cell "AT&T Mobility charge to Wells Fargo Active Cash" [ref=f3e1367]
+          - cell [ref=f3e1368]
+          - cell [ref=f3e1369]
+        - row [ref=f3e1370]:
+          - cell "GJ-0053" [ref=f3e1371]
+          - cell [ref=f3e1372]:
+            - link "WellsFargo-2026-09_0009.pdf" [ref=f3e1373] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_0009.pdf
+          - cell "2999" [ref=f3e1374]
+          - cell "2026-08-31" [ref=f3e1375]
+          - cell "Unclassified activity (suspense)" [ref=f3e1376]
+          - cell "$300.00" [ref=f3e1377]
+          - cell [ref=f3e1378]
+        - row [ref=f3e1379]:
+          - cell [ref=f3e1380]
+          - cell [ref=f3e1381]:
+            - link "WellsFargo-2026-09_0009.pdf" [ref=f3e1382] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_0009.pdf
+          - cell "1001" [ref=f3e1383]
+          - cell [ref=f3e1384]
+          - cell "Wells Fargo Everyday Checking ending in 0009" [ref=f3e1385]
+          - cell [ref=f3e1386]
+          - cell "$300.00" [ref=f3e1387]
+        - row [ref=f3e1388]:
+          - cell [ref=f3e1389]
+          - cell [ref=f3e1390]
+          - cell [ref=f3e1391]
+          - cell [ref=f3e1392]
+          - cell "ATM withdrawal from Wells Fargo Everyday Checking" [ref=f3e1393]
+          - cell [ref=f3e1394]
+          - cell [ref=f3e1395]
+        - row [ref=f3e1396]:
+          - cell "GJ-0054" [ref=f3e1397]
+          - cell [ref=f3e1398]:
+            - link "WellsFargo-2026-08_0805.pdf" [ref=f3e1399] [cursor=pointer]:
+              - /url: WellsFargo-2026-08_0805.pdf
+          - cell "1005" [ref=f3e1400]
+          - cell "2026-08-31" [ref=f3e1401]
+          - cell "Wells Fargo Way2Save Savings ending in 0805" [ref=f3e1402]
+          - cell "$0.01" [ref=f3e1403]
+          - cell [ref=f3e1404]
+        - row [ref=f3e1405]:
+          - cell [ref=f3e1406]
+          - cell [ref=f3e1407]:
+            - link "WellsFargo-2026-08_0805.pdf" [ref=f3e1408] [cursor=pointer]:
+              - /url: WellsFargo-2026-08_0805.pdf
+          - cell "4001" [ref=f3e1409]
+          - cell [ref=f3e1410]
+          - cell "Bank interest income" [ref=f3e1411]
+          - cell [ref=f3e1412]
+          - cell "$0.01" [ref=f3e1413]
+        - row [ref=f3e1414]:
+          - cell [ref=f3e1415]
+          - cell [ref=f3e1416]
+          - cell [ref=f3e1417]
+          - cell [ref=f3e1418]
+          - cell "Interest paid to Wells Fargo Way2Save Savings" [ref=f3e1419]
+          - cell [ref=f3e1420]
+          - cell [ref=f3e1421]
+        - row [ref=f3e1422]:
+          - cell "GJ-0055" [ref=f3e1423]
+          - cell [ref=f3e1424]:
+            - link "WellsFargo-2026-09_0009.pdf" [ref=f3e1425] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_0009.pdf
+          - cell "1001" [ref=f3e1426]
+          - cell "2026-09-11" [ref=f3e1427]
+          - cell "Wells Fargo Everyday Checking ending in 0009" [ref=f3e1428]
+          - cell "$375.00" [ref=f3e1429]
+          - cell [ref=f3e1430]
+        - row [ref=f3e1431]:
+          - cell [ref=f3e1432]
+          - cell [ref=f3e1433]:
+            - link "WellsFargo-2026-09_0009.pdf" [ref=f3e1434] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_0009.pdf
+          - cell "4000" [ref=f3e1435]
+          - cell [ref=f3e1436]
+          - cell "CRC Services payroll income" [ref=f3e1437]
+          - cell [ref=f3e1438]
+          - cell "$375.00" [ref=f3e1439]
+        - row [ref=f3e1440]:
+          - cell [ref=f3e1441]
+          - cell [ref=f3e1442]
+          - cell [ref=f3e1443]
+          - cell [ref=f3e1444]
+          - cell "CRC Services payroll deposit to Wells Fargo Everyday Checking" [ref=f3e1445]
+          - cell [ref=f3e1446]
+          - cell [ref=f3e1447]
+        - row [ref=f3e1448]:
+          - cell "GJ-0056" [ref=f3e1449]
+          - cell [ref=f3e1450]:
+            - link "WellsFargo-2026-09_0009.pdf" [ref=f3e1451] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_0009.pdf
+          - cell "2999" [ref=f3e1452]
+          - cell "2026-09-14" [ref=f3e1453]
+          - cell "Unclassified activity (suspense)" [ref=f3e1454]
+          - cell "$400.00" [ref=f3e1455]
+          - cell [ref=f3e1456]
+        - row [ref=f3e1457]:
+          - cell [ref=f3e1458]
+          - cell [ref=f3e1459]:
+            - link "WellsFargo-2026-09_0009.pdf" [ref=f3e1460] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_0009.pdf
+          - cell "1001" [ref=f3e1461]
+          - cell [ref=f3e1462]
+          - cell "Wells Fargo Everyday Checking ending in 0009" [ref=f3e1463]
+          - cell [ref=f3e1464]
+          - cell "$400.00" [ref=f3e1465]
+        - row [ref=f3e1466]:
+          - cell [ref=f3e1467]
+          - cell [ref=f3e1468]
+          - cell [ref=f3e1469]
+          - cell [ref=f3e1470]
+          - cell "ATM withdrawal from Wells Fargo Everyday Checking" [ref=f3e1471]
+          - cell [ref=f3e1472]
+          - cell [ref=f3e1473]
+        - row [ref=f3e1474]:
+          - cell "GJ-0057" [ref=f3e1475]
+          - cell [ref=f3e1476]:
+            - link "WellsFargo-2026-09_0009.pdf" [ref=f3e1477] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_0009.pdf
+          - cell "1005" [ref=f3e1478]
+          - cell "2026-09-21" [ref=f3e1479]
+          - cell "Wells Fargo Way2Save Savings ending in 0805" [ref=f3e1480]
+          - cell "$25.00" [ref=f3e1481]
+          - cell [ref=f3e1482]
+        - row [ref=f3e1483]:
+          - cell [ref=f3e1484]
+          - cell [ref=f3e1485]:
+            - link "WellsFargo-2026-09_0009.pdf" [ref=f3e1486] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_0009.pdf
+          - cell "1001" [ref=f3e1487]
+          - cell [ref=f3e1488]
+          - cell "Wells Fargo Everyday Checking ending in 0009" [ref=f3e1489]
+          - cell [ref=f3e1490]
+          - cell "$25.00" [ref=f3e1491]
+        - row [ref=f3e1492]:
+          - cell [ref=f3e1493]
+          - cell [ref=f3e1494]
+          - cell [ref=f3e1495]
+          - cell [ref=f3e1496]
+          - cell "Transfer from Wells Fargo Everyday Checking to Way2Save Savings" [ref=f3e1497]
+          - cell [ref=f3e1498]
+          - cell [ref=f3e1499]
+        - row [ref=f3e1500]:
+          - cell "GJ-0058" [ref=f3e1501]
+          - cell [ref=f3e1502]:
+            - link "WellsFargo-2026-09_9110.pdf" [ref=f3e1503] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_9110.pdf
+          - cell "2107" [ref=f3e1504]
+          - cell "2026-09-23" [ref=f3e1505]
+          - cell "Wells Fargo Active Cash ending in 9110" [ref=f3e1506]
+          - cell "$7.18" [ref=f3e1507]
+          - cell [ref=f3e1508]
+        - row [ref=f3e1509]:
+          - cell [ref=f3e1510]
+          - cell [ref=f3e1511]:
+            - link "WellsFargo-2026-09_0009.pdf" [ref=f3e1512] [cursor=pointer]:
+              - /url: WellsFargo-2026-09_0009.pdf
+          - cell "1001" [ref=f3e1513]
+          - cell [ref=f3e1514]
+          - cell "Wells Fargo Everyday Checking ending in 0009" [ref=f3e1515]
+          - cell [ref=f3e1516]
+          - cell "$7.18" [ref=f3e1517]
+        - row [ref=f3e1518]:
+          - cell [ref=f3e1519]
+          - cell [ref=f3e1520]
+          - cell [ref=f3e1521]
+          - cell [ref=f3e1522]
+          - cell "Wells Fargo Everyday Checking payment to Active Cash Visa" [ref=f3e1523]
+          - cell [ref=f3e1524]
+          - cell [ref=f3e1525]
+        - row [ref=f3e1526]:
+          - cell "GJ-0059" [ref=f3e1527]
+          - cell "Pending source document" [ref=f3e1528]
+          - cell "2107" [ref=f3e1529]
+          - cell "2026-09-28" [ref=f3e1530]
+          - cell "Wells Fargo Active Cash ending in 9110" [ref=f3e1531]
+          - cell "$106.97" [ref=f3e1532]
+          - cell [ref=f3e1533]
+        - row [ref=f3e1534]:
+          - cell [ref=f3e1535]
+          - cell "Pending source document" [ref=f3e1536]
+          - cell "1003" [ref=f3e1537]
+          - cell [ref=f3e1538]
+          - cell "Other funding account (unspecified)" [ref=f3e1539]
+          - cell [ref=f3e1540]
+          - cell "$106.97" [ref=f3e1541]
+        - row [ref=f3e1542]:
+          - cell [ref=f3e1543]
+          - cell [ref=f3e1544]
+          - cell [ref=f3e1545]
+          - cell [ref=f3e1546]
+          - cell "Payment to Wells Fargo Active Cash from another account" [ref=f3e1547]
+          - cell [ref=f3e1548]
+          - cell [ref=f3e1549]
+        - row [ref=f3e1550]:
+          - cell "GJ-0060" [ref=f3e1551]
+          - cell [ref=f3e1552]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1553] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+            - text: ", Pending source document"
+          - cell "2999" [ref=f3e1554]
+          - cell "2026-07-21" [ref=f3e1555]
+          - cell "Unclassified activity (suspense)" [ref=f3e1556]
+          - cell "$32.99" [ref=f3e1557]
+          - cell [ref=f3e1558]
+        - row [ref=f3e1559]:
+          - cell [ref=f3e1560]
+          - cell [ref=f3e1561]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1562] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "1006" [ref=f3e1563]
+          - cell [ref=f3e1564]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1565]
+          - cell [ref=f3e1566]
+          - cell "$32.99" [ref=f3e1567]
+        - row [ref=f3e1568]:
+          - cell [ref=f3e1569]
+          - cell [ref=f3e1570]
+          - cell [ref=f3e1571]
+          - cell [ref=f3e1572]
+          - cell "Chase Freedom Flex payment pending prior-cycle balance confirmation" [ref=f3e1573]
+          - cell [ref=f3e1574]
+          - cell [ref=f3e1575]
+        - row [ref=f3e1576]:
+          - cell "GJ-0061" [ref=f3e1577]
+          - cell [ref=f3e1578]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1579] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "1000" [ref=f3e1580]
+          - cell "2026-07-23" [ref=f3e1581]
+          - cell "Bank of America checking account" [ref=f3e1582]
+          - cell "$400.00" [ref=f3e1583]
+          - cell [ref=f3e1584]
+        - row [ref=f3e1585]:
+          - cell [ref=f3e1586]
+          - cell [ref=f3e1587]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1588] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "1006" [ref=f3e1589]
+          - cell [ref=f3e1590]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1591]
+          - cell [ref=f3e1592]
+          - cell "$400.00" [ref=f3e1593]
+        - row [ref=f3e1594]:
+          - cell [ref=f3e1595]
+          - cell [ref=f3e1596]
+          - cell [ref=f3e1597]
+          - cell [ref=f3e1598]
+          - cell "Transfer from Chase Total Checking to Bank of America checking ending in 7632" [ref=f3e1599]
+          - cell [ref=f3e1600]
+          - cell [ref=f3e1601]
+        - row [ref=f3e1602]:
+          - cell "GJ-0062" [ref=f3e1603]
+          - cell [ref=f3e1604]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1605] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "1006" [ref=f3e1606]
+          - cell "2026-07-31" [ref=f3e1607]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1608]
+          - cell "$250.00" [ref=f3e1609]
+          - cell [ref=f3e1610]
+        - row [ref=f3e1611]:
+          - cell [ref=f3e1612]
+          - cell [ref=f3e1613]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1614] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "4000" [ref=f3e1615]
+          - cell [ref=f3e1616]
+          - cell "CRC Services payroll income" [ref=f3e1617]
+          - cell [ref=f3e1618]
+          - cell "$250.00" [ref=f3e1619]
+        - row [ref=f3e1620]:
+          - cell [ref=f3e1621]
+          - cell [ref=f3e1622]
+          - cell [ref=f3e1623]
+          - cell [ref=f3e1624]
+          - cell "CRC Services payroll deposit to Chase Total Checking" [ref=f3e1625]
+          - cell [ref=f3e1626]
+          - cell [ref=f3e1627]
+        - row [ref=f3e1628]:
+          - cell "GJ-0063" [ref=f3e1629]
+          - cell [ref=f3e1630]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1631] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "1000" [ref=f3e1632]
+          - cell "2026-08-03" [ref=f3e1633]
+          - cell "Bank of America checking account" [ref=f3e1634]
+          - cell "$300.00" [ref=f3e1635]
+          - cell [ref=f3e1636]
+        - row [ref=f3e1637]:
+          - cell [ref=f3e1638]
+          - cell [ref=f3e1639]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1640] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "1006" [ref=f3e1641]
+          - cell [ref=f3e1642]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1643]
+          - cell [ref=f3e1644]
+          - cell "$300.00" [ref=f3e1645]
+        - row [ref=f3e1646]:
+          - cell [ref=f3e1647]
+          - cell [ref=f3e1648]
+          - cell [ref=f3e1649]
+          - cell [ref=f3e1650]
+          - cell "Transfer from Chase Total Checking to Bank of America checking ending in 7632" [ref=f3e1651]
+          - cell [ref=f3e1652]
+          - cell [ref=f3e1653]
+        - row [ref=f3e1654]:
+          - cell "GJ-0064" [ref=f3e1655]
+          - cell [ref=f3e1656]:
+            - link "Affirm Loan.pdf" [ref=f3e1657] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+            - text: ","
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1658] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "2113" [ref=f3e1659]
+          - cell "2026-08-10" [ref=f3e1660]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e1661]
+          - cell "$77.13" [ref=f3e1662]
+          - cell [ref=f3e1663]
+        - row [ref=f3e1664]:
+          - cell [ref=f3e1665]
+          - cell [ref=f3e1666]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1667] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "1006" [ref=f3e1668]
+          - cell [ref=f3e1669]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1670]
+          - cell [ref=f3e1671]
+          - cell "$77.13" [ref=f3e1672]
+        - row [ref=f3e1673]:
+          - cell [ref=f3e1674]
+          - cell [ref=f3e1675]
+          - cell [ref=f3e1676]
+          - cell [ref=f3e1677]
+          - cell "Affirm Monitor payment cleared from Chase Total Checking" [ref=f3e1678]
+          - cell [ref=f3e1679]
+          - cell [ref=f3e1680]
+        - row [ref=f3e1681]:
+          - cell "GJ-0065" [ref=f3e1682]
+          - cell [ref=f3e1683]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1684] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "5007" [ref=f3e1685]
+          - cell "2026-08-11" [ref=f3e1686]
+          - cell "Bank fees" [ref=f3e1687]
+          - cell "$34.00" [ref=f3e1688]
+          - cell [ref=f3e1689]
+        - row [ref=f3e1690]:
+          - cell [ref=f3e1691]
+          - cell [ref=f3e1692]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1693] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "1006" [ref=f3e1694]
+          - cell [ref=f3e1695]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1696]
+          - cell [ref=f3e1697]
+          - cell "$34.00" [ref=f3e1698]
+        - row [ref=f3e1699]:
+          - cell [ref=f3e1700]
+          - cell [ref=f3e1701]
+          - cell [ref=f3e1702]
+          - cell [ref=f3e1703]
+          - cell "Chase Total Checking overdraft fee" [ref=f3e1704]
+          - cell [ref=f3e1705]
+          - cell [ref=f3e1706]
+        - row [ref=f3e1707]:
+          - cell "GJ-0066" [ref=f3e1708]
+          - cell [ref=f3e1709]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1710] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "1006" [ref=f3e1711]
+          - cell "2026-08-12" [ref=f3e1712]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1713]
+          - cell "$100.00" [ref=f3e1714]
+          - cell [ref=f3e1715]
+        - row [ref=f3e1716]:
+          - cell [ref=f3e1717]
+          - cell [ref=f3e1718]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1719] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "1000" [ref=f3e1720]
+          - cell [ref=f3e1721]
+          - cell "Bank of America checking account" [ref=f3e1722]
+          - cell [ref=f3e1723]
+          - cell "$100.00" [ref=f3e1724]
+        - row [ref=f3e1725]:
+          - cell [ref=f3e1726]
+          - cell [ref=f3e1727]
+          - cell [ref=f3e1728]
+          - cell [ref=f3e1729]
+          - cell "Transfer from Bank of America checking ending in 7632 to Chase Total Checking" [ref=f3e1730]
+          - cell [ref=f3e1731]
+          - cell [ref=f3e1732]
+        - row [ref=f3e1733]:
+          - cell "GJ-0067" [ref=f3e1734]
+          - cell [ref=f3e1735]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1736] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "1006" [ref=f3e1737]
+          - cell "2026-08-14" [ref=f3e1738]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1739]
+          - cell "$250.00" [ref=f3e1740]
+          - cell [ref=f3e1741]
+        - row [ref=f3e1742]:
+          - cell [ref=f3e1743]
+          - cell [ref=f3e1744]:
+            - link "Chase_2026-08-5236-.pdf" [ref=f3e1745] [cursor=pointer]:
+              - /url: Chase_2026-08-5236-.pdf
+          - cell "4000" [ref=f3e1746]
+          - cell [ref=f3e1747]
+          - cell "CRC Services payroll income" [ref=f3e1748]
+          - cell [ref=f3e1749]
+          - cell "$250.00" [ref=f3e1750]
+        - row [ref=f3e1751]:
+          - cell [ref=f3e1752]
+          - cell [ref=f3e1753]
+          - cell [ref=f3e1754]
+          - cell [ref=f3e1755]
+          - cell "CRC Services payroll deposit to Chase Total Checking" [ref=f3e1756]
+          - cell [ref=f3e1757]
+          - cell [ref=f3e1758]
+        - row [ref=f3e1759]:
+          - cell "GJ-0068" [ref=f3e1760]
+          - cell [ref=f3e1761]:
+            - link "Chase-2026-08-3254-.pdf" [ref=f3e1762] [cursor=pointer]:
+              - /url: Chase-2026-08-3254-.pdf
+          - cell "5008" [ref=f3e1763]
+          - cell "2026-08-15" [ref=f3e1764]
+          - cell "Vehicle wash expense" [ref=f3e1765]
+          - cell "$32.99" [ref=f3e1766]
+          - cell [ref=f3e1767]
+        - row [ref=f3e1768]:
+          - cell [ref=f3e1769]
+          - cell [ref=f3e1770]:
+            - link "Chase-2026-08-3254-.pdf" [ref=f3e1771] [cursor=pointer]:
+              - /url: Chase-2026-08-3254-.pdf
+          - cell "2108" [ref=f3e1772]
+          - cell [ref=f3e1773]
+          - cell "Chase Freedom Flex ending in 3254" [ref=f3e1774]
+          - cell [ref=f3e1775]
+          - cell "$32.99" [ref=f3e1776]
+        - row [ref=f3e1777]:
+          - cell [ref=f3e1778]
+          - cell [ref=f3e1779]
+          - cell [ref=f3e1780]
+          - cell [ref=f3e1781]
+          - cell "Mister Car Wash purchase on Chase Freedom Flex ending in 3254" [ref=f3e1782]
+          - cell [ref=f3e1783]
+          - cell [ref=f3e1784]
+        - row [ref=f3e1785]:
+          - cell "GJ-0069" [ref=f3e1786]
+          - cell [ref=f3e1787]:
+            - link "Chase_2026-09-5236-.pdf" [ref=f3e1788] [cursor=pointer]:
+              - /url: Chase_2026-09-5236-.pdf
+          - cell "1006" [ref=f3e1789]
+          - cell "2026-08-28" [ref=f3e1790]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1791]
+          - cell "$250.00" [ref=f3e1792]
+          - cell [ref=f3e1793]
+        - row [ref=f3e1794]:
+          - cell [ref=f3e1795]
+          - cell [ref=f3e1796]:
+            - link "Chase_2026-09-5236-.pdf" [ref=f3e1797] [cursor=pointer]:
+              - /url: Chase_2026-09-5236-.pdf
+          - cell "4000" [ref=f3e1798]
+          - cell [ref=f3e1799]
+          - cell "CRC Services payroll income" [ref=f3e1800]
+          - cell [ref=f3e1801]
+          - cell "$250.00" [ref=f3e1802]
+        - row [ref=f3e1803]:
+          - cell [ref=f3e1804]
+          - cell [ref=f3e1805]
+          - cell [ref=f3e1806]
+          - cell [ref=f3e1807]
+          - cell "CRC Services payroll deposit to Chase Total Checking" [ref=f3e1808]
+          - cell [ref=f3e1809]
+          - cell [ref=f3e1810]
+        - row [ref=f3e1811]:
+          - cell "GJ-0070" [ref=f3e1812]
+          - cell [ref=f3e1813]:
+            - link "Chase_2026-09-3254-.pdf" [ref=f3e1814] [cursor=pointer]:
+              - /url: Chase_2026-09-3254-.pdf
+          - cell "2108" [ref=f3e1815]
+          - cell "2026-09-03" [ref=f3e1816]
+          - cell "Chase Freedom Flex ending in 3254" [ref=f3e1817]
+          - cell "$32.99" [ref=f3e1818]
+          - cell [ref=f3e1819]
+        - row [ref=f3e1820]:
+          - cell [ref=f3e1821]
+          - cell [ref=f3e1822]:
+            - link "Chase_2026-09-5236-.pdf" [ref=f3e1823] [cursor=pointer]:
+              - /url: Chase_2026-09-5236-.pdf
+          - cell "1006" [ref=f3e1824]
+          - cell [ref=f3e1825]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1826]
+          - cell [ref=f3e1827]
+          - cell "$32.99" [ref=f3e1828]
+        - row [ref=f3e1829]:
+          - cell [ref=f3e1830]
+          - cell [ref=f3e1831]
+          - cell [ref=f3e1832]
+          - cell [ref=f3e1833]
+          - cell "Chase Total Checking payment to Freedom Flex ending in 3254" [ref=f3e1834]
+          - cell [ref=f3e1835]
+          - cell [ref=f3e1836]
+        - row [ref=f3e1837]:
+          - cell "GJ-0071" [ref=f3e1838]
+          - cell [ref=f3e1839]:
+            - link "Affirm Loan.pdf" [ref=f3e1840] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+            - text: ","
+            - link "Chase_2026-09-5236-.pdf" [ref=f3e1841] [cursor=pointer]:
+              - /url: Chase_2026-09-5236-.pdf
+          - cell "2113" [ref=f3e1842]
+          - cell "2026-09-09" [ref=f3e1843]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e1844]
+          - cell "$77.13" [ref=f3e1845]
+          - cell [ref=f3e1846]
+        - row [ref=f3e1847]:
+          - cell [ref=f3e1848]
+          - cell [ref=f3e1849]:
+            - link "Chase_2026-09-5236-.pdf" [ref=f3e1850] [cursor=pointer]:
+              - /url: Chase_2026-09-5236-.pdf
+          - cell "1006" [ref=f3e1851]
+          - cell [ref=f3e1852]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1853]
+          - cell [ref=f3e1854]
+          - cell "$77.13" [ref=f3e1855]
+        - row [ref=f3e1856]:
+          - cell [ref=f3e1857]
+          - cell [ref=f3e1858]
+          - cell [ref=f3e1859]
+          - cell [ref=f3e1860]
+          - cell "Affirm Monitor payment cleared from Chase Total Checking" [ref=f3e1861]
+          - cell [ref=f3e1862]
+          - cell [ref=f3e1863]
+        - row [ref=f3e1864]:
+          - cell "GJ-0072" [ref=f3e1865]
+          - cell [ref=f3e1866]:
+            - link "Chase_2026-09-5236-.pdf" [ref=f3e1867] [cursor=pointer]:
+              - /url: Chase_2026-09-5236-.pdf
+          - cell "1006" [ref=f3e1868]
+          - cell "2026-09-11" [ref=f3e1869]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1870]
+          - cell "$250.00" [ref=f3e1871]
+          - cell [ref=f3e1872]
+        - row [ref=f3e1873]:
+          - cell [ref=f3e1874]
+          - cell [ref=f3e1875]:
+            - link "Chase_2026-09-5236-.pdf" [ref=f3e1876] [cursor=pointer]:
+              - /url: Chase_2026-09-5236-.pdf
+          - cell "4000" [ref=f3e1877]
+          - cell [ref=f3e1878]
+          - cell "CRC Services payroll income" [ref=f3e1879]
+          - cell [ref=f3e1880]
+          - cell "$250.00" [ref=f3e1881]
+        - row [ref=f3e1882]:
+          - cell [ref=f3e1883]
+          - cell [ref=f3e1884]
+          - cell [ref=f3e1885]
+          - cell [ref=f3e1886]
+          - cell "CRC Services payroll deposit to Chase Total Checking" [ref=f3e1887]
+          - cell [ref=f3e1888]
+          - cell [ref=f3e1889]
+        - row [ref=f3e1890]:
+          - cell "GJ-0073" [ref=f3e1891]
+          - cell [ref=f3e1892]:
+            - link "Chase_2026-09-3254-.pdf" [ref=f3e1893] [cursor=pointer]:
+              - /url: Chase_2026-09-3254-.pdf
+          - cell "5008" [ref=f3e1894]
+          - cell "2026-09-15" [ref=f3e1895]
+          - cell "Vehicle wash expense" [ref=f3e1896]
+          - cell "$32.99" [ref=f3e1897]
+          - cell [ref=f3e1898]
+        - row [ref=f3e1899]:
+          - cell [ref=f3e1900]
+          - cell [ref=f3e1901]:
+            - link "Chase_2026-09-3254-.pdf" [ref=f3e1902] [cursor=pointer]:
+              - /url: Chase_2026-09-3254-.pdf
+          - cell "2108" [ref=f3e1903]
+          - cell [ref=f3e1904]
+          - cell "Chase Freedom Flex ending in 3254" [ref=f3e1905]
+          - cell [ref=f3e1906]
+          - cell "$32.99" [ref=f3e1907]
+        - row [ref=f3e1908]:
+          - cell [ref=f3e1909]
+          - cell [ref=f3e1910]
+          - cell [ref=f3e1911]
+          - cell [ref=f3e1912]
+          - cell "Mister Car Wash purchase on Chase Freedom Flex ending in 3254" [ref=f3e1913]
+          - cell [ref=f3e1914]
+          - cell [ref=f3e1915]
+        - row [ref=f3e1916]:
+          - cell "GJ-0074" [ref=f3e1917]
+          - cell [ref=f3e1918]:
+            - link "Chase_2026-09-3254-.pdf" [ref=f3e1919] [cursor=pointer]:
+              - /url: Chase_2026-09-3254-.pdf
+          - cell "2108" [ref=f3e1920]
+          - cell "2026-09-22" [ref=f3e1921]
+          - cell "Chase Freedom Flex ending in 3254" [ref=f3e1922]
+          - cell "$32.99" [ref=f3e1923]
+          - cell [ref=f3e1924]
+        - row [ref=f3e1925]:
+          - cell [ref=f3e1926]
+          - cell "Pending source document" [ref=f3e1927]
+          - cell "2999" [ref=f3e1928]
+          - cell [ref=f3e1929]
+          - cell "Unclassified activity (suspense)" [ref=f3e1930]
+          - cell [ref=f3e1931]
+          - cell "$32.99" [ref=f3e1932]
+        - row [ref=f3e1933]:
+          - cell [ref=f3e1934]
+          - cell [ref=f3e1935]
+          - cell [ref=f3e1936]
+          - cell [ref=f3e1937]
+          - cell "Chase Freedom Flex payment; funding source pending statement confirmation" [ref=f3e1938]
+          - cell [ref=f3e1939]
+          - cell [ref=f3e1940]
+        - row [ref=f3e1941]:
+          - cell "GJ-0075" [ref=f3e1942]
+          - cell [ref=f3e1943]:
+            - link "Affirm Loan.pdf" [ref=f3e1944] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "5009" [ref=f3e1945]
+          - cell "2025-05-08" [ref=f3e1946]
+          - cell "Personal-use monitor expense" [ref=f3e1947]
+          - cell "$1,851.06" [ref=f3e1948]
+          - cell [ref=f3e1949]
+        - row [ref=f3e1950]:
+          - cell [ref=f3e1951]
+          - cell [ref=f3e1952]:
+            - link "Affirm Loan.pdf" [ref=f3e1953] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e1954]
+          - cell [ref=f3e1955]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e1956]
+          - cell [ref=f3e1957]
+          - cell "$1,851.06" [ref=f3e1958]
+        - row [ref=f3e1959]:
+          - cell [ref=f3e1960]
+          - cell [ref=f3e1961]
+          - cell [ref=f3e1962]
+          - cell [ref=f3e1963]
+          - cell "Samsung Odyssey Ark monitor purchased for personal use with Affirm financing" [ref=f3e1964]
+          - cell [ref=f3e1965]
+          - cell [ref=f3e1966]
+        - row [ref=f3e1967]:
+          - cell "GJ-0076" [ref=f3e1968]
+          - cell [ref=f3e1969]:
+            - link "Affirm Loan.pdf" [ref=f3e1970] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e1971]
+          - cell "2025-05-23" [ref=f3e1972]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e1973]
+          - cell "$151.06" [ref=f3e1974]
+          - cell [ref=f3e1975]
+        - row [ref=f3e1976]:
+          - cell [ref=f3e1977]
+          - cell [ref=f3e1978]:
+            - link "Affirm Loan.pdf" [ref=f3e1979] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e1980]
+          - cell [ref=f3e1981]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e1982]
+          - cell [ref=f3e1983]
+          - cell "$151.06" [ref=f3e1984]
+        - row [ref=f3e1985]:
+          - cell [ref=f3e1986]
+          - cell [ref=f3e1987]
+          - cell [ref=f3e1988]
+          - cell [ref=f3e1989]
+          - cell "Affirm Monitor initial payment from Chase Total Checking ending in 5236" [ref=f3e1990]
+          - cell [ref=f3e1991]
+          - cell [ref=f3e1992]
+        - row [ref=f3e1993]:
+          - cell "GJ-0077" [ref=f3e1994]
+          - cell [ref=f3e1995]:
+            - link "Affirm Loan.pdf" [ref=f3e1996] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e1997]
+          - cell "2025-07-08" [ref=f3e1998]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e1999]
+          - cell "$77.13" [ref=f3e2000]
+          - cell [ref=f3e2001]
+        - row [ref=f3e2002]:
+          - cell [ref=f3e2003]
+          - cell [ref=f3e2004]:
+            - link "Affirm Loan.pdf" [ref=f3e2005] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2006]
+          - cell [ref=f3e2007]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2008]
+          - cell [ref=f3e2009]
+          - cell "$77.13" [ref=f3e2010]
+        - row [ref=f3e2011]:
+          - cell [ref=f3e2012]
+          - cell [ref=f3e2013]
+          - cell [ref=f3e2014]
+          - cell [ref=f3e2015]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2016]
+          - cell [ref=f3e2017]
+          - cell [ref=f3e2018]
+        - row [ref=f3e2019]:
+          - cell "GJ-0078" [ref=f3e2020]
+          - cell [ref=f3e2021]:
+            - link "Affirm Loan.pdf" [ref=f3e2022] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2023]
+          - cell "2025-08-08" [ref=f3e2024]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2025]
+          - cell "$77.13" [ref=f3e2026]
+          - cell [ref=f3e2027]
+        - row [ref=f3e2028]:
+          - cell [ref=f3e2029]
+          - cell [ref=f3e2030]:
+            - link "Affirm Loan.pdf" [ref=f3e2031] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2032]
+          - cell [ref=f3e2033]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2034]
+          - cell [ref=f3e2035]
+          - cell "$77.13" [ref=f3e2036]
+        - row [ref=f3e2037]:
+          - cell [ref=f3e2038]
+          - cell [ref=f3e2039]
+          - cell [ref=f3e2040]
+          - cell [ref=f3e2041]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2042]
+          - cell [ref=f3e2043]
+          - cell [ref=f3e2044]
+        - row [ref=f3e2045]:
+          - cell "GJ-0079" [ref=f3e2046]
+          - cell [ref=f3e2047]:
+            - link "Affirm Loan.pdf" [ref=f3e2048] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2049]
+          - cell "2025-09-08" [ref=f3e2050]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2051]
+          - cell "$77.13" [ref=f3e2052]
+          - cell [ref=f3e2053]
+        - row [ref=f3e2054]:
+          - cell [ref=f3e2055]
+          - cell [ref=f3e2056]:
+            - link "Affirm Loan.pdf" [ref=f3e2057] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2058]
+          - cell [ref=f3e2059]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2060]
+          - cell [ref=f3e2061]
+          - cell "$77.13" [ref=f3e2062]
+        - row [ref=f3e2063]:
+          - cell [ref=f3e2064]
+          - cell [ref=f3e2065]
+          - cell [ref=f3e2066]
+          - cell [ref=f3e2067]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2068]
+          - cell [ref=f3e2069]
+          - cell [ref=f3e2070]
+        - row [ref=f3e2071]:
+          - cell "GJ-0080" [ref=f3e2072]
+          - cell [ref=f3e2073]:
+            - link "Affirm Loan.pdf" [ref=f3e2074] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2075]
+          - cell "2025-10-08" [ref=f3e2076]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2077]
+          - cell "$77.13" [ref=f3e2078]
+          - cell [ref=f3e2079]
+        - row [ref=f3e2080]:
+          - cell [ref=f3e2081]
+          - cell [ref=f3e2082]:
+            - link "Affirm Loan.pdf" [ref=f3e2083] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2084]
+          - cell [ref=f3e2085]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2086]
+          - cell [ref=f3e2087]
+          - cell "$77.13" [ref=f3e2088]
+        - row [ref=f3e2089]:
+          - cell [ref=f3e2090]
+          - cell [ref=f3e2091]
+          - cell [ref=f3e2092]
+          - cell [ref=f3e2093]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2094]
+          - cell [ref=f3e2095]
+          - cell [ref=f3e2096]
+        - row [ref=f3e2097]:
+          - cell "GJ-0081" [ref=f3e2098]
+          - cell [ref=f3e2099]:
+            - link "Affirm Loan.pdf" [ref=f3e2100] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2101]
+          - cell "2025-11-08" [ref=f3e2102]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2103]
+          - cell "$77.13" [ref=f3e2104]
+          - cell [ref=f3e2105]
+        - row [ref=f3e2106]:
+          - cell [ref=f3e2107]
+          - cell [ref=f3e2108]:
+            - link "Affirm Loan.pdf" [ref=f3e2109] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2110]
+          - cell [ref=f3e2111]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2112]
+          - cell [ref=f3e2113]
+          - cell "$77.13" [ref=f3e2114]
+        - row [ref=f3e2115]:
+          - cell [ref=f3e2116]
+          - cell [ref=f3e2117]
+          - cell [ref=f3e2118]
+          - cell [ref=f3e2119]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2120]
+          - cell [ref=f3e2121]
+          - cell [ref=f3e2122]
+        - row [ref=f3e2123]:
+          - cell "GJ-0082" [ref=f3e2124]
+          - cell [ref=f3e2125]:
+            - link "Affirm Loan.pdf" [ref=f3e2126] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2127]
+          - cell "2025-12-08" [ref=f3e2128]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2129]
+          - cell "$77.13" [ref=f3e2130]
+          - cell [ref=f3e2131]
+        - row [ref=f3e2132]:
+          - cell [ref=f3e2133]
+          - cell [ref=f3e2134]:
+            - link "Affirm Loan.pdf" [ref=f3e2135] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2136]
+          - cell [ref=f3e2137]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2138]
+          - cell [ref=f3e2139]
+          - cell "$77.13" [ref=f3e2140]
+        - row [ref=f3e2141]:
+          - cell [ref=f3e2142]
+          - cell [ref=f3e2143]
+          - cell [ref=f3e2144]
+          - cell [ref=f3e2145]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2146]
+          - cell [ref=f3e2147]
+          - cell [ref=f3e2148]
+        - row [ref=f3e2149]:
+          - cell "GJ-0083" [ref=f3e2150]
+          - cell [ref=f3e2151]:
+            - link "Affirm Loan.pdf" [ref=f3e2152] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2153]
+          - cell "2026-01-08" [ref=f3e2154]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2155]
+          - cell "$77.13" [ref=f3e2156]
+          - cell [ref=f3e2157]
+        - row [ref=f3e2158]:
+          - cell [ref=f3e2159]
+          - cell [ref=f3e2160]:
+            - link "Affirm Loan.pdf" [ref=f3e2161] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2162]
+          - cell [ref=f3e2163]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2164]
+          - cell [ref=f3e2165]
+          - cell "$77.13" [ref=f3e2166]
+        - row [ref=f3e2167]:
+          - cell [ref=f3e2168]
+          - cell [ref=f3e2169]
+          - cell [ref=f3e2170]
+          - cell [ref=f3e2171]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2172]
+          - cell [ref=f3e2173]
+          - cell [ref=f3e2174]
+        - row [ref=f3e2175]:
+          - cell "GJ-0084" [ref=f3e2176]
+          - cell [ref=f3e2177]:
+            - link "Affirm Loan.pdf" [ref=f3e2178] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2179]
+          - cell "2026-02-08" [ref=f3e2180]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2181]
+          - cell "$77.13" [ref=f3e2182]
+          - cell [ref=f3e2183]
+        - row [ref=f3e2184]:
+          - cell [ref=f3e2185]
+          - cell [ref=f3e2186]:
+            - link "Affirm Loan.pdf" [ref=f3e2187] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2188]
+          - cell [ref=f3e2189]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2190]
+          - cell [ref=f3e2191]
+          - cell "$77.13" [ref=f3e2192]
+        - row [ref=f3e2193]:
+          - cell [ref=f3e2194]
+          - cell [ref=f3e2195]
+          - cell [ref=f3e2196]
+          - cell [ref=f3e2197]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2198]
+          - cell [ref=f3e2199]
+          - cell [ref=f3e2200]
+        - row [ref=f3e2201]:
+          - cell "GJ-0085" [ref=f3e2202]
+          - cell [ref=f3e2203]:
+            - link "Affirm Loan.pdf" [ref=f3e2204] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2205]
+          - cell "2026-03-08" [ref=f3e2206]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2207]
+          - cell "$77.13" [ref=f3e2208]
+          - cell [ref=f3e2209]
+        - row [ref=f3e2210]:
+          - cell [ref=f3e2211]
+          - cell [ref=f3e2212]:
+            - link "Affirm Loan.pdf" [ref=f3e2213] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2214]
+          - cell [ref=f3e2215]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2216]
+          - cell [ref=f3e2217]
+          - cell "$77.13" [ref=f3e2218]
+        - row [ref=f3e2219]:
+          - cell [ref=f3e2220]
+          - cell [ref=f3e2221]
+          - cell [ref=f3e2222]
+          - cell [ref=f3e2223]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2224]
+          - cell [ref=f3e2225]
+          - cell [ref=f3e2226]
+        - row [ref=f3e2227]:
+          - cell "GJ-0086" [ref=f3e2228]
+          - cell [ref=f3e2229]:
+            - link "Affirm Loan.pdf" [ref=f3e2230] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2231]
+          - cell "2026-04-08" [ref=f3e2232]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2233]
+          - cell "$77.13" [ref=f3e2234]
+          - cell [ref=f3e2235]
+        - row [ref=f3e2236]:
+          - cell [ref=f3e2237]
+          - cell [ref=f3e2238]:
+            - link "Affirm Loan.pdf" [ref=f3e2239] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2240]
+          - cell [ref=f3e2241]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2242]
+          - cell [ref=f3e2243]
+          - cell "$77.13" [ref=f3e2244]
+        - row [ref=f3e2245]:
+          - cell [ref=f3e2246]
+          - cell [ref=f3e2247]
+          - cell [ref=f3e2248]
+          - cell [ref=f3e2249]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2250]
+          - cell [ref=f3e2251]
+          - cell [ref=f3e2252]
+        - row [ref=f3e2253]:
+          - cell "GJ-0087" [ref=f3e2254]
+          - cell [ref=f3e2255]:
+            - link "Affirm Loan.pdf" [ref=f3e2256] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2257]
+          - cell "2026-05-08" [ref=f3e2258]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2259]
+          - cell "$77.13" [ref=f3e2260]
+          - cell [ref=f3e2261]
+        - row [ref=f3e2262]:
+          - cell [ref=f3e2263]
+          - cell [ref=f3e2264]:
+            - link "Affirm Loan.pdf" [ref=f3e2265] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2266]
+          - cell [ref=f3e2267]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2268]
+          - cell [ref=f3e2269]
+          - cell "$77.13" [ref=f3e2270]
+        - row [ref=f3e2271]:
+          - cell [ref=f3e2272]
+          - cell [ref=f3e2273]
+          - cell [ref=f3e2274]
+          - cell [ref=f3e2275]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2276]
+          - cell [ref=f3e2277]
+          - cell [ref=f3e2278]
+        - row [ref=f3e2279]:
+          - cell "GJ-0088" [ref=f3e2280]
+          - cell [ref=f3e2281]:
+            - link "Affirm Loan.pdf" [ref=f3e2282] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2283]
+          - cell "2026-06-08" [ref=f3e2284]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2285]
+          - cell "$77.13" [ref=f3e2286]
+          - cell [ref=f3e2287]
+        - row [ref=f3e2288]:
+          - cell [ref=f3e2289]
+          - cell [ref=f3e2290]:
+            - link "Affirm Loan.pdf" [ref=f3e2291] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2292]
+          - cell [ref=f3e2293]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2294]
+          - cell [ref=f3e2295]
+          - cell "$77.13" [ref=f3e2296]
+        - row [ref=f3e2297]:
+          - cell [ref=f3e2298]
+          - cell [ref=f3e2299]
+          - cell [ref=f3e2300]
+          - cell [ref=f3e2301]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2302]
+          - cell [ref=f3e2303]
+          - cell [ref=f3e2304]
+        - row [ref=f3e2305]:
+          - cell "GJ-0089" [ref=f3e2306]
+          - cell [ref=f3e2307]:
+            - link "Affirm Loan.pdf" [ref=f3e2308] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "2113" [ref=f3e2309]
+          - cell "2026-07-08" [ref=f3e2310]
+          - cell "Affirm Monitor (XXXX)" [ref=f3e2311]
+          - cell "$77.13" [ref=f3e2312]
+          - cell [ref=f3e2313]
+        - row [ref=f3e2314]:
+          - cell [ref=f3e2315]
+          - cell [ref=f3e2316]:
+            - link "Affirm Loan.pdf" [ref=f3e2317] [cursor=pointer]:
+              - /url: Affirm Loan.pdf
+          - cell "1006" [ref=f3e2318]
+          - cell [ref=f3e2319]
+          - cell "Chase Total Checking ending in 5236" [ref=f3e2320]
+          - cell [ref=f3e2321]
+          - cell "$77.13" [ref=f3e2322]
+        - row [ref=f3e2323]:
+          - cell [ref=f3e2324]
+          - cell [ref=f3e2325]
+          - cell [ref=f3e2326]
+          - cell [ref=f3e2327]
+          - cell "Affirm Monitor monthly payment from Chase Total Checking ending in 5236" [ref=f3e2328]
+          - cell [ref=f3e2329]
+          - cell [ref=f3e2330]
+      - rowgroup [ref=f3e2331]:
+        - row [ref=f3e2332]:
+          - columnheader "Totals" [ref=f3e2333]
+          - columnheader "$38,973.57" [ref=f3e2334]
+          - columnheader "$38,973.57" [ref=f3e2335]

@@ -13,21 +13,20 @@
     <header class="hero">
       <p class="eyebrow">Personal Finance</p>
       <h1>Trial Balance</h1>
-      <p class="lede">Posted activity from the General Journal.</p>
+      <p class="lede">Recorded current balances by ledger account.</p>
     </header>
     <div id="trial-balance-error" class="accounting-error" hidden></div>
     <section class="card accounting-section" aria-labelledby="trial-balance-heading">
-      <h2 id="trial-balance-heading">Activity Trial Balance</h2>
-      <p class="accounting-meta">Opening balances are excluded. Account 2999 is a temporary suspense line for activity awaiting classification.</p>
+      <h2 id="trial-balance-heading">Current Ledger Balances</h2>
+      <p class="accounting-meta">Balances reflect recorded account balances, including opening balances. A dash means no current balance is recorded.</p>
       <div class="accounting-table-wrap">
         <table class="accounting-table accounting-table--compact">
-          <thead><tr><th>Code</th><th>Account</th><th>Debit Balance</th><th>Credit Balance</th></tr></thead>
-          <tbody id="trial-balance-rows"><tr><td colspan="4">Loading trial balance...</td></tr></tbody>
-          <tfoot><tr><th colspan="2">Totals</th><th class="amount" id="trial-total-debits">-</th><th class="amount" id="trial-total-credits">-</th></tr></tfoot>
+          <thead><tr><th>Code</th><th>Account</th><th>Current Ledger Balance</th></tr></thead>
+          <tbody id="trial-balance-rows"><tr><td colspan="3">Loading trial balance...</td></tr></tbody>
         </table>
       </div>
     </section>
   </main>
-  <script src="../scripts/trial-balance.js?v=2"></script>
+  <script src="../scripts/trial-balance.js?v=7"></script>
 </body>
 </html>

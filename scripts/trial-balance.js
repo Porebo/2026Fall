@@ -24,12 +24,20 @@
     var accountsByCode = {};
     var accountsById = {};
     var activity = {};
+    var currentBalancesById = {};
     var suspense = { id: "unclassified-bank-activity", code: "2999", name: "Unclassified bank activity (suspense)" };
 
     data.chartOfAccounts.forEach(function (account) {
       accountsByCode[account.code] = account;
       accountsById[account.id] = account;
+      activity[account.id] = { account: account, debitCents: 0, creditCents: 0 };
     });
+    (data.accounts || []).forEach(function (account) {
+      currentBalancesById[account.id] = account.balanceCents;
+    });
+    if (data.cashBalanceSnapshot) {
+      currentBalancesById[data.cashBalanceSnapshot.accountId] = data.cashBalanceSnapshot.balanceCents;
+    }
     suspense = accountsByCode["2999"] || suspense;
 
     function post(account, debitCents, creditCents) {
@@ -64,26 +72,25 @@
     body.innerHTML = "";
     Object.keys(activity).map(function (accountId) {
       return activity[accountId];
-    }).filter(function (entry) {
-      return entry.debitCents !== entry.creditCents;
     }).sort(function (first, second) {
       return Number(first.account.code) - Number(second.account.code);
     }).forEach(function (entry) {
-      var balanceCents = entry.debitCents - entry.creditCents;
-      var debitBalance = Math.max(0, balanceCents);
-      var creditBalance = Math.max(0, -balanceCents);
+      var isBalanceSheetAccount = entry.account.type === "asset" || entry.account.type === "liability";
+      var currentBalanceCents = isBalanceSheetAccount ? currentBalancesById[entry.account.id] : null;
       var row = document.createElement("tr");
-      row.appendChild(makeCell(entry.account.code));
+      var codeCell = document.createElement("td");
+      var accountLink = document.createElement("a");
+      accountLink.href = entry.account.code + ".html";
+      accountLink.textContent = entry.account.code;
+      codeCell.appendChild(accountLink);
+      row.appendChild(codeCell);
       row.appendChild(makeCell(entry.account.name));
-      row.appendChild(makeCell(debitBalance ? money(debitBalance) : "", "amount"));
-      row.appendChild(makeCell(creditBalance ? money(creditBalance) : "", "amount"));
+      row.appendChild(makeCell(currentBalanceCents == null ? "-" : money(currentBalanceCents), "amount"));
       body.appendChild(row);
-      totalDebits += debitBalance;
-      totalCredits += creditBalance;
+      totalDebits += entry.debitCents;
+      totalCredits += entry.creditCents;
     });
 
-    document.getElementById("trial-total-debits").textContent = money(totalDebits);
-    document.getElementById("trial-total-credits").textContent = money(totalCredits);
     if (totalDebits !== totalCredits) {
       throw new Error("Trial balance totals do not match.");
     }

@@ -214,6 +214,276 @@
         { "accountId": "wells-fargo-active-cash-9110", "debitCents": 10697, "creditCents": 0, "sourceDocuments": ["Pending source document"] },
         { "accountId": "other-funding-account", "debitCents": 0, "creditCents": 10697, "sourceDocuments": ["Pending source document"] }
       ]
+    },
+    {
+      "number": "GJ-0060",
+      "date": "2026-07-21",
+      "description": "Chase Freedom Flex payment pending prior-cycle balance confirmation",
+      "lines": [
+        { "accountId": "suspense-unclassified", "debitCents": 3299, "creditCents": 0, "sourceDocuments": ["Chase_2026-08-5236-.pdf", "Pending source document"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 3299, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0061",
+      "date": "2026-07-23",
+      "description": "Transfer from Chase Total Checking to Bank of America checking ending in 7632",
+      "lines": [
+        { "accountId": "cash-checking", "debitCents": 40000, "creditCents": 0, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 40000, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0062",
+      "date": "2026-07-31",
+      "description": "CRC Services payroll deposit to Chase Total Checking",
+      "lines": [
+        { "accountId": "chase-total-checking-5236", "debitCents": 25000, "creditCents": 0, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] },
+        { "accountId": "crc-payroll-income", "debitCents": 0, "creditCents": 25000, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0063",
+      "date": "2026-08-03",
+      "description": "Transfer from Chase Total Checking to Bank of America checking ending in 7632",
+      "lines": [
+        { "accountId": "cash-checking", "debitCents": 30000, "creditCents": 0, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 30000, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0064",
+      "date": "2026-08-10",
+      "description": "Affirm Monitor payment cleared from Chase Total Checking",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf", "Chase_2026-08-5236-.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0065",
+      "date": "2026-08-11",
+      "description": "Chase Total Checking overdraft fee",
+      "lines": [
+        { "accountId": "bank-fees", "debitCents": 3400, "creditCents": 0, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 3400, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0066",
+      "date": "2026-08-12",
+      "description": "Transfer from Bank of America checking ending in 7632 to Chase Total Checking",
+      "lines": [
+        { "accountId": "chase-total-checking-5236", "debitCents": 10000, "creditCents": 0, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] },
+        { "accountId": "cash-checking", "debitCents": 0, "creditCents": 10000, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0067",
+      "date": "2026-08-14",
+      "description": "CRC Services payroll deposit to Chase Total Checking",
+      "lines": [
+        { "accountId": "chase-total-checking-5236", "debitCents": 25000, "creditCents": 0, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] },
+        { "accountId": "crc-payroll-income", "debitCents": 0, "creditCents": 25000, "sourceDocuments": ["Chase_2026-08-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0068",
+      "date": "2026-08-15",
+      "description": "Mister Car Wash purchase on Chase Freedom Flex ending in 3254",
+      "lines": [
+        { "accountId": "vehicle-wash-expense", "debitCents": 3299, "creditCents": 0, "sourceDocuments": ["Chase-2026-08-3254-.pdf"] },
+        { "accountId": "chase-freedom-flex-3254", "debitCents": 0, "creditCents": 3299, "sourceDocuments": ["Chase-2026-08-3254-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0069",
+      "date": "2026-08-28",
+      "description": "CRC Services payroll deposit to Chase Total Checking",
+      "lines": [
+        { "accountId": "chase-total-checking-5236", "debitCents": 25000, "creditCents": 0, "sourceDocuments": ["Chase_2026-09-5236-.pdf"] },
+        { "accountId": "crc-payroll-income", "debitCents": 0, "creditCents": 25000, "sourceDocuments": ["Chase_2026-09-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0070",
+      "date": "2026-09-03",
+      "description": "Chase Total Checking payment to Freedom Flex ending in 3254",
+      "lines": [
+        { "accountId": "chase-freedom-flex-3254", "debitCents": 3299, "creditCents": 0, "sourceDocuments": ["Chase_2026-09-3254-.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 3299, "sourceDocuments": ["Chase_2026-09-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0071",
+      "date": "2026-09-09",
+      "description": "Affirm Monitor payment cleared from Chase Total Checking",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf", "Chase_2026-09-5236-.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Chase_2026-09-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0072",
+      "date": "2026-09-11",
+      "description": "CRC Services payroll deposit to Chase Total Checking",
+      "lines": [
+        { "accountId": "chase-total-checking-5236", "debitCents": 25000, "creditCents": 0, "sourceDocuments": ["Chase_2026-09-5236-.pdf"] },
+        { "accountId": "crc-payroll-income", "debitCents": 0, "creditCents": 25000, "sourceDocuments": ["Chase_2026-09-5236-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0073",
+      "date": "2026-09-15",
+      "description": "Mister Car Wash purchase on Chase Freedom Flex ending in 3254",
+      "lines": [
+        { "accountId": "vehicle-wash-expense", "debitCents": 3299, "creditCents": 0, "sourceDocuments": ["Chase_2026-09-3254-.pdf"] },
+        { "accountId": "chase-freedom-flex-3254", "debitCents": 0, "creditCents": 3299, "sourceDocuments": ["Chase_2026-09-3254-.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0074",
+      "date": "2026-09-22",
+      "description": "Chase Freedom Flex payment; funding source pending statement confirmation",
+      "lines": [
+        { "accountId": "chase-freedom-flex-3254", "debitCents": 3299, "creditCents": 0, "sourceDocuments": ["Chase_2026-09-3254-.pdf"] },
+        { "accountId": "suspense-unclassified", "debitCents": 0, "creditCents": 3299, "sourceDocuments": ["Pending source document"] }
+      ]
+    },
+    {
+      "number": "GJ-0075",
+      "date": "2025-05-08",
+      "description": "Samsung Odyssey Ark monitor purchased for personal use with Affirm financing",
+      "lines": [
+        { "accountId": "samsung-monitor-expense", "debitCents": 185106, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 0, "creditCents": 185106, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0076",
+      "date": "2025-05-23",
+      "description": "Affirm Monitor initial payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 15106, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 15106, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0077",
+      "date": "2025-07-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0078",
+      "date": "2025-08-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0079",
+      "date": "2025-09-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0080",
+      "date": "2025-10-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0081",
+      "date": "2025-11-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0082",
+      "date": "2025-12-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0083",
+      "date": "2026-01-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0084",
+      "date": "2026-02-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0085",
+      "date": "2026-03-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0086",
+      "date": "2026-04-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0087",
+      "date": "2026-05-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0088",
+      "date": "2026-06-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
+    },
+    {
+      "number": "GJ-0089",
+      "date": "2026-07-08",
+      "description": "Affirm Monitor monthly payment from Chase Total Checking ending in 5236",
+      "lines": [
+        { "accountId": "affirm-monitor-xxxx", "debitCents": 7713, "creditCents": 0, "sourceDocuments": ["Affirm Loan.pdf"] },
+        { "accountId": "chase-total-checking-5236", "debitCents": 0, "creditCents": 7713, "sourceDocuments": ["Affirm Loan.pdf"] }
+      ]
     }
   ],
   "cashForecastEntries": [
@@ -298,6 +568,13 @@
       "normalBalance": "debit"
     },
     {
+      "id": "chase-total-checking-5236",
+      "code": "1006",
+      "name": "Chase Total Checking ending in 5236",
+      "type": "asset",
+      "normalBalance": "debit"
+    },
+    {
       "id": "citi-aadvantage-3006",
       "code": "2100",
       "name": "Citi AAdvantage Mastercard ending in 3006",
@@ -364,6 +641,13 @@
       "id": "chase-freedom-flex-3254",
       "code": "2108",
       "name": "Chase Freedom Flex ending in 3254",
+      "type": "liability",
+      "normalBalance": "credit"
+    },
+    {
+      "id": "affirm-monitor-xxxx",
+      "code": "2113",
+      "name": "Affirm Monitor (XXXX)",
       "type": "liability",
       "normalBalance": "credit"
     },
@@ -513,6 +797,27 @@
       "name": "AT&T mobility",
       "type": "expense",
       "normalBalance": "debit"
+    },
+    {
+      "id": "bank-fees",
+      "code": "5007",
+      "name": "Bank fees",
+      "type": "expense",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "vehicle-wash-expense",
+      "code": "5008",
+      "name": "Vehicle wash expense",
+      "type": "expense",
+      "normalBalance": "debit"
+    },
+    {
+      "id": "samsung-monitor-expense",
+      "code": "5009",
+      "name": "Personal-use monitor expense",
+      "type": "expense",
+      "normalBalance": "debit"
     }
   ],
   "accounts": [
@@ -617,18 +922,26 @@
       "dueDate": "2026-09-28",
       "minimumDueCents": null,
       "statementBalanceCents": null,
-      "balanceCents": 28058,
       "completedPaymentDate": null,
       "completedPaymentCents": 0,
       "status": "open",
-      "openingBalanceDate": "2026-09-08",
+      "openingBalanceDate": "2026-07-20",
       "openingBalanceCents": 0,
+      "balanceCents": 28058,
       "ledgerEntries": [
+        {
+          "date": "2026-07-21",
+          "amountCents": 3299,
+          "description": "Chase Freedom Flex payment pending prior-cycle reconciliation",
+          "balanceAfterCents": 3299,
+          "isDebit": true,
+          "journalEntry": "GJ-0060"
+        },
         {
           "date": "2026-09-09",
           "amountCents": 3128,
           "description": "GM Marketplace purchase pending statement confirmation",
-          "balanceAfterCents": -3128,
+          "balanceAfterCents": 171,
           "isDebit": false,
           "journalEntry": "GJ-0047"
         },
@@ -636,9 +949,17 @@
           "date": "2026-09-16",
           "amountCents": 11186,
           "description": "Unclassified card payment pending statement confirmation",
-          "balanceAfterCents": 8058,
+          "balanceAfterCents": 11357,
           "isDebit": true,
           "journalEntry": "GJ-0048"
+        },
+        {
+          "date": "2026-09-22",
+          "amountCents": 3299,
+          "description": "Chase Freedom Flex payment; funding source pending statement confirmation",
+          "balanceAfterCents": 8058,
+          "isDebit": false,
+          "journalEntry": "GJ-0074"
         },
         {
           "date": "2026-09-28",
@@ -716,13 +1037,149 @@
       "bank": "Chase",
       "name": "Chase Freedom Flex",
       "lastFour": "3254",
-      "dueDate": "2026-09-21",
-      "minimumDueCents": 3299,
-      "statementBalanceCents": 3299,
+      "dueDate": "2026-10-21",
+      "minimumDueCents": 0,
+      "plannedPaymentCents": 0,
+      "statementBalanceCents": 0,
       "balanceCents": 0,
       "completedPaymentDate": "2026-09-22",
-      "completedPaymentCents": 3299,
-      "status": "paid"
+      "completedPaymentCents": 6598,
+      "status": "paid",
+      "openingBalanceDate": "2026-07-24",
+      "openingBalanceCents": 0,
+      "ledgerEntries": [
+        { "date": "2026-08-15", "amountCents": 3299, "description": "Mister Car Wash #1005", "balanceAfterCents": 3299, "isDebit": false, "journalEntry": "GJ-0068" },
+        { "date": "2026-09-03", "amountCents": 3299, "description": "Payment received", "balanceAfterCents": 0, "isDebit": true, "journalEntry": "GJ-0070" },
+        { "date": "2026-09-15", "amountCents": 3299, "description": "Mister Car Wash #1005", "balanceAfterCents": 3299, "isDebit": false, "journalEntry": "GJ-0073" },
+        { "date": "2026-09-22", "amountCents": 3299, "description": "Payment received; funding account pending source confirmation", "balanceAfterCents": 0, "isDebit": true, "journalEntry": "GJ-0074" }
+      ]
+    },
+    {
+      "id": "affirm-monitor-xxxx",
+      "bank": "Affirm",
+      "name": "Affirm Monitor (XXXX)",
+      "lastFour": "XXXX",
+      "dueDate": "2026-10-08",
+      "minimumDueCents": 7713,
+      "plannedPaymentCents": 7713,
+      "statementBalanceCents": 54305,
+      "balanceCents": 54305,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "paymentSourceLabel": "BofA checking ending in 7632",
+      "recurrence": {
+        "frequency": "monthly",
+        "dayOfMonth": 8,
+        "amountCents": 7713,
+        "endDate": "2027-05-08",
+        "finalAmountCents": 314
+      },
+      "openingBalanceDate": "2025-05-07",
+      "openingBalanceCents": 0,
+      "ledgerEntries": [
+        { "date": "2025-05-08", "amountCents": 185106, "description": "Samsung Odyssey Ark monitor financed for personal use", "balanceAfterCents": 185106, "isDebit": false, "journalEntry": "GJ-0075" },
+        { "date": "2025-05-23", "amountCents": 15106, "description": "Initial payment from Chase Total Checking ending in 5236", "balanceAfterCents": 170000, "isDebit": true, "journalEntry": "GJ-0076" },
+        { "date": "2025-07-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 162287, "isDebit": true, "journalEntry": "GJ-0077" },
+        { "date": "2025-08-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 154574, "isDebit": true, "journalEntry": "GJ-0078" },
+        { "date": "2025-09-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 146861, "isDebit": true, "journalEntry": "GJ-0079" },
+        { "date": "2025-10-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 139148, "isDebit": true, "journalEntry": "GJ-0080" },
+        { "date": "2025-11-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 131435, "isDebit": true, "journalEntry": "GJ-0081" },
+        { "date": "2025-12-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 123722, "isDebit": true, "journalEntry": "GJ-0082" },
+        { "date": "2026-01-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 116009, "isDebit": true, "journalEntry": "GJ-0083" },
+        { "date": "2026-02-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 108296, "isDebit": true, "journalEntry": "GJ-0084" },
+        { "date": "2026-03-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 100583, "isDebit": true, "journalEntry": "GJ-0085" },
+        { "date": "2026-04-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 92870, "isDebit": true, "journalEntry": "GJ-0086" },
+        { "date": "2026-05-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 85157, "isDebit": true, "journalEntry": "GJ-0087" },
+        { "date": "2026-06-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 77444, "isDebit": true, "journalEntry": "GJ-0088" },
+        { "date": "2026-07-08", "amountCents": 7713, "description": "Monthly payment from Chase Total Checking ending in 5236", "balanceAfterCents": 69731, "isDebit": true, "journalEntry": "GJ-0089" },
+        { "date": "2026-08-10", "amountCents": 7713, "description": "August AutoPay cleared Chase Total Checking ending in 5236", "balanceAfterCents": 62018, "isDebit": true, "journalEntry": "GJ-0064" },
+        { "date": "2026-09-09", "amountCents": 7713, "description": "September AutoPay cleared Chase Total Checking ending in 5236", "balanceAfterCents": 54305, "isDebit": true, "journalEntry": "GJ-0071" }
+      ]
+    },
+    {
+      "id": "samsung-monitor-expense",
+      "bank": "Personal",
+      "name": "Personal-use monitor expense",
+      "lastFour": null,
+      "dueDate": null,
+      "minimumDueCents": null,
+      "statementBalanceCents": null,
+      "balanceCents": 185106,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "paid",
+      "openingBalanceDate": "2025-05-07",
+      "openingBalanceCents": 0,
+      "ledgerEntries": [
+        { "date": "2025-05-08", "amountCents": 185106, "description": "Samsung Odyssey Ark monitor financed for personal use", "balanceAfterCents": 185106, "isDebit": true, "journalEntry": "GJ-0075" }
+      ]
+    },
+    {
+      "id": "chase-total-checking-5236",
+      "bank": "Chase",
+      "name": "Chase Total Checking",
+      "lastFour": "5236",
+      "dueDate": null,
+      "minimumDueCents": null,
+      "statementBalanceCents": 64183,
+      "balanceCents": 64183,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "open",
+      "openingBalanceDate": "2026-07-20",
+      "openingBalanceCents": 49607,
+      "ledgerEntries": [
+        { "date": "2026-07-21", "amountCents": 3299, "description": "Payment to Chase Freedom Flex ending in 3254", "balanceAfterCents": 46308, "isDebit": false, "journalEntry": "GJ-0060" },
+        { "date": "2026-07-23", "amountCents": 40000, "description": "Online transfer to Bank of America checking ending in 7632", "balanceAfterCents": 6308, "isDebit": false, "journalEntry": "GJ-0061" },
+        { "date": "2026-07-31", "amountCents": 25000, "description": "CRC Services payroll", "balanceAfterCents": 31308, "isDebit": true, "journalEntry": "GJ-0062" },
+        { "date": "2026-08-03", "amountCents": 30000, "description": "Online transfer to Bank of America checking ending in 7632", "balanceAfterCents": 1308, "isDebit": false, "journalEntry": "GJ-0063" },
+        { "date": "2026-08-10", "amountCents": 7713, "description": "Affirm Monitor AutoPay", "balanceAfterCents": -6405, "isDebit": false, "journalEntry": "GJ-0064" },
+        { "date": "2026-08-11", "amountCents": 3400, "description": "Overdraft fee", "balanceAfterCents": -9805, "isDebit": false, "journalEntry": "GJ-0065" },
+        { "date": "2026-08-12", "amountCents": 10000, "description": "Online transfer from Bank of America checking ending in 7632", "balanceAfterCents": 195, "isDebit": true, "journalEntry": "GJ-0066" },
+        { "date": "2026-08-14", "amountCents": 25000, "description": "CRC Services payroll", "balanceAfterCents": 25195, "isDebit": true, "journalEntry": "GJ-0067" },
+        { "date": "2026-08-28", "amountCents": 25000, "description": "CRC Services payroll", "balanceAfterCents": 50195, "isDebit": true, "journalEntry": "GJ-0069" },
+        { "date": "2026-09-03", "amountCents": 3299, "description": "Payment to Chase Freedom Flex ending in 3254", "balanceAfterCents": 46896, "isDebit": false, "journalEntry": "GJ-0070" },
+        { "date": "2026-09-09", "amountCents": 7713, "description": "Affirm Monitor AutoPay", "balanceAfterCents": 39183, "isDebit": false, "journalEntry": "GJ-0071" },
+        { "date": "2026-09-11", "amountCents": 25000, "description": "CRC Services payroll", "balanceAfterCents": 64183, "isDebit": true, "journalEntry": "GJ-0072" }
+      ]
+    },
+    {
+      "id": "bank-fees",
+      "bank": "Chase",
+      "name": "Bank fees",
+      "lastFour": null,
+      "dueDate": null,
+      "minimumDueCents": null,
+      "statementBalanceCents": null,
+      "balanceCents": 3400,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "paid",
+      "openingBalanceDate": "2026-08-10",
+      "openingBalanceCents": 0,
+      "ledgerEntries": [
+        { "date": "2026-08-11", "amountCents": 3400, "description": "Overdraft fee for Affirm.com payment", "balanceAfterCents": 3400, "isDebit": true, "journalEntry": "GJ-0065" }
+      ]
+    },
+    {
+      "id": "vehicle-wash-expense",
+      "bank": "Mister Car Wash",
+      "name": "Vehicle wash expense",
+      "lastFour": null,
+      "dueDate": null,
+      "minimumDueCents": null,
+      "statementBalanceCents": null,
+      "balanceCents": 6598,
+      "completedPaymentDate": null,
+      "completedPaymentCents": 0,
+      "status": "paid",
+      "openingBalanceDate": "2026-08-14",
+      "openingBalanceCents": 0,
+      "ledgerEntries": [
+        { "date": "2026-08-15", "amountCents": 3299, "description": "Mister Car Wash #1005", "balanceAfterCents": 3299, "isDebit": true, "journalEntry": "GJ-0068" },
+        { "date": "2026-09-15", "amountCents": 3299, "description": "Mister Car Wash #1005", "balanceAfterCents": 6598, "isDebit": true, "journalEntry": "GJ-0073" }
+      ]
     },
     {
       "id": "freedom-mortgage",
@@ -1091,6 +1548,175 @@
   ],
   "transactions": [
     {
+      "id": "purchase-samsung-monitor-2025-05-08",
+      "date": "2025-05-08",
+      "accountId": "samsung-monitor-expense",
+      "type": "purchase",
+      "amountCents": 185106,
+      "description": "Samsung Odyssey Ark monitor financed by Affirm",
+      "balanceAfterCents": 185106
+    },
+    {
+      "id": "payment-affirm-monitor-2025-05-23",
+      "date": "2025-05-23",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 15106,
+      "description": "Initial Affirm Monitor payment",
+      "balanceAfterCents": 170000
+    },
+    {
+      "id": "payment-affirm-monitor-2025-07-08",
+      "date": "2025-07-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 162287
+    },
+    {
+      "id": "payment-affirm-monitor-2025-08-08",
+      "date": "2025-08-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 154574
+    },
+    {
+      "id": "payment-affirm-monitor-2025-09-08",
+      "date": "2025-09-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 146861
+    },
+    {
+      "id": "payment-affirm-monitor-2025-10-08",
+      "date": "2025-10-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 139148
+    },
+    {
+      "id": "payment-affirm-monitor-2025-11-08",
+      "date": "2025-11-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 131435
+    },
+    {
+      "id": "payment-affirm-monitor-2025-12-08",
+      "date": "2025-12-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 123722
+    },
+    {
+      "id": "payment-affirm-monitor-2026-01-08",
+      "date": "2026-01-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 116009
+    },
+    {
+      "id": "payment-affirm-monitor-2026-02-08",
+      "date": "2026-02-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 108296
+    },
+    {
+      "id": "payment-affirm-monitor-2026-03-08",
+      "date": "2026-03-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 100583
+    },
+    {
+      "id": "payment-affirm-monitor-2026-04-08",
+      "date": "2026-04-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 92870
+    },
+    {
+      "id": "payment-affirm-monitor-2026-05-08",
+      "date": "2026-05-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 85157
+    },
+    {
+      "id": "payment-affirm-monitor-2026-06-08",
+      "date": "2026-06-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 77444
+    },
+    {
+      "id": "payment-affirm-monitor-2026-07-08",
+      "date": "2026-07-08",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "Affirm Monitor monthly payment",
+      "balanceAfterCents": 69731
+    },
+    {
+      "id": "payment-affirm-monitor-2026-08-10",
+      "date": "2026-08-10",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "August AutoPay cleared Chase Total Checking",
+      "balanceAfterCents": 62018
+    },
+    {
+      "id": "payment-affirm-monitor-2026-09-09",
+      "date": "2026-09-09",
+      "accountId": "affirm-monitor-xxxx",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 7713,
+      "description": "September AutoPay cleared Chase Total Checking",
+      "balanceAfterCents": 54305
+    },
+    {
       "id": "payment-citi-3006-2026-09-16",
       "date": "2026-09-16",
       "accountId": "citi-aadvantage-3006",
@@ -1118,12 +1744,23 @@
       "balanceAfterCents": 40000
     },
     {
+      "id": "payment-chase-flex-3254-2026-09-03",
+      "date": "2026-09-03",
+      "accountId": "chase-freedom-flex-3254",
+      "paidFromAccountId": "chase-total-checking-5236",
+      "type": "payment",
+      "amountCents": 3299,
+      "description": "Statement payment from Chase Total Checking",
+      "balanceAfterCents": 0
+    },
+    {
       "id": "payment-chase-flex-3254-2026-09-22",
       "date": "2026-09-22",
       "accountId": "chase-freedom-flex-3254",
+      "paidFromAccountId": "suspense-unclassified",
       "type": "payment",
       "amountCents": 3299,
-      "description": "Statement payment",
+      "description": "Statement payment; funding source pending confirmation",
       "balanceAfterCents": 0
     },
     {

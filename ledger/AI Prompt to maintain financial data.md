@@ -64,6 +64,11 @@ Place the original PDF in `ledger/` using a stable, descriptive filename. Existi
 - `WellsFargo-2026-08_0805.pdf`
 - `WellsFargo-2026-09_0009.pdf`
 - `WellsFargo-2026-09_9110.pdf`
+- `Chase_2026-08-5236-.pdf`
+- `Chase_2026-09-5236-.pdf`
+- `Chase-2026-08-3254-.pdf`
+- `Chase_2026-09-3254-.pdf`
+- `Affirm Loan.pdf`
 
 If the user works from multiple computers, add the PDF to Git along with the derived data. Do not leave source evidence untracked unless the user explicitly wants it local-only.
 
@@ -118,6 +123,9 @@ Code ranges currently follow this convention:
 Do not reuse a code for two different accounts. New current examples include:
 
 - `1001` Wells Fargo Everyday Checking ending in `0009`
+- `1006` Chase Total Checking ending in `5236`
+- `2108` Chase Freedom Flex ending in `3254`
+- `2113` Affirm Monitor (masked suffix `XXXX`)
 - `1005` Wells Fargo Way2Save Savings ending in `0805`
 - `2104` GM Rewards Mastercard ending in `2946`
 - `2107` Wells Fargo Active Cash ending in `9110`
@@ -125,6 +133,9 @@ Do not reuse a code for two different accounts. New current examples include:
 - `4001` Bank interest income
 - `5005` San Joaquin Pest Control
 - `5006` AT&T mobility
+- `5007` Bank fees
+- `5008` Vehicle wash expense
+- `5009` Personal-use monitor expense
 
 ### 4. Add account detail and explicit statement ledger entries
 
@@ -254,7 +265,7 @@ GJ-0001 through GJ-0043
 Supplemental evidence-backed entries currently continue from:
 
 ```text
-GJ-0044 onward
+GJ-0044 onward; the Affirm loan and payment history continues through GJ-0089
 ```
 
 Before adding an entry, inspect `supplementalJournalEntries` and select the next unused number. Do not renumber old GJ references, because account ledgers use those values in their Ref. column.
@@ -286,6 +297,8 @@ For a recurring account, use:
   "amountCents": 2500
 }
 ```
+
+For a known final installment, `recurrence.endDate` stops projection and optional `recurrence.finalAmountCents` overrides the regular amount on that date. `paymentSourceLabel` identifies the funding account in the budget forecast without posting a future journal entry.
 
 Use `plannedPaymentCents` when a known AutoPay amount differs from the statement balance. Example: GM Rewards statement balance was `$680.58`, but the verified AutoPay was `$30.00`; therefore `plannedPaymentCents` must be `3000`, not `68058`.
 
