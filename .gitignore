@@ -5,7 +5,7 @@
 **/obj/
 
 # private accounting files (kept local only)
-data/
+data/accounts.json
 ledger/
 scripts/accounting.js
 classes/master-thesis/jarvis/paymentsImportanDates.html
