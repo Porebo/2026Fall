@@ -544,6 +544,9 @@
       if (event.type === "payment" && event.account.id === "church-tithing") {
         row.classList.add("ledger-row--tithing");
       }
+      if (event.type === "transfer" && (event.entry.id === "planned-transfer-lyft-to-bofa-2026-10-08" || event.entry.id === "planned-transfer-capital-one-to-bofa-2026-10-05")) {
+        row.classList.add("ledger-row--highlight");
+      }
       row.appendChild(makeCell(date(event.date)));
       row.appendChild(makeCell("-"));
       referenceNumber += 1;

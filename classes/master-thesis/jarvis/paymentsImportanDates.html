@@ -24,6 +24,7 @@
     .accounting-table--compact th:nth-child(2), .accounting-table--compact td:nth-child(2), .accounting-table--compact th:nth-child(3), .accounting-table--compact td:nth-child(3), .accounting-table--compact th:nth-child(4), .accounting-table--compact td:nth-child(4) { width: 1%; white-space: nowrap; }
     .accounting-table--compact .ledger-row--projected, .accounting-table--compact .ledger-row--projected .amount { color: #2f75b5; }
     .accounting-table--compact .ledger-row--tithing, .accounting-table--compact .ledger-row--tithing .amount { color: #16803c; }
+    .accounting-table--compact .ledger-row--highlight, .accounting-table--compact .ledger-row--highlight .amount { color: #16803c; font-weight: 700; }
     .accounting-table .amount--negative, .accounting-table--compact .ledger-row--projected .amount.amount--negative { color: #b42318; }
     .accounting-table th { background: #eef5fb; color: #334e68; font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; }
     .accounting-table tbody tr:nth-child(even) { background: #f8fafc; }
@@ -111,25 +112,25 @@
       <h2 id="paydays-heading">Upcoming paydays</h2>
       <p class="accounting-meta">These are bill amounts to reserve from each deposit, not paycheck amounts or projected checking balances. Credit cards use the remaining statement balance.</p>
       <p class="accounting-meta">Paychecks from CRC are biweekly at $2,200 each.</p>
+      <p class="accounting-meta" style="color: green;">Pending, not yet reconciled: Lyft Direct deposit of $347.66 initiated October 5, expected in BofA checking around October 8.</p>
       <p class="accounting-meta">Tithing is modeled at $440 monthly (10% of two CRC checks); Uber income is excluded.</p>
       <ul id="paycheck-schedule"><li>Loading paycheck dates...</li></ul>
       <div class="accounting-note" id="cash-runway" aria-live="polite"><p>Loading BofA balance reconciliation...</p></div>
 
       <h3>Due before the first deposit</h3>
-      <p><strong>$2,129.55</strong> is due October 1–6 and must be covered before the October 9 paycheck replenishes checking.</p>
-      <p class="accounting-meta">Apple Card: $145.31 paid September 28; balance is now $0.</p>
+      <p><strong>$1,404.40</strong> is due October 1–6 and must be covered before the October 9 paycheck replenishes checking.</p>
+      <p class="accounting-meta">Apple Card: $145.31 paid September 30; balance is now $0.</p>
       <ul>
-        <li>Oct 1 — IRS: $500.00</li>
-        <li>Oct 1 — Service Finance Company: $256.43</li>
         <li>Oct 1 — Spouse support for Irene Carcamo: $400.00</li>
         <li>Oct 1 — Church tithing: $440.00</li>
-        <li>Oct 5 — GM Rewards Mastercard: $338.72</li>
+        <li>Oct 5 — GM Rewards Mastercard: $370.00</li>
         <li>Oct 6 — Citi AAdvantage Mastercard ending in 3811: $194.40</li>
       </ul>
 
-      <h3><time datetime="2026-10-09">October 9 deposit</time> — reserve $3,705.36</h3>
-      <p class="accounting-meta">Bills due October 10–22</p>
+      <h3><time datetime="2026-10-09">October 9 deposit</time> — reserve $4,312.19</h3>
+      <p class="accounting-meta">Bills due October 9–22</p>
       <ul>
+        <li>Oct 9 — Robinhood: $606.83</li>
         <li>Oct 11 — PG&amp;E: $415.00</li>
         <li>Oct 14 — Dovenmuehle: $376.12</li>
         <li>Oct 16 — Pentagon Federal: $530.43</li>

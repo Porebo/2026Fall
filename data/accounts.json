@@ -1,11 +1,11 @@
 {
-  "asOf": "2026-09-28",
+  "asOf": "2026-10-05",
   "cashBalanceSnapshot": {
     "accountId": "cash-checking",
     "bank": "Bank of America",
     "balanceCents": 73473,
     "asOf": "2026-08-28",
-    "statementEndDate": "2026-09-28",
+    "statementEndDate": "2026-10-02",
     "nextPaydayDate": "2026-10-09",
     "nextPaydayAmountCents": 220000
   },
@@ -41,7 +41,7 @@
     { "id": "bofa-2026-09-16-penfed", "date": "2026-09-16", "code": "2204", "amountCents": -53043, "description": "Pentagon Federal transfer" },
     { "id": "bofa-2026-09-17-citi", "date": "2026-09-17", "amountCents": -10873, "description": "Citi Card Online payment" },
     { "id": "bofa-2026-09-18-netflix", "date": "2026-09-18", "code": "2401", "amountCents": -2699, "description": "Netflix" },
-    { "id": "bofa-2026-09-18-barclaycard", "date": "2026-09-18", "amountCents": -11186, "description": "Barclaycard payment" },
+    { "id": "bofa-2026-09-18-barclaycard", "date": "2026-09-18", "code": "2104", "amountCents": -11186, "description": "GM Rewards Mastercard payment ending in 2946" },
     { "id": "bofa-2026-09-18-keep-the-change", "date": "2026-09-18", "amountCents": -1, "description": "Keep the Change transfer to savings 3435" },
     { "id": "bofa-2026-09-22-apple-card", "date": "2026-09-22", "code": "2109", "amountCents": -2500, "description": "Apple Card payment" },
     { "id": "bofa-2026-09-23-transfer-from-savings", "date": "2026-09-23", "amountCents": 400000, "description": "Online transfer from savings 3435" },
@@ -52,7 +52,17 @@
     { "id": "bofa-2026-09-25-payroll", "date": "2026-09-25", "code": "4000", "amountCents": 220708, "description": "CRC Services payroll" },
     { "id": "bofa-2026-09-25-amex", "date": "2026-09-25", "code": "2110", "amountCents": -60437, "description": "American Express payment" },
     { "id": "bofa-2026-09-28-transfer", "date": "2026-09-28", "amountCents": 80000, "description": "Transfer from Lester S Carcamo" },
-    { "id": "bofa-2026-09-28-transfer-to-savings", "date": "2026-09-28", "code": "1004", "amountCents": -2500, "description": "Automatic transfer to savings 3435" }
+    { "id": "bofa-2026-09-28-transfer-to-savings", "date": "2026-09-28", "code": "1004", "amountCents": -2500, "description": "Automatic transfer to savings 3435" },
+    { "id": "bofa-2026-09-30-wells-fargo-transfer", "date": "2026-09-30", "amountCents": 30000, "description": "Transfer from Wells Fargo" },
+    { "id": "bofa-2026-09-30-freedom-mortgage", "date": "2026-09-30", "code": "2200", "amountCents": -147802, "description": "Freedom Mortgage payment" },
+    { "id": "bofa-2026-09-30-mazda", "date": "2026-09-30", "code": "2201", "amountCents": -47522, "description": "Mazda Financial payment" },
+    { "id": "bofa-2026-09-30-barclaycard", "date": "2026-09-30", "code": "2104", "amountCents": -20000, "description": "GM Rewards Mastercard payment ending in 2946" },
+    { "id": "bofa-2026-09-30-apple-card", "date": "2026-09-30", "code": "2109", "amountCents": -14531, "description": "Apple Card payment" },
+    { "id": "bofa-2026-10-01-branch-messenger", "date": "2026-10-01", "amountCents": 2349, "description": "Branch Messenger P2P transfer" },
+    { "id": "bofa-2026-10-01-irs", "date": "2026-10-01", "code": "2300", "amountCents": -50000, "description": "IRS tax payment" },
+    { "id": "bofa-2026-10-02-lyft", "date": "2026-10-02", "amountCents": 28231, "description": "Lyft Direct deposit" },
+    { "id": "bofa-2026-10-02-service-finance", "date": "2026-10-02", "code": "2202", "amountCents": -25643, "description": "Service Finance Company bill payment" },
+    { "id": "bofa-2026-10-02-barclaycard", "date": "2026-10-02", "code": "2104", "amountCents": -3000, "description": "GM Rewards Mastercard payment ending in 2946" }
   ],
   "supplementalJournalEntries": [
     {
@@ -89,19 +99,19 @@
       "number": "GJ-0047",
       "date": "2026-09-09",
       "sourceDocument": "Pending source document",
-      "description": "GM Marketplace purchase pending card-statement confirmation",
+      "description": "GM Marketplace purchase on GM Rewards Mastercard ending in 2946",
       "lines": [
         { "accountId": "gm-marketplace-expense", "debitCents": 3128, "creditCents": 0 },
-        { "accountId": "suspense-unclassified", "debitCents": 0, "creditCents": 3128 }
+        { "accountId": "goldman-gm-rewards", "debitCents": 0, "creditCents": 3128 }
       ]
     },
     {
       "number": "GJ-0048",
       "date": "2026-09-16",
       "sourceDocument": "Pending source document",
-      "description": "Unclassified card payment pending statement confirmation",
+      "description": "Payment to GM Rewards Mastercard ending in 2946",
       "lines": [
-        { "accountId": "suspense-unclassified", "debitCents": 11186, "creditCents": 0 },
+        { "accountId": "goldman-gm-rewards", "debitCents": 11186, "creditCents": 0 },
         { "accountId": "cash-checking", "debitCents": 0, "creditCents": 11186 }
       ]
     },
@@ -109,9 +119,9 @@
       "number": "GJ-0049",
       "date": "2026-09-28",
       "sourceDocument": "Pending source document",
-      "description": "Unclassified card payment pending statement confirmation",
+      "description": "Payment to GM Rewards Mastercard ending in 2946",
       "lines": [
-        { "accountId": "suspense-unclassified", "debitCents": 20000, "creditCents": 0 },
+        { "accountId": "goldman-gm-rewards", "debitCents": 20000, "creditCents": 0 },
         { "accountId": "cash-checking", "debitCents": 0, "creditCents": 20000 }
       ]
     },
@@ -488,14 +498,23 @@
   ],
   "cashForecastEntries": [
     {
+      "id": "planned-transfer-lyft-to-bofa-2026-10-08",
+      "date": "2026-10-08",
+      "accountId": "cash-checking",
+      "type": "transfer",
+      "direction": "in",
+      "amountCents": 34766,
+      "description": "Lyft Direct deposit (driving income), initiated 2026-10-05"
+    },
+    {
       "id": "planned-transfer-capital-one-to-bofa-2026-10-05",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "accountId": "cash-checking",
       "sourceAccountId": "capital-one-checking",
       "type": "transfer",
       "direction": "in",
       "amountCents": 220000,
-      "description": "Transfer from Capital One",
+      "description": "Transfer from Capital One 360 Checking ...5571 (confirmation BF7A, starts 2026-10-06)",
       "recurrence": {
         "frequency": "monthly",
         "dayOfMonth": 5
@@ -880,11 +899,11 @@
       "bank": "Barclays Bank Delaware",
       "name": "GM Rewards Mastercard",
       "lastFour": "2946",
-      "dueDate": "2026-10-01",
+      "dueDate": "2026-10-05",
       "minimumDueCents": 3000,
-      "plannedPaymentCents": 3000,
-      "statementBalanceCents": 68058,
-      "balanceCents": 68058,
+      "plannedPaymentCents": 37000,
+      "statementBalanceCents": 37000,
+      "balanceCents": 37000,
       "completedPaymentDate": null,
       "completedPaymentCents": 0,
       "status": "open",
@@ -911,6 +930,38 @@
           "balanceAfterCents": 68058,
           "isDebit": false,
           "journalEntry": "GJ-0046"
+        },
+        {
+          "date": "2026-09-09",
+          "amountCents": 3128,
+          "description": "GM Marketplace purchase",
+          "balanceAfterCents": 71186,
+          "isDebit": false,
+          "journalEntry": "GJ-0047"
+        },
+        {
+          "date": "2026-09-16",
+          "amountCents": 11186,
+          "description": "Payment received from Bank of America",
+          "balanceAfterCents": 60000,
+          "isDebit": true,
+          "journalEntry": "GJ-0048"
+        },
+        {
+          "date": "2026-09-28",
+          "amountCents": 20000,
+          "description": "Payment received from Bank of America",
+          "balanceAfterCents": 40000,
+          "isDebit": true,
+          "journalEntry": "GJ-0049"
+        },
+        {
+          "date": "2026-10-02",
+          "amountCents": 3000,
+          "description": "Payment received from Bank of America",
+          "balanceAfterCents": 37000,
+          "isDebit": true,
+          "journalEntry": "GJ-0053"
         }
       ]
     },
@@ -927,7 +978,7 @@
       "status": "open",
       "openingBalanceDate": "2026-07-20",
       "openingBalanceCents": 0,
-      "balanceCents": 28058,
+      "balanceCents": 0,
       "ledgerEntries": [
         {
           "date": "2026-07-21",
@@ -938,36 +989,12 @@
           "journalEntry": "GJ-0060"
         },
         {
-          "date": "2026-09-09",
-          "amountCents": 3128,
-          "description": "GM Marketplace purchase pending statement confirmation",
-          "balanceAfterCents": 171,
-          "isDebit": false,
-          "journalEntry": "GJ-0047"
-        },
-        {
-          "date": "2026-09-16",
-          "amountCents": 11186,
-          "description": "Unclassified card payment pending statement confirmation",
-          "balanceAfterCents": 11357,
-          "isDebit": true,
-          "journalEntry": "GJ-0048"
-        },
-        {
           "date": "2026-09-22",
           "amountCents": 3299,
           "description": "Chase Freedom Flex payment; funding source pending statement confirmation",
-          "balanceAfterCents": 8058,
+          "balanceAfterCents": 0,
           "isDebit": false,
           "journalEntry": "GJ-0074"
-        },
-        {
-          "date": "2026-09-28",
-          "amountCents": 20000,
-          "description": "Unclassified card payment pending statement confirmation",
-          "balanceAfterCents": 28058,
-          "isDebit": true,
-          "journalEntry": "GJ-0049"
         }
       ]
     },
@@ -1207,10 +1234,10 @@
       "dueDate": "2026-10-01",
       "minimumDueCents": 50000,
       "statementBalanceCents": 50000,
-      "balanceCents": 50000,
-      "completedPaymentDate": null,
-      "completedPaymentCents": 0,
-      "status": "open",
+      "balanceCents": 0,
+      "completedPaymentDate": "2026-10-01",
+      "completedPaymentCents": 50000,
+      "status": "paid",
       "recurrence": {
         "frequency": "monthly",
         "dayOfMonth": 1,
@@ -1243,10 +1270,10 @@
       "dueDate": "2026-10-01",
       "minimumDueCents": 25643,
       "statementBalanceCents": 25643,
-      "balanceCents": 25643,
-      "completedPaymentDate": null,
-      "completedPaymentCents": 0,
-      "status": "open",
+      "balanceCents": 0,
+      "completedPaymentDate": "2026-10-02",
+      "completedPaymentCents": 25643,
+      "status": "paid",
       "recurrence": {
         "frequency": "monthly",
         "dayOfMonth": 1,
@@ -1402,10 +1429,10 @@
       "bank": "Robinhood",
       "name": "Robinhood",
       "lastFour": null,
-      "dueDate": "2026-10-04",
-      "minimumDueCents": 59477,
-      "statementBalanceCents": 59477,
-      "balanceCents": 59477,
+      "dueDate": "2026-10-09",
+      "minimumDueCents": 60683,
+      "statementBalanceCents": 60683,
+      "balanceCents": 60683,
       "completedPaymentDate": null,
       "completedPaymentCents": 0,
       "status": "open",
@@ -1821,7 +1848,7 @@
     {
       "id": "purchase-gm-rewards-2946-2026-09-09",
       "date": "2026-09-09",
-      "accountId": "suspense-unclassified",
+      "accountId": "goldman-gm-rewards",
       "type": "purchase",
       "amountCents": 3128,
       "description": "GM Marketplace",
@@ -1830,7 +1857,7 @@
     {
       "id": "payment-gm-rewards-2946-2026-09-16",
       "date": "2026-09-16",
-      "accountId": "suspense-unclassified",
+      "accountId": "goldman-gm-rewards",
       "type": "payment",
       "amountCents": 11186,
       "description": "Payment Received",
@@ -1839,7 +1866,7 @@
     {
       "id": "payment-gm-rewards-2946-2026-09-28",
       "date": "2026-09-28",
-      "accountId": "suspense-unclassified",
+      "accountId": "goldman-gm-rewards",
       "type": "payment",
       "amountCents": 20000,
       "description": "Additional payment",
@@ -1872,6 +1899,33 @@
       "amountCents": 30000,
       "description": "Transfer from Wells Fargo",
       "balanceAfterCents": 137608
+    },
+    {
+      "id": "payment-irs-2026-10-01",
+      "date": "2026-10-01",
+      "accountId": "irs-payment-plan",
+      "type": "payment",
+      "amountCents": 50000,
+      "description": "Monthly IRS payment plan payment",
+      "balanceAfterCents": 0
+    },
+    {
+      "id": "payment-service-finance-2026-10-02",
+      "date": "2026-10-02",
+      "accountId": "service-finance-company",
+      "type": "payment",
+      "amountCents": 25643,
+      "description": "Monthly Service Finance Company payment",
+      "balanceAfterCents": 0
+    },
+    {
+      "id": "payment-gm-rewards-2946-2026-10-02",
+      "date": "2026-10-02",
+      "accountId": "goldman-gm-rewards",
+      "type": "payment",
+      "amountCents": 3000,
+      "description": "Monthly minimum payment",
+      "balanceAfterCents": 37000
     }
   ],
   "journalEntries": [
@@ -2080,7 +2134,7 @@
       "number": "JE-0011",
       "date": "2026-09-09",
       "posted": true,
-      "description": "GM Marketplace purchase pending card-statement confirmation",
+      "description": "GM Marketplace purchase on GM Rewards Mastercard ending in 2946",
       "sourceTransactionId": "purchase-gm-rewards-2946-2026-09-09",
       "lines": [
         {
@@ -2089,7 +2143,7 @@
           "creditCents": 0
         },
         {
-          "accountId": "suspense-unclassified",
+          "accountId": "goldman-gm-rewards",
           "debitCents": 0,
           "creditCents": 3128
         }
@@ -2100,11 +2154,11 @@
       "number": "JE-0012",
       "date": "2026-09-16",
       "posted": true,
-      "description": "Unclassified card payment pending statement confirmation",
+      "description": "Payment to GM Rewards Mastercard ending in 2946",
       "sourceTransactionId": "payment-gm-rewards-2946-2026-09-16",
       "lines": [
         {
-          "accountId": "suspense-unclassified",
+          "accountId": "goldman-gm-rewards",
           "debitCents": 11186,
           "creditCents": 0
         },
@@ -2120,11 +2174,11 @@
       "number": "JE-0013",
       "date": "2026-09-28",
       "posted": true,
-      "description": "Unclassified card payment pending statement confirmation",
+      "description": "Payment to GM Rewards Mastercard ending in 2946",
       "sourceTransactionId": "payment-gm-rewards-2946-2026-09-28",
       "lines": [
         {
-          "accountId": "suspense-unclassified",
+          "accountId": "goldman-gm-rewards",
           "debitCents": 20000,
           "creditCents": 0
         },
@@ -2192,6 +2246,66 @@
           "accountId": "cash-checking",
           "debitCents": 0,
           "creditCents": 13000
+        }
+      ]
+    },
+    {
+      "id": "je-2026-10-01-irs-payment",
+      "number": "JE-0017",
+      "date": "2026-10-01",
+      "posted": true,
+      "description": "Monthly IRS payment plan payment",
+      "sourceTransactionId": "payment-irs-2026-10-01",
+      "lines": [
+        {
+          "accountId": "irs-payment-plan",
+          "debitCents": 50000,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 50000
+        }
+      ]
+    },
+    {
+      "id": "je-2026-10-02-service-finance-payment",
+      "number": "JE-0018",
+      "date": "2026-10-02",
+      "posted": true,
+      "description": "Monthly Service Finance Company payment",
+      "sourceTransactionId": "payment-service-finance-2026-10-02",
+      "lines": [
+        {
+          "accountId": "service-finance-company",
+          "debitCents": 25643,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 25643
+        }
+      ]
+    },
+    {
+      "id": "je-2026-10-02-gm-rewards-2946-payment",
+      "number": "JE-0019",
+      "date": "2026-10-02",
+      "posted": true,
+      "description": "Monthly minimum payment",
+      "sourceTransactionId": "payment-gm-rewards-2946-2026-10-02",
+      "lines": [
+        {
+          "accountId": "goldman-gm-rewards",
+          "debitCents": 3000,
+          "creditCents": 0
+        },
+        {
+          "accountId": "cash-checking",
+          "debitCents": 0,
+          "creditCents": 3000
         }
       ]
     }
