@@ -3,3 +3,10 @@
 !.env.example
 **/bin/
 **/obj/
+
+# private accounting files (kept local only)
+data/
+ledger/
+scripts/accounting.js
+classes/master-thesis/jarvis/paymentsImportanDates.html
+classes/master-thesis/jarvis/stmt*.csv
