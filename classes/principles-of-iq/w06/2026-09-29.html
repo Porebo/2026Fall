@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principles of IQ - 2026-09-29</title>
+  <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a> /
+      <a href="../home-principles-of-iq.html">Principles of IQ</a> /
+      2026-09-29
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Class Meeting &mdash; September 29, 2026</p>
+      <h1 class="meeting-title">Midterm Logistics &amp; Managing Information as Product, in Practice</h1>
+      <p class="lede">
+        A lighter, discussion-driven session ahead of the midterm: exam mechanics, why quality
+        control comes before quality assurance in the Plan-Do-Check-Act cycle, a real student
+        example of applying completeness and accuracy metrics, and why &ldquo;clean data&rdquo;
+        isn't the only way to create information value.
+      </p>
+    </header>
+
+    <section class="card" aria-labelledby="recording-heading">
+      <p class="eyebrow">Recording</p>
+      <h2 id="recording-heading">Lecture Video</h2>
+      <p>September 29, 2026 class recording. With the midterm approaching and a large amount of material already covered, the professor deferred new content (the planned statistics unit) in favor of review and open discussion.</p>
+      <p class="deadline-empty">Zoom recording link to be added.</p>
+    </section>
+
+    <section class="card" aria-labelledby="exam-logistics-heading">
+      <p class="eyebrow">Housekeeping</p>
+      <h2 id="exam-logistics-heading">Midterm Exam Mechanics</h2>
+      <ul>
+        <li>Everyone &mdash; both the in-person (H) and online (9U1) sections &mdash; takes the midterm <strong>online</strong>, proctored through Respondus LockDown Browser with camera monitoring (AI-flagged for suspicious behavior, e.g. looking away or talking to someone off-screen).</li>
+        <li>The <strong>practice exam</strong> can be retaken as many times as needed; the <strong>actual midterm</strong> is one attempt only.</li>
+        <li>Exam window opens the Thursday of midterm week (no live class that day) and stays open through the weekend to accommodate students in other time zones. Each student gets a full 2-hour window to match the time allotted for the final, since in-class exam periods (1 hour 15 minutes) have historically been shorter than the final's 2-hour slot for the same weight.</li>
+        <li>All multiple choice, roughly 50&ndash;60 questions.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="pdca-heading">
+      <p class="eyebrow">Student Question</p>
+      <h2 id="pdca-heading">Why Does &ldquo;Do&rdquo; (Quality Control) Precede &ldquo;Check&rdquo; (Quality Assurance)?</h2>
+      <p>An online student emailed a sharp observation: in Plan-Do-Check-Act, the <strong>Do</strong> step is quality control (checking the finished product), while <strong>Check</strong> is quality assurance (checking the inputs/parts going in) &mdash; which seems backwards, since in a build process you'd assure the inputs before you ever get to a finished product to control.</p>
+      <p>The resolution ties directly back to the course's central principle: <strong>manage information as product</strong>. In the <em>planning and design</em> phase, you must start by defining the product &mdash; its requirements are quality control &mdash; before you can know what quality assurance checks the inputs actually need. You can't design input checks for data you don't yet know the product requires. Once planning is complete and you're actually running the process, assurance naturally happens before control in time &mdash; but in the design sequence, control has to come first.</p>
+    </section>
+
+    <section class="card" aria-labelledby="fitness-heading">
+      <p class="eyebrow">Working the Current Assignment</p>
+      <h2 id="fitness-heading">Fitness for Use, Not Just &ldquo;Clean vs. Dirty&rdquo;</h2>
+      <p>Reviewing the grade-report requirements exercise: some anomalies in a file are <strong>intrinsic</strong> and obvious regardless of use (missing data, inconsistent representation). But most judgments about quality require knowing <strong>how the data will be used</strong>. A column with heavy missing values isn't automatically low quality &mdash; if that column was never going to be used in the product being built, its completeness was never a requirement in the first place. Quality, per the ISO definition, is <em>meeting requirements</em> &mdash; and requirements can only be written once you know what you're building.</p>
+      <p>The professor also pushed back on equating data quality purely with &ldquo;garbage in, garbage out&rdquo;: sometimes good, already-clean data creates new value simply by being <strong>combined</strong> with other data in a new way, without any cleansing at all. Example: the Night Sky astronomy app doesn't generate any new astronomical data &mdash; positions of celestial bodies have been plotted for centuries. What's new is combining a phone's geolocation and orientation sensors with that existing table to show, instantly, exactly what should be in the sky wherever the phone is pointed. That's an information product built entirely from recombination, not data cleanup.</p>
+    </section>
+
+    <section class="card" aria-labelledby="demo-heading">
+      <p class="eyebrow">Student Demo</p>
+      <h2 id="demo-heading">Comparing Two Database Replacement Candidates</h2>
+      <p>A student shared a live work example directly applying Chapter 4 concepts: a production database (&ldquo;AWS&rdquo;) is being retired, with two candidate replacements to evaluate for whether they contain equivalent data.</p>
+      <ul>
+        <li>Nine category groups of columns were each scored on <strong>completeness</strong> (e.g. identity fields: 100% in the source, 99.9% in both candidates) and <strong>accuracy</strong>, defined here as the percentage of populated rows where a candidate's value matches the original AWS value &mdash; one candidate matched 98%, the other 100% on a given category.</li>
+        <li>A weighted formula combined both scores per category to recommend which candidate to use, with some categories favoring one candidate and some the other &mdash; pointing toward a likely <strong>hybrid</strong> recommendation rather than picking a single winner outright.</li>
+        <li>The professor clarified an important nuance: this &ldquo;accuracy&rdquo; measure isn't proving either candidate is accurate in any absolute sense &mdash; it's measuring <strong>agreement with a trusted benchmark</strong> (the retiring AWS system), which is itself a legitimate and common way to operationalize accuracy when ground truth isn't otherwise available.</li>
+        <li>An open question raised but not yet resolved: instead of choosing one candidate category-by-category, could the two candidates be <strong>combined</strong> (e.g. via a SQL union) to produce a single score better than either alone?</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="recap-heading">
+      <p class="eyebrow">Where We Are</p>
+      <h2 id="recap-heading">Course Recap Before the Midterm</h2>
+      <p>Topics covered so far: principles and domains of information quality; value and business impact; environment, culture, and change; the history of information quality (Deming, Shewhart, and other pioneers); the ISO 8000-61 data quality management reference model; and data governance. The professor deliberately chose to spend the rest of this session on discussion and questions rather than rush into new material (statistics) this close to the exam.</p>
+    </section>
+
+    <section class="meeting-nav" aria-labelledby="action-items-heading">
+      <h2 id="action-items-heading">Action Items</h2>
+      <ol>
+        <li>Take the practice exam before the midterm window opens, and confirm LockDown Browser is installed and working.</li>
+        <li>Be ready to explain why quality control logically precedes quality assurance in the planning/design of a data quality process, even though assurance happens first in execution.</li>
+        <li>Review the distinction between intrinsic data anomalies and requirement-dependent data quality errors using the grade-report assignment as the example.</li>
+        <li>Continue the current data quality assessment assignment (assessing the grade file against the derived requirements).</li>
+        <li>Study the slides and recordings across all topics covered to date in preparation for the midterm.</li>
+      </ol>
+      <p>Previous session: <a href="../w05/2026-09-24.html">September 24 &mdash; Completing Data Governance: Operating Model, Programs &amp; Common Pitfalls</a></p>
+    </section>
+  </main>
+  <script src="../../../scripts/site-nav.js"></script>
+</body>
+</html>

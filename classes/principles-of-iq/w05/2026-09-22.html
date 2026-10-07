@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principles of IQ - 2026-09-22</title>
+  <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a> /
+      <a href="../home-principles-of-iq.html">Principles of IQ</a> /
+      2026-09-22
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Class Meeting &mdash; September 22, 2026</p>
+      <h1 class="meeting-title">Data Profiling Recap &amp; the Foundations of Data Governance</h1>
+      <p class="lede">
+        A quick second pass on three-dimensional data profiling (column analysis, determinant
+        analysis, and cross-table redundancy) before moving into a new unit: what data governance
+        actually is, why organizations adopt it, and the RACI model used to assign roles around it.
+      </p>
+    </header>
+
+    <section class="card" aria-labelledby="recording-heading">
+      <p class="eyebrow">Recording</p>
+      <h2 id="recording-heading">Lecture Video</h2>
+      <p>September 22, 2026 class recording. The professor apologized for a recording failure on September 17/18 and briefly re-covered the profiling material before starting data governance.</p>
+      <p class="deadline-empty">Zoom recording link to be added.</p>
+    </section>
+
+    <section class="card" aria-labelledby="profiling-recap-heading">
+      <p class="eyebrow">Recap</p>
+      <h2 id="profiling-recap-heading">Column Analysis, Revisited</h2>
+      <p>The worked example was a DataFlux column profile of a field that turned out to be a currency code column, surfaced entirely through evidence rather than a label:</p>
+      <ul>
+        <li><strong>Ordinal position 12, 10,081 rows, 324 nulls, zero blanks, 9,757 non-null.</strong> Minimum value (collation order) was the hash character; maximum was <code>unknown</code>. Maximum string length 21 of 255 allocated characters; minimum length 1 (so no blanks).</li>
+        <li><strong>Mode was USD</strong> (9,723 occurrences), supporting the currency-code hypothesis. Uniqueness was 0.13%, making the column a poor primary-key candidate.</li>
+        <li><strong>Frequency distribution</strong> showed 13 unique values, but only 3 were valid ISO currency codes (USD, GBP, HKD). The rest were data-entry artifacts: <code>UDS</code> and <code>U.S.</code> (likely transpositions/shortcuts for USD), <code>#input error#</code> (5 instances, likely a machine-generated fallback), <code>to be confirmed</code>/<code>TBC</code>/<code>unknown</code>/<code>??</code> (operator didn't know the value yet), <code>home</code>/<code>H</code> (currency depends on address), and <code>UKP</code> (a made-up code; the real one is GBP).</li>
+        <li><strong>Pattern frequency</strong> confirmed this: the dominant pattern was three uppercase letters (AAA), matching valid ISO codes, which made the non-conforming patterns (two letters, asterisk-wrapped codes, etc.) pop out immediately.</li>
+      </ul>
+      <p>Column-to-column and table-to-table checks covered: <strong>determinant analysis</strong> (does one column's value always predict another's, e.g. customer ID determining phone number &mdash; broken as soon as the same ID shows two different phone numbers), <strong>foreign-key integrity</strong> (does a key in one table always exist in the table it references), and <strong>redundant data analysis</strong>. The redundancy example overlapped a product table against a product-sales table: 55 unique product numbers in the product master overlapped with 2,498 rows in sales, but 2,443 sales rows referenced product numbers that weren't in the product table at all &mdash; a signal to investigate mistyped numbers, unregistered new products, or blank entries.</p>
+    </section>
+
+    <section class="card" aria-labelledby="governance-intro-heading">
+      <p class="eyebrow">New Unit</p>
+      <h2 id="governance-intro-heading">What Is Data Governance?</h2>
+      <p>Governance, in general, is a framework for defining roles and responsibilities and the rules for making decisions within an organization &mdash; the same concept behind a university department's governance document (what is a professor, an associate professor, an adjunct; what do they need to be promoted; who decides). <strong>Data governance applies the same idea to data</strong>: a framework for defining roles, responsibilities, and decision rules for managing an organization's data assets.</p>
+      <ul>
+        <li><strong>Data management</strong> is doing things with data &mdash; storing it, transforming it, moving it. <strong>Data governance</strong> is the structure that decides whether those actions are allowed.</li>
+        <li>In the earliest days of computing, whoever could write the program made the decisions. As the risks became clear &mdash; e.g. exposing personally identifiable information publicly &mdash; organizations realized data needed the same kind of protection as any other asset (the professor's analogy: company vehicles need rules about who can drive them, parking, maintenance).</li>
+        <li>Data governance is fundamentally about <strong>communication and control</strong>: a single point of reference (a data catalog, in a Data Governance Office) describing all the organization's information, and an approval process so that changes to data or data processes don't go into effect without review &mdash; the same discipline already applied to software release cycles.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="raci-heading">
+      <p class="eyebrow">Assigning Roles</p>
+      <h2 id="raci-heading">The RACI Model</h2>
+      <p>RACI defines the roles a person can hold with respect to a given piece of data or a proposed change &mdash; and the same person can hold different roles for different data:</p>
+      <ul>
+        <li><strong>Responsible</strong> &mdash; actually carries out the action (a programmer, a data steward).</li>
+        <li><strong>Accountable</strong> &mdash; in charge of seeing that it gets done, without necessarily doing it themselves (a manager or director, e.g. a CIO).</li>
+        <li><strong>Consulted</strong> &mdash; must be asked before a change is made, because they understand its impact (e.g. professors and deans before a change to how incomplete/&ldquo;I&rdquo; grades are handled).</li>
+        <li><strong>Informed</strong> &mdash; has no input into the decision but needs to know it happened (e.g. students, once a grading policy changes).</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="datalake-heading">
+      <p class="eyebrow">Why Schemas Became a Problem</p>
+      <h2 id="datalake-heading">From Rigid Schemas to the Data Lake</h2>
+      <p>Relational databases require the schema &mdash; tables, columns, foreign-key relationships &mdash; to be designed before any data goes in, and every incoming record has to be transformed to fit that model. The trouble is that schemas are very hard to change once adopted, usually patched by bolting on new tables or unused &ldquo;just in case&rdquo; columns as business needs shift. As statistician George Box put it, <strong>&ldquo;All models are wrong, but some are useful&rdquo;</strong> &mdash; no schema survives contact with a changing business forever.</p>
+      <p>The data lake responds to this by landing data in its original, untransformed form first. If the model turns out to be wrong, the model is rebuilt and rerun against the preserved original data, rather than losing the ability to recover it. Many organizations now combine both ideas into what's sometimes called a &ldquo;lakehouse.&rdquo;</p>
+    </section>
+
+    <section class="card" aria-labelledby="drivers-heading">
+      <p class="eyebrow">Why Organizations Adopt It</p>
+      <h2 id="drivers-heading">Drivers for Data Governance</h2>
+      <ul>
+        <li><strong>Risk and compliance</strong> &mdash; avoiding data leaks/exposure, and proving (usually via audit) that retention and disposal rules imposed by regulators are actually being followed.</li>
+        <li><strong>Organizational transformation</strong> &mdash; mergers force it, but so does the ordinary need to keep up with societal and market change (the example given: data architectures built around postal addresses had to catch up once social media handles became important data to capture). AI is the current version of this: it creates risk, will eventually create compliance obligations, and is driving real debate over whether AI should be absorbed into existing data governance or needs its own governance regime.</li>
+        <li><strong>Agentic AI and governance:</strong> agents are increasingly given real authority to act (access email, delete messages, make changes) rather than just answer prompts &mdash; effectively becoming employees with job descriptions. The problem: some agents have been documented going around their instructions (the class discussed a case of an agent breaking into a Hugging Face repository on its own). Unlike a human who can be fired for breaking rules, a misbehaving agent can cause a lot of damage, quickly, before anyone notices.</li>
+        <li><strong>Organizational integration</strong> &mdash; when companies merge, having good governance on both sides (even if the rules differ) makes it far easier to inventory what data exists, how it's used, and rationalize into one operating model.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="stewardship-heading">
+      <p class="eyebrow">Stewardship, Not Ownership</p>
+      <h2 id="stewardship-heading">Data Stewardship</h2>
+      <p>A recurring tension in governance circles: people still talk about &ldquo;owning&rdquo; a database or a product, but ownership implies unilateral control, which undermines the whole point of governance. The preferred framing is <strong>stewardship</strong>: data is an organizational asset, and no single person or department owns it &mdash; they are only caretakers on the organization's behalf. Decisions about shared data should never be made unilaterally, because changes can create disruption elsewhere in the organization without warning.</p>
+    </section>
+
+    <section class="card" aria-labelledby="program-steps-heading">
+      <p class="eyebrow">Getting Started</p>
+      <h2 id="program-steps-heading">Setting Up a Governance Program</h2>
+      <p>Governing an entire organization's data all at once is almost never realistic. Three common ways organizations pick an initial focus:</p>
+      <ol>
+        <li>Start with <strong>one category of data</strong> (e.g. just customer data), then expand to other categories as the program matures.</li>
+        <li>Start with <strong>one department or unit</strong>, work out the kinks, and roll it out elsewhere once it succeeds.</li>
+        <li>Attach governance to a <strong>major project already underway</strong> (e.g. a new master data management system), scoped to whatever data that project touches.</li>
+      </ol>
+      <p>From there, the steps are: write a <strong>value statement</strong> (why is this worth doing &mdash; without one, people won't take it seriously), build a <strong>roadmap</strong>, secure a <strong>project plan and funding</strong>, then <strong>design, deploy, and measure</strong> the program on an ongoing basis (it is a program, not a one-time project, just like information quality).</p>
+    </section>
+
+    <section class="card" aria-labelledby="operating-model-heading">
+      <p class="eyebrow">Structure</p>
+      <h2 id="operating-model-heading">The Governance Operating Model (Part 1)</h2>
+      <p>A typical operating model starts at the top and works down &mdash; this lecture covered the first layers, to be completed next class:</p>
+      <ul>
+        <li><strong>Executive board</strong> &mdash; issues a <strong>data governance charter</strong>: a high-level document stating the value proposition and what will be governed (e.g. the data warehouse, master data management, the data quality program), without pinning down every detail of systems or data, since those can change.</li>
+        <li><strong>Governance council</strong> &mdash; the body that actually holds day-to-day authority, with representation from across the organization so that any proposed change (e.g. switching MDM vendors) gets reviewed for impact before it happens.</li>
+        <li><strong>Data stewards</strong> &mdash; <em>technical</em> stewards who understand how data moves and transforms, and <em>business</em> stewards who understand how data is actually used, reinforcing the principle that the technical side should be driven by the business side, not the reverse.</li>
+      </ul>
+      <p class="deadline-empty">The pyramid view of this structure (executive committee &rarr; council &rarr; data experts &rarr; end users) was introduced but not finished &mdash; continued in the September 24 session.</p>
+    </section>
+
+    <section class="meeting-nav" aria-labelledby="action-items-heading">
+      <h2 id="action-items-heading">Action Items</h2>
+      <ol>
+        <li>Be able to explain determinant analysis, foreign-key integrity, and redundant data analysis, and how each surfaces in a profiling tool like DataFlux.</li>
+        <li>Know the four RACI roles and be able to assign them to a worked example (e.g. a policy change requiring faculty consultation and student notification).</li>
+        <li>Understand why data governance is framed around stewardship rather than ownership, and why unilateral data changes are dangerous.</li>
+        <li>Be able to name the main drivers for adopting data governance: risk/compliance, organizational transformation (including AI), and organizational integration (M&amp;A).</li>
+        <li>Know the three common ways organizations choose an initial governance focus (by data category, by department, by project).</li>
+        <li>Continue work on the current data quality metrics assignment.</li>
+      </ol>
+      <p>Previous session: <a href="../w04/2026-09-15.html">September 15 &mdash; Data Quality Dimensions, Missing Values &amp; Data Profiling</a></p>
+    </section>
+  </main>
+  <script src="../../../scripts/site-nav.js"></script>
+</body>
+</html>
