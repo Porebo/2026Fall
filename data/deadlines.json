@@ -113,6 +113,23 @@
       "url": "classes/research-methods/w04/homework-04-instructions.html"
     },
     {
+      "id": "rm-hw05",
+      "date": "2026-10-12",
+      "timeDisplay": "9:59 PM PDT",
+      "course": "research-methods",
+      "type": "homework",
+      "workType": "hard",
+      "title": "Study Design Assignment",
+      "assignmentNumber": "HW05",
+      "assignmentName": "Study Design Assignment",
+      "description": "Describe the proposed study's problem, objectives or research questions, evidence needed, data-collection methods, and tentative analysis plan.",
+      "submissionLocation": "Blackboard",
+      "points": 5,
+      "status": "Not submitted",
+      "submitted": false,
+      "url": "classes/research-methods/w05/study-design-assignment.html"
+    },
+    {
       "id": "rm-read-w01-kumar",
       "date": "2026-08-31",
       "timeDisplay": "4:00 PM PDT",
