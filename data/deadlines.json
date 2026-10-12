@@ -125,8 +125,13 @@
       "description": "Describe the proposed study's problem, objectives or research questions, evidence needed, data-collection methods, and tentative analysis plan.",
       "submissionLocation": "Blackboard",
       "points": 5,
-      "status": "Not submitted",
-      "submitted": false,
+      "status": "Submitted",
+      "submitted": true,
+      "submittedDate": "2026-10-11",
+      "submittedTime": "11:59 PM PDT",
+      "submissionSize": "20.1 KB",
+      "confirmationNumber": "e3d35cb30df04c4ca169002def83d844",
+      "grade": "Not graded",
       "url": "classes/research-methods/w05/study-design-assignment.html"
     },
     {
