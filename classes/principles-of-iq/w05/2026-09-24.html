@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principles of IQ - 2026-09-24</title>
+  <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a> /
+      <a href="../home-principles-of-iq.html">Principles of IQ</a> /
+      2026-09-24
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Class Meeting &mdash; September 24, 2026</p>
+      <h1 class="meeting-title">Completing Data Governance: Operating Model, Programs Under the Umbrella &amp; Common Pitfalls</h1>
+      <p class="lede">
+        Finishing the data governance unit: the full operating model and its standards, the
+        programs that typically fall under governance (data dictionaries, master data
+        management, reference data), why inconsistency and redundancy are the two most damaging
+        recurring data quality problems, and the five most common ways governance programs fail.
+      </p>
+    </header>
+
+    <section class="card" aria-labelledby="recording-heading">
+      <p class="eyebrow">Recording</p>
+      <h2 id="recording-heading">Lecture Video</h2>
+      <p>September 24, 2026 class recording, continuing directly from the September 22 session on data governance.</p>
+      <p class="deadline-empty">Zoom recording link to be added.</p>
+    </section>
+
+    <section class="card" aria-labelledby="etymology-heading">
+      <p class="eyebrow">Aside</p>
+      <h2 id="etymology-heading">Where &ldquo;Steward&rdquo; Comes From</h2>
+      <p>A story shared in class (unverified, but fitting): the word <em>steward</em> may trace to the Old English compound of <em>sty</em> (a pig pen) and <em>warden</em> (a caretaker) &mdash; a steward, originally, watched over the pigs. The professor's take: appropriate for data stewardship too, since data can be quite dirty.</p>
+    </section>
+
+    <section class="card" aria-labelledby="focus-recap-heading">
+      <p class="eyebrow">Recap</p>
+      <h2 id="focus-recap-heading">Choosing an Initial Focus, Revisited</h2>
+      <p>The three incremental strategies from last class were reinforced: focus on one category of data, one department/unit, or one major project. All three exist because governing everything at once &mdash; cataloging every table, every column, across hundreds of systems &mdash; is simply too large a task to do in a single effort. None of the three is perfect; there is always friction at the edges where the chosen scope meets everything it wasn't scoped to cover.</p>
+    </section>
+
+    <section class="card" aria-labelledby="operating-model-2-heading">
+      <p class="eyebrow">Structure, Completed</p>
+      <h2 id="operating-model-2-heading">The Governance Operating Model (Part 2)</h2>
+      <ul>
+        <li><strong>Charter</strong> &mdash; must come from the executives; grassroots governance efforts without an executive mandate rarely succeed. The charter states the value proposition and names what will be governed, deliberately kept high-level since underlying systems and data will change.</li>
+        <li><strong>Governance council</strong> &mdash; needs representation from <em>every</em> function (not just IT): marketing, HR, legal, and whoever else is affected. Legal can flag a proposed change that violates regulatory compliance; HR can flag a change that would break downstream processes. The council is where the RACI round-robin actually happens.</li>
+        <li><strong>Data governance standards</strong> &mdash; the council's output. Each standard has four essential parts: <strong>purpose</strong>, <strong>scope</strong> (what data it covers), <strong>requirements</strong> (stated as &ldquo;shall&rdquo; statements, e.g. &ldquo;every operating unit shall create data quality requirements for each of its information products&rdquo;), and a <strong>RACI chart</strong> mapping who is responsible, accountable, consulted, and informed for each requirement.</li>
+        <li><strong>Data stewards</strong> carry out and monitor these standards day to day, usually one or two per department or assigned per system, coordinated by a <strong>data governance office</strong>.</li>
+      </ul>
+      <p>The pyramid view: <strong>executives</strong> at the top empower the program but don't get involved in day-to-day change requests; the <strong>governance council</strong> (data managers, line managers, department heads) authorizes policies and standards; <strong>data stewards</strong> (technical and business) are the working experts who monitor compliance; and <strong>end users</strong> are the main stakeholders, reporting problems back up to the stewards.</p>
+    </section>
+
+    <section class="card" aria-labelledby="umbrella-heading">
+      <p class="eyebrow">What Falls Under Governance</p>
+      <h2 id="umbrella-heading">Programs Under the Data Governance Umbrella</h2>
+      <ul>
+        <li><strong>Data dictionary vs. business glossary</strong> &mdash; both are metadata (descriptions of data, not the data itself). A data dictionary describes data you receive or generate and reuse as-is (inventory records, purchased parts). A business glossary describes items you <em>derive</em> from other data (a calculated inventory report value that never arrived as a file). Even a modestly sized system &mdash; the professor cited the university's former 800-table student records system &mdash; can mean cataloging thousands of individual items, which is why metadata management is often the biggest stumbling block in standing up governance.</li>
+        <li><strong>Data quality management</strong> (ISO 8000-61, covered earlier in the course) usually lives under this same umbrella &mdash; sometimes it's the original motivator for governance, sometimes governance comes first and absorbs it.</li>
+        <li><strong>Master data management (MDM)</strong> &mdash; managing key entities (customers, employees, vendors) by assigning a unique internal identifier, because attributes like name, address, or phone number change too much to reliably track an entity on their own. Workday Student, for example, is an MDM system for students: every grade, enrollment, or payment event must tie back to the correct student ID. MDM implementations are, in the professor's experience, the single most common trigger for standing up a full data governance program.</li>
+        <li><strong>Reference data management</strong> &mdash; similar in spirit, but for self-identifying codes (e.g. &ldquo;AR&rdquo; for Arkansas) that don't need an assigned surrogate identifier. The concern here is consistent representation of the code itself, not entity identity.</li>
+      </ul>
+      <p>Historically, governance is usually the late arrival: organizations already have MDM, reference data, and data quality programs running, and it's the need to control those existing systems that brings governance in as the umbrella over them &mdash; not the other way around.</p>
+    </section>
+
+    <section class="card" aria-labelledby="inconsistency-heading">
+      <p class="eyebrow">The Two Biggest Recurring Problems</p>
+      <h2 id="inconsistency-heading">Inconsistency, Redundancy &amp; the Golden Record</h2>
+      <p>In the professor's long experience, the two most persistent data quality problems are not accuracy &mdash; they are <strong>inconsistency</strong> and <strong>missing values</strong>. Inconsistency is particularly damaging because it breeds redundancy: without a unique identifier, the same customer who changes address can look like a brand-new customer, creating duplicate records.</p>
+      <ul>
+        <li><strong>Over-counting</strong> &mdash; duplicate customer records inflate the apparent customer count.</li>
+        <li><strong>Under-counting</strong> &mdash; the same customer's purchases get split across two records, so neither shows the true combined total.</li>
+        <li><strong>Loss of synchronization</strong> &mdash; when copies of the same data live in multiple departments and a change (e.g. a new address) only reaches one copy, the departments disagree about reality.</li>
+      </ul>
+      <p>MDM and reference data management solve this by requiring all changes to flow through one master database (once called a &ldquo;golden record,&rdquo; though modern systems keep the full history &mdash; old and new addresses both &mdash; rather than a single current value). Departments consume read-only copies or, increasingly, just query the master directly over the network rather than copying data at all.</p>
+      <p>The other half of the fix is <strong>governance council review before any change</strong>: when Department A proposes a change that would help its own process but break Department B's, the council can surface that conflict, let the departments jointly design an alternative, and prevent the breakage &mdash; while also building the trust that lets departments rely on each other's data instead of hoarding private copies.</p>
+    </section>
+
+    <section class="card" aria-labelledby="metrics-heading">
+      <p class="eyebrow">Measuring the Program</p>
+      <h2 id="metrics-heading">Governance Metrics</h2>
+      <ul>
+        <li><strong>Progress metrics</strong> (easiest) &mdash; how many standards have been developed and approved, how many data items are cataloged.</li>
+        <li><strong>Verification metrics</strong> (harder) &mdash; are people actually conforming to the standards that exist?</li>
+        <li><strong>Validation metrics</strong> (hardest, most important) &mdash; is the program actually delivering the value promised in the charter? Are regulatory fines trending down? Is data quality actually improving?</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="mistakes-heading">
+      <p class="eyebrow">Why Programs Fail</p>
+      <h2 id="mistakes-heading">Five Common Mistakes</h2>
+      <ol>
+        <li><strong>Lack of authority</strong> &mdash; no executive charter, so there's no real written policy or governance agreement behind the effort.</li>
+        <li><strong>Inadequate infrastructure</strong> &mdash; executives approve governance in name but allocate no budget, staff, or time, leaving already-overloaded employees to add stewardship duties on top of their regular jobs.</li>
+        <li><strong>Politics and power struggles</strong> &mdash; people who still believe they personally own &ldquo;their&rdquo; department's data resist being told they need council approval to change it.</li>
+        <li><strong>Lack of participation</strong> &mdash; without a mandate requiring people to actually show up and engage, the council never reaches critical mass.</li>
+        <li><strong>No value proposition</strong> &mdash; the same failure mode as information quality programs: if nobody can explain the benefit, nobody will take it seriously.</li>
+      </ol>
+      <p>Framing matters too: lead with the positive value, not the control and procedure, and give resistors a choice &mdash; be consulted before a change, or just be informed after it happens. Most people, once asked that way, choose to be consulted.</p>
+    </section>
+
+    <section class="card" aria-labelledby="discussion-heading">
+      <p class="eyebrow">Class Discussion</p>
+      <h2 id="discussion-heading">A Real-World Governance Program &amp; Intrinsic vs. Contextual Errors</h2>
+      <p>A student described a real data governance structure: a dedicated director over all data quality teams, each with a data steward (a senior-level role) managing team members; a 10-step maturity/training path members must complete before being qualified to manage certain aspects of the data; weekly team meetings that feed up to the steward, who meets separately at higher levels; and change communicated back down the same chain. Leadership publicly emphasizes the commitment to data quality as part of the company's stated vision.</p>
+      <p>A follow-up question connected back to Chapter 4's integrity checks: can you call something an <strong>error</strong> before you have documented data specifications? The professor's answer: some things are <strong>intrinsic</strong> &mdash; a missing value, or a foreign key that doesn't resolve &mdash; and can be observed as anomalies without any requirement at all. But whether an intrinsic anomaly rises to the level of a <strong>true error</strong> depends on the <strong>contextual</strong> use of that data: a missing value in a column the product never uses isn't a problem in that context, even though it's intrinsically still missing. As Tom Redman is quoted as saying: you need to ask both &ldquo;do I have the right data?&rdquo; and &ldquo;is the data right?&rdquo; &mdash; and the second question only has meaning relative to a particular use.</p>
+    </section>
+
+    <section class="meeting-nav" aria-labelledby="action-items-heading">
+      <h2 id="action-items-heading">Action Items</h2>
+      <ol>
+        <li>Be able to describe the full governance operating model: charter &rarr; governance council &rarr; standards (purpose, scope, requirements, RACI) &rarr; data stewards &rarr; end users.</li>
+        <li>Distinguish a data dictionary from a business glossary, and master data management from reference data management.</li>
+        <li>Explain why inconsistency and redundancy cause over-counting, under-counting, and synchronization loss, and how a golden record/master database approach fixes it.</li>
+        <li>Know the three governance metric types (progress, verification, validation) and the five common implementation mistakes.</li>
+        <li>Be able to explain the difference between an intrinsic data anomaly and a contextual data quality error.</li>
+        <li>Continue the current data quality metrics assignment; next class picks up with statistics applied to data quality.</li>
+      </ol>
+      <p>Previous session: <a href="2026-09-22.html">September 22 &mdash; Data Profiling Recap &amp; the Foundations of Data Governance</a></p>
+    </section>
+  </main>
+  <script src="../../../scripts/site-nav.js"></script>
+</body>
+</html>

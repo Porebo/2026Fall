@@ -16,7 +16,7 @@ Files are collected in the [Lecture Slides folder](Lecture%20Slides/) and named 
 - [(S1) Statistics Descriptive.pdf](Lecture%20Slides/%28S1%29%20Statistics%20Descriptive.pdf)
 - [ECCMA_20261015_UALR-Guest lecture 2026-10-15.pdf](Lecture%20Slides/ECCMA_20261015_UALR-Guest%20lecture%202026-10-15.pdf)
 
-**Source caveat:** The supplied ISO 8000-61 file is the July 25, 2016 process reference model document, not a PowerPoint slide deck. It has been named to match the screenshot, but its equivalence to the Blackboard "ISO 8000-61 DQM.pdf" file is unconfirmed.
+**ISO sources:** The actual 61-page ISO 8000-61 lecture deck was recovered from GitHub during synchronization. The separately supplied 29-page standards document is preserved as [ISO 8000-61 supplied reference.pdf](documents/ISO%208000-61%20supplied%20reference.pdf). These are distinct sources.
 
 ### Class Notes
 
@@ -44,7 +44,7 @@ Reviewed against the available local sources on October 20, 2026. Each answer be
 
 PDF links use `#page=` for the PDF viewer's page number, not the document's printed page number. Class-note links open the relevant section. These are study-source checks, not an official answer key: the 50/60 score alone cannot identify which answers were marked wrong, and missing questions cannot be reconstructed. The statistics slides remain in the source collection, but none of the saved questions directly tests their statistics topics.
 
-**Review summary:** 40 supported answers (including source-specific or conceptual support), 6 qualified answers (Q5, Q6, Q7, Q44, Q45, Q52), 3 corrected answers or terms (Q23, Q32, Q38), and 3 unresolved answers (Q1, Q14, Q50).
+**Review summary:** 41 supported answers (including source-specific or conceptual support), 6 qualified answers (Q5, Q6, Q7, Q44, Q45, Q52), 2 corrected answers or terms (Q23, Q38), and 3 unresolved answers (Q1, Q14, Q50).
 
 ## Information quality principles and evolution
 
@@ -205,12 +205,12 @@ PDF links use `#page=` for the PDF viewer's page number, not the document's prin
 31. **According to ISO 8000-61, what are the three major parts of the data quality management reference model?**  
     The implementation process, data-related support processes, and resource provisioning.
 
-    **Supported.** [ISO 8000-61 DQM, PDF pp. 8 and 9, clause 5.1 and Figure 1](Lecture%20Slides/ISO%208000-61%20DQM.pdf#page=8) names Implementation, Data-Related Support, and Resource Provision.
+    **Supported.** [ISO 8000-61 DQM lecture deck, PDF p. 8](Lecture%20Slides/ISO%208000-61%20DQM.pdf#page=8) names Implementation, Data-Related Support, and Resource Provisioning. The [standards reference, PDF pp. 8 and 9, clause 5.1 and Figure 1](documents/ISO%208000-61%20supplied%20reference.pdf#page=8) gives the same three-part structure.
 
 32. **What are the four parts of the ISO 8000-61 implementation process?**  
-    Data quality planning, data quality control, data quality assurance, and data quality improvement.
+    Data quality planning and requirements, data quality control, data quality assurance, and data quality analysis and improvement.
 
-    **Corrected terminology.** [ISO 8000-61 DQM, PDF pp. 9 and 10, clause 5.2](Lecture%20Slides/ISO%208000-61%20DQM.pdf#page=9) gives these four names. The saved answer included "and requirements" in the first name; requirements management is a lower-level activity within data quality planning, not part of that sub-process's formal name.
+    **Supported by the recovered lecture deck.** [ISO 8000-61 DQM, PDF p. 9](Lecture%20Slides/ISO%208000-61%20DQM.pdf#page=9) uses these four labels. This supersedes the earlier terminology correction based only on the [standards reference, PDF pp. 9 and 10, clause 5.2](documents/ISO%208000-61%20supplied%20reference.pdf#page=9), whose shorter formal labels are Data Quality Planning, Control, Assurance, and Improvement. The original "planning and requirements" wording was appropriate for the class slide.
 
 ## POSMAD and data quality concepts
 

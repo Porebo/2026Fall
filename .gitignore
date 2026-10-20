@@ -3,6 +3,7 @@
 !.env.example
 **/bin/
 **/obj/
+.vs/
 
 # private accounting files (kept local only)
 data/accounts.json

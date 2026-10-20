@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principles of IQ - 2026-10-06</title>
+  <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a> /
+      <a href="../home-principles-of-iq.html">Principles of IQ</a> /
+      2026-10-06
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Class Meeting &mdash; October 6, 2026</p>
+      <h1 class="meeting-title">Midterm Review: Data vs. Information Quality, the Information Quality Gap &amp; Governing AI Agents</h1>
+      <p class="lede">
+        Final midterm logistics, a full worked explanation of quality assurance vs. quality
+        control, the critical distinction between data quality and information quality, the
+        &ldquo;information quality gap&rdquo; created by missing user feedback, and a discussion
+        of why AI agents are proving hard to govern.
+      </p>
+    </header>
+
+    <section class="card" aria-labelledby="recording-heading">
+      <p class="eyebrow">Recording</p>
+      <h2 id="recording-heading">Lecture Video</h2>
+      <p>October 6, 2026 class recording, the final review session before the midterm. Homework was graded and returned ahead of this class.</p>
+      <p class="deadline-empty">Zoom recording link to be added.</p>
+    </section>
+
+    <section class="card" aria-labelledby="exam-final-heading">
+      <p class="eyebrow">Housekeeping</p>
+      <h2 id="exam-final-heading">Final Midterm Details</h2>
+      <ul>
+        <li>Released on Blackboard <strong>Thursday morning</strong>, open through <strong>Saturday night</strong>; one attempt, 2 hours, completed in a single sitting (no pausing and resuming).</li>
+        <li><strong>60 multiple-choice questions.</strong> Only one question involves any calculation at all (a simple return-on-investment calculation) &mdash; no calculator needed.</li>
+        <li>Scope: principles &amp; domains of information quality, value &amp; business impact, the history/pioneers of information quality, the ISO 8000-61 data quality management model, data governance, and the assigned reading in <em>Journey to Data Quality</em> &mdash; Chapters 1, 3, and 4.</li>
+        <li>Best preparation: review the slides and re-listen to the lecture recordings.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="qa-vs-qc-heading">
+      <p class="eyebrow">Student Question</p>
+      <h2 id="qa-vs-qc-heading">Quality Assurance vs. Quality Control</h2>
+      <p>Both terms come from manufacturing and total quality management. The historical story: early gunsmiths custom-built each firearm to their own standard, testing only the finished product at the firing range &mdash; <strong>quality control</strong>, checking the product against the requirements of the people using it. The problem was that custom parts didn't interchange between makers, so defects were only caught at the very end, forcing expensive rework or scrap. <strong>Quality assurance</strong> emerged to check the parts <em>during</em> the build, before they're assembled into the final product, catching defects early and cheaply.</p>
+      <p>Tied directly to the grade-report assignment: the <strong>major code</strong> was entirely absent from the input file &mdash; a defect caught at the quality-assurance stage, before ever trying to build the report, because it's needed in the product. Other defects found the same way: inconsistent course codes (not matching the expected IQ 101/IQ 102 values), grades computed outside the valid 0&ndash;100 range (which wouldn't map to the required 10-point letter scale), and &mdash; the most serious problem &mdash; duplicate student IDs attached to entirely different names, which would require reconciliation before the IDs could be trusted.</p>
+    </section>
+
+    <section class="card" aria-labelledby="dq-vs-iq-heading">
+      <p class="eyebrow">Core Distinction</p>
+      <h2 id="dq-vs-iq-heading">Data Quality vs. Information Quality</h2>
+      <p><strong>Data quality</strong> measures the intrinsic, component-level characteristics of the data itself (completeness, timeliness, consistent representation) &mdash; the same data has the same data quality no matter how it's used. <strong>Information quality</strong> measures fitness for a specific product or use, and can change completely for the exact same underlying data depending on the application.</p>
+      <p>The class revisited the name/address/phone example: for a mailing-coupon use case, only the completeness and deliverability of the <em>address</em> mattered &mdash; missing phone numbers were irrelevant. For a lookup-directory use case using all three fields together, the same dataset became a low-quality information product, because so many names were placeholders (&ldquo;recipient,&rdquo; &ldquo;household&rdquo;) and phone numbers were missing. Same data quality measurements either way; very different information quality depending on the product.</p>
+      <p>This also explains why effort can be wasted: in the grade-report assignment, the <strong>email field</strong> wasn't used anywhere in the final product, so its data quality (even if genuinely poor) had zero effect on the information quality of the report. Polishing unused fields doesn't improve the product.</p>
+    </section>
+
+    <section class="card" aria-labelledby="gap-heading">
+      <p class="eyebrow">Important for the Exam</p>
+      <h2 id="gap-heading">The Information Quality Gap</h2>
+      <p>The information quality gap is the <strong>missing feedback loop</strong> between the people who use an information product and the people who build it. An organization can meticulously measure and improve its inputs (data quality) on the production side, but if problems discovered by actual users of the product never get communicated back, the builders keep producing the same product the same way &mdash; believing it's improving when it may not be.</p>
+      <p>The professor's analogy: if a bakery's French bread is too salty and customers quietly buy elsewhere instead of complaining, the bakers never learn to adjust the recipe. &ldquo;Continuous improvement&rdquo; (Kaizen) that only looks inward at the inputs isn't true improvement unless it also accounts for how the product is actually received and used downstream. This is part of why <strong>information product manager</strong> roles are emerging in industry &mdash; organizations are starting to apply the same discipline to information products that they've long applied to physical and software products, specifically to close this feedback gap (one recent example cited: a federal contracting company that stood up a full information-product-management function for exactly this reason). Customer satisfaction surveys (the class's example: Bank of America asking how well a statement or service met your needs) are one concrete way organizations try to close the gap.</p>
+    </section>
+
+    <section class="card" aria-labelledby="change-aside-heading">
+      <p class="eyebrow">Aside</p>
+      <h2 id="change-aside-heading">Disappearing Information Products &amp; Change Management</h2>
+      <p>A student raised printed newspapers as an information product that missed its own information quality gap &mdash; not adapting as the way people wanted to consume news changed. The professor connected this to change management (a full course offered separately): organizations that don't stay aware of shifts in their environment and adapt their mission accordingly get left behind, the classic case being Kodak missing the shift to digital photography despite inventing much of the underlying technology.</p>
+    </section>
+
+    <section class="card" aria-labelledby="agentic-heading">
+      <p class="eyebrow">Looking Ahead</p>
+      <h2 id="agentic-heading">Agentic AI &amp; the Governance Problem</h2>
+      <p>The IQ program is actively absorbing the AI shift, with a second-half unit planned on <strong>Agentic Data Quality</strong>. The professor's current view:</p>
+      <ul>
+        <li>AI agents are proving <strong>hard to govern</strong> &mdash; there are now documented real-world cases of agents acting outside their given instructions, which is a new kind of risk compared to governing human employees (who can simply be fired for breaking rules; a rogue agent can do a lot of unseen damage quickly before anyone notices).</li>
+        <li>Agents also have real <strong>performance costs at scale</strong> &mdash; inferencing time is much slower than ordinary computation, and techniques that look fine on small demo datasets can behave very differently at production scale.</li>
+        <li>The professor's recommendation: don't abandon rule-based, deterministic data quality improvement for large datasets. Agents are currently most valuable (and lowest-risk) for <strong>structuring unstructured data</strong> &mdash; pulling usable fields out of documents to supplement existing inputs &mdash; because that only enriches inputs rather than directly altering the final product. The higher-risk use case is letting agents act directly on the product itself, where they can violate quality-control requirements without obvious warning.</li>
+      </ul>
+      <p>A student shared a personal project illustrating the technology's current reach: building &ldquo;persona&rdquo; agents grounded in a specific person's public research output (one modeled on the professor, using his published papers) and another modeled on a manager using two years of that manager's email history, both used as study/reference companions.</p>
+    </section>
+
+    <section class="meeting-nav" aria-labelledby="action-items-heading">
+      <h2 id="action-items-heading">Action Items</h2>
+      <ol>
+        <li>Take the midterm between Thursday morning and Saturday night: 60 multiple choice questions, 2-hour single-sitting window, one attempt.</li>
+        <li>Be able to explain quality assurance vs. quality control using the gunsmith/manufacturing history and the grade-report assignment's own defects as examples.</li>
+        <li>Be able to explain the difference between data quality (intrinsic, use-independent) and information quality (fitness for a specific product), with the address/phone and email-field examples.</li>
+        <li>Be able to define the information quality gap and why closing it requires feedback from product users back to the builders, not just internal data cleanup.</li>
+        <li>Review <em>Journey to Data Quality</em> Chapters 1, 3, and 4 along with all lecture slides before the exam.</li>
+        <li>No new lecture content until after the midterm; statistics, deeper IQ measurement/improvement, and AI/agentic data quality impacts follow next.</li>
+      </ol>
+      <p>Previous session: <a href="2026-09-29.html">September 29 &mdash; Midterm Logistics &amp; Managing Information as Product, in Practice</a></p>
+    </section>
+  </main>
+  <script src="../../../scripts/site-nav.js"></script>
+</body>
+</html>
