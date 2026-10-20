@@ -1,0 +1,206 @@
+Skip to main content
+CITI Program
+My Courses My Records My CEs Support
+Use Light Theme
+
+English
+Lester Carcamo
+ID 16194862
+Collaborative Research (RCR-Basic)
+University of Arkansas at Little Rock - Humanities Responsible Conduct of Research
+
+Switch View
+Collaborative Research (RCR-Basic)
+Content Authors
+
+Elizabeth Heitman, PhD
+University of Texas Southwestern Medical Center
+
+Sergio Litewka, MD, MPH
+University of Miami
+
+Introduction
+Please review at least one of the videos below before you begin reading the module. Each video is approximately three minutes long.
+
+Life Sciences - Collaboration Research
+Social/Behavioral/Education Sciences - Collaboration Research
+This module will describe strategies that may help prevent some of the challenges illustrated within the videos.
+
+Research was historically a solitary activity. Developments over the past several decades have made collaborative research the norm in academia, government, and industry. A primary cause of this change has been the increased complexity of research questions and the need for diverse knowledge and skills to answer them. Research is now a global phenomenon in which diverse disciplinary standards, societal values, organizational models, and governmental regulations may affect collaborative projects.
+
+Remarkably, there are relatively few regulations on collaborative research itself. Successful collaboration thus often requires attention to a range of discipline-based best practices and regulatory standards in research ethics.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+Explain the importance of collaborative research and why it is increasingly common.
+Discuss challenges associated with interdisciplinary research collaboration and ways to address them.
+Describe ethical and regulatory considerations in international collaborative research and in academic-industry partnerships.
+Identify regulations, policies, and ethical guidelines that affect collaborative research.
+Describe practices for establishing and maintaining effective research collaborations.
+Definitions and Key Concepts
+Collaboration typically refers to working together with others, especially in an intellectual activity (Merriam-Webster 2019).
+
+Collaborative research generally means joint work on a research project or program that benefits from the knowledge, perspectives, and resources of many individuals, disciplines, or organizations. Research collaborations may involve activities such as consultation, educational exchanges, shared access to resources or data, development of joint publications, cooperative hosting of conferences, and participation in research networks.
+
+The term partner is a synonym for collaborator that is used frequently in community-based collaborations. Partnership often implies a contractual or other legal relationship as well as common work. The term community partnership is often applied to collaborations between researchers and community groups, civic associations, non-governmental organizations, and local service agencies that address problems in the community.
+
+Collaborators may refer to themselves as a team, particularly in laboratory-based research. Team science typically reflects the work of an organized group of researchers with different skills and set roles. Team science is not necessarily large-scale research; teams may be composed of only a few individuals with complementary knowledge and skills.
+
+The Growth of Collaborative Research
+
+Many factors are responsible for the shift from individual to collaborative research over the past few decades:
+
+Increasingly complex questions need the combined insights and skills of experts in multiple, complementary disciplines. Collaboration allows researchers to have both broader and more nuanced perspectives in defining key questions. Partnerships among researchers in the social sciences, humanities, physical and life sciences, and engineering can produce significant advances.
+New opportunities for translating research findings into commercial products, and the economic importance of research and development worldwide, have led to growth in collaborations between academic researchers and industry partners.
+Tighter governmental budgets for research and increased emphasis on cost-effectiveness have led to new collaborative structures, particularly among researchers whose work requires high-cost equipment, specialized staff, or other limited resources. Universities have established centralized research service cores (for example, for imaging, high-speed computation, animal models, and biostatistics) to maximize use of expertise and improve cost-effectiveness. Similarly, federal agencies and supranational organizations have established collaborative data sharing repositories and groups (for example, the DataNet Federation Consortium, eMERGE Network, European Data Infrastructure, or WormBase). Centralized ethics review bodies, such as the National Cancer Institute's Central IRB, have also been created to reduce the administrative burden of collaboration.
+Large numbers of international graduate and postdoctoral trainees have created new pathways for collaboration. Despite marked reductions due to pandemic travel restrictions, over a third of science trainees in the U.S. have come from other countries (NSF 2022; Yamaner 2018); numbers are similarly high in Europe and the Commonwealth countries. U.S. students increasingly seek international research opportunities, often with governmental funding (Mitchel et al. 2019). Researchers' increased familiarity with institutions in other countries, together with the spread of English as the common language of science and engineering, make international collaboration more possible.
+The internet, improvements in long-distance communication, and transfer of digital data and resources have enabled collaboration across vast distances, even among researchers in remote locations. Supercomputers have been essential to the creation and analysis of large collaborative datasets that encourage participation from interdisciplinary and international teams.
+Collaboration accelerates discovery. Collaborative research explores questions from multiple vantage points. Diverse collaborative teams can reach and validate conclusions more quickly as well as discover new dimensions of complex problems (Hong and Page 2004; Nature 2018). However, the increased speed of collaborative research, combined with the increased complexity of communication among collaborators, can also raise the risk of misinterpretation and error.
+Types of Collaborations
+Collaboration Across Disciplines
+Scholars often distinguish among multidisciplinary, interdisciplinary, and transdisciplinary research:
+
+• Multidisciplinary collaboration: Researchers work on a problem within their own discipline-based perspectives in parallel with others, fitting their respective results together at the end of a project.
+	  • Interdisciplinary research: Is more intentionally collaborative, with researchers working together on a common problem from their respective disciplinary perspectives.
+	  • Transdisciplinary research: Refers to an even more collaborative form of work, in which researchers approach a common problem from an integrated conceptual framework, identify discipline-based methods and approaches that they can take together, and redefine both the problem and its solution accordingly.
+
+Collaboration with Industry
+Governments fund research in order to improve citizens' quality of life through the discovery and application of new knowledge. Since the passage of the Bayh-Dole Act (Government Patent Policy 1980) and the Federal Technology Transfer Act (1986), U.S. academic researchers and universities have been able to patent the results of federally-funded research and license the patented technology to others for commercial development. When academic researchers patent promising research findings, ownership of the patent and the income that it produces are usually divided between the researcher or research team and the university. In many countries outside the U.S., similar regulatory schemes and programs, such as the European Commission's Joint Research Centre's Technology Transfer service, support the development and commercialization of the results of government-funded research.
+
+Many universities have Technology Transfer Offices responsible for identifying research projects with potential for commercialization. "Tech transfer" facilitates research collaborations that can make financial profit for institutions and researchers by bringing new findings to market.
+
+Collaboration between academic researchers and industry may take other forms as well. Companies often hire academic researchers as consultants and as educational speakers. Companies may contract with academic researchers to do certain experiments or analyze specific data. In some cases, they may fund a larger project or an entire line of research.
+
+Common challenges when collaborating with industry relate to conflicts between the academic goal of pursuing generalizable knowledge and the industry goal of applying specific knowledge to generate profit. Researchers who collaborate with industry may be drawn away from basic research toward narrow questions related to their sponsors' product lines. In this context, trainees may also have fewer opportunities to learn basic research methods.
+
+When a company funds research, it typically owns the results. Whereas academic success is normally tied to prompt publication of findings, a company's financial success often depends on keeping certain information confidential during research and development. Researchers collaborating with industry may be asked to sign a non-disclosure agreement, promising not to publish results or methods without the sponsor's authorization and agreeing to a period of time in which the sponsor can assess the value of new findings.
+
+In an academic collaboration with industry, individual researchers and institutions are subject to conflicts of interest and commitment. Such conflicts are not necessarily unethical, but they can lead to unconscious bias that can compromise the integrity of research. Studies over the last decade have shown, for example, that industry-sponsored research is much more likely to report positive outcomes than are federally-funded studies (Ridker and Torres 2006). Editors' concerns about publication bias have led many journals to require authors to disclose the funding sources of their work (ICMJE 2021).
+
+Collaboration with Community Partners
+Many researchers collaborate with the communities they hope to benefit. True collaboration with community groups goes beyond simply recruiting members as research subjects. In community-engaged research, members of the targeted community may be instrumental in setting research priorities, defining study questions, designing protocols, collecting and analyzing data, and even writing manuscripts and giving presentations. Community-engaged approaches are particularly common in social, behavioral, and public health research, but efforts to collaborate with the end users of research findings are evident in engineering and the life sciences as well.
+
+Over the past decade, community partners have increasingly assumed the sort of authoritative roles in research that were once reserved for academic researchers. As in interdisciplinary research, working with community partners with different experiences and perspectives brings both benefits and challenges to academic research (Heitman and McKieran 2003). For example:
+
+Communities and community membership may be defined quite differently by members and researchers.
+				Communities may see themselves as the owners of data collected about them, and may seek to control access to research material and the presentation of findings, especially those that may be negative or perceived as stigmatizing.
+				Some communities have developed their own research review committees, and insist on reviewing both research proposals that plan to involve their members and the final reports from completed projects.
+				Community members who contribute to data collection may expect to be listed as authors of any resulting report.
+				Including community members as researchers on a project may subject them to federal or institutional requirements for formal training and oversight in the protection of human subjects, disclosure of conflicts of interest, and research integrity. The content, level of detail, and source of such training may vary significantly from community to community (Anderson et al. 2012).
+
+Collaboration Across National Borders
+Case StudyPolicy Differences in an International University-Industry Collaboration
+
+As more countries invest in scholarly research, research is becoming a global enterprise (IAP 2012; IAP 2016). International research collaboration typically refers to researchers or sponsors from one country conducting or funding work in another. The additional terms transnational and global research reflect the growing importance of supranational governmental organizations, such as the European Union, in funding research and setting research policy, and of research on problems that cross national boundaries, such as climate change or infectious diseases.
+
+International collaborators may find their work affected by significantly different standards of practice from one country to the next because many research policies and regulatory frameworks have been developed within specific national contexts and structures of governance. The U.S. and European nations have different approaches to regulation of research ethics that reflect their respective scientific and political cultures. In many low- and middle-income countries, moreover, limited systems of governance for science may hamper international collaboration due to vague research integrity policies and the inconsistent application of rules. Research collaborations between organizations in industrialized and developing countries increasingly include efforts to create policy infrastructure as part of building research capacity.
+
+Cultural values and national academic traditions also shape institutional policies and their interpretation, which, in turn, affects expectations and administrative oversight of international collaborations.
+
+Factors that can impact international collaborations include:
+
+The use of animals in research is subject to little oversight in some countries but is highly regulated in others. This variability is due in part to cultural views on the legitimate use of animals.
+Although the World Medical Association’s Declaration of Helsinki provides widely recognized international ethical guidelines for medical research (WMA 2013), national regulations on research with human subjects vary worldwide, as do cultural interpretations of vulnerability and protection (OHRP 2022; Loue and Loff 2013).
+Expectations for original work, concern about the unattributed use of others' text or data, and attitudes about plagiarism can vary markedly among researchers from different countries (Vasconcelos et al. 2009). Similarly, there is significant diversity among national policies on research misconduct more generally (Resnick et al. 2015).
+International collaborations may be affected by national export controls that limit or prohibit sharing research data, materials, or training with citizens of countries seen to pose risks to national security. International research collaborations and activities of international trainees may be subject to institutional oversight under export control rules. National security concerns may be especially prominent in research with advanced computing and encryption, telecommunications, physics, nanotechnologies, and biotechnologies with potential for "dual use" as weapons, as well as for human benefit (AAU 2022; IAP 2012).
+Language barriers may persist even among collaborators who use English in their professional work. In addition to disciplinary jargon, there may be concepts in one culture for which other languages have no word or multiple words with important nuances.
+Potential Challenges in Collaboration
+The differences between disciplines is one potential challenge to collaboration. Many disciplines have developed their own internal guidelines, norms, and rules. Thus working across disciplinary lines can generate many challenges due to differences in research practice. Failure to identify and reconcile such differences can affect the integrity of the research process and its findings, and even end a collaboration.
+
+Examples of Collaboration Challenges
+Researchers' experience with discipline-based grants or national funding systems may lead to different expectations about whether and how much external funding they need for a collaborative project, appropriate sponsors, the nature of grant writing and peer review, and the policies that may affect their work.
+Practical dimensions of data collection, management, and analysis in different fields or languages may require new approaches to joint work to ensure that results are not lost, corrupted, or misinterpreted.
+"Normal misbehaviors" (De Vries et al. 2006) that are tolerated or ignored in one field or country may be seen as overt misconduct by collaborators in another.
+Differing standards of productivity, including the number of experiments conducted, amount of data generated, number of manuscripts published, and amount of grant funding acquired, may cause collaborators to question the quality of their partners' work and commitment to integrity.
+Variable standards for authorship across disciplines and countries, and the valuation of specific kinds of contributions, may lead to tension among team members who all need to publish work that is credible to their own peers.
+The expected roles of trainees and technical staff in a collaborative research project may vary across disciplines, organizations, and nations. Significant differences in trainees' and technicians' perceived authority or opportunity, or the credit their work receives, may affect morale and the willingness to work together.
+Regulation, Policy, and Guidelines
+Federal Regulation and Related Policy
+Although research collaboration itself is not regulated, general research regulations and policies address various aspects of collaboration. These include:
+
+• Sharing of data and materials
+	  • Financial management
+	  • The roles of committees for the protection of human subjects and animal welfare
+	  • Financial conflicts of interest
+
+The ownership and sharing of data generated in federally-sponsored research is regulated by the granting agency. For example, as part of every grant application, the National Institutes of Health and National Science Foundation require a data sharing or data management plan that spells out the kind of data the research is expected to generate; how they will be stored; how data and analyses will be released to others; and how they will be archived for future access. Such plans may cover data, samples, physical collections, software and techniques for analyzing data and creating digital images, as well as joint publications. Collaborators' organizations may require a materials transfer agreement to define the specific terms of such sharing, including recordkeeping practices and policies and methods in place for preserving the security of data storage tools, such as electronic laboratory notebooks.
+
+In collaborations involving research with human subjects, animals, or recombinant DNA, the principal investigator's institution typically takes the lead in reviewing and approving joint work. However, collaborators from different institutions are also responsible to their respective Institutional Review Board, Institutional Animal Care and Use Committee, and Institutional Biosafety Committee.
+
+International collaborations may be subject to a wide range of national laws and local regulations that govern foreign partners. Moreover, U.S. regulations typically govern collaborative research funded by U.S. federal agencies wherever the research takes place.
+
+Professional Guidelines
+Early efforts to develop professional standards for collaboration began in the often-contentious area of joint authorship. For example, since the late 1990s, guidelines from the American Chemical Society (ACS 2015) and International Committee of Medical Journal Editors (ICMJE 2018) have advised collaborators to use formal criteria for authorship and to agree on authorship roles early in their projects.
+
+Many international societies have established guidelines for collaborative research. In 2007, the Organization for Economic Co-Operation and Development's Global Science Forum organized a workshop on responsible practices in international collaborations. In 2011, the European Science Foundation and the All European Academies (ALLEA) produced a joint code of conduct for research integrity, which was updated in 2017. The InterAcademies Partnership report entitled Responsible Conduct in the Global Research Enterprise and Doing Global Science: A Guide to Responsible Conduct in the Global Research Enterprise provide principles and guidelines that intend to serve as a common framework of good practices for global research (IAP 2012; IAP 2016).
+
+The World Conferences on Research Integrity have brought together academics and governmental leaders to promote international standards in research integrity. The 3rd World Conference on Research Integrity (2013) produced the Montreal Statement on Research Integrity in Cross-Boundary Research Collaborations to highlight the critical importance of integrity in collaborative research.
+
+Establishing and Maintaining a Successful Collaboration
+Case StudyCollaboration in a Research Fellowship
+
+Successful collaboration depends on mutually agreed upon goals, as well as the ability and willingness to work together. Collaborators must have regular and honest communication, both before the work begins and throughout the project, particularly regarding their respective needs, expectations, and obligations.
+
+The ability to work effectively as a team may evolve as researchers work on a specific project. Short-term collaborations, in particular, may remain loosely defined. Nonetheless, most collaborations benefit from written agreements that outline roles and responsibilities. A memorandum of understanding (MOU) may be written broadly to document an open-ended relationship or may detail expectations and commitments on a time-limited project. An MOU usually spells out the goals of collaboration, the contexts and time period in which the research will occur, the people bound by the document, ownership of intellectual property, responsibilities of authorship, trainees' roles and supervision, and who bears certain financial costs.
+
+Collaborations funded by a grant or contract may involve subcontracts among the parties that define payment schedules, intellectual property rights and access to data, and the scope of work for each researcher or research team. Such subcontracts are usually developed by institutional officials with concern for legal commitments and financial liability.
+
+One of the most important steps in establishing a collaboration is to determine who is accountable for the various components of the project and create a leadership plan that describes processes for making important decisions. Equally important, however, is a shared commitment to values and practices that support the honesty, reliability, and integrity of the research as a whole.
+
+Summary
+The future of research is increasingly collaborative. Following the model of the Montreal Statement on Research Integrity in Cross-Boundary Research Collaborations, formal and informal review and open communication over the life of the collaboration can enhance the integrity of the research.
+
+References
+American Chemical Society (ACS). 2015. “Ethical Guidelines to Publication of Chemical Research.” Accessed March 25, 2022.
+Anderson, Emily E., Stephanie Solomon, Elizabeth Heitman, James M. DuBois, Celia B. Fisher, Rhonda G. Kost, Mary Ellen Lawless, Cornelia Ramsey, Bonnie Jones, Alice Ammerman, and Lainie F. Ross. 2012. “Research Ethics Education for Community Engaged Research: A Review and Research Agenda.” Journal of Empirical Research in Human Research Ethics 7(2):3-19.
+Association of American Universities, 2022 “Export Controls.” Accessed March 25, 2022.
+De Vries, Raymond, Melissa S. Anderson, and Brian C. Martinson. 2006. “Normal Misbehavior: Scientists Talk About the Ethics of Research.” Journal of Empirical Research in Human Research Ethics 1(1):43-50.
+European Science Foundation and ALLEA - All European Academies. 2017. “The European Code of Conduct for Research Integrity, Revised.” Accessed March 25, 2022.
+Federal Technology Transfer Act of 1986, Pub. L. No. 99-502, 100 Stat. 1785-97 (1986).
+Government Patent Policy (Bayh-Dole) Act of 1980, 94 Stat. 3015 (1980).
+Heitman, Elizabeth, and Laura C. McKieran. 2003. “Community-based Practice and Research: Collaboration and Sharing Power.” In Ethics and Public Health: A New Curriculum, 103-32. Washington, DC: Association of Schools of Public Health.
+Hong, Lu and Scott E. Page. 2004. “Groups of Diverse Problem Solvers Can Outperform Groups of High-Ability Problem Solvers.” Proceedings of the National Academy of Sciences, 101 (46):16385-16389.
+InterAcademy Council, InterAgency Partnership (IAP). 2012. “Responsible Conduct in the Global Research Enterprise, A Policy Report.” Accessed March 25, 2022.
+InterAcademy Partnership. 2016. Doing Global Science: A Guide to Responsible Conduct in the Global Research Enterprise. Accessed March 25, 2022.
+International Committee of Medical Journal Editors (ICMJE). 2021. “Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals.” Accessed March 25, 2022.
+Loue, Sana, and Bebe Loff. 2013. “Is There a Universal Understanding of Vulnerability? Experiences with Russian and Romanian Trainees in Research Ethics.” Journal of Empirical Research in Human Research Ethics 8(5):17-27.
+Merriam-Webster Online Dictionary. “Collaborate.” Accessed March 25, 2022.
+Mitchell, Brian S., Mary Besterfield-Sacre, Rajika Bhandari, and Brent Jesiek. 2019. “Final Report: Best Practices in International Research Experiences for Graduate Students.” National Science Foundation.
+National Research Council. 2015. “Enhancing the Effectiveness of Team Science.” Washington, DC, The National Academies Press. https://doi.org/10.17226/19007.
+National Science Foundation. 2022. “Science and Engineering Indicators: Higher Education in Science and Engineering.” Accessed March 25, 2022
+Nature. Editorial: Science Benefits from Diversity. 2018. Nature 558, 5, doi:10.1038/d41586-018-05326-3.
+Organization for Economic Co-Operation and Development, Global Science Forum. 2007. “Best Practices for Ensuring Scientific Integrity and Preventing Misconduct.” Accessed March 25, 2022.
+Resnick, David B., Lisa M. Rasmussen, Grace E. Kissling. 2015. An international study of research misconduct policies. Accountability in Research 22 (5): 249-266.
+Ridker, Paul M., and José Torres. 2006. “Reported Outcomes in Major Cardiovascular Clinical Trials Funded By For-Profit and Not-For-Profit Organizations: 2000-2005.” JAMA 295(19):2270-4.
+U.S. Department of Health and Human Services, Office for Human Research Protections (OHRP). 2022. “International Compilation of Human Research Standards, 2021 Edition.” Accessed March 25, 2022.
+Vasconcelos, Sonia, Jacqueline Leta, Lídia Costa, André Pinto, and Martha M. Sorenson. 2009. “Discussing Plagiarism in Latin American Science. Brazilian Researchers Begin to Address an Ethical Issue.” EMBO Reports 10(7):677-82.
+World Conference on Research Integrity. 2013. “Montreal Statement on Research Integrity in Cross-Boundary Research Collaborations.” Accessed March 25, 2022.
+World Medical Association (WMA). 2013. “Declaration of Helsinki - Ethical Principles for Medical Research Involving Human Subjects.” Accessed March 25, 2022.
+Yamaner, Michael. “InfoBrief: Full-Time Graduate Enrollment in Science and Engineering Continues to Grow in 2016 Due to Increased Enrollment by Foreign Students on Temporary Visas,” NSF 18-307. National Science Foundation National Center for Science and Engineering Statistics. Accessed May 22, 2019
+Additional Resources
+Government-University-Industry Research Roundtable, National Academy of Sciences. 2011. “Examining Core Elements of International Research Collaboration: Summary of a Workshop.” Washington, DC: National Academies Press. Accessed March 22, 2017.
+
+National Research Council (NRC). 2015. Enhancing the Effectiveness of Team Science. Washington, DC: The National Academies Press. Accessed May 22, 2019.
+
+Original Release: August 2014
+Last Updated: March 2022
+
+This module has a quiz.
+
+ 
+Support
+✉ support@citiprogram.org
+☎ 888.529.5929
+(M – F ; 9:00 a.m. – 7:00 p.m. ET)
+Support Center
+Status Page
+Legal
+Accessibility
+Copyright
+Privacy and Cookie Policy
+Statement of Security Practices
+Anti-Discrimination Policy
+Terms of Service
+CITI Program

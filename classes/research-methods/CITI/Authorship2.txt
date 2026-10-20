@@ -1,0 +1,119 @@
+Skip to main content
+CITI Program
+My Courses My Records My CEs Support
+Use Light Theme
+
+English
+Lester Carcamo
+ID 16194862
+Authorship (RCR-Refresher)
+University of Arkansas at Little Rock - Responsible Conduct of Research Refresher for Social, Behavioral, and Education (SBE) Researchers
+
+Authorship (RCR-Refresher)
+Content Author
+
+Sharon Shriver, PhD
+American Cancer Society
+Introduction
+
+For many scholars and researchers, writing up the results of a project signifies an important milestone. But writing is a project in itself, with its own choices, decisions, challenges, and obstacles. Authors need to be familiar with basic guidelines such as the criteria for authorship and aware of problematic practices such as plagiarism. Responsible authors should also be alert to issues that may be confusing or controversial, such as self-plagiarism. Other authors, whether they are current collaborators or sources of previous work, must be given appropriate credit for their contributions.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+Describe important issues related to publishing research results and working with other authors.
+Discuss the potential pitfalls and errors that can lead to authorship disputes and research misconduct.
+Identify strategies for avoiding and resolving authorship disputes.
+Deciding the Scope of a Publication
+A key decision that needs to be made early in the process of developing a research project is what to publish. A good rule of thumb is to consider the:
+
+• Audience
+	  • Purpose of the publication
+
+In general, a publication should give readers a complete picture of the project, rather than a description of just part of it. In some cases, a project can go in a different direction, or generate more or fewer results, than anticipated at the outset. The data that are obtained could be unexpected or inconsistent, or data might be missing. The entire premise of an investigation could also turn out to be false.
+
+At times, unexpected findings or negative results can be informative to readers, and they should be presented honestly. Traditionally, particularly in the sciences, there has been reluctance (on the part of both researchers and editors) to publish negative results. However, the International Committee of Medical Journal Editors has published an article that includes a statement on journals' "Obligation to Publish Negative Studies" (ICMJE 2010). In some cases, such as clinical trials, the publication of negative results can provide important information, and can save other researchers time, effort, and prevent funds from being wasted. While not all disciplines are open to publishing negative results, many are following the lead of the ICMJE.
+
+Avoiding Improper Practices
+
+Researchers should always take care to work responsibly, and this care should extend through the writing process, since improper practices may lead to research misconduct: fabrication, falsification, and plagiarism. Current research builds upon previously published work, and citing previous authors is as important as acknowledging collaborators. In general, it is considered plagiarism to use the words, ideas, images, computer code, or any other work that was created by another individual without appropriately citing the original source (ORI 1994). There are abundant resources available on avoiding plagiarism.
+
+A good rule to follow is to always cite sources, even if the information might turn out to be common knowledge or available through fair use. Care should be taken when using Internet or generative artificial intelligence (AI) resources, since cutting-and-pasting information can result in a document with unclear sources. Authors might be tempted to use Internet or generative AI content without attribution, which can constitute plagiarism. Whether intentional or not, using text, ideas, or other material without appropriate citation can lead to serious consequences.
+
+Inappropriate use of others' work is not the only form of plagiarism. Often scholarly papers build on an author's own previously published work, resulting in repetition of the same material such as the background or methods section. But what if authors want to reuse words they originally wrote for another publication?
+
+Reusing one's own writing without citing the previously published source is often inappropriate. The term commonly used is self-plagiarism, generally defined as using one's own previous writing in a new work without attribution. Many publishers consider it to be a kind of plagiarism, and it has been called a form of "poor scholarly etiquette" (Akst 2010). It is important to consider the expectations of the readers and publisher who may assume that the work they are reading has not been published previously (Bailey 2011). Self-plagiarism may also constitute a copyright violation, since publishers typically own the copyright to works that they publish.
+
+Although specific rules and expectations vary, self-plagiarism is coming under increased scrutiny. For example, the American Psychological Association's Publication Manual, while discussing self-plagiarism, states, "the core of the new document must constitute an original contribution to knowledge" (APA 2009). Other professional organizations, as well as funding agencies, are increasingly alert to the problem of self-plagiarism (Zirkel 2010; Markin 2012). The best course of action is full transparency and scrupulous citation of previous sources.
+
+The term self-plagiarism is controversial; some prefer the terms duplicate or redundant publication. However, these terms are more often used to refer to republishing entire papers, or significant portions of previous works, without acknowledging the duplication. Duplicate publication artificially inflates the publication record, deceives the reader, and wastes the time and resources of reviewers, editors, and publishers (Scanlon 2007). Even if the entire paper is not duplicated, repetition of major sections (such as the background, introductory material, or methods) might be too significant for each work to be considered completely original. This latter practice is sometimes referred to as text recycling.
+
+There may be legitimate reasons for publishing the same or similar work in a different venue - for example, translating a work into a different language; reaching a wider or different audience (from a specialized scholarly journal to mainstream magazine); or expanding a conference abstract into a full-length paper. In these cases, authors should consult with the original and potential secondary publishers to determine the appropriate course of action. In some cases, simply citing the original publication is sufficient; while in others, permission must be obtained from the original publisher prior to re-publication.
+
+Fragmentary publication refers to breaking up a project into as many publications as possible (sometimes referred to as the "least publishable unit"). Not only does this practice artificially inflate the author's publication record, it gives readers an inaccurate picture of the project's scope. Of course, if a project naturally and justifiably yields more than one cohesive publication, multiple papers may be warranted, as long as transparency, honesty, and professional and editorial guidelines are used to decide how many publications are appropriate.
+
+Working with Other Authors
+Research and scholarship builds on the work of others, and many investigations are performed in collaboration with other researchers. Ideally, decisions about who will be authors of a work, and the order in which those authors will appear, should be made before or as the project begins. Rules and customs regarding authorship vary among disciplines. For example, in the biological sciences the first author is typically the individual who did the bulk of the research while the last author position is typically reserved for the project or lab director. In other fields, however, the order of authors may be determined alphabetically or through another mechanism.
+
+Identifying a publication venue early in the project can be helpful, so that the research team can adhere to the publication's guidelines for authors, contributors, and acknowledgements. Authorship considerations vary by case.
+
+In some cases, anyone who contributed to a project may be an author; in other cases, only those with substantial input in the planning, execution, and writing stages are considered authors (while others may earn an acknowledgement). Many fields use the phrase 'significant intellectual contribution' or 'significant scientific contribution' to help provide guidance for who is an author.
+
+Particular attention should be paid to the roles of students and junior researchers who may be entitled to authorship depending on their level of contribution. They should not be overlooked merely due to their junior status as compared to the other authors.
+
+Case StudyShould the advisor be an author?
+
+In many fields, each author is considered fully responsible for the entire contents of each publication. However, as collaborations expand across disciplines, institutions, and the globe, bringing the benefits of various specialists to a research group, it may not be possible for authors to be fully versed in all parts of a project. As a result, some publishers allow a senior author to be designated as overall guarantor of the project, while others allow the particular area of responsibility for each author to be listed (ICMJE n.d). Closely adhering to publication guidelines, with full understanding and cooperation among the research group, is essential.
+
+Properly acknowledging the work of current collaborators can preserve and promote good professional relationships, in addition to meeting publication and ethical guidelines. Journals and publishers typically have policies and guidelines that describe how to acknowledge previous work and provide criteria regarding who qualifies as an author. For general guidance, see the position statement on international standards for responsible authorship published by the Committee on Publication Ethics, a group of journal editors, publishers, and others interested in publication ethics (COPE 2011).
+
+Summary
+Being an author, and working with other authors (past and present), can be challenging as new issues arise and old issues remain. While preparing an article or book for publication, researchers must be aware of ethical principles and standards, as well as guidelines provided by publishers, funding agencies, and professional organizations. A key facet of responsible authorship is making sure that credit is assigned appropriately to previous authors and current collaborators.
+
+References
+Akst, Jef. 2010. "When Is Self-Plagiarism Ok?" The Scientist, September 9. Accessed April 29, 2015.
+
+American Psychological Association (APA). 2009. "Publication Manual of the American Psychological Association, Sixth Edition." Accessed April 29, 2015.
+
+Bailey, Jonathan. 2011. "Self-Plagiarism: Ethical Shortcut or Moral Scourge?" Plagiarism Today, September 7. Accessed April 29, 2015.
+
+Committee on Publication Ethics (COPE). 2011. "Responsible Research Publication: International Standards for Authors." Accessed April 29, 2015.
+
+International Committee of Medical Journal Editors (ICMJE). 2010. "Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Writing and Editing For Biomedical Publication." Journal of Pharmacology & Pharmacotherapeutics 1(1): 42-58.
+
+International Committee of Medical Journal Editors (ICMJE). "Defining the Role of Authors and Contributors." Accessed April 27, 2017.
+
+Markin, Karen M. 2012. "Plagiarism in Grant Proposals." The Chronicle of Higher Education, December 10. Accessed July 10, 2018.
+
+Scanlon, Patrick M. 2007. "Song From Myself: An Anatomy of Self-Plagiarism." Plagiary: Cross-Disciplinary Studies in Plagiarism, Fabrication, and Falsification II:57-66.
+
+U.S. Department of Health and Human Services (HHS), Office of Research Integrity (ORI). 1994. "ORI Policy on Plagiarism." Accessed April 27, 2017.
+
+Zirkel, Perry A. 2010. "A Study of Self-Plagiarism." Insider Higher Ed, December 3. Accessed April 29, 2015.
+
+Additional Resources
+Committee on Publication Ethics (COPE). "Home." Accessed April 29, 2015.
+
+Dance, Amber. 2012. "Authorship: Who's on First?" Nature 489:591-3.
+
+Original Release: April 2013
+Last Updated: May 2024
+
+This module has a quiz.
+
+ 
+Support
+✉ support@citiprogram.org
+☎ 888.529.5929
+(M – F ; 9:00 a.m. – 7:00 p.m. ET)
+Support Center
+Status Page
+Legal
+Accessibility
+Copyright
+Privacy and Cookie Policy
+Statement of Security Practices
+Anti-Discrimination Policy
+Terms of Service
+CITI Program

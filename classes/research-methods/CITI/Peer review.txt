@@ -1,0 +1,180 @@
+Skip to main content
+CITI Program
+My Courses My Records My CEs Support
+Use Light Theme
+
+English
+Lester Carcamo
+ID 16194862
+Peer Review (RCR-Basic)
+University of Arkansas at Little Rock - Humanities Responsible Conduct of Research
+
+Switch View
+Peer Review (RCR-Basic)
+Content Author
+
+Adil E. Shamoo, PhD
+University of Maryland School of Medicine
+Introduction
+Please review the video below before you begin reading the module. It is approximately three minutes long.
+
+
+Life Sciences - Peer Review
+This module will describe strategies that may help prevent some of the challenges illustrated within the video.
+
+Peer review is widely used in the evaluation of manuscripts submitted to journals and of grant applications submitted to funding agencies. Some conferences also use peer review to evaluate submissions. The peer review process strives to improve the quality of publications and grants awarded. Many ethical issues arise in the peer review process, including honesty, objectivity, quality control, confidentiality and security, fairness, bias, conflicts of interest, editorial independence, and professionalism.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+Discuss the history and evolution of peer review.
+Describe different types of peer review.
+Discuss the value of peer review as it relates to publications and grant awards.
+Identify ethical issues associated with peer review.
+Describe the ethical obligations of a peer reviewer.
+A Brief History of the Evolution of Peer Review
+In 1665, the Royal Society of London published The Philosophical Transactions of the Royal Society of London and the Paris Academy of Sciences published the Journal des Scavans. These journals were the first two scientific journals. A number of early publications in these two journals were speculative and poorly supported by evidence.
+
+Contemporary peer review began in 1752 when the Royal Society of London realized that a number of the articles published were not of high quality. In the 1830s, the Royal Society decided to introduce a formal process for evaluating and reviewing submitted manuscripts in order to control the quality of its journal (Kronick 1990; Shamoo and Resnik 2022).
+
+In 1937, the National Cancer Institute was the first U.S. agency to use peer review as a method for determining which research projects should receive funding. After the Second World War, there was a large expansion of funded research grants and published scientific articles. Peer review became the primary method for research communities to place a stamp of approval on published papers and to serve as gatekeepers for decisions on grant funding.
+
+The Importance of Peer Review
+
+Peer review is purported to improve the quality of published papers as well as to conserve the amount of space available for the most selective and deserving papers in a given journal. The goal behind the peer review of grant proposals is to select the highest quality proposals for the limited amount of dollars available.
+
+The most important function of peer review is to serve as a form of quality control. Yet there is some evidence that peer review has a rather limited impact on the quality of publications and might block highly innovative, but unorthodox, work from being published (Armstrong 1997) and from receiving grant funding (Shamoo 1993; Nicholson and Ioannidis 2012).
+
+Moreover, peer review cannot necessarily detect fraud and research misconduct. The detection of fraud and misconduct requires additional tools, cost, and access to original data, which may not be suited for the process of peer review. But despite its potential flaws, the alternatives to peer review may be worse. Arbitrary decisions, or decisions based on personal or politically-motivated considerations, might become more common.
+
+Types of Peer Review
+During peer review, expertise and objectivity can come into conflict because reviewers may be competing for the same publications or grants as the authors. The process and procedures of peer review seek to address this problem.
+
+There are two main types of reviews discussed in this module. One type is for journal publications; the other is for the awarding of grant funding. In general, professional communities embrace the peer review process because it gives colleagues in the same or similar fields the primary responsibility for making decisions about publication and funding. In general, peer reviews can be characterized as open, single-blind, or double-blind.
+
+• Open review: Refers to the reviewer knowing the author's identity and the author knowing the reviewer's identity. 
+	  • Single-blind Review: Refers to the reviewer knowing the author's identity but the reviewer's identity is confidential and not revealed to the author.
+	  •	Double-blind review: Refers to neither the author nor the reviewer knowing each other's identity. Single-blind review tends to be more common than double-blind review in many scientific and engineering fields.
+
+Although it may mitigate some forms of bias, debate continues about whether blinded review of manuscripts improves the quality of the peer review process. In many cases, even with blinding of the author's name, reviewers may be able to figure out an author's identity.
+
+Journals
+Peer review of manuscripts submitted to professional journals is widespread. Journal editors usually select two or more reviewers, who are supposed to be experts on the paper’s subject matter. Reviewers typically pass judgment on the:
+
+• Appropriateness of the subject as it relates to the journal's focus
+	  •	Originality and significance of the findings
+	  •	Validity of the methodology used
+	  •	Strength of the results and conclusions
+	  •	Quality of the writing
+
+Each reviewer offers a recommendation regarding whether the manuscript is of sufficient quality to be published. Reviewers typically are offered several options: acceptance, minor revisions, major revisions, reject but encourage to resubmit, or rejection. Based on the reviewers' comments, it is usually the editor's responsibility to make the final decision about the manuscript. If a conflict between the reviewers emerges, the editor may seek an additional reviewer.
+
+Case StudyThe Reviewer Tells a Friend
+
+The manuscript is a privileged communication to the reviewers. The reviewer must honor confidentiality of the information, report any conflicts of interest to the journal before the review begins, and behave professionally. These issues are discussed in the “Ethical Issues” section of this module.
+
+Grants
+Grant review provides a mechanism that justifies awarding tax-payer or private money to researchers, because the process is supposed to be fairer than one where an individual makes the decisions. Several U.S. federal agencies, such as the National Institutes of Health (NIH) and the National Science Foundation (NSF), and many private foundations use a peer review process to set the funding priority for research. The aim is to reduce bias, favoritism, and prevent wasteful expenditure of money and resources to the greatest extent possible.
+
+Different U.S. agencies and organizations use different metrics to evaluate grant proposals. In general, a grant proposal submitted to federal agencies will be judged on:
+
+• Scholarly significance
+	  •	Methodology
+	  •	Qualifications of the researchers
+	  •	Preliminary data supporting the proposal
+	  •	Appropriateness of the budget requested
+	  •	Potential societal impact of the proposal
+
+Grant Funding and the NIH
+The Center for Scientific Review housed within the National Institutes of Health is independent of the agency’s other institutes. The Center handles over 300,000 grant proposals annually, establishes and organizes nearly 200 study sections, and oversees the peer review process for NIH proposals. Each of the 20 institutes appoint a committee to determine that each grant proposal is referred to the most appropriate study section. NIH utilizes nearly 20,000 reviewers per year. A study section usually consists of 10-15 experts who are convened by the NIH to review grant applications for a specific subject area. Typically, three panel members from the study section are designated to provide the primary review of the application. The study section deliberates using the proposal evaluations from other panel members together with those from the three designated reviewers.
+
+The average scores from the study section are reviewed for funding by each member institute of the NIH National Advisory Council. The Council normally ranks the grant proposals based on the study section's priority ratings.
+
+Grant Funding and NSF
+At the National Science Foundation, a program officer conducts an initial review to ensure a proposal is complete. The program officer then selects at least three external reviewers. They can be ad hoc reviewers, members of an expert panel, or a mixture of both types. After receiving reviewer evaluations, the program officer sends funding recommendations to the division director.
+
+Proposals submitted to NSF are typically evaluated based on two main criteria: the proposal’s intellectual merit and broader impacts. However, NSF allows each of its programs to develop its own scoring method.
+
+Post Review Commentaries
+Many scholarly journals have several avenues, such as letters to the editor and commentaries, for responding to published papers. With the advent of the internet, many journals expanded the post-review discussion into an online running commentary by the readers about published articles. These methods of discussing a publication can serve as another form of quality control.
+
+Ethical Issues
+The continued acceptance of peer review depends on the integrity of the process. The integrity of editors, reviewers, and the individuals who make grant funding decisions is vital. Peer review is a valuable tool that can help to protect public funds and generate better research. For example, respecting the intellectual property of the author of a paper or a grant proposal is crucial in sustaining trust of the peer review system. If authors suspect that their ideas were stolen during the review process, it undermines one of the key pillars of peer review.
+
+The Committee on Publication Ethics has developed a report that contains a series of ethical and practical guidelines, along with detailed flowcharts, for peer reviewers (COPE 2017) and editors (COPE 2011). The Committee’s ethical guidelines are discussed below.
+
+
+
+Confidentiality and Security
+Peer review is based on respect for the author and for the confidential information, such as data, methods, results, and ideas, in the submitted paper or grant proposal. Confidentiality is essential in order to maintain the integrity of the process. If confidentiality is not preserved, the trust in the peer review process will erode.
+
+Reviewers must not share the submitted manuscript or grant proposal with anyone, including their students or postdoctoral fellows, without the express consent of the journal editor. In other words, if a professor believes that a student has the expertise to assist with a manuscript review, the professor must receive permission from the journal before sharing the manuscript with the student.
+
+Because maintaining confidentiality is important, reviewers should also take steps to keep proposals or manuscripts secure while in their custody. When the reviewer is not present, physical copies should be locked in a file cabinet or desk. Computers with accessible electronic copies of the proposal or manuscript should be password protected. Normally, reviewers should delete proposals or manuscripts after the review is complete. Breaking this trust can have adverse consequences for the authors, reviewers, and readers.
+
+Reliability
+Peer review is a human endeavor; it is therefore understandable that reviewers may disagree about the evaluation of the same work. However, when two reviewers of the same work frequently and strongly disagree on the quality and worthiness of the work presented, it can undermine the peer review process. Such differences can be due in part to genuine intellectual disagreement. Yet they could also be due to the unethical behavior of a reviewer, such as when personal or professional bias interferes with the integrity of the review. If reviewers do not think that they can perform the task honestly or competently, they should decline the opportunity to undertake the review. If reviewers are unsure whether they have adequate expertise to undertake the review, they should discuss this issue with the journal editor or grant officer. For example, if a reviewer is not an expert in statistics, the reviewer could recommend that the editor recruit a statistician.
+
+The Fairness of the Review Process
+
+The issue of fairness means treating one individual's grant proposal or manuscript submission the same as the work from any other person. Adherence to a consistent process for accepting a paper or awarding a grant proposal is essential to foster confidence that transparent and appropriate criteria are being used to evaluate the work. Otherwise, bias and discrimination could result, causing a loss of confidence in the system. For example, the selection of the reviewers by the journal's editor or by the head of the study section for a grant review can have a great influence on the outcome of the review. This is a key reason why the integrity of the person who selects reviewers is crucial in maintaining the fairness of the peer review system. If authors believe that they have received an unfair review, they can contact the journal editor to discuss the matter.
+
+Conflict of Interest
+It can be difficult for researchers to avoid conflicts of interest. There are many types of conflicts of interest, including personal, professional, and financial conflicts. Grant agencies and many journals require reviewers to declare their conflicts of interest so that they can decide whether to use a particular reviewer. Reviewers need to declare any relevant conflicts of interest, and if necessary, recuse themselves from the review process.
+
+Financial conflicts of interest are a frequent focus because arguably they are the easiest to identify and attempt to manage. However, personal and professional conflicts of interest can be just as problematic and they should be addressed as well. For instance, suppose that someone is asked to review a manuscript from a research team that is competing to be the first to obtain a research finding. This scenario illustrates a type of professional conflict of interest because of the potential that the competitive situation could unintentionally bias the reviewer’s opinions. The person may still be able to serve as a reviewer, but the journal editor should have the opportunity to evaluate the situation before the review begins. For the peer review process to work properly, it depends on the integrity, honesty, and forthrightness of reviewers when they are considering whether to disclose a conflict of interest.
+
+Professionalism
+Case StudyA Student’s First Paper
+
+It is the duty of researchers to conduct the review of a paper or a grant proposal as carefully, objectively, and thoroughly as possible. The reviewer's report should help the author to improve the quality of the manuscript or grant proposal. A responsible review should also be free of personal attacks. The reviewer should be an expert in the subject area of the paper or a grant proposal under review. If an individual does not possess the relevant expertise, it may be necessary to decline the opportunity to serve as a reviewer. In general, it is unethical for a reviewer to use the knowledge obtained from a reviewed manuscript until after it is published.
+
+Predatory Journals
+A rather recent development that intersects with peer review is the emergence of predatory journals. A predatory journal usually seeks to entice potential authors with the promise of a quick review of a submitted paper. Yet authors may be deceived about the importance of the publication if an authentic, rigorous review did not take place. Authors may also end up losing money since predatory journals typically charge high publication fees.
+
+Generative Artificial Intelligence (AI)
+The use of generative AI (such as ChatGPT) raises significant confidentiality concerns and other issues in the peer review process. Notably, the NSF and NIH have prohibitions and guidelines on the use of generative AI for award review and proposal preparation (NSF 2023; NIH 2023). Likewise, individuals must be aware of journal or publisher policies related to generative AI when submitting manuscripts for review or serving as peer reviewers.
+
+Summary
+The peer review of manuscripts and grant proposals is a widespread and important process used to further scholarly advances. Peer review helps researchers to focus their attention on publications that are more likely to be of value to them and enables grant agencies to make informed funding decisions. However, the system has many ethical challenges in terms of quality control, confidentiality, fairness, and professionalism. Authors, reviewers, and editors must behave responsibly in order for the peer review process to work effectively and maintain the confidence of research communities and the public.
+
+References
+Armstrong, J. Scott. 1997. "Peer Review for Journals: Evidence on Quality Control, Fairness, and Innovation." Science and Engineering Ethics 3(1):63-84.
+
+Committee on Publication Ethics (COPE). 2011. "Code of Conduct and Best Practice Guidelines for Journal Editors." Accessed June 6, 2015.
+
+Committee on Publication Ethics (COPE). 2017. "COPE Ethical Guidelines for Peer Reviewers." Accessed May 8, 2019.
+
+Kronick, David A. 1990. "Peer Review in 18th - Century Scientific Journalism." Journal of the American Medical Association 263(10):1321-2.
+
+National Institutes of Health (NIH). 2023. “The Use of Generative Artificial Intelligence Technologies is Prohibited for the NIH Peer Review Process.” Accessed May 3, 2024.
+
+National Science Foundation (NSF). 2023. “Notice to research community: Use of generative artificial intelligence technology in the NSF merit review process.” Accessed May 3, 2024.
+
+Nicholson, Joshua M., and John P. A. Ioannidis. 2012. "Conform and be Funded." Nature 492(7427):34-6.
+
+Shamoo, Adil E. 1993. "Role of Conflict of Interest in Public Advisory Councils." In Ethical Issues in Research, edited by Darwin Cheney, 159-74. Frederick: University Publishing Group.
+
+Shamoo, Adil E., and David B. Resnik. 2022. Responsible Conduct of Research, Fourth Edition. Oxford University Press.
+
+Original Release: July 2014
+Last Updated: July 2024
+
+This module has a quiz.
+
+ 
+Support
+✉ support@citiprogram.org
+☎ 888.529.5929
+(M – F ; 9:00 a.m. – 7:00 p.m. ET)
+Support Center
+Status Page
+Legal
+Accessibility
+Copyright
+Privacy and Cookie Policy
+Statement of Security Practices
+Anti-Discrimination Policy
+Terms of Service
+CITI Program

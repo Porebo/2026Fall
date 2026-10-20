@@ -1,0 +1,253 @@
+Skip to main content
+CITI Program
+My Courses My Records My CEs Support
+Use Light Theme
+
+English
+Lester Carcamo
+ID 16194862
+Research Misconduct (RCR-Basic)
+University of Arkansas at Little Rock - Humanities Responsible Conduct of Research
+
+Switch View
+Research Misconduct (RCR-Basic)
+Content Authors
+
+Helene Lake-Bullock, PhD, JD
+University of Kentucky
+
+Marianne M. Elliott, MS, CIP
+Applied Research Ethics, LLC
+
+Introduction
+Please review at least one of the videos below before you begin reading the module. Each video is approximately three minutes long.
+
+Life Sciences - Research Misconduct
+Social/Behavioral/Education Sciences - Research Misconduct
+This module will describe strategies that may help prevent some of the challenges illustrated within the videos.
+
+This module provides an overview of research misconduct and other behaviors that can compromise research integrity. Although this module provides a general overview of research misconduct, individuals should refer to their organization's policies and other relevant resources for specific guidance on the topic. Organizations have detailed rules and procedures relating to research misconduct, including about how to handle a misconduct allegation. The information presented here is not intended to provide legal advice, replace legal counsel, or substitute for consulting with experts who manage research misconduct allegations.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+State how the U.S. federal government has defined research misconduct.
+Differentiate among the three types of research misconduct: fabrication, falsification, and plagiarism.
+Identify factors that can contribute to the occurrence of research misconduct.
+Describe strategies that individuals and organizations might use to prevent or mitigate the occurrence of research misconduct.
+Describe how research misconduct allegations should be managed.
+Defining Research Misconduct
+In December 2000, the U.S. Office of Science and Technology Policy (OSTP) proposed a research misconduct policy, which was subsequently adopted by more than 20 federal agencies. The Federal Research Misconduct Policy defines research misconduct as fabrication, falsification, and plagiarism.
+
+According to OSTP (2000), 'research misconduct is defined as fabrication, falsification, or plagiarism in proposing, performing, or reviewing research, or in reporting research results.'
+
+OSTP (2000) states that "the research record is the record of data or results that embody the facts resulting from scientific inquiry, and includes, but is not limited to, research proposals, laboratory records, both physical and electronic, progress reports, abstracts, theses, oral presentations, internal reports, and journal articles."
+
+It is important to note that "research misconduct does not include honest error or differences of opinion" (OSTP 2000). To be considered research misconduct, the behavior must have been performed "intentionally, knowingly, or recklessly."
+
+Fabrication
+'Fabrication is making up data or results and recording or reporting them' (OSTP 2000).
+
+Fabrication often involves creating fake data to fit a hypothesis. Fabrication could include creating fictional tables, graphs, or figures that are placed in manuscripts, grant applications, or poster presentations.
+
+Unfortunately, fabricated data have contaminated the research literature in many fields, including physics and psychology.
+
+Physics Example
+Jan Hendrik Schön (Reich 2009) was a physicist employed by Bell Labs, but he was dismissed after an internal committee found that he had committed numerous instances of research misconduct, including fabricating entire data sets.
+
+Psychology Example
+Diederik Stapel (Enserink 2012) was a social psychologist whose misconduct included "the manipulation of data and complete fabrication of entire experiments" (Verfaellie and McGwin 2011). Stapel’s misconduct led to the retraction of more than 50 of his published papers (Palus 2015).
+
+Falsification
+'Falsification is manipulating research materials, equipment, or processes, or changing or omitting data or results such that the research is not accurately represented in the research record' (OSTP 2000).
+
+Falsification can take many forms. It includes inappropriately manipulating existing results to fit a preferred hypothesis or altering data in figures, graphs, and digital images to make them appear more convincing than they actually are.
+
+For example, the animal researcher, Li Chen, was found guilty of falsifying and fabricating data reported in publications and in National Institutes of Health (NIH) grant applications. Chen also falsified figures by reusing and relabeling an image and claiming that it represented different experiments, and falsely reported that the identical image represented several different experimental treatments (Grant 2014).
+
+Plagiarism
+'Plagiarism is the appropriation of another person's ideas, processes, results, or words without giving appropriate credit' (OSTP 2000).
+
+Plagiarism can appear in a journal article, a conference paper, and many other venues; it occurs when someone else's words or ideas are used, such as in a results or discussion section, without giving proper credit or attribution to the original author.
+
+For example, a professor resigned from the Anthropology and Sociology Department at her college after admitting that her written work contained plagiarized content (Reyes 2012). The papers contained numerous instances of unattributed, verbatim quotations. She did not properly reference the work of other scholars.
+
+The Prevalence of Research Misconduct
+Case StudyData and the Grant Proposal
+
+It is difficult to quantify how often misconduct occurs. One method for approximating its frequency is to refer to cases adjudicated by federal agencies. The U.S. Department of Health and Human Services, Office of Research Integrity (ORI 2019) found 13 researchers guilty of research misconduct in 2018. The federal ORI examines research misconduct cases relating to research funded by the U.S. Public Health Service (PHS).
+
+The National Science Foundation (NSF) also provides statistics about the prevalence of misconduct. According to the NSF's (2018) Office of Inspector General, there were 16 research misconduct findings in 2016 and 13 findings in 2017.
+
+Many scholars seek to quantify how often misconduct occurs. For example, Fanelli (2009) reported that nearly 2 percent of the researchers who responded to his survey indicated that they had falsified or fabricated data at least once during their careers. Approximately, 14 percent of those who responded to the survey reported that they have observed their colleagues manipulating or making up data.
+
+Why Research Misconduct Occurs
+Individual Factors
+People engage in research misconduct for a variety of reasons. Stress and personality traits, such as arrogance, narcissism, or indifference, can be key contributing factors. Self-deception or rationalization of certain behaviors may also influence one's willingness to engage in research misconduct. For example, if researchers convince themselves that a preferred hypothesis is correct and do not collect enough data to support that hypothesis, they may find themselves heading down a path towards research misconduct.
+
+Individuals may be tempted to engage in research misconduct at any career stage. For example, a student might feel pressure to get good grades or complete a project on time. A postdoctoral researcher might engage in research misconduct to obtain results quickly in order to move on to the next career stage. A faculty member may feel pressure to publish data and obtain grant funding to secure a promotion, tenure, or a salary increase. Alternatively, a researcher might pressure a collaborator into committing an act of misconduct.
+
+Organizational Factors
+
+An organization's stance on the importance of research integrity sets the tone for its students and employees to follow. The lack of an ethical climate within an organization can have corrosive effects. If individuals are not held accountable for their bad behavior and rules are not enforced, research misconduct can become pervasive within an organization. Moreover, research misconduct is often connected to poor or inadequate mentoring (Anderson et al. 2007). For example, when a senior researcher does not spend enough time reviewing trainees' data or teaching them appropriate research methods, the occurrence of problematic behaviors is more likely.
+
+Related Factors
+The availability of certain kinds of technology, such as the internet for acquiring information for writing assignments or software tools to alter digital images, can contribute to the temptation to commit research misconduct. Unfortunately, the ease with which researchers and others can copy text or manipulate data can create an opportunity to engage in research misconduct.
+
+Other Problematic Research Behaviors
+
+
+Detrimental Research Practices
+Behaviors that closely border on research misconduct but do not fall under its strict definition have historically been referred to as questionable research practices (NRC 1992), or more recently, as detrimental research practices (National Academies 2017). Examples of these practices include failing to disclose negative outcomes or stopping research prematurely if a preferred outcome seems to have been achieved. It could also include inappropriate research design and using a flawed statistical analysis to support a hypothesis. Other behaviors that affect research integrity could involve ignoring or circumventing organizational policies and not properly disclosing conflicts of interest (Martinson et al. 2005).
+
+Noncompliance
+In this context, noncompliance typically refers to conducting research in a manner that disregards or violates federal regulations or organizational policies. Noncompliance often involves the failure to adhere to appropriate research practices when working with human or animal subjects. Noncompliance can be associated with research misconduct if, for example, it prompts a researcher to present falsified or fabricated data.
+
+Sexual Harassment
+Sexual harassment is sometimes raised as an issue in conjunction with a research misconduct allegation. For example, someone might be pressured to engage in research misconduct based on sexual harassment. While sexual harassment is harmful, unethical, and illegal, it is not typically managed under research misconduct policies. Rather, a separate organizational policy usually addresses the matter.
+
+Authorship Disputes
+Disagreements about authorship should be referred to the appropriate entities within the organization, such as a research director, or external entities, such as a journal editor. Although authorship disputes can certainly become ethically problematic, they are not included as part of the definition of research misconduct unless falsification, fabrication, or plagiarism is involved.
+
+The Effects of Research Misconduct
+On Society
+
+Society contributes to the advancement of knowledge through public funding of research. When any researcher or research community engages in misconduct or allows it to occur, the public trust is betrayed and its funds squandered. Moreover, valuable resources and time are wasted when other researchers attempt to build on or replicate erroneous research. Society as a whole suffers when researchers conduct fake, deceptive, or otherwise unethical research.
+
+What makes this problem more serious is that the effects of a research misconduct case can sometimes take years to identify and understand. For example, if data relating to the side effects of a medication have been manipulated, the public may think or be told the medication is safer than it actually is. Steen (2011) examined about 200 papers in the area of medical research and clinical trials that were retracted due to questionable data. He concluded that these retracted papers may have affected the medical care of thousands of patients. Research published by anesthesiologist Scott Reuben altered the way physicians provide pain relief to patients undergoing orthopedic surgery; however, much of his work contained partially or completely fabricated data. An investigation revealed that at least 21 of Reuben's papers were pure fiction (Borrell 2009). The misconduct committed by Andrew Wakefield in the 1990s still has ripple effects decades later. Wakefield sought to establish a connection between vaccines and autism, but his approach was riddled with significant flaws, including that he relied on deceptive methods and data (Belluz 2019).
+
+On Trainees, Researchers, and Their Organizations
+If found guilty of research misconduct, the individual's credibility, work, and future employability will be negatively affected. One of the consequences could be that the guilty party could be restricted or barred from receiving future grants. Moreover, negative consequences from a misconduct case could emerge for trainees and colleagues, even if they did not necessarily do anything wrong. For example, graduate students might need to replace their faculty advisor if the advisor committed misconduct, which could delay their graduation.
+
+Handling a research misconduct case can be very expensive for an organization. Michalek et al. (2010) estimate that the direct costs from a full scale research misconduct investigation, meaning that all of the main phases take place, is well over $500,000. This estimate includes personnel salaries, consultant fees, materials, and loss of potential grants.
+
+Moreover, funds from sponsors may need to be re-paid if a research misconduct allegation is verified. Loss of research and general organizational productivity can be significant as the process of resolving a research misconduct case can involve many individuals, is labor intensive, and can take years.
+
+Research misconduct can significantly damage an organization's reputation. A tarnished organization could have difficulty attracting potential sponsors and recruiting faculty and students.
+
+Strategies for Preventing or Mitigating Research Misconduct
+
+The federal ORI, organizations, and other entities have developed several responsible conduct of research education and training programs that include research misconduct and other topics.
+
+Policies and guidelines also are useful tools. For example, the federal ORI provides a policy on plagiarism to differentiate this from issues related to authorship, and it provides guidelines on how to avoid plagiarism. However, factors such as cultural influences and education level can affect perceptions of whether a particular behavior is acceptable. Open and ongoing discussions about proper research practices are crucial. For example, it should not be assumed that each member of a multi-national research team has the same understanding about what constitutes plagiarism.
+
+Effective mentoring can go a long way towards enhancing research integrity. Encouraging mentoring throughout an organization is an effective strategy for preventing misconduct. Other prevention strategies, such as periodically verifying data collection methods and discussing roles and responsibilities before and during a research project, are also essential. Seeking clarification and advice from trusted colleagues or an ombudsperson when something seems awry can also help avert misconduct.
+
+Detecting Research Misconduct
+Case StudyThe Dissertation Deadline
+
+Multiple strategies are available to detect and deter research misconduct. For example, several online tools are available to compare a suspected incident of plagiarism against a database of documents. ORI's Forensic Tools is a resource for examining digital images.
+
+The most important and effective means for preventing misconduct is the research community itself (Koocher and Keith-Spiegel 2010). Collaborators may suspect that data are not what they seem, or others in the same field may realize that they cannot verify a specific data set. What becomes crucial is how one responds to the situation. In particular, those senior to a suspected individual are usually in the best position to intervene and prevent or mitigate research misconduct in the first place (Koocher and Keith-Spiegel 2010).
+
+Reporting Research Misconduct
+Organizations will usually delineate a process for reporting a research misconduct allegation. Yet, in many cases, a recommended first step before making a formal allegation is to consult with a trusted colleague, such as an advisor, or a confidential resource, such as an organization’s ombuds office. It is typically prudent to get advice from those who are knowledgeable about what the misconduct process entails.
+
+Policies and Procedures for Managing Research Misconduct
+Organizations that receive federal funding must have policies and procedures in place to handle allegations of research misconduct. A typical organizational policy will outline:
+
+o Definitions of Research Misconduct
+	  o Procedures for reporting and investigating research misconduct.
+	  o Rights and obligations for all parties involved in the research misconduct process.
+	  o Provisions for protecting whistleblowers, individuals handling the misconduct process, and persons accused of research misconduct.
+
+Moreover, academic institutions will normally have a Research Integrity Officer or other administrators who handle the allegation process.
+
+The Federal Research Misconduct Policy describes the main phases that usually take place at the organization in response to an allegation of research misconduct. They are (OSTP 2000):
+
+• Inquiry: The assessment of whether the allegation has substance and if an investigation is warranted.
+	  • Investigation: The formal development of a factual record, followed by the examination of that record, which can lead to the dismissal of the case, a recommendation for a finding of research misconduct, or other appropriate remedies.
+	  • Adjudication: During which recommendations are reviewed and appropriate corrective actions determined.
+
+The process for managing research misconduct begins with the receipt of an allegation from someone close to the situation. Allegations can be raised in different ways, including during a face to face meeting or a phone call. On rare occasions, allegations are received by a government agency or office, such as the federal ORI, and then referred back to the organization where the alleged misconduct occurred for action.
+
+Not every allegation warrants a formal inquiry or an investigation. An allegation should be assessed for validity and requests for additional information from the person who alleges research misconduct may be necessary. Once an initial assessment has been made, one of two outcomes is most likely:
+
+There was a misunderstanding and there is no evidence of research misconduct.
+There is enough substance in the allegation to indicate that research misconduct may have occurred and an inquiry is necessary.
+The inquiry will determine whether an investigation should proceed. Typically, a committee examines the relevant information and decides whether to dismiss the allegation or to recommend an investigation based on the initial fact finding that indicates potential research misconduct.
+
+The investigation is a formal examination and evaluation of all relevant facts and results in a recommendation to dismiss the allegation or a finding of research misconduct by a preponderance of evidence (not beyond a reasonable doubt as in a court of law). Institutions receiving research funding from the U.S. Department of Health and Human Services (HHS) must adhere to the guidelines outlined in the Public Health Service Policies on Research Misconduct for allegations involving HHS-supported research. Additionally, the federal ORI provides guidelines to assist organizations with conducting inquiries and investigations for these cases. An organization may choose to apply federal standards to all potential research misconduct or choose to have similar or different standards.
+
+If a finding of research misconduct is verified, the organization must then review the recommendations through the adjudication process and determine an appropriate course of corrective actions. The actions typically range from a warning, further training, additional supervision, or sanctions to retraction of a work product or dismissal from one's job. In some cases, egregious offenders have paid substantial fines and served jail time for fraud. A federal agency might also perform its own independent investigation if the case relates to a research project that it funded.
+
+If the misconduct is connected to a federally-funded project, the organization must report the investigation’s results and the corrective action plan to the relevant federal agency. In addition, the federal government may require the organization to return the grant funds.
+
+Summary
+Research misconduct can occur in any field of research. Strategies for preventing, mitigating, and detecting research misconduct are evolving. Organizations must have policies and procedures for handling allegations of research misconduct. Researchers have an obligation to uphold the public’s trust and avoid engaging in research misconduct or other behaviors that the research community would condemn.
+
+References
+Anderson, Melissa S., Aaron S. Horn, Kelly B. Risbey, Emily A. Ronning, Raymond De Vries, and Brian C. Martinson. 2007. "What Do Mentoring and Training in The Responsible Conduct of Research Have To Do With Scientists' Misbehavior? Findings From a National Survey of NIH-Funded Scientists." Academic Medicine 82(9):853-60.
+
+Belluz, Julia. 2019. “Research Fraud Catalyzed the Anti-Vaccination Movement. Let’s Not Repeat History.” Vox, March 5. Accessed May 25, 2019.
+
+Borrell, Brendan. 2009. "A Medical Madoff: Anesthesiologist Faked Data in 21 Studies." American Scientist, March 10. Accessed June 7, 2015.
+
+Enserink, Martin. 2012. "Final Report: Stapel Affair Points to Bigger Problems in Social Psychology." ScienceInsider, November 28. Accessed June 7, 2015.
+
+Fanelli, Daniele. 2009. "How Many Scientists Fabricate and Falsify Research? A Systematic Review and Meta-Analysis of Survey Data." PLoS ONE 4(5):e5738.
+
+Grant, Bob. 2014. "Gene Therapy Researcher Faked Data." The Scientist, April 25. Accessed April 21, 2017.
+
+Koocher, Gerald, and Patricia Keith-Spiegel. 2010. "Peers Nip Misconduct in the Bud." Nature 466(7305):438-40.
+
+Martinson, Brian C., Melissa S. Anderson, and Raymond De Vries. 2005. "Scientists Behaving Badly." Nature 435(7043):737-8.
+
+Michalek, Arthur M., Alan D. Hutson, Camille P. Wicher, and Donald L. Trump. 2010. "The Costs and Underappreciated Consequences of Research Misconduct: A Case Study." PLoS Med 7(8):e1000318.
+
+National Academies of Sciences, Engineering, and Medicine. 2017. Fostering Integrity in Research. Washington, DC: The National Academies Press.
+
+National Research Council (NRC). 1992. Responsible Science, Volume I: Ensuring the Integrity of the Research Process. Washington, DC: National Academies Press.
+
+National Science Foundation (NSF). 2018. “Semiannual Report to Congress, October 1, 2017 - March 31, 2018.” Accessed May 25, 2019.
+
+Office of Science and Technology Policy (OSTP). 2000. "Federal Research Misconduct Policy." Federal Register 65(235):76260-4. Accessed June 25, 2019.
+
+Palus, Shannon. 2015. “Diederik Stapel Now Has 58 Retractions.” Retraction Watch, December 8. Accessed May 25, 2019.
+
+Reich, Eugenie Samuel. 2009. Plastic Fantastic: How The Biggest Fraud In Physics Shook The Scientific World. Palgrave Macmillan.
+
+Reyes, Brianda. 2012. "Carleen Basler Resigns After Admitting to Plagiarism." The Amherst Student, September 25. Accessed June 7, 2015.
+
+Steen, R. Grant. 2011. "Retractions in the Medical Literature: How Can Patients Be Protected From Risk?" Journal of Medical Ethics 38(4):228-32.
+
+U.S. Department of Health and Human Services (HHS) Office of Research Integrity (ORI). 2019. “Case Summaries: 2018.” Accessed June 3, 2019.
+
+Verfaellie, Mieke, and Jenna McGwin. 2011. "The Case of Diederik Stapel." Psychological Science Agenda, December. Accessed June 7, 2015.
+
+Additional Resources
+Public Health Service Policies on Research Misconduct, 42 CFR § 93 (eCFR current as of December 29, 2025).
+
+Rossner, Mike, and Kenneth M. Yamada. 2004. "What's in a Picture? The Temptation of Image Manipulation." The Journal of Cell Biology 166(1):11-5.
+
+U.S. Department of Health and Human Services, Office of Research Integrity (ORI). 2015. "Handling Research Misconduct." Accessed June 7, 2015.
+
+U.S. Department of Health and Human Services, Office of Research Integrity (ORI). 2015. "The Lab: Avoiding Research Misconduct." Accessed June 7, 2015.
+
+U.S. Department of Health and Human Services, The Office of Research Integrity (ORI) and the Office for Human Research Protections (OHRP). 2015. "The Research Clinic." Accessed June 7, 2015.
+
+U.S. Food and Drug Administration (FDA). 2015. "Inspections, Compliance, Enforcement, and Criminal Investigations." Accessed June 7, 2015.
+
+Wright, David E., Sandra L. Titus, and Jered B. Cornelison. 2008. "Mentoring and Research Misconduct: An Analysis of Research Mentoring in Closed ORI Cases." Science and Engineering Ethics 14(3):323-36.
+
+Original Release: August 2014
+Last Updated: January 2026
+
+This module has a quiz.
+
+ 
+Support
+✉ support@citiprogram.org
+☎ 888.529.5929
+(M – F ; 9:00 a.m. – 7:00 p.m. ET)
+Support Center
+Status Page
+Legal
+Accessibility
+Copyright
+Privacy and Cookie Policy
+Statement of Security Practices
+Anti-Discrimination Policy
+Terms of Service
+CITI Program

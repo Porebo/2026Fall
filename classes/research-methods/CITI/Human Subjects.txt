@@ -1,0 +1,200 @@
+Skip to main content
+CITI Program
+My Courses My Records My CEs Support
+Use Light Theme
+
+English
+Lester Carcamo
+ID 16194862
+Research Involving Human Subjects (RCR-Basic)
+University of Arkansas at Little Rock - Humanities Responsible Conduct of Research
+
+Switch View
+Research Involving Human Subjects (RCR-Basic)
+Content Author
+
+Jason Borenstein, PhD
+CITI Program
+Introduction
+Please review at least one of the videos below before you begin reading the module. Each video is approximately four minutes long.
+
+Biomedical – Human Subjects
+
+Social-Behavioral – Human Subjects
+
+This module will describe strategies that may help prevent some of the challenges illustrated within the videos.
+
+The objective of this module is to provide information about ethical issues associated with the participation of human subjects in research. Typically, when scholars discuss the topic of human subjects research, an examination of different types of biomedical or social-behavioral studies usually follows. Yet, it is necessary to acknowledge that research with human subjects occurs in many other realms.
+
+Conducting research with human subjects is a complex topic that brings together ethical, legal, and regulatory issues. This module is intended to introduce the major elements related to human subjects research, particularly as they fit the broader focus of responsible conduct of research. However, this module is not intended to replace the CITI Program's Human Subjects Research courses, which provide a much more comprehensive examination of the topic.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+Recognize ethical issues pertaining to human subjects research.
+Identify the main U.S. regulations governing human subjects research.
+Define the main ethical principles structuring how human subjects research should be conducted.
+Describe the main components of the informed consent process.
+Describe the mandate, role, and responsibilities of an Institutional Review Board (IRB).
+Defining Human Subjects Research
+The participation of human subjects in research has the potential to expand the knowledge base and improve the quality of human life. Much of the research involving humans occurs in fields such as medicine, psychology, anthropology, and sociology. Yet research in many other fields, including engineering, computer science, and public policy, also meet the regulatory definition of human subjects research as defined by 45 CFR 46, Subpart A (also known as the Common Rule). Even projects involving biospecimens, such as cells or tissues from humans, might be considered human subjects research. The number and variety of research studies continues to grow as research becomes increasingly interdisciplinary and as it moves beyond traditional academic settings.
+
+The Common Rule
+
+Because of the vast array of research that either directly or indirectly involves humans, a fundamental challenge associated with human subjects research is simply identifying it correctly. The definitions of human subjects and research are provided within the Common Rule. The Common Rule is a regulation which numerous U.S. federal departments and agencies are signatory, including the Department of Defense, the Department of Energy, the Department of Health and Human Services, and the National Science Foundation.
+
+It is important to note that a revised Common Rule (2018 Requirements) replaced a previous version. Research approved after 21 January 2019 must adhere to the revised rule. The revisions include new requirements for consent among other regulatory changes.
+
+According to the Common Rule (Protection of Human Subjects 2018), "Research means a systematic investigation, including research development, testing, and evaluation, designed to develop or contribute to generalizable knowledge."
+
+The Common Rule (Protection of Human Subjects 2018) defines a human subject as, “A living individual about whom an investigator (whether professional or student) conducting research:
+
+Obtains information or biospecimens through intervention or interaction with the individual, and uses, studies, or analyzes the information or biospecimens; or
+Obtains, uses, studies, analyzes, or generates identifiable private information or identifiable biospecimens.”
+If researchers are proposing to do research using a U.S. Food and Drug Administration (FDA) regulated product, then they must also understand the FDA's definition of a human subject (Protection of Human Subjects 2014): "An individual who is or becomes a participant in research, either as a recipient of the test article or as a control. A subject may be either a healthy individual or a patient."
+
+All researchers need to be aware of whether they are conducting human subjects research in part because ethical, organizational, and legal rules and guidelines apply to such research.
+
+The Importance of Human Subjects Research
+Researchers must recognize and appreciate the ethical dimensions of research with human beings. The knowledge and technologies generated from such research can have a profound impact on society. A critical question is whether human subjects are strictly needed for the research to be conducted. For instance, researchers in fields such as mechanical engineering have had a significant role in influencing the practice of medicine through creating and designing prosthetic limbs and other medical devices. Before these devices are made available to the public, human subjects are necessary in order to test them (Investigational Device Exemptions 2014). Depending on the purpose and the methodology, the development and testing may qualify as human subjects research in accordance with the Common Rule.
+
+Regulations and Guidelines
+The current ethical and legal framework for conducting human subjects research evolved from the Nuremberg Code, a set of guidelines developed after the Second World War in response to the atrocities committed by Nazi researchers. Among other ethical notions, the authors of the Nuremberg Code express the principle that human beings must voluntarily consent to participate in research before they are enrolled.
+
+In 1964, the World Medical Association developed and ratified the first version of the Declaration of Helsinki to help articulate ethical principles to be followed when conducting human subjects research. The Association's foremost goal for the Declaration of Helsinki was to address ethical complexities associated with conducting human subjects research internationally. The document states that "no national or international ethical, legal or regulatory requirement should reduce or eliminate any of the protections for research subjects set forth in this Declaration" (WMA 2013).
+
+Because of concerns that American citizens were being mistreated in research, the U.S. government in 1974 ratified the National Research Act. Among the main cases that had come to the public's attention was the U.S. Public Health Service Syphilis Study at Tuskegee (1932-1972). The Tuskegee Study primarily involved monitoring several hundred African American males who suffered from syphilis (Jones 1993). The intent of the study was to observe the stages of the disease as they manifest over time. The study had numerous ethical violations, including that the subjects were not told that they suffered from syphilis. An effective treatment for the disease was not available at the start of the study. But even after a cure was discovered, the researchers did not seek to treat the subjects during the study.
+
+The Belmont Report
+
+The National Research Act led to the formation of the National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research, which drafted the Belmont Report. The Belmont Report emphasizes three ethical principles, which are respect for persons, beneficence, and justice. Researchers must recognize the importance of these principles, especially when conducting human subjects research.
+
+The Belmont Report also provided the conceptual foundation for the Common Rule, which governs how federally funded human subjects research must be conducted and reviewed. To ensure compliance with the Common Rule, FDA regulations, and other federal policies, organizations that receive federal funds are required to have human subjects research reviewed by an IRB.
+
+Ethical Principles
+Each researcher who works with human subjects is expected to uphold a set of fundamental ethical principles. There is not an ethical principle that has priority in all cases. Researchers must try to balance the principles to the greatest extent possible.
+
+Respect for Persons
+Respect for persons refers to the ethical obligation to uphold autonomy; that is, the right of competent individuals to make decisions about their own lives. According to the Belmont Report (The National Commission 1979), "To respect autonomy is to give weight to autonomous persons' considered opinions and choices while refraining from obstructing their actions unless they are clearly detrimental to others."
+
+Informed consent, discussed below, is largely derived from the principle of autonomy. Respecting autonomy requires, for example, that a researcher honor the decision of a potential subject who refuses to participate in a research study. It also involves allowing subjects to leave the research at any point if they decide to do so.
+
+Federal regulations provide guidance for researchers if they are seeking to enroll subjects with diminished autonomy, such as children (Protection of Human Subjects 2018).
+
+Beneficence
+Beneficence obligates researchers to protect and uphold the well-being of others. According to the Belmont Report, beneficence requires one to "do no harm" and "maximize possible benefits and minimize possible harms." Beneficence compels researchers to weigh the risks of a study against its potential benefits. Researchers must design studies that minimize the subjects' exposure to risk to the greatest extent possible. For example, being beneficent may require that a researcher cease work with a particular subject or halt an entire study if a subject has been harmed.
+
+Justice
+Justice requires that the benefits and burdens of research be distributed fairly​​. Researchers must develop a strategy for ensuring that subjects, and perhaps the population from which research subjects were drawn, receive a fair share of the benefits from the research. According to the Belmont Report (The National Commission 1979), "An injustice occurs when some benefit to which a person is entitled is denied without good reason or when some burden is imposed unduly." For example, although it may be relatively easy to recruit a particular subset of the population for a study, such as homeless people, taking advantage of that group or excluding other potential groups of subjects might violate the principle of justice.
+
+Informed Consent
+Conducting human subjects research in a respectful and responsible manner usually requires researchers to obtain informed consent from potential subjects. The revised Common Rule states that informed consent “must begin with a concise and focused presentation of the key information” and the information must be “organized and presented in a way that facilitates comprehension” (Protection of Human Subjects 2018).
+
+Three fundamental components of informed consent are:
+
+Subjects must be adequately informed about the research study in which they are being asked to enroll, including being notified about the potential benefits and risks that may be associated with participation, the research purpose and procedures, and potential alternatives to participating.
+The decision of each subject to enroll must be voluntary. In other words, the subject should not be unduly influenced or coerced into making a decision about participation. For example, it is not permitted to pressure a vulnerable person such as a prisoner to enroll by offering a reduced prison sentence in exchange for participation in a research study. Undue influence or coercion includes, but is not limited to, offering potential subjects an exorbitant amount of money for enrolling.
+A subject must be competent to voice a decision about participation. The subject must be capable of understanding the information presented about the research and of appreciating the consequences of enrolling or of declining to enroll. However, in certain circumstances a non-competent individual, such as a child, could participate if that individual's parent or legally authorized representative gives consent.
+The Consent Process
+
+Instead of a one-time event, obtaining consent should typically occur through an ongoing process whereby a research study is discussed multiple times with potential subjects. During the process, subjects will often be asked to review and sign a consent form.
+
+According to the Common Rule (Protection of Human Subjects 2018), issues that researchers should address with a potential subject include:
+
+The purpose of the research
+Possible benefits and risks associated with the research
+Available alternatives
+The subject's rights, including the freedom to discontinue participation at any time
+How the subject's privacy and confidentiality will be protected
+Whether there is compensation for participating
+Who the contact persons are if a subject has questions or concerns about the research
+Research participation is voluntary
+For research that includes collection of identifiable private information or identifiable biospecimens, information about whether subject’s data will be de-identified and potentially used for future research or shared with another researcher (without additional consent) or whether the subject’s data will not be used or distributed for future research
+The above list is not intended to be exhaustive; the Common Rule provides a more comprehensive list and description of the elements to be addressed during the consent process.
+
+Case StudyThe Social Networking Project
+
+Researchers must adequately describe the risks associated with participation during the consent process and not be overly technical or confusing. Because subjects in research may be vulnerable to harm, it is of the utmost importance that researchers explain the research clearly and thoroughly before a subject agrees to participate. This might include, but is not limited to, describing the research and answering questions in the subject’s preferred language. IRBs must ensure that researchers write consent forms at a reading level appropriate for potential subjects. Moreover, research subjects must be notified if new information emerges that might affect their participation in the study.
+
+It can be difficult to determine whether a specific activity constitutes human subjects research, such as documenting the behavior of users on social networking websites, and if so, whether a formal process for obtaining consent is necessary. Researchers should consult with an IRB to determine if and how regulations for human subjects research, including those pertaining to informed consent, apply to their work.
+
+Merely complying with the regulation does not necessarily satisfy all of a researcher's professional obligations when conducting research with human beings. Researchers must always keep in mind that their foremost responsibility when conducting human subjects research is to the subjects. The failure to conduct human subjects research properly can cause harm to subjects and to society, and can erode the public's trust in research communities.
+
+The Institutional Review Board
+An IRB, also sometimes referred to as a Research Ethics Board or an Independent Ethics Committee in some regions of the world, seeks to ensure that only ethically and legally appropriate research involving human subjects is allowed to proceed. The primary U.S. federal agency responsible for overseeing human subjects research, the Office for Human Research Protections (OHRP 1993), states that "the IRB is an administrative body established to protect the rights and welfare of human research subjects recruited to participate in research activities conducted under the auspices of the institution with which it is affiliated."
+
+IRBs must review human subjects research that is supported, conducted, or regulated by federal agencies. Researchers are required to submit a thorough description of what they plan to do, often referred to as a research protocol, to the IRB prior to conducting federally-funded human subjects research. Many organizations, such as academic institutions and private companies, require their IRBs to review most human subjects research studies, including those that are not supported through federal funds.
+
+Composition
+In accordance with the Common Rule, some of the key requirements governing an IRB's membership include (Protection of Human Subjects 2018):
+
+It must have at least five members.
+It must be diverse in many regards, including in terms of gender, cultural background, and expertise.
+At least one member of an IRB must be a scientist and at least one member must be a non-scientist.
+At least one member must not be affiliated with the parent institution or organization other than being a member of the IRB. Also, that individual may not have an immediate family member who is affiliated with the parent institution or organization.
+An IRB needs members who have expertise relevant to the research being proposed. If the required expertise is not available within its regular members, an IRB may need to invite external experts to help inform its deliberations. Furthermore, an IRB member should not be involved in the review of a project if that person has a conflict of interest related to the project.
+
+Role
+An IRB must ensure that a research study fulfills certain criteria before it can be approved. For example, it must review the proposed consent form and process to determine if it will enable potential subjects to understand the research clearly. The IRB also must assess whether researchers have developed adequate safeguards, such as outlining procedures for monitoring subject safety, providing contact information to subjects, and informing subjects that they can withdraw at any time without penalty.
+
+Faculty, students, postdoctoral fellows, and other researchers must consult with their IRB in order to determine whether IRB review is required for their research if it involves human subjects. For example, if academic researchers wanted to interview adult students about their attitudes on drug use, this will likely require IRB review. However, surveying the same students about their views on thesis writing services likely would not require IRB review assuming it is for quality improvement, and not research, purposes.
+
+Types of Review
+If a research study needs to undergo convened board review, it requires that "a majority of the members of the IRB are present, including at least one member whose primary concerns are in nonscientific areas" (Protection of Human Subjects 2018).
+
+Research might qualify for expedited review if it poses "no more than minimal risk" and falls into one of the categories recognized by the federal government for expedited review (OHRP 1998). For example, expedited review may apply to a study that only includes reviewing medical charts or an anonymous online survey. Expedited review may also be used for minor changes in approved research, or if limited review is required as a condition of exemption (Protection of Human Subjects 2018). Expedited review can be conducted by the IRB chair or a designee, and it does not require review by the full board.
+
+A study may qualify for an exemption if it falls into one or more of the exemption categories that are specifically delineated within the Common Rule. However, researchers should not try to make this determination on their own. In general, it is the IRB's responsibility to decide whether a particular form of human subjects research is exempt from review.
+
+For research approved by the convened IRB, researchers are usually required to provide periodic reports about the ongoing research; this is referred to as continuing review. Due to continuing review requirements, researchers must submit reports, including problems encountered, to the IRB no less than once per year (Protection of Human Subjects 2018). Researchers also must be aware of federal and organizational policies governing how long research records, including originals of consent forms, must be retained after a study concludes.
+
+Summary
+Historically, Institutional Review Boards have largely focused their attention on biomedical and social-behavioral research. Yet human subjects research guidelines, policies, and regulations can and do apply to a broad range of fields outside of those realms as well. Researchers in every field must understand and uphold their ethical and legal responsibilities if research with human subjects is going to be conducted.
+
+References
+Investigational Device Exemptions, 21 CFR § 812 (2014).
+
+Jones, James H. 1993. Bad Blood: The Tuskegee Syphilis Experiment. Free Press.
+
+Protection of Human Subjects, 21 CFR § 50 (2014).
+
+Protection of Human Subjects, 45 CFR § 46 (2018).
+
+The National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. "The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research." Accessed June 7, 2015.
+
+U.S. Department of Health and Human Services (HHS), Office for Human Research Protections (OHRP). 1993. "Institutional Administration." In Institutional Review Board Guidebook. Accessed June 7, 2015.
+
+U.S. Department of Health and Human Services (HHS), Office for Human Research Protections (OHRP). 1998. "Categories of Research That May Be Reviewed by the Institutional Review Board (IRB) through an Expedited Review Procedure." Accessed September 6, 2017.
+
+World Medical Association (WMA). 2013. "WMA Declaration of Helsinki - Ethical Principles for Medical Research Involving Human Subjects." Accessed September 6, 2017.
+
+Additional Resources
+National Science Foundation (NSF). n.d. "Human Subjects." Accessed September 6, 2017.
+
+U.S. Department of Education (ED). 2017. "Protection of Human Subjects in Research." Accessed September 18, 2017.
+
+U.S. Department of Energy (DOE). n.d. "Human Subjects Protection Program (HSPP)." Accessed September 18, 2017.
+
+U.S. Environmental Protection Agency (EPA). n.d. "Human Studies Review Board." Accessed September 18, 2017.
+
+Original Release: September 2009
+Last Updated: April 2019
+
+This module has a quiz.
+
+ 
+Support
+✉ support@citiprogram.org
+☎ 888.529.5929
+(M – F ; 9:00 a.m. – 7:00 p.m. ET)
+Support Center
+Status Page
+Legal
+Accessibility
+Copyright
+Privacy and Cookie Policy
+Statement of Security Practices
+Anti-Discrimination Policy
+Terms of Service
+CITI Program

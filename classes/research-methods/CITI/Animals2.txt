@@ -1,0 +1,111 @@
+Skip to main content
+CITI Program
+My Courses My Records My CEs Support
+Use Light Theme
+
+English
+Lester Carcamo
+ID 16194862
+Using Animal Subjects in Research (RCR-Refresher)
+University of Arkansas at Little Rock - Responsible Conduct of Research Refresher for Social, Behavioral, and Education (SBE) Researchers
+
+Using Animal Subjects in Research (RCR-Refresher)
+Content Author
+
+Michael D. Mann, PhD
+University of Nebraska (Emeritus)
+Introduction
+In general, the use of animals in research is considered to be justified as long as the animals are treated humanely and the research is necessary. The U.S. government has developed regulations that are designed to ensure that these conditions apply. In order for researchers to adhere to these regulations, they must know what they are. They should also be aware of the ethical principles that apply to such research. Please be aware that this module is not intended to replace the CITI Program's Working with the IACUC course, which provides a more comprehensive examination of the topic.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+Identify which species are covered by U.S. regulations.
+Describe the protocol renewal procedure including how often renewals are necessary and whether administrative extensions are possible.
+Explain why a new alternatives search is necessary with Institutional Animal Care and Use Committee (IACUC) protocol renewal applications.
+Summarize how the IACUC should handle a proposal for withholding of analgesic agents.
+Describe what constitutes an acceptable justification for the number of animals to be used in a study.
+Describe the use of performance standards in animal research.
+Some Old Ideas Revisited
+Covered Species
+A common misconception is that all animal research in the U.S. is covered by the Public Health Service (PHS) Policy on Humane Care and Use of Laboratory Animals and the Animal Welfare Regulations (AWR) for the Animal Welfare Act (AWA). The PHS Policy applies only to the use of live, vertebrate animals in research that is PHS funded. However, other animals might be covered by PHS Policy depending on what the Assurance an institution files with the PHS states (PHS 2015). If the Assurance covers only these animals, then no other research is covered by PHS Policy at that institution. But, most institutions have decided to include all use of live, vertebrate animals; some include all animals.
+
+Apply to any warmblooded animal being used for research, teaching, testing, experimentation, or exhibition purposes, or as a pet. Excludes birds, rats of the genus Rattus, and mice of the genus Mus, bred for use in research (Definitions 2023).
+
+Because the vast majority of animals used in research are rats of the genus Rattus and mice of the genus Mus, both bred for use in research, most research animals are not regulated by the AWR. However, there are a number of animals of the genus Rattus, the genus Mus, and the genus Peromyscus (also known as deer mice) that are not bred for research but exist in the wild. These are subject to AWR.
+
+Case StudyResearch on Sea Slugs
+
+Administrative Extension of IACUC Approval
+In order to use animals in research, the procedures to be performed on animals are typically described in a research protocol and that protocol must be approved by the IACUC before animals are used for those procedures. The use of protocols is not required, but most institutions use them. The IACUC is the body within the research institution that is empowered by both the AWR and the PHS Policy to ensure that animals are treated humanely and that regulations are followed.
+
+If the project continues beyond a year and the animals are covered by the AWR, then a renewal application must be completed annually. If the project is covered by the PHS Policy, a new application must be submitted at the end of three years. If the project is designed to take three years and one month, for example, it is necessary to resubmit a new application for the extra month.
+
+The IACUC is not permitted to administratively extend its approval beyond the renewal deadlines. The PHS Office of Director (OD) and the Office of Laboratory Animal Welfare (OLAW) have stated that, "IACUCs do not have authority to administratively extend approval beyond three years. When IACUC approval expires the protocol lacks valid approval. Continuation of animal activities in the absence of valid approval is a serious and reportable violation of PHS Policy" (NIH 2006). Moreover, PHS funds may not be used to support animal activities when IACUC approval for those activities has expired or been suspended.
+
+Alternatives Search
+It is necessary for researchers to search for alternatives to procedures that cause more than momentary pain or distress to animals. The search should include a review of reduction and refinement techniques, as well as a search for possible alternatives to the use of animals or the use of a less sentient species. Regulatory agencies prefer that computer searches be used to fulfill this requirement.
+
+Researchers are often surprised when the IACUC requests a new search with a three-year renewal. Many new techniques and procedures are developed over a three-year period. These may not provide alternatives for a specific research project, but, on the other hand, they might.
+
+Withholding Analgesic Agents
+An IACUC normally will request that analgesic agents be administered to animals that are undergoing procedures that cause more than momentary pain. Sometimes the use of analgesic agents may interfere with the research. For example, it would be difficult to study pain itself in an animal treated with an analgesic agent because the agent is designed to block or at least reduce the phenomenon under study.
+
+What does the IACUC do to ensure the welfare of animals when analgesia is withheld? The IACUC must be sure that the withholding is necessary. Is there evidence that the use of analgesic agents will compromise the results? Sometimes there is. If there is not, then is it logical or scientifically deducible that the results might be compromised? Also, the IACUC must make sure that the monitoring of the animals is optimal, in other words, performed with sufficient frequency and with the correct criteria. The animals must be monitored on both weekdays and weekends.
+
+Criteria for Death
+Most projects end with the euthanasia of the animals. The method of euthanasia must be appropriate for the species used. The American Veterinarian Medical Association (AVMA 2020) provides guidelines for selection of the proper method. Some methods always ensure the death of the animal. However, many methods have outcomes that are not so clear. For example, simply administering a supposed overdose of anesthetic agent does not ensure that the animal is dead. Carbon dioxide (CO2) is commonly used for euthanasia of rodents, especially if there are large numbers of animals to be euthanized at the same time. However, the researcher must have a method for deciding that the animal is actually dead. One way to ensure this is to monitor the animal's vital functions for a sufficiently long period of time after the procedure; five minutes might be appropriate, but one minute would be insufficient.
+
+In most cases, a secondary euthanasia method is recommended. In some cases, this is part of the study design. However it is accomplished, it is essential to be certain that the euthanasia is effective and does not cause unnecessary suffering.
+
+Justification of the Number of Animals Used
+The IACUC will likely ask the research team to justify the number of animals to be used in a project. What constitutes a reasonable justification depends on the type of study. If the study is likely to generate numerical data for both experimental and control groups, then statistical analyses are possible. If so and it is possible to estimate the difference between the mean values for experimental and control groups and measures of variability for both groups, then a power analysis may be performed to estimate the number of animals required. This is the best kind of justification. Computerized statistical packages may be able to perform a power analysis, or the research team could check with a statistician.
+
+On the other hand, these values can be difficult to estimate, but perhaps the research team has done this type of study before. In that situation, the research team may want to justify the numbers requested by reporting the numbers used in previous similar studies. The previous studies do not necessarily have to be from one's own laboratory.
+
+It is important to note that justifications based on the cost of animals are never acceptable. Some kinds of studies do not generate numerical data, for example, some types of anatomical studies. In that case, numbers of animals used in previous studies or other reasonable estimates will have to be supplied with the protocol that describes the project.
+
+Case StudyStudying Tumor Growth in Mice
+
+A New Idea
+Since the establishment of the PHS Policy and AWR, the chief concern amongst regulators, IACUCs, and researchers has been compliance with the regulations, in other words, with doing what is required to remain within the letter of the law. However, with the publication of the 8th edition of the Guide for the Care and Use of Laboratory Animals (the Guide), the emphasis has shifted to one of meeting performance standards. According to the Guide (Committee et al. 2011):
+
+Performance standard means a standard or guideline that, while describing a desired outcome, provides flexibility in achieving this outcome by granting discretion to those responsible for managing the animal care and use program, the researcher, and the IACUC … Performance standards can be advantageous because they accommodate the consideration of many variables (such as the species and previous history of the animals, facilities, staff expertise, and research goals) so that implementation can be best tailored to meet the recommendations in the Guide.
+
+The new standard involves considering what is best for the animals used in the research, for the researchers, and for the research itself. For example, it is no longer suitable to specify the maximum number of animals of a particular type that may be housed in a single cage. Rather the size of the animals is important in determining how much space they actually need. An institution may specify that the maximum number of rats that may occupy a cage is four or five, but if those rats are particularly large, it may be more appropriate to house only two of them in each cage.
+
+Summary
+The procedures, protocols, and performance standards governing research with vertebrate animals are about what is good for animals, for research, for the pursuit of knowledge, and for human health and well-being. Researchers working with these animals have an ethical and legal obligation to familiarize themselves with the relevant regulations, policies, and guidelines.
+
+References
+American Veterinarian Medical Association (AVMA). 2020. "AVMA Guidelines for the Euthanasia of Animals: 2020 Edition." Accessed January 23, 2020.
+
+Committee for the Update of the Guide for the Care and Use of Laboratory Animals, Institute for Laboratory Animal Research, Division on Earth and Life Studies, and National Research Council. 2011. Guide for the Care and Use of Laboratory Animals: Eighth Edition. Washington, DC: The National Academies Press. Accessed July 11, 2018.
+
+Definitions, 9 CFR § 1.1 (2023).
+
+National Institutes of Health (NIH). 2006. "Frequently Asked Questions: PHS Policy on Humane Care and Use of Laboratory Animals - D2." Accessed May 1, 2015.
+
+U.S. Public Health Service (PHS). 2015. "Office of Laboratory Animal Welfare - Public Health Service Policy on Humane Care and Use of Laboratory Animals." Accessed May 1.
+
+Original Release: August 2013
+Last Updated: March 2023
+
+This module has a quiz.
+
+ 
+Support
+✉ support@citiprogram.org
+☎ 888.529.5929
+(M – F ; 9:00 a.m. – 7:00 p.m. ET)
+Support Center
+Status Page
+Legal
+Accessibility
+Copyright
+Privacy and Cookie Policy
+Statement of Security Practices
+Anti-Discrimination Policy
+Terms of Service
+CITI Program

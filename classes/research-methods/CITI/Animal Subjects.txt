@@ -1,0 +1,268 @@
+Skip to main content
+CITI Program
+My Courses My Records My CEs Support
+Use Light Theme
+
+English
+Lester Carcamo
+ID 16194862
+Using Animal Subjects in Research (RCR-Basic)
+University of Arkansas at Little Rock - Humanities Responsible Conduct of Research
+
+Switch View
+Using Animal Subjects in Research (RCR-Basic)
+Content Author
+
+Paul Braunschweiger, PhD
+CITI Program
+Introduction
+Please review the video below before you begin reading the module. It is approximately three minutes long.
+
+Animal Care & Use
+
+The use of animals in research is a complex issue. Many are working to develop non-animal alternatives to the use of animals in research, but the research community is not entirely there yet. A dilemma we face when we use animals in research is that unlike research with humans, animals cannot give informed consent for procedures that might cause them pain, distress, or even death. As a result, some argue that there is no acceptable justification for the use of live animals in a research setting. Others take a more utilitarian approach and point to the many medical advances that have been possible because of animal research. They argue that animal research benefits all animals (human and nonhuman), and society in general, if the research has scientific justification and utilizes procedures that minimize pain and distress to the extent possible.
+
+In the U.S., animal research is illegal unless it is in full compliance with the:
+
+Ethical and scientific principles in the U.S. Government Principles for the Utilization and Care of Vertebrate Animals Used in Testing, Research, and Training (OSTP 1985)
+Health Research Extension Act of 1985
+Animal Welfare Act of 1966 (as amended)
+This module introduces you to the major ethical and regulatory concepts related to laboratory animal research, particularly as they fit the broader focus of the responsible conduct of research. This module does not replace CITI Program's Animal Care and Use courses. Those courses provide a comprehensive treatment of the use of animals in research with the specific intent to meet the federal mandate for investigator training in laboratory animal welfare.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+Identify the ethical perspectives in animal research.
+Discuss the U.S. regulations governing animal research.
+Describe the roles of the Institutional Official (IO), the Institutional Animal Care and Use Committee (IACUC), and the Attending Veterinarian (AV) in animal care and use programs.
+Recognize the ethical responsibilities of the principal investigator (PI) and members of the research team who work with laboratory animals.
+Describe how to report incidents of animal abuse and regulatory noncompliance at your organization.
+Perspectives on the Use of Animals in Research
+Although not specifically targeted to research activities, the first laws to address animal welfare were animal anticruelty laws (such as Martin’s Act 1822 [Ortiz-Robles 2016]). In some cases, convicted individuals received substantial fines and even prison time. In 1856, Marshall Hall authored the earliest publication on the humane treatment of animal subjects in a biomedical research context. Hall (1856) recognized that pain and suffering often accompanies animal experimentation. He argued that animal experimentation is ethical only when it meets these five principles:
+
+Alternative approaches are not available.
+The experiment has a clearly stated objective.
+The work is not unduly repetitious.
+The investigators have a commitment to minimize pain and distress.
+The study’s published results are clear and concise.
+The first laws to address the animal research principles set by Hall appeared in the Cruelty to Animals Act passed by the British Parliament in 1876 (Hamilton 2013).
+
+The "3Rs" of Animal Research
+About 100 years after Hall's paper appeared, William Russell and Rex Burch (1959) published their landmark work entitled The Principles of Humane Experimental Technique. In addition to experimental procedures of the day, this important work described key ethical guidelines for scientists. Russell and Burch described approaches to reduce pain or distress in research animals through the principles of:
+
+• Reduction
+	  • Replacement
+	  • Refinement
+
+These three principles and the attendant implementation strategies are known as the “3Rs” (Russell and Burch 1959).
+
+Reduction
+Reduction is a process employed by the investigator that decreases the number of animals used in a study to the minimum number sufficient to obtain reliably meaningful results with the desired precision and level of statistical significance. To minimize the number of animal research subjects, investigators must pay attention to the research study’s design and to their skills with the procedures. Some common reduction strategies you can use include:
+
+Improvements in experimental techniques with advanced technology and/or better training of personnel. This will improve the precision of the data (reduced type 1 error, reduced variance).
+Implementation of a rigorous quantitative study design to include a scientific determination of the most appropriate sample size (n) based on the variances in the expected data (“power analysis”).
+The use of a pilot study with just a few animals to establish variances in data and reliably determine the sample size.
+Implementation of animal or tissue sharing programs (within or outside the organization) when possible.
+Rationalization for the number of animals used with the potential harms from performing multiple experiments or procedures in a single animal.
+Replacement
+
+Russell and Burch (1959) described replacement as “the substitution for conscious living higher animals with insentient material.” Some examples of how you can do this include:
+
+Replace the test animals with a non-animal alternative such as computer simulations, in vitro models (cell cultures), or in silico (“Organ on a Chip” technology) models to predict the potential toxicity of experimental medications or environmental pollutants.
+Replace the test animals (such as dogs or nonhuman primates) with those from a less sentient species (such as fish, frogs, or mice). This approach is ethical only if the replacement model is appropriate for the study question and the substitution could provide a scientifically meaningful result.
+Refinement
+According to Russell and Burch (1959), refinement refers to efforts to minimize the occurrence or severity of painful procedures that the investigators determined are necessary for a study. Refinement of procedures can also result in greater precision and, therefore, a potential reduction of test animals. Some refinement efforts you can utilize include:
+
+Use non-invasive imaging procedures that are less painful or stressful than invasive measurements to assess disease progression in animal models.
+Implement procedures such as randomization and blinding strategies in the experimental design to decrease unintended bias and increase the study’s significance.
+Use more effective analgesics or anesthetics or more effective treatment schedules or administration strategies.
+Substitute one experimental endpoint for another less painful endpoint.
+Modify an animal's habitat to make it more interesting, more stimulating, or less stressful for the animal under study.
+Animal Welfare and Animal Rights
+The ethical guidelines, laws, and regulations use the term animal welfare to describe the appropriate care and use of animals as research subjects. The term animal rights is often used by individuals and organizations who do not recognize the concept of animal welfare, but instead, they believe that animals have the right to not be used in research, education, testing, and even as food.
+
+Early activists in the animal rights movement included Ruth Harrison (1964), Stanley Godlovitch et al. (1972), and Richard Ryder. In the 1970s, Ryder coined the term speciesism to promote the notion that discrimination against other (nonhuman) species is similar to being racist or sexist.
+
+The utilitarian philosopher Peter Singer, in his 1975 book Animal Liberation, did not embrace the term animal rights. Instead, Singer argued that because animals can suffer, humans have a moral obligation to consider their interests. He contended that individuals ought to apply the utilitarian principle of the "greatest good for the greatest number" to nonhuman animals and that failure to give moral consideration to the interests of both humans and nonhumans is ethically indefensible (Singer 1975). However, Singer did not suggest that we literally treat human and nonhuman animals equally. For example, a nonhuman animal cannot be granted the right to vote, but Singer and his colleagues attempted to extend basic legal rights to great apes, chimpanzees, bonobos, gorillas, and orangutans through the Great Apes Project (Cavalieri and Singer 1993).
+
+Other scholars, including Thomas Regan (2004), maintained that nonhuman animals have inherent value as a "subject-of-a-life," and thus, the use of animals for research purposes is an invasion of that life and not morally acceptable.
+
+Regulations Governing Animal Research in the United States
+The U.S. government has regulations that govern the use of vertebrate animals in research. The U.S. Department of Agriculture (USDA) and the U.S. Public Health Service (PHS) enforce these regulations.
+
+The U.S. Department of Agriculture (USDA)
+U.S. Congress gave the USDA broad authority to regulate animal research when it passed the Animal Welfare Act (AWA) in 1966. The USDA then established the Animal Welfare Regulations (AWR) to enforce the AWA (USDA, Animal and Plant Health Inspection Service [APHIS] 2017). The AWA and AWR regulate all activities with “any live or dead dog, cat, nonhuman primate, guinea pig, hamster, rabbit, or any other warmblooded animal, which is being used, or is intended for use for research, teaching, testing, experimentation, or exhibition purposes, or as a pet” (Definitions 2023).
+
+The USDA, through the AWR, specifically excludes rats, mice, and birds bred for use in research. Wild rats, mice, and birds used in research still fall under the USDA’s purview.
+
+The U.S. Public Health Service (PHS)
+
+In 1985, the U.S. Congress passed the Health Research Extension Act, which directed the PHS to develop specific guidelines for animal research.
+
+The Office of Laboratory Animal Welfare (OLAW) monitors institutional compliance with PHS Policy and guidelines. To assess institutional compliance, OLAW primarily relies on these two documents:
+
+The PHS Policy on Humane Care and Use of Laboratory Animals (PHS Policy) (OLAW 2015)
+The Guide for the Care and Use of Laboratory Animals (the Guide) (National Research Council [NRC] 2011)
+The PHS Policy differs from the AWR because PHS Policy covers all live vertebrate species used for research, teaching, and testing activities funded by the National Institutes of Health (NIH) or other branches of the PHS.
+
+AAALAC International (AAALAC)
+AAALAC International (AAALAC) is a nonprofit organization that accredits animal care and use programs. An organization's participation in the accreditation program is strictly voluntary, but it has become a recognized standard for high-quality animal research programs.
+
+The Institutional Animal Care and Use Committee (IACUC)
+Both the PHS Policy and the AWR specifically mandate an Institutional Animal Care and Use Committee (IACUC) for independent oversight of your organization’s care and use of animals in research, teaching, and testing. At your organization, the Chief Executive Officer (CEO) or the CEO’s written designee (the Institutional Official [IO]) appoints members to the IACUC. The IO is a senior member of the administration who has the authority to allocate the resources needed to ensure the overall effectiveness of the organization's animal care and use program. The IO bears ultimate responsibility for the animal program, and has responsibilities for resource planning and for the alignment of program goals with the organization's mission.
+
+The Animal Research Project
+
+IACUC Membership Requirements
+Per the AWR at 9 CFR 2.31 (Institutional 2004), the IACUC must consist of an IACUC chair and at least two additional members. Among these members:
+
+At least one shall be a Doctor of Veterinary Medicine, with training or experience in laboratory animal science and medicine, who has direct or delegated program responsibility for activities involving animals at the research facility.
+At least one shall not be affiliated in any way with the facility other than as a member of the Committee, and shall not be a member of the immediate family of a person who is affiliated with the facility.
+The PHS Policy has similar membership requirements, except that the IACUC must have at least five members, including a nonscientist and a practicing scientist experienced in animal research. At organizations with larger animal use programs, the number of members is usually larger than what the regulations require.
+
+IACUC Responsibilities
+The IACUC’s oversight responsibilities include the implementation of policies and procedures to:
+
+Ensure that the organization and its employees are in, and remain in, compliance with all federal regulations and institutional policies related to the use of animals in research, teaching, and testing.
+Review and approve all animal use activities at the organization. The common term for the written, detailed statement of these activities is the “animal protocol.”
+Ensure that all investigators, staff, and students have proper training in animal use principles and in the procedures that they will use in their animal activities.
+Conduct semiannual inspections of all facilities where investigators house or use animals in research, teaching, and testing.
+Conduct semiannual reviews of the entire animal care and use program at the organization. This includes a review of the quality of the veterinary care program, the personnel training programs, the occupational health and safety program, and the conduct of the IACUC itself.
+Identify and investigate instances of noncompliance.
+Provide a semiannual report to the Institutional Official on the status of the organization's animal care and use program.
+Maintain written records associated with the review of animal care and use activities, including the IACUC meeting minutes, for at least three years after the conclusion of a research project.
+The Role of the Attending Veterinarian (AV)
+The Attending Veterinarian (AV) is responsible for the health and care of all animals at the organization's facilities. The AV is the ultimate authority for the medical condition, treatment, and husbandry of your organization’s animals. The AV may intervene immediately in any animal-related procedure and has the authority to halt the procedure, if investigators are conducting the procedures incorrectly or if any study animal is experiencing undue pain and distress during the procedure.
+
+The Veterinary Consultation
+The veterinary consultation is another important role for your organization’s AV. The AWA stipulates that if the proposed procedures on animals have the potential to cause more than momentary or slight pain or distress, the investigators must consult with a veterinarian who has training or experience in laboratory animal medicine before conducting those procedures. Many organizations require a veterinary consultation during the planning stages for all projects involving animals.
+
+The Responsibilities of Investigators
+
+The AWR and the PHS Policy both describe many responsibilities of the principal investigator (PI) and the research team. The research process begins when the PI submits an animal protocol to the IACUC. The animal protocol describes, among other things, the study’s purpose, what will happen to the animals, and the study’s scientific endpoints.
+
+All members of the research team must ensure that they maintain the appropriate and humane treatment of animal subjects. It is the PI’s specific responsibility to provide access to proper training for team members before they receive permission to conduct procedures with animal subjects. The PI, PI's designee(s), or AV usually provides the training.
+
+In the animal protocol, the PI must specifically describe the items listed below.
+
+The rationale and purpose for the use of animals.
+The justification for the use of the species and the number of animals in the study. The PI must provide scientific justification, often using statistical methods, for the number of animals in the study.
+An assurance that the proposed studies do not unnecessarily duplicate prior research.
+Each procedure that the research team will conduct with animals.
+A justification for any procedures that deviate from the AWR or the PHS Policy (for example, withholding antibiotics from an animal after surgery because they are known to interfere with the study of some scientific endpoints).
+The availability or appropriateness of alternatives, such as the use of less-invasive procedures, other species, cell or tissue cultures, or computer simulations.
+The methods to relieve more than momentary pain and distress.
+The methods of euthanasia.
+The Lay Summary of the Animal Protocol
+The lay summary of the animal protocol should summarize the proposed study in terms that will allow a person without a science background to understand what the investigators hope to accomplish. The summary should include an explanation of:
+
+The study’s purpose
+The experimental approach (how the investigators will conduct the study)
+The study endpoints (the types of data the investigators will collect)
+What will happen to the animals when the study is over
+The significance of the research to the scientific community and to the public
+An IACUC will likely require the PI to revise the lay summary if it fails to address these issues in a way that a layperson would understand.
+
+Training and Experience
+The Animal Welfare Regulations and the PHS Policy both require that all personnel who use animals in research, testing, and teaching complete basic training in the humane care and use of animals in a research environment. The PHS Policy also delineates the relevant content to include in an adequate training program.
+
+The PI must show that the team has sufficient experience with the chosen animal model and the proposed procedures to complete the project humanely. Research team members who lack experience in the procedures must receive additional training from the PI or the veterinary staff, or from other experts in the field outside their organization. The IACUC will review the qualifications of the research team prior to the approval of the animal study.
+
+Avoiding Pain and Distress
+
+The PI must provide a rigorous scientific justification to the IACUC for studies that may involve unrelieved pain and distress to research animals. The general guideline that IACUCs use to determine if a procedure is painful is: “Unless the contrary is established, investigators should consider that procedures that cause pain or distress in human beings may cause pain or distress in other animals” (OSTP 1985).
+
+Many organizations require that the research protocol describe the potential for and severity of the pain, distress, and discomfort that the animals will experience during the proposed research procedures. It is common to use the pain category system provided by the USDA, APHIS (2016).
+
+The AWR require that the IACUC submit an annual report to the USDA that details the number of each species used and the degree of discomfort/pain experienced by the animals according to specifically defined categories. Each year, the USDA publishes a compilation of the number of animals used in research nationally according to the pain category.
+
+Alternatives
+The PHS Policy and the AWR require that investigators provide written assurance, in the animal protocol, that they have searched the pertinent literature for alternatives to any painful procedures. The written assurance should provide the details (databases, keywords, inclusive dates) of the search. If the required literature search indicates that less painful alternatives exist, investigators must use those alternatives unless they can provide an acceptable justification for why the alternatives are not appropriate for the proposed study.
+
+Analgesia
+If investigators cannot identify alternatives to the painful procedures, the animals must receive relief from the painful procedures or conditions through appropriate pain-relieving drugs and comfort care. The pain-relieving strategies must be appropriate to the species, conform to veterinary best practices, and receive approval from the IACUC. The AV should provide guidance to investigators on the species-appropriate use of analgesia and anesthesia for the specific procedures.
+
+At times, the use of pain-relieving drugs may interfere with study endpoints and the research project’s aims. When the condition under study is pain itself, the IACUC must decide whether to waive the requirement for analgesia/anesthesia, ask the investigator to modify the study to have a less painful endpoint, or disapprove the study. If the IACUC permits the exemption, there would likely be a requirement for special monitoring strategies to use with the study animals.
+
+Euthanasia
+In many circumstances, euthanasia is a necessary study endpoint. When euthanasia is necessary, PIs must assure the IACUC that they will skillfully perform the euthanasia and use methods that are appropriate for the species and consistent with the study’s stated endpoints and goals. PIs should discuss the euthanasia strategy and methodology during the veterinary consultation, prior to the start of the study. Further, all members of the research team must have proper training to perform the approved euthanasia procedure.
+
+The PHS Policy and the Guide state that the means of euthanasia should be consistent with the recommendations in the American Veterinary Medical Association Guidelines for the Euthanasia of Animals.
+
+Making Changes to the Animal Protocol After Initial Approval
+Once the IACUC approves the animal protocol, neither the PI nor the research staff can make changes to the methods or procedures unless the IACUC first reviews and approves those new methods, reagents, or species. Federal regulations make it clear that the IACUC must review and approve all significant changes to the procedures described in an approved animal protocol before the research team can implement such changes. NIH and OLAW provide guidance on what constitutes a “significant change.”
+
+Investigators must not conduct unapproved procedures with their animal subjects. The conduct of unapproved procedures is noncompliance with IACUC policy and federal regulations. The use of an unapproved procedure can result in the suspension of the study until the incident of noncompliance undergoes a full investigation and an approved corrective action plan begins. Resolution of the issues could take months and put the organization in a position where it would need to return grant funds to the funding agency.
+
+Another consequence is that data collected during intervals of noncompliance will likely not be publishable. Most journals will reject papers reporting animal studies that an IACUC has not approved. If the author is deceptive about IACUC approval, a misconduct allegation could follow.
+
+Reporting Concerns About Animal Use
+You must immediately report concerns about the treatment of animals owned by your organization or the use of procedures that do not comply with federal regulations or institutional guidelines. You can report these concerns to any of the following:
+
+
+
+The AWR and the PHS Policy require the IACUC to review and, if warranted, investigate allegations of mistreatment, misuse, or noncompliance.
+
+The IACUC has the authority to suspend an animal study to protect the animals and the investigators. Only the IACUC can lift a decision to suspend a study or animal activity. The organization's administrators or the IO cannot overturn the decision. However, the IO does have the responsibility to review the case, review the actions taken by the IACUC, and determine whether to take additional action. The IO then must report the suspension and the corrective action plan to the appropriate regulatory agencies.
+
+Summary
+Animal research is a privilege that to do ethically, requires integrity and professionalism. Improper research practices can put animal subjects at risk, waste valuable resources, jeopardize careers, and delay the development of new medicines and technologies. Accountability and ethical behavior by investigators and organizations are critical and non-negotiable requirements.
+
+The rules for using animals in research may seem lengthy and complex, but investigators engaged in research with animals must strive to understand the ethical principles inherent in laboratory animal welfare. All members of the research team must also understand and comply with all federal regulations, guidelines, and institutional policies that govern animal research activities. This high-level of professionalism and integrity in the scientific community is crucial to the preservation of the public's trust in science and in the global research enterprise.
+
+References
+Cavalieri, Paola, and Peter Singer, eds. 1993. The Great Ape Project: Equality Beyond Humanity. London: Fourth Estate.
+
+Definitions, 9 CFR § 1.1 (2023).
+
+Godlovitch, Stanley, Roslind Godlovitch, and John Harris, eds. 1972. Animals, Men and Morals; An Enquiry into the Maltreatment of Non-Humans. New York: Taplinger Publishing Company.
+
+Hall, Marshall. 1856. "Of the Principles of Investigation in Physiology." Lancet 1:393-4.
+
+Hamilton, Susan. 2013. “On the Cruelty to Animals Act, 15 August 1876.” Branch: Britain, Representation and Nineteenth-Century History, February. Accessed May 7, 2019.
+
+Harrison, Ruth. 1964. Animal Machines: The New Factory Farming Industry. London: Vincent Stuart Publishers Ltd.
+
+Health Research Extension Act of 1985, Pub. L. No. 99-158, 99 Stat. 820-86 (1985).
+
+Institutional Animal Care and Use Committee (IACUC), 9 CFR § 2.31 (2004).
+
+National Research Council (NRC). 2011. Guide for the Care and Use of Laboratory Animals: Eighth Edition. Washington, DC: The National Academies Press.
+
+Office of Laboratory Animal Welfare (OLAW). 2015. "Public Health Service Policy on Humane Care and Use of Laboratory Animals." Accessed May 7, 2019.
+
+Office of Science and Technology Policy (OSTP). 1985. "U.S. Government Principles for the Utilization and Care of Vertebrate Animals Used in Testing, Research, and Training." Federal Register 50(97). Accessed May 7, 2019.
+
+Ortiz-Robles, Mario. 2016. “Animal Acts: 1822, 1835, 1849, 1850, 1854, 1876, 1900.” Accessed May 23, 2019.
+
+Regan, Tom. 2004. The Case for Animal Rights. Berkeley, CA: University of California Press.
+
+Russell, William Moy Stratton, and Rex Leonard Burch. 1959. The Principles of Humane Experimental Technique. London: Methuen. Accessed May 7, 2019.
+
+Singer, Peter. 1975. Animal Liberation. London: Pimlico.
+
+U.S. Department of Agriculture (USDA), Animal and Plant Health Inspection Service (APHIS). 2016. "Annual Report of Research Facility." Accessed May 7, 2019.
+
+U.S. Department of Agriculture (USDA), Animal and Plant Health Inspection Service (APHIS). 2017. “Animal Welfare Act and Animal Welfare Regulations.” Accessed May 7, 2019.
+
+Original Release: February 2009
+Last Updated: March 2023
+
+This module has a quiz.
+
+ 
+Support
+✉ support@citiprogram.org
+☎ 888.529.5929
+(M – F ; 9:00 a.m. – 7:00 p.m. ET)
+Support Center
+Status Page
+Legal
+Accessibility
+Copyright
+Privacy and Cookie Policy
+Statement of Security Practices
+Anti-Discrimination Policy
+Terms of Service
+CITI Program

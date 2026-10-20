@@ -1,0 +1,211 @@
+Skip to main content
+CITI Program
+My Courses My Records My CEs Support
+Use Light Theme
+
+English
+Lester Carcamo
+ID 16194862
+Authorship (RCR-Basic)
+University of Arkansas at Little Rock - Humanities Responsible Conduct of Research
+
+Switch View
+Authorship (RCR-Basic)
+Content Author
+
+Stephanie J. Bird, PhD
+Science and Engineering Ethics
+Introduction
+Please review the video below before you begin reading the module. It is approximately three minutes long.
+
+
+Life Sciences - Authorship
+This module will describe strategies that may help prevent some of the challenges illustrated within the video.
+
+Publication is essential to the research process because it is the primary mechanism for sharing findings and contributes to the common base of knowledge upon which further research is built. It also alerts the larger society to information that may have important ethical, legal, or social policy implications.
+
+Authorship can play a critical role in one's career, but it can also be a source of controversy, misunderstanding, and confusion. There are often variable and conflicting conventions, practices, expectations, and even policies that are not always directly stated yet are often assumed to be universally known and understood. This module is designed to clarify some of these issues, especially relating to the allocation of credit, and to highlight authors’ ethical responsibilities in the research environment.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+Describe the primary criteria used to determine who should be listed as an author on a scholarly publication.
+Describe the range of acceptable authorship practices, including different conventions used to determine the order of authors.
+Discuss the circumstances under which an acknowledgment may be appropriate.
+Describe the ethical responsibilities of an author.
+Discuss challenging and problematic authorship practices.
+The Importance of Authorship
+
+Authorship is the way that the research community identifies those who should be both recognized and credited with a specific contribution to the work and held responsible and accountable for the information contained in publications. Authorship is an important measure of intellectual activity and achievement.
+
+Receiving credit for one's contribution in the form of authorship is usually critical for professional advancement because it is a primary basis for hiring, for the awarding of grants and scholarships, and for promotion and tenure. Although fair and appropriate credit is the most common element generally noted in authorship discussions, equally important are an author's responsibilities.
+
+Allocation of Credit
+Criteria for Authorship
+There is little consensus on the criteria for authorship on collaborative projects. The closest thing to a universally agreed upon criterion for authorship is that everyone who makes a significant intellectual contribution to the new information that is the core of a paper should be considered a potential author. Problems contained in this criterion include the meaning of the terms new and significant. Being “new” may depend on the extent to which it is novel rather than an obvious variation of known work.
+
+Significance can be subject to different interpretations and a source of misunderstanding, especially for trainees, because those who are just joining a research project may lack a broader perspective regarding what was required for the project to reach its current state. In many disciplines such as philosophy, law, and mathematics, authorship is integrally tied to writing all or part of the manuscript. In other fields that involve large research teams, for example, some subfields of physics, authorship may not be directly tied to writing the manuscript, but each author still has ethical responsibilities, which may include providing comments about the manuscript and approving its content.
+
+Expectations differ widely with regard to authorship. For example, those who provide rare or unique materials that are essential to a research project, such as animal or cell lines, or special reagents, might request authorship as compensation for supplying those materials even though those individuals make no other contribution and lack a clear understanding of the research. This can present a difficult situation because the general consensus is that authorship should be based on intellectual rather than material contribution. Furthermore, hourly wages, academic credit, commissions, or other forms of compensation are irrelevant in assessing one's eligibility for authorship. Obtaining funding for a project is not usually sufficient to qualify for authorship by itself.
+
+Among the most widely discussed current authorship standards are those provided by the International Committee of Medical Journal Editors (ICMJE 2017). This organization recommends that authorship be based on these criteria:
+
+• Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work;
+	  •	Drafting the work or revising it critically for important intellectual content;
+	  •	Final approval of the version to be published; and
+	  •	Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.
+
+A number of models and proposed standards for authorship have been put forward by other organizations. Here are some sample authorship guidelines from a wide range of professional journals and societies:
+
+American Chemical Society
+American Mathematical Society
+American Sociological Association
+Association for Computing Machinery
+Humanities & Social Sciences Communications
+Institute of Electrical and Electronics Engineers (IEEE)
+Society for Neuroscience
+A lack of uniformity among authorship practices and standards persists, and there can be a considerable degree of variation between and within research sub-fields. As research teams grow in size and members more fully depend on each other's differing areas of expertise, it is harder to identify which disciplinary standards and conventions should take precedence in determining whose contributions warrant authorship. This can complicate assigning appropriate credit and responsibility for the research (Claxton 2005).
+
+Moreover, authors may be unaware of the authorship guidelines put forward by their discipline, and even when they are aware of them, they may disagree with the criteria and refuse to comply with them if these guidelines do not reflect their own values (Louis et al. 2008). A more transparent, but not necessarily unproblematic, strategy is to describe the specific contributions of each author. Review example.
+
+No established, universally agreed upon authorship standards exist across all disciplines, nor within any particular discipline. Rather, authorship practices reflect the experiences and practices learned by the head of research groups over the course of their careers. Researchers seem to share a set of established values including fairness, reciprocity, and sponsorship that are implicit factors inherent in the allocation of authorship and are subsequently passed along in some form to trainees and junior colleagues (Louis et al. 2008). Yet it is the collective responsibility of the research team to determine who qualifies as an author. Ideally, authorship should be discussed when a project begins and while it is ongoing, including when someone joins or leaves the research team.
+
+Other Forms of Giving Credit
+According to many professional organizations, recognition of the contribution of individuals or groups that does not meet the criteria of authorship is usually given in the form of an acknowledgment. Acknowledgments are often placed in a footnote or near the end of a manuscript. Those listed may include, but are not limited to, funding sources, providers of rare or unique research materials, technical assistants, language and technical editors, and supervisors or administrators. In some cases, it may be appropriate to obtain permission from individuals who are going to be acknowledged before listing them.
+
+Author Order
+
+The significance of the order of authorship is also variable within fields and sub-fields. Again, universal, definite rules for author order are generally lacking. The order may reflect the extent or nature of one's contributions, for example, who did the "most" work, who had the primary or key idea, or who wrote the first draft of the manuscript. Historically, the head of the research team, normally the most senior researcher, was listed first. This practice is still somewhat common but more recently, that individual may be listed last, especially in the life sciences.
+
+In some fields or subfields within the physical sciences, including particle physics, authorship is typically alphabetical. An alphabetical listing is also used by some journals, and in some research groups, it may be standard practice. For example, contributions may be listed alphabetically except for the head of the research group who is listed first or last. When a research team produces several related papers derived from the same project, the order of authors may rotate.
+
+As with authorship criteria, author order is usually determined by the head of the research group and/or the first author based on perceptions of the significance of the order within the particular research community, and ideally in consultation with the other coauthors.
+
+Common Conventions
+In many fields, the first author is the individual who earns the most credit by having taken primary responsibility for the intellectual core of the work. This individual may also be known as the lead or primary author. The importance of being first author developed in part because of the practice of referencing relevant, related work in the literature by the last name of the first author followed by "et al." when there are more than two or three authors depending on the journal. Thus, while a paper by Sandra Dunn and Jonathan Thomas would be cited as "Dunn and Thomas", a paper authored by Sandra Dunn and three other individuals would be cited as "Dunn et al." On occasion, the last author is primarily responsible for the work's intellectual core.
+
+Within the relevant research community, fundamental research findings tend to be linked with the name of the first author, thereby reinforcing the assumption that the first author merits primary recognition for the achievement described in the paper. Because the meaning of the author order is rarely stated directly, readers may award significance based on their assumptions about the order. Unstated policies within a research team, such as an implicit requirement for graduation that a student be first author on a paper related to the student’s thesis or dissertation, are problematic both because they may complicate interpreting the author order, and more importantly, because they may not reflect actual practice in the discipline or in the particular research group, thereby conveying the wrong information to trainees.
+
+• The individual designated to receive the bulk of a paper’s reprints and with whom those interested in obtaining a printed or an electronic copy of the paper should be in contact. 
+	  •	Senior author: Normally the head of the research team, is often the corresponding author, and in some disciplines, the last author. As a result, in some disciplines, it is assumed that the last author position carries significant status whether or not it is the authors' intention.
+
+Despite the emphasis and attention paid to author order and the designation of corresponding author, the actual significance of any particular order of authors can be unclear and open to misunderstanding and misinterpretation. A reader's assumptions may not be consistent with the assumptions and intentions of the authors themselves. The recognition of individual authors is most likely to reflect their reputations, the reliability of their work, the reputation of the colleagues with whom they choose to work and of their trainees, and their cumulative contributions to the field.
+
+Because of the complexities associated with determining what a particular author list means, some journals use an asterisk, or another similar strategy, attached to each author's name as a means for more specifically spelling out the relevant person's contribution to a project. At times, it can be used to indicate that the authors contributed equally to the work either as co-first authors or as corresponding authors.
+
+Discussing Authorship
+Case StudyAuthorship and the Thesis Project
+
+Since authorship is generally essential for professional advancement, trainees need to understand the process and its implications. Discussions about authorship criteria, order, and responsibilities should be held on an ongoing basis and be revisited with changes in direction or personnel. For example, academic departments should hold workshops on the topic so that trainees, faculty, and staff can learn about the range of accepted practices and standard conventions within the discipline, and about the underlying expectations that are expressed and assumed by those practices. They can also learn about issues that arise in inter-disciplinary and multi-disciplinary collaborations. Similarly, research teams should have an orientation for new members, which could include a discussion about specific authorship policies and expectations.
+
+All research team members should discuss co-authorship of publications early in the research process in order to identify and clarify expectations and assumptions. At the same time, the power differential within the research team and the overriding role and responsibility of the head of the team in deciding on the professional development of junior members and the interests of the team as a whole, may sometimes influence the determination of authorship. For example, the perception that someone “needs” a publication and an emphasis on credit rather than responsibility may be in conflict with standard authorship practices.
+
+Resolving authorship issues can be complicated. For example, identifying the source of the original idea that led to the development of a research project can be difficult. Also, a project may evolve in unexpected directions because of new developments in the field, as data are collected and analyzed, or because of comments and suggestions provided by colleagues. In addition, new personnel may be added to the project and the commitment of early project participants may diminish due to competing responsibilities, new opportunities, and variable skills.
+
+Responsibilities of Authorship
+The responsibilities of authorship flow from its purpose: to share research findings. The two primary audiences for a paper are colleagues within the research community and interested parties beyond the research community, including policy makers and the general public (Bird and Garrett 2000).
+
+Each author has a responsibility to review and edit the manuscript. In doing so, an author can maintain one's professional reputation by refining and correcting the manuscript for accuracy and completeness and take public responsibility for the manuscript. Public responsibility entails being able to explain the work's rationale and how the conclusions follow from the data. Some journals ask for written declarations of each author's contribution to the research. This is in part to enhance transparency and to ensure accountability and responsibility.
+
+More specifically, an author's responsibilities include confirming that:
+
+• All relevant work is cited, both confirming and contradictory, in order to provide the reader with a full understanding of how the work relates to the existing literature within the field, and to recognize and acknowledge the work of others in the field.
+	  •	All data are accurately and clearly presented.
+	  •	Key underlying assumptions are clearly stated.
+	  •	The work is described in sufficient detail so that in principle it can be replicated.
+	  •	Potentially hazardous aspects of the research are clearly identified.
+	  •	Conflicts of interest that may, consciously or unconsciously, bias the interpretation of the research findings have been disclosed to editors and readers.
+
+In addition, each author must be committed to the accuracy and integrity of the work as a whole and willing, when need be, to support investigation and resolution of questions regarding the data or their presentation. Also, authors must avoid committing plagiarism, that is, the act of presenting the words or ideas of someone else and claiming them as one's own. One step towards avoiding an allegation of plagiarism is adherence to proper citation conventions. In addition, authors may want to consider sending a manuscript to colleagues and/or a plagiarism prevention website for evaluation prior to submission to a journal for publication.
+
+The social responsibilities of the authors follow from the fact that the work is usually funded by the public and carried out in the name of society. The public trusts authors to report their data honestly and avoid exaggerating or misrepresenting research findings. Some U.S. agencies seek to have researchers make their published work openly available to the public. The National Science Foundation has a public access repository and work funded by the National Institutes of Health can be found in PubMed.
+
+All authors should affirm to the best of their ability that the work presented in the manuscript was conducted in a manner consistent with the ethical standards of the society, for example, humane treatment of research subjects whether humans or other animals, and with attention to the health, safety, and welfare of the public and the environment (NSPE 2003; Gustafsson et al. 1984).
+
+Other Authorship Challenges and Problems
+
+Authors can be held responsible for the content of the work that they publish. It can be problematic if someone other than the individuals listed as authors writes the publication because hired or substitute writers may not accurately present the research or interpret the data. Likewise, it can be problematic if someone uses generative artificial intelligence (AI) for these purposes. For example, generative AI outputs often include “hallucinations,” meaning the output includes inaccurate or nonsensical material. Writers bring their own experience and perspective to the presentation of the work. The individuals who actually perform the relevant work are usually the ones who can present it in a complete, accurate, and appropriately nuanced manner. However, individuals who are skillful writers may be able to convey the research findings more accurately, especially if the manuscript is not in the researcher's native language. In such cases, the contributions of language and technical editors must be clearly recognized and acknowledged in the submitted manuscript. Authors must also adhere to all applicable institutional and publisher or journal policies when using generative AI.
+
+Ghost authorship, where the identity of the actual writer is not provided, is deceptive and must be avoided. Ghost writing interferes with the reader's ability to assess a possible conflict of interest and obscures the identity of those who can be held accountable for the work. For example, a ghost author could be a technical writer who drafts a manuscript for a company but is not listed on the resulting publication.
+
+Also problematic is honorary or gift authorship, which is the practice of adding to the list of authors the name of someone who has not made a significant intellectual contribution to the work. It is usually done to recognize the stature of the honoree, but in some instances, names have been added to gain favor with the honoree, or to increase the credibility of a submitted manuscript in the eyes of editors or reviewers. The practice inherently emphasizes credit rather than the responsibilities of authorship. It denies the individual so honored the opportunity to review the work and to take public responsibility for it. It also interferes with the ability to protect one's reputation. Even when well-meant, honorary or gift authorship is deceptive and must be avoided.
+
+Another problematic practice is the least publishable unit. This practice involves dividing a project into as many papers as possible, without an appropriate justification for doing so. In general, a more comprehensive discussion of a research project is preferable to a series of publications merely for the purpose of expanding an author’s resume.
+
+Duplicate publication, which involves republishing a significant portion of a paper or the paper in its entirety, is a controversial issue. Republication might be allowable if:
+
+• The work is being translated into another language.
+	• The work is being published in an anthology or similar collection.
+	• The material is rewritten and targeted to a different audience.
+	• The authors are transparent with each respective publisher about the duplication and have addressed relevant copyright issues.
+
+Publication of rewritten material for a different audience is frowned upon when it is actually an attempt to receive undeserved extra credit for a single contribution to the body of knowledge. However, given that the primary purpose of publication is to disseminate information that can serve as the foundation for further research and also support public policy and personal decision-making, the value and challenge of tailoring the same information for different audiences can be a responsible contribution to wider science communication. Transparency and disclosure can mitigate some of the ethical concerns about duplicate publication. This could include indicating on one’s resume which publications are duplicates.
+
+To be transparent to readers, authors must properly cite and credit a previous publication upon which any subsequent publications are based. Authors must also understand and address any copyright issues related to their publications. Clear and transparent notice of republication must be explained, the original reference must be cited, and permission from the copyright holder of the original publication (usually the publisher) must be obtained.
+
+The internet facilitates communication among colleagues, especially those who are geographically distant. Together with word processing, this has led to the increasing popularity of sharing preprints, which is a more formal version of the informal and less extensive collegial critiquing of research report drafts among a small group of close colleagues. Preprints are drafts of research reports prior to formal peer review and should be clearly labeled as such. The value of disseminating ideas to obtain timely and broad feedback has appeal (for example, potentially greater visibility for one’s research) as well as risks (for example, the embarrassment of premature dissemination of poorly designed research). Although the list of authors may evolve before submission of a manuscript to a journal for peer review, and even between peer review and final publication, the same principles regarding authorship that apply to publication of a peer reviewed article should be taken into consideration before circulating or posting a preprint.
+
+Collaborations
+Collaborations between researchers and research teams with differing disciplinary backgrounds can add invaluable perspectives and new dimensions to research. Yet they can also provide additional challenges. Differences in expertise that are the basis for collaboration can limit one's understanding of the nuances of data collection, selection, and interpretation that are the core of a colleague's work. In addition, team leaders may differ in their expectations regarding the nature and extent of contribution that satisfies criteria for authorship, particularly with regard to students, trainees, funders, senior colleagues, and technical staff.
+
+Differing personality traits can also have an effect on authorship decisions. For example, some individuals are more inclusive than others. Because collaborations bring together research teams with potentially conflicting cultures, practices, and expectations, authorship discussions should happen as early as possible in the collaboration and be updated on an ongoing basis.
+
+International Collaborations
+Case StudyAuthorship and the International Project
+
+International collaborations may further complicate authorship discussions if social hierarchies and gifting practices are components of cultural differences. In addition, language barriers can hamper clear communication regarding differing implicit assumptions and expectations. Authorship policies should be clearly stated and agreed to by all parties at the beginning of the collaboration (or as early as possible) and be updated as appropriate.
+
+Summary
+Authorship is usually critical for professional advancement in the research community. Collaborators depend on each other's integrity as authorship decisions are being made. Because universally accepted rules regarding authorship criteria and author order are lacking, researchers may have different assumptions, understandings, and expectations regarding the implications of their contribution for authorship. Thus, collaborators need to be clear about their assumptions and expectations of themselves and each other. They should also openly discuss authorship responsibilities early and throughout the course of a collaboration.
+
+References
+Bird, Stephanie J., and Jinnie M. Garrett, eds. 2000. "Communicating Science (Special Issue)." Science and Engineering Ethics 6(4):435-557.
+
+Claxton, Larry D. 2005. "Scientific Authorship: Part 2. History, Recurring Issues, Practices, and Guidelines." Mutation Research 589(1):31-45.
+
+Gustafsson, Bengt, Peter Wallensteen, Lars Ryden, and Gunnar Tibell. 1984. "The Uppsala Code of Ethics for Scientists." Journal of Peace Research 21(4):311-6. Accessed March 25, 2020.
+
+International Committee of Medical Journal Editors (ICMJE). 2017. "Defining the Role of Authors and Contributors." Accessed March 25, 2020.
+
+Kilkenny, Carol, William J. Browne, Innes C. Cuthill, Michael Emerson, and Douglas G. Altman. 2010. "Improving Bioscience Research Reporting: The ARRIVE Guidelines for Reporting Animal Research." PLOS Biology 8(6):e1000412.
+
+Louis, Karen S., Janet M. Holdsworth, Melissa S. Anderson, and Eric G. Campbell. 2008. "Everyday Ethics in Research: Translating Authorship Guidelines into Practice in the Bench Sciences." The Journal of Higher Education 79(1):88-112.
+
+National Society of Professional Engineers (NSPE). 2003. "Code of Ethics for Engineers." Accessed March 23, 2020.
+
+Additional Resources
+Bebeau, Muriel J., and Verna Monson. 2011. "Authorship and Publication Practices in the Social Sciences: Historical Reflections on Current Practices." Science and Engineering Ethics 17(2):365-88.
+
+Bird, Stephanie J., and David E. Housman. 1997. "Conducting, Reporting and Funding Research." In Research Ethics: A Reader, edited by Deni Elliott and Judy E. Stern, 98-112 & 120-40. Hanover, NH: University Press of New England.
+
+Borenstein, Jason. 2011. "Responsible Authorship in Engineering Fields: An Overview of Current Ethical Challenges." Science and Engineering Ethics 17(2):355-64.
+
+LaFollette, Marcel C. 1992. Stealing into Print: Fraud, Plagiarism, and Misconduct in Scientific Publishing. Berkeley, CA: University of California Press.
+
+Macrina, Francis L. 2011. "Teaching Authorship and Publication Practices in the Biomedical and Life Sciences." Science and Engineering Ethics 17(2):341-54.
+
+Merton, Robert K. 1968. "The Matthew Effect in Science: The Reward and Communication Systems of Science are Considered." Science 159:56-63.
+
+Plemmons, Dena. 2011. "A Broader Discussion of Authorship." Science and Engineering Ethics 17(2):389-98.
+
+Original Release: August 2014
+Last Updated: July 2024
+
+This module has a quiz.
+
+ 
+Support
+✉ support@citiprogram.org
+☎ 888.529.5929
+(M – F ; 9:00 a.m. – 7:00 p.m. ET)
+Support Center
+Status Page
+Legal
+Accessibility
+Copyright
+Privacy and Cookie Policy
+Statement of Security Practices
+Anti-Discrimination Policy
+Terms of Service
+CITI Program

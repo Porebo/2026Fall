@@ -1,0 +1,455 @@
+Skip to main content
+CITI Program
+My Courses My Records My CEs Support
+Use Light Theme
+
+English
+Lester Carcamo
+ID 16194862
+Data Management (RCR-Basic)
+University of Arkansas at Little Rock - Humanities Responsible Conduct of Research
+
+Switch View
+Data Management (RCR-Basic)
+Content Author
+
+Julie Goldman, MLIS
+Harvard Medical School, Countway Library
+Introduction
+Please review at least one of the videos below before you begin reading the module. Each video is approximately three minutes.
+
+Life Sciences - Data Management
+Social/Behavioral/Education Sciences - Data Management
+This module will describe strategies that may help prevent some of the challenges illustrated in the videos.
+
+The scientific method relies on hypothesis-driven experiments. Researchers collect, analyze, and interpret data and communicate the results to others who can assess the quality of their work. They build enough hypotheses consistent with the data that lead to support for a theory.
+
+An image depicting science and technology.
+
+However, the real-world research process is rarely this clean and linear. Researchers need to ensure that others can use their data through the complex journey of study design and data collection, analysis, and visualization. One way to achieve this is to describe studies in enough detail so that others may assess and replicate them.
+
+Replicability refers to a researcher’s ability “to duplicate the results of a prior study if the same procedures are followed but new data are collected. That is, a failure to replicate a scientific finding is commonly thought to occur when one study documents relations between two or more variables and a subsequent attempt to implement the same operations fails to yield the same relations with the new data” (Bollen et al. 2015).
+
+Research must be rigorous, innovative, ethical, organized, and reproducible. Organized practices, workflows, and tools can help maximize insights and knowledge. Research data management (RDM) is the process of providing the appropriate labeling, storage, and access to data.
+
+Reproducibility refers to a researcher’s ability “to duplicate the results of a prior study using the same materials and procedures as were used by the original investigator. So, in an attempt to reproduce a published statistical analysis, a second researcher might use the same raw data to build the same analysis files and implement the same statistical analysis to determine whether they yield the same results” (Bollen et al. 2015).
+
+Each step of the research process should involve managing the research project data. This module introduces relevant RDM concepts and provides relatable examples and case studies.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+Identify the steps, concepts, and importance of data management throughout a research study.
+Describe institutional support services that can help manage your research data.
+Evaluate methodological, technological, and regulatory considerations that affect data management practices.
+Explain the documentation needed to facilitate accessibility and reproducibility of research findings.
+Recognize ethical and compliance issues relating to data ownership, sharing, and protection.
+The Data Lifecycle
+It is crucial to think of research data as a scholarly resource. Data refer to entities used as evidence of phenomena for research or scholarship (Borgman 2015). Data take many different forms, and encoding occurs in many formats. Data are not raw or pure. The social, cultural, and research context helps give meaning to data.
+
+Scientific data are “the recorded factual material commonly accepted in the scientific community as necessary to validate and replicate research findings, regardless of whether the data are used to support scholarly publications. Scientific data do not include laboratory notebooks, preliminary analyses, completed case report forms, drafts of scientific papers, plans for future research, peer reviews, communications with colleagues, or physical objects, such as laboratory specimens” (NIH 2020).
+
+The following table provides examples of data by discipline (Boyd 2019):
+
+
+Sciences and Engineering
+
+Social Sciences
+
+Humanities
+
+Evidence
+
+Observations
+Measurements
+Observations
+Measurements
+Primary sources
+Trace information
+Source
+
+Instruments
+Field observations
+Survey and interview responses
+Field observations
+Art and artefacts
+Documents and manuscripts
+Format
+
+Binary data
+Images
+Elements of laboratory notebooks
+Samples and specimens
+Statistics
+Tabular data
+Audio or video recordings
+Diaries
+Images
+Spreadsheets
+Transcripts
+Audio or video recordings
+Books and papers
+Images
+Maps and geographic information systems
+Text files
+Three-dimensional models
+Data are often presented in a tabular form, such as a spreadsheet. However, not all data are numerical, and not all data are digital. From the examples in the previous table, research domains will work with various types of data, including quantitative, qualitative, and physical.
+
+Data are never neutral. Data are the product of decisions made throughout the processes of collecting, processing, and analyzing phenomena; how information is visualized; and where and how information can be accessed. These decisions result in datasets that reflect the perspectives and biases of the people who produce and manage data (D’Ignazio and Klein 2020). As a researcher, you must be aware of your biases to ensure research quality.
+
+Data Management and Sharing
+As research becomes more intensive and the amount of data produced grows, managing data is more important than ever. Data management is “the process of validating, organizing, protecting, maintaining, and processing scientific data to ensure the accessibility, reliability, and quality of the scientific data” (NIH 2020). Carefully storing and documenting data allows more people to use the data consistently and accurately in the future.
+
+A discipline-specific set of knowledge, practices, and skills influences how researchers collect, create, manipulate, analyze, and share data. Recently, there has been noticeable progress in open data practices. A 2020 study found that 86.7 percent of researchers across disciplines were willing to share data across a broad group of researchers (Tenopir et al. 2020). In the same study, 48.6 percent of researchers reported that their primary funding agency required a data management plan (DMP). Therefore, policy implementation is one way for funders, publishers, and organizations to encourage and require data sharing. For example, per the National Institutes of Health (NIH) Data Management and Sharing (DMS) Policy, researchers must prospectively plan how scientific data will be preserved and shared by submitting a data management and sharing plan (DMSP) (NIH 2020). Many additional research funders have or are developing data sharing policies (SPARC n.d.).
+
+Data Lifecycle
+While policies influence data practices, early and attentive management at each step of the data lifecycle ensures the discoverability and longevity of the research. The data lifecycle represents the stages that occur in the research process.
+
+The data lifecycle provides “a high level overview of the stages involved in successful management and preservation of data for use and reuse” (DataONE n.d.). Multiple versions of a data lifecycle exist, with differences attributable to variations in practices across domains or communities.
+
+The data lifecycle is also a tool to explore institutional landscapes for data policies and services. Many experts across an institution can help with data management. For instance, you may need to consult experts from administration, information technology, the library, and other offices to help implement data management strategies.
+
+The following visual shows the core stages of the data lifecycle. The expanded view on the right includes a middle layer for processes and concepts integral to each stage and an outer layer for potential data service providers at an academic institution. These varied stakeholders are individuals and groups invested in specific lifecycle component activities.
+
+The core stages of the data lifecycle are plan and design, collect and create, analyze and collaborate, evaluate and archive, share and disseminate, and access and reuse. Throughout the data lifecycle it is imperative to focus on the storage and management of data.The processes and concepts integral to each stage are as follows:- Plan and design: Data management plans, onboarding checklist, documentation and metadata, and data use agreements.- Collect and create: File naming conventions, directory structure, version control, and README files.- Analyze and collaborate: Electronic lab notebooks, analysis ready datasets, image management, and collaboration tools and software. - Evaluate and archive: Data destruction, data retention, intellectual property, and archives and records management.- Share and disseminate: Data repositories, data sharing, scholarly products, and pre-prints and publishing.- Access and reuse: Active and short-term projects, reproducibility, offboarding checklist, and open access.The service providers for each stage are as follows: - Plan and design: Library, research computing, and research administration.- Collect and create: Research computing and library.- Analyze and collaborate: Research computing, research cores, and library.- Evaluate and archive: Technology development and archives.- Share and disseminate: Research administration and library.- Access and reuse: Research integrity, library, and research computing.- Storage and manage: Information technology and research computing.
+[Click to Enlarge]
+
+Source: Biomedical Data Lifecycle by LMA Research Data Management Working Group is licensed under CC BY-NC 4.0 and used with permission (Harvard n.d.a).
+
+Research Planning
+RDM is essential for responsible research, and planning should begin early. As mentioned previously, policies are one way funders, publishers, and organizations encourage and require data sharing.
+
+The Health Insurance Portability and Accountability Act (HIPAA) sets standards for the privacy and security of patient data. In 2003, the NIH instituted a data sharing plan for some proposals, and in 2011, the National Science Foundation (NSF) was the first agency to require a DMP with all grant submissions.
+
+In 2013, the Executive Office of the President’s Office of Science and Technology Policy (OSTP) issued a memo, which was a significant directive for the whole research enterprise. It drove funding agencies and journals, such as journals published by the Public Library of Science (PLOS), to require that data underlying published results be made publicly available. The NIH is the latest agency to enact a more encompassing policy for research it funds.
+
+The following graphic provides a timeline of recent developments related to data sharing:
+
+1996: HIPAA —  HIPAA provides data privacy and security provisions for safeguarding health information.2003: NIH Data Sharing Plan —  NIH applications seeking $500,000 or more in direct costs must include a plan for sharing final research data for research purposes or state why data sharing is not possible.2011: NSF Data Management Plan —  All proposals must include a two-page supplementary DMP that describes how the proposal will conform to the NSF policy on the dissemination and sharing of research results.2013: OSTP Public Access Plan —  The OSTP Holdren memo directed federal agencies with more than $100 million in research and development expenditures to develop plans to make the results of federally funded research freely available to the public.2014: PLOS Data Availability Policy —  Make all data underlying the findings described in the manuscript fully available without restrictions at the time of publication.2022: OSTP Ensuring Free, Immediate, and Equitable Access —  The OSTP Nelson memo required all funded scholarly research and underlying raw data to be freely and publicly available without embargo by 2026.2023: NIH Policy for Data Management and Sharing — All research, funded or conducted in whole or in part by the NIH, must submit a DMSP outlining how researchers will manage data and which data they will share. 
+[Click to Enlarge]
+
+Data Management Plan (DMP)
+A goal without a plan is just a wish.”
+Anonymous proverb
+
+A formal DMP is typically a two-page document that outlines how the research team will manage data throughout a project. While a DMP may be required for a funding application, it should accompany any research project as a living document that describes the entire project. Researchers should frequently refer to and update their DMP.
+
+A DMP “is a formal document that outlines what you will do with your data during and after a research project. Most researchers collect data with some form of plan in mind, but [it is] often inadequately documented and incompletely thought out. Many data management issues can be handled easily or avoided entirely by planning ahead. With the right process and framework, it [does not] take too long and can pay off enormously in the long run” (DMPTool n.d.).
+
+DMPs come in many forms. However, they generally ask for the same information, are appropriate for the data generated, and reflect the accepted practices and standards in the proposed research area. The following table outlines the elements of an NIH and NSF data management plan (NIH n.d.; NSF 2020):
+
+NIH DMSP Template
+
+Data Type: Provide types and amount of scientific data you expect to generate; data that you will preserve and share; and metadata, other relevant data, and associated documentation.
+Related Tools, Software, and/or Code: State whether specialized tools, software, and/or code are necessary to access or manipulate shared data.
+Standards: State what common data standards you will apply to the data and associated metadata.
+Data Preservation, Access, and Associated Timelines: State the repository where you will archive data and metadata, how you will make the data findable and identifiable, and when and how long the data will be available.
+Access, Distribution, or Reuse Considerations: Describe factors affecting access, distribution, or reuse of data; whether you will control access to scientific data; and protections for privacy, rights, and confidentiality.
+Oversight of Data Management and Sharing: Describe how you will manage and monitor compliance.
+NSF Biological Sciences DMP Template
+
+Data and Materials Produced: Describe the types of data, physical samples or collections, software, curriculum materials, and other materials you expect to produce during the project.
+Standards, Formats, and Metadata: Describe the standards you will use for all anticipated data types, including data or file format and metadata.
+Roles and Responsibilities: Describe the roles and responsibilities of all parties with respect to data management.
+Dissemination Methods: Describe the dissemination methods that you will use to make data and metadata available to others during the award period.
+Policies for Data Sharing and Public Access: Describe the principal investigator’s (PI) policies for data sharing, public access, and reuse.
+Archiving, Storage, and Preservation: Where relevant, describe plans for archiving data, samples, software, and other research products.
+Many services and resources are available to help write a DMP. Examples of important stakeholders include:
+
+- Sponsored Programs: Ensure compliance with regulations and policies, including laws pertaining to exports of items, services, and technology
+- Research Offices: Provide domain expertise in data standards and repositories
+- Library: Assists with reviewing DMPs and depositing data in repositories with appropriate metadata
+- Information Technology: Assists with proper storage and integrity of data files
+- Institutional Review Board: Ensures proper attention to confidentiality and privacy of human subjects
+- Institutional Animal Care and Use Committee: Reviews research proposals involving animals to ensure the humane and ethical treatment of animals
+- Institutional Biosafety Committee: Reviews and approves all research and teaching projects involving hazardous biological materials
+- Research Integrity Office: Advises researchers in responsible research practices
+
+The DMPTool (n.d.b) is a free web-based tool that provides basic templates to help researchers construct DMPs for specific funding agencies. It also provides funder mandates, institutional requirements, instructional materials to help build a DMP, and other resources to fulfill data management requirements.
+
+Case Study
+Case StudyUsing Third-Party Data Sources
+
+Active Research Phase
+The active research phase involves working with data during the “collect and create” and “analyze and collaborate” stages of the data lifecycle. Research projects generate, collect, or acquire various types of data (DMPTool n.d.a). Although data come from many different sources, they make up four main categories. The category or categories data come from will affect a researcher’s data management choices throughout a project. The following table provides a definition and examples for each category (DMPTool n.d.a):
+
+
+Observational
+
+Experimental
+
+Simulation
+
+Derived/ Compiled
+
+Definition
+
+Captured in real time, typically outside the laboratory. Usually irreplaceable, and therefore, the most important to safeguard.
+
+Typically generated in the laboratory or under controlled conditions. Often reproducible but can be expensive and time consuming.
+
+Machine-generated from test models. Likely to be reproducible if the model and inputs are preserved.
+
+Generated from existing datasets. Reproducible but can be expensive and time consuming.
+
+Examples
+
+Sensor readings, telemetry, survey results, and images.
+
+Gene sequences, chromatograms, and magnetic field readings.
+
+Climate and economic models.
+
+Text and data mining, compiled database, and three-dimensional models.
+
+Data analysis is a process of inspecting, cleaning, transforming, and modeling data to discover useful information, inform conclusions, and support decision-making (HHS ORI n.d.). A researcher's choices while analyzing data can also contribute to effectively managing the data.
+
+For example, multiple statistical packages are used in clinical research, including Stata, SPSS, SAS, and R for statistical analysis of quantitative data; NVivo for qualitative data analysis; OMERO for biological microscope images; and ArcGIS for analyzing geospatial data. Researchers should consider data privacy, the location of data storage, licensing fees, common uses, and availability when choosing the right tool. Many academic institutions offer licenses to use these tools and direct support.
+
+Data Organization
+Data organization refers to the classification and organization of datasets to make them more useful. Systematic file naming can contribute to project documentation, workflow organization, and sharing.
+
+Additionally, file versioning prevents file overwriting and loss. It is helpful to use versioning software or append file names with version numbers to keep track of all the changes made during data cleaning and analysis. Researchers should always keep a copy of the raw data in the event they must reanalyze the data or satisfy regulatory requirements (Briney et al. 2020).
+
+Case Study
+Case StudyFile Organization
+
+Data Documentation
+Documentation refers to information needed to use data. Researchers should consider any documentation to be part of their data. Documentation is often called metadata or “data about data” (DMPTool n.d.a).
+
+“Metadata, the information we create, store, and share to describe things, allows us to interact with these things to obtain the knowledge we need. The classic definition is literal, based on the etymology of the word itself—metadata is ‘data about data’” (Riley 2017).
+
+Metadata enable researchers to understand, use, and share data in the present and future; help other researchers discover, access, use, repurpose, and cite data; and facilitate long-term archival and preservation of data (Harvard n.d.b). Many fields within the biomedical science community are developing standards for what metadata to collect across different data types. However, it is a best practice to consult community standards before collecting research data (Harvard n.d.b). FAIRSharing.org provides more information on data standards, databases, and data policies (Sansone et al. 2019).
+
+Researchers can maintain documentation in various forms (Harvard n.d.b):
+
+- README File: A text file located in a project-related folder that describes the contents and structure of the folder and/or a dataset so that researchers can locate the information they need.
+- Data Dictionary or Codebook: Describes the elements of a dataset so that researchers can  understand and use it later. 
+- Protocol: Describes the procedures or methods used to implement a research project or experiment. 
+- Laboratory Notebooks: Often the primary record of the research process. They document hypotheses, experiments, analyses, and interpretations of experiments. 
+
+Additionally, there are many free tools to help researchers document data, including project and citation management tools, electronic laboratory notebooks (ELNs), and protocol creation tools.
+
+Although researchers often use paper laboratory notebooks to take notes, there are many benefits to aligning digital research practices with digital documentation. The following table outlines the potential benefits and challenges of using ELNs (Harvard n.d.c):
+
+Benefits
+
+Challenges
+
+Support the findable, accessible, interoperable, and reusable (FAIR) principles, which are recognized by the research community
+Enable oversight by PIs
+Support sharing of data and documentation with collaborators
+Eliminate issues with poor handwriting and damaged paper notebooks
+Can prevent data from being lost when researchers leave
+Generally provide excellent security and auditing features
+Can allow for integration with other applications, making the research process and publishing easier
+Researchers need dedicated tablets while in the laboratory
+Use of voice input or optical character recognition plug-ins
+Use of time-saving features like linking experiments to raw data files and results and automatic date and time stamping to prove provenance
+Integration with other research software to capture data and information
+Time and effort to set up
+Researchers should learn the data analysis standards in their field and common approaches for maintaining research integrity. For example, when working with images, it is “crucial to always use a copy of the original image” and export the data to standard formats (Cromey 2012). Overwriting the original image when editing in a proprietary image editing software (for example, Adobe Photoshop®) can change embedded metadata. This information may be needed to perform re-analysis or ensure any manipulations performed were appropriate.
+
+Data Storage
+Each stage of the data lifecycle revolves around data storage. Proper storage throughout the data lifecycle is imperative to ensure that data remain secure and adhere to recommended safety protocols. Data safety protects the security of research participants and ensures the integrity of research data. Regulated data that fall under HIPAA, the Family Educational Rights and Privacy Act (FERPA), and other state and federal laws may have more stringent and defined institutional compliance practices.
+
+HIPAA “is a federal law that required the creation of national standards to protect sensitive patient health information from being disclosed without the patient’s consent or knowledge” (CDC 2022). FERPA is a federal law that protects the privacy of student educational records (ED 2021).
+
+Additionally, research collaboration may involve the sharing of research materials. Researchers may be subject to the U.S. export control regulations and trade sanctions set forth by the U.S. Department of Commerce, U.S. Department of State, and U.S. Department of the Treasury.
+
+Different approaches may be necessary to uphold data confidentiality, integrity, and availability depending on the data type and the technologies used to record the data. Research teams must adhere to regulatory, organizational, and discipline-specific professional requirements. Training is critical when complex data acquisition or storage instruments and methodologies are used. In addition to training, it will be necessary to specify procedures for periodic testing of data collection and storage devices and confirming data backups.
+
+null
+
+Confidentiality
+
+Integrity
+
+Availability
+
+Confidentiality refers to preventing inappropriate users or uses of data. This is usually discussed within the context of protecting the privacy of research subjects, which is a regulatory and ethical requirement if those subjects are human beings. Confidentiality also involves protecting intellectual property (IP) related to the research. There may be regulations prohibiting the unauthorized handling or disclosure of classified information or materials.
+
+Integrity refers to the responsibility to record, store, and preserve data appropriately during the study’s entire lifecycle. It is essential to perform data quality assurance checks to maintain data fidelity, particularly during data collection. Identifying discrepancies in recorded data, missing data, or sources of error improves the accuracy of data analysis and the validity of findings.
+
+Availability refers to ensuring that all appropriate users have access to data whenever necessary. As with integrity, availability concerns can extend past the formal end of the study to ensure access by others who wish to replicate the work.
+
+Dissemination and Preservation
+Although dissemination, sharing, and preservation of research results typically happen after project completion, researchers should have a plan for when and how these activities will occur. Data sharing is about making the underlying research results available to others for evaluation and reuse.
+
+A researcher reading on a tablet. 
+
+Data Sharing Requirements for Sensitive Research Data
+Researchers must consider IP and national security when sharing sensitive research data. Grant funding awards, especially from U.S. federal agencies, go to the organization, not the individual researcher. As a result, agencies consider the data that a researcher creates using funding to be “owned” by the organization where the researcher works.
+
+Researchers should adhere to any laws and regulations regarding data security for specific data types. For instance, state and federal laws protect personally identifiable data such as names and social security numbers. It is important to de-identify sensitive data for public sharing to avoid a breach of confidentiality.
+
+Protected health information is health information that identifies the individual or for which there is a reasonable basis to believe it can be used to identify the individual. This includes “information, including demographic data, which relates to: the individual’s past, present, or future physical or mental health or condition; the provision of health care to the individual; and the past, present, or future payment for the provision of health care to the individual” (HHS 2022).
+
+Researchers must also comply with Institutional Review Board and participant consent stipulations. Informed consent is the consent that a participant, parent, or legal guardian gives to participate in a study only after understanding the relevant facts and risks involved. For example, researchers must secure consent from research participants if they want to provide data to a journal or contribute data to a repository.
+
+It is vital to consider data sharing on a spectrum when working with sensitive data (Goldman et al. 2019):
+
+One end of the spectrum is open access and the other end of the spectrum is closed access. The middle of the spectrum is mediated access.
+
+Open Access
+
+Mediated
+
+Closed
+
+Metadata are entirely discoverable
+
+A description of the dataset is published
+
+Metadata are not publicly available
+
+Data are accessible and immediately downloadable
+
+Mediated access to data via a data custodian
+
+Data are not discoverable or available to third parties
+
+Preferred option for non-sensitive data from completed projects
+
+Good option for sensitive or confidential data
+
+Safest option for highly sensitive data
+
+It is essential to evaluate datasets for identifiable information prior to sharing. In addition, researchers should de-identify sensitive data that are shared publicly. Another aspect that may dictate the data-sharing level is the data use agreement.
+
+There are no restrictions on using de-identified health information because it neither identifies nor provides a reasonable basis to identify an individual (HHS 2022). However, de-identification processes are labor and time intensive. Two methods for de-identification include (HHS 2022):
+
+“Expert determination” on statistically de-identified datasets: A formal determination by a qualified statistician.
+“Safe harbor” anonymization level: The removal of specified identifiers of the individual and the individual’s connections.
+A data use agreement is a binding contract between organizations that governs the transfer and use of data, promising specified safeguards for the protected health information within the dataset (HHS 2018).
+
+Data Access and Reuse
+Data curation is a specific data management task that helps ensure the robust and appropriate sharing of datasets. It involves processes such as adding metadata; depositing data into a repository; validating file checksums and file fixity checks; and other tasks to organize, clean, describe, enhance, store, and preserve data. All these activities enable data discovery, ensure quality, add value, and allow for reuse over time.
+
+Researchers can make data available under an appropriate license to promote sharing and unlimited use of their data. Raw data are generally considered facts and cannot be copyrighted. However, researchers can copyright or license data they gather uniquely and originally (such as data in a database). Open Data Commons and Creative Commons offer various licenses that represent the range of rights for the creator and licensee of the data (Harvard n.d.d):
+
+- Open Data Commons Licenses: Set of legal tools and licenses to help people publish, provide, and use open data
+- Creative Commons Licenses: Provide a standardized way to grant the public permission to use creative work under copyright law
+
+A data repository is the most suitable venue to provide and maintain access to shared data. A research data repository “can be described as a subtype of a sustainable information infrastructure which provides long term storage and access to research data” (Kindling et al. 2017). The three major types of digital data repositories are institutional, disciplinary, and generalist.
+
+Ideally, scientific data should be shared and preserved through repositories rather than kept only by the researcher or organization and provided on request. However, this is not always practical. For example, American Indian and Alaska Native communities may wish to manage, preserve, and share their data on their terms (NIH 2020). The use of a quality data repository generally improves the FAIRness of the data (Wilkinson et al. 2016):
+
+- Findable: Metadata should be uniquely and persistently identifiable
+- Accessible: Identifiers should provide a mechanism for metadata access
+- Interoperable: Metadata should be machine-accessible and should use standard vocabulary
+- Reusable: There should be sufficient metadata to integrate like with like to allow for citing of component data objects post integration
+
+Many organizations have policies on whether to send research records to an archive or how to destroy them when they are no longer required. Retention policies help researchers understand how long they must keep their data to comply with the terms of their grant. These policies also serve to support organizations or archives in identifying the data and records that they might maintain permanently as part of the historical record of a discipline or organization or as IP. Records to retain include the raw data integral to substantiating published research.
+
+Case Study
+Case StudySharing Data Internationally
+
+Putting It Together and Wrap-Up
+RDM is crucial for project success even after a research grant ends. A team member’s departure from a project or an organization can negatively impact segments of the data lifecycle and hinder data accessibility and findability. When employees leave, they take their skills and project knowledge with them. Therefore, recording essential project-related information and datasets is important to ensure future users’ success.
+
+You can follow this ten-step process to ensure proper research data offboarding:
+
+1
+
+Create a descriptive knowledge transfer file with relevant metadata about all data worked on and published
+
+2
+
+Determine the data retention requirements
+
+3
+
+Review and organize data in collaborative folders with documentation so that colleagues can easily access and understand them
+
+4
+
+Transfer file folders and webpage or website ownership, as appropriate
+
+5
+
+Identify data for migration to long-term storage
+
+6
+
+Delete duplicate or dispensable data to help reduce laboratory or departmental storage usage, as appropriate
+
+7
+
+Review policies of confidentiality, data security, and IP
+
+8
+
+Identify publisher, funder, and/or institutional requirements for data sharing
+
+9
+
+Identify the dataset(s) you should deposit and share in public or non-public repositories
+
+10
+
+Ensure that you securely store sensitive data if transferring data to another organization prior to your departure
+
+Along the road to discovery, researchers must develop systematic data management plans and processes to ensure the quality of the research. Research does not always proceed in a neat and orderly fashion. Therefore, DMPs are always subject to change. A well-designed and maintained DMP is a foundational element of a research project. It will help lead to successful conclusions and allow additional researchers to continue building on the findings with available, well-documented data and replicable procedures.
+
+Some final tips to get started with data management include:
+
+- Talk about data management with your research team. Create laboratory standards that are applicable at the project level.
+- Review data management and sharing requirements as part of a grant. Write a DMP and revisit and revise it throughout the grant.
+- Even if a project does not require a DMP, it is a good idea to implement standard procedures for everyone to follow.
+
+References
+Bollen, Kenneth, John T. Cacioppo, Robert M. Kaplan, Jon A. Krosnick, and James L. Olds. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science: Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences.” Accessed August 28, 2022.
+Borgman, Christine L. 2017. Big Data, Little Data, No Data: Scholarship in the Networked World. Cambridge, MA: The MIT Press.
+Boyd, Ceilyn. 2019. “Libraries & Research Data Management: Landscape & Opportunities.” Presentation at the International Conference on Changing Landscape of Science & Technology Libraries (CLSTL). Accessed January 30, 2023.
+Briney, Kristin A., Heather Coates, and Abigail Goben. 2020. “Foundational Practices of Research Data Management.” Research Ideas and Outcomes 6:e56508.
+Cromey, Douglas W. 2012. “Digital Images Are Data: And Should Be Treated as Such.” In Cell Imaging Techniques: Methods and Protocols, Second Edition, edited by Douglas J. Taatjes and Jürgen Roth,1-27. Totowa, NJ: Humana Press.
+D’Ignazio, Catherine, and Lauren F. Klein. 2020. Data Feminism. Cambridge, MA: The MIT Press.
+DataONE. n.d. “Data Lifecycle.” Accessed August 28, 2022.
+DMPTool. n.d.a. “Data management general guidance.” Accessed August 28, 2022.
+DMPTool. n.d.b. “Home.” Accessed January 9, 2023.
+Goldman, Julie, Dessi Kirilova, Diana Kapiszewski, and Anna M. Mitchell. 2019. “Optimizing Openness in Human Subjects Research: Balancing Transparency and Human Research Protections.” Presentation at the 2019 Public Responsibility in Medicine and Research (PRIM&R) Social, Behavioral, and Educational Research Conference.
+Harvard Longwood Medical Area Research Data Management Working Group. n.d.a. “Biomedical Data Lifecycle.” Accessed August 28, 2022.
+Harvard Longwood Medical Area Research Data Management Working Group. n.d.b. “Documentation & Metadata.” Accessed January 9, 2023.
+Harvard Longwood Medical Area Research Data Management Working Group. n.d.c. “Electronic Lab Notebooks.” Accessed December 19, 2022.
+Harvard Longwood Medical Area Research Data Management Working Group. n.d.d. “Intellectual Property.” Accessed January 9, 2023.
+Holdren, John P. 2013. "Increasing Access to the Results of Federally Funded Scientific Research." Memorandum for the Heads of Executive Departments and Agencies, February 22. Accessed March 6, 2023.
+Kindling, Maxi, Heinz Pampel, Stephanie van de Sandt, Jessika Rücknagel, Paul Vierkant, Gabriele Kloska, Michael Witt, Peter Schirmbacher, Roland Bertelmann, and Frank Scholze. 2017. “The Landscape of Research Data Repositories in 2015: A re3data Analysis.” D-Lib Magazine ​​23(3/4).
+National Institutes of Health (NIH). n.d. “Writing a Data Management & Sharing Plan.” Accessed January 9, 2023.
+National Institutes of Health (NIH). 2003. "Final NIH Statement on Sharing Research Data." Accessed March 6, 2023.
+National Institutes of Health (NIH). 2020. “Final NIH Policy for Data Management and Sharing: NOT-OD-21-013.” Accessed August 28, 2022.
+National Science Foundation (NSF). n.d. "Dissemination and Sharing of Research Results - NSF Data Management Plan Requirements." Accessed March 6, 2023.
+National Science Foundation (NSF). 2020. “Directorate for Biological Sciences Updated Information about the Data Management Plan Required for all Proposals.” Accessed January 9, 2023.
+Nelson, Alondra. 2022. "Ensuring Free, Immediate, and Equitable Access to Federally Funded Research." Memorandum for the Heads of Executive Departments and Agencies, August 25. Accessed March 6, 2023.
+Public Library of Science (PLOS). 2019. "Data Availability." Accessed March 6, 2023.
+Riley, Jenn. 2017. “Understanding Metadata: What is Metadata, and What is it For?: A Primer.” Accessed August 28, 2022.
+Sansone, Susanna-Assunta, Peter McQuilton, Philippe Rocca-Serra, Alejandra Gonzalez-Beltran, Massimiliano Izzo, Allyson L. Lister, Milo Thurston, and the FAIRsharing Community. 2019. “FAIRsharing as a community approach to standards, repositories and policies.” Nature Biotechnology 37:358-67.
+SPARC. n.d. “Research Funder Data Sharing Policies.” Accessed August 28, 2022.
+Tenopir, Carol, Natalie M. Rice, Suzie Allard, Lynn Baird, Josh Borycz, Lisa Christian, Bruce Grant, Robert Olendorf, and Robert J. Sandusky. 2020. “Data sharing, management, use, and reuse: Practices and perceptions of scientists worldwide.” PloS ONE 15(3):e0229003.
+U.S. Centers for Disease Control and Prevention (CDC). 2022. “Health Insurance Portability and Accountability Act of 1996 (HIPAA).” Accessed August 28, 2022.
+U.S. Department of Education (ED). 2021. “Family Educational Rights and Privacy Act (FERPA).” Accessed August 28, 2022.
+U.S. Department of Health and Human Services (HHS). 2018. “Research.” Accessed August 28, 2022.
+U.S. Department of Health and Human Services (HHS). 2022. “Guidance Regarding Methods for De-identification of Protected Health Information in Accordance with the Health Insurance Portability and Accountability Act (HIPAA) Privacy Rule.” Accessed August 28, 2022.
+U.S. Department of Health and Human Services (HHS), Office for Civil Rights (OCR). n.d. "Health Information Privacy." Accessed March 6, 2023.
+U.S. Department of Health and Human Services (HHS), Office of Research Integrity (ORI). n.d. “Data Analysis.” In Responsible Conduct in Data Management. Accessed January 23, 2023.
+Wilkinson, Mark D., Michel Dumontier, Ijsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, et al. 2016. “The FAIR Guiding Principles for scientific data management and stewardship.” Scientific Data 3:160018.
+Original Release: February 2023
+
+This module has a quiz.
+
+ 
+Support
+✉ support@citiprogram.org
+☎ 888.529.5929
+(M – F ; 9:00 a.m. – 7:00 p.m. ET)
+Support Center
+Status Page
+Legal
+Accessibility
+Copyright
+Privacy and Cookie Policy
+Statement of Security Practices
+Anti-Discrimination Policy
+Terms of Service
+CITI Program

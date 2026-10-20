@@ -1,0 +1,198 @@
+Skip to main content
+CITI Program
+My Courses My Records My CEs Support
+Use Light Theme
+
+English
+Lester Carcamo
+ID 16194862
+Conflicts of Interest and Commitment (RCR-Basic)
+University of Arkansas at Little Rock - Humanities Responsible Conduct of Research
+
+Switch View
+Conflicts of Interest and Commitment (RCR-Basic)
+Content Author
+
+Benjamin A. Bell
+University of Southern California
+Introduction
+Please review at least one of the videos below before you begin reading the module. Each video is approximately three minutes long.
+
+Life Sciences - Conflicts of Interest
+
+
+Social/Behavioral/Education Sciences - Conflicts of Interest
+This module will describe strategies that may help prevent some of the challenges illustrated within the videos.
+
+Identifying and managing conflicts of interest is an integral part of the responsible conduct of research. Conflicts of interest can be created, for example, when researchers attempt to bridge the gap between an academic discovery and a marketplace application. When discussing conflicts of interest, Dr. Francis Collins, Director of the National Institutes of Health, stated that "the public trust in what we do is just essential, and we cannot afford to take any chances with the integrity of the research process" (NIH 2018).
+
+This module discusses different types of conflicts of interest, possible risks relating to conflicts of interest, and potential strategies to manage or eliminate them. Although the primary focus is on conflicts of interest that researchers could encounter, many other individuals including administrators or other staff members can experience conflicts as well.
+
+Please note that this module is not intended to replace the CITI Program's Conflicts of Interest (COI) course, which provides a more comprehensive study of the topic. Learners who are seeking to fulfill training requirements relating to the U.S. Public Health Service regulations on financial conflicts of interest should refer to the COI course.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+Define different types of conflicts of interest.
+Define conflict of commitment.
+Explain the reasons why conflicts of interest and commitment can be problematic.
+Discuss U.S. regulations and policies relating to financial conflicts of interest.
+Describe strategies that may mitigate or eliminate the impact of conflicts of interest.
+Definitions
+The National Academies (2003) define a conflict of interest (COI) as:
+
+'Any financial or other interest which conflicts with the service of the individual because it (1) could significantly impair the individual's objectivity or (2) could create an unfair competitive advantage for any person or organization.' 
+
+It is important to note that the definition above uses the phrases "could impair" and "could create." When competing interests relating to research, or another professional activity, might impair judgment, it is a COI. However, an individual can still have a conflict of interest even if one's judgment has not been impaired. The possibility that one's actions could be biased is enough to generate a conflict. Another way to define a COI is if an outside observer might possibly think that a person's judgment or objectivity could be biased by the situation.
+
+COIs can occur when researchers have a personal interest, either financial or non-financial, that could compromise or could appear to compromise their professional judgment. A researcher may become conflicted at any stage of the research process. Not only can conflicts affect the conduct of a study, but they can influence the design of the study, and the analysis or reporting of any results. For example, conflicted researchers might decide to delay or choose not to publish results if they believe that benefits can result from doing so. That type of behavior can be destructive to the research record and to the advancement of knowledge.
+
+Financial Conflicts of Interest
+Case StudyThe Consulting Project
+
+Financial COIs include situations in which an individual proposes, conducts, or reports on research that could affect the value of a personal financial interest. Types of financial interests that could create a conflict include:
+
+• Stock ownership in a public or private company
+	  •	Receipt of payment for services including consulting work
+	  •	Receipt of intellectual property rights or royalties
+
+Both the financial interest and the research related to that interest must be present for there to be a conflict. Ways to determine this include whether:
+
+• The company sponsors the research
+	  •	The company owns materials, specimens, or intellectual property under study
+	  •	The company may be affected financially (positively or negatively) by the research
+
+For example, if a group of students conducts research on a company's product at their university while also having paid internships at the company, this would be a COI. The students have a duty to conduct research honestly and accurately, but the results of this research may affect their future at the company. If the research shows that the product is unsafe, the students may fear losing their internships.
+
+A clinical conflict of interest typically involves a situation where a healthcare provider enters into a financial relationship with a pharmaceutical or medical device company and this arrangement has the potential to influence professional judgment. For instance, if the company manufactures products that a physician prescribes to patients, this could bring into question the honesty of the physician's decision-making.
+
+Financial COIs in academia, especially in academic medicine, first gained public attention in the late 1970s and 80s. In a number of cases, researchers who committed research misconduct also had financial conflicts. This created a public perception that misconduct and financial conflicts are interconnected (AAMC 2008).
+
+Institutional Conflicts of Interest
+Institutional COIs, also called organizational COIs, can be financial or non-financial in nature. For example, an academic institution might hold financial interests in companies that sponsor research at the institution. These financial interests can be in the form of stock holdings in an investment portfolio, gifts to the institution, or royalty payments from the company to the institution.
+
+Institutional conflicts can also be caused by financial holdings or relationships held by high-ranking managers or board members in the organization. The associated risk is that the organization might use its influence to alter or suppress research results for financial gain or to curry favor with its donors or sponsors. For example, an academic institution might have a sizable part of its endowment invested in a company that produces safety devices. If researchers at the institution publish studies about those devices, those studies could be called into question because of the institution's financial relationship with the company.
+
+Non-Financial Conflicts of Interest
+Conflicts of interest do not have to have a financial component to influence objectivity. There are many types of non-financial conflicts. For example, academic conflicts of interest include becoming overly attached to a specific research outcome. This can result in a phenomenon referred to as confirmation bias, where data which do not support one's preconceptions are inappropriately discarded and data which do are over-valued.
+
+Conflicts of conscience occur when personal beliefs might interfere with objectivity. For example, a conflict of conscience can emerge when examining a controversial topic that has moral dimensions, such as embryonic stem cell research or certain forms of military research. The nature of the topic has the potential to bias judgment.
+
+Personal conflicts of interest can occur when someone supervises or makes work-related decisions involving a relative, friend, or close acquaintance. For example, participating in the hiring decision of one's spouse creates a personal conflict of interest. Another example is deciding whether a close relative should be admitted into a graduate program. In short, the personal relationship might influence a decision that needs to be made fairly and objectively.
+
+Conflicts of Commitment
+Conflicts of commitment, also referred to as conflicts of effort or obligation, arise when paid or unpaid outside activities could interfere or have the appearance of interfering with the commitment to one's primary employer. The main concern emerging from conflicts of commitment is whether sufficient time is being dedicated to one's professional duties. This is in contrast to other conflicts of interest where the main concern is about the possible introduction of bias when performing those duties. Conflicts of commitment can result in a loss of productivity, which can damage one's career and have a negative effect on collaborators.
+
+Case StudyThe Faculty Start-up Company
+
+For example, full time students can have a conflict of commitment if they are asked to work for a faculty start-up. Juggling multiple responsibilities could cause a student's academic performance to suffer among other potential problems. Another example is if faculty members frequently give lectures for an external organization. This situation could interfere with upholding their employment responsibilities.
+
+Why Conflicts of Interest are Problematic
+Researchers have an ethical obligation to be honest and accurate. However, conflicts of interest can threaten the ability of researchers to conduct research responsibly and can undermine trust in a researcher's integrity (Warner and Roberts 2004). They can have many possible impacts on both the individual and the organization. These include:
+
+• Introducing bias or the appearance of bias
+	  •	Increasing the possibility that the results or the presentation of the research will be called into question
+	  •	Damaging professional or organizational reputation
+	  •	Losing funding opportunities
+
+Bias may be introduced either intentionally or unintentionally. For example, the Association of American Medical Colleges (AAMC) along with Baylor College of Medicine sponsored a symposium titled "The Scientific Basis of Influence and Reciprocity." Two of the main findings presented were that "there are systematic and predictable ways in which people act unethically that are beyond their own awareness," and that "self-interest unconsciously biases well-intended people, who give themselves bounded 'moral wiggle room' to engage in unethical behavior with an easy conscience" (AAMC 2008). Even if researchers have good intentions, they can still be biased by a financial or personal interest and not be aware of it.
+
+Conflicts of interest can also undermine the integrity of the peer review process. Journals typically prohibit a peer reviewer with a conflict, either personal or financial, from reviewing a submitted paper because of the concern that this may contaminate the research record. Similar controls exist for the peer review process for grant proposals.
+
+Conflicts of interest and conflicts of commitment may result in damage to reputations and can erode the public's trust. These risks and impacts can be lessened, or in some cases eliminated, if conflicts are disclosed and managed properly.
+
+Policies and Regulations
+Conflicts of interest are usually covered by organizational policies and by federal or state law. For example, state institutions may be subject to statutes that require annual disclosure of such conflicts. Similarly, organizational policies often include stipulations about:
+
+o What constitutes a conflict
+	  o	What needs to be disclosed
+	  o	How it needs to be disclosed and to whom
+	  o	What activities are permissible
+	  o	How conflicts should be managed or eliminated
+
+Organizations may have separate policies for different types of conflicts and typically establish committees to review the conflicts, especially those related to financial interests.
+
+Researchers must consult the organization's specific policy on what is and what is not permitted. It is always the responsibility of the individual with the conflict to disclose it to the organization. If a conflict of interest might emerge, it is best to check with a supervisor or administrator. It is better to disclose the details of a situation and find out that a conflict was not present than to remain silent and identify an undisclosed conflict at a later date.
+
+The National Institutes of Health (NIH) and COIs
+The U.S. Public Health Service, which encompasses the National Institutes of Health (NIH), has detailed regulations that require annual disclosure of any related financial interest, subject to monetary thresholds, from all investigators who propose, conduct, or report research funded by the agency (NIH 2018). The investigators must disclose the information to their organization, which then has to review and manage any conflicts of interest.
+
+Under regulations revised in 2011, investigators seeking NIH funding must report all outside financial interests that relate to their professional responsibilities regardless of whether they create a conflict of interest or not. The organization must review the disclosures to identify any COIs and then report the conflicts to the NIH. In addition, it has to either provide a list of current conflicts involving NIH funding on a public website or in writing to anyone who requests the information. The revised regulations were designed to increase transparency surrounding COIs related to federal research funding and to encourage proper management and disclosure of such conflicts, especially those that are financial in nature.
+
+Other U.S. Funding Sources
+Other U.S. federal agencies, including the National Science Foundation (NSF), Department of Energy (DOE), National Aeronautics and Space Administration (NASA), and Environmental Protection Agency (EPA), have conflict of interest policies that affect those who are seeking funding. In general, federal sponsors require disclosure and management of COIs. Noncompliance with these terms can result in suspension or termination of a sponsored project (NIH 2015).
+
+While both require that the organization have a system to identify and manage conflicts of interest, NSF's policy is somewhat different than NIH's policy. At present, the NSF only requires that "unmanageable" COIs be reported and there is no requirement to make a researcher's conflicts public. Policies from federal agencies can vary in terms of which information needs to be disclosed, what counts as a conflict, and how conflicts of interest should be managed.
+
+Managing Conflicts of Interest
+For all types of conflicts, it is important to learn which activities are permissible at an organization and who needs to be informed of a conflict. Anyone who is in a situation that could rise to the level of a conflict should refer to organizational conflict of interest policies and consult with a supervisor or administrator to determine the best way to proceed.
+
+Different types of conflicts range in severity. Thus, it follows that the strategy to manage a conflict will depend on both its nature and its potential impact. A financial conflict of interest could involve a small one-time payment or result from multiple, substantial payments over a period of time. One measure of the severity of the conflict is the amount of the financial interest (in general, the larger the payment, the greater the likelihood of bias). Some financial interests are difficult or even impossible to quantify. For example, if a researcher has equity in a start-up company and the company does well, the equity could be worth millions. If the company does poorly, the equity could be nearly worthless.
+
+Another way to judge the severity of a conflict of interest is to look at the stage of the research. For example, if a researcher is about to bring a product to market and not at the beginning stage of a project, there is greater possibility for financial gain. This may intensify a conflict and require additional management or elimination.
+
+The type of research also influences how conflicts are managed. COIs related to human subjects research may require complex management plans in part to prevent the subjects from being harmed or exploited.
+
+Management Strategies
+After researchers identify and disclose their conflicts of interest, the organization must review and categorize the conflict. The organization is tasked, usually through a COI committee, with deciding if the conflict is manageable. If so, then a management plan is devised to mitigate or reduce the conflict. If the determination is that the conflict cannot be managed appropriately, then it must be eliminated.
+
+Common methods used to manage or eliminate COIs in research include:
+
+• Disclosing the conflict in any funding proposal, publication, or presentation
+	  •	Disclosing the conflict to any individuals being recruited for research
+	  •	Assigning an independent person to oversee the research
+	  •	Performing an independent analysis of any data collected
+	  •	Limiting the financial interest to a certain dollar amount
+	  •	Limiting the conflicted researcher's role
+	  •	Reducing the financial interest
+
+The first two methods involve disclosure and aim for transparency. Similarly, many academic journals require prospective authors to disclose any relevant conflict of interest. Disclosure provides the reader or other audience with a broader base of information from which to evaluate the situation.
+
+The next two methods deal with independent oversight. By placing an un-conflicted individual in either an oversight role or in charge of any data analysis, it reduces the opportunity that the conflicted researcher will introduce bias into a project and it increases the chance of detecting any existing bias.
+
+The other methods involve limiting or eliminating either the financial interest or the researcher's role on the project to reduce the likelihood of bias. In general, the more severe the conflict is, the greater the restrictions that are necessary. If a conflict cannot be managed, the researcher may need to eliminate the conflict by divesting the financial interest or by being barred from participating in the research.
+
+Similarly, conflicts of commitment can be managed by setting limits on an outside activity. In some cases, a conflicted individual will need to reduce the amount of effort or appointment for the primary employer or take a leave of absence.
+
+Summary
+Transparency shines light on conflicts relating to research, and independent oversight and review of conflicted researchers aim to mitigate bias. Disclosure and responsible management of conflicts of interest strengthens research, protects researchers, and most importantly, helps to maintain the public's trust (COGR 2002).
+
+References
+Association of American Medical Colleges (AAMC). 2008. "The Scientific Basis of Influence and Reciprocity: A Symposium." Accessed June 5, 2015.
+
+Council on Government Relations (COGR). 2002. "Recognizing and Managing Personal Conflicts of Interest." Accessed June 5, 2015.
+
+Dana, Jason, and George Loewenstein. 2003. "A Social Science Perspective on Gifts to Physicians From Industry." Journal of the American Medical Association 290 (2): 252- 5.
+
+National Institutes of Health (NIH). 2015. "Frequently Asked Questions: Responsibility of Applicants for Promoting Objectivity in Research for which PHS Funding is Sought (42 CFR Part 50 Subpart F) applicable to grants and cooperative agreements (2011 Revised Regulations)." Accessed June 5, 2015.
+
+National Institutes of Health (NIH). 2018. "Financial Conflict of Interest." Accessed March 29, 2019.
+
+The National Academies. 2003. "The National Academies Policy on Committee Composition and Balance and Conflicts of Interest for Committees Used in the Development of Reports." Accessed June 5, 2015.
+
+Warner, Teddy D., and Laura Weiss Roberts. 2004. "Scientific Integrity, Fidelity and Conflicts of Interest." Current Opinion in Psychiatry 17(5):381-5.
+
+Additional Resource
+U.S. Department of Health and Human Services, Office of Research Integrity (ORI). "Conflicts of Interest and Commitment." Accessed June 5, 2015.
+
+Original Release: July 2014
+Last Updated: February 2024
+
+This module has a quiz.
+
+ 
+Support
+✉ support@citiprogram.org
+☎ 888.529.5929
+(M – F ; 9:00 a.m. – 7:00 p.m. ET)
+Support Center
+Status Page
+Legal
+Accessibility
+Copyright
+Privacy and Cookie Policy
+Statement of Security Practices
+Anti-Discrimination Policy
+Terms of Service
+CITI Program
