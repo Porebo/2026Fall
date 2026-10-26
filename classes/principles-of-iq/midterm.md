@@ -26,6 +26,8 @@ Files are collected in the [Lecture Slides folder](Lecture%20Slides/) and named 
 - [September 8 — Quality Management and Information Products](w03/2026-09-08.html)
 - [September 10 — Data Quality Management and ISO 8000-61](w03/2026-09-10.html)
 - [September 15 — Data Quality Dimensions and Profiling](w04/2026-09-15.html)
+- [September 22 — Data Governance and Profiling Review](w05/2026-09-22.html)
+- [October 6 — Midterm Review and the Information Quality Gap](w06/2026-10-06.html)
 
 ### Textbook
 
@@ -44,7 +46,7 @@ Reviewed against the available local sources on October 20, 2026. Each answer be
 
 PDF links use `#page=` for the PDF viewer's page number, not the document's printed page number. Class-note links open the relevant section. These are study-source checks, not an official answer key: the 50/60 score alone cannot identify which answers were marked wrong, and missing questions cannot be reconstructed. The statistics slides remain in the source collection, but none of the saved questions directly tests their statistics topics.
 
-**Review summary:** 41 supported answers (including source-specific or conceptual support), 6 qualified answers (Q5, Q6, Q7, Q44, Q45, Q52), 2 corrected answers or terms (Q23, Q38), and 3 unresolved answers (Q1, Q14, Q50).
+**Review summary for questions 1–52:** 41 supported answers (including source-specific or conceptual support), 6 qualified answers (Q5, Q6, Q7, Q44, Q45, Q52), 2 corrected answers or terms (Q23, Q38), and 3 unresolved answers (Q1, Q14, Q50).
 
 ## Information quality principles and evolution
 
@@ -250,7 +252,7 @@ PDF links use `#page=` for the PDF viewer's page number, not the document's prin
     **Supported by class notes.** The [September 15 notes, Missing Values](w04/2026-09-15.html#missing-heading) lists and distinguishes these four forms.
 
 40. **Which date format meets the ISO calendar-date standard?**  
-    YYYY-MM-DD (for example, 2014-06-16). The dotted option is not the format specified in class.
+    YYYY-MM-DD (for example, 2014-06-15). Among the listed choices, none matches the standard; June 15, 2014 should be written as `2014-06-15`.
 
     **Supported by class notes.** The [September 15 notes, Action Items](w04/2026-09-15.html#action-items-heading) explicitly asks students to adopt `YYYY-MM-DD` as the ISO date format. This verifies the format taught in class; the original dotted answer choice is not saved here for comparison.
 
@@ -317,3 +319,47 @@ PDF links use `#page=` for the PDF viewer's page number, not the document's prin
     Business rules.
 
     **Qualified.** [IQ Value and Business Impact, PDF p. 48](Lecture%20Slides/IQ%20Value%20and%20Business%20Impact.pdf#page=48) connects business metadata to business terminology and rules. The [September 3 notes, Metadata, Catalogs, and Glossaries](w02/2026-09-03.html#metadata-heading) gives operational-rule examples. These support the concept, but neither supplies the exact "authoritative principles or guidelines describing business interactions" definition saved in this question.
+
+## Questions added from the October 24 review session
+
+53. **What is the information quality gap?**
+
+    The missing feedback loop between information-product users and the people who build the product.
+
+    **Supported.** The [October 6 notes, The Information Quality Gap](w06/2026-10-06.html#gap-heading) define the gap as missing user feedback to product builders. Internal data cleanup alone cannot show whether the product works for its users.
+
+54. **What kind of justification makes a business case for information-quality improvement more compelling: qualitative or quantitative?**
+
+    Quantitative justification, using measurable results such as estimated dollars or ROI.
+
+    **Supported.** The [September 1 notes, Qualitative vs. Quantitative Justification](w02/2026-09-01.html#quantitative-heading) contrast a vague customer-satisfaction claim with a stronger, quantified estimate.
+
+55. **A compelling business case for information quality is a key strategy for obtaining what?**
+
+    Management support, including CEO support.
+
+    **Supported.** [IQ Value and Business Impact, PDF p. 17](Lecture%20Slides/IQ%20Value%20and%20Business%20Impact.pdf#page=17) identifies management support and the resources needed for success as purposes of a business case.
+
+56. **In the RACI model, what does A stand for?**
+
+    Accountable.
+
+    **Supported.** The [September 22 notes, The RACI Model](w05/2026-09-22.html#raci-heading) define Accountable as the person responsible for ensuring the work gets done, though they may not perform it themselves.
+
+57. **What term describes a numerical acceptable limit for a data-quality measure?**
+
+    A data quality threshold.
+
+    **Qualified.** This was the matching term among the options in the review session. The [September 15 notes](w04/2026-09-15.html) explain that requirements act like tolerances, but the exact phrase "data quality threshold" was not independently located in the available Chapter 4 text.
+
+58. **What are the three levels in the class's three-dimensional data-profiling analysis?**
+
+    Column analysis, dependency profiling within one table, and cross-table relationships. Redundancy is an analysis topic, not one of these three levels.
+
+    **Supported by class notes.** The [September 15 notes, Three-Dimensional Analysis](w04/2026-09-15.html#profiling-heading) list the three levels.
+
+59. **What analysis checks whether values in one table occur in a related table?**
+
+    Referential-integrity analysis.
+
+    **Supported by class notes.** The [September 22 profiling recap](w05/2026-09-22.html#profiling-recap-heading) describes foreign-key integrity checks as verifying that a key in one table exists in the table it references.
