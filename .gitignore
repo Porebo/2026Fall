@@ -1,13 +1,11 @@
+# local environment secrets
 .env
 .env.*
 !.env.example
-**/bin/
-**/obj/
-.vs/
 
 # private accounting files (kept local only)
-data/accounts.json
 ledger/
+data/accounts.json
 scripts/accounting.js
 classes/master-thesis/jarvis/paymentsImportanDates.html
 classes/master-thesis/jarvis/stmt*.csv

@@ -149,10 +149,14 @@
       "description": "Complete the BBC Skillswise Graphs and Charts quiz and reflect on your current analytical skills and plans to strengthen them over the next 12 months.",
       "submissionLocation": "Blackboard",
       "points": 5,
-      "status": "Assigned",
-      "submitted": false,
+      "status": "Submitted",
+      "submitted": true,
+      "submittedDate": "2026-10-26",
+      "submittedTime": "1:11 PM PDT",
+      "submissionSize": "3.8 KB",
+      "confirmationNumber": "1c7d7f8a80004c95b765fcbd07e393c6",
       "grade": "Not graded",
-      "url": "classes/research-methods/w07/analysis-assignment.html"
+      "url": "classes/research-methods/hw06/analysis-assignment.html"
     },
     {
       "id": "rm-read-w01-kumar",
