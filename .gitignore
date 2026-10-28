@@ -3,6 +3,11 @@
 .env.*
 !.env.example
 
+# build output and Visual Studio cache
+**/bin/
+**/obj/
+.vs/
+
 # private accounting files (kept local only)
 ledger/
 data/accounts.json
