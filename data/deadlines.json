@@ -361,6 +361,41 @@
       "url": "classes/principles-of-iq/w04/jdq-3-and-4-review.html"
     },
     {
+      "id": "iq-hw05",
+      "date": "2026-11-03",
+      "timeDisplay": "11:40 AM PST",
+      "course": "principles-of-iq",
+      "type": "homework",
+      "workType": "hard",
+      "title": "Statistical Problems",
+      "assignmentNumber": "HW05",
+      "assignmentName": "Statistical Problems",
+      "description": "Solve twelve exercises on descriptive statistics, z-scores, probability, Bayes' Theorem, binomial and normal distributions, confidence intervals, and hypothesis testing.",
+      "submissionLocation": "Blackboard",
+      "points": null,
+      "status": "Submitted",
+      "submitted": true,
+      "submittedDate": "2026-11-02",
+      "submittedTime": "10:52 PM PST",
+      "submissionSize": "137.1 KB",
+      "confirmationNumber": "fdf2def38535473c959dfc4533edd01b",
+      "grade": "Not graded",
+      "url": "classes/principles-of-iq/w11/Statistical_Problems_Answers.md"
+    },
+    {
+      "id": "iq-practice-exam",
+      "date": "2026-10-04",
+      "course": "principles-of-iq",
+      "type": "exam",
+      "title": "Practice exam (not counted in official grades)",
+      "status": "Graded",
+      "submitted": true,
+      "late": true,
+      "grade": "2/3",
+      "countsTowardGrade": false,
+      "url": "classes/principles-of-iq/midterm.md"
+    },
+    {
       "id": "iq-labor-day",
       "date": "2026-09-07",
       "course": "principles-of-iq",
@@ -374,6 +409,10 @@
       "course": "principles-of-iq",
       "type": "exam",
       "title": "Midterm exam",
+      "status": "Graded",
+      "submitted": true,
+      "grade": "56/60",
+      "gradedAttempt": "Mid-Term Exam Second Attempt (due 2026-10-24)",
       "url": "classes/principles-of-iq/w01/2026-08-25.html#course-dates-heading"
     },
     {
