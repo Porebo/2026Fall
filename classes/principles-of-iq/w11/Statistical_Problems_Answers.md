@@ -1,56 +1,57 @@
+Lester S. Carcamo  
+Principles of IQ (INFQ 7303) – Week 11  
+Nov 2, 2026
+
 # Statistical Problems – Answers
 
-Principles of IQ (INFQ 7303) – Week 11
+*Rounding: probabilities are reported to four decimal places (three significant figures when smaller than 0.01); all other final values to two decimal places. Intermediate values carry extra digits to avoid rounding error.*
 
 ---
 
 ## Time Sample Data (n = 30)
 
-10, 15, 11, 17, 22, 14, 23, 8, 15, 11, 16, 12, 19, 26, 12, 11, 9, 16, 15, 24, 12, 17, 16, 14, 19, 13, 11, 15, 13, 21
+> The following data set represents a sample of the time in minutes taken by 30 workers to complete a given task. Use this time sample for Exercises 1, 2, and 3.
+>
+> 10, 15, 11, 17, 22, 14, 23, 8, 15, 11, 16, 12, 19, 26, 12, 11, 9, 16, 15, 24, 12, 17, 16, 14, 19, 13, 11, 15, 13, 21
 
 ---
 
-## Exercise 1 – Frequency Table, Histogram, Polygon, Skew
+## Exercise 1 – Frequency Table, Histogram, Frequency Polygon, Skewness
 
-**Given:**
+> Summarize the time sample data by organizing the data into class intervals, then
+>
+> a\) Create a frequency table with bins of size 4 starting at 7 (i.e. 7–10, 11–14, etc.) showing frequency, cumulative frequency, relative frequency, and cumulative relative frequency
+>
+> b\) Draw a histogram
+>
+> c\) Draw a frequency polygon chart
+>
+> d\) Is the distribution negatively or positively skewed?
 
-bin size = 4: width of each class interval
+**Given**
 
-first bin starts at 7: lower limit of the first class
+| Term | Value | Meaning |
+|----|----|------------|
+| n | 30 | number of workers in the sample |
+| Bin width | 4 | width of each class interval |
+| First bin | 7 | lower limit of the first class |
 
-n = 30: number of workers in the sample
+**Formulas**
 
-**Formulas:**
-
+```
 Relative frequency = frequency / n
-
 Cumulative relative frequency = cumulative frequency / n
+```
 
-**Step 1: Count the values in each bin**
+### Count the values in each class
 
-7–10: 8, 9, 10 → 3 values
+- 7–10: 8, 9, 10 → 3 values
+- 11–14: 11 (×4), 12 (×3), 13 (×2), 14 (×2) → 11 values
+- 15–18: 15 (×4), 16 (×3), 17 (×2) → 9 values
+- 19–22: 19 (×2), 21, 22 → 4 values
+- 23–26: 23, 24, 26 → 3 values
 
-11–14: 11 (×4), 12 (×3), 13 (×2), 14 (×2) → 11 values
-
-15–18: 15 (×4), 16 (×3), 17 (×2) → 9 values
-
-19–22: 19 (×2), 21, 22 → 4 values
-
-23–26: 23, 24, 26 → 3 values
-
-**Step 2: Apply the formulas**
-
-Bin 7–10: 3 / 30 = 0.1000
-
-Bin 11–14: 11 / 30 = 0.3667
-
-Bin 15–18: 9 / 30 = 0.3000
-
-Bin 19–22: 4 / 30 = 0.1333
-
-Bin 23–26: 3 / 30 = 0.1000
-
-**Frequency table**
+### Frequency table
 
 | Class | Midpoint | Frequency | Cumulative Frequency | Relative Frequency | Cumulative Relative Frequency |
 |---|---|---|---|---|---|
@@ -61,355 +62,365 @@ Bin 23–26: 3 / 30 = 0.1000
 | 23–26 | 24.5 | 3 | 30 | 0.1000 | 1.0000 |
 | **Total** | | **30** | | **1.0000** | |
 
-**Histogram**
+### Histogram
 
-x-axis = class, y-axis = frequency:
+![Histogram of task times](histogram.png)
 
-```
-Freq
-11 |        ███
-10 |        ███
- 9 |        ███  ███
- 8 |        ███  ███
- 7 |        ███  ███
- 6 |        ███  ███
- 5 |        ███  ███
- 4 |        ███  ███  ███
- 3 |  ███   ███  ███  ███  ███
- 2 |  ███   ███  ███  ███  ███
- 1 |  ███   ███  ███  ███  ███
-   +------------------------------
-     7-10  11-14 15-18 19-22 23-26
-```
+### Frequency polygon
 
-To build the chart in Word: Insert > Chart > Column, using the Class and Frequency columns (set gap width to 0).
-
-**Frequency polygon**
-
-Plot frequency against class midpoint and join the points with straight lines. Add a point with frequency 0 at midpoints 4.5 and 28.5 so the polygon touches the axis at both ends.
+Frequency is plotted against the class midpoint and the points are joined with straight lines. A point with frequency 0 is added at midpoints 4.5 and 28.5 so the polygon closes on the axis at both ends.
 
 | Midpoint | 4.5 | 8.5 | 12.5 | 16.5 | 20.5 | 24.5 | 28.5 |
 |---|---|---|---|---|---|---|---|
 | Frequency | 0 | 3 | 11 | 9 | 4 | 3 | 0 |
 
-To build the chart in Word: Insert > Chart > Line with Markers, using the two rows above.
+![Frequency polygon of task times](frequency_polygon.png)
 
-**Skewness**
+### Skewness
 
-Rule: if mean > median, the distribution is positively skewed (tail to the right).
+```
+Rule: mean > median → positively skewed (tail to the right)
+Pearson's coefficient of skewness: Sk = 3(x̄ − median) / s
+```
 
-Mean = 15.23, median = 15
+**Substitute**
 
-15.23 > 15
+Sk = 3(15.23 − 15) / 4.56
 
-**Answer: Positively skewed.** The peak is on the low side (11–14) and the long tail stretches to the right (up to 26).
+**Solve**
+
+Sk = 0.69 / 4.56 = 0.15
+
+**Answer:** **Positively skewed.** The mean (15.23) is above the median (15), and Sk = 0.15 is positive but small, so the skew is mild. The peak is in the 11–14 class and the tail extends to the right, up to 26.
 
 ---
 
 ## Exercise 2 – Descriptive Statistics
 
-**Given:**
+> For the time sample calculate the mean, median, mode, range, standard deviation, and variance.
 
-n = 30: number of workers in the sample
+**Given**
 
-Σx = 457: sum of all 30 times
+| Term | Value | Meaning |
+|----|----|------------|
+| n | 30 | number of workers in the sample |
+| Σx | 457 | sum of all 30 times |
+| Minimum | 8 | shortest time |
+| Maximum | 26 | longest time |
 
-smallest value = 8: shortest time
+### Mean
 
-largest value = 26: longest time
+```
+x̄ = Σx / n
+```
 
-**Mean**
+**Substitute**
 
-Formula: x̄ = Σx / n
+x̄ = 457 / 30
 
-Step 1: x̄ = 457 / 30
+**Answer:** x̄ = **15.23**
 
-Step 2: x̄ = **15.23**
+### Median
 
-**Median**
+```
+Median = average of the 15th and 16th ordered values (n = 30 is even)
+```
 
-Formula: the middle value of the ordered data; with n = 30 it is the average of the 15th and 16th values
+**Substitute**
 
-Step 1: 15th value = 15, 16th value = 15
+Median = (15 + 15) / 2
 
-Step 2: Median = (15 + 15) / 2 = **15**
+**Answer:** Median = **15**
 
-**Mode**
+### Mode
 
-Formula: the value(s) that occur most often
+```
+Mode = the most frequent value(s)
+```
 
-Step 1: 11 appears 4 times, 15 appears 4 times, every other value appears 3 times or fewer
+**Solve**
 
-Step 2: Mode = **11 and 15** (bimodal)
+11 and 15 each appear 4 times; every other value appears 3 times or fewer.
 
-**Range**
+**Answer:** Mode = **11 and 15** (bimodal)
 
-Formula: Range = maximum − minimum
+### Range
 
-Step 1: Range = 26 − 8
+```
+Range = maximum − minimum
+```
 
-Step 2: Range = **18**
+**Substitute**
 
-**Variance**
+Range = 26 − 8
 
-Formula: variance is the square of the standard deviation, s² = Σ(x − x̄)² / (n − 1)
+**Answer:** Range = **18**
 
-Step 1: Σ(x − x̄)² = 603.37 (sum of the squared deviations from 15.23)
+### Variance
 
-Step 2: s² = 603.37 / (30 − 1) = 603.37 / 29
+```
+s² = Σ(x − x̄)² / (n − 1)
+```
 
-Step 3: s² = **20.81**
+**Substitute**
 
-**Standard deviation**
+Σ(x − x̄)² = 603.37 (sum of the squared deviations from 15.23)
 
-Formula: s = √( Σ(x − x̄)² / (n − 1) ), so s = √s²
+s² = 603.37 / 29
 
-Step 1: s = √20.81
+**Answer:** s² = **20.81**
 
-Step 2: s = **4.56**
+### Standard deviation
 
-(If the 30 workers are treated as the whole population, divide by n instead: σ² = 603.37 / 30 = 20.11 and σ = √20.11 = 4.48.)
+```
+s = √s²
+```
+
+**Substitute**
+
+s = √20.81
+
+**Answer:** s = **4.56**
+
+If the 30 workers are treated as the whole population, the divisor is n instead of n − 1: σ² = 603.37 / 30 = 20.11 and σ = 4.48.
 
 ---
 
 ## Exercise 3 – Z-Scores
 
-**Given:**
+> Create a two-column table. List the values of the time sample in Exercise 1 in order from lowest to highest in the first column of the table. Assume that the population of task times for the workers is normally distributed, and in the second column of the table next to each time value in the first column, show its normalized value as a Z-score.
 
-x̄ = 15.23: sample mean (Exercise 2)
+**Given**
 
-s = 4.56: sample standard deviation (Exercise 2)
+| Term | Value | Meaning |
+|----|----|------------|
+| x̄ | 15.23 | sample mean (Exercise 2), estimates μ |
+| s | 4.56 | sample standard deviation (Exercise 2), estimates σ |
 
-population is assumed normally distributed
+```
+z = (x − μ) / σ ≈ (x − x̄) / s
+```
 
-**Formula:**
-
-z = (x − μ) / σ, with the sample mean x̄ as the estimate of μ and the sample standard deviation s as the estimate of σ, so z = (x − x̄) / s
-
-**Step 1: Apply the given in the formula (example, x = 8)**
+**Substitute** (example, x = 8)
 
 z = (8 − 15.23) / 4.56
 
-**Step 2: Continue solving**
+**Solve**
 
-z = −7.23 / 4.56
+z = −7.23 / 4.56 = −1.59
 
-z = −1.59
+**Answer:** the same calculation is applied to every value.
 
-The same steps are applied to every value:
-
-| Time (sorted) | x − 15.23 | Z-score |
-|---|---|---|
-| 8 | -7.23 | -1.59 |
-| 9 | -6.23 | -1.37 |
-| 10 | -5.23 | -1.15 |
-| 11 | -4.23 | -0.93 |
-| 11 | -4.23 | -0.93 |
-| 11 | -4.23 | -0.93 |
-| 11 | -4.23 | -0.93 |
-| 12 | -3.23 | -0.71 |
-| 12 | -3.23 | -0.71 |
-| 12 | -3.23 | -0.71 |
-| 13 | -2.23 | -0.49 |
-| 13 | -2.23 | -0.49 |
-| 14 | -1.23 | -0.27 |
-| 14 | -1.23 | -0.27 |
-| 15 | -0.23 | -0.05 |
-| 15 | -0.23 | -0.05 |
-| 15 | -0.23 | -0.05 |
-| 15 | -0.23 | -0.05 |
-| 16 | 0.77 | 0.17 |
-| 16 | 0.77 | 0.17 |
-| 16 | 0.77 | 0.17 |
-| 17 | 1.77 | 0.39 |
-| 17 | 1.77 | 0.39 |
-| 19 | 3.77 | 0.83 |
-| 19 | 3.77 | 0.83 |
-| 21 | 5.77 | 1.26 |
-| 22 | 6.77 | 1.48 |
-| 23 | 7.77 | 1.70 |
-| 24 | 8.77 | 1.92 |
-| 26 | 10.77 | 2.36 |
+| Time (minutes) | Z-score |
+|---|---|
+| 8 | −1.59 |
+| 9 | −1.37 |
+| 10 | −1.15 |
+| 11 | −0.93 |
+| 11 | −0.93 |
+| 11 | −0.93 |
+| 11 | −0.93 |
+| 12 | −0.71 |
+| 12 | −0.71 |
+| 12 | −0.71 |
+| 13 | −0.49 |
+| 13 | −0.49 |
+| 14 | −0.27 |
+| 14 | −0.27 |
+| 15 | −0.05 |
+| 15 | −0.05 |
+| 15 | −0.05 |
+| 15 | −0.05 |
+| 16 | 0.17 |
+| 16 | 0.17 |
+| 16 | 0.17 |
+| 17 | 0.39 |
+| 17 | 0.39 |
+| 19 | 0.83 |
+| 19 | 0.83 |
+| 21 | 1.26 |
+| 22 | 1.48 |
+| 23 | 1.70 |
+| 24 | 1.92 |
+| 26 | 2.36 |
 
 ---
 
 ## Exercise 4 – Face Cards
 
-**Given:**
+> In a standard deck of 52 playing cards, each suit has three face cards, a king, a queen, and a jack. What is the probability of drawing
+>
+> a\) Three face cards?
+>
+> b\) Three face cards that all belong to the same suit?
 
-52: number of cards in the deck
+**Given**
 
-12: number of face cards (3 per suit × 4 suits)
+| Term | Value | Meaning |
+|----|----|------------|
+| Deck | 52 | cards in the deck |
+| Face cards | 12 | 3 per suit × 4 suits |
+| Draws | 3 | drawn without replacement, so the counts drop after each draw |
 
-cards are drawn without replacement, so the counts drop after each draw
+Let A, B and C be the events that the first, second and third cards are face cards.
+
+```
+P(A ∩ B ∩ C) = P(A) × P(B | A) × P(C | A ∩ B)
+```
 
 ### a) Three face cards
 
-**Formula:**
+**Substitute**
 
-A = first card is a face card, B = second card is a face card, C = third card is a face card
+P(A ∩ B ∩ C) = (12 / 52) × (11 / 51) × (10 / 50)
 
-Product rule: P(A and B and C) = P(A) × P(B | A) × P(C | A and B)
+**Solve**
 
-**Step 1: Apply the given in the formula**
+P(A ∩ B ∩ C) = 1,320 / 132,600
 
-P(A and B and C) = (12 / 52) × (11 / 51) × (10 / 50)
-
-**Step 2: Continue solving**
-
-P(A and B and C) = 1,320 / 132,600
-
-P(A and B and C) = **0.00995** (about 1%)
+**Answer:** **0.00995** (about 1%)
 
 ### b) Three face cards, all of the same suit
 
-**Formula:**
+The first card can be any face card; the second and third must be the 2 remaining face cards of that suit.
 
-Same as part (a), but after the first card the next two must come from the 2 remaining face cards of that suit.
+**Substitute**
 
-**Step 1: Apply the given in the formula**
+P(A ∩ B ∩ C) = (12 / 52) × (2 / 51) × (1 / 50)
 
-P(A and B and C) = (12 / 52) × (2 / 51) × (1 / 50)
+**Solve**
 
-**Step 2: Continue solving**
+P(A ∩ B ∩ C) = 24 / 132,600
 
-P(A and B and C) = 24 / 132,600
-
-P(A and B and C) = **0.000181** (about 0.018%)
+**Answer:** **0.000181** (about 0.018%)
 
 ---
 
 ## Exercise 5 – Committee
 
-**Given:**
+> The principal of a school wants to form a committee of senior students to come up with a new dress code. He wants the committee to have 3 female members and 2 male members. If there are 8 female seniors and 7 male seniors, how many possible committees can be formed?
 
-8 female seniors: pool to choose from, choose 3
+**Given**
 
-7 male seniors: pool to choose from, choose 2
+| Term | Value | Meaning |
+|----|----|------------|
+| Female seniors | 8 | choose 3 |
+| Male seniors | 7 | choose 2 |
 
-order does not matter, so use combinations
+Order does not matter, so combinations are used.
 
-**Formula:**
-
+```
 C(N, M) = N! / (M! × (N − M)!)
-
 Committees = C(8, 3) × C(7, 2)
+```
 
-**Step 1: Apply the given in the formula**
+**Substitute**
 
 C(8, 3) = 8! / (3! × 5!)
 
 C(7, 2) = 7! / (2! × 5!)
 
-**Step 2: Continue solving**
+**Solve**
 
 C(8, 3) = 40,320 / (6 × 120) = 56
 
 C(7, 2) = 5,040 / (2 × 120) = 21
 
-Committees = 56 × 21 = **1,176**
+Committees = 56 × 21
+
+**Answer:** **1,176** committees
 
 ---
 
 ## Exercise 6 – Source A / Source B
 
-**Given:**
+> Two sources of name and address data have been acquired and merged into a single file. In the combined file, 70% of the records came from Source A and 30% of the records are from Source B. It is also true that the names are correct on 80% of records from Source A, but only 50% of the Source B records have a correct name. Based on this information, answer the following questions.
+>
+> a\) If a record is randomly selected from the combined file, what is the probability that it originally came from File B?
+>
+> b\) If a record is randomly selected from the combined file, what is the probability that it will have a correct name?
+>
+> c\) If a record is selected from the combined file and is found to have a correct name, what is the probability that the record came from Source A? (Hint: use Bayes' Theorem where H = probability record is from Source A, and D = the name is correct.)
 
-P(A) = 0.70: probability a record came from Source A
+**Given**
 
-P(B) = 0.30: probability a record came from Source B
-
-P(correct | A) = 0.80: probability the name is correct, given the record is from Source A
-
-P(correct | B) = 0.50: probability the name is correct, given the record is from Source B
+| Term | Value | Meaning |
+|----|----|------------|
+| P(A) | 0.70 | record came from Source A |
+| P(B) | 0.30 | record came from Source B |
+| P(correct \| A) | 0.80 | name is correct, given the record is from Source A |
+| P(correct \| B) | 0.50 | name is correct, given the record is from Source B |
 
 ### a) Probability the record came from Source B
 
-**Formula:**
-
 P(B) is given directly.
 
-**Answer:**
-
-P(B) = **0.30**
+**Answer:** P(B) = **0.30**
 
 ### b) Probability of a correct name
 
-**Formula:**
-
+```
 P(correct) = P(correct | A) × P(A) + P(correct | B) × P(B)
+```
 
-**Step 1: Apply the given in the formula**
+**Substitute**
 
 P(correct) = (0.80)(0.70) + (0.50)(0.30)
 
-**Step 2: Continue solving**
+**Solve**
 
 P(correct) = 0.56 + 0.15
 
-P(correct) = **0.71**
+**Answer:** P(correct) = **0.71**
 
 ### c) Probability the record came from Source A, given a correct name
 
-H = record is from Source A, ~H = record is from Source B, D = the name is correct
+Following the hint, let H = the record is from Source A and D = the name is correct, so P(H) = 0.70, P(~H) = 0.30, P(D | H) = 0.80 and P(D | ~H) = 0.50.
 
-**Given (in this notation):**
-
-P(H) = 0.70
-
-P(~H) = 0.30
-
-P(D | H) = 0.80
-
-P(D | ~H) = 0.50
-
-**Formula (Bayes' Theorem):**
-
+```
 P(H | D) = P(D | H) × P(H) / [ P(D | H) × P(H) + P(D | ~H) × P(~H) ]
+```
 
-**Step 1: Apply the given in the formula**
+**Substitute**
 
 P(H | D) = (0.80)(0.70) / [ (0.80)(0.70) + (0.50)(0.30) ]
 
-**Step 2: Continue solving**
+**Solve**
 
-P(H | D) = 0.56 / (0.56 + 0.15)
+P(H | D) = 0.56 / (0.56 + 0.15) = 0.56 / 0.71
 
-P(H | D) = 0.56 / 0.71
-
-P(H | D) = **0.7887** (about 78.9%)
+**Answer:** P(H | D) = **0.7887** (about 78.9%)
 
 ---
 
 ## Exercise 7 – Loan Default Screening (Bayes)
 
-H = the loan defaults, ~H = the loan does not default, D = the test is positive
+> Over time, a bank has found that 1% of its mortgage loans go into default for non-payment. To try and reduce this risk, a data scientist at the bank has developed a "big data" screening test that looks at the entire payment history of a mortgage loan and predicts whether the loan will go into default in the next 12 months. When the test was validated on historical loan data, the test showed positive 97% of the time when applied to data for loans that actually defaulted, but the test also showed (false) positive 2% of the time when it was applied to data for loans that did not default. Use Bayes' Theorem to answer the following question. What is the probability that a loan will go into default given that the new big data screening test is positive?
 
-**Given:**
+Let H = the loan defaults, ~H = the loan does not default, and D = the test is positive.
 
-P(H) = 0.01: probability a loan defaults
+**Given**
 
-P(~H) = 0.99: probability a loan does not default (1 − 0.01)
+| Term | Value | Meaning |
+|----|----|------------|
+| P(H) | 0.01 | a loan defaults |
+| P(~H) | 0.99 | a loan does not default (1 − 0.01) |
+| P(D \| H) | 0.97 | test is positive, given the loan defaults |
+| P(D \| ~H) | 0.02 | test is positive, given the loan does not default (false positive) |
 
-P(D | H) = 0.97: probability the test is positive, given the loan defaults
-
-P(D | ~H) = 0.02: probability the test is positive, given the loan does not default (false positive)
-
-**Formula (Bayes' Theorem):**
-
+```
 P(H | D) = P(D | H) × P(H) / [ P(D | H) × P(H) + P(D | ~H) × P(~H) ]
+```
 
-**Step 1: Apply the given in the formula**
+**Substitute**
 
 P(H | D) = (0.97)(0.01) / [ (0.97)(0.01) + (0.02)(0.99) ]
 
-**Step 2: Continue solving**
+**Solve**
 
-P(H | D) = 0.0097 / (0.0097 + 0.0198)
+P(H | D) = 0.0097 / (0.0097 + 0.0198) = 0.0097 / 0.0295
 
-P(H | D) = 0.0097 / 0.0295
-
-P(H | D) = **0.3288** (about 32.9%)
+**Answer:** P(H | D) = **0.3288** (about 32.9%)
 
 Even with a positive test, a loan is more likely not to default (about 67%), because defaults are rare (1%) and the 2% false-positive rate applies to the much larger group of non-defaulting loans.
 
@@ -417,31 +428,31 @@ Even with a positive test, a loan is more likely not to default (about 67%), bec
 
 ## Exercise 8 – Overdue Accounts (Binomial, cumulative)
 
-**Given:**
+> A company reports that 15% of its accounts receivable are overdue. If an auditor takes a random sample of 8 accounts, what is the probability that no more than two accounts in the sample will be overdue? (Use the binomial distribution with cumulative probability.)
 
-n = 8: number of accounts sampled (trials)
+**Given**
 
-p = 0.15: probability an account is overdue (success)
+| Term | Value | Meaning |
+|----|----|------------|
+| n | 8 | accounts sampled (trials) |
+| p | 0.15 | an account is overdue (success) |
+| 1 − p | 0.85 | an account is not overdue |
+| s | ≤ 2 | number of overdue accounts (successes) |
 
-1 − p = 0.85: probability an account is not overdue
+```
+P(X = s | p, n) = [ n! / (s! × (n − s)!) ] × pˢ × (1 − p)⁽ⁿ⁻ˢ⁾
+P(X ≤ 2) = P(X = 0) + P(X = 1) + P(X = 2)
+```
 
-s ≤ 2: no more than 2 overdue accounts (s = number of successes)
+**Substitute**
 
-**Formula:**
+P(X = 0 | 0.15, 8) = [ 8! / (0! × 8!) ] × (0.15)⁰ × (0.85)⁸
 
-P(X = s | p, n) = [ n! / (s! × (n − s)!) ] × p^s × (1 − p)^(n − s)
+P(X = 1 | 0.15, 8) = [ 8! / (1! × 7!) ] × (0.15)¹ × (0.85)⁷
 
-Cumulative: P(X ≤ 2) = P(X = 0) + P(X = 1) + P(X = 2)
+P(X = 2 | 0.15, 8) = [ 8! / (2! × 6!) ] × (0.15)² × (0.85)⁶
 
-**Step 1: Apply the given in the formula**
-
-P(X = 0 | 0.15, 8) = [ 8! / (0! × 8!) ] × (0.15)^0 × (0.85)^8
-
-P(X = 1 | 0.15, 8) = [ 8! / (1! × 7!) ] × (0.15)^1 × (0.85)^7
-
-P(X = 2 | 0.15, 8) = [ 8! / (2! × 6!) ] × (0.15)^2 × (0.85)^6
-
-**Step 2: Continue solving**
+**Solve**
 
 P(X = 0) = 1 × 1 × 0.2725 = 0.2725
 
@@ -449,11 +460,9 @@ P(X = 1) = 8 × 0.15 × 0.3206 = 0.3847
 
 P(X = 2) = 28 × 0.0225 × 0.3771 = 0.2376
 
-**Step 3: Add them up**
-
 P(X ≤ 2) = 0.2725 + 0.3847 + 0.2376
 
-P(X ≤ 2) = **0.8948** (about 89.5%)
+**Answer:** P(X ≤ 2) = **0.8948** (about 89.5%)
 
 Excel check: BINOM.DIST(2, 8, 0.15, TRUE) = 0.8948
 
@@ -461,187 +470,210 @@ Excel check: BINOM.DIST(2, 8, 0.15, TRUE) = 0.8948
 
 ## Exercise 9 – Survey Responses (Binomial)
 
-**Given:**
+> A marketing firm has implemented a customer satisfaction survey that it sends out to 500 customers each year. Over time the company has learned that there is about a 5% probability that a given prospect will complete the survey.
+>
+> a\) What is the probability that when the survey is given exactly 20 customers will respond? (Hint: use the binomial distribution without cumulative probability.)
+>
+> b\) What is the probability that at least 20 prospects will respond, i.e. 20 or more responses? (Hint: use the binomial distribution with cumulative probability.)
 
-n = 500: number of customers surveyed (trials)
+**Given**
 
-p = 0.05: probability a customer completes the survey (success)
-
-1 − p = 0.95: probability a customer does not complete the survey
-
-n × p = 25: expected number of responses
+| Term | Value | Meaning |
+|----|----|------------|
+| n | 500 | customers surveyed (trials) |
+| p | 0.05 | a customer completes the survey (success) |
+| 1 − p | 0.95 | a customer does not complete the survey |
+| n × p | 25 | expected number of responses |
 
 ### a) Exactly 20 respond
 
-**Formula:**
+```
+P(X = s | p, n) = [ n! / (s! × (n − s)!) ] × pˢ × (1 − p)⁽ⁿ⁻ˢ⁾
+```
 
-P(X = s | p, n) = [ n! / (s! × (n − s)!) ] × p^s × (1 − p)^(n − s)
+**Substitute**
 
-**Step 1: Apply the given in the formula**
+P(X = 20 | 0.05, 500) = [ 500! / (20! × 480!) ] × (0.05)²⁰ × (0.95)⁴⁸⁰
 
-P(X = 20 | 0.05, 500) = [ 500! / (20! × 480!) ] × (0.05)^20 × (0.95)^480
+**Solve**
 
-**Step 2: Continue solving** (500! is too large to evaluate by hand, so use Excel)
+500! is too large to evaluate by hand, so Excel is used: BINOM.DIST(20, 500, 0.05, FALSE) = 0.0516
 
-BINOM.DIST(20, 500, 0.05, FALSE) = **0.0516** (about 5.2%)
+**Answer:** P(X = 20) = **0.0516** (about 5.2%)
 
 ### b) At least 20 respond
 
-**Formula:**
+```
+P(X ≥ 20) = 1 − P(X ≤ 19)
+```
 
-P(X ≥ 20) = 1.0 − P(X ≤ 19), where P(X ≤ 19) = BINOM.DIST(19, 500, 0.05, TRUE)
+**Substitute**
 
-**Step 1: Apply the given in the formula**
+P(X ≤ 19) = BINOM.DIST(19, 500, 0.05, TRUE) = 0.1272
 
-P(X ≥ 20) = 1.0 − BINOM.DIST(19, 500, 0.05, TRUE)
+**Solve**
 
-**Step 2: Continue solving**
+P(X ≥ 20) = 1 − 0.1272
 
-P(X ≥ 20) = 1.0 − 0.1272
-
-P(X ≥ 20) = **0.8728** (about 87.3%)
+**Answer:** P(X ≥ 20) = **0.8728** (about 87.3%)
 
 ---
 
 ## Exercise 10 – Normal Distribution
 
-**Given:**
+> A normally distributed population of measurements has a population mean of 160 and a standard deviation of 8.
+>
+> a\) What is the probability that a measurement in the population will be less than 160?
+>
+> b\) What is the probability that a measurement in the population will be greater than 152?
+>
+> c\) What is the probability that a measurement in the population will be between 144 and 152?
 
-μ = 160: population mean
+**Given**
 
-σ = 8: population standard deviation
+| Term | Value | Meaning |
+|----|----|------------|
+| μ | 160 | population mean |
+| σ | 8 | population standard deviation |
 
-**Formula:**
-
+```
 z = (x − μ) / σ
+P(X < x) = Φ(z), where Φ is the standard normal cumulative distribution
+```
+
+Values of Φ are taken from Excel's NORM.S.DIST(z, TRUE).
 
 ### a) P(X < 160)
 
-**Step 1: Apply the given in the formula**
+**Substitute**
 
-z = (160 − 160) / 8
+z = (160 − 160) / 8 = 0
 
-**Step 2: Continue solving**
+**Solve**
 
-z = 0 / 8 = 0
+P(X < 160) = Φ(0)
 
-P(X < 160) = P(Z < 0) = NORM.S.DIST(0) = **0.5000**
+**Answer:** P(X < 160) = **0.5000**
 
 ### b) P(X > 152)
 
-**Step 1: Apply the given in the formula**
+**Substitute**
 
-z = (152 − 160) / 8
+z = (152 − 160) / 8 = −1
 
-**Step 2: Continue solving**
+**Solve**
 
-z = −8 / 8 = −1
+P(X > 152) = 1 − Φ(−1) = 1 − 0.1587
 
-P(Z > −1) = 1 − P(Z < −1) = 1 − NORM.S.DIST(−1)
-
-P(Z > −1) = 1 − 0.1587
-
-P(X > 152) = **0.8413**
+**Answer:** P(X > 152) = **0.8413**
 
 ### c) P(144 < X < 152)
 
-**Step 1: Apply the given in the formula**
+**Substitute**
 
-z₁ = (144 − 160) / 8
+z₁ = (144 − 160) / 8 = −2
 
-z₂ = (152 − 160) / 8
+z₂ = (152 − 160) / 8 = −1
 
-**Step 2: Continue solving**
+**Solve**
 
-z₁ = −16 / 8 = −2
+P(144 < X < 152) = Φ(−1) − Φ(−2) = 0.1587 − 0.0228
 
-z₂ = −8 / 8 = −1
-
-P(−2 < Z < −1) = NORM.S.DIST(−1) − NORM.S.DIST(−2)
-
-P(−2 < Z < −1) = 0.1587 − 0.0228
-
-P(144 < X < 152) = **0.1359**
+**Answer:** P(144 < X < 152) = **0.1359**
 
 ---
 
 ## Exercise 11 – Confidence Intervals
 
-**Given:**
+> The time required to complete a routine quality check process is known to be normally distributed with a standard deviation of 3 minutes. If a sample of 225 quality check records yields a mean of 12 minutes, then
+>
+> a\) Construct a 95% confidence interval
+>
+> b\) Construct a 90% confidence interval
+>
+> Suppose instead that the sample size is 100 with a mean of 12 minutes. In this case
+>
+> c\) Construct a 95% confidence interval
+>
+> d\) Construct a 90% confidence interval
 
-σ = 3: known population standard deviation (minutes)
+**Given**
 
-x̄ = 12: sample mean (minutes)
+| Term | Value | Meaning |
+|----|----|------------|
+| σ | 3 | known population standard deviation (minutes) |
+| x̄ | 12 | sample mean (minutes) |
+| n | 225 or 100 | sample size (first and second case) |
+| z | 1.96 | critical value for 95% confidence (α = 0.05) |
+| z | 1.645 | critical value for 90% confidence (α = 0.10) |
 
-n = 225 (first case) or n = 100 (second case): sample size
+```
+SE = σ / √n
+CI = x̄ ± z × SE
+```
 
-z = 1.96: critical value for 95% confidence
+### Standard errors
 
-z = 1.645: critical value for 90% confidence
+n = 225: SE = 3 / √225 = 3 / 15 = 0.2
 
-**Formula:**
+n = 100: SE = 3 / √100 = 3 / 10 = 0.3
 
-CI = x̄ ± z × (σ / √n)
+### a) n = 225, 95% confidence
 
-### Sample size 225
-
-**Step 1: Standard error**
-
-SE = 3 / √225 = 3 / 15 = 0.2
-
-**95% confidence**
-
-Step 1: Apply the given in the formula
+**Substitute**
 
 CI = 12 ± 1.96 × 0.2
 
-Step 2: Continue solving
+**Solve**
 
 CI = 12 ± 0.392
 
-CI = **(11.61, 12.39)**
+**Answer:** **(11.61, 12.39)**
 
-**90% confidence**
+### b) n = 225, 90% confidence
 
-Step 1: Apply the given in the formula
+**Substitute**
 
 CI = 12 ± 1.645 × 0.2
 
-Step 2: Continue solving
+**Solve**
 
 CI = 12 ± 0.329
 
-CI = **(11.67, 12.33)**
+**Answer:** **(11.67, 12.33)**
 
-### Sample size 100
+### c) n = 100, 95% confidence
 
-**Step 1: Standard error**
-
-SE = 3 / √100 = 3 / 10 = 0.3
-
-**95% confidence**
-
-Step 1: Apply the given in the formula
+**Substitute**
 
 CI = 12 ± 1.96 × 0.3
 
-Step 2: Continue solving
+**Solve**
 
 CI = 12 ± 0.588
 
-CI = **(11.41, 12.59)**
+**Answer:** **(11.41, 12.59)**
 
-**90% confidence**
+### d) n = 100, 90% confidence
 
-Step 1: Apply the given in the formula
+**Substitute**
 
 CI = 12 ± 1.645 × 0.3
 
-Step 2: Continue solving
+**Solve**
 
 CI = 12 ± 0.494
 
-CI = **(11.51, 12.49)**
+**Answer:** **(11.51, 12.49)**
+
+### Summary
+
+| Sample size | Confidence | Margin of error | Interval | Width |
+|---|---|---|---|---|
+| 225 | 95% | 0.39 | (11.61, 12.39) | 0.78 |
+| 225 | 90% | 0.33 | (11.67, 12.33) | 0.66 |
+| 100 | 95% | 0.59 | (11.41, 12.59) | 1.18 |
+| 100 | 90% | 0.49 | (11.51, 12.49) | 0.99 |
 
 A smaller sample gives a wider interval, and a higher confidence level gives a wider interval.
 
@@ -649,68 +681,63 @@ A smaller sample gives a wider interval, and a higher confidence level gives a w
 
 ## Exercise 12 – Hypothesis Test of Average A/R Balance
 
-**Given:**
+> An auditor wants to test the claim that the average A/R balance is $755. A random sample of 49 accounts is examined and found to have a mean of $730 and a standard deviation of $58. Should the auditor's claim be accepted or rejected
+>
+> a\) At the 5% significance level?
+>
+> b\) At the 1% significance level?
 
-H0: μ = 755: claimed average A/R balance (null hypothesis)
+**Given**
 
-Ha: μ ≠ 755: the average is different from the claim
+| Term | Value | Meaning |
+|----|----|------------|
+| H₀ | μ = 755 | null hypothesis: the claimed average A/R balance |
+| Hₐ | μ ≠ 755 | alternative hypothesis: the average differs from the claim |
+| n | 49 | accounts sampled |
+| x̄ | 730 | sample mean |
+| s | 58 | sample standard deviation (estimates σ, since n ≥ 30) |
+| IC | 1.96 | interval coefficient for 95% confidence (α = 0.05) |
+| IC | 2.58 | interval coefficient for 99% confidence (α = 0.01) |
 
-n = 49: number of accounts sampled
-
-x̄ = 730: sample mean
-
-s = 58: sample standard deviation (used to estimate σ, since n ≥ 30)
-
-IC = 1.96: interval coefficient for 95% confidence (5% significance level)
-
-IC = 2.58: interval coefficient for 99% confidence (1% significance level)
-
-**Formula:**
-
+```
 SE = s / √n
-
+z = (x̄ − μ) / SE
 Critical values = μ ± IC × SE
+Reject H₀ if x̄ falls outside the critical values (equivalently, if |z| > IC)
+```
 
-Reject H0 if x̄ falls outside the critical values.
+### Standard error and test statistic
 
-**Step 1: Standard error**
+SE = 58 / √49 = 58 / 7 = 8.286
 
-SE = 58 / √49
+z = (730 − 755) / 8.286 = −25 / 8.286 = −3.02
 
-SE = 58 / 7
+### a) 5% significance level (α = 0.05)
 
-SE = 8.286
-
-### a) 5% significance level
-
-**Step 1: Apply the given in the formula**
+**Substitute**
 
 Critical values = 755 ± 1.96 × 8.286
 
-**Step 2: Continue solving**
+**Solve**
 
 Critical values = 755 ± 16.24
 
-WC1 = 738.76 and WC2 = 771.24
+Lower critical value = 738.76, upper critical value = 771.24
 
-x̄ = 730 is outside the interval (738.76, 771.24)
+**Answer:** **Reject H₀.** x̄ = 730 is below the lower critical value of 738.76 (equivalently, |z| = 3.02 > 1.96).
 
-**Answer: Reject** the claim at the 5% level.
+### b) 1% significance level (α = 0.01)
 
-### b) 1% significance level
-
-**Step 1: Apply the given in the formula**
+**Substitute**
 
 Critical values = 755 ± 2.58 × 8.286
 
-**Step 2: Continue solving**
+**Solve**
 
 Critical values = 755 ± 21.38
 
-WC1 = 733.62 and WC2 = 776.38
+Lower critical value = 733.62, upper critical value = 776.38
 
-x̄ = 730 is outside the interval (733.62, 776.38)
-
-**Answer: Reject** the claim at the 1% level.
+**Answer:** **Reject H₀.** x̄ = 730 is below the lower critical value of 733.62 (equivalently, |z| = 3.02 > 2.58).
 
 **Conclusion:** The auditor's claim that the average A/R balance is $755 should be rejected at both the 5% and the 1% significance levels.
