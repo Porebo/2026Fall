@@ -1,0 +1,22 @@
+Subject: Request to serve on my master's project committee (Information Science)
+
+Dear Professor [Last Name],
+
+I am writing to ask if you would consider serving on my master's project committee. I would like to share a little about the path that brought me here and why this work matters to me.
+
+During twenty years as a geology technician in oil and gas, I worked alongside people who knew their work deeply. Yet I often saw how difficult it was to carry that knowledge beyond their immediate teams. Someone could understand a problem clearly, but helping another person understand it well enough to make a decision was a different challenge.
+
+That challenge stayed with me, and I went looking for the skills to meet it. My studies in geology gave me the technical foundation for my trade. In Rhetoric and Writing, I learned the formal habits of technical expression, how to state complex ideas clearly and precisely in writing. In my Certificate in Business Analytics, I learned object-oriented programming in Java and C#, and how to extract data from databases with precision using SQL. Those steps, together with a Data Science Graduate Certificate, led me to the MS in Information Science program, where I focus on extracting data and expressing ideas through data visualization. Throughout, I have wanted to make complex information more understandable and trustworthy. That same interest now motivates my plans for PhD study in information quality, where I hope to learn the formal methods for transforming data into valuable information products.
+
+My master's project focuses on people I know well: the data workers who keep reports running, maintain older workflows, and use SQL to answer the questions their organizations depend on. Many are curious about generative AI, but they need more than a convincing answer on a screen. They need to know when that answer deserves their trust. Their managers need evidence, too.
+
+In my research project, I am exploring one concrete part of that question: whether AI can safely correct data quality errors. In my literature review, I discovered that much of the existing work on AI and data quality relies on specialized, laboratory-style setups. I am building on that work without repeating it, by asking what happens with off-the-shelf, publicly available LLMs that data workers can use without specialized infrastructure or costly subscriptions. Using public California oil-production data, I introduce documented errors and evaluate four common prompting strategies. I measure what each strategy corrects, what it misses, and whether it changes data that was already valid. I repeat the experiment several times to confirm that the results are consistent and not a matter of chance, since an AI can give different answers to the same request. My hope is to give workers and managers practical evidence they can use when deciding how to bring these tools into their work. I am glad to send a short summary of the project if that would help.
+
+Dr. Ningning Wu is advising the project. For this semester, I am asking only for your agreement to serve on the committee. In the spring semester, once the analysis is complete, I would share the project report for your review and request your participation in my final defense presentation.
+
+If you are able to let me know by November 20, 2026, I would be grateful. I understand if the timing does not work, and I appreciate your considering this invitation. This research grows from questions I have carried from the workplace into graduate school, and I would value your perspective as I work toward answering them.
+
+Best regards,
+
+Lester S. Carcamo
+Master's Student, Information Science
