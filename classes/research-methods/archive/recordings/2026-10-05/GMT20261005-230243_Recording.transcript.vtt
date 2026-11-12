@@ -1,0 +1,2798 @@
+WEBVTT
+
+1
+00:00:03.580 --> 00:00:07.649
+Serhan Dagtas: Alright, hello and welcome to today's class, folks.
+
+2
+00:00:11.010 --> 00:00:19.750
+Serhan Dagtas: Share my screen, and in the meantime, if there are any questions… You have for me, but…
+
+3
+00:00:22.500 --> 00:00:27.190
+Serhan Dagtas: Our class last week or what we're going to do today, let me know.
+
+4
+00:00:31.310 --> 00:00:36.659
+Serhan Dagtas: I do still have a call, unfortunately, which may affect the
+
+5
+00:00:37.100 --> 00:00:41.640
+Serhan Dagtas: voice quality a little bit today, I'll try to… the…
+
+6
+00:00:41.830 --> 00:00:44.219
+Serhan Dagtas: I'll fit this as much as I can.
+
+7
+00:00:46.000 --> 00:00:55.860
+Serhan Dagtas: And, but… We are scheduled to do another shorter session today to complete what we started last week.
+
+8
+00:00:56.150 --> 00:01:02.570
+Serhan Dagtas: It's part of our discussion of survey research and survey data collection techniques.
+
+9
+00:01:03.750 --> 00:01:10.660
+Serhan Dagtas: And we made some introduction to some of the main concepts last week about this.
+
+10
+00:01:11.070 --> 00:01:14.060
+Serhan Dagtas: And we had some reading assignments.
+
+11
+00:01:15.510 --> 00:01:25.289
+Serhan Dagtas: And some other work to do, and we went through the next assignment that you are expected to do, which is going to be due next week, a week from today.
+
+12
+00:01:25.460 --> 00:01:29.580
+Serhan Dagtas: So this gives us some time to do this transition as well as to.
+
+13
+00:01:31.770 --> 00:01:34.050
+Serhan Dagtas: Make an introduction.
+
+14
+00:01:34.770 --> 00:01:42.870
+Serhan Dagtas: The main concepts regarding the survey design and collecting data and which we're going to.
+
+15
+00:01:43.680 --> 00:01:49.649
+Serhan Dagtas: Kind of use, as part of the analysis techniques in a couple of weeks time.
+
+16
+00:01:50.450 --> 00:01:58.019
+Serhan Dagtas: So we are focusing on data collection techniques and in particular using different survey methods.
+
+17
+00:01:58.520 --> 00:02:04.729
+Serhan Dagtas: And we discussed some key points last time, some advantages and disadvantages.
+
+18
+00:02:05.080 --> 00:02:09.400
+Serhan Dagtas: So we're going to get a bit deeper into some of these concepts today.
+
+19
+00:02:09.780 --> 00:02:13.759
+Serhan Dagtas: Analyze them in more detail and also see some,
+
+20
+00:02:14.340 --> 00:02:16.270
+Serhan Dagtas: Some working examples.
+
+21
+00:02:16.520 --> 00:02:23.669
+Serhan Dagtas: And be able to also examine them and maybe evaluate them from your perspectives.
+
+22
+00:02:23.800 --> 00:02:31.620
+Serhan Dagtas: Which should set you up nicely for the assignment that you're going to do on Study design.
+
+23
+00:02:32.730 --> 00:02:37.120
+Serhan Dagtas: We did discuss this briefly last time and we can go with that again.
+
+24
+00:02:37.730 --> 00:02:39.420
+Serhan Dagtas: Today as well.
+
+25
+00:02:40.700 --> 00:02:45.419
+Serhan Dagtas: Any questions or concerns or suggestions?
+
+26
+00:02:46.420 --> 00:02:48.500
+Serhan Dagtas: I'm… Welcome.
+
+27
+00:02:49.150 --> 00:02:55.000
+Serhan Dagtas: You should be able to see the shared screen, so we're going through some of the…
+
+28
+00:02:55.140 --> 00:03:03.750
+Serhan Dagtas: Class materials here, and there's some reading material that was assigned to you before, so hopefully you have gone through them.
+
+29
+00:03:04.640 --> 00:03:12.590
+Serhan Dagtas: And we can have maybe a bit more interactive discussions today with some feedback from you and some inputs as well.
+
+30
+00:03:12.800 --> 00:03:19.200
+Serhan Dagtas: Regarding the examples that we will be doing, so let's go through some of these.
+
+31
+00:03:19.370 --> 00:03:28.570
+Serhan Dagtas: Real quick, we did discuss this, in more detail last time, the sampling methods as, as the first,
+
+32
+00:03:30.260 --> 00:03:32.870
+Serhan Dagtas: Topic of surveying methods.
+
+33
+00:03:34.150 --> 00:03:44.070
+Serhan Dagtas: Obviously, when you collect data, you, you, in most cases, for practical reasons, you, there is no way you can cover the entire set of
+
+34
+00:03:44.280 --> 00:03:50.780
+Serhan Dagtas: Possible data, so sampling, whether it's for, you know, sampling in population or sampling.
+
+35
+00:03:50.960 --> 00:03:54.720
+Serhan Dagtas: On on data that that you're trying to collect and evaluate.
+
+36
+00:03:55.160 --> 00:03:57.839
+Serhan Dagtas: Is a way of reducing.
+
+37
+00:03:58.250 --> 00:03:59.830
+Serhan Dagtas: The data size.
+
+38
+00:04:00.430 --> 00:04:03.930
+Serhan Dagtas: To a more reasonable and feasible.
+
+39
+00:04:04.150 --> 00:04:08.050
+Serhan Dagtas: Point while maintaining the statistical.
+
+40
+00:04:08.690 --> 00:04:20.479
+Serhan Dagtas: Of, significance in terms of the sample that you're working with being representative of the entire data set or the entire population.
+
+41
+00:04:21.670 --> 00:04:24.450
+Serhan Dagtas: As good as possible.
+
+42
+00:04:24.560 --> 00:04:27.739
+Serhan Dagtas: So there, we discussed some
+
+43
+00:04:29.640 --> 00:04:34.710
+Serhan Dagtas: Techniques or approaches, possible approaches briefly last time.
+
+44
+00:04:35.060 --> 00:04:43.990
+Serhan Dagtas: You can simply use random sampling, hoping that the randomness of your sampling method will give you the best representation.
+
+45
+00:04:44.660 --> 00:04:49.799
+Serhan Dagtas: Of your sample, for the, for the entire data set.
+
+46
+00:04:50.640 --> 00:04:52.310
+Serhan Dagtas: And.
+
+47
+00:04:52.570 --> 00:04:53.440
+Serhan Dagtas: Okay.
+
+48
+00:04:53.820 --> 00:04:57.660
+Serhan Dagtas: You can use also systematic sampling and using.
+
+49
+00:04:57.800 --> 00:04:59.910
+Serhan Dagtas: Set intervals.
+
+50
+00:05:07.710 --> 00:05:10.979
+Serhan Dagtas: And also combinations of the different,
+
+51
+00:05:11.770 --> 00:05:13.560
+Serhan Dagtas: Techniques that could.
+
+52
+00:05:13.820 --> 00:05:17.500
+Serhan Dagtas: grouping sample data.
+
+53
+00:05:22.090 --> 00:05:27.129
+Serhan Dagtas: And using random sampling techniques within each group.
+
+54
+00:05:28.170 --> 00:05:40.219
+Serhan Dagtas: form clusters or use multi-stage sampling, which we discussed last time, so we will not repeat everything, but the sampling methods can also be implemented as non-probability.
+
+55
+00:05:40.730 --> 00:05:44.969
+Serhan Dagtas: Sampling methods. So once you have a reasonable.
+
+56
+00:05:45.490 --> 00:05:47.990
+Serhan Dagtas: Body of data to work with.
+
+57
+00:05:48.650 --> 00:05:52.559
+Serhan Dagtas: You can basically just target that sample.
+
+58
+00:05:54.110 --> 00:05:55.610
+Serhan Dagtas: Boop.
+
+59
+00:05:56.310 --> 00:06:02.429
+Serhan Dagtas: And start collecting data or start your evaluation purpose of the process.
+
+60
+00:06:02.670 --> 00:06:08.830
+Serhan Dagtas: And we talked about the Interviewing as one of the.
+
+61
+00:06:08.930 --> 00:06:13.509
+Serhan Dagtas: Possible techniques when it comes to especially human subject, obviously.
+
+62
+00:06:15.410 --> 00:06:18.629
+Serhan Dagtas: And we did discuss some of the interviewing.
+
+63
+00:06:19.120 --> 00:06:21.829
+Serhan Dagtas: Related concepts last time too.
+
+64
+00:06:22.240 --> 00:06:29.869
+Serhan Dagtas: Let me just also hear from you folks if there is any questions or any comments regarding this.
+
+65
+00:06:30.230 --> 00:06:39.979
+Serhan Dagtas: Based on your findings and also your background reading, would you like to cover any of these topics in more detail or less?
+
+66
+00:06:40.890 --> 00:06:44.979
+Serhan Dagtas: We are going to go through some survey data.
+
+67
+00:06:45.170 --> 00:06:49.309
+Serhan Dagtas: examples and discuss those those more in more detail.
+
+68
+00:06:49.730 --> 00:06:51.289
+Serhan Dagtas: And
+
+69
+00:06:52.060 --> 00:06:58.999
+Serhan Dagtas: Which will take us to our assignment for this part of the class at the end of the session today.
+
+70
+00:06:59.780 --> 00:07:04.230
+Serhan Dagtas: But when the human subjects are, are, are involved.
+
+71
+00:07:06.150 --> 00:07:12.920
+Serhan Dagtas: Interviewing, of course, is one of the main points, key points, the key methods.
+
+72
+00:07:13.530 --> 00:07:18.789
+Serhan Dagtas: In collecting data, survey data from the sample,
+
+73
+00:07:19.150 --> 00:07:22.950
+Serhan Dagtas: or the target population that.
+
+74
+00:07:23.180 --> 00:07:24.130
+Serhan Dagtas: We have.
+
+75
+00:07:28.440 --> 00:07:39.610
+Serhan Dagtas: Once you start, you want to choose this, you choose this method and start the interview process. Of course, there are some expectations of the interviewer as well.
+
+76
+00:07:40.000 --> 00:07:49.960
+Serhan Dagtas: The interviewer that conducts the interactive interviewing process is supposed to be knowledgeable about the subject.
+
+77
+00:07:50.960 --> 00:07:55.570
+Serhan Dagtas: And then… The… Interview.
+
+78
+00:07:57.250 --> 00:07:58.410
+Serhan Dagtas: Process.
+
+79
+00:07:58.910 --> 00:08:00.960
+Serhan Dagtas: Should be kept.
+
+80
+00:08:01.410 --> 00:08:05.159
+Serhan Dagtas: Structured and well guided by this interviewer.
+
+81
+00:08:07.080 --> 00:08:14.359
+Serhan Dagtas: And, the interviewer is supposed to be able to record the responses by the interviewees and,
+
+82
+00:08:14.600 --> 00:08:17.730
+Serhan Dagtas: And later be able to analyze them obviously.
+
+83
+00:08:17.840 --> 00:08:18.780
+Serhan Dagtas: And.
+
+84
+00:08:19.290 --> 00:08:25.119
+Serhan Dagtas: And then the interviewer should be aware of the interviewee's position.
+
+85
+00:08:25.750 --> 00:08:30.930
+Serhan Dagtas: And their rights, and this is especially relevant when human subjects are involved.
+
+86
+00:08:31.200 --> 00:08:34.130
+Serhan Dagtas: And we will discuss some of those.
+
+87
+00:08:34.780 --> 00:08:36.180
+Serhan Dagtas: Aspects.
+
+88
+00:08:37.590 --> 00:08:44.059
+Serhan Dagtas: As our, as part of our discussion next week when we discuss IRP and related topics.
+
+89
+00:08:47.890 --> 00:08:55.180
+Serhan Dagtas: We did go through some of these tips to be used in preparation for an interview.
+
+90
+00:08:55.800 --> 00:08:59.789
+Serhan Dagtas: And, also preparing the questions.
+
+91
+00:09:00.160 --> 00:09:01.789
+Serhan Dagtas: Or an effective.
+
+92
+00:09:02.680 --> 00:09:04.610
+Serhan Dagtas: Interviewing process.
+
+93
+00:09:06.030 --> 00:09:11.909
+Serhan Dagtas: Many of these topics are relevant to the surveys as well as the interviews.
+
+94
+00:09:12.140 --> 00:09:19.850
+Serhan Dagtas: There are some differences in the case of interviews. Obviously, these can be more interactive.
+
+95
+00:09:20.090 --> 00:09:26.179
+Serhan Dagtas: An adaptive… So, in addition to the,
+
+96
+00:09:26.610 --> 00:09:30.049
+Serhan Dagtas: The preparation process for the questions.
+
+97
+00:09:30.560 --> 00:09:38.820
+Serhan Dagtas: And the… Key points to keep in mind as part of that process, you also, as an interviewer.
+
+98
+00:09:39.040 --> 00:09:53.000
+Serhan Dagtas: and need to be prepared for any deviations as well as any interactive processes and And outcomes.
+
+99
+00:09:53.250 --> 00:09:55.190
+Serhan Dagtas: During the interview.
+
+100
+00:09:58.010 --> 00:09:59.669
+Serhan Dagtas: So, you want to…
+
+101
+00:10:09.110 --> 00:10:12.900
+Serhan Dagtas: Have a good balance of open-ended and close-ended questions.
+
+102
+00:10:13.210 --> 00:10:15.500
+Serhan Dagtas: And and.
+
+103
+00:10:15.750 --> 00:10:17.869
+Serhan Dagtas: The questions should also.
+
+104
+00:10:19.410 --> 00:10:25.499
+Serhan Dagtas: Be directed at the individual experience of the interviewee being interviewed.
+
+105
+00:10:28.010 --> 00:10:34.999
+Serhan Dagtas: And there should be minimal bias in the questions and the interviewing process.
+
+106
+00:10:35.260 --> 00:10:40.500
+Serhan Dagtas: So not to lead the interviewee towards a particular response. This will, of course, affect
+
+107
+00:10:40.800 --> 00:10:48.189
+Serhan Dagtas: The significance and the reliability of your of the of your of the data that you collect as part of your.
+
+108
+00:10:48.500 --> 00:10:50.119
+Serhan Dagtas: Interview.
+
+109
+00:10:50.800 --> 00:10:54.000
+Serhan Dagtas: We want to minimize the possible bias.
+
+110
+00:10:55.050 --> 00:11:04.729
+Serhan Dagtas: And then… Your questions should be focused and address only a particular single issue and point.
+
+111
+00:11:04.940 --> 00:11:11.430
+Serhan Dagtas: Things like double barrel questions that we discussed last time or similar situations should be avoided.
+
+112
+00:11:11.610 --> 00:11:16.050
+Serhan Dagtas: And that may cause ambiguity in both the questions.
+
+113
+00:11:16.240 --> 00:11:20.929
+Serhan Dagtas: And also the responses or the answers that you may get.
+
+114
+00:11:22.070 --> 00:11:23.230
+Serhan Dagtas: Okay.
+
+115
+00:11:23.590 --> 00:11:24.909
+Serhan Dagtas: As a result.
+
+116
+00:11:31.260 --> 00:11:35.530
+Serhan Dagtas: Some suggestions about the preparation.
+
+117
+00:11:36.010 --> 00:11:39.999
+Serhan Dagtas: And writing the off and writing interview questions.
+
+118
+00:11:45.580 --> 00:11:53.360
+Serhan Dagtas: Start with the broad areas that are that will be relevant to the interviewing process or what major questions.
+
+119
+00:11:55.040 --> 00:12:05.760
+Serhan Dagtas: you are trying to ask and get answered as part of this process. And then for each of one of those larger areas, the main goals, basically.
+
+120
+00:12:06.100 --> 00:12:12.299
+Serhan Dagtas: You would develop some questions within that space that may lead to.
+
+121
+00:12:13.040 --> 00:12:17.020
+Serhan Dagtas: Or feed into those larger research questions.
+
+122
+00:12:21.530 --> 00:12:24.330
+Serhan Dagtas: And you may want to customize or adjust.
+
+123
+00:12:24.480 --> 00:12:37.170
+Serhan Dagtas: The language and style of your questions according to the respondent, their background, their knowledge of the material, their obviously characteristics like age, gender, profession.
+
+124
+00:12:37.640 --> 00:12:44.070
+Serhan Dagtas: And things like that. And of course, also the cultural aspects should be taken into account.
+
+125
+00:12:46.410 --> 00:12:47.250
+Serhan Dagtas: Okay.
+
+126
+00:12:49.070 --> 00:12:54.630
+Serhan Dagtas: And the questions should be encouraging, you know, the
+
+127
+00:12:54.940 --> 00:12:59.400
+Serhan Dagtas: Honest and open responses as much as possible from.
+
+128
+00:12:59.550 --> 00:13:01.830
+Serhan Dagtas: The interviewees.
+
+129
+00:13:03.400 --> 00:13:08.559
+Serhan Dagtas: Not by avoiding any sensitivities that may actually.
+
+130
+00:13:08.700 --> 00:13:14.629
+Serhan Dagtas: Prevent them from being open and honest in responding to questions.
+
+131
+00:13:19.610 --> 00:13:25.349
+Serhan Dagtas: Why questions or open-ended questions that relate to opinions.
+
+132
+00:13:25.450 --> 00:13:28.219
+Serhan Dagtas: And subjective responses.
+
+133
+00:13:28.360 --> 00:13:36.090
+Serhan Dagtas: Are generally not considered as good survey or interview questions, so this is one of the issues to keep in mind.
+
+134
+00:13:36.250 --> 00:13:42.809
+Serhan Dagtas: And be more specific and prefer how questions rather than why questions.
+
+135
+00:13:43.450 --> 00:13:45.529
+Serhan Dagtas: Is another good advice.
+
+136
+00:13:46.090 --> 00:13:47.060
+Serhan Dagtas: And.
+
+137
+00:13:47.470 --> 00:13:58.600
+Serhan Dagtas: the… Questions should welcome detailed and elaborate responses from The respondents.
+
+138
+00:13:59.030 --> 00:14:02.710
+Serhan Dagtas: Rather than simple yes or no questions.
+
+139
+00:14:03.000 --> 00:14:18.950
+Serhan Dagtas: Or things that will leave the response ambiguous, which will reduce the validity and the value of your interview process in addressing the research problem you begin with.
+
+140
+00:14:19.110 --> 00:14:19.820
+Serhan Dagtas: Hmm.
+
+141
+00:14:22.070 --> 00:14:33.339
+Serhan Dagtas: Warm up, starting the interview, especially when a human subject is involved with a warm-up question, of course, is always a good idea that,
+
+142
+00:14:33.530 --> 00:14:39.239
+Serhan Dagtas: Provide a more positive and responsive atmosphere to continue the interview process.
+
+143
+00:14:39.530 --> 00:14:45.350
+Serhan Dagtas: The order of questions is also important, there should be some logical flow.
+
+144
+00:14:45.460 --> 00:14:51.560
+Serhan Dagtas: The right order, this will depend on the specific goal.
+
+145
+00:14:52.120 --> 00:14:55.650
+Serhan Dagtas: And the nature of the interview that you, you are conducting.
+
+146
+00:14:58.610 --> 00:15:01.069
+Serhan Dagtas: And any issues that may.
+
+147
+00:15:02.120 --> 00:15:12.140
+Serhan Dagtas: Raise questions or that may touch some sensitive issues or that may raise objections from the interviewee should be.
+
+148
+00:15:13.570 --> 00:15:14.570
+Serhan Dagtas: Left.
+
+149
+00:15:14.860 --> 00:15:19.010
+Serhan Dagtas: Till the end, so the, the interview is,
+
+150
+00:15:21.090 --> 00:15:29.180
+Serhan Dagtas: Psychology can will not basically affect the the responses to the other questions that can be answered.
+
+151
+00:15:29.550 --> 00:15:32.100
+Serhan Dagtas: More accurately,
+
+152
+00:15:32.990 --> 00:15:35.060
+Serhan Dagtas: With the neutral mindsets.
+
+153
+00:15:37.020 --> 00:15:48.580
+Serhan Dagtas: And just like the warm-up questions to start the interview, the last question can have some kind of a closure for the interview. It could be also a question about their
+
+154
+00:15:48.770 --> 00:15:54.159
+Serhan Dagtas: Their evaluation of the interview process or the interviewer.
+
+155
+00:15:54.350 --> 00:16:00.280
+Serhan Dagtas: Or their opinion or feedback about the process or.
+
+156
+00:16:00.660 --> 00:16:06.019
+Serhan Dagtas: Or a question that will leave them with some kind of a satisfaction.
+
+157
+00:16:06.290 --> 00:16:11.070
+Serhan Dagtas: About participating in this interview process.
+
+158
+00:16:12.330 --> 00:16:19.690
+Serhan Dagtas: You want to record and document the responses of The interior obviously.
+
+159
+00:16:20.360 --> 00:16:22.150
+Serhan Dagtas: And there
+
+160
+00:16:22.580 --> 00:16:31.649
+Serhan Dagtas: Different techniques for that, in addition to the classical methods of taking notes by the interviewer.
+
+161
+00:16:31.750 --> 00:16:38.650
+Serhan Dagtas: Using technology for not just recording the, the, the audio or
+
+162
+00:16:39.190 --> 00:16:43.270
+Serhan Dagtas: Media tracks that can help in, basically.
+
+163
+00:16:43.510 --> 00:16:51.190
+Serhan Dagtas: Transcribing the text, as well as summarizing them, and even analyzing them, so different.
+
+164
+00:16:51.460 --> 00:16:59.809
+Serhan Dagtas: AI-supported techniques, like some of those examples I've mentioned here, and there are many more also available online.
+
+165
+00:17:00.050 --> 00:17:02.740
+Serhan Dagtas: Can help, with that process.
+
+166
+00:17:04.220 --> 00:17:18.980
+Serhan Dagtas: So this will, of course, all depend on the nature and the type of the research and the interview. Some interviews may need to be recorded for various reasons, technical as well as maybe legal or ethical.
+
+167
+00:17:19.240 --> 00:17:20.899
+Serhan Dagtas: Some may not be.
+
+168
+00:17:21.020 --> 00:17:25.440
+Serhan Dagtas: Might not provide this option if you, especially if you don't have.
+
+169
+00:17:25.849 --> 00:17:32.609
+Serhan Dagtas: And, approval, from, the person being interviewed.
+
+170
+00:17:32.740 --> 00:17:40.300
+Serhan Dagtas: But when you can, the recording process can obviously help you capture.
+
+171
+00:17:40.700 --> 00:17:44.409
+Serhan Dagtas: And document the details of their responses.
+
+172
+00:17:44.820 --> 00:17:52.310
+Serhan Dagtas: They can help you examine the interview responses at a later point more thoroughly.
+
+173
+00:17:53.000 --> 00:17:57.680
+Serhan Dagtas: And of course, the interim results can be
+
+174
+00:17:58.050 --> 00:18:01.680
+Serhan Dagtas: Made available to other researchers for further analysis.
+
+175
+00:18:05.640 --> 00:18:13.400
+Serhan Dagtas: This may also raise some objections and cause issues with some interviewees, potentially.
+
+176
+00:18:13.600 --> 00:18:25.650
+Serhan Dagtas: Gaining their approval, of course, is a must in any case, but you may also want to explain this situation and the reasons for recording this before simply asking.
+
+177
+00:18:25.770 --> 00:18:30.729
+Serhan Dagtas: And to approve or disapprove the recording process.
+
+178
+00:18:32.740 --> 00:18:33.880
+Oluwakemi Temitope Olayinka: No, it's not tough.
+
+179
+00:18:35.540 --> 00:18:36.470
+Serhan Dagtas: Yes.
+
+180
+00:18:37.400 --> 00:18:43.539
+Oluwakemi Temitope Olayinka: Okay, I have a question on number six of this, where it talks about probing.
+
+181
+00:18:44.000 --> 00:18:51.650
+Oluwakemi Temitope Olayinka: So I'm curious, like, what if a participant gives you a short answer?
+
+182
+00:18:51.670 --> 00:19:05.419
+Oluwakemi Temitope Olayinka: Like, to what extent do you want to go as the interviewer to probe, like, in terms of probing the interviewer without having to, like, influencing a response that will not help your study?
+
+183
+00:19:07.870 --> 00:19:12.989
+Serhan Dagtas: Obviously probing is intended to, the.
+
+184
+00:19:13.920 --> 00:19:16.400
+Serhan Dagtas: To basically draw more details.
+
+185
+00:19:16.760 --> 00:19:25.549
+Serhan Dagtas: and to give the interviewee an opportunity to provide more details and more elaboration about the response.
+
+186
+00:19:25.820 --> 00:19:34.539
+Serhan Dagtas: So the, the, the probing may or may not be necessary or beneficial, but if their response.
+
+187
+00:19:35.640 --> 00:19:37.629
+Serhan Dagtas: It does not…
+
+188
+00:19:38.300 --> 00:19:51.139
+Serhan Dagtas: sound or provide the the enough detail that you may need for for analysis of their response, or including their response in in your further analysis.
+
+189
+00:19:51.520 --> 00:19:59.060
+Serhan Dagtas: Then, obviously, that's one of the advantages of using the interviewing process. You have the option of probing and
+
+190
+00:19:59.480 --> 00:20:02.920
+Serhan Dagtas: And, inviting further detail.
+
+191
+00:20:03.100 --> 00:20:12.749
+Serhan Dagtas: two key questions. Obviously, this should be done only at the relevant level. You don't want to just get unnecessary details.
+
+192
+00:20:13.160 --> 00:20:17.440
+Serhan Dagtas: And also, you don't want to waste time.
+
+193
+00:20:17.690 --> 00:20:31.969
+Serhan Dagtas: Or the energy of the interview. It depends on what stage you're at in your interview. So that's also a good point to raise. The questions that may potentially need further probing.
+
+194
+00:20:32.280 --> 00:20:39.299
+Serhan Dagtas: should also… Possibly be saved towards the end of the process, so you can adjust.
+
+195
+00:20:39.600 --> 00:20:47.310
+Serhan Dagtas: And decide for the level of probing and, and inviting more details.
+
+196
+00:20:47.520 --> 00:20:54.799
+Serhan Dagtas: About their responses depending on also the time schedule and the responses to any prior questions.
+
+197
+00:20:56.350 --> 00:20:59.309
+Serhan Dagtas: Does this answer your question? Do you want to ask?
+
+198
+00:20:59.310 --> 00:21:01.789
+Oluwakemi Temitope Olayinka: Yes, it does. It does. Thank you.
+
+199
+00:21:01.790 --> 00:21:03.300
+Serhan Dagtas: All right.
+
+200
+00:21:03.610 --> 00:21:17.800
+Serhan Dagtas: So this was about the interviewing process. There's good reading material here, and there's also some links, if you have noticed, for further reading, when you… if you go to this page.
+
+201
+00:21:19.090 --> 00:21:23.629
+Serhan Dagtas: For example, strategies for qualitative interviews.
+
+202
+00:21:23.900 --> 00:21:42.070
+Serhan Dagtas: also provides some more details. So we're not going to discuss every single point here in the class. But if you have not already, please go to this page for sure, and use some of these links for further reading and information, some examples.
+
+203
+00:21:42.250 --> 00:21:43.210
+Serhan Dagtas: Oh.
+
+204
+00:21:43.400 --> 00:21:52.139
+Serhan Dagtas: Or AI-based transcription techniques are provided here. And there are many more, of course. You can also find those by other.
+
+205
+00:21:52.320 --> 00:21:55.630
+Serhan Dagtas: and Methods
+
+206
+00:21:55.810 --> 00:21:59.589
+Serhan Dagtas: But this basically gives us a good idea about the
+
+207
+00:21:59.900 --> 00:22:03.050
+Serhan Dagtas: Interleaving technique as one of the.
+
+208
+00:22:06.340 --> 00:22:08.669
+Serhan Dagtas: Survey research methods.
+
+209
+00:22:08.670 --> 00:22:11.009
+Craig Nunemaker: I have a question. This is Craig.
+
+210
+00:22:11.480 --> 00:22:12.710
+Serhan Dagtas: Yes, go ahead.
+
+211
+00:22:13.040 --> 00:22:20.390
+Craig Nunemaker: So when I'm looking like especially at the interviews, you know, I have a couple of, two questions really that are kind of related.
+
+212
+00:22:20.510 --> 00:22:32.920
+Craig Nunemaker: We'll look at the interviews. We'll talk about structured versus unstructured in the text. It kind of looks like it's a qualitative and quantitative in this slide right here that you're showing.
+
+213
+00:22:33.030 --> 00:22:46.830
+Craig Nunemaker: When we structure our interviews, we prepare all the questions ahead of time, right? So it's got a nice structure as far as these are the questions we're going to ask. Am I correct in that understanding?
+
+214
+00:22:47.720 --> 00:22:50.029
+Serhan Dagtas: That's right in general. That's correct, yeah.
+
+215
+00:22:50.900 --> 00:23:02.180
+Craig Nunemaker: And, and, and, and because we're still in the, we're still in the research proposal stage of our methodology, correct?
+
+216
+00:23:02.510 --> 00:23:08.699
+Craig Nunemaker: So, when I… when I design these questions, should that be part of my research proposal?
+
+217
+00:23:12.420 --> 00:23:16.560
+Serhan Dagtas: That's part of the implementation.
+
+218
+00:23:16.710 --> 00:23:17.300
+Serhan Dagtas: Oh.
+
+219
+00:23:17.300 --> 00:23:18.259
+Craig Nunemaker: Thank you, Susan.
+
+220
+00:23:18.600 --> 00:23:25.879
+Craig Nunemaker: The questions themselves don't need to be in my, like the questions themselves does not need to be in my proposal.
+
+221
+00:23:27.220 --> 00:23:27.930
+Serhan Dagtas: Oh.
+
+222
+00:23:28.770 --> 00:23:36.440
+Serhan Dagtas: Yeah, what… what… It's actually your research proposal, will
+
+223
+00:23:36.980 --> 00:23:40.529
+Serhan Dagtas: Pose a research question that you're trying to answer.
+
+224
+00:23:40.870 --> 00:23:44.369
+Serhan Dagtas: And as you discuss the methods.
+
+225
+00:23:44.500 --> 00:23:47.729
+Serhan Dagtas: To implement your research plan.
+
+226
+00:23:50.700 --> 00:23:53.970
+Serhan Dagtas: In the case of the structure.
+
+227
+00:23:54.200 --> 00:23:59.510
+Serhan Dagtas: Interviewing process, you do need to have a set of questions in place.
+
+228
+00:24:01.910 --> 00:24:08.560
+Serhan Dagtas: But of course, you do not know, you cannot have any research results as part of your proposal.
+
+229
+00:24:09.120 --> 00:24:19.860
+Serhan Dagtas: So your proposal will not have any results or our analysis results, but in the case of the proposal.
+
+230
+00:24:20.320 --> 00:24:25.990
+Serhan Dagtas: You do want to have… The questions in place.
+
+231
+00:24:26.240 --> 00:24:35.439
+Serhan Dagtas: That's part of the research technique that you're proposing. What you don't know at the proposal stage is obviously the results of that, which will
+
+232
+00:24:35.710 --> 00:24:40.200
+Serhan Dagtas: Come once you perform the the research that you're proposing.
+
+233
+00:24:40.440 --> 00:24:40.820
+Craig Nunemaker: Okay.
+
+234
+00:24:40.820 --> 00:24:47.129
+Serhan Dagtas: So I think whether you're using survey techniques or interview or any other technique.
+
+235
+00:24:47.260 --> 00:24:53.950
+Serhan Dagtas: The research questions that you will be posing, yes, they should be part of your research proposal.
+
+236
+00:24:54.150 --> 00:24:59.940
+Serhan Dagtas: In the case of interviewing process, though, there's some level of deviation.
+
+237
+00:25:00.060 --> 00:25:05.159
+Serhan Dagtas: and interactivity, especially in the case of unstructured interviews.
+
+238
+00:25:05.300 --> 00:25:17.830
+Serhan Dagtas: So there is, of course, some leeway or deviation that will be allowed and even proposed as part of your research proposal.
+
+239
+00:25:18.050 --> 00:25:20.690
+Serhan Dagtas: So that you want.
+
+240
+00:25:21.040 --> 00:25:29.090
+Serhan Dagtas: Have the exact final set of questions that may change to some extent during the interviewing process.
+
+241
+00:25:29.290 --> 00:25:35.429
+Serhan Dagtas: But you should have a general plan instead of a set of questions based on the principles that we discussed here.
+
+242
+00:25:37.040 --> 00:25:37.720
+Craig Nunemaker: Okay.
+
+243
+00:25:38.150 --> 00:25:38.890
+Craig Nunemaker: Yeah.
+
+244
+00:25:40.350 --> 00:25:41.740
+Serhan Dagtas: Any other question?
+
+245
+00:25:43.780 --> 00:25:46.380
+Craig Nunemaker: Thank you for answering that, Dr. Dagtas.
+
+246
+00:25:46.570 --> 00:25:47.140
+Serhan Dagtas: Yep.
+
+247
+00:25:50.520 --> 00:25:54.880
+Serhan Dagtas: Okay, so this was about the research interviews.
+
+248
+00:25:56.480 --> 00:25:58.170
+Serhan Dagtas: And there are also…
+
+249
+00:26:04.470 --> 00:26:08.160
+Serhan Dagtas: Some question preparation techniques that.
+
+250
+00:26:08.280 --> 00:26:11.830
+Serhan Dagtas: We also discussed briefly last time.
+
+251
+00:26:12.370 --> 00:26:16.780
+Serhan Dagtas: This is also a nice set of, Hmm.
+
+252
+00:26:18.360 --> 00:26:21.639
+Serhan Dagtas: Guidelines, 10 of them.
+
+253
+00:26:22.850 --> 00:26:30.129
+Serhan Dagtas: That may help you in preparing any interview questions and even for survey questions.
+
+254
+00:26:30.350 --> 00:26:32.759
+Serhan Dagtas: I like
+
+255
+00:26:34.640 --> 00:26:40.920
+Serhan Dagtas: Inclusion of open-ended questions in addition to to to.
+
+256
+00:26:41.700 --> 00:26:45.360
+Serhan Dagtas: Basically, more definitive questions.
+
+257
+00:26:45.930 --> 00:26:56.510
+Serhan Dagtas: So you can have some kind of a qualitative feedback from participants and their own opinions as well as what the questions, specific questions that you're posing to them.
+
+258
+00:27:01.590 --> 00:27:08.920
+Serhan Dagtas: In some cases, this may actually be beneficial and necessary, but in general, yes or no questions.
+
+259
+00:27:09.230 --> 00:27:11.810
+Serhan Dagtas: Provide very little,
+
+260
+00:27:12.040 --> 00:27:20.560
+Serhan Dagtas: The… Statistical value, so they should be in general avoided unless there's, there's specific reasons to, to do.
+
+261
+00:27:20.760 --> 00:27:29.960
+Serhan Dagtas: How questions rather than why questions would be preferred, as we discussed, so, for the purposes of.
+
+262
+00:27:30.180 --> 00:27:36.570
+Serhan Dagtas: Data collection for meaningful analysis, why questions and the answers to them.
+
+263
+00:27:36.900 --> 00:27:43.830
+Serhan Dagtas: Will generally be of less value, so they should be avoided in general as well.
+
+264
+00:27:50.840 --> 00:27:53.420
+Serhan Dagtas: And you want to survey?
+
+265
+00:27:54.200 --> 00:27:57.100
+Serhan Dagtas: Or research, you know, provide or.
+
+266
+00:27:57.330 --> 00:28:09.599
+Serhan Dagtas: Or obtain information about people's experiences rather than their opinions about the future. So you want to take them back to their experience rather than what they think the future will bring.
+
+267
+00:28:09.830 --> 00:28:14.960
+Serhan Dagtas: And the opening question, ending question.
+
+268
+00:28:15.100 --> 00:28:18.319
+Serhan Dagtas: And then and transition questions.
+
+269
+00:28:18.870 --> 00:28:31.350
+Serhan Dagtas: And key questions, these are the main types of questions and you want to have them in a, in the correct order depending on, again, the research problem that you, you are addressing.
+
+270
+00:28:32.060 --> 00:28:37.959
+Serhan Dagtas: And the order of uncued and cued questions can also be important here.
+
+271
+00:28:43.080 --> 00:28:48.000
+Serhan Dagtas: On cue questions that will basically set them up for any,
+
+272
+00:28:48.310 --> 00:28:50.990
+Serhan Dagtas: Cute questions with specifics.
+
+273
+00:28:52.140 --> 00:28:53.990
+Serhan Dagtas: Can be helpful.
+
+274
+00:28:59.780 --> 00:29:08.759
+Serhan Dagtas: And standardized question techniques like sentence completion can also be useful, and we will see some examples of these.
+
+275
+00:29:09.040 --> 00:29:13.000
+Serhan Dagtas: In surveys and interview question types.
+
+276
+00:29:16.310 --> 00:29:25.600
+Serhan Dagtas: In terms of ordering the questions, going from general to specific can be a good way to order to provide focus.
+
+277
+00:29:26.210 --> 00:29:32.120
+Serhan Dagtas: As the… Interview goes through the process.
+
+278
+00:29:41.720 --> 00:29:47.299
+Serhan Dagtas: And questions on serendipity, it should be also if.
+
+279
+00:29:47.660 --> 00:29:52.820
+Serhan Dagtas: And necessary should be, should come for last. This is an interesting.
+
+280
+00:29:52.970 --> 00:29:55.210
+Serhan Dagtas: A suggestion here.
+
+281
+00:29:55.640 --> 00:29:56.520
+Serhan Dagtas: Hmm.
+
+282
+00:30:05.830 --> 00:30:07.100
+Serhan Dagtas: And the…
+
+283
+00:30:11.440 --> 00:30:13.100
+Serhan Dagtas: Ending questions?
+
+284
+00:30:13.400 --> 00:30:16.839
+Serhan Dagtas: Should… and can serve multiple purposes.
+
+285
+00:30:17.010 --> 00:30:18.160
+Serhan Dagtas: I don't know.
+
+286
+00:30:20.540 --> 00:30:29.540
+Serhan Dagtas: Since the interviewee at this point has answered a number of questions already, based on that foundation, you can ask.
+
+287
+00:30:29.960 --> 00:30:32.469
+Serhan Dagtas: Some closing.
+
+288
+00:30:33.450 --> 00:30:38.539
+Serhan Dagtas: Questions like all the things that have been posed or asked or discussed.
+
+289
+00:30:39.040 --> 00:30:46.439
+Serhan Dagtas: What is most important? This question obviously cannot be asked in the beginning, right, as an opening question.
+
+290
+00:30:46.710 --> 00:30:50.850
+Serhan Dagtas: The ending question can also be used to summarize.
+
+291
+00:30:52.590 --> 00:30:53.620
+Serhan Dagtas: And.
+
+292
+00:30:54.080 --> 00:31:07.010
+Serhan Dagtas: And also give them an opportunity to provide any points or any inputs that may have been missed or not emphasized enough by the questions that you have in the
+
+293
+00:31:07.230 --> 00:31:09.679
+Serhan Dagtas: Interview process.
+
+294
+00:31:14.280 --> 00:31:15.640
+Serhan Dagtas: One of the most.
+
+295
+00:31:16.620 --> 00:31:18.390
+Serhan Dagtas: Relevant.
+
+296
+00:31:19.390 --> 00:31:21.460
+Serhan Dagtas: And useful
+
+297
+00:31:24.650 --> 00:31:30.069
+Serhan Dagtas: Content, pieces here in this part of the class is this,
+
+298
+00:31:32.630 --> 00:31:34.720
+Serhan Dagtas: Best practice ideas.
+
+299
+00:31:34.920 --> 00:31:42.969
+Serhan Dagtas: On the site SurveyMonkey, you may have seen, used, or even developed surveys using this site.
+
+300
+00:31:43.180 --> 00:31:45.020
+Serhan Dagtas: It's a very comprehensive.
+
+301
+00:31:45.380 --> 00:31:47.519
+Serhan Dagtas: A useful and relevant site.
+
+302
+00:31:49.480 --> 00:31:53.899
+Serhan Dagtas: for… Building and implementing surveys.
+
+303
+00:31:54.640 --> 00:31:55.540
+Serhan Dagtas: Mmm.
+
+304
+00:31:56.090 --> 00:31:57.829
+Serhan Dagtas: to conduct research.
+
+305
+00:31:58.170 --> 00:31:59.020
+Serhan Dagtas: Okay.
+
+306
+00:32:00.860 --> 00:32:03.110
+Serhan Dagtas: And then there are some,
+
+307
+00:32:04.120 --> 00:32:10.590
+Serhan Dagtas: Some useful advice and best practice examples that we're going to go through on this site.
+
+308
+00:32:11.000 --> 00:32:13.940
+Serhan Dagtas: And the site also allows you to actually
+
+309
+00:32:14.630 --> 00:32:18.930
+Serhan Dagtas: Field surveys and there are many good examples that we will see.
+
+310
+00:32:19.390 --> 00:32:22.159
+Serhan Dagtas: As a part of our discussion.
+
+311
+00:32:22.350 --> 00:32:29.979
+Serhan Dagtas: And this is something, actually a site that you can Use to build and conduct.
+
+312
+00:32:30.240 --> 00:32:40.140
+Serhan Dagtas: Surveys as part of your assignment and your research process in the future as well.
+
+313
+00:32:43.660 --> 00:32:48.340
+Serhan Dagtas: You may have seen or gone through this,
+
+314
+00:32:51.040 --> 00:32:57.279
+Serhan Dagtas: This material, but we'll just go through and maybe if you have any comments or, or, or.
+
+315
+00:32:57.680 --> 00:33:12.879
+Serhan Dagtas: suggestions or questions regarding any of this, feel free to stop me. Obviously, just like the interviewing process, the survey writing process will begin with a certain goal in mind.
+
+316
+00:33:13.020 --> 00:33:18.610
+Serhan Dagtas: The larger, larger goal of your research process.
+
+317
+00:33:19.110 --> 00:33:31.259
+Serhan Dagtas: And there will be… A general goal and some, sub goals or, so, well.
+
+318
+00:33:32.050 --> 00:33:33.130
+Serhan Dagtas: Parts of…
+
+319
+00:33:34.500 --> 00:33:45.870
+Serhan Dagtas: Your, the purpose of your conducting the research in question and the purpose, the specific purpose of, conducting the survey that you're building.
+
+320
+00:33:46.830 --> 00:33:50.699
+Serhan Dagtas: So what am I trying to learn or measure with the survey?
+
+321
+00:33:50.870 --> 00:33:56.140
+Serhan Dagtas: Who are the, you know, the target audience who should take the survey?
+
+322
+00:33:56.470 --> 00:34:02.539
+Serhan Dagtas: And, what we're going to do to analyze or use their responses.
+
+323
+00:34:02.690 --> 00:34:04.490
+Serhan Dagtas: To the survey questions.
+
+324
+00:34:04.940 --> 00:34:07.920
+Serhan Dagtas: So once these key questions
+
+325
+00:34:12.389 --> 00:34:15.150
+Serhan Dagtas: Have been answered, you.
+
+326
+00:34:16.100 --> 00:34:18.319
+Serhan Dagtas: To play your survey design.
+
+327
+00:34:27.110 --> 00:34:34.910
+Serhan Dagtas: And your general goal should be supported by the specific objectives that you're setting as part of this.
+
+328
+00:34:35.250 --> 00:34:40.969
+Serhan Dagtas: So if you… your goal is to, for example, to measure the brand awareness.
+
+329
+00:34:42.830 --> 00:34:45.559
+Serhan Dagtas: Within a certain target audience.
+
+330
+00:34:45.989 --> 00:34:46.949
+Serhan Dagtas: And.
+
+331
+00:34:47.590 --> 00:34:52.819
+Serhan Dagtas: Specific objectives that will, feed into that goal.
+
+332
+00:34:53.020 --> 00:34:59.020
+Serhan Dagtas: Maybe to see if they people recall your any any recent campaigns.
+
+333
+00:34:59.250 --> 00:35:03.199
+Serhan Dagtas: Or how familiar they are with your brand or product, and
+
+334
+00:35:03.730 --> 00:35:19.650
+Serhan Dagtas: And, and also get to the specifics of the familiarity, the measurement of familiarity based on different dimensions like gender, location, and so forth. So these are some example ideas of what the objectives may be.
+
+335
+00:35:24.660 --> 00:35:26.780
+Serhan Dagtas: And your survey design.
+
+336
+00:35:26.970 --> 00:35:31.079
+Serhan Dagtas: Should be… Structured and implemented with
+
+337
+00:35:31.390 --> 00:35:35.100
+Serhan Dagtas: The data in mind, the data that you're collecting.
+
+338
+00:35:35.650 --> 00:35:37.080
+Serhan Dagtas: Cool.
+
+339
+00:35:37.300 --> 00:35:45.399
+Serhan Dagtas: Whether that's qualitative or quantitative data from as a result of your survey that you're designing.
+
+340
+00:35:54.810 --> 00:35:56.980
+Serhan Dagtas: So the survey questions.
+
+341
+00:35:57.440 --> 00:36:04.599
+Serhan Dagtas: Will also obviously determine what kind of data, qualitative or quantitative, you may be collecting as a result.
+
+342
+00:36:05.180 --> 00:36:09.370
+Serhan Dagtas: The questions being closed, closed-ended or open-ended.
+
+343
+00:36:09.820 --> 00:36:10.550
+Serhan Dagtas: With.
+
+344
+00:36:11.070 --> 00:36:13.640
+Serhan Dagtas: Will also be critical.
+
+345
+00:36:14.710 --> 00:36:28.640
+Serhan Dagtas: So when you think of this product category, what brands come to mind? This is obviously a qualitative survey question, which depends on the respondent to
+
+346
+00:36:28.780 --> 00:36:29.820
+Serhan Dagtas: Pro white.
+
+347
+00:36:30.090 --> 00:36:31.590
+Serhan Dagtas: The data.
+
+348
+00:36:35.220 --> 00:36:42.050
+Serhan Dagtas: The quantitative data, on the other hand, can be obtained more easily with closed-ended questions, which will guide the
+
+349
+00:36:42.510 --> 00:36:43.530
+Serhan Dagtas: Respondent.
+
+350
+00:36:46.580 --> 00:36:47.790
+Serhan Dagtas: With the.
+
+351
+00:36:48.060 --> 00:36:56.250
+Serhan Dagtas: Specific and measurable responses, so you're providing them with a list of Brands.
+
+352
+00:36:57.190 --> 00:36:59.600
+Serhan Dagtas: With an option to also.
+
+353
+00:37:00.730 --> 00:37:03.130
+Serhan Dagtas: Choose that they haven't heard any of them.
+
+354
+00:37:03.520 --> 00:37:13.260
+Serhan Dagtas: So this can be, this can result in quantitative data. Obviously, you can quantify the responses based on the number.
+
+355
+00:37:13.880 --> 00:37:19.020
+Serhan Dagtas: Of possible responses that may be familiar, so a person checking.
+
+356
+00:37:21.050 --> 00:37:27.439
+Serhan Dagtas: All 4 of them will have, for example, 100% awareness of the
+
+357
+00:37:27.630 --> 00:37:30.470
+Serhan Dagtas: Possible products according to this question.
+
+358
+00:37:31.450 --> 00:37:38.359
+Serhan Dagtas: And you can quantify their responses with more closed-ended questions like this.
+
+359
+00:37:38.710 --> 00:37:45.589
+Serhan Dagtas: Which may make the analysis, further analysis of the survey results.
+
+360
+00:37:46.750 --> 00:37:48.740
+Serhan Dagtas: Easier and more structured.
+
+361
+00:37:50.530 --> 00:37:52.919
+Serhan Dagtas: And you want to have a balance of
+
+362
+00:37:53.170 --> 00:37:59.349
+Serhan Dagtas: closed and open-ended questions because they would serve their own purposes and their own ways.
+
+363
+00:38:00.050 --> 00:38:07.910
+Serhan Dagtas: Typically most surveys, effective surveys, we limit the number of open-ended questions.
+
+364
+00:38:13.980 --> 00:38:20.410
+Serhan Dagtas: And any specific information that you want to make sure that you're collecting can be
+
+365
+00:38:20.600 --> 00:38:25.169
+Serhan Dagtas: Included with, with, closed-ended questions.
+
+366
+00:38:25.310 --> 00:38:28.900
+Serhan Dagtas: And the open-ended questions can also
+
+367
+00:38:29.250 --> 00:38:34.899
+Serhan Dagtas: Be included and typically come afterwards, to make sure that,
+
+368
+00:38:35.500 --> 00:38:37.459
+Serhan Dagtas: You're collecting as.
+
+369
+00:38:38.230 --> 00:38:43.700
+Serhan Dagtas: As a broad set of data from the users as is possible.
+
+370
+00:38:46.910 --> 00:39:03.190
+Serhan Dagtas: Your questions, whether closed-ended or open-ended, should be clear and concise. Of course, you want, depending on your target audience, you want them to understand your questions as much as possible. Being concise is part of that process.
+
+371
+00:39:03.400 --> 00:39:19.929
+Serhan Dagtas: If you provide any additional information, like select all, select none, select only one, and things like that, that can be in parentheses as a common convention. Your questions should avoid bias.
+
+372
+00:39:20.920 --> 00:39:22.860
+Serhan Dagtas: As much as possible.
+
+373
+00:39:29.430 --> 00:39:39.000
+Serhan Dagtas: Influencing the survey responses with statements like we take pride in our product quality may influence their responses, of course.
+
+374
+00:39:39.030 --> 00:39:50.359
+Serhan Dagtas: This should be avoided to collect as accurate data to the extent possible. So, the questions should also
+
+375
+00:39:50.400 --> 00:39:55.050
+Serhan Dagtas: be focused, Rather than asking.
+
+376
+00:39:55.620 --> 00:39:57.959
+Serhan Dagtas: Multiple questions at the same time.
+
+377
+00:40:02.340 --> 00:40:05.220
+Serhan Dagtas: And they should not also be presumptuous.
+
+378
+00:40:05.580 --> 00:40:13.900
+Serhan Dagtas: or loaded the things that which factors influenced your most recent purchase the
+
+379
+00:40:15.680 --> 00:40:24.040
+Serhan Dagtas: And there may not be a recent purchase, or there may not be any points that may have influenced their purchase anyway, so,
+
+380
+00:40:24.710 --> 00:40:29.110
+Serhan Dagtas: the questions should… Be accurate.
+
+381
+00:40:29.700 --> 00:40:38.240
+Serhan Dagtas: And also objective to the extent possible. That also applies to double-barreled questions that you should not be.
+
+382
+00:40:40.000 --> 00:40:42.349
+Serhan Dagtas: Referring to 2 different aspects.
+
+383
+00:40:42.730 --> 00:40:47.709
+Serhan Dagtas: How satisfied are you with the price and quality? So these are two different dimensions.
+
+384
+00:40:47.920 --> 00:41:00.429
+Serhan Dagtas: People may be satisfied with the price, but not quality, or vice versa, so you want to, of course, focus your question on a particular aspect, rather than causing ambiguity, like these questions.
+
+385
+00:41:01.340 --> 00:41:03.840
+Serhan Dagtas: Avoiding absolutes.
+
+386
+00:41:04.410 --> 00:41:11.899
+Serhan Dagtas: Again, there's too much assumption behind this question. Do you always make purchases online?
+
+387
+00:41:13.860 --> 00:41:19.730
+Serhan Dagtas: Either yes or no response, it will provide very little,
+
+388
+00:41:19.870 --> 00:41:22.470
+Serhan Dagtas: Value in response to that.
+
+389
+00:41:22.810 --> 00:41:26.190
+Serhan Dagtas: Cause the person may not.
+
+390
+00:41:26.760 --> 00:41:32.679
+Serhan Dagtas: Always make purchases online, but they may be doing that most of the time, so,
+
+391
+00:41:33.240 --> 00:41:35.039
+Serhan Dagtas: The again the.
+
+392
+00:41:35.240 --> 00:41:37.420
+Serhan Dagtas: Response, either response.
+
+393
+00:41:37.570 --> 00:41:41.649
+Serhan Dagtas: To a question that restricts.
+
+394
+00:41:42.150 --> 00:41:46.110
+Serhan Dagtas: The, the response to, to a very,
+
+395
+00:41:47.480 --> 00:41:50.460
+Serhan Dagtas: Kind of narrow meaning will also.
+
+396
+00:41:50.870 --> 00:41:51.820
+Serhan Dagtas: Ha.
+
+397
+00:41:55.250 --> 00:41:58.780
+Serhan Dagtas: Reduce the value of this article question.
+
+398
+00:42:03.060 --> 00:42:11.110
+Serhan Dagtas: Keep sensitivities along different dimensions like religion, culture, race, gender, age, etc.
+
+399
+00:42:11.370 --> 00:42:14.300
+Serhan Dagtas: In mind when asking questions.
+
+400
+00:42:14.630 --> 00:42:24.449
+Serhan Dagtas: Obviously, certain questions like sexual orientation is not in general appropriate unless the whole idea of the
+
+401
+00:42:24.630 --> 00:42:34.340
+Serhan Dagtas: The survey is about that. And that may, in some cases, may have certain legal and ethical requirements that come with it.
+
+402
+00:42:34.500 --> 00:42:41.110
+Serhan Dagtas: But even in posing questions, about things like income.
+
+403
+00:42:43.380 --> 00:42:47.820
+Serhan Dagtas: Ethnicity, race, etc. You want to…
+
+404
+00:42:48.300 --> 00:42:54.460
+Serhan Dagtas: Either provide a range, so not to be very specific about the income level, for example.
+
+405
+00:42:54.750 --> 00:42:59.660
+Serhan Dagtas: And, or, by providing explanation about the…
+
+406
+00:43:00.080 --> 00:43:07.439
+Serhan Dagtas: How the data will be used and how the identities of the people, of course, being interviewed or surveyed.
+
+407
+00:43:07.560 --> 00:43:11.660
+Serhan Dagtas: Will be will be protected.
+
+408
+00:43:18.360 --> 00:43:24.210
+Serhan Dagtas: We talked about closed-ended and open-ended questions, how they can be combined.
+
+409
+00:43:24.430 --> 00:43:30.279
+Serhan Dagtas: And and how they can be used in the right order with the right mix.
+
+410
+00:43:31.480 --> 00:43:32.380
+Serhan Dagtas: And.
+
+411
+00:43:35.150 --> 00:43:38.819
+Serhan Dagtas: This is an example for what is called an NPS question.
+
+412
+00:43:39.890 --> 00:43:46.740
+Serhan Dagtas: Which is very common and very typical. How likely is it that you would recommend this company to a friend or colleague?
+
+413
+00:43:47.800 --> 00:43:52.530
+Serhan Dagtas: So, this provides a numerical Scale.
+
+414
+00:44:04.640 --> 00:44:13.920
+Serhan Dagtas: But that number can be very subjective and can depend on, you know, large number of factors, so supporting this numeric.
+
+415
+00:44:14.460 --> 00:44:15.880
+Serhan Dagtas: This is not…
+
+416
+00:44:16.320 --> 00:44:25.260
+Serhan Dagtas: This enumeration with coming up with an NPS measure, an American NPS measure is important and very valuable.
+
+417
+00:44:25.450 --> 00:44:30.060
+Serhan Dagtas: But it's often valuable when it's supported with.
+
+418
+00:44:30.400 --> 00:44:40.010
+Serhan Dagtas: Responses to open-ended questions like in what ways, for what reasons they do, what, in what aspects.
+
+419
+00:44:40.180 --> 00:44:42.769
+Serhan Dagtas: They would recommend or not recommend.
+
+420
+00:44:43.070 --> 00:44:45.630
+Serhan Dagtas: This particular brand or company.
+
+421
+00:45:00.860 --> 00:45:05.959
+Serhan Dagtas: Multiple choice questions is used very commonly in surveys.
+
+422
+00:45:09.050 --> 00:45:11.419
+Serhan Dagtas: But just providing multiple.
+
+423
+00:45:11.870 --> 00:45:19.149
+Serhan Dagtas: Response choices by itself is not sufficient in building an effective question.
+
+424
+00:45:19.380 --> 00:45:20.890
+Serhan Dagtas: It's part of a survey.
+
+425
+00:45:21.690 --> 00:45:23.120
+Serhan Dagtas: And
+
+426
+00:45:26.980 --> 00:45:35.460
+Serhan Dagtas: The multiple choice questions may allow multiple responses or may not allow them. You may need to choose or force the
+
+427
+00:45:35.680 --> 00:45:42.010
+Serhan Dagtas: Respondent choose only one of the possible answers and need some questions.
+
+428
+00:45:47.720 --> 00:45:49.520
+Serhan Dagtas: And if there are multiple.
+
+429
+00:45:49.640 --> 00:45:54.579
+Serhan Dagtas: Options that are provided using this drop down.
+
+430
+00:45:55.450 --> 00:46:00.439
+Serhan Dagtas: Answer technique may also be helpful.
+
+431
+00:46:01.210 --> 00:46:09.709
+Serhan Dagtas: And this also provides a kind of a numeric ordering and or sorting of the responses so you can very easily find.
+
+432
+00:46:10.150 --> 00:46:20.369
+Serhan Dagtas: As compared to the multiple choice responses, the kind of age range that you would respond with in this case.
+
+433
+00:46:23.860 --> 00:46:32.369
+Serhan Dagtas: Multiple options as part of the answers to a question can also be used in a ranking situation, assorted.
+
+434
+00:46:33.100 --> 00:46:42.559
+Serhan Dagtas: List of responses or the, Survey respondents will basically rank.
+
+435
+00:46:43.850 --> 00:46:49.810
+Serhan Dagtas: These… Options, in this example, there are a bunch of shows.
+
+436
+00:46:49.940 --> 00:46:55.469
+Serhan Dagtas: Ranking or sorting them from the favorite
+
+437
+00:46:57.690 --> 00:47:00.580
+Serhan Dagtas: Go down to the least favorite one.
+
+438
+00:47:09.640 --> 00:47:16.249
+Serhan Dagtas: Another common technique is matrix questions, a bunch of questions combined together.
+
+439
+00:47:16.460 --> 00:47:19.989
+Serhan Dagtas: So that, responses to them.
+
+440
+00:47:20.700 --> 00:47:23.800
+Serhan Dagtas: In in the horizontal dimension typically.
+
+441
+00:47:23.930 --> 00:47:26.299
+Serhan Dagtas: Can be.
+
+442
+00:47:26.480 --> 00:47:28.140
+Serhan Dagtas: Provided.
+
+443
+00:47:28.670 --> 00:47:29.820
+Serhan Dagtas: The.
+
+444
+00:47:29.950 --> 00:47:39.030
+Serhan Dagtas: For a set of questions rather than individual questions, which may, of course, be a time-saving process and space-saving method as well.
+
+445
+00:47:42.970 --> 00:47:48.499
+Serhan Dagtas: But in some specific cases, like the lack of space.
+
+446
+00:47:48.710 --> 00:47:50.890
+Serhan Dagtas: When people are accessing these.
+
+447
+00:47:51.340 --> 00:48:04.100
+Serhan Dagtas: surveys through their mobile devices with small screens, for example, that may be a consideration to keep in mind. So don't assume that they're working with large screens, or obviously paper or pencil.
+
+448
+00:48:04.510 --> 00:48:07.760
+Serhan Dagtas: And the response options should be brief.
+
+449
+00:48:07.980 --> 00:48:11.340
+Serhan Dagtas: Not to overpopulate the matrix.
+
+450
+00:48:11.560 --> 00:48:17.620
+Serhan Dagtas: And make it harder to read and respond for the participants.
+
+451
+00:48:18.290 --> 00:48:19.750
+Serhan Dagtas: And
+
+452
+00:48:20.160 --> 00:48:28.440
+Serhan Dagtas: Fewer response options are a common technique when there's a matrix or a list of multiple questions.
+
+453
+00:48:28.600 --> 00:48:30.949
+Serhan Dagtas: That can be answered at the same time.
+
+454
+00:48:38.360 --> 00:48:45.500
+Serhan Dagtas: When you use rating scales, rate your response, rate your satisfaction, rate your,
+
+455
+00:48:45.650 --> 00:48:51.109
+Serhan Dagtas: Opinion et cetera the rating can be based on.
+
+456
+00:48:51.980 --> 00:48:53.620
+Serhan Dagtas: Worded statements.
+
+457
+00:48:54.210 --> 00:48:58.859
+Serhan Dagtas: Like, how easy was it to find what you were looking for?
+
+458
+00:49:00.300 --> 00:49:07.890
+Serhan Dagtas: The ratings can be based on the wording, extremely easy, very easy, somewhat easy, etc. Or you can use numeric
+
+459
+00:49:09.680 --> 00:49:10.900
+Serhan Dagtas: Ratings.
+
+460
+00:49:11.500 --> 00:49:13.000
+Serhan Dagtas: Like this scale.
+
+461
+00:49:16.200 --> 00:49:25.239
+Serhan Dagtas: Obviously, if you're doing any quantitative analysis at a later point, you can convert these worded ratings.
+
+462
+00:49:25.530 --> 00:49:28.539
+Serhan Dagtas: Into numeric equivalents.
+
+463
+00:49:31.530 --> 00:49:36.159
+Serhan Dagtas: But if that's the ultimate goal, it may be more accurate.
+
+464
+00:49:37.080 --> 00:49:40.550
+Serhan Dagtas: To use, to do that with numbers.
+
+465
+00:49:40.900 --> 00:49:46.190
+Serhan Dagtas: So the respondents themselves can choose the numeric.
+
+466
+00:49:46.830 --> 00:49:47.900
+Serhan Dagtas: The.
+
+467
+00:49:48.170 --> 00:49:54.019
+Serhan Dagtas: Meaning that they would assign to their responses as, as they respond to a question.
+
+468
+00:50:12.590 --> 00:50:22.280
+Serhan Dagtas: And when the response, the number of responses is limited to only two, that obviously will make a very specific…
+
+469
+00:50:23.950 --> 00:50:35.999
+Serhan Dagtas: A statement about the respondent's position. Do you feel you received the necessary support and guidance from your manager? So this obviously requires them to.
+
+470
+00:50:37.500 --> 00:50:38.950
+Serhan Dagtas: Choose.
+
+471
+00:50:39.350 --> 00:50:45.879
+Serhan Dagtas: point, rather than… Good, providing a gradual response.
+
+472
+00:50:46.350 --> 00:50:57.530
+Serhan Dagtas: Or to rate or evaluate the level of support or guidance they support. So they're expected to respond with a binary.
+
+473
+00:50:58.100 --> 00:50:59.390
+Serhan Dagtas: Evaluation.
+
+474
+00:50:59.690 --> 00:51:01.759
+Serhan Dagtas: They give it a yes or no question.
+
+475
+00:51:03.130 --> 00:51:08.210
+Serhan Dagtas: So the responses to this question should also be analyzed.
+
+476
+00:51:08.730 --> 00:51:12.139
+Serhan Dagtas: And evaluated with this.
+
+477
+00:51:12.370 --> 00:51:15.749
+Serhan Dagtas: Point in mind that this is a.
+
+478
+00:51:16.550 --> 00:51:21.640
+Serhan Dagtas: Of a strong statement that the, the respondent is providing.
+
+479
+00:51:22.340 --> 00:51:30.980
+Serhan Dagtas: as part of their response. More commonly, 5 or 7 point scales can be used as we saw in the examples.
+
+480
+00:51:31.280 --> 00:51:39.870
+Serhan Dagtas: Providing 5 different levels, I'm satisfied with the culture of my workplace, so 5 different levels, going from strongly disagree to
+
+481
+00:51:40.610 --> 00:51:42.740
+Serhan Dagtas: Strongly agree.
+
+482
+00:51:43.650 --> 00:51:49.720
+Serhan Dagtas: Or you may provide more or less precision and higher number of levels.
+
+483
+00:51:49.930 --> 00:51:55.959
+Serhan Dagtas: In terms of… Worded statements or in terms of numeric scales.
+
+484
+00:51:56.940 --> 00:51:59.180
+Serhan Dagtas: Answers to these questions.
+
+485
+00:52:00.010 --> 00:52:02.340
+Serhan Dagtas: How long should your survey be?
+
+486
+00:52:02.700 --> 00:52:11.779
+Serhan Dagtas: You may have received these surveys written or maybe on the phone surveys a lot and obviously
+
+487
+00:52:11.940 --> 00:52:14.199
+Serhan Dagtas: You get a higher response rate.
+
+488
+00:52:17.240 --> 00:52:21.539
+Serhan Dagtas: Or shorter and more focused and more concise surveys.
+
+489
+00:52:24.110 --> 00:52:38.450
+Serhan Dagtas: There's some research here that Indicates that 53… percent of surveys Contain 5 or fewer questions.
+
+490
+00:52:38.600 --> 00:52:52.840
+Serhan Dagtas: Which may not be easy for all survey types, obviously, but the fewer questions, the better organized your survey, the higher the likelihood of getting a sufficient number of responses. That's always the case.
+
+491
+00:52:53.200 --> 00:53:00.240
+Serhan Dagtas: And there's some tips about keeping surveys short and relevant, meaning the questions.
+
+492
+00:53:00.410 --> 00:53:03.990
+Serhan Dagtas: Relevant to your, your goal in the first place.
+
+493
+00:53:05.240 --> 00:53:09.560
+Serhan Dagtas: 10 or fewer questions is a good general advice.
+
+494
+00:53:10.440 --> 00:53:11.210
+Serhan Dagtas: And…
+
+495
+00:53:16.150 --> 00:53:25.660
+Serhan Dagtas: And you may want to qualify or disqualify some respondents if you want to really survey the users of a certain product.
+
+496
+00:53:25.920 --> 00:53:33.580
+Serhan Dagtas: You don't want to include responses from non-users, for example, so the screening questions can help you narrow down.
+
+497
+00:53:33.860 --> 00:53:36.440
+Serhan Dagtas: To a particular.
+
+498
+00:53:37.170 --> 00:53:38.020
+Serhan Dagtas: group.
+
+499
+00:53:42.790 --> 00:53:46.650
+Serhan Dagtas: And follow-up questions may also help keep your.
+
+500
+00:53:46.930 --> 00:53:49.150
+Serhan Dagtas: Survey short and relevant.
+
+501
+00:53:50.160 --> 00:53:59.020
+Serhan Dagtas: And, which can be done at a later point for the respondents of your survey.
+
+502
+00:54:04.620 --> 00:54:09.070
+Serhan Dagtas: The order of the questions in your surveys can be as important.
+
+503
+00:54:09.450 --> 00:54:14.719
+Serhan Dagtas: and critical as the content of the survey questions.
+
+504
+00:54:16.470 --> 00:54:17.280
+Serhan Dagtas: Good.
+
+505
+00:54:22.180 --> 00:54:30.739
+Serhan Dagtas: It's not always effective, but if the questions are not really related to each other, randomizing them may help reduce the
+
+506
+00:54:31.340 --> 00:54:38.039
+Serhan Dagtas: The possibility of a bias that may be caused by a certain order of the questions.
+
+507
+00:54:38.650 --> 00:54:43.689
+Serhan Dagtas: But, more commonly organizing them.
+
+508
+00:54:43.800 --> 00:54:53.700
+Serhan Dagtas: by providing open but ended questions, for example, towards the end of the survey will be more helpful in most cases rather than using a random order.
+
+509
+00:55:04.170 --> 00:55:07.390
+Serhan Dagtas: Any screening questions, of course, come, come first.
+
+510
+00:55:07.670 --> 00:55:14.480
+Serhan Dagtas: And, and the sensitive questions should come at the end and we did mention a few of these key points.
+
+511
+00:55:15.070 --> 00:55:21.699
+Serhan Dagtas: And many surveys today may use different types of incentives, products, promotions.
+
+512
+00:55:21.920 --> 00:55:25.190
+Serhan Dagtas: Or even cash incentives.
+
+513
+00:55:25.400 --> 00:55:32.389
+Serhan Dagtas: To encourage, higher levels of, of responses you may have received some surveys.
+
+514
+00:55:32.910 --> 00:55:34.069
+Serhan Dagtas: In mail.
+
+515
+00:55:34.740 --> 00:55:44.989
+Serhan Dagtas: And sometimes they will come with some kind of an incentive mechanism. I've seen myself even surveys being mailed to me with some
+
+516
+00:55:45.260 --> 00:55:49.509
+Serhan Dagtas: Actual cash in them, typically a dollar bill.
+
+517
+00:55:49.710 --> 00:55:53.080
+Serhan Dagtas: Which I find a very interesting and effective way.
+
+518
+00:55:53.560 --> 00:55:57.460
+Serhan Dagtas: Even for a small token amount like this.
+
+519
+00:55:57.730 --> 00:56:05.410
+Serhan Dagtas: A lot of people actually feel obliged to kind of do something and return the favor.
+
+520
+00:56:05.770 --> 00:56:07.300
+Serhan Dagtas: Yeah, yeah.
+
+521
+00:56:07.430 --> 00:56:19.830
+Serhan Dagtas: And then answer the survey and respond back. So I myself have been in that situation and I found myself responding to surveys that I otherwise would not have.
+
+522
+00:56:20.080 --> 00:56:28.319
+Serhan Dagtas: Because in a situation like this, you have no way of returning the money or the survey itself.
+
+523
+00:56:28.500 --> 00:56:32.169
+Serhan Dagtas: And in many cases you just,
+
+524
+00:56:32.470 --> 00:56:34.290
+Serhan Dagtas: Kind of feel obliged to.
+
+525
+00:56:34.490 --> 00:56:38.729
+Serhan Dagtas: To spend a few minutes and to actually,
+
+526
+00:56:40.520 --> 00:56:46.109
+Serhan Dagtas: Answer the questions in the survey, so there may be other ways, of course.
+
+527
+00:56:46.250 --> 00:56:49.910
+Serhan Dagtas: to incentivize the process.
+
+528
+00:56:50.230 --> 00:57:01.269
+Serhan Dagtas: And of course this in general is found to improve the response rates. Not just the rate itself, but also it may improve the response quality.
+
+529
+00:57:01.450 --> 00:57:07.489
+Serhan Dagtas: When people are, you know, need some favors.
+
+530
+00:57:07.670 --> 00:57:09.709
+Serhan Dagtas: They may be more careful.
+
+531
+00:57:10.080 --> 00:57:12.840
+Serhan Dagtas: And providing more accurate.
+
+532
+00:57:13.070 --> 00:57:17.180
+Serhan Dagtas: responses to… This survey.
+
+533
+00:57:18.300 --> 00:57:26.620
+Serhan Dagtas: Obviously, this should not sacrifice the quality of the survey or the quality of the responses.
+
+534
+00:57:28.170 --> 00:57:28.880
+Serhan Dagtas: Good.
+
+535
+00:57:31.040 --> 00:57:31.700
+Serhan Dagtas: Pretty good.
+
+536
+00:57:35.820 --> 00:57:40.040
+Serhan Dagtas: Most of the research in this area
+
+537
+00:57:41.940 --> 00:57:48.939
+Serhan Dagtas: It should not surprise us, tell us that they're using different incentive mechanisms.
+
+538
+00:57:49.200 --> 00:57:54.590
+Serhan Dagtas: Can help improve the quantity as well as the quality of the responses.
+
+539
+00:57:59.030 --> 00:58:11.919
+Serhan Dagtas: If you're conducting a survey on behalf of a corporation, of an organization with a certain brand, adding that brand can help.
+
+540
+00:58:14.580 --> 00:58:17.690
+Serhan Dagtas: Added credibility and recognition.
+
+541
+00:58:18.080 --> 00:58:20.350
+Serhan Dagtas: To the surveying mechanism.
+
+542
+00:58:24.590 --> 00:58:29.190
+Serhan Dagtas: And, and, and the corporate…
+
+543
+00:58:30.210 --> 00:58:33.590
+Serhan Dagtas: Branding strategies like using the,
+
+544
+00:58:33.940 --> 00:58:40.349
+Serhan Dagtas: Letterheads in printed material or embedding the survey in an email or website.
+
+545
+00:58:40.720 --> 00:58:46.699
+Serhan Dagtas: Can improve both the sense of security of the surveying process.
+
+546
+00:58:46.900 --> 00:59:01.629
+Serhan Dagtas: As well as the recognition, some visual aspects or accessibility issues like using the right font, the right size, the right color contrast can all of course obviously help the users.
+
+547
+00:59:02.470 --> 00:59:07.750
+Serhan Dagtas: Completing the survey, as well as improving these response rates.
+
+548
+00:59:10.670 --> 00:59:19.860
+Serhan Dagtas: And once you complete your survey, you of course want to preview it, maybe take it, maybe do a test run, ask some colleagues or
+
+549
+00:59:20.620 --> 00:59:24.729
+Serhan Dagtas: Other users to, to do them.
+
+550
+00:59:25.120 --> 00:59:28.540
+Serhan Dagtas: To complete the survey for testing purposes.
+
+551
+00:59:28.950 --> 00:59:30.550
+Serhan Dagtas: This.
+
+552
+00:59:31.800 --> 00:59:43.670
+Serhan Dagtas: You can send yourself a test email to see how the respondents, what they would receive, and how they can respond, how they can open the links, or the material that you're sending, etc.
+
+553
+00:59:45.630 --> 00:59:55.850
+Serhan Dagtas: The next part of this material, this goes through kind of a summary of these things, the main guidelines that we have discussed so far.
+
+554
+00:59:56.110 --> 00:59:58.059
+Serhan Dagtas: Starting with setting a goal.
+
+555
+00:59:58.850 --> 01:00:05.519
+Serhan Dagtas: Kind of a summary of this whole section, being clear and concise, keeping the survey short.
+
+556
+01:00:05.880 --> 01:00:10.339
+Serhan Dagtas: Text box questions, meaning open-ended questions, can be…
+
+557
+01:00:12.530 --> 01:00:18.240
+Serhan Dagtas: Limited, they should be limited to typically 2 questions on most surveys.
+
+558
+01:00:18.480 --> 01:00:26.989
+Serhan Dagtas: Be mindful of the bias, so that your questions may pose as a result of their content, their order, etc.
+
+559
+01:00:27.550 --> 01:00:34.260
+Serhan Dagtas: Questions should be as accurate and focused as possible, avoiding double-barreled.
+
+560
+01:00:34.620 --> 01:00:39.050
+Serhan Dagtas: Or subjective or why type questions. So examples.
+
+561
+01:00:39.190 --> 01:00:40.710
+Serhan Dagtas: Be sensitive.
+
+562
+01:00:41.030 --> 01:00:46.250
+Serhan Dagtas: Mindful of different… Types of sensitivities.
+
+563
+01:00:48.620 --> 01:00:58.180
+Serhan Dagtas: You want to provide people with enough information about the context, who you are as an organization, why the survey is being sent.
+
+564
+01:00:58.350 --> 01:01:01.140
+Serhan Dagtas: How you use their information.
+
+565
+01:01:01.380 --> 01:01:08.040
+Serhan Dagtas: And what kind of follow-up may be used, and maybe also using incentives.
+
+566
+01:01:08.270 --> 01:01:14.319
+Serhan Dagtas: And of course, preview and test your survey before sending them out.
+
+567
+01:01:20.640 --> 01:01:24.519
+Serhan Dagtas: And we also discussed some of these things, customer experience.
+
+568
+01:01:24.670 --> 01:01:32.910
+Serhan Dagtas: Surveys, so different types of surveys, and we will see some of them in… Next discussion, also.
+
+569
+01:01:33.040 --> 01:01:39.050
+Serhan Dagtas: And… If you're trying to measure or improve customer experience.
+
+570
+01:01:47.900 --> 01:01:57.989
+Serhan Dagtas: your survey should be focused on that. There's some examples, we won't go through the entire templates or examples here, I just want to show you a couple of them.
+
+571
+01:01:58.370 --> 01:02:04.180
+Serhan Dagtas: Depending on the survey type, if it's targeted towards NPS.
+
+572
+01:02:09.090 --> 01:02:12.429
+Serhan Dagtas: There's a bunch of best practice.
+
+573
+01:02:14.940 --> 01:02:22.659
+Serhan Dagtas: The guidelines for specifically for NPS type of surveys or customer satisfaction CSAT surveys.
+
+574
+01:02:22.770 --> 01:02:34.750
+Serhan Dagtas: have some other focus points. So depending on the survey types, some of these guidelines or best practice examples can be further detailed and customized.
+
+575
+01:02:35.260 --> 01:02:39.390
+Serhan Dagtas: So there's good reference and reading material here.
+
+576
+01:02:39.640 --> 01:02:42.670
+Serhan Dagtas: As, for employee surveys.
+
+577
+01:02:44.120 --> 01:02:49.839
+Serhan Dagtas: For example, to improve the candidate experience, or as part of the
+
+578
+01:02:53.830 --> 01:02:58.110
+Serhan Dagtas: Interviewing or employee selection process.
+
+579
+01:02:58.450 --> 01:03:01.580
+Serhan Dagtas: Employee engagement, the existing employees.
+
+580
+01:03:01.830 --> 01:03:04.849
+Serhan Dagtas: And surveying their… To measure.
+
+581
+01:03:05.140 --> 01:03:07.180
+Serhan Dagtas: and improve their engagement.
+
+582
+01:03:07.750 --> 01:03:11.779
+Serhan Dagtas: And some other examples like exit surveys and
+
+583
+01:03:13.080 --> 01:03:16.280
+Serhan Dagtas: And improving the UX, the user experience.
+
+584
+01:03:16.620 --> 01:03:19.410
+Serhan Dagtas: As you design your survey.
+
+585
+01:03:23.340 --> 01:03:39.220
+Serhan Dagtas: So this was the part about the survey design and some theoretical as well as mostly practical, in fact, the guidelines from the Site Survey Monkey, which you may want to use as part of your
+
+586
+01:03:39.410 --> 01:03:42.940
+Serhan Dagtas: Your, your assignments and, your.
+
+587
+01:03:46.960 --> 01:03:51.400
+Serhan Dagtas: Implementation of some of your research tasks in this.
+
+588
+01:03:51.630 --> 01:03:52.560
+Serhan Dagtas: Class.
+
+589
+01:03:53.830 --> 01:04:00.800
+Serhan Dagtas: Based on the guidelines here, if you look at this link, industry survey examples.
+
+590
+01:04:01.310 --> 01:04:05.550
+Serhan Dagtas: There's a whole bunch of different surveys.
+
+591
+01:04:06.020 --> 01:04:09.939
+Serhan Dagtas: That you may have seen already,
+
+592
+01:04:10.590 --> 01:04:13.980
+Serhan Dagtas: In a different… Industries.
+
+593
+01:04:15.080 --> 01:04:28.459
+Serhan Dagtas: And for slightly different purposes, for guest evaluation survey template, for example, for in the case of hotel and restaurant surveys, 40 questions, it's these are pretty lengthy.
+
+594
+01:04:29.060 --> 01:04:37.260
+Serhan Dagtas: But you see some, for example, matrix type questions. You see many of the techniques that we kind of went over.
+
+595
+01:04:38.540 --> 01:04:46.749
+Serhan Dagtas: Are being used for multiple, multiple choice questions that allow multiple selections, of course, and this question asks you to
+
+596
+01:04:46.940 --> 01:04:48.520
+Serhan Dagtas: Choose 3.
+
+597
+01:04:49.300 --> 01:04:58.739
+Serhan Dagtas: Most important reasons… Why you select certain hotel and the matrix type questions, which has a bunch of.
+
+598
+01:05:02.150 --> 01:05:04.579
+Serhan Dagtas: Questions, and you're asked to…
+
+599
+01:05:05.020 --> 01:05:09.400
+Serhan Dagtas: Provided evaluation, 5 level evaluation of.
+
+600
+01:05:09.940 --> 01:05:12.720
+Serhan Dagtas: All these criteria.
+
+601
+01:05:16.410 --> 01:05:27.150
+Serhan Dagtas: And the… Service types that can be rated between excellent and poor at five different levels again.
+
+602
+01:05:27.270 --> 01:05:29.350
+Serhan Dagtas: Our group together here.
+
+603
+01:05:30.110 --> 01:05:34.320
+Serhan Dagtas: And the respondent can provide the rates for them.
+
+604
+01:05:37.210 --> 01:05:44.090
+Serhan Dagtas: And similarly the Strongly disagree down to strongly agree responses.
+
+605
+01:05:50.450 --> 01:05:53.429
+Serhan Dagtas: It'll be used to rate the guest room.
+
+606
+01:05:54.210 --> 01:05:59.570
+Serhan Dagtas: Within beverages and some other areas and you see some open-ended questions at the end too.
+
+607
+01:05:59.890 --> 01:06:03.499
+Serhan Dagtas: How much time do you typically spend gambling then then?
+
+608
+01:06:03.830 --> 01:06:10.320
+Serhan Dagtas: Of course, as answers to some of these questions,
+
+609
+01:06:10.460 --> 01:06:17.239
+Serhan Dagtas: May or may not be relevant, so… and then you have Just one NPS type of.
+
+610
+01:06:18.650 --> 01:06:23.090
+Serhan Dagtas: Major question here that measures the overall.
+
+611
+01:06:26.900 --> 01:06:35.870
+Serhan Dagtas: Response based on your complete experience with the hotel restaurant, how likely are you to recommend this? So this is kind of a,
+
+612
+01:06:38.340 --> 01:06:40.450
+Serhan Dagtas: Question that was summarized.
+
+613
+01:06:43.620 --> 01:06:46.190
+Serhan Dagtas: The users or respondents opinion.
+
+614
+01:06:46.440 --> 01:06:50.520
+Serhan Dagtas: And finally, do you have any comments or suggestions? So this survey
+
+615
+01:06:50.700 --> 01:06:58.259
+Serhan Dagtas: for this specific domain or application, a guest evaluation for a hotel or a restaurant.
+
+616
+01:06:58.610 --> 01:06:59.620
+Serhan Dagtas: I.
+
+617
+01:07:00.440 --> 01:07:04.690
+Serhan Dagtas: Of utilizes some of the guidelines that we just discussed.
+
+618
+01:07:04.870 --> 01:07:07.350
+Serhan Dagtas: And you can go through these.
+
+619
+01:07:09.700 --> 01:07:16.340
+Serhan Dagtas: And see some of these, practices basically being used.
+
+620
+01:07:16.640 --> 01:07:25.469
+Serhan Dagtas: in particular applications. Has anybody had a chance to go through this? Any comments or
+
+621
+01:07:25.780 --> 01:07:31.239
+Serhan Dagtas: Opinions about the validity of these or do you have any,
+
+622
+01:07:32.000 --> 01:07:37.609
+Serhan Dagtas: And feedback as a student in this class in terms of the effectiveness.
+
+623
+01:07:37.860 --> 01:07:47.910
+Serhan Dagtas: or the ways any of these surveys can be improved. If you have any opinions about them, positive or negative, let me know anything you would like to share.
+
+624
+01:07:48.020 --> 01:07:48.970
+Serhan Dagtas: with us.
+
+625
+01:07:54.010 --> 01:07:58.719
+Serhan Dagtas: But these templates on QuestionPro.com website.
+
+626
+01:07:59.150 --> 01:08:04.169
+Serhan Dagtas: Provide some actual, examples that can be used.
+
+627
+01:08:04.330 --> 01:08:16.510
+Serhan Dagtas: As starting points or as templates in different industries for different purposes, and they also provide examples for the best practice guidelines that.
+
+628
+01:08:17.050 --> 01:08:18.630
+Serhan Dagtas: We discussed earlier.
+
+629
+01:08:19.020 --> 01:08:24.090
+Serhan Dagtas: Another useful tool Is this Google Forms?
+
+630
+01:08:24.760 --> 01:08:26.930
+Serhan Dagtas: as part of the Google Suite.
+
+631
+01:08:27.370 --> 01:08:31.590
+Serhan Dagtas: It may… Help you build
+
+632
+01:08:34.319 --> 01:08:38.620
+Serhan Dagtas: And implement surveys or quizzes or forms.
+
+633
+01:08:39.670 --> 01:08:43.319
+Serhan Dagtas: Especially to be used online for…
+
+634
+01:08:43.439 --> 01:08:53.390
+Serhan Dagtas: To be accessed on the web, by web browser or mobile platforms, Android or iPhone, so you can target different platforms.
+
+635
+01:08:57.380 --> 01:09:00.780
+Serhan Dagtas: And build forms that may help you.
+
+636
+01:09:01.609 --> 01:09:05.639
+Serhan Dagtas: Collect the data and implement the survey forms.
+
+637
+01:09:07.279 --> 01:09:08.479
+Serhan Dagtas: Also.
+
+638
+01:09:09.310 --> 01:09:10.819
+Serhan Dagtas: And as another.
+
+639
+01:09:12.300 --> 01:09:18.709
+Serhan Dagtas: Example, this is actually… A survey that was built and used.
+
+640
+01:09:19.490 --> 01:09:21.450
+Serhan Dagtas: Here, on campus.
+
+641
+01:09:26.810 --> 01:09:31.220
+Serhan Dagtas: Before another good, okay.
+
+642
+01:09:34.279 --> 01:09:40.149
+Serhan Dagtas: Example for, for best practice of, of the principles that we discussed.
+
+643
+01:09:40.800 --> 01:09:45.179
+Serhan Dagtas: So there's some multiple choice questions here.
+
+644
+01:09:47.340 --> 01:09:53.919
+Serhan Dagtas: To collect some profiling data from the user, from the respondent.
+
+645
+01:09:54.660 --> 01:09:56.119
+Serhan Dagtas: And
+
+646
+01:10:00.520 --> 01:10:03.420
+Serhan Dagtas: And then questions that allow.
+
+647
+01:10:04.880 --> 01:10:06.370
+Serhan Dagtas: them to…
+
+648
+01:10:09.800 --> 01:10:15.929
+Serhan Dagtas: provide… Responses based on their experience.
+
+649
+01:10:16.750 --> 01:10:24.500
+Serhan Dagtas: On data governance, which is the main goal of this particular survey. So that's another good, good example.
+
+650
+01:10:25.230 --> 01:10:28.520
+Serhan Dagtas: Or the industrial survey.
+
+651
+01:10:29.290 --> 01:10:34.660
+Serhan Dagtas: For collecting data on the state of data governance in organizations.
+
+652
+01:10:35.310 --> 01:10:38.810
+Serhan Dagtas: And then you see the report being generated.
+
+653
+01:10:39.490 --> 01:10:41.530
+Serhan Dagtas: Based on the analysis.
+
+654
+01:10:41.650 --> 01:10:43.789
+Serhan Dagtas: Of the responses.
+
+655
+01:10:44.240 --> 01:10:45.830
+Serhan Dagtas: To that.
+
+656
+01:10:45.980 --> 01:10:56.120
+Serhan Dagtas: survey. So as we discuss the analysis techniques, we will come back and kind of go over this industry report also in about two weeks time.
+
+657
+01:10:57.170 --> 01:11:02.699
+Serhan Dagtas: And we have a bunch of reading list items which we discussed briefly last time.
+
+658
+01:11:03.970 --> 01:11:07.510
+Serhan Dagtas: Chapters 9 and 11 in particular.
+
+659
+01:11:07.670 --> 01:11:10.819
+Serhan Dagtas: from this book by Ranjit Kumar.
+
+660
+01:11:11.070 --> 01:11:14.140
+Serhan Dagtas: Are relevant and useful.
+
+661
+01:11:14.430 --> 01:11:16.099
+Serhan Dagtas: Ariel, last time.
+
+662
+01:11:16.530 --> 01:11:21.449
+Serhan Dagtas: We went through Some more pizza.
+
+663
+01:11:23.330 --> 01:11:24.710
+Serhan Dagtas: But
+
+664
+01:11:26.050 --> 01:11:27.920
+Serhan Dagtas: Slide presentations.
+
+665
+01:11:29.190 --> 01:11:36.620
+Serhan Dagtas: Which goes through the survey design techniques and we saw many of these.
+
+666
+01:11:37.200 --> 01:11:44.509
+Serhan Dagtas: Practices, to build questionnaires or surveys or even interviews.
+
+667
+01:11:44.650 --> 01:11:49.189
+Serhan Dagtas: In the best practices discussion that we saw today.
+
+668
+01:11:49.480 --> 01:11:52.420
+Serhan Dagtas: We had gone through this presentation last time.
+
+669
+01:11:54.470 --> 01:12:02.980
+Serhan Dagtas: But these 2 presentations are also part of our reading material which you may have gone through or you may have a chance to.
+
+670
+01:12:04.920 --> 01:12:06.939
+Serhan Dagtas: To read after this class.
+
+671
+01:12:08.780 --> 01:12:17.150
+Serhan Dagtas: Okay, any questions or comments or suggestions on what we have seen covered or what we have not covered so far?
+
+672
+01:12:26.240 --> 01:12:31.530
+Serhan Dagtas: So we did cover week five material over two weeks.
+
+673
+01:12:32.230 --> 01:12:34.990
+Serhan Dagtas: As I had mentioned last time.
+
+674
+01:12:35.550 --> 01:12:39.379
+Serhan Dagtas: So we're finished with that material now, we also went.
+
+675
+01:12:39.950 --> 01:12:44.769
+Serhan Dagtas: Briefly through the assignments, assignment on this subject.
+
+676
+01:12:45.120 --> 01:12:50.500
+Serhan Dagtas: That you will be asked to complete by next week, next Monday.
+
+677
+01:12:51.240 --> 01:12:53.949
+Serhan Dagtas: So your next step is going to be.
+
+678
+01:12:54.150 --> 01:12:55.080
+Serhan Dagtas: Yeah.
+
+679
+01:12:55.180 --> 01:12:57.510
+Serhan Dagtas: Basically completing this assignment.
+
+680
+01:13:00.090 --> 01:13:13.280
+Serhan Dagtas: Any questions or comments about this, let me know. We can discuss that, or if there are any questions between now and then, feel free to email me as well.
+
+681
+01:13:13.790 --> 01:13:16.110
+Serhan Dagtas: about regarding this assignment.
+
+682
+01:13:16.700 --> 01:13:18.370
+Serhan Dagtas: Next week.
+
+683
+01:13:18.670 --> 01:13:19.480
+Serhan Dagtas: moving.
+
+684
+01:13:19.900 --> 01:13:25.790
+Serhan Dagtas: Continuing with the week 6 material on Irb Institutional Research Board.
+
+685
+01:13:26.320 --> 01:13:32.710
+Serhan Dagtas: Regarding the legal and ethical aspects of human subjects research.
+
+686
+01:13:33.370 --> 01:13:44.050
+Serhan Dagtas: And once you're finished with your assignment, feel free to take a look at the materials and reading list of that week's topics as well.
+
+687
+01:13:49.420 --> 01:13:52.689
+Serhan Dagtas: Any questions or comments, please let me know.
+
+688
+01:13:53.570 --> 01:13:58.670
+Serhan Dagtas: But otherwise we are finished with week five's material at this point.
+
+689
+01:13:59.040 --> 01:14:05.680
+Serhan Dagtas: There's some good reading material in the reading list of five.
+
+690
+01:14:06.180 --> 01:14:07.830
+Serhan Dagtas: Of week 5.
+
+691
+01:14:08.740 --> 01:14:15.549
+Serhan Dagtas: Feel free to go through those and let me know if there are any questions in the meantime.
+
+692
+01:14:16.020 --> 01:14:18.270
+Serhan Dagtas: But
+
+693
+01:14:20.040 --> 01:14:22.559
+Serhan Dagtas: We will see everybody again.
+
+694
+01:14:22.980 --> 01:14:25.890
+Serhan Dagtas: To go through week 6 material.
+
+695
+01:14:26.390 --> 01:14:31.410
+Serhan Dagtas: Next Monday on October 12th, October 12th.
+
+696
+01:14:34.540 --> 01:14:38.380
+Serhan Dagtas: Thank you all for attending, and we'll see you next time next week.
+
+697
+01:14:41.280 --> 01:14:42.010
+Lucia Izevbigie: Thank you!
+
+698
+01:14:42.390 --> 01:14:43.150
+Dela Vanlare: Thank you.
+
+699
+01:14:44.630 --> 01:14:45.660
+Oluwakemi Temitope Olayinka: Thank you.
+

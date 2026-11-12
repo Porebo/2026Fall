@@ -1,0 +1,1802 @@
+WEBVTT
+
+1
+00:00:04.850 --> 00:00:13.909
+John Talburt: So, we started last time a series of talks about, value of information quality and talked about business case.
+
+2
+00:00:14.690 --> 00:00:18.180
+John Talburt: Excuse me, and some of the characteristics of data.
+
+3
+00:00:18.640 --> 00:00:24.189
+John Talburt: Any question or anything, comments before we move on with that lecture?
+
+4
+00:00:26.840 --> 00:00:34.890
+John Talburt: What I want to talk about today, there's two things. One, I'm going to finish this lecture about value and, with understanding data categories.
+
+5
+00:00:35.520 --> 00:00:39.859
+John Talburt: And then, we're gonna shift a little bit to more,
+
+6
+00:00:40.140 --> 00:00:44.190
+John Talburt: data-related work, we're gonna… I just put an assignment up.
+
+7
+00:00:44.530 --> 00:00:47.799
+John Talburt: For you to do some analysis of data sets.
+
+8
+00:00:48.790 --> 00:00:54.260
+John Talburt: And I'm going to sort of demo That here during the class.
+
+9
+00:00:54.500 --> 00:00:57.989
+John Talburt: I'll show you a little bit about, one of the,
+
+10
+00:00:58.710 --> 00:01:02.589
+John Talburt: tools that we're going to be using, which is called Open Refine.
+
+11
+00:01:03.850 --> 00:01:05.050
+John Talburt: And it's,
+
+12
+00:01:05.180 --> 00:01:11.539
+John Talburt: It's an open source tool for data analysis, very similar to Excel, but it has other features in it.
+
+13
+00:01:11.990 --> 00:01:17.659
+John Talburt: We'll start with that, and then we'll use a few others as we get into the course.
+
+14
+00:01:18.230 --> 00:01:21.930
+John Talburt: But with that, let's go ahead and pick up where we left off last time.
+
+15
+00:01:22.300 --> 00:01:26.089
+John Talburt: So we, we're up to understanding data categories.
+
+16
+00:01:26.680 --> 00:01:31.990
+John Talburt: And remember, in this class, what we're doing, and this may be redundant for many of you, but
+
+17
+00:01:32.280 --> 00:01:34.810
+John Talburt: This is a foundational course that
+
+18
+00:01:35.060 --> 00:01:40.330
+John Talburt: It's to try to acquaint you with things about data, even though they may seem quite basic.
+
+19
+00:01:40.640 --> 00:01:45.189
+John Talburt: But not everyone understands, for example, dimensions of data quality.
+
+20
+00:01:45.440 --> 00:01:47.810
+John Talburt: And, categories of data.
+
+21
+00:01:48.220 --> 00:01:50.930
+John Talburt: So let's talk a little bit about data categories.
+
+22
+00:01:51.110 --> 00:01:55.510
+John Talburt: There's many ways to categorize data,
+
+23
+00:01:55.780 --> 00:02:07.469
+John Talburt: when we try to group it with some common characteristic or feature. And they can be useful, especially when we're talking about data. If you're out there and people are talking about data using certain terms.
+
+24
+00:02:07.690 --> 00:02:12.559
+John Talburt: It's good to be able to follow them and know what they mean by it.
+
+25
+00:02:12.870 --> 00:02:18.110
+John Talburt: So here's a big one now with AI, and that's the data categories by structure.
+
+26
+00:02:18.520 --> 00:02:22.779
+John Talburt: Structured data, unstructured data, and semi-structured data.
+
+27
+00:02:23.610 --> 00:02:28.469
+John Talburt: And, what we mean by that is that structured data
+
+28
+00:02:28.590 --> 00:02:32.139
+John Talburt: Or data that can be directly machine readable.
+
+29
+00:02:32.820 --> 00:02:45.180
+John Talburt: In other words, that we… our systems are set up so that if we give it structured data, it knows how to read it, it knows how to interpret the data, because it has a formal syntax.
+
+30
+00:02:45.720 --> 00:02:52.020
+John Talburt: just like any natural language, English and so forth, we have a syntax about
+
+31
+00:02:52.350 --> 00:02:57.619
+John Talburt: verbs and nouns and adjectives and so forth. Although our…
+
+32
+00:02:57.760 --> 00:03:01.859
+John Talburt: The natural language syntax seems to be very flexible.
+
+33
+00:03:02.080 --> 00:03:10.469
+John Talburt: Machine-readable syntax, like we would have with a Python program, or XML, or JSON,
+
+34
+00:03:10.620 --> 00:03:16.219
+John Talburt: It's much more formal, and therefore, it's very predictable, and the computer can read it.
+
+35
+00:03:16.480 --> 00:03:24.689
+John Talburt: And so, we would have, directly machine-redeemable, for example, relational databases where we have a
+
+36
+00:03:24.850 --> 00:03:30.399
+John Talburt: Schema that, that outlines the, The data and the relationships.
+
+37
+00:03:30.920 --> 00:03:38.630
+John Talburt: Comma-separated value files, this is what we see a lot, and you're gonna use that in your assignment today.
+
+38
+00:03:38.740 --> 00:03:51.160
+John Talburt: Although we say comma separated, it just means that the fields are separated by special character. Although it's often a comma, it could be any other type of character, a colon, semicolon.
+
+39
+00:03:51.420 --> 00:03:54.920
+John Talburt: Sometimes a pipe character is used,
+
+40
+00:03:55.270 --> 00:03:58.270
+John Talburt: The, uppercase of,
+
+41
+00:03:58.760 --> 00:04:03.680
+John Talburt: Where is that? Yeah, the uppercase of the… Backward slash.
+
+42
+00:04:03.960 --> 00:04:05.580
+John Talburt: On your keyboard.
+
+43
+00:04:07.340 --> 00:04:23.249
+John Talburt: XML has kind of fallen out of favor these days, but there's still a lot of it around, and it's a markup language that has a formal syntax that uses less than and greater than signs to designate tags and fields.
+
+44
+00:04:24.760 --> 00:04:29.809
+John Talburt: And now it's been largely replaced by JSON, which is a somewhat simpler
+
+45
+00:04:29.930 --> 00:04:35.779
+John Talburt: Markup language that has, a formal syntax to it as well.
+
+46
+00:04:36.670 --> 00:04:42.759
+John Talburt: So, unstructured data, Our human-readable data.
+
+47
+00:04:43.020 --> 00:04:48.649
+John Talburt: But not necessarily machine-readable, typically require pre-processing to be machine-readable.
+
+48
+00:04:49.170 --> 00:04:53.649
+John Talburt: Now, this is changing now, as you're probably well aware.
+
+49
+00:04:54.150 --> 00:05:03.220
+John Talburt: that, in, in… in… Traditionally, we have to… we… we had to put
+
+50
+00:05:03.490 --> 00:05:06.080
+John Talburt: In order for a computer to read.
+
+51
+00:05:06.410 --> 00:05:10.200
+John Talburt: Text, read what we were… was written.
+
+52
+00:05:10.410 --> 00:05:14.819
+John Talburt: We had to translate it into some kind of structured format.
+
+53
+00:05:15.440 --> 00:05:26.669
+John Talburt: like a comma-separated file, or an XML file, or something, before we could put it into the computer, for the computer to understand, what we were trying to do with the data.
+
+54
+00:05:27.000 --> 00:05:31.360
+John Talburt: And of course, now that has changed dramatically with large language models.
+
+55
+00:05:31.790 --> 00:05:39.260
+John Talburt: And so now, most human-readable documents are now In some sense, computer-readable.
+
+56
+00:05:39.410 --> 00:05:44.809
+John Talburt: In other words, you can put them into these models, and they can read and understand.
+
+57
+00:05:44.950 --> 00:05:54.789
+John Talburt: And this is term… term… one of the reasons now, or one of the main applications that we're seeing in AI, is to take,
+
+58
+00:05:55.440 --> 00:06:05.580
+John Talburt: unstructured data, some type of document. I have a student right now working on a project where he's reading an EDGAR document. EDGAR is a database from the,
+
+59
+00:06:05.980 --> 00:06:10.439
+John Talburt: The, securities and Exchange Commission, where
+
+60
+00:06:10.620 --> 00:06:18.109
+John Talburt: Corporations have to report, my quarterly and annual reports, or Or reports of significant change.
+
+61
+00:06:18.600 --> 00:06:27.789
+John Talburt: And he's having the computer or language models read those documents to understand what the document is talking about.
+
+62
+00:06:28.130 --> 00:06:34.370
+John Talburt: However, we're still not quite to the point that…
+
+63
+00:06:34.970 --> 00:06:42.879
+John Talburt: We can just feed unstructured documents into the system and do the traditional computing, so we're sort of at a…
+
+64
+00:06:43.020 --> 00:06:52.480
+John Talburt: A bridge right now, where there's a huge amount of investment in traditional Systems that require structured inputs.
+
+65
+00:06:52.620 --> 00:06:56.360
+John Talburt: Master Data Management System, invoicing, billing systems.
+
+66
+00:06:56.480 --> 00:07:01.000
+John Talburt: Customer Relationship Management System, CRM.
+
+67
+00:07:01.130 --> 00:07:04.350
+John Talburt: All of these systems that are legacy systems.
+
+68
+00:07:04.550 --> 00:07:10.110
+John Talburt: We're all built to require that the data come in in a certain structured format.
+
+69
+00:07:10.350 --> 00:07:14.480
+John Talburt: So, what's happening right now, we're in a transition stage.
+
+70
+00:07:14.700 --> 00:07:20.839
+John Talburt: is that many applications of AI are now reading those unstructured documents.
+
+71
+00:07:20.990 --> 00:07:25.099
+John Talburt: But the purpose is not to process them and do something with them.
+
+72
+00:07:25.410 --> 00:07:36.610
+John Talburt: What they're doing is asking the language model to read it, understand it, and then transform it into a structured,
+
+73
+00:07:36.920 --> 00:07:40.659
+John Talburt: Data record so that it can go into these legacy systems.
+
+74
+00:07:41.030 --> 00:07:54.809
+John Talburt: We're not quite yet to the point that we are replacing these large legacy systems that have a huge investment in intellectual property. Even huge payroll systems.
+
+75
+00:07:54.940 --> 00:08:04.949
+John Talburt: SAP-type ERP, enterprise systems, all of these big systems that have huge investments in time and capital.
+
+76
+00:08:05.130 --> 00:08:21.729
+John Talburt: are not being replaced. Eventually, they probably will be, in what we call semantic computing, where we basically… our systems will operate just like people. We give them documents in any readable format.
+
+77
+00:08:21.940 --> 00:08:26.209
+John Talburt: The systems can read them, process them, and do all the processing.
+
+78
+00:08:26.660 --> 00:08:33.419
+John Talburt: The holdback now, to prevent us from doing that right now, Is that,
+
+79
+00:08:33.730 --> 00:08:42.499
+John Talburt: If you give a large language model, like a document, and ask it to understand what's in that document, and output maybe some kind of structured record.
+
+80
+00:08:42.700 --> 00:08:45.010
+John Talburt: It takes time to do that.
+
+81
+00:08:45.400 --> 00:08:51.589
+John Talburt: As you're probably used to seeing on your screen, when you do that, it'll come up and have a little,
+
+82
+00:08:51.690 --> 00:08:55.239
+John Talburt: something, a spin, that says, I'm thinking, I'm thinking.
+
+83
+00:08:55.410 --> 00:09:07.570
+John Talburt: And even though the thinking may be quite fast in human terms, it may only take a few seconds, maybe sometimes 30 seconds or a minute, depending on what you're asking it to do.
+
+84
+00:09:08.210 --> 00:09:15.160
+John Talburt: This prevents these kinds of systems from being scalable to millions of records, because
+
+85
+00:09:15.380 --> 00:09:23.319
+John Talburt: These legacy systems that we're using that are based on traditional programming and structured data
+
+86
+00:09:23.520 --> 00:09:30.119
+John Talburt: are very fast, where they're thousands, hundreds of thousands of times faster
+
+87
+00:09:30.290 --> 00:09:44.829
+John Talburt: than these models and doing these inferencing, or thinking about doing, reading, for example, a natural language document. So this is kind of where we are right now, and there's a lot of things we're going to look at later in the course.
+
+88
+00:09:45.030 --> 00:10:00.949
+John Talburt: some of the ways that we're approaching that through what's called Agentic AI, where the model deploys agents, or workers, that can work on these problems, and those tend to be faster.
+
+89
+00:10:01.220 --> 00:10:07.480
+John Talburt: And another approach that people are taking is what's called embedding.
+
+90
+00:10:07.600 --> 00:10:15.140
+John Talburt: Where the text is… The model takes the text and translates it into a numeric vector.
+
+91
+00:10:15.440 --> 00:10:23.520
+John Talburt: A vector that presumably captures The… both the syntactic and the semantic meaning of the text.
+
+92
+00:10:23.690 --> 00:10:32.079
+John Talburt: Into a numeric vector, and then these numeric vectors can be processed much faster than just simple text.
+
+93
+00:10:32.270 --> 00:10:36.469
+John Talburt: Anyway, we'll talk more about that as we go, but this is a good time to bring it up.
+
+94
+00:10:37.060 --> 00:10:44.560
+John Talburt: So, probably need to revise this. So now, unstructured data not only is human-readable, it is machine-readable, to a certain extent.
+
+95
+00:10:45.200 --> 00:11:03.809
+John Talburt: But again, because of the large investments in traditional systems, most AI is being used to pre-process the… and turn it into something that's structured. So that's a huge application of AI at the moment, is transforming unstructured text into structured text.
+
+96
+00:11:04.790 --> 00:11:05.849
+John Talburt: Oops, sorry.
+
+97
+00:11:08.170 --> 00:11:13.369
+John Talburt: And, though it… and, of course, the models can go beyond,
+
+98
+00:11:14.330 --> 00:11:20.190
+John Talburt: just text. They, they, they, now we have what we call multimodal, models.
+
+99
+00:11:20.340 --> 00:11:24.219
+John Talburt: That can, read images and audio.
+
+100
+00:11:24.660 --> 00:11:31.660
+John Talburt: And so, have very human behavior. That's the whole point of AI, is to,
+
+101
+00:11:31.910 --> 00:11:34.479
+John Talburt: Be able to think and reason as humans.
+
+102
+00:11:35.350 --> 00:11:39.460
+John Talburt: Semi-structured data is part structured, part unstructured.
+
+103
+00:11:39.700 --> 00:11:48.179
+John Talburt: But, to some extent, almost all data are semi-structured. It's just a matter of degree.
+
+104
+00:11:48.390 --> 00:12:00.410
+John Talburt: Take, for example, people would say, well, you know, a relational database is totally structured. It's got a schema, everything is labeled, and we know exactly how things are laid out in it.
+
+105
+00:12:00.510 --> 00:12:04.049
+John Talburt: But that's really not necessarily true. For example, you look in a…
+
+106
+00:12:04.240 --> 00:12:09.920
+John Talburt: In a database table, it may have a comments column, which is a free-form text that
+
+107
+00:12:10.030 --> 00:12:19.170
+John Talburt: you know, is not machine readable, but it would be AI readable. And that, again, that's another application that we see a lot.
+
+108
+00:12:19.370 --> 00:12:26.029
+John Talburt: In large databases, for example, in telemarketing, where people have called in and left,
+
+109
+00:12:26.220 --> 00:12:37.139
+John Talburt: a lot of messages or complaints or orders, then now there's a big use of AI to go through all those and read them and understand them and come up with,
+
+110
+00:12:37.540 --> 00:12:55.469
+John Talburt: with proposals or remedies for, you know, what were the major problems that it found, what things should be addressed. So we're seeing big results now from AI and its ability to read free-form text. And again, same thing, free-form addresses. In a database, you may have an address.
+
+111
+00:12:55.660 --> 00:13:00.690
+John Talburt: column, but it's… it's the entire street address. The street number, the…
+
+112
+00:13:00.900 --> 00:13:04.759
+John Talburt: The directional, the street name, the street suffix.
+
+113
+00:13:04.890 --> 00:13:11.359
+John Talburt: Secondary apartment number, all this kind of thing, all in one, text string.
+
+114
+00:13:11.470 --> 00:13:16.330
+John Talburt: And again, traditionally, what's had to happen is that we've had to write programs
+
+115
+00:13:16.640 --> 00:13:24.910
+John Talburt: To go in and, and try to examine that and, and, what we do, what we call parsing.
+
+116
+00:13:25.040 --> 00:13:34.280
+John Talburt: Where we pull the things apart, and we say, okay, now we're going to pull the street number into a separate column, the street name in a column, and the street suffix, and so forth.
+
+117
+00:13:34.480 --> 00:13:37.769
+John Talburt: And again, now this is a use of AI.
+
+118
+00:13:38.070 --> 00:13:40.400
+John Talburt: Is it can read, and
+
+119
+00:13:40.570 --> 00:13:45.740
+John Talburt: Understand those components and parse them out automatically.
+
+120
+00:13:45.860 --> 00:14:03.409
+John Talburt: And again… but again, what this is doing is taking unstructured, in this case semi-structured data, and structuring it, because we're still relying primarily on the structured, systems, the systems that require structured input.
+
+121
+00:14:03.880 --> 00:14:08.410
+John Talburt: But we're beginning to move away from that, and eventually we'll get to the point.
+
+122
+00:14:08.580 --> 00:14:11.680
+John Talburt: Where the preparation is not necessary.
+
+123
+00:14:11.800 --> 00:14:18.159
+John Talburt: You can just take the data as it is, put it in your system, payroll system, billing system, whatever it is.
+
+124
+00:14:18.480 --> 00:14:21.839
+John Talburt: And, the system won't be able to figure it out.
+
+125
+00:14:23.860 --> 00:14:33.770
+John Talburt: A good example of a hybrid is like email, right? So you have specifically designated a to address, and a from address, and a date, and a subject.
+
+126
+00:14:33.870 --> 00:14:36.130
+John Talburt: But the message itself is freeform.
+
+127
+00:14:36.590 --> 00:14:47.950
+John Talburt: And so traditional systems are not really able to read the message, but again, now with AI and large language models, we're able to read the content of the message and interpret them.
+
+128
+00:14:50.310 --> 00:14:54.259
+John Talburt: So, another way to categorize data is by function.
+
+129
+00:14:56.450 --> 00:15:01.169
+John Talburt: You can say, well, there's operational data, that's the data that I'm using to run my business.
+
+130
+00:15:01.270 --> 00:15:08.230
+John Talburt: And that typically has some subcategories. One of the major ones is master data.
+
+131
+00:15:08.990 --> 00:15:12.349
+John Talburt: Then there's transactional data and reference data.
+
+132
+00:15:12.710 --> 00:15:13.990
+John Talburt: and metadata.
+
+133
+00:15:14.200 --> 00:15:16.670
+John Talburt: So these are some of the primary,
+
+134
+00:15:17.300 --> 00:15:24.859
+John Talburt: categories of operational data that when you go into any IT system, you'll typically find these.
+
+135
+00:15:25.200 --> 00:15:27.330
+John Talburt: We'll talk about each one.
+
+136
+00:15:27.780 --> 00:15:37.680
+John Talburt: Then there's user-generated data that people are typing in, creating, and then machine-generated data from, you know,
+
+137
+00:15:38.080 --> 00:15:45.569
+John Talburt: I was recently visited with the Alcoa plant, down, in South Arkansas.
+
+138
+00:15:45.850 --> 00:15:50.689
+John Talburt: And they have these huge machines where they're rolling out aluminum foil.
+
+139
+00:15:51.160 --> 00:15:56.259
+John Talburt: Matter of fact, almost all the aluminum foil that you see in the grocery store anywhere in the United States.
+
+140
+00:15:56.370 --> 00:15:59.769
+John Talburt: was probably made down in South Arkansas.
+
+141
+00:16:00.250 --> 00:16:03.729
+John Talburt: And these machines have monitors that monitor
+
+142
+00:16:03.950 --> 00:16:07.510
+John Talburt: How fast the rollers are spinning, how much,
+
+143
+00:16:07.820 --> 00:16:23.929
+John Talburt: leeway, how much tolerance is in there, how much electricity they're using, and all kinds of monitorings and sensors, and that all gets generated. And again, this is another use of AI. Now what's happening is,
+
+144
+00:16:24.280 --> 00:16:29.779
+John Talburt: These machines, the downtime on those is very costly. They need to run constantly.
+
+145
+00:16:30.080 --> 00:16:35.980
+John Talburt: And, so one of the things that they're doing is taking all the sensor data that's machine-generated.
+
+146
+00:16:36.210 --> 00:16:44.160
+John Talburt: Putting it into AI models and using that to predict when a failure might be imminent, so that they can prevent those.
+
+147
+00:16:44.390 --> 00:16:52.890
+John Talburt: Or slow the machine, stop the machine, and do some kind of adjustment or repair before it actually breaks down for a long period of time.
+
+148
+00:16:55.750 --> 00:16:59.699
+John Talburt: So, master data is still an important category of data.
+
+149
+00:17:01.770 --> 00:17:06.869
+John Talburt: And one way to think about master data are nouns of data vocabulary.
+
+150
+00:17:07.079 --> 00:17:18.109
+John Talburt: So, master data describes people, places, and things, just like we say that's what a noun is in English, right? The word that describes a person, or a place, or a thing.
+
+151
+00:17:18.599 --> 00:17:23.079
+John Talburt: So, master data are associated with real-world entities.
+
+152
+00:17:23.200 --> 00:17:31.140
+John Talburt: like a customer, right? There's a real person out there that's a customer that has a unique identity, then you want to track that.
+
+153
+00:17:31.450 --> 00:17:39.799
+John Talburt: And be sure that when you get two customer transactions, you can tell them apart. Are they the same customer or different customers?
+
+154
+00:17:39.960 --> 00:17:56.150
+John Talburt: Because each one has a unique identity, and it's very important to your business, right? Customers, your most important thing when you're in a for-profit business, or even government agencies, right? The citizens, people that are using these systems.
+
+155
+00:17:56.290 --> 00:17:59.289
+John Talburt: Like the Department of Motor Vehicles.
+
+156
+00:17:59.450 --> 00:18:10.630
+John Talburt: There, they're tracking not only people who are drivers, but also, the real-world things, which are vehicles, right? So they track those and identify those.
+
+157
+00:18:10.930 --> 00:18:17.810
+John Talburt: And we have nice, unique identifiers, though, we call vehicle identification numbers, or VIN numbers.
+
+158
+00:18:18.170 --> 00:18:22.890
+John Talburt: And so that's all master data, and that's a characteristic of master data.
+
+159
+00:18:23.110 --> 00:18:36.270
+John Talburt: Is that we assign a unique identifier to each one of these entities that we're tracking, whether it's a patient, or a vehicle, or a product, and we want… and we use that to identify it.
+
+160
+00:18:36.720 --> 00:18:42.280
+John Talburt: And the reason we use an identifier rather than, just a description
+
+161
+00:18:42.420 --> 00:18:45.760
+John Talburt: Is that it's a data quality issue, right?
+
+162
+00:18:46.030 --> 00:18:50.530
+John Talburt: If we… if we describe a customer only by that customer's name and address.
+
+163
+00:18:50.960 --> 00:19:01.479
+John Talburt: First of all, those are subject to change. People change their name, they change their addresses, but even if they don't change their names and addresses, they represent them in different ways.
+
+164
+00:19:01.720 --> 00:19:06.739
+John Talburt: It might be, Bill Talburt, but it could also be Will Talburt.
+
+165
+00:19:07.020 --> 00:19:11.039
+John Talburt: And… or William Talburt. So,
+
+166
+00:19:11.240 --> 00:19:23.199
+John Talburt: These… these different ways make it hard to… to know, and so if we're able to give each one a unique identifier, and say this is customer 101,
+
+167
+00:19:23.410 --> 00:19:29.870
+John Talburt: And we can keep that 101 associated with that customer's information.
+
+168
+00:19:30.130 --> 00:19:34.159
+John Talburt: Then, it makes life a lot easier in our systems.
+
+169
+00:19:34.400 --> 00:19:51.519
+John Talburt: If we want to bring together all the customer transactions for a particular customer, it's very easy, if we've assigned all of those transactions, customer identifier 101, we just sort and gather together all the 101 records, and we've got all the sales, or all the buys.
+
+170
+00:19:51.690 --> 00:20:06.279
+John Talburt: purchases that that customer has made. So it simplifies the processing and ensures that we're not over-counting or under-counting customers or patients, or mixing up their medical charts. We don't want to do that.
+
+171
+00:20:06.690 --> 00:20:14.210
+John Talburt: So, so master data management is really about what we call semantic encoding.
+
+172
+00:20:14.360 --> 00:20:26.099
+John Talburt: Semantic encoding is exactly what I've described. If I have a customer, and I say, okay, I want to represent that customer by a unique value, an identifier.
+
+173
+00:20:26.270 --> 00:20:35.870
+John Talburt: Then I've semantically encoded that record. I've put in that one-on-one value as a stand-in to represent that particular customer.
+
+174
+00:20:36.390 --> 00:20:53.229
+John Talburt: And so, master data management is all about semantic encoding and, keeping track, keeping those straight, right? For it to work, I have to be sure that every time I see that same customer, I'm giving that… I'm assigning that same identifier.
+
+175
+00:20:53.600 --> 00:20:57.990
+John Talburt: So anyway, master data are like the nouns of data.
+
+176
+00:20:58.580 --> 00:21:01.170
+John Talburt: And as I just said, and so again.
+
+177
+00:21:01.530 --> 00:21:15.370
+John Talburt: We used to have T numbers here, now we have Workday numbers that identify us in our system, right? So, one issue with master data is that, yes, within a particular system or context.
+
+178
+00:21:16.150 --> 00:21:25.259
+John Talburt: Every, you know, every entity has a unique identifier, but in different systems, in different contexts.
+
+179
+00:21:25.720 --> 00:21:34.610
+John Talburt: Yes, they'll do the same thing, but they give them different identifiers. So, for example, your workday number here at UALR
+
+180
+00:21:34.750 --> 00:21:37.959
+John Talburt: If you go and enroll in another college.
+
+181
+00:21:38.070 --> 00:21:47.379
+John Talburt: Arkansas State? Well, that might not be true. Yeah, it would be true. You go out of state, go to another university in Mississippi.
+
+182
+00:21:47.630 --> 00:21:55.339
+John Talburt: They'll give you another number. They will want to track you and give you a unique number within their context, but it'll be a different one.
+
+183
+00:21:55.560 --> 00:21:57.369
+John Talburt: So, it's very difficult
+
+184
+00:21:57.620 --> 00:22:03.089
+John Talburt: to come up with a universal identifier. As a matter of fact, there's a lot of political
+
+185
+00:22:03.420 --> 00:22:08.849
+John Talburt: weight against doing that, so… because now this looks like Big Brother.
+
+186
+00:22:09.070 --> 00:22:15.939
+John Talburt: It's, to some extent, already been done in the United States with social security numbers.
+
+187
+00:22:16.410 --> 00:22:29.960
+John Talburt: Other countries, where it's not such a big deal for them, especially in Europe and India and other places, people are assigned a unique citizen's number that they have to use for all of their government operations.
+
+188
+00:22:30.380 --> 00:22:37.430
+John Talburt: Here we say we try to protect the social security number, but we haven't done a very good job of it.
+
+189
+00:22:37.590 --> 00:22:40.150
+John Talburt: Probably everybody knows what yours is.
+
+190
+00:22:40.380 --> 00:22:47.809
+John Talburt: The problem with that is that we don't have a universal system for maintaining that alignment that I talked about.
+
+191
+00:22:48.030 --> 00:22:54.560
+John Talburt: That to be assured that that social security number that's associated with your record is really yours.
+
+192
+00:22:54.890 --> 00:22:59.849
+John Talburt: So there are a lot of fake social security numbers. We run into problems, for example.
+
+193
+00:23:00.200 --> 00:23:06.169
+John Talburt: Now, of course, in the U.S, as soon as you're born, you're assigned a social security number.
+
+194
+00:23:06.500 --> 00:23:12.850
+John Talburt: You used to not get one until you started working around age 16 or 18.
+
+195
+00:23:13.100 --> 00:23:16.609
+John Talburt: But now you're assigned from the beginning, but even in schools.
+
+196
+00:23:17.010 --> 00:23:20.209
+John Talburt: Helping schools manage their enrollments.
+
+197
+00:23:20.480 --> 00:23:27.309
+John Talburt: schools that use social security numbers for their student identifiers, Are often incorrect, because
+
+198
+00:23:27.590 --> 00:23:31.020
+John Talburt: They enroll a student, and they may not know
+
+199
+00:23:31.190 --> 00:23:38.290
+John Talburt: what their student's social security number is, so they use their mother's social security number, their father's social security number.
+
+200
+00:23:38.400 --> 00:23:43.340
+John Talburt: And in many cases where we have foreign workers, sometimes they just make them up.
+
+201
+00:23:43.580 --> 00:23:55.270
+John Talburt: or steal someone else is Social Security. So, again, we don't have one that's universally unique, at least in the United States. Now, the closest, probably, is a social security number.
+
+202
+00:23:57.760 --> 00:24:10.550
+John Talburt: So, the problem is that records come in. I mean, if I go to the hospital here and check in, I don't know what my patient number is at St. Vincent's or Baptist Hospital here in town.
+
+203
+00:24:10.800 --> 00:24:18.059
+John Talburt: So, what has to happen is that somebody has to figure out what's happened, I mean, what my…
+
+204
+00:24:18.290 --> 00:24:22.439
+John Talburt: identifier is for that particular hospital, Baptist.
+
+205
+00:24:22.450 --> 00:24:30.050
+John Talburt: So typically, you go to admission desk, and you give them your name and address, and they look you up and search, and they say, okay, this is it.
+
+206
+00:24:30.060 --> 00:24:45.199
+John Talburt: And that's the reason they put that band around your wrist that has that patient number, so that whenever you go to any particular procedure, you get an x-ray or some dose of medicine, they can scan that barcode on that
+
+207
+00:24:45.760 --> 00:24:59.530
+John Talburt: on that wristband to be sure that they're appending that… the correct identifier for you as a patient in that hospital to the records that they're generating. Test records, or x-ray records, whatever.
+
+208
+00:25:00.220 --> 00:25:10.980
+John Talburt: And so, again, the whole point of this is it simplifies the deduplication and integration of records downstream business units, for example, in the hospital, again.
+
+209
+00:25:11.050 --> 00:25:21.010
+John Talburt: That very easy way to bring together all the treatments that you've had in different departments of the hospital at different times into a single medical chart.
+
+210
+00:25:21.950 --> 00:25:28.340
+John Talburt: So that's the management master data, it's a very big operation, and there are many vendors in this space.
+
+211
+00:25:29.670 --> 00:25:34.340
+John Talburt: Now, transactional data is sort of like the verbs, right? There's something happening.
+
+212
+00:25:34.530 --> 00:25:44.940
+John Talburt: With those entities, right? So, for example, a good example would be, like, a sales order, or a credit card payment, or insurance claim. What's happening is…
+
+213
+00:25:46.300 --> 00:26:00.629
+John Talburt: you've got a sales associate who's an employee that has an employee number, and the transaction is sold a product which has also is in master data management. So, again, just like in a language, the,
+
+214
+00:26:00.840 --> 00:26:09.230
+John Talburt: The transactional data sort of represents sentences where you have subjects, verbs and objects.
+
+215
+00:26:09.360 --> 00:26:18.639
+John Talburt: A sales associate sells a product to a… and again, there would also be a pro… a customer.
+
+216
+00:26:18.840 --> 00:26:24.119
+John Talburt: So, the sales associate and the product and the customer number are all under Master Data Management.
+
+217
+00:26:24.310 --> 00:26:32.769
+John Talburt: We want unique identifiers for each one of our customers, unique identifiers for each one of our products, each one of our employees.
+
+218
+00:26:32.910 --> 00:26:37.419
+John Talburt: And then, in this case, we want a lot of duplication.
+
+219
+00:26:38.000 --> 00:26:45.059
+John Talburt: In master data management, we don't want duplicates. We don't want to put the same customer in the master data file twice.
+
+220
+00:26:45.170 --> 00:26:48.880
+John Talburt: Because now it looks like two customers instead of one.
+
+221
+00:26:49.340 --> 00:26:56.160
+John Talburt: So, we really want to deduplicate our master files that try… we want one-to-one correspondence.
+
+222
+00:26:56.270 --> 00:27:02.800
+John Talburt: One master record for each entity that we're tracking, if it's a patient, a customer, a product.
+
+223
+00:27:03.130 --> 00:27:17.020
+John Talburt: On the other hand, transactional data, we want lots of it, right? We would like to sell lots of product P456, right? The more we sell, the more profits that we could make. So there, it's different. We want lots of transactions.
+
+224
+00:27:17.170 --> 00:27:21.350
+John Talburt: But by embedding, semantically encoding those transactions.
+
+225
+00:27:21.520 --> 00:27:27.469
+John Talburt: With the identifiers of the master data, then it makes it very easy for us to,
+
+226
+00:27:27.970 --> 00:27:41.679
+John Talburt: To… to do our downstream systems where we're, we're making invoices, or making sales reports, inventory. We can track those things because we have those unique identifiers.
+
+227
+00:27:43.330 --> 00:27:46.819
+John Talburt: And then the third type of data is reference data.
+
+228
+00:27:48.840 --> 00:27:59.550
+John Talburt: And reference data is really very much like master data, except it's simpler in the sense that it really deals with codes, or classification schemes.
+
+229
+00:28:00.170 --> 00:28:03.639
+John Talburt: That are referenced by, transaction records.
+
+230
+00:28:03.940 --> 00:28:07.280
+John Talburt: Or a master record, so it… it…
+
+231
+00:28:08.060 --> 00:28:15.779
+John Talburt: What reference data is, is an agreement on what codes we're going to use so that data becomes interoperable.
+
+232
+00:28:16.580 --> 00:28:19.029
+John Talburt: Take, for example, here at the university.
+
+233
+00:28:19.240 --> 00:28:30.480
+John Talburt: Well, you're not here at the university, many of you, but we have codes that represent the buildings on campus, right? So, right now, I'm in the
+
+234
+00:28:30.640 --> 00:28:32.419
+John Talburt: EIT building.
+
+235
+00:28:32.780 --> 00:28:36.830
+John Talburt: And the,
+
+236
+00:28:36.930 --> 00:28:50.080
+John Talburt: It's Electronics, or Engineering… I'm sorry, Engineering and Information Technology Building. It's abbreviated as EIT. But we want to use that, we want to consistently use that code so that there's no confusion
+
+237
+00:28:50.230 --> 00:29:09.880
+John Talburt: If somebody else is using a different code, then again, it's the same problem as master data management. But in the idea of reference data is that we don't have to semantically encode it. In other words, I don't want to go to another step and another abstraction and say, well, here's the engineering and information technology building.
+
+238
+00:29:10.140 --> 00:29:13.760
+John Talburt: I don't want to assign… try to assign it a…
+
+239
+00:29:13.990 --> 00:29:24.539
+John Talburt: a numeric identifier to track it, because it's very simple. If I just consistently use EIT, it's a single value.
+
+240
+00:29:24.840 --> 00:29:28.169
+John Talburt: The same thing with postal codes, right?
+
+241
+00:29:28.330 --> 00:29:33.140
+John Talburt: So, Arkansas is… standard postal code is capital A, capital R.
+
+242
+00:29:33.460 --> 00:29:47.960
+John Talburt: And so, as long as we consistently use that in an address context, it's clear that if I see AR, it means Arkansas, and if I want to use Arkansas, I should encode it as AR.
+
+243
+00:29:48.380 --> 00:29:49.609
+John Talburt: So,
+
+244
+00:29:49.790 --> 00:29:56.569
+John Talburt: So it's somewhat similar to master data, but it's a little simpler in that we're really dealing mainly with codes.
+
+245
+00:29:57.120 --> 00:30:08.770
+John Talburt: And by using the same codes, for example, in courses here on campus, everybody understands that when they see the code EIT by a class listing or course listing.
+
+246
+00:30:08.930 --> 00:30:12.959
+John Talburt: They know that it's referring to a particular building on campus.
+
+247
+00:30:15.580 --> 00:30:24.490
+John Talburt: And so, reference data is very helpful, very key to data integration and data interoperability, just like, master data.
+
+248
+00:30:25.760 --> 00:30:34.479
+John Talburt: So, we see a lot of those. Postal codes, universal product codes, things like that. So, some of the codes may be from outside.
+
+249
+00:30:34.690 --> 00:30:47.469
+John Talburt: That are kind of standard. For example, ISO has many, many standard codes for, geographic, like the codes that we were talking about for states, but also for countries, for…
+
+250
+00:30:47.600 --> 00:30:55.500
+John Talburt: For, the money, currency, codes,
+
+251
+00:30:55.850 --> 00:31:05.439
+John Talburt: And so forth. So there are many sort of agreed on nationally or international for postal codes would be within the United States, or agreed upon.
+
+252
+00:31:05.610 --> 00:31:08.560
+John Talburt: ISO codes, as would be,
+
+253
+00:31:08.670 --> 00:31:13.099
+John Talburt: you know, universally agreed upon by all countries that participate in ISO.
+
+254
+00:31:13.470 --> 00:31:19.469
+John Talburt: So those are external, but again, we often have internal code, just like I was talking about.
+
+255
+00:31:19.680 --> 00:31:26.430
+John Talburt: Unfortunately, ISO doesn't have a set of codes for the buildings on the UA Little Rock campus.
+
+256
+00:31:26.640 --> 00:31:36.600
+John Talburt: We build those and maintain those on our own, as well as our job codes here, or so forth and so on. So, the reference data…
+
+257
+00:31:36.620 --> 00:31:47.420
+John Talburt: Could be that we require it to be some kind of national or international standard, or we invent our own for our particular context.
+
+258
+00:31:48.630 --> 00:31:52.440
+John Talburt: So, metadata, the fourth type of data.
+
+259
+00:31:54.060 --> 00:32:05.770
+John Talburt: Metadata literally means data about data. So, again, if you have raw data values, then, You…
+
+260
+00:32:05.940 --> 00:32:10.890
+John Talburt: they can be very ambiguous, right? I have a date,
+
+261
+00:32:11.260 --> 00:32:13.359
+John Talburt: that I have a date value.
+
+262
+00:32:13.670 --> 00:32:23.679
+John Talburt: If I just give you a date value, then you know intrinsically what it means, and if you recognize the format, and you say, well, oh.
+
+263
+00:32:23.860 --> 00:32:26.409
+John Talburt: This is, July the 4th,
+
+264
+00:32:26.540 --> 00:32:30.549
+John Talburt: 1959. I recognize that by the layout of the
+
+265
+00:32:30.820 --> 00:32:46.419
+John Talburt: But what is the meaning? What is the semantics of that? I mean, it means a particular date in the calendar, but in a particular application, what does it mean? Is it a date of birth? Is it a date of a sales transaction? It could be many, many things.
+
+266
+00:32:46.710 --> 00:32:49.380
+John Talburt: So metadata helps to clear that up.
+
+267
+00:32:49.680 --> 00:32:53.959
+John Talburt: if I have a field of dates, and I label it as,
+
+268
+00:32:54.330 --> 00:32:59.040
+John Talburt: dates of birth, and I know that what I'm describing with those dates are
+
+269
+00:32:59.190 --> 00:33:02.890
+John Talburt: The dates of birth were the associated entity.
+
+270
+00:33:03.610 --> 00:33:10.630
+John Talburt: And so they label, describe, and characterize other data to make it easier to retrieve, interpret, or use.
+
+271
+00:33:12.240 --> 00:33:20.589
+John Talburt: Technical metadata is data that… and business metadata are two major types of metadata.
+
+272
+00:33:21.070 --> 00:33:28.609
+John Talburt: Technical metadata describes technology systems, data structures, data quality rules, data standards.
+
+273
+00:33:29.050 --> 00:33:34.239
+John Talburt: Business data is more about how the operations are to be performed. What are the rules?
+
+274
+00:33:34.400 --> 00:33:43.249
+John Talburt: You know, can… can a product be returned? Does it require receipt? Is it… can it be returned after 30 days?
+
+275
+00:33:43.310 --> 00:33:56.610
+John Talburt: different types of rules about the conduct of the business, or… again, I keep saying business, but this could be any organization. It could be, like, a hospital, or it could be, like, a government agency.
+
+276
+00:33:57.110 --> 00:34:03.769
+John Talburt: So those are the two different types of, metadata that we typically encounter.
+
+277
+00:34:04.150 --> 00:34:08.659
+John Talburt: And there are many metadata management, tools.
+
+278
+00:34:09.300 --> 00:34:17.720
+John Talburt: one that's become very popular now with the, and, and metadata…
+
+279
+00:34:18.739 --> 00:34:22.580
+John Talburt: It has become very important in the area of data governance.
+
+280
+00:34:22.850 --> 00:34:25.969
+John Talburt: So, as we mentioned earlier in this lecture.
+
+281
+00:34:26.170 --> 00:34:30.530
+John Talburt: Data governance are the rules for making decisions about data.
+
+282
+00:34:30.810 --> 00:34:32.839
+John Talburt: What rules do you have to follow?
+
+283
+00:34:33.120 --> 00:34:40.600
+John Talburt: And so, in some case… in some ways, data governance is about managing metadata.
+
+284
+00:34:41.000 --> 00:34:48.670
+John Talburt: the… So, data catalogs are intended to describe the data that you have in an organization.
+
+285
+00:34:49.330 --> 00:35:01.580
+John Talburt: track what's in it, the description of what's in the data, where it's located, what are its characteristics. So data catalogs have become very important, and they're huge tools that vendors have.
+
+286
+00:35:01.750 --> 00:35:10.049
+John Talburt: To help in tracking data, because if you don't know the metadata, the data are pretty much useless to you, right?
+
+287
+00:35:10.240 --> 00:35:13.259
+John Talburt: And we have… I wrote an article.
+
+288
+00:35:13.550 --> 00:35:17.439
+John Talburt: A few years ago, called Data Littering.
+
+289
+00:35:18.170 --> 00:35:25.010
+John Talburt: And it was at a time when, there was a lot of emphasis on data literacy, so people thought I just misspoke.
+
+290
+00:35:25.140 --> 00:35:31.029
+John Talburt: And said, I meant to say data literacy, but I said data literary. But no, I meant it,
+
+291
+00:35:31.180 --> 00:35:38.069
+John Talburt: explicitly. And what I was talking about is data littering is distributing data without metadata.
+
+292
+00:35:39.450 --> 00:35:47.860
+John Talburt: You have a file, you're working with it, you and a buddy know what's going on, you're exchanging the file back and forth, a spreadsheet or something.
+
+293
+00:35:47.970 --> 00:35:53.690
+John Talburt: But it really doesn't have adequate description of what's in the data, when it was captured, what it was for.
+
+294
+00:35:53.860 --> 00:35:59.139
+John Talburt: And that gets out there somewhere, somebody finds it, or it gets on a…
+
+295
+00:35:59.260 --> 00:36:07.090
+John Talburt: a thumb drive or something, and you're basically littering data around, because you kind of… it's like throwing a…
+
+296
+00:36:07.280 --> 00:36:09.940
+John Talburt: Wrapper out of a car onto the street.
+
+297
+00:36:10.090 --> 00:36:11.690
+John Talburt: You know, it's…
+
+298
+00:36:11.930 --> 00:36:23.979
+John Talburt: you've thrown it out there, no, and what's the… it's not useful, right? It's not useful anymore because it doesn't have that metadata associated with it, so I call that data littering.
+
+299
+00:36:26.390 --> 00:36:36.869
+John Talburt: Business glossary, so data catalogs tend to be like data dictionaries that really describe the content of a particular file or a particular database.
+
+300
+00:36:37.290 --> 00:36:44.110
+John Talburt: Business glossaries, Are more on the side of understanding how that data
+
+301
+00:36:44.330 --> 00:36:51.209
+John Talburt: So some data is sort of native data. In other words, if you Take, payroll data, right?
+
+302
+00:36:51.330 --> 00:37:03.429
+John Talburt: So, the native data in a payroll system would be the data about, you know, who's the employee, how many hours did they work, or are they on a salary, are they hourly? The information describing that.
+
+303
+00:37:03.790 --> 00:37:12.110
+John Talburt: But then, you're… those items of data are sort of given items, native items, that come out of,
+
+304
+00:37:12.550 --> 00:37:14.190
+John Talburt: The system.
+
+305
+00:37:14.640 --> 00:37:19.239
+John Talburt: And so… but you're going to generate data off of that data.
+
+306
+00:37:19.430 --> 00:37:32.669
+John Talburt: You're going to take those hours, you're going to take the rate of pay, and so forth, and you're going to compute a new data value, which is the gross pay, the net pay, the deductions. There'll be a whole other set of items
+
+307
+00:37:32.810 --> 00:37:40.510
+John Talburt: That did not come into the company through some file, their data that's generated to run the business.
+
+308
+00:37:40.910 --> 00:38:00.229
+John Talburt: And so, the business glossary should describe those items that are not necessarily out there in a file, but are generated in the operation of the company, and exactly how those are generated, what was the logic in generating, what was the logic, how was your net pay calculated?
+
+309
+00:38:00.400 --> 00:38:14.509
+John Talburt: When I say this item of value, or this data value is your net pay, you need something that describes beyond just saying this is what's going to be on your paycheck. You need something that says, how did I calculate that?
+
+310
+00:38:17.510 --> 00:38:23.610
+John Talburt: So there's processes as well that, in metadata documents that run,
+
+311
+00:38:24.170 --> 00:38:29.720
+John Talburt: Systems, the… how those systems are to be run, what are the rules for running those.
+
+312
+00:38:30.090 --> 00:38:37.949
+John Talburt: And business process management tools that automate. And this is another place where AI is starting to come into,
+
+313
+00:38:38.450 --> 00:38:45.490
+John Talburt: the picture, because now what we're looking at is what we call Agentic AI.
+
+314
+00:38:45.850 --> 00:38:53.560
+John Talburt: And in the early days… early days, it's only been a couple years ago, of large language models.
+
+315
+00:38:53.920 --> 00:39:13.099
+John Talburt: You know, I mean, it's very fascinating. We… but they were more prompt in response, right? It's like having a dialogue. We call them chatbots, right? So we… we type something in, some sentence or some question, could be long, or give it a document, and we say… and we ask it a question about, you know, what…
+
+316
+00:39:13.360 --> 00:39:17.509
+John Talburt: what should I do here if I've got these symptoms?
+
+317
+00:39:17.920 --> 00:39:24.329
+John Talburt: And it would think about it, and it would give a response. So it's this idea of prompt and response, prompt and response.
+
+318
+00:39:24.690 --> 00:39:27.290
+John Talburt: But now, there's an… another,
+
+319
+00:39:27.590 --> 00:39:31.340
+John Talburt: Facet that's been developed, and that is this idea of
+
+320
+00:39:31.690 --> 00:39:40.120
+John Talburt: The large language model being able to do something, rather than just respond in text.
+
+321
+00:39:40.400 --> 00:39:53.460
+John Talburt: you can actually ask it to do something, and it can operate other systems. It can go in and read something from a database, or it can write an email, or it can write a ticket that goes in your JIRA system.
+
+322
+00:39:53.780 --> 00:39:57.929
+John Talburt: So, it can be connected with other systems to do things.
+
+323
+00:39:58.300 --> 00:40:00.969
+John Talburt: And not only that, it can be,
+
+324
+00:40:01.180 --> 00:40:09.420
+John Talburt: It can make decisions, it can evaluate, and basically become like an employee in the company.
+
+325
+00:40:09.610 --> 00:40:14.770
+John Talburt: To doing things, and so now this has opened up a whole new world of Agentic AI.
+
+326
+00:40:15.020 --> 00:40:18.780
+John Talburt: Where people are creating these little,
+
+327
+00:40:19.190 --> 00:40:24.879
+John Talburt: computer employees that work inside the computer, and they can do things. They can…
+
+328
+00:40:25.100 --> 00:40:37.499
+John Talburt: book, an airline ticket for you, and they can evaluate, make decisions. They can say, no, there's no seats available on this, I need to go back. What's another way to get to Chicago?
+
+329
+00:40:37.590 --> 00:40:45.509
+John Talburt: Is there another flight? All the things that you would do if you were sitting at a console trying to book tickets for your airline.
+
+330
+00:40:45.720 --> 00:40:59.090
+John Talburt: You can get agents, just like a real person travel agent, you can have a computer agent and a large language model that can go through and make those kind of decisions and loop back on itself.
+
+331
+00:40:59.370 --> 00:41:01.880
+John Talburt: So this has opened up quite a bit of,
+
+332
+00:41:02.350 --> 00:41:09.450
+John Talburt: versatility. Again, the only big issue that we're running into there is… well, there's a couple of them. One is.
+
+333
+00:41:09.620 --> 00:41:18.010
+John Talburt: Again, the large language models, even though they can reason, are probabilistic models, and sometimes,
+
+334
+00:41:18.310 --> 00:41:27.049
+John Talburt: they, what we call, hallucinate, which is really nothing more than making a bad prediction. Language models are predictive machines that
+
+335
+00:41:27.450 --> 00:41:34.960
+John Talburt: you give it words, and they try to predict what the next word is going to be. So they're very probabilistic in their operation.
+
+336
+00:41:35.270 --> 00:41:50.940
+John Talburt: And so, they make mistakes. So, again, they are very human in that they can do human things of making human-like decisions, but they can also make human-like mistakes as well. So, one issue is how do you put up guardrails to be sure that
+
+337
+00:41:51.280 --> 00:41:56.970
+John Talburt: These little workers don't go crazy on you and do something that would really harm your business.
+
+338
+00:41:57.610 --> 00:42:02.090
+John Talburt: And the other is, again, it's the same issue, they're slow.
+
+339
+00:42:02.430 --> 00:42:07.580
+John Talburt: And I say slow, I mean, it may seem very fast that it's operating in seconds.
+
+340
+00:42:07.910 --> 00:42:23.710
+John Talburt: But in terms of what we're used to with our current legacy systems that are rule-based, that are deterministic and not probabilistic, that operate… their operations take place in milliseconds or microseconds.
+
+341
+00:42:23.860 --> 00:42:28.109
+John Talburt: And so they can process vast amounts of data in a reasonable amount of time.
+
+342
+00:42:28.230 --> 00:42:30.790
+John Talburt: But that becomes an issue for AI models.
+
+343
+00:42:31.990 --> 00:42:35.120
+John Talburt: So, so we're dealing with a…
+
+344
+00:42:36.020 --> 00:42:38.880
+John Talburt: So, what I want to do…
+
+345
+00:42:39.690 --> 00:42:41.430
+John Talburt: Before we run out of time.
+
+346
+00:42:42.020 --> 00:42:48.029
+John Talburt: Before I go into data quality and data requirements, I want to,
+
+347
+00:42:49.540 --> 00:42:56.740
+John Talburt: talk a little bit, foreshadow a little bit about your assignment that's coming. So, I have given you an assignment.
+
+348
+00:42:59.550 --> 00:43:01.610
+John Talburt: I see how much farther I have to go here.
+
+349
+00:43:02.740 --> 00:43:07.340
+John Talburt: Yeah.
+
+350
+00:43:08.560 --> 00:43:15.560
+John Talburt: Let's finish this. I don't want to keep going on this. So, let me quickly finish off these last few slides here.
+
+351
+00:43:16.250 --> 00:43:22.369
+John Talburt: So, data quality requirements. So, we've already said that data requirements
+
+352
+00:43:22.720 --> 00:43:26.380
+John Talburt: Our, you know, data model schema business rules.
+
+353
+00:43:26.930 --> 00:43:32.320
+John Talburt: standards, and I like to call them data specification.
+
+354
+00:43:32.590 --> 00:43:35.440
+John Talburt: So again, our definition of data quality.
+
+355
+00:43:35.670 --> 00:43:40.799
+John Talburt: Is data quality is where… is data conformance to data requirements?
+
+356
+00:43:41.620 --> 00:43:51.199
+John Talburt: So, missing or poorly defined data requirements lead to poor data quality, and we're going to see that. I want to talk about this because this is part of your assignment that you're going to be working on.
+
+357
+00:43:52.110 --> 00:43:58.020
+John Talburt: So what I'm going to be asking you to do in this assignment is to do some data analysis
+
+358
+00:43:58.290 --> 00:44:03.470
+John Talburt: But I'm not asking you to… to determine data quality.
+
+359
+00:44:03.810 --> 00:44:10.150
+John Talburt: And the reason is, you can only determine data quality when you know what the data requirements are.
+
+360
+00:44:10.470 --> 00:44:17.110
+John Talburt: And so, in this assignment, I'm not giving you any particular data requirements, I'm just asking you to analyze some data.
+
+361
+00:44:17.660 --> 00:44:21.119
+John Talburt: So… We'll get to that later.
+
+362
+00:44:21.910 --> 00:44:30.540
+John Talburt: So, data standards, those are a collection of related data requirements to ensure that everyone is organizing and acting in a consistent way.
+
+363
+00:44:31.140 --> 00:44:35.219
+John Talburt: The way you name data, the way you define it, the way you format it.
+
+364
+00:44:35.630 --> 00:44:42.970
+John Talburt: the way you validate it, and you follow specific business rules. Those are standards in an organization.
+
+365
+00:44:43.860 --> 00:44:49.860
+John Talburt: So we have data models. Typically, we have relational models, those are called schemas, but now
+
+366
+00:44:50.010 --> 00:44:52.830
+John Talburt: These models have become a little more open.
+
+367
+00:44:53.230 --> 00:44:59.430
+John Talburt: and… One problem with data models is that,
+
+368
+00:44:59.780 --> 00:45:03.770
+John Talburt: There's a famous statistician named George Box.
+
+369
+00:45:04.630 --> 00:45:08.220
+John Talburt: And he'd made this comment become quite famous.
+
+370
+00:45:08.670 --> 00:45:13.299
+John Talburt: He said that all… Models are wrong, but some are useful.
+
+371
+00:45:13.950 --> 00:45:22.879
+John Talburt: And that tends to be true in the traditional way that we process data. We set up a model, typically it's a relational database model.
+
+372
+00:45:23.250 --> 00:45:30.789
+John Talburt: And we try to think ahead and say, you know, will this accommodate everything that's going to happen? And of course, it never does.
+
+373
+00:45:30.960 --> 00:45:33.879
+John Talburt: Things change, the data changes.
+
+374
+00:45:34.030 --> 00:45:39.149
+John Talburt: And so we're constantly having to sort of update our models to keep them
+
+375
+00:45:39.260 --> 00:45:41.300
+John Talburt: Where they're still useful to us.
+
+376
+00:45:41.540 --> 00:45:47.890
+John Talburt: Because they're always going to be wrong once we set a model, because traditionally what we do is we take data.
+
+377
+00:45:48.330 --> 00:45:53.739
+John Talburt: And we try to transform it to fit into the model, so we lose the original data.
+
+378
+00:45:53.920 --> 00:45:59.390
+John Talburt: And this is what's led to the modern idea of data warehouses or data lakes.
+
+379
+00:46:00.140 --> 00:46:08.520
+John Talburt: Especially the idea of a data lake, is that you take the original raw data and you preserve it in a data lake.
+
+380
+00:46:08.850 --> 00:46:12.390
+John Talburt: Then pull it out and transform it the way you want to.
+
+381
+00:46:12.510 --> 00:46:19.859
+John Talburt: Fit it into your model, so that you can always go back to the original data in case there is a problem or a mistake.
+
+382
+00:46:22.860 --> 00:46:27.950
+John Talburt: So, that covers that. Let me talk a little bit about what I'm going to be asking you to do.
+
+383
+00:46:28.100 --> 00:46:36.109
+John Talburt: So, for your assignment, I'm warning you… I mean, you're endless.
+
+384
+00:46:43.720 --> 00:46:52.330
+John Talburt: So I'm gonna ask you to install on your system, your laptop, whatever you're using.
+
+385
+00:46:53.170 --> 00:47:05.260
+John Talburt: a system called Open Refine, And, I've given you the, the address for it.
+
+386
+00:47:05.850 --> 00:47:07.260
+John Talburt: Open Refine.
+
+387
+00:47:07.910 --> 00:47:14.800
+John Talburt: And… What I'm asking you to do is install that, And then,
+
+388
+00:47:16.440 --> 00:47:19.449
+John Talburt: Open it up, and then let me open…
+
+389
+00:47:31.850 --> 00:47:34.420
+John Talburt: So here's what the interface looks like.
+
+390
+00:47:35.250 --> 00:47:36.020
+John Talburt: Okay.
+
+391
+00:47:40.060 --> 00:47:47.690
+John Talburt: So this is the basic interface for OpenReam. It's very simple to use. So, what I'm going to ask you to do is create a project.
+
+392
+00:47:48.490 --> 00:47:52.299
+John Talburt: I mean, you create a project by uploading a file.
+
+393
+00:47:52.890 --> 00:47:58.490
+John Talburt: So, in this case, I'm just gonna show you here, I've got
+
+394
+00:48:00.830 --> 00:48:03.899
+John Talburt: This is different than the one that you're going to be.
+
+395
+00:48:04.060 --> 00:48:04.950
+John Talburt: Excuse me.
+
+396
+00:48:06.630 --> 00:48:12.399
+John Talburt: So I've chosen this project dataset, and so to create a project, I just hit the next button.
+
+397
+00:48:13.400 --> 00:48:15.430
+John Talburt: And it uploads the data.
+
+398
+00:48:17.340 --> 00:48:28.609
+John Talburt: And so, it's gonna give me a lot of information about, about this data.
+
+399
+00:48:29.090 --> 00:48:32.279
+John Talburt: For example, up here, it's showing me some of the data.
+
+400
+00:48:32.560 --> 00:48:38.409
+John Talburt: And it's, sorry, this interface is a little…
+
+401
+00:48:39.950 --> 00:48:45.420
+John Talburt: And it'll tell me, a lot about it, and I don't want to do too much here.
+
+402
+00:48:45.660 --> 00:48:49.810
+John Talburt: Because I want you to figure out some of this on your own.
+
+403
+00:48:49.930 --> 00:48:55.099
+John Talburt: But it tells, you know, that this is comma-separated data.
+
+404
+00:48:55.490 --> 00:48:57.389
+John Talburt: That,
+
+405
+00:49:00.650 --> 00:49:08.179
+John Talburt: that there are 860 rows of data in this particular file, and I can see…
+
+406
+00:49:08.380 --> 00:49:10.680
+John Talburt: Here, what's in these,
+
+407
+00:49:11.670 --> 00:49:21.039
+John Talburt: records, and here I'm just showing 5, or sorry, 10 records, but I could show all of them, right? I could do… click on this, and now…
+
+408
+00:49:21.190 --> 00:49:23.680
+John Talburt: I've got all 860.
+
+409
+00:49:23.950 --> 00:49:31.769
+John Talburt: And all you need to do to analyze this data for this particular assignment, anyway, is to,
+
+410
+00:49:32.080 --> 00:49:36.390
+John Talburt: You see these little down arrows by each data column?
+
+411
+00:49:36.650 --> 00:49:42.329
+John Talburt: This is very similar to the filter that you have in Excel. So what it does is, when I click on it.
+
+412
+00:49:42.710 --> 00:49:48.169
+John Talburt: I can say I want a facet. So the facet is this… you want to use the facet
+
+413
+00:49:48.440 --> 00:49:53.209
+John Talburt: And all of these fields here are text fields, and I say I want a text facet.
+
+414
+00:49:53.760 --> 00:50:02.899
+John Talburt: And it gives me the information about it. It profiles that and says, okay, there's 17 S1s, there's 18 S10s.
+
+415
+00:50:03.100 --> 00:50:04.759
+John Talburt: So forth and so on.
+
+416
+00:50:05.130 --> 00:50:11.019
+John Talburt: And, that's the… all of the different values, if I…
+
+417
+00:50:12.890 --> 00:50:15.550
+John Talburt: Go over here and look at type.
+
+418
+00:50:17.380 --> 00:50:19.680
+John Talburt: Do the text facet there.
+
+419
+00:50:22.180 --> 00:50:26.510
+John Talburt: then I can see that, Here, there's,
+
+420
+00:50:26.660 --> 00:50:37.230
+John Talburt: 138 of these are labeled documentary, 151 movie with a capital M, and 151 are labeled movie with a lowercase m.
+
+421
+00:50:37.810 --> 00:50:39.360
+John Talburt: their stand-up.
+
+422
+00:50:39.490 --> 00:50:46.780
+John Talburt: There's TV shows, and again, there's two variations of TV shows. One with Capitol TV at S, another without.
+
+423
+00:50:47.560 --> 00:50:53.200
+John Talburt: So, so again, this would be the thing you would be looking for, right? So this is…
+
+424
+00:50:53.410 --> 00:51:01.119
+John Talburt: you know, it seems like it's wrong, because you would want it to be consistent, right? This shows an inconsistency.
+
+425
+00:51:01.700 --> 00:51:10.900
+John Talburt: And, we would have, for example, over here.
+
+426
+00:51:11.520 --> 00:51:14.319
+John Talburt: We look at titles, we look at those.
+
+427
+00:51:20.690 --> 00:51:21.950
+John Talburt: So,
+
+428
+00:51:23.050 --> 00:51:28.710
+John Talburt: So basically, all I want you to do is use this tool to go through and be able to look for
+
+429
+00:51:29.010 --> 00:51:30.319
+John Talburt: What you think?
+
+430
+00:51:31.240 --> 00:51:32.440
+John Talburt: are,
+
+431
+00:51:33.470 --> 00:51:42.519
+John Talburt: unusual things, anomalies, things that might need to be looked at, some things that might be a problem. For example, here in country.
+
+432
+00:51:42.670 --> 00:51:51.279
+John Talburt: We can see that 51 of these are blank. Now, is that a data quality error? We don't know unless we actually had the requirements.
+
+433
+00:51:51.740 --> 00:52:08.609
+John Talburt: If the country was a required field, then yes, that represents 51 data quality errors. But again, I'm not giving you any data requirements for the file that you're going to be looking at. I'm just asking you to explore and kind of get a feeling for looking at data.
+
+434
+00:52:08.970 --> 00:52:18.080
+John Talburt: Because, as I said in the very beginning, it's very important when you're working with data to actually look at it and get a feel and understand what it's like.
+
+435
+00:52:18.470 --> 00:52:25.480
+John Talburt: So this is gonna be your assignment for, Coming up… For next week.
+
+436
+00:52:25.720 --> 00:52:41.780
+John Talburt: is to install OpenRefine and upload a file that I've put out there in your assignment, and write a description of that file, all the things that you find about it, how many records are in it, what are the types of fields, what are the characteristics, and so forth.
+
+437
+00:52:42.410 --> 00:52:51.810
+John Talburt: Now, I want you to use OpenRefine to do that, and it's okay if you want to give the file to an AI model and ask it to look for things as well.
+
+438
+00:52:51.990 --> 00:52:54.420
+John Talburt: And it would be interesting to see
+
+439
+00:52:54.610 --> 00:53:00.030
+John Talburt: If those models give you the same kind of answers that you would get from OpenRefine.
+
+440
+00:53:00.480 --> 00:53:03.490
+John Talburt: But anyway, I'll leave that up to you, that's optional.
+
+441
+00:53:03.700 --> 00:53:10.510
+John Talburt: The main thing I want is for you to turn in a report that describes the characteristics of the file that you're analyzing.
+
+442
+00:53:12.470 --> 00:53:14.679
+John Talburt: Any questions about that?
+
+443
+00:53:15.560 --> 00:53:16.630
+John Talburt: Hey, good.
+
+444
+00:53:21.430 --> 00:53:24.130
+John Talburt: Okay, yes, Dela?
+
+445
+00:53:24.540 --> 00:53:28.250
+Dela Vanlare: Thank you. I think I understand what was required, so thank you.
+
+446
+00:53:28.580 --> 00:53:29.870
+John Talburt: Okay, good.
+
+447
+00:53:30.810 --> 00:53:36.809
+John Talburt: Yeah, we'll get into some more sophisticated tools later, but this is kind of everybody get their feet wet.
+
+448
+00:53:38.330 --> 00:53:46.530
+John Talburt: Okay, there's no other questions, I'm gonna call it quits here, but 234, Mark.
+
+449
+00:53:47.050 --> 00:53:52.870
+John Talburt: And, we'll continue, this… Next Tuesday, thank you.
+
+450
+00:53:54.370 --> 00:53:55.070
+Dela Vanlare: Thank you.
+

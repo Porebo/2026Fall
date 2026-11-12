@@ -1,0 +1,2571 @@
+{
+ "attempts": {
+  "_14759294_1": {
+   "override": false,
+   "courseId": "_294361_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14717481_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-08-31T06:15:04.503Z",
+   "attemptReceipt": {
+    "receiptId": "5ea0f4594a754af0922169041b9fa710",
+    "submissionDate": "2026-08-31T06:15:23.611Z",
+    "submissionTotalSize": 5385,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-09-11T16:03:10.356Z",
+   "attemptDate": "2026-08-31T06:15:23.611Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/gradebook/submission/attempt/2/9/4/_14759294_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBDnAD25pChylMxZLToJidpOiRiLsD8CrgIPhAdkhvdQs9Px07eYG1VIwyIR4G39gl%2BIN0qxtWhamDxpJRc89c58G9qLHfY77Xs%3D"
+   },
+   "readyToPost": true,
+   "id": "_14759294_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "ebbd863b79e9403da09343008e3a53ee",
+     "linkName": "Lester_Carcamo_HW01.txt",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8688487_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-68928506_1",
+      "mimeType": "text/plain",
+      "fileName": "Lester_Carcamo_HW01.txt"
+     },
+     "fileType": "STUDENT",
+     "name": "Lester_Carcamo_HW01.txt",
+     "id": "_4611289_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-09-11T15:56:19.135Z",
+   "attemptLastGradedDate": "2026-09-11T15:56:19.135Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 5
+   }
+  },
+  "_14823245_1": {
+   "override": false,
+   "courseId": "_294361_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14790946_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-09-14T06:21:11.236Z",
+   "attemptReceipt": {
+    "receiptId": "61bf7ab4ae5246aea46f65f874e28f64",
+    "submissionDate": "2026-09-14T06:21:28.273Z",
+    "submissionTotalSize": 3679,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-09-23T01:58:19.979Z",
+   "attemptDate": "2026-09-14T06:21:28.273Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/gradebook/submission/attempt/2/4/5/_14823245_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBDnAD25pChylMxZLToJidpOiRiLsD8CrgIPhAdkhvdQs9Px07eYG1VIDN1iF19xtDzvhD3nofYvYzxpJRc89c58G9qLHfY77Xs%3D"
+   },
+   "readyToPost": true,
+   "id": "_14823245_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "eff2b042db364db997a4b493353dd392",
+     "linkName": "Lester Carcamo HW02.txt",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8715624_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-69228713_1",
+      "mimeType": "text/plain",
+      "fileName": "Lester Carcamo HW02.txt"
+     },
+     "fileType": "STUDENT",
+     "name": "Lester Carcamo HW02.txt",
+     "id": "_4634727_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-09-21T17:21:37.520Z",
+   "attemptLastGradedDate": "2026-09-21T17:21:37.520Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 5
+   }
+  },
+  "_14857987_1": {
+   "override": false,
+   "courseId": "_294361_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14832555_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-09-21T20:58:13.030Z",
+   "attemptReceipt": {
+    "receiptId": "74aa54467c9b4771bd4204cb4467fe38",
+    "submissionDate": "2026-09-21T20:58:31.378Z",
+    "submissionTotalSize": 5519,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-09-23T15:04:40.662Z",
+   "attemptDate": "2026-09-21T20:58:31.378Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/gradebook/submission/attempt/9/8/7/_14857987_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBDnAD25pChylMxZLToJidpOiRiLsD8CrgIPhAdkhvdQs9Px07eYG1VIX1a6qzR7iyQki3BgZQyF2zxpJRc89c58G9qLHfY77Xs%3D"
+   },
+   "readyToPost": true,
+   "id": "_14857987_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "842d6ccac6b440f08b81153c13125616",
+     "linkName": "Lester_Carcamo_HW03.txt",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8733521_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-69403279_1",
+      "mimeType": "text/plain",
+      "fileName": "Lester_Carcamo_HW03.txt"
+     },
+     "fileType": "STUDENT",
+     "name": "Lester_Carcamo_HW03.txt",
+     "id": "_4650623_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-09-23T02:00:18.311Z",
+   "attemptLastGradedDate": "2026-09-23T02:00:18.311Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 5
+   }
+  },
+  "_14889190_1": {
+   "override": false,
+   "courseId": "_294361_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14871950_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-09-28T20:28:27.408Z",
+   "attemptReceipt": {
+    "receiptId": "59bc997d262b4a85baef37838880e527",
+    "submissionDate": "2026-09-28T20:28:33.336Z",
+    "submissionTotalSize": 6897,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-09-29T01:46:34.462Z",
+   "attemptDate": "2026-09-28T20:28:33.336Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/gradebook/submission/attempt/1/9/0/_14889190_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBDnAD25pChylMxZLToJidpOiRiLsD8CrgIPhAdkhvdQs9Px07eYG1VIYUjucdARL1aVadlaGdEDpzxpJRc89c58G9qLHfY77Xs%3D"
+   },
+   "readyToPost": true,
+   "id": "_14889190_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "80987dc2c418478e8f86a71c26cbb557",
+     "linkName": "Lester_Carcamo_HW04.txt",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8749399_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-69569685_1",
+      "mimeType": "text/plain",
+      "fileName": "Lester_Carcamo_HW04.txt"
+     },
+     "fileType": "STUDENT",
+     "name": "Lester_Carcamo_HW04.txt",
+     "id": "_4664128_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-09-29T00:18:45.989Z",
+   "attemptLastGradedDate": "2026-09-29T00:18:45.989Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 5
+   }
+  },
+  "_14948734_1": {
+   "override": false,
+   "courseId": "_294361_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14943577_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-10-12T06:59:14.733Z",
+   "attemptReceipt": {
+    "receiptId": "e3d35cb30df04c4ca169002def83d844",
+    "submissionDate": "2026-10-12T06:59:28.143Z",
+    "submissionTotalSize": 20056,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-10-12T06:59:28.168Z",
+   "attemptDate": "2026-10-12T06:59:28.143Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/gradebook/submission/attempt/7/3/4/_14948734_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBDnAD25pChylMxZLToJidpOiRiLsD8CrgIPhAdkhvdQs9Px07eYG1VI5GlcACGNZ%2Bkyli/xLOKnzDxpJRc89c58G9qLHfY77Xs%3D"
+   },
+   "readyToPost": false,
+   "id": "_14948734_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "ba24a2bd67ee40ae921b81dfbec927d1",
+     "linkName": "Lester Carcamo W05HW.docx",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8776733_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-69894652_1",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileName": "Lester Carcamo W05HW.docx"
+     },
+     "fileType": "STUDENT",
+     "name": "Lester Carcamo W05HW.docx",
+     "id": "_4688187_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "status": "NEEDS_GRADING",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false
+   }
+  },
+  "_14979923_1": {
+   "override": false,
+   "courseId": "_294361_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14981901_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-10-19T21:08:12.680Z",
+   "attemptReceipt": {
+    "receiptId": "a326cf6be7a4402388b98019becf10b9",
+    "submissionDate": "2026-10-19T21:08:40.407Z",
+    "submissionTotalSize": 278001,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-10-19T21:08:40.432Z",
+   "attemptDate": "2026-10-19T21:08:40.407Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/gradebook/submission/attempt/9/2/3/_14979923_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBDnAD25pChylMxZLToJidpOiRiLsD8CrgIPhAdkhvdQs9Px07eYG1VI27JfCk6wAUrjcwLrMzJtwTxpJRc89c58G9qLHfY77Xs%3D"
+   },
+   "readyToPost": false,
+   "id": "_14979923_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "c71c1c873b80453d9aeac78638639b7c",
+     "linkName": "Social and Behavioral Responsible Conduct of Research.pdf",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8790356_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-70063636_1",
+      "mimeType": "application/pdf",
+      "fileName": "Social and Behavioral Responsible Conduct of Research.pdf"
+     },
+     "fileType": "STUDENT",
+     "name": "Social and Behavioral Responsible Conduct of Research.pdf",
+     "id": "_4700141_1",
+     "hasErrors": false
+    },
+    {
+     "bbFileUuid": "1669c2fba7574fc7ae033bdc856808a5",
+     "linkName": "Research Security A Basic Course.pdf",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8790357_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-70063639_1",
+      "mimeType": "application/pdf",
+      "fileName": "Research Security A Basic Course.pdf"
+     },
+     "fileType": "STUDENT",
+     "name": "Research Security A Basic Course.pdf",
+     "id": "_4700142_1",
+     "hasErrors": false
+    },
+    {
+     "bbFileUuid": "a93f9513fdd847c2bd96b7e23173c6f6",
+     "linkName": "Humanities Responsible Conduct of Research.pdf",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8790354_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-70063631_1",
+      "mimeType": "application/pdf",
+      "fileName": "Humanities Responsible Conduct of Research.pdf"
+     },
+     "fileType": "STUDENT",
+     "name": "Humanities Responsible Conduct of Research.pdf",
+     "id": "_4700139_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "status": "NEEDS_GRADING",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false
+   }
+  },
+  "_15008975_1": {
+   "override": false,
+   "courseId": "_294361_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_15016648_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-10-26T20:11:21.598Z",
+   "attemptReceipt": {
+    "receiptId": "1c7d7f8a80004c95b765fcbd07e393c6",
+    "submissionDate": "2026-10-26T20:11:36.025Z",
+    "submissionTotalSize": 3817,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-10-26T20:11:36.049Z",
+   "attemptDate": "2026-10-26T20:11:36.025Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/gradebook/submission/attempt/9/7/5/_15008975_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBDnAD25pChylMxZLToJidpOiRiLsD8CrgIPhAdkhvdQs9Px07eYG1VInip3tCHvpiu7DDcWzUY%2BKzxpJRc89c58G9qLHfY77Xs%3D"
+   },
+   "readyToPost": false,
+   "id": "_15008975_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "283a4d052d9246fdb4ee2c8d92d4debd",
+     "linkName": "Lester Carcamo HW07.txt",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8802834_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-70226639_1",
+      "mimeType": "text/plain",
+      "fileName": "Lester Carcamo HW07.txt"
+     },
+     "fileType": "STUDENT",
+     "name": "Lester Carcamo HW07.txt",
+     "id": "_4710806_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "status": "NEEDS_GRADING",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false
+   }
+  },
+  "_15068213_1": {
+   "override": false,
+   "courseId": "_294361_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_15088725_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-11-09T23:06:14.597Z",
+   "attemptReceipt": {
+    "receiptId": "0ea4129d49ec476f82ffc8e5bedc708d",
+    "submissionDate": "2026-11-09T23:06:26.266Z",
+    "submissionTotalSize": 1269444,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-11-09T23:06:26.297Z",
+   "attemptDate": "2026-11-09T23:06:26.266Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/gradebook/submission/attempt/2/1/3/_15068213_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBDnAD25pChylMxZLToJidpOiRiLsD8CrgIPhAdkhvdQs9Px07eYG1VITf1zNWEGxM2QejFHcJBDtDxpJRc89c58G9qLHfY77Xs%3D"
+   },
+   "readyToPost": false,
+   "id": "_15068213_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "fbcee60cb1a345b5bbebd45603a14bad",
+     "linkName": "Research Proposal Lester S Carcamo.pptx",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8833913_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-70528040_1",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "fileName": "Research Proposal Lester S Carcamo.pptx"
+     },
+     "fileType": "STUDENT",
+     "name": "Research Proposal Lester S Carcamo.pptx",
+     "id": "_4737202_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "status": "NEEDS_GRADING",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false
+   }
+  }
+ },
+ "assessments": {
+  "_5994339_1": {
+   "content": {
+    "iconUrl": "/images/ci/sets/set12/test_on.svg",
+    "contentDetail": {
+     "resource/x-bb-asmt-test-link": {
+      "test": {
+       "deployedAssessmentType": "test",
+       "deploymentSettings": {
+        "isSecureBrowserRequiredToTake": false,
+        "isSecureBrowserRequiredToReview": false,
+        "isWebcamRequired": false,
+        "isRandomizationOfQuestionsRequired": false,
+        "isDueDateEnforced": false,
+        "timerCompletion": "CONTINUAL",
+        "restrictLocation": {
+         "selectedIpFilterProfile": null,
+         "selectedRestrictType": "NONE",
+         "userIpAddress": "69.235.253.129"
+        },
+        "isBacktrackingProhibited": false,
+        "deliveryType": "Assessment",
+        "isCollectExternalSubmissions": false,
+        "allowStudentSubmission": true,
+        "feedbackSettings": {
+         "as": {
+          "associatedDate": null,
+          "options": [
+           "USER_ANSWERS",
+           "ALL_ANSWERS"
+          ]
+         }
+        },
+        "isRandomizationOfAnswersRequired": "NEVER",
+        "isRandomizationOfPagesRequired": false,
+        "isKeepFirstPageFirstRequired": false,
+        "isLateAttemptCreationDisallowed": false,
+        "isScoreShown": false,
+        "isUserAnswerShown": false,
+        "isCorrectAnswerShown": false,
+        "isIpFilterEnabled": false,
+        "isCompletionForced": false,
+        "lastModificationDate": null,
+        "isPasswordRequired": false,
+        "isFeedbackShown": false,
+        "isDescriptionShown": false,
+        "isInstructionShown": false,
+        "isStartedInExternalWindow": false,
+        "announcementTime": null,
+        "attemptCount": 2,
+        "id": "_291887_1",
+        "allowFileSubmission": true,
+        "allowTextSubmission": true
+       },
+       "gradingColumn": {
+        "assessmentSubtype": "Assignment",
+        "gradebookCategory": {
+         "description": "",
+         "courseId": "_294361_1",
+         "title": "Assignment.name",
+         "localizableTitle": {
+          "bundle": "gradebook_type",
+          "languageKey": "Assignment.name"
+         },
+         "id": "_2179305_1",
+         "isUserDefined": false
+        },
+        "visible": true,
+        "possible": 5,
+        "multipleAttempts": 2,
+        "calculationType": "NON_CALCULATED",
+        "gradebookCategoryId": "_2179305_1",
+        "courseId": "_294361_1",
+        "scoreProviderHandle": "resource/x-bb-assessment",
+        "peerGrading": false,
+        "gradingSchemaId": "_1227890_1",
+        "dueDate": "2026-09-01T04:59:00.000Z",
+        "contentId": "_5994339_1",
+        "anonymousGrading": false,
+        "deleted": false,
+        "columnName": "Understanding the Research Process Assignment",
+        "userCreatedColumn": false,
+        "permanentAnonymous": false,
+        "scorable": true,
+        "aggregationModel": "LAST",
+        "visibleInBook": true,
+        "ltiDomainId": null,
+        "ltiTag": "",
+        "ltiResourceId": "",
+        "gradesReleased": true,
+        "enforceDueDate": false,
+        "id": "_1550697_1",
+        "learningOutcome": {
+         "isSignature": false,
+         "entityScale": [],
+         "columnScale": []
+        },
+        "localizedColumnName": {
+         "bundle": "gradebook",
+         "languageKey": "Understanding the Research Process Assignment"
+        },
+        "effectiveColumnName": "Understanding the Research Process Assignment",
+        "isAttemptBased": true,
+        "gradeScoreDesignation": "-",
+        "isFormative": false,
+        "position": 4,
+        "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294361_1/gradebook/columns/_1550697_1"
+       },
+       "assessment": {
+        "gradableItemId": "_1550697_1",
+        "hasPartialCreditQuestions": false,
+        "subtype": "Assignment",
+        "extraCreditPoints": 0,
+        "hasAnswerableQuestions": false,
+        "totalPoints": 0,
+        "type": "Test",
+        "hasPartialAndNegativeCreditQuestions": false,
+        "questionCount": 0,
+        "lastModifiedDate": "2026-08-24T16:31:16.006Z",
+        "description": {
+         "rawText": "",
+         "displayText": "",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343464_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2FOR5nKVy4QQNNNc/gR9nTU%3D"
+        },
+        "hasPresentationOnlyQuestions": false,
+        "hasAutomatedQuestionFeedback": false,
+        "alignmentCount": 0,
+        "title": "Understanding the Research Process Assignment",
+        "instructions": {
+         "rawText": "<p>Welcome to INFQ 72203 Information Quality Theory for Fall 2025. For this first assignment, answer these five questions and submit your responses to the assignment folder when done. You are welcome to use Internet resources to help craft your answers.</p><br><ol><li>There are many definitions for research. In a sentence or two, how would you explain to someone what is the meaning and purpose of research? Note: If you got your response from the Internet, that is fine. Just include the URL to document your source.</li><li>Just like there are many different answers to what is research, there are also many ways to characterize the different steps in the research process. Use the Internet (ex. you can google the phrase \"research process steps\" and check out the images) to find a research process diagram that you like and that helps you to understand the steps in conducting research. Copy the image and remember to include the URL to document your source.</li><li>What is your desired career goal?</li><li>How will research help you to achieve that career goal?</li><li>What area/topic/issue/problem/challenge(s) are you interested in exploring/investigating this semester? Use the method discussed in \"Finding Research Gap\" to identify at least two research gaps of the area/topic that you are interested in.</li></ol>",
+         "displayText": "<div class=\"vtbegenerated\">\n <p>Welcome to INFQ 72203 Information Quality Theory for Fall 2025. For this first assignment, answer these five questions and submit your responses to the assignment folder when done. You are welcome to use Internet resources to help craft your answers.</p>\n <br>\n <ol>\n  <li>There are many definitions for research. In a sentence or two, how would you explain to someone what is the meaning and purpose of research? Note: If you got your response from the Internet, that is fine. Just include the URL to document your source.</li>\n  <li>Just like there are many different answers to what is research, there are also many ways to characterize the different steps in the research process. Use the Internet (ex. you can google the phrase \"research process steps\" and check out the images) to find a research process diagram that you like and that helps you to understand the steps in conducting research. Copy the image and remember to include the URL to document your source.</li>\n  <li>What is your desired career goal?</li>\n  <li>How will research help you to achieve that career goal?</li>\n  <li>What area/topic/issue/problem/challenge(s) are you interested in exploring/investigating this semester? Use the method discussed in \"Finding Research Gap\" to identify at least two research gaps of the area/topic that you are interested in.</li>\n </ol>\n</div>",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343464_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2FOR5nKVy4QQNNNc/gR9nTU%3D"
+        },
+        "id": "_28343464_1"
+       },
+       "permissions": {
+        "deploy": false,
+        "modifyDueDate": false,
+        "delete": false,
+        "view": false,
+        "modify": false
+       },
+       "exceptions": []
+      },
+      "safeAssignOptions": {
+       "checkAttempts": true,
+       "canStudentViewReports": true,
+       "excludeSubmissions": false,
+       "globalSearch": true
+      }
+     }
+    },
+    "launchInNewWindow": true,
+    "contentHandler": "resource/x-bb-asmt-test-link",
+    "body": {
+     "rawText": "",
+     "displayText": "",
+     "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/content/_5994339_1/embedded/",
+     "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUZ0zOKPl/EnlHB3dp/B/IRu7nNSSTdlJ%2BSUIXJ8W/EcU%3D"
+    },
+    "description": "Week 1 Assignment",
+    "courseId": "_294361_1",
+    "modifiedDate": 1787589076003,
+    "title": "Understanding the Research Process Assignment",
+    "genericReadOnlyData": {
+     "hasGradeColumn": true,
+     "restrictions": null,
+     "engagementDates": null,
+     "dueDate": "2026-09-01T04:59:00.000Z"
+    },
+    "isGroupContent": false,
+    "dueDateExceptionType": "Normal",
+    "inSequence": false,
+    "isReviewable": true,
+    "visibility": "VISIBLE",
+    "aiState": "No",
+    "titleColor": "#000000",
+    "ancestorLessonId": "_5994332_1",
+    "renderType": "LINK",
+    "thumbnailAltText": "",
+    "isPrimaryLearningObject": false,
+    "lorContentId": null,
+    "permissions": {
+     "edit": false,
+     "delete": false,
+     "adaptiveRelease": {
+      "create": false,
+      "edit": false,
+      "delete": false,
+      "view": false,
+      "criteria": {
+       "performance": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "acl": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "dates": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       }
+      }
+     },
+     "contentHandlerPermissionMap": {
+      "dropTarget": true,
+      "createDiscussion": false
+     },
+     "isAllowLOROperations": false,
+     "isAppendOnly": false,
+     "contentOptions": true,
+     "move": false,
+     "modifyAvailability": false,
+     "canHaveReviewState": true,
+     "canViewReviewState": false,
+     "canUpdateReviewState": false,
+     "dashboardView": false,
+     "createLearningStandardsAlignment": false,
+     "viewDesigner": false,
+     "copy": false
+    },
+    "id": "_5994339_1",
+    "state": "Completed",
+    "position": 2,
+    "parentId": "_5994332_1"
+   }
+  },
+  "_5994353_1": {
+   "content": {
+    "iconUrl": "/images/ci/sets/set12/test_on.svg",
+    "contentDetail": {
+     "resource/x-bb-asmt-test-link": {
+      "test": {
+       "deployedAssessmentType": "test",
+       "deploymentSettings": {
+        "isSecureBrowserRequiredToTake": false,
+        "isSecureBrowserRequiredToReview": false,
+        "isWebcamRequired": false,
+        "isRandomizationOfQuestionsRequired": false,
+        "isDueDateEnforced": false,
+        "timerCompletion": "CONTINUAL",
+        "restrictLocation": {
+         "selectedIpFilterProfile": null,
+         "selectedRestrictType": "NONE",
+         "userIpAddress": "69.235.253.129"
+        },
+        "isBacktrackingProhibited": false,
+        "deliveryType": "Assessment",
+        "isCollectExternalSubmissions": false,
+        "allowStudentSubmission": true,
+        "feedbackSettings": {
+         "as": {
+          "associatedDate": null,
+          "options": [
+           "USER_ANSWERS",
+           "ALL_ANSWERS"
+          ]
+         }
+        },
+        "isRandomizationOfAnswersRequired": "NEVER",
+        "isRandomizationOfPagesRequired": false,
+        "isKeepFirstPageFirstRequired": false,
+        "isLateAttemptCreationDisallowed": false,
+        "isScoreShown": false,
+        "isUserAnswerShown": false,
+        "isCorrectAnswerShown": false,
+        "isIpFilterEnabled": false,
+        "isCompletionForced": false,
+        "lastModificationDate": null,
+        "isPasswordRequired": false,
+        "isFeedbackShown": false,
+        "isDescriptionShown": false,
+        "isInstructionShown": false,
+        "isStartedInExternalWindow": false,
+        "announcementTime": null,
+        "attemptCount": 2,
+        "id": "_291888_1",
+        "allowFileSubmission": true,
+        "allowTextSubmission": true
+       },
+       "gradingColumn": {
+        "assessmentSubtype": "Assignment",
+        "gradebookCategory": {
+         "description": "",
+         "courseId": "_294361_1",
+         "title": "Assignment.name",
+         "localizableTitle": {
+          "bundle": "gradebook_type",
+          "languageKey": "Assignment.name"
+         },
+         "id": "_2179305_1",
+         "isUserDefined": false
+        },
+        "visible": true,
+        "possible": 5,
+        "multipleAttempts": 2,
+        "calculationType": "NON_CALCULATED",
+        "gradebookCategoryId": "_2179305_1",
+        "courseId": "_294361_1",
+        "scoreProviderHandle": "resource/x-bb-assessment",
+        "peerGrading": false,
+        "gradingSchemaId": "_1227890_1",
+        "dueDate": "2026-09-15T04:59:00.000Z",
+        "contentId": "_5994353_1",
+        "anonymousGrading": false,
+        "deleted": false,
+        "columnName": "Defining a Problem Assignment",
+        "userCreatedColumn": false,
+        "permanentAnonymous": false,
+        "scorable": true,
+        "aggregationModel": "LAST",
+        "visibleInBook": true,
+        "ltiDomainId": null,
+        "ltiTag": "",
+        "ltiResourceId": "",
+        "gradesReleased": true,
+        "enforceDueDate": false,
+        "id": "_1550698_1",
+        "learningOutcome": {
+         "isSignature": false,
+         "entityScale": [],
+         "columnScale": []
+        },
+        "localizedColumnName": {
+         "bundle": "gradebook",
+         "languageKey": "Defining a Problem Assignment"
+        },
+        "effectiveColumnName": "Defining a Problem Assignment",
+        "isAttemptBased": true,
+        "gradeScoreDesignation": "-",
+        "isFormative": false,
+        "position": 5,
+        "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294361_1/gradebook/columns/_1550698_1"
+       },
+       "assessment": {
+        "gradableItemId": "_1550698_1",
+        "hasPartialCreditQuestions": false,
+        "subtype": "Assignment",
+        "extraCreditPoints": 0,
+        "hasAnswerableQuestions": false,
+        "totalPoints": 0,
+        "type": "Test",
+        "hasPartialAndNegativeCreditQuestions": false,
+        "questionCount": 0,
+        "lastModifiedDate": "2026-08-31T18:29:11.769Z",
+        "description": {
+         "rawText": "",
+         "displayText": "",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343470_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2Hr3liYtsjc2NNNc/gR9nTU%3D"
+        },
+        "hasPresentationOnlyQuestions": false,
+        "hasAutomatedQuestionFeedback": false,
+        "alignmentCount": 0,
+        "title": "Defining a Problem Assignment",
+        "instructions": {
+         "rawText": "<p>Students must choose the focus of their research proposal as early as possible.&nbsp;&nbsp;For this assignment, you need to write up a one-page thought plan that includes the following sections.</p>\n<br>\n<ul>\n <li>Introduce your topic.&nbsp;&nbsp;For example, start with a compelling statistic, a provocative question, or a striking fact related to your topic. Then, provide the broader context of your research field, gradually narrowing the focus to your specific subject.</li>\n <li dir=\"ltr\" style=\"text-align: left;\">Give as much background and context as you can at this point, such as who could have an interest in the topic (e.g., scientists, policymakers), how much is already known about the topic, what is missing from this current knowledge, what new insights your research will contribute, and why you believe this research is worth doing</li>\n <li>Outline your&nbsp;problem statement and research questions.&nbsp;&nbsp;Hint: Check out Writing Strong Research Questions from <a href=\"https://www.scribbr.com/research-process/research-questions/\">https://www.scribbr.com/research-process/research-questions/</a></li>\n</ul>\n<br>\n<p>Submit your write-up to the assignment folder when done.</p>\n<br>\n<p>Need help finding a topic? Remember to review the materials from Week 1 and &nbsp;Week 2 to help you generate possible ideas.</p>",
+         "displayText": "<div class=\"vtbegenerated\">\n <p>Students must choose the focus of their research proposal as early as possible.&nbsp;&nbsp;For this assignment, you need to write up a one-page thought plan that includes the following sections.</p> \n <br> \n <ul> \n  <li>Introduce your topic.&nbsp;&nbsp;For example, start with a compelling statistic, a provocative question, or a striking fact related to your topic. Then, provide the broader context of your research field, gradually narrowing the focus to your specific subject.</li> \n  <li dir=\"ltr\" style=\"text-align: left;\">Give as much background and context as you can at this point, such as who could have an interest in the topic (e.g., scientists, policymakers), how much is already known about the topic, what is missing from this current knowledge, what new insights your research will contribute, and why you believe this research is worth doing</li> \n  <li>Outline your&nbsp;problem statement and research questions.&nbsp;&nbsp;Hint: Check out Writing Strong Research Questions from <a href=\"https://www.scribbr.com/research-process/research-questions/\">https://www.scribbr.com/research-process/research-questions/</a></li> \n </ul> \n <br> \n <p>Submit your write-up to the assignment folder when done.</p> \n <br> \n <p>Need help finding a topic? Remember to review the materials from Week 1 and &nbsp;Week 2 to help you generate possible ideas.</p>\n</div>",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343470_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2Hr3liYtsjc2NNNc/gR9nTU%3D"
+        },
+        "id": "_28343470_1"
+       },
+       "permissions": {
+        "deploy": false,
+        "modifyDueDate": false,
+        "delete": false,
+        "view": false,
+        "modify": false
+       },
+       "exceptions": []
+      },
+      "safeAssignOptions": {
+       "checkAttempts": true,
+       "canStudentViewReports": false,
+       "excludeSubmissions": false,
+       "globalSearch": true
+      }
+     }
+    },
+    "launchInNewWindow": true,
+    "contentHandler": "resource/x-bb-asmt-test-link",
+    "body": {
+     "rawText": "",
+     "displayText": "",
+     "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/content/_5994353_1/embedded/",
+     "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUZ0zOKPl/EnlHB3dp/B/IRvsmGqPtQz%2B6SUIXJ8W/EcU%3D"
+    },
+    "description": "Week 2 Assignment",
+    "courseId": "_294361_1",
+    "modifiedDate": 1788200951765,
+    "title": "Defining a Problem Assignment",
+    "genericReadOnlyData": {
+     "hasGradeColumn": true,
+     "restrictions": null,
+     "engagementDates": null,
+     "dueDate": "2026-09-15T04:59:00.000Z"
+    },
+    "isGroupContent": false,
+    "dueDateExceptionType": "Normal",
+    "inSequence": false,
+    "isReviewable": true,
+    "visibility": "VISIBLE",
+    "aiState": "No",
+    "titleColor": "#000000",
+    "ancestorLessonId": "_5994342_1",
+    "renderType": "LINK",
+    "thumbnailAltText": "",
+    "isPrimaryLearningObject": false,
+    "lorContentId": null,
+    "permissions": {
+     "edit": false,
+     "delete": false,
+     "adaptiveRelease": {
+      "create": false,
+      "edit": false,
+      "delete": false,
+      "view": false,
+      "criteria": {
+       "performance": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "acl": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "dates": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       }
+      }
+     },
+     "contentHandlerPermissionMap": {
+      "dropTarget": true,
+      "createDiscussion": false
+     },
+     "isAllowLOROperations": false,
+     "isAppendOnly": false,
+     "contentOptions": true,
+     "move": false,
+     "modifyAvailability": false,
+     "canHaveReviewState": true,
+     "canViewReviewState": false,
+     "canUpdateReviewState": false,
+     "dashboardView": false,
+     "createLearningStandardsAlignment": false,
+     "viewDesigner": false,
+     "copy": false
+    },
+    "id": "_5994353_1",
+    "state": "Completed",
+    "position": 2,
+    "parentId": "_5994342_1"
+   }
+  },
+  "_5994364_1": {
+   "content": {
+    "iconUrl": "/images/ci/sets/set12/test_on.svg",
+    "contentDetail": {
+     "resource/x-bb-asmt-test-link": {
+      "test": {
+       "deployedAssessmentType": "test",
+       "deploymentSettings": {
+        "isSecureBrowserRequiredToTake": false,
+        "isSecureBrowserRequiredToReview": false,
+        "isWebcamRequired": false,
+        "isRandomizationOfQuestionsRequired": false,
+        "isDueDateEnforced": false,
+        "timerCompletion": "CONTINUAL",
+        "restrictLocation": {
+         "selectedIpFilterProfile": null,
+         "selectedRestrictType": "NONE",
+         "userIpAddress": "69.235.253.129"
+        },
+        "isBacktrackingProhibited": false,
+        "deliveryType": "Assessment",
+        "isCollectExternalSubmissions": false,
+        "allowStudentSubmission": true,
+        "feedbackSettings": {
+         "as": {
+          "associatedDate": null,
+          "options": [
+           "USER_ANSWERS",
+           "ALL_ANSWERS"
+          ]
+         }
+        },
+        "isRandomizationOfAnswersRequired": "NEVER",
+        "isRandomizationOfPagesRequired": false,
+        "isKeepFirstPageFirstRequired": false,
+        "isLateAttemptCreationDisallowed": false,
+        "isScoreShown": false,
+        "isUserAnswerShown": false,
+        "isCorrectAnswerShown": false,
+        "isIpFilterEnabled": false,
+        "isCompletionForced": false,
+        "lastModificationDate": null,
+        "isPasswordRequired": false,
+        "isFeedbackShown": false,
+        "isDescriptionShown": false,
+        "isInstructionShown": false,
+        "isStartedInExternalWindow": false,
+        "announcementTime": null,
+        "attemptCount": 2,
+        "id": "_291889_1",
+        "allowFileSubmission": true,
+        "allowTextSubmission": true
+       },
+       "gradingColumn": {
+        "assessmentSubtype": "Assignment",
+        "gradebookCategory": {
+         "description": "",
+         "courseId": "_294361_1",
+         "title": "Assignment.name",
+         "localizableTitle": {
+          "bundle": "gradebook_type",
+          "languageKey": "Assignment.name"
+         },
+         "id": "_2179305_1",
+         "isUserDefined": false
+        },
+        "visible": true,
+        "possible": 5,
+        "multipleAttempts": 2,
+        "calculationType": "NON_CALCULATED",
+        "gradebookCategoryId": "_2179305_1",
+        "courseId": "_294361_1",
+        "scoreProviderHandle": "resource/x-bb-assessment",
+        "peerGrading": false,
+        "gradingSchemaId": "_1227890_1",
+        "dueDate": "2026-09-22T04:59:00.000Z",
+        "contentId": "_5994364_1",
+        "anonymousGrading": false,
+        "deleted": false,
+        "columnName": "Literature Review Assignment",
+        "userCreatedColumn": false,
+        "permanentAnonymous": false,
+        "scorable": true,
+        "aggregationModel": "FIRST",
+        "visibleInBook": true,
+        "ltiDomainId": null,
+        "ltiTag": "",
+        "ltiResourceId": "",
+        "gradesReleased": true,
+        "enforceDueDate": false,
+        "id": "_1550699_1",
+        "learningOutcome": {
+         "isSignature": false,
+         "entityScale": [],
+         "columnScale": []
+        },
+        "localizedColumnName": {
+         "bundle": "gradebook",
+         "languageKey": "Literature Review Assignment"
+        },
+        "effectiveColumnName": "Literature Review Assignment",
+        "isAttemptBased": true,
+        "gradeScoreDesignation": "-",
+        "isFormative": false,
+        "position": 6,
+        "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294361_1/gradebook/columns/_1550699_1"
+       },
+       "assessment": {
+        "gradableItemId": "_1550699_1",
+        "hasPartialCreditQuestions": false,
+        "subtype": "Assignment",
+        "extraCreditPoints": 0,
+        "hasAnswerableQuestions": false,
+        "totalPoints": 0,
+        "type": "Test",
+        "hasPartialAndNegativeCreditQuestions": false,
+        "questionCount": 0,
+        "lastModifiedDate": "2026-08-24T16:32:46.929Z",
+        "description": {
+         "rawText": "",
+         "displayText": "",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343482_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2ES/d2jG5XYKNNNc/gR9nTU%3D"
+        },
+        "hasPresentationOnlyQuestions": false,
+        "hasAutomatedQuestionFeedback": false,
+        "alignmentCount": 0,
+        "title": "Literature Review Assignment",
+        "instructions": {
+         "rawText": "<p>What can you do with a literature review? The web has many articles on the steps involved with conducting a literature review (ex. <a href=\"https://www.scribbr.com/methodology/literature-review/\">https://www.scribbr.com/methodology/literature-review/)</a>. In addition, analyzing the literature review gives you a wealth of information regarding your research area, including what people are doing, how they are doing it, where they are doing it, when they are doing it, and why they are doing it. For this assignment, you will analyze a 2024 Journal Article that examines the Literature on \"How Educators are Teaching AI in K-12 Education\".</p> \n<br> \n<ol> \n <li>How many articles did the authors review for this paper?</li> \n <li>What corpus (collections, sources, conference proceedings of papers) did they examine?</li> \n <li>What keywords did they use to find potential articles to include in their literature review?</li> \n <li>Describe how the authors organized and presented their findings from their Literature Review.</li> \n <li>What do you feel were the major findings and opportunities for further research that the authors discovered from their literature review?</li> \n</ol> \n<br> \n<p>Note: Check out the References. Notice that each reference listed can be matched to its usage in the paper. Also, notice that the author is using a style very similar to IEEE (numbered brackets) with the reference list organized alphabetically (some styles list the references in the order that they are mentioned in the paper).&nbsp;&nbsp;In this course, you can use any of the major reference styles (APA, MLA, IEEE, etc.) - the important thing is to pick a style and apply it consistently whenever you reference/cite your literature sources.</p> \n<br> \n<p>Submit your answers to the assignment folder when done.</p> \n<br> \n<br> \n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28343482-dt-asiobject-rid-68621374_1/xid-68621374_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;Systematic Review on How Educators Teach AI in K-12 Education.pdf&quot;,&quot;displayName&quot;:&quot;Systematic Review on How Educators Teach AI in K-12 Education.pdf&quot;,&quot;fileName&quot;:&quot;Systematic Review on How Educators Teach AI in K-12 Education.pdf&quot;,&quot;fileSize&quot;:6697042,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/sessions/2B/2BF48B06BBF36730A11ABF14A728EE62/15cc6e59f51047acbc57d90c457792dd/Systematic%20Review%20on%20How%20Educators%20Teach%20AI%20in%20K-12%20Education.pdf&quot;,&quot;linkName&quot;:&quot;Systematic Review on How Educators Teach AI in K-12 Education.pdf&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28343482-dt-asiobject-rid-68621374_1/xid-68621374_1?locale=en_US&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inline&quot;}\">Systematic Review on How Educators Teach AI in K-12 Education.pdf</a></p> \n<br>",
+         "displayText": "<div class=\"vtbegenerated\">\n <p>What can you do with a literature review? The web has many articles on the steps involved with conducting a literature review (ex. <a href=\"https://www.scribbr.com/methodology/literature-review/\">https://www.scribbr.com/methodology/literature-review/)</a>. In addition, analyzing the literature review gives you a wealth of information regarding your research area, including what people are doing, how they are doing it, where they are doing it, when they are doing it, and why they are doing it. For this assignment, you will analyze a 2024 Journal Article that examines the Literature on \"How Educators are Teaching AI in K-12 Education\".</p> \n <br> \n <ol> \n  <li>How many articles did the authors review for this paper?</li> \n  <li>What corpus (collections, sources, conference proceedings of papers) did they examine?</li> \n  <li>What keywords did they use to find potential articles to include in their literature review?</li> \n  <li>Describe how the authors organized and presented their findings from their Literature Review.</li> \n  <li>What do you feel were the major findings and opportunities for further research that the authors discovered from their literature review?</li> \n </ol> \n <br> \n <p>Note: Check out the References. Notice that each reference listed can be matched to its usage in the paper. Also, notice that the author is using a style very similar to IEEE (numbered brackets) with the reference list organized alphabetically (some styles list the references in the order that they are mentioned in the paper).&nbsp;&nbsp;In this course, you can use any of the major reference styles (APA, MLA, IEEE, etc.) - the important thing is to pick a style and apply it consistently whenever you reference/cite your literature sources.</p> \n <br> \n <p>Submit your answers to the assignment folder when done.</p> \n <br> \n <br> \n <p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28343482-dt-asiobject-rid-68621374_1/xid-68621374_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;Systematic Review on How Educators Teach AI in K-12 Education.pdf&quot;,&quot;displayName&quot;:&quot;Systematic Review on How Educators Teach AI in K-12 Education.pdf&quot;,&quot;fileName&quot;:&quot;Systematic Review on How Educators Teach AI in K-12 Education.pdf&quot;,&quot;fileSize&quot;:6697042,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/sessions/2B/2BF48B06BBF36730A11ABF14A728EE62/15cc6e59f51047acbc57d90c457792dd/Systematic%20Review%20on%20How%20Educators%20Teach%20AI%20in%20K-12%20Education.pdf&quot;,&quot;linkName&quot;:&quot;Systematic Review on How Educators Teach AI in K-12 Education.pdf&quot;}\">Systematic Review on How Educators Teach AI in K-12 Education.pdf</a></p> \n <br>\n</div>",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343482_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2ES/d2jG5XYKNNNc/gR9nTU%3D"
+        },
+        "id": "_28343482_1"
+       },
+       "permissions": {
+        "deploy": false,
+        "modifyDueDate": false,
+        "delete": false,
+        "view": false,
+        "modify": false
+       },
+       "exceptions": []
+      },
+      "safeAssignOptions": {
+       "checkAttempts": false,
+       "canStudentViewReports": false,
+       "excludeSubmissions": false,
+       "globalSearch": true
+      }
+     }
+    },
+    "launchInNewWindow": true,
+    "contentHandler": "resource/x-bb-asmt-test-link",
+    "body": {
+     "rawText": "",
+     "displayText": "",
+     "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/content/_5994364_1/embedded/",
+     "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUZ0zOKPl/EnlHB3dp/B/IRvehwnWSNKZZSUIXJ8W/EcU%3D"
+    },
+    "description": "Week 3 Assignment",
+    "courseId": "_294361_1",
+    "modifiedDate": 1787589166926,
+    "title": "Literature Review Assignment",
+    "genericReadOnlyData": {
+     "hasGradeColumn": true,
+     "restrictions": null,
+     "engagementDates": null,
+     "dueDate": "2026-09-22T04:59:00.000Z"
+    },
+    "isGroupContent": false,
+    "dueDateExceptionType": "Normal",
+    "inSequence": false,
+    "isReviewable": true,
+    "visibility": "VISIBLE",
+    "aiState": "No",
+    "titleColor": "#000000",
+    "ancestorLessonId": "_5994354_1",
+    "renderType": "LINK",
+    "thumbnailAltText": "",
+    "isPrimaryLearningObject": false,
+    "lorContentId": null,
+    "permissions": {
+     "edit": false,
+     "delete": false,
+     "adaptiveRelease": {
+      "create": false,
+      "edit": false,
+      "delete": false,
+      "view": false,
+      "criteria": {
+       "performance": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "acl": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "dates": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       }
+      }
+     },
+     "contentHandlerPermissionMap": {
+      "dropTarget": true,
+      "createDiscussion": false
+     },
+     "isAllowLOROperations": false,
+     "isAppendOnly": false,
+     "contentOptions": true,
+     "move": false,
+     "modifyAvailability": false,
+     "canHaveReviewState": true,
+     "canViewReviewState": false,
+     "canUpdateReviewState": false,
+     "dashboardView": false,
+     "createLearningStandardsAlignment": false,
+     "viewDesigner": false,
+     "copy": false
+    },
+    "id": "_5994364_1",
+    "state": "Completed",
+    "position": 2,
+    "parentId": "_5994354_1"
+   }
+  },
+  "_5994378_1": {
+   "content": {
+    "iconUrl": "/images/ci/sets/set12/test_on.svg",
+    "contentDetail": {
+     "resource/x-bb-asmt-test-link": {
+      "test": {
+       "deployedAssessmentType": "test",
+       "deploymentSettings": {
+        "isSecureBrowserRequiredToTake": false,
+        "isSecureBrowserRequiredToReview": false,
+        "isWebcamRequired": false,
+        "isRandomizationOfQuestionsRequired": false,
+        "isDueDateEnforced": false,
+        "timerCompletion": "CONTINUAL",
+        "restrictLocation": {
+         "selectedIpFilterProfile": null,
+         "selectedRestrictType": "NONE",
+         "userIpAddress": "69.235.253.129"
+        },
+        "isBacktrackingProhibited": false,
+        "deliveryType": "Assessment",
+        "isCollectExternalSubmissions": false,
+        "allowStudentSubmission": true,
+        "feedbackSettings": {
+         "as": {
+          "associatedDate": null,
+          "options": [
+           "USER_ANSWERS",
+           "ALL_ANSWERS"
+          ]
+         }
+        },
+        "isRandomizationOfAnswersRequired": "NEVER",
+        "isRandomizationOfPagesRequired": false,
+        "isKeepFirstPageFirstRequired": false,
+        "isLateAttemptCreationDisallowed": false,
+        "isScoreShown": false,
+        "isUserAnswerShown": false,
+        "isCorrectAnswerShown": false,
+        "isIpFilterEnabled": false,
+        "isCompletionForced": false,
+        "lastModificationDate": null,
+        "isPasswordRequired": false,
+        "isFeedbackShown": false,
+        "isDescriptionShown": false,
+        "isInstructionShown": false,
+        "isStartedInExternalWindow": false,
+        "announcementTime": null,
+        "attemptCount": 2,
+        "id": "_291886_1",
+        "allowFileSubmission": true,
+        "allowTextSubmission": true
+       },
+       "gradingColumn": {
+        "assessmentSubtype": "Assignment",
+        "gradebookCategory": {
+         "description": "",
+         "courseId": "_294361_1",
+         "title": "Assignment.name",
+         "localizableTitle": {
+          "bundle": "gradebook_type",
+          "languageKey": "Assignment.name"
+         },
+         "id": "_2179305_1",
+         "isUserDefined": false
+        },
+        "visible": true,
+        "possible": 5,
+        "multipleAttempts": 2,
+        "calculationType": "NON_CALCULATED",
+        "gradebookCategoryId": "_2179305_1",
+        "courseId": "_294361_1",
+        "scoreProviderHandle": "resource/x-bb-assessment",
+        "peerGrading": false,
+        "gradingSchemaId": "_1227890_1",
+        "dueDate": "2026-09-29T04:59:00.000Z",
+        "contentId": "_5994378_1",
+        "anonymousGrading": false,
+        "deleted": false,
+        "columnName": "Evaluating Metrics (and Hypotheses) Assignment",
+        "userCreatedColumn": false,
+        "permanentAnonymous": false,
+        "scorable": true,
+        "aggregationModel": "LAST",
+        "visibleInBook": true,
+        "ltiDomainId": null,
+        "ltiTag": "",
+        "ltiResourceId": "",
+        "gradesReleased": true,
+        "enforceDueDate": false,
+        "id": "_1550700_1",
+        "learningOutcome": {
+         "isSignature": false,
+         "entityScale": [],
+         "columnScale": []
+        },
+        "localizedColumnName": {
+         "bundle": "gradebook",
+         "languageKey": "Evaluating Metrics (and Hypotheses) Assignment"
+        },
+        "effectiveColumnName": "Evaluating Metrics (and Hypotheses) Assignment",
+        "isAttemptBased": true,
+        "gradeScoreDesignation": "-",
+        "isFormative": false,
+        "position": 7,
+        "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294361_1/gradebook/columns/_1550700_1"
+       },
+       "assessment": {
+        "gradableItemId": "_1550700_1",
+        "hasPartialCreditQuestions": false,
+        "subtype": "Assignment",
+        "extraCreditPoints": 0,
+        "hasAnswerableQuestions": false,
+        "totalPoints": 0,
+        "type": "Test",
+        "hasPartialAndNegativeCreditQuestions": false,
+        "questionCount": 0,
+        "lastModifiedDate": "2026-08-24T16:33:44.263Z",
+        "description": {
+         "rawText": "",
+         "displayText": "",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343480_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2FS0/qkUPG0RNNNc/gR9nTU%3D"
+        },
+        "hasPresentationOnlyQuestions": false,
+        "hasAutomatedQuestionFeedback": false,
+        "alignmentCount": 0,
+        "title": "Evaluating Metrics (and Hypotheses) Assignment",
+        "instructions": {
+         "rawText": "<p>Before you can collect your data and analyze it, you need to figure out what you are going to measure. Check out this article on vaccine acceptance among college students - <a href=\"https://www.medrxiv.org/content/10.1101/2020.12.02.20242982v1.full-text\">https://www.medrxiv.org/content/10.1101/2020.12.02.20242982v1.full-text </a></p> \n<br> \n<p>Read it carefully and pay attention to how the authors document their research study. In order to prove or disprove their hypotheses, the authors needed to define and systematically collect their data. Based on this article, consider the following questions.</p> \n<br> \n<ol> \n <li>What questions did this research seek to answer in this study?</li> \n <li>Who were the participants in this study?</li> \n <li>What procedures did the researchers use to collect the data for their analysis?</li> \n <li>Describe the variables (attributes) that the researchers collected from their survey?.</li> \n <li>Describe the different types of analysis that the researchers performed on the data collected from their survey.</li> \n</ol> \n<br> \n<p>Write up your responses and submit them to the assignment folder when done.</p> \n<br> \n<br>",
+         "displayText": "<div class=\"vtbegenerated\">\n <p>Before you can collect your data and analyze it, you need to figure out what you are going to measure. Check out this article on vaccine acceptance among college students - <a href=\"https://www.medrxiv.org/content/10.1101/2020.12.02.20242982v1.full-text\">https://www.medrxiv.org/content/10.1101/2020.12.02.20242982v1.full-text </a></p> \n <br> \n <p>Read it carefully and pay attention to how the authors document their research study. In order to prove or disprove their hypotheses, the authors needed to define and systematically collect their data. Based on this article, consider the following questions.</p> \n <br> \n <ol> \n  <li>What questions did this research seek to answer in this study?</li> \n  <li>Who were the participants in this study?</li> \n  <li>What procedures did the researchers use to collect the data for their analysis?</li> \n  <li>Describe the variables (attributes) that the researchers collected from their survey?.</li> \n  <li>Describe the different types of analysis that the researchers performed on the data collected from their survey.</li> \n </ol> \n <br> \n <p>Write up your responses and submit them to the assignment folder when done.</p> \n <br> \n <br>\n</div>",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343480_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2FS0/qkUPG0RNNNc/gR9nTU%3D"
+        },
+        "id": "_28343480_1"
+       },
+       "permissions": {
+        "deploy": false,
+        "modifyDueDate": false,
+        "delete": false,
+        "view": false,
+        "modify": false
+       },
+       "exceptions": []
+      },
+      "safeAssignOptions": {
+       "checkAttempts": false,
+       "canStudentViewReports": false,
+       "excludeSubmissions": false,
+       "globalSearch": true
+      }
+     }
+    },
+    "launchInNewWindow": true,
+    "contentHandler": "resource/x-bb-asmt-test-link",
+    "body": {
+     "rawText": "",
+     "displayText": "",
+     "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/content/_5994378_1/embedded/",
+     "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUZ0zOKPl/EnlHB3dp/B/IRnVCqcilVUUDSUIXJ8W/EcU%3D"
+    },
+    "description": "Week 4 Assignment",
+    "courseId": "_294361_1",
+    "modifiedDate": 1787589224259,
+    "title": "Evaluating Metrics (and Hypotheses) Assignment",
+    "genericReadOnlyData": {
+     "hasGradeColumn": true,
+     "restrictions": null,
+     "engagementDates": null,
+     "dueDate": "2026-09-29T04:59:00.000Z"
+    },
+    "isGroupContent": false,
+    "dueDateExceptionType": "Normal",
+    "inSequence": false,
+    "isReviewable": true,
+    "visibility": "VISIBLE",
+    "aiState": "No",
+    "titleColor": "#000000",
+    "ancestorLessonId": "_5994365_1",
+    "renderType": "LINK",
+    "thumbnailAltText": "",
+    "isPrimaryLearningObject": false,
+    "lorContentId": null,
+    "permissions": {
+     "edit": false,
+     "delete": false,
+     "adaptiveRelease": {
+      "create": false,
+      "edit": false,
+      "delete": false,
+      "view": false,
+      "criteria": {
+       "performance": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "acl": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "dates": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       }
+      }
+     },
+     "contentHandlerPermissionMap": {
+      "dropTarget": true,
+      "createDiscussion": false
+     },
+     "isAllowLOROperations": false,
+     "isAppendOnly": false,
+     "contentOptions": true,
+     "move": false,
+     "modifyAvailability": false,
+     "canHaveReviewState": true,
+     "canViewReviewState": false,
+     "canUpdateReviewState": false,
+     "dashboardView": false,
+     "createLearningStandardsAlignment": false,
+     "viewDesigner": false,
+     "copy": false
+    },
+    "id": "_5994378_1",
+    "state": "Completed",
+    "position": 2,
+    "parentId": "_5994365_1"
+   }
+  },
+  "_5994392_1": {
+   "content": {
+    "iconUrl": "/images/ci/sets/set12/test_on.svg",
+    "contentDetail": {
+     "resource/x-bb-asmt-test-link": {
+      "test": {
+       "deployedAssessmentType": "test",
+       "deploymentSettings": {
+        "isSecureBrowserRequiredToTake": false,
+        "isSecureBrowserRequiredToReview": false,
+        "isWebcamRequired": false,
+        "isRandomizationOfQuestionsRequired": false,
+        "isDueDateEnforced": false,
+        "timerCompletion": "CONTINUAL",
+        "restrictLocation": {
+         "selectedIpFilterProfile": null,
+         "selectedRestrictType": "NONE",
+         "userIpAddress": "69.235.253.129"
+        },
+        "isBacktrackingProhibited": false,
+        "deliveryType": "Assessment",
+        "isCollectExternalSubmissions": false,
+        "allowStudentSubmission": true,
+        "feedbackSettings": {
+         "as": {
+          "associatedDate": null,
+          "options": [
+           "USER_ANSWERS",
+           "ALL_ANSWERS"
+          ]
+         }
+        },
+        "isRandomizationOfAnswersRequired": "NEVER",
+        "isRandomizationOfPagesRequired": false,
+        "isKeepFirstPageFirstRequired": false,
+        "isLateAttemptCreationDisallowed": false,
+        "isScoreShown": false,
+        "isUserAnswerShown": false,
+        "isCorrectAnswerShown": false,
+        "isIpFilterEnabled": false,
+        "isCompletionForced": false,
+        "lastModificationDate": null,
+        "isPasswordRequired": false,
+        "isFeedbackShown": false,
+        "isDescriptionShown": false,
+        "isInstructionShown": false,
+        "isStartedInExternalWindow": false,
+        "announcementTime": null,
+        "attemptCount": 2,
+        "id": "_291890_1",
+        "allowFileSubmission": true,
+        "allowTextSubmission": true
+       },
+       "gradingColumn": {
+        "assessmentSubtype": "Assignment",
+        "gradebookCategory": {
+         "description": "",
+         "courseId": "_294361_1",
+         "title": "Assignment.name",
+         "localizableTitle": {
+          "bundle": "gradebook_type",
+          "languageKey": "Assignment.name"
+         },
+         "id": "_2179305_1",
+         "isUserDefined": false
+        },
+        "visible": true,
+        "possible": 5,
+        "multipleAttempts": 2,
+        "calculationType": "NON_CALCULATED",
+        "gradebookCategoryId": "_2179305_1",
+        "courseId": "_294361_1",
+        "scoreProviderHandle": "resource/x-bb-assessment",
+        "peerGrading": false,
+        "gradingSchemaId": "_1227890_1",
+        "dueDate": "2026-10-13T04:59:00.000Z",
+        "contentId": "_5994392_1",
+        "anonymousGrading": false,
+        "deleted": false,
+        "columnName": "Study Design Assignment",
+        "userCreatedColumn": false,
+        "permanentAnonymous": false,
+        "scorable": true,
+        "aggregationModel": "LAST",
+        "visibleInBook": true,
+        "ltiDomainId": null,
+        "ltiTag": "",
+        "ltiResourceId": "",
+        "gradesReleased": true,
+        "enforceDueDate": false,
+        "id": "_1550701_1",
+        "learningOutcome": {
+         "isSignature": false,
+         "entityScale": [],
+         "columnScale": []
+        },
+        "localizedColumnName": {
+         "bundle": "gradebook",
+         "languageKey": "Study Design Assignment"
+        },
+        "effectiveColumnName": "Study Design Assignment",
+        "isAttemptBased": true,
+        "gradeScoreDesignation": "-",
+        "isFormative": false,
+        "position": 8,
+        "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294361_1/gradebook/columns/_1550701_1"
+       },
+       "assessment": {
+        "gradableItemId": "_1550701_1",
+        "hasPartialCreditQuestions": false,
+        "subtype": "Assignment",
+        "extraCreditPoints": 0,
+        "hasAnswerableQuestions": false,
+        "totalPoints": 0,
+        "type": "Test",
+        "hasPartialAndNegativeCreditQuestions": false,
+        "questionCount": 0,
+        "lastModifiedDate": "2026-09-28T22:52:04.904Z",
+        "description": {
+         "rawText": "",
+         "displayText": "",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343478_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2AJjbA%2Bbh6UDNNNc/gR9nTU%3D"
+        },
+        "hasPresentationOnlyQuestions": false,
+        "hasAutomatedQuestionFeedback": false,
+        "alignmentCount": 0,
+        "title": "Study Design Assignment",
+        "instructions": {
+         "rawText": "<p>The research (study) design is a strategy for answering your research question. A good research design helps to ensure that your conclusions are valid and align with your research objectives, that your data is high quality and reproducible, and that you are using appropriate analytical tools and techniques for answering your questions. There are many designs out there to support the many different types of research situations. You can see some examples of study designs at <a href=\"https://www.scribbr.com/methodology/research-design/\">https://www.scribbr.com/methodology/research-design/</a>.</p> \n<br> \n<p>For this assignment, you will be answering the following questions about the research area that you plan to use for your research proposal.</p> \n<br> \n<ol> \n <li>Describe the problem (i.e., issue, challenge, opportunity) that you intend to examine for your research proposal.</li> \n <li>What are the research objectives/questions/aims you plan to examine to help address the problem you identified?</li> \n <li>What types of evidence (data) do you need to collect in order to answer your research objectives/questions/aims?</li> \n <li>What methods do you plan to use to collect this data?</li> \n <li>What is your tentative analysis plan?</li> \n</ol> \n<br> \n<p>Write up your responses to these questions and submit them to the assignment folder.</p>",
+         "displayText": "<div class=\"vtbegenerated\">\n <p>The research (study) design is a strategy for answering your research question. A good research design helps to ensure that your conclusions are valid and align with your research objectives, that your data is high quality and reproducible, and that you are using appropriate analytical tools and techniques for answering your questions. There are many designs out there to support the many different types of research situations. You can see some examples of study designs at <a href=\"https://www.scribbr.com/methodology/research-design/\">https://www.scribbr.com/methodology/research-design/</a>.</p> \n <br> \n <p>For this assignment, you will be answering the following questions about the research area that you plan to use for your research proposal.</p> \n <br> \n <ol> \n  <li>Describe the problem (i.e., issue, challenge, opportunity) that you intend to examine for your research proposal.</li> \n  <li>What are the research objectives/questions/aims you plan to examine to help address the problem you identified?</li> \n  <li>What types of evidence (data) do you need to collect in order to answer your research objectives/questions/aims?</li> \n  <li>What methods do you plan to use to collect this data?</li> \n  <li>What is your tentative analysis plan?</li> \n </ol> \n <br> \n <p>Write up your responses to these questions and submit them to the assignment folder.</p>\n</div>",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343478_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2AJjbA%2Bbh6UDNNNc/gR9nTU%3D"
+        },
+        "id": "_28343478_1"
+       },
+       "permissions": {
+        "deploy": false,
+        "modifyDueDate": false,
+        "delete": false,
+        "view": false,
+        "modify": false
+       },
+       "exceptions": []
+      },
+      "safeAssignOptions": {
+       "checkAttempts": false,
+       "canStudentViewReports": false,
+       "excludeSubmissions": false,
+       "globalSearch": true
+      }
+     }
+    },
+    "launchInNewWindow": true,
+    "contentHandler": "resource/x-bb-asmt-test-link",
+    "body": {
+     "rawText": "",
+     "displayText": "",
+     "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/content/_5994392_1/embedded/",
+     "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUZ0zOKPl/EnlHB3dp/B/IRqzWAlXmBSTISUIXJ8W/EcU%3D"
+    },
+    "description": "Week 5 Assignment",
+    "courseId": "_294361_1",
+    "modifiedDate": 1790635924901,
+    "title": "Study Design Assignment",
+    "genericReadOnlyData": {
+     "hasGradeColumn": true,
+     "restrictions": null,
+     "engagementDates": null,
+     "dueDate": "2026-10-13T04:59:00.000Z"
+    },
+    "isGroupContent": false,
+    "dueDateExceptionType": "Normal",
+    "inSequence": false,
+    "isReviewable": true,
+    "visibility": "VISIBLE",
+    "aiState": "No",
+    "titleColor": "#000000",
+    "ancestorLessonId": "_5994379_1",
+    "renderType": "LINK",
+    "thumbnailAltText": "",
+    "isPrimaryLearningObject": false,
+    "lorContentId": null,
+    "permissions": {
+     "edit": false,
+     "delete": false,
+     "adaptiveRelease": {
+      "create": false,
+      "edit": false,
+      "delete": false,
+      "view": false,
+      "criteria": {
+       "performance": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "acl": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "dates": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       }
+      }
+     },
+     "contentHandlerPermissionMap": {
+      "dropTarget": true,
+      "createDiscussion": false
+     },
+     "isAllowLOROperations": false,
+     "isAppendOnly": false,
+     "contentOptions": true,
+     "move": false,
+     "modifyAvailability": false,
+     "canHaveReviewState": true,
+     "canViewReviewState": false,
+     "canUpdateReviewState": false,
+     "dashboardView": false,
+     "createLearningStandardsAlignment": false,
+     "viewDesigner": false,
+     "copy": false
+    },
+    "id": "_5994392_1",
+    "state": "Completed",
+    "position": 2,
+    "parentId": "_5994379_1"
+   }
+  },
+  "_5994405_1": {
+   "content": {
+    "iconUrl": "/images/ci/sets/set12/test_on.svg",
+    "contentDetail": {
+     "resource/x-bb-asmt-test-link": {
+      "test": {
+       "deployedAssessmentType": "test",
+       "deploymentSettings": {
+        "isSecureBrowserRequiredToTake": false,
+        "isSecureBrowserRequiredToReview": false,
+        "isWebcamRequired": false,
+        "isRandomizationOfQuestionsRequired": false,
+        "isDueDateEnforced": false,
+        "timerCompletion": "CONTINUAL",
+        "restrictLocation": {
+         "selectedIpFilterProfile": null,
+         "selectedRestrictType": "NONE",
+         "userIpAddress": "69.235.253.129"
+        },
+        "isBacktrackingProhibited": false,
+        "deliveryType": "Assessment",
+        "isCollectExternalSubmissions": false,
+        "allowStudentSubmission": true,
+        "feedbackSettings": {
+         "as": {
+          "associatedDate": null,
+          "options": [
+           "USER_ANSWERS",
+           "ALL_ANSWERS"
+          ]
+         }
+        },
+        "isRandomizationOfAnswersRequired": "NEVER",
+        "isRandomizationOfPagesRequired": false,
+        "isKeepFirstPageFirstRequired": false,
+        "isLateAttemptCreationDisallowed": false,
+        "isScoreShown": false,
+        "isUserAnswerShown": false,
+        "isCorrectAnswerShown": false,
+        "isIpFilterEnabled": false,
+        "isCompletionForced": false,
+        "lastModificationDate": null,
+        "isPasswordRequired": false,
+        "isFeedbackShown": false,
+        "isDescriptionShown": false,
+        "isInstructionShown": false,
+        "isStartedInExternalWindow": false,
+        "announcementTime": null,
+        "attemptCount": 2,
+        "id": "_291891_1",
+        "allowFileSubmission": true,
+        "allowTextSubmission": true
+       },
+       "gradingColumn": {
+        "assessmentSubtype": "Assignment",
+        "gradebookCategory": {
+         "description": "",
+         "courseId": "_294361_1",
+         "title": "Assignment.name",
+         "localizableTitle": {
+          "bundle": "gradebook_type",
+          "languageKey": "Assignment.name"
+         },
+         "id": "_2179305_1",
+         "isUserDefined": false
+        },
+        "visible": true,
+        "possible": 10,
+        "multipleAttempts": 2,
+        "calculationType": "NON_CALCULATED",
+        "gradebookCategoryId": "_2179305_1",
+        "courseId": "_294361_1",
+        "scoreProviderHandle": "resource/x-bb-assessment",
+        "peerGrading": false,
+        "gradingSchemaId": "_1227890_1",
+        "dueDate": "2026-10-20T04:59:00.000Z",
+        "contentId": "_5994405_1",
+        "anonymousGrading": false,
+        "deleted": false,
+        "columnName": "CITI Training Assignment - Group 1 and RCR",
+        "userCreatedColumn": false,
+        "permanentAnonymous": false,
+        "scorable": true,
+        "aggregationModel": "LAST",
+        "visibleInBook": true,
+        "ltiDomainId": null,
+        "ltiTag": "",
+        "ltiResourceId": "",
+        "gradesReleased": true,
+        "enforceDueDate": false,
+        "id": "_1550702_1",
+        "learningOutcome": {
+         "isSignature": false,
+         "entityScale": [],
+         "columnScale": []
+        },
+        "localizedColumnName": {
+         "bundle": "gradebook",
+         "languageKey": "CITI Training Assignment - Group 1 and RCR"
+        },
+        "effectiveColumnName": "CITI Training Assignment - Group 1 and RCR",
+        "isAttemptBased": true,
+        "gradeScoreDesignation": "-",
+        "isFormative": false,
+        "position": 9,
+        "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294361_1/gradebook/columns/_1550702_1"
+       },
+       "assessment": {
+        "gradableItemId": "_1550702_1",
+        "hasPartialCreditQuestions": false,
+        "subtype": "Assignment",
+        "extraCreditPoints": 0,
+        "hasAnswerableQuestions": false,
+        "totalPoints": 0,
+        "type": "Test",
+        "hasPartialAndNegativeCreditQuestions": false,
+        "questionCount": 0,
+        "lastModifiedDate": "2026-08-24T16:34:36.281Z",
+        "description": {
+         "rawText": "",
+         "displayText": "",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343476_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2Ew0q29OuO1eNNNc/gR9nTU%3D"
+        },
+        "hasPresentationOnlyQuestions": false,
+        "hasAutomatedQuestionFeedback": false,
+        "alignmentCount": 0,
+        "title": "CITI Training Assignment - Group 1 and RCR",
+        "instructions": {
+         "rawText": "<p>Anytime you do research on the UALR campus, you need to go through the UALR IRB to make sure that your research complies with all federal regulations. For this assignment, you will be completing:</p> \n<br> \n<ul> \n <li>the steps listed at <a href=\"https://ualr.edu/irb/home/required-training/\">https://ualr.edu/irb/home/required-training/</a> to earn your certificate in Human Research Training (Course Learner Group: Group 1. Social and Behavioral Research Investigators and Key Personnel.</li> \n <li>the steps listed at <a href=\"https://ualr.edu/irb/home/required-training/\">https://ualr.edu/irb/home/required-training/</a> to earn your certificate in Responsible Conduct of Research (You can pick the version of RCR Training that is most applicable to your research interests).</li> \n</ul> \n<br> \n<p>Once you have completed the certificates, submit your two course completion reports listing the expiration date and the completed modules to the assignment folder.</p> \n<br> \n<p>Here is an example of a Course Completion Report:</p> \n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28343476-dt-asiobject-rid-68621372_1/xid-68621372_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;Sample CITI Completion Report.jpg&quot;,&quot;displayName&quot;:&quot;Sample CITI Completion Report.jpg&quot;,&quot;fileName&quot;:&quot;Sample CITI Completion Report.jpg&quot;,&quot;fileSize&quot;:221519,&quot;mimeType&quot;:&quot;image/jpeg&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/sessions/AE/AE5E8CF549A4AB7FFDBF7CF8C3BD6A89/ceec79978bdf44a4918fd7e465951c9a/Sample%20CITI%20Completion%20Report.jpg&quot;,&quot;linkName&quot;:&quot;Sample CITI Completion Report.jpg&quot;}\">Sample CITI Completion Report.jpg</a></p>",
+         "displayText": "<div class=\"vtbegenerated\">\n <p>Anytime you do research on the UALR campus, you need to go through the UALR IRB to make sure that your research complies with all federal regulations. For this assignment, you will be completing:</p> \n <br> \n <ul> \n  <li>the steps listed at <a href=\"https://ualr.edu/irb/home/required-training/\">https://ualr.edu/irb/home/required-training/</a> to earn your certificate in Human Research Training (Course Learner Group: Group 1. Social and Behavioral Research Investigators and Key Personnel.</li> \n  <li>the steps listed at <a href=\"https://ualr.edu/irb/home/required-training/\">https://ualr.edu/irb/home/required-training/</a> to earn your certificate in Responsible Conduct of Research (You can pick the version of RCR Training that is most applicable to your research interests).</li> \n </ul> \n <br> \n <p>Once you have completed the certificates, submit your two course completion reports listing the expiration date and the completed modules to the assignment folder.</p> \n <br> \n <p>Here is an example of a Course Completion Report:</p> \n <p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28343476-dt-asiobject-rid-68621372_1/xid-68621372_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;Sample CITI Completion Report.jpg&quot;,&quot;displayName&quot;:&quot;Sample CITI Completion Report.jpg&quot;,&quot;fileName&quot;:&quot;Sample CITI Completion Report.jpg&quot;,&quot;fileSize&quot;:221519,&quot;mimeType&quot;:&quot;image/jpeg&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/sessions/AE/AE5E8CF549A4AB7FFDBF7CF8C3BD6A89/ceec79978bdf44a4918fd7e465951c9a/Sample%20CITI%20Completion%20Report.jpg&quot;,&quot;linkName&quot;:&quot;Sample CITI Completion Report.jpg&quot;}\">Sample CITI Completion Report.jpg</a></p>\n</div>",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343476_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2Ew0q29OuO1eNNNc/gR9nTU%3D"
+        },
+        "id": "_28343476_1"
+       },
+       "permissions": {
+        "deploy": false,
+        "modifyDueDate": false,
+        "delete": false,
+        "view": false,
+        "modify": false
+       },
+       "exceptions": []
+      },
+      "safeAssignOptions": {
+       "checkAttempts": false,
+       "canStudentViewReports": false,
+       "excludeSubmissions": false,
+       "globalSearch": true
+      }
+     }
+    },
+    "launchInNewWindow": true,
+    "contentHandler": "resource/x-bb-asmt-test-link",
+    "body": {
+     "rawText": "",
+     "displayText": "",
+     "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/content/_5994405_1/embedded/",
+     "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUZ0zOKPl/EnlHB3dp/B/IRhV9%2B7JkhxBjSUIXJ8W/EcU%3D"
+    },
+    "description": "Week 6 Assignment",
+    "courseId": "_294361_1",
+    "modifiedDate": 1787589276277,
+    "title": "CITI Training Assignment - Group 1 and RCR",
+    "genericReadOnlyData": {
+     "hasGradeColumn": true,
+     "restrictions": null,
+     "engagementDates": null,
+     "dueDate": "2026-10-20T04:59:00.000Z"
+    },
+    "isGroupContent": false,
+    "dueDateExceptionType": "Normal",
+    "inSequence": false,
+    "isReviewable": true,
+    "visibility": "VISIBLE",
+    "aiState": "No",
+    "titleColor": "#000000",
+    "ancestorLessonId": "_5994393_1",
+    "renderType": "LINK",
+    "thumbnailAltText": "",
+    "isPrimaryLearningObject": false,
+    "lorContentId": null,
+    "permissions": {
+     "edit": false,
+     "delete": false,
+     "adaptiveRelease": {
+      "create": false,
+      "edit": false,
+      "delete": false,
+      "view": false,
+      "criteria": {
+       "performance": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "acl": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "dates": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       }
+      }
+     },
+     "contentHandlerPermissionMap": {
+      "dropTarget": true,
+      "createDiscussion": false
+     },
+     "isAllowLOROperations": false,
+     "isAppendOnly": false,
+     "contentOptions": true,
+     "move": false,
+     "modifyAvailability": false,
+     "canHaveReviewState": true,
+     "canViewReviewState": false,
+     "canUpdateReviewState": false,
+     "dashboardView": false,
+     "createLearningStandardsAlignment": false,
+     "viewDesigner": false,
+     "copy": false
+    },
+    "id": "_5994405_1",
+    "state": "Completed",
+    "position": 2,
+    "parentId": "_5994393_1"
+   }
+  },
+  "_5994418_1": {
+   "content": {
+    "iconUrl": "/images/ci/sets/set12/test_on.svg",
+    "contentDetail": {
+     "resource/x-bb-asmt-test-link": {
+      "test": {
+       "deployedAssessmentType": "test",
+       "deploymentSettings": {
+        "isSecureBrowserRequiredToTake": false,
+        "isSecureBrowserRequiredToReview": false,
+        "isWebcamRequired": false,
+        "isRandomizationOfQuestionsRequired": false,
+        "isDueDateEnforced": false,
+        "timerCompletion": "CONTINUAL",
+        "restrictLocation": {
+         "selectedIpFilterProfile": null,
+         "selectedRestrictType": "NONE",
+         "userIpAddress": "69.235.253.129"
+        },
+        "isBacktrackingProhibited": false,
+        "deliveryType": "Assessment",
+        "isCollectExternalSubmissions": false,
+        "allowStudentSubmission": true,
+        "feedbackSettings": {
+         "as": {
+          "associatedDate": null,
+          "options": [
+           "USER_ANSWERS",
+           "ALL_ANSWERS"
+          ]
+         }
+        },
+        "isRandomizationOfAnswersRequired": "NEVER",
+        "isRandomizationOfPagesRequired": false,
+        "isKeepFirstPageFirstRequired": false,
+        "isLateAttemptCreationDisallowed": false,
+        "isScoreShown": false,
+        "isUserAnswerShown": false,
+        "isCorrectAnswerShown": false,
+        "isIpFilterEnabled": false,
+        "isCompletionForced": false,
+        "lastModificationDate": null,
+        "isPasswordRequired": false,
+        "isFeedbackShown": false,
+        "isDescriptionShown": false,
+        "isInstructionShown": false,
+        "isStartedInExternalWindow": false,
+        "announcementTime": null,
+        "attemptCount": 2,
+        "id": "_291892_1",
+        "allowFileSubmission": true,
+        "allowTextSubmission": true
+       },
+       "gradingColumn": {
+        "assessmentSubtype": "Assignment",
+        "gradebookCategory": {
+         "description": "",
+         "courseId": "_294361_1",
+         "title": "Assignment.name",
+         "localizableTitle": {
+          "bundle": "gradebook_type",
+          "languageKey": "Assignment.name"
+         },
+         "id": "_2179305_1",
+         "isUserDefined": false
+        },
+        "visible": true,
+        "possible": 5,
+        "multipleAttempts": 2,
+        "calculationType": "NON_CALCULATED",
+        "gradebookCategoryId": "_2179305_1",
+        "courseId": "_294361_1",
+        "scoreProviderHandle": "resource/x-bb-assessment",
+        "peerGrading": false,
+        "gradingSchemaId": "_1227890_1",
+        "dueDate": "2026-10-27T04:59:00.000Z",
+        "contentId": "_5994418_1",
+        "anonymousGrading": false,
+        "deleted": false,
+        "columnName": "Analysis Assignment",
+        "userCreatedColumn": false,
+        "permanentAnonymous": false,
+        "scorable": true,
+        "aggregationModel": "LAST",
+        "visibleInBook": true,
+        "ltiDomainId": null,
+        "ltiTag": "",
+        "ltiResourceId": "",
+        "gradesReleased": true,
+        "enforceDueDate": false,
+        "id": "_1550703_1",
+        "learningOutcome": {
+         "isSignature": false,
+         "entityScale": [],
+         "columnScale": []
+        },
+        "localizedColumnName": {
+         "bundle": "gradebook",
+         "languageKey": "Analysis Assignment"
+        },
+        "effectiveColumnName": "Analysis Assignment",
+        "isAttemptBased": true,
+        "gradeScoreDesignation": "-",
+        "isFormative": false,
+        "position": 10,
+        "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294361_1/gradebook/columns/_1550703_1"
+       },
+       "assessment": {
+        "gradableItemId": "_1550703_1",
+        "hasPartialCreditQuestions": false,
+        "subtype": "Assignment",
+        "extraCreditPoints": 0,
+        "hasAnswerableQuestions": false,
+        "totalPoints": 0,
+        "type": "Test",
+        "hasPartialAndNegativeCreditQuestions": false,
+        "questionCount": 0,
+        "lastModifiedDate": "2026-08-24T16:35:02.466Z",
+        "description": {
+         "rawText": "",
+         "displayText": "",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343466_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2JE/lhfjaJzxNNNc/gR9nTU%3D"
+        },
+        "hasPresentationOnlyQuestions": false,
+        "hasAutomatedQuestionFeedback": false,
+        "alignmentCount": 0,
+        "title": "Analysis Assignment",
+        "instructions": {
+         "rawText": "<p>How are your analytical skills? This attached quiz from the BBC can help you assess how well you are able to interpret the results you obtain after submitting your data to your favorite statistic/visualization tool. Record your answers for each of the Skillswise questions and check your answers to see how you did (correct responses are at the end of the quiz but try not to peek until you are done). </p> \n<br> \n<p>For this question, you do not need to report your scores for the various levels, but do write up your reflection on this exercise. </p> \n<br> \n<ol> \n <li>How comfortable do you feel with your present level of analytical/statistical/visualization skills? What do you feel are your strongest areas? What areas would you like to improve?</li> \n <li>For those areas you would like to improve, what actions do you plan to take over the next 12 months to strengthen your analytical/technical skills. Remember you do not need to rely on UALR coursework alone. There are online resources, coursera.org, edx.org, udacity.com, datacamp.com, pluralsight.com, youtube videos, etc. that you can use to help you achieve your learning goals.</li> \n</ol> \n<br> \n<p>Write up your reflection on this exercise and submit it to the assignment folder.</p> \n<br> \n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28343466-dt-asiobject-rid-68621367_1/xid-68621367_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;Skillswise Graphs and Charts Quiz&quot;,&quot;displayName&quot;:&quot;Skillswise Graphs and Charts Quiz&quot;,&quot;fileName&quot;:&quot;ma37grap-l1-quiz.pdf&quot;,&quot;fileSize&quot;:431511,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/sessions/25/25E757C61B0A0B84D02BCE5C04601DBE/6b44adaea7e947d299644c4dfb2bb68b/ma37grap-l1-quiz.pdf&quot;,&quot;linkName&quot;:&quot;Skillswise Graphs and Charts Quiz&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28343466-dt-asiobject-rid-68621367_1/xid-68621367_1?locale=en_US&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inline&quot;}\">Skillswise Graphs and Charts Quiz</a></p> \n<br> \n<br>",
+         "displayText": "<div class=\"vtbegenerated\">\n <p>How are your analytical skills? This attached quiz from the BBC can help you assess how well you are able to interpret the results you obtain after submitting your data to your favorite statistic/visualization tool. Record your answers for each of the Skillswise questions and check your answers to see how you did (correct responses are at the end of the quiz but try not to peek until you are done). </p> \n <br> \n <p>For this question, you do not need to report your scores for the various levels, but do write up your reflection on this exercise. </p> \n <br> \n <ol> \n  <li>How comfortable do you feel with your present level of analytical/statistical/visualization skills? What do you feel are your strongest areas? What areas would you like to improve?</li> \n  <li>For those areas you would like to improve, what actions do you plan to take over the next 12 months to strengthen your analytical/technical skills. Remember you do not need to rely on UALR coursework alone. There are online resources, coursera.org, edx.org, udacity.com, datacamp.com, pluralsight.com, youtube videos, etc. that you can use to help you achieve your learning goals.</li> \n </ol> \n <br> \n <p>Write up your reflection on this exercise and submit it to the assignment folder.</p> \n <br> \n <p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28343466-dt-asiobject-rid-68621367_1/xid-68621367_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;Skillswise Graphs and Charts Quiz&quot;,&quot;displayName&quot;:&quot;Skillswise Graphs and Charts Quiz&quot;,&quot;fileName&quot;:&quot;ma37grap-l1-quiz.pdf&quot;,&quot;fileSize&quot;:431511,&quot;mimeType&quot;:&quot;application/pdf&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/sessions/25/25E757C61B0A0B84D02BCE5C04601DBE/6b44adaea7e947d299644c4dfb2bb68b/ma37grap-l1-quiz.pdf&quot;,&quot;linkName&quot;:&quot;Skillswise Graphs and Charts Quiz&quot;}\">Skillswise Graphs and Charts Quiz</a></p> \n <br> \n <br>\n</div>",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343466_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2JE/lhfjaJzxNNNc/gR9nTU%3D"
+        },
+        "id": "_28343466_1"
+       },
+       "permissions": {
+        "deploy": false,
+        "modifyDueDate": false,
+        "delete": false,
+        "view": false,
+        "modify": false
+       },
+       "exceptions": []
+      },
+      "safeAssignOptions": {
+       "checkAttempts": false,
+       "canStudentViewReports": false,
+       "excludeSubmissions": false,
+       "globalSearch": true
+      }
+     }
+    },
+    "launchInNewWindow": true,
+    "contentHandler": "resource/x-bb-asmt-test-link",
+    "body": {
+     "rawText": "",
+     "displayText": "",
+     "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/content/_5994418_1/embedded/",
+     "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUZ0zOKPl/EnlHB3dp/B/IRnrm%2BwkzxbddSUIXJ8W/EcU%3D"
+    },
+    "description": "Week 7 Assignment",
+    "courseId": "_294361_1",
+    "modifiedDate": 1787589302461,
+    "title": "Analysis Assignment",
+    "genericReadOnlyData": {
+     "hasGradeColumn": true,
+     "restrictions": null,
+     "engagementDates": null,
+     "dueDate": "2026-10-27T04:59:00.000Z"
+    },
+    "isGroupContent": false,
+    "dueDateExceptionType": "Normal",
+    "inSequence": false,
+    "isReviewable": true,
+    "visibility": "VISIBLE",
+    "aiState": "No",
+    "titleColor": "#000000",
+    "ancestorLessonId": "_5994406_1",
+    "renderType": "LINK",
+    "thumbnailAltText": "",
+    "isPrimaryLearningObject": false,
+    "lorContentId": null,
+    "permissions": {
+     "edit": false,
+     "delete": false,
+     "adaptiveRelease": {
+      "create": false,
+      "edit": false,
+      "delete": false,
+      "view": false,
+      "criteria": {
+       "performance": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "acl": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "dates": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       }
+      }
+     },
+     "contentHandlerPermissionMap": {
+      "dropTarget": true,
+      "createDiscussion": false
+     },
+     "isAllowLOROperations": false,
+     "isAppendOnly": false,
+     "contentOptions": true,
+     "move": false,
+     "modifyAvailability": false,
+     "canHaveReviewState": true,
+     "canViewReviewState": false,
+     "canUpdateReviewState": false,
+     "dashboardView": false,
+     "createLearningStandardsAlignment": false,
+     "viewDesigner": false,
+     "copy": false
+    },
+    "id": "_5994418_1",
+    "state": "Completed",
+    "position": 2,
+    "parentId": "_5994406_1"
+   }
+  },
+  "_5994444_1": {
+   "content": {
+    "iconUrl": "/images/ci/sets/set12/test_on.svg",
+    "contentDetail": {
+     "resource/x-bb-asmt-test-link": {
+      "test": {
+       "deployedAssessmentType": "test",
+       "deploymentSettings": {
+        "isSecureBrowserRequiredToTake": false,
+        "isSecureBrowserRequiredToReview": false,
+        "isWebcamRequired": false,
+        "isRandomizationOfQuestionsRequired": false,
+        "isDueDateEnforced": false,
+        "timerCompletion": "CONTINUAL",
+        "restrictLocation": {
+         "selectedIpFilterProfile": null,
+         "selectedRestrictType": "NONE",
+         "userIpAddress": "69.235.253.129"
+        },
+        "isBacktrackingProhibited": false,
+        "deliveryType": "Assessment",
+        "isCollectExternalSubmissions": false,
+        "allowStudentSubmission": true,
+        "feedbackSettings": {
+         "as": {
+          "associatedDate": null,
+          "options": [
+           "USER_ANSWERS",
+           "ALL_ANSWERS"
+          ]
+         }
+        },
+        "isRandomizationOfAnswersRequired": "NEVER",
+        "isRandomizationOfPagesRequired": false,
+        "isKeepFirstPageFirstRequired": false,
+        "isLateAttemptCreationDisallowed": false,
+        "isScoreShown": false,
+        "isUserAnswerShown": false,
+        "isCorrectAnswerShown": false,
+        "isIpFilterEnabled": false,
+        "isCompletionForced": false,
+        "lastModificationDate": null,
+        "isPasswordRequired": false,
+        "isFeedbackShown": false,
+        "isDescriptionShown": false,
+        "isInstructionShown": false,
+        "isStartedInExternalWindow": false,
+        "announcementTime": null,
+        "attemptCount": 2,
+        "id": "_291894_1",
+        "allowFileSubmission": true,
+        "allowTextSubmission": true
+       },
+       "gradingColumn": {
+        "assessmentSubtype": "Assignment",
+        "gradebookCategory": {
+         "description": "",
+         "courseId": "_294361_1",
+         "title": "Assignment.name",
+         "localizableTitle": {
+          "bundle": "gradebook_type",
+          "languageKey": "Assignment.name"
+         },
+         "id": "_2179305_1",
+         "isUserDefined": false
+        },
+        "visible": true,
+        "possible": 5,
+        "multipleAttempts": 2,
+        "calculationType": "NON_CALCULATED",
+        "gradebookCategoryId": "_2179305_1",
+        "courseId": "_294361_1",
+        "scoreProviderHandle": "resource/x-bb-assessment",
+        "peerGrading": false,
+        "gradingSchemaId": "_1227890_1",
+        "dueDate": "2026-11-10T05:59:00.000Z",
+        "contentId": "_5994444_1",
+        "anonymousGrading": false,
+        "deleted": false,
+        "columnName": "Research Proposal Planning Assignment",
+        "userCreatedColumn": false,
+        "permanentAnonymous": false,
+        "scorable": true,
+        "aggregationModel": "LAST",
+        "visibleInBook": true,
+        "ltiDomainId": null,
+        "ltiTag": "",
+        "ltiResourceId": "",
+        "gradesReleased": true,
+        "enforceDueDate": false,
+        "id": "_1550705_1",
+        "learningOutcome": {
+         "isSignature": false,
+         "entityScale": [],
+         "columnScale": []
+        },
+        "localizedColumnName": {
+         "bundle": "gradebook",
+         "languageKey": "Research Proposal Planning Assignment"
+        },
+        "effectiveColumnName": "Research Proposal Planning Assignment",
+        "isAttemptBased": true,
+        "gradeScoreDesignation": "-",
+        "isFormative": false,
+        "position": 13,
+        "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294361_1/gradebook/columns/_1550705_1"
+       },
+       "assessment": {
+        "gradableItemId": "_1550705_1",
+        "hasPartialCreditQuestions": false,
+        "subtype": "Assignment",
+        "extraCreditPoints": 0,
+        "hasAnswerableQuestions": false,
+        "totalPoints": 0,
+        "type": "Test",
+        "hasPartialAndNegativeCreditQuestions": false,
+        "questionCount": 0,
+        "lastModifiedDate": "2026-10-28T17:37:32.974Z",
+        "description": {
+         "rawText": "",
+         "displayText": "",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343474_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2NwOJhtBcgP3NNNc/gR9nTU%3D"
+        },
+        "hasPresentationOnlyQuestions": false,
+        "hasAutomatedQuestionFeedback": false,
+        "alignmentCount": 0,
+        "title": "Research Proposal Planning Assignment",
+        "instructions": {
+         "rawText": "<p>There is an old saying that goes \"If you fail to plan then you need to plan to fail\". This is very true for research projects. There is a lot to keep track of during a research project and lots of different milestones that you need to accomplish. This assignment is all about project management for research and you taking the first steps to report your progress to date to Dr. Wu and Dr. Dagtas.</p> \n<br> \n<p>For Tips on Project Management, check out these resources.</p> \n<br> \n<ol> \n <li>Review the information/activities needed to complete the research project proposal. There are a number of resources on the web and you can find a nice overview at <a href=\"https://www.scribbr.com/research-process/research-proposal/\">https://www.scribbr.com/research-process/research-proposal/</a>.</li> \n <li>Review the most commonly used project management tools from <a href=\"https://www.projectmanager.com/blog/project-management-techniques-for-every-pm\">https://www.projectmanager.com/blog/project-management-techniques-for-every-pm</a>.</li> \n <li>Consider putting together a Work Breakdown Structure (WBS - <a href=\"https://www.projectmanagementdocs.com/template/project-planning/work-breakdown-structure/\">https://www.projectmanagementdocs.com/template/project-planning/work-breakdown-structure/</a>) to capture the different phases and activities you will need to accomplish to complete your own research proposal by the end of the semester.</li> \n</ol> \n<br> \n<p>Every student will need to prepare a 20 minute progress presentation (7 to 10 slides) to share with the class and submit them to the instructors. Students can voluntarily deliver their presentations in one of the scheduled sessions and receive feedback. If you are unable to attend any of the sessions, please submit your slides.</p> \n<br> \n<p>Presentations will start November 9 and continue November 16 and 23 as needed.&nbsp;&nbsp;Students will be assigned the date to give their presentations.</p> \n<br> \n<p>Here are the items you will need to cover:</p> \n<ul> \n <li>Title Slide for the Research Proposal - Include your Name, Title, Date</li> \n <li>Slide to summarize the problem/challenge that you are going to address.&nbsp;&nbsp;What are the research questions you plan to focus on.</li> \n <li>Slide that outlines your research objectives.</li> \n <li>Literature Review Slide(s) - What is your progress?&nbsp;&nbsp;What search terms are you using?&nbsp;&nbsp;What types of information are you looking for? What collections have you been searching?&nbsp;&nbsp;What are some examples of the best articles you have found so far.&nbsp;&nbsp;(Google Folder with Articles Collected to Date)</li> \n <li>Slide Describing Your Research Methods for Collecting and Analyzing Your Data</li> \n <li>Slide summarizing the contributions (merits) of this research.&nbsp;&nbsp;Ex. Who would benefit? Who would find this research useful?</li> \n <li>Slide Summarizing the Remaining Work that Needs to be Done to complete the Research Proposal.</li> \n</ul> \n<br> \n<p>Points will be awarded once you have completed the assignment in class.</p>",
+         "displayText": "<div class=\"vtbegenerated\">\n <p>There is an old saying that goes \"If you fail to plan then you need to plan to fail\". This is very true for research projects. There is a lot to keep track of during a research project and lots of different milestones that you need to accomplish. This assignment is all about project management for research and you taking the first steps to report your progress to date to Dr. Wu and Dr. Dagtas.</p> \n <br> \n <p>For Tips on Project Management, check out these resources.</p> \n <br> \n <ol> \n  <li>Review the information/activities needed to complete the research project proposal. There are a number of resources on the web and you can find a nice overview at <a href=\"https://www.scribbr.com/research-process/research-proposal/\">https://www.scribbr.com/research-process/research-proposal/</a>.</li> \n  <li>Review the most commonly used project management tools from <a href=\"https://www.projectmanager.com/blog/project-management-techniques-for-every-pm\">https://www.projectmanager.com/blog/project-management-techniques-for-every-pm</a>.</li> \n  <li>Consider putting together a Work Breakdown Structure (WBS - <a href=\"https://www.projectmanagementdocs.com/template/project-planning/work-breakdown-structure/\">https://www.projectmanagementdocs.com/template/project-planning/work-breakdown-structure/</a>) to capture the different phases and activities you will need to accomplish to complete your own research proposal by the end of the semester.</li> \n </ol> \n <br> \n <p>Every student will need to prepare a 20 minute progress presentation (7 to 10 slides) to share with the class and submit them to the instructors. Students can voluntarily deliver their presentations in one of the scheduled sessions and receive feedback. If you are unable to attend any of the sessions, please submit your slides.</p> \n <br> \n <p>Presentations will start November 9 and continue November 16 and 23 as needed.&nbsp;&nbsp;Students will be assigned the date to give their presentations.</p> \n <br> \n <p>Here are the items you will need to cover:</p> \n <ul> \n  <li>Title Slide for the Research Proposal - Include your Name, Title, Date</li> \n  <li>Slide to summarize the problem/challenge that you are going to address.&nbsp;&nbsp;What are the research questions you plan to focus on.</li> \n  <li>Slide that outlines your research objectives.</li> \n  <li>Literature Review Slide(s) - What is your progress?&nbsp;&nbsp;What search terms are you using?&nbsp;&nbsp;What types of information are you looking for? What collections have you been searching?&nbsp;&nbsp;What are some examples of the best articles you have found so far.&nbsp;&nbsp;(Google Folder with Articles Collected to Date)</li> \n  <li>Slide Describing Your Research Methods for Collecting and Analyzing Your Data</li> \n  <li>Slide summarizing the contributions (merits) of this research.&nbsp;&nbsp;Ex. Who would benefit? Who would find this research useful?</li> \n  <li>Slide Summarizing the Remaining Work that Needs to be Done to complete the Research Proposal.</li> \n </ul> \n <br> \n <p>Points will be awarded once you have completed the assignment in class.</p>\n</div>",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343474_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2NwOJhtBcgP3NNNc/gR9nTU%3D"
+        },
+        "id": "_28343474_1"
+       },
+       "permissions": {
+        "deploy": false,
+        "modifyDueDate": false,
+        "delete": false,
+        "view": false,
+        "modify": false
+       },
+       "exceptions": []
+      },
+      "safeAssignOptions": {
+       "checkAttempts": false,
+       "canStudentViewReports": false,
+       "excludeSubmissions": false,
+       "globalSearch": true
+      }
+     }
+    },
+    "launchInNewWindow": true,
+    "contentHandler": "resource/x-bb-asmt-test-link",
+    "body": {
+     "rawText": "",
+     "displayText": "",
+     "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/content/_5994444_1/embedded/",
+     "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUZ0zOKPl/EnlHB3dp/B/IRiVV5Mzp7GCoSUIXJ8W/EcU%3D"
+    },
+    "description": "Week 10 Assignment",
+    "courseId": "_294361_1",
+    "modifiedDate": 1793209052970,
+    "title": "Research Proposal Planning Assignment",
+    "genericReadOnlyData": {
+     "hasGradeColumn": true,
+     "restrictions": null,
+     "engagementDates": null,
+     "dueDate": "2026-11-10T05:59:00.000Z"
+    },
+    "isGroupContent": false,
+    "dueDateExceptionType": "Normal",
+    "inSequence": false,
+    "isReviewable": true,
+    "visibility": "VISIBLE",
+    "aiState": "No",
+    "titleColor": "#000000",
+    "ancestorLessonId": "_5994443_1",
+    "renderType": "LINK",
+    "thumbnailAltText": "",
+    "isPrimaryLearningObject": false,
+    "lorContentId": null,
+    "permissions": {
+     "edit": false,
+     "delete": false,
+     "adaptiveRelease": {
+      "create": false,
+      "edit": false,
+      "delete": false,
+      "view": false,
+      "criteria": {
+       "performance": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "acl": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "dates": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       }
+      }
+     },
+     "contentHandlerPermissionMap": {
+      "dropTarget": true,
+      "createDiscussion": false
+     },
+     "isAllowLOROperations": false,
+     "isAppendOnly": false,
+     "contentOptions": true,
+     "move": false,
+     "modifyAvailability": false,
+     "canHaveReviewState": true,
+     "canViewReviewState": false,
+     "canUpdateReviewState": false,
+     "dashboardView": false,
+     "createLearningStandardsAlignment": false,
+     "viewDesigner": false,
+     "copy": false
+    },
+    "id": "_5994444_1",
+    "state": "Completed",
+    "position": 0,
+    "parentId": "_5994443_1"
+   }
+  },
+  "_5994445_1": {
+   "content": {
+    "iconUrl": "/images/ci/sets/set12/test_on.svg",
+    "contentDetail": {
+     "resource/x-bb-asmt-test-link": {
+      "test": {
+       "deployedAssessmentType": "test",
+       "deploymentSettings": {
+        "isSecureBrowserRequiredToTake": false,
+        "isSecureBrowserRequiredToReview": false,
+        "isWebcamRequired": false,
+        "isRandomizationOfQuestionsRequired": false,
+        "isDueDateEnforced": false,
+        "timerCompletion": "CONTINUAL",
+        "restrictLocation": {
+         "selectedIpFilterProfile": null,
+         "selectedRestrictType": "NONE",
+         "userIpAddress": "69.235.253.129"
+        },
+        "isBacktrackingProhibited": false,
+        "deliveryType": "Assessment",
+        "isCollectExternalSubmissions": false,
+        "allowStudentSubmission": true,
+        "feedbackSettings": {
+         "as": {
+          "associatedDate": null,
+          "options": [
+           "USER_ANSWERS",
+           "ALL_ANSWERS"
+          ]
+         }
+        },
+        "isRandomizationOfAnswersRequired": "NEVER",
+        "isRandomizationOfPagesRequired": false,
+        "isKeepFirstPageFirstRequired": false,
+        "isLateAttemptCreationDisallowed": false,
+        "isScoreShown": false,
+        "isUserAnswerShown": false,
+        "isCorrectAnswerShown": false,
+        "isIpFilterEnabled": false,
+        "isCompletionForced": false,
+        "lastModificationDate": null,
+        "isPasswordRequired": false,
+        "isFeedbackShown": false,
+        "isDescriptionShown": false,
+        "isInstructionShown": false,
+        "isStartedInExternalWindow": false,
+        "announcementTime": null,
+        "attemptCount": 2,
+        "id": "_291885_1",
+        "allowFileSubmission": true,
+        "allowTextSubmission": true
+       },
+       "gradingColumn": {
+        "assessmentSubtype": "Assignment",
+        "gradebookCategory": {
+         "description": "",
+         "courseId": "_294361_1",
+         "title": "Assignment.name",
+         "localizableTitle": {
+          "bundle": "gradebook_type",
+          "languageKey": "Assignment.name"
+         },
+         "id": "_2179305_1",
+         "isUserDefined": false
+        },
+        "visible": true,
+        "possible": 50,
+        "multipleAttempts": 2,
+        "calculationType": "NON_CALCULATED",
+        "gradebookCategoryId": "_2179305_1",
+        "courseId": "_294361_1",
+        "scoreProviderHandle": "resource/x-bb-assessment",
+        "peerGrading": false,
+        "gradingSchemaId": "_1227890_1",
+        "dueDate": "2026-12-05T05:59:00.000Z",
+        "contentId": "_5994445_1",
+        "anonymousGrading": false,
+        "deleted": false,
+        "columnName": "Final Research Proposal",
+        "userCreatedColumn": false,
+        "permanentAnonymous": false,
+        "scorable": true,
+        "aggregationModel": "LAST",
+        "visibleInBook": true,
+        "ltiDomainId": null,
+        "ltiTag": "",
+        "ltiResourceId": "",
+        "gradesReleased": true,
+        "enforceDueDate": false,
+        "id": "_1550706_1",
+        "learningOutcome": {
+         "isSignature": false,
+         "entityScale": [],
+         "columnScale": []
+        },
+        "localizedColumnName": {
+         "bundle": "gradebook",
+         "languageKey": "Final Research Proposal"
+        },
+        "effectiveColumnName": "Final Research Proposal",
+        "isAttemptBased": true,
+        "gradeScoreDesignation": "-",
+        "isFormative": false,
+        "position": 12,
+        "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294361_1/gradebook/columns/_1550706_1"
+       },
+       "assessment": {
+        "gradableItemId": "_1550706_1",
+        "hasPartialCreditQuestions": false,
+        "subtype": "Assignment",
+        "extraCreditPoints": 0,
+        "hasAnswerableQuestions": false,
+        "totalPoints": 0,
+        "type": "Test",
+        "hasPartialAndNegativeCreditQuestions": false,
+        "questionCount": 0,
+        "lastModifiedDate": "2026-10-28T17:32:26.542Z",
+        "description": {
+         "rawText": "",
+         "displayText": "",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343472_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2C1v6rH3hEAZNNNc/gR9nTU%3D"
+        },
+        "hasPresentationOnlyQuestions": false,
+        "hasAutomatedQuestionFeedback": false,
+        "alignmentCount": 0,
+        "title": "Final Research Proposal",
+        "instructions": {
+         "rawText": "<p>This is the culminating assignment for INFQ 72203 IQ Theory. Be sure to review how to write a research proposal from <a href=\"https://www.scribbr.com/research-process/research-proposal/\">https://www.scribbr.com/research-process/research-proposal/</a>. At a minimum, your proposal should include.</p>\n<ol>\n <li>Title Page - See <a href=\"https://www.papertrue.com/blog/dissertation-title-page/\">https://www.papertrue.com/blog/dissertation-title-page/ </a>for examples</li>\n <li>Table of Contents (Optional)</li>\n <li>Introduction- See Scribbr (link is located above) for more information</li>\n <li>Literature Review (aim for a minimum of 20 articles cited in the body of the paper and the majority of those articles should be peer reviewed).&nbsp;&nbsp;Remember references reflect the papers that you have read and that you feel have something important to support your research proposal's case (e.g., introduction, how your work compares to others, methods used, novelty of work, contributions, etc.).&nbsp;&nbsp;Consequently, you need to plan on examining 40 to 60 articles in order to identify the 20 strongest works to include in your literature review.</li>\n <li>Explanation of the Data You Plan to Collect, Your Research Design and Tentative Research Schedule.&nbsp;&nbsp;Be sure to identify any limitations or risks that you anticipate and how you will handle those contingencies.</li>\n <li>Closing Remarks.&nbsp;&nbsp;Be sure to explain the Contributions of Your Research to the Field and how you plan to communicate your research findings to others.</li>\n <li>Reference List (Remember to use a reference/citation style like APA, MLA, IEEE, etc. and apply it consistently).&nbsp;&nbsp;For a reference to count, it must be cited in the text and referenced and contain a link to the article itself to validate the reference.&nbsp;&nbsp;In addition, make sure you have full copies of all your references in your Google Folder that you have shared with Dr. Pierce and Dr. Wu (see the section below for more details on this).</li>\n <li>Acknowledgement of any AI Tools that you used to help brainstorm ideas, generated sources for the literature review, or other content that you used as part of the introduction, research design, contributions. Also, it is fine to acknowledge what AI Tools that you used to format, edit, and improve your writing.</li>\n</ol>\n<br>\n<p>Note: Assuming single space, 10 to 12 point font, your research proposal body should be around 8 to 10 pages.</p>\n<br>\n<p>In addition to your research proposal, you also need to include a link to a google drive folder for both Dr. Wu and Dr. Dagtas so we can verify your literature sources that you cited and referenced in your research proposal.</p>\n<ul>\n <li dir=\"ltr\" style=\"text-align: left;\">Include a full pdf copy of all articles.</li>\n <li dir=\"ltr\" style=\"text-align: left;\">Be sure to annotate, highlight, or mark up the sections of the article that you used as the basis of your reference.</li>\n <li dir=\"ltr\" style=\"text-align: left;\">If referencing a book, you need to provide a link to the full pdf text online (or other proof that you had access to reading the book or relevant chapters).</li>\n <li dir=\"ltr\" style=\"text-align: left;\">Make sure that each article is cited in your paper.&nbsp;&nbsp;Consider using APA format (Author Name, Date) to make it easy to align your in-text citations with your article identifiers.</li>\n <li dir=\"ltr\" style=\"text-align: left;\">Make sure that your reference list has a complete set of information for the article (i.e., correct authors, title, publication source, date, etc.).&nbsp;&nbsp;Again, use a format like APA to fully document your sources.</li>\n</ul>\n<br>\n<p dir=\"ltr\" style=\"text-align: left;\">Check out <a href=\"https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/\">https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/</a> for additional guidance.</p>\n<br>\n<p dir=\"ltr\" style=\"text-align: left;\">Also review the guidelines for appropriate use of AI for this assignment - <a href=\"https://www.aiforeducation.io/ai-resources/student-guide-ai-use\">https://www.aiforeducation.io/ai-resources/student-guide-ai-use</a></p>",
+         "displayText": "<div class=\"vtbegenerated\">\n <p>This is the culminating assignment for INFQ 72203 IQ Theory. Be sure to review how to write a research proposal from <a href=\"https://www.scribbr.com/research-process/research-proposal/\">https://www.scribbr.com/research-process/research-proposal/</a>. At a minimum, your proposal should include.</p> \n <ol> \n  <li>Title Page - See <a href=\"https://www.papertrue.com/blog/dissertation-title-page/\">https://www.papertrue.com/blog/dissertation-title-page/ </a>for examples</li> \n  <li>Table of Contents (Optional)</li> \n  <li>Introduction- See Scribbr (link is located above) for more information</li> \n  <li>Literature Review (aim for a minimum of 20 articles cited in the body of the paper and the majority of those articles should be peer reviewed).&nbsp;&nbsp;Remember references reflect the papers that you have read and that you feel have something important to support your research proposal's case (e.g., introduction, how your work compares to others, methods used, novelty of work, contributions, etc.).&nbsp;&nbsp;Consequently, you need to plan on examining 40 to 60 articles in order to identify the 20 strongest works to include in your literature review.</li> \n  <li>Explanation of the Data You Plan to Collect, Your Research Design and Tentative Research Schedule.&nbsp;&nbsp;Be sure to identify any limitations or risks that you anticipate and how you will handle those contingencies.</li> \n  <li>Closing Remarks.&nbsp;&nbsp;Be sure to explain the Contributions of Your Research to the Field and how you plan to communicate your research findings to others.</li> \n  <li>Reference List (Remember to use a reference/citation style like APA, MLA, IEEE, etc. and apply it consistently).&nbsp;&nbsp;For a reference to count, it must be cited in the text and referenced and contain a link to the article itself to validate the reference.&nbsp;&nbsp;In addition, make sure you have full copies of all your references in your Google Folder that you have shared with Dr. Pierce and Dr. Wu (see the section below for more details on this).</li> \n  <li>Acknowledgement of any AI Tools that you used to help brainstorm ideas, generated sources for the literature review, or other content that you used as part of the introduction, research design, contributions. Also, it is fine to acknowledge what AI Tools that you used to format, edit, and improve your writing.</li> \n </ol> \n <br> \n <p>Note: Assuming single space, 10 to 12 point font, your research proposal body should be around 8 to 10 pages.</p> \n <br> \n <p>In addition to your research proposal, you also need to include a link to a google drive folder for both Dr. Wu and Dr. Dagtas so we can verify your literature sources that you cited and referenced in your research proposal.</p> \n <ul> \n  <li dir=\"ltr\" style=\"text-align: left;\">Include a full pdf copy of all articles.</li> \n  <li dir=\"ltr\" style=\"text-align: left;\">Be sure to annotate, highlight, or mark up the sections of the article that you used as the basis of your reference.</li> \n  <li dir=\"ltr\" style=\"text-align: left;\">If referencing a book, you need to provide a link to the full pdf text online (or other proof that you had access to reading the book or relevant chapters).</li> \n  <li dir=\"ltr\" style=\"text-align: left;\">Make sure that each article is cited in your paper.&nbsp;&nbsp;Consider using APA format (Author Name, Date) to make it easy to align your in-text citations with your article identifiers.</li> \n  <li dir=\"ltr\" style=\"text-align: left;\">Make sure that your reference list has a complete set of information for the article (i.e., correct authors, title, publication source, date, etc.).&nbsp;&nbsp;Again, use a format like APA to fully document your sources.</li> \n </ul> \n <br> \n <p dir=\"ltr\" style=\"text-align: left;\">Check out <a href=\"https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/\">https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/</a> for additional guidance.</p> \n <br> \n <p dir=\"ltr\" style=\"text-align: left;\">Also review the guidelines for appropriate use of AI for this assignment - <a href=\"https://www.aiforeducation.io/ai-resources/student-guide-ai-use\">https://www.aiforeducation.io/ai-resources/student-guide-ai-use</a></p>\n</div>",
+         "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/assessment/_28343472_1/",
+         "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUfOBxe/ftZUdEPBGxz7qs2C1v6rH3hEAZNNNc/gR9nTU%3D"
+        },
+        "id": "_28343472_1"
+       },
+       "permissions": {
+        "deploy": false,
+        "modifyDueDate": false,
+        "delete": false,
+        "view": false,
+        "modify": false
+       },
+       "exceptions": []
+      },
+      "safeAssignOptions": {
+       "checkAttempts": true,
+       "canStudentViewReports": true,
+       "excludeSubmissions": false,
+       "globalSearch": true
+      }
+     }
+    },
+    "launchInNewWindow": true,
+    "contentHandler": "resource/x-bb-asmt-test-link",
+    "body": {
+     "rawText": "",
+     "displayText": "",
+     "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_72203_H01/content/_5994445_1/embedded/",
+     "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEOcAPbmkKHKUZ0zOKPl/EnlHB3dp/B/IRvY/%2BzGgWEb7SUIXJ8W/EcU%3D"
+    },
+    "description": "Culminating Assignment for the Semester",
+    "courseId": "_294361_1",
+    "modifiedDate": 1793208746539,
+    "title": "Final Research Proposal",
+    "genericReadOnlyData": {
+     "hasGradeColumn": true,
+     "restrictions": null,
+     "engagementDates": null,
+     "dueDate": "2026-12-05T05:59:00.000Z"
+    },
+    "isGroupContent": false,
+    "dueDateExceptionType": "Normal",
+    "inSequence": false,
+    "isReviewable": true,
+    "visibility": "VISIBLE",
+    "aiState": "No",
+    "titleColor": "#000000",
+    "ancestorLessonId": "_5994443_1",
+    "renderType": "LINK",
+    "thumbnailAltText": "",
+    "isPrimaryLearningObject": false,
+    "lorContentId": null,
+    "permissions": {
+     "edit": false,
+     "delete": false,
+     "adaptiveRelease": {
+      "create": false,
+      "edit": false,
+      "delete": false,
+      "view": false,
+      "criteria": {
+       "performance": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "acl": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       },
+       "dates": {
+        "create": false,
+        "edit": false,
+        "delete": false
+       }
+      }
+     },
+     "contentHandlerPermissionMap": {
+      "dropTarget": true,
+      "createDiscussion": false
+     },
+     "isAllowLOROperations": false,
+     "isAppendOnly": false,
+     "contentOptions": true,
+     "move": false,
+     "modifyAvailability": false,
+     "canHaveReviewState": true,
+     "canViewReviewState": false,
+     "canUpdateReviewState": false,
+     "dashboardView": false,
+     "createLearningStandardsAlignment": false,
+     "viewDesigner": false,
+     "copy": false
+    },
+    "id": "_5994445_1",
+    "state": "Started",
+    "position": 1,
+    "parentId": "_5994443_1"
+   }
+  }
+ },
+ "discussions": {}
+}

@@ -1,0 +1,76 @@
+RUN RECORD
+Level:          2, structured zero-shot (PTCF)
+Diagram:        W01.pdf
+Prompt:         ptcf-copy-and-paste.txt (verbatim)
+Specification:  casing-diagram-specification.txt
+Sequence:       diagram attached, specification attached, prompt pasted
+AI:             ChatGPT, free tier, personal Google account (same login as level 1)
+Model shown:    not displayed by the free tier; recorded as "ChatGPT free-tier
+                default model as served on the run date"
+Session:        new session [Temporary Chat / memory settings: to fill]
+Date and time:  November 11, 2026, [time to fill]
+Web search:     no sign of use; the response names only the two attachments as
+                its "Source basis"
+File reading:   the response included a panel titled "Analysis output 1"
+                showing W01 rendered as a page image (screenshot:
+                W01-chatgpt-free-analysis-output.png), indicating the PDF was
+                rendered with the analysis tool
+Follow-ups:     none
+
+The response is reproduced below exactly as pasted by the researcher, between
+the two lines. Interface elements (legend colors, file chips) appear as plain
+text because they were copied as text.
+--------------------------------------------------------------------------------
+CalGEM WBD Compliance Review — Well 948C-28
+Does not meet requirements as submitted
+Document reviewed: W01.pdf · 1 page
+
+I compared the WBD against each requirement in your supplied copy of 14 CCR §1726.4.1.
+
+Legend:
+Meets
+ Partial
+ Missing
+ Conditional
+
+Compliance matrix
+Section	Requirement	Status	What's missing / needed
+(a)(1)(A)	Operator, lease name, well number, API	Partial	Lease name missing. Other three provided.
+(a)(1)(B)	Spud date	Meets	7/3/2007 shown.
+(a)(1)(C)	Ground elevation from sea level	Partial	591.26 ft shown; sea-level datum not explicitly identified.
+(a)(1)(D)	Reference elevation (KB or rig floor)	Meets	KB elevation 603.26 ft shown.
+(a)(1)(E)	Base of groundwater ≤3,000 mg/L TDS	Missing	USDW depth shown as N/A. Actual depth required.
+(a)(1)(F)	Base of groundwater ≤10,000 mg/L TDS	Missing	Fresh water depth shown as N/A. Actual depth required.
+(a)(1)(G)	Casing and tubing sizes, weights, grades, connections	Partial	Casing specifications provided. Tubing specifications (size, weight, grade, connection) missing.
+(a)(1)(H)	Associated equipment details	Partial	Some tubing and rod equipment shown. Safety valves, packers, gas lift mandrels, or confirmation of their absence needed.
+(a)(1)(I)	Casing shoes, stubs, liner tops	Partial	Casing depths provided, but shoe depths are not explicitly identified; stubs and liner tops not addressed.
+(a)(1)(J)	Perforations and other features affecting flow or integrity	Partial	Perforations shown. Water shutoff perforations, cement ports, cuts, patches, casing damage, junk/fish and other applicable features not identified.
+(a)(1)(K)	Hole diameter and drilled depth	Meets	Hole sizes and depths shown.
+(a)(1)(L)	Cement plugs inside casing, top/bottom, date and determination method	Missing	No cement plugs identified. No plug depths, dates or determination methods.
+(a)(1)(M)	Cement behind casing, top/bottom and determination method	Partial	Cement intervals and job dates shown. Method of determining cement extent/top not identified.
+(a)(1)(N)	Fluid type and density between cement plugs	Missing	Not provided. Applicability depends on the plug configuration.
+(a)(1)(O)	Formations, zones and geologic markers, including gas storage and confining strata	Partial	Three markers shown. Complete formation/zone information and gas storage/confning strata boundaries missing.
+(a)(1)(P)	Cement slurry calculation information, including type, additives, density, yield	Partial	Cement type, additives, density, sack quantities and yield provided. Complete slurry calculation inputs need verification.
+(a)(1)(Q)	Information for previously drilled or sidetracked wellbores	Conditional	Only Wellbore 00 shown. Identify and document other boreholes if they exist.
+(a)(1)(R)	Wellhead and valve assembly model and pressure rating	Missing	Neither model identification nor pressure rating provided.
+(a)(2)	MD and TVD for all required measurements	Missing	Diagram primarily provides MD. TVD measurements are absent.
+(a)(3)	Directional survey: inclination, azimuth, bottomhole and surface locations	Missing	Well identified as directional, but no directional survey or locations provided.
+(a)(4)	Electronic submission format	Meets	PDF format provided.
+(a)(5)	Primary and secondary mechanical barriers for gas injection/withdrawal wells	Conditional	If applicable, identify primary and secondary barrier elements per §1726.5.
+(a)(6)	Original and subsequent redrilled/sidetracked boreholes	Conditional	Only Wellbore 00 shown. Confirm whether other boreholes exist and include their information if applicable.
+
+Most important deficiencies before reuse
+For your Notice to Abandon, I would prioritize these five areas:
+1. Groundwater protection: Establish actual USDW and fresh-water base depths. Both currently read N/A.
+2. Abandonment information: Add proposed or actual cement plugs, including top/bottom depths, emplacement dates and determination methods.
+3. Depth references: Provide both MD and TVD measurements.
+4. Well integrity: Identify wellhead equipment, casing shoes, associated equipment and any integrity-compromising features.
+5. Geological information: Complete formation, zone and confining-strata identification.
+My recommendation: Do not submit W01.pdf unchanged as a compliant §1726.4.1 casing diagram. It is a useful starting schematic, but it needs substantial supplementation.
+
+Scope note: Your supplied regulation identifies §1726.4.1 as governing diagrams submitted under §1726.4(a)(5)(F), concerning underground gas storage area-of-review wells. The conditional requirements above depend on the well's applicable circumstances.
+
+Source basis: Your attached specification, §1726.4.1, and the supplied W01.pdf.
+casing-diagram-specification(1).txt
+ W01(1).pdf
+--------------------------------------------------------------------------------

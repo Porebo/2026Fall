@@ -1,0 +1,1676 @@
+WEBVTT
+
+00:00:02.000 --> 00:00:04.000
+Thank you.
+
+00:00:04.000 --> 00:00:11.000
+All right, well, welcome everybody. This is our course on Principles of information quality
+
+00:00:11.000 --> 00:00:19.000
+It's generally a gateway to our program, and so for that reason, what I like to do
+
+00:00:19.000 --> 00:00:24.000
+is talk about the overall information quality program in general
+
+00:00:24.000 --> 00:00:36.000
+And after that, I'll talk about the policies for this particular course. And if we have time, I may get started with some of the content. But mainly today I wanted to kind of give an overview
+
+00:00:36.000 --> 00:00:44.000
+So of the graduate program, some of you are in the master's, some of you are in the PhD
+
+00:00:44.000 --> 00:00:50.000
+Anyway, I think this might be helpful for you
+
+00:00:50.000 --> 00:01:03.000
+So first of all, want to start off that we all kind of agree, or well, you don't have to agree, but this is the way we define information quality. And of course there's a lot of ways to do it
+
+00:01:03.000 --> 00:01:11.000
+Most people, when you talk about quality, they just say accuracy. Another common one is fitness for use
+
+00:01:11.000 --> 00:01:16.000
+Others say, well, it's accurate complete and they start giving a lot of characteristics
+
+00:01:16.000 --> 00:01:21.000
+Right information, right time, right place
+
+00:01:21.000 --> 00:01:28.000
+more of a practice type of definition
+
+00:01:28.000 --> 00:01:38.000
+And really, underneath is this one is pretty accurate. It's the application of total quality management principles to Building Information Products
+
+00:01:38.000 --> 00:01:44.000
+It's not the formal definition, but this is where information quality as a discipline came from
+
+00:01:44.000 --> 00:01:48.000
+So back in the 1980s
+
+00:01:48.000 --> 00:01:54.000
+There was a movement in manufacturing called total quality management
+
+00:01:54.000 --> 00:01:57.000
+And it really started in Japan
+
+00:01:57.000 --> 00:02:12.000
+As you may… well, I'm sure you don't remember, but you may know that after World War II, after the United States destroyed all of Japan's manufacturing, they got a chance to start all over again
+
+00:02:12.000 --> 00:02:18.000
+And we help them. And part of that help was that some of the people here in the U.S.
+
+00:02:18.000 --> 00:02:24.000
+who were advocates of quality went over there to help the Japanese
+
+00:02:24.000 --> 00:02:33.000
+Deming was one of them, a very important one. And Deming had many principles about
+
+00:02:33.000 --> 00:02:37.000
+how you create a quality product
+
+00:02:37.000 --> 00:02:39.000
+And
+
+00:02:39.000 --> 00:02:53.000
+Anyway, the Japanese were very excited about it and they adopted it and as you may know also, they adopted it so well that they almost took over the car market. They actually
+
+00:02:53.000 --> 00:03:03.000
+take away a huge chunk of the U.S. car market because they manufactured automobiles even today, like Toyotas and Hondas
+
+00:03:03.000 --> 00:03:07.000
+that were super high quality, reliable, dependable
+
+00:03:07.000 --> 00:03:14.000
+And so then it came back to the US
+
+00:03:14.000 --> 00:03:17.000
+And of course, now just about everybody
+
+00:03:17.000 --> 00:03:22.000
+in manufacturing follows total quality management principles. As a matter of fact
+
+00:03:22.000 --> 00:03:27.000
+The International Organization for Standardization called ISO
+
+00:03:27.000 --> 00:03:34.000
+has enshrined the total quality management in some
+
+00:03:34.000 --> 00:03:46.000
+standards, the ISO 9000 standards, and we'll talk more about that later. But anyway, so what happened is that
+
+00:03:46.000 --> 00:03:51.000
+Before I get into our definition, finish this thought here
+
+00:03:51.000 --> 00:03:57.000
+is that early on in the later 1980s and early 1990s
+
+00:03:57.000 --> 00:04:02.000
+The people who were in the data management industry
+
+00:04:02.000 --> 00:04:06.000
+And especially in the academic side at MIT
+
+00:04:06.000 --> 00:04:20.000
+They saw this, and they said, you know, the way to think about data and how we're using data is that we're really manufacturing something. We're manufacturing data or information product
+
+00:04:20.000 --> 00:04:26.000
+We're taking raw data, processing it through, and we're not using
+
+00:04:26.000 --> 00:04:37.000
+mechanical machines, but we're using computers. We're using these computers to manipulate the raw data into an information product
+
+00:04:37.000 --> 00:04:54.000
+We take data and make it into information by adding context around it, bringing things together. And so by taking that idea that in data management, we're really manufacturing information products
+
+00:04:54.000 --> 00:05:05.000
+And that we should manage information as a product, then why reinvent the wheel? Let's take the principles that have already been developed in manufacturing and apply them
+
+00:05:05.000 --> 00:05:07.000
+to data
+
+00:05:07.000 --> 00:05:10.000
+And so this is we have the discipline of
+
+00:05:10.000 --> 00:05:13.000
+Information quality has
+
+00:05:13.000 --> 00:05:19.000
+has evolved, and it's the reason then that I like to make
+
+00:05:19.000 --> 00:05:25.000
+A distinction between information quality and data quality. Now, not everybody does
+
+00:05:25.000 --> 00:05:29.000
+But since I'm the teacher, then I can do whatever I want to
+
+00:05:29.000 --> 00:05:31.000
+So
+
+00:05:31.000 --> 00:05:36.000
+So information qualities and information science discipline
+
+00:05:36.000 --> 00:05:47.000
+And of course, hopefully by now you understand the difference between information science and computer science. Again, it's the same kind of two sides of the coin
+
+00:05:47.000 --> 00:06:04.000
+Computer science is about the computers and the hardware and the software, and the information science is about the data and the information. And of course they work together. So as a matter of fact, I don't know if you're aware or not, but there has been a change in alignment here
+
+00:06:04.000 --> 00:06:13.000
+at the university, and we no longer have a Department of Computer Science and a Department of Information Science.
+
+00:06:13.000 --> 00:06:16.000
+As of this summer
+
+00:06:16.000 --> 00:06:18.000
+As of July the 1st
+
+00:06:18.000 --> 00:06:35.000
+These two departments were merged together into a school, so we now have the school of computer and information sciences and of course this program is a part of that school. So we have a new school here on campus
+
+00:06:35.000 --> 00:06:38.000
+The School of Computer and Information Sciences
+
+00:06:38.000 --> 00:06:44.000
+So, information quality is one of the information sciences, so it's a discipline
+
+00:06:44.000 --> 00:06:55.000
+And it's concerned with two main things. The first one is maximizing the value and minimizing the risk of an organization's information assets
+
+00:06:55.000 --> 00:06:59.000
+So again, in this idea of thinking of
+
+00:06:59.000 --> 00:07:17.000
+of information quality or information in a manufacturing sense right information is an asset. It's what we use to create value for the organization. Just think about here at the University
+
+00:07:17.000 --> 00:07:24.000
+One of the information products that we manufacture is your transcript
+
+00:07:24.000 --> 00:07:34.000
+So the transcript has many feeds into it from different classes that you take. The grades that you receive, and so forth
+
+00:07:34.000 --> 00:07:50.000
+These were brought together, integrated together, and put together, and the product is this transcript. It's very important. It helps you keep track of where you are, but more importantly, once you've finished all the requirements, which again, they go from your transcript
+
+00:07:50.000 --> 00:08:06.000
+then it becomes a document, often now a digital document that you, for example, you did the master's and you have your transcript showing you are awarded the master's degree. This is typically what you give
+
+00:08:06.000 --> 00:08:23.000
+As proof to an employer that you've completed your master's degree. Or if you go on to, say, a PhD degree at another school, again, they're going to request and say, we need proof that you've already achieved your master's. And so the transcript would be the way that that
+
+00:08:23.000 --> 00:08:33.000
+is communicated. So that's an information product. Similarly, in a hospital, the same sort of thing happens in your medical chart
+
+00:08:33.000 --> 00:08:50.000
+You may have many encounters in this hospital, other hospitals, outpatient, inpatient. All these are gathered together, and it's very important that all these are collected accurately and that your chart reflects everything that's happened to you
+
+00:08:50.000 --> 00:08:54.000
+And not anything that didn't happen to you from some other patient
+
+00:08:54.000 --> 00:08:59.000
+So creating these information products
+
+00:08:59.000 --> 00:09:00.000
+Now
+
+00:09:00.000 --> 00:09:05.000
+So the organization that's creating here at the university
+
+00:09:05.000 --> 00:09:12.000
+We create your transcript. That's our information product that we create. You're the consumer of that
+
+00:09:12.000 --> 00:09:13.000
+So
+
+00:09:13.000 --> 00:09:30.000
+We want to maximize the value of our information at the university. And so this is one way we do it. We also do it by taking the enrollment data and analyzing it to see if we're doing a good job, if we can recruit students, how the students are doing
+
+00:09:30.000 --> 00:09:46.000
+What's causing students to fall out of the classes and leave the university? So we do a lot of analysis of this data, and we create a lot of those information products out of that data. All kinds of analyses and reports
+
+00:09:46.000 --> 00:09:51.000
+about student continuation through the program.
+
+00:09:51.000 --> 00:10:02.000
+So that's important, and it creates value for the organization. It helps us maintain enrollments or increase enrollments, prevent students from getting at risk
+
+00:10:02.000 --> 00:10:10.000
+And so that's from the internal side, the people who are producing or the organization that's producing these products
+
+00:10:10.000 --> 00:10:12.000
+But the other side of the coin
+
+00:10:12.000 --> 00:10:19.000
+is that we want to produce information products that create value for the users of those products.
+
+00:10:19.000 --> 00:10:24.000
+And so, again, looking at the transcript idea
+
+00:10:24.000 --> 00:10:40.000
+We want it to be valuable to you, and it is valuable to you. It's your proof that you've completed all your requirements, you've received this degree from an accredited university, and of course, there are many other products that we produce for other consumers. For example
+
+00:10:40.000 --> 00:10:46.000
+University is required to report to the Arkansas Department of Education
+
+00:10:46.000 --> 00:11:02.000
+And they want to know, you know, who are the students, how are they doing? What majors do they have? What's their progress? How many of them are completing their degrees, how many are falling out and not completing their degrees
+
+00:11:02.000 --> 00:11:17.000
+And they used this information and it's valuable to them. But again, at the same time it becomes valuable to the university because it's those reports that we get reimbursement or get funding from the state
+
+00:11:17.000 --> 00:11:20.000
+for our students that we
+
+00:11:20.000 --> 00:11:22.000
+Enroll
+
+00:11:22.000 --> 00:11:34.000
+So again, there's two sides of the coin in the use of information. The value to the owner or the organization that has that information that's creating these information products
+
+00:11:34.000 --> 00:11:40.000
+And the other side is we want it to create value for the consumers of those products.
+
+00:11:40.000 --> 00:11:46.000
+So anyway, the key word in our definition is value
+
+00:11:46.000 --> 00:11:50.000
+It's all about creating value from information.
+
+00:11:50.000 --> 00:12:04.000
+Now, we'll talk a little bit more about the difference between information quality and data quality as we go on. But this is our definition. So we call our program an information quality program
+
+00:12:04.000 --> 00:12:14.000
+It's an information quality master of science information quality track in the PhD program and information quality
+
+00:12:14.000 --> 00:12:16.000
+a graduate certificate
+
+00:12:16.000 --> 00:12:19.000
+And those are the three degrees that we offer
+
+00:12:19.000 --> 00:12:27.000
+Now, not long ago, an organization did a certification of information quality
+
+00:12:27.000 --> 00:12:33.000
+It was IQCP, Information Quality Certified Professional
+
+00:12:33.000 --> 00:12:37.000
+And in order to do that, they had to go through quite a bit of a study
+
+00:12:37.000 --> 00:12:45.000
+And part of the study resulted in what's called the Information Quality Knowledge and Practice
+
+00:12:45.000 --> 00:12:52.000
+And so they categorized the knowledge and practice into
+
+00:12:52.000 --> 00:12:54.000
+six groups
+
+00:12:54.000 --> 00:13:05.000
+And the first one, again, coincides with our definition, information quality value and business impact, or should say organizational impact
+
+00:13:05.000 --> 00:13:21.000
+It's not just businesses that use information, it's a lot of nonprofits like hospitals and governmental organizations. Obviously, the federal government, state government, they use a lot of information and create a lot of information products
+
+00:13:21.000 --> 00:13:26.000
+And the question is, what's the value and impact of that?
+
+00:13:26.000 --> 00:13:33.000
+And then another that's become extremely important in recent days or recent years
+
+00:13:33.000 --> 00:13:37.000
+is this idea of information quality, strategy, and governance
+
+00:13:37.000 --> 00:13:48.000
+Back in the day, we just thought of information as a commodity data, something we would get and use. It was all about creating the programs
+
+00:13:48.000 --> 00:13:50.000
+Back in the day when
+
+00:13:50.000 --> 00:14:01.000
+I don't know, I forget the exact number, but it was like 70% of freshmen entering MIT were going into computer science and programming because it was all about
+
+00:14:01.000 --> 00:14:09.000
+creating these clever processes that would create these products, but the emphasis was just on the data
+
+00:14:09.000 --> 00:14:17.000
+I'm sorry, just on the processing, the computer programming part of it, and not really about the data itself. But now
+
+00:14:17.000 --> 00:14:24.000
+That's not such a big deal because as you're probably aware and may be doing right now
+
+00:14:24.000 --> 00:14:32.000
+Computer programming is kind of falling by the wayside. Software engineering is being taken over by AI
+
+00:14:32.000 --> 00:14:37.000
+So, it's pretty easy now to use Claude or some of these other
+
+00:14:37.000 --> 00:14:42.000
+language models to create all kinds of programs for you.
+
+00:14:42.000 --> 00:14:51.000
+And so the need for having a staff of computer programmers, very knowledgeable about different types of languages and so forth
+
+00:14:51.000 --> 00:14:54.000
+is not as distinctive, it's not
+
+00:14:54.000 --> 00:15:05.000
+Back when you had companies and they could afford to hire a lot of programmers, they had a huge advantage over small companies. But that's really not true anymore.
+
+00:15:05.000 --> 00:15:17.000
+So what is the competitive advantage that these companies have? It's not the programming anymore. It's not having data centers anymore or
+
+00:15:17.000 --> 00:15:28.000
+maintaining their own equipment. They don't have to have raised floors and have people that take care of their computers for them because now we have cloud computing
+
+00:15:28.000 --> 00:15:32.000
+So the thing that's left that helps
+
+00:15:32.000 --> 00:15:38.000
+distinguish one organization from another, especially if they're in the same kind of business
+
+00:15:38.000 --> 00:15:41.000
+is the data that they have
+
+00:15:41.000 --> 00:15:54.000
+And so, you need strategies for what data do we need to acquire, what kind of information products do we need to build to be competitive, and how do we maintain control over that data
+
+00:15:54.000 --> 00:15:56.000
+And that's the idea of data governance
+
+00:15:56.000 --> 00:16:08.000
+So that's become very important in the last few years, this idea of strategy. Now most matter of fact, all governmental agencies are required
+
+00:16:08.000 --> 00:16:12.000
+to have what's called a chief data officer
+
+00:16:12.000 --> 00:16:19.000
+And one of the most important roles of a chief data officer is to create a data strategy for the company.
+
+00:16:19.000 --> 00:16:26.000
+So strategy and then governance have become very important. Governance again because
+
+00:16:26.000 --> 00:16:42.000
+You want to maintain control of data, but then there are also a lot of regulations around data. For example, here at the university, we're governed by a law called FERPA, which has to do with educational data, so it governs
+
+00:16:42.000 --> 00:16:52.000
+What data that we can release, what data is considered protected. And so we have to be very careful about that and meet all of those
+
+00:16:52.000 --> 00:16:56.000
+requirements. So that's part of governance.
+
+00:16:56.000 --> 00:17:04.000
+And then information quality, environment, and culture. This is very important because
+
+00:17:04.000 --> 00:17:11.000
+the culture of an organization determines how it does business, how it gets things done
+
+00:17:11.000 --> 00:17:21.000
+And this has really become extremely important in the last few years with the emergence of AI. We've had many things over the years that have changed
+
+00:17:21.000 --> 00:17:36.000
+culture from big data now into AI and we need to think about things in a different way. So the idea of change in culture, matter of fact, one of the courses that we teach here
+
+00:17:36.000 --> 00:17:39.000
+this project and change management
+
+00:17:39.000 --> 00:17:53.000
+And in change management, we don't mean, like, change and releases of code. We're talking about change in culture. How do you change culture so that you keep up? And we look at some use cases
+
+00:17:53.000 --> 00:18:01.000
+Now, use cases, but we'll look at some examples of what's happened to those people that are not willing to change their culture
+
+00:18:01.000 --> 00:18:03.000
+For example, Kodak
+
+00:18:03.000 --> 00:18:11.000
+that dominated, literally dominated the world in photography is now just a small company
+
+00:18:11.000 --> 00:18:16.000
+And the reason that they lost their lead was that they just didn't
+
+00:18:16.000 --> 00:18:26.000
+change their ideas about how photography was going to be done. They always thought it was going to be done with film, that digital was just a fad
+
+00:18:26.000 --> 00:18:29.000
+And so they failed to change and keep up
+
+00:18:29.000 --> 00:18:39.000
+and create the environment necessary to do that. So you'll notice that when talking about information quality knowledge and practice, and these six main groups
+
+00:18:39.000 --> 00:18:45.000
+of knowledge and practice, that the first three of them here
+
+00:18:45.000 --> 00:18:57.000
+really don't have anything to do about dirty data. It's not talking about whether data is timely, whether it's accurate, it's talking about the management of information
+
+00:18:57.000 --> 00:19:01.000
+So, that's the reason that our program here
+
+00:19:01.000 --> 00:19:07.000
+Israeli could be over in the business school as well as here in… but we ended up in the
+
+00:19:07.000 --> 00:19:09.000
+College of
+
+00:19:09.000 --> 00:19:13.000
+Science, technology, engineering, and mathematics
+
+00:19:13.000 --> 00:19:20.000
+Which, again, so we're sort of half and half, and many people that join our program
+
+00:19:20.000 --> 00:19:25.000
+do it because of that, because we have a strong management component to our program
+
+00:19:25.000 --> 00:19:31.000
+And it's not all just a technical program, but we do get into the technical part
+
+00:19:31.000 --> 00:19:39.000
+So we'll talk about information quality measurement and improvement, right? You can't manage something that you can't measure
+
+00:19:39.000 --> 00:19:47.000
+So how do you measure the quality of information and data? And how do you improve it
+
+00:19:47.000 --> 00:20:00.000
+And how do you sustain that palsy over time? You need programs to do that. It's not just something you do as a one-time project. You need to constantly be aware of it
+
+00:20:00.000 --> 00:20:05.000
+And then another thing that many people don't think about is
+
+00:20:05.000 --> 00:20:15.000
+The quality of your information and your information products often depends on the architecture that you've built. Your information architecture
+
+00:20:15.000 --> 00:20:29.000
+And sometimes it's just not adequate to maintain the quality or perform the way that you want it to. So you do have to pay attention to information architectures, and these are constantly changing, right? So
+
+00:20:29.000 --> 00:20:34.000
+We go from client-server to
+
+00:20:34.000 --> 00:20:42.000
+Big data, and now we're in an AI, we're talking about Agentic architectures. So there are many things that happen
+
+00:20:42.000 --> 00:20:44.000
+Now, as I mentioned a while ago
+
+00:20:44.000 --> 00:20:54.000
+This is the Internet IQ International that developed this, the six domains. They did quite a bit of work in doing it
+
+00:20:54.000 --> 00:21:02.000
+This part is what we call data quality, as opposed to the overall idea of information quality
+
+00:21:02.000 --> 00:21:04.000
+So data quality
+
+00:21:04.000 --> 00:21:10.000
+is where we make requirements for the data
+
+00:21:10.000 --> 00:21:24.000
+And so quality is meeting requirements. This is the ISO definition of quality. Quality is meeting requirements. So data quality is data meeting data quality requirements.
+
+00:21:24.000 --> 00:21:29.000
+And so that's an important part of information quality
+
+00:21:29.000 --> 00:21:45.000
+But it's not all of it, so that's the reason that we make a distinction between data quality and information quality. This is an information quality program that includes these top three things, this idea of value, strategy, governance, environment, and culture.
+
+00:21:45.000 --> 00:21:53.000
+These are all important parts. It's more than just measuring the amount of missing data that you have in a database.
+
+00:21:53.000 --> 00:22:06.000
+That's a data quality issue. That's a data quality measurement. I can set up a metric and I can measure how many of the names and addresses in my database, my customer database, have missing zip codes
+
+00:22:06.000 --> 00:22:18.000
+That's a very good and valid data quality requirement. I can say I'm requiring, you know, I can't really do business
+
+00:22:18.000 --> 00:22:29.000
+If I don't have that to be 90%, I need 90% of my customer mailing addresses to have an accurate zip code. So how many of them are missing a zip code?
+
+00:22:29.000 --> 00:22:39.000
+That doesn't talk about the accuracy, that would be another measurement. How many of the zip codes that I have for my customer names and addresses are actually accurate
+
+00:22:39.000 --> 00:22:53.000
+It's a different question of whether they're there or not. So there are many, many types of metrics and measurements that you can set up and improve them, right? So, if my goal is 90% accuracy, or 90% completeness
+
+00:22:53.000 --> 00:22:55.000
+No zip codes, and I'm only at 80%
+
+00:22:55.000 --> 00:23:07.000
+Maybe I launch a project, I need to go out and increase the number of zip code that I have so that I can meet that requirement
+
+00:23:07.000 --> 00:23:15.000
+Okay, feel free if you have any questions as we go along to speak up
+
+00:23:15.000 --> 00:23:24.000
+So hopefully that gives you a better understanding of what information quality is all about. It's not just about cleaning up dirty data
+
+00:23:24.000 --> 00:23:28.000
+It's also about those other things, the strategy and the value creation
+
+00:23:28.000 --> 00:23:35.000
+So why study it? Well, it's important because poor data quality or information quality
+
+00:23:35.000 --> 00:23:39.000
+And again, either one you can look at in this sense
+
+00:23:39.000 --> 00:23:49.000
+cost companies billions of dollars each year. So much of the time that employees spend is getting data ready to use
+
+00:23:49.000 --> 00:24:01.000
+And mistakes with it, especially in the medical side, or even the military side, there are very famous example during the war in Kosovo several years ago
+
+00:24:01.000 --> 00:24:06.000
+They wanted to bomb a headquarters of the enemy
+
+00:24:06.000 --> 00:24:15.000
+But it turned out that the headquarters had moved, but the information, the geographical information had not been updated, and they ended up
+
+00:24:15.000 --> 00:24:25.000
+bombing a hospital instead of military headquarters. So a lot of innocent lives were lost
+
+00:24:25.000 --> 00:24:33.000
+And of course, as I mentioned, this rise of AI, especially generative AI, has given a new focus because
+
+00:24:33.000 --> 00:24:41.000
+Many organizations are realizing that their AI models are only as good as the data that they use to train them
+
+00:24:41.000 --> 00:24:50.000
+And then on the reverse of that, Agentic AI is a way to use AI to improve the quality of data
+
+00:24:50.000 --> 00:24:57.000
+So Agentic data quality is a new discipline that we'll talk about and actually
+
+00:24:57.000 --> 00:25:04.000
+We'll do some labs around that so that you can build some agents to improve data quality
+
+00:25:04.000 --> 00:25:11.000
+So you can make a difference in studying information quality through our program
+
+00:25:11.000 --> 00:25:19.000
+And I like to think that we're a community more than just students support each other
+
+00:25:19.000 --> 00:25:30.000
+respect each other. I know now that so many people are online, but still, we need to remain connected. One of the things I'm going to urge you to do as we get a little farther into this
+
+00:25:30.000 --> 00:25:34.000
+is joined. We have a LinkedIn group for our program
+
+00:25:34.000 --> 00:25:46.000
+And there are many of our graduates are in there, many of the people who employ our graduates are part of that network. So you need to think about building your network
+
+00:25:46.000 --> 00:25:51.000
+Building your professional credentials, what you're doing by going through these graduate programs
+
+00:25:51.000 --> 00:25:58.000
+And gaining a professional experience. And so here's the LinkedIn group. So I urge you all to join this
+
+00:25:58.000 --> 00:26:03.000
+It's called the UALR Information Quality Graduate Program
+
+00:26:03.000 --> 00:26:07.000
+And many of our, most of our graduates
+
+00:26:07.000 --> 00:26:13.000
+professionals are… and a lot of our students are in that group
+
+00:26:13.000 --> 00:26:21.000
+So again, this is a little bit dated right here. I need to update the slide. The Information Science Department
+
+00:26:21.000 --> 00:26:28.000
+Yeah, definitely, because Dr. Pierce just retired this year, so I need to update my slides
+
+00:26:28.000 --> 00:26:41.000
+And again, what's happened is that now since her retirement, it triggered this merger of the information science department and the computer science into this new school
+
+00:26:41.000 --> 00:26:46.000
+But we still have these programs. It hasn't changed the programs that we offer
+
+00:26:46.000 --> 00:26:48.000
+So we offer three programs
+
+00:26:48.000 --> 00:27:05.000
+A graduate certificate in information quality, a Master of Science in Information Quality, and a PhD in Computer and Information Sciences with an emphasis or with a track in information quality.
+
+00:27:05.000 --> 00:27:19.000
+And then, of course, we still offer the information science degrees. There's a master's. We also offer a data science, and this is within the new school, a graduate certificate in data science
+
+00:27:19.000 --> 00:27:25.000
+A master's and Phd in bioinformatics, and there's some new degrees coming on board as well
+
+00:27:25.000 --> 00:27:30.000
+of course now merged with the computer side
+
+00:27:30.000 --> 00:27:37.000
+They have, of course, an undergraduate and a master's in computer science. They also have
+
+00:27:37.000 --> 00:27:40.000
+a computer science track and the PhD
+
+00:27:40.000 --> 00:27:49.000
+But now they also have a new cybersecurity program they're developing a medical informatics program
+
+00:27:49.000 --> 00:27:56.000
+And they have several others that they're working on. And one of the important ones is
+
+00:27:56.000 --> 00:28:00.000
+going to be a master's in AI
+
+00:28:00.000 --> 00:28:05.000
+So, a little bit of the history of the Information Quality Program
+
+00:28:05.000 --> 00:28:08.000
+It started in
+
+00:28:08.000 --> 00:28:19.000
+2006, we opened admissions in that year, and so the first cohort started with 25 students in the fall of 2006
+
+00:28:19.000 --> 00:28:25.000
+So, by the way, this fall is going to be our 20th anniversary of the program
+
+00:28:25.000 --> 00:28:29.000
+We were very early in adopting the online
+
+00:28:29.000 --> 00:28:42.000
+So our Master of Science classes went online back in the fall of 2007. We didn't have this nice technology like Blackboard and Zoom that we're using today.
+
+00:28:42.000 --> 00:28:45.000
+We had some older technologies that
+
+00:28:45.000 --> 00:28:50.000
+We're kind of up and down, but we managed to do it
+
+00:28:50.000 --> 00:29:00.000
+And then we open an IQ track. There used to be, well, I think it's still around, but in the applied science Phd program
+
+00:29:00.000 --> 00:29:08.000
+But it's very broad. You could get tracks and biology and chemistry, any kind of science
+
+00:29:08.000 --> 00:29:11.000
+And so we were just one among the many
+
+00:29:11.000 --> 00:29:14.000
+And that was in spring 2008
+
+00:29:14.000 --> 00:29:27.000
+And then we started this certificate program in information policy in the same year, and then we moved to another program. We had a program here, a PhD program called Integrated Computing
+
+00:29:27.000 --> 00:29:30.000
+And we were in that for a short time
+
+00:29:30.000 --> 00:29:41.000
+And then we changed the name in 2017 to Computer and Information Sciences, which is now also the name of the school that we're in.
+
+00:29:41.000 --> 00:29:48.000
+So we have a PhD in computer and information sciences and a school of computer and information sciences
+
+00:29:48.000 --> 00:29:54.000
+And we went online with it in 2017 as well.
+
+00:29:54.000 --> 00:30:00.000
+And initially, it was sort of hybrid online in that we did have
+
+00:30:00.000 --> 00:30:03.000
+in-person requirements. We were requiring
+
+00:30:03.000 --> 00:30:07.000
+students to come to campus to do their
+
+00:30:07.000 --> 00:30:19.000
+Their dissertation proposals and their dissertation defenses, but now we've gone away with that and it's entirely online. Although we do welcome people to come and visit the campus
+
+00:30:19.000 --> 00:30:21.000
+online students
+
+00:30:21.000 --> 00:30:30.000
+The founding sponsors of the program were Axiom Corporation that was founded here in Little Rock and the leader at that time was
+
+00:30:30.000 --> 00:30:32.000
+Charles Morgan
+
+00:30:32.000 --> 00:30:38.000
+Axiom, in a sense, kind of broken up and been sold into parts and to different companies
+
+00:30:38.000 --> 00:30:42.000
+And its headquarters now is over in California
+
+00:30:42.000 --> 00:30:48.000
+But at the time, Axiom was very important Arkansas company
+
+00:30:48.000 --> 00:30:59.000
+And they had a lot of vision. Charles Morgan was an Arkansan himself, and wanted to promote technology and progress in Arkansas. So he helped fund it
+
+00:30:59.000 --> 00:31:04.000
+Also, as I mentioned, MIT was one of the early
+
+00:31:04.000 --> 00:31:18.000
+universities to see information quality as a discipline. And they're the ones who really developed this idea of managing information as a product and applying these
+
+00:31:18.000 --> 00:31:24.000
+Total quality management principles to managing information quality
+
+00:31:24.000 --> 00:31:38.000
+As a matter of fact, they developed what they called the total data quality management, TDQM instead of TQM, as a way of enshrining this idea of applying manufacturing principles
+
+00:31:38.000 --> 00:31:42.000
+producing information products
+
+00:31:42.000 --> 00:31:48.000
+And then at the time, this was not the college, it was not the STEM college
+
+00:31:48.000 --> 00:31:53.000
+It was called the College of Engineering and Information Technology
+
+00:31:53.000 --> 00:31:59.000
+And the founding dean of that college, Dr. Mary Good, who has since passed away
+
+00:31:59.000 --> 00:32:12.000
+was willing to house the program. So we had the three main ingredients. We had funding from Axiom, we had intellectual property that had already been developed at MIT
+
+00:32:12.000 --> 00:32:16.000
+And then we had a university that was willing to house the program
+
+00:32:16.000 --> 00:32:23.000
+the Donaghy College. And so we put all those together and got started in 2006
+
+00:32:23.000 --> 00:32:34.000
+And so what we were trying to do is design a curriculum that would meet the needs that's growing as we've seen in government and industry
+
+00:32:34.000 --> 00:32:37.000
+People that had graduate level degrees
+
+00:32:37.000 --> 00:32:43.000
+to help them understand these concepts that we're going to be talking about in our Principles class
+
+00:32:43.000 --> 00:32:49.000
+These concepts, principles, tools, models that are essential for
+
+00:32:49.000 --> 00:32:53.000
+Measuring, analyzing, and proving information quality
+
+00:32:53.000 --> 00:33:04.000
+So some of the things we're going to be talking about are information quality policies, strategies, programs, and standards. There's been a lot of emerging standards
+
+00:33:04.000 --> 00:33:15.000
+Some of them in what's called the ISO 8000 family standard and a new one that's just coming online, the ISO 25 500 standards
+
+00:33:15.000 --> 00:33:18.000
+And then
+
+00:33:18.000 --> 00:33:29.000
+The role of information quality and operational improvement, privacy and protection. There's many courses that we offer. Some of you may have already taken these
+
+00:33:29.000 --> 00:33:35.000
+That have to do with data governance, we call it information quality policy and strategy
+
+00:33:35.000 --> 00:33:41.000
+architecture, data integration, the course that I'm teaching on
+
+00:33:41.000 --> 00:33:47.000
+entity resolution and information quality is really focused on master data management
+
+00:33:47.000 --> 00:33:53.000
+So again, we've talked about these three degrees, we offer masters, graduate certificate
+
+00:33:53.000 --> 00:33:59.000
+And computer and information sciences, Information Quality Track
+
+00:33:59.000 --> 00:34:05.000
+And it's all structured originally around the masters
+
+00:34:05.000 --> 00:34:12.000
+It's sort of a hybrid degree between information quality courses and information science
+
+00:34:12.000 --> 00:34:22.000
+So on the information quality side, we have the principles, but by the way, these are the old numbers I need to change. We've gone through a renumberings here at the university
+
+00:34:22.000 --> 00:34:26.000
+It's now 7.03
+
+00:34:26.000 --> 00:34:36.000
+But anyway, the same course as the Principles policy and strategy information quality tools, project and change management. Those are all required
+
+00:34:36.000 --> 00:34:41.000
+For the master's degree, and then there's an information quality elective
+
+00:34:41.000 --> 00:34:44.000
+On the information science side
+
+00:34:44.000 --> 00:34:53.000
+There's required courses or information visualization, systems analysis and database, and then an information science elective
+
+00:34:53.000 --> 00:35:10.000
+We've also changed… we used to… the capstone for the Masters had to be either a project or a thesis, but we've now added a new option, a course-only option, that allows you to complete the master's by taking two additional electives
+
+00:35:10.000 --> 00:35:13.000
+Rather than doing a project or thesis
+
+00:35:13.000 --> 00:35:20.000
+Now, the graduate certificate is basically the first 12 hours of the master's degree
+
+00:35:20.000 --> 00:35:23.000
+There's no GRE required for it
+
+00:35:23.000 --> 00:35:29.000
+completing it, of course, waives the GRE if you want to go into the master's
+
+00:35:29.000 --> 00:35:34.000
+And so it's basically the first, it's the left half of that diagram
+
+00:35:34.000 --> 00:35:39.000
+It's the principles, the policy and strategy, and the tools
+
+00:35:39.000 --> 00:35:43.000
+And then one information quality elective
+
+00:35:43.000 --> 00:35:48.000
+And one thing I would like to emphasize, and this is sort of how it fits in here
+
+00:35:48.000 --> 00:35:53.000
+So, it would be the left side of this diagram, completing principles, policy
+
+00:35:53.000 --> 00:35:57.000
+So you'll notice then that getting the master's
+
+00:35:57.000 --> 00:36:03.000
+is automatically requiring you to take the courses for the certificate
+
+00:36:03.000 --> 00:36:12.000
+So there's no reason for anyone to get a master's in information quality and not go ahead and get the certificate.
+
+00:36:12.000 --> 00:36:15.000
+It's sort of a freebie. It's two for one
+
+00:36:15.000 --> 00:36:26.000
+If you're in the masters, it's also somewhat true for the PhD, although you might have to take a course or two extra, but depending on how you're doing your electives
+
+00:36:26.000 --> 00:36:30.000
+If you're transferring your electives in to the
+
+00:36:30.000 --> 00:36:37.000
+to the PhD program, then probably you would have to take a few extra courses to get the certificate
+
+00:36:37.000 --> 00:36:43.000
+But if you are getting your electives here, you can choose these
+
+00:36:43.000 --> 00:36:48.000
+forces that are not already required in the track corps
+
+00:36:48.000 --> 00:36:56.000
+to be your electives, and again, you can get a certificate, and actually you can get a master's pretty easily as well
+
+00:36:56.000 --> 00:37:07.000
+So you should think about it depending on which degree program you're in, of getting a second degree while you're doing it
+
+00:37:07.000 --> 00:37:17.000
+So this is what I tell every MSIQ and actually PhDs should get the graduate certificate in IQ
+
+00:37:17.000 --> 00:37:22.000
+And now one thing, though, you have to take in mind
+
+00:37:22.000 --> 00:37:27.000
+And you'll learn this if you haven't already learned it here at UA Little Rock
+
+00:37:27.000 --> 00:37:31.000
+Nothing here happens automatically.
+
+00:37:31.000 --> 00:37:35.000
+You have to
+
+00:37:35.000 --> 00:37:46.000
+You have to initiate these things yourself. So even though if you're taking the MSIQ and you're completing all the courses for the graduate certificate
+
+00:37:46.000 --> 00:38:00.000
+The school will not just say, hey, you've completed all the courses. Here's your graduate certificate. And unfortunately, many, many master students unfortunately have completed their master's degree and walked away without getting
+
+00:38:00.000 --> 00:38:05.000
+A graduate certificate for without having to take any other courses
+
+00:38:05.000 --> 00:38:16.000
+So what do you have to do? Well, to graduate or complete the graduate certificate in information quality, you have to
+
+00:38:16.000 --> 00:38:24.000
+admitted to it, okay? So you have to apply for admission to the graduate certificate Program to get the graduate certificate
+
+00:38:24.000 --> 00:38:40.000
+And so that's where many students mess up. They come back to me after they're graduated from their master's say, hey, look, I want to get my graduate certificate. Well, you can't do that. You can only apply the master's courses to the graduate certificate
+
+00:38:40.000 --> 00:38:52.000
+While you're in the master's program, once you've completed your master's program, you can't go back and say, I want to apply these courses to and get a graduate certificate
+
+00:38:52.000 --> 00:39:01.000
+So if you want the graduate certificate, you need to apply for it. You need to go into Slate and apply for the graduate certificate in information quality.
+
+00:39:01.000 --> 00:39:05.000
+You can also do it with the… if you're in the PhD program
+
+00:39:05.000 --> 00:39:16.000
+Again, what will be the determining factor there is if you transferred in and have already completed your electives using transfer courses
+
+00:39:16.000 --> 00:39:19.000
+If you've done that
+
+00:39:19.000 --> 00:39:28.000
+then you don't have that room to take these courses that are not required for the PhD, that are required for
+
+00:39:28.000 --> 00:39:37.000
+the graduate certificate, for example, one of the things that's required for the graduate certificate is information quality tool scores
+
+00:39:37.000 --> 00:39:39.000
+Well.
+
+00:39:39.000 --> 00:39:49.000
+You could take the tools course as an elective for your PhD, but if you've already satisfied all your electives, now it becomes an extra course
+
+00:39:49.000 --> 00:39:55.000
+So, the same would be true for the extra course that's required, the extra information policy course
+
+00:39:55.000 --> 00:40:01.000
+So it's a little more problematic for the PhD, but it should be automatic for
+
+00:40:01.000 --> 00:40:04.000
+the masters
+
+00:40:04.000 --> 00:40:10.000
+And the same thing is true if you're in the data science program, but
+
+00:40:10.000 --> 00:40:18.000
+And you want to complete the data. I'm sorry, if you're in the information science program and you want to complete the data science
+
+00:40:18.000 --> 00:40:23.000
+You can do that as well.
+
+00:40:23.000 --> 00:40:28.000
+And I, I can go further into that, if you're interested in it
+
+00:40:28.000 --> 00:40:32.000
+But I just wanted to point it out
+
+00:40:32.000 --> 00:40:39.000
+So the PhD is a 75 hour, there's 33 lecture classes
+
+00:40:39.000 --> 00:40:45.000
+There's six hours of program core. The information science theory
+
+00:40:45.000 --> 00:40:48.000
+and systems analysis
+
+00:40:48.000 --> 00:40:51.000
+Then the IQ Track core
+
+00:40:51.000 --> 00:40:54.000
+is the Principles course that you're taking right now
+
+00:40:54.000 --> 00:40:56.000
+The database
+
+00:40:56.000 --> 00:41:06.000
+The Information Quality Theory. By the way, the name of that has changed a little bit. Now it's called Research Methods, but it's still the same course.
+
+00:41:06.000 --> 00:41:11.000
+And then the policy and strategy. So those are the six core courses
+
+00:41:11.000 --> 00:41:14.000
+The program core and the track core
+
+00:41:14.000 --> 00:41:16.000
+That's 18 hours
+
+00:41:16.000 --> 00:41:22.000
+And then there's another 12 hours of electives, and that's what I was talking about earlier
+
+00:41:22.000 --> 00:41:39.000
+If you haven't taken your electives, you can range your electives in a way that you can complete the graduate certificate and or the master's at the same time you complete your PhD
+
+00:41:39.000 --> 00:41:45.000
+And then in addition to these lecture courses, these
+
+00:41:45.000 --> 00:41:57.000
+So there's 30 hours there in the program core 6, Track Course 12, electives 12, that's 30 hours. And then you do have to take the seminar, the graduate seminar
+
+00:41:57.000 --> 00:42:00.000
+Three times for three semesters.
+
+00:42:00.000 --> 00:42:05.000
+And that gets us to 33 hours for the lecture classes
+
+00:42:05.000 --> 00:42:09.000
+Then the rest of it is 42 hours of dissertation research
+
+00:42:09.000 --> 00:42:13.000
+And so these are sort of like
+
+00:42:13.000 --> 00:42:18.000
+Directed studies or independent studies, if you will, these hours
+
+00:42:18.000 --> 00:42:22.000
+Even though there's a…
+
+00:42:22.000 --> 00:42:28.000
+A graduate advisor will be listed as the teacher of the
+
+00:42:28.000 --> 00:42:36.000
+What happens in it is all up to you. This is where you do your
+
+00:42:36.000 --> 00:42:40.000
+Man, the PhD program here is a research program
+
+00:42:40.000 --> 00:42:46.000
+Many students enter the program, and they think they complete their 33 hours of courses
+
+00:42:46.000 --> 00:42:48.000
+then they're pretty much done.
+
+00:42:48.000 --> 00:42:51.000
+But that's not true at all
+
+00:42:51.000 --> 00:42:55.000
+You have to complete original research
+
+00:42:55.000 --> 00:43:02.000
+And a written research dissertation to be graduated
+
+00:43:02.000 --> 00:43:07.000
+And the PhD, the milestones are the candidacy exam
+
+00:43:07.000 --> 00:43:13.000
+That you should take near the completion of your 18-hour core
+
+00:43:13.000 --> 00:43:17.000
+And find a dissertation advisor
+
+00:43:17.000 --> 00:43:21.000
+It's an oral exam with three other
+
+00:43:21.000 --> 00:43:25.000
+information science or computer science faculty members
+
+00:43:25.000 --> 00:43:32.000
+complete the online ethics training for research ethics
+
+00:43:32.000 --> 00:43:41.000
+Select your dissertation committee. Now it's four members, advisor and three other faculty. And one of those others can be an external
+
+00:43:41.000 --> 00:43:45.000
+Somebody from industry or another university
+
+00:43:45.000 --> 00:43:53.000
+Then the most critical point in the PhD program is defending your research proposal
+
+00:43:53.000 --> 00:43:57.000
+The research proposal is basically your statement of work
+
+00:43:57.000 --> 00:44:03.000
+Once you say this is the research I'm going to do and here's how I'm going to do it
+
+00:44:03.000 --> 00:44:07.000
+And your advisor and your three other faculty on your committee approve it
+
+00:44:07.000 --> 00:44:19.000
+Then now, all you need to do is finish what you said you were going to do, and you will complete your degree. So think of it as a statement of work, and it should be done as early as you can
+
+00:44:19.000 --> 00:44:28.000
+Because what holds up most people from completing their PhD is their research.
+
+00:44:28.000 --> 00:44:32.000
+Unfortunately, I've had some students that's
+
+00:44:32.000 --> 00:44:35.000
+Actually, 10 years
+
+00:44:35.000 --> 00:44:43.000
+It wasn't because they were working on a really, really hard proposal. It's just because they
+
+00:44:43.000 --> 00:44:52.000
+Could not gather the time and energy and the focus that it takes to complete their research in a reasonable amount of time.
+
+00:44:52.000 --> 00:45:03.000
+So, starting your research early, getting on a good track, being sure it's something where you can get data, that is doable, you can see it all the way through to the end is key.
+
+00:45:03.000 --> 00:45:09.000
+And so the final was to complete research and write a dissertation
+
+00:45:09.000 --> 00:45:14.000
+We do have a couple of other new
+
+00:45:14.000 --> 00:45:26.000
+requirements. One of them now is completing a research paper. Most people do that anyway, but we wanted to make it a requirement to be sure that everyone does publish research
+
+00:45:26.000 --> 00:45:28.000
+During their PhD
+
+00:45:28.000 --> 00:45:33.000
+So these are some others that we put in paper publication
+
+00:45:33.000 --> 00:45:43.000
+Also, this minimum time is the opposite. Some people, instead of not starting their proposal early
+
+00:45:43.000 --> 00:45:59.000
+Wait until they finish their research to make a proposal. I guess they're afraid that their research might not be good. So they want to wait and see how it turns out before they propose it, which is exactly the opposite of what should be done
+
+00:45:59.000 --> 00:46:04.000
+So we've had to impose, at least to keep things sane
+
+00:46:04.000 --> 00:46:12.000
+an interval, a forced interval between the proposal and defense of your dissertation, which is now at least 7 months
+
+00:46:12.000 --> 00:46:29.000
+So that would mean that somebody that's planning to graduate in May of next year would need to defend their proposal if they haven't already done so. Most of the people would have already done so, but at a minimum would have to defend it in September
+
+00:46:29.000 --> 00:46:33.000
+To meet the minimum requirement
+
+00:46:33.000 --> 00:46:41.000
+Another thing is, and again, this mostly applies to people that are struggling to kind of finish their research
+
+00:46:41.000 --> 00:46:44.000
+is you have to continue to stay enrolled
+
+00:46:44.000 --> 00:46:48.000
+Even if you've achieved your 42 hours
+
+00:46:48.000 --> 00:46:56.000
+You still have to keep taking… you have to be enrolled every spring and fall in order to maintain your status in the program.
+
+00:46:56.000 --> 00:47:01.000
+And the reason for that is that you're still going to be using university resources, you're going to be
+
+00:47:01.000 --> 00:47:09.000
+working with your advisor and your committee while you're working on your research, so you have to stay enrolled, but at least
+
+00:47:09.000 --> 00:47:14.000
+But it only requires being enrolled at least one hour
+
+00:47:14.000 --> 00:47:19.000
+So, you have to remember to do that, otherwise you'll get dropped from the program
+
+00:47:19.000 --> 00:47:23.000
+And so I have to start over again, so you don't want to do that.
+
+00:47:23.000 --> 00:47:34.000
+So you need to stay consecutively or continuously enrolled in the program until you defend your final dissertation.
+
+00:47:34.000 --> 00:47:40.000
+This is a diagram that kind of shows the route through this
+
+00:47:40.000 --> 00:47:47.000
+And you can see there's a lot of things going on at once. You completing your seminars
+
+00:47:47.000 --> 00:47:50.000
+Your core, your track core
+
+00:47:50.000 --> 00:47:57.000
+You're elected, but before you dive into your elected, once you've completed all your core courses, you want to start forming
+
+00:47:57.000 --> 00:48:02.000
+You didn't do your candidacy, do your oral candidacy exam
+
+00:48:02.000 --> 00:48:11.000
+form your dissertation committee, complete your city training, start working on your dissertation courses, your 42 hours
+
+00:48:11.000 --> 00:48:23.000
+Yet your proposal defended, have that at least seven month gap, usually it's longer to finish your actual dissertation defense and this all comes together
+
+00:48:23.000 --> 00:48:26.000
+for your graduation
+
+00:48:26.000 --> 00:48:29.000
+Hopefully.
+
+00:48:29.000 --> 00:48:41.000
+And this has changed somewhat. I'm not going to go through all this
+
+00:48:41.000 --> 00:48:46.000
+There is a lot of confusion about course sections. I'm confused myself sometimes
+
+00:48:46.000 --> 00:48:50.000
+So, there's an on-campus section
+
+00:48:50.000 --> 00:48:55.000
+Which uses standard numbering, 0, 1, 02, so forth
+
+00:48:55.000 --> 00:49:05.000
+These require classroom attendance, so you're supposed to be attending that class in person if you're in that section.
+
+00:49:05.000 --> 00:49:11.000
+These we don't use anymore. These are webcast. It's now become
+
+00:49:11.000 --> 00:49:15.000
+What we call a hybrid
+
+00:49:15.000 --> 00:49:26.000
+The W's been replaced by a hybrid, and so some of you are enrolled, not for this program. I don't know why they didn't offer it this semester, but in most of
+
+00:49:26.000 --> 00:49:32.000
+courses that you take here, there'll be an offering that's a hybrid. And what the hybrid does
+
+00:49:32.000 --> 00:49:34.000
+It just says that
+
+00:49:34.000 --> 00:49:44.000
+rather than being in a class where you have to be there all the time, the required class, or being in the one where you're online all the time
+
+00:49:44.000 --> 00:49:56.000
+The hybrid allows you to be in class sometimes and online at other times. However, the times is not up to you, it's up to the instructor to designate
+
+00:49:56.000 --> 00:50:04.000
+Which classes are going to be online and which classes are going to be required to be in person. And those are called hybrid classes
+
+00:50:04.000 --> 00:50:15.000
+The good thing about those, and we have many international students, and if you're here on an F-1 visa, which most international students are on an F-1 visa
+
+00:50:15.000 --> 00:50:19.000
+The age counts as being
+
+00:50:19.000 --> 00:50:22.000
+In person
+
+00:50:22.000 --> 00:50:31.000
+As long as the instructor schedules at least 25% of the class meetings in person
+
+00:50:31.000 --> 00:50:38.000
+Then it qualifies as an in-person course and meets the requirements of students who have to be in person
+
+00:50:38.000 --> 00:50:41.000
+Students on F-1 visas have to be
+
+00:50:41.000 --> 00:50:47.000
+in the PhD program, or the… I'm sorry, the graduate programs
+
+00:50:47.000 --> 00:50:57.000
+have to be in 6 hours of in-person classes so they can count an H section as being part of those six hours of in-person
+
+00:50:57.000 --> 00:51:01.000
+And then they have the option of being online
+
+00:51:01.000 --> 00:51:06.000
+For the other 3 hours, or they can be in person for all of them
+
+00:51:06.000 --> 00:51:09.000
+Now, the online campus
+
+00:51:09.000 --> 00:51:17.000
+is fully online, and is a different campus, so unfortunately, if you're… well.
+
+00:51:17.000 --> 00:51:20.000
+It's unfortunate, but the fact is
+
+00:51:20.000 --> 00:51:28.000
+That if you're in the online campus, you can't take these other courses. You can't take age courses or W courses or
+
+00:51:28.000 --> 00:51:34.000
+whatever. And the same is true as well if you're in the on-campus
+
+00:51:34.000 --> 00:51:42.000
+If you're part of the on-campus cohort, you can't take these 9U courses
+
+00:51:42.000 --> 00:51:50.000
+So you have to register according to your campus designation
+
+00:51:50.000 --> 00:52:00.000
+Now, I talked about this, so please join the IQ Program LinkedIn group. It's called the UALR Information Quality Graduate Program
+
+00:52:00.000 --> 00:52:10.000
+Put a lot of announcements, a lot of job postings out there, and internship opportunities. And it's also a way to link together with other graduates
+
+00:52:10.000 --> 00:52:14.000
+faculty and some of our employers
+
+00:52:14.000 --> 00:52:19.000
+Official website for our program is
+
+00:52:19.000 --> 00:52:23.000
+Ualr.edu information quality
+
+00:52:23.000 --> 00:52:32.000
+Some news, although they have kind of cut off my posting ability on that, but it does give the official requirements for admission
+
+00:52:32.000 --> 00:52:36.000
+If you want to refer someone to our program, you should refer them to this website.
+
+00:52:36.000 --> 00:52:39.000
+policies and resource names
+
+00:52:39.000 --> 00:52:49.000
+There is a new International Association for Data Quality, Governance and Analytics. It's a lot. IADQGA
+
+00:52:49.000 --> 00:52:57.000
+It's a new professional organization. If you're interested in joining, I think it's still free
+
+00:52:57.000 --> 00:53:00.000
+Last I heard
+
+00:53:00.000 --> 00:53:09.000
+It started by a good friend of mine, a guy named Joe Yakura, who's very interested in data quality
+
+00:53:09.000 --> 00:53:14.000
+And I say it's just starting, now it's been up and running now for a couple of years
+
+00:53:14.000 --> 00:53:21.000
+And it has a lot of free information out there and resources that you can take advantage of
+
+00:53:21.000 --> 00:53:31.000
+It has a focus on data literacy and statistical literacy, but again, it has a lot to do with data and information quality as well.
+
+00:53:31.000 --> 00:53:38.000
+So before we got started with this course, I know we have a mixture of students in different programs
+
+00:53:38.000 --> 00:53:45.000
+I wanted to kind of cover at a broad stroke what our information quality program is like
+
+00:53:45.000 --> 00:53:59.000
+So, does anyone have any questions about what I've covered as far as programs
+
+00:53:59.000 --> 00:54:04.000
+Okay, well, if you do feel free to email me is the best way to get in touch.
+
+00:54:04.000 --> 00:54:14.000
+Well, it took more time than I intended. I was going to, but let me try to give a quick course overview
+
+00:54:14.000 --> 00:54:38.000
+In the time that we have left
+
+00:54:38.000 --> 00:54:46.000
+So the course that we're in right now is Principles of Information Quality
+
+00:54:46.000 --> 00:54:52.000
+So here's if we don't cover anything, these are very important. So there's some important dates for this fall
+
+00:54:52.000 --> 00:55:02.000
+So Labor Day is September the 7th. That's a Monday won't affect us, but if you're in a Monday class, there won't be any classes on Labor Day.
+
+00:55:02.000 --> 00:55:08.000
+For this class, we'll have our midterm examination on October the 8th
+
+00:55:08.000 --> 00:55:14.000
+Another important date is October the 20th. It has double meaning
+
+00:55:14.000 --> 00:55:31.000
+Although it doesn't apply to most of you, but if you decide to drop one of the classes and receive a W or withdraw grade, that's a no penalty grade that just says you started but you didn't finish. It doesn't count against you in grade point average and things like that
+
+00:55:31.000 --> 00:55:34.000
+It's sort of an escape
+
+00:55:34.000 --> 00:55:38.000
+You don't get your money back if you wait too long though
+
+00:55:38.000 --> 00:55:47.000
+So that's the last day to drop an individual class. After that, if you decide to… you can still withdraw, but you have to withdraw from all classes.
+
+00:55:47.000 --> 00:55:51.000
+Another important part of
+
+00:55:51.000 --> 00:55:59.000
+I don't know how those got out of water. October the 20th, and this is extremely important. I want to emphasize it to you
+
+00:55:59.000 --> 00:56:07.000
+Remember I said earlier, at this university, nothing happens automatically.
+
+00:56:07.000 --> 00:56:17.000
+Like I said, when you complete the courses for the graduate certificate, they're not going to award you one unless you went in and applied to be admitted to the graduate certificate program.
+
+00:56:17.000 --> 00:56:22.000
+The same thing is true for your graduation from your program
+
+00:56:22.000 --> 00:56:38.000
+It's up to you the semester that you complete the requirements or you think you're completing the requirements for your degree, you have to notify the university that you want to do that. Otherwise, you won't get your degree
+
+00:56:38.000 --> 00:56:45.000
+And it's unfortunate I've had many students who've actually gone to work
+
+00:56:45.000 --> 00:56:55.000
+Thinking that they've completed a master's in information quality and their employer says, show me the transcript and it's not on their transcript.
+
+00:56:55.000 --> 00:56:59.000
+Because they did not apply to graduate
+
+00:56:59.000 --> 00:57:06.000
+So if you're completing anything, a master's, your certificate, your PhD,
+
+00:57:06.000 --> 00:57:17.000
+You have to be aware that when you're completing the requirement, you need to go into Workday and say that I'm completing my program this semester
+
+00:57:17.000 --> 00:57:21.000
+and complete the form or the task in Workday
+
+00:57:21.000 --> 00:57:32.000
+If you missed this deadline, then you will have to wait until the next semester to finish your graduation. And that can be a problem for many people that are
+
+00:57:32.000 --> 00:57:35.000
+Especially
+
+00:57:35.000 --> 00:57:42.000
+International students that are trying to get OPT, optional practical training
+
+00:57:42.000 --> 00:57:46.000
+So keep that in mind.
+
+00:57:46.000 --> 00:57:52.000
+You have to tell the school that you're ready to graduate, and then they will process
+
+00:57:52.000 --> 00:58:02.000
+And they will verify that you've completed everything, and then they will award the degree. But if you miss that deadline, that's going to put you off for another semester
+
+00:58:02.000 --> 00:58:09.000
+And part of the confusion is that many people, unfortunately
+
+00:58:09.000 --> 00:58:13.000
+Confused is especially true for international students
+
+00:58:13.000 --> 00:58:16.000
+confused the idea of
+
+00:58:16.000 --> 00:58:32.000
+Graduation and commencement. So they think of graduation as meaning I'm going to put on a black robe and I'm going to go over there, and they're going to hand me a piece of paper. And they say, well, I don't want to do that. I don't, you know, I don't care about that. It is optional to go through the ceremony
+
+00:58:32.000 --> 00:58:43.000
+But the ceremony has nothing to do with awarding the degree. Awarding of the degree, and that's a good thing in Workday, they don't call it graduation. They call it program completion.
+
+00:58:43.000 --> 00:59:00.000
+completing your program. So keep the… I know I'm making a big deal of this, but it's been a very sad situation for many students that I've dealt with that have just didn't realize. They thought they finished their requirements, school's going to give them a degree. That is not true
+
+00:59:00.000 --> 00:59:03.000
+You have to ask for it
+
+00:59:03.000 --> 00:59:18.000
+Another important date is we'll have a fall break. This is around Thanksgiving in the US, Thanksgiving holiday in the US, so it would be a week off, so we won't have any classes that week
+
+00:59:18.000 --> 00:59:29.000
+The bad thing about that, though, I mean, it's good that you get a nice break from school, but when you come back, there's only one week of classes left, so it's kind of awkward.
+
+00:59:29.000 --> 00:59:39.000
+You go off and spend a week away from school, and then there's only one week to come back to, and there's a lot of things happening during that last week
+
+00:59:39.000 --> 00:59:48.000
+And then the last day of class, so this won't apply to us. Our last day of class will be the Wednesday, I'm sorry, the Thursday before this
+
+00:59:48.000 --> 00:59:51.000
+Because December the 7th falls
+
+00:59:51.000 --> 00:59:53.000
+on a Monday
+
+00:59:53.000 --> 01:00:12.000
+So our last day of class will be earlier. I forget exactly what date that is, but anyway, also that's the last that's a deadline to withdraw from all classes. So if you wait till after that and you haven't done well in your classes or you haven't been able to attend, you were sick, you were ill
+
+01:00:12.000 --> 01:00:15.000
+had an accident, you're going to get F
+
+01:00:15.000 --> 01:00:29.000
+For those classes, and you don't want to do that. You can appeal to your instructor and say, please give me an I, an incomplete, that I'll make it up. But you run into all kinds of issues. So if you're in that situation, it's much better
+
+01:00:29.000 --> 01:00:32.000
+To withdraw
+
+01:00:32.000 --> 01:00:44.000
+The final exam for this course will be on December the 10th. So we'll have two major exams, a midterm on the 8th and the final on the 10th.
+
+01:00:44.000 --> 01:00:54.000
+And if you want to go to commencement, if you're graduating with any of these degrees, you're welcome to go to commencement. That'll be on December the 19th.
+
+01:00:54.000 --> 01:01:06.000
+And again, what we're trying to do here is give you a basic grounding of what information quality means, the technologies, the concepts, what are the principles, the reason we call it the Principles of
+
+01:01:06.000 --> 01:01:14.000
+What are the economics of it? How do you measure information quality? What are best practices? What are the standards
+
+01:01:14.000 --> 01:01:21.000
+And then we'll talk some about the application of statistics to information quality
+
+01:01:21.000 --> 01:01:33.000
+And then some of the tools and then I hope that we'll be able to for all of you to at least write one Agentic data quality program.
+
+01:01:33.000 --> 01:01:41.000
+A nice thing I'm going to give you the book, the book that we're going to use is Journey to Data Quality
+
+01:01:41.000 --> 01:01:51.000
+And this is a very old book. It's from 2006, the beginning of the program, but it's very foundational in most of the basic concepts are in there
+
+01:01:51.000 --> 01:01:59.000
+We'll use other sources, internet sources and ChatGPT and whatever for the other things
+
+01:01:59.000 --> 01:02:08.000
+And there's some other good books that you might be interested in getting. Measuring Data Quality for Ongoing Improvement by Laura Sebastian Coleman
+
+01:02:08.000 --> 01:02:14.000
+And data quality techniques by Dan Myers is a brand new book that's out
+
+01:02:14.000 --> 01:02:32.000
+And there's many others, and I'll be posting some of these on Blackboard. As a matter of fact, your book is already out there. So in the Blackboard shell, if you go into resources, you'll find the book, Journey to Data Quality has already been posted up there
+
+01:02:32.000 --> 01:02:36.000
+Alright, let me quickly finish
+
+01:02:36.000 --> 01:02:41.000
+So the graded work will be the exams. There will be a midterm, a final
+
+01:02:41.000 --> 01:02:52.000
+It's closed book, multiple choice format. There'll be some written assignments. I'll probably be giving you an assignment here very shortly.
+
+01:02:52.000 --> 01:03:02.000
+Some statistical problems, and then some lab exercises where you actually deal with some data
+
+01:03:02.000 --> 01:03:15.000
+And the grading, again, depends on whether you're in the, by the way, that should be an S instead of a W that we've changed the online from W to S.
+
+01:03:15.000 --> 01:03:17.000
+So
+
+01:03:17.000 --> 01:03:30.000
+So the only difference here is that there's more weight on the exam for online students because there's no attendance requirement for online. Only attendance requirement is for people in the 01 section
+
+01:03:30.000 --> 01:03:33.000
+And then the lab exercises
+
+01:03:33.000 --> 01:03:39.000
+And again, we go by the 10-point breaks on grading
+
+01:03:39.000 --> 01:03:45.000
+I'll talk about one main class policy, and that
+
+01:03:45.000 --> 01:03:52.000
+All your assignments that you're given, except for the exam, but all the written assignment homework
+
+01:03:52.000 --> 01:03:55.000
+You turn in through Blackboard
+
+01:03:55.000 --> 01:03:57.000
+And not by email
+
+01:03:57.000 --> 01:04:02.000
+And the assignments are going to be due by the start of class, so if I give an assignment
+
+01:04:02.000 --> 01:04:12.000
+to you, it'll be due by 1.40 PM Central Time on a class day. So there'll always be due on a class day at the start of class.
+
+01:04:12.000 --> 01:04:15.000
+If you're late, you'll lose 20%.
+
+01:04:15.000 --> 01:04:22.000
+And I go by whatever the blackboard says. If you turn it in, Blackboard says it's late after the 140 start time
+
+01:04:22.000 --> 01:04:26.000
+So again, internet is not totally
+
+01:04:26.000 --> 01:04:33.000
+dependable, so you might want to get… try to get ahead of the curve and be sure you get yours in a little bit early.
+
+01:04:33.000 --> 01:04:38.000
+If you wait two class periods, you can't get any credit for the assignment.
+
+01:04:38.000 --> 01:04:48.000
+I don't mind the use of AI each assignment I will explicitly state whether you can use AI or not for your assignment
+
+01:04:48.000 --> 01:04:53.000
+And when you turn in your assignment, you must tell me whether you used AI or not.
+
+01:04:53.000 --> 01:05:00.000
+So, it will vary. Again, I'm not… I use AI all the time. I'm sure you do too as well
+
+01:05:00.000 --> 01:05:09.000
+But there's certain ones that I don't want you to use. I want you to work it out yourself, and I will be telling you that when I give you the
+
+01:05:09.000 --> 01:05:12.000
+assignment
+
+01:05:12.000 --> 01:05:23.000
+University policies, we honor students with disabilities for particular types of things that they may need extra
+
+01:05:23.000 --> 01:05:40.000
+But all of these policies are now, there's links to them. I won't go through all of them. There are many of them available on Blackboard in your course shell if you go in there and look. Also, the syllabus that goes through these in detail is there as well
+
+01:05:40.000 --> 01:05:51.000
+So again, if you're in the 01 or the S1 section
+
+01:05:51.000 --> 01:05:56.000
+You'll be taking the exam in person here on campus, because those are in campus sections
+
+01:05:56.000 --> 01:06:02.000
+If you're online, you'll be taking them online
+
+01:06:02.000 --> 01:06:05.000
+And we've got a couple of
+
+01:06:05.000 --> 01:06:08.000
+Teaching assistants who are online right now
+
+01:06:08.000 --> 01:06:16.000
+That'll be helping me, and they may be helping you as well once we get into the class exercises and tools.
+
+01:06:16.000 --> 01:06:18.000
+And that's Manjima and Sapha
+
+01:06:18.000 --> 01:06:22.000
+And that's their email addresses
+
+01:06:22.000 --> 01:06:30.000
+So I've run us right up to time. I don't know if there's a quick question anyone has or not
+
+01:06:30.000 --> 01:06:40.000
+But anyway, this is recorded and we will start with the actual content on Thursday. And Thursday's class will be online for everyone.
+
+01:06:40.000 --> 01:06:42.000
+So
+
+01:06:42.000 --> 01:06:48.000
+What I plan to do is have in-person
+
+01:06:48.000 --> 01:06:53.000
+Mostly about… but anyway, in person on Tuesdays and online
+
+01:06:53.000 --> 01:06:57.000
+On Thursdays for people in the 01 and S sections
+
+01:06:57.000 --> 01:07:00.000
+I'm sorry, in the 01 section only
+
+01:07:00.000 --> 01:07:05.000
+So, everybody else will be online all the time
+
+01:07:05.000 --> 01:07:12.000
+Okay, that's all I have for today. And I'm going to stop the recording
+
+01:07:12.000 --> 01:07:14.000
+Thank you.
+
+01:07:14.000 --> 01:07:17.000
+Yeah, thanks everyone for attending today.
+
+01:07:17.000 --> 01:07:24.000
+Thank
+

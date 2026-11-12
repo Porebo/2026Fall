@@ -1,0 +1,235 @@
+PROMPT DESIGN
+Methods section draft for the research proposal
+Version 1.0, November 11, 2026
+
+
+1. Overview
+
+The study compares four prompts of increasing structure, each given to a
+general-purpose AI assistant together with the same two attachments: one
+wellbore diagram from the random sample and the verbatim text of California
+Code of Regulations, title 14, section 1726.4.1 (casing-diagram-specification.txt).
+Each prompt represents a level of prompting skill that a worker might bring to
+the task described in the business scenario (scenario-business-need.txt): a
+regulatory or engineering staff member who wants to know whether an existing
+wellbore diagram meets the State's casing diagram requirements before reusing
+it in a Notice of Intention to Abandon.
+
+Each level after the first adds one established prompting technique, cited
+once at the level where it is introduced: a structured request built from
+persona, task, context, and format (level 2), worked examples (level 3), and
+an instruction to reason step by step (level 4).
+
+    Level  Name                              Technique added
+    1      Unstructured zero-shot (naive)    none; the request as a worker would type it
+    2      Structured zero-shot (PTCF)       persona, task, context, format
+    3      Few-shot                          level 2 plus worked examples
+    4      Chain-of-thought                  level 3 plus step-by-step reasoning
+
+"Zero-shot" denotes a prompt that gives the model no worked examples;
+"few-shot" denotes one that does.
+
+
+2. Elements held constant across levels
+
+To attribute differences in the responses to the prompt alone, the following
+are identical for every run:
+
+  - The two attachments. The diagram is the original file downloaded from
+    WellSTAR, unaltered and verified by SHA-256 checksum; the specification
+    is the same verbatim text, verified word for word against its source.
+  - One prompt, sent once, in a new conversation with no prior history. The
+    first response is the data; no follow-up, rephrasing, or regeneration.
+  - The AI service and account type within a comparison, with the date, the
+    model where displayed, the use of web search, and any upload messages
+    recorded for every run.
+
+Each level's prompt is stored in two forms: a copy-and-paste file containing
+exactly the text sent, and a documented version recording its construction and
+change history.
+
+
+3. Level 1: Unstructured zero-shot (naive)
+
+Purpose. Level 1 is the baseline: the request a worker without prompting
+training would type.
+
+Construction. The prompt was written from the scenario by asking what a worker
+at a desk would want to know. Three questions were judged most natural: whether
+the diagram is good enough to file, what is missing, and what must be fixed
+before submission. An item-by-item review was judged characteristic of an
+auditor rather than a worker and was excluded from this level. Four candidate
+wordings were compared for realism and for how their responses could be
+scored. The selected prompt asks for a verdict and for the gaps, names the
+purpose, and uses industry shorthand ("WBD," "notice to abandon"):
+
+    I'm going to use this WBD in our notice to abandon. Does it meet CalGEM's
+    requirements, and what's missing?
+
+An earlier draft that asked the AI to "tell me what passes and what fails" was
+rejected because "passes and fails" is the study's vocabulary rather than the
+worker's.
+
+What is deliberately absent: a persona, a list or definition of the
+requirements to check, rating categories, an evidence requirement, a
+restriction to the attached files, and any output format.
+
+
+4. Level 2: Structured zero-shot (Persona-Task-Context-Format)
+
+Purpose. Level 2 represents a worker who structures the request: stating who
+the AI should act as, what to do, why, and in what form to answer.
+
+Construction. The prompt was built by writing one sentence or pair of sentences
+for each of the four elements of a prompt in Google's guide: persona, task,
+context, and format (Google, 2024).
+
+    Persona  You are a regulatory engineer who reviews wellbore diagrams for
+             CalGEM filings.
+    Task     Check whether the attached WBD meets each requirement in the
+             attached CalGEM specification.
+    Context  I'm preparing a notice to abandon for this well and want to reuse
+             this diagram. The specification is 14 CCR 1726.4.1, word for word.
+    Format   Give me a table with each requirement, whether the diagram meets
+             it, and what's missing. Keep it short.
+
+The element labels are not sent to the AI; the four parts are sent as one
+paragraph, as a worker would type them. A more restrictive draft containing
+rating definitions, an evidence requirement, a restriction to the attachments,
+and a prohibition on recommendations was set aside as representing a more
+advanced level of skill than this step.
+
+
+5. Level 3: Few-shot
+
+Purpose. Level 3 adds worked examples to the request, the defining feature of
+few-shot prompting (Brown et al., 2020).
+
+Construction. The level 2 prompt is kept unchanged and five worked examples are
+appended. They are written as a person would type them, in short sentences of
+the form "If a diagram shows ..., then (requirement) does not meet," introduced
+with "Here's how I want each requirement judged. These are made-up examples,
+not from the attached diagram." A first draft presented the examples as a
+table; it was rewritten because a worker typing a request does not express
+expectations in tables.
+
+The examples are derived from the wording of the regulation, not from any
+diagram. Each describes a made-up diagram with invented values and applies one
+requirement's wording to it:
+
+    (a)(1)(A)  a requirement listing several items ("Operator, lease name, well
+               number, and API number") is met only when every item is shown;
+    (a)(1)(B)  a single required item that is shown is met;
+    (a)(1)(L)  showing part of a requirement (plug depths) without the rest
+               (date emplaced, method of determination) is not met;
+    (a)(2)     "measured depth and true vertical depth" requires both;
+    (a)(5)     a requirement the regulation limits to certain wells ("wells to
+               be used for gas injection and/or withdrawal") does not apply to
+               other wells.
+
+Because no example is taken from a real diagram, the examples cannot reveal
+answers for the sampled diagrams, nor favor diagrams drawn on a particular
+operator's template. The judgments shown, Meets, Does not meet, and Not
+applicable, follow from the regulation's own structure: data the diagram "shall
+at a minimum include," and paragraphs limited to certain wells ((a)(3), (a)(5),
+(a)(6)). An earlier draft that took example rows from a real diagram outside
+the sample was rejected for these reasons.
+
+
+6. Level 4: Chain-of-thought
+
+Purpose. Level 4 asks the model to reason through the task step by step before
+giving its answer.
+
+Construction. The level 3 prompt is kept unchanged and one paragraph is added:
+
+    Before you give me the table, work through it step by step. Take the
+    requirements one at a time, in order. For each one, find where the diagram
+    shows that information, say what you found, and then decide if it meets.
+    When you've gone through all of them, give me the table.
+
+Kojima et al. (2022) showed that an instruction to reason step by step,
+without worked reasoning examples, produces step-by-step reasoning. They
+describe the method as adding "Let's think step by step, or a similar text"
+(p. 3), and their comparison of sixteen wordings (Table 4, p. 8) includes
+"Let's solve this problem by splitting it into steps." The paragraph used here
+is of that kind: it keeps "step by step" and states, in a worker's words, how
+the task splits into steps (one requirement at a time, find the information on
+the diagram, say what was found, then decide), with the reasoning placed before
+the answer. The level 2 request "Keep it short" is left unchanged; how the AI
+handles a request for both a step-by-step check and a short answer is
+recorded.
+
+A first version added only the sentence "Before you give me the table, think it
+through step by step" to the level 2 prompt. It was replaced because current
+chat models already reason before answering, so the sentence changed little;
+because it did not say what the steps were; and because, built on level 2, it
+dropped the examples added at level 3.
+
+
+7. Why each level builds on the one before
+
+The levels are cumulative: each prompt contains the previous level's prompt
+word for word and adds one technique. Level 2 adds structure to level 1's
+request, level 3 adds examples to level 2, and level 4 adds step-by-step
+reasoning to level 3. Each comparison between adjacent levels therefore
+isolates one technique: level 2 against level 1 shows the effect of structure,
+level 3 against level 2 the effect of examples, and level 4 against level 3 the
+effect of reasoning instructions. The cumulative design also matches the
+scenario: each level represents a worker with one more prompting skill than
+the last, and a more skilled worker keeps the techniques already learned. That
+each level begins with the previous level's text is checked automatically for
+every prompt file.
+
+
+8. How the responses will be evaluated
+
+Accuracy. Each response is scored against reference answers prepared by the
+researcher for the same diagram, one judgment per requirement of section
+1726.4.1, coded Present, Absent, or Illegible. Each requirement in the response
+is classed as correctly judged, wrongly judged, or not addressed. A requirement
+the response does not mention is not counted as met.
+
+Cost to the worker. The dry run of level 1 produced a long response in which a
+large share addressed matters other than the task: advice on preparing a
+proposed abandonment diagram, a discussion of whether the regulation applied,
+citations to sources outside the attachments, and a closing question to the
+user. A worker must read and sort all of it to reach the answer. Each response
+is therefore also measured for length (words), the share of the response that
+addresses the task, the use of sources outside the attachments, and whether it
+ends with a question back to the user.
+
+Input quality. Results are reported for all diagrams and separately by input
+type (Native, Mixed, Scanned), as set out in ../../sample/sample-quality-evaluation.txt.
+
+
+9. Limitations
+
+- The free tier of the AI service used for the dry run does not display the
+  model that produced a response, and the provider may change that model at
+  any time. Runs for a comparison should be made within a short period.
+- Kojima et al. (2022, Table 4) show that the wording of the step-by-step
+  instruction affects accuracy, so the worker's phrasing used at level 4 may
+  not perform exactly as "Let's think step by step."
+- Prompts are written in the researcher's judgment of how a worker would write
+  them; they have not been collected from workers.
+
+
+10. References
+
+One source supports each point. Each must be obtained in full, with the cited
+passage highlighted, before the proposal is submitted.
+
+Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., et al.
+  (2020). Language models are few-shot learners. Advances in Neural
+  Information Processing Systems, 33, 1877-1901.
+
+Google. (2024). Gemini for Google Workspace prompting guide 101.
+  https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf
+
+Kojima, T., Gu, S. S., Reid, M., Matsuo, Y., & Iwasawa, Y. (2022). Large
+  language models are zero-shot reasoners. Advances in Neural Information
+  Processing Systems, 35, 22199-22213.
+  [Obtained November 11, 2026; passages on pp. 1, 2, 3, and 8 highlighted.
+  File: literature/Kojima, 2022, Large Language Models are Zero-Shot
+  Reasoners, Advances in Neural Information Processing Systems.pdf]

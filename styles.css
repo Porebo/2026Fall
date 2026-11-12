@@ -1430,3 +1430,40 @@ a.calendar-marker:focus-visible {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+
+/* Course archive pages (classes/research-methods/archive) */
+.details-list {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0 0 1rem;
+}
+
+.details-list > div {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  gap: 0.75rem;
+}
+
+.details-list dt {
+  font-weight: 600;
+}
+
+.details-list dd {
+  margin: 0;
+}
+
+.archive-body ol,
+.archive-body ul {
+  padding-left: 1.4rem;
+}
+
+.archive-body li + li {
+  margin-top: 0.3rem;
+}
+
+@media (max-width: 600px) {
+  .details-list > div {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+}

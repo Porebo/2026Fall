@@ -1,0 +1,1436 @@
+WEBVTT
+
+00:00:05.000 --> 00:00:14.000
+So we started last time a series of talks about value of information quality and talked about business case
+
+00:00:14.000 --> 00:00:18.000
+Have a few minutes, some of the characteristics of data
+
+00:00:18.000 --> 00:00:26.000
+Any question or anything, comments before we move on with that lecture?
+
+00:00:26.000 --> 00:00:35.000
+What I want to talk about today, there's two things. One, I'm going to finish this lecture about value and with understanding data categories
+
+00:00:35.000 --> 00:00:40.000
+And then we're going to shift a little bit to more
+
+00:00:40.000 --> 00:00:44.000
+Data-related work we're going… I just put an assignment up
+
+00:00:44.000 --> 00:00:48.000
+for you to do some analysis of data set
+
+00:00:48.000 --> 00:00:54.000
+And I'm going to sort of demo that here during the class
+
+00:00:54.000 --> 00:00:58.000
+I'll show you a little bit about one of the
+
+00:00:58.000 --> 00:01:04.000
+tools that we're going to be using, which is called Open Refine
+
+00:01:04.000 --> 00:01:12.000
+And it's an open source tool for data analysis, very similar to Excel, but it has other features in it
+
+00:01:12.000 --> 00:01:18.000
+We'll start with that and then we'll use a few others as we get into the course.
+
+00:01:18.000 --> 00:01:22.000
+But with that, let's go ahead and pick up where we left off last time
+
+00:01:22.000 --> 00:01:26.000
+So we were up to understanding data categories
+
+00:01:26.000 --> 00:01:32.000
+And remember, in this class, what we're doing is maybe redundant for many of you, but
+
+00:01:32.000 --> 00:01:35.000
+This is a foundational course that
+
+00:01:35.000 --> 00:01:40.000
+To try to acquaint you with things about data, even though they may seem quite basic
+
+00:01:40.000 --> 00:01:45.000
+But not everyone understands, for example, dimensions of data quality
+
+00:01:45.000 --> 00:01:48.000
+and categories of data.
+
+00:01:48.000 --> 00:01:56.000
+So let's talk a little bit about data categories. There's many ways to categorize data
+
+00:01:56.000 --> 00:02:09.000
+When we try to group it with some common characteristic or feature. And they can be useful, especially when we're talking about data. If you're out there and people are talking about data using certain terms
+
+00:02:09.000 --> 00:02:13.000
+It's good to be able to follow them and know what they mean by
+
+00:02:13.000 --> 00:02:18.000
+So here's a big one now with AI, and that's this data categories by structure
+
+00:02:18.000 --> 00:02:23.000
+Structured data, unstructured data, and semi-structured data
+
+00:02:23.000 --> 00:02:32.000
+And what we mean by that is that structured data are data that can be directly machine readable
+
+00:02:32.000 --> 00:02:45.000
+In other words, our systems are set up so that if we give it structured data, it knows how to read it, it knows how to interpret the data because it has a formal syntax
+
+00:02:45.000 --> 00:02:52.000
+Just like any natural language, English and so forth, we have a syntax about
+
+00:02:52.000 --> 00:02:58.000
+verbs and nouns and adjectives and so forth. Although
+
+00:02:58.000 --> 00:03:02.000
+natural language syntax seems to be very flexible
+
+00:03:02.000 --> 00:03:11.000
+Machine readable syntax, like we would have with a Python program or XML or JSON
+
+00:03:11.000 --> 00:03:16.000
+is much more formal, and therefore, it's very predictable, and computer can read it
+
+00:03:16.000 --> 00:03:25.000
+And so we would have directly machine redeemable, for example, relational databases where we have a
+
+00:03:25.000 --> 00:03:28.000
+schema that outlines
+
+00:03:28.000 --> 00:03:31.000
+The data and the relationships
+
+00:03:31.000 --> 00:03:39.000
+Comma separated value files, this is what we see a lot, and you're going to use that in your assignment today
+
+00:03:39.000 --> 00:03:51.000
+Although we say common separated, it just means that the fields are separated by a special character, although it's often a comma, it could be any other type of character, a colon, semicolon
+
+00:03:51.000 --> 00:03:55.000
+Sometimes a pipe character is used
+
+00:03:55.000 --> 00:03:59.000
+the uppercase of
+
+00:03:59.000 --> 00:04:02.000
+Where is that? Yeah, the uppercase of the
+
+00:04:02.000 --> 00:04:04.000
+Backward slash
+
+00:04:04.000 --> 00:04:07.000
+On your keyboard
+
+00:04:07.000 --> 00:04:17.000
+XML has kind of fallen out of favor these days, but still a lot of it around. It's a markup language that has a formal syntax
+
+00:04:17.000 --> 00:04:24.000
+that uses less than and greater than signs to designate tags and fields
+
+00:04:24.000 --> 00:04:30.000
+And now it's been largely replaced by JSON, which is a somewhat simpler
+
+00:04:30.000 --> 00:04:36.000
+markup language that has a formal syntax to it as well
+
+00:04:36.000 --> 00:04:38.000
+So
+
+00:04:38.000 --> 00:04:41.000
+Unstructured data
+
+00:04:41.000 --> 00:04:43.000
+are human-readable data
+
+00:04:43.000 --> 00:04:49.000
+But not necessarily machine read will typically require pre-processing to be machine readable.
+
+00:04:49.000 --> 00:04:54.000
+Now, this is changing now, as you're probably well aware
+
+00:04:54.000 --> 00:04:59.000
+that
+
+00:04:59.000 --> 00:05:03.000
+Traditionally, we have to we had to put
+
+00:05:03.000 --> 00:05:06.000
+In order for a computer to read
+
+00:05:06.000 --> 00:05:10.000
+text, read what we were was written
+
+00:05:10.000 --> 00:05:15.000
+We had to translate it into some kind of structured format
+
+00:05:15.000 --> 00:05:27.000
+Like a comma separated file or an XML file or something. Before we could put it into the computer for the computer to understand what we were trying to do with the data
+
+00:05:27.000 --> 00:05:32.000
+And of course, now that has changed dramatically with large language models
+
+00:05:32.000 --> 00:05:37.000
+And so now, most human readable documents are
+
+00:05:37.000 --> 00:05:45.000
+In some sense, computer readable. In other words, you can put them into these models and they can read and understand
+
+00:05:45.000 --> 00:05:55.000
+And this is term one of the reasons now or one of the main applications that we're seeing in AI is to take
+
+00:05:55.000 --> 00:06:06.000
+Unstructured data, some type of document. I have a student right now working on a project where he's reading EDGAR document. Edgar is a database from
+
+00:06:06.000 --> 00:06:11.000
+The Securities and Exchange Commission
+
+00:06:11.000 --> 00:06:16.000
+Corporations have to report my quarterly and annual reports
+
+00:06:16.000 --> 00:06:18.000
+or reports of significant change
+
+00:06:18.000 --> 00:06:28.000
+And he's having the computer or language models read those documents to understand what the document is talking about
+
+00:06:28.000 --> 00:06:32.000
+However, we're still not quite
+
+00:06:32.000 --> 00:06:35.000
+To the point that
+
+00:06:35.000 --> 00:06:43.000
+We can just feed unstructured documents into the system and do the traditional computing. So we're sort of at a
+
+00:06:43.000 --> 00:06:50.000
+bridge right now where there's a huge amount of investment in traditional
+
+00:06:50.000 --> 00:06:57.000
+systems that require structured inputs, master data management system, invoicing, billing systems
+
+00:06:57.000 --> 00:07:05.000
+customer relationship management system, CRM, all of these systems that are legacy systems
+
+00:07:05.000 --> 00:07:10.000
+We're all built to require that the data come in in a certain structured format
+
+00:07:10.000 --> 00:07:15.000
+So what's happening right now, we're in a transition stage
+
+00:07:15.000 --> 00:07:21.000
+is that many applications of AI are now reading those unstructured documents
+
+00:07:21.000 --> 00:07:25.000
+But the purpose is not to process them and do something with them
+
+00:07:25.000 --> 00:07:37.000
+What they're doing is asking the language model to read it, understand it, and then transform it into a structured
+
+00:07:37.000 --> 00:07:41.000
+data records so that it can go into these legacy systems
+
+00:07:41.000 --> 00:07:55.000
+We're not quite yet to the point that we are replacing these large legacy systems that have a huge investment in intellectual property, even huge payroll systems
+
+00:07:55.000 --> 00:08:05.000
+SAP-type ERP Enterprise systems, all of these big systems that have huge investments in time and capital
+
+00:08:05.000 --> 00:08:22.000
+are not being replaced. Eventually, they probably will be, in what we call semantic computing, where we basically our systems will operate just like people. We give them documents and any readable format
+
+00:08:22.000 --> 00:08:26.000
+The systems can read them, process them, and do all the processing
+
+00:08:26.000 --> 00:08:32.000
+The holdback now to prevent us from doing that right now
+
+00:08:32.000 --> 00:08:34.000
+is that
+
+00:08:34.000 --> 00:08:43.000
+If you give a large language model like a document and ask it to understand what's in that document and output maybe some kind of structured record.
+
+00:08:43.000 --> 00:08:45.000
+It takes time to do that.
+
+00:08:45.000 --> 00:08:55.000
+As you're probably used to seeing on your screen when you do that, it'll come up and have a little something spin that says, I'm thinking, I'm thinking
+
+00:08:55.000 --> 00:09:08.000
+And even though the thinking may be, what, quite fast in human terms, it may only take a few seconds, maybe sometimes 30 seconds or a minute, depending on what you're asking it to do.
+
+00:09:08.000 --> 00:09:15.000
+This prevents these kinds of systems from being scalable to millions of records
+
+00:09:15.000 --> 00:09:23.000
+These legacy systems that we're using that are based on traditional programming and structured data
+
+00:09:23.000 --> 00:09:30.000
+are very fast, where there are thousands, hundreds of thousands of times faster
+
+00:09:30.000 --> 00:09:45.000
+than these models and doing these inferencing or thinking about doing reading, for example, a natural language document. So this is kind of where we are right now, and there's a lot of things we're going to look at later in the course
+
+00:09:45.000 --> 00:09:56.000
+Some of the ways that we're approaching that through what's called Agentic AI where in the model deploys agents or workers
+
+00:09:56.000 --> 00:10:01.000
+That can work on these problems, and those tend to be faster
+
+00:10:01.000 --> 00:10:06.000
+And another approach that people are taking is
+
+00:10:06.000 --> 00:10:10.000
+what's called embedding, where the text is
+
+00:10:10.000 --> 00:10:15.000
+The model takes the text and translate it into a numeric vector
+
+00:10:15.000 --> 00:10:19.000
+A vector that presumably captures
+
+00:10:19.000 --> 00:10:24.000
+The both the syntactic and the semantic meaning of the text
+
+00:10:24.000 --> 00:10:32.000
+into a numeric vector, and then these numeric vectors can be processed much faster than just simple text.
+
+00:10:32.000 --> 00:10:37.000
+Anyway, we'll talk more about that as we go, but this is a good time to bring it up
+
+00:10:37.000 --> 00:10:45.000
+So, probably need to revise this. So now, unstructured data, not only is human readable, it is machine readable to a certain extent
+
+00:10:45.000 --> 00:10:56.000
+But again, because of the large investments in traditional systems, most AI is being used to pre-process and turn it into something that's structured
+
+00:10:56.000 --> 00:11:04.000
+So that's a huge application of AI at the moment is transforming unstructured text into structured text.
+
+00:11:04.000 --> 00:11:08.000
+I'm sorry
+
+00:11:08.000 --> 00:11:14.000
+And of course, the models can go beyond
+
+00:11:14.000 --> 00:11:20.000
+Just text. Now we have what we call multimodal models
+
+00:11:20.000 --> 00:11:24.000
+That can read images and audio
+
+00:11:24.000 --> 00:11:32.000
+And so have very human behavior. That's the whole point of AI is to
+
+00:11:32.000 --> 00:11:35.000
+be able to think and reason as humans
+
+00:11:35.000 --> 00:11:40.000
+Semastructured data is part-structured, part unstructured
+
+00:11:40.000 --> 00:11:43.000
+But
+
+00:11:43.000 --> 00:11:48.000
+To some extent, almost all data are semi-structured. It's just a matter of degree.
+
+00:11:48.000 --> 00:12:00.000
+Take, for example, people would say, well, you know, a relational database is totally structured. It's got a schema, everything is labeled, and we know exactly how things are laid out in it
+
+00:12:00.000 --> 00:12:15.000
+But that's really not necessarily true. For example, you look in a database table, it may have a comments column, which is a freeform text that is not machine readable, but it would be AI readable
+
+00:12:15.000 --> 00:12:26.000
+And again, that's another application that we see a lot in large databases, for example, in telemarketing where people have called in and left
+
+00:12:26.000 --> 00:12:37.000
+A lot of messages or complaints or orders, then now there's a big use of AI to go through all those and read them and understand them and come up with
+
+00:12:37.000 --> 00:12:48.000
+With proposals or remedies for, you know, what were the major problems that it found, what things should be addressed. So we're seeing big results now from AI and its ability
+
+00:12:48.000 --> 00:12:56.000
+to read free form tag. And again, same thing, freeform addresses. In a database, you may have an address
+
+00:12:56.000 --> 00:13:01.000
+column, but it's the entire street address, the street number, the
+
+00:13:01.000 --> 00:13:11.000
+The directional, the street name, the street suffix, secondary apartment number, all this kind of thing, all in one text string
+
+00:13:11.000 --> 00:13:16.000
+And again, traditionally, what's had to happen is that we've had to write programs
+
+00:13:16.000 --> 00:13:25.000
+To go in and try to examine that and what we do, what we call parsing
+
+00:13:25.000 --> 00:13:34.000
+Where we pull those things apart and we say, okay, now we're going to pull the street number into a separate column, the street name in a column, the street suffix, and so forth
+
+00:13:34.000 --> 00:13:38.000
+And again, now this is the use of AI
+
+00:13:38.000 --> 00:13:54.000
+is it can read and understand those components and parse them out automatically and again but again what this is doing is taking unstructured, in this case semi-structured data
+
+00:13:54.000 --> 00:14:04.000
+and structuring it, because we're still relying primarily on the structured systems, the systems that require structured input
+
+00:14:04.000 --> 00:14:09.000
+But we're beginning to move away from that and eventually we'll get to the point
+
+00:14:09.000 --> 00:14:18.000
+Where the preparation is not necessary. You can just take the data as it is, put it in your system, payroll system, billing system, whatever it is
+
+00:14:18.000 --> 00:14:24.000
+And the system won't be able to figure it out
+
+00:14:24.000 --> 00:14:34.000
+A good example of a hybrid is like email, right? So you have specifically designated a to address and a from address, and a date and a subject.
+
+00:14:34.000 --> 00:14:36.000
+But the message itself is freeform
+
+00:14:36.000 --> 00:14:50.000
+And so traditional systems are not really able to read the message, but again, now with AI and large language models, we're able to read the content of the message and interpret them
+
+00:14:50.000 --> 00:14:56.000
+So another way to categorize data is by function
+
+00:14:56.000 --> 00:15:01.000
+You can say, well, there's operational data. That's the data that I'm using to run my business.
+
+00:15:01.000 --> 00:15:09.000
+And that typically has some subcategories. One of the major ones is master data
+
+00:15:09.000 --> 00:15:13.000
+Then there's transactional data and reference data
+
+00:15:13.000 --> 00:15:14.000
+and metadata
+
+00:15:14.000 --> 00:15:17.000
+So these are some of the primary
+
+00:15:17.000 --> 00:15:25.000
+categories of operational data that you go into any IT system, you'll typically find these
+
+00:15:25.000 --> 00:15:28.000
+We'll talk about each one
+
+00:15:28.000 --> 00:15:36.000
+Then there's user-generated data that people are typing in, creating, and then machine generated data from
+
+00:15:36.000 --> 00:15:38.000
+you know.
+
+00:15:38.000 --> 00:15:41.000
+I was recently visited with the Alcoa plant
+
+00:15:41.000 --> 00:15:44.000
+Down
+
+00:15:44.000 --> 00:15:46.000
+South Arkansas
+
+00:15:46.000 --> 00:15:51.000
+And I have these huge machines where they're rolling out aluminum foil
+
+00:15:51.000 --> 00:16:00.000
+Matter of fact, almost all the aluminum foil that you see in the grocery store anywhere in the United States was probably made down in South Arkansas.
+
+00:16:00.000 --> 00:16:04.000
+And these machines have monitors that monitor
+
+00:16:04.000 --> 00:16:08.000
+how fast the rollers are spinning, how much
+
+00:16:08.000 --> 00:16:24.000
+leeway, how much tolerance is in there, how much electricity they're using, and all kinds of monitors and sensors, and that all gets generated. And again, this is another use of AI. Now what's happening is
+
+00:16:24.000 --> 00:16:30.000
+These machines, the downtime on those is very costly. They need to run constantly
+
+00:16:30.000 --> 00:16:36.000
+And so one of the things that they're doing is taking all the sensor data that's machine generated
+
+00:16:36.000 --> 00:16:44.000
+putting it into AI models and using that to predict when a failure might be imminent so that they can prevent those
+
+00:16:44.000 --> 00:16:55.000
+or slow the machine, stop the machine, and do some kind of adjustment or repair before it actually breaks down for a long period of time
+
+00:16:55.000 --> 00:17:01.000
+So master data is still an important category of data
+
+00:17:01.000 --> 00:17:07.000
+And one way to think about master data are nouns of data vocabulary
+
+00:17:07.000 --> 00:17:18.000
+So master data describes people, places and things, just like we say that's what a noun is in English, right? A word that describes a person or a place or a thing
+
+00:17:18.000 --> 00:17:23.000
+So master data are associated with real-world entities
+
+00:17:23.000 --> 00:17:31.000
+Like a customer, right? There's a real person out there that's a customer that has a unique identity. Then you want to track that
+
+00:17:31.000 --> 00:17:40.000
+And be sure that when you get two customer transactions, you can tell them apart. Are they the same customer or different customers?
+
+00:17:40.000 --> 00:17:56.000
+Because each one has a unique identity, and it's very important to your business, right? Customers, your most important thing when you're a for-profit business, or even government agencies, right? The citizens, people that are using these systems
+
+00:17:56.000 --> 00:18:08.000
+Like the Department of Motor Vehicles. There they're tracking not only people who are drivers, but also the real world things which are vehicles.
+
+00:18:08.000 --> 00:18:11.000
+So they track those and identify those
+
+00:18:11.000 --> 00:18:18.000
+And we have nice unique identifiers, those we call vehicle identification numbers, or VIN numbers
+
+00:18:18.000 --> 00:18:23.000
+And so that's all master data, and that's a characteristic of master data
+
+00:18:23.000 --> 00:18:33.000
+is that we assign a unique identifier to each one of these entities that we're tracking, whether it's a patient or a vehicle, or a product
+
+00:18:33.000 --> 00:18:37.000
+And we use that to identify
+
+00:18:37.000 --> 00:18:42.000
+And the reason we use an identifier rather than just a description
+
+00:18:42.000 --> 00:18:46.000
+is that it's a data quality issue, right?
+
+00:18:46.000 --> 00:18:51.000
+If we describe a customer only by that customer's name and address
+
+00:18:51.000 --> 00:19:02.000
+First of all, those are subject to change. People change their name, they change their addresses, but even if they don't change their names and addresses, they represent them in different ways
+
+00:19:02.000 --> 00:19:07.000
+It might be Bill Talbert, but it could also be Will Talbert
+
+00:19:07.000 --> 00:19:11.000
+And or William Talbert. So
+
+00:19:11.000 --> 00:19:20.000
+These different ways make it hard to know. And so if we're able to give each one a unique identifier
+
+00:19:20.000 --> 00:19:23.000
+And say this is customer 101.
+
+00:19:23.000 --> 00:19:30.000
+And we can keep that 101 associated with that customer's information
+
+00:19:30.000 --> 00:19:34.000
+then it makes life a lot easier in our systems
+
+00:19:34.000 --> 00:19:52.000
+If we want to bring together all the customer transactions for a particular customer, it's very easy if we've assigned all of those transactions, customer identifier 101, we just sort and gather together all the 101 records. And we've got all the sales or all the buys
+
+00:19:52.000 --> 00:20:05.000
+purchases that that customer has made. So it simplifies the processing and ensures that we're not overcounting or under counting customers or patients or mixing up their medical charts
+
+00:20:05.000 --> 00:20:07.000
+We don't want to do that
+
+00:20:07.000 --> 00:20:12.000
+So Master Data Management is really about what we call
+
+00:20:12.000 --> 00:20:26.000
+Semantic and coding. Semantic encoding is exactly what I've described. If I have a customer and I say, okay, I want to represent that customer by a unique value, an identifier
+
+00:20:26.000 --> 00:20:36.000
+Then I've semantically encoded that record. I put in that one-on-one value as a stand-in to represent that particular customer.
+
+00:20:36.000 --> 00:20:51.000
+And so Master Data Management is all about semantic encoding and keeping track, keeping those straight for it to work, I have to be sure that every time I see that same customer, I'm giving that
+
+00:20:51.000 --> 00:20:53.000
+I'm assigning that same identifier
+
+00:20:53.000 --> 00:20:58.000
+So anyway, master data are like the nouns of data
+
+00:20:58.000 --> 00:21:01.000
+And as I just said, and so again
+
+00:21:01.000 --> 00:21:12.000
+We used to have T numbers here, now we have workday numbers that identify us in our system, right? So one issue with master data is that
+
+00:21:12.000 --> 00:21:16.000
+Yes, within a particular system or context
+
+00:21:16.000 --> 00:21:22.000
+Every entity has a unique identifier
+
+00:21:22.000 --> 00:21:25.000
+But in different systems, in different contexts
+
+00:21:25.000 --> 00:21:35.000
+Yes, they'll do the same thing, but they give them different identifiers. So, for example, your workday number here at UALR
+
+00:21:35.000 --> 00:21:47.000
+If you go and enroll in another college, Arkansas State, well, that might not be true. It would be true. You go out of state, go to another university in Mississippi
+
+00:21:47.000 --> 00:21:55.000
+They'll give you another number. They will want to track you and give you a unique number within their context, but it'll be a different one
+
+00:21:55.000 --> 00:21:58.000
+So it's very difficult
+
+00:21:58.000 --> 00:22:03.000
+to come up with a universal identifier. As a matter of fact, there's a lot of political
+
+00:22:03.000 --> 00:22:09.000
+White against doing that, so… because now this looks like Big Brother
+
+00:22:09.000 --> 00:22:16.000
+It's to some extent, already been done in the United States with social security numbers
+
+00:22:16.000 --> 00:22:23.000
+Other countries where it's not such a big deal for them, especially in Europe and India and other places
+
+00:22:23.000 --> 00:22:28.000
+People are assigned a unique citizens number that they have to use
+
+00:22:28.000 --> 00:22:30.000
+all of their government operations
+
+00:22:30.000 --> 00:22:38.000
+Here we say we try to protect the social security number, but we haven't done a very good job of it
+
+00:22:38.000 --> 00:22:40.000
+Probably everybody knows what yours is
+
+00:22:40.000 --> 00:22:48.000
+The problem with that is that we don't have a universal system for maintaining that alignment that I talked about
+
+00:22:48.000 --> 00:22:55.000
+That to be assured that that social security number that's associated with your record is really yours
+
+00:22:55.000 --> 00:23:00.000
+So there are a lot of fake social security numbers. We run into problems, for example
+
+00:23:00.000 --> 00:23:06.000
+Now, of course, in the US, as soon as you're born, you're assigned a social security number
+
+00:23:06.000 --> 00:23:13.000
+used to not get one until you started working around age 16 or 18
+
+00:23:13.000 --> 00:23:17.000
+But now you're assigned beginning, but even in schools
+
+00:23:17.000 --> 00:23:20.000
+And helping schools manage their enrollments
+
+00:23:20.000 --> 00:23:27.000
+schools that use social security numbers for their student identifier are often incorrect because
+
+00:23:27.000 --> 00:23:38.000
+They enrolled a student and they may not know what their student's social security number is, so they use their mother's social security number, their father's social security number
+
+00:23:38.000 --> 00:23:43.000
+And in many cases where we have foreign workers, sometimes they just make them up
+
+00:23:43.000 --> 00:23:57.000
+or steal someone else is Social Security. So again, we don't have one that's universally unique, at least in the United States. The closest probably is the social security number
+
+00:23:57.000 --> 00:24:12.000
+So the problem is that records come in, I mean, if I go to the hospital here and check in, I don't know what my patient number is at St. Vincent's or Baptist Hospital here in town
+
+00:24:12.000 --> 00:24:18.000
+So what has to happen is that somebody has to figure out what's happened. I mean, what
+
+00:24:18.000 --> 00:24:35.000
+identifier is for that particular hospital, Baptist. So typically, you go to admission desk, and you give them your name and address, and they look you up and search, and they say, okay, this is it. And that's the reason they put that band around your wrist that has that patient number
+
+00:24:35.000 --> 00:24:45.000
+So that whenever you go to any particular procedure, you get an X-ray or some dose of medicine, they can scan that barcode on that
+
+00:24:45.000 --> 00:25:00.000
+On that wristband to be sure that they're appending the correct identifier for you as a patient in that hospital to the records that they're generating, test records or x-ray records, whatever.
+
+00:25:00.000 --> 00:25:12.000
+And so again, the whole point of this is it simplifies the deduplication and integration of records downstream business units, for example, in the hospital again
+
+00:25:12.000 --> 00:25:22.000
+That very easy way to bring together all the treatments that you've had in different departments of the hospital at different times into a single medical chart
+
+00:25:22.000 --> 00:25:29.000
+So that's the management master data. It's a very big operation, and there are many vendors in this space
+
+00:25:29.000 --> 00:25:34.000
+Now, transactional data is sort of like the verbs, right? There's something happening
+
+00:25:34.000 --> 00:25:46.000
+with those entities, right? So, for example, a good example would be, like, a sales order or credit card payment, or insurance claim. What's happening is
+
+00:25:46.000 --> 00:26:01.000
+You've got a sales associate who's an employee that has an employee number, and the transaction is sold a product which has also is in master data management. So again, just like in a language, the
+
+00:26:01.000 --> 00:26:06.000
+The transactional data sort of represents sentences where you have subject
+
+00:26:06.000 --> 00:26:19.000
+verbs and objects, right? A sales associate sells a product to a… and again there would also be a customer
+
+00:26:19.000 --> 00:26:24.000
+So, the sales associate and the product, the customer number are all under Master Data Management
+
+00:26:24.000 --> 00:26:30.000
+We want a unique identifiers for each one of our customers, unique identifiers for each one of our products
+
+00:26:30.000 --> 00:26:38.000
+Each one of our employees and then in this case, we want a lot of duplication
+
+00:26:38.000 --> 00:26:49.000
+In Master Data Management, we don't want duplicates. We don't want to put the same customer in the master data file twice because now it looks like two customers instead of one
+
+00:26:49.000 --> 00:27:01.000
+So we really want to deduplicate our master files. We want one-to-one correspondence, one master record for each entity that we're tracking.
+
+00:27:01.000 --> 00:27:03.000
+If it's a patient, a customer, a product
+
+00:27:03.000 --> 00:27:17.000
+On the other hand, transactional data, we want lots of it, right? We would like to sell lots of product P456, right? The more we sell, the more profits that we can make. So there, it's different. We want lots of transactions
+
+00:27:17.000 --> 00:27:28.000
+But by embedding semantically encoding those transactions with the identifiers of the master data, then it makes it very easy for us to
+
+00:27:28.000 --> 00:27:43.000
+to do our downstream systems where we're making invoices or making sales reports, inventory, we can track those things because we have those unique identifiers.
+
+00:27:43.000 --> 00:27:48.000
+And then the third type of data is reference data
+
+00:27:48.000 --> 00:28:00.000
+And reference data is really very much like master data, except it's simpler in the sense that it really deals with code or classification schemes
+
+00:28:00.000 --> 00:28:04.000
+That are referenced by transaction records
+
+00:28:04.000 --> 00:28:08.000
+or master record, so it it
+
+00:28:08.000 --> 00:28:16.000
+What reference data is, is an agreement on what codes we're going to use so that data becomes interoperable
+
+00:28:16.000 --> 00:28:19.000
+Take, for example, here at the university
+
+00:28:19.000 --> 00:28:31.000
+Well, you're not here at the university, many of you, but we have codes that represent the buildings on campus, right? So right now I'm in
+
+00:28:31.000 --> 00:28:33.000
+EIT building
+
+00:28:33.000 --> 00:28:35.000
+And
+
+00:28:35.000 --> 00:28:50.000
+The electronics or engineering, I'm sorry, engineering and information technology building. It's abbreviated as EIT. But we want to use that. We want to consistently use that code so that there's no confusion
+
+00:28:50.000 --> 00:29:02.000
+If somebody else is using a different code, then, again, it's the same problem as Master Data Management. But in the idea of reference data is that we don't have to semantically encode it
+
+00:29:02.000 --> 00:29:10.000
+In other words, I don't want to go to another step and another abstraction and say, well, here's the engineering and information technology building
+
+00:29:10.000 --> 00:29:14.000
+I don't want to sign… try to assign it a
+
+00:29:14.000 --> 00:29:25.000
+a numeric identifier to track it because it's very simple. If I just consistently use EIT, it's a single value
+
+00:29:25.000 --> 00:29:33.000
+The same thing with postal codes, right? So Arkansas is standard postal code is capital A, capital R.
+
+00:29:33.000 --> 00:29:48.000
+And so, as long as we consistently use that in an address context, it's clear that if I see AR, it means Arkansas, and if I want to use Arkansas, I should encode it as AR.
+
+00:29:48.000 --> 00:29:57.000
+So it's somewhat similar to master data, but it's a little simpler in that we're really dealing mainly with codes
+
+00:29:57.000 --> 00:30:09.000
+And by using the same codes, for example, in courses here on campus, everybody understands that when they see the code EIT by a class listing or course listing
+
+00:30:09.000 --> 00:30:15.000
+They know that it's referring to a particular building on campus
+
+00:30:15.000 --> 00:30:25.000
+And so reference data is very helpful, very key to data integration and data interoperability, just like master data
+
+00:30:25.000 --> 00:30:35.000
+So we see a lot of those postal codes, the universal product codes, things like that. So some of the codes may be from outside
+
+00:30:35.000 --> 00:30:46.000
+that are kind of standard. For example, ISO has many, many standard codes for geographic, like the codes that we were talking about for states, but also
+
+00:30:46.000 --> 00:30:49.000
+countries, for
+
+00:30:49.000 --> 00:30:52.000
+For
+
+00:30:52.000 --> 00:30:56.000
+The money, currency codes
+
+00:30:56.000 --> 00:31:06.000
+And so forth. So there are many sort of agreed-on nationally or international for postal codes would be within the United States are agreed upon
+
+00:31:06.000 --> 00:31:13.000
+ISO codes would be, you know, universally agreed upon by all countries that participate in ISO
+
+00:31:13.000 --> 00:31:20.000
+So those are external, but again, we often have internal code, just like I was talking about
+
+00:31:20.000 --> 00:31:27.000
+Unfortunately, ISO doesn't have a set of codes for the buildings on the UA Little Rock campus
+
+00:31:27.000 --> 00:31:42.000
+We build those and maintain those on our own, as well as our job codes here, so forth and so on. So, the reference data could be that we require it to be some kind of national or international standard
+
+00:31:42.000 --> 00:31:48.000
+Or we invent our own for our particular context.
+
+00:31:48.000 --> 00:31:54.000
+So metadata, the fourth type of data
+
+00:31:54.000 --> 00:32:02.000
+Metadata literally means data about data. So, again, if you have raw data values
+
+00:32:02.000 --> 00:32:04.000
+Then
+
+00:32:04.000 --> 00:32:11.000
+They can be very ambiguous, right? I have a date
+
+00:32:11.000 --> 00:32:14.000
+That I have a date value
+
+00:32:14.000 --> 00:32:24.000
+If I just give you a date value, then you know intrinsically what it means, and if you recognize the format, and you say, well, oh
+
+00:32:24.000 --> 00:32:31.000
+This is July the 4th, 1959. I recognize that by the layout
+
+00:32:31.000 --> 00:32:46.000
+But what is the meaning? What is the semantics of that? I mean, it means a particular date in the calendar, but in a particular application, what does it mean? Is it a date of birth? Is it a date of a sales transaction? Could be many, many things
+
+00:32:46.000 --> 00:32:50.000
+So metadata helps to clear that up
+
+00:32:50.000 --> 00:32:54.000
+If I have a field of dates and I label it as
+
+00:32:54.000 --> 00:32:59.000
+dates of birth, and I know that what I'm describing with those dates
+
+00:32:59.000 --> 00:33:03.000
+The dates of birth were the associated entity.
+
+00:33:03.000 --> 00:33:12.000
+And so they label, describe, and characterize other data to make it easier to retrieve, interpret, or use
+
+00:33:12.000 --> 00:33:21.000
+Technical metadata is data that and business metadata are two major types of metadata
+
+00:33:21.000 --> 00:33:29.000
+Technical metadata describes technology systems, data structures, data quality rules, data standards
+
+00:33:29.000 --> 00:33:34.000
+Business data is more about how the operations are to be performed. What are the rules
+
+00:33:34.000 --> 00:33:49.000
+Can a product be returned? Does it require receipt? Can it be returned after 30 days? Different types of rules about the conduct of the business
+
+00:33:49.000 --> 00:33:57.000
+Again, I keep saying business, but this could be any organization. It could be like a hospital or it could be like a government agency.
+
+00:33:57.000 --> 00:34:01.000
+So those are the two different types of
+
+00:34:01.000 --> 00:34:04.000
+metadata that we typically encounter
+
+00:34:04.000 --> 00:34:11.000
+And there are many metadata management tools
+
+00:34:11.000 --> 00:34:16.000
+One has become very popular now with the
+
+00:34:16.000 --> 00:34:18.000
+And metadata
+
+00:34:18.000 --> 00:34:23.000
+It has become very important in the area of data governance
+
+00:34:23.000 --> 00:34:26.000
+So as we mentioned earlier in this lecture
+
+00:34:26.000 --> 00:34:31.000
+Data governance are the rules for making decisions about data.
+
+00:34:31.000 --> 00:34:33.000
+What rules do you have to follow
+
+00:34:33.000 --> 00:34:35.000
+And so
+
+00:34:35.000 --> 00:34:42.000
+In some ways, data governance is about managing metadata
+
+00:34:42.000 --> 00:34:49.000
+So, data catalogs are intended to describe the data that you have in an organization
+
+00:34:49.000 --> 00:35:02.000
+track what's in it, the description of what's in the data, where it's located, what are its characteristics. So data catalogs have become very important and they're huge tools that vendors have
+
+00:35:02.000 --> 00:35:10.000
+To help in tracking data, because if you don't know the metadata, the data are pretty much useless to you, right? You
+
+00:35:10.000 --> 00:35:13.000
+And we have I wrote an article
+
+00:35:13.000 --> 00:35:18.000
+A few years ago called data littering
+
+00:35:18.000 --> 00:35:25.000
+And it was at a time when there was a lot of emphasis on data literacy. So people thought I just misspoke
+
+00:35:25.000 --> 00:35:31.000
+And so I meant to say data literacy, but I said data literary. But no, I meant it
+
+00:35:31.000 --> 00:35:40.000
+Explicitly. And what I was talking about is data littering is distributing data without metadata
+
+00:35:40.000 --> 00:35:54.000
+You have a file, you're working with it, you and a buddy know what's going on, you're exchanging the file back and forth with a spreadsheet or something, but it really doesn't have adequate description of what's in the data, when it was captured, what it was for
+
+00:35:54.000 --> 00:35:59.000
+And that gets out there somewhere. Somebody finds it, or it gets on
+
+00:35:59.000 --> 00:36:07.000
+a thumb drive or something, and you're basically littering data around because you kind of… it's like throwing
+
+00:36:07.000 --> 00:36:12.000
+wrapper out of a car onto the street you know it's
+
+00:36:12.000 --> 00:36:23.000
+You've thrown it out there, no, and what's the… it's not useful, right? It's not useful anymore because it doesn't have that metadata associated with it. So I call
+
+00:36:23.000 --> 00:36:26.000
+They know littering
+
+00:36:26.000 --> 00:36:37.000
+Business glossary. So data catalogs tend to be like data dictionaries that really describe the content of a particular file or a particular database
+
+00:36:37.000 --> 00:36:39.000
+Business glossaries
+
+00:36:39.000 --> 00:36:44.000
+are more on the side of understanding how that data
+
+00:36:44.000 --> 00:36:51.000
+So some data is sort of native data. In other words, if you take payroll data, right
+
+00:36:51.000 --> 00:37:04.000
+So the native data in a payroll system would be the data about who's the employee, how many hours did they work, or are they on a salary, are they hourly? The information describing that
+
+00:37:04.000 --> 00:37:12.000
+But then those items of data are sort of given items, native items, that come out of
+
+00:37:12.000 --> 00:37:14.000
+the system
+
+00:37:14.000 --> 00:37:19.000
+And so… but you're going to generate data off of that data
+
+00:37:19.000 --> 00:37:33.000
+You're going to take those hours, you're going to take the rate of pay and so forth, and you're going to compute a new data value, which is the gross pay, the net pay, the deduction. There'll be a whole nother set of items
+
+00:37:33.000 --> 00:37:41.000
+that did not come into the company through some file. Their data that's generated to run the business
+
+00:37:41.000 --> 00:37:56.000
+And so, the business glossary should describe those items that are not necessarily out there in a file, but are generated in the operation of the company and exactly how those are generated, what was the logic in generating
+
+00:37:56.000 --> 00:38:08.000
+What was the logic? How was your net pay calculated? When I say this item of value or this data value is your net pay, you need something that describes
+
+00:38:08.000 --> 00:38:17.000
+Beyond just saying this is what's going to be on your paycheck, you need something that says, how did I calculate that
+
+00:38:17.000 --> 00:38:24.000
+So there's processes as well that metadata documents that run
+
+00:38:24.000 --> 00:38:30.000
+systems, how those systems are to be run, what are the rules for running those
+
+00:38:30.000 --> 00:38:38.000
+And business process management tools that automate. And this is another place where AI is starting to come into
+
+00:38:38.000 --> 00:38:46.000
+The picture because now what we're looking at is what we call Agentic AI
+
+00:38:46.000 --> 00:38:51.000
+And in the early days, it's only been a couple of years ago
+
+00:38:51.000 --> 00:38:54.000
+of large language models
+
+00:38:54.000 --> 00:39:09.000
+you know, I mean, it's very fascinating. But they were more prompt in response, right? It's like having a dialogue. We call them chatbots, right? So we type something in, some sentence or some question, could be long or give it a document
+
+00:39:09.000 --> 00:39:13.000
+And we ask it a question about, you know, what
+
+00:39:13.000 --> 00:39:18.000
+What should I do here if I've got these symptoms
+
+00:39:18.000 --> 00:39:24.000
+And it would think about it, and it would give a response. So it's this idea of prompt and response, prompt and response
+
+00:39:24.000 --> 00:39:28.000
+But now there's another
+
+00:39:28.000 --> 00:39:32.000
+facet that's been developed, and that is this idea of
+
+00:39:32.000 --> 00:39:40.000
+The large language model being able to do something rather than just respond in text
+
+00:39:40.000 --> 00:39:50.000
+You can actually ask it to do something, and it can operate other systems. It can go in and read something from a database, or it can write an email
+
+00:39:50.000 --> 00:39:54.000
+or can ride a ticket that goes in your Jira system
+
+00:39:54.000 --> 00:39:58.000
+So it can be connected with other systems to do things
+
+00:39:58.000 --> 00:40:01.000
+And not only that, it can be
+
+00:40:01.000 --> 00:40:10.000
+You can make decisions. It can evaluate and basically become like an employee in the company
+
+00:40:10.000 --> 00:40:15.000
+to doing things, and so now this has opened up a whole new world of Agentic AI
+
+00:40:15.000 --> 00:40:19.000
+Where people are creating these little
+
+00:40:19.000 --> 00:40:34.000
+computer employees that work inside the computer, and they can do things. They can book an airline ticket for you, and they can evaluate, make decisions. They can say, no, there's no seats available in this, I need to go back
+
+00:40:34.000 --> 00:40:46.000
+That's another way to get to Chicago. Is there another flight? All the things that you would do if you were sitting at a console trying to book tickets for your airline
+
+00:40:46.000 --> 00:40:59.000
+You can get agents just like a real person travel agent. You can have a computer agent and large language model that can go through and make those kind of decisions and loop back on itself.
+
+00:40:59.000 --> 00:41:02.000
+So this has opened up quite a bit
+
+00:41:02.000 --> 00:41:10.000
+versatility. Again, the only big issue that we're running into there is, well, there's a couple of them. One is
+
+00:41:10.000 --> 00:41:18.000
+Again, the large language models, even though they can reason, are probabilistic models and sometimes
+
+00:41:18.000 --> 00:41:27.000
+They… what we call hallucinating, which is really nothing more than making a bad prediction. Language models are predictive machines that
+
+00:41:27.000 --> 00:41:35.000
+You give it words, and they try to predict what the next word is going to be. So they're very probabilistic in their operation
+
+00:41:35.000 --> 00:41:51.000
+And so they make mistakes. So, again, they are very human in that they can do human things of making human-like decisions, but they can also make human-like mistakes as well. So one issue is how do you put up guardrails to be sure that
+
+00:41:51.000 --> 00:41:57.000
+These little workers don't go crazy on you and do something that would really harm your business
+
+00:41:57.000 --> 00:42:02.000
+And the other is, again, it's the same issue. They're slow
+
+00:42:02.000 --> 00:42:08.000
+And I say slow, I mean it may seem very fast that it's operating in seconds
+
+00:42:08.000 --> 00:42:24.000
+But in terms of what we're used to with our current legacy systems that are rule-based, that are deterministic and not probabilistic, that their operations take place in milliseconds or microseconds
+
+00:42:24.000 --> 00:42:32.000
+And so they can process vast amounts of data in a reasonable amount of time. But that becomes an issue for AI models
+
+00:42:32.000 --> 00:42:36.000
+So we're dealing with
+
+00:42:36.000 --> 00:42:39.000
+So what I want to do
+
+00:42:39.000 --> 00:42:42.000
+Before we run out of time
+
+00:42:42.000 --> 00:42:46.000
+Before I go into data quality and data requirements
+
+00:42:46.000 --> 00:42:49.000
+I want to
+
+00:42:49.000 --> 00:42:59.000
+Talk a little bit, foreshadow a little bit about your assignment that's coming. So I have given you an assignment
+
+00:42:59.000 --> 00:43:06.000
+See how much farther I have to go here.
+
+00:43:06.000 --> 00:43:08.000
+Yeah
+
+00:43:08.000 --> 00:43:18.000
+Let's finish this. I don't want to keep going on this. So let me quickly finish off these last few slides here
+
+00:43:18.000 --> 00:43:23.000
+So data quality requirements. So we've already said that data requirements
+
+00:43:23.000 --> 00:43:27.000
+or, you know, data model schema, business rules
+
+00:43:27.000 --> 00:43:32.000
+standards. And I like to call them data specification
+
+00:43:32.000 --> 00:43:37.000
+So again, our definition of data quality
+
+00:43:37.000 --> 00:43:41.000
+His data quality is where is data conformance to data requirements
+
+00:43:41.000 --> 00:43:52.000
+So missing or poorly defined data primates lead to poor data quality. And we're going to see that. I want to talk about this because this is part of your assignment that you're going to be working on
+
+00:43:52.000 --> 00:43:58.000
+So what I'm going to be asking you to do in this assignment is to do some data analysis
+
+00:43:58.000 --> 00:44:04.000
+But I'm not asking you to determine data quality
+
+00:44:04.000 --> 00:44:10.000
+And the reason is, you can only determine data quality when you know what the data requirements are
+
+00:44:10.000 --> 00:44:17.000
+And so in this assignment, I'm not giving you any particular data requirements. I'm just asking you to analyze some data
+
+00:44:17.000 --> 00:44:19.000
+So
+
+00:44:19.000 --> 00:44:22.000
+We'll get to that later
+
+00:44:22.000 --> 00:44:31.000
+So data standards, those are a collection of related data requirements to ensure that everyone is organizing and acting in a consistent way.
+
+00:44:31.000 --> 00:44:36.000
+The way you name data, the way you define it, the way you format it
+
+00:44:36.000 --> 00:44:44.000
+The way you validate it and you follow specific business rules. Those are standards in an organization
+
+00:44:44.000 --> 00:44:50.000
+So we have data models, typically we have relational models. Those are called schemas. But now
+
+00:44:50.000 --> 00:44:54.000
+These models have become a little more open
+
+00:44:54.000 --> 00:44:56.000
+And
+
+00:44:56.000 --> 00:45:00.000
+One problem with data models is that
+
+00:45:00.000 --> 00:45:04.000
+There's famous statistician named George Box
+
+00:45:04.000 --> 00:45:08.000
+And he'd made this comment become quite famous
+
+00:45:08.000 --> 00:45:11.000
+He said that
+
+00:45:11.000 --> 00:45:14.000
+models are wrong, but some are useful
+
+00:45:14.000 --> 00:45:23.000
+And that tends to be true in the traditional way that we process data. We set up a model, typically it's a relational database model
+
+00:45:23.000 --> 00:45:31.000
+And we try to think ahead and say, you know, will this accommodate everything that's going to happen? And of course, it never does
+
+00:45:31.000 --> 00:45:41.000
+Things change, the data changes. And so we constantly having to sort of update our models to keep them where they're still useful to us.
+
+00:45:41.000 --> 00:45:48.000
+Because we're always going to be wrong once we set a model, because traditionally what we do is we take data
+
+00:45:48.000 --> 00:45:54.000
+And we try to transform it to fit into the model. So we lose the original data
+
+00:45:54.000 --> 00:46:00.000
+And this is what's led to the modern idea of data warehouses or data lakes
+
+00:46:00.000 --> 00:46:09.000
+Especially the idea of a data lake, is that you take the original raw data and you preserve it in a data lake
+
+00:46:09.000 --> 00:46:23.000
+Then pull it out and transform it the way you want to fit it into your model, so that you can always go back to the original data in case there is a problem or a mistake.
+
+00:46:23.000 --> 00:46:28.000
+So, that covers that. Let me talk a little bit about what I'm going to be asking you to do
+
+00:46:28.000 --> 00:46:32.000
+So for your assignment
+
+00:46:32.000 --> 00:46:47.000
+I'm warning you.
+
+00:46:47.000 --> 00:46:53.000
+So I'm going to ask you to install on your system your laptop, whatever you're using
+
+00:46:53.000 --> 00:46:57.000
+A system called OpenRefine
+
+00:46:57.000 --> 00:47:00.000
+And
+
+00:47:00.000 --> 00:47:03.000
+I've given you the
+
+00:47:03.000 --> 00:47:06.000
+The address for it
+
+00:47:06.000 --> 00:47:10.000
+OpenRefine
+
+00:47:10.000 --> 00:47:13.000
+What I'm asking you to do is install that
+
+00:47:13.000 --> 00:47:16.000
+And then
+
+00:47:16.000 --> 00:47:31.000
+Open it up. Let me open
+
+00:47:31.000 --> 00:47:35.000
+So here's what the interface looks like
+
+00:47:35.000 --> 00:47:40.000
+Okay
+
+00:47:40.000 --> 00:47:48.000
+This is the basic interface for OpenRAM. It's very simple to use. So what I'm going to ask you to do is create a project
+
+00:47:48.000 --> 00:47:53.000
+And you create a project by uploading a file
+
+00:47:53.000 --> 00:48:01.000
+So in this case, I'm just going to show you here, I've got
+
+00:48:01.000 --> 00:48:06.000
+This is different than the one that you're going to be using
+
+00:48:06.000 --> 00:48:13.000
+So I've chosen this project dataset. To create a project, I just hit the next button
+
+00:48:13.000 --> 00:48:17.000
+And it uploads the data.
+
+00:48:17.000 --> 00:48:20.000
+And so
+
+00:48:20.000 --> 00:48:26.000
+It's going to give me a lot of information about
+
+00:48:26.000 --> 00:48:29.000
+About this data
+
+00:48:29.000 --> 00:48:33.000
+For example, up here, it's showing me some of the data
+
+00:48:33.000 --> 00:48:36.000
+And it
+
+00:48:36.000 --> 00:48:40.000
+Sorry, this interface is a little
+
+00:48:40.000 --> 00:48:46.000
+It'll tell me a lot about it, and I don't want to do too much here
+
+00:48:46.000 --> 00:48:55.000
+Because I want you to figure out some of this on your own. But it tells you that this is comma-separated data
+
+00:48:55.000 --> 00:49:00.000
+That
+
+00:49:00.000 --> 00:49:08.000
+That are 860 rows of data in this particular file. And I can see
+
+00:49:08.000 --> 00:49:11.000
+hear what's in these
+
+00:49:11.000 --> 00:49:21.000
+records and here I'm just showing five or sorry, 10 records, but I could show all of them. I could do click on this and now
+
+00:49:21.000 --> 00:49:24.000
+I've got all 86
+
+00:49:24.000 --> 00:49:29.000
+And all you need to do to analyze this data for this particular assignment anyway
+
+00:49:29.000 --> 00:49:32.000
+is to
+
+00:49:32.000 --> 00:49:37.000
+You see these little down arrows by each data column
+
+00:49:37.000 --> 00:49:43.000
+This is very similar to the filter that you have in Excel. So what it does is when I click on it
+
+00:49:43.000 --> 00:49:48.000
+I can say I want to facet. So the facet is that you want to use the facet
+
+00:49:48.000 --> 00:49:53.000
+And all of these fields here are text fields, and I say I want a text facet
+
+00:49:53.000 --> 00:50:03.000
+And it gives me the information about it. It profiles that and says, okay, there's 17 S1s, there's 18 S10s
+
+00:50:03.000 --> 00:50:05.000
+So forth and so on
+
+00:50:05.000 --> 00:50:07.000
+And
+
+00:50:07.000 --> 00:50:08.000
+That's
+
+00:50:08.000 --> 00:50:13.000
+All of the different values if
+
+00:50:13.000 --> 00:50:17.000
+go over here and look at type
+
+00:50:17.000 --> 00:50:22.000
+And do the text facet there
+
+00:50:22.000 --> 00:50:25.000
+Then I can see that
+
+00:50:25.000 --> 00:50:37.000
+Here there's 138 of these are labeled documentary, 151 movie with a capital M, and 151 are labeled movie with a lowercase M
+
+00:50:37.000 --> 00:50:47.000
+There's stand up, there's TV shows, and again, there's two variations of TV shows, one with Capitol TV and S, another without
+
+00:50:47.000 --> 00:50:49.000
+So
+
+00:50:49.000 --> 00:50:53.000
+So again, this would be the thing you would be looking for, right? So this is
+
+00:50:53.000 --> 00:51:05.000
+You know, it seems like it's wrong because you would want it to be consistent. This shows an inconsistency
+
+00:51:05.000 --> 00:51:08.000
+And
+
+00:51:08.000 --> 00:51:11.000
+We would have, for example, over here
+
+00:51:11.000 --> 00:51:20.000
+We look at titles, we look at those
+
+00:51:20.000 --> 00:51:23.000
+So
+
+00:51:23.000 --> 00:51:29.000
+So basically, all I want you to do is use this tool to go through and be able to look for
+
+00:51:29.000 --> 00:51:33.000
+What you think
+
+00:51:33.000 --> 00:51:43.000
+unusual things, anomalies, things that might need to be looked at, things that might be a problem. For example, here in country
+
+00:51:43.000 --> 00:51:51.000
+We can see that 51 of these are blank. Now, is that a data quality error? We don't know unless we actually had the requirement
+
+00:51:51.000 --> 00:52:06.000
+If the country was a required field, then yes, that represents 51 data quality errors. But again, I'm not giving you any data requirements for the file that you're going to be looking at. Just asking you to explore and kind of get a feeling
+
+00:52:06.000 --> 00:52:09.000
+For looking at data
+
+00:52:09.000 --> 00:52:18.000
+Because as I said in the very beginning, it's very important when you're working with data to actually look at it and get a feel and understand what it's like
+
+00:52:18.000 --> 00:52:22.000
+So this is going to be your assignment for
+
+00:52:22.000 --> 00:52:26.000
+Coming up for next week
+
+00:52:26.000 --> 00:52:43.000
+is to install OpenRefine and upload a file that I've put out there in your assignment and write a description of that file, all the things that you find about it, how many records are in it, what are the types of fields, what are the characteristics, and so forth
+
+00:52:43.000 --> 00:52:52.000
+Now, I want you to use OpenRefine to do that and it's okay if you want to give the file to an AI model and ask it to look for things as well
+
+00:52:52.000 --> 00:53:00.000
+And it'd be interesting to see if those models give you the same kind of answers that you would get from OpenRefine
+
+00:53:00.000 --> 00:53:12.000
+But anyway, I'll leave that up to you. That's optional. The main thing I want is for you to turn in a report that describes the characteristics of the file that you're analyzing.
+
+00:53:12.000 --> 00:53:15.000
+Any questions about that?
+
+00:53:15.000 --> 00:53:21.000
+Very good
+
+00:53:21.000 --> 00:53:22.000
+Nope
+
+00:53:22.000 --> 00:53:29.000
+Okay, yes, Dalla.
+
+00:53:29.000 --> 00:53:30.000
+Okay, good.
+
+00:53:30.000 --> 00:53:31.000
+Thank you. I think I understand what was required. Thank you
+
+00:53:31.000 --> 00:53:38.000
+Yeah, we'll get into some more sophisticated tools later, but this is kind of everybody get their feet wet.
+
+00:53:38.000 --> 00:53:45.000
+Okay, there's no other questions. I'm going to call it quits here, but
+
+00:53:45.000 --> 00:53:47.000
+234 mark
+
+00:53:47.000 --> 00:53:51.000
+And we'll continue this
+
+00:53:51.000 --> 00:53:54.000
+Next Tuesday, thank you
+
+00:53:54.000 --> 00:53:58.000
+Thank you.
+

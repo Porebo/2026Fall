@@ -1,0 +1,2310 @@
+WEBVTT
+
+1
+00:00:02.350 --> 00:00:03.290
+John Talburt: Thank you.
+
+2
+00:00:04.170 --> 00:00:10.580
+John Talburt: All right, well, welcome, everybody. This is our course on Principles of information quality.
+
+3
+00:00:11.000 --> 00:00:19.350
+John Talburt: It's generally a gateway to our program, and so, for that reason, what I like to use, do
+
+4
+00:00:19.670 --> 00:00:23.989
+John Talburt: is talk about the overall information quality program in general.
+
+5
+00:00:24.230 --> 00:00:35.950
+John Talburt: And after that, I'll talk about the policies for this particular course, and if we have time, I may get started with some of the content. But mainly today, I wanted to kind of give an overview
+
+6
+00:00:36.410 --> 00:00:42.550
+John Talburt: So, of the graduate program, and some of you are in the master's, some of you are in the PhD.
+
+7
+00:00:43.080 --> 00:00:47.840
+John Talburt: Anyway, I think this might be helpful for you.
+
+8
+00:00:50.260 --> 00:01:03.470
+John Talburt: So, first of all, I want to start off, that we all kind of agree, or, well, you don't have to agree, but this is the way we define information quality, and of course, there's a lot of ways to do it.
+
+9
+00:01:03.720 --> 00:01:07.409
+John Talburt: Most people, when you talk about palsy, they just say accuracy.
+
+10
+00:01:07.530 --> 00:01:10.710
+John Talburt: Another common one is Fitness for Use.
+
+11
+00:01:11.240 --> 00:01:16.099
+John Talburt: Others say, well, it's accurate, complete, and they start giving a lot of characteristics.
+
+12
+00:01:16.490 --> 00:01:20.730
+John Talburt: Right information, right time, right place,
+
+13
+00:01:21.050 --> 00:01:26.099
+John Talburt: More of a… a practice type of definition.
+
+14
+00:01:27.810 --> 00:01:36.949
+John Talburt: And really, underneath, this one is pretty accurate. It's the application of total quality management Principles to building information products.
+
+15
+00:01:37.580 --> 00:01:43.830
+John Talburt: It's not the formal definition, but this is where information quality as a discipline came from.
+
+16
+00:01:44.380 --> 00:01:47.520
+John Talburt: So, back in the 1980s,
+
+17
+00:01:48.050 --> 00:01:53.520
+John Talburt: There was a movement in manufacturing called Total Quality Management.
+
+18
+00:01:53.930 --> 00:01:56.579
+John Talburt: And it really started in Japan.
+
+19
+00:01:57.070 --> 00:02:13.300
+John Talburt: As you may… well, I'm sure you don't remember, but you may know that, after World War II, after the United States destroyed all of Japan's manufacturing, they got a chance to start all over again, and we helped them.
+
+20
+00:02:13.410 --> 00:02:17.579
+John Talburt: And part of that help was that some of the people here in the U.S.
+
+21
+00:02:18.020 --> 00:02:24.220
+John Talburt: who were advocates of quality, went over there to help the Japanese.
+
+22
+00:02:24.470 --> 00:02:28.249
+John Talburt: Deming was one of them, a very important one.
+
+23
+00:02:28.360 --> 00:02:32.929
+John Talburt: And, Deming had many principles about
+
+24
+00:02:33.160 --> 00:02:37.100
+John Talburt: How you, you create a quality product.
+
+25
+00:02:37.400 --> 00:02:38.740
+John Talburt: And,
+
+26
+00:02:39.420 --> 00:02:52.950
+John Talburt: Anyway, the Japanese were very excited about it, and they adopted it, and as you may know also, they adopted it so well that they almost took over the car market. They actually did
+
+27
+00:02:53.110 --> 00:03:02.879
+John Talburt: take away a huge chunk of the U.S. car market, because they manufactured automobiles, even today, like Toyotas and Hondas.
+
+28
+00:03:03.010 --> 00:03:07.370
+John Talburt: That, were super high quality, reliable, dependable.
+
+29
+00:03:07.640 --> 00:03:13.770
+John Talburt: And, and so then it came back to the U.S, and
+
+30
+00:03:14.130 --> 00:03:16.740
+John Talburt: And of course, now just about everybody
+
+31
+00:03:17.040 --> 00:03:22.100
+John Talburt: in manufacturing follows total quality management Principles. As a matter of fact.
+
+32
+00:03:22.330 --> 00:03:29.449
+John Talburt: The International Organization for Standardization, called ISO, has,
+
+33
+00:03:29.600 --> 00:03:33.559
+John Talburt: Enshrine the total quality management in some
+
+34
+00:03:33.860 --> 00:03:45.110
+John Talburt: standards, the ISO 9000 standards, and we'll talk more about that later. But it… but, anyway, so what happened is that,
+
+35
+00:03:46.810 --> 00:03:50.729
+John Talburt: Before I get into our definition and finish this thought here.
+
+36
+00:03:50.940 --> 00:03:57.339
+John Talburt: Is that, early on in the later 1980s and early 1990s.
+
+37
+00:03:57.680 --> 00:04:01.709
+John Talburt: The people who were in the data management industry
+
+38
+00:04:02.110 --> 00:04:05.969
+John Talburt: And especially in the academic side at MIT,
+
+39
+00:04:06.480 --> 00:04:20.110
+John Talburt: They saw this, and they said, you know, the way to think about data and how we're using data is that we're really manufacturing something. We're manufacturing a data or information product
+
+40
+00:04:20.510 --> 00:04:25.770
+John Talburt: We're taking raw data, processing it through, and we're not using
+
+41
+00:04:25.970 --> 00:04:29.460
+John Talburt: Mechanical machines, but we're using computers.
+
+42
+00:04:29.650 --> 00:04:36.609
+John Talburt: We're using these computers to manipulate the raw data into an information product.
+
+43
+00:04:36.910 --> 00:04:43.630
+John Talburt: We take data and make it into information by adding context around it, bringing things together.
+
+44
+00:04:43.680 --> 00:05:02.879
+John Talburt: And so, by taking that idea that in data management, we're really manufacturing information products, and that we should manage information as a product, then why reinvent the wheel? Let's take the principles that have already been developed.
+
+45
+00:05:02.910 --> 00:05:06.919
+John Talburt: In manufacturing, and apply them to data.
+
+46
+00:05:07.200 --> 00:05:12.970
+John Talburt: And so, this is… we have the discipline of… Information quality has,
+
+47
+00:05:13.510 --> 00:05:19.089
+John Talburt: has evolved, and it's the reason, then, that I like to make a
+
+48
+00:05:19.270 --> 00:05:23.210
+John Talburt: A distinction between information quality and data quality.
+
+49
+00:05:23.360 --> 00:05:25.330
+John Talburt: Now, not everybody does.
+
+50
+00:05:25.930 --> 00:05:28.909
+John Talburt: But since I'm the teacher, then I can do whatever I want to.
+
+51
+00:05:29.200 --> 00:05:35.360
+John Talburt: So, so, information quality is an information science discipline.
+
+52
+00:05:36.050 --> 00:05:46.819
+John Talburt: And of course, hopefully by now you understand the difference between information science and computer science. Again, it's the same kind of two sides of the coin.
+
+53
+00:05:47.140 --> 00:06:06.430
+John Talburt: computer science is about the computers and the hardware and the software, and the information science is about the data and the information. And of course, they work together. So, as a matter of fact, I don't know if you're aware or not, but there has been a change in alignment here at the university.
+
+54
+00:06:06.540 --> 00:06:13.239
+John Talburt: And we no longer have a Department of Computer Science and a Department of Information Science.
+
+55
+00:06:13.530 --> 00:06:18.259
+John Talburt: As of this summer, As of July the 1st.
+
+56
+00:06:18.520 --> 00:06:34.979
+John Talburt: These two departments were merged together into a school, so we now have the School of Computer and Information Sciences. And of course, this program is a part of that school, so we have a new school here on campus.
+
+57
+00:06:35.120 --> 00:06:38.050
+John Talburt: the School of Computer and Information Sciences.
+
+58
+00:06:38.540 --> 00:06:44.490
+John Talburt: So, information quality is one of the information sciences, so it's a discipline
+
+59
+00:06:44.710 --> 00:06:55.150
+John Talburt: And it's concerned with two main things. The first one is maximizing the value and minimizing the risk of an organization's information assets.
+
+60
+00:06:55.510 --> 00:06:58.999
+John Talburt: So again, in this idea of thinking of
+
+61
+00:06:59.340 --> 00:07:03.829
+John Talburt: Of information quality, or information
+
+62
+00:07:03.950 --> 00:07:23.449
+John Talburt: in a manufacturing sense, right? Information is an asset. It's what we use to create value, for the organization. Just think about here at the university, one of the information products that we manufacture is your transcript.
+
+63
+00:07:23.880 --> 00:07:40.359
+John Talburt: So the transcript has many feeds into it from different classes that you take, the grades that you receive, and so forth. These are brought together, integrated together, and put together, and the product is this transcript.
+
+64
+00:07:40.480 --> 00:07:49.770
+John Talburt: It's very important. It helps you keep track of where you are, but more importantly, once you've finished all the requirements, which again, they go from your transcript.
+
+65
+00:07:50.050 --> 00:07:52.860
+John Talburt: Then it becomes a document.
+
+66
+00:07:52.930 --> 00:07:55.920
+John Talburt: Often now a digital document.
+
+67
+00:07:55.990 --> 00:08:10.210
+John Talburt: That you, for example, you did the master's, and you have your transcript showing you were awarded the master's degree. This is typically what you give as proof to an employer that you've completed your master's degree.
+
+68
+00:08:10.210 --> 00:08:24.540
+John Talburt: Or if you go on to, say, a PhD degree at another school, again, they're going to request and say, we need proof that you've already achieved your master's, and so the transcript would be the way that that is communicated.
+
+69
+00:08:24.660 --> 00:08:32.910
+John Talburt: So that's… that's an information product. Similarly, in a hospital, the same sort of thing happens in your medical chart.
+
+70
+00:08:33.159 --> 00:08:39.510
+John Talburt: You may have many encounters in this hospital, other hospitals, outpatient, inpatient.
+
+71
+00:08:39.559 --> 00:08:53.859
+John Talburt: All these are gathered together, and it's very important that all these are collected accurately, and that your chart reflects everything that's happened to you, and not anything that didn't happen to you from some other patient.
+
+72
+00:08:54.270 --> 00:09:00.050
+John Talburt: So, creating these information products Now,
+
+73
+00:09:00.310 --> 00:09:04.119
+John Talburt: So, the organization that's creating here at the university
+
+74
+00:09:05.270 --> 00:09:11.610
+John Talburt: We create your transcript, that's our information product that we create. You're the consumer of that.
+
+75
+00:09:11.960 --> 00:09:16.769
+John Talburt: So, we want to maximize the value of our information.
+
+76
+00:09:16.890 --> 00:09:35.930
+John Talburt: At the university, and so this is one way we do it. We also do it by taking the enrollment data and analyzing it to see if we're doing a good job, if we can recruit students, how the students are doing, what's causing students to fall out of the classes and leave the university.
+
+77
+00:09:35.930 --> 00:09:48.110
+John Talburt: So we… we do a lot of analysis of this data, and we create a lot of those information products out of that data. All kinds of analyses and reports about, student…
+
+78
+00:09:48.190 --> 00:09:51.480
+John Talburt: Continuation through the, through the program.
+
+79
+00:09:51.740 --> 00:10:01.889
+John Talburt: So that's important, and it creates value for the organization. It helps us maintain enrollments, or increase enrollments, prevent students from getting at risk.
+
+80
+00:10:02.290 --> 00:10:09.629
+John Talburt: And so that's from the internal side. The people who are producing, or the organization that's producing these products.
+
+81
+00:10:09.780 --> 00:10:11.650
+John Talburt: But the other side of the coin.
+
+82
+00:10:11.880 --> 00:10:15.249
+John Talburt: Is that we want to produce information products
+
+83
+00:10:15.410 --> 00:10:18.970
+John Talburt: That create value for the users of those products.
+
+84
+00:10:19.580 --> 00:10:24.120
+John Talburt: And so, again, looking at the transcript idea.
+
+85
+00:10:24.240 --> 00:10:42.739
+John Talburt: that we want it to be valuable to you, and it is valuable to you. It's your proof that you've completed all your requirements, you've received this degree from an accredited university, and of course, there are many other products that we produce for other consumers. For example, the university's required to report
+
+86
+00:10:42.770 --> 00:10:46.130
+John Talburt: To the Arkansas Department of Education.
+
+87
+00:10:46.370 --> 00:11:04.820
+John Talburt: And they want to know, you know, who are the students, how are they doing? What majors do they have, what's their progress, how many of them are completing their degrees, how many are falling out and not completing their degrees, and they use this information
+
+88
+00:11:04.990 --> 00:11:20.150
+John Talburt: And it's valuable to them, but again, at the same time, it becomes valuable to the university, because it's those reports that we get reimbursement or get, funding from the state for our students that we,
+
+89
+00:11:20.400 --> 00:11:21.530
+John Talburt: Enroll.
+
+90
+00:11:21.860 --> 00:11:34.340
+John Talburt: So, again, there's two sides of the coin in the use of information. The value to the owner or the organization that has that information that's creating these information products.
+
+91
+00:11:34.480 --> 00:11:40.310
+John Talburt: And the other side is, we want it to create value for the consumers of those products.
+
+92
+00:11:40.630 --> 00:11:45.380
+John Talburt: So, anyway, the key word in our definition is value.
+
+93
+00:11:46.810 --> 00:11:50.050
+John Talburt: It's all about creating value from information.
+
+94
+00:11:50.890 --> 00:11:52.260
+John Talburt: Now,
+
+95
+00:11:52.400 --> 00:12:04.160
+John Talburt: We'll talk a little bit more about the difference between information quality and data quality as we go on. But this is our definition. So we call our program, an information quality program.
+
+96
+00:12:04.300 --> 00:12:13.629
+John Talburt: It's an Information Quality Master of Science Information Quality track in the PhD program, and it's an Information Quality,
+
+97
+00:12:13.950 --> 00:12:15.560
+John Talburt: A graduate certificate.
+
+98
+00:12:16.160 --> 00:12:18.849
+John Talburt: And those are the 3 degrees that we offer.
+
+99
+00:12:19.770 --> 00:12:27.480
+John Talburt: Now, not long ago, an organization did a certification of information quality.
+
+100
+00:12:27.630 --> 00:12:33.230
+John Talburt: It was information… IQCP, Information Quality Certified Professional.
+
+101
+00:12:33.500 --> 00:12:37.370
+John Talburt: And in order to do that, they had to go through quite a bit of a study.
+
+102
+00:12:37.750 --> 00:12:43.429
+John Talburt: And part of the study resulted in what's called the Information Quality Knowledge and Practice.
+
+103
+00:12:44.120 --> 00:12:53.700
+John Talburt: and so, they categorize the knowledge and practice into, 6, groups.
+
+104
+00:12:54.410 --> 00:13:04.800
+John Talburt: And the first one, again, coincides with our definition, information quality, value, and business impact, or should say organizational impact, because
+
+105
+00:13:05.090 --> 00:13:21.770
+John Talburt: It's not just businesses that use information, it's a lot of nonprofits, like hospitals and governmental organizations. Obviously, the federal government, state government, they use a lot of information and create a lot of information products.
+
+106
+00:13:21.990 --> 00:13:25.980
+John Talburt: And the question is, what's the value and impact of that?
+
+107
+00:13:26.890 --> 00:13:33.100
+John Talburt: And then another that's become extremely important in recent days, or recent years.
+
+108
+00:13:33.470 --> 00:13:37.240
+John Talburt: Is this idea of information quality, strategy, and governance.
+
+109
+00:13:37.630 --> 00:13:48.049
+John Talburt: Back in the day, we just thought of information as a commodity, data, something we would get and use. It was all about creating the programs.
+
+110
+00:13:48.290 --> 00:13:54.389
+John Talburt: Back in the day, when I don't know, I forget the exact number, but it was, like, 70% of…
+
+111
+00:13:54.490 --> 00:13:59.169
+John Talburt: Freshmen entering MIT were going into computer science and programming.
+
+112
+00:13:59.290 --> 00:14:01.020
+John Talburt: Because it was all about
+
+113
+00:14:01.550 --> 00:14:09.350
+John Talburt: Creating these clever processes that would create these products, but the emphasis was just on the data.
+
+114
+00:14:09.570 --> 00:14:17.239
+John Talburt: I'm sorry, just on the processing, the computer programming part of it, and not really about the data itself. But now.
+
+115
+00:14:17.400 --> 00:14:24.259
+John Talburt: That's not such a big deal because, as you're probably aware and may be doing right now.
+
+116
+00:14:24.770 --> 00:14:31.530
+John Talburt: Computer programming is kind of falling by the wayside. Software engineering is being taken over by AI.
+
+117
+00:14:31.880 --> 00:14:36.620
+John Talburt: So, it's pretty easy now to use, Claude or some of these other,
+
+118
+00:14:37.010 --> 00:14:41.739
+John Talburt: Language models to create all kinds of programs for you.
+
+119
+00:14:41.980 --> 00:14:51.239
+John Talburt: And so, the need for having a staff of computer programmers, very knowledgeable about different types of languages and so forth.
+
+120
+00:14:51.420 --> 00:14:54.340
+John Talburt: It's not as distinctive, it's not…
+
+121
+00:14:54.650 --> 00:15:05.409
+John Talburt: Back when you had companies and they could afford to hire a lot of programmers, they had a huge advantage over small companies. But that's really not true anymore.
+
+122
+00:15:05.670 --> 00:15:08.589
+John Talburt: So what, what is the competitive advantage?
+
+123
+00:15:08.700 --> 00:15:19.320
+John Talburt: that these companies have. It's not the programming anymore. It's not having data centers anymore, or maintaining their own
+
+124
+00:15:19.450 --> 00:15:27.719
+John Talburt: equipment. They don't have to have raised floors and have people that, take care of their computers for them, because now we have cloud computing.
+
+125
+00:15:28.230 --> 00:15:31.900
+John Talburt: So the thing that's left that helps
+
+126
+00:15:32.690 --> 00:15:38.380
+John Talburt: Distinguish one organization from another, especially if they're in the same kind of business.
+
+127
+00:15:38.600 --> 00:15:40.519
+John Talburt: Is the data that they have.
+
+128
+00:15:40.910 --> 00:15:44.259
+John Talburt: And so, you need stat… strategies
+
+129
+00:15:44.370 --> 00:15:56.240
+John Talburt: For what data do we need to acquire? What kind of information products do we need to build to be competitive? And how do we maintain control over that data? And that's the idea of data governance.
+
+130
+00:15:56.950 --> 00:16:11.540
+John Talburt: So that's become very important in the last few years, this idea of strategy. Now most… matter of fact, all governmental agencies are required to have what's called a chief data officer.
+
+131
+00:16:12.650 --> 00:16:19.350
+John Talburt: And one of the most important roles of a Chief Data Officer is to create a data strategy for the company.
+
+132
+00:16:19.850 --> 00:16:25.520
+John Talburt: So, strategy and then governance, have become very important. Governance, again, because
+
+133
+00:16:25.750 --> 00:16:42.059
+John Talburt: You want to maintain control of data, but then there are also a lot of regulations around data. For example, here at the university, we're governed by a law called FERPA, which has to do with educational data, so it governs
+
+134
+00:16:42.280 --> 00:16:51.529
+John Talburt: What data that we can release, what data is considered protected, and so we have to be very careful about that, and meet all of those,
+
+135
+00:16:51.840 --> 00:16:55.449
+John Talburt: Requirements. So, that's part of, governance.
+
+136
+00:16:56.520 --> 00:17:00.549
+John Talburt: And then, information quality, environment, and Culture.
+
+137
+00:17:00.650 --> 00:17:04.109
+John Talburt: This is very important because
+
+138
+00:17:04.250 --> 00:17:07.570
+John Talburt: The culture of an organization determines
+
+139
+00:17:07.770 --> 00:17:11.049
+John Talburt: How it does business, how it gets things done.
+
+140
+00:17:11.329 --> 00:17:21.299
+John Talburt: And this has really become extremely important in the last few years with the emergence of AI. We've had many things over the years that have changed our…
+
+141
+00:17:21.400 --> 00:17:25.550
+John Talburt: culture, from big data now into AI,
+
+142
+00:17:25.770 --> 00:17:29.039
+John Talburt: And we need to think about things in a different way.
+
+143
+00:17:29.140 --> 00:17:38.850
+John Talburt: So the idea of change in culture… matter of fact, one of the courses that we teach here is Project and Change Management.
+
+144
+00:17:39.340 --> 00:17:53.109
+John Talburt: And in change management, we don't mean, like, change in releases of code. We're talking about change in culture. How do you change culture so that you keep up? And we look at some use cases, or…
+
+145
+00:17:53.440 --> 00:18:00.639
+John Talburt: Not use cases, but we'll look at some examples of what's happened to those people that are not willing to change their culture.
+
+146
+00:18:00.870 --> 00:18:10.840
+John Talburt: for example, Kodak, That dominated, literally dominated the world in photography, is now just a small company.
+
+147
+00:18:11.230 --> 00:18:16.160
+John Talburt: And the reason that they lost their lead was that they just didn't,
+
+148
+00:18:16.330 --> 00:18:25.610
+John Talburt: changed their ideas about how photography was going to be done. They always thought it was going to be done with film, that digital was just a fad.
+
+149
+00:18:25.790 --> 00:18:28.530
+John Talburt: And so they failed to change and keep up.
+
+150
+00:18:28.770 --> 00:18:31.820
+John Talburt: And create the environment necessary to do that.
+
+151
+00:18:31.930 --> 00:18:39.250
+John Talburt: So you'll notice that when talking about information quality, knowledge, and practice in these six main, groups.
+
+152
+00:18:39.550 --> 00:18:43.840
+John Talburt: Of knowledge and practice, that the first three of them here
+
+153
+00:18:45.090 --> 00:18:56.630
+John Talburt: really don't have anything to do with about dirty data. It's not talking about whether data is timely, whether it's accurate. It's talking about the management of information.
+
+154
+00:18:56.910 --> 00:19:00.170
+John Talburt: So, that's the reason that our program here
+
+155
+00:19:00.510 --> 00:19:06.949
+John Talburt: Is really… could be over in the business school as well as here in… but we ended up in the…
+
+156
+00:19:07.330 --> 00:19:13.310
+John Talburt: College of, Science, technology, engineering, and mathematics.
+
+157
+00:19:13.580 --> 00:19:17.030
+John Talburt: Which, again, so we're sort of half and half.
+
+158
+00:19:17.140 --> 00:19:19.670
+John Talburt: And many people that join our program
+
+159
+00:19:19.860 --> 00:19:25.259
+John Talburt: Do it because of that, because we have a strong management component to our program.
+
+160
+00:19:25.620 --> 00:19:31.469
+John Talburt: And it's not all just a technical program. But we do get into the technical part.
+
+161
+00:19:31.710 --> 00:19:38.580
+John Talburt: So we'll talk about information quality measurement and improvement, right? You can't manage something that you can't measure.
+
+162
+00:19:39.290 --> 00:19:43.039
+John Talburt: So, how do you measure the quality of information and data?
+
+163
+00:19:43.250 --> 00:19:44.889
+John Talburt: And how do you improve it?
+
+164
+00:19:47.080 --> 00:19:59.250
+John Talburt: And how do you sustain that palsy over time? You need programs to do that. It's not just something you do as a one-time project. You need to constantly, be aware of it.
+
+165
+00:20:00.120 --> 00:20:06.550
+John Talburt: And then, another thing that many people don't think about is that
+
+166
+00:20:06.770 --> 00:20:15.559
+John Talburt: The quality of your information and your information products often depends on the architecture that you've built. Your information architecture.
+
+167
+00:20:15.700 --> 00:20:28.679
+John Talburt: And sometimes it's just not adequate to maintain the quality or perform the way that you want it to. So you do have to pay attention to information architectures, and these are constantly changing, right? So…
+
+168
+00:20:28.890 --> 00:20:33.699
+John Talburt: We go from, Client server to,
+
+169
+00:20:33.830 --> 00:20:41.930
+John Talburt: big data, and now we're in an AI, we're talking about Agentic architectures, so there are many things that happen.
+
+170
+00:20:42.160 --> 00:20:44.240
+John Talburt: Now, as I mentioned a while ago.
+
+171
+00:20:44.630 --> 00:20:50.529
+John Talburt: This is the IQ International that developed this, the six domains.
+
+172
+00:20:50.630 --> 00:20:52.789
+John Talburt: I did quite a bit of work in doing it.
+
+173
+00:20:54.860 --> 00:21:01.700
+John Talburt: This part is what we call data quality, as opposed to the overall idea of information quality.
+
+174
+00:21:02.110 --> 00:21:09.879
+John Talburt: So, data quality, is… is… is where we make requirements for the data.
+
+175
+00:21:10.320 --> 00:21:12.049
+John Talburt: And so, quality…
+
+176
+00:21:12.160 --> 00:21:23.730
+John Talburt: is meeting requirements. This is the ISO definition of quality. Quality is meeting requirements, so data quality is data meeting data quality requirements.
+
+177
+00:21:24.390 --> 00:21:28.510
+John Talburt: And so that's an important part of information quality.
+
+178
+00:21:28.760 --> 00:21:40.410
+John Talburt: But it's not all of it, so that's the reason that we make a distinction between data quality and information quality. This is an information quality program that includes these top three things, these…
+
+179
+00:21:40.410 --> 00:21:52.759
+John Talburt: This idea of value, strategy, governance, environment, and culture. These are all important parts. It's more than just measuring the amount of missing data that you have in a database.
+
+180
+00:21:52.960 --> 00:22:06.599
+John Talburt: That's a data quality issue, that's a data quality measurement. I can set up a metric, and I can measure how many of the names and addresses in my database, my customer database, have missing zip codes.
+
+181
+00:22:06.930 --> 00:22:09.839
+John Talburt: That's a very good and valid
+
+182
+00:22:09.970 --> 00:22:18.249
+John Talburt: data quality, requirement, I can say I'm requiring, you know, I can't really do business
+
+183
+00:22:18.360 --> 00:22:22.230
+John Talburt: if I don't have that to be 90%, I need 90% of my…
+
+184
+00:22:22.400 --> 00:22:29.249
+John Talburt: Customer mailing addresses to have an accurate zip code, so how many of them are missing a zip code?
+
+185
+00:22:29.400 --> 00:22:39.239
+John Talburt: That doesn't talk about the accuracy, that would be another measurement. How many of the zip codes that I have for my customer names and addresses are actually accurate?
+
+186
+00:22:39.450 --> 00:22:55.389
+John Talburt: It's a different question of whether they're there or not. So there are many, many types of metrics and measurements that you can set up and improve them, right? So, if my goal is 90% accuracy, or 90% completeness of zip codes, and I'm only at 80%,
+
+187
+00:22:55.610 --> 00:23:01.649
+John Talburt: Maybe I launch a project, I need to go out and increase the number of zip code
+
+188
+00:23:01.760 --> 00:23:05.419
+John Talburt: that I have, so that I can meet that requirement.
+
+189
+00:23:07.440 --> 00:23:12.559
+John Talburt: Okay, feel free, if you have any questions as we go along, to speak up.
+
+190
+00:23:15.320 --> 00:23:23.500
+John Talburt: So, hopefully that gives you a better understanding of what information quality is all about. It's not just about cleaning up dirty data.
+
+191
+00:23:23.700 --> 00:23:27.870
+John Talburt: It's also about those other things, the strategy and the value creation.
+
+192
+00:23:28.470 --> 00:23:34.800
+John Talburt: So why study it? Well, it's important because poor data quality, or information quality.
+
+193
+00:23:35.560 --> 00:23:39.329
+John Talburt: And again, either one you can look at in this sense.
+
+194
+00:23:39.750 --> 00:23:49.060
+John Talburt: cost companies billions of dollars each year. So much of the time that employees spend is getting data ready to use.
+
+195
+00:23:50.390 --> 00:23:58.429
+John Talburt: And mistakes with it, especially in the medical side, or even the military side. There's a very famous example during the,
+
+196
+00:23:58.540 --> 00:24:01.129
+John Talburt: war in Kosovo several years ago.
+
+197
+00:24:01.390 --> 00:24:06.120
+John Talburt: They wanted to bomb, a headquarters of the enemy.
+
+198
+00:24:06.300 --> 00:24:15.439
+John Talburt: But it turned out that the headquarters had moved, but the information, the geographical information, had not been updated, and they ended up
+
+199
+00:24:15.680 --> 00:24:19.329
+John Talburt: Bombing a hospital instead of,
+
+200
+00:24:19.470 --> 00:24:23.500
+John Talburt: military headquarters. So a lot of innocent lives were lost.
+
+201
+00:24:24.080 --> 00:24:25.250
+John Talburt: the,
+
+202
+00:24:25.630 --> 00:24:33.179
+John Talburt: And of course, as I mentioned, this rise of AI, especially generative AI, has given a new focus, because
+
+203
+00:24:33.580 --> 00:24:41.080
+John Talburt: Many organizations are realizing that their AI models are only as good as the data that's used to train them.
+
+204
+00:24:41.670 --> 00:24:47.300
+John Talburt: And then, on the reverse of that, Agentic AI is a way to use
+
+205
+00:24:47.400 --> 00:24:50.469
+John Talburt: AI to improve the quality of data.
+
+206
+00:24:50.960 --> 00:24:57.340
+John Talburt: So, Agentic data quality is a new discipline that we'll talk about, and actually.
+
+207
+00:24:57.520 --> 00:25:03.229
+John Talburt: We'll do some labs around that, so that you can build some agents to improve data quality.
+
+208
+00:25:04.640 --> 00:25:10.380
+John Talburt: So you can make a difference by… in studying information quality through our program.
+
+209
+00:25:11.920 --> 00:25:17.149
+John Talburt: And I like to think that we're a community more than just students, support each other.
+
+210
+00:25:18.760 --> 00:25:29.800
+John Talburt: respect each other. I know now that so many people are online, but still, we need to remain connected. One of the things I'm going to urge you to do as we get a little farther into this.
+
+211
+00:25:30.040 --> 00:25:34.209
+John Talburt: is join. We have a LinkedIn group for our program.
+
+212
+00:25:34.500 --> 00:25:44.069
+John Talburt: And there are many of our graduates who are in there, many of the people who employ our graduates are part of that network. So, you need to think about building your network.
+
+213
+00:25:46.310 --> 00:25:51.300
+John Talburt: Building your professional credentials, which you're doing by going through these graduate programs.
+
+214
+00:25:51.690 --> 00:25:58.490
+John Talburt: In gaining a professional experience, And so here's the LinkedIn group. So I urge you all to join this.
+
+215
+00:25:58.880 --> 00:26:02.509
+John Talburt: It's called the UALR Information Quality Graduate Program.
+
+216
+00:26:03.020 --> 00:26:06.749
+John Talburt: And, many of our… most of our graduates and,
+
+217
+00:26:07.210 --> 00:26:11.190
+John Talburt: Professionals are… and a lot of our students are in that group.
+
+218
+00:26:13.260 --> 00:26:20.740
+John Talburt: So, again, this is a little bit dated right here. I need to update this slide. The Information Science Department
+
+219
+00:26:21.290 --> 00:26:27.019
+John Talburt: Yeah, definitely, because Dr. Pierce just retired this year, so I need to update my slides.
+
+220
+00:26:28.580 --> 00:26:40.360
+John Talburt: And again, what's happened is that now, since her retirement, it triggered this merger of the information science department and the computer science into this new school.
+
+221
+00:26:41.290 --> 00:26:48.150
+John Talburt: But we still have these programs. It hasn't changed the programs that we offer. So we offer 3 programs.
+
+222
+00:26:48.640 --> 00:27:02.660
+John Talburt: A graduate certificate in information quality, a Master of Science in Information Quality, and a PhD in Computer and Information Sciences, with an emphasis, or with a track in information quality.
+
+223
+00:27:04.650 --> 00:27:15.550
+John Talburt: And then, of course, there's… we still offer the information science degrees, there's a master's. We also offer a data science, and this is within the new school.
+
+224
+00:27:15.890 --> 00:27:19.120
+John Talburt: A graduate certificate in data science.
+
+225
+00:27:19.350 --> 00:27:24.800
+John Talburt: a master's and PhD in bioinformatics, and there's some new degrees coming on board as well.
+
+226
+00:27:25.150 --> 00:27:29.990
+John Talburt: There's going… We, of course, now merged with the computer side.
+
+227
+00:27:30.510 --> 00:27:37.219
+John Talburt: They have, of course, an undergraduate and a master's in computer science. They also have a
+
+228
+00:27:37.480 --> 00:27:40.420
+John Talburt: the computer science track and the PhD,
+
+229
+00:27:40.740 --> 00:27:44.150
+John Talburt: But now they also have a new cybersecurity program.
+
+230
+00:27:44.300 --> 00:27:55.979
+John Talburt: They're developing a medical informatics program, and they have several others that they're working on. And one of the important ones is
+
+231
+00:27:56.130 --> 00:27:58.749
+John Talburt: Going to be a master's in AI.
+
+232
+00:28:00.510 --> 00:28:04.170
+John Talburt: So, a little bit of the history of the Information Quality Program.
+
+233
+00:28:05.410 --> 00:28:07.610
+John Talburt: It started in,
+
+234
+00:28:08.450 --> 00:28:18.719
+John Talburt: 2006, we opened admissions in that year, and so the first cohort started with 25 students in the fall of 2006.
+
+235
+00:28:19.350 --> 00:28:24.090
+John Talburt: So, by the way, this fall is going to be our 20th anniversary of the program.
+
+236
+00:28:25.020 --> 00:28:28.969
+John Talburt: We were very early in adopting the online.
+
+237
+00:28:29.210 --> 00:28:35.960
+John Talburt: So our, our Master of Science classes, went online, back in the fall of 2007.
+
+238
+00:28:36.450 --> 00:28:41.960
+John Talburt: We didn't have this nice technology like Blackboard and Zoom that we're using today.
+
+239
+00:28:42.210 --> 00:28:45.330
+John Talburt: We had some older technologies that
+
+240
+00:28:45.580 --> 00:28:48.370
+John Talburt: We're kind of up and down, but we managed to do it.
+
+241
+00:28:50.620 --> 00:28:59.670
+John Talburt: And then we opened an IQ track. There used to be a… well, I think it's still around, but in the Applied Science PhD program.
+
+242
+00:29:00.130 --> 00:29:08.119
+John Talburt: But it's very broad. It had, you could get tracks in biology and chemistry, any kind of science.
+
+243
+00:29:08.360 --> 00:29:10.830
+John Talburt: And so we were just one among the many.
+
+244
+00:29:11.370 --> 00:29:14.339
+John Talburt: And that was in spring 2008.
+
+245
+00:29:14.780 --> 00:29:26.699
+John Talburt: And then we started this certificate program in information quality in the same year. And then we moved to another program. We had a program here, a PhD program called Integrated Computing.
+
+246
+00:29:27.400 --> 00:29:30.389
+John Talburt: And we were in that for a short time.
+
+247
+00:29:30.770 --> 00:29:41.059
+John Talburt: And then we changed the name in 2017 to Computer and Information Sciences, which is now also the name of the school that we're in.
+
+248
+00:29:41.250 --> 00:29:47.940
+John Talburt: So we have a PhD in Computer and Information Sciences, and a School of Computer and Information Sciences.
+
+249
+00:29:48.770 --> 00:29:54.070
+John Talburt: And, we went online with it in 2017 as well.
+
+250
+00:29:54.480 --> 00:30:03.379
+John Talburt: And initially, it was sort of hybrid online, in that we did have some in-person requirements. We were requiring
+
+251
+00:30:03.610 --> 00:30:07.080
+John Talburt: Students to come to campus to do their,
+
+252
+00:30:07.650 --> 00:30:20.650
+John Talburt: their dissertation proposals and their dissertation defenses, but now we've gone away with that, and it's entirely online. Although we do welcome people to come and visit the campus, our online students.
+
+253
+00:30:21.970 --> 00:30:29.889
+John Talburt: The founding sponsors of the program were Axiom Corporation, that was founded here in Little Rock, and the leader at that time was
+
+254
+00:30:30.020 --> 00:30:31.429
+John Talburt: Charles Morgan.
+
+255
+00:30:32.080 --> 00:30:38.290
+John Talburt: Axiom has since kind of broken up and been sold into parts and to different, companies.
+
+256
+00:30:38.490 --> 00:30:41.649
+John Talburt: And its headquarters now is over in California.
+
+257
+00:30:42.080 --> 00:30:48.219
+John Talburt: But at the time, Axiom was a very important, little, sorry, Arkansas company.
+
+258
+00:30:48.540 --> 00:30:59.560
+John Talburt: And they had a lot of vision. Charles Morgan was an Arkansan himself, and wanted to promote, technology and progress in Arkansas. So he helped fund it.
+
+259
+00:30:59.890 --> 00:31:04.500
+John Talburt: Also, as I mentioned, MIT was one of the early
+
+260
+00:31:04.810 --> 00:31:09.199
+John Talburt: Universities to see information quality as a discipline.
+
+261
+00:31:09.370 --> 00:31:23.660
+John Talburt: And they're the ones who really developed this idea of managing information as a product and applying these, total quality management principles to, managing information quality.
+
+262
+00:31:23.830 --> 00:31:37.650
+John Talburt: As a matter of fact, they developed what they called the Total Data Quality Management, TDQM, instead of TQM, as a way of enshrining this idea of applying manufacturing principles to
+
+263
+00:31:37.810 --> 00:31:40.240
+John Talburt: Producing information products.
+
+264
+00:31:42.640 --> 00:31:48.500
+John Talburt: And then at the time, this was, not the college, it was not the STEM college.
+
+265
+00:31:48.830 --> 00:31:53.060
+John Talburt: It was called the College of Engineering and Information Technology.
+
+266
+00:31:53.390 --> 00:31:59.439
+John Talburt: And, the founding dean of that college, Dr. Mary Good, who has since passed away.
+
+267
+00:31:59.710 --> 00:32:06.270
+John Talburt: was willing to house the program. So we had the three main ingredients. We had, funding from Axiom.
+
+268
+00:32:06.390 --> 00:32:11.689
+John Talburt: We had, intellectual property that had already been developed at MIT.
+
+269
+00:32:11.830 --> 00:32:16.220
+John Talburt: And then we had a university that was willing to house the program.
+
+270
+00:32:16.840 --> 00:32:23.170
+John Talburt: the Donegal College. And so we put all those together and got started in 2006.
+
+271
+00:32:23.860 --> 00:32:30.039
+John Talburt: And so what we were trying to do is design a curriculum that would meet the needs of
+
+272
+00:32:30.150 --> 00:32:37.279
+John Talburt: That's growing, as we've seen in government and industry, for people that had graduate-level degrees.
+
+273
+00:32:37.580 --> 00:32:43.019
+John Talburt: That helped them understand these concepts that we're going to be talking about in our Principles class.
+
+274
+00:32:43.210 --> 00:32:52.349
+John Talburt: These concepts, principles, tools, models that are essential for Measuring, analyzing, improving information quality.
+
+275
+00:32:53.200 --> 00:33:02.750
+John Talburt: So, some of the things we're going to be talking about are information quality policies, strategies, programs, and standards. There's been a lot of emerging standards.
+
+276
+00:33:04.340 --> 00:33:15.249
+John Talburt: Some of them in, what's called the ISO 8000 family of standards, and a new one that's just coming online, the ISO 25500 standards.
+
+277
+00:33:15.940 --> 00:33:17.590
+John Talburt: And then,
+
+278
+00:33:18.170 --> 00:33:28.670
+John Talburt: The role of information quality in operational improvement, privacy, and protection, there's many courses that we offer. Some of you may have already taken these.
+
+279
+00:33:29.030 --> 00:33:35.399
+John Talburt: That have to do with data governance. We call it Information Quality Policy and Strategy.
+
+280
+00:33:35.630 --> 00:33:40.520
+John Talburt: architecture, data integration, the course that I'm teaching on
+
+281
+00:33:40.940 --> 00:33:46.840
+John Talburt: Entity resolution and information quality is really focused on master data management.
+
+282
+00:33:48.000 --> 00:33:53.159
+John Talburt: So again, we've talked about these three degrees. We offer a master's, graduate certificate.
+
+283
+00:33:53.420 --> 00:33:58.789
+John Talburt: and Computer, and Information Sciences Information Quality Track.
+
+284
+00:33:59.850 --> 00:34:04.219
+John Talburt: And it's all structured originally around the, masters.
+
+285
+00:34:05.700 --> 00:34:08.000
+John Talburt: It's sort of a hybrid degree between
+
+286
+00:34:08.139 --> 00:34:11.589
+John Talburt: Information quality courses and information science.
+
+287
+00:34:12.080 --> 00:34:21.969
+John Talburt: So, on the information quality side, we have the principles. By the way, these are the old numbers I need to change. We've gone through a renumbering here at the university.
+
+288
+00:34:22.380 --> 00:34:25.870
+John Talburt: It's now 7030-03.
+
+289
+00:34:26.540 --> 00:34:36.380
+John Talburt: But anyway, it's the same courses. The Principles, policy and strategies, information quality tools, project and change management. Those are all required
+
+290
+00:34:36.560 --> 00:34:41.160
+John Talburt: For the master's degree, and then there's an information quality elective.
+
+291
+00:34:41.420 --> 00:34:43.780
+John Talburt: On the information science side.
+
+292
+00:34:44.070 --> 00:34:53.020
+John Talburt: There's, required courses, or information visualization, systems analysis, and database, and then an information science elective.
+
+293
+00:34:53.480 --> 00:35:12.719
+John Talburt: We've also changed… we used to… the capstone for the master's had to be either a project or a thesis, but we've now added a new option, a course-only option, that allows you to complete the master's by taking two additional electives, rather than doing a project or thesis.
+
+294
+00:35:13.710 --> 00:35:14.630
+John Talburt: No.
+
+295
+00:35:14.750 --> 00:35:20.450
+John Talburt: The graduate certificate is basically the first 12 hours of the master's degree.
+
+296
+00:35:20.740 --> 00:35:23.349
+John Talburt: There's no GRE required for it.
+
+297
+00:35:23.630 --> 00:35:28.759
+John Talburt: Completing it, of course, waives the GRE if you want to go into the Master's.
+
+298
+00:35:29.100 --> 00:35:33.870
+John Talburt: And so it's basically the first… it's the left half of that diagram.
+
+299
+00:35:34.300 --> 00:35:39.100
+John Talburt: It's the principles, the policy and strategy, and the tools
+
+300
+00:35:39.260 --> 00:35:42.469
+John Talburt: And then, one information quality elective.
+
+301
+00:35:43.160 --> 00:35:48.180
+John Talburt: And one thing I would like to emphasize, and this is sort of how it fits in here.
+
+302
+00:35:48.500 --> 00:35:53.490
+John Talburt: So, it would be the left side of this diagram, completing Principles, policy.
+
+303
+00:35:53.630 --> 00:35:57.359
+John Talburt: So, you'll notice then that getting the master's
+
+304
+00:35:57.910 --> 00:36:03.400
+John Talburt: Is automatically requiring you to take the courses for the certificate.
+
+305
+00:36:03.990 --> 00:36:11.510
+John Talburt: So, there's no reason for anyone to get a master's in information quality and not go ahead and get their certificate.
+
+306
+00:36:12.120 --> 00:36:15.269
+John Talburt: It's sort of a freebie, it's two for one.
+
+307
+00:36:15.540 --> 00:36:17.089
+John Talburt: If you're in the Masters.
+
+308
+00:36:17.270 --> 00:36:26.179
+John Talburt: It's also somewhat true for the PhD, although you might have to take a course or two extra, but depending on how you're doing your electives.
+
+309
+00:36:26.360 --> 00:36:29.809
+John Talburt: If you're transferring your electives in to the,
+
+310
+00:36:30.300 --> 00:36:36.779
+John Talburt: to the PhD program, then probably you would have to take a few extra courses to get the certificate.
+
+311
+00:36:37.270 --> 00:36:42.560
+John Talburt: But if you are getting your electives here, you can choose these
+
+312
+00:36:42.710 --> 00:36:46.600
+John Talburt: courses that are not already required in the Track Corps.
+
+313
+00:36:46.970 --> 00:36:55.960
+John Talburt: To be your electives, and again, you can, get a certificate, and actually, you can get a master's, pretty easily as well.
+
+314
+00:36:56.790 --> 00:37:06.860
+John Talburt: So you should think about it, depending on which degree program you're in, of getting a second degree while you're doing it.
+
+315
+00:37:07.450 --> 00:37:10.540
+John Talburt: So, this is what I tell every…
+
+316
+00:37:10.670 --> 00:37:17.069
+John Talburt: MSIQ, and actually, PhD should get the graduate certificate in IQ.
+
+317
+00:37:17.630 --> 00:37:21.529
+John Talburt: And now one thing, though, you have to take in mind.
+
+318
+00:37:21.910 --> 00:37:27.119
+John Talburt: And you'll learn this, if you haven't already learned it here at UA Little Rock.
+
+319
+00:37:27.390 --> 00:37:30.140
+John Talburt: Nothing here happens automatically.
+
+320
+00:37:31.820 --> 00:37:38.240
+John Talburt: You have to, you have to initiate these things yourself.
+
+321
+00:37:38.340 --> 00:37:45.750
+John Talburt: So even though, if you're taking the MSIQ and you're completing all the courses for the graduate certificate.
+
+322
+00:37:46.270 --> 00:37:52.299
+John Talburt: The school will not just say, hey, you've completed all the courses, here's your graduate certificate.
+
+323
+00:37:52.430 --> 00:38:02.390
+John Talburt: And unfortunately, many, many master's students, unfortunately, have completed their master's degree and walked away without getting a graduate certificate.
+
+324
+00:38:02.500 --> 00:38:05.279
+John Talburt: For without having to take any other courses.
+
+325
+00:38:05.530 --> 00:38:09.680
+John Talburt: So what do you have to do? Well, to graduate.
+
+326
+00:38:09.880 --> 00:38:16.079
+John Talburt: or complete the graduate… the Graduate Certificate in information quality, you have to be…
+
+327
+00:38:16.200 --> 00:38:24.410
+John Talburt: admitted to it, okay? So you have to apply for admission to the graduate certificate program to get the graduate certificate.
+
+328
+00:38:24.650 --> 00:38:27.300
+John Talburt: And so that's where many students mess up.
+
+329
+00:38:27.410 --> 00:38:40.570
+John Talburt: They come back to me after they've graduated from their master's and say, hey, look, I want to get my graduate certificate. Well, you can't do that. You can only apply the master's courses to the graduate certificate
+
+330
+00:38:40.680 --> 00:38:43.260
+John Talburt: While you're in the master's program.
+
+331
+00:38:43.430 --> 00:38:51.659
+John Talburt: Once you've completed your master's program, you can't go back and say, I want to apply these courses to… and get a graduate certificate.
+
+332
+00:38:52.110 --> 00:39:00.739
+John Talburt: So, if you want the graduate certificate, you need to apply for it. You need to go into Slate and apply for the Graduate Certificate in Information Quality.
+
+333
+00:39:01.180 --> 00:39:05.040
+John Talburt: You can also do it with the… if you're in the PhD program.
+
+334
+00:39:05.340 --> 00:39:16.620
+John Talburt: Again, what will be the determining factor there is if you transferred in and have already completed your electives using transfer courses.
+
+335
+00:39:16.880 --> 00:39:18.529
+John Talburt: If you've done that.
+
+336
+00:39:18.860 --> 00:39:27.849
+John Talburt: then you don't have that room to take these courses that are not required for the PhD, that are required for
+
+337
+00:39:27.990 --> 00:39:30.360
+John Talburt: the graduate certificate. For example.
+
+338
+00:39:30.480 --> 00:39:36.579
+John Talburt: One of the things that's required for the graduate certificate is the information quality tool scores.
+
+339
+00:39:37.050 --> 00:39:38.630
+John Talburt: Well,
+
+340
+00:39:39.270 --> 00:39:47.519
+John Talburt: You could take the tools course as an elective for your PhD, but if you've already satisfied all your electives, now it becomes an extra course.
+
+341
+00:39:48.110 --> 00:39:55.209
+John Talburt: so, the same would be true for the extra course that's required, the extra information policy course.
+
+342
+00:39:55.430 --> 00:40:02.930
+John Talburt: So it's a little more problematic for the PhD, but it should be automatic for the masters.
+
+343
+00:40:04.570 --> 00:40:09.989
+John Talburt: And the same thing's true if you're in the data science program, but…
+
+344
+00:40:10.150 --> 00:40:17.610
+John Talburt: And you want to complete the data… I'm sorry, if you're in the information science program, and you want to complete the data science.
+
+345
+00:40:17.810 --> 00:40:20.190
+John Talburt: You can do that as well.
+
+346
+00:40:23.200 --> 00:40:28.260
+John Talburt: And I can go further into that, if you're interested in it.
+
+347
+00:40:28.590 --> 00:40:30.650
+John Talburt: But I just wanted to point it out.
+
+348
+00:40:32.270 --> 00:40:38.840
+John Talburt: So, the PhD, is a 75-hour, there's 33 lecture classes.
+
+349
+00:40:39.390 --> 00:40:47.509
+John Talburt: There's 6 hours of program core, the information science theory, and systems analysis.
+
+350
+00:40:48.120 --> 00:40:54.359
+John Talburt: then the IQ Track Core Is the Principles course that you're taking right now.
+
+351
+00:40:54.560 --> 00:40:56.270
+John Talburt: The database course.
+
+352
+00:40:56.700 --> 00:41:05.509
+John Talburt: the information quality theory. By the way, the name of that has changed a little bit. Now it's called Research Methods, but it's still the same course.
+
+353
+00:41:06.020 --> 00:41:11.100
+John Talburt: And then the policy and strategy. So those are the 6 core courses.
+
+354
+00:41:11.310 --> 00:41:16.369
+John Talburt: the program core and the track core, that's 18 hours.
+
+355
+00:41:16.580 --> 00:41:22.280
+John Talburt: And then there's another 12 hours of, electives, and that's what I was talking about earlier.
+
+356
+00:41:22.630 --> 00:41:25.479
+John Talburt: If you haven't taken your electives.
+
+357
+00:41:25.650 --> 00:41:30.050
+John Talburt: You can arrange your electives in a way that you can complete
+
+358
+00:41:30.620 --> 00:41:37.679
+John Talburt: the graduate certificate and or the master's at the same time you complete your PhD.
+
+359
+00:41:38.320 --> 00:41:44.450
+John Talburt: and then, in addition to these lecture courses, these,
+
+360
+00:41:45.800 --> 00:41:57.559
+John Talburt: So there's 30 hours there in the program course 6, track course 12, electives 12. That's 30 hours. And then you do have to take the seminar, the graduate seminar.
+
+361
+00:41:57.770 --> 00:42:00.030
+John Talburt: Three times for three semesters.
+
+362
+00:42:00.370 --> 00:42:04.560
+John Talburt: And that… that gets us to 33 hours for the lecture classes.
+
+363
+00:42:05.130 --> 00:42:09.250
+John Talburt: Then the rest of it is 42 hours of dissertation research.
+
+364
+00:42:09.990 --> 00:42:13.109
+John Talburt: And so these are sort of like…
+
+365
+00:42:13.780 --> 00:42:18.050
+John Talburt: Directed studies, or independent studies, if you will, these hours.
+
+366
+00:42:18.580 --> 00:42:21.530
+John Talburt: Even though there's a… you're… you're…
+
+367
+00:42:22.230 --> 00:42:32.019
+John Talburt: graduate advisor will be listed as the teacher of the… what happens in it is all up to you. This is where you do your…
+
+368
+00:42:36.340 --> 00:42:40.010
+John Talburt: Keep in mind that the PhD program here is a research program.
+
+369
+00:42:40.980 --> 00:42:46.520
+John Talburt: Many students enter the program, and they think they complete their 33 hours of courses.
+
+370
+00:42:46.700 --> 00:42:48.480
+John Talburt: Then they're pretty much done.
+
+371
+00:42:48.820 --> 00:42:50.769
+John Talburt: But that's not true at all.
+
+372
+00:42:51.150 --> 00:42:55.490
+John Talburt: You have to complete, original research
+
+373
+00:42:55.880 --> 00:43:00.260
+John Talburt: And a written research dissertation to be graduated.
+
+374
+00:43:02.960 --> 00:43:07.379
+John Talburt: In the PhD, the milestones are the candidacy exam.
+
+375
+00:43:07.920 --> 00:43:12.889
+John Talburt: That you should take near the completion of your 18-hour core.
+
+376
+00:43:13.810 --> 00:43:16.859
+John Talburt: And find a dissertation advisor.
+
+377
+00:43:17.810 --> 00:43:21.079
+John Talburt: It's an oral exam with 3 other,
+
+378
+00:43:21.460 --> 00:43:24.850
+John Talburt: Information science or computer science faculty members.
+
+379
+00:43:25.470 --> 00:43:30.100
+John Talburt: Complete the, online ethics training for research ethics.
+
+380
+00:43:32.100 --> 00:43:41.410
+John Talburt: Select your dissertation committee. Now it's 4 members, advisor, and 3 other faculty, and one of those others can be an external
+
+381
+00:43:41.670 --> 00:43:44.580
+John Talburt: Somebody from industry or another university.
+
+382
+00:43:46.030 --> 00:43:52.770
+John Talburt: Then the most critical point in the PhD program is defending your research proposal.
+
+383
+00:43:53.300 --> 00:43:57.260
+John Talburt: The research proposal is basically your statement of work.
+
+384
+00:43:57.810 --> 00:44:02.829
+John Talburt: once you say, this is the research I'm going to do, and here's how I'm going to do it.
+
+385
+00:44:03.020 --> 00:44:07.250
+John Talburt: And your advisor and your three other faculty on your committee approve it.
+
+386
+00:44:07.520 --> 00:44:19.489
+John Talburt: then now, all you need to do is finish what you said you were going to do, and you will complete your degree. So think of it as a statement of work, and it should be done as early as you can.
+
+387
+00:44:19.980 --> 00:44:26.559
+John Talburt: Because what holds up most people from completing their PhD is their research.
+
+388
+00:44:28.410 --> 00:44:35.429
+John Talburt: Unfortunately, I've had some students that's taken Actually, 10 years.
+
+389
+00:44:35.790 --> 00:44:44.859
+John Talburt: It wasn't because they were working on a really, really hard proposal. It's just because they… could not.
+
+390
+00:44:45.010 --> 00:44:52.499
+John Talburt: Gather the time and energy and focus that it takes to complete their research in a reasonable amount of time.
+
+391
+00:44:52.970 --> 00:45:02.749
+John Talburt: So, starting your research early, getting on a good track, being sure it's something where you can get data, that is doable, you can see it all the way through to the end, is key.
+
+392
+00:45:03.870 --> 00:45:08.839
+John Talburt: And so the final was to complete research and write a dissertation.
+
+393
+00:45:09.220 --> 00:45:13.720
+John Talburt: We do have a couple of other new,
+
+394
+00:45:14.510 --> 00:45:27.859
+John Talburt: requirements. One of them now is completing a research paper. Most people do that anyway, but we wanted to make it a requirement to be sure that everyone does publish research during their PhD.
+
+395
+00:45:28.790 --> 00:45:32.770
+John Talburt: So, these are some others that we put in paper publication.
+
+396
+00:45:33.590 --> 00:45:42.829
+John Talburt: Also, this minimum time is the opposite. Some people not… instead of not starting their proposal early.
+
+397
+00:45:43.720 --> 00:45:59.360
+John Talburt: wait until they finish their research to make a proposal. I guess they're afraid that their research might not be good, so they want to wait and see how it turns out before they propose it, which is exactly the opposite of what should be done.
+
+398
+00:45:59.610 --> 00:46:04.110
+John Talburt: So we've had to impose, at least to keep things sane.
+
+399
+00:46:04.590 --> 00:46:12.240
+John Talburt: An interval, a forced interval, between the proposal and defense of your dissertation, which is now at least 7 months.
+
+400
+00:46:12.650 --> 00:46:28.959
+John Talburt: So that would mean that somebody that's planning to graduate in May of next year would need to defend their proposal if they haven't already done so. Most of the people would have already done so, but at a minimum would have to defend it in September.
+
+401
+00:46:29.850 --> 00:46:32.979
+John Talburt: To meet the, minimum requirement.
+
+402
+00:46:33.680 --> 00:46:41.039
+John Talburt: Another thing is, and again, this mostly applies to people that are struggling to kind of finish their research.
+
+403
+00:46:41.230 --> 00:46:44.239
+John Talburt: Is you have to continue to stay enrolled.
+
+404
+00:46:44.640 --> 00:46:47.910
+John Talburt: Even if you've achieved your 42 hours.
+
+405
+00:46:48.200 --> 00:46:55.949
+John Talburt: You still have to keep taking… you have to be enrolled every spring and fall in order to maintain your status in the program.
+
+406
+00:46:56.130 --> 00:47:01.259
+John Talburt: And the reason for that is that you're still going to be using university resources, you're going to be
+
+407
+00:47:02.560 --> 00:47:09.419
+John Talburt: working with your advisor and your committee while you're working on your research, so you have to stay enrolled, but at least
+
+408
+00:47:09.670 --> 00:47:13.780
+John Talburt: But it only requires being enrolled at least 1 hour.
+
+409
+00:47:14.160 --> 00:47:18.880
+John Talburt: So, you have to remember to do that, otherwise you'll get dropped from the program.
+
+410
+00:47:19.330 --> 00:47:22.710
+John Talburt: It's have to start over again, so you don't want to do that.
+
+411
+00:47:23.380 --> 00:47:32.190
+John Talburt: So, you need to stay consecutively or continuously enrolled in the program until you defend your final dissertation.
+
+412
+00:47:34.790 --> 00:47:39.240
+John Talburt: This is a diagram that kind of shows the route through this.
+
+413
+00:47:39.720 --> 00:47:46.809
+John Talburt: And you can see there's a lot of things going on at once. You're completing your seminars.
+
+414
+00:47:47.040 --> 00:47:49.939
+John Talburt: Your core, your track core.
+
+415
+00:47:50.280 --> 00:47:57.689
+John Talburt: your electives, but before you dive into your electives, once you've completed all your core courses, you want to start forming
+
+416
+00:47:57.910 --> 00:48:01.930
+John Talburt: You didn't do your candidacy, do your oral candidacy exam.
+
+417
+00:48:02.190 --> 00:48:11.549
+John Talburt: Form your dissertation committee, complete your city training, start working on your dissertation courses, your 42 hours.
+
+418
+00:48:11.670 --> 00:48:23.430
+John Talburt: Get your proposal, defended, have that at least 7-month gap, usually it's longer, to finish your actual dissertation defense, and this all comes together.
+
+419
+00:48:23.580 --> 00:48:25.490
+John Talburt: To… for your graduation.
+
+420
+00:48:27.160 --> 00:48:28.130
+John Talburt: Hopefully.
+
+421
+00:48:30.060 --> 00:48:36.120
+John Talburt: And this has changed somewhat, I'm not gonna go through all this.
+
+422
+00:48:36.620 --> 00:48:37.340
+John Talburt: Oh.
+
+423
+00:48:41.020 --> 00:48:46.229
+John Talburt: There is a lot of confusion about course sections. I'm confused myself sometimes.
+
+424
+00:48:46.710 --> 00:48:50.290
+John Talburt: So, there's an on-campus section
+
+425
+00:48:50.560 --> 00:48:54.940
+John Talburt: Which uses standard numbering, 0, 1, 02, so forth.
+
+426
+00:48:55.470 --> 00:49:03.110
+John Talburt: These, require classroom attendance, so you're supposed to be attending that class in person if you're in that section.
+
+427
+00:49:04.130 --> 00:49:12.750
+John Talburt: these we don't use anymore. These are webcasts. It's now become,
+
+428
+00:49:12.900 --> 00:49:14.929
+John Talburt: What we call a hybrid.
+
+429
+00:49:15.440 --> 00:49:26.640
+John Talburt: the W's been replaced by a hybrid, and so some of you are enrolled, not for this program, I don't know why they didn't offer it this semester, but in most of the
+
+430
+00:49:27.040 --> 00:49:32.160
+John Talburt: courses that you take here, there'll be an offering that's a hybrid. And what the hybrid does
+
+431
+00:49:32.640 --> 00:49:34.360
+John Talburt: It just says that…
+
+432
+00:49:34.690 --> 00:49:43.909
+John Talburt: Rather than being in a class where you have to be there all the time, the required class, or being in the one where you're online all the time.
+
+433
+00:49:44.280 --> 00:49:56.189
+John Talburt: The hybrid allows you to be in class sometimes and online at other times. However, the times is not up to you, it's up to the instructor to designate.
+
+434
+00:49:56.320 --> 00:50:04.339
+John Talburt: which classes are going to be online, and which classes are going to be required to be in person. And those are called hybrid classes.
+
+435
+00:50:04.600 --> 00:50:08.920
+John Talburt: The good thing about those, and we have many international students.
+
+436
+00:50:09.100 --> 00:50:14.980
+John Talburt: And if you're here on an F1 visa, which most international students are on an F1 visa.
+
+437
+00:50:15.480 --> 00:50:21.479
+John Talburt: The H counts as being, In person.
+
+438
+00:50:22.750 --> 00:50:31.179
+John Talburt: As long as the, the instructor schedules at least 25% of the class meetings in person.
+
+439
+00:50:31.310 --> 00:50:38.219
+John Talburt: Then it qualifies as an in-person course, and meets the requirements of students who have to be in person.
+
+440
+00:50:38.580 --> 00:50:41.679
+John Talburt: Students on F1 visas have to be
+
+441
+00:50:42.010 --> 00:50:57.410
+John Talburt: in the PhD program, or the… I'm sorry, the graduate programs, have to be in 6 hours of in-person classes, so they can count an H section as being part of those 6 hours of in-person.
+
+442
+00:50:57.560 --> 00:51:00.970
+John Talburt: And then they have the option of being online.
+
+443
+00:51:01.270 --> 00:51:05.750
+John Talburt: For the other 3 hours, or they can be in person for all of them.
+
+444
+00:51:06.850 --> 00:51:16.860
+John Talburt: Now, the online campus, It's fully online, and it's a different campus, so unfortunately, if you're, well.
+
+445
+00:51:17.000 --> 00:51:19.889
+John Talburt: It's unfortunate or not, but the fact is.
+
+446
+00:51:20.110 --> 00:51:27.750
+John Talburt: that if you're in the online campus, you can't take these other courses. You can't take H courses, or W courses, or…
+
+447
+00:51:28.340 --> 00:51:33.989
+John Talburt: Whatever. And the same is true as well. If you're in, the on-campus.
+
+448
+00:51:34.360 --> 00:51:37.720
+John Talburt: If you're part of the on-campus,
+
+449
+00:51:37.850 --> 00:51:41.679
+John Talburt: cohort. You can't take these 9U courses.
+
+450
+00:51:42.650 --> 00:51:47.569
+John Talburt: So you have to, to register according to your campus designation.
+
+451
+00:51:50.970 --> 00:51:59.640
+John Talburt: Now, I talked about this, so please join the, IQ program LinkedIn group. It's called the UALR Information Quality Graduate Program.
+
+452
+00:52:00.400 --> 00:52:12.209
+John Talburt: put a lot of announcements, a lot of job postings out there, and internship opportunities. And it's also a way to link together with other graduates and faculty and some of our employers.
+
+453
+00:52:14.700 --> 00:52:22.609
+John Talburt: Our official website for the uni… for our program is, UALR.edu information quality.
+
+454
+00:52:23.450 --> 00:52:31.810
+John Talburt: Some news, although they have kind of cut off my posting ability on that, but it does give the official requirements for admission
+
+455
+00:52:31.980 --> 00:52:36.280
+John Talburt: If you want to refer someone to our program, you should refer them to this website.
+
+456
+00:52:36.870 --> 00:52:39.269
+John Talburt: Policies and resource names.
+
+457
+00:52:40.080 --> 00:52:49.750
+John Talburt: There is a new International Association for Data Quality, Governance, and Analytics. It's a lot, IADQGA.
+
+458
+00:52:50.180 --> 00:52:56.959
+John Talburt: It's a new professional organization. If you're interested in joining, I think it's still free.
+
+459
+00:52:57.610 --> 00:53:05.189
+John Talburt: Last I heard, It started by a good friend of mine, a guy named Joe Yakura.
+
+460
+00:53:05.380 --> 00:53:08.940
+John Talburt: He's very interested in, data quality.
+
+461
+00:53:09.300 --> 00:53:14.289
+John Talburt: And it's start… I say it's just starting now, it's been up and running now for a couple of years.
+
+462
+00:53:14.950 --> 00:53:21.310
+John Talburt: And it has a lot of free information out there, and resources that you can take advantage of.
+
+463
+00:53:21.600 --> 00:53:30.539
+John Talburt: It has a focus on data literacy and statistical literacy, but again, it has a lot to do with data and information quality as well.
+
+464
+00:53:31.490 --> 00:53:38.610
+John Talburt: So, before we got started with this course, I know we have a mixture of students in different programs.
+
+465
+00:53:38.760 --> 00:53:40.650
+John Talburt: I wanted to kind of cover
+
+466
+00:53:40.820 --> 00:53:45.289
+John Talburt: At a broad stroke, what our information quality program is like.
+
+467
+00:53:45.530 --> 00:53:50.489
+John Talburt: So, does anyone have any questions about what I've covered as far as programs?
+
+468
+00:53:59.340 --> 00:54:03.790
+John Talburt: Okay, well, if you do, feel free to email me, it's the best way to get in touch.
+
+469
+00:54:04.450 --> 00:54:11.640
+John Talburt: So I took more time than I intended. I was going to, but let me try to give a quick course overview.
+
+470
+00:54:14.440 --> 00:54:16.220
+John Talburt: In the time that we have left.
+
+471
+00:54:38.300 --> 00:54:45.020
+John Talburt: So, the course that we're in right now is Principles of Information Quality,
+
+472
+00:54:46.090 --> 00:54:51.739
+John Talburt: So here's… if we don't cover anything, these are very important. So there's some important dates for this fall.
+
+473
+00:54:52.860 --> 00:55:01.989
+John Talburt: So, Labor Day, is September the 7th, that's a Monday, it won't affect us, but if you're in a Monday class, there won't be any classes on Labor Day.
+
+474
+00:55:02.530 --> 00:55:06.989
+John Talburt: For this class, we'll have our midterm examination on October the 8th.
+
+475
+00:55:08.360 --> 00:55:13.979
+John Talburt: Another important date is October the 20th. It has double meaning.
+
+476
+00:55:14.870 --> 00:55:30.640
+John Talburt: Although it doesn't apply to most of you, but if you decide to drop one of the classes and receive a W or withdraw grade, that's a no penalty grade that just says you started, but you didn't finish, it doesn't count against you in grade point average and things like that.
+
+477
+00:55:31.090 --> 00:55:33.389
+John Talburt: It's sort of an escape.
+
+478
+00:55:33.840 --> 00:55:36.809
+John Talburt: You don't get your money back if you wait too long, though.
+
+479
+00:55:38.370 --> 00:55:46.649
+John Talburt: So that's the last day to drop an individual class. After that, if you decide to withdraw, you can still withdraw, but you have to withdraw from all classes.
+
+480
+00:55:47.630 --> 00:55:53.039
+John Talburt: Another important part of, I don't know how those got out of order.
+
+481
+00:55:53.220 --> 00:55:58.790
+John Talburt: October the 20th, and this is extremely important, I want to emphasize this to you.
+
+482
+00:55:59.560 --> 00:56:05.100
+John Talburt: Remember I said earlier, at this university, nothing happens automatically.
+
+483
+00:56:05.610 --> 00:56:06.470
+John Talburt: like…
+
+484
+00:56:06.680 --> 00:56:17.140
+John Talburt: Like I said, when you complete the courses for the graduate certificate, they're not going to award you one unless you went in and applied to be admitted to the graduate certificate program.
+
+485
+00:56:17.650 --> 00:56:21.719
+John Talburt: The same thing is true for your graduation from your program.
+
+486
+00:56:22.330 --> 00:56:37.980
+John Talburt: It's up to you, the semester that you complete the requirements, or you think you're completing the requirements for your degree, you have to notify the university that you want to do that. Otherwise, you won't get your degree.
+
+487
+00:56:38.460 --> 00:56:44.589
+John Talburt: And it's unfortunate I've had many students who've actually gone to work
+
+488
+00:56:45.110 --> 00:56:55.549
+John Talburt: Thinking that they've completed a master's in information quality, and their employer says, show me the transcript, and it's not on their transcript.
+
+489
+00:56:55.700 --> 00:56:59.060
+John Talburt: Because they did not apply to graduate.
+
+490
+00:56:59.650 --> 00:57:05.600
+John Talburt: So, if you're completing anything, a master's, your certificate, your PhD,
+
+491
+00:57:05.960 --> 00:57:10.100
+John Talburt: You have to be aware that when you're completing the requirements.
+
+492
+00:57:10.230 --> 00:57:20.640
+John Talburt: You need to go into Workday and say that I'm completing my program this semester, and complete the form or the task in Workday.
+
+493
+00:57:21.140 --> 00:57:32.099
+John Talburt: If you miss this deadline, then you will have to wait until the next semester to finish your graduation. And that can be a problem for many people that are
+
+494
+00:57:32.240 --> 00:57:42.369
+John Talburt: Especially, international students that are trying to get, OPT, optional practical training.
+
+495
+00:57:42.580 --> 00:57:44.329
+John Talburt: So, keep that in mind.
+
+496
+00:57:44.570 --> 00:57:51.579
+John Talburt: you have to tell the school that you're ready to graduate, and then they will process
+
+497
+00:57:51.720 --> 00:58:01.829
+John Talburt: And they will verify that you've completed everything, and then they will award the degree. But if you miss that deadline, that's gonna put you off for another semester.
+
+498
+00:58:02.290 --> 00:58:09.170
+John Talburt: And Part of the confusion is that many people, unfortunately.
+
+499
+00:58:09.620 --> 00:58:16.429
+John Talburt: confused. This is especially true for international students, confused the idea of
+
+500
+00:58:16.780 --> 00:58:35.680
+John Talburt: graduation and commencement. So they think of graduation as meaning I'm going to put on a black robe, and I'm going to go over there, and they're going to hand me a piece of paper. And they say, well, I don't want to do that, I don't care about that. It is optional to go through the ceremony, but the ceremony has nothing to do with awarding the degree.
+
+501
+00:58:35.810 --> 00:58:43.300
+John Talburt: The awarding of the degree, and that's a good thing in Workday, they don't call it graduation, they call it program completion.
+
+502
+00:58:43.610 --> 00:59:02.650
+John Talburt: completing your program. So keep that… I know I'm making a big deal of this, but it's been a very sad situation for many students that I've dealt with that have just didn't realize. They thought they finished their requirements, school's gonna give them a degree. That is not true. You have to ask for it.
+
+503
+00:59:03.890 --> 00:59:16.370
+John Talburt: Another important date is we'll have a fall break. This is around, Thanksgiving in the U.S, Thanksgiving holiday in the U.S, so it will be a week off, so we won't have any classes that week.
+
+504
+00:59:18.090 --> 00:59:29.359
+John Talburt: The bad thing about that, though, I mean, it's good that you get a nice break from school, but when you come back, there's only one week of classes left, so it's kind of, awkward.
+
+505
+00:59:29.610 --> 00:59:37.960
+John Talburt: You go off and spend a week away from school, and then there's only one week to come back to, and there's a lot of things happening during that last week.
+
+506
+00:59:39.190 --> 00:59:48.420
+John Talburt: And then, the last day of class, so this won't apply to us, our last day of class will be the Wednesday… I'm sorry, the Thursday before this.
+
+507
+00:59:48.750 --> 00:59:52.560
+John Talburt: Because December the 7th falls on a Monday.
+
+508
+00:59:53.350 --> 00:59:58.470
+John Talburt: So our last day of class will be earlier. I forget exactly what date that is, but…
+
+509
+00:59:58.480 --> 01:00:14.659
+John Talburt: Anyway, also, that's the last, that's a deadline to withdraw from all classes. So, if you wait till after that, and you haven't done well in your classes, or you haven't been able to attend, you were sick, you were ill, had an accident, you're gonna get Fs.
+
+510
+01:00:14.920 --> 01:00:17.220
+John Talburt: For those classes, and you don't want to do that.
+
+511
+01:00:17.350 --> 01:00:29.090
+John Talburt: You can appeal to your instructor and say, please give me an I, an incomplete, that I'll make it up. But you run into all kinds of issues, so if you're in that situation, it's much better
+
+512
+01:00:29.390 --> 01:00:30.679
+John Talburt: To withdraw.
+
+513
+01:00:32.560 --> 01:00:36.699
+John Talburt: The final exam for this course will be on December the 10th.
+
+514
+01:00:36.820 --> 01:00:42.480
+John Talburt: So we'll have two major exams, the midterm on the 8th, and the final on the 10th.
+
+515
+01:00:44.500 --> 01:00:52.649
+John Talburt: And if you want to go to commencement, if you're graduating with any of these degrees, you're welcome to go to commencement. That'll be on December the 19th.
+
+516
+01:00:54.580 --> 01:01:05.949
+John Talburt: And again, what we're trying to do here is give you a basic grounding in what information quality means, the technologies, the concepts, what are the principles, the reason we call it the Principles of information.
+
+517
+01:01:06.150 --> 01:01:10.689
+John Talburt: What are the economics of it? How do you measure information quality?
+
+518
+01:01:10.800 --> 01:01:13.840
+John Talburt: What are best practices? What are the standards?
+
+519
+01:01:14.310 --> 01:01:20.180
+John Talburt: And then we'll talk some about the application of statistics to information quality.
+
+520
+01:01:21.480 --> 01:01:29.980
+John Talburt: And then some of the tools, and then I hope that we'll be able to… for all of you to at least write one Agentic data quality
+
+521
+01:01:30.150 --> 01:01:31.050
+John Talburt: program.
+
+522
+01:01:33.150 --> 01:01:36.560
+John Talburt: Nice thing, I'm gonna give you the book.
+
+523
+01:01:36.730 --> 01:01:40.610
+John Talburt: The book that we're gonna use is Journey to Data Quality.
+
+524
+01:01:40.880 --> 01:01:51.450
+John Talburt: And this is a very old book, it's from 2006, the beginning of the program, but it's very foundational, and most of the basic concepts are in there.
+
+525
+01:01:51.770 --> 01:01:58.680
+John Talburt: We'll use other sources, internet sources, and ChatGPT and whatever for the other things.
+
+526
+01:01:59.120 --> 01:02:08.490
+John Talburt: And there's some other good books that you might be interested in getting. Measuring Data Quality for Ongoing Improvement by Laura Sebastian Coleman.
+
+527
+01:02:09.020 --> 01:02:13.699
+John Talburt: And Data Quality Techniques by Dan Myers is a brand new book that's out.
+
+528
+01:02:14.670 --> 01:02:28.809
+John Talburt: And there's many others, and I'll be posting some of these on the Blackboard. As a matter of fact, your book is already out there, so in the Blackboard shell, if you go into Resources, you'll find the book, Journey to Data Quality has already been posted up there.
+
+529
+01:02:32.800 --> 01:02:36.890
+John Talburt: Alright, let me quickly finish, so…
+
+530
+01:02:37.040 --> 01:02:41.010
+John Talburt: The graded work will be the exams, there'll be a midterm, a final.
+
+531
+01:02:41.320 --> 01:02:50.000
+John Talburt: It's closed book, multiple choice format. There'll be some written assignments. I'll probably be giving you an assignment here very shortly.
+
+532
+01:02:50.610 --> 01:02:59.290
+John Talburt: some statistical problems, and then some lab exercises, where you actually deal with some data.
+
+533
+01:02:59.960 --> 01:03:05.440
+John Talburt: And the grading, again.
+
+534
+01:03:05.590 --> 01:03:14.900
+John Talburt: Depends on whether you're in the… by the way, that should be an S instead of a W. We've changed the online from W to S.
+
+535
+01:03:15.650 --> 01:03:17.020
+John Talburt: So,
+
+536
+01:03:17.860 --> 01:03:29.440
+John Talburt: So the only difference here is that there's more weight on the exams for online students because there's no attendance requirement for online. Only attendance requirement is for people in the 01 section.
+
+537
+01:03:30.250 --> 01:03:32.150
+John Talburt: And then the lab exercises.
+
+538
+01:03:33.640 --> 01:03:36.880
+John Talburt: And again, we go by the 10-point breaks on grading.
+
+539
+01:03:39.900 --> 01:03:45.130
+John Talburt: I'll talk about one cat… main class policy, and that's,
+
+540
+01:03:45.420 --> 01:03:52.409
+John Talburt: All your assignments that you're given, except for the exams, but all the written assignment homework.
+
+541
+01:03:52.560 --> 01:03:54.709
+John Talburt: you turn in through Blackboard.
+
+542
+01:03:54.950 --> 01:03:56.510
+John Talburt: And not by email.
+
+543
+01:03:56.750 --> 01:04:01.630
+John Talburt: And the assignments are going to be due by the start of class, so if I give an assignment,
+
+544
+01:04:01.930 --> 01:04:06.169
+John Talburt: to you, it'll be due by 1.40 p.m. Central Time.
+
+545
+01:04:06.300 --> 01:04:12.029
+John Talburt: On a class day, so they'll always be due on a class day at the start of class.
+
+546
+01:04:12.290 --> 01:04:15.090
+John Talburt: If you're late, you lose 20%.
+
+547
+01:04:15.450 --> 01:04:22.290
+John Talburt: And I go by whatever the Blackboard says. If you turn it in, Blackboard says it's late after the 1.40 start time.
+
+548
+01:04:22.480 --> 01:04:25.460
+John Talburt: So, again, internet is not totally…
+
+549
+01:04:25.830 --> 01:04:32.589
+John Talburt: Dependable, so you might want to get… try to get ahead of the curve, and be sure you get yours in a little bit early.
+
+550
+01:04:33.090 --> 01:04:37.220
+John Talburt: If you wait two class periods, you can't get any credit for the assignment.
+
+551
+01:04:38.080 --> 01:04:47.749
+John Talburt: An AI, I don't mind the use of AI. Each assignment, I will explicitly state whether you can use AI or not for your assignment.
+
+552
+01:04:48.330 --> 01:04:53.230
+John Talburt: And when you turn in your assignment, you must tell me whether you used AI or not.
+
+553
+01:04:53.660 --> 01:04:59.849
+John Talburt: So, it will vary. Again, I'm not… I use AI all the time, I'm sure you do, too, as well.
+
+554
+01:05:00.140 --> 01:05:09.349
+John Talburt: But there's certain ones that, I don't want you to use, I want you to work it out yourself, and I will be telling you that when I give you the
+
+555
+01:05:09.610 --> 01:05:10.600
+John Talburt: assignment.
+
+556
+01:05:12.190 --> 01:05:22.119
+John Talburt: University policies, We honor students with disabilities for particular types of things that they may need extra.
+
+557
+01:05:23.050 --> 01:05:38.699
+John Talburt: But all of these policies are now, there's links to them, I won't go through all of them, there are many of them available in the… on Blackboard in your course shell, if you go in there and look. Also, the syllabus that goes through these in detail is there as well.
+
+558
+01:05:40.770 --> 01:05:49.739
+John Talburt: So again, the, if you're in the, 01 or the S1 section.
+
+559
+01:05:51.110 --> 01:05:56.419
+John Talburt: You'll be taking the exam in person here on campus, because those are in campus sections.
+
+560
+01:05:56.740 --> 01:06:00.689
+John Talburt: If you're online, you'll be taking them online.
+
+561
+01:06:02.280 --> 01:06:05.250
+John Talburt: And, we've got a couple of,
+
+562
+01:06:05.560 --> 01:06:08.289
+John Talburt: Teaching assistants who are online right now.
+
+563
+01:06:08.690 --> 01:06:15.669
+John Talburt: That'll be helping me, and they may be helping you as well once we get into the class exercises and tools.
+
+564
+01:06:15.850 --> 01:06:18.259
+John Talburt: And that's Manjima and Safa.
+
+565
+01:06:18.930 --> 01:06:21.290
+John Talburt: That's their email addresses.
+
+566
+01:06:22.650 --> 01:06:25.210
+John Talburt: So I've run us right up to time.
+
+567
+01:06:25.730 --> 01:06:29.850
+John Talburt: I don't know if there's a quick question anyone has or not.
+
+568
+01:06:30.740 --> 01:06:39.970
+John Talburt: But anyway, this is recorded, and we will start with the actual content on Thursday, and Thursday's class will be online for everyone.
+
+569
+01:06:40.350 --> 01:06:46.585
+John Talburt: So, what I plan to do is have in-person
+
+570
+01:06:47.830 --> 01:06:52.810
+John Talburt: We'll see, but anyway, in person on, Tuesdays and online
+
+571
+01:06:52.970 --> 01:06:57.410
+John Talburt: on, Thursdays for people in the 01 and S sections.
+
+572
+01:06:57.920 --> 01:07:00.070
+John Talburt: I'm sorry, in the 01 section only.
+
+573
+01:07:00.730 --> 01:07:04.339
+John Talburt: So, everybody else will be online all the time.
+
+574
+01:07:05.940 --> 01:07:11.440
+John Talburt: Okay, that's all I have for today, and I'm gonna stop the recording.
+
+575
+01:07:12.810 --> 01:07:13.620
+Dela Vanlare: Thank you.
+
+576
+01:07:15.030 --> 01:07:17.160
+John Talburt: Now, thanks, everyone, for attending today.
+
+577
+01:07:20.110 --> 01:07:21.650
+Sabiha Aman: Thank you, Rutgers.
+

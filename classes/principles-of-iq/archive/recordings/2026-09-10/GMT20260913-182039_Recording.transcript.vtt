@@ -1,0 +1,2006 @@
+WEBVTT
+
+1
+00:00:04.000 --> 00:00:11.279
+John Talburt: I apologize, but for some reason, the lecture that I gave on Principles of data quality management
+
+2
+00:00:11.680 --> 00:00:15.880
+John Talburt: Especially the ISO 8000, standards.
+
+3
+00:00:16.120 --> 00:00:21.499
+John Talburt: was not recorded, so this is a repeat of that lecture. If you,
+
+4
+00:00:22.040 --> 00:00:24.330
+John Talburt: We're in live attendance at that
+
+5
+00:00:24.920 --> 00:00:28.799
+John Talburt: particular lecture. This may not be that important to you, but
+
+6
+00:00:29.000 --> 00:00:33.750
+John Talburt: For those of you that were online, or online students who were not able to attend.
+
+7
+00:00:34.030 --> 00:00:39.770
+John Talburt: I felt I should redo that lecture and make a recording so it would be available to you.
+
+8
+00:00:40.470 --> 00:00:42.289
+John Talburt: So, let me get started.
+
+9
+00:00:42.640 --> 00:00:48.050
+John Talburt: So, what I'm talking about here is the Principles of data quality management
+
+10
+00:00:48.190 --> 00:00:57.060
+John Talburt: And I think they're really, a good way to look at those is through the ISO 8000 Part 61 standard.
+
+11
+00:00:57.260 --> 00:01:01.209
+John Talburt: And by the way, I don't know if I mentioned this in the
+
+12
+00:01:01.340 --> 00:01:14.229
+John Talburt: actual class that I had on last Thursday, but I have put a copy of the full standard in the resources folder of the shelf, so if you want to read and look at the entire standard, it's fairly long.
+
+13
+00:01:14.480 --> 00:01:19.980
+John Talburt: But I'm just going to go over the high points, or the main points here in the lecture today.
+
+14
+00:01:20.740 --> 00:01:26.160
+John Talburt: So, the first thing that I want to talk about is our definition of quality.
+
+15
+00:01:27.030 --> 00:01:33.829
+John Talburt: And how, you know, we… again, so many things we just intuitively sort of define.
+
+16
+00:01:34.150 --> 00:01:45.059
+John Talburt: And I know I asked some of the students during the class last Thursday what their ideas were, and we all have kind of a different idea about what quality means to us.
+
+17
+00:01:45.590 --> 00:01:50.339
+John Talburt: But from a formal standpoint, it's pretty well defined.
+
+18
+00:01:50.920 --> 00:01:57.049
+John Talburt: And if we go by the ISO standards, international standards, quality is meeting requirements.
+
+19
+00:01:57.790 --> 00:02:02.230
+John Talburt: In ISO 9000, which, you recall.
+
+20
+00:02:02.850 --> 00:02:07.580
+John Talburt: In the history, that we did last, Tuesday.
+
+21
+00:02:08.060 --> 00:02:14.659
+John Talburt: We talked about how so much of what we're studying about information quality and data quality
+
+22
+00:02:14.830 --> 00:02:21.350
+John Talburt: Comes directly from the manufacturing revolution, based on total quality management.
+
+23
+00:02:21.670 --> 00:02:28.080
+John Talburt: This idea that, how to really manufacture a quality product that came out of
+
+24
+00:02:28.270 --> 00:02:42.109
+John Talburt: the fusion of the work that Deming and Shuhart and Duran and other quality experts were trying to get the world to understand, and they got a really welcome,
+
+25
+00:02:42.460 --> 00:02:58.650
+John Talburt: reception for their ideas in Japan right after World War II, when Douglas MacArthur was trying to help rebuild manufacturing for the Japanese after we had destroyed so much of their manufacturing capability, or capacity.
+
+26
+00:02:58.940 --> 00:03:05.820
+John Talburt: And they really took to these ideas of quality, and so that's how the quality revolution,
+
+27
+00:03:05.970 --> 00:03:20.330
+John Talburt: Toyota and Honda and the many other now Asian countries quickly adopted these standards for how to really manufacture a quality product, how to go about the quality process.
+
+28
+00:03:20.730 --> 00:03:31.930
+John Talburt: And so, so much of what we have now in information quality, our understanding, comes from that. So, it's all based on the idea that
+
+29
+00:03:32.140 --> 00:03:38.879
+John Talburt: In information quality, we're manufacturing an information product. It's not a physical product.
+
+30
+00:03:39.070 --> 00:03:53.849
+John Talburt: But it is a tangible product, like a report, or we'd mentioned some of the examples, like the transcripts of your grades that are produced, like a medical chart that your doctor uses. These are information products
+
+31
+00:03:54.010 --> 00:04:02.770
+John Talburt: That are manufactured through programs and systems that read raw material, which in our case is data files.
+
+32
+00:04:03.070 --> 00:04:16.820
+John Talburt: transactional files of the tests that you took in the hospital, the interviews that you had, the transactions that you made with the company, the things that you bought. All of these things are…
+
+33
+00:04:17.570 --> 00:04:26.089
+John Talburt: Raw materials that go into a process of… and it's a manufacturing process in which the machinery is basically programs.
+
+34
+00:04:26.190 --> 00:04:34.650
+John Talburt: And those programs then put this together and create an information product. So if we think about managing information as product.
+
+35
+00:04:34.680 --> 00:04:46.640
+John Talburt: it makes sense to adopt these already proven quality process concepts that are now enshrined in the ISO 9000 standards.
+
+36
+00:04:47.110 --> 00:05:00.319
+John Talburt: So, quality only really makes sense in the context of requirements, and this is also very relevant to your current assignment. So, in some ways, maybe it's better that I didn't record last time, and now, having graded your
+
+37
+00:05:00.980 --> 00:05:04.429
+John Talburt: Your papers, about doing the analysis.
+
+38
+00:05:04.680 --> 00:05:11.990
+John Talburt: of that newbie file, maybe this will help you understand more of what I'm wanting in this new assignment.
+
+39
+00:05:12.330 --> 00:05:18.520
+John Talburt: Because, again, the analysis you did was not a quality assessment of that data set.
+
+40
+00:05:19.170 --> 00:05:29.419
+John Talburt: Because data quality is the degree to which data meet data requirements, or data specifications, or standards, however you want to phrase it.
+
+41
+00:05:29.530 --> 00:05:37.030
+John Talburt: In other words, you need some guiding to say, this is what should be there, now look at what is there, and is there a gap?
+
+42
+00:05:37.200 --> 00:05:55.820
+John Talburt: Right? So the thing that you didn't have when I gave you the first assignment about the… of just using OpenRefine to look at… and I tried to be careful just to call it an analysis. I just wanted you to look at that data and see what you thought, what you noticed about the data. But you can't really say.
+
+43
+00:05:55.950 --> 00:06:13.600
+John Talburt: that you're doing a data quality assessment of that file, because in order to do that, you really need to know what were the requirements, right? So many of you found some anomalies. For example, one that I like is… well, first of all, you found a lot of missing data, right?
+
+44
+00:06:13.630 --> 00:06:19.710
+John Talburt: So, but the question is, is that a data quality problem or issue.
+
+45
+00:06:20.340 --> 00:06:39.809
+John Talburt: if the requirements for that column don't require it to be complete. They don't require a value to be there, it's an optional value. In that case, a missing value is not a data quality problem, because it's not violating a data quality requirement, or a data requirement.
+
+46
+00:06:39.910 --> 00:06:46.910
+John Talburt: So, so again, you can't really do a data quality assessment of data
+
+47
+00:06:47.100 --> 00:06:51.839
+John Talburt: Until you know what the data requirements are. So in this new,
+
+48
+00:06:52.590 --> 00:06:58.819
+John Talburt: Assignment is sort of halfway between analysis and data quality assessment, because
+
+49
+00:06:59.450 --> 00:07:15.689
+John Talburt: Again, we're approaching this from the standpoint that we need to start with the product that we're building. What is the information product that we're building? So what I tried to describe in the new assignment is, I want some kind of a product, I want a report
+
+50
+00:07:15.920 --> 00:07:21.369
+John Talburt: And here's what I want in the report. So here are the requirements for the report.
+
+51
+00:07:21.720 --> 00:07:29.650
+John Talburt: But I'm not giving you the report, I'm giving you some data that I want you to use to make this report. And based on that.
+
+52
+00:07:29.790 --> 00:07:45.940
+John Talburt: you need to go back and say, well, if I need this in the report, what do I need in the data that comes in, and what do I need… what requirements do I need for it? Is this something that's going to be required? In which case, I need a data requirement to say.
+
+53
+00:07:45.940 --> 00:07:50.899
+John Talburt: that this particular item, needs to be there. It needs to be,
+
+54
+00:07:50.970 --> 00:07:57.880
+John Talburt: Not… it needs to be filled in so that I have it for the report, because that's a requirement in the report.
+
+55
+00:07:58.010 --> 00:08:01.489
+John Talburt: So, again, it's starting with the end in mind.
+
+56
+00:08:01.790 --> 00:08:07.980
+John Talburt: You can't really do a good data quality assessment or even create data quality requirements
+
+57
+00:08:08.240 --> 00:08:12.100
+John Talburt: Until you know what it is that you're trying to build.
+
+58
+00:08:12.230 --> 00:08:19.650
+John Talburt: So again, this is a really important part of this course, and so there's no, like, fixed answers
+
+59
+00:08:19.880 --> 00:08:24.619
+John Talburt: It's sort of like when you're learning mathematics or geometry.
+
+60
+00:08:24.630 --> 00:08:37.509
+John Talburt: It's not so important that you remember all of the theorems, or all the types of calculations, is how… but it's more important what you think about. How is your thinking? What's your logic that you're going through?
+
+61
+00:08:37.510 --> 00:08:45.310
+John Talburt: And the same thing is true here. I want you, in this course, to think of yourself as the information quality analyst.
+
+62
+00:08:45.470 --> 00:08:58.669
+John Talburt: And you want to analyze things, right? So, in some cases, it may be very obvious what you need, in the data, or that may be very obvious that some of the data is missing, or it's not right or correct.
+
+63
+00:08:58.730 --> 00:09:13.220
+John Talburt: But in many cases, you just don't know. You're not sure, and so you need to say, well, my analysis is I need to follow up, and there needs to be more work done here to understand exactly what was meant or what was needed.
+
+64
+00:09:13.570 --> 00:09:25.339
+John Talburt: So, again, think of yourselves as analysts. Don't be afraid to say, well, I'm not sure about this because it's not clear from the specifications for the product.
+
+65
+00:09:25.390 --> 00:09:35.279
+John Talburt: exactly what is needed here, and so there needs to be more investigation, or I need to go get more data, or I need to get something else that I don't already have.
+
+66
+00:09:35.750 --> 00:09:41.200
+John Talburt: So think of it in that way as being an analyst, okay? Not… not just a…
+
+67
+00:09:42.050 --> 00:09:48.939
+John Talburt: not all the answers are plain and clear. They require some work.
+
+68
+00:09:50.490 --> 00:09:59.369
+John Talburt: So again, this gets to this point that I'm trying to make, is that when we talked about the seven basic Principles of information quality.
+
+69
+00:09:59.650 --> 00:10:03.520
+John Talburt: We said that one of them, and it may be really the most important one.
+
+70
+00:10:04.240 --> 00:10:08.049
+John Talburt: Is that you need to manage information as product.
+
+71
+00:10:08.620 --> 00:10:16.599
+John Talburt: If you're thinking about information and what information you need, about the quality of the information, the data quality.
+
+72
+00:10:16.770 --> 00:10:23.779
+John Talburt: you really need to anchor that in an understanding of what it is that I'm trying to build.
+
+73
+00:10:24.120 --> 00:10:29.230
+John Talburt: Again, going back to the manufacturing analogy, I'm trying to build something.
+
+74
+00:10:29.650 --> 00:10:32.659
+John Talburt: If it's an information product or service.
+
+75
+00:10:33.060 --> 00:10:36.660
+John Talburt: Then, it's something that's based on data.
+
+76
+00:10:36.830 --> 00:10:42.089
+John Talburt: And so, how do I go about managing that and analyzing that?
+
+77
+00:10:42.250 --> 00:10:47.119
+John Talburt: And the way that you want to start is you want to start with understanding
+
+78
+00:10:47.330 --> 00:10:49.200
+John Talburt: what I'm trying to build.
+
+79
+00:10:51.240 --> 00:11:00.579
+John Talburt: So again, you can think of your information systems in your organization as these information product factories. And again, we go back to the same analogy.
+
+80
+00:11:00.970 --> 00:11:07.829
+John Talburt: And that is, we have raw materials, that's our source data, and it could be multiple sources of data. Typically, it is.
+
+81
+00:11:08.590 --> 00:11:16.689
+John Talburt: We put that data into our machinery, which in our case is mostly programs, these operational systems that we run.
+
+82
+00:11:17.010 --> 00:11:22.150
+John Talburt: And typically now, everybody has a data warehouse where we not only are
+
+83
+00:11:22.520 --> 00:11:37.480
+John Talburt: Generating the information products that we need to run the business or the organization from day to day, but we save all that in a data warehouse that we can analyze later to see, what we call business intelligence.
+
+84
+00:11:37.770 --> 00:11:40.389
+John Talburt: To see how we can do things better.
+
+85
+00:11:40.830 --> 00:11:45.350
+John Talburt: And this is the whole idea of a data warehouse, and almost everybody has one.
+
+86
+00:11:45.980 --> 00:12:00.989
+John Talburt: And then we have a design, blueprints for what we're building. We're building an airplane, or a car, or a toaster, whatever it is. We have design specifications. They're typically not blueprints on paper anymore, they're CAD-CAMs digitized.
+
+87
+00:12:01.350 --> 00:12:07.869
+John Talburt: But nevertheless, we have some design and some requirements for what we're building.
+
+88
+00:12:08.130 --> 00:12:22.670
+John Talburt: And we build those information products, and I call them products, but they could be services, too, right? More and more nowadays, we're building information services that people ask and go into, sort of like these,
+
+89
+00:12:22.870 --> 00:12:25.730
+John Talburt: large language models, Gemini and…
+
+90
+00:12:25.890 --> 00:12:30.550
+John Talburt: ChatGPT, you can think of those as information services, right?
+
+91
+00:12:30.780 --> 00:12:34.250
+John Talburt: You're putting information in, you're getting information back.
+
+92
+00:12:34.470 --> 00:12:40.480
+John Talburt: So it's more of a service than just a fixed report. You get a report out of it, you get a response.
+
+93
+00:12:40.680 --> 00:12:45.720
+John Talburt: But the way they operate is more as a service than as a single fixed product.
+
+94
+00:12:45.880 --> 00:12:48.660
+John Talburt: But nevertheless, whether it's product or service.
+
+95
+00:12:48.920 --> 00:13:06.729
+John Talburt: It's going to… we're building it for somebody to use, right? If you're the user of your chat GPT, or you're here in school and you need a copy of your transcript, or your diploma, or you need to know your class schedule, those are all information products that are being produced.
+
+96
+00:13:07.000 --> 00:13:12.259
+John Talburt: Out of our information systems, which, by the way, constantly keeps changing from
+
+97
+00:13:12.540 --> 00:13:18.630
+John Talburt: We used to be DeReeWorks, and now we're using Student Workday, and before that, we used,
+
+98
+00:13:18.770 --> 00:13:25.940
+John Talburt: the BOSS system, and so, anyway, it's a moving target. But nevertheless,
+
+99
+00:13:26.100 --> 00:13:31.609
+John Talburt: The whole idea is that we want to start right here at the beginning. We want to start here.
+
+100
+00:13:32.080 --> 00:13:44.519
+John Talburt: with what it is that we're building and who we're building it for, because that's what shapes the requirements for the product. If we're trying to help somebody, some consumer of this product or service.
+
+101
+00:13:45.100 --> 00:14:01.499
+John Talburt: we need to understand what do they need, and that then becomes a requirement for the product. Once we know the requirement for the product, then we can go back up and say, what are the requirements for the data that we need? What data do we need, and what is the condition of that data?
+
+102
+00:14:01.620 --> 00:14:09.040
+John Talburt: So that we can put it through this operational system and build this information, product, or service that the consumer wants.
+
+103
+00:14:10.500 --> 00:14:12.850
+John Talburt: So again, we want to work backwards.
+
+104
+00:14:13.080 --> 00:14:21.340
+John Talburt: Really, actually, from the consumer, to the product, back through how we want our operational systems to work, and what
+
+105
+00:14:21.460 --> 00:14:24.239
+John Talburt: What data that they need to work properly.
+
+106
+00:14:25.430 --> 00:14:32.950
+John Talburt: So again, we… So much of our thinking around information quality, and data quality especially.
+
+107
+00:14:32.990 --> 00:14:44.389
+John Talburt: And I go into a lot of companies, and they ask me about it, and I look at their systems and what they're doing. They're only focused on the left-hand side of this. They're just saying, I'm getting data in
+
+108
+00:14:44.390 --> 00:14:53.669
+John Talburt: I'm gonna clean it up really clean, and this is mostly what, when you were doing your analysis, right? You were just looking at some piece of data.
+
+109
+00:14:53.860 --> 00:15:09.040
+John Talburt: In that case, it was a list of movies, but it really… it really depends… the quality of that. Even though many of you said, well, you know, there's a lot of missing values, obviously there was, there's a lot of inconsistency, there were many things that you observed.
+
+110
+00:15:09.350 --> 00:15:13.130
+John Talburt: But you can't really say whether those are good or bad.
+
+111
+00:15:13.380 --> 00:15:17.110
+John Talburt: Until you know how it's going to be used. As I mentioned.
+
+112
+00:15:17.260 --> 00:15:21.480
+John Talburt: You know, there may be a lot of missing values for,
+
+113
+00:15:21.600 --> 00:15:39.939
+John Talburt: for example, for the duration of the video, or movie, whatever it was. But if you're building a product for somebody that wants to use this, and they don't care about it, that's not what they want to know. They really want to know
+
+114
+00:15:40.080 --> 00:15:44.550
+John Talburt: You know, who are the… Producers? Who were the actors? Who were the…
+
+115
+00:15:48.060 --> 00:15:55.019
+John Talburt: You know, who was the director, who was the producer? Many things like that. Maybe that's what they're interested in.
+
+116
+00:15:55.310 --> 00:16:08.429
+John Talburt: That data may or may not be sufficient, but it doesn't require… it's not putting any requirements on the duration. And so, to say there's a lot of missing durations is not necessarily a data quality issue.
+
+117
+00:16:08.520 --> 00:16:13.529
+John Talburt: It's not a data quality problem if it's not going to be used in the final product.
+
+118
+00:16:13.600 --> 00:16:30.819
+John Talburt: So again, you can't really do data quality assessment until you have the requirements for the data, and those data requirements should come from the consumer requirements for the product or service that you're building. So you need to work backwards in this diagram.
+
+119
+00:16:32.690 --> 00:16:35.740
+John Talburt: So, so again.
+
+120
+00:16:35.840 --> 00:16:50.970
+John Talburt: what we learned from manufacturing, this is the reason that the Asian companies, Toyota and the Japanese, Korean, have become so successful, is they adopted these principles of total quality management, and there's 4 basic axioms of it.
+
+121
+00:16:51.790 --> 00:17:00.799
+John Talburt: starts off… you have to understand the consumer's needs. If you're going to build something for a consumer, you have to build what they want, right?
+
+122
+00:17:01.020 --> 00:17:08.679
+John Talburt: So, you can't just say, I'm gonna build a widget, and I'm gonna price it at this price, and I hope it sells.
+
+123
+00:17:08.859 --> 00:17:19.539
+John Talburt: If nobody's in the market for widgets, or even if they are in the market for widgets, but they want widgets with certain features, and you're not providing those features, you're not going to be successful.
+
+124
+00:17:19.849 --> 00:17:27.789
+John Talburt: So, the very first principle is you have to understand what the consumer needs from the thing that you're making.
+
+125
+00:17:28.670 --> 00:17:36.870
+John Talburt: And then once you know what that is, you need a well-defined process to produce the thing that the consumer wants. And that means
+
+126
+00:17:37.120 --> 00:17:41.789
+John Talburt: as I said, you're going to have to back into the materials that go into it.
+
+127
+00:17:42.090 --> 00:17:45.480
+John Talburt: And it's especially true for an information product.
+
+128
+00:17:45.650 --> 00:18:02.049
+John Talburt: As I said, you know, if the consumer is wanting to know certain things about movies, you need to know what those things are. And just because you have a data set that has movie information in it, it may not be sufficient or adequate to produce what they want.
+
+129
+00:18:02.540 --> 00:18:13.800
+John Talburt: And it… you can't really judge how well it's going to… what the quality of it is for that product until you know the product requirements.
+
+130
+00:18:13.990 --> 00:18:22.780
+John Talburt: Then that tells you what the requirements should be for the data, and then you can assess its quality in terms of being an input into that.
+
+131
+00:18:22.910 --> 00:18:25.289
+John Talburt: Process for that product.
+
+132
+00:18:27.360 --> 00:18:35.689
+John Talburt: Another thing you have to understand is the life cycle. And again, as I pointed out, you know, I mean, if you're manufacturing something.
+
+133
+00:18:36.080 --> 00:18:40.899
+John Talburt: The products, and this is true for information products, have a life cycle.
+
+134
+00:18:41.240 --> 00:18:48.900
+John Talburt: People want certain things at certain times, but over time, it changes what it is that they want.
+
+135
+00:18:49.360 --> 00:19:01.669
+John Talburt: So you have to understand, is the product that you're building something that's an… you're introducing something early in its life cycle, where people are just now starting to want this?
+
+136
+00:19:01.920 --> 00:19:03.150
+John Talburt: Is it…
+
+137
+00:19:03.310 --> 00:19:14.339
+John Talburt: Is it something that's well understood and people… you know that people want it, it's a mature product, or is it something that, you know, people really don't need that much anymore?
+
+138
+00:19:14.510 --> 00:19:30.829
+John Talburt: things have changed, and they don't need this particular information, and they might not need it in a certain timely way. And so, you need to constantly think about the things that you're building. What's the demand for them? Where are you in the life cycle of that product?
+
+139
+00:19:31.330 --> 00:19:35.540
+John Talburt: And then another extremely important one, or at least all four are very important.
+
+140
+00:19:35.890 --> 00:19:46.899
+John Talburt: Is that in order to make that bridge between the consumer and all the way back into the materials that need to go into building that product.
+
+141
+00:19:47.130 --> 00:19:57.859
+John Talburt: You need a product manager, because they're the ones who keep on top and understand what it is at this time that your consumers are wanting in these products or services.
+
+142
+00:19:58.340 --> 00:20:13.280
+John Talburt: And as that changes, they can communicate that, translate that back into your organization, to the people that are building these systems, to say, alright, here, we need to change. We're getting demand
+
+143
+00:20:13.540 --> 00:20:29.630
+John Talburt: For this particular feature, here's something that's been missing that people are wanting in this information product. We need to add that in. If we need to add that in, do we already have this information, or do we need to go out and obtain other information that we didn't have already?
+
+144
+00:20:29.680 --> 00:20:34.280
+John Talburt: So that would create new data requirements. We're requiring certain items
+
+145
+00:20:34.360 --> 00:20:46.000
+John Talburt: data, we need to get those, and we need to be sure that those items, we have those items, they're correct, they're timely, all of these other issues that we can use to assess the data going in.
+
+146
+00:20:46.050 --> 00:21:03.179
+John Talburt: But again, you can't really assess the quality of raw data coming in to an organization until you know exactly how it's going to be used in producing an information product or service that meets consumer needs.
+
+147
+00:21:06.240 --> 00:21:15.240
+John Talburt: So, these are in here. I won't go through this a lot, but if you're doing an analysis, you're going to be a data quality analyst, or an information quality analyst.
+
+148
+00:21:15.740 --> 00:21:24.540
+John Talburt: Then again, if you're… somebody calls you in, you get a job, and you, you know, then the first thing you really should be inquiring about…
+
+149
+00:21:24.650 --> 00:21:33.299
+John Talburt: is not what data they're getting, but what they're trying to produce. What are the products that they're trying to,
+
+150
+00:21:33.840 --> 00:21:43.100
+John Talburt: produce, and do they really know what these products are? Are they well-defined? Do we know exactly what the product requirements are?
+
+151
+00:21:43.220 --> 00:21:46.789
+John Talburt: And which ones are really important? They may be manufacturing
+
+152
+00:21:46.920 --> 00:21:50.479
+John Talburt: Are producing, you know, hundreds of information products.
+
+153
+00:21:50.740 --> 00:21:58.740
+John Talburt: a large corporation, a bank, something like that. But you really need to know where to start. What are the key ones? What's the most important?
+
+154
+00:21:59.130 --> 00:22:06.780
+John Talburt: And, who… you have to understand, again, based on those principles, who the users are and how they're using those products.
+
+155
+00:22:08.310 --> 00:22:09.750
+John Talburt: So,
+
+156
+00:22:09.920 --> 00:22:24.340
+John Talburt: This is where, there are many methodologies and recommendations for how to manage data quality, and later we'll go in to talk about some of the others. There's the DMBOK, there's the Six Sigma.
+
+157
+00:22:25.690 --> 00:22:29.980
+John Talburt: There's DCAM, there's many other…
+
+158
+00:22:30.780 --> 00:22:38.359
+John Talburt: Frameworks, if you will, that talk about managing data quality, but they all kind of have a different slant to them.
+
+159
+00:22:38.740 --> 00:22:47.359
+John Talburt: And that's true here, but at least we now have a standard, an international standard. It's called the Data Quality Management Reference Model.
+
+160
+00:22:47.660 --> 00:22:51.590
+John Talburt: That doesn't tell you exactly how to do it, but it tells you what
+
+161
+00:22:51.710 --> 00:22:57.199
+John Talburt: Are the things that you should be, doing in terms of
+
+162
+00:22:57.380 --> 00:23:01.740
+John Talburt: the results that you want to get, and so we'll talk about this in a minute.
+
+163
+00:23:02.350 --> 00:23:12.560
+John Talburt: So, it has 3 parts to it. It has an implementation process, where you're actually doing the data quality, but then there are data-related support processes.
+
+164
+00:23:12.770 --> 00:23:16.940
+John Talburt: And then there's resource provisioning, for the processes.
+
+165
+00:23:17.460 --> 00:23:21.449
+John Talburt: And so, let's talk a little bit about each of these.
+
+166
+00:23:22.500 --> 00:23:34.330
+John Talburt: So, implementation, you remember we talked about, Shuhart and dimming, and you remember, there really laid the foundation for what we mean by data quality.
+
+167
+00:23:35.350 --> 00:23:38.010
+John Talburt: And how to, manage it.
+
+168
+00:23:38.170 --> 00:23:46.620
+John Talburt: And they, shuhart came up with this idea of a cycle, a repeated cycle that starts with,
+
+169
+00:23:46.770 --> 00:23:52.220
+John Talburt: planning, Doing what you planned, checking what you did.
+
+170
+00:23:52.450 --> 00:23:58.819
+John Talburt: And then, analyzing that to see if it could be improved. Plan, do, check, act.
+
+171
+00:23:59.200 --> 00:24:01.680
+John Talburt: Cycle that they called it.
+
+172
+00:24:02.880 --> 00:24:10.499
+John Talburt: Shuhart actually came up with that, and Deming wanted to kind of rename it as Plan, New, Study. He wanted to study
+
+173
+00:24:10.640 --> 00:24:12.629
+John Talburt: And then act, or analyze.
+
+174
+00:24:12.810 --> 00:24:14.320
+John Talburt: And so,
+
+175
+00:24:15.700 --> 00:24:21.550
+John Talburt: So, one of the great things about the ISO standard is that it's based on the same principle.
+
+176
+00:24:21.760 --> 00:24:25.809
+John Talburt: It's based on the Shuhart-Demmy Plan, Do, Check, Act cycle.
+
+177
+00:24:26.400 --> 00:24:33.720
+John Talburt: And so, the data quality planning and requirements is the plan.
+
+178
+00:24:34.340 --> 00:24:37.490
+John Talburt: Data quality control is the do.
+
+179
+00:24:38.050 --> 00:24:40.890
+John Talburt: And data quality assurance is the check.
+
+180
+00:24:41.020 --> 00:24:45.469
+John Talburt: and data quality analysis and improvement is the act. So.
+
+181
+00:24:45.930 --> 00:24:56.849
+John Talburt: What do we mean by this? And I mentioned this earlier, and again, I want you to come away from this course having a good understanding of the difference between data quality control
+
+182
+00:24:56.970 --> 00:24:59.090
+John Talburt: And data quality assurance.
+
+183
+00:25:00.140 --> 00:25:11.269
+John Talburt: So, data quality control is what we just got through talking about, is where we're building a data or an information product or service. So, you're building, and you have a product
+
+184
+00:25:11.500 --> 00:25:23.049
+John Talburt: Data Quality Control is looking to be sure that the product that you built meets the requirements, the consumer requirements that you gathered for that product.
+
+185
+00:25:23.430 --> 00:25:33.640
+John Talburt: So, data quality control is applied at the end of the process when you've manufactured or built the product that you're trying to build.
+
+186
+00:25:33.950 --> 00:25:39.920
+John Talburt: So, data quality control is, does the product, the finished product, meet requirements?
+
+187
+00:25:40.530 --> 00:25:43.950
+John Talburt: So that's its quality. Is it meeting the product requirements?
+
+188
+00:25:44.580 --> 00:25:46.939
+John Talburt: Data quality assurance.
+
+189
+00:25:47.220 --> 00:25:55.540
+John Talburt: are the checks that you do during the process, not after you've built the product, but while you're building that product. Like.
+
+190
+00:25:55.750 --> 00:26:06.299
+John Talburt: the data that comes into the door, you're looking at, like you were doing with the analysis that you just got through doing on the movie file. If that's an input coming into some product.
+
+191
+00:26:06.490 --> 00:26:15.449
+John Talburt: then data quality assurance is saying, well, I have now certain requirements for that data that's coming in that I'm going to use to build this product.
+
+192
+00:26:15.490 --> 00:26:30.099
+John Talburt: Is it meeting those requirements? Because if the first data coming in the door is not meeting the requirements, then I don't have any hope that the product that I'm going to build will meet its requirements. It will pass quality control.
+
+193
+00:26:30.200 --> 00:26:34.690
+John Talburt: So, data quality assurance are things that you do to assure
+
+194
+00:26:34.850 --> 00:26:38.380
+John Talburt: That data quality control will succeed.
+
+195
+00:26:38.740 --> 00:26:43.360
+John Talburt: Control happens at the product, assurance happens during the process.
+
+196
+00:26:43.500 --> 00:26:48.560
+John Talburt: Many people, even many people who are working supposedly, in quality
+
+197
+00:26:48.790 --> 00:27:01.159
+John Talburt: roles don't clearly understand the difference between data quality control and data quality, or even if they're not doing data, if they're doing, for example, software.
+
+198
+00:27:01.340 --> 00:27:12.269
+John Talburt: Or they're manufacturing. Quality control is when you're building the pro… is assure… sorry. Quality control is making sure that
+
+199
+00:27:12.560 --> 00:27:16.110
+John Talburt: Finished product meets the product requirements.
+
+200
+00:27:16.460 --> 00:27:27.609
+John Talburt: Whereas quality assurance is assuring that the parts that you're going in, if you're building a physical product, or if you're building an information product, that the data that you're getting
+
+201
+00:27:27.720 --> 00:27:39.370
+John Talburt: that it meets its requirements to be sure that when you've assembled that final product, it will meet its requirements. It'll pass data control. So you're trying to assure
+
+202
+00:27:39.550 --> 00:27:47.199
+John Talburt: the… The process is working properly, so that quality control succeeds in the end.
+
+203
+00:27:48.000 --> 00:27:55.110
+John Talburt: And then the analysis and improvement is that there's always going to be issues that you find. There will always be problems.
+
+204
+00:27:55.330 --> 00:28:00.130
+John Talburt: Some that are anticipated, some that are not anticipated, that are surprising.
+
+205
+00:28:00.390 --> 00:28:13.140
+John Talburt: If you think about physical manufacturing, right, you can have drift in the machines, the machine bearings are wearing down, things are getting out of… and you have measurements that you take. You've got tolerances.
+
+206
+00:28:13.430 --> 00:28:20.239
+John Talburt: So, you can think in manufacturing that data quality assurance is measuring tolerances of parts.
+
+207
+00:28:20.280 --> 00:28:34.049
+John Talburt: Are the parts meeting the dimensions, the specifications that you need so that they will assemble together and make a final working product that works correctly? Just think about the thousands of things that
+
+208
+00:28:34.230 --> 00:28:45.769
+John Talburt: you put together in an automobile, if you're… if you're making a quality automobile. And so quality assurance is measuring all those things, measuring the actual diameters and the…
+
+209
+00:28:45.880 --> 00:28:46.940
+John Talburt: the,
+
+210
+00:28:47.690 --> 00:28:59.019
+John Talburt: things that you're doing on the interior, and the knobs, and all the holes in the dashboard are in the right place, and all that. Those are assuring that they will all fit together in the end.
+
+211
+00:28:59.330 --> 00:29:06.780
+John Talburt: And complete, you'll have a car that passes the data… the quality control
+
+212
+00:29:06.910 --> 00:29:18.420
+John Talburt: for that automobile. It'll start, the interior's clean, you can drive it away, the steering wheel works, every… all of these things. They go through thousands… I'm sorry, probably hundreds of checks.
+
+213
+00:29:18.630 --> 00:29:25.010
+John Talburt: For each car that they manufacture, to be sure that it meets quality control.
+
+214
+00:29:26.300 --> 00:29:28.439
+John Talburt: The same thing should be happening
+
+215
+00:29:28.600 --> 00:29:47.169
+John Talburt: for information products, but then you're going to find things that don't work out. You're going to find that there are certain parts that don't meet tolerances. You're going to find that even though the parts have met all the tolerances, in the end, what you're building just doesn't seem to work correctly.
+
+216
+00:29:47.430 --> 00:29:54.420
+John Talburt: And that's a failure of quality control. So these failures of quality assurance and quality control
+
+217
+00:29:54.570 --> 00:30:11.559
+John Talburt: You take and you collect those, and you analyze them and see, you know, was this just a fluke? Somebody had a bad day on the shop floor, or is this something… we're getting something wrong from this particular supplier? We need to correct that.
+
+218
+00:30:11.700 --> 00:30:19.550
+John Talburt: So that you need to constantly analyze and improve your quality control and quality assurance failures.
+
+219
+00:30:19.730 --> 00:30:28.190
+John Talburt: So that you can act on those and to try to make corrections to continually improve the process that you're… of building this particular product.
+
+220
+00:30:28.720 --> 00:30:37.290
+John Talburt: So, those have been adopted in the ISO 8000 and the data quality management process reference model.
+
+221
+00:30:37.850 --> 00:30:43.829
+John Talburt: And so here's… and you'll see this if you look at the actual standard that I put in the resources folder.
+
+222
+00:30:44.520 --> 00:30:55.870
+John Talburt: So again, there's the three overall processes. The implementation process, which has four parts. It's the plan. You can see there's quality planning up on the upper left.
+
+223
+00:30:56.510 --> 00:30:59.660
+John Talburt: And then, that leads to,
+
+224
+00:31:00.050 --> 00:31:07.640
+John Talburt: Quality control, which leads to quality assessment, or assurance, if you will. Should put assurance there.
+
+225
+00:31:08.010 --> 00:31:16.870
+John Talburt: And then… then you do data quality improvement. So it really follows the plan, do, check, act cycle in the four parts.
+
+226
+00:31:16.990 --> 00:31:21.430
+John Talburt: Now, there are other things that are related to it. We talked about, and back in the Principles.
+
+227
+00:31:21.780 --> 00:31:28.060
+John Talburt: even though you're getting very good data, if you don't have a good data architecture.
+
+228
+00:31:28.160 --> 00:31:30.390
+John Talburt: You still won't succeed, right?
+
+229
+00:31:30.610 --> 00:31:43.009
+John Talburt: If you don't have the right database schema, if you're not using the right processes to manipulate the data, you need to understand what's the data architecture, how do you move data around, transfer it.
+
+230
+00:31:43.120 --> 00:31:45.400
+John Talburt: One of the things that…
+
+231
+00:31:46.420 --> 00:31:53.109
+John Talburt: That some of you noticed, not everyone, in this last assignment, when you were looking at the movie file.
+
+232
+00:31:53.470 --> 00:32:00.039
+John Talburt: If you… some of you noticed that one of the director's names had a strange character in it.
+
+233
+00:32:00.410 --> 00:32:06.509
+John Talburt: And so this has to do with the data transfer. If you look at the original file.
+
+234
+00:32:06.790 --> 00:32:13.430
+John Talburt: You'll see that it's in there correctly, in the last name, I'm trying to remember the guy's last name.
+
+235
+00:32:13.670 --> 00:32:19.230
+John Talburt: But anyway, it had a Spanish character in it, a grave-accented O.
+
+236
+00:32:19.540 --> 00:32:23.430
+John Talburt: Something like,
+
+237
+00:32:24.480 --> 00:32:33.400
+John Talburt: Calderon, or something like that. Anyway, the last part of his last name was R-O-N, but the O was an accented O in Spanish.
+
+238
+00:32:33.850 --> 00:32:37.129
+John Talburt: The guy was a Spaniard. And so,
+
+239
+00:32:37.880 --> 00:32:41.359
+John Talburt: And if you look at it, it depends on…
+
+240
+00:32:41.660 --> 00:32:49.049
+John Talburt: what system you're using if it comes out correctly. So, for example, if you opened it in Notepad.
+
+241
+00:32:49.260 --> 00:32:55.379
+John Talburt: Or a notepad, or… No, plus plus, whatever that is.
+
+242
+00:32:55.500 --> 00:33:01.099
+John Talburt: You'd see it's correct, that that character is rendered correctly.
+
+243
+00:33:01.340 --> 00:33:06.950
+John Talburt: But one of the things, if you're using OpenRefine, and you open that file in OpenRefine.
+
+244
+00:33:07.400 --> 00:33:11.069
+John Talburt: It looks like some kind of oriental character.
+
+245
+00:33:11.310 --> 00:33:14.900
+John Talburt: It misinterprets that character, doesn't render it properly.
+
+246
+00:33:15.380 --> 00:33:19.459
+John Talburt: The underlying data hasn't changed, but its rendering has changed.
+
+247
+00:33:19.650 --> 00:33:28.550
+John Talburt: And it actually gives you even a different one if you open it in Excel. So this gets back to data architecture and data transfer management.
+
+248
+00:33:28.740 --> 00:33:33.639
+John Talburt: So that you can understand correctly what data you're really looking at.
+
+249
+00:33:35.560 --> 00:33:52.790
+John Talburt: Is there data operations management? How do you overall… how does your process work? And then, of course, a very important one now is data security. It's becoming more and more important to prevent data leakage, and especially in highly regulated organizations.
+
+250
+00:33:53.200 --> 00:34:11.530
+John Talburt: And then, finally, there's resource provisioning. You know, how are you managing? What's the structure, the hierarchy of management? Who has roles? What are the… are the roles well-defined of who's supposed to be doing what? Do you have a data product manager? Is there somebody that's,
+
+251
+00:34:11.590 --> 00:34:14.159
+John Talburt: that's, bridging
+
+252
+00:34:14.260 --> 00:34:23.640
+John Talburt: This gap between the consumer of the product and the people who are building it, so that you can always be assured that you're building the right thing for the consumer.
+
+253
+00:34:24.040 --> 00:34:31.800
+John Talburt: And are people getting training? The systems they're using, people are always changing, using different types of,
+
+254
+00:34:32.530 --> 00:34:35.990
+John Talburt: In technology and their, processes.
+
+255
+00:34:36.130 --> 00:34:43.240
+John Talburt: And, you know, are the people getting trained for their roles? Do they know how to operate these systems?
+
+256
+00:34:43.449 --> 00:34:49.520
+John Talburt: And know what the procedures are. This is especially important now in the area of data governance.
+
+257
+00:34:49.679 --> 00:34:54.729
+John Talburt: Where, you have to follow certain rules about the decisions you make on data.
+
+258
+00:34:54.920 --> 00:35:10.390
+John Talburt: And so you're not… can't just go in and change things or make changes in processes unilaterally. You have to go through a process that's defined in the data governance. So data governance gives the rules
+
+259
+00:35:10.550 --> 00:35:20.330
+John Talburt: for how you manage data, how you can… Some people have said that data management are the decisions that you make about data, what you're going to do with the data.
+
+260
+00:35:20.560 --> 00:35:35.359
+John Talburt: And data governance are the rules for making those decisions. So there's certain rules that are set about of what you can and can't do in your decisions about data, and that's data governance. And so that's a very important part of the resource provision.
+
+261
+00:35:35.980 --> 00:35:41.130
+John Talburt: So this is a kind of a big overview of the three processes.
+
+262
+00:35:41.440 --> 00:35:44.779
+John Talburt: The implementation, based on the Plan Do Check Act.
+
+263
+00:35:44.940 --> 00:35:48.989
+John Talburt: Then the data-related support, and the resource provisioning.
+
+264
+00:35:49.600 --> 00:35:53.989
+John Talburt: So again, talking a little bit here about this,
+
+265
+00:35:54.550 --> 00:36:01.180
+John Talburt: We just talked about the, the, the implementation… process has a four-part.
+
+266
+00:36:01.840 --> 00:36:07.000
+John Talburt: The planning, the quality control, the quality assurance, and then the analysis and improvement.
+
+267
+00:36:07.780 --> 00:36:14.710
+John Talburt: So again, looking at it kind of in this analogy of manufacturing,
+
+268
+00:36:14.840 --> 00:36:34.220
+John Talburt: then we start right here. We start with planning and requirements. What is it that we're building? What's the design, and what is it that the consumer wants? Remember, that was the number one thing in quality management. What is it that the consumer or the user of this product wants so that we can design that product?
+
+269
+00:36:34.680 --> 00:36:40.400
+John Talburt: So we designed that product, and once we've designed it, then
+
+270
+00:36:40.920 --> 00:36:52.700
+John Talburt: Again, this is just talking about what you need in that planning and requirements stage. You need written documentation, you need to be clear about who's responsible for meeting the requirements.
+
+271
+00:36:52.920 --> 00:36:56.329
+John Talburt: And your strategy for improving it.
+
+272
+00:36:57.350 --> 00:37:04.489
+John Talburt: And then that leads to quality control. You have a plan for building a product that meets consumer needs.
+
+273
+00:37:04.620 --> 00:37:12.810
+John Talburt: So from that, you start building a product. You have requirements for that product based on the consumer's needs.
+
+274
+00:37:13.000 --> 00:37:18.299
+John Talburt: And you have a design for it, so now you know what the information product is going to look like.
+
+275
+00:37:18.430 --> 00:37:31.830
+John Talburt: And that's what I tried to give you in this most recent assignment. I tried to give you a description. It's not necessarily complete and 100%, but it's a description of a particular product that someone wants to build.
+
+276
+00:37:32.030 --> 00:37:40.909
+John Talburt: And from that, you should be able to infer some of the… what are some of the characteristics you need in the data that goes into it.
+
+277
+00:37:41.020 --> 00:37:44.500
+John Talburt: And so I was asking you to look at one of the sources
+
+278
+00:37:44.620 --> 00:37:51.209
+John Talburt: There may be others necessary, but at least one of the sources that you have, which is this,
+
+279
+00:37:51.340 --> 00:37:57.509
+John Talburt: Foul of grades, because the product we're trying to build is a grade report.
+
+280
+00:37:57.880 --> 00:38:09.400
+John Talburt: And so, based on what we need in the product, how suitable would that file be as an input, one of the raw materials here on the left, into that product?
+
+281
+00:38:09.510 --> 00:38:14.859
+John Talburt: So I'm asking you to start inferring from the product description
+
+282
+00:38:15.250 --> 00:38:20.330
+John Talburt: Some of the data requirement descriptions, for data coming in.
+
+283
+00:38:22.590 --> 00:38:29.939
+John Talburt: So, we have the planning, we plan a product that's based on consumer user needs, and we have a design for it.
+
+284
+00:38:30.100 --> 00:38:35.089
+John Talburt: Then we say, okay, we're gonna build this product. Here are the specifications for the product.
+
+285
+00:38:36.150 --> 00:38:45.380
+John Talburt: And then, once we have that, then we can have our quality control. We can say, alright, did we really build the product the way we designed it?
+
+286
+00:38:45.490 --> 00:38:47.609
+John Talburt: So that's the quality control.
+
+287
+00:38:47.890 --> 00:38:53.469
+John Talburt: And so, again, you have to ask these questions. Do you have that in place? Do you have those written down?
+
+288
+00:38:53.800 --> 00:39:07.500
+John Talburt: Can you automate that, or is it something that you have to manually do? And if you have to do it manually, can you inspect 100% of it? So I had this experience in working with a credit reporting agency.
+
+289
+00:39:08.080 --> 00:39:15.740
+John Talburt: And they really, Initially, when I talked to him, this had been several years ago.
+
+290
+00:39:15.880 --> 00:39:24.350
+John Talburt: Did… they had a really… and you'll find this to be true in most organizations. They had a really good quality assurance process.
+
+291
+00:39:24.630 --> 00:39:37.520
+John Talburt: When data would come in, when they would receive data, they did a really good job of examining it and making sure it was standardized and complete and timely, all of these good things about the data coming in.
+
+292
+00:39:37.750 --> 00:39:41.530
+John Talburt: But then they put it into a process to build a credit report.
+
+293
+00:39:41.650 --> 00:39:46.209
+John Talburt: And they… they didn't really check the credit reports before they sent them out.
+
+294
+00:39:46.330 --> 00:40:04.769
+John Talburt: What they relied on was that people would get… find out about their credit report. The credit reports weren't actually going to the people that the report was about. It was actually going to the companies that were subscribing to credit reports, like banks or furniture stores, when you go in to buy something on credit.
+
+295
+00:40:04.770 --> 00:40:21.880
+John Talburt: what's the first thing they do? They ask you for your name and your social security number, and they put it into the system they subscribe to, this reporting agency, and that reporting agency gives back a report that says, well, here's the creditworthiness of this person that's trying to buy a sofa from you.
+
+296
+00:40:22.350 --> 00:40:40.920
+John Talburt: And then, you know, and so the company might deny it, and the person might ask, well, why are you denying it? Or, you know, they may or may not tell them, but that would trigger them to go and write to this credit company and say, hey, what's in my credit report? I got turned down.
+
+297
+00:40:41.140 --> 00:40:52.630
+John Talburt: And so, really, they were really relying on consumers to be their quality control. In other words, they weren't really examining the credit reports they were producing to see if they were good or not.
+
+298
+00:40:52.690 --> 00:41:10.389
+John Talburt: They were just sending them out based on the fact that they thought they were putting good data into it. Again, it's this thinking that you can reverse the garbage in, garbage out, to say good data in always means that good products will come out, and that's not true.
+
+299
+00:41:10.910 --> 00:41:25.570
+John Talburt: And so they… they were… they were subscribed to that theory that they were cleaning the data going in, and therefore, when it went through the process, it would be a good product coming out, and they would just send it out the door without any quality control checks.
+
+300
+00:41:25.960 --> 00:41:30.089
+John Talburt: And so they started then implementing quality control after
+
+301
+00:41:30.200 --> 00:41:32.210
+John Talburt: The review that we did.
+
+302
+00:41:32.320 --> 00:41:37.799
+John Talburt: And it really improved. Now, one of the reasons I say that is that
+
+303
+00:41:38.030 --> 00:41:46.619
+John Talburt: they were producing thousands of these credit reports every day. They were electronic and being sent out to furniture stores and banks and…
+
+304
+00:41:47.290 --> 00:41:52.439
+John Talburt: Automobile dealerships, anywhere people were buying something on credit.
+
+305
+00:41:52.740 --> 00:42:02.110
+John Talburt: Then the subscribers, these companies were subscribed to the credit reports, were getting these reports, So,
+
+306
+00:42:02.260 --> 00:42:16.430
+John Talburt: So it was impractical for the company, the credit company, to inspect every one of the credit reports before it was sent out, so they implemented a sampling process. And so they started… and it was…
+
+307
+00:42:17.550 --> 00:42:24.290
+John Talburt: Very helpful in improving the quality of the credit reports that they were sending out.
+
+308
+00:42:25.060 --> 00:42:33.640
+John Talburt: So, and again, what they did is what's called stratified sampling. It's not a total random sampling, it's saying.
+
+309
+00:42:33.810 --> 00:42:40.739
+John Talburt: I'm… I'm going to sample based on certain characteristics, and so some of the things that they were, were,
+
+310
+00:42:41.590 --> 00:42:53.860
+John Talburt: looking at was if a credit report had more than one social security number in, it got tagged for, being a possible… there's more likely that there could be errors in it.
+
+311
+00:42:53.970 --> 00:42:58.600
+John Talburt: Or if somebody had changed addresses more than 2 or 3 times.
+
+312
+00:42:58.850 --> 00:43:11.079
+John Talburt: Then these were all triggers to say, these are the ones that are higher priority that we should sample from, because these are the ones that, in the past, have proved to be more problematic in terms of errors.
+
+313
+00:43:13.950 --> 00:43:16.940
+John Talburt: So then, that gets us to quality assurance.
+
+314
+00:43:17.700 --> 00:43:25.380
+John Talburt: that's going back into the process, saying, based on the requirements I have for my information product, our service.
+
+315
+00:43:25.590 --> 00:43:35.970
+John Talburt: what do I need to be careful about in terms of the… what are the requirements that I need for the raw materials and the systems or the processes that I'm using to build that product?
+
+316
+00:43:36.500 --> 00:43:41.460
+John Talburt: And that's basically, in a manufacturing, that would be measuring tolerances.
+
+317
+00:43:42.110 --> 00:43:48.830
+John Talburt: In an information product, we measure them in terms of data quality dimensions that we've talked about earlier.
+
+318
+00:43:49.150 --> 00:43:55.959
+John Talburt: There are many dimensional frameworks, but almost all of them are based around certain things, such as,
+
+319
+00:43:56.070 --> 00:43:59.650
+John Talburt: The accuracy of the data, the completeness of the data.
+
+320
+00:43:59.800 --> 00:44:05.520
+John Talburt: The consistency, either of the representation of the data, the timeliness of the data.
+
+321
+00:44:05.700 --> 00:44:09.529
+John Talburt: There are other dimensions, too, that have been neglected in the past.
+
+322
+00:44:09.830 --> 00:44:12.800
+John Talburt: The ones that we're talking about here are things like
+
+323
+00:44:13.340 --> 00:44:17.700
+John Talburt: the validity, the consistency of the data. Is everything spelled
+
+324
+00:44:17.840 --> 00:44:30.360
+John Talburt: you know, if I have 10 options for a value, and I know what those options are, what if I get something that's not one of those 10 values? Is it something that I can correct or standardize?
+
+325
+00:44:30.660 --> 00:44:44.569
+John Talburt: These are all automated type things. I can… validity is one, a big go-to. Another one is completeness, right? I can detect null and blank values. Not quite always as easy to detect placeholder values.
+
+326
+00:44:44.680 --> 00:44:51.680
+John Talburt: But at least non-null and blank values I can detect. So those are automated checks.
+
+327
+00:44:52.110 --> 00:45:03.610
+John Talburt: But there are some very important ones, especially now in the age of AI, that are not as easy to automate and require more work. Things like objectivity. Do I have bias in the data?
+
+328
+00:45:03.940 --> 00:45:08.700
+John Talburt: What about the reputation of the data? So, there are many things that can…
+
+329
+00:45:08.920 --> 00:45:21.869
+John Talburt: that are… they're qualities of the data that we need to know about, but they're not easily programmed into a rule-based programming system. They require some other types of investigations, like surveys.
+
+330
+00:45:22.310 --> 00:45:23.980
+John Talburt: Or interviews.
+
+331
+00:45:25.550 --> 00:45:33.519
+John Talburt: And so, this is one of the obstacles in adapting the manufacturing model to information quality.
+
+332
+00:45:33.640 --> 00:45:42.110
+John Talburt: We say there's a nice analogy here, we've got raw materials that are source data, we've got machinery that's programs, we're building products.
+
+333
+00:45:42.530 --> 00:45:46.119
+John Talburt: But, in real manufacturing,
+
+334
+00:45:46.170 --> 00:46:03.420
+John Talburt: the tolerances are really well understood, right? We know how to measure diameter, we know how to measure density or tensile strength, all these kinds of things that are pretty well clear to most people, and fairly easy to do.
+
+335
+00:46:03.470 --> 00:46:09.799
+John Talburt: But when it comes to data, there's a lot of intangible things, or what we call anti-kinesthetic.
+
+336
+00:46:10.090 --> 00:46:12.500
+John Talburt: They're not something that…
+
+337
+00:46:12.710 --> 00:46:19.089
+John Talburt: we can touch, right? It's not something we can put a measuring tape or a caliper on to measure.
+
+338
+00:46:19.240 --> 00:46:22.650
+John Talburt: And so, it becomes a little more difficult
+
+339
+00:46:22.780 --> 00:46:27.349
+John Talburt: And this was a big stumbling block in the early days of information quality.
+
+340
+00:46:27.580 --> 00:46:39.240
+John Talburt: bringing it into a discipline is how do you measure those tolerances? What are the analogies of measurement tolerances in data? And that's what we developed these data
+
+341
+00:46:39.580 --> 00:46:45.480
+John Talburt: quality dimensional frameworks, like the Wangstrong that we mentioned, the 16 dimensions.
+
+342
+00:46:45.790 --> 00:46:52.209
+John Talburt: And again, there are many of those dimensions that people have ignored up until now in the age of AI.
+
+343
+00:46:52.450 --> 00:46:57.260
+John Talburt: The things like the, reputation and the,
+
+344
+00:46:57.480 --> 00:47:03.709
+John Talburt: The objectivity and usefulness of the data, the relevance, things like that.
+
+345
+00:47:03.880 --> 00:47:13.270
+John Talburt: that were not easily put into rules that you could put in an informatic data quality system or an IBM quality system.
+
+346
+00:47:13.450 --> 00:47:22.140
+John Talburt: They were often ignored, but now they've become very important, and so now we're looking at ways to try to measure all of these dimensions.
+
+347
+00:47:24.360 --> 00:47:32.490
+John Talburt: And then, again, if you need… you're going to look at your process. Do you really have those QA processes in place?
+
+348
+00:47:32.990 --> 00:47:44.979
+John Talburt: And again, the same question, can they all be automated, or some of them need to be manual? And if they're manual, do you need to sample? Are you… is it impossible to
+
+349
+00:47:45.900 --> 00:47:48.569
+John Talburt: Manually inspect every one of the products.
+
+350
+00:47:49.540 --> 00:47:55.189
+John Talburt: So again, we… I come back to this, and again, I hope you'll remember this.
+
+351
+00:47:55.630 --> 00:48:00.800
+John Talburt: Quality control and quality assurance have different meanings, and they're not interchangeable.
+
+352
+00:48:01.370 --> 00:48:15.990
+John Talburt: So try to use them properly. Again, quality control applies to the finished product, whether that's an information product or a manufactured product. Is it meeting the requirements that you set up based on the consumer's needs?
+
+353
+00:48:16.750 --> 00:48:21.119
+John Talburt: Quality assurance only applies to the process of building a product.
+
+354
+00:48:21.310 --> 00:48:29.369
+John Talburt: Do the product components and building process meet the requirements to get you to a product that will pass quality control?
+
+355
+00:48:30.490 --> 00:48:35.899
+John Talburt: So finally, the fourth part of the process is we've started with
+
+356
+00:48:36.040 --> 00:48:38.179
+John Talburt: What is it we're trying to build?
+
+357
+00:48:38.300 --> 00:48:51.470
+John Talburt: Then, once we know what it is, what are going to be the requirements for that product that we can check to be sure we built the right product? That's the quality control. Then we back into the system for building it, and we have quality assurance.
+
+358
+00:48:51.750 --> 00:48:54.750
+John Talburt: But then the last thing is, when we have failures.
+
+359
+00:48:56.260 --> 00:49:02.709
+John Talburt: And we will. There will always be some, some issues. Sometimes they're just inescapable.
+
+360
+00:49:02.910 --> 00:49:05.800
+John Talburt: things that happen.
+
+361
+00:49:05.930 --> 00:49:14.830
+John Talburt: But we want to analyze and be sure, was it just a one-time thing? Was it an accident? Was it a fluke? It's probably not going to happen again. Or is there something…
+
+362
+00:49:15.060 --> 00:49:31.549
+John Talburt: endemic to this process, or to the data that we're getting, or somewhere in the system, is there something that's causing this to happen over and over again? And if it is, can we go back and address it and fix it so that
+
+363
+00:49:31.790 --> 00:49:37.209
+John Talburt: We don't have… we can start eliminating those failures, or at least reducing them.
+
+364
+00:49:37.330 --> 00:49:44.439
+John Talburt: So that, again, we have less and less effort that we have to spend, when we finally get to the product.
+
+365
+00:49:44.580 --> 00:49:56.110
+John Talburt: Because once we get to the product and it's not meeting requirements, then we either have to put it back in to fix it, which takes time and energy, or we have to discard that product.
+
+366
+00:49:56.240 --> 00:50:01.939
+John Talburt: And in which case, we've lost all the effort that we put into building that particular product.
+
+367
+00:50:02.370 --> 00:50:09.910
+John Talburt: So, so it's important that we try to get to the best products.
+
+368
+00:50:10.180 --> 00:50:15.210
+John Talburt: That are… that meet all of the quality control requirements as much as possible.
+
+369
+00:50:15.540 --> 00:50:22.010
+John Talburt: I mean, our goal would be 100%, but again, we have to keep checking, because things always go wrong.
+
+370
+00:50:22.160 --> 00:50:27.950
+John Talburt: And we need to constantly try to improve our processes. So this is…
+
+371
+00:50:28.130 --> 00:50:42.859
+John Talburt: again, you can't do that unless you systematically collect those issues. So, another problem I find in many organizations is, yes, they'll find a data quality problem while they're doing the process, and they'll make a ticket and say, oh.
+
+372
+00:50:43.070 --> 00:50:50.130
+John Talburt: okay, this needs to be fixed, we can't send this out the way it is, and so they'll immediately jump on it and fix it. But then.
+
+373
+00:50:50.300 --> 00:50:54.720
+John Talburt: They don't really collect in a database all of those tickets.
+
+374
+00:50:54.900 --> 00:51:05.779
+John Talburt: So that they can periodically go back, say, at the end of the month, and say, let's look at all of our problems that we had, all the tickets that we registered, and see if there's some kind of pattern in there.
+
+375
+00:51:05.900 --> 00:51:13.820
+John Talburt: That we could, are there some systematic quality control or quality assurance failures that we could improve the process?
+
+376
+00:51:14.520 --> 00:51:28.559
+John Talburt: So, we can look for the root causes of any kind of persistence. So, one thing is trying to sort out, is this a persistent issue? If it's a persistent issue, is it an important one? How often does it occur?
+
+377
+00:51:28.600 --> 00:51:41.159
+John Talburt: And then we'd make a decision, say, okay, we're going to try to address that particular issue and fix it. And then we'd continually do that over time so that we'd try to continually improve our process.
+
+378
+00:51:42.880 --> 00:51:51.720
+John Talburt: So that we can implement those processes back into our system and continue to make it better. So those are things that…
+
+379
+00:51:53.520 --> 00:51:54.790
+John Talburt: We,
+
+380
+00:51:55.830 --> 00:52:07.659
+John Talburt: we really can't say that we have some kind of a quality process, whether this is information quality or manufacturing quality, if we don't have these things. We have to have
+
+381
+00:52:08.010 --> 00:52:11.310
+John Talburt: A plan and quality control requirements.
+
+382
+00:52:12.040 --> 00:52:15.490
+John Talburt: That should lead to quality assurance requirements.
+
+383
+00:52:16.170 --> 00:52:20.740
+John Talburt: And then, the other thing is that we need to collect those failures
+
+384
+00:52:20.860 --> 00:52:36.969
+John Talburt: And always try to find root causes of problems, if we can, to continually improve. So, if we don't have those things, if we're not… we don't have requirements, and we're checking for those requirements, whether they're quality control or quality assurance requirements.
+
+385
+00:52:37.680 --> 00:52:44.640
+John Talburt: And then we're collect… and we're not collecting failures. We can't say that we have a quality system.
+
+386
+00:52:45.650 --> 00:52:52.360
+John Talburt: And many quality management systems that I've looked at, or especially data quality management.
+
+387
+00:52:52.670 --> 00:52:55.109
+John Talburt: Are lacking one or more of those things.
+
+388
+00:52:55.580 --> 00:52:59.399
+John Talburt: And so they're really not doing data quality management.
+
+389
+00:53:02.380 --> 00:53:06.649
+John Talburt: So again, once you find these things, you have to decide what you're going to…
+
+390
+00:53:07.150 --> 00:53:12.279
+John Talburt: Try to fix. What's the cost versus the benefit of these improvements.
+
+391
+00:53:12.720 --> 00:53:15.859
+John Talburt: And then a thing that's often missed is
+
+392
+00:53:16.340 --> 00:53:20.760
+John Talburt: Communicating when you do fix things and make things better and bragging about it.
+
+393
+00:53:22.460 --> 00:53:30.989
+John Talburt: So, that brings us to the other, the data-related support processes that we talked about, and that's the data architecture, that's very important.
+
+394
+00:53:31.190 --> 00:53:34.760
+John Talburt: We may have all the right data that we need to build
+
+395
+00:53:35.070 --> 00:53:39.450
+John Talburt: An information product that meets consumers' needs.
+
+396
+00:53:39.600 --> 00:53:48.999
+John Talburt: But if we don't architect the system for building it, for storing the data, representing the data, we don't have the right database schema, we're not using the right
+
+397
+00:53:49.190 --> 00:53:52.860
+John Talburt: Programs were not using the right transformations of the data.
+
+398
+00:53:52.970 --> 00:54:00.910
+John Talburt: Then it will fail. So… so understanding the data architecture that we're using is very important. That has…
+
+399
+00:54:01.070 --> 00:54:03.270
+John Talburt: We have to look at the quality of that.
+
+400
+00:54:03.960 --> 00:54:17.360
+John Talburt: the data transfer, as I was talking about, if you move data around, there's always the chance of losing some of it or changing it, just like the character issue that I just pointed out in that little example that you did with the movies.
+
+401
+00:54:17.630 --> 00:54:24.410
+John Talburt: You'll find that there's a problem in transferring data between your desktop system
+
+402
+00:54:24.650 --> 00:54:27.850
+John Talburt: I gave it to you in a CSV format.
+
+403
+00:54:28.200 --> 00:54:37.000
+John Talburt: that if you look at… it was in a… in what we call a UTF-8, coded characters.
+
+404
+00:54:37.280 --> 00:54:38.350
+John Talburt: And then…
+
+405
+00:54:38.480 --> 00:54:52.149
+John Talburt: those… that's rendered correctly in most of your systems, but for some reason, OpenRefine did not render that. So when I transferred that data into OpenRefine, into another system, things changed.
+
+406
+00:54:52.450 --> 00:54:59.779
+John Talburt: And it, and it looked like it was incorrect, but really, in the, in the, in the base data, it was rendered
+
+407
+00:55:00.000 --> 00:55:16.119
+John Talburt: or it was represented correctly, it just wasn't rendered correctly in certain other systems. So somebody might see that and flag that as bad data, or… but again, it's a reflection of the actual architectures and systems that you're using.
+
+408
+00:55:16.770 --> 00:55:23.529
+John Talburt: And then data operations overall, are you efficiently managing the systems, doing things in the right order?
+
+409
+00:55:23.640 --> 00:55:26.350
+John Talburt: And being as efficient as possible.
+
+410
+00:55:26.500 --> 00:55:29.290
+John Talburt: To get your products built.
+
+411
+00:55:29.880 --> 00:55:40.319
+John Talburt: And then, last but not least, is the data security. Do the right people have access? Everybody that needs to use the data needs access to it, but you don't want any more than that.
+
+412
+00:55:40.550 --> 00:55:47.640
+John Talburt: You don't want the data to be just accessible to anyone, especially if it has
+
+413
+00:55:47.970 --> 00:55:58.919
+John Talburt: any type of personally identifiable information. Information is protected through regulation, some type of financial information.
+
+414
+00:55:59.090 --> 00:56:13.539
+John Talburt: things like that. You want to be sure that you have that balance between people that need to have it can get to it, but people that shouldn't be seen can't get to it. And that's the whole idea of cybersecurity.
+
+415
+00:56:16.100 --> 00:56:21.159
+John Talburt: And then finally, the third part is the resource provisioning process.
+
+416
+00:56:21.390 --> 00:56:30.749
+John Talburt: Where, you really have a data quality organization management, where you have defined roles, because again, data quality management
+
+417
+00:56:30.990 --> 00:56:38.940
+John Talburt: Should be a program versus a particular, process… I'm sorry, a project.
+
+418
+00:56:39.370 --> 00:56:53.669
+John Talburt: The difference between a project and a program is that in a project, you… it has a definite start and end time, and a set of objectives that you're going to accomplish by the end of it.
+
+419
+00:56:54.140 --> 00:57:01.549
+John Talburt: Whereas in a program, it's an ongoing process that you're running all the time, right? So data quality management
+
+420
+00:57:02.110 --> 00:57:12.459
+John Talburt: you will have projects in it. In other words, suppose, like we were talking about, you've identified some root cause of a problem in your system through analyzing your failure tickets.
+
+421
+00:57:13.180 --> 00:57:26.320
+John Talburt: you would launch a project to say, I'm going to fix that particular project. I'm starting now, on this time, I plan to be finished in 3 months with this, here's what I plan to accomplish. That would be a project.
+
+422
+00:57:26.850 --> 00:57:30.679
+John Talburt: And so I would do that project to improve my overall
+
+423
+00:57:30.720 --> 00:57:47.089
+John Talburt: program, but it's a program in the sense that it has management. I have a director for data quality management, I have data stewards that have certain roles. I have defined roles for people that are ongoing. It's not something that we do on a
+
+424
+00:57:47.090 --> 00:57:51.170
+John Talburt: time-check basis. It's something that we do, continually.
+
+425
+00:57:51.880 --> 00:57:58.930
+John Talburt: And, of course, everyone needs to be trained for the role that they have, within this organizational management.
+
+426
+00:57:59.710 --> 00:58:05.549
+John Talburt: And again, this is something I… we… I saw this for a while, and I see it less now.
+
+427
+00:58:06.350 --> 00:58:13.780
+John Talburt: Is, is people having formally defined data quality, Organizations or programs.
+
+428
+00:58:14.200 --> 00:58:16.720
+John Talburt: Where they have a director, or…
+
+429
+00:58:16.850 --> 00:58:27.079
+John Talburt: manager, however you want to call it, of information or data quality, and roses. A lot of this has kind of been absorbed in data governance.
+
+430
+00:58:27.310 --> 00:58:31.950
+John Talburt: Typically, data quality is one of the parts of data governance.
+
+431
+00:58:32.190 --> 00:58:37.219
+John Talburt: And so, but oftentimes it's not set aside very specifically.
+
+432
+00:58:37.460 --> 00:58:49.929
+John Talburt: With a specific set of requirements, like having, quality control requirements documented, having quality assurance requirements documented, things like this, having a,
+
+433
+00:58:50.220 --> 00:58:56.350
+John Talburt: A review process, collecting, your…
+
+434
+00:58:57.510 --> 00:59:03.060
+John Talburt: collecting your data here, I'm sorry, your quality control, quality assurance requirements, and so forth.
+
+435
+00:59:03.250 --> 00:59:11.530
+John Talburt: And so often that kind of gets swept under the rug, but it really needs to be visible, whether you're putting it as a separate
+
+436
+00:59:11.870 --> 00:59:22.460
+John Talburt: Organization, you have a data quality management organization, or if it's umbrellaed under data governance, it still needs to have its own set of standards.
+
+437
+00:59:23.740 --> 00:59:26.680
+John Talburt: So this,
+
+438
+00:59:27.600 --> 00:59:33.249
+John Talburt: If you really want to comply with this standard, the ISO 8061 standard that we talked about.
+
+439
+00:59:33.820 --> 00:59:38.009
+John Talburt: And again, the full documentation, I put in the resources.
+
+440
+00:59:38.410 --> 00:59:44.380
+John Talburt: It's really compliance as you do a self-study, you document what you're doing.
+
+441
+00:59:44.620 --> 00:59:47.109
+John Talburt: That's identified in the standard.
+
+442
+00:59:47.620 --> 00:59:55.780
+John Talburt: And so, there's activities that should be performed and outcomes that should be achieved, and these are defined
+
+443
+00:59:55.890 --> 01:00:04.349
+John Talburt: In the standard, so there's 51 activities that you should be undertaking in your data quality management, and you should be obtaining 82 outcomes.
+
+444
+01:00:04.500 --> 01:00:07.889
+John Talburt: And so part of compliance is to document
+
+445
+01:00:08.230 --> 01:00:20.269
+John Talburt: that… investigate, you know, study, do a… like, you would do a self-study of your organization, and show what you're doing. Are you doing these 51 activities?
+
+446
+01:00:20.450 --> 01:00:25.700
+John Talburt: If you are, what outcomes are you getting? And so you need to document all those.
+
+447
+01:00:26.310 --> 01:00:31.070
+John Talburt: And then, overall, the extent to which you're improving data quality.
+
+448
+01:00:31.860 --> 01:00:34.720
+John Talburt: And then back to this, support idea.
+
+449
+01:00:34.940 --> 01:00:40.399
+John Talburt: Do you really have assigned roles and responsibilities for data management across the organization?
+
+450
+01:00:40.960 --> 01:00:55.910
+John Talburt: And what are the resources that you have available for performing data quality management? And then the one that really gets you is how data quality management is applied anywhere the organization is creating or using data.
+
+451
+01:00:56.340 --> 01:00:57.859
+John Talburt: So this is a big one.
+
+452
+01:00:58.620 --> 01:01:00.430
+John Talburt: You may think, well.
+
+453
+01:01:00.540 --> 01:01:16.809
+John Talburt: this is a bank, and I'm producing bank statements, but there may be an administrator or secretary up in the management… in the C-suite working for the CEO or the CMO, and they're putting together a spreadsheet
+
+454
+01:01:17.010 --> 01:01:20.449
+John Talburt: For somebody to use, that qualifies here.
+
+455
+01:01:20.690 --> 01:01:32.700
+John Talburt: If you're building a spreadsheet, you're creating or using data, are you applying these data management principles, and does that come under your study that you're documenting?
+
+456
+01:01:32.910 --> 01:01:37.110
+John Talburt: So this is, one of the requirements to comply.
+
+457
+01:01:38.750 --> 01:01:45.850
+John Talburt: So that brings us to assessing, and again, as I just… Alright, pointed out.
+
+458
+01:01:46.340 --> 01:01:51.980
+John Talburt: it doesn't make sense to talk about data quality assessment
+
+459
+01:01:52.840 --> 01:01:56.069
+John Talburt: If you don't have data quality requirements.
+
+460
+01:01:56.950 --> 01:02:04.580
+John Talburt: And sometimes you may have these, you may know what they are if you've really documented.
+
+461
+01:02:05.030 --> 01:02:09.250
+John Talburt: But oftentimes, you have to develop those yourself.
+
+462
+01:02:12.010 --> 01:02:17.110
+John Talburt: So, this leads to what I call the data quality assessment triangle.
+
+463
+01:02:17.330 --> 01:02:22.439
+John Talburt: You have data quality requirements, That leads you to…
+
+464
+01:02:22.600 --> 01:02:29.140
+John Talburt: profiling or analysis data, like you did in this assignment, I ask you to do is…
+
+465
+01:02:29.370 --> 01:02:34.749
+John Talburt: an analysis of the movie file, but I didn't give you any documented data requirements.
+
+466
+01:02:35.090 --> 01:02:40.339
+John Talburt: So all you were doing is just this third part down here, data profiling statistics.
+
+467
+01:02:42.250 --> 01:02:45.299
+John Talburt: Just looking at the data and seeing what's in there.
+
+468
+01:02:46.080 --> 01:02:50.020
+John Talburt: Without having the data requirements.
+
+469
+01:02:51.000 --> 01:02:59.420
+John Talburt: you can't really assess the quality. And again, since we… I didn't give you any process, you're not looking at a process to build the product.
+
+470
+01:02:59.680 --> 01:03:02.209
+John Talburt: You can't really look at the data architecture.
+
+471
+01:03:02.760 --> 01:03:10.700
+John Talburt: So, to do a full data quality assessment, you really need all three of these things. You need documented data requirements.
+
+472
+01:03:11.080 --> 01:03:18.980
+John Talburt: You need to look at the data to see what's in there, but you also need to look at the architecture and the process that's being used to build the product.
+
+473
+01:03:24.060 --> 01:03:27.949
+John Talburt: So, that's what we call data quality assessment.
+
+474
+01:03:28.380 --> 01:03:32.040
+John Talburt: To add to it the information quality.
+
+475
+01:03:32.260 --> 01:03:48.459
+John Talburt: assessment. You really need to understand how the business is using these products, and what is the value they're producing, because remember, our definition of information quality is maximizing the value and minimizing the risk.
+
+476
+01:03:48.750 --> 01:03:52.900
+John Talburt: Of the information that you have in your organization.
+
+477
+01:03:53.200 --> 01:04:05.120
+John Talburt: Right? And also, for the information products that you're building, are you creating value for the users? So, the IQ assessment is based on
+
+478
+01:04:05.230 --> 01:04:07.180
+John Talburt: the value proposition
+
+479
+01:04:07.520 --> 01:04:14.530
+John Talburt: And that should be directly related to the data quality, which is just being sure that you're building things correctly.
+
+480
+01:04:14.860 --> 01:04:21.069
+John Talburt: It doesn't answer the question, am I building the right thing? Am I building what the consumer wants?
+
+481
+01:04:21.310 --> 01:04:32.179
+John Talburt: If I'm building what the consumer wants, then I can back into the data quality and say, alright, so what do I need to build that quality product for that consumer?
+
+482
+01:04:33.900 --> 01:04:38.820
+John Talburt: So that becomes the information quality. I have to add on the value proposition.
+
+483
+01:04:39.000 --> 01:04:49.619
+John Talburt: I can be very busy building products, but if they're products that nobody likes or uses or complains about, they're not quality.
+
+484
+01:04:49.760 --> 01:05:00.410
+John Talburt: And so, I might have good data quality, I might have a well-documented process for building something, but if I'm building something that's not working properly.
+
+485
+01:05:01.370 --> 01:05:09.670
+John Talburt: are not satisfying building… I'm sorry, creating value for the user, then I don't have information quality.
+
+486
+01:05:10.270 --> 01:05:11.890
+John Talburt: Only data quality.
+
+487
+01:05:12.450 --> 01:05:16.719
+John Talburt: So… What we're trying to do is close this gap.
+
+488
+01:05:17.190 --> 01:05:20.100
+John Talburt: And say, don't just consider the data.
+
+489
+01:05:20.400 --> 01:05:25.090
+John Talburt: We have to look at it from the standpoint of the product.
+
+490
+01:05:25.270 --> 01:05:28.709
+John Talburt: We have to manage information as a product.
+
+491
+01:05:29.300 --> 01:05:32.830
+John Talburt: We're building some kind of information product or service.
+
+492
+01:05:33.010 --> 01:05:35.340
+John Talburt: For some use by a consumer.
+
+493
+01:05:35.880 --> 01:05:39.489
+John Talburt: Then that should be the trigger that starts all of this.
+
+494
+01:05:40.290 --> 01:05:44.720
+John Talburt: We can get lost in the details, and that can become a problem for us.
+
+495
+01:05:47.350 --> 01:05:53.000
+John Talburt: And I'm not sure, how far I got in the, lecture.
+
+496
+01:05:53.130 --> 01:05:55.760
+John Talburt: But somehow I feel like I've gone past that.
+
+497
+01:05:56.750 --> 01:06:01.269
+John Talburt: So I'm gonna save here, I'm actually gonna start over again,
+
+498
+01:06:03.720 --> 01:06:07.320
+John Talburt: In my next lecture on Tuesday, I'll start here.
+
+499
+01:06:08.490 --> 01:06:14.260
+John Talburt: with, assessing data quality.
+
+500
+01:06:15.230 --> 01:06:24.070
+John Talburt: So, anyway, again, I apologize for not recording the lecture last time. I'm not sure what happened. I thought I was. I hope this was getting recorded.
+
+501
+01:06:24.510 --> 01:06:29.840
+John Talburt: And I will pick up here in our class on Tuesday, so… thanks, everyone.
+

@@ -1,0 +1,208 @@
+SCENARIO AND BUSINESS NEED
+Validating an Existing Wellbore Diagram Before a Well Abandonment Filing
+Version 1.0, November 11, 2026
+
+Every statement of fact below is drawn from a source listed in Section 7. Where the
+sources do not establish a point, this document says so.
+
+
+1. PURPOSE
+==========
+
+This document describes a real, recurring task in California oil and gas
+operations: checking whether a wellbore diagram already on file with the State
+meets the State's content requirements before it is reused in a new filing. It
+explains why the task exists, why it is done by a person today, and why it cannot
+simply be skipped. It is the business context for the study of whether an AI
+assistant can perform a first-pass review of such diagrams.
+
+
+2. THE SCENARIO
+===============
+
+Actor:     a regulatory or engineering staff member at an oil and gas operator.
+
+Trigger:   the operator plans to plug and abandon a well and must file a Notice
+           of Intention to Abandon (Form OG 108) with the California Geologic
+           Energy Management Division (CalGEM) through WellSTAR, CalGEM's online
+           system. The notice must be filed at least ten days before work begins,
+           and the notice must include wellbore diagrams showing the well's
+           current and proposed condition. [Source 4]
+
+Starting   the worker retrieves the most recent wellbore diagram already
+point:     submitted for the well. Diagrams are stored in WellSTAR as document
+           attachments to individual well records; CalGEM publishes no dataset of
+           their contents. [Sources 5, 8]
+
+Task:      before relying on that diagram, the worker confirms that it contains
+           every item of data the State requires of a casing diagram, as set out
+           in Title 14, California Code of Regulations, section 1726.4.1.
+           [Source 1]
+
+Output:    a determination, item by item, of which required data the diagram
+           contains and which it lacks, so that missing data can be found and the
+           diagram corrected before filing.
+
+Standard:  section 1726.4.1, reproduced verbatim in casing-diagram-specification.txt.
+           Section 1726.4.1 governs underground gas storage wells. Substantially
+           similar casing diagram requirements apply to injection project wells
+           (section 1724.7.1) and idle wells (section 1772.1.3). [Source 8]
+           Section 1726.4.1 is used here as the most recently reaffirmed statement
+           of what a complete casing diagram contains. [Source 2]
+
+
+3. WHY THE DIAGRAM MUST BE VALIDATED
+====================================
+
+3.1 The State requires diagrams with abandonment notices.
+    The State's own abandonment contract template requires that "The Notice of
+    Intention to Abandon shall include wellbore diagrams of all the wells
+    detailing their current and proposed condition," and lists seventeen items
+    those diagrams must contain. [Source 4] CalGEM's guidance for reviewing
+    notices in WellSTAR lists "Wellbore Diagram (current and proposed)" among the
+    documents attached to a notice. [Source 5]
+
+3.2 The State has found submitted diagrams to be inconsistent.
+    In December 2025 CalGEM notified gas storage operators that it "has observed
+    inconsistencies in the submission of updated casing diagrams," and directed
+    that "all casing diagrams are updated and reflect the current condition of
+    each well," within 60 days after well work. [Source 2]
+
+3.3 The State reviews diagram content closely.
+    CalGEM district engineers conduct an early review of area-of-review wellbore
+    diagrams, "focusing on cement calculation methodology and well construction
+    accuracy," to give operators earlier feedback on "time-consuming updates."
+    [Source 3]
+
+3.4 The State can order an operator to produce an accurate diagram.
+    In an order to plug and abandon a well, CalGEM required the operator "to
+    furnish a wellbore diagram accurately depicting the information included on
+    the Well Summary." [Source 6]
+
+3.5 An old diagram may not describe the well as it is now.
+    A diagram on file reflects the well when it was drawn. Section 1726.4.1
+    requires data such as the location of packers and other equipment, casing
+    damage, and cement plugs with the dates they were placed [Source 1], all of
+    which change with later well work. A diagram that was complete when filed can
+    therefore be incomplete or out of date when reused.
+
+3.6 Abandonment decisions depend on the diagram's content.
+    The data the State requires include the base of protected groundwater, the
+    tops and bottoms of cement behind casing and of cement plugs, perforation
+    depths, and casing damage [Source 1]. These are the facts needed to decide
+    where plugs must be placed. A missing item is not a formatting problem; it is
+    a gap in the information the abandonment plan rests on.
+
+
+4. WHY A PERSON DOES THIS WORK TODAY
+====================================
+
+4.1 The diagrams are documents, not data.
+    Diagrams are filed as PDF drawings attached to well records [Source 8]. The
+    regulation permits a flat file data set in place of a drawing [Source 1,
+    subdivision (b)], but the diagrams on file are drawings. No field in a
+    database can be queried to answer "does this diagram show the spud date."
+    Someone has to read the drawing.
+
+4.2 Diagrams follow no common layout.
+    A text survey of the fourteen diagrams collected for this study, made on
+    November 11, 2026 [Source 9], found:
+      - years cited in the diagrams range from 1951 to 2022;
+      - the amount of text on a diagram ranges from 755 to 9,324 characters;
+      - protected groundwater is labeled "BFW" on some diagrams, "USDW" on
+        others, and both on some;
+      - measured depth is marked on 6 of the 14, true vertical depth on 1, and
+        a spud date on 5.
+    The same required data appears under different labels, in different
+    places, and at very different levels of detail. A check must work across
+    all of these layouts.
+
+4.3 The requirement is written in legal language that calls for judgment.
+    Several requirements bundle multiple facts into one item; for example, item
+    (G) covers the sizes, weights, grades, and connection types of both casing
+    and tubing [Source 1]. Others apply only in some wells, such as data for
+    sidetracked well bores (item (Q)) or directional surveys (paragraph (3)).
+    Deciding whether an item is satisfied, partly satisfied, or does not apply
+    requires reading the diagram against the rule, item by item.
+
+4.4 The operator, not a tool, answers to the State.
+    The notice is the operator's filing. The State reviews the content
+    [Source 3], has found inconsistencies [Source 2], and can order corrections
+    [Source 6]. Responsibility for a deficient filing rests with the operator and
+    the people who prepare it. No tool supplied by the State performs this check.
+
+4.5 Errors are costly in time.
+    A notice must be on file before work begins [Source 4]. A deficient diagram
+    found by the State during review must be corrected and resubmitted, and
+    CalGEM itself describes such updates as "time-consuming" [Source 3]. A
+    deficiency found by the operator before filing costs less than one found by
+    the State after.
+
+4.6 The volume is large and will continue.
+    CalGEM's 2021 well records list 67,693 active and 40,259 idle wells,
+    107,952 unplugged wells in all, among 197,169 distinct wells [Source 7].
+    Each unplugged well will eventually require an abandonment notice with
+    wellbore diagrams. The check described in Section 2 recurs for each one.
+
+
+5. CONCLUSION: THE CHECK CANNOT BE SKIPPED
+==========================================
+
+The abandonment notice requires wellbore diagrams [Sources 4, 5]. The State has
+found that submitted diagrams are inconsistent [Source 2], reviews their content
+[Source 3], and can order an operator to correct them [Source 6]. The diagrams on
+file are drawings in no common layout [Sources 8, 9], measured against a requirement
+written in legal language that calls for item-by-item judgment [Source 1].
+
+For these reasons the validation is performed today by a qualified person, who
+reads each diagram against each requirement and remains accountable for the
+result. That person cannot be removed from the task. The question for this study
+is narrower: whether an AI assistant can perform a reliable first-pass review
+that the person then verifies, reducing the time spent on each diagram without
+reducing the care taken over it.
+
+
+6. WHAT THE SOURCES DO NOT ESTABLISH
+====================================
+
+- No source reviewed states that a wellbore diagram must accompany every type of
+  Notice of Intention. The sources establish it for abandonment notices
+  [Source 4] and list current and proposed diagrams among notice documents
+  generally [Source 5].
+- No source reviewed gives the time a person spends checking one diagram, the
+  rate at which submitted diagrams are found deficient, or the cost of a
+  rejected filing. These would have to be measured or obtained from operators.
+- The seventeen items in the abandonment contract template [Source 4] and the
+  eighteen items in section 1726.4.1 [Source 1] overlap but are not identical.
+  This study uses section 1726.4.1 as its standard.
+
+
+7. SOURCES
+==========
+
+All files are in ../wellbore-diagram-sources/ or this folder's parent, and are
+described with their origin and checksums in ../PROVENANCE.md.
+
+ 1. California Code of Regulations, title 14, section 1726.4.1, "Casing
+    Diagrams." Verbatim copy: casing-diagram-specification.txt (this folder).
+ 2. CalGEM, Notice to Underground Gas Storage Operators, "Casing Diagram
+    Submission Requirements," December 5, 2025.
+    File: Casing Diagram Submission_UGS NTO_Dec 2025.pdf
+ 3. CalGEM, Notice to Operators 2026-02, "UIC Approval Process Update," page 3.
+    File: 2026-02 UIC Approval Process Update.pdf
+ 4. California Department of Conservation, Public Works Well Abandonment
+    Contract Template, pages 1-2.
+    File: Public Works Well Abandonment Contract Template Labor Code.pdf
+ 5. CalGEM, "Guidance: NOI and Permit Search in WellSTAR," page 3.
+    File: Guidance_for_NOI_and_Permit_Search_Draft 1 1.pdf
+ 6. CalGEM, Order to Plug and Abandon Well, No. 1422 (Temple Resources), page 4.
+    File: 1422 PA Order Temple Resources_ADA.pdf
+ 7. CalGEM, 2021 California Oil and Gas Wells data file, counted November 11,
+    2026, by distinct API number and well status.
+    File: ../2021CaliforniaOilAndGasWells.csv
+ 8. Study provenance record, sections 6 and 7 (wellbore diagram sources and the
+    fourteen collected diagrams). File: ../PROVENANCE.md
+ 9. Text survey of the fourteen diagrams in this folder, November 11, 2026:
+    text extracted from each PDF and searched for years, the labels "BFW" and
+    "USDW", measured and true vertical depth markers, and the word "spud." A
+    search hit shows a term appears; it does not show the requirement is met.

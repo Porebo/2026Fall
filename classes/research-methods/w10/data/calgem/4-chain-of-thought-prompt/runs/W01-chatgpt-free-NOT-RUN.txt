@@ -1,0 +1,29 @@
+RUN NOT COMPLETED
+Level:          4, chain-of-thought
+Diagram:        W01.pdf
+AI:             ChatGPT, free tier, personal Google account (same login as levels 1-3)
+Date:           November 11, 2026
+
+What happened: when the researcher opened a new session to run level 4,
+ChatGPT displayed:
+
+    "You've reached the limit for file attachments
+     Upgrade to add more now, or try again Nov 12, 11:14 PM"
+
+No prompt was sent and no response was produced.
+
+Context: three earlier runs that day (levels 1, 2, and 3 on W01) each attached
+two files, six attachments in all, before the limit was reached.
+
+Observation for the study: on the free tier, a worker checking diagrams this
+way would be stopped after about three diagrams per day. This is a practical
+limit on using a free AI service for the task described in the scenario.
+
+What the researcher did next: switched to Gemini (free tier) and ran level 4
+there, as a worker blocked by the limit would. The study documents the actual
+behavior of free AI services in use, including limits that force a change of
+service; the switch is recorded rather than avoided.
+
+Note for analysis: level 4 for W01 was answered by a different AI service from
+levels 1-3, so a difference between level 3 and level 4 for W01 may reflect
+the change of service as well as the change of prompt.

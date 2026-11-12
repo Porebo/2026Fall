@@ -1,0 +1,3310 @@
+WEBVTT
+
+1
+00:00:03.100 --> 00:00:09.419
+Ningning Wu: So, good evening, everyone. So, today, we are going to study the research design.
+
+2
+00:00:09.890 --> 00:00:17.860
+Ningning Wu: So, we actually will look at the importance of planning your study designs, and also study the different
+
+3
+00:00:18.120 --> 00:00:23.599
+Ningning Wu: Different, research designs in, different fields.
+
+4
+00:00:23.900 --> 00:00:27.939
+Ningning Wu: And I think I mainly focused on the data science field.
+
+5
+00:00:28.270 --> 00:00:40.869
+Ningning Wu: And we also… but we do also overview several different, fields, like the marketing, business, and so on. So, overall, I think, because for…
+
+6
+00:00:41.190 --> 00:00:58.809
+Ningning Wu: Our students, although you're from information science or information quality, but your research can be really have a strong favor, for example, in data science, or in the business, like data governance, or in the marketing, or even in the survey.
+
+7
+00:00:58.920 --> 00:01:01.710
+Ningning Wu: And the service kind of considered
+
+8
+00:01:01.810 --> 00:01:16.449
+Ningning Wu: more like the social behaviors, the study. So, in this case, I think, we will mainly focus on the study designs that can potentially benefit our students. So, although the
+
+9
+00:01:16.890 --> 00:01:21.940
+Ningning Wu: Class materials, we have a lot, but I think we do have some focus
+
+10
+00:01:26.480 --> 00:01:32.349
+Ningning Wu: Okay, so for the reading list, I think, as Euro, you're going to read
+
+11
+00:01:32.740 --> 00:01:37.759
+Ningning Wu: the chapters, designated chapters from the Renji Kumas book.
+
+12
+00:01:38.190 --> 00:01:48.400
+Ningning Wu: And we also have several, articles that I think for you to… are good for you to read to understand the data quality studies.
+
+13
+00:01:48.540 --> 00:02:02.170
+Ningning Wu: and also some systematic approach to assessing data quality in secondary use of clinical data and so on. And also, we do have this kind of paper. It's about the…
+
+14
+00:02:02.480 --> 00:02:09.200
+Ningning Wu: design science research. So, I think that's also a good paper for you to study. So, I think…
+
+15
+00:02:09.350 --> 00:02:18.820
+Ningning Wu: In your, for example, master project or dissertation research. Once you formulate your
+
+16
+00:02:19.340 --> 00:02:24.770
+Ningning Wu: Research problem. Have your, research objectives and goals?
+
+17
+00:02:24.910 --> 00:02:44.039
+Ningning Wu: And also, if you know what kind of data you're going to, analyze, collect, and analyze, and then I think it's good for you to consider what kind of study designs you're going to follow, so it's more like, research methodologies, part of the research methodologies. Okay.
+
+18
+00:02:48.950 --> 00:02:49.790
+Ningning Wu: Okay.
+
+19
+00:02:50.130 --> 00:02:53.730
+Ningning Wu: Now let's go to the core, class materials.
+
+20
+00:02:54.250 --> 00:02:58.880
+Ningning Wu: So, fourth one, it is about a scientific method.
+
+21
+00:03:06.180 --> 00:03:25.100
+Ningning Wu: So, what is scientific method? So, scientific method is a process for experimentation that is used to explore observation and answer questions. So, it's very interesting if you, Google the internet, like, what is scientific method?
+
+22
+00:03:27.180 --> 00:03:33.630
+Ningning Wu: And then, think a few… Let me see…
+
+23
+00:03:34.720 --> 00:03:42.659
+Ningning Wu: So, you know, there are some kind of, 7 scientific methods, I don't think that's 7, 7 steps, and some also have
+
+24
+00:03:42.870 --> 00:03:44.100
+Ningning Wu: 10 steps.
+
+25
+00:03:44.370 --> 00:03:55.349
+Ningning Wu: But the majority of them, I think, are pretty much similar. So that's why I think in this article, it pretty much discussed what is scientific method, what are the common steps.
+
+26
+00:03:55.510 --> 00:04:01.809
+Ningning Wu: So, for example, we start with ask a question, then we do the background research.
+
+27
+00:04:02.020 --> 00:04:06.850
+Ningning Wu: Then, based on the background research, we can construct a hypothesis
+
+28
+00:04:07.150 --> 00:04:13.450
+Ningning Wu: And then we're going to test the hypothesis with an experiment, means that we have to design an experiment.
+
+29
+00:04:14.550 --> 00:04:22.740
+Ningning Wu: To test the hypothesis, recall that in one of our lectures, we studied hypothesis testing, like the…
+
+30
+00:04:22.780 --> 00:04:37.920
+Ningning Wu: We want to, kind of examine what is the true mean of the average mean lifetime of a battery, okay? So whether we believe the manufacturer's claim, or we don'
+
+31
+00:04:37.920 --> 00:04:52.130
+Ningning Wu: I mean, we consider their claim is kind of inflated. So, in this case, we have to design the experiment. So, for that particular quadrant experiment will be that we collect, like, certain, batteries.
+
+32
+00:04:52.130 --> 00:05:06.590
+Ningning Wu: Then we kind of test their lifetime. It may take time, or we may even go the survey. For example, we know that, we surveyed 30 customers, or 30, I mean.
+
+33
+00:05:06.590 --> 00:05:14.980
+Ningning Wu: Maybe, so do customers, and, survey their what's the lifetime of the battery they, I mean, they bought.
+
+34
+00:05:15.020 --> 00:05:30.999
+Ningning Wu: So this is more like the experiment design. So once we collect 30 batteries lifetime, then we can pretty much decide how we can test our hypothesis. So our hypothesis may be that the battery lifetime
+
+35
+00:05:31.000 --> 00:05:38.650
+Ningning Wu: It's less than 500 days that claimed as the, by the manufacturer.
+
+36
+00:05:38.660 --> 00:05:57.979
+Ningning Wu: So then we can calculate the sample mean, and then calculate the test statistics. Then we can get the probability of the test statistics. Then based on the probability, and also the, confidence level. So we have to set a confidence level, like.
+
+37
+00:05:58.110 --> 00:06:06.270
+Ningning Wu: How much, arrow we want to tolerate, like 5%, or 1%, or… I mean, 10%.
+
+38
+00:06:06.390 --> 00:06:26.370
+Ningning Wu: So then we compare the p-value with the confidence level. If the p-value below the confidence level, then we're going to reject the null hypothesis we have. So this is more like the hypothesis testing and the experiment design. So here's pretty much the same thing. So procedure working, so if every…
+
+39
+00:06:26.790 --> 00:06:41.539
+Ningning Wu: I mean, we collect the battery life, and then we calculate the test statistics. If yes, then we analyze data and draw a conclusion, okay? So, then we're going to see if the results align with hypothesis.
+
+40
+00:06:41.720 --> 00:06:45.530
+Ningning Wu: If yes, we communicate with the result. Even though.
+
+41
+00:06:46.520 --> 00:07:00.359
+Ningning Wu: like, results align partially or not at all with hypothesis, then really depending on the type of the experiment, maybe if you conduct, like, the, chemistry, experiment.
+
+42
+00:07:00.360 --> 00:07:06.649
+Ningning Wu: So then you probably think about, I may… did something, I mean, or I may…
+
+43
+00:07:06.680 --> 00:07:08.259
+Ningning Wu: Tenderful, how do I say?
+
+44
+00:07:08.640 --> 00:07:11.880
+Ningning Wu: pol… I made…
+
+45
+00:07:12.230 --> 00:07:23.300
+Ningning Wu: Kind of pollute some of the… my, my test materials, so that's why my test result really cannot fully confirm my hypothesis.
+
+46
+00:07:23.380 --> 00:07:35.049
+Ningning Wu: So, if that is true, you may want to redesign your, your test procedures to make sure that every, step, you want to make sure that you don't, I mean, kind of,
+
+47
+00:07:35.820 --> 00:07:43.979
+Ningning Wu: I think I just couldn't find the right word to pollute your, your materials, so that you want to, have the
+
+48
+00:07:44.460 --> 00:07:47.859
+Ningning Wu: better experiment design.
+
+49
+00:07:48.160 --> 00:07:52.689
+Ningning Wu: You, so that you're able to reach the desirable,
+
+50
+00:07:52.850 --> 00:08:07.780
+Ningning Wu: I mean, conclusion you want. But anyway, so if your experiment cannot confirm your hypothesis, that probably means that your hypothesis, you don't have confidence to really… to reject the null hypothesis.
+
+51
+00:08:07.800 --> 00:08:20.860
+Ningning Wu: to believe your own, hypothesis. So that's fine. That means you probably need to do further analysis for the study, or maybe refine your hypothesis, or maybe, understand what
+
+52
+00:08:20.860 --> 00:08:29.019
+Ningning Wu: the rhythm behind you, your hypothesis, you cannot reject your null hypothesis. So there are so many questions.
+
+53
+00:08:29.020 --> 00:08:40.120
+Ningning Wu: You can, try to answer. Even your experiment, is not successful, because this is the research. So research means that you're not certain if you.
+
+54
+00:08:40.280 --> 00:08:54.799
+Ningning Wu: you, if you're able to answer the question fully, okay? So, for example, you have a very good question, you formulate it, you design a very good experiment, and then if the result is not certain.
+
+55
+00:08:55.460 --> 00:09:07.670
+Ningning Wu: Then, that basically may trigger or motivate you to ask more questions, or to look deeper into the problem, to… in order to find new problem.
+
+56
+00:09:07.920 --> 00:09:12.020
+Ningning Wu: and… or to find new directions. So, that's…
+
+57
+00:09:12.140 --> 00:09:26.470
+Ningning Wu: what I mean, that even the failed research means that you propose very good methodologies, you have very good research design, but the conclusion of your research is not very certain.
+
+58
+00:09:26.480 --> 00:09:33.580
+Ningning Wu: So, means that it won't be able to solve the problem you proposed. I think that's fine, that's at least…
+
+59
+00:09:34.500 --> 00:09:49.730
+Ningning Wu: tears other researchers, so this direction may not be, effective for tackling that problem. So that's actually the beauty of the research. So, you don't expect every research is successful, but the failure of the research may trigger
+
+60
+00:09:49.730 --> 00:09:54.900
+Ningning Wu: Or exposed, the more problems, or may even expose you to a
+
+61
+00:09:54.900 --> 00:10:11.330
+Ningning Wu: very exciting new areas and new fields. So that's why don't be afraid of the failure in your research. Okay, so this is kind of, how the scientific method will be conducted. I think I'd like you to, watch this video.
+
+62
+00:10:11.600 --> 00:10:14.530
+Ningning Wu: So, let me see if I'm able to…
+
+63
+00:10:14.780 --> 00:10:18.720
+Ningning Wu: So let me say if you're able to hear the, sound.
+
+64
+00:10:22.820 --> 00:10:24.369
+Ningning Wu: Can you hear the sound?
+
+65
+00:10:26.350 --> 00:10:26.870
+Dela Vanlare: Not yet.
+
+66
+00:10:26.870 --> 00:10:27.420
+Ningning Wu: Right.
+
+67
+00:10:28.520 --> 00:10:29.670
+Ningning Wu: Yes or no?
+
+68
+00:10:30.790 --> 00:10:31.700
+Dela Vanlare: Not yet.
+
+69
+00:10:32.030 --> 00:10:33.340
+Ningning Wu: No, yeah, okay.
+
+70
+00:10:34.520 --> 00:10:39.160
+Ningning Wu: So, let me go to… I don't know if it is YouTube, so that's probably…
+
+71
+00:10:51.540 --> 00:10:54.529
+Ningning Wu: Anything that's copy we do? You see?
+
+72
+00:10:55.150 --> 00:10:58.360
+Ningning Wu: Then let me open the new… Lindo?
+
+73
+00:11:22.900 --> 00:11:27.299
+Ningning Wu: Let me, let me see my settings.
+
+74
+00:11:30.150 --> 00:11:33.639
+Oluwakemi Temitope Olayinka: I think the volume on the YouTube is muted.
+
+75
+00:11:34.840 --> 00:11:36.539
+Ningning Wu: It's not… yeah.
+
+76
+00:11:37.380 --> 00:11:38.430
+Oluwakemi Temitope Olayinka: Yeah, now it's…
+
+77
+00:11:39.390 --> 00:11:41.150
+Ningning Wu: Yeah, let me see if you're able to.
+
+78
+00:11:41.720 --> 00:11:42.970
+Ningning Wu: Can you hear it?
+
+79
+00:11:44.890 --> 00:11:45.830
+Oluwakemi Temitope Olayinka: No.
+
+80
+00:11:46.620 --> 00:11:47.729
+Ningning Wu: You're able to hear, right?
+
+81
+00:11:50.420 --> 00:11:52.059
+Oluwakemi Temitope Olayinka: No, no, we can't.
+
+82
+00:11:52.700 --> 00:11:53.830
+Ningning Wu: You can now hear.
+
+83
+00:11:54.150 --> 00:11:54.960
+Ningning Wu: So…
+
+84
+00:11:54.960 --> 00:11:55.570
+Mehmet Seker: low.
+
+85
+00:11:57.840 --> 00:12:02.909
+Ningning Wu: Oh, Let me see if, on my end, if I need to do anything.
+
+86
+00:12:23.280 --> 00:12:24.380
+Ningning Wu: So…
+
+87
+00:12:25.060 --> 00:12:34.849
+Ningning Wu: I think… let me first leave, I think when I enter into this one, I may not, oh, listen, when I share the window, let me see the share.
+
+88
+00:13:03.490 --> 00:13:05.530
+Ningning Wu: How about now? Can you hear it?
+
+89
+00:13:08.460 --> 00:13:10.709
+Dela Vanlare: Sorry, I'm still kind of hear it.
+
+90
+00:13:11.790 --> 00:13:22.069
+Ningning Wu: Okay, if you cannot hear, I think probably you just, watch the video after the class. So I do share the video here, but for some reason, let me see why it's not…
+
+91
+00:13:22.070 --> 00:13:23.889
+Dela Vanlare: Yeah, we can watch you after the close, yeah.
+
+92
+00:13:23.890 --> 00:13:29.269
+Ningning Wu: Exactly, so that's not a big deal. Yeah, I think it's a good one for you to study.
+
+93
+00:13:30.390 --> 00:13:34.539
+Ningning Wu: Okay, so… No, that's,
+
+94
+00:13:46.110 --> 00:13:51.389
+Ningning Wu: Let me see if… right now, how about now? I think it's not my shared, audio is working.
+
+95
+00:13:51.700 --> 00:13:55.589
+Ningning Wu: So let's try one more time. If it's not working, then we'll move on to the next one.
+
+96
+00:13:58.220 --> 00:13:59.200
+Ningning Wu: Here now?
+
+97
+00:14:03.540 --> 00:14:04.699
+Oluwakemi Temitope Olayinka: No, we can't.
+
+98
+00:14:07.940 --> 00:14:09.010
+Ningning Wu: You cannot, right?
+
+99
+00:14:09.440 --> 00:14:10.210
+Oluwakemi Temitope Olayinka: Yes.
+
+100
+00:14:12.170 --> 00:14:14.519
+Ningning Wu: Can you… you can hear or not, I'm sorry.
+
+101
+00:14:15.960 --> 00:14:17.320
+Oluwakemi Temitope Olayinka: Or we can… Yes or no?
+
+102
+00:14:17.980 --> 00:14:18.460
+Mehmet Seker: No.
+
+103
+00:14:18.460 --> 00:14:20.090
+Oluwakemi Temitope Olayinka: No, yeah.
+
+104
+00:14:20.090 --> 00:14:23.890
+Ningning Wu: Okay, okay, that's fine, so we don't need to waste time here, so let's…
+
+105
+00:14:24.280 --> 00:14:43.639
+Ningning Wu: Okay, so this is about scientific method, so you can, pretty much… I think we go over the… each individual step. So this is just one type of scientific method, so if you Google the scientific method, there are all different, kind of a discussion on the scientific method.
+
+106
+00:14:43.810 --> 00:14:56.789
+Ningning Wu: they have, maybe, number of steps, a little bit different, but they're all pretty much similar to each other. So it's good for you to, Google the scientific step, methods, and then to, learn.
+
+107
+00:14:57.000 --> 00:14:58.480
+Ningning Wu: The different flavors.
+
+108
+00:14:59.010 --> 00:15:01.809
+Ningning Wu: Okay, now we're going to go to the next one.
+
+109
+00:15:03.490 --> 00:15:10.610
+Ningning Wu: about the overview of classification. So this is an article… Published in the NIH.
+
+110
+00:15:11.030 --> 00:15:15.700
+Ningning Wu: So, it's mainly talking about, I think, medical fields.
+
+111
+00:15:15.870 --> 00:15:21.680
+Ningning Wu: But still, it's gave us some idea of what are the different types.
+
+112
+00:15:22.080 --> 00:15:25.119
+Ningning Wu: of the study designs. Okay.
+
+113
+00:15:25.920 --> 00:15:27.550
+Ningning Wu: So, let me see…
+
+114
+00:15:40.020 --> 00:15:58.460
+Ningning Wu: Okay, so basically, it's saying that what is the study design? So, study design considers a set of methods or procedures that researchers are going to use to collect and analyze data on variables specified in a particular research problem.
+
+115
+00:15:58.590 --> 00:16:09.949
+Ningning Wu: So, I think the introduction, it really means that different, research may need different type of, research study designs, so it's really depending
+
+116
+00:16:09.950 --> 00:16:19.079
+Ningning Wu: On your research tab, on the data tab, and on the question tab you try to answer, then you can pick the right, study designs.
+
+117
+00:16:19.360 --> 00:16:30.679
+Ningning Wu: So, then it first discussed the variables. I think we all know the variables in one of the lectures in the previous weeks. So, variables, we can have different types of variables.
+
+118
+00:16:30.740 --> 00:16:40.499
+Ningning Wu: And based on, like, the, numerical variable, or the, what we call it quantitative variable, or qualitative variables, right?
+
+119
+00:16:40.700 --> 00:16:53.620
+Ningning Wu: And then it starts… it can discuss the exposure and outcome variables. So, exposure variables basically can be also called, independent variables.
+
+120
+00:16:53.820 --> 00:16:58.840
+Ningning Wu: And outcome variables can be the dependent variables, and so on.
+
+121
+00:16:58.870 --> 00:17:09.919
+Ningning Wu: So, in the… maybe in the medical field, exposure basically means that we study the participants' exposure to a particular, for example, medicine.
+
+122
+00:17:09.920 --> 00:17:20.759
+Ningning Wu: and then analyze the outcome if a particular, illness or symptom has been killed or not. So that's called exposure variables. So let me,
+
+123
+00:17:20.869 --> 00:17:23.310
+Ningning Wu: First, Paul to my,
+
+124
+00:17:23.859 --> 00:17:29.409
+Ningning Wu: my lecture notes, so I know what I'm trying to, I want to focus on, yeah.
+
+125
+00:17:30.570 --> 00:17:47.650
+Ningning Wu: So in the exposal variables pretty much are the… refer to the risk factors whose effect is being studied. So it's also referred to that, independent or, predictive variables. I think that's what we studied in one of the lectures.
+
+126
+00:17:47.800 --> 00:17:54.510
+Ningning Wu: Then the outcome variables, actually develops as a consequence of the exposure.
+
+127
+00:17:54.650 --> 00:18:00.779
+Ningning Wu: So, sometimes we also call outcome variables as the dependent variables, okay?
+
+128
+00:18:02.090 --> 00:18:07.720
+Ningning Wu: So… I think this gave you one example.
+
+129
+00:18:08.330 --> 00:18:13.699
+Ningning Wu: like, for example, you want to,
+
+130
+00:18:14.280 --> 00:18:23.649
+Ningning Wu: And also, besides exposed variables, there's also another one called intervention variables, so that's, I think, also related to the medical field.
+
+131
+00:18:23.820 --> 00:18:26.559
+Ningning Wu: So, intervention is preferred.
+
+132
+00:18:26.680 --> 00:18:34.680
+Ningning Wu: Where the researchers assign some or all participants to receive a particular treatment, for example, for the purpose of studying.
+
+133
+00:18:34.880 --> 00:18:39.050
+Ningning Wu: For example, administration of a drug, Or, I mean…
+
+134
+00:18:39.310 --> 00:18:51.159
+Ningning Wu: this called, intervention. So, I think that's differences between the exposure and the intervention. Exposure is more like more passive, so more like researchers just observe.
+
+135
+00:18:51.320 --> 00:19:03.399
+Ningning Wu: and identify what they're exposed to, and then study the outcome. Intervention basically means that research a more actively controlled experiment design, so they decide
+
+136
+00:19:03.400 --> 00:19:13.810
+Ningning Wu: what they're going to, what are the exposure, variables, and who will be exposed to the exposure variables, so they can do a lot of,
+
+137
+00:19:13.820 --> 00:19:15.939
+Ningning Wu: Studies from different angles.
+
+138
+00:19:17.330 --> 00:19:27.190
+Ningning Wu: Then we also have observational or interventional study. So observational, we solely observe, the, kind of, the events.
+
+139
+00:19:27.650 --> 00:19:29.449
+Ningning Wu: And, Yori.
+
+140
+00:19:29.580 --> 00:19:48.580
+Ningning Wu: The researchers will document a naturally occurring relationship between the exposure and outcome that she or his study, but research does not do any active intervention in any individuals, so this is more like, observation, okay?
+
+141
+00:19:48.680 --> 00:19:53.490
+Ningning Wu: So, the other one is the… the intervention.
+
+142
+00:19:53.790 --> 00:19:55.850
+Ningning Wu: So, interventional study.
+
+143
+00:19:56.050 --> 00:20:04.410
+Ningning Wu: Basically means that researchers will actively control the or set the exposure to study the consequence.
+
+144
+00:20:04.840 --> 00:20:18.639
+Ningning Wu: So, I think for the observer… observational study, there's one example, like, looking at the incidence of lung cancers in smokers versus non-smokers, and comparing
+
+145
+00:20:18.640 --> 00:20:28.399
+Ningning Wu: for them all are comparing the antenatal dietary habits of mothers with normal and a low-birth babies. So they pretty much
+
+146
+00:20:28.750 --> 00:20:38.369
+Ningning Wu: do not control any, exposure, so they do not control who need to smoke, who do not smoke, or who need to, I mean.
+
+147
+00:20:38.780 --> 00:20:48.740
+Ningning Wu: for the mothers who need to take this kind of a dietary, who, I mean, lives, and the others take different, so there's no control at all. Okay.
+
+148
+00:20:49.500 --> 00:20:51.580
+Ningning Wu: So, interventional studying.
+
+149
+00:20:51.830 --> 00:21:01.899
+Ningning Wu: experiments where the researchers actively perform an intervention in some or all members of group of participants, so they're more active. Okay.
+
+150
+00:21:04.060 --> 00:21:15.839
+Ningning Wu: So, for the observational study, it can be either, descriptive or the analytical. Okay, descriptive just simply descriptive, the
+
+151
+00:21:16.270 --> 00:21:27.899
+Ningning Wu: phenomenon, and analytical probably can analyze, for example, whether smoke can relate to the cancer, lung cancer or not, so more like in
+
+152
+00:21:28.060 --> 00:21:30.190
+Ningning Wu: Kind of influence analysis.
+
+153
+00:21:32.140 --> 00:21:44.310
+Ningning Wu: then study can be also descriptive or analytical. So, descriptive, we simply describe, or objectively, describe what happened, describe the study groups, okay?
+
+154
+00:21:44.660 --> 00:22:03.620
+Ningning Wu: And, we do not try to answer questions or establish relationship between variables, so that's the descriptive studies. So examples of descriptive studies can be case reports, case series, and cross-sectional surveys. So, mainly
+
+155
+00:22:03.630 --> 00:22:10.750
+Ningning Wu: Just describe what happened, and what the explorer, what's the outcome, okay?
+
+156
+00:22:11.260 --> 00:22:24.849
+Ningning Wu: Then, analytical studies, we try to… we usually may have… want to analyze the relationship, or we have a hypothesis, we want to test the hypothesis. So, those kind of analytical studies.
+
+157
+00:22:24.980 --> 00:22:34.479
+Ningning Wu: So I think in the last class, we also studied if we want to use hypothesis testing, then we… actually, we cannot,
+
+158
+00:22:36.150 --> 00:22:48.899
+Ningning Wu: we can use t-test, ANOVA or Milanova methods for the hypothesis testing on the condition that the data satisfies certain conditions. If the data do not satisfy
+
+159
+00:22:48.900 --> 00:22:58.300
+Ningning Wu: the three conditions, then we're going to do what? Non-parametric, kind of an analysis, like using chi-square test, and so on, okay?
+
+160
+00:22:59.110 --> 00:23:15.539
+Ningning Wu: Then, regarding to the direction of study design, it can be forward direction study, or backward direction study. So for the forward direction studies, the researchers start with determining the exposure to a risk factor, and then assess
+
+161
+00:23:15.540 --> 00:23:22.889
+Ningning Wu: whether the outcome occurs at a future time point. So, we… it's similar, still observations of…
+
+162
+00:23:23.910 --> 00:23:32.419
+Ningning Wu: Then the backward, so, I mean, another one is that for the forward direction study, it's also called cohort study.
+
+163
+00:23:32.800 --> 00:23:42.610
+Ningning Wu: Then for the backward, direction study, the researcher actually begins with by determining whether the outcome is present.
+
+164
+00:23:42.950 --> 00:23:54.450
+Ningning Wu: and then to trace the presence of the prior exposure to a risk factor. Okay, so here I give you a very good example, like, researchers identify a group of
+
+165
+00:23:54.490 --> 00:24:10.410
+Ningning Wu: normal weight babies and a group of low birth weight babies, then ask the mothers about their dietary habits during the index pregnancy. So, they have the outcome, then they try to trace back the, I mean.
+
+166
+00:24:10.450 --> 00:24:15.960
+Ningning Wu: The predictor will depend… independent variable that can
+
+167
+00:24:16.110 --> 00:24:20.800
+Ningning Wu: induce those outcomes. So this is called backward direction studies.
+
+168
+00:24:20.870 --> 00:24:37.629
+Ningning Wu: And also, sometimes the study also copies those forward direction and the backward direction, also called prospective versus retros… Retrospective study designs. But those terms are rarely used because they can be very confusing.
+
+169
+00:24:37.630 --> 00:24:46.839
+Ningning Wu: So, usually, we will use the forward direction study, or backward direction study, instead of perspective
+
+170
+00:24:47.000 --> 00:24:51.489
+Ningning Wu: or retrospective study, so that's… I want you to…
+
+171
+00:24:51.700 --> 00:24:59.279
+Ningning Wu: To understand. And at the end of this article, it gave a very nice kind of a diagram.
+
+172
+00:24:59.420 --> 00:25:02.530
+Ningning Wu: Help us to decide what kind of,
+
+173
+00:25:03.150 --> 00:25:09.679
+Ningning Wu: research study designs we might use. Okay, so… Follow this kind of flow.
+
+174
+00:25:10.350 --> 00:25:19.959
+Ningning Wu: We forced, ask ourselves, does the study describe characteristics of a sample, or does it attempt to analyze?
+
+175
+00:25:20.240 --> 00:25:33.000
+Ningning Wu: So if it's… then we can decide whether study will be descriptive or analytical, okay? If analytical, did the investor… investigator determine the exposure?
+
+176
+00:25:33.110 --> 00:25:39.330
+Ningning Wu: If yes, then that will be experimental. If no, that will be observational, okay?
+
+177
+00:25:39.980 --> 00:25:43.090
+Ningning Wu: Then, regarding to the observational.
+
+178
+00:25:43.400 --> 00:25:53.720
+Ningning Wu: So, when was the outcome determined? Okay, based on… then, at the start of the study, this is called case control study.
+
+179
+00:25:53.720 --> 00:26:07.440
+Ningning Wu: Or called backward direction study. Or, at the end of period follow-up, that's called forward direction study. So then we can have the coherent study, forward direction studies.
+
+180
+00:26:07.490 --> 00:26:16.709
+Ningning Wu: Or case control study means that we first have case, then we're trying to enforce control. So that's kind of… it's called backward direction study.
+
+181
+00:26:16.750 --> 00:26:33.690
+Ningning Wu: or cross-sectional study. So cross-sectional study means that we just studied, the patient or the, the event at a single point of time. So, we started the exposure and outcome. So, that's called cross-sectional study, okay?
+
+182
+00:26:33.720 --> 00:26:41.409
+Ningning Wu: So that's kind of the very nice diagram that may be, very roughly to decide.
+
+183
+00:26:41.480 --> 00:26:53.409
+Ningning Wu: what kind of study design we want to follow in our research. So this meeting, I think this can be used for medical research, health, research, and also
+
+184
+00:26:53.790 --> 00:26:57.970
+Ningning Wu: Sometimes I'm buying from medical research and so on.
+
+185
+00:26:58.580 --> 00:27:00.600
+Ningning Wu: So that's the first article.
+
+186
+00:27:01.990 --> 00:27:12.090
+Ningning Wu: Then the second one is about data science research methods. So, this, actually, coming from a website that contains
+
+187
+00:27:12.750 --> 00:27:13.580
+Ningning Wu: Sorry.
+
+188
+00:27:15.820 --> 00:27:16.739
+Ningning Wu: How come they?
+
+189
+00:27:17.030 --> 00:27:17.890
+Ningning Wu: Okay.
+
+190
+00:27:19.870 --> 00:27:32.599
+Ningning Wu: So, it's actually discussed, research methods in different fields. So, we have action research methods, anthropology research methods, arts, about biology, business.
+
+191
+00:27:32.710 --> 00:27:37.860
+Ningning Wu: Case study, chemistry, and so on. Comparative research method, computer science.
+
+192
+00:27:38.260 --> 00:27:44.120
+Ningning Wu: and also data science. So this one is about data science. Okay, so I think…
+
+193
+00:27:44.220 --> 00:27:51.010
+Ningning Wu: Majority of, I think… Our research is… probably…
+
+194
+00:27:51.050 --> 00:28:03.360
+Ningning Wu: belongs to the, the data science research. The reasons were clear, because we are from different backgrounds, very diverse backgrounds, you may be from business, management.
+
+195
+00:28:03.360 --> 00:28:13.569
+Ningning Wu: I mean, from computer science, you move from the, what else? Information quality. So, but when we're doing our dissertation research.
+
+196
+00:28:13.650 --> 00:28:33.390
+Ningning Wu: majority of our research probably will be, data science focused, so we have to have the data, and then we analyze data, then we report our findings and our conclusions. So I think majority of them probably will belong to the data science,
+
+197
+00:28:34.020 --> 00:28:36.360
+Ningning Wu: The data science Methods, okay?
+
+198
+00:28:37.880 --> 00:28:45.769
+Ningning Wu: So data science methods are considered as thematic approaches through which the data scientists design studies.
+
+199
+00:28:46.100 --> 00:28:55.880
+Ningning Wu: And collect and process data, build and evaluate models, and generate knowledge that can be used for prediction, inference.
+
+200
+00:28:56.260 --> 00:28:58.940
+Ningning Wu: And a decision support across
+
+201
+00:28:59.410 --> 00:29:14.749
+Ningning Wu: different fields, like scientific, business, and social domains. So pretty much data science methods can be applied to a lot of different domains. So, that also reflects the diverse backgrounds of our students and also our program, okay?
+
+202
+00:29:15.970 --> 00:29:18.240
+Ningning Wu: So… Let's see.
+
+203
+00:29:19.540 --> 00:29:22.420
+Ningning Wu: And also, this part discussed data science is…
+
+204
+00:29:22.550 --> 00:29:33.099
+Ningning Wu: At the academic fields, you can find data science coming from different disciplines, like the statistics, computer science, domain-specific knowledge, like
+
+205
+00:29:33.140 --> 00:29:44.580
+Ningning Wu: Basically means that you have to combine the combining statistical theory, computational methods, and the subject matter expertise.
+
+206
+00:29:44.580 --> 00:29:57.720
+Ningning Wu: to extract meaningful insights from data. Okay, so that's pretty much, what data science is about. So everybody, as a domain expert, they can use data science to pretty much research.
+
+207
+00:29:57.750 --> 00:30:00.390
+Ningning Wu: A particular problem in their field.
+
+208
+00:30:02.360 --> 00:30:04.049
+Ningning Wu: And, also.
+
+209
+00:30:04.150 --> 00:30:21.169
+Ningning Wu: What distinguishes data science from traditional statistics or computer science is it's emphasized on the full pipeline of data work. So I think, like, data pipeline, we have to first formulate a problem, and then we…
+
+210
+00:30:21.310 --> 00:30:40.820
+Ningning Wu: acquire the data, and also we do the data cleaning, so data manipulation, this relates to the data quality. Then explore… exploratory analysis, we're trying to understand data more, so that we're able to pick the appropriate methods for data analysis, then modeling, evaluation, and communication findings.
+
+211
+00:30:41.140 --> 00:30:55.950
+Ningning Wu: to varied, audience. So that's pretty much talking about the data science is kind of a, interdisciplinary, fields that can combine the statistics, computer science.
+
+212
+00:30:56.060 --> 00:30:57.310
+Ningning Wu: domain.
+
+213
+00:30:57.410 --> 00:31:04.069
+Ningning Wu: export knowledge from, I mean, different domains, then can answer questions across different fields.
+
+214
+00:31:04.700 --> 00:31:10.180
+Ningning Wu: So then, regarding to the core, research methods in data science.
+
+215
+00:31:10.820 --> 00:31:24.159
+Ningning Wu: So, basically, the fourth one is statistical inference… inference and hypothesis testing. So, this actually, for the hypothesis testing we studied in the last lecture.
+
+216
+00:31:24.390 --> 00:31:29.069
+Ningning Wu: So, I wanted to… Be aware that
+
+217
+00:31:29.070 --> 00:31:48.839
+Ningning Wu: You can use hypothesis testing using the t-test, a NOVA or MANOVA, only if data satisfies three, kind of conditions. I want to kind of reveal those three conditions. The first one is called independence of observations, means that when you collect data, each observation
+
+218
+00:31:48.840 --> 00:31:51.350
+Ningning Wu: It's independent from others.
+
+219
+00:31:52.360 --> 00:32:05.079
+Ningning Wu: The second one is called homogeneity of variances. So if you want to compare the group means or other characteristics of different groups, you have to assume that each group
+
+220
+00:32:05.460 --> 00:32:11.670
+Ningning Wu: It has a similar, kind of, or the… the same, or similar,
+
+221
+00:32:11.670 --> 00:32:26.029
+Ningning Wu: variances. So that's kind of the second requirement. The third requirement is called normative data, so that basically means that data follows a normal distribution.
+
+222
+00:32:26.360 --> 00:32:27.700
+Ningning Wu: So, if…
+
+223
+00:32:28.150 --> 00:32:38.099
+Ningning Wu: these three conditions must be satisfied, then you can use the t-test ANOVA, okay? If… or the regression analysis. If those,
+
+224
+00:32:38.380 --> 00:32:51.749
+Ningning Wu: If those… one of those conditions cannot be satisfied, then you have to use non-parametric methods, like… such as chi-square test. So, chi-square test is mainly used to analyze
+
+225
+00:32:51.890 --> 00:33:00.679
+Ningning Wu: the really… how the two categorical variables are related, whether they are independent or they're related, okay?
+
+226
+00:33:01.040 --> 00:33:11.769
+Ningning Wu: A second method besides hypothesis testing, then the Bayesian statistical methods, also provide an alternative and also increasingly popular framework.
+
+227
+00:33:11.820 --> 00:33:24.699
+Ningning Wu: that combines prior information with evidence from data through Bayes' theorem. So Bayes' theorem, actually, I hope you all know what is Bayes' theorem. It's very, very…
+
+228
+00:33:25.010 --> 00:33:30.400
+Ningning Wu: Kind of simple, probability, Kind of principle.
+
+229
+00:33:30.510 --> 00:33:43.219
+Ningning Wu: but has been widely used for the, I mean, in different, I mean, in different applications. So this is a base theorem. So basically, the first one, given P,
+
+230
+00:33:43.450 --> 00:34:00.630
+Ningning Wu: probability of A given B, okay? So we're trying to estimate probability of A given B. So this can be used in the, typical classification problem, means that, given B is more like, observation we have, then we try to, info
+
+231
+00:34:00.630 --> 00:34:17.559
+Ningning Wu: what's the potential class of that observation? So this can be applied to the credit card, approval process, or loan approval process, or the, the fraud detection, you name it, okay? So this is called the post-terror probability. Then.
+
+232
+00:34:17.719 --> 00:34:20.510
+Ningning Wu: is equal to probability of A,
+
+233
+00:34:20.670 --> 00:34:37.289
+Ningning Wu: of B given A times probability of A divided by probability B, okay? So probability B given A is called likelihood, so it's a probability of observing evidence B, assuming that hypothesis A is true, okay?
+
+234
+00:34:38.170 --> 00:34:53.779
+Ningning Wu: Then, probability PA is actually called prior probability, so it's kind of initial probability of hypothesis A being true before new evidence is introduced. So, in order to use Bayes' theorem, so we basically should have
+
+235
+00:34:53.940 --> 00:35:09.539
+Ningning Wu: we should have, kind of, sample data, so that in the sample data, we can estimate the prior probability, and also we can estimate the likelihood. So the likelihood, basically, is not that easy to calculate from the sample data.
+
+236
+00:35:09.540 --> 00:35:17.389
+Ningning Wu: So, one, kind of a strategy is we call the… we assume that all variables
+
+237
+00:35:17.390 --> 00:35:35.330
+Ningning Wu: in the data we collected, for example, data may contain 9 columns, 1-9 attributes, 1 nine variables, we assume that those variables are mutual independent, so then we can use a very simple formula to estimate the likelihood, okay?
+
+238
+00:35:35.390 --> 00:35:50.930
+Ningning Wu: then we have the likelihood, we have the prior probability, then regarding to probability B, it becomes a marginal probability. So this can be… I mean, in the… in the practice, we usually do not,
+
+239
+00:35:51.090 --> 00:35:57.059
+Ningning Wu: Basically, we do not need to estimate or compute the marginal probability.
+
+240
+00:35:57.210 --> 00:36:09.089
+Ningning Wu: So, probability of B, because we simply, for example, for the classification problem, so if we know that an event can, have 5 possible classes.
+
+241
+00:36:09.280 --> 00:36:19.279
+Ningning Wu: Then, we just simply estimate, given that particularly you want B, we just estimate what's the probability of B being class
+
+242
+00:36:19.500 --> 00:36:20.310
+Ningning Wu: Mwah.
+
+243
+00:36:20.530 --> 00:36:34.660
+Ningning Wu: And we also calculate what's the probability of B of being class… belong to class 2, and so on. So we can calculate 5, post-thereum probability, then we just pick whichever, the class has highest.
+
+244
+00:36:34.690 --> 00:36:39.039
+Ningning Wu: Posterior probability, then we probably can have high confidence.
+
+245
+00:36:39.070 --> 00:36:56.500
+Ningning Wu: to consider that E1B will belong to the class with highest posterior probability. Because when we calculate those posterior probabilities, they all share the PB, so that's why we can ignore, calculate PB. We only need to compare
+
+246
+00:36:56.530 --> 00:37:05.780
+Ningning Wu: the nominator. Okay, so that's kind of the values, so that's the, that's the way how the, variation…
+
+247
+00:37:05.940 --> 00:37:09.569
+Ningning Wu: Third has been widely used in the data science field.
+
+248
+00:37:10.830 --> 00:37:11.670
+Ningning Wu: Okay.
+
+249
+00:37:12.130 --> 00:37:17.099
+Ningning Wu: So then, for the exploratory data analysis, so I think…
+
+250
+00:37:17.280 --> 00:37:24.450
+Ningning Wu: In one of the lecture, in the next, second part, when Dr. Dashhead.
+
+251
+00:37:28.000 --> 00:37:28.830
+Ningning Wu: I think.
+
+252
+00:37:29.290 --> 00:37:38.790
+Ningning Wu: deck tests. So, he will, basically, will, I think, will, help you to review different exploratory data analysis.
+
+253
+00:37:38.930 --> 00:37:52.930
+Ningning Wu: So here, the exploratory data analysis pretty much can be considered maybe the, the early steps for the data science project. So we use exploratory data analysis.
+
+254
+00:37:53.120 --> 00:37:57.800
+Ningning Wu: By using the graphical and,
+
+255
+00:37:58.370 --> 00:38:09.149
+Ningning Wu: summary statistics method to understand the structure, patterns, and anomalies in the dataset before we, do the formal modeling. So…
+
+256
+00:38:09.230 --> 00:38:25.210
+Ningning Wu: I think if you're in a data quality field, then anomalies can be potentially an indicator of the bad quality of data, okay? So then, I think in the data quality field, identifying anomalies is also one of the key tasks.
+
+257
+00:38:25.350 --> 00:38:34.370
+Ningning Wu: in cleaner data, okay? And then, anomalies can be also, besides the data exploratory analysis.
+
+258
+00:38:34.370 --> 00:38:48.849
+Ningning Wu: And in the data modeling, sometimes we're looking for the anomalies. So anomalies really indicate some interesting, patterns or interesting events we are trying to, we are trying to capture.
+
+259
+00:38:48.850 --> 00:38:57.200
+Ningning Wu: So this is very sim… I think one example can be we're trying to do the credit card fraud detection.
+
+260
+00:38:57.220 --> 00:39:15.609
+Ningning Wu: So, basically, if we're looking at each customer's credit card, charts, so each customer may have different lifestyle and spending preferences. So, in this case, we probably… one way we can identify the fraud activity is that we
+
+261
+00:39:15.910 --> 00:39:27.340
+Ningning Wu: main… I mean, model each customer's lifestyle, so we can build a profile of the customer, like the… what's the frequent items the customer bought using that credit card.
+
+262
+00:39:27.440 --> 00:39:38.229
+Ningning Wu: at which location, okay? And then, we just examine every credit card transaction to see if one transaction really
+
+263
+00:39:38.230 --> 00:39:49.100
+Ningning Wu: consider a big deviation from the normal expanding patterns. For example, location's not right, okay? Maybe the… it's happening in the
+
+264
+00:39:49.170 --> 00:40:02.390
+Ningning Wu: store, that… that customer never go to that store, and happened to… the customer bought… in that store, customer bought, maybe, merchandise that the customer never, need to buy, for example.
+
+265
+00:40:02.460 --> 00:40:17.249
+Ningning Wu: you may find a kind of a very old kind of a couple if they go to, like, the… I mean, the… I think before we had baby art, so some kind of special store to buy the baby products. If you know that.
+
+266
+00:40:17.510 --> 00:40:24.499
+Ningning Wu: I mean, yearly, I think the company will collect a lot of information about that customer, to understand that customer.
+
+267
+00:40:24.670 --> 00:40:30.530
+Ningning Wu: Then, if you have a low kind of, confidence… you have low confidence in that.
+
+268
+00:40:30.690 --> 00:40:31.830
+Ningning Wu: For that…
+
+269
+00:40:31.940 --> 00:40:47.150
+Ningning Wu: couple to buy the baby products, then that particular, purchase activities might raise alarm. So, means that it can be potential, kind of fraud. So, in this case, identify anomalies
+
+270
+00:40:47.250 --> 00:40:59.720
+Ningning Wu: basically the focus of the study. So here, I want you to understand that anomalies identification is really, useful, depending on your study. It's maybe for the data quality purpose, or maybe just
+
+271
+00:40:59.840 --> 00:41:06.949
+Ningning Wu: For the… it's a major goal for you, for your… for your analysis, so it's really depending on the situation.
+
+272
+00:41:08.370 --> 00:41:28.020
+Ningning Wu: And also a study that is talking about the EDA. It can be examined distribution of individual variables through the histogram, VoxPlus, or empirical cumulative distribution functions, or the EDA can be used to examine relationship between variables.
+
+273
+00:41:28.020 --> 00:41:36.680
+Ningning Wu: Through the scatter plot, so we analyze the relationship between two variables, correlation matrix, heat maps, okay?
+
+274
+00:41:36.770 --> 00:41:49.609
+Ningning Wu: And we can also use the exploratory data analysis for identifying outliers, so missing data patterns, or unexpected features that require investigation.
+
+275
+00:41:49.770 --> 00:42:03.890
+Ningning Wu: or cleaning before analysis. So that's being said, the EDA is very important in the data science project. It should be one of the early steps, or early process you need to perform.
+
+276
+00:42:04.090 --> 00:42:14.850
+Ningning Wu: Before you seriously, kind of a cons… or design, you, predict… predictive models, or generative models.
+
+277
+00:42:15.000 --> 00:42:17.339
+Ningning Wu: For the project, okay?
+
+278
+00:42:18.670 --> 00:42:31.600
+Ningning Wu: And then there's… second one is discussed about dimensionality reduction methods. So, one of the popular ones will be the PCA Principal Component Analysis, or can be TS.
+
+279
+00:42:31.860 --> 00:42:51.449
+Ningning Wu: TISNI, and UMAP. So those are the, also, I think, the kind of most recent and popular methods for visualized data, high-dimensional data, into low-dimensional, space, and then trying to preserve the patterns, the features of high-dimensional data.
+
+280
+00:42:51.790 --> 00:42:53.740
+Ningning Wu: So, for the…
+
+281
+00:42:54.210 --> 00:43:12.560
+Ningning Wu: Dimensionality reduction is also important in the sense that if we have data that contains a lot of variables, then the first thing may be we're trying to identify the variables that has nothing to do with our analysis or our kind of outcome.
+
+282
+00:43:12.620 --> 00:43:16.789
+Ningning Wu: outcome of data. Then we can remove those,
+
+283
+00:43:17.110 --> 00:43:32.110
+Ningning Wu: Unrelated variables in our study, so that we can be more focused on the, the key theme of our analysis, and also can get rid of the, interference of those, irrelevant variables.
+
+284
+00:43:32.370 --> 00:43:49.880
+Ningning Wu: Sometimes we still not be able to handle a lot on high-dimensional data, then we can consider to do the further, dimensionality reduction methods, for example, use TC and UMAP, so that we can, preserve the characteristic of the data
+
+285
+00:43:50.190 --> 00:43:55.820
+Ningning Wu: And show… visualize them into a low-dimensional, kind of a…
+
+286
+00:43:57.050 --> 00:44:05.380
+Ningning Wu: In the low-dimensional, space, so that we can probably quickly capture, some patterns of the data.
+
+287
+00:44:05.680 --> 00:44:08.359
+Ningning Wu: Then, regarding to the machine learning methods.
+
+288
+00:44:10.770 --> 00:44:15.680
+Ningning Wu: So, machine learning methods, we can… there's several different methods.
+
+289
+00:44:15.850 --> 00:44:22.970
+Ningning Wu: So, for the machine learning methods, it's already learned the predictive or generating models from data.
+
+290
+00:44:23.600 --> 00:44:37.699
+Ningning Wu: And also enable the system to make prediction, classify inputs, generate outputs, or take actions without being explicitly programmed for each specific cases.
+
+291
+00:44:37.700 --> 00:44:55.439
+Ningning Wu: So, there are two general types of machine learning methods, supervised learning versus non-supervised learning, okay, or unsupervised learning. So, supervised learning means that we do have, we call it training data. So, training data, each training case should have a label.
+
+292
+00:44:55.440 --> 00:44:57.850
+Ningning Wu: So then, for the supervised learning, the main…
+
+293
+00:44:57.850 --> 00:45:11.899
+Ningning Wu: Our main focus is to try to build a good model that can characteristic the training dataset so that we can predict class label for the future and same events.
+
+294
+00:45:11.900 --> 00:45:18.330
+Ningning Wu: So we can apply the model in the production to help the bank to approve
+
+295
+00:45:18.340 --> 00:45:24.450
+Ningning Wu: For the credit card approval process, or for the fraud, detection process, and so on.
+
+296
+00:45:24.570 --> 00:45:34.299
+Ningning Wu: And supervised learning pretty much, means that we do not need any, training data. So we just simply analyze data, and then
+
+297
+00:45:34.530 --> 00:45:38.790
+Ningning Wu: Petition the data into groups, for example, called clustering.
+
+298
+00:45:38.990 --> 00:45:43.500
+Ningning Wu: And discover, so that we can discover the structure in the data.
+
+299
+00:45:43.800 --> 00:45:49.940
+Ningning Wu: So, the unsupervised… unsupervised learning can be also used
+
+300
+00:45:50.090 --> 00:45:56.219
+Ningning Wu: as the EDA to identify, for example, outlarge anomalies, okay?
+
+301
+00:45:57.000 --> 00:46:16.290
+Ningning Wu: Then for the deep learning, so that's… deep learning means they are referred to the neural networks with many layers, so they are considered as… as the driven, factors that in the, I mean, driven factors for advances in image recognition.
+
+302
+00:46:16.570 --> 00:46:25.210
+Ningning Wu: Natural language processing, speech recognition, and scientific prediction of the, I mean, over the past 15 years.
+
+303
+00:46:25.540 --> 00:46:33.029
+Ningning Wu: So, in the deep learning, actually, I don't know, I know that at least one of my students trying to, use deep learning.
+
+304
+00:46:33.160 --> 00:46:37.829
+Ningning Wu: to, for his research. So, then you probably…
+
+305
+00:46:37.910 --> 00:46:51.619
+Ningning Wu: have so many options you can consider, so you really need to understand the different neural networks, the strengths and the limitations. For example, for the convolutional neural networks.
+
+306
+00:46:51.620 --> 00:47:00.339
+Ningning Wu: So, they are mainly used for process image data, or even process the, I mean, the audio data, as long as data has certain
+
+307
+00:47:00.390 --> 00:47:10.700
+Ningning Wu: are inherent relationship correlated than convolutional neural networks of our gate. So that's why image data, they are pretty much, have
+
+308
+00:47:10.930 --> 00:47:23.319
+Ningning Wu: I mean, if we think about, we disassemble a video into a sequence of image frames, then the neighboring image frames are pretty similar to each other.
+
+309
+00:47:23.400 --> 00:47:32.739
+Ningning Wu: So, that's the… kind of the characteristics of the data that convolutional neural networks are good at, okay?
+
+310
+00:47:32.880 --> 00:47:35.089
+Ningning Wu: Then recurrent neural networks
+
+311
+00:47:35.370 --> 00:47:49.059
+Ningning Wu: or the… and the transformers, so they pretty much focus on processing the sequential data, including text, graph, into… I mean, text. Then the graphic… graph, neural networks, pretty much
+
+312
+00:47:49.270 --> 00:48:03.380
+Ningning Wu: preserve or analyze the relationship among the data, then a large language model based on the transformers, so they are able to generate, understand, analyze text data. So those kind of the…
+
+313
+00:48:03.610 --> 00:48:09.420
+Ningning Wu: all belong to the deep learning. Then, the causal inference methods.
+
+314
+00:48:09.660 --> 00:48:15.670
+Ningning Wu: So, caudal inference, basically, is different from correlation analysis.
+
+315
+00:48:16.160 --> 00:48:22.790
+Ningning Wu: So, causal inference methods, they actually address the fundamental challenges
+
+316
+00:48:23.030 --> 00:48:28.079
+Ningning Wu: Of estimating the causal effect from observational data.
+
+317
+00:48:28.510 --> 00:48:37.879
+Ningning Wu: So, basically, causality is kind of static causality. So, causality means that one variable caused the change of another variable.
+
+318
+00:48:38.160 --> 00:48:46.520
+Ningning Wu: So, correlation analysis means the chain of one variable is related to the chain of another variable, but the change of one variable
+
+319
+00:48:47.640 --> 00:48:57.869
+Ningning Wu: does not cause the change of another variable. So… so that's, I think that's very important for you to understand the differences between the causality
+
+320
+00:48:58.870 --> 00:49:03.920
+Ningning Wu: relationship or correlation, okay. So,
+
+321
+00:49:05.260 --> 00:49:19.789
+Ningning Wu: analyze the correlation between two variables, is pretty straightforward, and then, I think, simple, so you can use the, correlation coefficient. There are so many different mirrors that we can,
+
+322
+00:49:19.870 --> 00:49:31.889
+Ningning Wu: what metrics we can use to measure the correlation between two variables. For the causality, that's really, kind of a step deeper. You really need to… and,
+
+323
+00:49:32.190 --> 00:49:33.630
+Ningning Wu: Understand that.
+
+324
+00:49:33.800 --> 00:49:35.710
+Ningning Wu: If the two variables
+
+325
+00:49:36.320 --> 00:49:51.449
+Ningning Wu: have a cause-effect relationship, so that means that in order to identify this relationship, then you must have a much stronger analysis. So it means the causality is… the relationship is much stronger than the correlation.
+
+326
+00:49:52.510 --> 00:49:59.350
+Ningning Wu: So that's kind of about, caudal, inference methods, so I want you to really understand
+
+327
+00:49:59.480 --> 00:50:01.770
+Ningning Wu: The differences between the correlation.
+
+328
+00:50:02.070 --> 00:50:10.610
+Ningning Wu: and call the cause and effects what we call the causality. So those are the two different relationships, okay?
+
+329
+00:50:11.050 --> 00:50:25.100
+Ningning Wu: Then the natural language processing methods. So, natural language processing methods, basically applies… I mean…
+
+330
+00:50:25.300 --> 00:50:31.339
+Ningning Wu: Computational method to analyze, understand, and also generate human language data.
+
+331
+00:50:31.950 --> 00:50:35.840
+Ningning Wu: So, the core ALP tasks include
+
+332
+00:50:36.010 --> 00:50:50.730
+Ningning Wu: Text classification, so we assign a text category, whether, for example, we study news, we want to categorize news, whether news is about politics, about lifestyle, about… or about sports, and so on.
+
+333
+00:50:50.900 --> 00:50:54.989
+Ningning Wu: Sentiment analysis, trying to identify the…
+
+334
+00:50:55.880 --> 00:51:15.430
+Ningning Wu: polarity or emotional tune of the text, whether it's positive, negative, or neutral. Then name Entity Resolution or resolution. So this is called, entity resolution, I think. If you… maybe some of you are students of Dr. Talbert's group, I think.
+
+335
+00:51:15.650 --> 00:51:33.470
+Ningning Wu: one of his main research is about entity resolution, okay? So, the main goal is that from the textual data, we try to identify the mentions of persons, organizations, or location, okay? Then also information extraction, we want to extract information of particular interest.
+
+336
+00:51:34.060 --> 00:51:43.010
+Ningning Wu: And… what else? Machine translations, okay? And cultural answering, like AI agent, and the text generation, okay.
+
+337
+00:51:43.190 --> 00:51:48.370
+Ningning Wu: So those are the core, functions of the natural language processing methods.
+
+338
+00:51:50.260 --> 00:51:58.689
+Ningning Wu: Then for the modern NLP, it's pretty much mainly dominated by transformer-based language models, like a BERT,
+
+339
+00:51:58.750 --> 00:52:14.340
+Ningning Wu: Roberta and GPT and other variants, okay? So, which, basically, they are pre-trained on large text corpora, and fine-tuned for specific tasks using relatively small amounts of labeled data.
+
+340
+00:52:14.520 --> 00:52:18.410
+Ningning Wu: So embedding, I think, is one of the key functions
+
+341
+00:52:18.580 --> 00:52:27.170
+Ningning Wu: for the natural language processing. So basically, it used dense vector representation of words, or sentence, or documents.
+
+342
+00:52:27.170 --> 00:52:39.320
+Ningning Wu: So that they can capture semantic relationship, and also enable similarity search, clustering, and classification, semantic space. So embeddings, I think, the key kind of a…
+
+343
+00:52:39.380 --> 00:52:41.029
+Ningning Wu: component.
+
+344
+00:52:41.100 --> 00:52:45.460
+Ningning Wu: For the large language model, those kind of things.
+
+345
+00:52:45.590 --> 00:52:55.670
+Ningning Wu: Then the topic modeling methods, we can use the classic latent… the rich latent allocation called LDA, or we can use, bird topic.
+
+346
+00:52:55.780 --> 00:53:09.679
+Ningning Wu: I think bird topic is considered better than a traditional LDA because of the embedding. It really, preserves the semantics of the…
+
+347
+00:53:10.130 --> 00:53:16.529
+Ningning Wu: Text, the tokens, and also the preserved semantics of the sentence.
+
+348
+00:53:16.720 --> 00:53:35.969
+Ningning Wu: and… or even the documents. LDA is simply, I think, a statistical method to yielding the frequency, and some other statistical measures to trying to, inform what's the major topic of a document, but it's not like a board.
+
+349
+00:53:36.280 --> 00:53:42.329
+Ningning Wu: topic use transformer embedding to capture more semantics among the text. Okay.
+
+350
+00:53:42.640 --> 00:53:48.029
+Ningning Wu: So, then the experimental design and A-B testing.
+
+351
+00:53:48.680 --> 00:53:52.380
+Ningning Wu: So experimental design in data science applies.
+
+352
+00:53:52.500 --> 00:53:58.700
+Ningning Wu: The logic of randomized controlled trials to product policy.
+
+353
+00:53:58.830 --> 00:54:11.699
+Ningning Wu: an algorithm evaluation. So AP testing, pretty much random assigning users or units to different conditions, and then marriage outcome. So those kind of two different,
+
+354
+00:54:11.970 --> 00:54:20.160
+Ningning Wu: Experiment design, so how you… Whichever method you want to use is really depending on your research quadrant.
+
+355
+00:54:20.340 --> 00:54:21.290
+Ningning Wu: Okay.
+
+356
+00:54:21.740 --> 00:54:27.070
+Ningning Wu: And, Woodhouse, I think for the… choosing…
+
+357
+00:54:27.590 --> 00:54:31.109
+Ningning Wu: a research method. Let me see if I have any…
+
+358
+00:54:32.770 --> 00:54:37.500
+Ningning Wu: Yeah, I just need to look after my, the lecture notes.
+
+359
+00:54:37.610 --> 00:54:40.850
+Ningning Wu: So, for this one, basically, the…
+
+360
+00:54:40.980 --> 00:54:43.369
+Ningning Wu: I mean, you probably, in your study.
+
+361
+00:54:43.650 --> 00:54:50.960
+Ningning Wu: You're going to decide on whether your goal is prediction, inference, description, or causal understanding.
+
+362
+00:54:51.660 --> 00:54:58.019
+Ningning Wu: So then, based on your, your goal, then you can pick the corresponding method.
+
+363
+00:54:58.170 --> 00:55:06.540
+Ningning Wu: So for the predict modeling, you want to build models that can forecast outcomes as accurately as possible, right?
+
+364
+00:55:06.890 --> 00:55:17.840
+Ningning Wu: And for the… statistical inferences, you can either use hypothesis testing or Bayesian inference, analysis to…
+
+365
+00:55:18.190 --> 00:55:22.780
+Ningning Wu: analyze association between, I mean, two… two wearables.
+
+366
+00:55:23.260 --> 00:55:32.480
+Ningning Wu: And then, exploratory analysis is considered as the data preprocessing step, majority data preprocessing.
+
+367
+00:55:32.730 --> 00:55:37.099
+Ningning Wu: So you analyze, you study the patterns, structures.
+
+368
+00:55:37.210 --> 00:55:53.870
+Ningning Wu: statistical characteristics of the variables, and based on those information, it can help you to identify outlars, or identify appropriate methods for the predict modeling, appropriate methods that you can use, okay?
+
+369
+00:55:53.980 --> 00:56:10.290
+Ningning Wu: Then for causal understanding, that's pretty strong, means that one caused the other, so the existence of variable A caused the occurrence of variable B, so that will be a much stronger association between the two variables.
+
+370
+00:56:11.420 --> 00:56:14.410
+Ningning Wu: So let me see what else I want to discuss here.
+
+371
+00:56:17.570 --> 00:56:21.360
+Ningning Wu: So I think this paragraph pretty much discuss that.
+
+372
+00:56:21.910 --> 00:56:23.789
+Ningning Wu: Very common.
+
+373
+00:56:24.170 --> 00:56:27.569
+Ningning Wu: And serious error in the data science is that
+
+374
+00:56:27.850 --> 00:56:39.639
+Ningning Wu: confusing predictive accuracy with causal understanding. So it means that if you build a predictive model, that model is pretty accurate. So given an event, you can…
+
+375
+00:56:40.640 --> 00:56:50.190
+Ningning Wu: accurately predict its kind of class, for example. But this accurate prediction doesn't mean the causality. So causality
+
+376
+00:56:50.430 --> 00:57:06.040
+Ningning Wu: Basically, you already measure the relationship, a strong relationship between the cause-effect relationship between the two variables. Predictive accuracy simply evaluates how, the performance of a predictive model, but
+
+377
+00:57:06.830 --> 00:57:08.350
+Ningning Wu: Given the data.
+
+378
+00:57:08.580 --> 00:57:18.690
+Ningning Wu: And then the class, those two, data and the class, they are not form the cause and effect, relationship. So that's kind of unique to understand.
+
+379
+00:57:19.650 --> 00:57:23.579
+Ningning Wu: I think then the…
+
+380
+00:57:24.790 --> 00:57:32.780
+Ningning Wu: I think the research design consideration, I think here, one of the very important things is about data ethics and privacy.
+
+381
+00:57:33.030 --> 00:57:35.830
+Ningning Wu: Are the central considerations in data science.
+
+382
+00:57:36.070 --> 00:57:47.980
+Ningning Wu: So, for example, research using personal data, like health records, financial records, location data, online behavior data, or even the student's, kind of a transcript, and…
+
+383
+00:57:48.060 --> 00:57:52.710
+Ningning Wu: And those kind of grade reports. Those all consider…
+
+384
+00:57:52.710 --> 00:58:08.769
+Ningning Wu: considering personal information, so then we must comply of the applicable privacy regulations, such as HIPAA for the health data, FORPA for the education records, and CAP California Consumer Privacy Act.
+
+385
+00:58:08.770 --> 00:58:15.180
+Ningning Wu: And then there are also other acts from different states, so we want to make sure that our
+
+386
+00:58:15.380 --> 00:58:28.960
+Ningning Wu: analysis, our… I mean, our access to the data, our analysis to data, really can comply with those regulations and the laws, okay? Another thing that I think is very,
+
+387
+00:58:29.060 --> 00:58:35.719
+Ningning Wu: Related to our studies that we probably need to, apply for the RRB review.
+
+388
+00:58:36.060 --> 00:58:42.690
+Ningning Wu: If our data are collected from or about identifiable individuals.
+
+389
+00:58:42.870 --> 00:58:55.470
+Ningning Wu: For example, I think some of your study may involve the surveys interviews, so then you have to collect data. So for the surveys and interviews, you have to go
+
+390
+00:58:55.640 --> 00:59:02.409
+Ningning Wu: through the IRB review to make sure that you won't… first, I think most likely you don't want to collect
+
+391
+00:59:02.510 --> 00:59:06.640
+Ningning Wu: The personal identifiable information from the participants.
+
+392
+00:59:06.950 --> 00:59:15.239
+Ningning Wu: And you just want to let the, the university know that your data has nothing to do with those,
+
+393
+00:59:15.470 --> 00:59:26.990
+Ningning Wu: identifiable information. And in the case you do collect some information, I don't think they are very confidential data, but you also have to
+
+394
+00:59:27.080 --> 00:59:44.160
+Ningning Wu: kind of provide the ways that how you can secure the data, so you prevent from, unauthorized access to the data you collect, and also when you disseminate data or share the data, how you can
+
+395
+00:59:44.830 --> 00:59:55.640
+Ningning Wu: do the controlled release if there's a need. Okay, so that's kind of things you need to consider in your RBR review process. Another one is that in your research.
+
+396
+00:59:55.840 --> 01:00:10.220
+Ningning Wu: reproducibility and reputability are also very important, means that you have to record all the steps, the key steps you use in your data analysis, in your study, so that future
+
+397
+01:00:10.220 --> 01:00:20.320
+Ningning Wu: the, I mean, future researchers can replicate your, experiment and also achieve the same, conclusions from their study.
+
+398
+01:00:21.470 --> 01:00:29.639
+Ningning Wu: So that's… I think that's the one, I want to, discuss, is about data science project.
+
+399
+01:00:29.760 --> 01:00:37.400
+Ningning Wu: I think another one, because I do think some students ask me about questions about the survey.
+
+400
+01:00:37.820 --> 01:00:42.570
+Ningning Wu: I know that Dr. Pierce, she's a guru for the,
+
+401
+01:00:42.880 --> 01:00:57.849
+Ningning Wu: survey study. Unfortunately, she retired, but I think in this kind of website, they also have one article about the survey research methods, so I want to, give a quick overview of those, this article.
+
+402
+01:00:57.850 --> 01:01:06.989
+Ningning Wu: So that I do know, maybe there are quite a few of our students, their research involves the survey study. I think
+
+403
+01:01:07.040 --> 01:01:08.090
+Ningning Wu: At least.
+
+404
+01:01:08.840 --> 01:01:22.660
+Ningning Wu: 3 of my students, my doctoral students, actually, no, not three, maybe, I think, around 5, 5 of them, actually, working… their research involved SRA, okay, so…
+
+405
+01:01:25.480 --> 01:01:26.530
+Ningning Wu: Let me…
+
+406
+01:01:34.540 --> 01:01:43.310
+Ningning Wu: So, the ZOBI research methods are considered systematic approaches through which researchers design questionnaires.
+
+407
+01:01:43.490 --> 01:01:51.919
+Ningning Wu: Draw samples, collect data from respondents, and analyze the resulting information to describe the characteristics.
+
+408
+01:01:52.350 --> 01:01:57.660
+Ningning Wu: Attitudes, behaviors, and experiences of defined population.
+
+409
+01:01:58.110 --> 01:02:04.529
+Ningning Wu: So, this kind of, I think, this, although it belongs to mainly to the…
+
+410
+01:02:04.780 --> 01:02:08.230
+Ningning Wu: Kind of, political science, behavior science.
+
+411
+01:02:08.350 --> 01:02:11.169
+Ningning Wu: And also, business science, but…
+
+412
+01:02:11.860 --> 01:02:19.910
+Ningning Wu: our students, I think, many of them, they have to rely on the survey to, for example, to analyze the
+
+413
+01:02:20.110 --> 01:02:34.839
+Ningning Wu: organization's readiness for the AI governance, for example. So, that's kind of one example that you may want to conduct survey in order to understand what's the overall readiness in the specific field or industry.
+
+414
+01:02:35.060 --> 01:02:38.159
+Ningning Wu: Regarding to the AI governance.
+
+415
+01:02:42.700 --> 01:02:46.059
+Ningning Wu: So, actually, in the survey study.
+
+416
+01:02:48.400 --> 01:02:54.570
+Ningning Wu: It's among the most widely used research methods in the social and behavioral sciences.
+
+417
+01:02:54.810 --> 01:02:59.219
+Ningning Wu: And also, it's widely used in our field, data science.
+
+418
+01:02:59.870 --> 01:03:11.810
+Ningning Wu: So it's enabling description of the distribution variables across large, sometimes nationally representative population at a relatively low cost, okay?
+
+419
+01:03:12.230 --> 01:03:15.270
+Ningning Wu: So, it actually defined the features.
+
+420
+01:03:15.870 --> 01:03:21.829
+Ningning Wu: It's defining features as standardization means that you're going to ask the same questions
+
+421
+01:03:21.940 --> 01:03:41.899
+Ningning Wu: of all respondents to enable valid comparison and systematic sampling. So I think in our future lectures, we also discuss the sampling. So sampling is very important in a survey study, so it means that, how do you draw the participants? I mean, you're then given the large population.
+
+422
+01:03:42.270 --> 01:03:53.100
+Ningning Wu: How do you draw the meaningful participants? Or how, the participants in your survey will cover, pretty much cover the,
+
+423
+01:03:53.680 --> 01:04:00.520
+Ningning Wu: the majority variety of the population. Okay, so that's kind of things you need to be careful.
+
+424
+01:04:02.310 --> 01:04:10.549
+Ningning Wu: When you draw the participation, in the survey study. Regarding to the core methods in the survey research.
+
+425
+01:04:13.710 --> 01:04:21.879
+Ningning Wu: So the most consequential design decision in survey research concerns what to ask and how to ask it, okay?
+
+426
+01:04:22.510 --> 01:04:28.690
+Ningning Wu: So, then, I think this gave you a very important information, like, Cartrian…
+
+427
+01:04:28.900 --> 01:04:48.259
+Ningning Wu: Wording is not neutral, so it means that if question wording is not neutral, then the subtle differences in phrasing response options and the question order can actually substantially alter the distribution of the responses, and may even bars your responses, so you don't want to do that.
+
+428
+01:04:48.360 --> 01:05:00.019
+Ningning Wu: So, very established principles of question design include… first, you want to use the simple, direct language that respondents will understand without confusion.
+
+429
+01:05:00.170 --> 01:05:06.640
+Ningning Wu: Then asking about one thing at a time means that your question cannot contain multiple,
+
+430
+01:05:06.880 --> 01:05:19.799
+Ningning Wu: one question cannot contain multiple points, so that the user will not… user can only answer one of the points, not all of them, so that's not considered good. Okay.
+
+431
+01:05:21.060 --> 01:05:23.290
+Ningning Wu: Now, you'll…
+
+432
+01:05:23.330 --> 01:05:36.530
+Ningning Wu: have to avoid leading language that can suggest a preferred answer, because I want to be very neutral, then using concrete references, periods of behavioral questions. For example, in the last
+
+433
+01:05:36.530 --> 01:05:46.169
+Ningning Wu: in the last 30 days, rather than yearly, okay? And also, you're going to provide response options that are exhaustive.
+
+434
+01:05:46.430 --> 01:05:54.200
+Ningning Wu: And also mutual exclusive, so kind of avoid any kind of overlapping.
+
+435
+01:05:54.270 --> 01:06:13.559
+Ningning Wu: So that then can affect your, study results. And also, you do the matching the response format to the nature of the variable being married. So if you have variable, like a numerical variable or a qualitative variable, then you're going to have… the response should be responding to the variable type.
+
+436
+01:06:15.390 --> 01:06:23.220
+Ningning Wu: And for the question… questionnaire structure, so the order and organization of questions across a survey.
+
+437
+01:06:23.330 --> 01:06:41.730
+Ningning Wu: also affects data quality, so that's a very important question. At the beginning of the survey, influence how respondents interpret later questions. So that's why the order of the question, it will be very, critical. You need to give a viral, thought before you, when you…
+
+438
+01:06:41.850 --> 01:06:48.369
+Ningning Wu: order the purchase, okay? So, things to avoid is that, like, you want to…
+
+439
+01:06:49.070 --> 01:07:06.439
+Ningning Wu: Avoid asking about a specific instance of behavior before asking about the general attitudes, because if you ask the specific instance at the beginning, then it will affect the respondent's kind of opinion on the general attitudes, okay?
+
+440
+01:07:07.070 --> 01:07:08.750
+Ningning Wu: Then, what house?
+
+441
+01:07:09.300 --> 01:07:14.929
+Ningning Wu: You will not put the sensitive questions early, because it can…
+
+442
+01:07:15.320 --> 01:07:22.389
+Ningning Wu: result, maybe people just gave up. They don't like the question, they don't… they don't do the survey. Okay, you're gonna leave the…
+
+443
+01:07:22.720 --> 01:07:29.539
+Ningning Wu: sensitive question may be at the later of your, survey. Okay, then the standard practice.
+
+444
+01:07:30.420 --> 01:07:46.049
+Ningning Wu: Place sensitive or personal demanding questions later in the survey, and also use gradual transition between topics and separate questions about constructs that should be mirrored independently.
+
+445
+01:07:46.450 --> 01:07:50.820
+Ningning Wu: And also, more important, so it should be as short as possible.
+
+446
+01:07:50.830 --> 01:08:10.560
+Ningning Wu: While covering all necessary content, so when you design your questions, you only put the very important necessary questions. For not that important questions, you probably don't want to put into your sewing, unless you have various drawers away. You can afford to have a couple more questions, okay? Then the sampling methods, so this is also very important.
+
+447
+01:08:10.620 --> 01:08:14.910
+Ningning Wu: So how do you, pick the participants? Okay, sometimes…
+
+448
+01:08:14.990 --> 01:08:24.940
+Ningning Wu: it's pretty hard. If you do the online survey, it may be hard for you to pick, specific participants. You may can pick the participants of
+
+449
+01:08:25.149 --> 01:08:37.099
+Ningning Wu: special or specific background. You kind of can target a specific focus group, or specific, professional, professionals.
+
+450
+01:08:37.100 --> 01:08:47.729
+Ningning Wu: But regarding to which participant you, I mean, you want to recruit, that's a different story. So, for the sampling method, there is a probability,
+
+451
+01:08:47.830 --> 01:09:05.350
+Ningning Wu: sampling. So it means that you're going to draw in samples using random selection procedures, that you will give each member of the target population a non and a non-zero probability of selection. That means everybody can be selected. They have a chance to be selected, okay?
+
+452
+01:09:06.290 --> 01:09:10.510
+Ningning Wu: Then the simple random sampling gave each member
+
+453
+01:09:11.680 --> 01:09:28.129
+Ningning Wu: of the sampling frame, equal probability of selection. So, this is a little bit different from probability sampling. So, from the probability sampling, you may assign a different probability to different groups of participants, for example.
+
+454
+01:09:28.130 --> 01:09:36.900
+Ningning Wu: But the simple random sampling, you pretty much give everyone the same probability to be, drawn from… for the,
+
+455
+01:09:37.229 --> 01:09:39.050
+Ningning Wu: To, to form the sample.
+
+456
+01:09:39.819 --> 01:09:43.359
+Ningning Wu: Then, we also have systematic random sampling.
+
+457
+01:09:43.670 --> 01:10:01.720
+Ningning Wu: So it's… you select every case member of the sampling frame. So, pretty much you… first, you pretty much just random order the participants, then you just select, like, every 10 members, for example, or every 100 members, if you have a lot of, people.
+
+458
+01:10:01.860 --> 01:10:11.080
+Ningning Wu: Stratified random sampling, you first divides the sampling frame into mutually exclusive groups, okay? Then you…
+
+459
+01:10:11.820 --> 01:10:14.389
+Ningning Wu: Conduct sampling for… from each group.
+
+460
+01:10:14.740 --> 01:10:32.750
+Ningning Wu: Or from the groups you're interested in, okay? Then the clustering sampling, you select the groups first, like households, schools, geographic areas, and then you survey all, or just a random sample of the members within the selected clusters.
+
+461
+01:10:32.880 --> 01:10:40.430
+Ningning Wu: Okay, so that's another, sampling method. And the last one is multi-stage sampling.
+
+462
+01:10:40.710 --> 01:10:47.230
+Ningning Wu: So it's combined the cluster selection at higher levels with random sampling at lower levels.
+
+463
+01:10:47.390 --> 01:10:50.080
+Ningning Wu: So, that's kind of same thing, you first.
+
+464
+01:10:50.360 --> 01:10:55.239
+Ningning Wu: Do the cluster sampling, and then for each cluster, you may do the random sampling.
+
+465
+01:10:55.380 --> 01:10:56.330
+Ningning Wu: Okay.
+
+466
+01:10:56.750 --> 01:11:04.570
+Ningning Wu: So, for the non-probability samples, so just also consider as convening samples, or volunteer samples, or…
+
+467
+01:11:05.000 --> 01:11:09.749
+Ningning Wu: opt-in online panels. You do not use random selection.
+
+468
+01:11:10.160 --> 01:11:18.169
+Ningning Wu: And you do not support inference about the defined population, because you do not random sampling. So whatever you select.
+
+469
+01:11:18.340 --> 01:11:25.149
+Ningning Wu: The groups you select may not reflect the property of the whole, population.
+
+470
+01:11:27.800 --> 01:11:41.749
+Ningning Wu: So those, non-probability sampling, they are appropriate for the exploratory research, cognitive testing, and within-sample hypothesis testing. Okay, so we're gonna, I think, discuss some of them later.
+
+471
+01:11:42.650 --> 01:11:47.330
+Ningning Wu: Then for the survey administration mode, so now you can have the…
+
+472
+01:11:47.640 --> 01:11:52.549
+Ningning Wu: I think this mode's also kind of, important. It can potentially…
+
+473
+01:11:53.010 --> 01:12:07.979
+Ningning Wu: affect your response rates, data quality, and the types of data that can be collected. So I think right now, majority surveys we have seen so far from our students are the online surveys.
+
+474
+01:12:08.590 --> 01:12:15.870
+Ningning Wu: So the… administered via the web link, Google Forms, email invitation, and so on. So…
+
+475
+01:12:16.150 --> 01:12:28.649
+Ningning Wu: So, if you do the online surveys, probably you won't be able to do any probability sampling, so you just send an invitation, encourage the people to take the survey, but you have no control who is going to
+
+476
+01:12:28.650 --> 01:12:38.500
+Ningning Wu: take the survey, okay? So it's considered at the fastest, cheapest mode, and enables the most flexibility in question formats, okay?
+
+477
+01:12:38.900 --> 01:12:57.920
+Ningning Wu: So their primary limitation is sampling, so… but really, I mean, even the online surveys, I mean, we cannot control who can be drawn in the survey, but still, I think it has been widely used for certain tasks that, for example, if we…
+
+478
+01:12:58.320 --> 01:13:14.020
+Ningning Wu: trying to survey the students, like, the college students, or the high school students, so we assume that if, like, high school students, like, 9th grade, they… those students share some, similar course load, okay? Similar lifestyle.
+
+479
+01:13:14.020 --> 01:13:24.469
+Ningning Wu: and similar kind of, activities and interests. So in this case, online survey really, I mean, will not, have much impact.
+
+480
+01:13:24.470 --> 01:13:34.169
+Ningning Wu: on the bars, so pretty much we assume that these groups have similar characteristics, personality, lifestyle, and the course they are taking. So then.
+
+481
+01:13:34.670 --> 01:13:44.909
+Ningning Wu: If it's used online survey, so as long as we have enough number of students participate in the survey, we… we usually assume that we're able to
+
+482
+01:13:44.910 --> 01:13:56.169
+Ningning Wu: From the survey, we're probably able to collect or, draw the… some significant characteristics about the current students, their life.
+
+483
+01:13:56.440 --> 01:14:06.310
+Ningning Wu: For example, their, their course load, their, progress, academic progress, or their nutrition, taking, and so on.
+
+484
+01:14:07.860 --> 01:14:13.129
+Ningning Wu: The second one is the telephone survey, so I think telephone surveys, you have to…
+
+485
+01:14:13.400 --> 01:14:19.930
+Ningning Wu: The majority, practice of the telephone service will use random digit dialing.
+
+486
+01:14:20.390 --> 01:14:25.280
+Ningning Wu: In order to reach a probability sample of the telephone yielders.
+
+487
+01:14:25.410 --> 01:14:31.660
+Ningning Wu: So right now, I think land phone is no longer popular, so the cell phone,
+
+488
+01:14:31.930 --> 01:14:36.150
+Ningning Wu: I think the main kind of telephones used by the current
+
+489
+01:14:36.250 --> 01:14:49.019
+Ningning Wu: better nowadays. So I'm not sure if the telephone surveys will be, I mean, they're still useful. For example, if you want to interview or survey, like, the…
+
+490
+01:14:49.190 --> 01:14:55.579
+Ningning Wu: Maybe the non-profit organizations, like the… Maybe chief data officers?
+
+491
+01:14:55.730 --> 01:15:09.309
+Ningning Wu: to study the problems that they encounter the most nowadays, then the telephone service still probably, I mean, it's still kind of, feasible, means that you have the set of contacts that you want to
+
+492
+01:15:10.100 --> 01:15:17.470
+Ningning Wu: Talk them directly over the phone to collect their, you know, their opinions, about a specific topic.
+
+493
+01:15:18.840 --> 01:15:33.530
+Ningning Wu: Then, for the cognitive interview and the pre-testing. So, pre-testing is actually administer a survey to a small group before the main data collection. So, I haven't seen any, of…
+
+494
+01:15:33.610 --> 01:15:49.189
+Ningning Wu: our past students using pre-testing, but I think sometimes pre-testing might be good in the sense that you do a, kind of bearable or feasible survey on a small amount of people, and then based on survey.
+
+495
+01:15:49.230 --> 01:15:58.030
+Ningning Wu: Then you understand, maybe you have a preview of the potential, directions, or potential questions, potential problems in the field.
+
+496
+01:15:58.120 --> 01:15:59.479
+Ningning Wu: Then you can…
+
+497
+01:16:00.500 --> 01:16:08.820
+Ningning Wu: Probably define a much better survey that you can send target for a larger, group of, people.
+
+498
+01:16:09.360 --> 01:16:28.019
+Ningning Wu: The cognitive interviews ask respondents to think aloud while completing the survey, verbally describing their thought process as they interpret each question and select a response. So this will reveal that whether your questions are interpreted as intended.
+
+499
+01:16:28.050 --> 01:16:40.079
+Ningning Wu: Whether response options are understood by the participant, or whether reference's peers are appropriate, and whether any item caused confusion or distrust.
+
+500
+01:16:40.240 --> 01:16:54.180
+Ningning Wu: So, the cognitive interviews with between 5 to 10 respondents will draw from the target population can identify the most serious problems in the survey instrument before you're going to finalize.
+
+501
+01:16:54.260 --> 01:17:03.050
+Ningning Wu: and probably finalize your final survey. So I think these two, methods really can help you to refine
+
+502
+01:17:03.240 --> 01:17:05.729
+Ningning Wu: You're so away. And…
+
+503
+01:17:06.050 --> 01:17:20.929
+Ningning Wu: hopefully you can have a much better survey and won't make any mistake. You're not aware of that in the first round. So in the final round, you have much better quality survey, so you can able to… you're able to
+
+504
+01:17:21.210 --> 01:17:25.560
+Ningning Wu: Collect the information of paintings as you want, okay?
+
+505
+01:17:25.850 --> 01:17:36.980
+Ningning Wu: So, also, you can use expert review by colleagues to examine your survey, to help you to point out any potential improvements, room for the improvement.
+
+506
+01:17:37.150 --> 01:17:41.520
+Ningning Wu: That's another possibility for you to pray.
+
+507
+01:17:41.640 --> 01:17:48.130
+Ningning Wu: How to pre-evaluate your survey before you, put onto the… I mean.
+
+508
+01:17:48.250 --> 01:17:51.500
+Ningning Wu: In the final round, put onto the platform.
+
+509
+01:17:51.900 --> 01:17:57.590
+Ningning Wu: Regarding to the survey data analysis, So…
+
+510
+01:17:57.950 --> 01:18:03.949
+Ningning Wu: You can have several, different methods, depending on the data you analysis.
+
+511
+01:18:04.110 --> 01:18:15.010
+Ningning Wu: So you can either examine the distribution of each variable, like frequency and the percentage for categorical variables, means, and the standard deviation for continuous variable.
+
+512
+01:18:15.750 --> 01:18:21.189
+Ningning Wu: And also, you can assess response rates and the patterns of item.
+
+513
+01:18:21.600 --> 01:18:39.980
+Ningning Wu: Non-response, okay. You can also use cross-tabulation to explaining how categorical outcomes are distributed across levels of categorical predictors. So, this can also help you to understand the surveyors, and also can
+
+514
+01:18:40.430 --> 01:18:43.969
+Ningning Wu: Understand the different opinions.
+
+515
+01:18:44.100 --> 01:18:45.719
+Ningning Wu: For the same problem.
+
+516
+01:18:47.160 --> 01:19:02.880
+Ningning Wu: And you can also use chi-square to assess statistical significance across tabular associations. So this T-square, if you have tabular association, you're going to use T-square to analyze if those
+
+517
+01:19:03.030 --> 01:19:10.559
+Ningning Wu: Wearables, correlated or independent, so that's what chi-square is used for.
+
+518
+01:19:10.760 --> 01:19:15.690
+Ningning Wu: And also, you can use t-tests and NOA compare means across groups.
+
+519
+01:19:15.890 --> 01:19:25.180
+Ningning Wu: You can also use multi-word analysis to examine the relationship between a focal predictor and outcome.
+
+520
+01:19:25.340 --> 01:19:30.759
+Ningning Wu: are controlling the potential confounders, so you can… so in this case, you can use the…
+
+521
+01:19:30.870 --> 01:19:38.750
+Ningning Wu: Linear regression, and multivariable regression, and so on, to analyze the data.
+
+522
+01:19:39.050 --> 01:19:41.700
+Ningning Wu: The different variables and their relationship.
+
+523
+01:19:41.800 --> 01:19:48.010
+Ningning Wu: Okay, then regarding to the web and the mobile survey, best practice, okay?
+
+524
+01:19:48.480 --> 01:19:53.369
+Ningning Wu: So… I think the mobile and the web is the way.
+
+525
+01:19:53.470 --> 01:20:01.469
+Ningning Wu: nowadays consider the majority format for the survey, okay? Then what you need to do is that
+
+526
+01:20:01.930 --> 01:20:10.399
+Ningning Wu: You're going to ensure that the survey display is played correctly and are easy to complete on smartphones, so you're going to do the test, okay?
+
+527
+01:20:11.340 --> 01:20:20.549
+Ningning Wu: And also, as majority of the online survey completions now occur on mobile devices, so that's a reason you have to test that.
+
+528
+01:20:20.740 --> 01:20:22.600
+Ningning Wu: Then the lung syrase.
+
+529
+01:20:23.020 --> 01:20:27.170
+Ningning Wu: These complex cartridge formats have much
+
+530
+01:20:27.610 --> 01:20:42.280
+Ningning Wu: higher in completion rates. So unfortunately, I think for you, if you are doing your dissertation research using surveys, so unfortunately, your only surveys that complete all the questions are considered valid.
+
+531
+01:20:42.460 --> 01:20:47.630
+Ningning Wu: So you may have, for example, 100, surveys returned to you.
+
+532
+01:20:47.750 --> 01:20:52.970
+Ningning Wu: And surely, if you can get half of them completed, then you are lucky.
+
+533
+01:20:53.150 --> 01:21:06.620
+Ningning Wu: So that's why you want to design a survey that can encourage the participants to finish the survey, okay? But there are a lot of hurdles prevent them from, complete surveys.
+
+534
+01:21:06.980 --> 01:21:14.109
+Ningning Wu: So that's why you have to be careful to study how you can encourage the completion, or improve the completion rate.
+
+535
+01:21:16.110 --> 01:21:24.160
+Ningning Wu: For example, the video analog skills, grid questions, and open-ended text boxes are a particular prompt
+
+536
+01:21:24.280 --> 01:21:27.950
+Ningning Wu: Problem… I'm sorry, I think… problematic.
+
+537
+01:21:28.120 --> 01:21:30.979
+Ningning Wu: Mobile and should be minimized.
+
+538
+01:21:31.090 --> 01:21:42.799
+Ningning Wu: or replace with mobile-friendly alternatives. And also, survey lens is the strongest predictor of response rates and data quality, so you want to…
+
+539
+01:21:43.010 --> 01:21:47.090
+Ningning Wu: have KPO survey as simple as short as possible, okay?
+
+540
+01:21:49.230 --> 01:21:51.910
+Ningning Wu: Then the choosing survey research methods.
+
+541
+01:21:55.420 --> 01:21:56.760
+Ningning Wu: That's what I'm missing.
+
+542
+01:21:59.940 --> 01:22:05.649
+Ningning Wu: So, this discuss when the survey is appropriate, when not appropriate, okay?
+
+543
+01:22:05.920 --> 01:22:07.989
+Ningning Wu: So, survey appropriate.
+
+544
+01:22:08.250 --> 01:22:15.960
+Ningning Wu: One, the research goal is to, what, describe the distribution variables in a defined population?
+
+545
+01:22:16.620 --> 01:22:30.749
+Ningning Wu: And examine associations among variables across large sample, and… or to test specific hypotheses about relationship that can be optionalized through survey measurements, okay?
+
+546
+01:22:31.400 --> 01:22:39.759
+Ningning Wu: Then… The surveys are less appropriate for questions that require causal identification.
+
+547
+01:22:41.580 --> 01:22:46.939
+Ningning Wu: And for understanding, Lived experience and meaning.
+
+548
+01:22:47.150 --> 01:22:50.610
+Ningning Wu: Or for studying the rare event, or how to…
+
+549
+01:22:51.030 --> 01:22:54.960
+Ningning Wu: Rich populations, so those are not good for the surveys.
+
+550
+01:22:56.000 --> 01:23:09.660
+Ningning Wu: So, regarding the choice among survey modes, I think most likely, I think you'll probably go with online, so it's convenient. It's cheap, okay? And, very rare, probably using mail and in-person.
+
+551
+01:23:10.270 --> 01:23:17.639
+Ningning Wu: So, research design consideration. Let me see what I think the most important thing, response rate.
+
+552
+01:23:17.790 --> 01:23:33.949
+Ningning Wu: So I think for, at least for what I have seen in the past, student surveying, I think response rate might not be that critical, but the number of the response is critical, because you don't, you don't want to have only maybe
+
+553
+01:23:34.610 --> 01:23:42.009
+Ningning Wu: 10 or 20 people, I mean, respond to your survey. So usually, the more the better. I think maybe…
+
+554
+01:23:42.640 --> 01:23:59.439
+Ningning Wu: It's hard to reach, kind of, 100 participants, but if you can reach 100 participants, that will be super. But really, I think we are looking like you have maybe between 50 to 60, 15 to 70, this kind of minimum, because
+
+555
+01:23:59.570 --> 01:24:06.630
+Ningning Wu: If you have a small number of the people respond to you, then whatever
+
+556
+01:24:06.930 --> 01:24:25.420
+Ningning Wu: Results, analysis results from the survey may not be convincing, because the people will doubt whatever you discover from your survey will represent the whole population's opinion, or their standing to the, in the, in the problem.
+
+557
+01:24:25.450 --> 01:24:30.760
+Ningning Wu: So that's why you try to get as many response as possible, so…
+
+558
+01:24:30.920 --> 01:24:35.630
+Ningning Wu: The response rate is really not a big deal, but the number of the response
+
+559
+01:24:35.850 --> 01:24:48.850
+Ningning Wu: I think it's pretty important. And also IRB approval, so if you plan a survey, you have to go through the IRB process to get approval, so that's very important.
+
+560
+01:24:50.550 --> 01:24:56.429
+Ningning Wu: Regarding to those research guides, I think there's some kind of frequent asked question, like.
+
+561
+01:24:56.740 --> 01:25:09.089
+Ningning Wu: what is the differences between a probability sample and a non-probability sample? So, we discussed that already. So, probability sample ensure that you can have a, more, a good
+
+562
+01:25:09.490 --> 01:25:21.920
+Ningning Wu: a sample that can represent or reflect the population characteristic. Non-probability sample usually will not guarantee, because whatever you get is not considered
+
+563
+01:25:22.330 --> 01:25:30.229
+Ningning Wu: a good fit to represent the population characteristic. The non-probability samples
+
+564
+01:25:30.330 --> 01:25:34.800
+Ningning Wu: I mean, have their own yieldage, so that's kind of… you need to be aware of that.
+
+565
+01:25:35.420 --> 01:25:37.129
+Ningning Wu: North House, I think.
+
+566
+01:25:38.930 --> 01:25:40.610
+Ningning Wu: I want to discuss.
+
+567
+01:25:40.780 --> 01:25:47.880
+Ningning Wu: So I think there's nothing… there's another… another one that's very important. How long should a survey be, okay?
+
+568
+01:25:48.020 --> 01:25:53.700
+Ningning Wu: So, survey, very important, should be as short as possible, okay, while covering all.
+
+569
+01:25:53.940 --> 01:26:11.359
+Ningning Wu: wearables necessary to address research questions. So it's also discussed that as a rough guide, surveys completed in under 5 minutes have minimal impact on response rates. Those taken between 10 to 15 minutes show moderate effects, and those take
+
+570
+01:26:11.660 --> 01:26:23.249
+Ningning Wu: more than 20 minutes substantially reduce response rates and the data quality. So that's kind of important when you design your survey questions. You have to assess how long it will
+
+571
+01:26:23.530 --> 01:26:27.000
+Ningning Wu: need to finish the survey questions, okay?
+
+572
+01:26:27.720 --> 01:26:30.330
+Ningning Wu: I think that's pretty much about the Soviet questions.
+
+573
+01:26:30.460 --> 01:26:31.740
+Ningning Wu: Any questions?
+
+574
+01:26:36.190 --> 01:26:45.420
+Ningning Wu: So, if no, I think I want to take, kind of, 10 minutes a break, then we can quickly go over, I think, remaining. We don't have much…
+
+575
+01:26:45.680 --> 01:26:46.710
+Ningning Wu: Oh.
+
+576
+01:26:46.930 --> 01:26:50.040
+Ningning Wu: to discuss, because I think those,
+
+577
+01:26:50.200 --> 01:26:58.909
+Ningning Wu: Majority of the recent methods, we have already seen them, so we just briefly, go over the remaining class materials.
+
+578
+01:26:59.470 --> 01:27:08.090
+Ningning Wu: So, let's take a 10-minute break, and let's meet at about the 7.40, okay?
+
+579
+01:27:08.690 --> 01:27:11.959
+Lucia Izevbigie: Dr. Wu, I sent you a message.
+
+580
+01:27:13.200 --> 01:27:13.630
+Ningning Wu: Yes.
+
+581
+01:27:13.630 --> 01:27:14.680
+Lucia Izevbigie: Let's a bit.
+
+582
+01:27:15.580 --> 01:27:18.370
+Ningning Wu: So, regarding to the assignments grading?
+
+583
+01:27:18.660 --> 01:27:19.870
+Lucia Izevbigie: Yes.
+
+584
+01:27:20.060 --> 01:27:28.169
+Ningning Wu: Oh, great. So, so I think we do have a GA, so unfortunately, he just reported today to me.
+
+585
+01:27:28.380 --> 01:27:32.159
+Ningning Wu: So, I think I'm going to… I…
+
+586
+01:27:32.390 --> 01:27:40.389
+Ningning Wu: graded assignment number one. I'm trying to finish grading assignment number 2, hopefully by today, after class.
+
+587
+01:27:40.580 --> 01:27:46.480
+Ningning Wu: Then the assignment number 3 and the… and beyond will be,
+
+588
+01:27:46.790 --> 01:27:54.490
+Ningning Wu: will be graded by the… our, teaching assistant. So… Yeah, so, yeah, I think…
+
+589
+01:27:54.670 --> 01:28:03.970
+Ningning Wu: The first two assignments, definitely, I will be all graded, and then I think the… then the last assignment about the research proposal, I think we,
+
+590
+01:28:04.080 --> 01:28:06.570
+Ningning Wu: me and a doctor, Dak Tash.
+
+591
+01:28:06.710 --> 01:28:13.520
+Ningning Wu: We both will grade those last assignments, not last summer summits, and then last… our work.
+
+592
+01:28:14.170 --> 01:28:19.949
+Ningning Wu: Like, homework, in this class. So you're going to submit, kind of proposal.
+
+593
+01:28:20.180 --> 01:28:21.250
+Ningning Wu: So…
+
+594
+01:28:21.590 --> 01:28:29.790
+Ningning Wu: But anyway, so I know that sometimes, you may have questions regarding to your grade, if you dispute with your grades.
+
+595
+01:28:30.240 --> 01:28:43.450
+Ningning Wu: And, then just let us know. So, I know the GA, sometimes they may, I mean, they may not be that experienced for how to give the grade. So, if you have questions regarding to your grade.
+
+596
+01:28:43.600 --> 01:28:50.949
+Ningning Wu: From the… Assignment number 3 and beyond, just feel free to ask.
+
+597
+01:28:51.220 --> 01:28:57.299
+Ningning Wu: Or to let us know, okay? So we can review the GS grading, if there's a need.
+
+598
+01:28:58.300 --> 01:28:59.390
+Lucia Izevbigie: Okay, thank you.
+
+599
+01:29:00.100 --> 01:29:03.689
+Ningning Wu: Okay, great, so let's meet at 10.40.
+
+600
+01:29:04.150 --> 01:29:06.309
+Ningning Wu: To finish the remaining materials.
+
+601
+01:39:23.900 --> 01:39:25.080
+Lucia Izevbigie: Who's rice, right?
+
+602
+01:39:28.110 --> 01:39:37.440
+Lucia Izevbigie: Now, it's not quite long. Write it long ago, Sharon's fault, bro. I read that too.
+
+603
+01:39:39.820 --> 01:39:41.620
+Ningning Wu: Okay, welcome back!
+
+604
+01:39:41.790 --> 01:39:44.480
+Ningning Wu: So, yeah, we're going to,
+
+605
+01:39:44.690 --> 01:39:46.940
+Ningning Wu: finished remaining, I think the mood…
+
+606
+01:39:47.190 --> 01:39:53.309
+Ningning Wu: We kind of finished the majority of the most important topic, so then the remaining one.
+
+607
+01:39:53.500 --> 01:39:54.060
+Lucia Izevbigie: Is…
+
+608
+01:39:54.060 --> 01:40:00.899
+Ningning Wu: about the… I think these kind of basic research strategies for social…
+
+609
+01:40:01.420 --> 01:40:08.540
+Ningning Wu: sciences. So, I think if you look at the research strategy fundamentals, they're pretty much the similar, so…
+
+610
+01:40:09.200 --> 01:40:18.279
+Ningning Wu: You have the developer topic, Write what you bought, know about the topic, and then ask yourself questions then.
+
+611
+01:40:18.760 --> 01:40:24.520
+Ningning Wu: from those questions, develop the keywords, search the things. Then regarding to the… and then…
+
+612
+01:40:24.630 --> 01:40:28.820
+Ningning Wu: Pro… pretty much formulate your problems, and…
+
+613
+01:40:28.930 --> 01:40:32.040
+Ningning Wu: Write about the, your research work.
+
+614
+01:40:32.630 --> 01:40:35.160
+Ningning Wu: So, for the research methods.
+
+615
+01:40:38.690 --> 01:40:46.540
+Ningning Wu: That's kind of the… It's talking about the different quantitative methods and the qualitative methods.
+
+616
+01:40:46.780 --> 01:40:51.800
+Ningning Wu: So, those kind of the, it also gave you some links regarding
+
+617
+01:40:51.980 --> 01:41:02.210
+Ningning Wu: different methods if you want to learn more. If I skate more, then you can, go to those links to study more. So this is about social science.
+
+618
+01:41:02.690 --> 01:41:06.900
+Ningning Wu: Then, biopsychology, I think that's very similar to what we have
+
+619
+01:41:07.100 --> 01:41:10.459
+Ningning Wu: We have viewed, so far, so…
+
+620
+01:41:10.670 --> 01:41:15.629
+Ningning Wu: This article is about the research methods in the psychology field.
+
+621
+01:41:16.150 --> 01:41:21.019
+Ningning Wu: Sorry, let me just… I don't know how can I?
+
+622
+01:41:22.200 --> 01:41:23.130
+Ningning Wu: Tough.
+
+623
+01:41:23.500 --> 01:41:25.150
+Ningning Wu: Oh, maybe not.
+
+624
+01:41:25.510 --> 01:41:40.370
+Ningning Wu: So, it's talking about CARO or experimental research, so it's already discussed, what is the CARO. So, this type of research determines if one variable causes another to occur or change, so that's…
+
+625
+01:41:40.600 --> 01:41:43.870
+Ningning Wu: these causes is very important. That's kind of the…
+
+626
+01:41:44.880 --> 01:41:49.800
+Ningning Wu: casual relationship. So, for the general correlation, that means
+
+627
+01:41:50.190 --> 01:41:56.789
+Ningning Wu: the chance of one variable will relate to the chance to another variable. Okay, so that's kind of the differences between the two.
+
+628
+01:41:59.180 --> 01:42:19.119
+Ningning Wu: And then descriptive research, we have already, discussed that. So, for the psychology field, they may… they may use… utilize case study, naturalistic observation, survey and questionnaires, and archival research to perform descriptive research, okay?
+
+629
+01:42:19.550 --> 01:42:32.499
+Ningning Wu: So, I think naturalistic observations simply observe a subject in a natural environment. For example, the psychologist may study, how the
+
+630
+01:42:32.540 --> 01:42:42.910
+Ningning Wu: kind of how the, toddlers develop the relationship with other toddlers if they just simply go to the kindergarten. I mean, the…
+
+631
+01:42:44.570 --> 01:42:47.189
+Ningning Wu: kind of, yeah, kindergarten to observe.
+
+632
+01:42:47.760 --> 01:42:52.499
+Ningning Wu: Observe the kids behave, in order to understand
+
+633
+01:42:52.660 --> 01:43:01.629
+Ningning Wu: Maybe the kids, how the kids of different personalities, introvert, extrovert, to develop the, relationship with other, kids.
+
+634
+01:43:02.860 --> 01:43:11.820
+Ningning Wu: So, that's called observational. Then the relational or correlation research is pretty much analyzed relationship between two variables and two…
+
+635
+01:43:12.150 --> 01:43:15.010
+Ningning Wu: Maybe the exporter or outcome.
+
+636
+01:43:15.540 --> 01:43:30.839
+Ningning Wu: then it's… I think this can pretty much really briefly discuss the differences between a theory and hypothesis. So a theory is considered very established principles, so everybody believes and I trust it. Okay, it has been developed.
+
+637
+01:43:30.970 --> 01:43:35.139
+Ningning Wu: To explain some aspects of the natural world.
+
+638
+01:43:35.670 --> 01:43:48.810
+Ningning Wu: So, a theory actually arises from repeated observation and testing, and incorporates facts, laws, predictions, and tested hypotheses that are widely accepted.
+
+639
+01:43:49.010 --> 01:43:57.389
+Ningning Wu: Hypothesis, on the other hand, I think, is considered as an educated guess, so it's kind of just,
+
+640
+01:43:57.630 --> 01:44:04.250
+Ningning Wu: This will just represent what a… A researcher kind of,
+
+641
+01:44:04.670 --> 01:44:12.140
+Ningning Wu: Guess about a specific, phenomenon, about a specific characteristics of events.
+
+642
+01:44:12.600 --> 01:44:25.739
+Ningning Wu: I think that's pretty much… and then it's regarding to the time dimensions in psychology research, it's pretty much similar to what we discussed, like a forward direction research and a backward direction research. So here we have
+
+643
+01:44:26.250 --> 01:44:31.130
+Ningning Wu: Cross-sectional research, so that takes place at a single point in time.
+
+644
+01:44:31.480 --> 01:44:37.889
+Ningning Wu: And we also had longitudinal research. I think… I have seen a lot of, our students
+
+645
+01:44:38.030 --> 01:44:51.200
+Ningning Wu: their research, I mean, can be considered as longitudinal research, means that their study will spend a pretty long time, so they kind of, I think longitudinal research mainly used to
+
+646
+01:44:51.280 --> 01:45:04.570
+Ningning Wu: discover the trend, or the changes of people's behavior, organization's behavior, or organization's strategy over time. Okay, so that's regarding the longitudinal research.
+
+647
+01:45:05.180 --> 01:45:15.150
+Ningning Wu: Then, final is causation. So one variable calls another, that's caudation. And correlation, relationship between two variables. So regarding to the relationship.
+
+648
+01:45:15.160 --> 01:45:26.190
+Ningning Wu: If we really, analyze the relationship of two variables, then it can be the two are independent, or two are related. Then if the two are related, they can
+
+649
+01:45:26.190 --> 01:45:35.960
+Ningning Wu: form the positive correlation or negative correlation. So, positive correlation means if one increase, the other increase, for example. The negative correlation means that
+
+650
+01:45:35.960 --> 01:45:53.790
+Ningning Wu: If one variable decreases, the value decreased, other variable, the value will increase. So this kind of a correlation analysis, I think one useful tool is that we can use some correlation coefficient to calculate the correlation between two variables, or we can simply
+
+651
+01:45:53.860 --> 01:46:05.350
+Ningning Wu: draw or produce a scatter plot to visually display how the two variables are related, okay? So that's pretty much for the psychology research method.
+
+652
+01:46:06.430 --> 01:46:11.750
+Ningning Wu: And then, regarding to the… Business.
+
+653
+01:46:12.250 --> 01:46:26.259
+Ningning Wu: So, for the business, I think it's also similar. So, this article discussed the business research methods. So, it's actually partitioned the business research into two groups.
+
+654
+01:46:27.540 --> 01:46:30.799
+Ningning Wu: Let me see, where can I?
+
+655
+01:46:32.020 --> 01:46:41.369
+Ningning Wu: Okay, so… Once a qualitative research methods that involves interviews, focus groups.
+
+656
+01:46:41.750 --> 01:46:47.090
+Ningning Wu: Observational studies, ethnographic research.
+
+657
+01:46:47.570 --> 01:47:01.269
+Ningning Wu: So this ethnographic research basically means that it is considered as an immersive design of research, where one observes people's behavior in their natural environment.
+
+658
+01:47:01.900 --> 01:47:07.590
+Ningning Wu: And case study research. Then for the quantitative research methods, I mean the
+
+659
+01:47:07.950 --> 01:47:15.020
+Ningning Wu: They may do the survey, and then they can do the survey data analysis using quantitative methods.
+
+660
+01:47:15.560 --> 01:47:17.420
+Ningning Wu: And coordination research.
+
+661
+01:47:17.720 --> 01:47:22.639
+Ningning Wu: and experimental research. I think that's pretty much about business research.
+
+662
+01:47:23.620 --> 01:47:33.349
+Ningning Wu: Then, the next one is about the marketing. So, also, for the marketing research, it simply discuss different types of the research studies.
+
+663
+01:47:34.030 --> 01:47:41.780
+Ningning Wu: Things include, like, brand, Research study, so it's mainly… study.
+
+664
+01:47:42.310 --> 01:47:43.960
+Ningning Wu: some kind of,
+
+665
+01:47:44.500 --> 01:47:56.089
+Ningning Wu: Some metrics related to the brand, such as brand awareness and recall, brand image, brand positioning, brand performance, brand trust, and brand loyalty.
+
+666
+01:47:56.260 --> 01:48:16.359
+Ningning Wu: And then about consumer insights research, I think this is mainly trying to understand their consumers, their lifestyle, their spending patterns, their socioeconomic status. I think so that they can properly identify the future markets, or they can identify the best products that fit for each customer.
+
+667
+01:48:16.900 --> 01:48:28.749
+Ningning Wu: Then customer satisfaction research, okay, simply analyze how satisfied the customer about their products or services. Then the product service research.
+
+668
+01:48:29.550 --> 01:48:34.419
+Ningning Wu: I think this is kind of, also, analyze the customer's
+
+669
+01:48:34.720 --> 01:48:41.629
+Ningning Wu: Feedback, so that they can evaluate whether the product and the service really,
+
+670
+01:48:42.400 --> 01:48:48.189
+Ningning Wu: reach the goals, their designing goals, okay, or their, the purpose, and also…
+
+671
+01:48:48.360 --> 01:48:59.969
+Ningning Wu: We provide the good service products to their customers. Then competitor research, so they need to know their competitors better, so that they can stay advanced… I mean, stay…
+
+672
+01:49:00.140 --> 01:49:06.629
+Ningning Wu: Kind of a, current, or stay, advance in their, in the market.
+
+673
+01:49:08.220 --> 01:49:09.380
+Ningning Wu: And…
+
+674
+01:49:09.460 --> 01:49:28.440
+Ningning Wu: segmentation research, I think market segmentation, so we try and, I mean, given one customer, I mean, one market, they're probably able to inform, or predict, or relate to another market. So that's kind of segmentation research, advertising research to evaluate
+
+675
+01:49:28.600 --> 01:49:31.970
+Ningning Wu: How they're advertising, practice.
+
+676
+01:49:32.390 --> 01:49:35.169
+Ningning Wu: effective or not.
+
+677
+01:49:35.890 --> 01:49:41.240
+Ningning Wu: And the usability testing about their products, and so on. So, and also…
+
+678
+01:49:41.400 --> 01:49:44.959
+Ningning Wu: We kind of collect the, customer's feedback.
+
+679
+01:49:45.650 --> 01:49:50.099
+Ningning Wu: So that's pretty much about the market research.
+
+680
+01:49:50.720 --> 01:49:54.449
+Ningning Wu: Then, I think the last thing I want to,
+
+681
+01:49:56.580 --> 01:50:06.070
+Ningning Wu: I want to discuss is actually a slide, made by Dr. Pierce, The past chair of the…
+
+682
+01:50:06.410 --> 01:50:08.750
+Ningning Wu: the Information Science Department.
+
+683
+01:50:09.140 --> 01:50:14.239
+Ningning Wu: So I think this just gave you a very nice, I may be able to download here.
+
+684
+01:50:16.030 --> 01:50:18.610
+Ningning Wu: So that we can open that.
+
+685
+01:50:28.200 --> 01:50:32.390
+Ningning Wu: Okay, so… Sorry, grab it.
+
+686
+01:50:32.500 --> 01:50:33.330
+Ningning Wu: Okay.
+
+687
+01:50:34.160 --> 01:50:41.820
+Ningning Wu: So, it actually has some good information, I think, you can… for you to… Sing about…
+
+688
+01:50:41.920 --> 01:50:55.190
+Ningning Wu: what you need to finish your dissertation. The first one, like, how long it will take to write a dissertation, I think it depends. So, minimal, I think, should be 12 months, but the first one, I think it should be…
+
+689
+01:50:55.410 --> 01:51:03.380
+Ningning Wu: A good dissertation should last between 2 to 3 years, okay, after you finish your, your…
+
+690
+01:51:03.920 --> 01:51:19.389
+Ningning Wu: finish your, coursework, or even longer. So, 12 and 18, I think those are considered pretty short, so really depending on your advisor's, kind of,
+
+691
+01:51:19.960 --> 01:51:38.160
+Ningning Wu: demand, and also the school's standard, okay? Then, regarding how many hours of work are involved with writing a dissertation, roughly about 2,000 hours, how many pages? So, I would say probably roughly around 200 pages. So, 100 pages might be too…
+
+692
+01:51:38.370 --> 01:51:48.030
+Ningning Wu: If you consider including the, references maybe too short, okay? And a lot of times, you also go to the double space.
+
+693
+01:51:48.420 --> 01:51:52.059
+Ningning Wu: So… but anyway, I stink,
+
+694
+01:51:52.840 --> 01:52:04.609
+Ningning Wu: When you write a dissertation, this dissertation will come with you for your lifetime, so you may want to share with your, maybe your future, employers.
+
+695
+01:52:04.950 --> 01:52:10.479
+Ningning Wu: And maybe with your family members, so I think that's really considered as one of the
+
+696
+01:52:10.850 --> 01:52:12.440
+Ningning Wu: One of the biggest work.
+
+697
+01:52:12.560 --> 01:52:17.430
+Ningning Wu: You have done, and also the milestone you have achieved.
+
+698
+01:52:17.470 --> 01:52:29.910
+Ningning Wu: So I really want you to pay more attention regarding to format contents of your dissertation, so that in the future, you'll always be proud to show your dissertation.
+
+699
+01:52:29.910 --> 01:52:37.610
+Ningning Wu: Because, unfortunately, I did see a couple of examples of dissertation, so sloppy, so…
+
+700
+01:52:37.610 --> 01:52:41.900
+Ningning Wu: Poorly written, poorly formatted, and unfinished.
+
+701
+01:52:41.990 --> 01:52:58.930
+Ningning Wu: So, I think… unfortunately, I'm not a… I'm not the advisor, the committee chair, so… but I feel a little bit hesitate, or even sometimes, I think, ashamed to sign my name on those, dissertations, because…
+
+702
+01:52:59.370 --> 01:53:00.300
+Ningning Wu: I'm here.
+
+703
+01:53:01.140 --> 01:53:17.260
+Ningning Wu: I don't… I really don't want to sign on those… on those dissertations, because their format, their contents, they are very, I mean, low quality. So, but anyway, so I think, because the student will be the main contributor and the main…
+
+704
+01:53:17.500 --> 01:53:26.889
+Ningning Wu: author for the dissertation, so I really want to encourage you to try your best to write your dissertation, so that, I mean, you can always
+
+705
+01:53:27.100 --> 01:53:33.039
+Ningning Wu: Be proud whenever you think about your dissertation, or whenever you read your dissertation again.
+
+706
+01:53:33.830 --> 01:53:35.130
+Ningning Wu: And what house?
+
+707
+01:53:36.780 --> 01:53:39.339
+Ningning Wu: So, if you haven't started…
+
+708
+01:53:39.470 --> 01:53:48.229
+Ningning Wu: identified the start of your dissertation yet, or haven't… still in the face of, looking for the dissertation topic.
+
+709
+01:53:48.570 --> 01:53:53.169
+Ningning Wu: So then, something probably helps you to…
+
+710
+01:53:53.280 --> 01:54:02.469
+Ningning Wu: search for the dissertation, good dissertation topics or questions, those gave you… this slide gave you some kind of, hints. For example, you can
+
+711
+01:54:02.850 --> 01:54:07.169
+Ningning Wu: What are the attributes of a good research question?
+
+712
+01:54:07.440 --> 01:54:16.029
+Ningning Wu: So, answering your question should make contribution to your discipline, make big impact, okay?
+
+713
+01:54:16.180 --> 01:54:23.870
+Ningning Wu: And also, you… the solution to your question may be interesting to others, I mean, other researchers.
+
+714
+01:54:24.400 --> 01:54:33.489
+Ningning Wu: And also, answering questions should be featible, so it means that you don't want to have a question that you don't think that will be
+
+715
+01:54:33.750 --> 01:54:37.289
+Ningning Wu: Featable to finish within 5-year frame, okay?
+
+716
+01:54:37.950 --> 01:54:56.510
+Ningning Wu: Then, process of finding a research question, I think, we have discussed in, I mean, in the previous lectures already. So, first, find the topic that you're interested in, and also the topic will be closely related to your background knowledge, your education background, so that
+
+717
+01:54:56.510 --> 01:55:05.829
+Ningning Wu: you have enough knowledge to work on the problem, so that's very important. And then you do the literature review to identify the
+
+718
+01:55:05.970 --> 01:55:20.190
+Ningning Wu: The directions, the open problem, the gap in the field, so that you can find the one that you like the most, and also maybe consider the most significant questions in the field, okay?
+
+719
+01:55:20.440 --> 01:55:25.869
+Ningning Wu: So, I think it's pretty much, kind of, like a step for
+
+720
+01:55:26.380 --> 01:55:30.639
+Ningning Wu: Doing the good dissertations, so you need to identify a good problem.
+
+721
+01:55:31.070 --> 01:55:36.700
+Ningning Wu: And also, you need to build your background, so you can, if you need.
+
+722
+01:55:36.990 --> 01:55:55.079
+Ningning Wu: to, learn new things, I think it's never be late, so you can grab a book or take some online courses to build up your knowledge so that you have enough weapons to work on your problems, okay? Then the literature reviews is very important.
+
+723
+01:55:55.780 --> 01:56:03.839
+Ningning Wu: Then you also need to form a doctoral committee, dissertation committee. So yearly, I think, you first,
+
+724
+01:56:04.260 --> 01:56:14.590
+Ningning Wu: Find, an advisor, the committee chair, who will be mainly responsible for your, dissertation research, and guide you through the whole process.
+
+725
+01:56:14.890 --> 01:56:18.989
+Ningning Wu: And then, you're probably depending on the work.
+
+726
+01:56:19.500 --> 01:56:35.469
+Ningning Wu: your research work, then you can find three, committee members whom… whose knowledge, expertise might potentially help you in your dissertation research, okay? And I think a lot of time, your committee chair will also
+
+727
+01:56:35.610 --> 01:56:47.360
+Ningning Wu: recommend maybe the best, candidates for the committees, so I think you can listen to, or follow your committee chair's, recommendation.
+
+728
+01:56:47.530 --> 01:56:58.990
+Ningning Wu: And then regarding to the proposal, research… research proposal development process, so I think it's pretty much… we have discussed so many times already, so you have… first have to…
+
+729
+01:56:59.110 --> 01:57:15.020
+Ningning Wu: Have an introduction to topic, and then problem statement, objectives, literature review, very important. I think your literature review may account one half of your writing, then your research questions, and the methodologies, and the timelines, okay?
+
+730
+01:57:15.830 --> 01:57:21.420
+Ningning Wu: And then, if you're researching one of the human participants, you also need to,
+
+731
+01:57:22.610 --> 01:57:26.489
+Ningning Wu: You need to apply for the IRB approval, okay?
+
+732
+01:57:26.860 --> 01:57:28.880
+Ningning Wu: And, what house?
+
+733
+01:57:29.740 --> 01:57:37.860
+Ningning Wu: Then, yeah, regarding to the… Possible analysis questions, you're going to decide whether you want to do the
+
+734
+01:57:38.020 --> 01:57:56.000
+Ningning Wu: descriptive analysis, diagnostic analysis, predictive analysis, or prescriptive analysis. So, really, depending on your research goal, then you're going to pick the right method, and then you pick the right, kind of, methodologies.
+
+735
+01:57:56.370 --> 01:57:59.429
+Ningning Wu: That you're gonna, work on your dissertation.
+
+736
+01:58:00.580 --> 01:58:07.530
+Ningning Wu: And the tips for writing the proposals. So you're gonna make a schedule, set guidelines, so you don't wait till the last minute.
+
+737
+01:58:07.710 --> 01:58:09.489
+Ningning Wu: And you can't… I think you can.
+
+738
+01:58:09.700 --> 01:58:25.419
+Ningning Wu: So, one thing that I always encourage my own students to write a very good, sound literature review, because the efforts will not be wasted. So you can easily, I mean.
+
+739
+01:58:25.610 --> 01:58:36.840
+Ningning Wu: copy-paste that literature review in your final dissertation, so that's very important, okay? Then, also think about the research problems. You're going to also have a very good,
+
+740
+01:58:37.490 --> 01:58:47.259
+Ningning Wu: kind of a convincing research… I mean, problem statement, and then you're gonna have consistent research questions that,
+
+741
+01:58:48.890 --> 01:58:52.680
+Ningning Wu: That, align with your, research problem.
+
+742
+01:58:54.440 --> 01:58:56.870
+Ningning Wu: And… what else? So…
+
+743
+01:58:57.800 --> 01:59:09.360
+Ningning Wu: first draft is not the final draft, so basically, I think first draft, you mainly focus on the contents, the flow, the coverage. Then you're going to be, kind of a next round, you're going to…
+
+744
+01:59:09.490 --> 01:59:13.010
+Ningning Wu: Do the aggravation, okay, and also…
+
+745
+01:59:13.510 --> 01:59:17.880
+Ningning Wu: Be sure you have a good format, and also you have good flow.
+
+746
+01:59:18.020 --> 01:59:24.470
+Ningning Wu: And, always… Double check, and you're going to revise several rounds.
+
+747
+01:59:24.640 --> 01:59:26.970
+Ningning Wu: Or you can even,
+
+748
+01:59:27.320 --> 01:59:40.459
+Ningning Wu: Ask for the professional help, so to make sure that your dissertation looks good, and they read good, and also, have a pretty much, cover, and good coverage, and a good flow.
+
+749
+01:59:41.730 --> 01:59:43.340
+Ningning Wu: And,
+
+750
+01:59:45.490 --> 01:59:52.560
+Ningning Wu: So, for the dissertation format, I think there's a link, you can go to the… I think you can go to the YOLAR. They do have the…
+
+751
+01:59:52.710 --> 02:00:01.290
+Ningning Wu: requirement for the dissertation, I think. Format, yeah, what format your dissertation should follow, so you need to follow that link.
+
+752
+02:00:01.920 --> 02:00:04.310
+Ningning Wu: And… what else?
+
+753
+02:00:04.480 --> 02:00:08.960
+Ningning Wu: Mmm… defining, so I think defining…
+
+754
+02:00:09.240 --> 02:00:16.889
+Ningning Wu: basically, usually your advisor, the committee chair, will help you to pretty much, I think.
+
+755
+02:00:17.000 --> 02:00:26.789
+Ningning Wu: If he approves your dissertation, then you simply write up the slides, PowerPoint slides, and to cover the most important
+
+756
+02:00:26.790 --> 02:00:38.259
+Ningning Wu: things work in your, dissertation. I think sometimes you may need a dry run with your, pair students, or with your advisor's research group.
+
+757
+02:00:38.260 --> 02:00:54.410
+Ningning Wu: So that to help you to prepare for the questions, and also to help you refine, how you represent your, research, represent your research and defend your dissertation. So that will be very helpful.
+
+758
+02:00:54.550 --> 02:01:08.919
+Ningning Wu: So, I think my students, I already gave them the dry run so that they can practice. And also, even you listen to the… sitting the dry run of your, pair of students, you also learn a lot of things. You'll probably…
+
+759
+02:01:09.250 --> 02:01:21.639
+Ningning Wu: Can help yourself understand what the best way to do the presentation, to present your work, to emphasize the major contribution of your work.
+
+760
+02:01:22.710 --> 02:01:41.740
+Ningning Wu: And regarding to the dissertation, usually you probably spent roughly 45 minutes for the presentation, okay, present, and then you probably have 15 minutes to take questions, comments from the public audience. Then the public audience will leave, then you're going to have
+
+761
+02:01:41.840 --> 02:01:46.729
+Ningning Wu: Kind of closed-door, discussion with your, committee.
+
+762
+02:01:46.830 --> 02:01:51.680
+Ningning Wu: Members of your committee will ask questions, then it takes about 10 to 20 minutes.
+
+763
+02:01:52.130 --> 02:01:58.559
+Ningning Wu: And then you… it takes another 10 to 20 minutes for a dissertation committee to discuss your work.
+
+764
+02:01:58.790 --> 02:02:05.579
+Ningning Wu: Discuss the strengths or weaknesses of your, work, or of your writing.
+
+765
+02:02:05.680 --> 02:02:09.630
+Ningning Wu: And then also, make the suggestions for the…
+
+766
+02:02:09.880 --> 02:02:21.749
+Ningning Wu: improvement or revision. And then you can come back to the, to the room, so they will pretty much tell you their decision. And also, if there's any revision.
+
+767
+02:02:21.860 --> 02:02:25.809
+Ningning Wu: It's required, they also will tell you how to revise your dissertation.
+
+768
+02:02:27.430 --> 02:02:35.009
+Ningning Wu: So then, be sure to apply for the graduation to make sure that, I think, because the ULR, the candidate.
+
+769
+02:02:35.320 --> 02:02:52.699
+Ningning Wu: change the system to the workday, so a lot of, at least my students, a lot of their milestones have not been recorded in the current Workday system. Like, the date they passed their candidate system, the date they passed their proposal.
+
+770
+02:02:52.950 --> 02:02:59.609
+Ningning Wu: And those kind of stuff, I think you have to probably, you need to check before you,
+
+771
+02:03:00.310 --> 02:03:09.550
+Ningning Wu: Maybe I would rather say you check those status to make sure that those status have been recorded in the Workday system.
+
+772
+02:03:10.030 --> 02:03:26.179
+Ningning Wu: Before your dissertation defense, so if something's missing, you can always, I mean, ask them to, I mean, fill out… I mean, to fill in those, fields to make sure that your graduation, application will be, approved by the…
+
+773
+02:03:26.230 --> 02:03:31.380
+Ningning Wu: by the college, and also by the… by the school, okay? So there's also…
+
+774
+02:03:31.790 --> 02:03:40.900
+Ningning Wu: something about the graduation for the doctoral curriculum, you need to have over more than, I mean, at least 75 credit hours.
+
+775
+02:03:41.010 --> 02:03:48.379
+Ningning Wu: 33 of them from the coursework, and 42 of them from your dissertation research hours. So you can have more.
+
+776
+02:03:48.620 --> 02:03:51.709
+Ningning Wu: But yearly, 75 should be enough, okay?
+
+777
+02:03:52.590 --> 02:04:04.050
+Ningning Wu: I think that's pretty much about the, about the dissertation, and also depending on, when you were admitted to the program, I think some
+
+778
+02:04:04.080 --> 02:04:16.539
+Ningning Wu: program require you need to have at least one publication before you graduate. So this publication can be published or accepted, paper in a conference or in a journal.
+
+779
+02:04:16.780 --> 02:04:33.479
+Ningning Wu: So, I think some, degree program probably does not require that, so you have to make sure to check with your program director to make sure what are the requirements for the publication, okay? I think that's pretty much for,
+
+780
+02:04:34.360 --> 02:04:40.280
+Ningning Wu: for this, micro… navigating the ULR dissertation process. Any questions?
+
+781
+02:04:53.030 --> 02:04:59.600
+Ningning Wu: Okay, so just want to, let you know that from next class, Dr. Desk,
+
+782
+02:05:00.240 --> 02:05:02.230
+Ningning Wu: I think I really have trouble.
+
+783
+02:05:02.480 --> 02:05:07.289
+Ningning Wu: Daktash is going to, lead the next four lectures.
+
+784
+02:05:07.660 --> 02:05:10.880
+Ningning Wu: And then, after the week 4,
+
+785
+02:05:11.280 --> 02:05:19.410
+Ningning Wu: From weeknight to 11, we will not have lectures, so you're going to solely work on your, proposals.
+
+786
+02:05:19.980 --> 02:05:25.440
+Ningning Wu: Then, I think, then from week 12 to 14,
+
+787
+02:05:25.860 --> 02:05:41.419
+Ningning Wu: let me double-check how many students we have, so we may need the last 3 weeks or last 2 weeks to work on the presentation. So I think presentation provides a good opportunity for you to present your work, so you can have our feedback.
+
+788
+02:05:41.570 --> 02:05:46.980
+Ningning Wu: on, your proposal. So, I mean, you can improve it.
+
+789
+02:05:47.210 --> 02:06:01.339
+Ningning Wu: And also, I think that's also a nice opportunity for you to do the presentation to more like a dry run of your future, proposal defense, if you're, in a doctoral program, okay?
+
+790
+02:06:01.630 --> 02:06:04.340
+Ningning Wu: So, any questions?
+
+791
+02:06:07.050 --> 02:06:11.230
+Mehmet Seker: Question about the teaching assistant gonna get our assignment.
+
+792
+02:06:12.780 --> 02:06:13.370
+Ningning Wu: Yes. So…
+
+793
+02:06:13.370 --> 02:06:19.690
+Mehmet Seker: Oh, he… he never did the research of how he's gonna… grade my assignment. Can you…
+
+794
+02:06:19.690 --> 02:06:24.140
+Ningning Wu: Okay, good question. So, how do you know? He never do that research.
+
+795
+02:06:24.140 --> 02:06:31.659
+Mehmet Seker: Yeah, because I had to travel last semester with the teaching assistant, he didn't give the proper instruction, so because of that, my…
+
+796
+02:06:31.820 --> 02:06:35.090
+Mehmet Seker: Anyway, it was too much drama. I don't want to deal again in something like this.
+
+797
+02:06:35.090 --> 02:06:40.010
+Ningning Wu: I think that's a valid question, I agree. So, actually, today, he came to me.
+
+798
+02:06:40.560 --> 02:06:43.880
+Ningning Wu: Ask him if you… if he take the…
+
+799
+02:06:44.810 --> 02:06:50.070
+Ningning Wu: You're right, so… but he's assigned to this, course, so…
+
+800
+02:06:50.100 --> 02:06:56.149
+Mehmet Seker: It could be, but he's not a professor, he doesn't do the research, but he's gonna grade my assignment.
+
+801
+02:06:56.470 --> 02:06:57.630
+Ningning Wu: I know, I know.
+
+802
+02:06:57.630 --> 02:07:00.430
+Mehmet Seker: Tell everyone how proper is this?
+
+803
+02:07:01.450 --> 02:07:07.630
+Ningning Wu: So, you know what? Because he is assigned to this class, I don't know, until today, because I think he's.
+
+804
+02:07:07.630 --> 02:07:11.120
+Mehmet Seker: Yeah, I signed to this class too, I haven't done research, I'm just writing.
+
+805
+02:07:11.120 --> 02:07:14.249
+Ningning Wu: Yeah, I agree. He's assigned to this class.
+
+806
+02:07:14.410 --> 02:07:17.460
+Ningning Wu: Actually, I was shocked to… to see him.
+
+807
+02:07:17.920 --> 02:07:22.409
+Ningning Wu: I asked him if he has taken this class before. He said yes.
+
+808
+02:07:23.070 --> 02:07:23.780
+Ningning Wu: Ugh.
+
+809
+02:07:24.140 --> 02:07:37.619
+Ningning Wu: But, you know what? Let me check with Dr. Daktash and the department, because he's assigned to this class. He's supposed to do, I don't know, 20 hours per hour, per week?
+
+810
+02:07:37.810 --> 02:07:40.669
+Ningning Wu: to help us in this class, I don't know…
+
+811
+02:07:41.040 --> 02:07:45.060
+Ningning Wu: We need to assign him a job, but I don't know what… we need to do it.
+
+812
+02:07:45.060 --> 02:07:48.229
+Mehmet Seker: Yeah, I don't wanna… Because that's the world, that's the problem.
+
+813
+02:07:48.230 --> 02:07:49.670
+Ningning Wu: I agree.
+
+814
+02:07:49.670 --> 02:07:53.120
+Mehmet Seker: You know, people try on me, and then try to learn.
+
+815
+02:07:54.770 --> 02:08:01.720
+Ningning Wu: I agree. So, I think this is a valid question. So, I was shocked to see him today, because I saw this class, we don't have any TA.
+
+816
+02:08:01.970 --> 02:08:19.119
+Ningning Wu: Then he just reports to me, like, I mean, 4 weeks after semester starts. I don't know what I'm going to do, so I need to check with department. I mean, I don't mind to grade assignments, because in the last 3 years, when I teach this class, I ask for the portion grade assignments.
+
+817
+02:08:19.180 --> 02:08:25.269
+Ningning Wu: So I don't mind, but since he came to me, asked what he can do for this class.
+
+818
+02:08:25.400 --> 02:08:31.990
+Ningning Wu: I think the only thing I can ask him to do is the grading assignments. I won't allow him to give the lectures, but I…
+
+819
+02:08:32.470 --> 02:08:38.659
+Ningning Wu: I understand, I understand your concern, I have the same concern, so I have you, talked with the department to see
+
+820
+02:08:38.990 --> 02:08:49.610
+Ningning Wu: what else we can do? For him, no, because he has to do some work, so maybe we can assign him to different classes, but let's, I will see, yeah.
+
+821
+02:08:49.980 --> 02:08:54.709
+Ningning Wu: Okay, so your voice is heard, so I have the same cursor, so…
+
+822
+02:08:54.710 --> 02:08:55.980
+Mehmet Seker: So much, I appreciate that.
+
+823
+02:08:56.510 --> 02:09:00.059
+Ningning Wu: Yeah, no problem. Okay, good questions. Any other questions?
+
+824
+02:09:05.280 --> 02:09:13.389
+Ningning Wu: Okay, so, if you don't have any questions, we are done for today. Thank you, and hope you have a wonderful evening.
+
+825
+02:09:13.810 --> 02:09:16.059
+Ningning Wu: And I hope to see you soon!
+
+826
+02:09:17.710 --> 02:09:19.090
+Oluwakemi Temitope Olayinka: Check it out, though.
+
+827
+02:09:19.520 --> 02:09:20.650
+Ningning Wu: Thank you.
+

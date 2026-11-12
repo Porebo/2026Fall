@@ -1,0 +1,3801 @@
+{
+ "capturedAt": "2026-11-12T04:24:21.349Z",
+ "course": {
+  "id": "_294662_1",
+  "courseId": "FALL_2026_INFQ_70303_01",
+  "name": "FALL_2026 INFQ 70303-01 - Principles of IQ",
+  "modified": "2026-10-19T18:53:49.764Z",
+  "organization": false,
+  "ultraStatus": "Ultra",
+  "allowGuests": false,
+  "closedComplete": false,
+  "termId": "_807_1",
+  "availability": {
+   "available": "Yes",
+   "duration": {
+    "type": "Term"
+   }
+  },
+  "enrollment": {
+   "type": "InstructorLed"
+  },
+  "locale": {
+   "force": false
+  },
+  "externalAccessUrl": "https://blackboard.ualr.edu/ultra/courses/_294662_1/outline",
+  "copyHistory": [
+   {
+    "uuid": "df12fcfac7ab437b98d933746c1d77bd"
+   },
+   {
+    "uuid": "fe1f00349b8944079545065d8e4fe6ec"
+   },
+   {
+    "uuid": "b2e1a7f0cd764e9c8ccaeee173c68d90"
+   }
+  ]
+ },
+ "contents": [
+  {
+   "id": "_6107682_1",
+   "parentId": "_5875855_1",
+   "title": "INFQ 70303 Fall 2026 Syllabus.pdf",
+   "created": "2026-09-29T15:58:45.858Z",
+   "modified": "2026-10-09T17:12:01.694Z",
+   "position": 0,
+   "launchInNewWindow": true,
+   "reviewable": true,
+   "availability": {
+    "available": "Yes",
+    "allowGuests": true,
+    "allowObservers": true,
+    "adaptiveRelease": {}
+   },
+   "contentHandler": {
+    "id": "resource/x-bb-file",
+    "file": {
+     "fileName": "INFQ 70303 Fall 2026 Syllabus.pdf",
+     "mimeType": "application/pdf"
+    },
+    "fileAssociationMode": "Embed"
+   },
+   "links": [
+    {
+     "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6107682_1&parentId=_5875855_1",
+     "rel": "alternate",
+     "title": "User Interface View",
+     "type": "text/html"
+    }
+   ],
+   "_attachments": [
+    {
+     "id": "_4665776_1",
+     "fileName": "INFQ 70303 Fall 2026 Syllabus.pdf",
+     "mimeType": "application/pdf"
+    }
+   ]
+  },
+  {
+   "id": "_5875857_1",
+   "parentId": "_5875855_1",
+   "title": "University Policies & Resources",
+   "created": "2025-04-09T19:55:08.360Z",
+   "modified": "2026-09-29T15:58:45.873Z",
+   "position": 2,
+   "hasChildren": true,
+   "launchInNewWindow": true,
+   "reviewable": true,
+   "availability": {
+    "available": "Yes",
+    "allowGuests": true,
+    "allowObservers": true,
+    "adaptiveRelease": {}
+   },
+   "contentHandler": {
+    "id": "resource/x-bb-folder",
+    "isBbPage": true
+   },
+   "links": [
+    {
+     "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_5875857_1&parentId=_5875855_1",
+     "rel": "alternate",
+     "title": "User Interface View",
+     "type": "text/html"
+    }
+   ],
+   "_children": [
+    {
+     "id": "_5875858_1",
+     "parentId": "_5875857_1",
+     "title": "ultraDocumentBody",
+     "body": "<div data-layout-row=\"8119a973-08a0-4429-a8a5-458871dd13ff\"><div data-layout-column=\"39fc4503-9947-4d1e-9080-5f6168d1089f\" data-layout-column-width=\"12\"><div data-bbid=\"bbml-editor-id_866b82d8-8ac2-4bf3-b6de-917dc86aad0e\"><h4>University Policies &amp; Resources</h4></div></div></div><div data-layout-row=\"539e0430-d61f-4a36-9f85-83c6948b67bc\"><div data-layout-column=\"5d9a02d8-8ffa-496b-98f6-50824cefd03c\" data-layout-column-width=\"6\"><div data-bbid=\"bbml-editor-id_33cbc8e5-73de-4714-8df2-85e78f64374b\"><h5><strong>Students with Disabilities</strong></h5><p><span style=\"color: #000000\">If you are a student with a disability, or if you simply want to discuss resources that might help you learn more effectively, you can contact the Disability Resource Center at any time. You are welcome to drop in or call 501-916-3143 to make an appointment. Their staff will work with you to discuss accommodations and identify resources on campus or in the community that might be helpful for you. Accommodations are established through an interactive process. For more information,&nbsp;</span><a href=\"https://ualr.edu/disability/\"><span style=\"color: #6e2639\">visit the DRC website</span></a><span style=\"color: #000000\">&nbsp;or review the&nbsp;</span><a href=\"https://ualr.edu/disability/steps-for-requesting-accommodations/\"><span style=\"color: #6e2639\">steps to request accommodations</span></a><span style=\"color: #000000\">. We want you to know you are valued, welcome, and wanted at UA Little Rock.</span></p><p><strong>Website:</strong>&nbsp;<a href=\"https://ualr.edu/disability/\"><span style=\"color: #6e2639\">Disability Resource Center</span></a>&nbsp;</p><p><strong>Phone:</strong> 501-916-3143 (V/TTY)&nbsp;&nbsp;or <span style=\"color: #000000\">501-246-8296</span> (VP)</p><h5><strong>Copyright</strong></h5><p><span style=\"color: #444444\">The content in this course, and any third party content contributors (e.g., publishers, etc.) is copyrighted. This course content is available to you during the semester in which you are enrolled in the course. You may not modify, copy, reproduce, republish, upload, post, transmit, or distribute, in any manner, the material in this course, including text, graphics, audio, video, code and/or software without the expressed written permission from the copyright holder.</span></p></div></div><div data-layout-column=\"306bf061-97e8-4b15-a886-bdc8648d4d5d\" data-layout-column-width=\"6\"><div data-bbid=\"bbml-editor-id_943b2600-fa7f-4568-9e12-37c526d1a027\"><h5><strong>Academic Support Resources</strong></h5><ul><li><a href=\"https://ualr.edu/deanofstudents/student-handbook/\">Student Handbook</a></li><li><a href=\"https://ualr.edu/studentsuccess/academic-resources/\">Learning Commons</a></li><li><a href=\"https://ualr.edu/mathematics/mathematics-assistance-center/\">Math Assistance Center</a></li><li><a href=\"https://ualr.edu/appliedcomm/csc/\">Communication Skills Center (CSC)</a></li><li><a href=\"https://ualr.edu/writingcenter/\">University Writing Center</a></li></ul><h5><strong>Student Support Services</strong></h5><ul><li><a href=\"https://ualr.edu/disability/\">Disability Resource Center</a></li><li><a href=\"https://ualr.edu/advising/\">Advising</a></li><li><a href=\"https://ualr.edu/careers/\">Careers</a></li><li><a href=\"https://ualr.edu/counseling/\">Counseling Services</a></li><li><a href=\"https://ualr.edu/financialaid/\">Financial Aid</a></li><li><a href=\"https://ualr.edu/health/\">Health Services</a></li><li><a href=\"https://ualr.edu/records/\"><span style=\"color: #1a5e82\">Records and Registration</span></a></li></ul><h5><strong>University Policies</strong></h5><ul><li><a href=\"https://ualr.edu/policy/facstaff/disabilities/\">Disability Accommodation</a></li><li><a href=\"https://ualr.edu/policy/admin/non-discrimination/\">Non-discrimination Policy</a></li><li><a href=\"https://ualr.edu/deanofstudents/academic-integrity/\">Academic Integrity</a></li><li><a href=\"https://ualr.edu/deanofstudents/section-vii-administration/academic-offenses/\">Academic Offenses</a></li><li><a href=\"https://ualr.edu/policy/facstaff/lr-405-7-artificial-intelligence-acceptable-use/\">Artificial Intelligence – Acceptable Use Policy</a></li></ul><h5><strong>Accessibility &amp; Privacy Policies</strong></h5><ul><li>Blackboard Inc.: <a href=\"https://www.anthology.com/our-commitment-to-accessibility\">Accessibility</a> | <a href=\"https://www.anthology.com/trust-center/privacy-statement\">Privacy</a></li><li>Kaltura: <a href=\"https://corp.kaltura.com/legal/accessibility/accessibility-statement/\">Accessibility</a> | <a href=\"https://corp.kaltura.com/legal/privacy/privacy-policy/\">Privacy</a></li><li>Microsoft Office 365: <a href=\"https://support.microsoft.com/en-us/office/accessibility-tools-for-microsoft-365-b5087b20-1387-4686-a0a5-8e11c5f46cdf\">Accessibility</a> | <a href=\"https://www.microsoft.com/en-us/privacy/privacystatement\">Privacy</a></li><li>UA Little Rock: <a href=\"https://ualr.edu/policy/admin/disability/\">Accessibility </a>| <a href=\"https://ualr.edu/policy/admin/notice-of-privacy-practices/\">Privacy</a></li></ul></div></div></div>",
+     "created": "2025-04-09T19:55:09.275Z",
+     "modified": "2026-09-24T13:55:57.361Z",
+     "position": 0,
+     "launchInNewWindow": false,
+     "reviewable": false,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-document"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_5875858_1&parentId=_5875857_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "_error": 400,
+       "_url": "/learn/api/public/v1/courses/_294662_1/contents/_5875858_1/attachments"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "_6030193_1",
+   "parentId": "_5875855_1",
+   "title": "Lecture Slides",
+   "created": "2026-08-21T14:44:33.616Z",
+   "modified": "2026-09-29T15:58:45.873Z",
+   "position": 3,
+   "hasChildren": true,
+   "launchInNewWindow": true,
+   "reviewable": false,
+   "availability": {
+    "available": "Yes",
+    "allowGuests": true,
+    "allowObservers": true,
+    "adaptiveRelease": {}
+   },
+   "contentHandler": {
+    "id": "resource/x-bb-folder"
+   },
+   "links": [
+    {
+     "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&parentId=null",
+     "rel": "alternate",
+     "title": "User Interface View",
+     "type": "text/html"
+    }
+   ],
+   "_children": [
+    {
+     "id": "_6035183_1",
+     "parentId": "_6030193_1",
+     "title": "Program Overview.pdf",
+     "created": "2026-08-21T21:38:35.680Z",
+     "modified": "2026-09-17T18:18:16.771Z",
+     "position": 0,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "(A) IQ Program Overview.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6035183_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4597588_1",
+       "fileName": "(A) IQ Program Overview.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6035186_1",
+     "parentId": "_6030193_1",
+     "title": "Course Overview Fall 2026.pdf",
+     "created": "2026-08-21T21:40:08.289Z",
+     "modified": "2026-09-28T19:35:39.980Z",
+     "position": 1,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "(B) INFQ 70303 Overview Fall 2026.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6035186_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4597591_1",
+       "fileName": "(B) INFQ 70303 Overview Fall 2026.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6074052_1",
+     "parentId": "_6030193_1",
+     "title": "IQ Principles and Domains.pdf",
+     "created": "2026-08-24T21:31:12.675Z",
+     "modified": "2026-09-28T19:35:48.197Z",
+     "position": 2,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "(C) IQ Principles and Domains.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6074052_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4604253_1",
+       "fileName": "(C) IQ Principles and Domains.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6087587_1",
+     "parentId": "_6030193_1",
+     "title": "IQ Value and Business Impact.pdf",
+     "created": "2026-09-01T15:13:44.869Z",
+     "modified": "2026-09-28T19:35:55.891Z",
+     "position": 3,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "(C2) IQ Value and Business Impact.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6087587_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4613331_1",
+       "fileName": "(C2) IQ Value and Business Impact.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6092498_1",
+     "parentId": "_6030193_1",
+     "title": "(F1) IQ History.pdf",
+     "created": "2026-09-08T18:35:46.687Z",
+     "modified": "2026-09-28T19:36:04.551Z",
+     "position": 4,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "(F1) IQ History.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6092498_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4624384_1",
+       "fileName": "(F1) IQ History.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6094374_1",
+     "parentId": "_6030193_1",
+     "title": "ISO 8000-61 DQM.pdf",
+     "created": "2026-09-10T17:30:37.723Z",
+     "modified": "2026-09-28T19:36:10.095Z",
+     "position": 5,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "(G) ISO 8000-61 DQM.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6094374_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4628220_1",
+       "fileName": "(G) ISO 8000-61 DQM.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6101628_1",
+     "parentId": "_6030193_1",
+     "title": "(H) IQ Data Governance.pdf",
+     "created": "2026-09-22T13:49:43.704Z",
+     "modified": "2026-09-28T19:36:18.681Z",
+     "position": 6,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "(H) IQ Data Governance.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6101628_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4652187_1",
+       "fileName": "(H) IQ Data Governance.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6117441_1",
+     "parentId": "_6030193_1",
+     "title": "ECCMA_20261015_UALR-Guest lecture 2026-10-15.pdf",
+     "created": "2026-10-15T19:49:33.840Z",
+     "modified": "2026-10-27T18:13:41.031Z",
+     "position": 7,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "ECCMA_20261015_UALR-Guest lecture 2026-10-15.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6117441_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4694253_1",
+       "fileName": "ECCMA_20261015_UALR-Guest lecture 2026-10-15.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6151632_1",
+     "parentId": "_6030193_1",
+     "title": "(S1) Statistics Descriptive.pdf",
+     "created": "2026-10-27T18:14:18.862Z",
+     "modified": "2026-10-27T18:14:28.543Z",
+     "position": 8,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "(S1) Statistics Descriptive.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6151632_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4712511_1",
+       "fileName": "(S1) Statistics Descriptive.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6151633_1",
+     "parentId": "_6030193_1",
+     "title": "(S2) Statistics Probability.pdf",
+     "created": "2026-10-27T18:14:50.545Z",
+     "modified": "2026-10-27T18:14:55.896Z",
+     "position": 9,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "(S2) Statistics Probability.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6151633_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4712513_1",
+       "fileName": "(S2) Statistics Probability.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6153219_1",
+     "parentId": "_6030193_1",
+     "title": "(S3) Statistics Inferential.pdf",
+     "created": "2026-10-29T18:30:33.037Z",
+     "modified": "2026-10-29T18:30:36.951Z",
+     "position": 10,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "(S3) Statistics Inferential.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6153219_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4716098_1",
+       "fileName": "(S3) Statistics Inferential.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6156903_1",
+     "parentId": "_6030193_1",
+     "title": "(S4) Statistical Process Control wihtout ISO.pdf",
+     "created": "2026-11-03T19:32:56.478Z",
+     "modified": "2026-11-03T19:33:01.153Z",
+     "position": 11,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "(S4) Statistical Process Control wihtout ISO.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6156903_1&parentId=_6030193_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4725730_1",
+       "fileName": "(S4) Statistical Process Control wihtout ISO.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "_6084750_1",
+   "parentId": "_5875855_1",
+   "title": "Homework Assignments",
+   "created": "2026-08-28T19:36:35.755Z",
+   "modified": "2026-09-29T15:58:45.876Z",
+   "position": 4,
+   "hasChildren": true,
+   "launchInNewWindow": true,
+   "reviewable": false,
+   "availability": {
+    "available": "Yes",
+    "allowGuests": true,
+    "allowObservers": true,
+    "adaptiveRelease": {}
+   },
+   "contentHandler": {
+    "id": "resource/x-bb-folder"
+   },
+   "links": [
+    {
+     "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&parentId=null",
+     "rel": "alternate",
+     "title": "User Interface View",
+     "type": "text/html"
+    }
+   ],
+   "_children": [
+    {
+     "id": "_6084819_1",
+     "parentId": "_6084750_1",
+     "title": "Chapter 1 Review",
+     "created": "2026-08-28T20:23:28.322Z",
+     "modified": "2026-09-17T18:18:16.781Z",
+     "position": 0,
+     "hasGradebookColumns": true,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-asmt-test-link",
+      "assessmentId": "_28496101_1",
+      "gradeColumnId": "_1567442_1",
+      "instructions": "<br>\n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28496101-dt-asiobject-rid-68932697_1/xid-68932697_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=WqfyglFItYZD1H%2FVnwqbKWANyJhOSyLyMpwah4eE8gY%3D\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;JDQ 1 Review.docx&quot;,&quot;displayName&quot;:&quot;JDQ 1 Review.docx&quot;,&quot;fileName&quot;:&quot;JDQ 1 Review.docx&quot;,&quot;fileSize&quot;:19326,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28496101-dt-asiobject-rid-68932697_1/xid-68932697_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=WqfyglFItYZD1H%2FVnwqbKWANyJhOSyLyMpwah4eE8gY%3D&quot;,&quot;linkName&quot;:&quot;JDQ 1 Review.docx&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28496101-dt-asiobject-rid-68932697_1/xid-68932697_1?locale=en_US&amp;isInlineRender=true&amp;render=inline&amp;Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;xythos-download=true&amp;3cCnGYSz89=2bqLuy%2FbVQi%2BXQp2RBe%2B1THgbfrBgZMXHQIz7SDUVuo%3D&quot;}\">JDQ 1 Review.docx</a></p>\n<p>Read Chapter 1 of <em>Journey to Data Quality</em> (in Resources Folder), then upload to Blackboar your answers to the attached questions</p>",
+      "proctoring": {
+       "secureBrowserRequiredToTake": false,
+       "secureBrowserRequiredToReview": false,
+       "webcamRequired": false
+      },
+      "password": {
+       "enabled": false
+      },
+      "originalityReportingTool": {
+       "id": "safeAssign",
+       "checkSubmission": false,
+       "studentViewReports": false,
+       "excludeSubmissionsFromDatabases": false
+      },
+      "isLateAttemptCreationDisallowed": false
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6084819_1&parentId=_6084750_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "_error": 400,
+       "_url": "/learn/api/public/v1/courses/_294662_1/contents/_6084819_1/attachments"
+      }
+     ]
+    },
+    {
+     "id": "_6089761_1",
+     "parentId": "_6084750_1",
+     "title": "Data Analysis",
+     "created": "2026-09-03T17:27:50.294Z",
+     "modified": "2026-09-17T18:18:16.837Z",
+     "position": 1,
+     "hasGradebookColumns": true,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-asmt-test-link",
+      "assessmentId": "_28502163_1",
+      "gradeColumnId": "_1568431_1",
+      "instructions": "<p>Upload you answers to the attached questions in Blackboard.</p> \n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020382_1/xid-69020382_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=De55trhYTdLBZHDrQYs%2BkV1sCN5iDzlW5GWhv%2FrmcLw%3D\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;AsssessMovieDataset.docx&quot;,&quot;displayName&quot;:&quot;AsssessMovieDataset.docx&quot;,&quot;fileName&quot;:&quot;AsssessMovieDataset.docx&quot;,&quot;fileSize&quot;:19823,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020382_1/xid-69020382_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=De55trhYTdLBZHDrQYs%2BkV1sCN5iDzlW5GWhv%2FrmcLw%3D&quot;,&quot;linkName&quot;:&quot;AsssessMovieDataset.docx&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020382_1/xid-69020382_1?locale=en_US&amp;isInlineRender=true&amp;render=inline&amp;Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;xythos-download=true&amp;3cCnGYSz89=m%2BbY0vikWMEyjLxsoqtC36Uwpnn8H1oNySFfuIwJyVw%3D&quot;}\">AsssessMovieDataset.docx</a></p> \n<br> \n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020386_1/xid-69020386_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=Xma4sH7931vKZOkCmnL%2F758Kd79%2FwXNAhSNDLtQjeoU%3D\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;MovieDataset.csv&quot;,&quot;displayName&quot;:&quot;MovieDataset.csv&quot;,&quot;fileName&quot;:&quot;MovieDataset.csv&quot;,&quot;fileSize&quot;:97365,&quot;mimeType&quot;:&quot;text/csv&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020386_1/xid-69020386_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=Xma4sH7931vKZOkCmnL%2F758Kd79%2FwXNAhSNDLtQjeoU%3D&quot;,&quot;linkName&quot;:&quot;MovieDataset.csv&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020386_1/xid-69020386_1?locale=en_US&amp;isInlineRender=true&amp;render=inline&amp;Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;xythos-download=true&amp;3cCnGYSz89=EdENjpWU6JEKV%2Brc8dcMjOwmpajC%2BmJfFENGV5JIfV4%3D&quot;}\">MovieDataset.csv</a></p> \n<br>",
+      "proctoring": {
+       "secureBrowserRequiredToTake": false,
+       "secureBrowserRequiredToReview": false,
+       "webcamRequired": false
+      },
+      "password": {
+       "enabled": false
+      },
+      "originalityReportingTool": {
+       "id": "safeAssign",
+       "checkSubmission": false,
+       "studentViewReports": false,
+       "excludeSubmissionsFromDatabases": false
+      },
+      "isLateAttemptCreationDisallowed": false
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6089761_1&parentId=_6084750_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "_error": 400,
+       "_url": "/learn/api/public/v1/courses/_294662_1/contents/_6089761_1/attachments"
+      }
+     ]
+    },
+    {
+     "id": "_6094893_1",
+     "parentId": "_6084750_1",
+     "title": "Define Data Requirement",
+     "created": "2026-09-11T19:54:22.669Z",
+     "modified": "2026-09-17T18:18:16.872Z",
+     "position": 2,
+     "hasGradebookColumns": true,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-asmt-test-link",
+      "assessmentId": "_28511751_1",
+      "gradeColumnId": "_1569612_1",
+      "instructions": "<p>Submit you answers to the attached questions through Blackboard</p>\n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182633_1/xid-69182633_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=wsMwUlj212AVyTtlW6uGn3f3wWuTJpjDLMcA6NBCknw%3D\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;DefineRequirements.docx&quot;,&quot;displayName&quot;:&quot;DefineRequirements.docx&quot;,&quot;fileName&quot;:&quot;DefineRequirements.docx&quot;,&quot;fileSize&quot;:21743,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182633_1/xid-69182633_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=wsMwUlj212AVyTtlW6uGn3f3wWuTJpjDLMcA6NBCknw%3D&quot;,&quot;linkName&quot;:&quot;DefineRequirements.docx&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182633_1/xid-69182633_1?locale=en_US&amp;isInlineRender=true&amp;render=inline&amp;Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;xythos-download=true&amp;3cCnGYSz89=hvs8MqAi%2FhnrBPRU1%2B5%2BmoC2Rf%2B8PApTpetdYWoA34s%3D&quot;}\">DefineRequirements.docx</a></p>\n<br>\n<br>\n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182800_1/xid-69182800_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=BWqFB7cGyNQl4Yt5jh8fDAgzJIw0IzKPVgYGX8vI%2FCY%3D\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;StudentGrades.csv&quot;,&quot;displayName&quot;:&quot;StudentGrades.csv&quot;,&quot;fileName&quot;:&quot;StudentGrades.csv&quot;,&quot;fileSize&quot;:62887,&quot;mimeType&quot;:&quot;text/csv&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182800_1/xid-69182800_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=BWqFB7cGyNQl4Yt5jh8fDAgzJIw0IzKPVgYGX8vI%2FCY%3D&quot;,&quot;linkName&quot;:&quot;StudentGrades.csv&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182800_1/xid-69182800_1?locale=en_US&amp;isInlineRender=true&amp;render=inline&amp;Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;xythos-download=true&amp;3cCnGYSz89=lE6cMlQ8%2FPNxMWqq0RG1S52ZxDaTP%2BOYran27BItgu0%3D&quot;}\">StudentGrades.csv</a></p>",
+      "proctoring": {
+       "secureBrowserRequiredToTake": false,
+       "secureBrowserRequiredToReview": false,
+       "webcamRequired": false
+      },
+      "password": {
+       "enabled": false
+      },
+      "originalityReportingTool": {
+       "id": "safeAssign",
+       "checkSubmission": false,
+       "studentViewReports": false,
+       "excludeSubmissionsFromDatabases": false
+      },
+      "isLateAttemptCreationDisallowed": false
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6094893_1&parentId=_6084750_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "_error": 400,
+       "_url": "/learn/api/public/v1/courses/_294662_1/contents/_6094893_1/attachments"
+      }
+     ]
+    },
+    {
+     "id": "_6101631_1",
+     "parentId": "_6084750_1",
+     "title": "JDQ Chapters 3 & 4 Data Quality Assessment",
+     "created": "2026-09-22T13:51:33.470Z",
+     "modified": "2026-09-22T13:58:21.712Z",
+     "position": 3,
+     "hasGradebookColumns": true,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-asmt-test-link",
+      "assessmentId": "_28523012_1",
+      "gradeColumnId": "_1571017_1",
+      "instructions": "<p>Read Chapters 3 and 4 of </p> \n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28523012-dt-asiobject-rid-69419092_1/xid-69419092_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=9i8aK9H%2BdGEY%2FyrDQ8Cm9n8D0acNn1dHTNAsQdgp9E4%3D\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;JDQ 3 and 4 Review.docx&quot;,&quot;displayName&quot;:&quot;JDQ 3 and 4 Review.docx&quot;,&quot;fileName&quot;:&quot;JDQ 3 and 4 Review.docx&quot;,&quot;fileSize&quot;:16868,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28523012-dt-asiobject-rid-69419092_1/xid-69419092_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=9i8aK9H%2BdGEY%2FyrDQ8Cm9n8D0acNn1dHTNAsQdgp9E4%3D&quot;,&quot;linkName&quot;:&quot;JDQ 3 and 4 Review.docx&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28523012-dt-asiobject-rid-69419092_1/xid-69419092_1?locale=en_US&amp;isInlineRender=true&amp;render=inline&amp;Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;xythos-download=true&amp;3cCnGYSz89=w1OtTbW7aJ1rJrelcGWzaVqPbv2ySArC94y0rR5vlpA%3D&quot;}\">JDQ 3 and 4 Review.docx</a></p> \n<p> and submit your answers to the attached questions through Blackboard.</p>",
+      "proctoring": {
+       "secureBrowserRequiredToTake": false,
+       "secureBrowserRequiredToReview": false,
+       "webcamRequired": false
+      },
+      "password": {
+       "enabled": false
+      },
+      "originalityReportingTool": {
+       "id": "safeAssign",
+       "checkSubmission": false,
+       "studentViewReports": false,
+       "excludeSubmissionsFromDatabases": false
+      },
+      "isLateAttemptCreationDisallowed": false
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6101631_1&parentId=_6084750_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "_error": 400,
+       "_url": "/learn/api/public/v1/courses/_294662_1/contents/_6101631_1/attachments"
+      }
+     ]
+    },
+    {
+     "id": "_6151383_1",
+     "parentId": "_6084750_1",
+     "title": "Statistical Problems",
+     "created": "2026-10-27T15:22:05.881Z",
+     "modified": "2026-10-27T15:37:06.245Z",
+     "position": 4,
+     "hasGradebookColumns": true,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-asmt-test-link",
+      "assessmentId": "_28571407_1",
+      "gradeColumnId": "_1587217_1",
+      "instructions": "<p>Submit your answers to the attached questions through Blackboard.</p> \n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28571407-dt-asiobject-rid-70242634_1/xid-70242634_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=Q3H3SPLG1L98%2B9ulSK08WijASG0P5AiFgLvD8GKdkxc%3D\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;,&quot;displayName&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;,&quot;fileName&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;,&quot;fileSize&quot;:43008,&quot;mimeType&quot;:&quot;application/msword&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28571407-dt-asiobject-rid-70242634_1/xid-70242634_1?Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;3cCnGYSz89=Q3H3SPLG1L98%2B9ulSK08WijASG0P5AiFgLvD8GKdkxc%3D&quot;,&quot;linkName&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28571407-dt-asiobject-rid-70242634_1/xid-70242634_1?locale=en_US&amp;isInlineRender=true&amp;render=inline&amp;Kq3cZcYS15=62db3146483c45778b001cf6ffc53c95&amp;VxJw3wfC56=1794458363&amp;xythos-download=true&amp;3cCnGYSz89=njRk2LrLe7Mz7WGr8EHxVGdVV8XwMQYvxG1Bk99VFe8%3D&quot;}\">Probability and Statistics Exercises (12).doc</a></p> \n<br>",
+      "proctoring": {
+       "secureBrowserRequiredToTake": false,
+       "secureBrowserRequiredToReview": false,
+       "webcamRequired": false
+      },
+      "password": {
+       "enabled": false
+      },
+      "originalityReportingTool": {
+       "id": "safeAssign",
+       "checkSubmission": false,
+       "studentViewReports": false,
+       "excludeSubmissionsFromDatabases": false
+      },
+      "isLateAttemptCreationDisallowed": false
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6151383_1&parentId=_6084750_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "_error": 400,
+       "_url": "/learn/api/public/v1/courses/_294662_1/contents/_6151383_1/attachments"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "_6031581_1",
+   "parentId": "_5875855_1",
+   "title": "Resources",
+   "created": "2026-08-21T16:38:05.494Z",
+   "modified": "2026-09-29T15:58:45.879Z",
+   "position": 5,
+   "hasChildren": true,
+   "launchInNewWindow": true,
+   "reviewable": false,
+   "availability": {
+    "available": "Yes",
+    "allowGuests": true,
+    "allowObservers": true,
+    "adaptiveRelease": {}
+   },
+   "contentHandler": {
+    "id": "resource/x-bb-folder"
+   },
+   "links": [
+    {
+     "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&parentId=null",
+     "rel": "alternate",
+     "title": "User Interface View",
+     "type": "text/html"
+    }
+   ],
+   "_children": [
+    {
+     "id": "_6032582_1",
+     "parentId": "_6031581_1",
+     "title": "Journey to Data Quality- Textbook.pdf",
+     "created": "2026-08-21T19:17:24.704Z",
+     "modified": "2026-09-17T18:18:16.745Z",
+     "position": 0,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "Journey to Data Quality- Textbook.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6032582_1&parentId=_6031581_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4596821_1",
+       "fileName": "Journey to Data Quality- Textbook.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6095640_1",
+     "parentId": "_6031581_1",
+     "title": "ISO 8000-61.pdf",
+     "created": "2026-09-13T18:13:55.096Z",
+     "modified": "2026-09-17T18:18:16.812Z",
+     "position": 1,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "ISO 8000-61.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6095640_1&parentId=_6031581_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4632085_1",
+       "fileName": "ISO 8000-61.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6095948_1",
+     "parentId": "_6031581_1",
+     "title": "Ehrlinger DQ Rule Generation with LLMs.pdf",
+     "created": "2026-09-14T13:37:23.650Z",
+     "modified": "2026-09-17T18:18:16.864Z",
+     "position": 2,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "Ehrlinger DQ Rule Generation with LLMs.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6095948_1&parentId=_6031581_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4634849_1",
+       "fileName": "Ehrlinger DQ Rule Generation with LLMs.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    },
+    {
+     "id": "_6097084_1",
+     "parentId": "_6031581_1",
+     "title": "Wang - Manage_your_information_as_a_product.pdf",
+     "created": "2026-09-15T18:38:20.247Z",
+     "modified": "2026-09-17T18:18:16.930Z",
+     "position": 3,
+     "launchInNewWindow": true,
+     "reviewable": true,
+     "availability": {
+      "available": "Yes",
+      "allowGuests": true,
+      "allowObservers": true,
+      "adaptiveRelease": {}
+     },
+     "contentHandler": {
+      "id": "resource/x-bb-file",
+      "file": {
+       "fileName": "Wang - Manage_your_information_as_a_product.pdf",
+       "mimeType": "application/pdf"
+      },
+      "fileAssociationMode": "Embed"
+     },
+     "links": [
+      {
+       "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6097084_1&parentId=_6031581_1",
+       "rel": "alternate",
+       "title": "User Interface View",
+       "type": "text/html"
+      }
+     ],
+     "_attachments": [
+      {
+       "id": "_4637454_1",
+       "fileName": "Wang - Manage_your_information_as_a_product.pdf",
+       "mimeType": "application/pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "_6106761_1",
+   "parentId": "_5875855_1",
+   "title": "Practice Exam",
+   "created": "2026-09-28T19:37:39.426Z",
+   "modified": "2026-09-30T17:27:06.915Z",
+   "position": 6,
+   "hasGradebookColumns": true,
+   "launchInNewWindow": true,
+   "reviewable": true,
+   "availability": {
+    "available": "Yes",
+    "allowGuests": true,
+    "allowObservers": true,
+    "adaptiveRelease": {}
+   },
+   "contentHandler": {
+    "id": "resource/x-bb-asmt-test-link",
+    "assessmentId": "_28530634_1",
+    "gradeColumnId": "_1572148_1",
+    "proctoring": {
+     "serviceVendor": "Respondus",
+     "browserDownloadUrl": "https://download.respondus.com/lockdown/download.php?id=536413901",
+     "serviceHandle": "rs-lockdown",
+     "secureBrowserRequiredToTake": true,
+     "secureBrowserRequiredToReview": true,
+     "webcamRequired": true,
+     "backup": "eNqFV81y2zYQvvspcEg69oxG7k+SHurxVJHsVjO2pbGcZnLKgMDKQg0SNH4s69bX6Ov1SfoBpESKopKLJO4uF7vffrsLrSkTPB+vSDy9efv72zfeBjph60Z6Y45pZlaSTaof9+QP9OqT+KK8HMm/g/PMr4hBTZYzZ9jGBMtUzh+J8bIkbh0rrSnJ6g1TRTJeq0KaNctIm/Xw4ry8hK+HFRVMaCWe2EV2eU/CWMmu1QuxBX4Xkv2lJJmL8+ySnfqVcuwlPsOV1nDEpHKCI2TJ+NKTrY5JUTMRwz5L5+xnWHplipTL7ehuMnqY3X85YUsuaK5EF7O2uANaW9Wg9m5f0YZtbpyKR1dQRauIm/JsiWQcyw0wNcuUQqmED7YfsRtjnoCoN+0CcCC1Q/GBPxGbVy7wWEOwF2+DwWz+MJ3djW5OmJLd7GvJLvEl164RN0m/38l2+f5ptKw5IanwaqkET8kfxu1Ik/Dsh+dg/G/t2IeV6CKz55enswJECo7S235TUsSq4xtoxZ9gQ7apDy8cUhHe2LNhE3hf9lS8dNPfirr5b+UNAB8a4Q6B25iJi1WMEXNLyNaaUNSwCJOXIVIWnBYa/RLzKTkaxg1Yhhrjq1yZgvBNXgwTCuljnOpcYbPw3HpWtY0qHithhSooA8S80v685DXp6tYA7TjLrKJl3U4CBuimnEvaUvBowEN2Ol22Gw0JZAHHNKTMTaEA+YClOSHr4ZBRHBqGuRUoHc0ATvKPwNNxw7NjSZryIMd1HBxLVSi3IjlsFaWvuFzK1HpcT2tC4MG1St1v0C18v1VDg5+PmexIMQk2ZpsmGb3yfBChiYgELYv//vnXMy4EOccMALLMkgNyELBTXrFhwDzPNPkBK4ynhiqRImfMpDLloUhtgPHhV7WnkkypacjmoBqayHmexnIqjCPuE2eWRgQcXU3rHUGdsASsAzpNJ00MPNEWFggFXkEIHtsP5jakAjAjREhUjjQDEem11Bwnrlc4bBVXRFH1qcOyeIqgSGUxByJnTZutQzYq5CCWmmu9GQCTnPIszXp4ivCBvQADJyjfxFeFi1fYcwDxYhUiyXZBy6pLQpYrH5/iHAZ8j5ZHkg2PFruPXhitiusJvCajniVyoD5cJgcmDa9+7TfYserI+72LLjX8HwGfWmG4tGLoaDoRdrRNcL8c6Fpxdd/qQy8/XLt5/8rND9btT42wvWoXkVOR3xxtYnOu2YtR2Lex5Ly5veSU+J2WcFy/4F5uXtBt9YUlV1JqNEsF6nYBj7d7dmzAsSJQup2keRTZGEnmsI/cUoFWqQXTsCMP40dXb+P8W5uYB6lMS3N/NZ7dT76Obj9Or+4evi5mn+4mcFG+uyriMJDtGVXP3uptrtsqLbN7eg5oM3lt7DWRzPgevlzyRShLY32PYyhr6VS6uryYQH7OnVtjNNei2IUdUZZ1BBpl3XcuuBZBcwR+ayRVo3K6GH28uUKiJWZmxK5H5UrsDYkVQL5Hi+4366tXFBlITEyO+eP2FnmPCrGsrMkpztU2ChVCGjfTuTXxQoGAelDaN1hsnKc86YugdVc93obcpxwd31l95gts1W+8UocXd+8XzNbPxj71RN9WT3PEhym6/TNAyXyRlsFuGbdfrhbTJ0d95KkqIUhDf6DAcbIjd/vnxNvfd9TtlA8L18INl8jqv8U43UHbbltWWAaCrvfHassfFo5abjr6G+Pc92w+c1VB+gGYlljuK+zjg3JNaMkDrlRbg91FNlqcMEnVDjv63tYAI845/Cc7Yf8Dz6jWAA=="
+    },
+    "password": {
+     "enabled": false
+    },
+    "originalityReportingTool": {
+     "id": "safeAssign",
+     "checkSubmission": false,
+     "studentViewReports": false,
+     "excludeSubmissionsFromDatabases": false
+    },
+    "isLateAttemptCreationDisallowed": false
+   },
+   "links": [
+    {
+     "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6106761_1&parentId=_5875855_1",
+     "rel": "alternate",
+     "title": "User Interface View",
+     "type": "text/html"
+    }
+   ],
+   "_attachments": [
+    {
+     "_error": 400,
+     "_url": "/learn/api/public/v1/courses/_294662_1/contents/_6106761_1/attachments"
+    }
+   ]
+  },
+  {
+   "id": "_6118979_1",
+   "parentId": "_5875855_1",
+   "title": "Mid-Term Exam Second Attempt",
+   "created": "2026-10-04T14:01:28.155Z",
+   "modified": "2026-11-03T19:46:13.998Z",
+   "position": 8,
+   "hasGradebookColumns": true,
+   "launchInNewWindow": true,
+   "reviewable": true,
+   "availability": {
+    "available": "Yes",
+    "allowGuests": true,
+    "allowObservers": true,
+    "adaptiveRelease": {}
+   },
+   "contentHandler": {
+    "id": "resource/x-bb-asmt-test-link",
+    "assessmentId": "_28560924_1",
+    "gradeColumnId": "_1575286_1",
+    "proctoring": {
+     "serviceVendor": "Respondus",
+     "browserDownloadUrl": "https://download.respondus.com/lockdown/download.php?id=536413901",
+     "serviceHandle": "rs-lockdown",
+     "secureBrowserRequiredToTake": true,
+     "secureBrowserRequiredToReview": true,
+     "webcamRequired": true,
+     "backup": "eNqFV81y2zYQvvspcEg69oxG7k+SHurxVJHsVjO2pbGcZnLKgMDKQg0SNH4s69bX6Ov1SfoBpESKopKLJO4uF7vffrsLrSkTPB+vSDy9efv72zfeBjph60Z6Y45pZlaSTaof9+QP9OqT+KK8HMm/g/PMr4hBTZYzZ9jGBMtUzh+J8bIkbh0rrSnJ6g1TRTJeq0KaNctIm/Xw4ry8hK+HFRVMaCWe2EV2eU/CWMmu1QuxBX4Xkv2lJJmL8+ySnfqVcuwlPsOV1nDEpHKCI2TJ+NKTrY5JUTMRwz5L5+xnWHplipTL7ehuMnqY3X85YUsuaK5EF7O2uANaW9Wg9m5f0YZtbpyKR1dQRauIm/JsiWQcyw0wNcuUQqmED7YfsRtjnoCoN+0CcCC1Q/GBPxGbVy7wWEOwF2+DwWz+MJ3djW5OmJLd7GvJLvEl164RN0m/38l2+f5ptKw5IanwaqkET8kfxu1Ik/Dsh+dg/G/t2IeV6CKz55enswJECo7S235TUsSq4xtoxZ9gQ7apDy8cUhHe2LNhE3hf9lS8dNPfirr5b+UNAB8a4Q6B25iJi1WMEXNLyNaaUNSwCJOXIVIWnBYa/RLzKTkaxg1Yhhrjq1yZgvBNXgwTCuljnOpcYbPw3HpWtY0qHithhSooA8S80v685DXp6tYA7TjLrKJl3U4CBuimnEvaUvBowEN2Ol22Gw0JZAHHNKTMTaEA+YClOSHr4ZBRHBqGuRUoHc0ATvKPwNNxw7NjSZryIMd1HBxLVSi3IjlsFaWvuFzK1HpcT2tC4MG1St1v0C18v1VDg5+PmexIMQk2ZpsmGb3yfBChiYgELYv//vnXMy4EOccMALLMkgNyELBTXrFhwDzPNPkBK4ynhiqRImfMpDLloUhtgPHhV7WnkkypacjmoBqayHmexnIqjCPuE2eWRgQcXU3rHUGdsASsAzpNJ00MPNEWFggFXkEIHtsP5jakAjAjREhUjjQDEem11Bwnrlc4bBVXRFH1qcOyeIqgSGUxByJnTZutQzYq5CCWmmu9GQCTnPIszXp4ivCBvQADJyjfxFeFi1fYcwDxYhUiyXZBy6pLQpYrH5/iHAZ8j5ZHkg2PFruPXhitiusJvCajniVyoD5cJgcmDa9+7TfYserI+72LLjX8HwGfWmG4tGLoaDoRdrRNcL8c6Fpxdd/qQy8/XLt5/8rND9btT42wvWoXkVOR3xxtYnOu2YtR2Lex5Ly5veSU+J2WcFy/4F5uXtBt9YUlV1JqNEsF6nYBj7d7dmzAsSJQup2keRTZGEnmsI/cUoFWqQXTsCMP40dXb+P8W5uYB6lMS3N/NZ7dT76Obj9Or+4evi5mn+4mcFG+uyriMJDtGVXP3uptrtsqLbN7eg5oM3lt7DWRzPgevlzyRShLY32PYyhr6VS6uryYQH7OnVtjNNei2IUdUZZ1BBpl3XcuuBZBcwR+ayRVo3K6GH28uUKiJWZmxK5H5UrsDYkVQL5Hi+4366tXFBlITEyO+eP2FnmPCrGsrMkpztU2ChVCGjfTuTXxQoGAelDaN1hsnKc86YugdVc93obcpxwd31l95gts1W+8UocXd+8XzNbPxj71RN9WT3PEhym6/TNAyXyRlsFuGbdfrhbTJ0d95KkqIUhDf6DAcbIjd/vnxNvfd9TtlA8L18INl8jqv8U43UHbbltWWAaCrvfHassfFo5abjr6G+Pc92w+c1VB+gGYlljuK+zjg3JNaMkDrlRbg91FNlqcMEnVDjv63tYAI845/Cc7Yf8Dz6jWAA=="
+    },
+    "password": {
+     "enabled": false
+    },
+    "originalityReportingTool": {
+     "id": "safeAssign",
+     "checkSubmission": false,
+     "studentViewReports": false,
+     "excludeSubmissionsFromDatabases": false
+    },
+    "isLateAttemptCreationDisallowed": false
+   },
+   "links": [
+    {
+     "href": "/ultra/redirect?redirectType=nautilus&courseId=_294662_1&contentId=_6118979_1&parentId=_5875855_1",
+     "rel": "alternate",
+     "title": "User Interface View",
+     "type": "text/html"
+    }
+   ],
+   "_attachments": [
+    {
+     "_error": 400,
+     "_url": "/learn/api/public/v1/courses/_294662_1/contents/_6118979_1/attachments"
+    }
+   ]
+  }
+ ],
+ "announcements": [
+  {
+   "id": "_531026_1",
+   "title": "No class today",
+   "body": "<p>We will not meet class today. I don't want to cover any new material, and I need time to catch up on grading.</p><p>We will meet next Tuesday to review for the mid-term next Thursday.</p><p>Thanks,</p><p>-jrt-</p>",
+   "draft": false,
+   "availability": {
+    "duration": {
+     "type": "Permanent",
+     "start": "2026-10-01T16:07:54.478Z",
+     "end": null
+    }
+   },
+   "creatorUserId": "_1376_1",
+   "created": "2026-10-01T16:07:54.470Z",
+   "modified": "2026-10-01T16:07:54.480Z",
+   "position": 1,
+   "creator": "_1376_1"
+  },
+  {
+   "id": "_531025_1",
+   "title": "No Class Today",
+   "body": "<p>We will not meet class today. I don't want to cover any new material, and I need time to catch up on grading. </p><p>We will meet next Tuesday to review for the mid-term next Thursday.</p><p>Thanks,</p><p>-jrt-</p>",
+   "draft": false,
+   "availability": {
+    "duration": {
+     "type": "Permanent",
+     "start": "2026-10-01T16:06:57.534Z",
+     "end": null
+    }
+   },
+   "creatorUserId": "_1376_1",
+   "created": "2026-10-01T16:06:57.518Z",
+   "modified": "2026-10-01T16:06:57.535Z",
+   "position": 2,
+   "creator": "_1376_1"
+  },
+  {
+   "id": "_530392_1",
+   "title": "Practice Exam",
+   "body": "<p>Practice Exam is now available. It requires you to use the lockdown browser and Respondus monitoring. Please complete this exam sometime this week so you will be prepared for the read exam next week.</p><p>-jrt-</p>",
+   "draft": false,
+   "availability": {
+    "duration": {
+     "type": "Permanent",
+     "start": "2026-09-28T20:13:18.995Z",
+     "end": null
+    }
+   },
+   "creatorUserId": "_1376_1",
+   "created": "2026-09-28T20:13:18.973Z",
+   "modified": "2026-09-28T20:13:18.996Z",
+   "position": 3,
+   "creator": "_1376_1"
+  },
+  {
+   "id": "_527270_1",
+   "title": "Class Location Update",
+   "body": "<p>Hi everyone,</p><br><p>Today’s class will be held <strong>in person in EIT 218</strong>.</p><br><p>Thank you,</p><p>Safa Naaz.</p>",
+   "draft": false,
+   "availability": {
+    "duration": {
+     "type": "Permanent",
+     "start": "2026-09-01T16:41:16.525Z",
+     "end": null
+    }
+   },
+   "creatorUserId": "_193596_1",
+   "created": "2026-09-01T16:41:16.514Z",
+   "modified": "2026-09-01T16:41:16.527Z",
+   "position": 4,
+   "creator": "_193596_1"
+  }
+ ],
+ "columns": [
+  {
+   "id": "_1567442_1",
+   "name": "Chapter 1 Review",
+   "contentId": "_6084819_1",
+   "score": {
+    "possible": 100
+   },
+   "availability": {
+    "available": "Yes"
+   },
+   "grading": {
+    "type": "Attempts",
+    "due": "2026-09-03T18:40:00.000Z",
+    "attemptsAllowed": 0,
+    "scoringModel": "Last"
+   },
+   "gradebookCategoryId": "_2181707_1",
+   "includeInCalculations": true,
+   "scoreProviderHandle": "resource/x-bb-assessment",
+   "learningOutcome": {
+    "signature": false
+   }
+  },
+  {
+   "id": "_1568431_1",
+   "name": "Data Analysis",
+   "contentId": "_6089761_1",
+   "score": {
+    "possible": 100
+   },
+   "availability": {
+    "available": "Yes"
+   },
+   "grading": {
+    "type": "Attempts",
+    "due": "2026-09-10T18:40:00.000Z",
+    "attemptsAllowed": 0,
+    "scoringModel": "Last"
+   },
+   "gradebookCategoryId": "_2181707_1",
+   "includeInCalculations": true,
+   "scoreProviderHandle": "resource/x-bb-assessment",
+   "learningOutcome": {
+    "signature": false
+   }
+  },
+  {
+   "id": "_1569612_1",
+   "name": "Define Data Requirement",
+   "contentId": "_6094893_1",
+   "score": {
+    "possible": 100
+   },
+   "availability": {
+    "available": "Yes"
+   },
+   "grading": {
+    "type": "Attempts",
+    "due": "2026-09-17T18:40:00.000Z",
+    "attemptsAllowed": 0,
+    "scoringModel": "Last"
+   },
+   "gradebookCategoryId": "_2181707_1",
+   "includeInCalculations": true,
+   "scoreProviderHandle": "resource/x-bb-assessment",
+   "learningOutcome": {
+    "signature": false
+   }
+  },
+  {
+   "id": "_1571017_1",
+   "name": "JDQ Chapters 3 & 4 Data Quality Assessment",
+   "contentId": "_6101631_1",
+   "score": {
+    "possible": 100
+   },
+   "availability": {
+    "available": "Yes"
+   },
+   "grading": {
+    "type": "Attempts",
+    "due": "2026-09-29T18:40:00.000Z",
+    "attemptsAllowed": 0,
+    "scoringModel": "Last"
+   },
+   "gradebookCategoryId": "_2181707_1",
+   "includeInCalculations": true,
+   "scoreProviderHandle": "resource/x-bb-assessment",
+   "learningOutcome": {
+    "signature": false
+   }
+  },
+  {
+   "id": "_1572148_1",
+   "name": "Practice Exam",
+   "contentId": "_6106761_1",
+   "score": {
+    "possible": 3
+   },
+   "availability": {
+    "available": "Yes"
+   },
+   "grading": {
+    "type": "Attempts",
+    "due": "2026-10-05T04:59:00.000Z",
+    "attemptsAllowed": 0,
+    "scoringModel": "Last"
+   },
+   "gradebookCategoryId": "_2181705_1",
+   "includeInCalculations": true,
+   "scoreProviderHandle": "resource/x-bb-assessment",
+   "learningOutcome": {
+    "signature": false
+   }
+  },
+  {
+   "id": "_1575286_1",
+   "name": "Mid-Term Exam Second Attempt",
+   "contentId": "_6118979_1",
+   "score": {
+    "possible": 60
+   },
+   "availability": {
+    "available": "Yes"
+   },
+   "grading": {
+    "type": "Attempts",
+    "due": "2026-10-25T04:55:00.000Z",
+    "attemptsAllowed": 1,
+    "scoringModel": "Last"
+   },
+   "gradebookCategoryId": "_2181705_1",
+   "includeInCalculations": true,
+   "scoreProviderHandle": "resource/x-bb-assessment",
+   "learningOutcome": {
+    "signature": false
+   }
+  },
+  {
+   "id": "_1587217_1",
+   "name": "Statistical Problems",
+   "contentId": "_6151383_1",
+   "score": {
+    "possible": 100
+   },
+   "availability": {
+    "available": "Yes"
+   },
+   "grading": {
+    "type": "Attempts",
+    "due": "2026-11-03T19:40:00.000Z",
+    "attemptsAllowed": 0,
+    "scoringModel": "Last"
+   },
+   "gradebookCategoryId": "_2181707_1",
+   "includeInCalculations": true,
+   "scoreProviderHandle": "resource/x-bb-assessment",
+   "learningOutcome": {
+    "signature": false
+   }
+  }
+ ],
+ "myGrades": [
+  {
+   "userId": "_126012_1",
+   "columnId": "_1567442_1",
+   "status": "Graded",
+   "displayGrade": {
+    "scaleType": "Score",
+    "score": 100,
+    "possible": 100
+   },
+   "feedback": "<p>Well done!</p>",
+   "exempt": false,
+   "changeIndex": 366663027,
+   "firstRelevantDate": "2026-09-13T16:41:05.983Z",
+   "lastRelevantDate": "2026-09-13T16:41:05.983Z"
+  },
+  {
+   "userId": "_126012_1",
+   "columnId": "_1568431_1",
+   "status": "Graded",
+   "displayGrade": {
+    "scaleType": "Score",
+    "score": 100,
+    "possible": 100
+   },
+   "feedback": "<p>A few things I noticed</p><p>1) There is an issue with special character encoding. The director Allfonso Curaón has a special character in his last name that is rendered incorrectly if you open this file in OpenRefine or Excel, but correctly in NotePad and other editors.</p><p>2) There is a semantic inconsistency in the Duration column. The implied meaning of duration would be the elapsed time, e.g., 90 minutes, but some entries have \"1 Season\" which is a different interpretation of duration.</p><p>3) Description has placeholder value of \"Description of show.\" in all 860 rows which qualifies all of them as \"missing values\". Even though all values are non-blank/non-null values, they are not the actual descriptions.</p>",
+   "exempt": false,
+   "changeIndex": 366662973,
+   "firstRelevantDate": "2026-09-13T17:26:07.882Z",
+   "lastRelevantDate": "2026-09-13T17:26:07.882Z"
+  },
+  {
+   "userId": "_126012_1",
+   "columnId": "_1569612_1",
+   "status": "Graded",
+   "displayGrade": {
+    "scaleType": "Score",
+    "score": 95,
+    "possible": 100
+   },
+   "feedback": "<p>Lester,</p><p>You are making a lot of assumptions. How do you know that the Program Code must be 5 characters? There is no Program Code in StudentGrades.csv</p><p>There is no First Name and Last Name field in StudentGrades.csv. We are not trying to redesign this file, just assess the fitness of its contents to produce the finale grade report.</p><p>Try not to mix data requirements with process requirements.</p><p>-jrt-</p>",
+   "exempt": false,
+   "changeIndex": 367692451,
+   "firstRelevantDate": "2026-10-01T19:18:51.081Z",
+   "lastRelevantDate": "2026-10-01T19:18:51.081Z"
+  },
+  {
+   "userId": "_126012_1",
+   "columnId": "_1571017_1",
+   "status": "Graded",
+   "displayGrade": {
+    "scaleType": "Score",
+    "score": 80,
+    "possible": 100
+   },
+   "feedback": "<p>Good work, but late,</p><p>-jrt-</p>",
+   "exempt": false,
+   "changeIndex": 367783577,
+   "firstRelevantDate": "2026-10-06T16:47:34.610Z",
+   "lastRelevantDate": "2026-10-06T16:47:34.610Z"
+  },
+  {
+   "userId": "_126012_1",
+   "columnId": "_1572148_1",
+   "status": "Graded",
+   "displayGrade": {
+    "scaleType": "Score",
+    "score": 2,
+    "possible": 3
+   },
+   "exempt": false,
+   "changeIndex": 367910643,
+   "firstRelevantDate": "2026-10-09T17:48:28.983Z",
+   "lastRelevantDate": "2026-10-09T17:48:28.983Z"
+  },
+  {
+   "userId": "_126012_1",
+   "columnId": "_1575286_1",
+   "status": "Graded",
+   "displayGrade": {
+    "scaleType": "Score",
+    "score": 56,
+    "possible": 60
+   },
+   "exempt": false,
+   "changeIndex": 368831618,
+   "firstRelevantDate": "2026-10-25T04:24:25.244Z",
+   "lastRelevantDate": "2026-10-25T04:24:25.244Z"
+  },
+  {
+   "userId": "_126012_1",
+   "columnId": "_1587217_1",
+   "status": "Graded",
+   "displayGrade": {
+    "scaleType": "Score",
+    "score": 100,
+    "possible": 100
+   },
+   "feedback": "<p>Excellent work. Your answers are accurate, clearly organized, and supported by detailed calculations. Both graphs are correctly constructed, and all required tables are included. Minor rounding differences were accepted.</p>",
+   "exempt": false,
+   "changeIndex": 369421059,
+   "firstRelevantDate": "2026-11-07T02:43:17.343Z",
+   "lastRelevantDate": "2026-11-07T02:43:17.344Z"
+  }
+ ],
+ "attempts": {
+  "_1567442_1": [
+   {
+    "id": "_14772305_1",
+    "userId": "_126012_1",
+    "status": "Completed",
+    "readyToPost": true,
+    "displayGrade": {
+     "scaleType": "Score",
+     "score": 100
+    },
+    "exempt": false,
+    "created": "2026-09-03T00:18:19.088Z",
+    "attemptReceipt": {
+     "receiptId": "29a50574e6ca4bef99c4cb3cbf175e8b",
+     "submissionDate": "2026-09-03T00:18:32.644Z",
+     "submissionTotalSize": 22605
+    }
+   }
+  ],
+  "_1568431_1": [
+   {
+    "id": "_14794470_1",
+    "userId": "_126012_1",
+    "status": "Completed",
+    "readyToPost": true,
+    "displayGrade": {
+     "scaleType": "Score",
+     "score": 100
+    },
+    "exempt": false,
+    "created": "2026-09-08T05:03:53.191Z",
+    "attemptReceipt": {
+     "receiptId": "891d086bedf8468c9cf68f2867459e95",
+     "submissionDate": "2026-09-08T05:04:02.028Z",
+     "submissionTotalSize": 9801
+    }
+   }
+  ],
+  "_1569612_1": [
+   {
+    "id": "_14837773_1",
+    "userId": "_126012_1",
+    "status": "Completed",
+    "readyToPost": true,
+    "displayGrade": {
+     "scaleType": "Score",
+     "score": 95
+    },
+    "exempt": false,
+    "created": "2026-09-17T06:58:45.840Z",
+    "attemptReceipt": {
+     "receiptId": "f92e0a6e2159421c872507fe3fa36906",
+     "submissionDate": "2026-09-17T06:58:52.134Z",
+     "submissionTotalSize": 29949
+    }
+   }
+  ],
+  "_1571017_1": [
+   {
+    "id": "_14894309_1",
+    "userId": "_126012_1",
+    "status": "Completed",
+    "readyToPost": true,
+    "displayGrade": {
+     "scaleType": "Score",
+     "score": 80
+    },
+    "exempt": false,
+    "created": "2026-09-29T20:57:17.573Z",
+    "attemptReceipt": {
+     "receiptId": "7110ae95eb4e438983f9a70f423a7799",
+     "submissionDate": "2026-09-29T20:57:23.697Z",
+     "submissionTotalSize": 25025
+    }
+   }
+  ],
+  "_1572148_1": [
+   {
+    "id": "_14900836_1",
+    "userId": "_126012_1",
+    "status": "Completed",
+    "readyToPost": false,
+    "displayGrade": {
+     "scaleType": "Score",
+     "score": 1
+    },
+    "exempt": false,
+    "created": "2026-10-01T06:29:44.826Z",
+    "attemptReceipt": {
+     "receiptId": "7064f75ec6e54fffb3bbc432e27a2659",
+     "submissionDate": "2026-10-01T06:30:33.252Z",
+     "submissionTotalSize": 0
+    }
+   },
+   {
+    "id": "_14936925_1",
+    "userId": "_126012_1",
+    "status": "Completed",
+    "readyToPost": false,
+    "displayGrade": {
+     "scaleType": "Score",
+     "score": 2
+    },
+    "exempt": false,
+    "created": "2026-10-09T17:31:34.735Z",
+    "attemptReceipt": {
+     "receiptId": "c4b9d88883d1408197295103c756b29d",
+     "submissionDate": "2026-10-09T17:35:56.387Z",
+     "submissionTotalSize": 0
+    }
+   },
+   {
+    "id": "_14936968_1",
+    "userId": "_126012_1",
+    "status": "Completed",
+    "readyToPost": false,
+    "displayGrade": {
+     "scaleType": "Score",
+     "score": 2
+    },
+    "exempt": false,
+    "created": "2026-10-09T17:45:30.297Z",
+    "attemptReceipt": {
+     "receiptId": "b724e74a1dc442c69dbeffa17b2bb379",
+     "submissionDate": "2026-10-09T17:48:28.973Z",
+     "submissionTotalSize": 0
+    }
+   }
+  ],
+  "_1575286_1": [
+   {
+    "id": "_14999695_1",
+    "userId": "_126012_1",
+    "status": "Completed",
+    "readyToPost": true,
+    "displayGrade": {
+     "scaleType": "Score",
+     "score": 56
+    },
+    "exempt": false,
+    "created": "2026-10-25T03:28:57.001Z",
+    "attemptReceipt": {
+     "receiptId": "9b574e4d234145d981cbfcd67fc997c3",
+     "submissionDate": "2026-10-25T04:24:25.205Z",
+     "submissionTotalSize": 0
+    }
+   }
+  ],
+  "_1587217_1": [
+   {
+    "id": "_15040728_1",
+    "userId": "_126012_1",
+    "status": "Completed",
+    "readyToPost": true,
+    "displayGrade": {
+     "scaleType": "Score",
+     "score": 100
+    },
+    "exempt": false,
+    "created": "2026-11-03T06:52:27.225Z",
+    "attemptReceipt": {
+     "receiptId": "fdf2def38535473c959dfc4533edd01b",
+     "submissionDate": "2026-11-03T06:52:35.750Z",
+     "submissionTotalSize": 137077
+    }
+   }
+  ]
+ },
+ "attemptsPrivate": {
+  "_14772305_1": {
+   "override": false,
+   "courseId": "_294662_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14732573_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-09-03T00:18:19.088Z",
+   "attemptReceipt": {
+    "receiptId": "29a50574e6ca4bef99c4cb3cbf175e8b",
+    "submissionDate": "2026-09-03T00:18:32.644Z",
+    "submissionTotalSize": 22605,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-09-13T16:51:35.868Z",
+   "attemptDate": "2026-09-03T00:18:32.644Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/gradebook/submission/attempt/3/0/5/_14772305_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBAMBDUxhPg96MKaLeeTeigi76zNDGqCxQ%2BCJxf5NLaoH3floBlpDXWGZw2P%2B0wTbi8vP02/3g3deKcniYBb9VB5kdaXtp7YjZ0%3D"
+   },
+   "readyToPost": true,
+   "id": "_14772305_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "a5e9114b0ea4493a8cbd53122aec1a73",
+     "linkName": "Lester Carcamo JDQ 1 Review.docx",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8694972_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-69003693_1",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileName": "Lester Carcamo JDQ 1 Review.docx"
+     },
+     "fileType": "STUDENT",
+     "name": "Lester Carcamo JDQ 1 Review.docx",
+     "id": "_4616349_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-09-13T16:41:05.983Z",
+   "attemptLastGradedDate": "2026-09-13T16:41:05.983Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 100
+   }
+  },
+  "_14794470_1": {
+   "override": false,
+   "courseId": "_294662_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14757514_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-09-08T05:03:53.191Z",
+   "attemptReceipt": {
+    "receiptId": "891d086bedf8468c9cf68f2867459e95",
+    "submissionDate": "2026-09-08T05:04:02.028Z",
+    "submissionTotalSize": 9801,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-09-13T17:56:55.173Z",
+   "attemptDate": "2026-09-08T05:04:02.028Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/gradebook/submission/attempt/4/7/0/_14794470_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBAMBDUxhPg96MKaLeeTeigi76zNDGqCxQ%2BCJxf5NLaoHyv04CxzsrbDQMSqri87uZXmD4aA21PHzKcniYBb9VB5kdaXtp7YjZ0%3D"
+   },
+   "readyToPost": true,
+   "id": "_14794470_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "ec46b866f7c444a2a5584f785b1b730b",
+     "linkName": "Lester Carcamo Data Analysis HW02.txt",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8703364_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-69100948_1",
+      "mimeType": "text/plain",
+      "fileName": "Lester Carcamo Data Analysis HW02.txt"
+     },
+     "fileType": "STUDENT",
+     "name": "Lester Carcamo Data Analysis HW02.txt",
+     "id": "_4623689_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-09-13T17:26:07.882Z",
+   "attemptLastGradedDate": "2026-09-13T17:26:07.882Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 100
+   }
+  },
+  "_14837773_1": {
+   "override": false,
+   "courseId": "_294662_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14808618_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-09-17T06:58:45.840Z",
+   "attemptReceipt": {
+    "receiptId": "f92e0a6e2159421c872507fe3fa36906",
+    "submissionDate": "2026-09-17T06:58:52.134Z",
+    "submissionTotalSize": 29949,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-10-02T19:48:22.905Z",
+   "attemptDate": "2026-09-17T06:58:52.134Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/gradebook/submission/attempt/7/7/3/_14837773_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBAMBDUxhPg96MKaLeeTeigi76zNDGqCxQ%2BCJxf5NLaoHxU3pSQ415heXQHXgAa9GiHaTnhqPaqXqKcniYBb9VB5kdaXtp7YjZ0%3D"
+   },
+   "readyToPost": true,
+   "id": "_14837773_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "61cd3b0420664d76ba8462672c8c302a",
+     "linkName": "Lester_Carcamo_HW03.docx",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8722637_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-69302000_1",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileName": "Lester_Carcamo_HW03.docx"
+     },
+     "fileType": "STUDENT",
+     "name": "Lester_Carcamo_HW03.docx",
+     "id": "_4640700_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-10-01T19:18:51.081Z",
+   "attemptLastGradedDate": "2026-10-01T19:18:51.081Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 95
+   }
+  },
+  "_14894309_1": {
+   "override": false,
+   "courseId": "_294662_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14878278_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-09-29T20:57:17.573Z",
+   "attemptReceipt": {
+    "receiptId": "7110ae95eb4e438983f9a70f423a7799",
+    "submissionDate": "2026-09-29T20:57:23.697Z",
+    "submissionTotalSize": 25025,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-10-06T17:12:14.015Z",
+   "attemptDate": "2026-09-29T20:57:23.697Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/gradebook/submission/attempt/3/0/9/_14894309_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBAMBDUxhPg96MKaLeeTeigi76zNDGqCxQ%2BCJxf5NLaoH3floBlpDXWGc/K1UsUoc7WoGZYIFqExXacniYBb9VB5kdaXtp7YjZ0%3D"
+   },
+   "readyToPost": true,
+   "id": "_14894309_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "b91c2f4fc34449159ca1967b3e3d69cc",
+     "linkName": "Lester_Carcamo_HW04.docx",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8752053_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-69605206_1",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileName": "Lester_Carcamo_HW04.docx"
+     },
+     "fileType": "STUDENT",
+     "name": "Lester_Carcamo_HW04.docx",
+     "id": "_4666399_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-10-06T16:47:34.610Z",
+   "attemptLastGradedDate": "2026-10-06T16:47:34.610Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 80
+   }
+  },
+  "_14900836_1": {
+   "override": false,
+   "courseId": "_294662_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14885685_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-10-01T06:29:44.826Z",
+   "attemptReceipt": {
+    "receiptId": "7064f75ec6e54fffb3bbc432e27a2659",
+    "submissionDate": "2026-10-01T06:30:33.252Z",
+    "submissionTotalSize": 0,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-10-09T17:45:30.300Z",
+   "attemptDate": "2026-10-01T06:30:33.252Z",
+   "readyToPost": false,
+   "id": "_14900836_1",
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-10-01T06:30:33.260Z",
+   "attemptLastGradedDate": "2026-10-01T06:30:33.260Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 1
+   }
+  },
+  "_14936925_1": {
+   "override": false,
+   "courseId": "_294662_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14885685_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-10-09T17:31:34.735Z",
+   "attemptReceipt": {
+    "receiptId": "c4b9d88883d1408197295103c756b29d",
+    "submissionDate": "2026-10-09T17:35:56.387Z",
+    "submissionTotalSize": 0,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-10-09T17:45:30.305Z",
+   "attemptDate": "2026-10-09T17:35:56.387Z",
+   "readyToPost": false,
+   "id": "_14936925_1",
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-10-09T17:35:56.400Z",
+   "attemptLastGradedDate": "2026-10-09T17:35:56.400Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 2
+   }
+  },
+  "_14936968_1": {
+   "override": false,
+   "courseId": "_294662_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_14885685_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-10-09T17:45:30.297Z",
+   "attemptReceipt": {
+    "receiptId": "b724e74a1dc442c69dbeffa17b2bb379",
+    "submissionDate": "2026-10-09T17:48:28.973Z",
+    "submissionTotalSize": 0,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-10-09T17:48:29.007Z",
+   "attemptDate": "2026-10-09T17:48:28.973Z",
+   "readyToPost": false,
+   "id": "_14936968_1",
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-10-09T17:48:28.983Z",
+   "attemptLastGradedDate": "2026-10-09T17:48:28.983Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 2
+   }
+  },
+  "_14999695_1": {
+   "override": false,
+   "courseId": "_294662_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_15005458_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-10-25T03:28:57.001Z",
+   "attemptReceipt": {
+    "receiptId": "9b574e4d234145d981cbfcd67fc997c3",
+    "submissionDate": "2026-10-25T04:24:25.205Z",
+    "submissionTotalSize": 0,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-10-27T15:17:35.655Z",
+   "attemptDate": "2026-10-25T04:24:25.205Z",
+   "readyToPost": true,
+   "id": "_14999695_1",
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-10-25T04:24:25.244Z",
+   "attemptLastGradedDate": "2026-10-25T04:24:25.244Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 56
+   }
+  },
+  "_15040728_1": {
+   "override": false,
+   "courseId": "_294662_1",
+   "userId": "_126012_1",
+   "overrideStatus": "NO_OVERRIDE",
+   "gradeId": "_15056439_1",
+   "exempt": false,
+   "permissions": {
+    "deleteAttempt": false,
+    "editAttempt": false,
+    "createAttempt": false,
+    "viewAttempt": true
+   },
+   "creationDate": "2026-11-03T06:52:27.225Z",
+   "attemptReceipt": {
+    "receiptId": "fdf2def38535473c959dfc4533edd01b",
+    "submissionDate": "2026-11-03T06:52:35.750Z",
+    "submissionTotalSize": 137077,
+    "submissionType": "MANUALLY_SUBMITTED"
+   },
+   "modifiedDate": "2026-11-07T02:43:17.370Z",
+   "attemptDate": "2026-11-03T06:52:35.750Z",
+   "studentSubmission": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/gradebook/submission/attempt/7/2/8/_15040728_1/embedded/",
+    "fileLocation": "BB%3FBB_F6h5A7uimcOlpS2ht4mWEUiPlhDx7Qh/L4LpjkImrBAMBDUxhPg96MKaLeeTeigi76zNDGqCxQ%2BCJxf5NLaoHxU3pSQ415hewBCcbM873htqYl234/q6GqcniYBb9VB5kdaXtp7YjZ0%3D"
+   },
+   "readyToPost": true,
+   "id": "_15040728_1",
+   "studentSubmissionFiles": [
+    {
+     "bbFileUuid": "be2f4769f190453eb2e9b26d049c768b",
+     "linkName": "Statistical_Problems_Answers.docx",
+     "file": {
+      "isMedia": false,
+      "forceDownload": false,
+      "existingFileReference": "_8818996_1",
+      "permanentUrl": "https://blackboard.ualr.edu/bbcswebdav/xid-70383826_1",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileName": "Statistical_Problems_Answers.docx"
+     },
+     "fileType": "STUDENT",
+     "name": "Statistical_Problems_Answers.docx",
+     "id": "_4725076_1",
+     "hasErrors": false
+    }
+   ],
+   "submissionHasFilePartsWithErrors": false,
+   "attemptFirstGradedDate": "2026-11-07T02:43:17.343Z",
+   "attemptLastGradedDate": "2026-11-07T02:43:17.344Z",
+   "status": "COMPLETED",
+   "displayGrade": {
+    "requiresSchemaKnowledgeToDisplay": false,
+    "score": 100
+   }
+  }
+ },
+ "assessments": {
+  "_6084819_1": {
+   "iconUrl": "/images/ci/sets/set12/test_on.svg",
+   "contentDetail": {
+    "resource/x-bb-asmt-test-link": {
+     "test": {
+      "deployedAssessmentType": "test",
+      "deploymentSettings": {
+       "isSecureBrowserRequiredToTake": false,
+       "isSecureBrowserRequiredToReview": false,
+       "isWebcamRequired": false,
+       "isRandomizationOfQuestionsRequired": false,
+       "isDueDateEnforced": false,
+       "timerCompletion": "CONTINUAL",
+       "restrictLocation": {
+        "selectedIpFilterProfile": null,
+        "selectedRestrictType": "NONE",
+        "userIpAddress": "69.235.253.129"
+       },
+       "isBacktrackingProhibited": false,
+       "deliveryType": "Assessment",
+       "isCollectExternalSubmissions": false,
+       "allowStudentSubmission": true,
+       "feedbackSettings": {
+        "as": {
+         "associatedDate": null,
+         "options": [
+          "USER_ANSWERS",
+          "ALL_ANSWERS"
+         ]
+        }
+       },
+       "isRandomizationOfAnswersRequired": "NEVER",
+       "isRandomizationOfPagesRequired": false,
+       "isKeepFirstPageFirstRequired": false,
+       "isLateAttemptCreationDisallowed": false,
+       "isScoreShown": false,
+       "isUserAnswerShown": false,
+       "isCorrectAnswerShown": false,
+       "isIpFilterEnabled": false,
+       "isCompletionForced": false,
+       "lastModificationDate": null,
+       "isPasswordRequired": false,
+       "isFeedbackShown": false,
+       "isDescriptionShown": false,
+       "isInstructionShown": false,
+       "isStartedInExternalWindow": false,
+       "announcementTime": null,
+       "attemptCount": -1,
+       "id": "_300837_1",
+       "allowFileSubmission": true,
+       "allowTextSubmission": false
+      },
+      "gradingColumn": {
+       "assessmentSubtype": "Assignment",
+       "gradebookCategory": {
+        "description": null,
+        "courseId": "_294662_1",
+        "title": "Assignment.name",
+        "localizableTitle": {
+         "bundle": "gradebook_type",
+         "languageKey": "Assignment.name"
+        },
+        "id": "_2181707_1",
+        "isUserDefined": false
+       },
+       "visible": true,
+       "possible": 100,
+       "multipleAttempts": 0,
+       "calculationType": "NON_CALCULATED",
+       "gradebookCategoryId": "_2181707_1",
+       "courseId": "_294662_1",
+       "scoreProviderHandle": "resource/x-bb-assessment",
+       "peerGrading": false,
+       "gradingSchemaId": "_1229149_1",
+       "dueDate": "2026-09-03T18:40:00.000Z",
+       "contentId": "_6084819_1",
+       "anonymousGrading": false,
+       "deleted": false,
+       "columnName": "Chapter 1 Review",
+       "userCreatedColumn": false,
+       "permanentAnonymous": false,
+       "scorable": true,
+       "aggregationModel": "LAST",
+       "visibleInBook": true,
+       "ltiDomainId": null,
+       "gradesReleased": true,
+       "enforceDueDate": false,
+       "id": "_1567442_1",
+       "learningOutcome": {
+        "isSignature": false,
+        "entityScale": [],
+        "columnScale": []
+       },
+       "localizedColumnName": {
+        "bundle": "gradebook",
+        "languageKey": "Chapter 1 Review"
+       },
+       "effectiveColumnName": "Chapter 1 Review",
+       "isAttemptBased": true,
+       "gradeScoreDesignation": "-",
+       "isFormative": false,
+       "position": 3,
+       "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294662_1/gradebook/columns/_1567442_1"
+      },
+      "assessment": {
+       "gradableItemId": "_1567442_1",
+       "hasPartialCreditQuestions": false,
+       "subtype": "Assignment",
+       "extraCreditPoints": 0,
+       "hasAnswerableQuestions": false,
+       "totalPoints": 0,
+       "type": "Test",
+       "hasPartialAndNegativeCreditQuestions": false,
+       "questionCount": 0,
+       "lastModifiedDate": "2026-08-31T14:13:58.444Z",
+       "description": {
+        "rawText": "",
+        "displayText": "",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28496101_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMd3upGKI3Rxq2vzl2XgdvBE%3D"
+       },
+       "hasPresentationOnlyQuestions": false,
+       "hasAutomatedQuestionFeedback": false,
+       "alignmentCount": 0,
+       "title": "Chapter 1 Review",
+       "instructions": {
+        "rawText": "<br>\n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28496101-dt-asiobject-rid-68932697_1/xid-68932697_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;JDQ 1 Review.docx&quot;,&quot;displayName&quot;:&quot;JDQ 1 Review.docx&quot;,&quot;fileName&quot;:&quot;JDQ 1 Review.docx&quot;,&quot;fileSize&quot;:19326,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28496101-dt-asiobject-rid-68932697_1/xid-68932697_1&quot;,&quot;linkName&quot;:&quot;JDQ 1 Review.docx&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28496101-dt-asiobject-rid-68932697_1/xid-68932697_1?locale=en_US&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inline&quot;}\">JDQ 1 Review.docx</a></p>\n<p>Read Chapter 1 of <em>Journey to Data Quality</em> (in Resources Folder), then upload to Blackboar your answers to the attached questions</p>",
+        "displayText": "<div class=\"vtbegenerated\">\n <br> \n <p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28496101-dt-asiobject-rid-68932697_1/xid-68932697_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;JDQ 1 Review.docx&quot;,&quot;displayName&quot;:&quot;JDQ 1 Review.docx&quot;,&quot;fileName&quot;:&quot;JDQ 1 Review.docx&quot;,&quot;fileSize&quot;:19326,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28496101-dt-asiobject-rid-68932697_1/xid-68932697_1&quot;,&quot;linkName&quot;:&quot;JDQ 1 Review.docx&quot;}\">JDQ 1 Review.docx</a></p> \n <p>Read Chapter 1 of <em>Journey to Data Quality</em> (in Resources Folder), then upload to Blackboar your answers to the attached questions</p>\n</div>",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28496101_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMd3upGKI3Rxq2vzl2XgdvBE%3D"
+       },
+       "id": "_28496101_1"
+      },
+      "permissions": {
+       "deploy": false,
+       "modifyDueDate": false,
+       "delete": false,
+       "view": false,
+       "modify": false
+      },
+      "exceptions": []
+     },
+     "safeAssignOptions": {
+      "checkAttempts": false,
+      "canStudentViewReports": false,
+      "excludeSubmissions": false,
+      "globalSearch": true
+     }
+    }
+   },
+   "launchInNewWindow": true,
+   "contentHandler": "resource/x-bb-asmt-test-link",
+   "body": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/content/_6084819_1/embedded/",
+    "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oErzWTSYNMHTZb0WNvx4HQPZA7w8PIF5tijU8NaUx5QY%3D"
+   },
+   "description": "",
+   "courseId": "_294662_1",
+   "modifiedDate": 1789669096781,
+   "title": "Chapter 1 Review",
+   "genericReadOnlyData": {
+    "hasGradeColumn": true,
+    "restrictions": null,
+    "engagementDates": null,
+    "dueDate": "2026-09-03T18:40:00.000Z"
+   },
+   "isGroupContent": false,
+   "dueDateExceptionType": "Normal",
+   "inSequence": false,
+   "isReviewable": true,
+   "visibility": "VISIBLE",
+   "aiState": "No",
+   "titleColor": "#000000",
+   "ancestorLessonId": null,
+   "renderType": "LINK",
+   "thumbnailAltText": "",
+   "isPrimaryLearningObject": false,
+   "lorContentId": null,
+   "permissions": {
+    "edit": false,
+    "delete": false,
+    "adaptiveRelease": {
+     "create": false,
+     "edit": false,
+     "delete": false,
+     "view": false,
+     "criteria": {
+      "performance": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "acl": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "dates": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      }
+     }
+    },
+    "contentHandlerPermissionMap": {
+     "dropTarget": true,
+     "createDiscussion": false
+    },
+    "isAllowLOROperations": false,
+    "isAppendOnly": false,
+    "contentOptions": true,
+    "move": false,
+    "modifyAvailability": false,
+    "canHaveReviewState": true,
+    "canViewReviewState": false,
+    "canUpdateReviewState": false,
+    "dashboardView": false,
+    "createLearningStandardsAlignment": false,
+    "viewDesigner": false,
+    "copy": false
+   },
+   "id": "_6084819_1",
+   "state": "Completed",
+   "position": 0,
+   "parentId": "_6084750_1"
+  },
+  "_6089761_1": {
+   "iconUrl": "/images/ci/sets/set12/test_on.svg",
+   "contentDetail": {
+    "resource/x-bb-asmt-test-link": {
+     "test": {
+      "deployedAssessmentType": "test",
+      "deploymentSettings": {
+       "isSecureBrowserRequiredToTake": false,
+       "isSecureBrowserRequiredToReview": false,
+       "isWebcamRequired": false,
+       "isRandomizationOfQuestionsRequired": false,
+       "isDueDateEnforced": false,
+       "timerCompletion": "CONTINUAL",
+       "restrictLocation": {
+        "selectedIpFilterProfile": null,
+        "selectedRestrictType": "NONE",
+        "userIpAddress": "69.235.253.129"
+       },
+       "isBacktrackingProhibited": false,
+       "deliveryType": "Assessment",
+       "isCollectExternalSubmissions": false,
+       "allowStudentSubmission": true,
+       "feedbackSettings": {
+        "as": {
+         "associatedDate": null,
+         "options": [
+          "USER_ANSWERS",
+          "ALL_ANSWERS"
+         ]
+        }
+       },
+       "isRandomizationOfAnswersRequired": "NEVER",
+       "isRandomizationOfPagesRequired": false,
+       "isKeepFirstPageFirstRequired": false,
+       "isLateAttemptCreationDisallowed": false,
+       "isScoreShown": false,
+       "isUserAnswerShown": false,
+       "isCorrectAnswerShown": false,
+       "isIpFilterEnabled": false,
+       "isCompletionForced": false,
+       "lastModificationDate": null,
+       "isPasswordRequired": false,
+       "isFeedbackShown": false,
+       "isDescriptionShown": false,
+       "isInstructionShown": false,
+       "isStartedInExternalWindow": false,
+       "announcementTime": null,
+       "attemptCount": -1,
+       "id": "_301466_1",
+       "allowFileSubmission": true,
+       "allowTextSubmission": false
+      },
+      "gradingColumn": {
+       "assessmentSubtype": "Assignment",
+       "gradebookCategory": {
+        "description": null,
+        "courseId": "_294662_1",
+        "title": "Assignment.name",
+        "localizableTitle": {
+         "bundle": "gradebook_type",
+         "languageKey": "Assignment.name"
+        },
+        "id": "_2181707_1",
+        "isUserDefined": false
+       },
+       "visible": true,
+       "possible": 100,
+       "multipleAttempts": 0,
+       "calculationType": "NON_CALCULATED",
+       "gradebookCategoryId": "_2181707_1",
+       "courseId": "_294662_1",
+       "scoreProviderHandle": "resource/x-bb-assessment",
+       "peerGrading": false,
+       "gradingSchemaId": "_1229149_1",
+       "dueDate": "2026-09-10T18:40:00.000Z",
+       "contentId": "_6089761_1",
+       "anonymousGrading": false,
+       "deleted": false,
+       "columnName": "Data Analysis",
+       "userCreatedColumn": false,
+       "permanentAnonymous": false,
+       "scorable": true,
+       "aggregationModel": "LAST",
+       "visibleInBook": true,
+       "ltiDomainId": null,
+       "gradesReleased": true,
+       "enforceDueDate": false,
+       "id": "_1568431_1",
+       "learningOutcome": {
+        "isSignature": false,
+        "entityScale": [],
+        "columnScale": []
+       },
+       "localizedColumnName": {
+        "bundle": "gradebook",
+        "languageKey": "Data Analysis"
+       },
+       "effectiveColumnName": "Data Analysis",
+       "isAttemptBased": true,
+       "gradeScoreDesignation": "-",
+       "isFormative": false,
+       "position": 4,
+       "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294662_1/gradebook/columns/_1568431_1"
+      },
+      "assessment": {
+       "gradableItemId": "_1568431_1",
+       "hasPartialCreditQuestions": false,
+       "subtype": "Assignment",
+       "extraCreditPoints": 0,
+       "hasAnswerableQuestions": false,
+       "totalPoints": 0,
+       "type": "Test",
+       "hasPartialAndNegativeCreditQuestions": false,
+       "questionCount": 0,
+       "lastModifiedDate": "2026-09-03T17:31:14.913Z",
+       "description": {
+        "rawText": "",
+        "displayText": "",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28502163_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMV/aCzJbypEG2vzl2XgdvBE%3D"
+       },
+       "hasPresentationOnlyQuestions": false,
+       "hasAutomatedQuestionFeedback": false,
+       "alignmentCount": 0,
+       "title": "Data Analysis",
+       "instructions": {
+        "rawText": "<p>Upload you answers to the attached questions in Blackboard.</p> \n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020382_1/xid-69020382_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;AsssessMovieDataset.docx&quot;,&quot;displayName&quot;:&quot;AsssessMovieDataset.docx&quot;,&quot;fileName&quot;:&quot;AsssessMovieDataset.docx&quot;,&quot;fileSize&quot;:19823,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020382_1/xid-69020382_1&quot;,&quot;linkName&quot;:&quot;AsssessMovieDataset.docx&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020382_1/xid-69020382_1?locale=en_US&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inline&quot;}\">AsssessMovieDataset.docx</a></p> \n<br> \n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020386_1/xid-69020386_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;MovieDataset.csv&quot;,&quot;displayName&quot;:&quot;MovieDataset.csv&quot;,&quot;fileName&quot;:&quot;MovieDataset.csv&quot;,&quot;fileSize&quot;:97365,&quot;mimeType&quot;:&quot;text/csv&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020386_1/xid-69020386_1&quot;,&quot;linkName&quot;:&quot;MovieDataset.csv&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020386_1/xid-69020386_1?locale=en_US&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inline&quot;}\">MovieDataset.csv</a></p> \n<br>",
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Upload you answers to the attached questions in Blackboard.</p> \n <p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020382_1/xid-69020382_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;AsssessMovieDataset.docx&quot;,&quot;displayName&quot;:&quot;AsssessMovieDataset.docx&quot;,&quot;fileName&quot;:&quot;AsssessMovieDataset.docx&quot;,&quot;fileSize&quot;:19823,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020382_1/xid-69020382_1&quot;,&quot;linkName&quot;:&quot;AsssessMovieDataset.docx&quot;}\">AsssessMovieDataset.docx</a></p> \n <br> \n <p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020386_1/xid-69020386_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;MovieDataset.csv&quot;,&quot;displayName&quot;:&quot;MovieDataset.csv&quot;,&quot;fileName&quot;:&quot;MovieDataset.csv&quot;,&quot;fileSize&quot;:97365,&quot;mimeType&quot;:&quot;text/csv&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28502163-dt-asiobject-rid-69020386_1/xid-69020386_1&quot;,&quot;linkName&quot;:&quot;MovieDataset.csv&quot;}\">MovieDataset.csv</a></p> \n <br>\n</div>",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28502163_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMV/aCzJbypEG2vzl2XgdvBE%3D"
+       },
+       "id": "_28502163_1"
+      },
+      "permissions": {
+       "deploy": false,
+       "modifyDueDate": false,
+       "delete": false,
+       "view": false,
+       "modify": false
+      },
+      "exceptions": []
+     },
+     "safeAssignOptions": {
+      "checkAttempts": false,
+      "canStudentViewReports": false,
+      "excludeSubmissions": false,
+      "globalSearch": true
+     }
+    }
+   },
+   "launchInNewWindow": true,
+   "contentHandler": "resource/x-bb-asmt-test-link",
+   "body": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/content/_6089761_1/embedded/",
+    "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oErzWTSYNMHTfcrE%2BbYxFCoWvNJRnK3dhijU8NaUx5QY%3D"
+   },
+   "description": "",
+   "courseId": "_294662_1",
+   "modifiedDate": 1789669096837,
+   "title": "Data Analysis",
+   "genericReadOnlyData": {
+    "hasGradeColumn": true,
+    "restrictions": null,
+    "engagementDates": null,
+    "dueDate": "2026-09-10T18:40:00.000Z"
+   },
+   "isGroupContent": false,
+   "dueDateExceptionType": "Normal",
+   "inSequence": false,
+   "isReviewable": true,
+   "visibility": "VISIBLE",
+   "aiState": "No",
+   "titleColor": "#000000",
+   "ancestorLessonId": null,
+   "renderType": "LINK",
+   "thumbnailAltText": "",
+   "isPrimaryLearningObject": false,
+   "lorContentId": null,
+   "permissions": {
+    "edit": false,
+    "delete": false,
+    "adaptiveRelease": {
+     "create": false,
+     "edit": false,
+     "delete": false,
+     "view": false,
+     "criteria": {
+      "performance": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "acl": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "dates": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      }
+     }
+    },
+    "contentHandlerPermissionMap": {
+     "dropTarget": true,
+     "createDiscussion": false
+    },
+    "isAllowLOROperations": false,
+    "isAppendOnly": false,
+    "contentOptions": true,
+    "move": false,
+    "modifyAvailability": false,
+    "canHaveReviewState": true,
+    "canViewReviewState": false,
+    "canUpdateReviewState": false,
+    "dashboardView": false,
+    "createLearningStandardsAlignment": false,
+    "viewDesigner": false,
+    "copy": false
+   },
+   "id": "_6089761_1",
+   "state": "Completed",
+   "position": 1,
+   "parentId": "_6084750_1"
+  },
+  "_6094893_1": {
+   "iconUrl": "/images/ci/sets/set12/test_on.svg",
+   "contentDetail": {
+    "resource/x-bb-asmt-test-link": {
+     "test": {
+      "deployedAssessmentType": "test",
+      "deploymentSettings": {
+       "isSecureBrowserRequiredToTake": false,
+       "isSecureBrowserRequiredToReview": false,
+       "isWebcamRequired": false,
+       "isRandomizationOfQuestionsRequired": false,
+       "isDueDateEnforced": false,
+       "timerCompletion": "CONTINUAL",
+       "restrictLocation": {
+        "selectedIpFilterProfile": null,
+        "selectedRestrictType": "NONE",
+        "userIpAddress": "69.235.253.129"
+       },
+       "isBacktrackingProhibited": false,
+       "deliveryType": "Assessment",
+       "isCollectExternalSubmissions": false,
+       "allowStudentSubmission": true,
+       "feedbackSettings": {
+        "as": {
+         "associatedDate": null,
+         "options": [
+          "USER_ANSWERS",
+          "ALL_ANSWERS"
+         ]
+        }
+       },
+       "isRandomizationOfAnswersRequired": "NEVER",
+       "isRandomizationOfPagesRequired": false,
+       "isKeepFirstPageFirstRequired": false,
+       "isLateAttemptCreationDisallowed": false,
+       "isScoreShown": false,
+       "isUserAnswerShown": false,
+       "isCorrectAnswerShown": false,
+       "isIpFilterEnabled": false,
+       "isCompletionForced": false,
+       "lastModificationDate": null,
+       "isPasswordRequired": false,
+       "isFeedbackShown": false,
+       "isDescriptionShown": false,
+       "isInstructionShown": false,
+       "isStartedInExternalWindow": false,
+       "announcementTime": null,
+       "attemptCount": -1,
+       "id": "_302138_1",
+       "allowFileSubmission": true,
+       "allowTextSubmission": true
+      },
+      "gradingColumn": {
+       "assessmentSubtype": "Assignment",
+       "gradebookCategory": {
+        "description": null,
+        "courseId": "_294662_1",
+        "title": "Assignment.name",
+        "localizableTitle": {
+         "bundle": "gradebook_type",
+         "languageKey": "Assignment.name"
+        },
+        "id": "_2181707_1",
+        "isUserDefined": false
+       },
+       "visible": true,
+       "possible": 100,
+       "multipleAttempts": 0,
+       "calculationType": "NON_CALCULATED",
+       "gradebookCategoryId": "_2181707_1",
+       "courseId": "_294662_1",
+       "scoreProviderHandle": "resource/x-bb-assessment",
+       "peerGrading": false,
+       "gradingSchemaId": "_1229149_1",
+       "dueDate": "2026-09-17T18:40:00.000Z",
+       "contentId": "_6094893_1",
+       "anonymousGrading": false,
+       "deleted": false,
+       "columnName": "Define Data Requirement",
+       "userCreatedColumn": false,
+       "permanentAnonymous": false,
+       "scorable": true,
+       "aggregationModel": "LAST",
+       "visibleInBook": true,
+       "ltiDomainId": null,
+       "gradesReleased": true,
+       "enforceDueDate": false,
+       "id": "_1569612_1",
+       "learningOutcome": {
+        "isSignature": false,
+        "entityScale": [],
+        "columnScale": []
+       },
+       "localizedColumnName": {
+        "bundle": "gradebook",
+        "languageKey": "Define Data Requirement"
+       },
+       "effectiveColumnName": "Define Data Requirement",
+       "isAttemptBased": true,
+       "gradeScoreDesignation": "-",
+       "isFormative": false,
+       "position": 5,
+       "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294662_1/gradebook/columns/_1569612_1"
+      },
+      "assessment": {
+       "gradableItemId": "_1569612_1",
+       "hasPartialCreditQuestions": false,
+       "subtype": "Assignment",
+       "extraCreditPoints": 0,
+       "hasAnswerableQuestions": false,
+       "totalPoints": 0,
+       "type": "Test",
+       "hasPartialAndNegativeCreditQuestions": false,
+       "questionCount": 0,
+       "lastModifiedDate": "2026-09-11T20:01:45.166Z",
+       "description": {
+        "rawText": "",
+        "displayText": "",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28511751_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMZAtpPqIDrvJ2vzl2XgdvBE%3D"
+       },
+       "hasPresentationOnlyQuestions": false,
+       "hasAutomatedQuestionFeedback": false,
+       "alignmentCount": 0,
+       "title": "Define Data Requirement",
+       "instructions": {
+        "rawText": "<p>Submit you answers to the attached questions through Blackboard</p>\n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182633_1/xid-69182633_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;DefineRequirements.docx&quot;,&quot;displayName&quot;:&quot;DefineRequirements.docx&quot;,&quot;fileName&quot;:&quot;DefineRequirements.docx&quot;,&quot;fileSize&quot;:21743,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182633_1/xid-69182633_1&quot;,&quot;linkName&quot;:&quot;DefineRequirements.docx&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182633_1/xid-69182633_1?locale=en_US&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inline&quot;}\">DefineRequirements.docx</a></p>\n<br>\n<br>\n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182800_1/xid-69182800_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;StudentGrades.csv&quot;,&quot;displayName&quot;:&quot;StudentGrades.csv&quot;,&quot;fileName&quot;:&quot;StudentGrades.csv&quot;,&quot;fileSize&quot;:62887,&quot;mimeType&quot;:&quot;text/csv&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182800_1/xid-69182800_1&quot;,&quot;linkName&quot;:&quot;StudentGrades.csv&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182800_1/xid-69182800_1?locale=en_US&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inline&quot;}\">StudentGrades.csv</a></p>",
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Submit you answers to the attached questions through Blackboard</p> \n <p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182633_1/xid-69182633_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;DefineRequirements.docx&quot;,&quot;displayName&quot;:&quot;DefineRequirements.docx&quot;,&quot;fileName&quot;:&quot;DefineRequirements.docx&quot;,&quot;fileSize&quot;:21743,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182633_1/xid-69182633_1&quot;,&quot;linkName&quot;:&quot;DefineRequirements.docx&quot;}\">DefineRequirements.docx</a></p> \n <br> \n <br> \n <p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182800_1/xid-69182800_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;StudentGrades.csv&quot;,&quot;displayName&quot;:&quot;StudentGrades.csv&quot;,&quot;fileName&quot;:&quot;StudentGrades.csv&quot;,&quot;fileSize&quot;:62887,&quot;mimeType&quot;:&quot;text/csv&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28511751-dt-asiobject-rid-69182800_1/xid-69182800_1&quot;,&quot;linkName&quot;:&quot;StudentGrades.csv&quot;}\">StudentGrades.csv</a></p>\n</div>",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28511751_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMZAtpPqIDrvJ2vzl2XgdvBE%3D"
+       },
+       "id": "_28511751_1"
+      },
+      "permissions": {
+       "deploy": false,
+       "modifyDueDate": false,
+       "delete": false,
+       "view": false,
+       "modify": false
+      },
+      "exceptions": []
+     },
+     "safeAssignOptions": {
+      "checkAttempts": false,
+      "canStudentViewReports": false,
+      "excludeSubmissions": false,
+      "globalSearch": true
+     }
+    }
+   },
+   "launchInNewWindow": true,
+   "contentHandler": "resource/x-bb-asmt-test-link",
+   "body": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/content/_6094893_1/embedded/",
+    "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oErzWTSYNMHQjRLGavUxO2fPD%2BxSXuoR9ijU8NaUx5QY%3D"
+   },
+   "description": "",
+   "courseId": "_294662_1",
+   "modifiedDate": 1789669096872,
+   "title": "Define Data Requirement",
+   "genericReadOnlyData": {
+    "hasGradeColumn": true,
+    "restrictions": null,
+    "engagementDates": null,
+    "dueDate": "2026-09-17T18:40:00.000Z"
+   },
+   "isGroupContent": false,
+   "dueDateExceptionType": "Normal",
+   "inSequence": false,
+   "isReviewable": true,
+   "visibility": "VISIBLE",
+   "aiState": "No",
+   "titleColor": "#000000",
+   "ancestorLessonId": null,
+   "renderType": "LINK",
+   "thumbnailAltText": "",
+   "isPrimaryLearningObject": false,
+   "lorContentId": null,
+   "permissions": {
+    "edit": false,
+    "delete": false,
+    "adaptiveRelease": {
+     "create": false,
+     "edit": false,
+     "delete": false,
+     "view": false,
+     "criteria": {
+      "performance": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "acl": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "dates": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      }
+     }
+    },
+    "contentHandlerPermissionMap": {
+     "dropTarget": true,
+     "createDiscussion": false
+    },
+    "isAllowLOROperations": false,
+    "isAppendOnly": false,
+    "contentOptions": true,
+    "move": false,
+    "modifyAvailability": false,
+    "canHaveReviewState": true,
+    "canViewReviewState": false,
+    "canUpdateReviewState": false,
+    "dashboardView": false,
+    "createLearningStandardsAlignment": false,
+    "viewDesigner": false,
+    "copy": false
+   },
+   "id": "_6094893_1",
+   "state": "Completed",
+   "position": 2,
+   "parentId": "_6084750_1"
+  },
+  "_6101631_1": {
+   "iconUrl": "/images/ci/sets/set12/test_on.svg",
+   "contentDetail": {
+    "resource/x-bb-asmt-test-link": {
+     "test": {
+      "deployedAssessmentType": "test",
+      "deploymentSettings": {
+       "isSecureBrowserRequiredToTake": false,
+       "isSecureBrowserRequiredToReview": false,
+       "isWebcamRequired": false,
+       "isRandomizationOfQuestionsRequired": false,
+       "isDueDateEnforced": false,
+       "timerCompletion": "CONTINUAL",
+       "restrictLocation": {
+        "selectedIpFilterProfile": null,
+        "selectedRestrictType": "NONE",
+        "userIpAddress": "69.235.253.129"
+       },
+       "isBacktrackingProhibited": false,
+       "deliveryType": "Assessment",
+       "isCollectExternalSubmissions": false,
+       "allowStudentSubmission": true,
+       "feedbackSettings": {
+        "as": {
+         "associatedDate": null,
+         "options": [
+          "USER_ANSWERS",
+          "ALL_ANSWERS"
+         ]
+        }
+       },
+       "isRandomizationOfAnswersRequired": "NEVER",
+       "isRandomizationOfPagesRequired": false,
+       "isKeepFirstPageFirstRequired": false,
+       "isLateAttemptCreationDisallowed": false,
+       "isScoreShown": false,
+       "isUserAnswerShown": false,
+       "isCorrectAnswerShown": false,
+       "isIpFilterEnabled": false,
+       "isCompletionForced": false,
+       "lastModificationDate": null,
+       "isPasswordRequired": false,
+       "isFeedbackShown": false,
+       "isDescriptionShown": false,
+       "isInstructionShown": false,
+       "isStartedInExternalWindow": false,
+       "announcementTime": null,
+       "attemptCount": -1,
+       "id": "_302903_1",
+       "allowFileSubmission": true,
+       "allowTextSubmission": false
+      },
+      "gradingColumn": {
+       "assessmentSubtype": "Assignment",
+       "gradebookCategory": {
+        "description": null,
+        "courseId": "_294662_1",
+        "title": "Assignment.name",
+        "localizableTitle": {
+         "bundle": "gradebook_type",
+         "languageKey": "Assignment.name"
+        },
+        "id": "_2181707_1",
+        "isUserDefined": false
+       },
+       "visible": true,
+       "possible": 100,
+       "multipleAttempts": 0,
+       "calculationType": "NON_CALCULATED",
+       "gradebookCategoryId": "_2181707_1",
+       "courseId": "_294662_1",
+       "scoreProviderHandle": "resource/x-bb-assessment",
+       "peerGrading": false,
+       "gradingSchemaId": "_1229149_1",
+       "dueDate": "2026-09-29T18:40:00.000Z",
+       "contentId": "_6101631_1",
+       "anonymousGrading": false,
+       "deleted": false,
+       "columnName": "JDQ Chapters 3 & 4 Data Quality Assessment",
+       "userCreatedColumn": false,
+       "permanentAnonymous": false,
+       "scorable": true,
+       "aggregationModel": "LAST",
+       "visibleInBook": true,
+       "ltiDomainId": null,
+       "gradesReleased": true,
+       "enforceDueDate": false,
+       "id": "_1571017_1",
+       "learningOutcome": {
+        "isSignature": false,
+        "entityScale": [],
+        "columnScale": []
+       },
+       "localizedColumnName": {
+        "bundle": "gradebook",
+        "languageKey": "JDQ Chapters 3 & 4 Data Quality Assessment"
+       },
+       "effectiveColumnName": "JDQ Chapters 3 & 4 Data Quality Assessment",
+       "isAttemptBased": true,
+       "gradeScoreDesignation": "-",
+       "isFormative": false,
+       "position": 7,
+       "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294662_1/gradebook/columns/_1571017_1"
+      },
+      "assessment": {
+       "gradableItemId": "_1571017_1",
+       "hasPartialCreditQuestions": false,
+       "subtype": "Assignment",
+       "extraCreditPoints": 0,
+       "hasAnswerableQuestions": false,
+       "totalPoints": 0,
+       "type": "Test",
+       "hasPartialAndNegativeCreditQuestions": false,
+       "questionCount": 0,
+       "lastModifiedDate": "2026-09-22T13:58:21.714Z",
+       "description": {
+        "rawText": "",
+        "displayText": "",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28523012_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMS9eCBSOEF512vzl2XgdvBE%3D"
+       },
+       "hasPresentationOnlyQuestions": false,
+       "hasAutomatedQuestionFeedback": false,
+       "alignmentCount": 0,
+       "title": "JDQ Chapters 3 & 4 Data Quality Assessment",
+       "instructions": {
+        "rawText": "<p>Read Chapters 3 and 4 of </p> \n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28523012-dt-asiobject-rid-69419092_1/xid-69419092_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;JDQ 3 and 4 Review.docx&quot;,&quot;displayName&quot;:&quot;JDQ 3 and 4 Review.docx&quot;,&quot;fileName&quot;:&quot;JDQ 3 and 4 Review.docx&quot;,&quot;fileSize&quot;:16868,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28523012-dt-asiobject-rid-69419092_1/xid-69419092_1&quot;,&quot;linkName&quot;:&quot;JDQ 3 and 4 Review.docx&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28523012-dt-asiobject-rid-69419092_1/xid-69419092_1?locale=en_US&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inline&quot;}\">JDQ 3 and 4 Review.docx</a></p> \n<p> and submit your answers to the attached questions through Blackboard.</p>",
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Read Chapters 3 and 4 of </p> \n <p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28523012-dt-asiobject-rid-69419092_1/xid-69419092_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;JDQ 3 and 4 Review.docx&quot;,&quot;displayName&quot;:&quot;JDQ 3 and 4 Review.docx&quot;,&quot;fileName&quot;:&quot;JDQ 3 and 4 Review.docx&quot;,&quot;fileSize&quot;:16868,&quot;mimeType&quot;:&quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28523012-dt-asiobject-rid-69419092_1/xid-69419092_1&quot;,&quot;linkName&quot;:&quot;JDQ 3 and 4 Review.docx&quot;}\">JDQ 3 and 4 Review.docx</a></p> \n <p> and submit your answers to the attached questions through Blackboard.</p>\n</div>",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28523012_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMS9eCBSOEF512vzl2XgdvBE%3D"
+       },
+       "id": "_28523012_1"
+      },
+      "permissions": {
+       "deploy": false,
+       "modifyDueDate": false,
+       "delete": false,
+       "view": false,
+       "modify": false
+      },
+      "exceptions": []
+     },
+     "safeAssignOptions": {
+      "checkAttempts": false,
+      "canStudentViewReports": false,
+      "excludeSubmissions": false,
+      "globalSearch": true
+     }
+    }
+   },
+   "launchInNewWindow": true,
+   "contentHandler": "resource/x-bb-asmt-test-link",
+   "body": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/content/_6101631_1/embedded/",
+    "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oErzWTSYNMHQBi8MP%2BMbUuaWJLUu48pOAijU8NaUx5QY%3D"
+   },
+   "description": "",
+   "courseId": "_294662_1",
+   "modifiedDate": 1790085501712,
+   "title": "JDQ Chapters 3 & 4 Data Quality Assessment",
+   "genericReadOnlyData": {
+    "hasGradeColumn": true,
+    "restrictions": null,
+    "engagementDates": null,
+    "dueDate": "2026-09-29T18:40:00.000Z"
+   },
+   "isGroupContent": false,
+   "dueDateExceptionType": "Normal",
+   "inSequence": false,
+   "isReviewable": true,
+   "visibility": "VISIBLE",
+   "aiState": "No",
+   "titleColor": "#000000",
+   "ancestorLessonId": null,
+   "renderType": "LINK",
+   "thumbnailAltText": "",
+   "isPrimaryLearningObject": false,
+   "lorContentId": null,
+   "permissions": {
+    "edit": false,
+    "delete": false,
+    "adaptiveRelease": {
+     "create": false,
+     "edit": false,
+     "delete": false,
+     "view": false,
+     "criteria": {
+      "performance": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "acl": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "dates": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      }
+     }
+    },
+    "contentHandlerPermissionMap": {
+     "dropTarget": true,
+     "createDiscussion": false
+    },
+    "isAllowLOROperations": false,
+    "isAppendOnly": false,
+    "contentOptions": true,
+    "move": false,
+    "modifyAvailability": false,
+    "canHaveReviewState": true,
+    "canViewReviewState": false,
+    "canUpdateReviewState": false,
+    "dashboardView": false,
+    "createLearningStandardsAlignment": false,
+    "viewDesigner": false,
+    "copy": false
+   },
+   "id": "_6101631_1",
+   "state": "Completed",
+   "position": 3,
+   "parentId": "_6084750_1"
+  },
+  "_6151383_1": {
+   "iconUrl": "/images/ci/sets/set12/test_on.svg",
+   "contentDetail": {
+    "resource/x-bb-asmt-test-link": {
+     "test": {
+      "deployedAssessmentType": "test",
+      "deploymentSettings": {
+       "isSecureBrowserRequiredToTake": false,
+       "isSecureBrowserRequiredToReview": false,
+       "isWebcamRequired": false,
+       "isRandomizationOfQuestionsRequired": false,
+       "isDueDateEnforced": false,
+       "timerCompletion": "CONTINUAL",
+       "restrictLocation": {
+        "selectedIpFilterProfile": null,
+        "selectedRestrictType": "NONE",
+        "userIpAddress": "69.235.253.129"
+       },
+       "isBacktrackingProhibited": false,
+       "deliveryType": "Assessment",
+       "isCollectExternalSubmissions": false,
+       "allowStudentSubmission": true,
+       "feedbackSettings": {
+        "as": {
+         "associatedDate": null,
+         "options": [
+          "USER_ANSWERS",
+          "ALL_ANSWERS"
+         ]
+        }
+       },
+       "isRandomizationOfAnswersRequired": "NEVER",
+       "isRandomizationOfPagesRequired": false,
+       "isKeepFirstPageFirstRequired": false,
+       "isLateAttemptCreationDisallowed": false,
+       "isScoreShown": false,
+       "isUserAnswerShown": false,
+       "isCorrectAnswerShown": false,
+       "isIpFilterEnabled": false,
+       "isCompletionForced": false,
+       "lastModificationDate": null,
+       "isPasswordRequired": false,
+       "isFeedbackShown": false,
+       "isDescriptionShown": false,
+       "isInstructionShown": false,
+       "isStartedInExternalWindow": false,
+       "announcementTime": null,
+       "attemptCount": -1,
+       "id": "_305807_1",
+       "allowFileSubmission": true,
+       "allowTextSubmission": false
+      },
+      "gradingColumn": {
+       "assessmentSubtype": "Assignment",
+       "gradebookCategory": {
+        "description": null,
+        "courseId": "_294662_1",
+        "title": "Assignment.name",
+        "localizableTitle": {
+         "bundle": "gradebook_type",
+         "languageKey": "Assignment.name"
+        },
+        "id": "_2181707_1",
+        "isUserDefined": false
+       },
+       "visible": true,
+       "possible": 100,
+       "multipleAttempts": 0,
+       "calculationType": "NON_CALCULATED",
+       "gradebookCategoryId": "_2181707_1",
+       "courseId": "_294662_1",
+       "scoreProviderHandle": "resource/x-bb-assessment",
+       "peerGrading": false,
+       "gradingSchemaId": "_1229149_1",
+       "dueDate": "2026-11-03T19:40:00.000Z",
+       "contentId": "_6151383_1",
+       "anonymousGrading": false,
+       "deleted": false,
+       "columnName": "Statistical Problems",
+       "userCreatedColumn": false,
+       "permanentAnonymous": false,
+       "scorable": true,
+       "aggregationModel": "LAST",
+       "visibleInBook": true,
+       "ltiDomainId": null,
+       "gradesReleased": true,
+       "enforceDueDate": false,
+       "id": "_1587217_1",
+       "learningOutcome": {
+        "isSignature": false,
+        "entityScale": [],
+        "columnScale": []
+       },
+       "localizedColumnName": {
+        "bundle": "gradebook",
+        "languageKey": "Statistical Problems"
+       },
+       "effectiveColumnName": "Statistical Problems",
+       "isAttemptBased": true,
+       "gradeScoreDesignation": "-",
+       "isFormative": false,
+       "position": 12,
+       "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294662_1/gradebook/columns/_1587217_1"
+      },
+      "assessment": {
+       "gradableItemId": "_1587217_1",
+       "hasPartialCreditQuestions": false,
+       "subtype": "Assignment",
+       "extraCreditPoints": 0,
+       "hasAnswerableQuestions": false,
+       "totalPoints": 0,
+       "type": "Test",
+       "hasPartialAndNegativeCreditQuestions": false,
+       "questionCount": 0,
+       "lastModifiedDate": "2026-10-27T15:37:06.252Z",
+       "description": {
+        "rawText": "",
+        "displayText": "",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28571407_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMT01B9eMEqeN2vzl2XgdvBE%3D"
+       },
+       "hasPresentationOnlyQuestions": false,
+       "hasAutomatedQuestionFeedback": false,
+       "alignmentCount": 0,
+       "title": "Statistical Problems",
+       "instructions": {
+        "rawText": "<p>Submit your answers to the attached questions through Blackboard.</p> \n<p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28571407-dt-asiobject-rid-70242634_1/xid-70242634_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;,&quot;displayName&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;,&quot;fileName&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;,&quot;fileSize&quot;:43008,&quot;mimeType&quot;:&quot;application/msword&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28571407-dt-asiobject-rid-70242634_1/xid-70242634_1&quot;,&quot;linkName&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;,&quot;viewerUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28571407-dt-asiobject-rid-70242634_1/xid-70242634_1?locale=en_US&amp;isInlineRender=true&amp;xythos-download=true&amp;render=inline&quot;}\">Probability and Statistics Exercises (12).doc</a></p> \n<br>",
+        "displayText": "<div class=\"vtbegenerated\">\n <p>Submit your answers to the attached questions through Blackboard.</p> \n <p><a href=\"https://blackboard.ualr.edu/bbcswebdav/pid-28571407-dt-asiobject-rid-70242634_1/xid-70242634_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;,&quot;displayName&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;,&quot;fileName&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;,&quot;fileSize&quot;:43008,&quot;mimeType&quot;:&quot;application/msword&quot;,&quot;render&quot;:&quot;inline&quot;,&quot;resourceUrl&quot;:&quot;https://blackboard.ualr.edu/bbcswebdav/pid-28571407-dt-asiobject-rid-70242634_1/xid-70242634_1&quot;,&quot;linkName&quot;:&quot;Probability and Statistics Exercises (12).doc&quot;}\">Probability and Statistics Exercises (12).doc</a></p> \n <br>\n</div>",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28571407_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMT01B9eMEqeN2vzl2XgdvBE%3D"
+       },
+       "id": "_28571407_1"
+      },
+      "permissions": {
+       "deploy": false,
+       "modifyDueDate": false,
+       "delete": false,
+       "view": false,
+       "modify": false
+      },
+      "exceptions": []
+     },
+     "safeAssignOptions": {
+      "checkAttempts": false,
+      "canStudentViewReports": false,
+      "excludeSubmissions": false,
+      "globalSearch": true
+     }
+    }
+   },
+   "launchInNewWindow": true,
+   "contentHandler": "resource/x-bb-asmt-test-link",
+   "body": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/content/_6151383_1/embedded/",
+    "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oErzWTSYNMHRREmD6aI2OfLHNU0C/dNjFijU8NaUx5QY%3D"
+   },
+   "description": "",
+   "courseId": "_294662_1",
+   "modifiedDate": 1793115426245,
+   "title": "Statistical Problems",
+   "genericReadOnlyData": {
+    "hasGradeColumn": true,
+    "restrictions": null,
+    "engagementDates": null,
+    "dueDate": "2026-11-03T19:40:00.000Z"
+   },
+   "isGroupContent": false,
+   "dueDateExceptionType": "Normal",
+   "inSequence": false,
+   "isReviewable": true,
+   "visibility": "VISIBLE",
+   "aiState": "No",
+   "titleColor": "#000000",
+   "ancestorLessonId": null,
+   "renderType": "LINK",
+   "thumbnailAltText": "",
+   "isPrimaryLearningObject": false,
+   "lorContentId": null,
+   "permissions": {
+    "edit": false,
+    "delete": false,
+    "adaptiveRelease": {
+     "create": false,
+     "edit": false,
+     "delete": false,
+     "view": false,
+     "criteria": {
+      "performance": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "acl": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "dates": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      }
+     }
+    },
+    "contentHandlerPermissionMap": {
+     "dropTarget": true,
+     "createDiscussion": false
+    },
+    "isAllowLOROperations": false,
+    "isAppendOnly": false,
+    "contentOptions": true,
+    "move": false,
+    "modifyAvailability": false,
+    "canHaveReviewState": true,
+    "canViewReviewState": false,
+    "canUpdateReviewState": false,
+    "dashboardView": false,
+    "createLearningStandardsAlignment": false,
+    "viewDesigner": false,
+    "copy": false
+   },
+   "id": "_6151383_1",
+   "state": "Completed",
+   "position": 4,
+   "parentId": "_6084750_1"
+  },
+  "_6106761_1": {
+   "iconUrl": "/images/ci/sets/set12/test_on.svg",
+   "contentDetail": {
+    "resource/x-bb-asmt-test-link": {
+     "test": {
+      "deployedAssessmentType": "test",
+      "deploymentSettings": {
+       "isSecureBrowserRequiredToTake": true,
+       "isSecureBrowserRequiredToReview": true,
+       "isWebcamRequired": true,
+       "proctoringServiceVendor": "Respondus",
+       "proctoringDownloadUrl": "https://download.respondus.com/lockdown/download.php?id=536413901",
+       "isRandomizationOfQuestionsRequired": false,
+       "isDueDateEnforced": false,
+       "timerCompletion": "HARDSTOP",
+       "proctoringServiceHandle": "rs-lockdown",
+       "restrictLocation": {
+        "selectedIpFilterProfile": null,
+        "selectedRestrictType": "NONE",
+        "userIpAddress": "69.235.253.129"
+       },
+       "isBacktrackingProhibited": false,
+       "deliveryType": "Assessment",
+       "isCollectExternalSubmissions": false,
+       "allowStudentSubmission": false,
+       "feedbackSettings": {
+        "as": {
+         "associatedDate": null,
+         "options": [
+          "INSTRUCTOR_FEEDBACK",
+          "ALL_ANSWERS",
+          "USER_ANSWERS"
+         ]
+        },
+        "aag": {
+         "associatedDate": null,
+         "options": [
+          "SCORE"
+         ]
+        }
+       },
+       "isRandomizationOfAnswersRequired": "PER_QUESTION",
+       "isRandomizationOfPagesRequired": false,
+       "isKeepFirstPageFirstRequired": false,
+       "isLateAttemptCreationDisallowed": false,
+       "isScoreShown": false,
+       "isUserAnswerShown": false,
+       "isCorrectAnswerShown": false,
+       "isIpFilterEnabled": false,
+       "isCompletionForced": false,
+       "lastModificationDate": null,
+       "isPasswordRequired": false,
+       "isFeedbackShown": false,
+       "isDescriptionShown": false,
+       "isInstructionShown": false,
+       "isStartedInExternalWindow": false,
+       "timeLimit": 20,
+       "announcementTime": null,
+       "attemptCount": -1,
+       "id": "_303532_1",
+       "allowFileSubmission": true,
+       "allowTextSubmission": true
+      },
+      "gradingColumn": {
+       "gradebookCategory": {
+        "description": null,
+        "courseId": "_294662_1",
+        "title": "Test.name",
+        "localizableTitle": {
+         "bundle": "gradebook_type",
+         "languageKey": "Test.name"
+        },
+        "id": "_2181705_1",
+        "isUserDefined": false
+       },
+       "visible": true,
+       "possible": 3,
+       "multipleAttempts": 0,
+       "calculationType": "NON_CALCULATED",
+       "gradebookCategoryId": "_2181705_1",
+       "courseId": "_294662_1",
+       "scoreProviderHandle": "resource/x-bb-assessment",
+       "peerGrading": false,
+       "gradingSchemaId": "_1229149_1",
+       "dueDate": "2026-10-05T04:59:00.000Z",
+       "contentId": "_6106761_1",
+       "anonymousGrading": false,
+       "deleted": false,
+       "columnName": "Practice Exam",
+       "userCreatedColumn": false,
+       "permanentAnonymous": false,
+       "scorable": true,
+       "aggregationModel": "LAST",
+       "visibleInBook": true,
+       "ltiDomainId": null,
+       "gradesReleased": true,
+       "enforceDueDate": false,
+       "id": "_1572148_1",
+       "learningOutcome": {
+        "isSignature": false,
+        "entityScale": [],
+        "columnScale": []
+       },
+       "localizedColumnName": {
+        "bundle": "gradebook",
+        "languageKey": "Practice Exam"
+       },
+       "effectiveColumnName": "Practice Exam",
+       "isAttemptBased": true,
+       "gradeScoreDesignation": "-",
+       "isFormative": false,
+       "position": 8,
+       "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294662_1/gradebook/columns/_1572148_1"
+      },
+      "assessment": {
+       "gradableItemId": "_1572148_1",
+       "hasPartialCreditQuestions": false,
+       "extraCreditPoints": 0,
+       "hasAnswerableQuestions": true,
+       "totalPoints": 3,
+       "type": "Test",
+       "hasPartialAndNegativeCreditQuestions": false,
+       "questionCount": 3,
+       "lastModifiedDate": "2026-09-30T17:27:06.919Z",
+       "description": {
+        "rawText": "",
+        "displayText": "",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28530634_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMQDR4VhKW2Np2vzl2XgdvBE%3D"
+       },
+       "hasPresentationOnlyQuestions": false,
+       "hasAutomatedQuestionFeedback": false,
+       "alignmentCount": 0,
+       "title": "Practice Exam",
+       "instructions": {
+        "rawText": "",
+        "displayText": "",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28530634_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMQDR4VhKW2Np2vzl2XgdvBE%3D"
+       },
+       "id": "_28530634_1"
+      },
+      "permissions": {
+       "deploy": false,
+       "modifyDueDate": false,
+       "delete": false,
+       "view": false,
+       "modify": false
+      },
+      "exceptions": []
+     },
+     "safeAssignOptions": {
+      "checkAttempts": false,
+      "canStudentViewReports": false,
+      "excludeSubmissions": false,
+      "globalSearch": true
+     }
+    }
+   },
+   "launchInNewWindow": true,
+   "contentHandler": "resource/x-bb-asmt-test-link",
+   "body": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/content/_6106761_1/embedded/",
+    "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oErzWTSYNMHT/aqyqgE/tqIWvNJRnK3dhijU8NaUx5QY%3D"
+   },
+   "description": "",
+   "courseId": "_294662_1",
+   "modifiedDate": 1790789226915,
+   "title": "Practice Exam",
+   "genericReadOnlyData": {
+    "hasGradeColumn": true,
+    "restrictions": {
+     "contentVisibility": {
+      "visible": {
+       "canBeTurnedOn": true,
+       "reasonCodes": []
+      },
+      "hidden": {
+       "canBeTurnedOn": true,
+       "reasonCodes": []
+      },
+      "partiallyVisible": {
+       "canBeTurnedOn": true,
+       "reasonCodes": []
+      }
+     }
+    },
+    "engagementDates": null,
+    "dueDate": "2026-10-05T04:59:00.000Z"
+   },
+   "isGroupContent": false,
+   "dueDateExceptionType": "Normal",
+   "inSequence": false,
+   "isReviewable": true,
+   "visibility": "VISIBLE",
+   "aiState": "No",
+   "titleColor": "#000000",
+   "ancestorLessonId": null,
+   "renderType": "LINK",
+   "thumbnailAltText": "",
+   "isPrimaryLearningObject": false,
+   "lorContentId": null,
+   "permissions": {
+    "edit": false,
+    "delete": false,
+    "adaptiveRelease": {
+     "create": false,
+     "edit": false,
+     "delete": false,
+     "view": false,
+     "criteria": {
+      "performance": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "acl": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "dates": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      }
+     }
+    },
+    "contentHandlerPermissionMap": {
+     "dropTarget": true,
+     "createDiscussion": false
+    },
+    "isAllowLOROperations": false,
+    "isAppendOnly": false,
+    "contentOptions": true,
+    "move": false,
+    "modifyAvailability": false,
+    "canHaveReviewState": true,
+    "canViewReviewState": false,
+    "canUpdateReviewState": false,
+    "dashboardView": false,
+    "createLearningStandardsAlignment": false,
+    "viewDesigner": false,
+    "copy": false
+   },
+   "id": "_6106761_1",
+   "state": "Completed",
+   "position": 6,
+   "parentId": "_5875855_1"
+  },
+  "_6118979_1": {
+   "iconUrl": "/images/ci/sets/set12/test_on.svg",
+   "contentDetail": {
+    "resource/x-bb-asmt-test-link": {
+     "test": {
+      "deployedAssessmentType": "test",
+      "deploymentSettings": {
+       "isSecureBrowserRequiredToTake": true,
+       "isSecureBrowserRequiredToReview": true,
+       "isWebcamRequired": true,
+       "proctoringServiceVendor": "Respondus",
+       "proctoringDownloadUrl": "https://download.respondus.com/lockdown/download.php?id=536413901",
+       "isRandomizationOfQuestionsRequired": false,
+       "isDueDateEnforced": false,
+       "timerCompletion": "HARDSTOP",
+       "proctoringServiceHandle": "rs-lockdown",
+       "restrictLocation": {
+        "selectedIpFilterProfile": null,
+        "selectedRestrictType": "NONE",
+        "userIpAddress": "69.235.253.129"
+       },
+       "isBacktrackingProhibited": false,
+       "deliveryType": "Item",
+       "isCollectExternalSubmissions": false,
+       "allowStudentSubmission": false,
+       "feedbackSettings": {
+        "add": {
+         "associatedDate": null,
+         "options": [
+          "ALL_ANSWERS",
+          "USER_ANSWERS",
+          "INSTRUCTOR_FEEDBACK",
+          "CORRECT_ANSWERS",
+          "SCORE"
+         ]
+        }
+       },
+       "isRandomizationOfAnswersRequired": "ALWAYS",
+       "isRandomizationOfPagesRequired": false,
+       "isKeepFirstPageFirstRequired": false,
+       "isLateAttemptCreationDisallowed": false,
+       "isScoreShown": false,
+       "isUserAnswerShown": false,
+       "isCorrectAnswerShown": false,
+       "isIpFilterEnabled": false,
+       "isCompletionForced": false,
+       "lastModificationDate": null,
+       "isPasswordRequired": false,
+       "isFeedbackShown": false,
+       "isDescriptionShown": false,
+       "isInstructionShown": false,
+       "isStartedInExternalWindow": false,
+       "timeLimit": 120,
+       "announcementTime": null,
+       "attemptCount": 1,
+       "id": "_305175_1",
+       "allowFileSubmission": true,
+       "allowTextSubmission": true
+      },
+      "gradingColumn": {
+       "gradebookCategory": {
+        "description": null,
+        "courseId": "_294662_1",
+        "title": "Test.name",
+        "localizableTitle": {
+         "bundle": "gradebook_type",
+         "languageKey": "Test.name"
+        },
+        "id": "_2181705_1",
+        "isUserDefined": false
+       },
+       "visible": true,
+       "possible": 60,
+       "multipleAttempts": 1,
+       "calculationType": "NON_CALCULATED",
+       "gradebookCategoryId": "_2181705_1",
+       "courseId": "_294662_1",
+       "scoreProviderHandle": "resource/x-bb-assessment",
+       "peerGrading": false,
+       "gradingSchemaId": "_1229149_1",
+       "dueDate": "2026-10-25T04:55:00.000Z",
+       "contentId": "_6118979_1",
+       "anonymousGrading": false,
+       "deleted": false,
+       "columnName": "Mid-Term Exam Second Attempt",
+       "userCreatedColumn": false,
+       "permanentAnonymous": false,
+       "scorable": true,
+       "aggregationModel": "LAST",
+       "visibleInBook": true,
+       "ltiDomainId": null,
+       "gradesReleased": true,
+       "enforceDueDate": false,
+       "id": "_1575286_1",
+       "learningOutcome": {
+        "isSignature": false,
+        "entityScale": [],
+        "columnScale": []
+       },
+       "localizedColumnName": {
+        "bundle": "gradebook",
+        "languageKey": "Mid-Term Exam Second Attempt"
+       },
+       "effectiveColumnName": "Mid-Term Exam Second Attempt",
+       "isAttemptBased": true,
+       "gradeScoreDesignation": "-",
+       "isFormative": false,
+       "position": 11,
+       "@id": "https://blackboard.ualr.edu/learn/api/v1/courses/_294662_1/gradebook/columns/_1575286_1"
+      },
+      "assessment": {
+       "gradableItemId": "_1575286_1",
+       "hasPartialCreditQuestions": false,
+       "extraCreditPoints": 0,
+       "hasAnswerableQuestions": true,
+       "totalPoints": 60,
+       "type": "Test",
+       "hasPartialAndNegativeCreditQuestions": false,
+       "questionCount": 60,
+       "lastModifiedDate": "2026-11-03T19:46:14.001Z",
+       "description": {
+        "rawText": "",
+        "displayText": "",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28560924_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMeXbnSE7fspc2vzl2XgdvBE%3D"
+       },
+       "hasPresentationOnlyQuestions": false,
+       "hasAutomatedQuestionFeedback": false,
+       "alignmentCount": 0,
+       "title": "Mid-Term Exam Second Attempt",
+       "instructions": {
+        "rawText": "",
+        "displayText": "",
+        "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/assessment/_28560924_1/",
+        "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oo/9JFxELf1VfZEAF%2BxTeMeXbnSE7fspc2vzl2XgdvBE%3D"
+       },
+       "id": "_28560924_1"
+      },
+      "permissions": {
+       "deploy": false,
+       "modifyDueDate": false,
+       "delete": false,
+       "view": false,
+       "modify": false
+      },
+      "exceptions": []
+     },
+     "safeAssignOptions": {
+      "checkAttempts": false,
+      "canStudentViewReports": false,
+      "excludeSubmissions": false,
+      "globalSearch": true
+     }
+    }
+   },
+   "launchInNewWindow": true,
+   "contentHandler": "resource/x-bb-asmt-test-link",
+   "body": {
+    "rawText": "",
+    "displayText": "",
+    "webLocation": "https://blackboard.ualr.edu/courses/1/FALL_2026_INFQ_70303_01/content/_6118979_1/embedded/",
+    "fileLocation": "BB%3FBB_5VyHyWpqvHWjVlDyLMgsxaMaFsms%2BXQ4fwTuRqdlkUBxNNmim3S2Li%2Bb/U5n9hBAVMIkMwrUcYMvgumOQiasEAwENTGE%2BD3oErzWTSYNMHQP5XrvKFCrOan9y3wKLupkijU8NaUx5QY%3D"
+   },
+   "description": "",
+   "courseId": "_294662_1",
+   "modifiedDate": 1793735173998,
+   "title": "Mid-Term Exam Second Attempt",
+   "genericReadOnlyData": {
+    "hasGradeColumn": true,
+    "restrictions": {
+     "contentVisibility": {
+      "visible": {
+       "canBeTurnedOn": true,
+       "reasonCodes": []
+      },
+      "hidden": {
+       "canBeTurnedOn": true,
+       "reasonCodes": []
+      },
+      "partiallyVisible": {
+       "canBeTurnedOn": true,
+       "reasonCodes": []
+      }
+     }
+    },
+    "engagementDates": null,
+    "dueDate": "2026-10-25T04:55:00.000Z"
+   },
+   "isGroupContent": false,
+   "dueDateExceptionType": "Normal",
+   "inSequence": false,
+   "isReviewable": true,
+   "visibility": "VISIBLE",
+   "aiState": "No",
+   "titleColor": "#000000",
+   "ancestorLessonId": null,
+   "renderType": "LINK",
+   "thumbnailAltText": "",
+   "isPrimaryLearningObject": false,
+   "lorContentId": null,
+   "permissions": {
+    "edit": false,
+    "delete": false,
+    "adaptiveRelease": {
+     "create": false,
+     "edit": false,
+     "delete": false,
+     "view": false,
+     "criteria": {
+      "performance": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "acl": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      },
+      "dates": {
+       "create": false,
+       "edit": false,
+       "delete": false
+      }
+     }
+    },
+    "contentHandlerPermissionMap": {
+     "dropTarget": true,
+     "createDiscussion": false
+    },
+    "isAllowLOROperations": false,
+    "isAppendOnly": false,
+    "contentOptions": true,
+    "move": false,
+    "modifyAvailability": false,
+    "canHaveReviewState": true,
+    "canViewReviewState": false,
+    "canUpdateReviewState": false,
+    "dashboardView": false,
+    "createLearningStandardsAlignment": false,
+    "viewDesigner": false,
+    "copy": false
+   },
+   "id": "_6118979_1",
+   "state": "Completed",
+   "position": 8,
+   "parentId": "_5875855_1"
+  }
+ },
+ "discussionsPublic": []
+}

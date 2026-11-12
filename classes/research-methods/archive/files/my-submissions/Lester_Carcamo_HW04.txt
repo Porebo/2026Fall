@@ -1,0 +1,67 @@
+Lester Carcamo
+HW04: Evaluating Metrics (and Hypotheses)
+9/28/2026
+
+Assigned paper: Qiao, S., Friedman, D. B., Tam, C. C., Zeng, C., & Li, X. (2020). Vaccine acceptance among college students in South Carolina: Do information sources and trust in information make a difference? medRxiv. https://doi.org/10.1101/2020.12.02.20242982
+
+1. What questions did this research seek to answer in this study?
+
+The study asked whether the sources college students get COVID-19 vaccine information from, and how much they trust those sources, make a difference in whether they would accept a COVID-19 vaccine. The authors broke this into three questions:
+
+- Where do college students get information about the COVID-19 vaccine?
+- How much do they trust each of those sources?
+- After controlling for key demographics, are the information sources and the level of trust in each source associated with vaccine acceptance?
+
+The underlying hypothesis comes from prior literature: both the source of health information and the degree to which it is trusted shape attitudes and behavior. The authors expected this to matter especially for college students, who are heavily exposed to multimedia and social media and who were considered a hard-to-reach group for vaccine uptake.
+
+2. Who were the participants in this study?
+
+- 1,062 college students in South Carolina, most of them from the University of South Carolina
+- Inclusion criteria: 18 years of age or older, and currently enrolled as a full-time university student
+- 1,370 students started the survey; 308 were removed because they completed less than half of it
+- Average age was 23.8 years (SD = 6.7)
+- Mostly female (79.8%), Caucasian (85.9%), and in a health-related major (88.4%)
+- 52.4% undergraduates, 27.6% doctoral students, and 19.5% master's students
+- About 40% reported an annual family income above $100,000
+- 73% had received a flu shot in the past year
+
+The authors acknowledge that this is a homogeneous convenience sample (mostly white, female, health-science students from one university), which limits how far the results can be generalized.
+
+3. What procedures did the researchers use to collect the data for their analysis?
+
+- Design: a cross-sectional, self-administered, anonymous online survey conducted in September 2020, before any COVID-19 vaccine was available
+- Sampling: convenience sampling. An email invitation was sent through student listservs by colleges and departments on campus (e.g., Public Health, Nursing, Social Work), and participants were encouraged to share the link with other students (snowball recruitment)
+- Platform: the survey was built in REDCap and took about 20 minutes to complete
+- Consent and ethics: the invitation included an online consent form explaining the study purpose, procedure, voluntary participation, and confidentiality. The protocol was approved by the University of South Carolina Institutional Review Board
+- Incentive: participants could enter a drawing for one of ten $25 Amazon e-gift cards
+- Data cleaning: incomplete responses (less than half the survey finished) were excluded, leaving 1,062 usable cases
+
+4. Describe the variables (attributes) that the researchers collected from their survey.
+
+Dependent (outcome) variable:
+- COVID-19 vaccine acceptance, measured with one question, "How likely are you to get a COVID-19 vaccine when it is available?", on a 5-point Likert scale (1 = definitely not take it, 2 = not likely, 3 = I don't know, 4 = likely, 5 = definitely take it). Higher scores mean higher acceptance.
+
+Independent (predictor) variables:
+- Sources of COVID-19 vaccine information: a yes/no item for each source the student typically gets vaccine information from, including social media, mass media (TV, newspapers), government, health agencies, scientists, pharmaceutical companies, healthcare providers, personal social network (friends, classmates, teachers), other, or no source
+- Trust in each information source: for the same eight sources, trust in COVID-19 vaccine information was rated on a 5-point scale from 1 (not trust at all) to 5 (always trust)
+
+Control (covariate) variables:
+- Sociodemographics: gender, age, race/ethnicity, college year, type of program, major, and annual family income. Because some categories had very few participants (under 5%), gender (female/male), race (non-Caucasian/Caucasian), major (non-health/health science), and program (undergraduate/graduate) were recoded as binary variables
+- Flu shot uptake in the past year (yes/no), as an indicator of prior vaccination behavior
+- Health literacy, measured with an 11-item scale from the European Health Literacy Survey Questionnaire covering health care, health promotion, and disease prevention. Items were rated from very easy to very difficult, then reverse-scored and summed so a higher score means greater health literacy (Cronbach's alpha = 0.90)
+
+In measurement terms, the study mixes nominal variables (sources, gender, race, major), ordinal variables (Likert ratings of trust and acceptance, college year, income), and interval/ratio variables (age, health literacy total score).
+
+5. Describe the different types of analysis that the researchers performed on the data collected from their survey.
+
+- Descriptive statistics: frequencies and percentages for categorical variables, and means and standard deviations for continuous ones, to profile the sample and rank the information sources and trust levels. The top three sources were health agencies (57.7%), mass media (49.5%), and personal social networks (40.5%). Scientists were the most trusted source (83.1% largely or always trusted them), followed by healthcare providers (73.9%) and health agencies (70.2%)
+- Reliability analysis: Cronbach's alpha to confirm the internal consistency of the health literacy scale
+- Bivariate analysis: tests of how vaccine acceptance differed across the demographic, flu shot, source, and trust variables before building the full model
+- Multivariable linear regression: vaccine acceptance was regressed on the information-source and trust variables while controlling for demographics, flu shot history, and health literacy. This isolates the effect of each source and trust level from the other factors
+
+Key regression findings:
+- Getting vaccine information from scientists was associated with higher acceptance, while getting it from pharmaceutical companies was associated with lower acceptance
+- Higher trust in mass media, health agencies, scientists, and pharmaceutical companies was associated with higher acceptance
+- Higher trust in social media was associated with lower acceptance
+
+From these results, the authors conclude that trust in a source matters more than simply being exposed to it. They call for restoring trust in government, the healthcare system, scientists, and the pharmaceutical industry, and for countering misinformation on social media.

@@ -1,0 +1,1649 @@
+WEBVTT
+
+00:00:03.000 --> 00:00:12.000
+So I think probably the first thing for this class, let's just quickly go over the
+
+00:00:12.000 --> 00:00:15.000
+The core share of the blackboard. So
+
+00:00:15.000 --> 00:00:29.000
+Basically, we have the sailibers, and also we have the e-books folder. So for this class, you do not need to buy any textbook. I think, luckily, we do have the electronic copies
+
+00:00:29.000 --> 00:00:40.000
+of several books, we recommend you to read. So the first one, the most important one, is from Randy Kumar. It's about research methodology step
+
+00:00:40.000 --> 00:00:55.000
+And then the second book, Sometime We Needed. If you actually interested or you're in the computer science engineering background, and if you research, it's mainly centered around the computer science
+
+00:00:55.000 --> 00:01:09.000
+or computer engineering, then this book might be useful for you to study the research methodologies specifically tailored for the computer science
+
+00:01:09.000 --> 00:01:11.000
+and computer engineering major
+
+00:01:11.000 --> 00:01:26.000
+The… another book is about the art of discovery by Oliver. So this book is very interesting to read, and also very good one. So basically means that although there are so many researchers
+
+00:01:26.000 --> 00:01:41.000
+You may find that some researchers always have some breeding idea and always kind of doing a very significant research. So for those researchers, they are by no means smarter than others. They just have, I think.
+
+00:01:41.000 --> 00:01:48.000
+the best strategies to identify the most significant topic
+
+00:01:48.000 --> 00:01:55.000
+or direction in the research. So this kind of book is pretty much talking about those kind of strategies
+
+00:01:55.000 --> 00:02:02.000
+And then we also have some, I think this is a link. Let's go to this link
+
+00:02:02.000 --> 00:02:05.000
+This is kind of an online textbook
+
+00:02:05.000 --> 00:02:14.000
+is answering questions with data. So introductory statistics for the psychology students
+
+00:02:14.000 --> 00:02:29.000
+So although it's for the psychology students, excuse me, but it discusses a lot of important statistical methods that are helpful in our data science study
+
+00:02:29.000 --> 00:02:42.000
+In a data governance study. So whenever you have a need to analyze data and then I think there are several ways you can use you can analyze data. One is use
+
+00:02:42.000 --> 00:02:58.000
+is using statistical method. The other one may be using data science approach, like the machine learning, deep learning, and so on. So this one is solely on the statistics methodologies that you can use
+
+00:02:58.000 --> 00:03:03.000
+in the data analysis and research. So this was a good one
+
+00:03:03.000 --> 00:03:12.000
+And there's another one. This one is kind of starter guide to AI final. So I think this kind of discuss
+
+00:03:12.000 --> 00:03:26.000
+Some guidance on the appropriate use of AI tools. So I think basically AI tools provide a lot of opportunities and also for us to use
+
+00:03:26.000 --> 00:03:38.000
+to conduct research more efficiently, but we have to always bear in mind that AI tools, they are not reliable, unfortunately.
+
+00:03:38.000 --> 00:03:51.000
+So hallucination is one of the property of the AI. For example, large language model. So whenever you, for example, you're doing the research, you're trying to find the research topic
+
+00:03:51.000 --> 00:03:56.000
+And you use AI tools, then you can
+
+00:03:56.000 --> 00:04:05.000
+They 100% trust on whatever result you get from AI. So you really need to go over
+
+00:04:05.000 --> 00:04:24.000
+If you want to reference or study kind of a related work, then you have to go over the most important things you're interested in to make sure that they are authentic, they are not fake. Okay, that's kind of thing you need to be aware of that when you're using AI
+
+00:04:24.000 --> 00:04:30.000
+So let's first look at the, I think the
+
+00:04:30.000 --> 00:04:34.000
+The syllabus
+
+00:04:34.000 --> 00:04:48.000
+So I think the main goal of this class is to teach the strategy, the ways, methodologies of conducting research, and also for writing a good research proposal
+
+00:04:48.000 --> 00:04:55.000
+I think I will mainly focus on how to write
+
+00:04:55.000 --> 00:05:10.000
+research project proposal and the dissertation proposal. But I think research proposal is not limited to your study. Like go over I mean pursue your master degree or your doctoral degree
+
+00:05:10.000 --> 00:05:21.000
+I think research proposal, maybe you're going to use it in your work. For example, at your work, you may find some kind of
+
+00:05:21.000 --> 00:05:35.000
+What problems in your organization or in your workspace or in the tools you use, or in the kind of system you use, you want to tackle those problems so that
+
+00:05:35.000 --> 00:05:50.000
+the whole system working more efficiently, then you probably need to write a research proposal to present your ideas to your employers, your managers or your colleagues
+
+00:05:50.000 --> 00:06:00.000
+to convince them this proposal or this research problem is worth investigating or is worth
+
+00:06:00.000 --> 00:06:13.000
+finding a solution so that it can lead a big impact to your organization or institution. So in this case, you still need to write a solid
+
+00:06:13.000 --> 00:06:22.000
+proposal so that you can convince your sponsors, your employers, so you can undertake that work. Okay
+
+00:06:22.000 --> 00:06:31.000
+So basically, I think the objective of this class will be that after the class, you are able to identify
+
+00:06:31.000 --> 00:06:43.000
+characterize and state important problems in information quality, technologies, and related disciplines. So we are not solely focused on information quality. I think
+
+00:06:43.000 --> 00:06:51.000
+All the things we studied and discussed in this class can be applied to any field, okay, regarding to the research
+
+00:06:51.000 --> 00:07:08.000
+And then you're able to formulate and justify research questions based on the potential impact, knowledge gaps, and theoretical foundations and prior work. So you're able to evaluate your own work and also able to evaluate other research
+
+00:07:08.000 --> 00:07:14.000
+Maybe you read from a publication, you read from online documents and so on
+
+00:07:14.000 --> 00:07:22.000
+And also, you're able to identify, synthesize, and critically evaluate literature relevant
+
+00:07:22.000 --> 00:07:27.000
+to a field that you're interested in. Okay
+
+00:07:27.000 --> 00:07:36.000
+And then you're able to describe and select appropriate research design and the methods for the research question
+
+00:07:36.000 --> 00:07:51.000
+And also, very importantly, you're going to be able to write a research proposal for a study, including appropriate methods to collect, analyze, manage, and report data.
+
+00:07:51.000 --> 00:07:57.000
+And then you also learn how to communicate research plans and results
+
+00:07:57.000 --> 00:08:06.000
+Vocally, visually, and in writing, so this is also very important. So our research is worth
+
+00:08:06.000 --> 00:08:17.000
+the exposure. So I think our research is the good research, it does have significance and the impacts to the field. So one of the
+
+00:08:17.000 --> 00:08:32.000
+obligation of the researcher is trying to publish your work so that it can be benefit your colleagues in the same field so they can
+
+00:08:32.000 --> 00:08:47.000
+pretty much get your research results, can guide them to, for example, to go deeper in that field, or to use your research results to apply to their own problems
+
+00:08:47.000 --> 00:08:56.000
+And then formulate dissemination plans for research products. So I think most likely, I think the best revenue for
+
+00:08:56.000 --> 00:09:08.000
+Our research dissemination will be through the publication in a conference or in a journal, or even you may want to have read some kind of
+
+00:09:08.000 --> 00:09:14.000
+The blogs and articles and published on the internet
+
+00:09:14.000 --> 00:09:24.000
+So the last one is to engage in critical reflection of one's strengths and professional development needs
+
+00:09:24.000 --> 00:09:35.000
+in relation to design, conduct, and reporting of research. So this kind of main objective of this research. So this list all the textbook
+
+00:09:35.000 --> 00:09:39.000
+Not required, but recommended
+
+00:09:39.000 --> 00:09:47.000
+And also for successfully complete this course, you need the access to the internet
+
+00:09:47.000 --> 00:09:52.000
+And also a device to kind of
+
+00:09:52.000 --> 00:09:58.000
+to rate the related materials, course materials, and also work on assignments
+
+00:09:58.000 --> 00:10:03.000
+So I think this is pretty normal today. So I don't think you have any problem with that
+
+00:10:03.000 --> 00:10:14.000
+And then for the class, I think in this class, total we have 14 weeks in this semester
+
+00:10:14.000 --> 00:10:21.000
+I think the first four weeks, actually, the total lectures you spend the first eight weeks
+
+00:10:21.000 --> 00:10:25.000
+So I view
+
+00:10:25.000 --> 00:10:33.000
+be leading the first four weeks lectures and then Dr. Dektash will cover the remaining four weeks
+
+00:10:33.000 --> 00:10:39.000
+So then from the week nine to the week 14, I think there are six weeks
+
+00:10:39.000 --> 00:10:45.000
+my initial plan is that
+
+00:10:45.000 --> 00:10:53.000
+We're going to reserve three weeks for you to develop your research question and research proposal
+
+00:10:53.000 --> 00:11:09.000
+And then the last three weeks we're going to have you, each one of you present your research proposal so that we can give you suggestive or constructive ideas if there's any thing you need to revise to make it better
+
+00:11:09.000 --> 00:11:16.000
+So that's the main purpose for the presentation.
+
+00:11:16.000 --> 00:11:28.000
+And what else? So, yeah, for the assignments, pretty much each week, you have assignment. So I think in total, you have between 7 to 8 assignments for this semester
+
+00:11:28.000 --> 00:11:31.000
+And usually you have one week
+
+00:11:31.000 --> 00:11:42.000
+to work on your assignment. For example, for the week one, we do have assignment one and it will be due on next Monday
+
+00:11:42.000 --> 00:11:50.000
+And then you also need to write a good research proposal by the end of the semester
+
+00:11:50.000 --> 00:12:00.000
+So assignment account, 50% of your final grade and research proposal will account another 50% of your final grade
+
+00:12:00.000 --> 00:12:17.000
+So that's why I think although we reserve from the week 9 to week 11 for you to write your proposal, you strongly encouraged to start it early, so maybe during the first two or three weeks
+
+00:12:17.000 --> 00:12:22.000
+You may start to consider or think about your research topic
+
+00:12:22.000 --> 00:12:25.000
+I think some of you may have already
+
+00:12:25.000 --> 00:12:31.000
+have your research topic, then I think you can do more like those
+
+00:12:31.000 --> 00:12:35.000
+Looking for the literatures
+
+00:12:35.000 --> 00:12:50.000
+Talking about related work, and think about your research methodologies, and think about which research type you're going to utilize to conduct your research, and also you're going to think about the expected
+
+00:12:50.000 --> 00:13:00.000
+timeline of your research and the potential limitation of your research and so on
+
+00:13:00.000 --> 00:13:13.000
+And, what else? I think that's pretty much about homework. So I think there are some expectation of this class because we don't have any exam
+
+00:13:13.000 --> 00:13:25.000
+No quiz, no exam. So because this is more like the seminar-based class. So that's why we expect you to spend more time outside of class
+
+00:13:25.000 --> 00:13:32.000
+To rate materials assigned to you and also to think about your research topic
+
+00:13:32.000 --> 00:13:36.000
+And do some work related to your research topic
+
+00:13:36.000 --> 00:13:45.000
+And that's why you expected to spend actual between 5 to 10 hours each week for this class.
+
+00:13:45.000 --> 00:14:04.000
+And what else? Okay, for the communication. So usually I think although you do have my telephone number and email address, I think email will be the most effective way for reaching me and communicating with me. So usually I check email almost every day, even during the night
+
+00:14:04.000 --> 00:14:19.000
+So, if you send me email, so I think you look for get my response within 24 hours. So after 24 hours, if you still didn't get my response
+
+00:14:19.000 --> 00:14:25.000
+So feel free to send me reminders, because I have many students
+
+00:14:25.000 --> 00:14:36.000
+And the Colliers collaborators and a lot of emails every day. So sometimes I do have to prioritize the urgency
+
+00:14:36.000 --> 00:14:45.000
+of the email to reply them. So maybe I may accidentally skip your email without knowing that I need to respond
+
+00:14:45.000 --> 00:14:50.000
+So anyway, so there's no hurt, no offense. So if you
+
+00:14:50.000 --> 00:14:55.000
+Don't get my email within the first 24 hours. Please send me a reminder
+
+00:14:55.000 --> 00:15:11.000
+For the weekend, so I tried to still keep answering your email within 24 hour frame time frame, but during the weekend, sometimes it may take 48 hours, so really depending on my schedule
+
+00:15:11.000 --> 00:15:29.000
+But anyway, so it's always good for you to send me reminder, but still I consider email to be the best way to reach me and communicate with me, especially if you have urgent stuff
+
+00:15:29.000 --> 00:15:35.000
+For the telephone number, I think the reason it's not reliable, because I have a lot of meetings, and I also have
+
+00:15:35.000 --> 00:15:54.000
+to other classes. So sometimes you I may not get my call. That's why I strongly encourage you to use email as the main communication channel to reach me and ask questions. And also since the lectures contains two parts, so the first
+
+00:15:54.000 --> 00:15:56.000
+4 weeks
+
+00:15:56.000 --> 00:16:09.000
+I will be the leading professor. So if you have any questions regarding to the subjects that we cover in the first four weeks, please feel free to contact me
+
+00:16:09.000 --> 00:16:14.000
+Then for the week file to week eight
+
+00:16:14.000 --> 00:16:28.000
+So those lectures will be covered by Dr. Dektash. So any question regarding to those lectures, you can send email to Daktas
+
+00:16:28.000 --> 00:16:41.000
+Then, regarding to the general questions regard about your research topic, your research ideas, and your research proposal, I think you can contact either one of us or both of us.
+
+00:16:41.000 --> 00:16:52.000
+And that's kind of the plan for this class. But anyway, so you can always contact both of us. So I think at least one of us will reply to you
+
+00:16:52.000 --> 00:16:55.000
+So that's pretty much about
+
+00:16:55.000 --> 00:17:05.000
+Okay, thanks in the city purse. Any questions?
+
+00:17:05.000 --> 00:17:07.000
+Okay, so if no
+
+00:17:07.000 --> 00:17:10.000
+That's
+
+00:17:10.000 --> 00:17:17.000
+I think go to the fourth week folder
+
+00:17:17.000 --> 00:17:18.000
+So
+
+00:17:18.000 --> 00:17:20.000
+For the
+
+00:17:20.000 --> 00:17:25.000
+Let's go over probably the
+
+00:17:25.000 --> 00:17:29.000
+The reading list first. Okay
+
+00:17:29.000 --> 00:17:34.000
+So, this
+
+00:17:34.000 --> 00:17:39.000
+This list lists the chapters of
+
+00:17:39.000 --> 00:17:52.000
+two different books, and also some online documents that you need to read. So for the Renji Kuma's book, you're required to read chapter one, chapter 2 and chapter 18
+
+00:17:52.000 --> 00:18:02.000
+And then you're going to read chapter one from the Olivers, the incomplete Guide to the Art of Discovery
+
+00:18:02.000 --> 00:18:12.000
+Then there are four online articles, very nice articles about information quality. So one about the brief history of the data quality
+
+00:18:12.000 --> 00:18:17.000
+One is about cultural device in the age of AI
+
+00:18:17.000 --> 00:18:26.000
+Regarding to the data qualities. Then it also have the one about the evolution of data quality
+
+00:18:26.000 --> 00:18:36.000
+from the archive to the New Age. And the last one is history, evolution and future data quality. I think all those four articles is very easy
+
+00:18:36.000 --> 00:18:46.000
+rate to read, and also gave you a lot of information about the history and the future work in the information quality. So those are the
+
+00:18:46.000 --> 00:18:51.000
+reading list, so you can do it outside of class
+
+00:18:51.000 --> 00:18:57.000
+And then, for the course materials, so
+
+00:18:57.000 --> 00:19:04.000
+Now I need to just give me one minute, I need to download. I have version control problems when I
+
+00:19:04.000 --> 00:19:11.000
+Change my computer, so I need to find the most recent version
+
+00:19:11.000 --> 00:19:41.000
+of my slides. So just give me one second
+
+00:19:42.000 --> 00:19:47.000
+Let's
+
+00:19:47.000 --> 00:19:52.000
+Okay, so I may need to excuse me
+
+00:19:52.000 --> 00:20:00.000
+I think I have water control, so my current computer does not have the most
+
+00:20:00.000 --> 00:20:05.000
+Most update version of the slide, so let me
+
+00:20:05.000 --> 00:20:35.000
+Back to my slides.
+
+00:20:51.000 --> 00:21:21.000
+Yeah, just give me one second.
+
+00:21:33.000 --> 00:22:03.000
+Good
+
+00:22:10.000 --> 00:22:15.000
+Good, so let me
+
+00:22:15.000 --> 00:22:22.000
+Okay, I think this also you can find the PDF file under the class materials.
+
+00:22:22.000 --> 00:22:26.000
+So I just compiled this very short
+
+00:22:26.000 --> 00:22:29.000
+Kind of a slide
+
+00:22:29.000 --> 00:22:39.000
+To discuss, I think many folks on how to formulate a research topic. So we're going to discuss what is research, so the definition of the research
+
+00:22:39.000 --> 00:22:53.000
+And also different types of research and also I gave you some examples of those different types of research. Then we are going to study how to formulate research topic. And finally.
+
+00:22:53.000 --> 00:23:09.000
+We're going to give a brief discussion about the key component of a research proposal. Okay, so let's start
+
+00:23:09.000 --> 00:23:18.000
+So, what is research? Actually, if you Google the internet, there are so many different definitions of the research
+
+00:23:18.000 --> 00:23:26.000
+So in essence, research is considered as systematic and methodical process of inquiry
+
+00:23:26.000 --> 00:23:35.000
+Aim at exploring, analyzing, and interpreting information to answer specific questions or solve problems.
+
+00:23:35.000 --> 00:23:43.000
+So by establishing research methodologies, researchers can collect reliable data
+
+00:23:43.000 --> 00:23:56.000
+draw meaningful conclusions and contribute to the existing body of knowledge. So in essence, research definition emphasize structured inquiry
+
+00:23:56.000 --> 00:24:03.000
+Objectivity and evidence-based reasoning and understanding
+
+00:24:03.000 --> 00:24:18.000
+So, this just shows one of so many different types of research definition. So in this case, in this definition, research is considered as a careful, systematic and objective investigation
+
+00:24:18.000 --> 00:24:34.000
+conducted to obtain valid facts, draw conclusions, and establish principles regarding an identifiable problem in some field of knowledge. Okay.
+
+00:24:34.000 --> 00:24:49.000
+Then there are many characteristics of research. I think this slide and the next slide simply just discuss some key characteristics of research. The fourth one is called systematic approach
+
+00:24:49.000 --> 00:25:00.000
+So that means that research must follow organized steps to ensure logic data collection, analysis, and interpretation
+
+00:25:00.000 --> 00:25:14.000
+Then the next one is objective and unbiased. So means that all the conclusions drawn by a research must be based on the evidence rather than the personal opinions
+
+00:25:14.000 --> 00:25:21.000
+Or preferences. So research conclusion must be objective, not subjective
+
+00:25:21.000 --> 00:25:32.000
+The next one is empirical evidence means that the research findings must be based on the observation, experiments
+
+00:25:32.000 --> 00:25:37.000
+or survey. So those the objective data
+
+00:25:37.000 --> 00:25:42.000
+That formed the findings of the research.
+
+00:25:42.000 --> 00:25:50.000
+Then the clear research question. So this is very important. So every research must have very clear
+
+00:25:50.000 --> 00:26:05.000
+research question. Based on this research question, we may have clear research objective and then we also can formulate or consider appropriate research methodology
+
+00:26:05.000 --> 00:26:14.000
+So that the outcome of this research can meet the research goal or objective
+
+00:26:14.000 --> 00:26:18.000
+Then the next one is replicability.
+
+00:26:18.000 --> 00:26:33.000
+So replicability means that other researchers should be able to reproduce the study and achieve similar results. For example, if we designed a credit card fraud detection method
+
+00:26:33.000 --> 00:26:36.000
+For Bank A
+
+00:26:36.000 --> 00:26:42.000
+that produce very good result, then the same method should
+
+00:26:42.000 --> 00:26:52.000
+should be able to produce similar results using another bank's data. Okay, so that's called replicability
+
+00:26:52.000 --> 00:27:05.000
+Transparency and ethics that usually apply to the research that involves human participants. So it requires researchers
+
+00:27:05.000 --> 00:27:15.000
+to adhere to ethical standards and also ensure informed consent and confidentiality of the
+
+00:27:15.000 --> 00:27:20.000
+Human participants' data
+
+00:27:20.000 --> 00:27:37.000
+Then the generalizability means that findings from a specific study can be applied to a larger population, different settings, or other times beyond the original group of participants
+
+00:27:37.000 --> 00:27:43.000
+So it shows if the results hold true in the real world.
+
+00:27:43.000 --> 00:27:47.000
+Then critical and logical thinking
+
+00:27:47.000 --> 00:27:53.000
+So that means that every step of a study follows valid
+
+00:27:53.000 --> 00:28:00.000
+sound rules of reasoning and involves strict
+
+00:28:00.000 --> 00:28:10.000
+Useful evaluation of evidence rather than relying on guesswork, bias, or personal opinions
+
+00:28:10.000 --> 00:28:16.000
+Then, I think another feature of the research is that it must be unique, novel
+
+00:28:16.000 --> 00:28:19.000
+And have a great impact.
+
+00:28:19.000 --> 00:28:32.000
+So contribution to knowledge is one of the impact of the research. So it means that research will advance understanding challenge theories, or propose new ideas.
+
+00:28:32.000 --> 00:28:44.000
+Then peer review and publications. So I think that's kind of one goal of the research. So research should have significance or
+
+00:28:44.000 --> 00:29:00.000
+Contribution to the field. So then one of the duty or responsibility of the researcher is to publish their research results so that the results can be disseminated to
+
+00:29:00.000 --> 00:29:07.000
+to different researchers and can benefit their research
+
+00:29:07.000 --> 00:29:22.000
+Usually, a good publication process will involve the expert. So the expert will validate your research study and the results. And then it can be published in
+
+00:29:22.000 --> 00:29:24.000
+conference or journal
+
+00:29:24.000 --> 00:29:32.000
+Iterative process means that research often leads to new questions and further studies.
+
+00:29:32.000 --> 00:29:44.000
+me, or research may open the doors to a new proper areas or to a new problem that worth of investigating in the future.
+
+00:29:44.000 --> 00:29:55.000
+The practical application, that means that a lot of research will actually have practical application. For example, they may inform policy
+
+00:29:55.000 --> 00:29:59.000
+Improved practice or solve the real-world problems
+
+00:29:59.000 --> 00:30:04.000
+So those are the key characteristics of research
+
+00:30:04.000 --> 00:30:16.000
+So next one we're going to kind of study different types of research. So regarding to research types, there are so many research types. And here I
+
+00:30:16.000 --> 00:30:26.000
+List the research type may be most useful to our field. Okay
+
+00:30:26.000 --> 00:30:33.000
+So there were various established methods used in the research to investigate a problem
+
+00:30:33.000 --> 00:30:49.000
+or research in question. So, as a researcher, if a good understanding and knowledge about the types of research can help us to better plan our research project by utilizing
+
+00:30:49.000 --> 00:30:54.000
+The most appropriate methodologies and techniques
+
+00:30:54.000 --> 00:31:10.000
+So, here I list some of them, for example, quantitative research versus qualitative research. So quantitative research usually focus on the phenomenon or events that can be mirrored
+
+00:31:10.000 --> 00:31:17.000
+By values qualitative research, those research
+
+00:31:17.000 --> 00:31:21.000
+actually investigate the phenomenon
+
+00:31:21.000 --> 00:31:29.000
+that cannot be quantified mathematically. Then we also have applied research versus basic research
+
+00:31:29.000 --> 00:31:37.000
+And the correlation research means that we're going to analyze correlation among all variables or more variables
+
+00:31:37.000 --> 00:31:41.000
+Descriptive research, this type of research
+
+00:31:41.000 --> 00:31:48.000
+Simply use… most likely use the statistic method to describe
+
+00:31:48.000 --> 00:31:53.000
+The profiles of events, the data or phenomenon
+
+00:31:53.000 --> 00:32:04.000
+An experimental research, sometimes also called case and control research. So this pretty much made it used in the social studies, psychology and health field
+
+00:32:04.000 --> 00:32:12.000
+So we have studied the differences between the control group and the target group.
+
+00:32:12.000 --> 00:32:20.000
+Exploratory research. I think this type of research is mainly used to
+
+00:32:20.000 --> 00:32:34.000
+further define a research problem, means that in the beginning, we are not very clear about the research problem, then we can do some exploratory analysis
+
+00:32:34.000 --> 00:32:43.000
+to kind of understand the data or problem better so that we can further refine
+
+00:32:43.000 --> 00:32:47.000
+There's research question
+
+00:32:47.000 --> 00:32:53.000
+Ethnographic research is mainly used in a social study to study human society
+
+00:32:53.000 --> 00:33:09.000
+to study a specific culture and so on. Then the mixed methods research usually means that we combine both quantitative research and qualitative research to kind of we can utilize the quantitative
+
+00:33:09.000 --> 00:33:25.000
+analysis method and also can again can take advantage of the insights obtained from the qualitative research. So I have seen the past, I have seen a lot of
+
+00:33:25.000 --> 00:33:33.000
+Dissertation utilized the mixed method. So that's considered one of the way
+
+00:33:33.000 --> 00:33:39.000
+for doing the research in the data quality field and the data science field.
+
+00:33:39.000 --> 00:33:46.000
+So let's study each one of them and also discuss some examples
+
+00:33:46.000 --> 00:33:56.000
+The first one is the quantitative research. So this type of research is often used to measure variables, identify patterns
+
+00:33:56.000 --> 00:34:00.000
+And establish causal relationship
+
+00:34:00.000 --> 00:34:05.000
+So, some example can be the experimental research
+
+00:34:05.000 --> 00:34:13.000
+For example, we're testing new medicine by giving it to one group and placebo to another group
+
+00:34:13.000 --> 00:34:24.000
+And we can also apply it to the correlation, analyze correlation. For example, we can track the number of hours students exercise
+
+00:34:24.000 --> 00:34:32.000
+Also record their test scores to see if there's a relationship between the two.
+
+00:34:32.000 --> 00:34:39.000
+And also we can use quantitative research to describe the properties
+
+00:34:39.000 --> 00:34:52.000
+of our research target. For example, we can count in the average daily income of families given in a specific city
+
+00:34:52.000 --> 00:34:55.000
+Then the qualitative research
+
+00:34:55.000 --> 00:35:05.000
+So mainly focus on the understanding the intricacies of human experiences, belief, and social phenomena
+
+00:35:05.000 --> 00:35:13.000
+Which are difficult or impossible to quantify mathematically
+
+00:35:13.000 --> 00:35:20.000
+And for example, the interviews can be considered as a qualitative research
+
+00:35:20.000 --> 00:35:31.000
+One example may be that we want to investigate how retail managers using customer analytics dashboard
+
+00:35:31.000 --> 00:35:39.000
+So then we can conduct interviews with store managers about how dashboard
+
+00:35:39.000 --> 00:35:43.000
+metrics change their daily choices
+
+00:35:43.000 --> 00:35:51.000
+And the focus group is another type of quantitative example of the qualitative, I'm sorry, research
+
+00:35:51.000 --> 00:36:00.000
+So, for example, we may want to investigate the enterprise big data governance
+
+00:36:00.000 --> 00:36:04.000
+Then we can form a focus group
+
+00:36:04.000 --> 00:36:08.000
+By recruiting the data professionals
+
+00:36:08.000 --> 00:36:13.000
+And then evaluate organizational data governance policy
+
+00:36:13.000 --> 00:36:21.000
+And so that we can assess how team handle data quality, compliances
+
+00:36:21.000 --> 00:36:25.000
+and cross-departmental sharing barriers
+
+00:36:25.000 --> 00:36:35.000
+And for the observation is also one type of the qualitative research. One example can be a sociologist
+
+00:36:35.000 --> 00:36:41.000
+sitting in a coffee shop to record how people work
+
+00:36:41.000 --> 00:36:52.000
+or talk in public spaces. So those are the examples of the qualitative research
+
+00:36:52.000 --> 00:37:01.000
+Applied Research actually try to find answers or solutions to everyday problems such as cured units developing
+
+00:37:01.000 --> 00:37:05.000
+innovative technologies and so on.
+
+00:37:05.000 --> 00:37:08.000
+For example, we can
+
+00:37:08.000 --> 00:37:11.000
+Use medical
+
+00:37:11.000 --> 00:37:13.000
+Image analysis
+
+00:37:13.000 --> 00:37:19.000
+I think medical image analysis is one example of applied research
+
+00:37:19.000 --> 00:37:31.000
+We can train the deep learning networks on MRI and X-ray datasets to automatically detect early signs of tumors
+
+00:37:31.000 --> 00:37:34.000
+And also we can apply the
+
+00:37:34.000 --> 00:37:38.000
+The dynamic pricing algorithms
+
+00:37:38.000 --> 00:37:42.000
+I think this archery strategy
+
+00:37:42.000 --> 00:37:49.000
+has been widely used by the online e-commerce
+
+00:37:49.000 --> 00:37:53.000
+So the online e-commerce
+
+00:37:53.000 --> 00:37:55.000
+Hello
+
+00:37:55.000 --> 00:38:00.000
+They can analyze the competitor's pricing
+
+00:38:00.000 --> 00:38:06.000
+Geographic data and then like consumer demand
+
+00:38:06.000 --> 00:38:13.000
+to optimize the e-commerce price online or on the fly. I think a lot of airline
+
+00:38:13.000 --> 00:38:23.000
+companies to actually implement this dynamic pricing algorithms. So their price, I mean, the
+
+00:38:23.000 --> 00:38:32.000
+Airplane tickets, the price can fluctuate widely, really depending on the competitor's price
+
+00:38:32.000 --> 00:38:37.000
+The demand and geographic data
+
+00:38:37.000 --> 00:38:49.000
+Another example of the player research would be the supply chain demand forecasting. So in this example, the researcher can apply the time series models to the historical
+
+00:38:49.000 --> 00:39:01.000
+sales and weather patterns to predict inventory needs and prevent shortages.
+
+00:39:01.000 --> 00:39:15.000
+Next one is the basic research. So I think the goal of the basic research is to expand the human knowledge. So this type of research is not going to create or invent anything new
+
+00:39:15.000 --> 00:39:20.000
+Instead, it is based on a basic science investigation
+
+00:39:20.000 --> 00:39:25.000
+For example, we may want to investigate how
+
+00:39:25.000 --> 00:39:27.000
+universe begin?
+
+00:39:27.000 --> 00:39:39.000
+And also we can also investigate new machine learning optimization techniques. So those are considered the basic research. So basic research usually develop the theories
+
+00:39:39.000 --> 00:39:42.000
+that can be
+
+00:39:42.000 --> 00:39:45.000
+used to kind of
+
+00:39:45.000 --> 00:39:49.000
+Explain
+
+00:39:49.000 --> 00:40:05.000
+I think explain some kind of a natural event or can be used to for the experimental research or applied research. So it means the series can be used in solving the problems
+
+00:40:05.000 --> 00:40:10.000
+In the daily life
+
+00:40:10.000 --> 00:40:14.000
+Sorry. Then the correlational research
+
+00:40:14.000 --> 00:40:20.000
+So this research aims to study relationship among two more variables
+
+00:40:20.000 --> 00:40:30.000
+And those relationships can be carol relationship, the causal relationship, or can be a simple negative positive relationship
+
+00:40:30.000 --> 00:40:31.000
+Okay.
+
+00:40:31.000 --> 00:40:36.000
+So causal relationship pretty much examine the cause-effect
+
+00:40:36.000 --> 00:40:45.000
+And the example of the correlation research can be we are trying to study the correlation between screen time and
+
+00:40:45.000 --> 00:40:48.000
+Sleep quality so
+
+00:40:48.000 --> 00:40:51.000
+Probably screen time will affect
+
+00:40:51.000 --> 00:41:05.000
+The deep stage sleeping, so means that if you are on the kind of tablet, the phones or social media for a long time, your brain may get excited, so you may not get a good sleep.
+
+00:41:05.000 --> 00:41:11.000
+Another example is that study correlation between music and brain reaction time.
+
+00:41:11.000 --> 00:41:17.000
+So this actually example coming from my daughter's science project
+
+00:41:17.000 --> 00:41:31.000
+I don't know if maybe some of you have teenager children. So I think the young generation, at least my observation, the younger generations, they are very good at multitasking
+
+00:41:31.000 --> 00:41:40.000
+So, a lot of time I heard a lot of parents complain that their kids tend to listen to music when they do their homework
+
+00:41:40.000 --> 00:41:50.000
+So my daughter does the same thing. So it surely concerns me because my understanding that if
+
+00:41:50.000 --> 00:42:01.000
+If you need to do a work that requires critical thinking, I think you need to focus and concentration. So listening to music can potentially distract you
+
+00:42:01.000 --> 00:42:09.000
+But my daughter always said, okay, music can make her more focused and can keep her sharp
+
+00:42:09.000 --> 00:42:16.000
+So I don't believe her, but I have no, how do I say no fear to kind of
+
+00:42:16.000 --> 00:42:19.000
+Let her know that this is not right.
+
+00:42:19.000 --> 00:42:28.000
+Since both my husband and I, we are both kind of concerned about her habits of listening to music while doing her homework
+
+00:42:28.000 --> 00:42:43.000
+So then we start thinking about how can we prove that she's wrong. Luckily, my husband, he's an electrical engineer, so we teamed together to design and implement, actually develop an instru
+
+00:42:43.000 --> 00:42:48.000
+So this instrument actually is kind of, I
+
+00:42:48.000 --> 00:42:54.000
+God is more like hardware-based instrument, so it does not use computer
+
+00:42:54.000 --> 00:42:58.000
+So this instrument basically just
+
+00:42:58.000 --> 00:43:00.000
+design
+
+00:43:00.000 --> 00:43:08.000
+I should implement a very simple example to really test the brain reaction time under the music
+
+00:43:08.000 --> 00:43:17.000
+So we don't want to do too complex because there are a lot of
+
+00:43:17.000 --> 00:43:33.000
+I mean, how to measure the brain reaction time. So there are a lot of complex kind of devices and methods that I mean, put a lot of sensors on a human skull in order to mirror the very
+
+00:43:33.000 --> 00:43:45.000
+Brain signal to examine the brain reaction. We don't want to do that. So we design a very simple experiment. So basically, this instrument
+
+00:43:45.000 --> 00:43:53.000
+We'll randomly generate two integers from 0 to 99. So on the two LED screen, okay
+
+00:43:53.000 --> 00:43:57.000
+Then we also have two kind of
+
+00:43:57.000 --> 00:44:08.000
+button connecting to each number. So, for the tester, whenever you see these two numbers, you need to compare these two numbers and
+
+00:44:08.000 --> 00:44:16.000
+I'll find the bigger number, then you're going to press the button corresponding to that bigger number. Okay
+
+00:44:16.000 --> 00:44:29.000
+Because we implement everything in hardware. So in this case, the response time can be mirrored in the nanosecond, so it's very precise. And then when
+
+00:44:29.000 --> 00:44:44.000
+A tester performed this test. So the two numbers are randomly generated at random intervals. So you cannot predict when the numbers will appear. So when the number appears, then the timer will start to count
+
+00:44:44.000 --> 00:44:55.000
+So it will kind of record the time lapse between the numbers generated to the button is pressed.
+
+00:44:55.000 --> 00:45:08.000
+So we designed this instrument and then my daughter uses a science project to measure, try to study the relationship between the music and the brain reaction time
+
+00:45:08.000 --> 00:45:22.000
+So, we have actually this project is kind of ongoing project. It has been done two years already. So first year, we just recruit. She recruits her friends, so they do this kind of experiments
+
+00:45:22.000 --> 00:45:35.000
+So then we realized that there's no very clear relationship between the MUDIC and the brain reaction time among the population, means that initially we thought
+
+00:45:35.000 --> 00:45:40.000
+Music should be… have the negative impact on the brain reaction time
+
+00:45:40.000 --> 00:45:52.000
+Then we realized that it's not true. I think this probably happened to the new generation. So some kids really, I think we compare that brain reaction time with music
+
+00:45:52.000 --> 00:46:02.000
+And the reaction time without music. So usually we run these tests several rounds. So each round contains about 10 trials
+
+00:46:02.000 --> 00:46:05.000
+And then we collect the response time
+
+00:46:05.000 --> 00:46:13.000
+For each trial, I think roughly for each participant, we can collect about 30 trials
+
+00:46:13.000 --> 00:46:22.000
+of brain reaction time and the music and without music, okay, so then we
+
+00:46:22.000 --> 00:46:39.000
+We have hypothesis that the average response time with music and average response time without music should be different. So then we run the rigorous t-test to examine if the average time are significantly different
+
+00:46:39.000 --> 00:46:47.000
+I think in our first trial, I think we have about 30 participants
+
+00:46:47.000 --> 00:46:53.000
+We got about 10 participants really kind of
+
+00:46:53.000 --> 00:46:59.000
+Reaction time and music is significantly shorter
+
+00:46:59.000 --> 00:47:03.000
+Then the reaction time and no music
+
+00:47:03.000 --> 00:47:21.000
+But then the rest 20, they don't have a statistically significant differences, but they do have differences. Some have a more and the music, the reaction time is longer. Some participants and the music, their reaction time is shorter
+
+00:47:21.000 --> 00:47:25.000
+But this short and longer do not have significant
+
+00:47:25.000 --> 00:47:33.000
+Do not have statistically, are not statistically significant
+
+00:47:33.000 --> 00:47:49.000
+So I think this basically then realized that although there's no clear relationship in the population, but we do be able to measure the relationship for each individual. So in this case
+
+00:47:49.000 --> 00:47:56.000
+The instrument can be used to examine or test each participant's music type
+
+00:47:56.000 --> 00:47:59.000
+We can tell that whether music
+
+00:47:59.000 --> 00:48:03.000
+If you increase
+
+00:48:03.000 --> 00:48:07.000
+response time will slow their brain
+
+00:48:07.000 --> 00:48:23.000
+functioning or can increase their brain functioning. So this is more like the research evolution. So we start with the original research question, we found the results, then we can further refine our research question
+
+00:48:23.000 --> 00:48:40.000
+and perform another round of research. So this is basically shows a very kind of a typical example of how to conduct research. Okay, so that's also corresponding to the research. One of the characteristic of the research means that open
+
+00:48:40.000 --> 00:48:43.000
+Carson means
+
+00:48:43.000 --> 00:48:56.000
+Research the result, the outcome of research may open new field or may lead to the new research questions that
+
+00:48:56.000 --> 00:49:00.000
+They probably want to investigate. Okay
+
+00:49:00.000 --> 00:49:13.000
+So the next one is descriptive research. So this research aims to provide a clear and accurate profile of a person, event, group
+
+00:49:13.000 --> 00:49:30.000
+It's also called statistical research. Example of descriptive research can be we can perform a survey mirroring how many hours college students spent studying during the final week
+
+00:49:30.000 --> 00:49:42.000
+And also we can apply the descriptive research to generate a medical case report detailing the unique symptoms and the progress of the single patient
+
+00:49:42.000 --> 00:49:45.000
+with a rare condition
+
+00:49:45.000 --> 00:49:48.000
+Also, we can apply the descriptive research
+
+00:49:48.000 --> 00:49:59.000
+In the sense of study to track the age, for example, job status and housing types of people living in a specific city
+
+00:49:59.000 --> 00:50:15.000
+So I think descriptive research simply just provide analyzed statistical property of the data
+
+00:50:15.000 --> 00:50:30.000
+Experimental research. So this research involves objective, systematic, controlled investigation for the purpose of predicting and controlling the phenomenon. So it's also called case
+
+00:50:30.000 --> 00:50:34.000
+control research
+
+00:50:34.000 --> 00:50:42.000
+So advantage of this experimental research is that it best in establishing the cause and effect relationship
+
+00:50:42.000 --> 00:50:54.000
+The disadvantage can be feasibility. So we may have able to recruit small group of people, and this small group of people may not reflect
+
+00:50:54.000 --> 00:51:01.000
+the property of the whole population. So that can be the one limitation of the experimental research
+
+00:51:01.000 --> 00:51:13.000
+So examples of the experimental research can be the drug trials. So we gave them one patient group a new blood pressure medicine, for example, and gave
+
+00:51:13.000 --> 00:51:21.000
+the placebo to another group. Then we study the effectiveness of the blood pressure medicine
+
+00:51:21.000 --> 00:51:34.000
+Another example will be the website layout. So for example, we want to show half of web visitors a blue checkout button and the other half a red checkout button
+
+00:51:34.000 --> 00:51:40.000
+Then we're going to count which color gets more clicks. So it's maybe the color
+
+00:51:40.000 --> 00:51:52.000
+May have a psychology impact on the users or visitors' final decision, whether they want to click the button or not
+
+00:51:52.000 --> 00:52:01.000
+So exploratory research, this research conducted for a problem that has not been clearly defined
+
+00:52:01.000 --> 00:52:13.000
+And then this research helps to determine the best research design data collection method, and selection of subjects
+
+00:52:13.000 --> 00:52:15.000
+So
+
+00:52:15.000 --> 00:52:30.000
+One type of the exploratory research can be the customer segmentation study. For example, we can group and labeled e-commerce buyer data using clustering tools
+
+00:52:30.000 --> 00:52:41.000
+to see what natural personas emerge. So once we identify different persona type, then we can
+
+00:52:41.000 --> 00:52:55.000
+Go further, for example, to study the bars, for example, their interest, their personality, their spending patterns and their preferences
+
+00:52:55.000 --> 00:53:02.000
+So that we can better, for example, serve the customers of different type
+
+00:53:02.000 --> 00:53:11.000
+Another example is anomaly detection in logs. So we can inspect, for example, web server traffic data
+
+00:53:11.000 --> 00:53:22.000
+And produce the traffic histogram and scatter plot to find weird spikes or system errors before defining a fixed alert rules
+
+00:53:22.000 --> 00:53:38.000
+So explore exploratory research, I think, is very useful tool. So a lot for research we probably have to apply the exploratory research first, then understand the data
+
+00:53:38.000 --> 00:53:54.000
+Or the events or phenomena better, then we can further identify the most important research topic we want to work on
+
+00:53:54.000 --> 00:54:01.000
+So in this case, exploratory research can be serving as preliminary
+
+00:54:01.000 --> 00:54:09.000
+step for a research
+
+00:54:09.000 --> 00:54:26.000
+The next one is ethnographic research. So this is mainly used in the social science. So it involves investigation of a culture through an in-depth study of members of culture
+
+00:54:26.000 --> 00:54:34.000
+So for example, we can use this research to study people, ethnic group
+
+00:54:34.000 --> 00:54:40.000
+ethnic formation and the social welfare characteristics
+
+00:54:40.000 --> 00:54:57.000
+The last one will be the mixed methods research. So it means that we're going to combine both qualitative and quantitative approach to gain a deeper insight into complex problems
+
+00:54:57.000 --> 00:55:08.000
+So this method allows us to benefit from both numerical data and narrative insights. And here gave you one example
+
+00:55:08.000 --> 00:55:17.000
+For example, in this research, we're trying to study or evaluate recommending
+
+00:55:17.000 --> 00:55:25.000
+Recommending systems and user experiences. So we can use mixed method
+
+00:55:25.000 --> 00:55:36.000
+mixed message. So in the quantitative phase, we analyze, for example, pair of click stream data and was time to track users
+
+00:55:36.000 --> 00:55:45.000
+engagement trends with collaborative filtering methods. So that's the one method for the recommended recommendation system.
+
+00:55:45.000 --> 00:56:01.000
+Then we can conduct the qualitative phase. So in this phase, we run the user interviews to see how people feel about recommendation and why certain algorithms feel creepy or unuseful. So finally, we can tune
+
+00:56:01.000 --> 00:56:17.000
+The quantitative recommendation system or engine to factor in humans' feedback on privacy and preferences. So this typical mixed method research
+
+00:56:17.000 --> 00:56:22.000
+Okay, so next one, we're talking about formulate a dissertation topic
+
+00:56:22.000 --> 00:56:35.000
+So the first goal is that find your focus. You want to pick a broad field, choose a subject or class theme you enjoy, and also you're interested in
+
+00:56:35.000 --> 00:56:47.000
+And also, you also need to assess your own knowledge, expertise so that you know that you have acquired the appropriate knowledge
+
+00:56:47.000 --> 00:57:03.000
+to work on the field you're interested in. For example, if you are in the data science background, although you're very interested in the astronomy or quantum physics, maybe
+
+00:57:03.000 --> 00:57:06.000
+Pursuing a research in those fields
+
+00:57:06.000 --> 00:57:14.000
+It's not a good idea because you may lack a lot of knowledges for performing the research, okay
+
+00:57:14.000 --> 00:57:18.000
+The second one, you're going to review current literature
+
+00:57:18.000 --> 00:57:22.000
+So you're going to read recent journal conference paper
+
+00:57:22.000 --> 00:57:30.000
+And try to check the future work, the section called the future work, or future direction or future research
+
+00:57:30.000 --> 00:57:36.000
+or the research limitations section, because those sections really discuss
+
+00:57:36.000 --> 00:57:46.000
+The research gaps and solved problems or open questions in the field so that those give you a clue
+
+00:57:46.000 --> 00:57:53.000
+Which problems or which direction your resource should be focused on because
+
+00:57:53.000 --> 00:58:05.000
+In your research, you don't want to replicate others existing work. So research has to be unique, novel, and different. Okay
+
+00:58:05.000 --> 00:58:14.000
+Then identify a gap, so I think checking those section of research paper can help you to identify a gap. Okay.
+
+00:58:14.000 --> 00:58:27.000
+Then check the PIC approach. So PIC stands for people that target group or the people who can benefit your research issues, the core problems that you want to focus on
+
+00:58:27.000 --> 00:58:33.000
+and the context that's regarding the setting and environment of the problem. So
+
+00:58:33.000 --> 00:58:49.000
+The next one you're going to test for feasibility. For example, a lot of research they need to have access to the data. The data can be the real world data. It's hard to acquire or can be the synthetic data
+
+00:58:49.000 --> 00:59:06.000
+It's easier to occur compared to the real world data. But for the synthetic data, you may risk off that synthetic data will not represent the real data. So means that some properties in the real world data might not
+
+00:59:06.000 --> 00:59:21.000
+be found in the synthetic data, okay? So then whatever conclusion results you get from the synthetic data may not be fully convinced
+
+00:59:21.000 --> 00:59:23.000
+by the other people
+
+00:59:23.000 --> 00:59:30.000
+Then also, the data access is very important. You need to know whether you're able to get the data you need.
+
+00:59:30.000 --> 00:59:39.000
+And whether data is of good quality and whether the data is trustworthy, whether the data is real or synthetic.
+
+00:59:39.000 --> 00:59:50.000
+The next one is the date limits. So if you're working on your master project or dissertation research, you do have time limits. Usually, you don't want to do it forever
+
+00:59:50.000 --> 00:59:52.000
+Although it can be your life
+
+00:59:52.000 --> 00:59:55.000
+lifelong kind of passion
+
+00:59:55.000 --> 01:00:08.000
+working on a specific quantum field but dissertation usually you need to probably finish the dissertation work between two to five years
+
+01:00:08.000 --> 01:00:22.000
+So that's why you have to consider the time limit. So you're going to pick the right scope of the problem so that you can finish within the time limit. Then the ethic approval. So if you are researching involved human subjects.
+
+01:00:22.000 --> 01:00:27.000
+then you probably have to go through the kind of IRB
+
+01:00:27.000 --> 01:00:33.000
+application. So need to get approval before you can start the research
+
+01:00:33.000 --> 01:00:39.000
+Then the interest level. So you're going to pick the topic that can keep you curious.
+
+01:00:39.000 --> 01:00:52.000
+And so can keep you going, moving forward. So you may have multiple topics, then you pick the one that interests you the most and also the one that you have
+
+01:00:52.000 --> 01:01:00.000
+Sufficient background knowledge to conduct the research, so that's very important
+
+01:01:00.000 --> 01:01:06.000
+Finally, refined approach. So you're going to draft research question
+
+01:01:06.000 --> 01:01:18.000
+Turn your idea into a clear research question, and also you also need to think about the methodology. You think about the potential contribution and impact of your research. Then you can ask for
+
+01:01:18.000 --> 01:01:30.000
+feedback you can share draft title with your advisor or mentor to get the official approval. So that's kind of
+
+01:01:30.000 --> 01:01:36.000
+Main things when you formulate your research topic
+
+01:01:36.000 --> 01:01:42.000
+And the last slide is about the research proposal key components
+
+01:01:42.000 --> 01:01:46.000
+So usually, I think
+
+01:01:46.000 --> 01:01:54.000
+contains the most important components of a research proposal
+
+01:01:54.000 --> 01:02:01.000
+So you should have the introduction section. So this section should clearly define the research problem
+
+01:02:01.000 --> 01:02:12.000
+And then with the research statement, identify the gaps in the literature. So sometimes you can combine the introduction and the problem statement into one section
+
+01:02:12.000 --> 01:02:27.000
+Then you need to have the literature review. So literature review is very important. It shows at least your advisor or your committee or your sponsor that you have done
+
+01:02:27.000 --> 01:02:43.000
+Extensive literature review, you understand the state of art in the field. You understand the related research in the field. You also understand the differences of your approach with the existing approach
+
+01:02:43.000 --> 01:02:54.000
+So you probably have to do the comparison and contrast. So you need to highlight the differences between your approach and others so that it can further
+
+01:02:54.000 --> 01:03:02.000
+demonstrate the significance and uniqueness of your research, okay
+
+01:03:02.000 --> 01:03:04.000
+Then you're going to
+
+01:03:04.000 --> 01:03:16.000
+discuss the research methodology. So, research methodology usually contain two part. First part discusses the data you use, how
+
+01:03:16.000 --> 01:03:27.000
+collect or access data. Then the second one is about the methods you want to use to analyze data
+
+01:03:27.000 --> 01:03:34.000
+Then in your proposal, you can also discuss the expected outcome.
+
+01:03:34.000 --> 01:03:41.000
+so that you can kind of highlight the potential contribution of your research.
+
+01:03:41.000 --> 01:03:50.000
+Work if it is successful, and also the limitation of your research. I think that methodologies or data limitation
+
+01:03:50.000 --> 01:04:05.000
+Then, if this is for the dissertation proposal, you may also — I think it's a good idea. It's not necessary, but it's a good idea. You can include the expected timeline so that the committee knows that roughly
+
+01:04:05.000 --> 01:04:11.000
+How long you're going to finish your dissertation work
+
+01:04:11.000 --> 01:04:25.000
+Then most importantly, you're going to list all the references that you need your site in the introduction problem statement and the literature review.
+
+01:04:25.000 --> 01:04:29.000
+So, let me see what house
+
+01:04:29.000 --> 01:04:34.000
+I think that's pretty much
+
+01:04:34.000 --> 01:04:39.000
+I also, yeah, I think pretty much for this slide
+
+01:04:39.000 --> 01:04:44.000
+So I think for the methodology, it's considered, I think you have
+
+01:04:44.000 --> 01:04:52.000
+Pay more attention to the methodology because this section is a critical component of a research proposal
+
+01:04:52.000 --> 01:05:00.000
+It's also serving as a roadmap for how the study will be conducted
+
+01:05:00.000 --> 01:05:08.000
+And also your methodology must align with research questions and objectives. So
+
+01:05:08.000 --> 01:05:18.000
+In a research methodology, you have to ensure that the chosen methods are appropriate for addressing the core aims of your study
+
+01:05:18.000 --> 01:05:24.000
+And also we need to justify how component you contribute
+
+01:05:24.000 --> 01:05:28.000
+to answering the research questions
+
+01:05:28.000 --> 01:05:34.000
+And you also need to outline whether the study will utilize quantitative
+
+01:05:34.000 --> 01:05:43.000
+qualitative or mixed methods. For example, if you want to use surveys, you also need to discuss
+
+01:05:43.000 --> 01:05:47.000
+The purpose of service, the potential questions
+
+01:05:47.000 --> 01:05:53.000
+of the service, and also the potential, how do you recruit
+
+01:05:53.000 --> 01:05:59.000
+the people to take service. So there are a lot of things you need to discuss.
+
+01:05:59.000 --> 01:06:11.000
+But overall, I think if you write a good problem statement very clear and conduct a very good literature review to present the state of art
+
+01:06:11.000 --> 01:06:23.000
+of the techniques in the current field and the limitations, open questions, and solved problems in the current research environment
+
+01:06:23.000 --> 01:06:29.000
+Then you can convince the committee that or your sponsor
+
+01:06:29.000 --> 01:06:45.000
+The research you propose is worth of investigating and the outcome will benefit, I mean, the fields or may apply to the real world problems, solve the real world problems. Then the research methodology
+
+01:06:45.000 --> 01:06:49.000
+further convince your sponsor
+
+01:06:49.000 --> 01:06:58.000
+your committee members that you understand the data you're going to deal with and also you
+
+01:06:58.000 --> 01:07:06.000
+able to identify the most appropriate methods that are used to tackle the problems and reach
+
+01:07:06.000 --> 01:07:09.000
+Your research goals, okay
+
+01:07:09.000 --> 01:07:14.000
+So those are very important components in your research proposals
+
+01:07:14.000 --> 01:07:32.000
+So that's pretty much it. So any questions?
+
+01:07:32.000 --> 01:07:34.000
+Hi, doctor
+
+01:07:34.000 --> 01:07:35.000
+Yes.
+
+01:07:35.000 --> 01:07:47.000
+So I'm curious in terms of the research timeline, is a realistic timeline that
+
+01:07:47.000 --> 01:07:54.000
+You know, that we can actually, like, pull in your research that because I know that sometimes timelines can change
+
+01:07:54.000 --> 01:07:58.000
+So what is like a realistic timeline that can be added into a research proposal
+
+01:07:58.000 --> 01:08:02.000
+Okay, that's a good question. So
+
+01:08:02.000 --> 01:08:10.000
+I think if you're working on your math project, usually you only have kind of one year right to finish master project
+
+01:08:10.000 --> 01:08:20.000
+So, I think then you'll probably… I think this is a very good question. So, when we consider timeline, we also need to consider the scope of your work.
+
+01:08:20.000 --> 01:08:35.000
+So when you design your timeline, you need to very objectively analyze how much data you need to analyze, what are the potential work. For example, you're going to use some existing tools or you're going to design your own tools, methods
+
+01:08:35.000 --> 01:08:47.000
+So you're going to evaluate the amount of work you need to perform. Then it gave you a better idea that
+
+01:08:47.000 --> 01:08:55.000
+For example, the time that you need to devote
+
+01:08:55.000 --> 01:08:57.000
+in order to finish each
+
+01:08:57.000 --> 01:09:03.000
+Kind of each step of your research or each
+
+01:09:03.000 --> 01:09:09.000
+task of your research. So for the master project, I think
+
+01:09:09.000 --> 01:09:21.000
+When we think about timeline, it also helps you to think about your scope. So you don't want to have a very big scope that you won't be able to finish in one year
+
+01:09:21.000 --> 01:09:38.000
+For the dissertation, I think this is also a good question. So you may start with very broad, then you're going to refine it, and then you can discuss with your advisor or your committee members. I think they are able to guide you
+
+01:09:38.000 --> 01:09:55.000
+to see if your palpate is too broad, then you won't be able to finish in 5 years. So they may want to narrow down. When you narrow down, and then they're going to help you to evaluate the amount of work that of your dissertation. So
+
+01:09:55.000 --> 01:09:57.000
+You cannot have viral data work
+
+01:09:57.000 --> 01:10:02.000
+For the dissertation, for the dissertation research, but you cannot have
+
+01:10:02.000 --> 01:10:18.000
+Unrealistic large amount of work that you won't be able to finish in 5 years, so maximum 5 years. So in the past, I think if you're a doctoral student, when you develop your dissertation proposal, I think you're going to work
+
+01:10:18.000 --> 01:10:33.000
+closely with your advisor, okay? So I know each advisor may have different styles. For me, I think I would give students more freedom to explore more than they may have
+
+01:10:33.000 --> 01:10:44.000
+are ready to consult with me. They may have the proposal ready or draft ready, or the proposal
+
+01:10:44.000 --> 01:10:59.000
+Outline writing. Then I can help, usually I will help my student and to ask him questions and to understand what he tried to achieve. And then I will evaluate whether the work is sufficient
+
+01:10:59.000 --> 01:11:05.000
+for the dissertation, or it's too much for a dissertation, or too little for the dissertation
+
+01:11:05.000 --> 01:11:09.000
+So I think the timeline
+
+01:11:09.000 --> 01:11:25.000
+It's pretty much when you define a timeline, you pretty much have a good idea of what you plan to do and how much effort you're going to put on each task and how long each task will take
+
+01:11:25.000 --> 01:11:29.000
+Okay, so I think if you haven't
+
+01:11:29.000 --> 01:11:46.000
+If you're in the early stage of the proposal development, I think you do not need to worry too much about the timeline. So until you have agreement, your annual advisor have agreement on what you're going to do
+
+01:11:46.000 --> 01:11:51.000
+I think you can trust your advisor thing regarding the
+
+01:11:51.000 --> 01:11:58.000
+quantity or the scope of your work. So I think they will have better experience
+
+01:11:58.000 --> 01:12:14.000
+Helping you to either narrow down or scale up a little bit of your topic so that your quality… the quality of your research will meet the standard of master project
+
+01:12:14.000 --> 01:12:16.000
+Or
+
+01:12:16.000 --> 01:12:17.000
+dissertation
+
+01:12:17.000 --> 01:12:19.000
+Okay
+
+01:12:19.000 --> 01:12:20.000
+Thank you.
+
+01:12:20.000 --> 01:12:24.000
+Okay, good.
+
+01:12:24.000 --> 01:12:40.000
+Okay, another question from Mamsey. So can we use synthetic data or it need to be real data? I think this is good question. So basically, if you can have access, obtain the real data, your data will be better
+
+01:12:40.000 --> 01:12:56.000
+Why? Because whatever result you get from real data will be very convincing. People will not say, oh, your data is not right, or your data is not trustworthy. So that's why I strongly encourage you to
+
+01:12:56.000 --> 01:13:03.000
+Work with real data if you're able to get the real data. Okay, so if
+
+01:13:03.000 --> 01:13:19.000
+Getting or access to the real data is impossible or I mean, you have to pay. I mean, it's too expensive, then you can use the synthetic data. However, if you use synthetic data
+
+01:13:19.000 --> 01:13:29.000
+I strongly recommend you to use the synthetic data that has been widely accepted in the field.
+
+01:13:29.000 --> 01:13:44.000
+So usually you don't want to create synthetic data by yourself. Why? If you create synthetic data by yourself, you work on your synthetic data, then you get results. Then usually the result will not convincing
+
+01:13:44.000 --> 01:13:58.000
+other researchers because they think, who knows how to structure or create your synthetic data? Maybe the creation of using sex data is biased
+
+01:13:58.000 --> 01:14:05.000
+Or is a tailored so that you can get the results you want
+
+01:14:05.000 --> 01:14:17.000
+So that's why I always suggest my students, if you have to use sector data, then you have to use the data that has been widely used
+
+01:14:17.000 --> 01:14:20.000
+Or accept it in the field.
+
+01:14:20.000 --> 01:14:26.000
+And you should never have synthetic data, create synthetic data
+
+01:14:26.000 --> 01:14:34.000
+For yourself because that if you really beckon your research results and outcomes.
+
+01:14:34.000 --> 01:14:39.000
+Good. Any other questions
+
+01:14:39.000 --> 01:14:42.000
+Okay, good. So
+
+01:14:42.000 --> 01:14:58.000
+So on behalf of the late start and then so we can almost run out of time, but I think that's fine. I think my plan that usually I'm not very talkative person, you know, so I try to each week I'm trying to
+
+01:14:58.000 --> 01:15:00.000
+discuss the
+
+01:15:00.000 --> 01:15:07.000
+subjects, I think very important for you to know. And if we
+
+01:15:07.000 --> 01:15:17.000
+If the lecture will not cover the two and a half hours, that's fine, so I think remaining class time can be reserved for you to read
+
+01:15:17.000 --> 01:15:32.000
+the reading materials, so I think it's pretty flexible. And also, I strongly encourage you to ask questions to discuss some kind of ideas, the concerns and confusions you have, because it's more like a seminar
+
+01:15:32.000 --> 01:15:40.000
+My kind of understanding of writing research proposal is more like
+
+01:15:40.000 --> 01:15:55.000
+needs to practice. So you can read other people's proposal or dissertation or research papers so that you can have an idea that what's the common way for people to represent
+
+01:15:55.000 --> 01:16:10.000
+their research ideas to convince the audience and to discuss their research methodologies. So, I think you're going to learn from other people's writing, either proposal, research paper, and so on, to
+
+01:16:10.000 --> 01:16:19.000
+I trust your judgment. I think you're going to have better idea of what makes a good proposal or research paper.
+
+01:16:19.000 --> 01:16:23.000
+And I think
+
+01:16:23.000 --> 01:16:27.000
+We do have some, excuse me.
+
+01:16:27.000 --> 01:16:29.000
+I really want
+
+01:16:29.000 --> 01:16:39.000
+discuss. I think we don't have time to cover all of them, but I wanted to, for example, to
+
+01:16:39.000 --> 01:16:45.000
+go through these kind of websites about the selecting research topic
+
+01:16:45.000 --> 01:17:01.000
+So I think one of the ways that for selecting research topic is first have a field or area they want to work on. Then you scan academic journals or conference papers for the research trends
+
+01:17:01.000 --> 01:17:03.000
+And then
+
+01:17:03.000 --> 01:17:17.000
+you'll probably not be able to monitor profile if you're able, then you go to the professional blogs and this serves for the hot topics and also you can attend conferences to learn about the current research trends
+
+01:17:17.000 --> 01:17:33.000
+And also you can talk to classmates, your colleagues, or talk to your committees or your advisors to refine the ideas, to discuss ideas. For example, I do have several doctoral students
+
+01:17:33.000 --> 01:17:39.000
+So sometimes they may have several different ideas. I mean, they're interested in
+
+01:17:39.000 --> 01:17:55.000
+And they come to me for the discussion so we can refine to the one topic that I believe is more appropriate and also can have potential to produce the significant research results. So
+
+01:17:55.000 --> 01:17:57.000
+And then
+
+01:17:57.000 --> 01:18:01.000
+Also, refine your topic, that's another one.
+
+01:18:01.000 --> 01:18:11.000
+I think there's some other topics that related to how to write research proposals, so we can… I think we can go over some of them in the later lectures
+
+01:18:11.000 --> 01:18:18.000
+And another thing I really want you to watch is finding research gap. Okay, so this is a video
+
+01:18:18.000 --> 01:18:22.000
+YouTube video talking about how to
+
+01:18:22.000 --> 01:18:27.000
+how to find the research gap
+
+01:18:27.000 --> 01:18:44.000
+Okay, let me stop. So the basic idea is that you go to Google Scholar. So for example, if you're interested in the misinformation bars and errors in the large language model, you can type the keywords in the Google Scholar
+
+01:18:44.000 --> 01:18:59.000
+Then it will kind of return fund a lot, I think more than you can read the papers. So then regarding to this strategies, I do have this kind of link
+
+01:18:59.000 --> 01:19:14.000
+like, top conferences and journals, because you may, given more than 100 different papers. So how do you identify the most important papers that you're going to study first? I think
+
+01:19:14.000 --> 01:19:26.000
+There are several ways you can… criteria you can identify. I think this is kind of, for example, this from the Google Scholar. So then you first can pick the
+
+01:19:26.000 --> 01:19:42.000
+the main categories, for example, I'm pick engineer and computer science. Then they do have subcategories. You can tell that there's so many about computer graphics, robotics, and a lot of more. So you can pick
+
+01:19:42.000 --> 01:19:52.000
+Security, cryptography, you can pick a special subcategories. Let's see
+
+01:19:52.000 --> 01:19:56.000
+What do we want? So maybe
+
+01:19:56.000 --> 01:20:12.000
+We want to do the, for example, data mining analysis. Then it shows, unfortunately only top 20 top journals in the conferences. So then I think there are several criteria you can find the top
+
+01:20:12.000 --> 01:20:21.000
+The most important papers, so paper published in the top journals, conferences, is one criteria. The second criteria is will be the
+
+01:20:21.000 --> 01:20:37.000
+Thus, citations, if the paper has many citations, means that it has broad impact to the field, a lot of people aware of that. So I think these are two major kind of criteria that you can pick the most important papers
+
+01:20:37.000 --> 01:20:54.000
+And also the time is also important. You don't want to pick a paper that publishes, like, 30 years ago, because the field has changed drastically in the last 30 years. So you may want to pick the most recent paper published on the top journals
+
+01:20:54.000 --> 01:21:02.000
+conferences and have large citations. So then pick those papers, then you can look at
+
+01:21:02.000 --> 01:21:17.000
+go to their future work, future direction, and open questions or the limitations. So those sections will cover some open questions in the field
+
+01:21:17.000 --> 01:21:30.000
+Wars of the investigation. So that's kind of thing I want you to be aware of that. Okay, so I think that's pretty much, I think the remaining content, what else we can
+
+01:21:30.000 --> 01:21:36.000
+I think
+
+01:21:36.000 --> 01:21:40.000
+This is also very good articles. Okay, so
+
+01:21:40.000 --> 01:21:47.000
+journal articles. I think I can discuss this a little bit in the next class. So, pretty much, I think
+
+01:21:47.000 --> 01:21:58.000
+The whole class is centered around how to doing the research, how to write a research paper, how to write a research proposal
+
+01:21:58.000 --> 01:22:11.000
+And this kind of what are the methodologies, tools that we can use to do the research? I think this may be centered around those focus. So I think we
+
+01:22:11.000 --> 01:22:23.000
+kind of discuss maybe cross-references the class materials from different classes. So the final goal is that I wanted to understand
+
+01:22:23.000 --> 01:22:41.000
+What's the key components of a research proposal and how to write a research, how to present your research topic, present your research questions, and how to pick the right methodologies and discuss your methodologies in your research paper or
+
+01:22:41.000 --> 01:22:48.000
+Hold on and also how to write the literature review. So those kind of the key things
+
+01:22:48.000 --> 01:22:53.000
+that apply to both the proposals and the research papers
+
+01:22:53.000 --> 01:23:06.000
+Okay, so good, I think that's pretty much for today. So, any questions
+
+01:23:06.000 --> 01:23:32.000
+Okay, good. So if you don't have any questions, then we're done for today. Thank you, and I hope to see you on next class.
+

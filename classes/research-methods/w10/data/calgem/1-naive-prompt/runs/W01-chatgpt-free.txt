@@ -1,0 +1,172 @@
+RUN RECORD
+Diagram:        W01.pdf
+Prompt:         naive-copy-and-paste.txt (verbatim)
+Specification:  casing-diagram-specification.txt
+AI:             ChatGPT, free tier, personal Google account
+Model shown:    not displayed by the free tier; recorded as "ChatGPT free-tier
+                default model as served on the run date"
+Temporary Chat: [to fill: yes / no]
+Date and time:  November 11, 2026, [time to fill]
+Web search:     appears used (the answer cites Department of Conservation and
+                California Code of Regulations web pages not among the
+                attachments) [confirm]
+Follow-ups:     none
+
+The response is reproduced below exactly as pasted by the researcher, between
+the two lines. Citation chips shown in the ChatGPT interface appear as plain
+text (for example "Department of Conservation") because they were copied as
+text.
+--------------------------------------------------------------------------------
+I reviewed both documents: the W01 wellbore schematic and your Casing Diagram Specification, which reproduces California Code of Regulations, Title 14, §1726.4.1.
+
+My preliminary finding is that W01 is a useful starting point, but I would not submit it as the final casing diagram without revisions. Several items required by the specification are missing, and there are some important issues with the way the existing well information is presented.
+
+There is also an important regulatory distinction: §1726.4.1 concerns casing diagrams for underground gas storage requirements. We should distinguish those requirements from the requirements applicable to a conventional oil and gas well abandonment under CalGEM.
+1. Requirements comparison
+I compared the actual information shown on W01 against the 18 data categories in your specification.
+
+Present
+ Partial
+ Missing
+
+CalGEM requirement	W01 status	Finding
+Operator	Present	Aera Energy LLC
+Lease name	Missing	Not identified
+Well number and API	Present	948C-28; 0403033530
+Spud date	Present	07/03/2007
+Ground elevation	Present	591.26 ft
+KB/reference elevation	Present	603.26 ft
+Base of groundwater, ≤3,000 mg/L TDS	Missing	Shows N/A
+Base of groundwater, ≤10,000 mg/L TDS	Missing	Shows N/A
+Casing sizes, weights, grades and connections	Partial	Most casing specifications are present
+Tubing specifications	Missing	Tubing dimensions, weight, grade and connection not provided
+Associated equipment	Partial	Tubing and rod assembly components are identified
+Casing shoes, stubs and liner tops	Partial	Some casing depths are shown, but shoe/stub/liner identification needs clarification
+Perforations and other integrity-related features	Present	Numerous perforation intervals are identified
+Hole sizes and drilled depths	Present	Three hole sections are shown
+Cement plugs inside casing	Missing	No plug intervals, dates or placement/determination methods
+Cement behind casing	Partial	Primary cement intervals and job descriptions are shown
+Fluid between cement plugs	Missing	No fluid type or density
+Formations and geologic markers	Partial	Several formation tops shown; bottoms and other required zone boundaries are absent
+Cement slurry calculations	Partial	Cement types, densities, additives, yields and sack counts are shown, but the complete supporting volume information is not
+Previous wellbores/sidetracks	Partial	Wellbore 00 is identified; no explicit confirmation of other boreholes
+Wellhead and valve equipment	Missing	No equipment model or pressure rating
+
+These findings are based on the actual W01 drawing, not assumptions about information that might exist in other company records.
+W01.pdf
+ casing-diagram-specification.txt
+
+2. Important technical deficiencies
+There are several items I would prioritize.
+
+A. Groundwater information
+
+W01 identifies both the base of USDW and base of fresh water as N/A.
+
+That is not adequate documentation for the two groundwater requirements in your specification. You need the applicable groundwater depths and TDS classifications, or an appropriately supported explanation of why the values are unavailable or inapplicable.
+
+B. Cement behind casing
+
+The diagram gives useful historical cement information:
+- 9⅝-inch casing: 13–202 ft.
+- 7-inch casing: 12–2,163 ft.
+- Cement returns are reported at surface.
+- Cement formulations, densities, additives and yields are described.
+However, the diagram should explicitly identify the top and bottom of each cemented interval and how those depths were determined. The distinction between the theoretical cement placement interval and the actual verified cement top is important.
+
+C. Directional well information
+
+W01 identifies the well as directional.
+
+Your specification requires a directional survey showing:
+- Inclination measurements.
+- Azimuth measurements.
+- Bottomhole location.
+- Surface location.
+None of that survey information is provided in the drawing.
+
+D. Measured depth versus true vertical depth
+
+The diagram uses MD for its casing, perforation and formation depths, but does not provide corresponding TVD values.
+
+This is a specific requirement under §1726.4.1(a)(2). A directional well needs both measurement references where applicable.
+
+E. Wellhead equipment
+
+Add the wellhead and valve assembly identification, including:
+- Manufacturer/model.
+- Pressure rating.
+- Relevant valve assembly information.
+F. Cement and abandonment information
+
+The abandonment section is essentially blank:
+- Abandonment tag depth: blank.
+- Cement plug intervals: absent.
+- Cement placement dates: absent.
+- Plug verification methods: absent.
+For an abandonment submission, this is particularly important.
+3. The most important distinction: this is an abandonment submission
+For a conventional oil and gas well, CalGEM's current operator guidance says the OG106 Notice of Intention must include an appropriate wellbore schematic.
+
+CalGEM specifically identifies four things the schematic must show:
+1. Casing intervals and sizes.
+2. Perforation locations.
+3. Cement plug depths inside casing.
+4. Location of cement outside casing.
+
+   Department of Conservation
+W01 already provides the first two.
+
+The third is missing, and the fourth is only partially documented.
+
+There is also a statutory requirement under Public Resources Code §3230 that the abandonment notice contain the total depth and complete casing record, including plugs.
+
+Department of Conservation
+
+This is why I would not use W01 by itself as the abandonment attachment. It describes the existing well configuration, not the proposed abandonment configuration.
+4. My recommended revisions before submission
+I would make the following changes to the drawing.
+Must address
+1. Add the proposed abandonment cement plug intervals, showing top and bottom depths.
+2. Show cement placement inside casing and behind casing, distinguishing planned from historical cement.
+3. Identify the base of fresh water and applicable groundwater protection depths.
+4. Add MD and TVD information.
+5. Attach the directional survey.
+6. Add the wellhead and valve assembly specifications.
+7. Identify the lease name.
+8. Document the fluid type and density in the intervals between plugs, where applicable.
+Should clarify or improve
+9. Provide tubing specifications.
+10. Explicitly identify casing shoes, casing stubs and liner tops.
+11. Clarify whether any original or sidetracked wellbores exist.
+12. Complete the cement job supporting data, including slurry volumes and verified cement tops.
+13. Identify formation tops and bottoms, as well as relevant groundwater and hydrocarbon zone boundaries.
+5. One issue I want to bring to your attention
+Your specification is based on §1726.4.1, which is specifically associated with underground gas storage projects.
+
+It is not automatically the governing checklist for every conventional oil-well abandonment.
+
+The broader checklist is useful, and I would retain it as an engineering quality-control standard. But I would distinguish:
+- Abandonment submission requirements: OG106, applicable plugging requirements and the casing schematic.
+- Underground gas storage casing diagram requirements: §1726.4.1, when applicable.
+This distinction matters because we don't want to represent every item in the UGS regulation as a mandatory requirement for every ordinary producer abandonment.
+
+California Code of Regulations+1
+
+
+6. My final recommendation
+Revise before submitting
+I would retain W01 as the historical wellbore schematic and create a revised version specifically for the abandonment notice.
+
+Ideally, the revised drawing would have three clearly distinguishable elements:
+- Existing well construction.
+- Historical cement and completion information.
+- Proposed abandonment plugs and cement placement.
+That would make the drawing much more useful to the CalGEM reviewer and reduce the possibility of questions about the well's existing condition versus the proposed abandonment configuration.
+
+One question that will help me take this further:
+
+Is well 948C-28 being abandoned as a conventional producing oil well, or is it associated with an underground gas storage project?
+
+That determines which regulatory checklist we should use as the controlling standard.
+--------------------------------------------------------------------------------

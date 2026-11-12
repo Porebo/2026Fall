@@ -1,0 +1,26 @@
+HW07 Reflection
+0/26/2026
+
+I feel comfortable with visualization skills because they involve observing graphs and interpreting the meaning they communicate. I am also comfortable with the analytical part of working with graphs: when a graph provides the necessary information, I can use it to draw a conclusion.
+
+I feel less confident about my statistical skills. I am familiar with a few foundational concepts, including measures of central tendency and standard deviation, but topics beyond those are still unfamiliar to me. This is an area where I would like to build a stronger foundation.
+
+Over the next 12 months, I could promise a lot on paper and end up accomplishing very little. So, to avoid trying to catch too many fish, I want to focus on getting better at my statistical skills—mostly on expressing ideas using statistical measures. I wish I could navigate the waters of that ocean. Truly, it may make me look smart, and in my work environment, some may take it as arrogance. I choose simplicity over complexity all day long. Maybe that is why I am not a master of inferential stats; I just want to find a reasonable explanation. Nonetheless, some things require advanced stats, and there is no way around using them when you want to demo a simple solution or explanation.
+
+I make my living doing data visualization. At work, I develop full data-visualization dashboards, crafting them from nothing but stakeholders' ideas and bringing several graphs together in one dashboard. My favorite app is Tableau, because it was where I learned this trade. I have also expanded my skills in Spotfire, since it is a favorite for engineering applications. Both apps do the same job. 
+
+The main job of data visualizations is to deliver a message quickly and accurately, in a matter of seconds.
+
+Crafting that good of a data visualization requires magic. I call it magic because the show is so good that everyone misses the act behind the scenes. I mean, all the information science skills that get applied to build a Spotfire dashboard. 
+
+Anyone who engages in building a live data dashboard must know SQL to extract the correct data from the database or databases. Notch knowing SQL as the first skill, which is not learn in only one or two college courses. It takes quite the hours, days, months, years to learn SQL. 
+
+Once you have data, is like having freshly caught fish over the cooking table. Before you serve, you must clean and cook the fish. Data cleaning is not that easy. That requires knowing what the data represents, so you keep the meat and cut away the fat. That is another skill. In my case is petroleum geology. Before being a data analyst doing data visualizations I was a geology technician for several years. That gives me edge of my trade because the visualization gets injected that portion of my skills prior to show on a line graph, a heat map, or a matrix. 
+
+Finally, you must know how to use the visualization app. Yes, it takes much dedication to learn Tableau and/or Spotfire. Try to use it, and you will notice that the app does not talk back to you, nor does it have AI integrated to guide you over how to craft a visualization. Make errors and do not be afraid, produce and learn from what you produce. Your best friend and advisor becomes your customer's feedback. Cry if needed, yet after each failure, come back once again and try again. Yes, try version 2, and version 3, and version 4, until it comes right and serve over white linnen table, proud of your production. 
+
+Coming back around after I told you a story from the fields of data visualization production, in the next 12 months, I want to learn more about statistical analysis. For some cases, that maybe the correct salt and peper of a good data visualization. 
+
+Cheers! 
+
+Lester S. Carcamo

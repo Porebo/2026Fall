@@ -1,0 +1,1832 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.000
+Okay, let's start the recording and we'll start our class
+
+00:00:03.000 --> 00:00:04.000
+Thank you.
+
+00:00:04.000 --> 00:00:11.000
+Okay, so a couple of things. First of all, we're having some problems with scheduling
+
+00:00:11.000 --> 00:00:12.000
+So
+
+00:00:12.000 --> 00:00:25.000
+Until I give you further notice, we're going to have all of our classes online. Okay, so I'm sorry, Tuesday and Thursday will all be online until we can find another room.
+
+00:00:25.000 --> 00:00:28.000
+We've got a collision here with another class
+
+00:00:28.000 --> 00:00:33.000
+And I need to get another room that has these webcasting facilities. So
+
+00:00:33.000 --> 00:00:38.000
+So I'll let you know when it's time to come back in person.
+
+00:00:38.000 --> 00:00:45.000
+Of course, that doesn't impact the rest of you who are already online, but anyway, hope to have that resolved soon.
+
+00:00:45.000 --> 00:00:55.000
+Also, we're going to be shifting a little today. I'm going to give another lecture. We're going to talk about data information quality value and business impact
+
+00:00:55.000 --> 00:00:59.000
+But we're also going to start having some labs along with the course
+
+00:00:59.000 --> 00:01:00.000
+And
+
+00:01:00.000 --> 00:01:05.000
+If you want a little bit of a preview, if you go to the resources
+
+00:01:05.000 --> 00:01:09.000
+One of the first
+
+00:01:09.000 --> 00:01:12.000
+Things that we're going to look at
+
+00:01:12.000 --> 00:01:15.000
+If you want to start
+
+00:01:15.000 --> 00:01:22.000
+In the resources folder
+
+00:01:22.000 --> 00:01:24.000
+Gonna move this over here
+
+00:01:24.000 --> 00:01:34.000
+So everybody can see it in the resources folder
+
+00:01:34.000 --> 00:01:41.000
+I'll get it open
+
+00:01:41.000 --> 00:01:52.000
+You'll see, of course, there's your book or textbook you need for this assignment. But in our next assignment, we're going to be using this file. So there's a file out there with a thousand records
+
+00:01:52.000 --> 00:01:56.000
+And we're going to be investigating that file looking for
+
+00:01:56.000 --> 00:02:01.000
+data and information quality issues related to that file
+
+00:02:01.000 --> 00:02:07.000
+So if you want to start playing a little bit on your own. We're also going to start using a tool
+
+00:02:07.000 --> 00:02:10.000
+Called OpenRefine
+
+00:02:10.000 --> 00:02:20.000
+and be one of several tools that we'll be using in our labs, but we're going to start with OpenRefine. Hopefully, we'll work up to a little bit of Agentic AI for this class.
+
+00:02:20.000 --> 00:02:24.000
+So with that
+
+00:02:24.000 --> 00:02:30.000
+Let's continue the lecture. So last time we talked about the seven Principles of information quality
+
+00:02:30.000 --> 00:02:40.000
+And the differentiation between… that I make, anyway, and in this program, we make a differentiation between information quality and data quality.
+
+00:02:40.000 --> 00:02:45.000
+Data quality basically is, do data meet data requirements?
+
+00:02:45.000 --> 00:02:52.000
+And so we're looking at the condition of the data, but as I mentioned earlier.
+
+00:02:52.000 --> 00:02:58.000
+you can have data that's in really good condition, it's meeting all the requirements you set for
+
+00:02:58.000 --> 00:03:04.000
+But when you use that data to build an information product or service
+
+00:03:04.000 --> 00:03:14.000
+It's not necessarily a quality product or service. If it doesn't fit the needs, fill the needs of the users of that information product or service.
+
+00:03:14.000 --> 00:03:19.000
+So again, as Tom Redman likes to say.
+
+00:03:19.000 --> 00:03:27.000
+Is the data right? In other words, does the data fit your requirements? But is it the right data for what you're trying to do?
+
+00:03:27.000 --> 00:03:32.000
+So we're going to investigate both of those for the file that just put out there
+
+00:03:32.000 --> 00:03:36.000
+So anyway, we talked about those principles
+
+00:03:36.000 --> 00:03:37.000
+And
+
+00:03:37.000 --> 00:03:43.000
+Again, in our definition of information quality, the key term
+
+00:03:43.000 --> 00:03:53.000
+is value. So, what we're trying to do is we're trying to maximize value, minimize risk for the data assets that are in an organization
+
+00:03:53.000 --> 00:03:58.000
+And at the same time, we're trying to produce value for the users of that information
+
+00:03:58.000 --> 00:04:02.000
+So it's really all about value.
+
+00:04:02.000 --> 00:04:12.000
+And of course, along with that, as I mentioned, Annette McGilvery likes to use the term trust, but those go hand in hand, right? If you have
+
+00:04:12.000 --> 00:04:29.000
+an information product or service is producing value for you, then you need to be able to trust that in order for, if it's producing value, it gives you trust. If you trust it, it helps you produce value. So they kind of go hand in hand, but we're going with the value proposition
+
+00:04:29.000 --> 00:04:31.000
+So
+
+00:04:31.000 --> 00:04:36.000
+So let's talk a little bit then about the value
+
+00:04:36.000 --> 00:04:40.000
+And so, as I just mentioned, information quality
+
+00:04:40.000 --> 00:04:44.000
+It's about relating information to value
+
+00:04:44.000 --> 00:04:47.000
+And again, this is our
+
+00:04:47.000 --> 00:04:59.000
+definition that we use, maximizing the value of an organization's information assets and making sure that the information products and services are valuable to the people that use them.
+
+00:04:59.000 --> 00:05:01.000
+So
+
+00:05:01.000 --> 00:05:08.000
+There's a couple of ways to relate information to value
+
+00:05:08.000 --> 00:05:24.000
+I like to use pictures for this. So in any organization, you're going to have all info. I think it's virtually true that every organization that I can think of uses data. So there's some use of data in any organization
+
+00:05:24.000 --> 00:05:29.000
+And any organization is going to have some kind of problems
+
+00:05:29.000 --> 00:05:41.000
+And generally there's an intersection there, it may be true that some problems are not related directly to data. Maybe they're cultural problems. They're having problems with communication
+
+00:05:41.000 --> 00:05:56.000
+But in general, what we're looking for is the intersection between business problems and the data that's running the business. I say business, but it could be an organization, right? We talked about the three value propositions
+
+00:05:56.000 --> 00:06:11.000
+There's for-profit, that would be a business. But there's also quality of life, like in a hospital or research center. And then there's also mission accomplishments. So I want to talk generally about organizations and their value. So the value might be
+
+00:06:11.000 --> 00:06:17.000
+Not necessarily money, but it could be in accomplishing their given mission
+
+00:06:17.000 --> 00:06:24.000
+But anyway, so what we want to investigate is say you go into an organization, you're graduated and you
+
+00:06:24.000 --> 00:06:28.000
+data quality analyst, and you've been hired by this company
+
+00:06:28.000 --> 00:06:30.000
+And so
+
+00:06:30.000 --> 00:06:35.000
+they're having problems, so… so the first step is this
+
+00:06:35.000 --> 00:06:44.000
+We need to understand what's the intersection between the data and those problems. And so this gives us two ways to go about it.
+
+00:06:44.000 --> 00:06:50.000
+So one way is that we can start with a business issue
+
+00:06:50.000 --> 00:06:56.000
+Okay, every organization has some kind of an issue that it's facing. Then the first step would be
+
+00:06:56.000 --> 00:07:04.000
+Is it related to the data in the organization? And it may not be, but oftentimes that it is
+
+00:07:04.000 --> 00:07:19.000
+So one way to start is you go to the managers, you go to the executives, and they know, okay, we're having this problem, we're not getting our invoices out to the customers properly
+
+00:07:19.000 --> 00:07:27.000
+We're not getting payments. We have a problem retaining customers. We have some kind of a business issue
+
+00:07:27.000 --> 00:07:38.000
+Then the next step would be to look and is there a cause, is there a root cause of this problem in the data? Is something in the data causing this?
+
+00:07:38.000 --> 00:07:47.000
+Once I know that, then I can improve the data quality, right? So again, we're making the distinction between information quality, data quality
+
+00:07:47.000 --> 00:07:54.000
+There's something wrong with the condition of this not meeting the requirements that are needed to produce
+
+00:07:54.000 --> 00:08:04.000
+to solve the problem that we're having, if it's the invoicing, maybe the addresses are wrong, maybe they're out of date, maybe they're incomplete
+
+00:08:04.000 --> 00:08:12.000
+So once we know it's related to data and we investigate the quality of the data in terms of meeting requirements
+
+00:08:12.000 --> 00:08:14.000
+Does it have all the information that we need
+
+00:08:14.000 --> 00:08:20.000
+Then we can improve once we improve that quality, we can improve the business results.
+
+00:08:20.000 --> 00:08:27.000
+So this is one way of looking at the issue is starting with the business issue
+
+00:08:27.000 --> 00:08:36.000
+Seeing if it's related to data, solving the data problem, and then, hopefully addressing the business issue.
+
+00:08:36.000 --> 00:08:41.000
+That's one way to do it. The other way to do it
+
+00:08:41.000 --> 00:08:46.000
+is we start with the data quality assessment. In other words, we go in, you're new
+
+00:08:46.000 --> 00:08:56.000
+nobody's given you any predictive problem yet, but you look at all the data systems that are running, and you say, okay, well, what's the condition of the data? Do we have
+
+00:08:56.000 --> 00:09:01.000
+Data quality requirements for the data, are the data really meeting those requirements
+
+00:09:01.000 --> 00:09:09.000
+So you could start with the data quality assessment and say, are the data really meeting the requirements that we've set for the data
+
+00:09:09.000 --> 00:09:15.000
+And if we discover that there are data quality issues, that is
+
+00:09:15.000 --> 00:09:20.000
+The data are not in alignment with our requirements
+
+00:09:20.000 --> 00:09:22.000
+Then we can address those
+
+00:09:22.000 --> 00:09:34.000
+And then, well, first, then we say, this is very important, by the way, I didn't mean to skip this step. Once we find that there's some data quality anomalies
+
+00:09:34.000 --> 00:09:38.000
+That does not automatically mean that there's a business problem.
+
+00:09:38.000 --> 00:09:44.000
+I can guarantee you I can go into any organization that has a relational database system
+
+00:09:44.000 --> 00:09:49.000
+And find many tables that are completely null. There's nothing in them.
+
+00:09:49.000 --> 00:10:04.000
+But it's not necessarily impacting the business because they're not using that data. They're not using those columns, okay? So, the very important step is once we discover that data have some kind of anomaly, it's not meeting requirements.
+
+00:10:04.000 --> 00:10:09.000
+The next step is determine then is that having an impact on the business
+
+00:10:09.000 --> 00:10:12.000
+It's the opposite of what we said before
+
+00:10:12.000 --> 00:10:21.000
+Is bad data causing a problem with the business? And if it is, of course, then we can improve the data quality and improve our business results.
+
+00:10:21.000 --> 00:10:26.000
+So this happens oftentimes in both ways
+
+00:10:26.000 --> 00:10:42.000
+In the old days, they used to say, when it was very data quality oriented, they would say, okay, we have all these data quality requirements, we go in and we assess all of our data, but that can be very time consuming and labor intensive to go in
+
+00:10:42.000 --> 00:10:55.000
+and assess all the data when not necessarily… you'll find… I mean, you may find problems, but even those data quality problems may not have any impact on the business or on the organization.
+
+00:10:55.000 --> 00:10:57.000
+So
+
+00:10:57.000 --> 00:11:15.000
+not advising you to go either in any particular way. It could work either way, but oftentimes it's most fruitful to start with a business impact, something that's going wrong with the organization that you can relate to data, then that gives you a specific target of things to fix
+
+00:11:15.000 --> 00:11:20.000
+If you just go sweeping through the data looking for data quality problems
+
+00:11:20.000 --> 00:11:27.000
+That's good, but you want to hold back and not say, you know, well, we want all perfect data in our systems
+
+00:11:27.000 --> 00:11:39.000
+Because again, making it perfect is not necessarily going to improve your business results if the data are not involved in the business or in some significant part of the business.
+
+00:11:39.000 --> 00:11:44.000
+So it's good to look at this in both ways.
+
+00:11:44.000 --> 00:11:48.000
+So
+
+00:11:48.000 --> 00:11:54.000
+These are the two views of how to relate information to value.
+
+00:11:54.000 --> 00:12:04.000
+Starting with the business problem that's related to data, that you can fix the data to improve the business, or you can look for defects in the data
+
+00:12:04.000 --> 00:12:11.000
+determine if those defects are impacting the business. If they are, you can fix them and improve business results.
+
+00:12:11.000 --> 00:12:15.000
+So there's lots of places to find information value.
+
+00:12:15.000 --> 00:12:21.000
+Obviously, we think often of financial like the examples of the invoices going out
+
+00:12:21.000 --> 00:12:34.000
+But… and that can affect, you know, operating costs, revenue, cash flow, charges, budget, compliance. This is a big area. Many organizations
+
+00:12:34.000 --> 00:12:41.000
+have external agencies that require them to comply to certain
+
+00:12:41.000 --> 00:12:54.000
+requirements. For example, we have that here at the university. We have to report everything into the Arkansas Department of Education. We're getting ready to make a big report now that
+
+00:12:54.000 --> 00:13:10.000
+We're see the final enrollments in our courses, we have to report all that. So we have a lot of regulation related to education. Certainly, that's true in medical, but especially in financial organizations, you have a lot of issues
+
+00:13:10.000 --> 00:13:14.000
+That have to be reported
+
+00:13:14.000 --> 00:13:18.000
+Government, industry, privacy
+
+00:13:18.000 --> 00:13:23.000
+confidence, trust, so this this gets back to the
+
+00:13:23.000 --> 00:13:26.000
+issue, or not the issue, but the
+
+00:13:26.000 --> 00:13:34.000
+Danette McGilvery that raises, that you're really trying to build trustworthy data in your organization
+
+00:13:34.000 --> 00:13:44.000
+People trusted. If they don't trust it, they won't use it, and if it's not used, it won't create any value. So, as I mentioned last time
+
+00:13:44.000 --> 00:13:53.000
+You know, we say that you have to be careful how you say it. I said it wrong to Doug Laney one time, is that
+
+00:13:53.000 --> 00:13:56.000
+Data only produces value
+
+00:13:56.000 --> 00:14:01.000
+when it's used, okay
+
+00:14:01.000 --> 00:14:08.000
+And so the key word there is produce. Data has value even when you're not using it, has potential value
+
+00:14:08.000 --> 00:14:12.000
+But the value is only realized when you actually use it for something
+
+00:14:12.000 --> 00:14:17.000
+like, making decisions or controlling systems
+
+00:14:17.000 --> 00:14:26.000
+Forecasting that can be a very important thing that you do with data as well as just general reporting. And then satisfaction.
+
+00:14:26.000 --> 00:14:32.000
+If you're using… you're in a business, especially where you have customers
+
+00:14:32.000 --> 00:14:46.000
+Then, you know, customers are at the top of the pyramid. They need to be, if you want to be successful, you need to have good customer satisfaction. They call customer experience
+
+00:14:46.000 --> 00:15:01.000
+And data has a lot to do with that, right? So I don't know if you've had this experience of going into a website and trying to order something or buy something, and you go through a bunch of pages and things and they ask you things that you don't know exactly how to answer
+
+00:15:01.000 --> 00:15:05.000
+Maybe you have that experience with Workday trying to register
+
+00:15:05.000 --> 00:15:09.000
+I know I have a lot of bad experiences with work
+
+00:15:09.000 --> 00:15:17.000
+So that's poor customer experience or poor customer satisfaction. And oftentimes that's related to data
+
+00:15:17.000 --> 00:15:22.000
+Suppliers, employees, so there are many ways that you can find
+
+00:15:22.000 --> 00:15:31.000
+If you use information to create value. As we mentioned, your risk, you want to minimize risk
+
+00:15:31.000 --> 00:15:37.000
+You want to meet all the regulatory requirements, credit, investment
+
+00:15:37.000 --> 00:15:46.000
+Competitiveness, this is another thing that's sort of an intangible, but it's an extremely important value is to be
+
+00:15:46.000 --> 00:15:54.000
+Part of customer satisfaction, how are you competing with other organizations that are in your same field?
+
+00:15:54.000 --> 00:15:58.000
+And again, data can have an important part in that
+
+00:15:58.000 --> 00:16:04.000
+Leakage, of course, this is what a lot of people think about immediately when we think about risk
+
+00:16:04.000 --> 00:16:12.000
+We have sensitive data that gets out of our control, right?
+
+00:16:12.000 --> 00:16:14.000
+Hackers get in steal
+
+00:16:14.000 --> 00:16:18.000
+It was often said that there's two kinds of companies
+
+00:16:18.000 --> 00:16:20.000
+Those companies
+
+00:16:20.000 --> 00:16:27.000
+that have had their personalized or customer information exposed or hacked
+
+00:16:27.000 --> 00:16:30.000
+And those that don't know it yet
+
+00:16:30.000 --> 00:16:39.000
+That everybody, to some extent, has been hacked or leaked information that they wanted to keep private
+
+00:16:39.000 --> 00:16:46.000
+Productivity, we often think about now in the age of AI, this is the key word, right?
+
+00:16:46.000 --> 00:16:50.000
+We want to use these large language models
+
+00:16:50.000 --> 00:17:01.000
+To improve our workflows through agents, right? So Agentic AI is the big thing right now. And agents are like little employees inside of the LLM
+
+00:17:01.000 --> 00:17:08.000
+that can do work, and so we can be potentially more productive through data
+
+00:17:08.000 --> 00:17:10.000
+Namely through these
+
+00:17:10.000 --> 00:17:16.000
+Large language models, which require some kind of context, which is also data
+
+00:17:16.000 --> 00:17:19.000
+And then
+
+00:17:19.000 --> 00:17:23.000
+Health, we talked about the other value propositions
+
+00:17:23.000 --> 00:17:26.000
+In healthcare disease control treatments
+
+00:17:26.000 --> 00:17:29.000
+mental treatment, diet, fitness
+
+00:17:29.000 --> 00:17:37.000
+Safety, this is another big area, right? We're seeing a lot of that now in environmental protection
+
+00:17:37.000 --> 00:17:49.000
+safety issues, accident prevention, a lot of that goes along with now we have self-driving cars. We're trying to make things safer. We're trying to study traffic flows
+
+00:17:49.000 --> 00:17:52.000
+We're trying to assess the safety of
+
+00:17:52.000 --> 00:18:00.000
+of automobiles. So everywhere you look there's data involved and you if you're making the right
+
+00:18:00.000 --> 00:18:08.000
+Making that data into the right information products and services, you can create value. So there are many, many places to find it.
+
+00:18:08.000 --> 00:18:10.000
+Now
+
+00:18:10.000 --> 00:18:12.000
+So
+
+00:18:12.000 --> 00:18:15.000
+Just as an aside
+
+00:18:15.000 --> 00:18:21.000
+If value is a very simple formula, right? So value is the difference
+
+00:18:21.000 --> 00:18:25.000
+between benefits and cost
+
+00:18:25.000 --> 00:18:34.000
+So if I'm going to undertake some enterprise, which is doing something, I'm going to do something, there's some cost involved
+
+00:18:34.000 --> 00:18:37.000
+It could be money, it could be time
+
+00:18:37.000 --> 00:18:43.000
+It could be wear and tear, it could be a lot of things. There's something you have to give
+
+00:18:43.000 --> 00:18:55.000
+In terms of cost to get some… to do your action, whatever it is you're trying to do. And the idea is that when you get finished doing it, like building a product, or
+
+00:18:55.000 --> 00:19:00.000
+You know you're gonna fix up your house, you're gonna do something
+
+00:19:00.000 --> 00:19:12.000
+it's going to cost you something to do that, but the idea is you're going to realize some benefit out of it. It'll give you some benefit. And of course, what we would like is for that benefit
+
+00:19:12.000 --> 00:19:22.000
+the value of the… or the benefit to be greater than the cost that it required to get that benefit, and that's what the value is. The value's the difference
+
+00:19:22.000 --> 00:19:28.000
+And so we have a very simple formula for measuring that. We call it return on investment
+
+00:19:28.000 --> 00:19:41.000
+And it applies to all kinds of data issues, financial issues, medical issues, whatever endeavor that you want to think about. We can think of it in terms of return on investment
+
+00:19:41.000 --> 00:19:46.000
+And it's the net gain calculated as a percentage of the amount invested.
+
+00:19:46.000 --> 00:19:58.000
+In other words, what was my gain that I got? How much were the benefits above the cost and then divide that by the cost, and that gives me my return on investment.
+
+00:19:58.000 --> 00:20:04.000
+So the return on investment expressed as a percentage, we multiply by 100 to get percentage
+
+00:20:04.000 --> 00:20:11.000
+Is the net gain divided by the cost that it took to get that net gain
+
+00:20:11.000 --> 00:20:19.000
+So we always want that to be positive, right? So why would we want to do something, invest time, money, all types of costs
+
+00:20:19.000 --> 00:20:32.000
+and get a benefit that was smaller than the cost that it required to get that benefit. We always want the benefit to be larger than the cost to get the benefit, and that would be a positive ROI.
+
+00:20:32.000 --> 00:20:34.000
+So
+
+00:20:34.000 --> 00:20:42.000
+And it's a good way to compare alternative opportunities. So in business, we use the return on investment all the time, because typically we have
+
+00:20:42.000 --> 00:20:54.000
+many opportunities to improve things, right? And we can't do everything at once, so we have to make decisions about, do we want to do improvement A or improvement B, or improvement C
+
+00:20:54.000 --> 00:21:01.000
+And so one way to help evaluate is calculate the return on investments of each one of those opportunities.
+
+00:21:01.000 --> 00:21:04.000
+So
+
+00:21:04.000 --> 00:21:08.000
+Also, if we're looking at anything long-term
+
+00:21:08.000 --> 00:21:10.000
+Longer than a year
+
+00:21:10.000 --> 00:21:15.000
+then we really should use discounted values for cost and revenue
+
+00:21:15.000 --> 00:21:18.000
+And so what do we mean by that
+
+00:21:18.000 --> 00:21:23.000
+So if I can get a 5% annual return on my investment
+
+00:21:23.000 --> 00:21:28.000
+What is today's present value of $100 payment
+
+00:21:28.000 --> 00:21:31.000
+To me one year from now, so
+
+00:21:31.000 --> 00:21:39.000
+The idea of an annual return on investment is that money should be working all the time
+
+00:21:39.000 --> 00:21:47.000
+Money shouldn't be sitting idle in a savings account or not. Under your mattress at home.
+
+00:21:47.000 --> 00:22:03.000
+Just sitting there because money needs to be working. You need to be investing it. So if we have some general idea of what the working value of money should be, in this case we're calling it annual return, say it's 5%
+
+00:22:03.000 --> 00:22:09.000
+So the way to think about this, suppose that somebody says, okay, I'm going to pay you $100.
+
+00:22:09.000 --> 00:22:12.000
+But I'm not going to pay it until one year from now
+
+00:22:12.000 --> 00:22:29.000
+So the question becomes, what's the value of $100 one year from now? So we have to back up and say, well, what would I need to, how much money would I need today so that it would grow to $100 at a 5% interest rate
+
+00:22:29.000 --> 00:22:32.000
+So that's a pretty easy one to solve
+
+00:22:32.000 --> 00:22:43.000
+no matter how much money do I need today to have $100 at the end of one year? And of course, they're very easy to solve. We say, well, I've got
+
+00:22:43.000 --> 00:22:52.000
+the X that I'm looking for is the amount of money I need today, but… but that money plus 5% gain in that money
+
+00:22:52.000 --> 00:22:57.000
+I want, in one year to equal $100
+
+00:22:57.000 --> 00:23:00.000
+So it's a simple algebraic formula
+
+00:23:00.000 --> 00:23:06.000
+I'm basically going to take $100 and divide it by 1.05.
+
+00:23:06.000 --> 00:23:11.000
+And so that tells me that basically $100 a year from now
+
+00:23:11.000 --> 00:23:20.000
+is only worth $95 today if my annual growth of money is expected to be at least 5%.
+
+00:23:20.000 --> 00:23:23.000
+Okay, so that's called the discounted value.
+
+00:23:23.000 --> 00:23:31.000
+Another place where that comes in, well, we'll talk about that in a minute. So we call that the net present value of money
+
+00:23:31.000 --> 00:23:46.000
+In other words, again, the basic assumption is that money should constantly be growing in value, and we call that the annual discount rate, like 5% in the previous example. And it will vary from industry to industry or type of business
+
+00:23:46.000 --> 00:23:50.000
+But you should have some idea of the annual discount rate
+
+00:23:50.000 --> 00:23:55.000
+Because uninvested money loses value. Put the money in your
+
+00:23:55.000 --> 00:24:09.000
+safety deposit box or under your mattress at home, then it's basically losing because if you could, on the average get 5% return, or even 3% return in a savings account
+
+00:24:09.000 --> 00:24:15.000
+That's where it should be, working and getting and gaining money over time, or gaining value over time.
+
+00:24:15.000 --> 00:24:21.000
+So, future dollars are worth less today, is the basic idea.
+
+00:24:21.000 --> 00:24:27.000
+So here's where this comes up a lot. I don't know how many of you play the lotto or play the
+
+00:24:27.000 --> 00:24:34.000
+These jackpot prizes. But if you read the fine print, here's how it goes. Hey
+
+00:24:34.000 --> 00:24:44.000
+play the lotto, and if you win, you'll get a million dollars, okay? One million dollar jackpot prize. But then you read the fine print, and it says, but
+
+00:24:44.000 --> 00:24:52.000
+What happens if you win the lotto, yes, we're going to give you $100,000 today
+
+00:24:52.000 --> 00:24:57.000
+And then $100,000 a year for nine years
+
+00:24:57.000 --> 00:25:08.000
+100,000 today, then another payment next year of 100,000, then the year after that 100,000 and so forth. And so it's a million dollars, that's what they say. Well, it is
+
+00:25:08.000 --> 00:25:14.000
+If you just look at it, but if you put time into it, it's not worth a million dollars
+
+00:25:14.000 --> 00:25:19.000
+Let's just suppose for argument that the discount rate is 10%.
+
+00:25:19.000 --> 00:25:27.000
+Pretty high, but say that money could in general gain 10% a year in value
+
+00:25:27.000 --> 00:25:33.000
+Then that prize money, a million dollars, paid out like that over 9 years
+
+00:25:33.000 --> 00:25:37.000
+is only worth $675,000 today
+
+00:25:37.000 --> 00:25:48.000
+And that, by the way, there are many companies that are engaged in this, right? If you win one of these lotteries where they have that, where you're required to take the money out in payments
+
+00:25:48.000 --> 00:26:02.000
+Then there are many companies around that will come in and say, hey, I saw that you won this. We'll give you the cash today. And this is how they figure out how much cash to give you. So their business would be, say you won this.
+
+00:26:02.000 --> 00:26:15.000
+And say, okay, well, don't worry, we'll give you $500,000 today, but you give us the annuity. In other words, you give us those nine years of payments and we'll take those payments and we'll
+
+00:26:15.000 --> 00:26:24.000
+But we'll give you the discounted value minus some profit today
+
+00:26:24.000 --> 00:26:34.000
+So, by the way, there's thank God for Xcel, right? So XL has a nice formula for net present value that's called NPV
+
+00:26:34.000 --> 00:26:44.000
+And so what we can do is we can do it this way. We can say, okay, the first $100,000 is $100,000 because I got it today
+
+00:26:44.000 --> 00:26:50.000
+But then I can say, I go into my Excel formula of NPV and say, okay
+
+00:26:50.000 --> 00:26:55.000
+My annual growth rate is 10%, so that's the 0.1.
+
+00:26:55.000 --> 00:27:02.000
+And then I just followed that with a series of payments for each year, so there's $100,000 for the
+
+00:27:02.000 --> 00:27:04.000
+At the end of the second year
+
+00:27:04.000 --> 00:27:09.000
+The third year, fourth year, so there's nine of those. I just plugged those into that formula
+
+00:27:09.000 --> 00:27:15.000
+And it comes out, that's how I get the $675,000. This is the current value
+
+00:27:15.000 --> 00:27:29.000
+Then that one is the one where if I have uneven payments that I need to list what payment it is. But if all the payments are the same like this, all the payments are the same amount, $100,000
+
+00:27:29.000 --> 00:27:36.000
+I can use a different Excel formula called PV, present value, and I can just say this. I can say
+
+00:27:36.000 --> 00:27:43.000
+Okay, the discount rate is 10% again. There's 10 payments of $100,000
+
+00:27:43.000 --> 00:27:51.000
+And then the zero says that I don't count the first one. The first one is an immediate payment, just like in my previous formula
+
+00:27:51.000 --> 00:28:03.000
+And so when I do that, I get the same result, but I don't have to list out each individual payment, because all the payments are the same
+
+00:28:03.000 --> 00:28:08.000
+Everybody on board with the present value of money?
+
+00:28:08.000 --> 00:28:12.000
+All right, so here's an example
+
+00:28:12.000 --> 00:28:16.000
+So there's a not-for-profit company
+
+00:28:16.000 --> 00:28:29.000
+And they have a problem with inconsistent reference tables across their operating unit. And it's creating real cost in correcting erroneous shipments all the time because their reference tables are bad
+
+00:28:29.000 --> 00:28:35.000
+So, they have a solution. They want to set up a single point of truth, what we call master data
+
+00:28:35.000 --> 00:28:38.000
+or SPOT, single point of truth
+
+00:28:38.000 --> 00:28:43.000
+corporate reference, so that every… everybody uses the same reference data
+
+00:28:43.000 --> 00:28:51.000
+And they do some analysis and the cost, it's going to take four years to implement this fully. It's a very large company
+
+00:28:51.000 --> 00:28:56.000
+And it'll… the cost will be $120,000 a year
+
+00:28:56.000 --> 00:29:04.000
+The benefits over four years are going to be $160,000
+
+00:29:04.000 --> 00:29:19.000
+So if I just look at that without bringing time into consideration, my benefit is I'm going to benefit $160,000. It's going to cost me $120. So if I just use my simple return on investment
+
+00:29:19.000 --> 00:29:31.000
+I take the 160 minus the 120, that's my net benefit and divide that by the cost that it takes to get it. And so I get a 33% return on my investment
+
+00:29:31.000 --> 00:29:37.000
+That's just looking at it without time value over four years. That's just
+
+00:29:37.000 --> 00:29:45.000
+money now, in the present. But let's look at… it's become a little more complicated here
+
+00:29:45.000 --> 00:29:54.000
+Because the money that I spend, the cost and the benefits that I get don't necessarily come in an even way
+
+00:29:54.000 --> 00:30:01.000
+So for example, in one scenario, I have to spend right off the bat
+
+00:30:01.000 --> 00:30:08.000
+$45,000 in the first year, but it's only going to benefit me $10,000 in the first year.
+
+00:30:08.000 --> 00:30:14.000
+But in the second year, I can get to spend less. 35,000
+
+00:30:14.000 --> 00:30:18.000
+And then the second year, I'll get a $20,000 benefit
+
+00:30:18.000 --> 00:30:31.000
+And then, in the third year, I'd only have to spend $25,000, and I got a $40,000 benefit, and in the fourth year, I'd only spend $15,000, and I get a $90,000 benefit.
+
+00:30:31.000 --> 00:30:41.000
+That scenario is the same overall in that my total expenditures is 120 and my total benefit is 16
+
+00:30:41.000 --> 00:30:51.000
+But the benefit that I get each year and the cost that I have each year are not constant.
+
+00:30:51.000 --> 00:31:04.000
+And then I look at the second scenario, then it varies again and I say, okay, well, my first year I have to spend $45,000, but right away I get a $90,000 benefit
+
+00:31:04.000 --> 00:31:09.000
+And then the next year, I spent 35,000 and I get a $40,000 benefit
+
+00:31:09.000 --> 00:31:14.000
+And this one I'm sort of getting diminishing returns
+
+00:31:14.000 --> 00:31:27.000
+And then the third year I spent 25 and I only get 20 back. In the third year, a fourth year, I spend 15 and get 10 back. Again, overall, it's the same cost and benefit
+
+00:31:27.000 --> 00:31:30.000
+That all adds up to $120,000 in cost
+
+00:31:30.000 --> 00:31:34.000
+And $160,000 in benefit
+
+00:31:34.000 --> 00:31:48.000
+And then finally, the third scenario is sort of the opposite. My costs are very low at the beginning, and my benefits are high, but it goes the other way. So year one, it's $15,000 cost $90,000 benefit
+
+00:31:48.000 --> 00:31:57.000
+25 in the next year of my cost, and then 40, so forth and so on. Again, all three of these scenarios are $120,000 in cost
+
+00:31:57.000 --> 00:32:02.000
+And $160,000 in benefit, but
+
+00:32:02.000 --> 00:32:10.000
+The return on investment, because if I take present value into account
+
+00:32:10.000 --> 00:32:14.000
+Then I can see this, that in scenario one
+
+00:32:14.000 --> 00:32:20.000
+Again, all the returns without using time are 33
+
+00:32:20.000 --> 00:32:35.000
+But if I take the net present value, they vary dramatically. So in scenario one, my net present value for that project is only 26% return on investment
+
+00:32:35.000 --> 00:32:44.000
+Whereas in scenario two, it's a 36% return on investment. In Scenario 3, it's 40%.
+
+00:32:44.000 --> 00:33:00.000
+And we can see the reason why, right? Look in scenario one, most of my costs are closer in time. My high costs are now, and my benefits are farther out, and those benefits farther out are worthless to me now when I'm planning this project.
+
+00:33:00.000 --> 00:33:06.000
+So scenario one has the lowest return on investment using net present value
+
+00:33:06.000 --> 00:33:12.000
+Because I have upfront costs and outs, and my benefits are farther out.
+
+00:33:12.000 --> 00:33:17.000
+Which is exactly the opposite of scenario 3, where I have my cost
+
+00:33:17.000 --> 00:33:32.000
+come later, and so those costs are worth less now. They have less value now because they're farther out in time, but I'm getting my benefits now, early on, in the early years. So that means now my return on investment is actually much larger
+
+00:33:32.000 --> 00:33:34.000
+It's 40
+
+00:33:34.000 --> 00:33:42.000
+Whereas where they're pretty much even in scenario two, my costs and my benefits are pretty much go linearly and hand in hand
+
+00:33:42.000 --> 00:33:48.000
+It's very close to the actual, if I did without time
+
+00:33:48.000 --> 00:33:55.000
+Without using time values, 33% in scenario two, it's just 36%. So it's a little better
+
+00:33:55.000 --> 00:34:07.000
+So this gives you then the reason that in looking at any kind of a long-term project, you really need to look at the present value of money to get a good assessment of what's going on.
+
+00:34:07.000 --> 00:34:15.000
+And this is all done assuming an annual discount rate of 5%.
+
+00:34:15.000 --> 00:34:20.000
+Any questions or comments on them
+
+00:34:20.000 --> 00:34:24.000
+You'll have an exercise like that that you can be able to do
+
+00:34:24.000 --> 00:34:29.000
+So making the business case for information quality
+
+00:34:29.000 --> 00:34:36.000
+So it's really important to have that business case, right? Because if we think that information quality
+
+00:34:36.000 --> 00:34:48.000
+I hope you think that because it's part of our curriculum is value, then we need to make a business case for. We want to think of information quality
+
+00:34:48.000 --> 00:35:04.000
+the way people think about it right now is it's just about cleaning up dirty data. It's just like the janitor has to come in and clean up the floor. There's no benefit, there's no value to it, other than it's just something that needs to be done.
+
+00:35:04.000 --> 00:35:19.000
+But we want to change that thinking to people to think about information quality and improving quality as an investment. Yeah, we're going to spend some money to do it, but the benefits that we get out of it are going to be larger than that cost
+
+00:35:19.000 --> 00:35:22.000
+So that's what a business case does.
+
+00:35:22.000 --> 00:35:30.000
+It needs to be a way to say that information quality improvement
+
+00:35:30.000 --> 00:35:33.000
+will be successful and create value
+
+00:35:33.000 --> 00:35:36.000
+And so it will help you
+
+00:35:36.000 --> 00:35:45.000
+Get people to thinking about information quality improvement as an investment, and not just an added expense. Because even though there's expense
+
+00:35:45.000 --> 00:35:49.000
+It will return back more value than it cost
+
+00:35:49.000 --> 00:35:52.000
+And that helps you gain support from management
+
+00:35:52.000 --> 00:35:59.000
+And that helps you get the resources you need to have a successful project. So they all work together
+
+00:35:59.000 --> 00:36:09.000
+So in order to do that you really need to understand what are the business goals or the organizational goals. I keep using business. I probably should change this
+
+00:36:09.000 --> 00:36:19.000
+Because again, it's true for business, but it's also true for health care. It's true for government organizations, nonprofit organizations
+
+00:36:19.000 --> 00:36:23.000
+They have goals, they have things they're trying to accomplish
+
+00:36:23.000 --> 00:36:25.000
+And you need to align with that
+
+00:36:25.000 --> 00:36:29.000
+And so, you need to make a clear connection between
+
+00:36:29.000 --> 00:36:37.000
+The information quality improvement and achieving those goals and objectives of the organization
+
+00:36:37.000 --> 00:36:44.000
+And in order to do that, and this is something I hope that you will take away from this course
+
+00:36:44.000 --> 00:36:52.000
+is what we call the Information Quality Context. So again, it's not just about data. I mean, data is super important
+
+00:36:52.000 --> 00:36:56.000
+And we want to process data into some information product or service
+
+00:36:56.000 --> 00:37:03.000
+But in addition to the data, there are 3 other things that we have to be aware of and take into consideration
+
+00:37:03.000 --> 00:37:10.000
+In general, but also in particular in our business case. We have to understand the data, of course
+
+00:37:10.000 --> 00:37:18.000
+What's in it, what data items are the most important? We need to really understand the data we're using. But there are three other very important things
+
+00:37:18.000 --> 00:37:28.000
+Well, in understanding the data, one of the things we often look at is what are the critical data elements? Some elements of the data are more important than others
+
+00:37:28.000 --> 00:37:32.000
+And we call those CDEs or critical data elements
+
+00:37:32.000 --> 00:37:42.000
+And the way we can tell if something is critical is what would happen to our process or our business if that particular element was gone
+
+00:37:42.000 --> 00:37:48.000
+How would it impact our processes? How much would it cost to go recover that and so forth
+
+00:37:48.000 --> 00:37:54.000
+But now, the other three things besides the data are the people
+
+00:37:54.000 --> 00:38:06.000
+The people that are using the data, the people that are manipulating the data, that are transforming the data into some product or service, we can't leave the people up.
+
+00:38:06.000 --> 00:38:15.000
+Oftentimes, many of the issues that we have are people issues. The reason we have this course here called Project and Change Management
+
+00:38:15.000 --> 00:38:25.000
+Where change managers is about how do you change people's thinking about data and information, and how it's being used.
+
+00:38:25.000 --> 00:38:34.000
+So in addition to the data, we also need to be very aware of the people that are processing the data, that are using the data, that are managing the data
+
+00:38:34.000 --> 00:38:40.000
+Also, what are the processes that are being used to transform the data into some product or service?
+
+00:38:40.000 --> 00:38:43.000
+We need to understand those processes
+
+00:38:43.000 --> 00:38:48.000
+And then finally, we need to understand the technology. What particular software is being used
+
+00:38:48.000 --> 00:38:55.000
+Now, this is different than the process, right? We have a process of how we want to change the data
+
+00:38:55.000 --> 00:38:58.000
+But the tools that we use to change it
+
+00:38:58.000 --> 00:39:14.000
+can vary, right? So we might be using IBM, we might be using Informatica, SAP. And the way they execute processes are different and some might be more efficient than others for particular types of processes that we're applying to the data.
+
+00:39:14.000 --> 00:39:29.000
+So we always need to keep in mind in any data scenario, anything related to data, there's obviously the data we need to consider, but we also need to consider the processes, the technology, and the people that are involved.
+
+00:39:29.000 --> 00:39:38.000
+Those are the four principal components of the context of any data issue.
+
+00:39:38.000 --> 00:39:51.000
+And as we said before, there may be lots of opportunities to make improvements in different ways. So again, this is where the ROI and the other thing, the business cases come into consideration
+
+00:39:51.000 --> 00:39:54.000
+Which one should we
+
+00:39:54.000 --> 00:40:01.000
+go after. We know that for each opportunity, it has some value, which is the benefits less the cost
+
+00:40:01.000 --> 00:40:09.000
+And again, benefits could mean a lot of things, increasing revenue, lowering operational costs, avoiding
+
+00:40:09.000 --> 00:40:14.000
+risk of fines and penalties and cost might be mean
+
+00:40:14.000 --> 00:40:19.000
+additional software or additional personnel. So it could be lots of things
+
+00:40:19.000 --> 00:40:26.000
+But we try to gather those together and estimate those to weigh the alternatives
+
+00:40:26.000 --> 00:40:31.000
+And we often use what's called a cost-benefit matrix
+
+00:40:31.000 --> 00:40:38.000
+So we're going to build a two-dimensional matrix where the vertical, the y-axis, represents the benefit
+
+00:40:38.000 --> 00:40:43.000
+And the x-axis, or the horizontal axis, represents the cost
+
+00:40:43.000 --> 00:40:48.000
+And where we want to place these opportunities are in these quadrants
+
+00:40:48.000 --> 00:41:00.000
+So the upper left quadrant, we place those opportunities that have a high benefit and a low cost. That means that would be our first choice, right? We can get a good benefit, but it doesn't cost us much to get it
+
+00:41:00.000 --> 00:41:04.000
+So those would be top-ranked ones
+
+00:41:04.000 --> 00:41:06.000
+The second rank
+
+00:41:06.000 --> 00:41:11.000
+We have a choice here. We could go down and say, well
+
+00:41:11.000 --> 00:41:21.000
+We want low cost, but we're not going to get so much benefit. But we always want to try to get the most benefit that we can. So really, our second choice is this quadrant
+
+00:41:21.000 --> 00:41:26.000
+This is where we get high benefit, but it costs us more to get that benefit
+
+00:41:26.000 --> 00:41:32.000
+But it's important, it's second choice, because it's a high benefit overall
+
+00:41:32.000 --> 00:41:42.000
+Then our third choice would be here. This is where the benefit is lower, but the cost is low. So this is an easy one in both in terms of cost and benefit
+
+00:41:42.000 --> 00:41:54.000
+And that would be our third choice. And then our last choice would be those that the overall benefit is not that great, and it's going to cost us quite a bit to get there, but we will get some positive benefit out of it
+
+00:41:54.000 --> 00:42:01.000
+So that would be our fourth choice. So this gives us a way to map out different opportunities that we have
+
+00:42:01.000 --> 00:42:06.000
+To create value with information
+
+00:42:06.000 --> 00:42:09.000
+But we want to write up a business case
+
+00:42:09.000 --> 00:42:20.000
+And qualitative measures are useful, but it also… but it's really important to try to include some quantitative financial justification. If it's about value
+
+00:42:20.000 --> 00:42:29.000
+Then we either need to show that we're going to make more money out of it, or we're going to have a lot more benefit for
+
+00:42:29.000 --> 00:42:33.000
+Let's say it's medical
+
+00:42:33.000 --> 00:42:35.000
+Sorry
+
+00:42:35.000 --> 00:42:48.000
+That it's gonna be very important in treating some disease or some condition, or if it's a mission incompetence really going to help us complete our mission in a much better way than we were doing it before.
+
+00:42:48.000 --> 00:42:54.000
+So, we need some quantitative how to express those quantitatively, if we can at all
+
+00:42:54.000 --> 00:42:58.000
+And so then that
+
+00:42:58.000 --> 00:43:06.000
+needs to clearly explain how the benefits of the project is going to exceed the cost that it requires to get there.
+
+00:43:06.000 --> 00:43:21.000
+That is, the project will create value, so we want to sell that project. We want to say this is an investment you need to make. It's not just a cost that we need to undertake, it's an investment in our organization.
+
+00:43:21.000 --> 00:43:26.000
+So here's an example
+
+00:43:26.000 --> 00:43:33.000
+Qualitative type case would be to say, well, okay, we need to do project A because it's going to improve
+
+00:43:33.000 --> 00:43:41.000
+Our information product, some X product that and that will increase customer satisfaction
+
+00:43:41.000 --> 00:43:48.000
+That's very qualitative because there's no numbers there, there's no percentage, nothing. It just says
+
+00:43:48.000 --> 00:43:54.000
+This is a good thing to do. We need to improve that because it's going to make our customers happier.
+
+00:43:54.000 --> 00:43:56.000
+Yeah, so we should do it
+
+00:43:56.000 --> 00:44:01.000
+Well, okay. So you're wanting me to spend money for this, okay
+
+00:44:01.000 --> 00:44:17.000
+Whereas we look at it more quantitatively, okay, so yeah, this project's going to improve customer satisfaction, but in a way that we expect that it will increase customer retention by 10% a year
+
+00:44:17.000 --> 00:44:25.000
+In other words, we'll lose, we won't lose as many customers each year as we do now. We're going to improve that loss rate
+
+00:44:25.000 --> 00:44:29.000
+We're gonna reduce it. So by 10%
+
+00:44:29.000 --> 00:44:39.000
+And now the call… and so this is something that accountants in a business are always going to know. They're going to say, well, we know the cost to acquire a new customer
+
+00:44:39.000 --> 00:44:46.000
+We have to do advertising, we have to do onboarding, we have to do a lot of things to get the customer in to our customer base
+
+00:44:46.000 --> 00:44:56.000
+And we estimate that to cost $1,200 a customer for a new customer. However, to service and maintain an existing customer
+
+00:44:56.000 --> 00:45:04.000
+to do their accounts, to do their billing, all that only costs us about $400 a year.
+
+00:45:04.000 --> 00:45:10.000
+So now, if I have 2000 customers currently in my business
+
+00:45:10.000 --> 00:45:15.000
+then I can make a calculation of how… what would be the impact
+
+00:45:15.000 --> 00:45:17.000
+of having
+
+00:45:17.000 --> 00:45:22.000
+increasing our customer retention by 10% a year
+
+00:45:22.000 --> 00:45:35.000
+So for 2,000 customers, I go through the formula. I've got 2,000 customers, I've got 10% retention. I've got the difference between acquiring them and losing them
+
+00:45:35.000 --> 00:45:40.000
+is $800, right? 1200 minus the 400
+
+00:45:40.000 --> 00:45:43.000
+That's $160,000 a year
+
+00:45:43.000 --> 00:46:00.000
+So I can use that to say, okay, if my cost of doing this project is less than 160,000, then this is a winning formula, right? Because I could say, well, we're going to spend $50,000 to do this
+
+00:46:00.000 --> 00:46:06.000
+But we're going to get $160,000 back
+
+00:46:06.000 --> 00:46:13.000
+So, again, the point of this is it's important, even though we're making estimates, or guesstimates sometimes
+
+00:46:13.000 --> 00:46:27.000
+It's important to have the numbers there and in business they call this a pro forma, right? In other words, I'm going to start a new business or I'm proposing a project. I prepare this and say, okay, over the years, over time.
+
+00:46:27.000 --> 00:46:36.000
+How much am I going to be spending? What do I expect to get back? Show me the money, show me the money that's going to come back to me by doing this.
+
+00:46:36.000 --> 00:46:42.000
+So we consider all the factors. In addition to analyzing benefit and cost
+
+00:46:42.000 --> 00:46:45.000
+We need to think about how much time that will take
+
+00:46:45.000 --> 00:46:52.000
+Will it have a long-term benefit? Is it just something going to be a short-term fix, or a long-term
+
+00:46:52.000 --> 00:47:00.000
+What's the risk of failing? Okay, we say we're going to do this project, but could it possibly fail and we not get any return on it?
+
+00:47:00.000 --> 00:47:13.000
+And do we have the right resources to do it? Are there enough people in the right roles to carry out the project? Do we have the right IT structure, the right data experts, project leaders, so forth?
+
+00:47:13.000 --> 00:47:21.000
+So and then also how visible would the project be? How will people really see the results and understand this
+
+00:47:21.000 --> 00:47:26.000
+And that's something we don't do a lot in information quality, sort of blow our own horn
+
+00:47:26.000 --> 00:47:31.000
+to say, you know, look what we were able to do for the company
+
+00:47:31.000 --> 00:47:35.000
+So that brings us down to
+
+00:47:35.000 --> 00:47:41.000
+Some of the characteristics of information that's going to get us into our next project
+
+00:47:41.000 --> 00:47:43.000
+Our next assignment
+
+00:47:43.000 --> 00:47:53.000
+So the information lifecycle now. So information, just like everything, has a life cycle to it.
+
+00:47:53.000 --> 00:48:03.000
+It starts out somewhere, we acquire the data, we get it, we use it, and at some point, it's not useful to us anymore.
+
+00:48:03.000 --> 00:48:08.000
+In some data lasts longer than other data
+
+00:48:08.000 --> 00:48:10.000
+For example.
+
+00:48:10.000 --> 00:48:13.000
+We think about timeliness of
+
+00:48:13.000 --> 00:48:16.000
+Stock quotes right
+
+00:48:16.000 --> 00:48:27.000
+Stock quotes don't last for only a few seconds, right? Because they're changing constantly. So what good does it do for you to give me yesterday's stock quotes? That's not what the stock's worth today, right?
+
+00:48:27.000 --> 00:48:31.000
+So the life cycle of stock quotes is very, very short
+
+00:48:31.000 --> 00:48:34.000
+Other information like
+
+00:48:34.000 --> 00:48:42.000
+You know, customer information. I used to work at Axiom Corporation. We used to kid each other. We would buy a lot of information.
+
+00:48:42.000 --> 00:48:47.000
+And we'd say, well, you know, how many times do we need to buy somebody's date of birth
+
+00:48:47.000 --> 00:48:49.000
+Well, it doesn't typically change
+
+00:48:49.000 --> 00:49:04.000
+So that has a very long life cycle. As long as that person is potentially a customer or a patient, then their date of birth is a valuable piece of information that we can use to understand their age and other things about
+
+00:49:04.000 --> 00:49:07.000
+About our customer
+
+00:49:07.000 --> 00:49:14.000
+So, so life cycle, all data has life cycle, but it varies in length, but it all has
+
+00:49:14.000 --> 00:49:17.000
+Certain characteristics or stages that it goes through
+
+00:49:17.000 --> 00:49:25.000
+The first part is to plan for the information before we ever get the information, is this the information that we even need?
+
+00:49:25.000 --> 00:49:28.000
+Why are we getting this information?
+
+00:49:28.000 --> 00:49:45.000
+And how much is it going to cost us to acquire the information? We think about how, okay, this is information that we want, or data that we want, how do we get it? Is it data that we're going to have to compile ourselves? Are we going to get it from other sources and have to transform it some way
+
+00:49:45.000 --> 00:49:53.000
+Are we going to lease it? Are we just going to borrow the data and lease it? A lot of the information we used at Axiom
+
+00:49:53.000 --> 00:50:00.000
+was licensed information, really, we didn't really buy it. We just leased it and used it
+
+00:50:00.000 --> 00:50:05.000
+And they kept giving us fresher and fresher information over time. So it's like a service
+
+00:50:05.000 --> 00:50:14.000
+And then once we get the information, we've got to do something with it. We've got to store it.
+
+00:50:14.000 --> 00:50:16.000
+Excuse me. And
+
+00:50:16.000 --> 00:50:21.000
+Sure, right? People need… the people that need it need to have access to it
+
+00:50:21.000 --> 00:50:27.000
+So we have to figure out how we're going to store it, how we're going to make it available to the people that are going to be using it
+
+00:50:27.000 --> 00:50:30.000
+And then we have to maintain it. Generally
+
+00:50:30.000 --> 00:50:37.000
+Stock quotes aside, if we're talking about like customer information
+
+00:50:37.000 --> 00:50:45.000
+People move, right? So if we're going to contact them at their address, whether that's a physical address or an email address
+
+00:50:45.000 --> 00:51:01.000
+or some social tag or some phone number, those tend to change, right? And so to maintain that information, we need to keep up with that and be sure that we have the most current information that we need for whatever product or service that we're building.
+
+00:51:01.000 --> 00:51:06.000
+So that's important. Then, of course, at some point, we want to use it
+
+00:51:06.000 --> 00:51:13.000
+We want to build some information product or service that's going to create that value that we're looking for
+
+00:51:13.000 --> 00:51:25.000
+And then at some point, we're going to dispose. We won't need it anymore, right? We might want to archive it, or we might act… in some cases, we may be required to actually get rid of it, delete it
+
+00:51:25.000 --> 00:51:38.000
+certain financial information. The government says you must retain it for seven years, but at the end of seven years, you must destroy it. So, all of those are regulatory things we have to be aware of
+
+00:51:38.000 --> 00:51:44.000
+And you'll notice that there's 6 things here
+
+00:51:44.000 --> 00:51:49.000
+All six of those cost… there's cost involved with all of those
+
+00:51:49.000 --> 00:51:53.000
+However, only one of them
+
+00:51:53.000 --> 00:52:04.000
+Brings us back any benefit, any value. And that's the apply, right? Only when we get to the point that we're actually using that data for some purpose
+
+00:52:04.000 --> 00:52:13.000
+And getting some value out of it, we're getting some return on it. So that's a heavy burden to bear. The apply phase has to carry all other phases
+
+00:52:13.000 --> 00:52:24.000
+All other faces cost without giving us any benefit, but the apply is the only place we get benefits. So that's the reason, again, for a business case, we need to be very sure
+
+00:52:24.000 --> 00:52:29.000
+If we're going to undertake a project involving data that
+
+00:52:29.000 --> 00:52:38.000
+the return on investment is going to be positive, right? That we're going to get back more than it cost us to do all these things in the life cycle
+
+00:52:38.000 --> 00:52:43.000
+I like this one because I have bad memory and I can remember that it's called POSMAD.
+
+00:52:43.000 --> 00:52:53.000
+You take the first letters of each one of those, plan, obtain, store, maintain, apply, and disposeman. And I borrowed that
+
+00:52:53.000 --> 00:53:03.000
+Danette McGilvery, who's very big in the data quality field, she has a book out called Executing Data Quality Projects.
+
+00:53:03.000 --> 00:53:08.000
+Very well regarded in the industry.
+
+00:53:08.000 --> 00:53:23.000
+So again, it's not a linear process, even though I listed them in order. If we look at it sort of in a two-dimensional way, certainly we start with planning and obtaining it till we get the data. But then once we get there, we store it and share it
+
+00:53:23.000 --> 00:53:35.000
+then maintaining and applying could be in a cycle, right? So we need to be constantly maintaining the data, gross data requires some maintenance. And then we're applying it periodically, right?
+
+00:53:35.000 --> 00:53:43.000
+We're building every month, or we're standing up a website, and people are using it in real time, 24 hours a day
+
+00:53:43.000 --> 00:53:51.000
+in applying where they're using that data that we're providing, and we're constantly maintaining. So it's not linear in that sense.
+
+00:53:51.000 --> 00:53:55.000
+Although at some point, then we need to dispose of it.
+
+00:53:55.000 --> 00:53:58.000
+The life cycle is not linear
+
+00:53:58.000 --> 00:54:06.000
+The cost vary, and the application of the data vary too. And actually, we could be getting
+
+00:54:06.000 --> 00:54:16.000
+For example, at Axon, we're getting data all the time. We planned for data, but then once we got a license, they would give us a feed every… typically every month, sometimes every week
+
+00:54:16.000 --> 00:54:26.000
+That would have to be stored, we'd have to maintain it, apply it constantly. So this is a very cyclical, and not just a linear process.
+
+00:54:26.000 --> 00:54:34.000
+And so again, I won't go into a lot of detail on all these because we're close
+
+00:54:34.000 --> 00:54:36.000
+But
+
+00:54:36.000 --> 00:54:41.000
+Again, it's very important to prepare for getting data
+
+00:54:41.000 --> 00:54:50.000
+For example, again, use an Axiom example, a lot of the data that we would get, which was licensed data or leased data
+
+00:54:50.000 --> 00:55:01.000
+had restrictions on it. We could only use it for certain things, so it didn't do us any good to pay $20,000 to get a data feed to create some kind of an index
+
+00:55:01.000 --> 00:55:13.000
+that wasn't allowed for in the data. The data could, for example, only be used for marketing. It couldn't be used to build some kind of reference data that we would use over and over.
+
+00:55:13.000 --> 00:55:19.000
+So, you have to be aware of what any restrictions that might be on the data in your planning
+
+00:55:19.000 --> 00:55:24.000
+And, you know, what's the condition? We would always ask vendors
+
+00:55:24.000 --> 00:55:30.000
+to give a sample for certain zip codes. We were mostly using demographic data, name and address at that time.
+
+00:55:30.000 --> 00:55:36.000
+And so we would say, okay, yeah, but okay, we're interested in buying this or leasing this data
+
+00:55:36.000 --> 00:55:47.000
+But we need a sample to see what's the quality of it. So we had a list of certain zip codes, and we would say, okay, here's a list of give us all the data you have for these zip codes
+
+00:55:47.000 --> 00:55:52.000
+And that would allow us to look and see, oh, what was the quantity compared to other vendors
+
+00:55:52.000 --> 00:56:01.000
+We could look at the data, see what the quality is, and compare vendors and many vendors in the space selling this or leasing this data
+
+00:56:01.000 --> 00:56:06.000
+So that gave us a way to plan and prepare and make a decision. And then
+
+00:56:06.000 --> 00:56:18.000
+We also give us ready, you know to be prepared to receive it so that if we had to design certain applications or processes to use it
+
+00:56:18.000 --> 00:56:24.000
+And again, as I mentioned, what are the limitations or restrictions on the use of it
+
+00:56:24.000 --> 00:56:26.000
+And then you actually obtain it
+
+00:56:26.000 --> 00:56:37.000
+And you're either going to create or compiling is actually generating the data yourself. So that was another thing we often did, even though we leased a lot of data
+
+00:56:37.000 --> 00:56:44.000
+We would compile some of our own data, and this was back in the day when people published telephone directories
+
+00:56:44.000 --> 00:56:50.000
+So we would take and buy… we bought about 2,000 telephone directories from all over the United States
+
+00:56:50.000 --> 00:56:57.000
+Took them to a book bindery and they cut off the binding to make it all loose leaf
+
+00:56:57.000 --> 00:57:04.000
+And we bundle all the loose leaf pages of the telephone directory and shipped it to China
+
+00:57:04.000 --> 00:57:10.000
+And in China, there would be these young women from the countryside that would come into town
+
+00:57:10.000 --> 00:57:18.000
+And there would be these companies that were set up with laptop computers, back in the 0286 days
+
+00:57:18.000 --> 00:57:24.000
+And they would give one operator a page of the directory
+
+00:57:24.000 --> 00:57:32.000
+And she would go in, and she didn't have to understand English. Here's an A on the page, and here's an A on the keyboard
+
+00:57:32.000 --> 00:57:35.000
+of typing in all of that information
+
+00:57:35.000 --> 00:57:42.000
+Then they would take the same page, go over to the second operator, let the second operator key in that page
+
+00:57:42.000 --> 00:57:56.000
+And then they would take the two keying operations and compare them, and that way they could… we could get almost 100% accuracy in the keying, because any discrepancy would go to a third person who would reconcile and get the correct values
+
+00:57:56.000 --> 00:57:59.000
+So
+
+00:57:59.000 --> 00:58:04.000
+That's called compiling. You're generating information yourself.
+
+00:58:04.000 --> 00:58:10.000
+We did that some, but we also bought or leased or rented a lot of data
+
+00:58:10.000 --> 00:58:16.000
+And you have to load those files. This was another big issue that was very cost intensive. When I left
+
+00:58:16.000 --> 00:58:18.000
+The company
+
+00:58:18.000 --> 00:58:23.000
+There were 825 employees
+
+00:58:23.000 --> 00:58:25.000
+that their only job
+
+00:58:25.000 --> 00:58:30.000
+was to take, in that case was mostly a tape reel, a reel of tape
+
+00:58:30.000 --> 00:58:34.000
+In some cases, it's a digital file of data
+
+00:58:34.000 --> 00:58:38.000
+and inspect it and to look and see
+
+00:58:38.000 --> 00:58:44.000
+How would… what were the fields in the data, and were they aligned properly
+
+00:58:44.000 --> 00:58:57.000
+Because in our operation, however the data came in, it had to be mapped to a standard format. And so none of the data we were getting was already in that format
+
+00:58:57.000 --> 00:59:14.000
+So somebody had to look at it, inspect it, make a decision of how they were going to transform the data from the way it was received into the standard format that we wanted to use. And we were getting much… lots and lots of data, so it took more than 800 people to do that job every day.
+
+00:59:14.000 --> 00:59:25.000
+of getting those files, looking at them, how is it aligned, and how are they going to be transformed into the standard format
+
+00:59:25.000 --> 00:59:36.000
+And so basically a lot of our compiling was, well, semi-structured. So telephone directories are semi-structured. They're not fully structured
+
+00:59:36.000 --> 00:59:46.000
+But then you have a lot of unstructured data, documents, for example, one of the things we were interested in
+
+00:59:46.000 --> 00:59:52.000
+were corporate actions, and so the federal government requires corporations
+
+00:59:52.000 --> 00:59:58.000
+to file documentation when there's some major change in their business
+
+00:59:58.000 --> 01:00:01.000
+For example, change of ownership
+
+01:00:01.000 --> 01:00:09.000
+things like that. Then they filed a certain form, but that form was a narrative form. It wasn't a fielded form
+
+01:00:09.000 --> 01:00:19.000
+You just wrote in what had happened, and you could describe it. So, getting the information of who bought whom, which company bought which other company, and when
+
+01:00:19.000 --> 01:00:25.000
+Out of that required reading that document somehow and structuring that information
+
+01:00:25.000 --> 01:00:37.000
+So that is a big issue that we're having now, and that's one of the major applications we're using for AI now, because now large language models can read and understand
+
+01:00:37.000 --> 01:00:48.000
+So rather than having a person try to read a document and pull out information, we can now use large language models to read that data and identify information and pull it out
+
+01:00:48.000 --> 01:00:54.000
+So that's one of the major applications that we have right now of large language models.
+
+01:00:54.000 --> 01:00:59.000
+And it can be applied also to images and to audio as well.
+
+01:00:59.000 --> 01:01:02.000
+Even right now
+
+01:01:02.000 --> 01:01:04.000
+I don't know in this
+
+01:01:04.000 --> 01:01:10.000
+Recording, I don't know, when you read the recording, you can see a subtitle, right? It's changing
+
+01:01:10.000 --> 01:01:15.000
+My voice and my narrative of the
+
+01:01:15.000 --> 01:01:19.000
+that I'm talking, whatever I'm talking about, into
+
+01:01:19.000 --> 01:01:22.000
+Text, right? So audio to text
+
+01:01:22.000 --> 01:01:30.000
+And you go same thing image detect with OCR
+
+01:01:30.000 --> 01:01:33.000
+Okay, well
+
+01:01:33.000 --> 01:01:44.000
+Yeah, we're still good on that. So then again, you know you have to store it and share it, and that's an operation all of itself of taking and designing
+
+01:01:44.000 --> 01:01:57.000
+If you're using relational database now, we don't use that as much as we did. We don't worry as much about normalizing the data for big data operations. But still, we have to store it in some way
+
+01:01:57.000 --> 01:02:00.000
+And make a way to share it
+
+01:02:00.000 --> 01:02:10.000
+And that's a double-edged sword, right? We have to make it available if people are not using it, we're not getting any value. But we have to be careful with whom we share it, right? Because
+
+01:02:10.000 --> 01:02:14.000
+We don't want to make it so available that anybody can come in and pick up our data
+
+01:02:14.000 --> 01:02:17.000
+And have data leakage.
+
+01:02:17.000 --> 01:02:29.000
+And then we've already talked about maintaining it so that ensure that it stays up to date and everything continues to work properly. Many operations that we often do
+
+01:02:29.000 --> 01:02:34.000
+To change parsing is a big thing where we have fields that are
+
+01:02:34.000 --> 01:02:44.000
+like a person's name, and we want to parse it out so that we separate out the first name, the middle name, last name, generational suffix, things like that
+
+01:02:44.000 --> 01:02:46.000
+standardize it so that
+
+01:02:46.000 --> 01:02:52.000
+street always conforms to a certain abbreviation ST that the Postal Service likes
+
+01:02:52.000 --> 01:02:56.000
+The point is, a lot of people put STR or spell out street
+
+01:02:56.000 --> 01:03:04.000
+So there's a lot of things that need to be done to maintain it, to put it in and then to keep it up to date.
+
+01:03:04.000 --> 01:03:18.000
+And then we may want to enhance it. Oftentimes we would take data and we wanted to know the gender, right? So there's lots of tools that we'll take and look at names and try to decide what the gender
+
+01:03:18.000 --> 01:03:21.000
+associated with that name
+
+01:03:21.000 --> 01:03:34.000
+And then a big one for us is deduplication. That's my main research area is how do I, when I'm getting duplicates of the same information, it may not be an exact duplicate
+
+01:03:34.000 --> 01:03:41.000
+It may be John, I mean, it may be Bill Smith, and another one may be William Smith, spelled differently, a nickname.
+
+01:03:41.000 --> 01:03:46.000
+But can I identify that this is really the same Bill or William Smith
+
+01:03:46.000 --> 01:03:53.000
+The same customer, the same patient, and deduplicate and gather those together that match
+
+01:03:53.000 --> 01:04:02.000
+And then merge together. And so again, looking at the hospital situation, I have all of these patient encounters
+
+01:04:02.000 --> 01:04:09.000
+I need to identify which of those encounters are for the same patient, merge those together to build a medical chart.
+
+01:04:09.000 --> 01:04:21.000
+So that I know from all the different visits that the patient has made what have been all the diagnostic tests, what have been all the recommendations, the prescriptions, and so forth that were made
+
+01:04:21.000 --> 01:04:23.000
+into one, bring it all together
+
+01:04:23.000 --> 01:04:35.000
+And then apply, of course, is the main reason we're doing all of it. We're trying to build something, some product or service that's going to create value either internally or externally
+
+01:04:35.000 --> 01:04:44.000
+The main product that we were building at Axiom, well, two main products, but one of the main products is that we were building an enhancement database
+
+01:04:44.000 --> 01:04:47.000
+By putting together all the information about consumers
+
+01:04:47.000 --> 01:04:57.000
+things like, you know, were they married? Did they own a house, or were they renting? What kind of car do they own? All these many things, what were their hobbies, what were their interests
+
+01:04:57.000 --> 01:05:03.000
+And not all of it didn't come from one place, so we got it from
+
+01:05:03.000 --> 01:05:05.000
+probably about 80 different sources
+
+01:05:05.000 --> 01:05:16.000
+And then when it would come in, then the first thing we'd have to do is decide, are we talking about the same person? And if we are, then how do we merge together? Because sometimes there'd be disagreement
+
+01:05:16.000 --> 01:05:31.000
+Some sources would say, yes, this person owns a house. Another source would say, no, they're renting a house. And so we'd have to make decisions about which we felt was the most correct. Was it true? They were just at different times or was one incorrect
+
+01:05:31.000 --> 01:05:44.000
+So, making all those decisions and merging those together to create, and so then what we had is for any particular customer, we could tell you about 1,000 different things about that customer
+
+01:05:44.000 --> 01:05:54.000
+And so people would come in and buy that, because banks especially would want to know, okay, we have this customer in our bank, but all we know is their name and their address
+
+01:05:54.000 --> 01:06:05.000
+You tell us whether they own the house or what kind of car, so we'll know how to build a model whether to offer them this kind of credit card or this kind of credit card, or not to offer them a credit card
+
+01:06:05.000 --> 01:06:08.000
+So
+
+01:06:08.000 --> 01:06:15.000
+That was one of the large products, information products that we built was this enhancement database
+
+01:06:15.000 --> 01:06:18.000
+But there are other things we did as well.
+
+01:06:18.000 --> 01:06:23.000
+Other types of products and services. So
+
+01:06:23.000 --> 01:06:40.000
+Lots of things. And then of course dispose. Typically, as I say, we often just archive it, we put it aside because we may need it later. But in some cases, regulations require us for us to destroy the information
+
+01:06:40.000 --> 01:06:47.000
+So supply cycle value, cost, and quality, as I mentioned earlier.
+
+01:06:47.000 --> 01:06:53.000
+All of those phases require some cost to do, but only the apply phase
+
+01:06:53.000 --> 01:06:59.000
+Creates value or creates benefits and so potentially creates value for us
+
+01:06:59.000 --> 01:07:02.000
+So
+
+01:07:02.000 --> 01:07:07.000
+And the information quality can be affected by activities in all of these phases
+
+01:07:07.000 --> 01:07:16.000
+So, information is a unique resource. As a raw material is not consumed. So, remember we said that a lot of what we have in information quality
+
+01:07:16.000 --> 01:07:19.000
+comes from manufacturing
+
+01:07:19.000 --> 01:07:29.000
+And so that's a good analogy. It's like, you know, we're we've got an information factory, we get raw products or raw materials, which are the raw data
+
+01:07:29.000 --> 01:07:42.000
+We put it through machinery, which is the programs and systems that we run, and then our end goal is to create some information product or service that we can sell or create value out of.
+
+01:07:42.000 --> 01:07:49.000
+And so, it's like a manufacturing operation when we do that. However, the analogy kind of falls down on two places
+
+01:07:49.000 --> 01:07:54.000
+that we're going to talk quite a bit about. One important place where it falls down is
+
+01:07:54.000 --> 01:08:00.000
+that in a real manufacturing process
+
+01:08:00.000 --> 01:08:05.000
+When we start to build something, we have tolerances
+
+01:08:05.000 --> 01:08:18.000
+For the part, right? We're gonna build a car, we have certain diameter requirements for the axle, certain tensile strength, certain… in other words, and those understanding of those tolerances
+
+01:08:18.000 --> 01:08:28.000
+is pretty intuitive. We understand the weight of something, we understand its tensile strength, we understand how big it is, how much it weighs
+
+01:08:28.000 --> 01:08:41.000
+You know, how long it is, what its diameter, all of those are physical things that we can understand. But when it comes to data, the characteristics of data, those dimensions of data, data quality
+
+01:08:41.000 --> 01:08:43.000
+are not as obvious, right?
+
+01:08:43.000 --> 01:08:51.000
+timeliness is not as obvious as the diameter of some a piece of equipment
+
+01:08:51.000 --> 01:08:56.000
+The other place, and this is what made me think of it, this slide
+
+01:08:56.000 --> 01:09:03.000
+Is that when we're building something like a car or toaster or whatever we're building, a manufactured product
+
+01:09:03.000 --> 01:09:13.000
+The raw materials that we bring in are consumed, right? We build cars, we're using up aluminum, we're using up steel, we build more cars, we have to buy more
+
+01:09:13.000 --> 01:09:29.000
+That's the good and the bad thing about data is that once we get data, we can use it over and over. We can copy, we can use as many copies as we want endlessly, right? Infinite amount. We're not using up the data when we process it
+
+01:09:29.000 --> 01:09:32.000
+In a program, it doesn't get used up
+
+01:09:32.000 --> 01:09:43.000
+That's a good thing in that it increases our marginal cost, right? If we can get data one time and sell copies of it a thousand times, then that's a great thing
+
+01:09:43.000 --> 01:09:48.000
+We can get huge marginal increases on the… the more we sell, the more we get.
+
+01:09:48.000 --> 01:09:52.000
+However, the downside of that is if it's bad
+
+01:09:52.000 --> 01:10:02.000
+And we replicate bad data and get it out there, then some people say that like data is the new oil.
+
+01:10:02.000 --> 01:10:08.000
+And one argument is that, no, it's not like, well, because when you spill oil, you can clean it up
+
+01:10:08.000 --> 01:10:17.000
+But when you spill data and your data gets out there, you can never get it back. So if it's bad data or if it's sensitive data and it goes out
+
+01:10:17.000 --> 01:10:18.000
+It's gone
+
+01:10:18.000 --> 01:10:22.000
+And you can't get it back
+
+01:10:22.000 --> 01:10:26.000
+So raw materials not consumed
+
+01:10:26.000 --> 01:10:33.000
+You can easily copy it and use it over and over again. So quality is critical. Copies of bad data are bad data
+
+01:10:33.000 --> 01:10:39.000
+However, the advantage is the marginal value increases the more we use it
+
+01:10:39.000 --> 01:10:45.000
+And it's not a fungible asset. I don't know if you're familiar with the idea of fungibility in finance
+
+01:10:45.000 --> 01:10:53.000
+The fungible assets are those that are interchangeable. So if I have certain
+
+01:10:53.000 --> 01:10:57.000
+If I have barrels of oil, a certain type of crude oil
+
+01:10:57.000 --> 01:11:05.000
+There are different types of crude oil, but if they're the same type of crude oil, one barrel of oil is just like another barrel of oil.
+
+01:11:05.000 --> 01:11:11.000
+the barrels don't have identity to them, but that's generally not true with data
+
+01:11:11.000 --> 01:11:14.000
+Data tends to be non-fungible
+
+01:11:14.000 --> 01:11:21.000
+In the sense that we're describing entities like customers, like patients, like products
+
+01:11:21.000 --> 01:11:29.000
+And those are all unique and separately identifiable
+
+01:11:29.000 --> 01:11:32.000
+So they're not interchangeable
+
+01:11:32.000 --> 01:11:38.000
+So I think it's probably a good place to end today's lecture. So I'll be giving you
+
+01:11:38.000 --> 01:11:46.000
+That data will have an assignment coming up where we're going to start working with some data and looking at the quality of it
+
+01:11:46.000 --> 01:11:54.000
+Any quick questions or comments before we leave today?
+
+01:11:54.000 --> 01:11:56.000
+Okay
+
+01:11:56.000 --> 01:11:58.000
+If not, I'm going to
+
+01:11:58.000 --> 01:11:59.000
+Stop the record
+
+01:11:59.000 --> 01:12:01.000
+I do.
+

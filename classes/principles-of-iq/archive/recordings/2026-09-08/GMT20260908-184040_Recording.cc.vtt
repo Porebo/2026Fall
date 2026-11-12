@@ -1,0 +1,1925 @@
+WEBVTT
+
+00:00:02.000 --> 00:00:05.000
+Thank you.
+
+00:00:05.000 --> 00:00:15.000
+Okay, well, we're moving right along. We've already gone through some of the basic principles of information quality
+
+00:00:15.000 --> 00:00:19.000
+We spent quite a bit of time talking about the
+
+00:00:19.000 --> 00:00:23.000
+environment and culture in terms of the, I'm sorry, the
+
+00:00:23.000 --> 00:00:27.000
+business case, the value proposition for information quality
+
+00:00:27.000 --> 00:00:30.000
+Importance of making business case
+
+00:00:30.000 --> 00:00:33.000
+And we started doing a little bit of lab work
+
+00:00:33.000 --> 00:00:42.000
+Everybody coming along okay with their assignment to analyze that file
+
+00:00:42.000 --> 00:00:44.000
+Any issues come up?
+
+00:00:44.000 --> 00:00:46.000
+Okay, good
+
+00:00:46.000 --> 00:00:52.000
+I had an issue with the filters about money to fix it, so I'm just still going for it, so that's fine.
+
+00:00:52.000 --> 00:00:55.000
+I'm sorry, problem installing the open refund.
+
+00:00:55.000 --> 00:01:02.000
+No, I think the installation's fine, but then I couldn't figure out how to filter the thing, because it wouldn't let me filter it.
+
+00:01:02.000 --> 00:01:03.000
+Oh, okay
+
+00:01:03.000 --> 00:01:04.000
+But money to fix it, yeah
+
+00:01:04.000 --> 00:01:10.000
+Yeah, there's some pretty good documentation on the OpenRefine website
+
+00:01:10.000 --> 00:01:24.000
+It talks about all that. I think mainly, the only thing you really need to worry about right now is the facet. But if you want to go farther with it, then that's fine
+
+00:01:24.000 --> 00:01:33.000
+Okay, well, I'm trying to make a transition here and give you a little bit of background about information quality and
+
+00:01:33.000 --> 00:01:35.000
+Kind of where it's all coming from
+
+00:01:35.000 --> 00:01:44.000
+I think I mentioned earlier that there's some people that, you know, I mean, you can make the argument goes way back. I heard a lecture one time where they
+
+00:01:44.000 --> 00:01:48.000
+talked about it beginning with like the Rosetta Stone in Egypt, but
+
+00:01:48.000 --> 00:01:53.000
+I think that's a little far back
+
+00:01:53.000 --> 00:01:57.000
+So
+
+00:01:57.000 --> 00:02:01.000
+There's
+
+00:02:01.000 --> 00:02:04.000
+Mostly it's people
+
+00:02:04.000 --> 00:02:14.000
+And I'm going to talk about sort of three phases and a little bit about a new phase that we're entering into, and we're going to dabble in a little bit
+
+00:02:14.000 --> 00:02:18.000
+But let's look historically
+
+00:02:18.000 --> 00:02:25.000
+you can look at the phase where there's manufacturing quality, and there's a number of pioneers there
+
+00:02:25.000 --> 00:02:28.000
+Walter Shuhart
+
+00:02:28.000 --> 00:02:32.000
+Edward Deming may be perhaps one of the most famous
+
+00:02:32.000 --> 00:02:34.000
+Joseph Durand
+
+00:02:34.000 --> 00:02:42.000
+Arman Fagenbaum and Bill Crosby, and there are many others, but those are some of the more outstanding ones
+
+00:02:42.000 --> 00:02:47.000
+And then we'll talk about the transition. As I mentioned earlier
+
+00:02:47.000 --> 00:03:00.000
+You know, part of the history is that there was in the United States a quality movement, a manufacturing quality movement, mostly headed by
+
+00:03:00.000 --> 00:03:02.000
+dimming
+
+00:03:02.000 --> 00:03:05.000
+But he couldn't get much
+
+00:03:05.000 --> 00:03:11.000
+resident here in the United States, and this was back in the 1930s
+
+00:03:11.000 --> 00:03:15.000
+And of course, the war broke out
+
+00:03:15.000 --> 00:03:17.000
+The Second World War
+
+00:03:17.000 --> 00:03:24.000
+And we were at war with Germany and the Axis powers, Germany and Italy and Japan
+
+00:03:24.000 --> 00:03:34.000
+And of course, we really did hit Japan very hard the first and hopefully the last atomic weapons were used in that war
+
+00:03:34.000 --> 00:03:39.000
+And it pretty well destroyed their manufacturing ability
+
+00:03:39.000 --> 00:03:47.000
+And General Douglas MacArthur, who, by the way, was born here in Little Rock, and there's a MacArthur Museum downtown in Little Rock
+
+00:03:47.000 --> 00:03:53.000
+Was one of the outstanding generals in the war
+
+00:03:53.000 --> 00:03:59.000
+And President Truman, who had taken over from
+
+00:03:59.000 --> 00:04:02.000
+President Roosevelt, who passed away in office
+
+00:04:02.000 --> 00:04:10.000
+So Truman was president and he wanted to have a mission to help Japan rebuild
+
+00:04:10.000 --> 00:04:16.000
+He was aware of some of the work that Deming had done and invited Deming to come to Japan
+
+00:04:16.000 --> 00:04:23.000
+And help in the re-establishing and manufacturing there
+
+00:04:23.000 --> 00:04:28.000
+The Japanese really took to it, and they really embraced it
+
+00:04:28.000 --> 00:04:36.000
+And so the shift was from the US to Japan, and some of the more important ones
+
+00:04:36.000 --> 00:04:44.000
+Kauru Ishikawa and Shogyo Shingo and Genichi Taguchi
+
+00:04:44.000 --> 00:04:50.000
+And there's others as well, but those are some of the ones that were more outstanding
+
+00:04:50.000 --> 00:05:03.000
+And then the revival, then they realized, because Japan began to manufacture such outstanding quality products that
+
+00:05:03.000 --> 00:05:10.000
+That the US was starting to lose market share. And so then they got interested in it and
+
+00:05:10.000 --> 00:05:18.000
+And they called back many of these people like Duran and Deming to come back and help here in the US
+
+00:05:18.000 --> 00:05:32.000
+And they did reform generally manufacturing here in the US so that they could begin to have parity. Of course, they've never completely overcome the gap that was created
+
+00:05:32.000 --> 00:05:34.000
+People today
+
+00:05:34.000 --> 00:05:38.000
+At least in the US, tend to prefer
+
+00:05:38.000 --> 00:05:42.000
+Japanese and certain Asian-made cars
+
+00:05:42.000 --> 00:05:47.000
+and products, motorcycles, TVs, and things like that
+
+00:05:47.000 --> 00:05:50.000
+And we haven't really completely caught up
+
+00:05:50.000 --> 00:06:03.000
+But the main story here, though, is even though it did come back in manufacturing in the US adopted the total quality management principles that had developed
+
+00:06:03.000 --> 00:06:04.000
+From this
+
+00:06:04.000 --> 00:06:10.000
+Rebuilding of the Japanese manufacturing capability
+
+00:06:10.000 --> 00:06:15.000
+And the real transition into information quality came
+
+00:06:15.000 --> 00:06:19.000
+mostly through MIT
+
+00:06:19.000 --> 00:06:28.000
+And a lot of the work of Richard Wong and also from the consulting work done by Larry English, who started
+
+00:06:28.000 --> 00:06:30.000
+A company that
+
+00:06:30.000 --> 00:06:38.000
+As I mentioned, was the real exposure to the problems of quality and information
+
+00:06:38.000 --> 00:06:42.000
+came with the data warehousing movement
+
+00:06:42.000 --> 00:06:53.000
+And so there were a lot of people then that caught on to this idea that you could adapt the manufacturing quality to building information
+
+00:06:53.000 --> 00:06:56.000
+products and services
+
+00:06:56.000 --> 00:07:04.000
+And so now we have a lot of people that have emerged from that. Again, Dr. Wang
+
+00:07:04.000 --> 00:07:11.000
+Larry English, who's a pioneer in that. Tom Redmond. Larry, of course, passed away a few years ago, but
+
+00:07:11.000 --> 00:07:20.000
+Richard and Tom Redmond, Danette McGilvery, Laura Sebastian Coleman, Dave Loch, and some others
+
+00:07:20.000 --> 00:07:26.000
+very notable in this area and they're still practicing
+
+00:07:26.000 --> 00:07:30.000
+So we'll talk about each of those and their contribution.
+
+00:07:30.000 --> 00:07:36.000
+And as I was saying, we're beginning to enter into a new age
+
+00:07:36.000 --> 00:07:38.000
+With AI
+
+00:07:38.000 --> 00:07:48.000
+And actually, again, Rich and MIT and others are sort of leading the way in what we call Agentic data quality using
+
+00:07:48.000 --> 00:07:52.000
+AI agents to help with
+
+00:07:52.000 --> 00:07:55.000
+improve the quality of data
+
+00:07:55.000 --> 00:08:00.000
+And so we'll be doing some of that in our class
+
+00:08:00.000 --> 00:08:05.000
+So let's go back a ways. So Walter Shuhart
+
+00:08:05.000 --> 00:08:10.000
+He was American physicist, engineer, and statistician
+
+00:08:10.000 --> 00:08:21.000
+And his big contribution, which is still very important, he's the father of what's called statistical process control
+
+00:08:21.000 --> 00:08:27.000
+And the idea that you need to constantly look at what you're producing
+
+00:08:27.000 --> 00:08:35.000
+So while we're on this, let me point out to you, when we're talking about quality, there's a couple of things that
+
+00:08:35.000 --> 00:08:40.000
+We won't learn all about quality, but
+
+00:08:40.000 --> 00:08:43.000
+A couple of things. One is
+
+00:08:43.000 --> 00:08:48.000
+To have any process that you consider to be a quality process
+
+00:08:48.000 --> 00:08:56.000
+then you… you need to recognize some things. One is, and I think we mentioned this, or I mentioned this before
+
+00:08:56.000 --> 00:09:05.000
+Is the difference between quality assurance and quality control, and we'll see that as we talk about some of these people
+
+00:09:05.000 --> 00:09:13.000
+But it all comes around to this idea that what we're really doing is building information products and services
+
+00:09:13.000 --> 00:09:16.000
+So, in the manufacturing process
+
+00:09:16.000 --> 00:09:32.000
+quality control is the check against the product that you built. If you're building a car, it would be quality control comes at the point that you've actually completely manufactured the car and you're ready to ship it
+
+00:09:32.000 --> 00:09:38.000
+So before it shipped, you have certain standards, you have certain requirements
+
+00:09:38.000 --> 00:09:46.000
+that that product or that service has to meet and if it meets those, then it passes quality control
+
+00:09:46.000 --> 00:09:53.000
+And I think I also mentioned earlier that we've kind of gone through some cycles here in the United States
+
+00:09:53.000 --> 00:10:01.000
+between quality control, which is inspecting the final product
+
+00:10:01.000 --> 00:10:04.000
+And then the other side of that is quality assurance
+
+00:10:04.000 --> 00:10:11.000
+And quality assurance are those things that you do during the building process, during the manufacturing process.
+
+00:10:11.000 --> 00:10:15.000
+To check to be sure that
+
+00:10:15.000 --> 00:10:22.000
+that the final product or the final service that you build will meet quality control standards
+
+00:10:22.000 --> 00:10:33.000
+And those things that you do during the process are called quality assurance. You're trying to assure that you will meet quality control
+
+00:10:33.000 --> 00:10:36.000
+So that's a couple of things. The other is that
+
+00:10:36.000 --> 00:10:41.000
+All of the failures of quality assurance and quality control
+
+00:10:41.000 --> 00:10:43.000
+are recorded
+
+00:10:43.000 --> 00:11:00.000
+or should be recorded, and then those should be analyzed to try to continually improve your process to eliminate those sources of problems that you detect through quality assurance and quality control. So those are 2 very essential parts of
+
+00:11:00.000 --> 00:11:05.000
+Quality process. So anyway, back to
+
+00:11:05.000 --> 00:11:08.000
+Shuhart
+
+00:11:08.000 --> 00:11:17.000
+His idea was that you need to constantly check your product, your quality control
+
+00:11:17.000 --> 00:11:19.000
+And so
+
+00:11:19.000 --> 00:11:24.000
+It turns out then that it depends on what you're building, right?
+
+00:11:24.000 --> 00:11:32.000
+So in many cases, you can't inspect every product that you build
+
+00:11:32.000 --> 00:11:38.000
+For a car, you probably can. I mean, even though they built hundreds of cars a day
+
+00:11:38.000 --> 00:11:41.000
+It's practical to go in and
+
+00:11:41.000 --> 00:11:47.000
+inspect every one of them to be sure that it meets the quality control standards that you have
+
+00:11:47.000 --> 00:11:51.000
+But for other things
+
+00:11:51.000 --> 00:11:55.000
+can prove to be very difficult or in some cases impossible
+
+00:11:55.000 --> 00:12:00.000
+So in the case, for example, suppose you're building
+
+00:12:00.000 --> 00:12:03.000
+Hairpins
+
+00:12:03.000 --> 00:12:08.000
+And you're going to produce millions of these hairpins, or hundreds of thousands of these a day
+
+00:12:08.000 --> 00:12:14.000
+But you want to be sure they're good, they're correct, and they're doing what they're supposed to do.
+
+00:12:14.000 --> 00:12:27.000
+And so, in that case, what you would do is you would sample those. You couldn't… you couldn't expect every one of them. So you would have a way of sampling the outputs, all the hairpins you were building
+
+00:12:27.000 --> 00:12:29.000
+And
+
+00:12:29.000 --> 00:12:39.000
+And then you would base it on that. And that's what statistical process control. We call it statistical. We do sampling
+
+00:12:39.000 --> 00:12:45.000
+The other place where it'd be impossible if you're building bonbons or some kind of candy
+
+00:12:45.000 --> 00:12:51.000
+You're manufacturing some kind of food, you wouldn't be able to
+
+00:12:51.000 --> 00:12:55.000
+taste every one of them, or you wouldn't have anything to sell, right?
+
+00:12:55.000 --> 00:12:57.000
+So
+
+00:12:57.000 --> 00:13:01.000
+So anyway, this is the reason then for statistical process control
+
+00:13:01.000 --> 00:13:09.000
+And he pioneered the application of statistics like sampling and other things to the idea of quality
+
+00:13:09.000 --> 00:13:11.000
+And
+
+00:13:11.000 --> 00:13:19.000
+And some of the principles he establishes that data have no meaning apart from their context. So it only becomes information
+
+00:13:19.000 --> 00:13:23.000
+When data is put into the proper context
+
+00:13:23.000 --> 00:13:30.000
+The other thing, and this became quite important, especially for some others that we'll talk about
+
+00:13:30.000 --> 00:13:37.000
+The data contain both signals and noise, and so this is the beginning of this idea that you can have
+
+00:13:37.000 --> 00:13:44.000
+Poor quality data. There's things in the data that you don't want, something that's wrong, anomalies
+
+00:13:44.000 --> 00:13:54.000
+And here, he was again looking at it from a physicist standpoint, and he was saying, well, it's signal and noise. In other words, it's good data and
+
+00:13:54.000 --> 00:13:56.000
+Problem data
+
+00:13:56.000 --> 00:14:05.000
+And you have to separate those, and so this is sort of the beginning of the idea of data quality control
+
+00:14:05.000 --> 00:14:11.000
+And then this is something interesting because this gets misattributed a lot
+
+00:14:11.000 --> 00:14:18.000
+He invented the idea of plan, do, check, act, cycle, this repeated cycle, PDCA
+
+00:14:18.000 --> 00:14:31.000
+Unfortunately, most people believe that dimming that we'll talk about later, invented this, but he didn't. It was Shuhart, and he introduced it to Dimming. Deming and Schuhart worked together quite a bit
+
+00:14:31.000 --> 00:14:38.000
+So the PDCA cycle really belongs to or was invented by Schuhart
+
+00:14:38.000 --> 00:14:46.000
+So again, statistical process control is a very simplified thing. We'll talk more about it later
+
+00:14:46.000 --> 00:14:55.000
+is that it's a time thing, right? When you're building something and manufacturing something, you're repeatedly building it over time
+
+00:14:55.000 --> 00:14:57.000
+And you have
+
+00:14:57.000 --> 00:15:02.000
+You're going to be sampling and looking for things that
+
+00:15:02.000 --> 00:15:19.000
+out of range or out of order, anomalies that you don't want. And so the idea is that over time you see time moving from left to right in this chart. You take a sample and you look and see if there are defects
+
+00:15:19.000 --> 00:15:21.000
+And so
+
+00:15:21.000 --> 00:15:31.000
+there's certain what we call tolerance, right? You can't stop the production line just because some things are defective. You want to try to remove them, but
+
+00:15:31.000 --> 00:15:34.000
+You're looking for defects
+
+00:15:34.000 --> 00:15:39.000
+And these this graph represents things
+
+00:15:39.000 --> 00:15:50.000
+The samples have certain levels of defects in them, but if they stay within what we call the control limits, upper and lower control limits
+
+00:15:50.000 --> 00:16:03.000
+then it makes sense and you look at that and you say, well, yeah, there's going to be some natural variation, some normal variation
+
+00:16:03.000 --> 00:16:05.000
+in any manufacturing process
+
+00:16:05.000 --> 00:16:13.000
+machines are going to wear and they're going to make some mistakes
+
+00:16:13.000 --> 00:16:18.000
+As they… as the machines get older, or you have different operators and so forth
+
+00:16:18.000 --> 00:16:27.000
+But as long as you stay within the limits, so what you're trying to look for in statistical process control is when a process goes out of control
+
+00:16:27.000 --> 00:16:37.000
+When you start seeing continual products or anomalies and they start exceeding your limits, either your lower limits or your upper limits
+
+00:16:37.000 --> 00:16:42.000
+And so this is the idea of statistical process control
+
+00:16:42.000 --> 00:16:45.000
+And that's Schuhart's big contribution.
+
+00:16:45.000 --> 00:16:47.000
+And
+
+00:16:47.000 --> 00:16:57.000
+So again, he worked closely with Edward Deming, who's perhaps one of the more famous people in the area of quality, especially in manufacturing.
+
+00:16:57.000 --> 00:17:05.000
+And again, he was a statistician, but he was also a professor and an engineer as well.
+
+00:17:05.000 --> 00:17:13.000
+He's a lot more philosophical than Schuhart. He came up with what he called a system of profound knowledge
+
+00:17:13.000 --> 00:17:18.000
+And he was a big
+
+00:17:18.000 --> 00:17:29.000
+on the list, he came up with 14 points for organizational transformation how to transform organizations. So in some ways, not only was he father of
+
+00:17:29.000 --> 00:17:31.000
+quality
+
+00:17:31.000 --> 00:17:48.000
+But this is also sort of the beginning of what we call change management, which is another course that we'll be offering in the spring that talks about how you transform organizations to stay current
+
+00:17:48.000 --> 00:17:58.000
+And then perhaps the thing that he's most famous for is the seven deadly sins of management. We'll talk a little bit about those
+
+00:17:58.000 --> 00:18:07.000
+The seven deadly sins is one of his big contributions. Now he adopted Shuhart's plan, do, check, act
+
+00:18:07.000 --> 00:18:11.000
+But he felt like that instead of checking
+
+00:18:11.000 --> 00:18:25.000
+of what had happened. If you find something wrong, you should study it. So he changed the plan, do, check act into plan do study act, PDSA, just
+
+00:18:25.000 --> 00:18:29.000
+make it his own, that's what consultants do
+
+00:18:29.000 --> 00:18:37.000
+And he was a big advocate and promoter of Schuhart's statistical process control
+
+00:18:37.000 --> 00:18:40.000
+And
+
+00:18:40.000 --> 00:18:42.000
+Then again
+
+00:18:42.000 --> 00:18:48.000
+The importance of process thinking, thinking about things in terms of the process that's used to
+
+00:18:48.000 --> 00:18:50.000
+Create something
+
+00:18:50.000 --> 00:19:02.000
+So this is some of the important points of dimming, and again quite famous. There's several, there's still a dimming society, and they still give awards for
+
+00:19:02.000 --> 00:19:06.000
+Good quality management
+
+00:19:06.000 --> 00:19:12.000
+And sort of the key message that Deming has is that
+
+00:19:12.000 --> 00:19:16.000
+He was coming from a time in manufacturing
+
+00:19:16.000 --> 00:19:20.000
+We're manufacturers, if there were problems with their products
+
+00:19:20.000 --> 00:19:26.000
+always tended to blame the workers. Oh, you know, somebody messed up on the assembly line, or whatever
+
+00:19:26.000 --> 00:19:34.000
+And Deming's message was that they had it all backwards, that these problems and the cause of these problems
+
+00:19:34.000 --> 00:19:46.000
+We're mostly in the management of the process. The management was 90% responsible and only 10% of the problems were actually coming from the workers. So he really turned that on its head
+
+00:19:46.000 --> 00:19:52.000
+And he came up with the seven deadly sins. Again, probably
+
+00:19:52.000 --> 00:19:58.000
+His most famous contribution to quality
+
+00:19:58.000 --> 00:20:03.000
+And so the first one is the lack of constancy of purpose
+
+00:20:03.000 --> 00:20:13.000
+In other words, the idea that when you're making something, you're manufacturing, you keep changing your target, you keep moving and
+
+00:20:13.000 --> 00:20:18.000
+It's certainly true that you need to manage the life cycle of a product and not
+
+00:20:18.000 --> 00:20:34.000
+keep making the same thing over and over, even when it's not popular or selling. But at the same time, you can't just keep changing the direction that you're going constantly, because this really causes
+
+00:20:34.000 --> 00:20:50.000
+The workers to lose attention and become confused about what's the real mission that you're under. So when you see these sorts of changes, he says that's a symptom of a problem that's going to result in poor quality
+
+00:20:50.000 --> 00:20:56.000
+And this one, I wish people would still
+
+00:20:56.000 --> 00:20:58.000
+think about this one
+
+00:20:58.000 --> 00:21:02.000
+And that emphasis on short-term profits
+
+00:21:02.000 --> 00:21:08.000
+And that's certainly a huge problem that we have today because now in our current financial situation.
+
+00:21:08.000 --> 00:21:10.000
+The way
+
+00:21:10.000 --> 00:21:17.000
+The observers of work is that now everything is on a quarterly basis, right?
+
+00:21:17.000 --> 00:21:22.000
+Instead of thinking about the year, two years, things that ahead
+
+00:21:22.000 --> 00:21:25.000
+And what's going to be the long-term benefit
+
+00:21:25.000 --> 00:21:32.000
+The financial analysts are always on everybody's case at the end of a quarter
+
+00:21:32.000 --> 00:21:41.000
+And they try to project what you should be making, what kind of profits you have each quarter, rather than thinking of the long-term investment.
+
+00:21:41.000 --> 00:21:45.000
+But anyway, he said that was a symptom of poor quality
+
+00:21:45.000 --> 00:21:53.000
+constantly looking at short-term, somewhat like constancy of purpose, where you're changing your focus
+
+00:21:53.000 --> 00:21:57.000
+on short term
+
+00:21:57.000 --> 00:22:07.000
+Another is performance appraisals that promote fear. And again, this is still a bit of a problem, I think, in modern
+
+00:22:07.000 --> 00:22:11.000
+corporations, but not as bad as it was in the old days
+
+00:22:11.000 --> 00:22:14.000
+And this is the idea that
+
+00:22:14.000 --> 00:22:25.000
+you know, we're watching you and your performance and you have to meet certain standards or quotas or you know you're going to get fired, you're going to get demoted
+
+00:22:25.000 --> 00:22:34.000
+Instead of trying to encourage workers, you tried to kind of motivate them by fear of losing their job.
+
+00:22:34.000 --> 00:22:40.000
+The other, and again, some of these still
+
+00:22:40.000 --> 00:22:43.000
+are important today
+
+00:22:43.000 --> 00:22:46.000
+This idea of mobility of management
+
+00:22:46.000 --> 00:22:51.000
+And we still sort of have this idea
+
+00:22:51.000 --> 00:22:56.000
+For example, now, even here at the university, we confer a degree
+
+00:22:56.000 --> 00:22:58.000
+a degree in management
+
+00:22:58.000 --> 00:23:02.000
+And it's the idea that once you learn the principles of management
+
+00:23:02.000 --> 00:23:05.000
+You can sort of manage anything
+
+00:23:05.000 --> 00:23:11.000
+And so what he was arguing against here in his day in the manufacturing processes
+
+00:23:11.000 --> 00:23:15.000
+They often had this idea of rotating management
+
+00:23:15.000 --> 00:23:18.000
+And so the guy who was
+
+00:23:18.000 --> 00:23:22.000
+Managing the painting of the product
+
+00:23:22.000 --> 00:23:36.000
+would periodically shift, and now he would be managing inventory or some other part of the company. The idea that you, you know, management is management, and you didn't have to learn the particulars in a particular context
+
+00:23:36.000 --> 00:23:38.000
+He said that was a problem
+
+00:23:38.000 --> 00:23:45.000
+And then management by the use of visible numbers, or quotas
+
+00:23:45.000 --> 00:23:51.000
+And this this is again, we see this a lot today
+
+00:23:51.000 --> 00:24:01.000
+The idea that, you know, you're judging your employees by certain quotas of what they're able to do. This happens not only in manufacturing, but in sales and many other things.
+
+00:24:01.000 --> 00:24:06.000
+And also, it's very important to note, he said it's by visible numbers
+
+00:24:06.000 --> 00:24:12.000
+You know, I've seen, you know, like when they do fundraising and they put a big thermometer on the wall
+
+00:24:12.000 --> 00:24:17.000
+So, you know, we've reached this level of contribution, or that level
+
+00:24:17.000 --> 00:24:19.000
+and making it visible to everyone.
+
+00:24:19.000 --> 00:24:23.000
+He said that's not a good way to manage.
+
+00:24:23.000 --> 00:24:29.000
+Also, if you have and again, this has to do mostly with the manufacturing where people worked on a shop floor
+
+00:24:29.000 --> 00:24:43.000
+that excessive medical costs, that's an indicator that things not only were not saved but that the processes were not being run properly, and that could result in poor quality
+
+00:24:43.000 --> 00:24:49.000
+And also excessive cost of liability. If you have liability
+
+00:24:49.000 --> 00:24:53.000
+producing something that causes problems
+
+00:24:53.000 --> 00:24:57.000
+We see this all the time in recalls, right?
+
+00:24:57.000 --> 00:25:03.000
+Something is manufactured and it turns out to be… have some unforeseen
+
+00:25:03.000 --> 00:25:22.000
+problem when it gets out into the public and they start using it. So excessive cost of liability. So he said these are the main things that you should look for to see if companies were really functioning and producing quality products or not
+
+00:25:22.000 --> 00:25:30.000
+So, and again, the big issue here is this idea of continuous improvement
+
+00:25:30.000 --> 00:25:36.000
+So again, if you look back at the Plan Do Check Act, it is a
+
+00:25:36.000 --> 00:25:42.000
+A cycle. It's not something that just happens once. It's a cycle
+
+00:25:42.000 --> 00:25:49.000
+So, you plan to do something, you do it, and then you see if you actually were able to do it correctly
+
+00:25:49.000 --> 00:26:03.000
+And if you weren't able to do that, then you act on that to improve it and improve your plan and do it differently so that this results in a continuous improvement.
+
+00:26:03.000 --> 00:26:09.000
+So Dilling had a lot of contribution, again, still very considered very important today.
+
+00:26:09.000 --> 00:26:16.000
+And by the way, again, the Japanese contributed a lot to this
+
+00:26:16.000 --> 00:26:29.000
+And we still use today a lot of words from Japan because they were so enthusiastic about adopting these things and they had their own, of course, language for describing them
+
+00:26:29.000 --> 00:26:35.000
+And so this idea of continuous improvement is called Kaizen
+
+00:26:35.000 --> 00:26:44.000
+Which in Japanese means change for the better. In other words, you keep making it better
+
+00:26:44.000 --> 00:26:54.000
+Another very important pioneer of quality was a guy named Joseph Duran
+
+00:26:54.000 --> 00:26:59.000
+And he's most famous for what's called the Quality Trilogy
+
+00:26:59.000 --> 00:27:04.000
+Now, it's interesting that it's sort of a
+
+00:27:04.000 --> 00:27:08.000
+The plan to check act without one of the
+
+00:27:08.000 --> 00:27:10.000
+The
+
+00:27:10.000 --> 00:27:13.000
+For part, because it's a trilogy
+
+00:27:13.000 --> 00:27:20.000
+And but what he's famous for is he says that quality comes
+
+00:27:20.000 --> 00:27:24.000
+From these three things. It comes from planning
+
+00:27:24.000 --> 00:27:25.000
+improvement
+
+00:27:25.000 --> 00:27:37.000
+Which sort of automatically includes the idea of study. You can't really improve something if you don't study and understand what you need to improve
+
+00:27:37.000 --> 00:27:39.000
+And then control
+
+00:27:39.000 --> 00:27:41.000
+And so
+
+00:27:41.000 --> 00:27:49.000
+He's very famous for this idea of quality control, and he made the statement
+
+00:27:49.000 --> 00:27:55.000
+that you can tell quality
+
+00:27:55.000 --> 00:28:02.000
+If you build something that is fit for purpose or fit for use
+
+00:28:02.000 --> 00:28:12.000
+And so he's sort of the source of some people use this definition and they say, well, what is data quality? They say, well, it's data that's fit for use
+
+00:28:12.000 --> 00:28:16.000
+And this comes really from Duran in one of his books
+
+00:28:16.000 --> 00:28:22.000
+But again, as we said earlier in the course
+
+00:28:22.000 --> 00:28:29.000
+We tend to separate the concepts of data quality and information quality
+
+00:28:29.000 --> 00:28:34.000
+Certainly, data quality is meeting data requirements
+
+00:28:34.000 --> 00:28:48.000
+That's the definition of falsity, and ISO is quality is meeting requirements. So, data quality is meeting data requirements, but just because data meets the requirements, you've got good data, as they say
+
+00:28:48.000 --> 00:28:57.000
+You put it into a process doesn't mean that you will get a quality product out of it. You'll get a product and quality information product
+
+00:28:57.000 --> 00:29:15.000
+There has to be a process, and it has to be planned. You have to continually improve that process, and you're really focusing on the quality control. That is, after you build it, is the thing you built have quality? Does it meet requirements
+
+00:29:15.000 --> 00:29:17.000
+of the users of that.
+
+00:29:17.000 --> 00:29:30.000
+So you're looking at both ends of this process. In the raw product ingestion, when you're bringing data in, you want data to be good, you want it to be clean, you want it to meet requirements
+
+00:29:30.000 --> 00:29:39.000
+But you still have to check at the end and manage it as a product. In other words, you're taking that data, you're putting it through processes
+
+00:29:39.000 --> 00:29:47.000
+And you're coming out with an information product or service, then you have to check that as well.
+
+00:29:47.000 --> 00:29:52.000
+And so there's an but they're different kinds of requirements, right? They're not requirements like
+
+00:29:52.000 --> 00:29:55.000
+coverage and
+
+00:29:55.000 --> 00:30:11.000
+consistency and those sorts of things. Now you're talking about the requirements of the user. Is that… is it really what they want? Is it doing what they want it to do? So you have different types of requirements. So it's still quality in the sense of meeting requirements
+
+00:30:11.000 --> 00:30:14.000
+But they're different kinds of requirements.
+
+00:30:14.000 --> 00:30:27.000
+On the data quality side, on the left-hand side, as data comes in, the requirements have to do with characteristics of the data. The amount of data, the manipulability of the data.
+
+00:30:27.000 --> 00:30:33.000
+The relevance of the data, the accuracy of the data
+
+00:30:33.000 --> 00:30:38.000
+And you're looking at that data in terms of those data quality dimensions
+
+00:30:38.000 --> 00:30:54.000
+But then when you run it through the process and you produce an information product or service, you have different kinds of requirements there. Those are the value requirements. How valuable is what you've built in terms of is it producing value for the organization
+
+00:30:54.000 --> 00:30:59.000
+And is it producing value for the users of that product or service?
+
+00:30:59.000 --> 00:31:10.000
+And so then it becomes more of a value proposition. So we'll continue to talk about this idea
+
+00:31:10.000 --> 00:31:12.000
+Okay, so
+
+00:31:12.000 --> 00:31:18.000
+He was also big on quality planning. You needed to ask these W questions. So
+
+00:31:18.000 --> 00:31:20.000
+who
+
+00:31:20.000 --> 00:31:25.000
+What and how? Who are your customers
+
+00:31:25.000 --> 00:31:31.000
+What do they want? What are their quality characteristics
+
+00:31:31.000 --> 00:31:41.000
+So their quality characteristics may not be the ones that we think of when we're ingesting data and using data quality requirements
+
+00:31:41.000 --> 00:31:58.000
+Their characteristics, they're buying a car, they want to know how does it handle? Does it run smoothly? Is the interior quiet? All kinds of things that are not part of the parts that go into
+
+00:31:58.000 --> 00:32:07.000
+The building of the car, I mean, certainly there's a connection there, but there are different types of requirements when you're building the car
+
+00:32:07.000 --> 00:32:19.000
+You're interested in the parts fit together, the tolerances in terms of the diameters and the tensile strength of the parts, and so forth, you're looking at those intrinsic qualities
+
+00:32:19.000 --> 00:32:28.000
+But after you build the car, build that product, then it's a different set of requirements, but those are the requirements of the consumer of that product.
+
+00:32:28.000 --> 00:32:31.000
+And the same thing is true for data
+
+00:32:31.000 --> 00:32:49.000
+So you're building an information product like we talked earlier, you're building here at the school, they'll build your transcript right or they'll build your bill, your fees and those sort of thing. They have put together all this information
+
+00:32:49.000 --> 00:32:54.000
+to build that product that's useful and for you
+
+00:32:54.000 --> 00:32:57.000
+And then how
+
+00:32:57.000 --> 00:33:08.000
+How do you make it, how you'll deliver it, all the things that go into the product service itself.
+
+00:33:08.000 --> 00:33:16.000
+So again, this is sort of his contribution, but again, I see this as one of the places where
+
+00:33:16.000 --> 00:33:27.000
+People have kind of misapplied what Joseph… what Duran was saying when they say, you know, well, what is data quality? Well, it's data that's fit for use
+
+00:33:27.000 --> 00:33:37.000
+And that's, it's okay, but what he was talking about was the product, not the data, or not the parts that go in
+
+00:33:37.000 --> 00:33:51.000
+He was talking about quality control. He was saying, you know, that quality is when you build something that people want and use and it fits their, it fits their purpose of what they want to use it for
+
+00:33:51.000 --> 00:34:09.000
+If it's a card, it pulls a trailer, it moves dirt, or it's quiet, or it saves gas, or it's powerful. Those are the kinds of things, not the kinds of things we think about when we think about
+
+00:34:09.000 --> 00:34:19.000
+The input side, where we're inputting the materials and the parts. So there's different quality characteristics that we're looking for
+
+00:34:19.000 --> 00:34:23.000
+But nevertheless, I see that all the time still
+
+00:34:23.000 --> 00:34:34.000
+So his big emphasis was on quality control. Again, and quality control is at the end, after you've built what you're building, whether it's a data product
+
+00:34:34.000 --> 00:34:49.000
+I'm sorry, an information product or a manufactured product. Quality control is checking that the final product is meeting your requirements of the user
+
+00:34:49.000 --> 00:34:54.000
+So in his idea was that this is the way you should start
+
+00:34:54.000 --> 00:34:56.000
+And again, this
+
+00:34:56.000 --> 00:35:02.000
+I don't know why when we moved all of these principles over
+
+00:35:02.000 --> 00:35:03.000
+to
+
+00:35:03.000 --> 00:35:15.000
+To information quality, it took us so long to kind of realize what he was talking about here. And that is, the way you manage information or manage information
+
+00:35:15.000 --> 00:35:29.000
+is as a product. You need to really think of it as a product, and this is exactly what he's saying here. Quality control, in Duran's view, is the governance process that makes sure things don't get worse
+
+00:35:29.000 --> 00:35:42.000
+In other words, you really need to focus on the end product that you're building, whether it's an information product or a manufactured product. That's what tells you whether or not you're on the right track or not
+
+00:35:42.000 --> 00:35:54.000
+And of course, that's inspection of actual performance against plan performance the way you intended the product to work or the information product to do
+
+00:35:54.000 --> 00:35:57.000
+Is it really meeting that
+
+00:35:57.000 --> 00:36:07.000
+And of course, if there are differences, then that calls for an analysis we call a root cause investigation, a root cause analysis
+
+00:36:07.000 --> 00:36:15.000
+And then again, he's very much on the camp of Schuhart and Deming to say that
+
+00:36:15.000 --> 00:36:26.000
+You know, in many cases, you have to use statistical measures of performance to ensure control, because in many cases, it's impractical to inspect
+
+00:36:26.000 --> 00:36:32.000
+Each product individually. So often you have to come to some kind of
+
+00:36:32.000 --> 00:36:34.000
+sampling method
+
+00:36:34.000 --> 00:36:41.000
+And so quality improvement is focused on fitness for use and error reduction
+
+00:36:41.000 --> 00:36:45.000
+So again, he's talking about when he says fitness for use
+
+00:36:45.000 --> 00:36:48.000
+Our fitness for purpose
+
+00:36:48.000 --> 00:36:56.000
+the terms that people use. He's talking about the product itself
+
+00:36:56.000 --> 00:37:02.000
+And you want to keep improving that, this idea of continuous improvement.
+
+00:37:02.000 --> 00:37:06.000
+He also advocated a thing called breakdown thinking
+
+00:37:06.000 --> 00:37:14.000
+To change the system and improve performance. And what he meant by breakthrough thinking
+
+00:37:14.000 --> 00:37:20.000
+Again, he thought that even though you wanted continuous improvement
+
+00:37:20.000 --> 00:37:26.000
+He wanted people to think about what would be a radical change
+
+00:37:26.000 --> 00:37:29.000
+That can improve. What's a breakthrough thinking
+
+00:37:29.000 --> 00:37:38.000
+that could, you know, let's just think about how would we… could we completely change what we're doing to make things even better
+
+00:37:38.000 --> 00:37:42.000
+So, again, even though he was into this idea of
+
+00:37:42.000 --> 00:37:46.000
+Quality improvement and the idea that
+
+00:37:46.000 --> 00:37:49.000
+Deming and others had talked about continuous improvement
+
+00:37:49.000 --> 00:37:55.000
+It's sort of like now the modern view of evolution, you know, I mean
+
+00:37:55.000 --> 00:38:00.000
+Darwin's initial idea is that it was a very, very slow change over generations
+
+00:38:00.000 --> 00:38:11.000
+But there's also introduced the same thing that there are certain things, there's certain radical quick changes
+
+00:38:11.000 --> 00:38:15.000
+For example, the asteroid that hit the Earth
+
+00:38:15.000 --> 00:38:21.000
+completely changed the evolution of dinosaurs and reptiles
+
+00:38:21.000 --> 00:38:39.000
+shifted over to mammals that you have to think about both. You have to think about continually improving the process that you have, but be open-minded to think, is there a new way, a big change in the process that could really make things better?
+
+00:38:39.000 --> 00:38:42.000
+So Duran had a lot to contribute
+
+00:38:42.000 --> 00:38:46.000
+And then we get into the more modern era
+
+00:38:46.000 --> 00:38:52.000
+And a guy named Armand Feigenbaum
+
+00:38:52.000 --> 00:38:55.000
+And by this time
+
+00:38:55.000 --> 00:39:04.000
+quality control and become a profession, and he was a quality control person. That was his occupation expert
+
+00:39:04.000 --> 00:39:07.000
+And
+
+00:39:07.000 --> 00:39:17.000
+is the one who's responsible for this term TQM or total quality control or total quality management
+
+00:39:17.000 --> 00:39:19.000
+So
+
+00:39:19.000 --> 00:39:27.000
+And the idea here, the total means that everyone in the process is thinking about
+
+00:39:27.000 --> 00:39:34.000
+The end product, and is it going to meet the consumer or the customer's need
+
+00:39:34.000 --> 00:39:43.000
+So even the people that are sitting in the plant, they're building a car, they need to be thinking about what they're doing as contributing
+
+00:39:43.000 --> 00:39:54.000
+to the end product, and that everyone is thinking, everyone in the process, they're not just thinking about putting this bolt on that they have to do 100 times every day
+
+00:39:54.000 --> 00:40:04.000
+Then what that contributes to in terms of the overall quality of the product, in terms of what customers want
+
+00:40:04.000 --> 00:40:07.000
+He also
+
+00:40:07.000 --> 00:40:10.000
+Came up with the idea
+
+00:40:10.000 --> 00:40:16.000
+Excuse me, what was called a hidden plan
+
+00:40:16.000 --> 00:40:22.000
+And I think all of you have seen this at one time or another. When you have some kind of process
+
+00:40:22.000 --> 00:40:29.000
+where you're building something, or you're building, or you're performing some kind of service
+
+00:40:29.000 --> 00:40:35.000
+that you have planned out a nice process that's supposed to work
+
+00:40:35.000 --> 00:40:39.000
+But when it starts in certain places where it's not working
+
+00:40:39.000 --> 00:40:44.000
+Instead of fixing that process at that point to make it work
+
+00:40:44.000 --> 00:40:47.000
+We work around it
+
+00:40:47.000 --> 00:40:51.000
+In other words, we get to, you know, we produce a report
+
+00:40:51.000 --> 00:41:00.000
+And that report should have controls on it so that we should just be able to take that report and deliver it to the user of that report
+
+00:41:00.000 --> 00:41:16.000
+But we know that in the process of building that report, there are certain things that are just not working properly. It's not doing exactly what the people that are using the report want. So you have to stop and intercept the report, and instead of giving it directly to the user
+
+00:41:16.000 --> 00:41:30.000
+You have to say, okay, let's go in and check it. There's some things wrong here, so we have to go in and manually change some things and fix some things before we actually get the product that we want to deliver to the customer.
+
+00:41:30.000 --> 00:41:32.000
+And so he calls this a hidden plant
+
+00:41:32.000 --> 00:41:41.000
+That this extra work or workarounds to correct mistakes that are within the ordinary factory
+
+00:41:41.000 --> 00:41:50.000
+And accountability for quality and the idea that quality, again, is part of the value proposition
+
+00:41:50.000 --> 00:42:01.000
+And the quality needs to be seen as valued, and it needs to be visible at the highest levels of management
+
+00:42:01.000 --> 00:42:05.000
+And then quality cost
+
+00:42:05.000 --> 00:42:17.000
+Now, this is we're going to see this is in sort of in contrast or maybe I shouldn't say contrast, but it's going to be sort of a different way of looking at this idea
+
+00:42:17.000 --> 00:42:20.000
+But Feigenbaum is saying
+
+00:42:20.000 --> 00:42:22.000
+That
+
+00:42:22.000 --> 00:42:30.000
+That we need to think about we need to realize that quality was going to cause it.
+
+00:42:30.000 --> 00:42:34.000
+To have really quality product, we're going to have to do some things extra
+
+00:42:34.000 --> 00:42:49.000
+And you need to quantify the cost of the quality. Of course, you want it to be as small as possible, but it is going to cost more to get good quality, and I think most people recognize this. They're willing to pay more
+
+00:42:49.000 --> 00:42:51.000
+for products that are higher quality
+
+00:42:51.000 --> 00:43:04.000
+Because it costs more to produce them. But it's interesting, we'll see that there's another guy, a guy named Bill Crosby
+
+00:43:04.000 --> 00:43:18.000
+sort of looked at this in another way and again he is an American businessman. And here's what he said. He published a whole book that says, well, quality is free
+
+00:43:18.000 --> 00:43:25.000
+So this is in contrast to Feigenbaum, who said, well, you really need to pay attention and understand the cost
+
+00:43:25.000 --> 00:43:31.000
+And here is Crosby saying, well, but quality is free
+
+00:43:31.000 --> 00:43:38.000
+But again, they're really talking about the same thing. My example is that
+
+00:43:38.000 --> 00:43:47.000
+That certainly Crosby recognized it costs more to ensure quality took a little extra time, maybe it took extra workers
+
+00:43:47.000 --> 00:43:51.000
+Maybe it took more costly parts
+
+00:43:51.000 --> 00:44:06.000
+And information quality, it would be the time, like you're doing in your assignment of going through and looking at the data, seeing what the possible defects or anomalies might be, and then are they important
+
+00:44:06.000 --> 00:44:14.000
+Do we need to correct them? Do we need to take the time and effort to fix those things? So there's going to be extra cost
+
+00:44:14.000 --> 00:44:21.000
+But his point was, the reason he says that quality is free is that extra cost
+
+00:44:21.000 --> 00:44:29.000
+is more than compensated by the fact that the product that you're building is worth more
+
+00:44:29.000 --> 00:44:43.000
+People will… you'll sell more of it, or you can charge more for it, because it's a quality product. And so, in essence, by investing in the quality management part
+
+00:44:43.000 --> 00:44:50.000
+that you get that back and more, so that, in essence, the cost of the quality is free
+
+00:44:50.000 --> 00:44:57.000
+So again, it's just sort of another way of looking at Feigenbaum said. Certainly, there is cost to quality
+
+00:44:57.000 --> 00:45:10.000
+But Crosby's argument is that it really doesn't cost anything extra because you're going to more than make up for it in the price of the product or the
+
+00:45:10.000 --> 00:45:14.000
+the quantities that you sell of the product
+
+00:45:14.000 --> 00:45:20.000
+And this is not drift, it's the durst system that he invented
+
+00:45:20.000 --> 00:45:28.000
+doing it right the first time, right? So it's often said, you
+
+00:45:28.000 --> 00:45:33.000
+How… if you can all have time to do it now, how are you going to find the time to fix it later
+
+00:45:33.000 --> 00:45:41.000
+And again, quality, this is the ISO definition. I don't know if it really comes from him or not.
+
+00:45:41.000 --> 00:45:49.000
+It's the idea that quality is conformance or meeting requirements
+
+00:45:49.000 --> 00:45:50.000
+And
+
+00:45:50.000 --> 00:46:02.000
+The system of falsi, the essence of quality is prevention, right? So, just like you're doing and you're getting data in, you're going to create some kind of an information product, like a report card
+
+00:46:02.000 --> 00:46:06.000
+A grade transcript for
+
+00:46:06.000 --> 00:46:10.000
+A ride for transcript.
+
+00:46:10.000 --> 00:46:17.000
+You want to prevent errors as early in the process as possible
+
+00:46:17.000 --> 00:46:26.000
+And again, this is what I was talking about earlier. I don't remember if I told you
+
+00:46:26.000 --> 00:46:33.000
+Well, I will later
+
+00:46:33.000 --> 00:46:38.000
+the idea that… and you see this a lot even in software development
+
+00:46:38.000 --> 00:46:41.000
+Is this idea that it costs
+
+00:46:41.000 --> 00:46:48.000
+The cost to prevent problems is much smaller than the cost to repair things later, so
+
+00:46:48.000 --> 00:46:53.000
+whatever cost or time that it takes to do things
+
+00:46:53.000 --> 00:46:59.000
+correctly the first time is much less than what it takes to have to pull back
+
+00:46:59.000 --> 00:47:07.000
+product you see these recalls all the time of having to destroy a lot of food or recall a lot of
+
+00:47:07.000 --> 00:47:11.000
+product children's
+
+00:47:11.000 --> 00:47:17.000
+those seats for cars, car seats and things like that that have some kind of defect
+
+00:47:17.000 --> 00:47:27.000
+And then the cost becomes 10 hundred times more than the cost of just sort of, as he said, doing it right the first time
+
+00:47:27.000 --> 00:47:37.000
+And the performance standard, what we're all looking for is zero defects. However, this is one that's kind of fallen into
+
+00:47:37.000 --> 00:47:41.000
+I mean, if we look at Microsoft, right
+
+00:47:41.000 --> 00:47:47.000
+We want it to be as good as it needs to be. And certainly, it would be ideal
+
+00:47:47.000 --> 00:47:56.000
+If we had zero defects, but that can be impractical in many situations. It's just almost impossible in many cases
+
+00:47:56.000 --> 00:48:00.000
+to actually get rid of every error, every anomaly, every problem
+
+00:48:00.000 --> 00:48:04.000
+And is it necessary
+
+00:48:04.000 --> 00:48:11.000
+You know, how much how many of these really prevent the thing that you're building from having
+
+00:48:11.000 --> 00:48:17.000
+Being useful and meeting the requirements of the consumer of that product
+
+00:48:17.000 --> 00:48:22.000
+But anyway, it's always good to think about it as a goal of zero
+
+00:48:22.000 --> 00:48:27.000
+But it's not always achievable
+
+00:48:27.000 --> 00:48:36.000
+And the measure of quality is the price of nonconformance. So again, this is where he gets the quality is free, right?
+
+00:48:36.000 --> 00:48:41.000
+If things don't conform and they cost you because the product is
+
+00:48:41.000 --> 00:48:43.000
+a meeting at
+
+00:48:43.000 --> 00:48:48.000
+The requirements of the consumer, then that tells you what
+
+00:48:48.000 --> 00:48:58.000
+What you should be able to spend, that's a cap, if you will, on how much you can invest in quality to try to eliminate the nonconformance.
+
+00:48:58.000 --> 00:49:02.000
+So again.
+
+00:49:02.000 --> 00:49:05.000
+He was very influential
+
+00:49:05.000 --> 00:49:08.000
+quality pioneer
+
+00:49:08.000 --> 00:49:13.000
+Alright, and then we see the shift over to Japan
+
+00:49:13.000 --> 00:49:16.000
+Were they were adopted
+
+00:49:16.000 --> 00:49:23.000
+Many of these principles of dimming and Schuhart and others before it came back to the Us.
+
+00:49:23.000 --> 00:49:27.000
+And so they're
+
+00:49:27.000 --> 00:49:33.000
+Again, you can see a lot of their words embedded into our current quality processes
+
+00:49:33.000 --> 00:49:37.000
+So Ishikawa
+
+00:49:37.000 --> 00:49:41.000
+Was a Japanese organizational theorist
+
+00:49:41.000 --> 00:49:49.000
+And he had this idea of user-friendly quality control. Again, quality control
+
+00:49:49.000 --> 00:49:57.000
+is the inspection or the check of conformance of the final product to
+
+00:49:57.000 --> 00:49:59.000
+Those
+
+00:49:59.000 --> 00:50:10.000
+The customer requirements, so what he means by user-friendly is he is the… the idea is that when, again, need to think about quality from the standpoint of
+
+00:50:10.000 --> 00:50:18.000
+the finished product that we're building, and is it friendly to the user? In other words, is it what the user is really wanting
+
+00:50:18.000 --> 00:50:25.000
+That's where we should really start, not with just, we're getting data, let's clean it up the best we can
+
+00:50:25.000 --> 00:50:35.000
+And this idea is really entrenched. People, even today, if you go out and talk to somebody about data quality or quality control or anything.
+
+00:50:35.000 --> 00:50:41.000
+They'll say, yeah, yeah, we get lots of data, and we spend a lot of time scrubbing and cleaning that data.
+
+00:50:41.000 --> 00:50:45.000
+Well, that's probably important
+
+00:50:45.000 --> 00:50:51.000
+But it's not where the focus should be. The focus should be on what am I building
+
+00:50:51.000 --> 00:50:54.000
+What is the product or service that I'm building
+
+00:50:54.000 --> 00:51:11.000
+From there, then I say, okay, what condition do I need the data to be in? First of all, what data do I need? And then what condition do I need it to be in, in order to build this product so that it meets the requirements of the people who are going to use it
+
+00:51:11.000 --> 00:51:22.000
+And not just say, well, we're getting data, let's clean it up as much as we can, and we'll throw it into the process, and surely everything will be okay.
+
+00:51:22.000 --> 00:51:35.000
+So it's sort of the misinterpretation or misquoting of garbage in, garbage out. That's certainly true. You put really bad data into a process, you're bound to get something bad out the other end.
+
+00:51:35.000 --> 00:51:38.000
+However, the converse is not true.
+
+00:51:38.000 --> 00:51:46.000
+The converse is that if I put in good data, I won't necessarily get a good product. That is not true
+
+00:51:46.000 --> 00:51:47.000
+It doesn't follow
+
+00:51:47.000 --> 00:51:51.000
+So you have to start with the product
+
+00:51:51.000 --> 00:52:07.000
+All you can say from garbage in, garbage out is that if you didn't get garbage out, in other words, you got something good out, all you can infer is, well, I didn't put bad data in because if I put the bad data in, I'd certainly have gotten bad product out
+
+00:52:07.000 --> 00:52:12.000
+So we have to be careful how we apply our lodging
+
+00:52:12.000 --> 00:52:24.000
+What he's most famous for is the Ishikawa diagram, which nobody probably knows what it is anymore. They always know it by the fishbone name
+
+00:52:24.000 --> 00:52:30.000
+So he was very much focused on the idea of root cause analysis
+
+00:52:30.000 --> 00:52:39.000
+That if something was going wrong at the product level, what do we trace it back to? What was causing that?
+
+00:52:39.000 --> 00:52:45.000
+And so he was very finalist for using these diagrams to sort of
+
+00:52:45.000 --> 00:52:53.000
+inspire or tickle the ideas of what are the possible things we should be looking at.
+
+00:52:53.000 --> 00:53:06.000
+He also, you may have heard of quality circles. This arose again in Japan. This idea of getting people together, sitting down in a circle or around a table, and talking about
+
+00:53:06.000 --> 00:53:10.000
+process and how people could
+
+00:53:10.000 --> 00:53:21.000
+get together and understand the entire process and maybe make better improvements to it, rather than just being focused on that part of the process that they were
+
+00:53:21.000 --> 00:53:25.000
+empowered with
+
+00:53:25.000 --> 00:53:31.000
+And then emphasize this idea of the internal customer as well, that the customers are not only
+
+00:53:31.000 --> 00:53:34.000
+The people that you're selling products to
+
+00:53:34.000 --> 00:53:41.000
+But there are many cases where your customer is internal. This is certainly true for information products
+
+00:53:41.000 --> 00:53:44.000
+So, here at the university.
+
+00:53:44.000 --> 00:53:52.000
+There's certain ones that go out. For example, I mentioned the fact that we have to report… we're getting ready to report our census data
+
+00:53:52.000 --> 00:53:54.000
+For this semester
+
+00:53:54.000 --> 00:53:56.000
+to the Department of Education
+
+00:53:56.000 --> 00:53:59.000
+This is an external customer
+
+00:53:59.000 --> 00:54:04.000
+But we have a lot of internal customers that are using data all the time
+
+00:54:04.000 --> 00:54:09.000
+an information products internal
+
+00:54:09.000 --> 00:54:11.000
+So we have to think about those
+
+00:54:11.000 --> 00:54:15.000
+A shared vision of what we're trying to accomplish
+
+00:54:15.000 --> 00:54:19.000
+And so here's the idea of the fishbone diagram
+
+00:54:19.000 --> 00:54:23.000
+And it's this idea that
+
+00:54:23.000 --> 00:54:25.000
+If you
+
+00:54:25.000 --> 00:54:34.000
+Look at the outcome, what you're trying, your product or your service that you're trying to build, and if there's a defect. So this was an example I found on the internet about
+
+00:54:34.000 --> 00:54:37.000
+The problem of being late for work. And so
+
+00:54:37.000 --> 00:54:47.000
+what could contribute to that? Why, you know, so it could be motivation, people are not motivated, they're tired, they're lazy, dreaming about vacations
+
+00:54:47.000 --> 00:54:50.000
+The method, they didn't set the alarm, they
+
+00:54:50.000 --> 00:54:55.000
+I don't have a regular time to wake
+
+00:54:55.000 --> 00:54:57.000
+route to work, time management
+
+00:54:57.000 --> 00:55:08.000
+kids, partners, family, things that could prevent us. So, it just goes on. This is just a very simple example. But the idea is, and there are many of these, depending on certain types of
+
+00:55:08.000 --> 00:55:17.000
+products and services that are being built that are already sort of pre-populated. And the whole idea is to get you to think, again.
+
+00:55:17.000 --> 00:55:20.000
+Back to
+
+00:55:20.000 --> 00:55:26.000
+This idea that we saw of breakthrough thinking, right
+
+00:55:26.000 --> 00:55:30.000
+You need to sometimes need to
+
+00:55:30.000 --> 00:55:41.000
+go outside of what you're ordinarily thinking about, and so these diagrams help inspire people to think about many different things
+
+00:55:41.000 --> 00:55:44.000
+Finally
+
+00:55:44.000 --> 00:55:49.000
+I'll talk about Shogyo Singo, I'm sorry
+
+00:55:49.000 --> 00:55:57.000
+So Shingo was a Japanese industrial engineer who really adopted this idea of total quality management
+
+00:55:57.000 --> 00:56:02.000
+And he is the major contributor to what's still now used
+
+00:56:02.000 --> 00:56:05.000
+Is the Toyota production system
+
+00:56:05.000 --> 00:56:12.000
+And it's used by companies worldwide, not only for cars, but other things as well
+
+00:56:12.000 --> 00:56:18.000
+He also was a big advocate of just-in-time production
+
+00:56:18.000 --> 00:56:31.000
+Which is not to build a lot of things in advance and store them to have them ready in inventory. But to try to build things just in time, just at the time that they needed to be
+
+00:56:31.000 --> 00:56:34.000
+produced for the customer
+
+00:56:34.000 --> 00:56:46.000
+And because that made the process much more efficient, it didn't mean… it meant you didn't have to store a lot of inventory, either on the part side or on the product side
+
+00:56:46.000 --> 00:56:55.000
+So how do you… how do you work it so that you get things just in time? And that goes into the idea of lean production, right?
+
+00:56:55.000 --> 00:57:05.000
+to do as little as possible, spend as little effort as possible to produce that, not to have extra labor, extra time, extra parts
+
+00:57:05.000 --> 00:57:11.000
+To try to be lean in producing your product or service
+
+00:57:11.000 --> 00:57:15.000
+And anyway, she's very important for that.
+
+00:57:15.000 --> 00:57:17.000
+And then
+
+00:57:17.000 --> 00:57:25.000
+Genichi Taguchi was also very important. He was a Japanese engineer and statistician
+
+00:57:25.000 --> 00:57:30.000
+And he's most famous for the Taguchi loss function
+
+00:57:30.000 --> 00:57:35.000
+And it measures financial loss to society from poor quality
+
+00:57:35.000 --> 00:57:42.000
+And I'll tell you, we'll talk about another person that has really built this out
+
+00:57:42.000 --> 00:57:48.000
+And extended this idea a lot as Dr. Tom Redmond
+
+00:57:48.000 --> 00:57:52.000
+But the idea that you
+
+00:57:52.000 --> 00:57:56.000
+You don't just think about
+
+00:57:56.000 --> 00:58:00.000
+You know, the immediate consequence
+
+00:58:00.000 --> 00:58:04.000
+of poor quality. In other words, you've got
+
+00:58:04.000 --> 00:58:15.000
+Poor quality and give you a great example, a real example that happened not too long ago up in Vermont, I believe
+
+00:58:15.000 --> 00:58:18.000
+And that's the idea that
+
+00:58:18.000 --> 00:58:23.000
+you know, in the county assessor's office is
+
+00:58:23.000 --> 00:58:30.000
+They assess the values of property, usually houses and lots and things like that
+
+00:58:30.000 --> 00:58:32.000
+And
+
+00:58:32.000 --> 00:58:47.000
+It has… they collect a lot of information about, you know how large is the house, how many square feet and so forth that they can use to sort of get an idea of how much the value would be and then how much tax to charge
+
+00:58:47.000 --> 00:58:53.000
+Or how to apply the tax rates to that value of the property.
+
+00:58:53.000 --> 00:59:01.000
+But often this information is shared with real estate people because they need to be able to sort of estimate the cost of
+
+00:59:01.000 --> 00:59:18.000
+houses or the prices of houses somebody's selling, they'll say, well, what about the houses that were nearby? Were they similar? Do they have similar square footage, and so forth, and what did they sell for? So, real estate people use that. And so, in this little town in Vermont
+
+00:59:18.000 --> 00:59:25.000
+One of the real estate agents was allowed to come in and directly access data
+
+00:59:25.000 --> 00:59:30.000
+from the tax assessor's office
+
+00:59:30.000 --> 00:59:33.000
+But she made a mistake
+
+00:59:33.000 --> 00:59:38.000
+And the way this was a system wasn't very sophisticated
+
+00:59:38.000 --> 00:59:43.000
+computer system they were using, but the upshot was
+
+00:59:43.000 --> 00:59:54.000
+She actually, in looking at the data, changed the value of one of the houses that she was looking at, and to a really, you know, I mean
+
+00:59:54.000 --> 01:00:07.000
+really big. So it was a house that was only a few hundred thousand dollars and suddenly it became worth a few million dollars just because she injected this error into the system
+
+01:00:07.000 --> 01:00:17.000
+Well, of course, when they went to produce the tax bills, one of the tax bills came out for this House that was a few hundred thousand dollars
+
+01:00:17.000 --> 01:00:25.000
+And then all of a sudden, the taxes were based on several million dollars. And of course, the guy that owned the house came in and said, look.
+
+01:00:25.000 --> 01:00:29.000
+This can't be right. And yeah, they went in and they fixed it
+
+01:00:29.000 --> 01:00:45.000
+So the point is that Toguchi's loss function says, well, it's not just that, it's not just that it produced one bad text bill, because what also happened was that between the time that the error was made and the error was discovered
+
+01:00:45.000 --> 01:00:54.000
+They had already gone out and used the values in the system to project the budgets
+
+01:00:54.000 --> 01:01:02.000
+for the next year for the county. And you know what are they going to do? What roads were they going to repair and so forth
+
+01:01:02.000 --> 01:01:17.000
+So when they produced that budget, it was much bigger than the previous year, but it wasn't so big that they said, oh, something's wrong, so they just said, hey, man, you know, we've got a lot of extra money this year, let's use it. And they went and they made commitments to contractors
+
+01:01:17.000 --> 01:01:27.000
+And undertook new projects and already had that underway before they found out that there was an error in the system
+
+01:01:27.000 --> 01:01:45.000
+And so even though you could say, well, when you look at the loss function, well, it wasn't much loss to go fix that one tax bill and make that consumer happy. That was a small… but if you look at the bigger impact of all of that
+
+01:01:45.000 --> 01:02:00.000
+It caused a lot of problems because they had already let contracts out for this extra money, and they had to pull those contracts back, had to pay penalties. People thought they were going to get employed, got let go because
+
+01:02:00.000 --> 01:02:05.000
+things didn't go through. So, Taguchi's loss function tries to measure
+
+01:02:05.000 --> 01:02:14.000
+All of the laws that's caused by when these problems happen, not just the immediate
+
+01:02:14.000 --> 01:02:18.000
+And he talked about offline quality control
+
+01:02:18.000 --> 01:02:33.000
+products and processes and sensitive to parameters outside the design engineer's control. In other words, again, this more broad thinking, not only the overall consequences of poor quality, but what are the things
+
+01:02:33.000 --> 01:02:48.000
+That you need to think about that oftentimes design engineers don't really think about when they're thinking more about how to efficiently build something and they're not necessarily thinking about
+
+01:02:48.000 --> 01:02:53.000
+These parameters that are outside the engineer's control
+
+01:02:53.000 --> 01:03:01.000
+So having broader thinking, bringing more people into the study process
+
+01:03:01.000 --> 01:03:11.000
+And then this idea that now has become enshrined in the idea of digital twins, but a lot of this developed before we had those capabilities
+
+01:03:11.000 --> 01:03:18.000
+And that was the idea of trying to design things statistically
+
+01:03:18.000 --> 01:03:27.000
+through experiments before you actually commit to building a final design of a product
+
+01:03:27.000 --> 01:03:32.000
+So let me quickly run through some of the
+
+01:03:32.000 --> 01:03:35.000
+More contemporary
+
+01:03:35.000 --> 01:03:42.000
+And I guess I said Larry English, who was the founder of Information Impact International and author
+
+01:03:42.000 --> 01:03:50.000
+He was responsible for this POSMAD that we talked about, this non-linear life cycle, this idea that
+
+01:03:50.000 --> 01:04:03.000
+You know, data has a life cycle in which you plan for it, obtain it, but then once you have it and store it and share it, you continuously apply it and maintain it
+
+01:04:03.000 --> 01:04:06.000
+And then, at some point dispose of it
+
+01:04:06.000 --> 01:04:10.000
+And he's best known for his books on
+
+01:04:10.000 --> 01:04:16.000
+The data warehouse is where this all came from. He has two very important books
+
+01:04:16.000 --> 01:04:19.000
+Information quality applied
+
+01:04:19.000 --> 01:04:25.000
+And improving data warehouse and business information quality.
+
+01:04:25.000 --> 01:04:26.000
+He's a great fellow
+
+01:04:26.000 --> 01:04:34.000
+And then Dr. Wong, who now is the director of the MIT Chief Data Officer and Information Quality Program
+
+01:04:34.000 --> 01:04:36.000
+He's also
+
+01:04:36.000 --> 01:04:39.000
+was he just retired as
+
+01:04:39.000 --> 01:04:43.000
+a professor here of information science
+
+01:04:43.000 --> 01:04:58.000
+And his major contribution was adapting this idea of total quality management and manufacturing to data quality in what he called total data quality management
+
+01:04:58.000 --> 01:05:03.000
+And he established the International Conference on Information Quality
+
+01:05:03.000 --> 01:05:05.000
+And
+
+01:05:05.000 --> 01:05:13.000
+instrumental in establishing information qualities and information as an academic discipline. Here, he's one of the founders here
+
+01:05:13.000 --> 01:05:22.000
+And he was the executive director for the Institute for Chief Data Officers here
+
+01:05:22.000 --> 01:05:30.000
+Another is very well known, and we'll be studying this over and over in this course, is the Wongstrong framework for Data Quality and Dimensions
+
+01:05:30.000 --> 01:05:34.000
+16 dimensions we talked about
+
+01:05:34.000 --> 01:05:40.000
+And sort of emphasizing what would already been done in manufacturing
+
+01:05:40.000 --> 01:05:50.000
+And the idea of managing information as product. In other words, focusing on the product side, and then working backwards, or working outwards both ways from that.
+
+01:05:50.000 --> 01:05:58.000
+And he's probably the most cited author in information quality research
+
+01:05:58.000 --> 01:06:03.000
+And currently is really advocating for this idea of chief state officer
+
+01:06:03.000 --> 01:06:11.000
+Several books, Journey to Data Quality, Quality Information and Knowledge, Introduction to Information Quality
+
+01:06:11.000 --> 01:06:14.000
+and data quality
+
+01:06:14.000 --> 01:06:20.000
+Another is Dr. Tom Redmond, who likes to call himself the Data Doc
+
+01:06:20.000 --> 01:06:29.000
+And again, going along the lines that we talked about a while ago of Taguchi's loss function
+
+01:06:29.000 --> 01:06:34.000
+The understanding of the cost of poor debt, that's one of his things
+
+01:06:34.000 --> 01:06:41.000
+And he developed this idea of rule of 10. It costs 10 times as much to complete a unit of work
+
+01:06:41.000 --> 01:06:46.000
+When the input data are defective as it does when the input data are perfect
+
+01:06:46.000 --> 01:06:52.000
+In other words, data quality really slows down by order of magnitude the process
+
+01:06:52.000 --> 01:06:57.000
+And this idea of information change, how information moves
+
+01:06:57.000 --> 01:07:00.000
+along in
+
+01:07:00.000 --> 01:07:09.000
+through a process, and how oftentimes this is sort of opposite to the way the company thinks about things.
+
+01:07:09.000 --> 01:07:14.000
+So data passes from department to department
+
+01:07:14.000 --> 01:07:31.000
+And we don't have… and people understand the data when it gets to them and what they need to do with it, but we don't have many organizations who don't have a good understanding of how that data flows and the overall flow of the data
+
+01:07:31.000 --> 01:07:36.000
+How it affects the organization and is affected by the organization.
+
+01:07:36.000 --> 01:07:41.000
+And he's written several books. I need to bring this up today. Getting in Front on Data
+
+01:07:41.000 --> 01:07:42.000
+data-driven
+
+01:07:42.000 --> 01:07:48.000
+Data quality for the information age, data quality, the field guide
+
+01:07:48.000 --> 01:07:55.000
+And he's actually written a couple more since I need to update these slides.
+
+01:07:55.000 --> 01:07:59.000
+And then another is Danette McGilvery
+
+01:07:59.000 --> 01:08:14.000
+The author and consultant, and she's definitely most influential in a book that she wrote a few years ago and has since updated to a new edition called Executing Data Quality Projects
+
+01:08:14.000 --> 01:08:26.000
+10 Steps to Data Quality and Trusted Performance. And we use that book a lot in our course on project and change management because it's very project oriented
+
+01:08:26.000 --> 01:08:30.000
+And so we use it in that class
+
+01:08:30.000 --> 01:08:39.000
+And she's developed some very important things, one of them being this idea of the framework for information quality
+
+01:08:39.000 --> 01:08:44.000
+And if you take that course, we'll go over this in great detail
+
+01:08:44.000 --> 01:08:47.000
+And it helps understand
+
+01:08:47.000 --> 01:08:52.000
+How to think about any data problem
+
+01:08:52.000 --> 01:08:59.000
+And all on one page. It's very, very powerful consulting tool
+
+01:08:59.000 --> 01:09:04.000
+And
+
+01:09:04.000 --> 01:09:13.000
+This is the 10 steps, and again it's not totally linear. There's some places where
+
+01:09:13.000 --> 01:09:20.000
+multiple paths and then a cross-cutting as communication, actions, and results
+
+01:09:20.000 --> 01:09:26.000
+And again, we go over this in great detail in the course on project and change management.
+
+01:09:26.000 --> 01:09:30.000
+And then I finally mentioned Laura Sebastian Coleman
+
+01:09:30.000 --> 01:09:33.000
+society practitioner
+
+01:09:33.000 --> 01:09:41.000
+And she has some very important books. The one that we have used in the past, Measuring Data Quality for Ongoing Improvement
+
+01:09:41.000 --> 01:09:46.000
+That gives you a way of sort of managing data overall through measurements
+
+01:09:46.000 --> 01:09:51.000
+And meeting the challenges of data quality
+
+01:09:51.000 --> 01:10:06.000
+And then finally, Dave Lotion shifted a little bit. He originally was in data quality, but he's kind of moved over now more to master data management. But still his contributions have been very important
+
+01:10:06.000 --> 01:10:09.000
+Big data analytics and
+
+01:10:09.000 --> 01:10:14.000
+User information to develop a culture of customer centricity
+
+01:10:14.000 --> 01:10:18.000
+And a practitioner's Guide to Data Quality Improvement
+
+01:10:18.000 --> 01:10:23.000
+And then more recently, in some of the books on master data management
+
+01:10:23.000 --> 01:10:28.000
+So I think that gets us pretty close to time here
+
+01:10:28.000 --> 01:10:37.000
+Any questions or comments of these people that you know about or want to comment about
+
+01:10:37.000 --> 01:10:45.000
+We'll pick up from here and we'll talk more about some of the environment and culture. And we'll start doing more of these exercises using data
+
+01:10:45.000 --> 01:10:51.000
+So if you have any questions or anything, please send me an email
+
+01:10:51.000 --> 01:10:53.000
+Thank you.
+
+01:10:53.000 --> 01:10:56.000
+All right, with that, I'm going to close the class
+
+01:10:56.000 --> 01:11:01.000
+Thank you
+
+01:11:01.000 --> 01:11:04.000
+Up the recording
+

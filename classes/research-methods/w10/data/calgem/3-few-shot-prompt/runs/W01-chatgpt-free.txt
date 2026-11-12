@@ -1,0 +1,71 @@
+RUN RECORD
+Level:          3, few-shot
+Diagram:        W01.pdf
+Prompt:         few-shot-copy-and-paste.txt (verbatim)
+Specification:  casing-diagram-specification.txt
+Sequence:       diagram attached, specification attached, prompt pasted
+AI:             ChatGPT, free tier, personal Google account (same login as levels 1-2)
+Model shown:    not displayed by the free tier; recorded as "ChatGPT free-tier
+                default model as served on the run date"
+Session:        new session [Temporary Chat / memory settings: to fill]
+Date and time:  November 11, 2026, [time to fill]
+Web search:     no sign of use; the response states that requirements are taken
+                from the supplied specification and findings from the supplied
+                WBD
+File reading:   [to fill: whether an "Analysis output" panel appeared]
+Follow-ups:     none
+
+The response is reproduced below exactly as pasted by the researcher, between
+the two lines. Interface elements (file chips) appear as plain text because
+they were copied as text.
+--------------------------------------------------------------------------------
+CalGEM WBD Compliance Review — Well 948C-28
+Not compliant
+Based on supplied WBD and 14 CCR §1726.4.1
+
+Overall finding: The existing diagram is useful as a starting point, but it is not sufficient to demonstrate compliance with the supplied specification. The most significant deficiencies are missing lease identification, groundwater depths, TVD measurements, directional survey information, formation boundaries, and wellhead equipment information.
+Requirement-by-requirement review
+Regulation	Requirement	Finding	Missing information / comments
+(a)(1)(A)	Operator, lease name, well number, API number	Does not meet	Lease name missing. Other three items are shown.
+(a)(1)(B)	Date well was spudded	Meets	Spud date shown: 7/3/2007.
+(a)(1)(C)	Ground elevation from sea level	Meets	Ground elevation: 591.26 ft.
+(a)(1)(D)	Reference elevation	Meets	Kelly Bushing: 603.26 ft.
+(a)(1)(E)	Base of groundwater ≤3,000 mg/L TDS	Does not meet	Base of groundwater depth missing. Shown as N/A.
+(a)(1)(F)	Base of groundwater ≤10,000 mg/L TDS	Does not meet	Base of groundwater depth missing. Shown as N/A.
+(a)(1)(G)	Sizes, weights, grades, connections of casing and tubing	Does not meet	Casing information substantially shown, but 14-inch casing grade is missing. Tubing size, weight, grade, and connection type are missing.
+(a)(1)(H)	Associated equipment details	Partial	Tubing, rod string, and rod pump components are shown. No details for safety valves, packers, or gas lift mandrels, if installed.
+(a)(1)(I)	Casing shoes, stubs, liner tops	Partial	Casing bottom depths are shown, but casing shoes are not specifically identified. Stubs and liner tops are not identified, if applicable.
+(a)(1)(J)	Perforations and other features affecting flow or mechanical integrity	Partial	Perforation intervals and flag joint at 735 ft are shown. Other applicable features, including cuts, patches, casing damage, or junk/fish, are not identified. Confirm whether any exist.
+(a)(1)(K)	Hole size diameter and drilled depth	Meets	Hole sizes and depths shown: 24", 12.25", and 8.75".
+(a)(1)(L)	Cement plugs, top/bottom, emplacement dates, method of determination	Does not meet	No cement plugs identified. Abandonment tag depth is blank. If plugs exist, their depths, emplacement dates, and determination methods are missing.
+(a)(1)(M)	Cement fill behind casings, top/bottom and determination method	Partial	Cement intervals and job information are shown. Method of determining cement tops and bottoms is not identified.
+(a)(1)(N)	Type and density of fluid between cement plugs	Does not meet	Fluid type and density are not shown. If no cement plugs exist, confirm applicability.
+(a)(1)(O)	Formation names and depths, gas storage zone and confining strata boundaries	Does not meet	Three geological markers are listed with top MD only. Bottom depths and gas storage zone/confining strata boundaries are missing.
+(a)(1)(P)	Cement slurry calculation information for each cement job	Partial	Cement type, additives, density, yield, and sack quantities are shown. Explicit slurry volumes are missing.
+(a)(1)(Q)	Information for previously drilled or sidetracked wellbores	Conditional	Only wellbore 00 is shown. No additional wellbores are identified. Confirm no previous or sidetracked bores exist.
+(a)(1)(R)	Wellhead and valve assembly model and pressure rating	Does not meet	Wellhead equipment models and pressure ratings are missing.
+(a)(2)	Measured depth and true vertical depth for all required measurements	Does not meet	Measurements are provided in MD only. TVD is missing.
+(a)(3)	Directional survey: inclination, azimuth, bottomhole and surface locations	Does not meet	Well is identified as directional, but no directional survey or required survey information is provided.
+(a)(4)	Electronic format	Meets	Diagram supplied as an electronic PDF.
+(a)(5)	Primary and secondary mechanical barriers for gas injection/withdrawal wells	Conditional	Diagram identifies the well as a producer. If it is not used for gas injection or withdrawal, this requirement does not apply. Otherwise, barrier elements must be identified.
+(a)(6)	Information for original, redrilled, and sidetracked wellbores	Conditional	Only wellbore 00 is shown. Confirm no additional boreholes exist.
+
+Regulatory requirements are taken from the supplied specification; diagram findings are based on the supplied one-page WBD.
+casing-diagram-specification(2).txt
+ W01(2).pdf
+
+Recommended corrections before reuse
+I would prioritize these items before incorporating this diagram into the Notice to Abandon:
+1. Add the lease name.
+2. Establish and show both groundwater protection depths.
+3. Add TVD measurements alongside MD.
+4. Attach the directional survey.
+5. Add tubing specifications and missing casing specifications.
+6. Identify geological formation tops and bottoms, including applicable groundwater and confining-zone information.
+7. Document cement placement information and methods of determining cement tops.
+8. Add wellhead and valve assembly model and pressure ratings.
+9. Complete the abandonment information, including applicable existing cement plugs.
+Important regulatory distinction: Section 1726.4.1(a) expressly addresses casing diagrams submitted under Section 1726.4(a)(5)(F). That provision concerns wells within an underground gas storage project's area of review. Confirm that this specification is actually applicable to your particular Notice to Abandon before treating every item above as a mandatory filing requirement.
+
+My engineering recommendation: Do not reuse this WBD unchanged. Retain its existing casing, cement-job, perforation, and equipment information, but prepare a revised diagram with the missing information verified against the well records.
+--------------------------------------------------------------------------------

@@ -1,0 +1,2510 @@
+WEBVTT
+
+1
+00:00:05.420 --> 00:00:14.549
+John Talburt: Okay, well, we're moving right along. We've already gone through some of the basic principles of information quality.
+
+2
+00:00:15.230 --> 00:00:18.880
+John Talburt: We spent quite a bit of time talking about the,
+
+3
+00:00:19.130 --> 00:00:22.750
+John Talburt: environment and culture in terms of the… I'm sorry, the…
+
+4
+00:00:22.970 --> 00:00:26.920
+John Talburt: The business case, the value proposition for information quality.
+
+5
+00:00:27.480 --> 00:00:29.710
+John Talburt: Importance of making business case.
+
+6
+00:00:29.950 --> 00:00:32.620
+John Talburt: And we started doing a little bit of lab work.
+
+7
+00:00:32.860 --> 00:00:38.080
+John Talburt: Everybody coming along okay with their assignment to analyze that file?
+
+8
+00:00:41.850 --> 00:00:43.879
+John Talburt: Any, any issues come up?
+
+9
+00:00:44.590 --> 00:00:46.359
+John Talburt: good, good.
+
+10
+00:00:46.360 --> 00:00:51.599
+Dela Vanlare: I had an issue with the filters about money to fix it, so I'm just still going for it, so that's fine.
+
+11
+00:00:52.340 --> 00:00:55.750
+John Talburt: I'm sorry, problem installing the open refund?
+
+12
+00:00:55.750 --> 00:01:04.039
+Dela Vanlare: No, I think the installation was fine, but then I couldn't, figure out how to filter the thing, because it wouldn't let me filter it. So I wanted to fix it, yeah.
+
+13
+00:01:04.519 --> 00:01:09.409
+John Talburt: Yeah, there's, there's some pretty good documentation on the OpenRefine website.
+
+14
+00:01:09.899 --> 00:01:20.229
+John Talburt: that talks about all that. I think mainly the only thing you really need to worry about right now is the facet, but if you want to go farther with it, then that's fine.
+
+15
+00:01:24.329 --> 00:01:32.339
+John Talburt: Okay, well, we're gonna try to make a transition here, give you a little bit of background about information quality and
+
+16
+00:01:32.469 --> 00:01:35.109
+John Talburt: Kind of where it's all coming from.
+
+17
+00:01:35.499 --> 00:01:43.609
+John Talburt: I think I mentioned earlier that there's some people that, you know, I mean, you can make the argument, it goes way back. I heard a lecture one time where they…
+
+18
+00:01:43.789 --> 00:01:47.639
+John Talburt: Talked about it beginning with, like, the Rosetta Stone in Egypt, but…
+
+19
+00:01:47.969 --> 00:01:49.809
+John Talburt: I think that's a little far back.
+
+20
+00:01:51.209 --> 00:02:03.319
+John Talburt: so… There's, mostly, it's people.
+
+21
+00:02:04.569 --> 00:02:07.379
+John Talburt: And I'm gonna talk about, sort of, 3 phases
+
+22
+00:02:07.539 --> 00:02:13.999
+John Talburt: And, a little bit about a new phase that we're entering into, and we're going to dabble in a little bit.
+
+23
+00:02:14.479 --> 00:02:18.019
+John Talburt: But let's look historically,
+
+24
+00:02:18.769 --> 00:02:24.829
+John Talburt: You can look at the phase where there's manufacturing quality, and there's a number of pioneers there.
+
+25
+00:02:25.279 --> 00:02:31.349
+John Talburt: Walter Shuhard, Edward Deming, maybe perhaps one of the most famous.
+
+26
+00:02:31.899 --> 00:02:33.879
+John Talburt: Joseph Durand.
+
+27
+00:02:34.309 --> 00:02:41.909
+John Talburt: Arman Feigenbaum and Bill Crosby, and there are many others, but those are some of the more outstanding ones.
+
+28
+00:02:42.289 --> 00:02:46.559
+John Talburt: And then we'll talk about, the transition. As I mentioned earlier.
+
+29
+00:02:47.009 --> 00:02:51.289
+John Talburt: You know, part of the history is that
+
+30
+00:02:51.489 --> 00:03:01.459
+John Talburt: There was, in the United States, a quality movement, a manufacturing quality movement, mostly headed by, dimming
+
+31
+00:03:02.149 --> 00:03:04.629
+John Talburt: But he couldn't get much
+
+32
+00:03:04.999 --> 00:03:10.669
+John Talburt: residents here in the United States, and this was back in the 1930s.
+
+33
+00:03:11.329 --> 00:03:16.619
+John Talburt: And, of course, the war broke out, the Second World War.
+
+34
+00:03:16.939 --> 00:03:23.609
+John Talburt: And, we were at war with Germany and the Axis powers, Germany and Italy and Japan.
+
+35
+00:03:24.239 --> 00:03:38.339
+John Talburt: And of course, we really did hit Japan very hard the first, and hopefully the last atomic weapons were used in that war. And it pretty well destroyed their manufacturing ability.
+
+36
+00:03:38.649 --> 00:03:47.149
+John Talburt: And General Douglas MacArthur, who, by the way, was born here in Little Rock, and there's a MacArthur Museum downtown in Little Rock.
+
+37
+00:03:47.699 --> 00:03:52.709
+John Talburt: Was one of the outstanding generals in the war.
+
+38
+00:03:52.869 --> 00:03:58.329
+John Talburt: And, President Truman, who had taken over from,
+
+39
+00:03:58.639 --> 00:04:01.509
+John Talburt: President Roosevelt, who passed away in office.
+
+40
+00:04:02.189 --> 00:04:08.209
+John Talburt: So, Truman was president, and he wanted to have a mission to help Japan rebuild.
+
+41
+00:04:08.659 --> 00:04:09.949
+John Talburt: And…
+
+42
+00:04:10.129 --> 00:04:15.599
+John Talburt: He was aware of some of the work that Deming had done, and invited Deming to come to Japan.
+
+43
+00:04:15.779 --> 00:04:21.199
+John Talburt: And, help in the re-establishing and manufacturing there.
+
+44
+00:04:21.659 --> 00:04:28.029
+John Talburt: And… The Japanese really took to it, and they really embraced it.
+
+45
+00:04:28.339 --> 00:04:31.779
+John Talburt: And so, the shift was from
+
+46
+00:04:31.919 --> 00:04:40.539
+John Talburt: the U.S. to Japan, and some of the more important ones were Kaoru Ishikawa, and
+
+47
+00:04:40.709 --> 00:04:43.999
+John Talburt: Sergio Shingo, and Kanchi Taguchi.
+
+48
+00:04:44.559 --> 00:04:49.699
+John Talburt: And there's others as well, but those were some of the ones that are more outstanding.
+
+49
+00:04:50.039 --> 00:04:52.069
+John Talburt: And then the,
+
+50
+00:04:52.229 --> 00:05:02.259
+John Talburt: the revival is… then they realized, because Japan began to manufacture such outstanding quality products that,
+
+51
+00:05:02.879 --> 00:05:06.259
+John Talburt: that the U.S. was starting to lose market share.
+
+52
+00:05:06.389 --> 00:05:10.159
+John Talburt: And so then they got interested in it, and
+
+53
+00:05:10.399 --> 00:05:18.059
+John Talburt: And they called back many of these people, like Duran and Deming, to come back and help here in the U.S.
+
+54
+00:05:18.239 --> 00:05:31.429
+John Talburt: And they… they did reform, generally, manufacturing here in the U.S. so that they could begin to have parity. Of course, they've never completely overcome the gap that was created
+
+55
+00:05:31.759 --> 00:05:41.429
+John Talburt: People today, still, at least in the U.S, tend to prefer Japanese and certain Asian-made cars.
+
+56
+00:05:41.669 --> 00:05:46.829
+John Talburt: And, and products, motorcycles and TVs and things like that.
+
+57
+00:05:47.089 --> 00:05:50.079
+John Talburt: And we haven't really completely caught up.
+
+58
+00:05:50.289 --> 00:06:02.409
+John Talburt: But the main story here, though, is even though it did come back in manufacturing, and the U.S. adopted the total quality management Principles that had developed.
+
+59
+00:06:02.719 --> 00:06:09.709
+John Talburt: From this, rebuilding of the Japanese, manufacturing capability.
+
+60
+00:06:09.989 --> 00:06:18.309
+John Talburt: And the real transition into information quality came… Through… mostly through MIT,
+
+61
+00:06:18.509 --> 00:06:21.369
+John Talburt: And a lot of the work of Richard Wong.
+
+62
+00:06:21.479 --> 00:06:29.539
+John Talburt: And also, from the consulting work done by Larry English, who started, a company that…
+
+63
+00:06:29.789 --> 00:06:37.669
+John Talburt: as I mentioned, was… The real exposure to the problems of quality and information
+
+64
+00:06:37.789 --> 00:06:41.439
+John Talburt: Came with the, data warehousing movement.
+
+65
+00:06:42.239 --> 00:06:50.559
+John Talburt: And so there were a lot of people then that caught on to this idea that you could adapt the manufacturing quality
+
+66
+00:06:50.679 --> 00:06:55.719
+John Talburt: to building information products and services.
+
+67
+00:06:56.379 --> 00:07:01.069
+John Talburt: And so, now we have a lot of people that have emerged from that.
+
+68
+00:07:01.489 --> 00:07:03.649
+John Talburt: Again, Dr. Wong.
+
+69
+00:07:03.919 --> 00:07:10.889
+John Talburt: Larry English, who's a pioneer in that. Tom Redman. Larry, of course, passed away a few years ago, but…
+
+70
+00:07:11.139 --> 00:07:15.129
+John Talburt: Richard and Tom Redman, Danette McGilvery.
+
+71
+00:07:15.309 --> 00:07:21.929
+John Talburt: Laura Sebastian Coleman, Dave Loes, and some others are… Very notable in this area.
+
+72
+00:07:22.109 --> 00:07:29.269
+John Talburt: And they're still practicing, So we'll talk about each of those and their contributions.
+
+73
+00:07:29.549 --> 00:07:37.429
+John Talburt: And as I was saying, we're beginning to enter into a new age, with AI.
+
+74
+00:07:37.709 --> 00:07:48.119
+John Talburt: And, actually, again, Rich and MIT and others are sort of leading the way in what we call Agentic data quality, using,
+
+75
+00:07:48.589 --> 00:07:51.779
+John Talburt: AI agents to help with… and…
+
+76
+00:07:52.109 --> 00:07:54.439
+John Talburt: Improve the quality of data.
+
+77
+00:07:55.229 --> 00:07:58.919
+John Talburt: And so we'll be doing some of that in our class.
+
+78
+00:07:59.939 --> 00:08:04.859
+John Talburt: So let's go back a ways. So, Walter Shuhart,
+
+79
+00:08:05.569 --> 00:08:09.669
+John Talburt: He was an American physicist, engineer, and statistician.
+
+80
+00:08:10.489 --> 00:08:18.959
+John Talburt: And his big contribution, which is still very important, he's the father of what's called statistical process control.
+
+81
+00:08:20.079 --> 00:08:26.569
+John Talburt: and the idea that you need to constantly look at what you're producing.
+
+82
+00:08:27.159 --> 00:08:35.069
+John Talburt: So, while we're on this, let me point out to you, when we're talking about quality, there's a couple of things that
+
+83
+00:08:35.529 --> 00:08:36.949
+John Talburt: R.
+
+84
+00:08:37.059 --> 00:08:39.889
+John Talburt: We won't learn all about quality, but…
+
+85
+00:08:40.159 --> 00:08:42.399
+John Talburt: a couple of things. One is that
+
+86
+00:08:42.809 --> 00:08:47.859
+John Talburt: To have any process that you consider to be a quality process.
+
+87
+00:08:48.379 --> 00:08:55.829
+John Talburt: Then you… you need to recognize some things. One is, and I think we mentioned this, or I mentioned this before.
+
+88
+00:08:56.289 --> 00:09:04.199
+John Talburt: is the difference between quality assurance and quality control, and we'll see that as we talk about some of these people.
+
+89
+00:09:04.799 --> 00:09:12.249
+John Talburt: But it all comes around to this idea that what we're really doing is building information products and services.
+
+90
+00:09:12.869 --> 00:09:19.759
+John Talburt: So, in the manufacturing process, Quality control is the… the check.
+
+91
+00:09:19.909 --> 00:09:31.959
+John Talburt: against the product that you've built. If you're building a car, it would be quality control comes at the point that you've actually completely manufactured the car, and you're ready to ship it.
+
+92
+00:09:32.099 --> 00:09:38.259
+John Talburt: So before it's shipped, you have certain standards, you have certain requirements.
+
+93
+00:09:38.399 --> 00:09:41.239
+John Talburt: That that product or that service has to meet.
+
+94
+00:09:41.339 --> 00:09:45.259
+John Talburt: And if it meets those, then it passes quality control.
+
+95
+00:09:45.939 --> 00:09:50.189
+John Talburt: And I think I also mentioned earlier that we've kind of gone through
+
+96
+00:09:50.339 --> 00:09:53.159
+John Talburt: some cycles here in the United States.
+
+97
+00:09:53.589 --> 00:10:00.519
+John Talburt: Between quality control Which is inspecting the final product.
+
+98
+00:10:00.679 --> 00:10:03.849
+John Talburt: And then the other side of that is quality assurance.
+
+99
+00:10:04.239 --> 00:10:11.159
+John Talburt: And quality assurance are those things that you do during the building process, during the manufacturing process.
+
+100
+00:10:11.549 --> 00:10:14.569
+John Talburt: To check, to be sure that
+
+101
+00:10:14.829 --> 00:10:21.409
+John Talburt: That the final product or the final service that you build will meet quality control standards.
+
+102
+00:10:21.859 --> 00:10:26.109
+John Talburt: And those things that you do during the process
+
+103
+00:10:26.259 --> 00:10:32.059
+John Talburt: are called quality assurance. You're trying to assure that you will meet quality control.
+
+104
+00:10:32.879 --> 00:10:36.079
+John Talburt: So, that's a couple of things. The other is that…
+
+105
+00:10:36.309 --> 00:10:42.989
+John Talburt: All of the failures of quality assurance and quality control are recorded
+
+106
+00:10:43.439 --> 00:10:59.919
+John Talburt: or should be recorded, and then those should be analyzed to try to continually improve your process to eliminate those sources of problems that you detect through quality assurance and quality control. So those are two very essential parts of any
+
+107
+00:11:00.099 --> 00:11:01.639
+John Talburt: quality process.
+
+108
+00:11:01.969 --> 00:11:06.439
+John Talburt: So, anyway, back to, to, shoehardt.
+
+109
+00:11:08.139 --> 00:11:17.039
+John Talburt: His idea was that you need to constantly check your product, your quality control.
+
+110
+00:11:17.479 --> 00:11:23.879
+John Talburt: And so, it turns out, then, that it depends on what you're building, right?
+
+111
+00:11:24.289 --> 00:11:31.319
+John Talburt: So, in many cases, you can't inspect every product that you build.
+
+112
+00:11:31.819 --> 00:11:37.579
+John Talburt: For a car, you probably can. I mean, even though they build hundreds of cars a day.
+
+113
+00:11:37.729 --> 00:11:40.449
+John Talburt: It's practical to go in and
+
+114
+00:11:40.859 --> 00:11:46.809
+John Talburt: Inspect every one of them to be sure that it meets the quality control standards that you have.
+
+115
+00:11:47.199 --> 00:11:50.439
+John Talburt: But for other things, that…
+
+116
+00:11:50.779 --> 00:11:55.109
+John Talburt: It can prove to be very difficult, or in some cases, impossible.
+
+117
+00:11:55.779 --> 00:12:02.249
+John Talburt: So, in the case, for example, suppose you're building, hairpins.
+
+118
+00:12:02.609 --> 00:12:08.169
+John Talburt: You know, and you're gonna produce millions of these hairpins, or hundreds of thousands of these a day.
+
+119
+00:12:08.459 --> 00:12:14.079
+John Talburt: But you want to be sure they're good, they're correct, and they're doing what they're supposed to do.
+
+120
+00:12:14.409 --> 00:12:20.939
+John Talburt: And so in that case, what you would do is you would sample those. You couldn't… you couldn't expect every one of them.
+
+121
+00:12:21.049 --> 00:12:28.479
+John Talburt: So you would have a way of sampling the outputs, all the hairpins you were building, And,
+
+122
+00:12:29.019 --> 00:12:38.329
+John Talburt: And then you would base it on that, and that's… that's what statistical process control… we call it statistical. We do sampling.
+
+123
+00:12:38.989 --> 00:12:44.429
+John Talburt: The other place where it'd be impossible if you're building bonbons or some kind of candy.
+
+124
+00:12:44.649 --> 00:12:48.729
+John Talburt: Right? You're manufacturing, some kind of food.
+
+125
+00:12:48.909 --> 00:12:54.379
+John Talburt: You wouldn't be able to… Taste every one of them, or you wouldn't have anything to sell, right?
+
+126
+00:12:54.769 --> 00:13:01.049
+John Talburt: So, so anyway, this is the reason, then, for statistical process control.
+
+127
+00:13:01.349 --> 00:13:06.699
+John Talburt: And he pioneered the application of statistics, like sampling and other things.
+
+128
+00:13:06.799 --> 00:13:08.689
+John Talburt: To the idea of quality.
+
+129
+00:13:09.619 --> 00:13:11.069
+John Talburt: And,
+
+130
+00:13:11.629 --> 00:13:19.119
+John Talburt: And some of the principles he establishes that data have no meaning apart from their context, so it only becomes information
+
+131
+00:13:19.429 --> 00:13:24.589
+John Talburt: When data is put into the proper context,
+
+132
+00:13:24.729 --> 00:13:29.779
+John Talburt: The other thing, and this became quite important, especially for some others that we'll talk about.
+
+133
+00:13:30.229 --> 00:13:37.149
+John Talburt: That data contain both signals and noise, and so this is the beginning of this idea that you can have
+
+134
+00:13:37.259 --> 00:13:44.239
+John Talburt: poor quality data. There's things in the data that you don't want, something that's wrong, anomalies.
+
+135
+00:13:44.369 --> 00:13:54.039
+John Talburt: And here, he was, again, looking at it from a physicist's standpoint, and he was saying, well, it's signal and noise. In other words, it's good data, and
+
+136
+00:13:54.519 --> 00:13:55.769
+John Talburt: problem data.
+
+137
+00:13:56.269 --> 00:14:02.849
+John Talburt: And you have to separate those, and so this is sort of the beginning of the idea of data quality control.
+
+138
+00:14:05.019 --> 00:14:10.389
+John Talburt: And then, this is something interesting, because this gets misattributed a lot.
+
+139
+00:14:10.719 --> 00:14:18.259
+John Talburt: He invented the idea of plan, do, check, act cycle, this repeated cycle, PDCA.
+
+140
+00:14:18.599 --> 00:14:31.049
+John Talburt: Unfortunately, most people believe that dimming, that we'll talk about later, invented this, but he didn't. It was Shuhart, and he introduced it to dimming. Deming and Shuhart worked together quite a bit.
+
+141
+00:14:31.619 --> 00:14:37.849
+John Talburt: So the PDCA cycle really belongs to, or was invented by, Shuhart.
+
+142
+00:14:38.649 --> 00:14:45.319
+John Talburt: So, again, statistical process control is a very simplified thing. We'll talk more about it later.
+
+143
+00:14:45.639 --> 00:14:51.139
+John Talburt: is that it's a time thing, right? When you're building something and manufacturing something.
+
+144
+00:14:51.299 --> 00:14:54.319
+John Talburt: You're repeatedly building it over time.
+
+145
+00:14:54.549 --> 00:15:03.369
+John Talburt: And you have, you're going to be sampling and looking for things that are, out of…
+
+146
+00:15:03.539 --> 00:15:18.669
+John Talburt: out of range or out of order anomalies that you don't want. And so, the idea is that over time, you can see time moving from left to right in this chart. You take a sample and you look and see if there are defects, right?
+
+147
+00:15:18.979 --> 00:15:20.539
+John Talburt: And so,
+
+148
+00:15:20.939 --> 00:15:30.499
+John Talburt: there's certain, what we call, tolerance, right? You… you can't stop the production line just because some things are defective. You want to try to remove them, but…
+
+149
+00:15:30.789 --> 00:15:33.259
+John Talburt: You're looking for defects.
+
+150
+00:15:33.629 --> 00:15:38.279
+John Talburt: And these, this graph represents things that
+
+151
+00:15:38.519 --> 00:15:43.779
+John Talburt: The samples have certain levels of defects in them.
+
+152
+00:15:44.239 --> 00:15:50.199
+John Talburt: But with… if they stay within what are called the control limits, upper and lower control limits.
+
+153
+00:15:50.389 --> 00:15:53.069
+John Talburt: Then it's… it makes sense.
+
+154
+00:15:53.209 --> 00:16:02.549
+John Talburt: And you, you, you take… you look at that, and you say, well, yeah, there's gonna be some natural variation, some normal variation.
+
+155
+00:16:02.669 --> 00:16:12.429
+John Talburt: In any manufacturing process, Machines are gonna wear, and they're gonna make some… mistakes.
+
+156
+00:16:12.539 --> 00:16:18.099
+John Talburt: As they… as the machines get older, or you have different operators, and so forth.
+
+157
+00:16:18.209 --> 00:16:26.969
+John Talburt: But as long as you stay within the limits… so what you're trying to look for in statistical process control is when a process goes out of control.
+
+158
+00:16:27.119 --> 00:16:29.999
+John Talburt: When you start seeing continual products.
+
+159
+00:16:30.119 --> 00:16:36.689
+John Talburt: Or anomalies, and they start exceeding your limits, either your lower limits or your upper limits.
+
+160
+00:16:36.909 --> 00:16:41.279
+John Talburt: And so, this is the idea of statistical process control.
+
+161
+00:16:42.009 --> 00:16:44.839
+John Talburt: And that's Shuhart's big contribution.
+
+162
+00:16:45.109 --> 00:16:46.269
+John Talburt: And,
+
+163
+00:16:47.759 --> 00:16:56.559
+John Talburt: So again, he worked closely with Edward Deming, who's perhaps one of the more famous people in the area of quality, especially manufacturing.
+
+164
+00:16:57.319 --> 00:17:02.599
+John Talburt: And again, he was a statistician, but he was also a professor and an engineer as well.
+
+165
+00:17:04.989 --> 00:17:12.219
+John Talburt: He's a lot more philosophical than you are. He came up with what he called a system of profound knowledge.
+
+166
+00:17:13.619 --> 00:17:19.659
+John Talburt: And he was a big, on the list.
+
+167
+00:17:19.889 --> 00:17:29.039
+John Talburt: He came up with 14 points for organizational transformation, how to transform organizations. So, in some ways, not only was he father of
+
+168
+00:17:29.259 --> 00:17:30.539
+John Talburt: quality.
+
+169
+00:17:30.759 --> 00:17:45.719
+John Talburt: But, there's also sort of the beginning of what we call change management, which is another course that we'll be offering in the spring that talks about how you transform organizations to stay current.
+
+170
+00:17:46.169 --> 00:17:52.189
+John Talburt: And then, perhaps the thing that he's most famous for
+
+171
+00:17:52.349 --> 00:17:58.039
+John Talburt: is the seven deadly sins of Management. We'll talk a little bit about those.
+
+172
+00:17:58.749 --> 00:18:06.939
+John Talburt: The Seven Deadly Sins is one of his big contributions. Now, he adopted Shuhart's Plan, Do, Check Act.
+
+173
+00:18:07.099 --> 00:18:13.419
+John Talburt: But he felt like that instead of checking, of what had happened.
+
+174
+00:18:13.539 --> 00:18:25.109
+John Talburt: If you find something wrong, you should study it. So, he changed the Plan, Do, Check Act into Plan, Do, Study Act, PDSA, just to kind of…
+
+175
+00:18:25.409 --> 00:18:28.599
+John Talburt: make it his own. That's what consultants do.
+
+176
+00:18:29.599 --> 00:18:35.679
+John Talburt: And he was a big advocate and promoter of Schuhart's statistical process control.
+
+177
+00:18:36.439 --> 00:18:41.629
+John Talburt: And, then, again.
+
+178
+00:18:41.899 --> 00:18:49.449
+John Talburt: The importance of process thinking, thinking about things in terms of the process that's used to create something.
+
+179
+00:18:49.819 --> 00:19:02.089
+John Talburt: So this is some of the important points of dimming, and again, it's quite famous. There's several… there's still a dimming society, and they still give awards for…
+
+180
+00:19:02.309 --> 00:19:04.949
+John Talburt: Good quality management.
+
+181
+00:19:06.119 --> 00:19:11.589
+John Talburt: And sort of the key message that Deming has is that,
+
+182
+00:19:12.409 --> 00:19:15.529
+John Talburt: He was coming from a time in manufacturing.
+
+183
+00:19:15.759 --> 00:19:19.819
+John Talburt: Where manufacturers, if there were problems with their products.
+
+184
+00:19:20.099 --> 00:19:26.289
+John Talburt: always tended to blame the workers. Oh, you know, somebody messed up on the assembly line, or whatever.
+
+185
+00:19:26.529 --> 00:19:30.609
+John Talburt: And Deming's message was that they had it all backwards.
+
+186
+00:19:30.739 --> 00:19:34.069
+John Talburt: That these problems, and the cause of these problems.
+
+187
+00:19:34.179 --> 00:19:46.369
+John Talburt: were mostly in the management of the process, that management was 90% responsible, and only 10% of the problems were actually coming from the workers. So he really turned that on its head.
+
+188
+00:19:46.789 --> 00:19:51.629
+John Talburt: And, he came up with the seven deadly sins. Again, probably have…
+
+189
+00:19:51.779 --> 00:19:54.639
+John Talburt: His most famous contribution to quality.
+
+190
+00:19:55.089 --> 00:20:02.769
+John Talburt: And so the first one is the lack of constancy of purpose.
+
+191
+00:20:02.949 --> 00:20:12.429
+John Talburt: In other words, the idea that when you're making something, you're manufacturing, you keep changing your target, you keep moving and,
+
+192
+00:20:12.699 --> 00:20:18.169
+John Talburt: It's certainly true that you need to manage the life cycle of a product, and not
+
+193
+00:20:18.469 --> 00:20:31.049
+John Talburt: keep making the same thing over and over, even when it's not popular or selling. But at the same time, you… you can't just keep changing the direction that you're going constantly.
+
+194
+00:20:31.089 --> 00:20:42.129
+John Talburt: Cause this really, causes the workers to lose attention and become confused about what's the real mission, that you're under.
+
+195
+00:20:42.219 --> 00:20:49.929
+John Talburt: So, when you see these sorts of changes, he says that's a symptom of a problem that's going to result in poor quality.
+
+196
+00:20:50.689 --> 00:20:57.729
+John Talburt: And this one, I wish people would, still… Think about this one.
+
+197
+00:20:58.059 --> 00:21:01.549
+John Talburt: And that's emphasis on short-term profits.
+
+198
+00:21:01.749 --> 00:21:08.129
+John Talburt: And that's certainly a huge problem that we have today, because now, in our current financial situation.
+
+199
+00:21:08.329 --> 00:21:16.719
+John Talburt: The way, the observer's work is that now everything is on a quarterly basis, right?
+
+200
+00:21:17.219 --> 00:21:21.999
+John Talburt: Instead of thinking about the year, two years, things that ahead.
+
+201
+00:21:22.299 --> 00:21:24.969
+John Talburt: And what's going to be the long-term benefit?
+
+202
+00:21:25.799 --> 00:21:31.789
+John Talburt: The financial analysts are always on everybody's case at the end of a quarter.
+
+203
+00:21:32.039 --> 00:21:40.969
+John Talburt: And they try to project what you should be making, what kind of profits you have each quarter, rather than thinking of the long-term investment.
+
+204
+00:21:41.499 --> 00:21:44.919
+John Talburt: But anyway, he said that was a symptom of poor quality, is
+
+205
+00:21:45.179 --> 00:21:53.979
+John Talburt: Constantly looking at short-term, somewhat like constancy of purpose, where you're changing your focus, short term.
+
+206
+00:21:56.889 --> 00:22:10.569
+John Talburt: Another is performance appraisals that promote fear. And again, this is still a bit of a problem, I think, in modern corporations, but not as bad as it was in the old days.
+
+207
+00:22:10.839 --> 00:22:12.839
+John Talburt: And this is the idea that…
+
+208
+00:22:14.179 --> 00:22:33.519
+John Talburt: you know, we're watching you and your performance, and you have to meet certain standards or quotas, or, you know, you're going to get fired, you're going to get demoted. Instead of trying to encourage workers, you tried to kind of motivate them by fear of losing their job.
+
+209
+00:22:34.589 --> 00:22:42.799
+John Talburt: The other, and again, some of these still, are important today.
+
+210
+00:22:43.119 --> 00:22:45.809
+John Talburt: This idea of mobility of management.
+
+211
+00:22:46.649 --> 00:22:50.259
+John Talburt: And we still sort of have this idea
+
+212
+00:22:50.729 --> 00:22:57.429
+John Talburt: For example, now, even here at the university, we confer a degree called A degree in management.
+
+213
+00:22:57.829 --> 00:23:01.939
+John Talburt: And it's the idea that once you learn the principles of management.
+
+214
+00:23:02.149 --> 00:23:04.429
+John Talburt: You can sort of manage anything.
+
+215
+00:23:05.059 --> 00:23:11.029
+John Talburt: And so, what he was arguing against here in his day in the manufacturing processes.
+
+216
+00:23:11.489 --> 00:23:14.879
+John Talburt: They often had this idea of rotating management.
+
+217
+00:23:15.269 --> 00:23:17.309
+John Talburt: And so the guy who was,
+
+218
+00:23:17.709 --> 00:23:21.509
+John Talburt: Managing the painting of the product.
+
+219
+00:23:21.809 --> 00:23:35.209
+John Talburt: would periodically shift, and now he would be managing inventory or some other part of the company. The idea that… that you, you know, management is management, and you didn't have to learn the particulars in a particular context.
+
+220
+00:23:35.859 --> 00:23:37.559
+John Talburt: He said that was a problem.
+
+221
+00:23:38.469 --> 00:23:43.839
+John Talburt: And then, management by the use of visible numbers, or quotas.
+
+222
+00:23:44.189 --> 00:23:50.299
+John Talburt: And this… this is, again, we see this a lot today.
+
+223
+00:23:50.579 --> 00:24:01.279
+John Talburt: the idea that, you know, you're judging your employees by certain quotas of what they're able to do. This happens not only in manufacturing, but in sales and many other things.
+
+224
+00:24:01.739 --> 00:24:05.839
+John Talburt: And also, it's very important to note, he said it's by visible numbers, where
+
+225
+00:24:06.049 --> 00:24:11.689
+John Talburt: You know, I've seen, you know, like, when they do fundraising, and they put a big thermometer on the wall.
+
+226
+00:24:11.979 --> 00:24:16.319
+John Talburt: So, you know, we've reached this level of contribution, or that level.
+
+227
+00:24:16.529 --> 00:24:18.799
+John Talburt: And making it visible to everyone.
+
+228
+00:24:19.479 --> 00:24:22.739
+John Talburt: And he said that's not a good way to manage.
+
+229
+00:24:23.029 --> 00:24:29.219
+John Talburt: Also, if you have… and again, this has to do mostly with the manufacturing, where people worked on a shop floor.
+
+230
+00:24:29.599 --> 00:24:32.019
+John Talburt: That there are excessive medical costs.
+
+231
+00:24:32.139 --> 00:24:43.169
+John Talburt: That's an indicator that things not only were not saved, but that the processes were not being run properly, and that could result in poor quality.
+
+232
+00:24:43.639 --> 00:24:52.429
+John Talburt: And also, excessive cost of liability. If you have liability for Producing something that causes problem
+
+233
+00:24:52.919 --> 00:24:56.359
+John Talburt: We see this all the time in recalls, right? Where…
+
+234
+00:24:56.679 --> 00:25:03.199
+John Talburt: Something is manufactured, and it turns out to be… have some unforeseen
+
+235
+00:25:03.439 --> 00:25:07.189
+John Talburt: Problem when it gets out into the public and they start using it.
+
+236
+00:25:07.339 --> 00:25:18.649
+John Talburt: So, excessive cost of liability. So, he said these are the main things that you should look for to see if companies were really functioning and producing quality products or not.
+
+237
+00:25:22.459 --> 00:25:28.909
+John Talburt: So, and again, the big issue here is this idea of continuous improvement.
+
+238
+00:25:29.669 --> 00:25:34.759
+John Talburt: So again, if you look back at the Plan, Do, Check Act, it is a,
+
+239
+00:25:36.129 --> 00:25:41.849
+John Talburt: a cycle. It's not something that just happens once. It's a cycle, and…
+
+240
+00:25:42.239 --> 00:25:48.489
+John Talburt: So, you plan to do something, you do it, and then you see if you actually were able to do it correctly.
+
+241
+00:25:48.849 --> 00:26:00.889
+John Talburt: And if you weren't able to do that, then you act on that to improve it, and improve your plan, and do it differently, so that this results in a continuous improvement.
+
+242
+00:26:03.719 --> 00:26:08.529
+John Talburt: So, Denning had a lot of contribution, again, still very… considered very important today.
+
+243
+00:26:09.609 --> 00:26:14.099
+John Talburt: And by the way, again, the Japanese contributed a lot to this.
+
+244
+00:26:15.839 --> 00:26:28.619
+John Talburt: And we still use today a lot of words from Japan, because they… they were so enthusiastic about adopting these things, and they had their own, of course, language for describing them.
+
+245
+00:26:29.089 --> 00:26:34.639
+John Talburt: And so, this… this idea of continuous improvement It's called Kaizen.
+
+246
+00:26:35.519 --> 00:26:41.379
+John Talburt: Which in Japanese means change for the better. In other words, you keep… keep making it better.
+
+247
+00:26:44.479 --> 00:26:51.579
+John Talburt: Another very important, pioneer of quality was a guy named Joseph Duran.
+
+248
+00:26:53.979 --> 00:26:58.459
+John Talburt: And he's most famous for what's called the Quality Trilogy.
+
+249
+00:26:59.429 --> 00:27:03.449
+John Talburt: Now, it's interesting that it's not… it's sort of a…
+
+250
+00:27:04.159 --> 00:27:13.189
+John Talburt: the Plan, Do, Check, Act without one of the the, four parts, Because it's a trilogy.
+
+251
+00:27:13.629 --> 00:27:20.029
+John Talburt: And, but what he's famous for is, he says that quality comes
+
+252
+00:27:20.149 --> 00:27:27.739
+John Talburt: from these three things. It comes from planning, Improvement, which, sort of…
+
+253
+00:27:27.959 --> 00:27:37.069
+John Talburt: sort of, you know, automatically includes the idea of study. You can't… you can't really improve something if you don't study and understand what you need to improve.
+
+254
+00:27:37.219 --> 00:27:38.749
+John Talburt: And then control.
+
+255
+00:27:39.189 --> 00:27:50.039
+John Talburt: And so, he's very famous for this idea of quality control, and he made the statement the…
+
+256
+00:27:50.179 --> 00:27:54.189
+John Talburt: You know, you can tell quality
+
+257
+00:27:55.009 --> 00:27:57.969
+John Talburt: If something… if you build something that
+
+258
+00:27:58.099 --> 00:28:01.249
+John Talburt: It's fit for purpose, or fit for use.
+
+259
+00:28:01.819 --> 00:28:11.559
+John Talburt: And so, he's sort of the source of… some people use this definition, and they say, well, what is data quality? They say, well, it's data that's fit for use.
+
+260
+00:28:11.769 --> 00:28:15.499
+John Talburt: And this comes, really, from Duran in one of his books.
+
+261
+00:28:15.879 --> 00:28:22.159
+John Talburt: But again, as we said earlier in the course,
+
+262
+00:28:23.769 --> 00:28:28.949
+John Talburt: We tend to separate the concepts of data quality and information quality.
+
+263
+00:28:29.219 --> 00:28:34.039
+John Talburt: Certainly, data quality is meeting, data requirements.
+
+264
+00:28:34.419 --> 00:28:37.019
+John Talburt: That's the definition of policy in ISO.
+
+265
+00:28:37.119 --> 00:28:47.989
+John Talburt: is… quality is meeting requirements. So, data quality is meeting data requirements. But just because data meets the requirements, you've got good data, as they say.
+
+266
+00:28:48.209 --> 00:28:57.249
+John Talburt: you put it into a process, doesn't mean that you will get a quality product out of it. You'll get a product, a quality information product.
+
+267
+00:28:57.499 --> 00:29:16.289
+John Talburt: there has to be a process, and it has to be planned, you have to continually improve that process, and you're really focusing on the quality control. That is, after you build it, is the thing you built have quality? Does it meet requirements of the users of that?
+
+268
+00:29:16.539 --> 00:29:29.769
+John Talburt: So, you're looking at both ends of this process. In the raw product ingestion, when you're bringing data in, you want data to be good, you want it to be clean, you want it to meet requirements.
+
+269
+00:29:29.909 --> 00:29:39.169
+John Talburt: But you still have to check at the end and manage it as a product. In other words, you're taking that data, you're putting it through processes.
+
+270
+00:29:39.439 --> 00:29:46.409
+John Talburt: And you're coming out with an information, product, or service, then you have to check that as well.
+
+271
+00:29:46.579 --> 00:29:54.669
+John Talburt: And so there's an… but they're different kinds of requirements, right? They're not requirements like… Coverage and,
+
+272
+00:29:55.019 --> 00:30:13.419
+John Talburt: consistency and those sorts of things. Now you're talking about the requirements of the user. Is that… is it really what they want? Is it doing what they want it to do? So you have different types of requirements. So it's still quality in the sense of meeting requirements, but they're different kinds of requirements.
+
+273
+00:30:13.799 --> 00:30:26.649
+John Talburt: On the data quality side, on the left-hand side, as data comes in, the requirements have to do with characteristics of the data. The amount of data, the manipulability of the data.
+
+274
+00:30:26.969 --> 00:30:29.969
+John Talburt: The, the relevance of the data.
+
+275
+00:30:30.079 --> 00:30:32.619
+John Talburt: The accuracy of the data.
+
+276
+00:30:32.769 --> 00:30:37.349
+John Talburt: And you're looking at that data in terms of those data quality dimensions.
+
+277
+00:30:37.619 --> 00:30:43.379
+John Talburt: But then, when you run it through the process, and you produce an information product or service.
+
+278
+00:30:43.449 --> 00:30:58.359
+John Talburt: You have different kinds of requirements there. Those are the value requirements. How valuable is what you've built in terms of, is it producing value for the organization, and is it producing value for the users of that product or service?
+
+279
+00:30:58.879 --> 00:31:02.419
+John Talburt: And so then it becomes more of a value proposition.
+
+280
+00:31:02.619 --> 00:31:05.519
+John Talburt: So, we'll continue to talk about this idea.
+
+281
+00:31:07.919 --> 00:31:18.069
+John Talburt: Okay, so… He was also big on quality planning. You needed to ask these W questions, so…
+
+282
+00:31:18.199 --> 00:31:23.559
+John Talburt: Who, you know, what and how. Who are your customers?
+
+283
+00:31:24.099 --> 00:31:27.219
+John Talburt: What do they want?
+
+284
+00:31:27.359 --> 00:31:30.649
+John Talburt: What are their quality characteristics?
+
+285
+00:31:31.009 --> 00:31:33.359
+John Talburt: So their quality characteristics
+
+286
+00:31:33.519 --> 00:31:40.719
+John Talburt: May not be the ones that we think of when we're ingesting data and using data quality requirements.
+
+287
+00:31:40.979 --> 00:31:57.769
+John Talburt: their characteristics. They're buying a car, they want to know, how does it handle? Does it run smoothly? Is the interior quiet? All kinds of things that… that are not part of the parts that go into the
+
+288
+00:31:58.069 --> 00:32:06.249
+John Talburt: the building of the car. I mean, certainly there's a connection there, but there are different types of requirements. When you're building the car.
+
+289
+00:32:06.599 --> 00:32:18.709
+John Talburt: you're interested in that the parts fit together, the tolerances in terms of the diameters and the tensile strength, and so forth. You're looking at those intrinsic qualities.
+
+290
+00:32:18.839 --> 00:32:28.199
+John Talburt: But after you build the car, build that product, then it's a different set of requirements, but those are the requirements of the consumer of that product.
+
+291
+00:32:28.349 --> 00:32:30.639
+John Talburt: And the same thing is true for data.
+
+292
+00:32:31.039 --> 00:32:43.559
+John Talburt: So you're building an information product, like we talked earlier, you're building, here at the school, they'll build your transcript, right, or they'll build your, your bill.
+
+293
+00:32:43.559 --> 00:32:53.359
+John Talburt: Right? Your fees and those sort of things. They've put together all this information to build that product that's, useful and for you.
+
+294
+00:32:54.309 --> 00:32:56.789
+John Talburt: So, and then how…
+
+295
+00:32:57.299 --> 00:33:04.829
+John Talburt: How do you make it, how you'll deliver it, all the things that go into the product service itself.
+
+296
+00:33:07.849 --> 00:33:12.879
+John Talburt: So again, this is sort of his contribution, but again, I see this…
+
+297
+00:33:13.189 --> 00:33:15.849
+John Talburt: Is one of the places where,
+
+298
+00:33:16.269 --> 00:33:27.109
+John Talburt: people have kind of misapplied what Joseph… what Joanne was saying when they say, you know, well, what is data quality? Well, it's data that's fit for use.
+
+299
+00:33:27.389 --> 00:33:41.539
+John Talburt: And that's, it's okay, but what he was talking about was the product, not the data, or not the parts that go in. He was talking about quality control. He was saying, you know.
+
+300
+00:33:41.709 --> 00:33:51.019
+John Talburt: The quality is when you build something that people want and use, and it fits their… it fits their purpose, or what they want to use it for.
+
+301
+00:33:51.339 --> 00:34:06.469
+John Talburt: If it's a car, it pulls a trailer, or it moves dirt, or it's quiet, or it saves gas, or it's powerful. Those are the kinds of things, not the kinds of things we think about when we think about
+
+302
+00:34:06.789 --> 00:34:14.119
+John Talburt: the… the input side, where we're inputting the materials and the parts. We… so…
+
+303
+00:34:14.239 --> 00:34:18.719
+John Talburt: We have… there are different quality characteristics that we're looking for.
+
+304
+00:34:19.499 --> 00:34:22.409
+John Talburt: But nevertheless, I see that all the time still.
+
+305
+00:34:23.609 --> 00:34:36.939
+John Talburt: So, his big emphasis was on quality control. Again, quality control is at the end, after you've built what you're building, whether it's a data product, I'm sorry, an information product.
+
+306
+00:34:37.029 --> 00:34:47.349
+John Talburt: or a manufactured product. Quality control is checking that the final product is meeting your… the requirements of the user.
+
+307
+00:34:48.319 --> 00:34:53.929
+John Talburt: So, and his idea was that this is the way you should start, and
+
+308
+00:34:54.129 --> 00:35:02.649
+John Talburt: And again, this… I don't know why, when we… we moved all of these principles over, to,
+
+309
+00:35:03.179 --> 00:35:21.129
+John Talburt: to information quality, it took us so long to kind of realize what he was talking about here, and that is, you… the way you manage information quality, or manage information, is as a product. You need to really think of it as a product, and this is exactly what he's saying here.
+
+310
+00:35:21.219 --> 00:35:28.509
+John Talburt: Quality control, in Duran's view, is the governance process that makes sure things don't get worse.
+
+311
+00:35:28.599 --> 00:35:41.709
+John Talburt: In other words, you really need to focus on the end product that you're building, whether it's an information product or a manufactured product. That's what tells you whether or not you're on the right track or not.
+
+312
+00:35:43.529 --> 00:35:56.849
+John Talburt: And of course, that's inspection of actual performance against planned performance. The way you intended the product to work, or the information product to do, does… is it really meeting that?
+
+313
+00:35:57.359 --> 00:36:06.939
+John Talburt: And of course, if there are differences, then that calls for an analysis we call a root cause investigation, or root cause analysis.
+
+314
+00:36:07.529 --> 00:36:14.749
+John Talburt: And then again, he's very much on the camp of Shuhart and Deming to say that,
+
+315
+00:36:15.269 --> 00:36:30.879
+John Talburt: You know, in many cases, you have to use statistical measures of performance to ensure control, because in many cases, it's impractical to inspect each product individually. So, often you have to come to some kind of
+
+316
+00:36:31.029 --> 00:36:33.599
+John Talburt: sampling method.
+
+317
+00:36:34.549 --> 00:36:40.789
+John Talburt: And so, quality improvement is focused on fitness for use and error reduction.
+
+318
+00:36:40.949 --> 00:36:47.559
+John Talburt: Right, so again, he's talking about when he says, fitness for youth, or Fitness for Purpose, or…
+
+319
+00:36:47.939 --> 00:36:53.489
+John Talburt: the terms that people use. He's talking about the product itself.
+
+320
+00:36:55.929 --> 00:37:01.369
+John Talburt: And you want to keep improving that, this idea of continuous improvement.
+
+321
+00:37:02.079 --> 00:37:05.919
+John Talburt: He also advocated a thing called breakdown thinking.
+
+322
+00:37:06.579 --> 00:37:14.089
+John Talburt: to change the system and improve performance, and what he meant by… I'm sorry, not breakthrough, breakthrough thinking.
+
+323
+00:37:14.419 --> 00:37:19.969
+John Talburt: Again, he thought that even though you wanted continuous improvement.
+
+324
+00:37:20.469 --> 00:37:25.609
+John Talburt: He wanted people to think about, you know, how… what would be a radical change?
+
+325
+00:37:25.769 --> 00:37:29.049
+John Talburt: that can improve things? What's a breakthrough thinking?
+
+326
+00:37:29.409 --> 00:37:37.729
+John Talburt: That could, you know, let's just think about how would we… could we completely change what we're doing to make things even better?
+
+327
+00:37:38.019 --> 00:37:41.959
+John Talburt: So, again, even though he was into this idea of
+
+328
+00:37:42.579 --> 00:37:48.999
+John Talburt: quality improvement, and the idea that, Deming and others had talked about continuous improvement.
+
+329
+00:37:49.459 --> 00:37:54.439
+John Talburt: It's sort of like now the modern view of evolution, you know, I mean…
+
+330
+00:37:54.579 --> 00:38:00.249
+John Talburt: Darwin's initial idea is that it was a very, very slow change over generations.
+
+331
+00:38:00.579 --> 00:38:10.469
+John Talburt: But, there's also, introduced the same thing, that there are certain things, there's certain radical quick changes
+
+332
+00:38:10.999 --> 00:38:16.559
+John Talburt: For example, the… asteroid that hit the Earth in… Completely changed the…
+
+333
+00:38:16.719 --> 00:38:20.399
+John Talburt: The evolution of dinosaurs and reptiles.
+
+334
+00:38:20.559 --> 00:38:22.529
+John Talburt: Shifted over to mammals.
+
+335
+00:38:22.739 --> 00:38:36.359
+John Talburt: That, that you have to think about both. You have to think about continually improving the process that you have, but be open-minded to think, is there a new way, a big change in the process that could really make things better?
+
+336
+00:38:38.909 --> 00:38:41.249
+John Talburt: So Duran had a lot to contribute.
+
+337
+00:38:41.849 --> 00:38:45.809
+John Talburt: And then we get into the more modern, era.
+
+338
+00:38:46.459 --> 00:38:50.919
+John Talburt: And a guy named Armand Feigenbaum
+
+339
+00:38:51.969 --> 00:38:54.859
+John Talburt: And he… he was, by this time.
+
+340
+00:38:55.279 --> 00:38:58.639
+John Talburt: Quality control and become a profession.
+
+341
+00:38:58.759 --> 00:39:03.539
+John Talburt: And he was a quality control person. That was his occupation expert.
+
+342
+00:39:04.599 --> 00:39:06.569
+John Talburt: And, he…
+
+343
+00:39:06.849 --> 00:39:16.069
+John Talburt: is the one who's responsible for this term TQM, or Total Quality Control, or Total Quality Management.
+
+344
+00:39:16.799 --> 00:39:22.319
+John Talburt: So, and the idea here, the total means
+
+345
+00:39:22.469 --> 00:39:26.419
+John Talburt: That everyone in the process is thinking about
+
+346
+00:39:26.719 --> 00:39:32.339
+John Talburt: The end product, and is it going to meet the consumer or the customer's need?
+
+347
+00:39:34.059 --> 00:39:42.979
+John Talburt: So even the people that are sitting in the plant, they're building a car, they need to be thinking about what they're doing as contributing.
+
+348
+00:39:43.199 --> 00:39:54.329
+John Talburt: To the end product, and that everyone is thinking, everyone in the process, they're not just thinking about putting this bolt on that they have to do 100 times every day.
+
+349
+00:39:54.499 --> 00:40:02.489
+John Talburt: That what that contributes to in terms of the overall quality of the product, in terms of what customers want.
+
+350
+00:40:03.849 --> 00:40:09.409
+John Talburt: He also, came up with the idea.
+
+351
+00:40:09.839 --> 00:40:13.149
+John Talburt: Excuse me, what was called a hidden plan.
+
+352
+00:40:15.879 --> 00:40:21.679
+John Talburt: And I think all of you have seen this at one time or another. When you have some kind of process.
+
+353
+00:40:22.059 --> 00:40:26.969
+John Talburt: Where you're building something, or you're building, or you're performing some kind of service.
+
+354
+00:40:27.589 --> 00:40:34.429
+John Talburt: That you have planned out a nice process that's supposed to work.
+
+355
+00:40:34.709 --> 00:40:38.659
+John Talburt: But when it starts in certain places where it's not working.
+
+356
+00:40:39.209 --> 00:40:46.449
+John Talburt: Instead of fixing that process at that point to make it work, We work around it.
+
+357
+00:40:46.799 --> 00:40:50.839
+John Talburt: In other words, we get to, you know, we produce a report.
+
+358
+00:40:51.089 --> 00:41:00.189
+John Talburt: And that report should be… have controls on it, so that we should just be able to take that report and deliver it to the user of that report.
+
+359
+00:41:00.409 --> 00:41:08.309
+John Talburt: But we know that in the process of building that report, there are certain things that are just not working properly. It's not doing exactly what
+
+360
+00:41:08.419 --> 00:41:24.999
+John Talburt: the people that are using the report want, so you have to stop, intercept the report, and instead of giving it directly to the user, you have to say, okay, let's go in and check it. There's some things wrong here, so we have to go in and manually change some things and fix some things.
+
+361
+00:41:25.049 --> 00:41:29.639
+John Talburt: Before we actually get the product that we want to deliver to the customer.
+
+362
+00:41:29.889 --> 00:41:32.179
+John Talburt: And so he calls this a hidden plant.
+
+363
+00:41:32.479 --> 00:41:38.509
+John Talburt: It's this extra work or workarounds to correct mistakes that are within the ordinary factory.
+
+364
+00:41:41.139 --> 00:41:49.879
+John Talburt: And, accountability for quality. And the idea that quality, again, is part of the value proposition
+
+365
+00:41:50.009 --> 00:41:56.859
+John Talburt: And the quality needs to be seen as value, and it needs to be visible at the highest levels of management.
+
+366
+00:42:01.249 --> 00:42:05.159
+John Talburt: And then, quality cost.
+
+367
+00:42:05.469 --> 00:42:16.569
+John Talburt: Now, this is… we're going to see this is in… sort of in contrast, or maybe I shouldn't say contrast, but it's going to be sort of a different way of looking at this idea.
+
+368
+00:42:16.979 --> 00:42:21.649
+John Talburt: But Feigenbaum is saying, that,
+
+369
+00:42:22.409 --> 00:42:29.309
+John Talburt: That we need to think about… we need to realize that quality was gonna cause it. We…
+
+370
+00:42:29.599 --> 00:42:34.089
+John Talburt: To have really quality product, we're gonna have to do some things extra.
+
+371
+00:42:34.549 --> 00:42:48.439
+John Talburt: And you need to quantify the cost of the quality. Of course, you want it to be as small as possible, but it is going to cost more to get good quality. And I think most people recognize this. They're willing to pay more
+
+372
+00:42:48.679 --> 00:42:51.029
+John Talburt: For products that are higher quality.
+
+373
+00:42:51.349 --> 00:42:55.719
+John Talburt: Because it costs more to produce them. But it's interesting, we'll see that
+
+374
+00:42:55.849 --> 00:43:03.039
+John Talburt: that there's another guy, a guy named Bill Crosby, that,
+
+375
+00:43:04.079 --> 00:43:17.219
+John Talburt: sort of looked at this in another way, and again, he is an American businessman, and here's what he said. He published a whole book that says, well, quality is free.
+
+376
+00:43:17.819 --> 00:43:24.759
+John Talburt: So, this is in contrast to Feigenbaum, who said, well, you really need to pay attention and understand the cost
+
+377
+00:43:24.889 --> 00:43:26.089
+John Talburt: of quality.
+
+378
+00:43:26.239 --> 00:43:30.379
+John Talburt: And here is Crosby saying, well, but quality is free.
+
+379
+00:43:30.999 --> 00:43:36.479
+John Talburt: But, again, they're really talking about the same thing. My example is that
+
+380
+00:43:37.269 --> 00:43:46.759
+John Talburt: that, certainly, Crosby recognized it costs more to ensure quality. It took a little extra time, maybe it took extra workers.
+
+381
+00:43:47.079 --> 00:43:50.609
+John Talburt: Maybe it took more costly parts.
+
+382
+00:43:50.969 --> 00:43:56.949
+John Talburt: In information quality, it would be the time, like you're doing in your assignment of
+
+383
+00:43:57.049 --> 00:44:13.999
+John Talburt: of going through and looking at the data, seeing what the possible defects or anomalies might be, and then, you know, are they important? Do we need to correct them? Do we need to take the time and effort to fix those things? So, there's going to be extra cost
+
+384
+00:44:14.329 --> 00:44:20.629
+John Talburt: But, his point was, the reason he says that quality is free, is that extra cost
+
+385
+00:44:20.999 --> 00:44:29.129
+John Talburt: Is more than compensated by The fact that the product that you're building is worth more.
+
+386
+00:44:29.409 --> 00:44:42.219
+John Talburt: people will… you'll sell more of it, or you can charge more for it, because it's a quality product. And so, in essence, by investing in the quality management part.
+
+387
+00:44:42.489 --> 00:44:49.709
+John Talburt: That you get that back and more, so that, in essence, the cost of the quality is free.
+
+388
+00:44:49.959 --> 00:44:56.549
+John Talburt: So, again, it's just sort of another way of looking at what Feigenbaum said. Certainly, there is cost to quality.
+
+389
+00:44:56.689 --> 00:44:58.179
+John Talburt: But Crosby's…
+
+390
+00:44:58.329 --> 00:45:09.489
+John Talburt: Argument is that it really doesn't cost anything extra, because you're going to more than make up for it in the price of the product, or the… the…
+
+391
+00:45:09.819 --> 00:45:12.949
+John Talburt: The quantities that you sell of the product.
+
+392
+00:45:14.599 --> 00:45:19.559
+John Talburt: And, this is not drift, it's the DIRFT system that he invented.
+
+393
+00:45:19.799 --> 00:45:23.229
+John Talburt: doing it right the first time, right? So…
+
+394
+00:45:23.419 --> 00:45:27.309
+John Talburt: That's often said, you know,
+
+395
+00:45:27.549 --> 00:45:32.359
+John Talburt: How… if you don't have time to do it now, how are you going to find the time to fix it later?
+
+396
+00:45:33.589 --> 00:45:40.759
+John Talburt: And again, quality, this is the ISO definition. I don't know if it really comes from him or not, but…
+
+397
+00:45:41.319 --> 00:45:45.889
+John Talburt: It's the idea that quality is conformance or meeting requirements.
+
+398
+00:45:49.209 --> 00:45:50.119
+John Talburt: And…
+
+399
+00:45:50.379 --> 00:46:02.499
+John Talburt: the system of quality, the essence of quality, is prevention, right? So, just like you're doing, and you're getting data in, you're going to create some kind of an information product, like a report card, or…
+
+400
+00:46:02.629 --> 00:46:05.359
+John Talburt: A grade transcript for a grade.
+
+401
+00:46:05.639 --> 00:46:07.389
+John Talburt: Our grades for transcript.
+
+402
+00:46:07.529 --> 00:46:17.019
+John Talburt: the, you want to prevent errors as early in the process as possible.
+
+403
+00:46:17.379 --> 00:46:20.379
+John Talburt: And again, this is what I was talking about earlier.
+
+404
+00:46:20.509 --> 00:46:31.739
+John Talburt: I don't remember if I told you… Well, I will later, but… this,
+
+405
+00:46:33.239 --> 00:46:37.999
+John Talburt: The idea that… and you see this a lot even in software development.
+
+406
+00:46:38.499 --> 00:46:40.969
+John Talburt: Is this idea that it costs
+
+407
+00:46:41.699 --> 00:46:47.859
+John Talburt: The cost to prevent problems is much smaller than the cost to repair things later, so…
+
+408
+00:46:48.219 --> 00:46:55.239
+John Talburt: Whatever cost or time that it takes to do things, Correctly, the first time.
+
+409
+00:46:55.349 --> 00:47:06.959
+John Talburt: is much less than what it takes to have to pull back a product. You see these recalls all the time of having to destroy a lot of food, or recall a lot of,
+
+410
+00:47:07.219 --> 00:47:10.339
+John Talburt: products, children's…
+
+411
+00:47:10.669 --> 00:47:16.899
+John Talburt: Seats for cars, car seats, and things like that, that have some kind of defect.
+
+412
+00:47:17.169 --> 00:47:25.459
+John Talburt: And that the cost becomes 10 hundred times more than the cost of just sort of, as he said, doing it right the first time.
+
+413
+00:47:27.369 --> 00:47:36.209
+John Talburt: And the performance standard, what we're all looking for is zero defects. However, this is one that's kind of fallen into the…
+
+414
+00:47:37.229 --> 00:47:40.919
+John Talburt: I mean… If we look at Microsoft, right.
+
+415
+00:47:41.229 --> 00:47:46.619
+John Talburt: We want it to be as good as it needs to be, and certainly it would be ideal
+
+416
+00:47:46.949 --> 00:47:49.579
+John Talburt: If we had zero defects, but…
+
+417
+00:47:49.689 --> 00:47:55.429
+John Talburt: That can be impractical in many situations. It's just almost impossible in many cases
+
+418
+00:47:55.689 --> 00:48:00.169
+John Talburt: To actually get rid of every error, every anomaly, every problem.
+
+419
+00:48:00.379 --> 00:48:03.289
+John Talburt: And is it necessary?
+
+420
+00:48:03.559 --> 00:48:10.309
+John Talburt: You know, how many of these really prevent the thing that you're building from having
+
+421
+00:48:11.399 --> 00:48:16.739
+John Talburt: Being useful and meeting the requirements of the consumer of that product.
+
+422
+00:48:17.129 --> 00:48:22.239
+John Talburt: But anyway, it's always good to think about it as a goal of zero.
+
+423
+00:48:22.529 --> 00:48:24.549
+John Talburt: But it's not always achievable.
+
+424
+00:48:27.039 --> 00:48:35.569
+John Talburt: And the measure of quality is the price of nonconformance, right? So again, this is where he gets the quality as free, right?
+
+425
+00:48:35.729 --> 00:48:42.529
+John Talburt: If things don't conform and they cost you because the product is not a meeting, it's,
+
+426
+00:48:42.829 --> 00:48:48.019
+John Talburt: The requirements of the consumers, Then that tells you what your…
+
+427
+00:48:48.499 --> 00:48:56.629
+John Talburt: What you should be able to spend, that's a cap, if you will, on how much you can invest in the quality to try to eliminate the non-compliance.
+
+428
+00:48:58.399 --> 00:49:07.609
+John Talburt: So again, he was very influential, quality pioneer.
+
+429
+00:49:08.159 --> 00:49:12.029
+John Talburt: Alright, and then we see the shift over to Japan.
+
+430
+00:49:13.159 --> 00:49:20.239
+John Talburt: Where they were adopted many of these principles of Deming and Shuhart and others
+
+431
+00:49:20.369 --> 00:49:23.169
+John Talburt: Before it came back to the U.S,
+
+432
+00:49:23.599 --> 00:49:26.759
+John Talburt: And so they, they're re… they're…
+
+433
+00:49:27.129 --> 00:49:32.869
+John Talburt: Again, you can see a lot of their words embedded into our current quality processes.
+
+434
+00:49:33.559 --> 00:49:40.369
+John Talburt: So, Ishikawa… was a Japanese organizational theorist.
+
+435
+00:49:41.639 --> 00:49:49.019
+John Talburt: And he had this idea of user-friendly quality control. Again, quality control.
+
+436
+00:49:49.259 --> 00:49:58.729
+John Talburt: Is… is the inspection or the check of conformance of the final product to those,
+
+437
+00:49:59.189 --> 00:50:09.469
+John Talburt: the customer requirements. So what he means by user-friendly is he is the… the idea is that we, again, need to think about quality from the standpoint of
+
+438
+00:50:09.729 --> 00:50:12.109
+John Talburt: The finished product that we're building.
+
+439
+00:50:12.299 --> 00:50:18.079
+John Talburt: And is it friendly to the user? In other words, is it what the user is really wanting?
+
+440
+00:50:18.199 --> 00:50:24.719
+John Talburt: That's where we should really start. Not with just, we're getting data, let's clean it up the best we can.
+
+441
+00:50:25.089 --> 00:50:35.319
+John Talburt: And this idea is really entrenched. People, even today, if you go out and talk to somebody about data quality or quality control or anything.
+
+442
+00:50:35.449 --> 00:50:41.099
+John Talburt: They'll say, yeah, yeah, we get lots of data, and we spend a lot of time scrubbing and cleaning that data.
+
+443
+00:50:41.569 --> 00:50:45.079
+John Talburt: Well, that, that's probably important.
+
+444
+00:50:45.369 --> 00:50:50.839
+John Talburt: But it's not where the focus should be. The focus should be on, what am I building?
+
+445
+00:50:51.129 --> 00:50:54.019
+John Talburt: What is the product or service that I'm building?
+
+446
+00:50:54.279 --> 00:51:10.189
+John Talburt: From there, then I say, okay, what condition do I need the data to be in? What… first of all, what data do I need? And then what condition do I need it to be in, in order to build this product so that it meets the requirements of the people who are going to use it?
+
+447
+00:51:10.879 --> 00:51:21.069
+John Talburt: And not just say, well, we're getting data, let's clean it up as much as we can, and we'll throw it into the process, and surely everything will be okay.
+
+448
+00:51:21.359 --> 00:51:34.889
+John Talburt: So it's sort of the misinterpretation or misquoting of garbage in, garbage out. That's certainly true. You put really bad data into a process, you're bound to get something bad out the other end.
+
+449
+00:51:35.009 --> 00:51:37.919
+John Talburt: However, the converse is not true.
+
+450
+00:51:38.169 --> 00:51:39.739
+John Talburt: The converse is that…
+
+451
+00:51:39.899 --> 00:51:45.369
+John Talburt: If I put in good data, I will necessarily get a good product. That is not true.
+
+452
+00:51:45.549 --> 00:51:47.049
+John Talburt: It doesn't follow.
+
+453
+00:51:47.409 --> 00:51:50.979
+John Talburt: So, you have to start with the product.
+
+454
+00:51:51.199 --> 00:51:54.819
+John Talburt: All you can say from garbage in, garbage out, is that
+
+455
+00:51:55.019 --> 00:52:07.009
+John Talburt: If you didn't get garbage out, in other words, you got something good out, all you can infer is, well, I didn't put bad data in, because if I'd put the bad data in, I'd certainly have gotten bad product out.
+
+456
+00:52:07.339 --> 00:52:11.599
+John Talburt: So, we have to be careful how we apply our lodging.
+
+457
+00:52:12.739 --> 00:52:23.449
+John Talburt: What he's most famous for is the Ishikawa diagram, which nobody probably knows what it is anymore. They always know it by the fishbone name.
+
+458
+00:52:23.609 --> 00:52:29.799
+John Talburt: So, he was very much… Focused on the idea of root cause analysis.
+
+459
+00:52:30.279 --> 00:52:34.589
+John Talburt: That if something was going wrong at the product level.
+
+460
+00:52:34.749 --> 00:52:39.079
+John Talburt: What do we trace it back to? What was causing that?
+
+461
+00:52:39.349 --> 00:52:45.179
+John Talburt: And so, he was very famous for, using these diagrams to sort of
+
+462
+00:52:45.499 --> 00:52:52.359
+John Talburt: Inspire or tickle the ideas of… of what should… what are the possible things we should be looking at?
+
+463
+00:52:52.929 --> 00:53:10.109
+John Talburt: He also, you may have heard of quality circles. This arose again in Japan. This idea of getting people together, sitting down in a circle or around a table, and talking about the process and how, people could,
+
+464
+00:53:10.549 --> 00:53:20.769
+John Talburt: Get together and understand the entire process and maybe make better improvements to it, rather than just being focused on that part of the process that they were…
+
+465
+00:53:21.709 --> 00:53:23.489
+John Talburt: Empowered with.
+
+466
+00:53:25.059 --> 00:53:31.039
+John Talburt: And then emphasize this idea of the internal customer as well, that the customers are not only
+
+467
+00:53:31.349 --> 00:53:33.869
+John Talburt: The people that you're selling products to.
+
+468
+00:53:34.139 --> 00:53:40.959
+John Talburt: But there are many cases where your… your customer is internal. This is certainly true for information products.
+
+469
+00:53:41.379 --> 00:53:43.779
+John Talburt: So, here at the university, we…
+
+470
+00:53:44.229 --> 00:53:52.119
+John Talburt: we… there's certain ones that go out. For example, I mentioned the fact that we have to report… we're getting ready to report our census data.
+
+471
+00:53:52.279 --> 00:53:53.749
+John Talburt: For this semester.
+
+472
+00:53:54.069 --> 00:53:55.979
+John Talburt: to the Department of Education.
+
+473
+00:53:56.589 --> 00:53:58.339
+John Talburt: It's an external customer.
+
+474
+00:53:59.669 --> 00:54:04.189
+John Talburt: But we have a lot of internal customers that are using data all the time.
+
+475
+00:54:04.509 --> 00:54:07.759
+John Talburt: And information products, internal.
+
+476
+00:54:08.989 --> 00:54:11.049
+John Talburt: So we have to think about those.
+
+477
+00:54:11.539 --> 00:54:14.519
+John Talburt: A shared vision of what we're trying to accomplish.
+
+478
+00:54:15.099 --> 00:54:18.559
+John Talburt: And so here's the idea of the fishbone diagram.
+
+479
+00:54:19.089 --> 00:54:24.229
+John Talburt: And it's this idea that if you…
+
+480
+00:54:24.459 --> 00:54:34.109
+John Talburt: look at the outcome, what you're trying to… your product or your service that you're trying to build, and it's… there's a defect, so this was an example I found on the internet about
+
+481
+00:54:34.379 --> 00:54:36.999
+John Talburt: The problem of being late for work, and so…
+
+482
+00:54:37.509 --> 00:54:46.929
+John Talburt: what could contribute to that? Why? You know, so it could be motivation, people are not motivated, they're tired, they're lazy, dreaming about vacations.
+
+483
+00:54:47.099 --> 00:54:49.969
+John Talburt: the method, they didn't set the alarm, they didn't…
+
+484
+00:54:50.349 --> 00:54:54.199
+John Talburt: I don't have a regular time to wake.
+
+485
+00:54:54.579 --> 00:54:56.939
+John Talburt: Route to work, time management.
+
+486
+00:54:57.549 --> 00:55:03.609
+John Talburt: kids, partners, family, things that could rent, and so it just goes on. This is just a very simple example.
+
+487
+00:55:03.729 --> 00:55:08.169
+John Talburt: But the idea is, and there are many of these, depending on certain types of,
+
+488
+00:55:08.329 --> 00:55:11.029
+John Talburt: Products and services that are being built.
+
+489
+00:55:11.139 --> 00:55:17.119
+John Talburt: That are already sort of pre-populated, and the whole idea is to get you to think, again.
+
+490
+00:55:17.229 --> 00:55:25.599
+John Talburt: Back to, this idea that we saw of breakthrough thinking, right?
+
+491
+00:55:26.019 --> 00:55:29.409
+John Talburt: You need to… sometimes need to…
+
+492
+00:55:29.739 --> 00:55:38.009
+John Talburt: Go outside of what you're ordinarily thinking about, and so these diagrams help inspire people to think about many different things.
+
+493
+00:55:40.899 --> 00:55:48.289
+John Talburt: And finally… I talked about, Shaggyo Shingo… Shingo, I'm sorry.
+
+494
+00:55:48.899 --> 00:55:56.269
+John Talburt: So, Shingo, was a Japanese industrial engineer who really adopted this idea of total quality management.
+
+495
+00:55:57.009 --> 00:56:04.669
+John Talburt: And he is the major contributor to what's still now used is the Toyota production system.
+
+496
+00:56:04.919 --> 00:56:09.809
+John Talburt: And it's used by companies worldwide, not only for cars, but other things as well.
+
+497
+00:56:10.759 --> 00:56:16.179
+John Talburt: he also was a big advocate of just-in-time production.
+
+498
+00:56:18.029 --> 00:56:30.889
+John Talburt: Which is not to build a lot of things in advance and store them to have them ready in inventory, but to try to build things just in time that they… or just at the time that they needed to be
+
+499
+00:56:31.099 --> 00:56:33.889
+John Talburt: Produced for the… for the customer.
+
+500
+00:56:34.229 --> 00:56:45.919
+John Talburt: And because that made the process much more efficient, it didn't mean… it meant you didn't have to store a lot of inventory, either on the parts side or on the product side.
+
+501
+00:56:46.159 --> 00:56:54.989
+John Talburt: So, how do you… how do you work it so that you get things just in time? And that goes into the idea of lean production, right?
+
+502
+00:56:55.189 --> 00:57:00.149
+John Talburt: To do as little as possible, spend as little effort as possible.
+
+503
+00:57:00.299 --> 00:57:05.199
+John Talburt: To produce that, not to have extra labor, extra time, extra parts.
+
+504
+00:57:05.389 --> 00:57:10.029
+John Talburt: To try to be lean in producing your product or service.
+
+505
+00:57:10.889 --> 00:57:14.169
+John Talburt: And, anyway, she's very important for that.
+
+506
+00:57:14.469 --> 00:57:24.529
+John Talburt: And then, kanchi Taguchi, was also very important. He was a Japanese engineer and statistician.
+
+507
+00:57:24.759 --> 00:57:29.289
+John Talburt: And he's, most famous for the Taguchi loss function.
+
+508
+00:57:29.669 --> 00:57:34.689
+John Talburt: And it measures financial loss to society from poor quality.
+
+509
+00:57:35.049 --> 00:57:42.069
+John Talburt: And I tell you, we'll talk about another person that has really built this out.
+
+510
+00:57:42.319 --> 00:57:47.599
+John Talburt: And extended this idea a lot, as Dr. Tom Redman.
+
+511
+00:57:48.149 --> 00:57:51.999
+John Talburt: But, the idea that you,
+
+512
+00:57:52.399 --> 00:57:59.279
+John Talburt: You, you don't just think about you know, the immediate consequence.
+
+513
+00:57:59.759 --> 00:58:07.389
+John Talburt: Of, of poor quality. In other words, you've got… Poor quality, and
+
+514
+00:58:07.519 --> 00:58:14.669
+John Talburt: And I'll give you a great example, a real example, that happened not too long ago up in Vermont, I believe.
+
+515
+00:58:15.319 --> 00:58:17.499
+John Talburt: And that's the idea that,
+
+516
+00:58:17.969 --> 00:58:24.169
+John Talburt: You know, in the county assessor's office, is where…
+
+517
+00:58:24.339 --> 00:58:30.239
+John Talburt: They assess the values of property, usually houses and lots and things like that.
+
+518
+00:58:30.649 --> 00:58:35.109
+John Talburt: And… It has… they collect a lot of information about
+
+519
+00:58:35.289 --> 00:58:46.869
+John Talburt: You know, how large is the house, how many square feet, and so forth, that they can use to sort of get an idea of how much the value would be, and then how much tax to charge.
+
+520
+00:58:47.489 --> 00:59:00.649
+John Talburt: Or how to apply the tax rates to that value of the property. But often, this information is shared with real estate people, because they need to be able to sort of estimate the cost of
+
+521
+00:59:00.789 --> 00:59:17.889
+John Talburt: houses or the prices of houses somebody's selling, they'll say, well, what about the houses that were nearby? Were they similar? Do they have similar square footage, and so forth, and what did they sell for? So, real estate people use that. And so, in this little town in Vermont.
+
+522
+00:59:18.369 --> 00:59:24.829
+John Talburt: The… one of the real estate agents was allowed to come in and directly access data.
+
+523
+00:59:25.319 --> 00:59:29.089
+John Talburt: From in the… in the tax assessor's office.
+
+524
+00:59:30.549 --> 00:59:33.119
+John Talburt: But she made a mistake.
+
+525
+00:59:33.369 --> 00:59:38.279
+John Talburt: She, and the way this was a system wasn't very sophisticated.
+
+526
+00:59:38.519 --> 00:59:42.809
+John Talburt: computer system they were using. But the upshot was
+
+527
+00:59:43.239 --> 00:59:50.929
+John Talburt: She actually, in looking at the data, changed the value of one of the houses that she was looking at.
+
+528
+00:59:51.219 --> 00:59:58.639
+John Talburt: And to a really, you know, I mean, really big. So it was a house that was only a few hundred thousand dollars.
+
+529
+00:59:58.799 --> 01:00:06.829
+John Talburt: And suddenly, it became worth a few million dollars just because she injected this error into the system.
+
+530
+01:00:07.329 --> 01:00:17.289
+John Talburt: Well, of course, when they went to produce the tax bills, one of the tax bills came out for this house that was a few hundred thousand dollars.
+
+531
+01:00:17.499 --> 01:00:25.059
+John Talburt: And then all of a sudden, the taxes were based on several million dollars. And of course, the guy that owned the house came in and said, look.
+
+532
+01:00:25.349 --> 01:00:28.639
+John Talburt: This can't be right, and yeah, they went in and they fixed it.
+
+533
+01:00:28.929 --> 01:00:44.869
+John Talburt: So the point is that Taguchi's loss function says, well, it's not just that. It's not just that it produced one bad text bill, because what also happened was that between the time that the error was made and the error was discovered.
+
+534
+01:00:45.149 --> 01:00:53.369
+John Talburt: They had already gone out and used the, the values in the system to project the budgets.
+
+535
+01:00:53.689 --> 01:01:01.889
+John Talburt: for, for the next year for the county. And, you know, what are they gonna do? What roads were they gonna repair, and so forth.
+
+536
+01:01:02.079 --> 01:01:20.909
+John Talburt: So when they produced that budget, it was much bigger than the previous year, but it wasn't so big that they said, oh, something's wrong. So they just said, hey, man, you know, we've got a lot of extra money this year, let's use it. And they went and they made commitments to contractors, and undertook new projects.
+
+537
+01:01:21.039 --> 01:01:27.009
+John Talburt: And I already had that underway before they found out that there was an error in the system.
+
+538
+01:01:27.429 --> 01:01:44.759
+John Talburt: And so even though you could say, well, when you look at the loss function, well, it wasn't much loss to go fix that one tax bill and make that consumer happy. That was a small one. But if you look at the bigger impact of all of that.
+
+539
+01:01:44.829 --> 01:01:59.879
+John Talburt: It caused a lot of problems because they had already let contracts out for this extra money, and they had to pull those contracts back, had to pay penalties. People thought they were going to get employed, got let go because the
+
+540
+01:01:59.909 --> 01:02:04.899
+John Talburt: things didn't go through. So, Taguchi's loss function tries to measure
+
+541
+01:02:05.519 --> 01:02:11.339
+John Talburt: All of the loss that's caused by when these problems happen, not just the immediate.
+
+542
+01:02:14.119 --> 01:02:17.399
+John Talburt: And he talked about offline quality control.
+
+543
+01:02:17.609 --> 01:02:33.229
+John Talburt: products and processes insensitive to parameters outside the design engineer's control. In other words, again, this more broad thinking, not only of the overall consequences of poor quality, but what are the things that
+
+544
+01:02:33.459 --> 01:02:47.699
+John Talburt: That you need to think about that oftentimes design engineers don't really think about when they're thinking more about, you know, how to efficiently build something, and they're not necessarily thinking about
+
+545
+01:02:48.629 --> 01:02:52.739
+John Talburt: These parameters that are outside the engineer's control.
+
+546
+01:02:53.019 --> 01:02:59.149
+John Talburt: So having broader thinking, bringing more people into the study process.
+
+547
+01:03:01.219 --> 01:03:11.179
+John Talburt: And then this idea that now has become enshrined in the idea of digital twins, but a lot of this developed before we had those capabilities.
+
+548
+01:03:11.309 --> 01:03:19.889
+John Talburt: And that was the idea of trying to design things statistically through, through experiments.
+
+549
+01:03:20.069 --> 01:03:25.539
+John Talburt: Before you actually commit to building, a final design of a product.
+
+550
+01:03:27.279 --> 01:03:33.589
+John Talburt: So let me quickly run through some of the, more contemporary.
+
+551
+01:03:35.149 --> 01:03:41.569
+John Talburt: And as I said, Larry English, who was the founder of Information Impact International and author.
+
+552
+01:03:41.979 --> 01:03:51.209
+John Talburt: He was responsible for this POSMAD that we talked about, this nonlinear life cycle, this idea that
+
+553
+01:03:51.399 --> 01:03:54.009
+John Talburt: you know, data…
+
+554
+01:03:54.169 --> 01:04:02.949
+John Talburt: It has a life cycle in which you plan for it, obtain it, but then once you have it and store it, sure, you continuously apply it and maintain it.
+
+555
+01:04:03.169 --> 01:04:05.809
+John Talburt: And then, at some point, dispose of it.
+
+556
+01:04:06.419 --> 01:04:09.309
+John Talburt: And he's best known for his books on,
+
+557
+01:04:10.019 --> 01:04:16.259
+John Talburt: The, data warehouse is where this all came from. He has two very important books.
+
+558
+01:04:16.389 --> 01:04:18.649
+John Talburt: Information quality applied.
+
+559
+01:04:19.059 --> 01:04:22.969
+John Talburt: And improving data warehouse and business information quality.
+
+560
+01:04:24.799 --> 01:04:25.989
+John Talburt: He's a great fellow.
+
+561
+01:04:26.269 --> 01:04:33.529
+John Talburt: And then Dr. Wong, who now is the Director of the MIT Chief Data Officer and Information Quality Program.
+
+562
+01:04:33.649 --> 01:04:38.469
+John Talburt: He's also, was, he just retired as a…
+
+563
+01:04:38.899 --> 01:04:41.829
+John Talburt: Professor here of information science.
+
+564
+01:04:43.669 --> 01:04:56.679
+John Talburt: And he… his major contribution was adapting this idea of total quality management and manufacturing to the… to data quality in what he called total data quality man… management.
+
+565
+01:04:58.029 --> 01:05:02.449
+John Talburt: And he established the International Conference on Information Quality.
+
+566
+01:05:02.959 --> 01:05:04.339
+John Talburt: And,
+
+567
+01:05:04.719 --> 01:05:12.479
+John Talburt: instrumental in establishing information qualities and information as an academic discipline. Here, he's one of the founders here.
+
+568
+01:05:12.769 --> 01:05:16.749
+John Talburt: And he was the executive director for the Institute.
+
+569
+01:05:16.879 --> 01:05:18.689
+John Talburt: For Chief Data Officers here.
+
+570
+01:05:21.839 --> 01:05:30.089
+John Talburt: Another, he's very well known, and we'll be studying this over and over in this course, is the Wongstrong Framework for Data Quality and Dimensions.
+
+571
+01:05:30.669 --> 01:05:33.309
+John Talburt: 16 dimensions we talked about.
+
+572
+01:05:34.529 --> 01:05:39.339
+John Talburt: And sort of emphasizing what had already been done in manufacturing.
+
+573
+01:05:39.789 --> 01:05:49.489
+John Talburt: And the idea of managing information as product. In other words, focusing on the product side, and then working backwards, or working outwards, both ways from that.
+
+574
+01:05:50.399 --> 01:05:55.859
+John Talburt: And, he's probably the most cited author in information quality research.
+
+575
+01:05:56.749 --> 01:06:02.229
+John Talburt: is currently… is really advocating for this idea of Chief Data Officer.
+
+576
+01:06:02.439 --> 01:06:10.259
+John Talburt: Several books, Journey to Data Quality, Quality Information and Knowledge, Introduction to Information Quality.
+
+577
+01:06:11.189 --> 01:06:12.429
+John Talburt: data quality.
+
+578
+01:06:14.249 --> 01:06:20.169
+John Talburt: Another, is Dr. Tom Redman, who likes to call himself the Datadoc.
+
+579
+01:06:20.649 --> 01:06:28.909
+John Talburt: And again, going sort of along the lines of, that we talked about a while ago, of Taguchi's loss function.
+
+580
+01:06:29.399 --> 01:06:33.869
+John Talburt: the understanding of the cost of poor debt. That was one of his things.
+
+581
+01:06:33.999 --> 01:06:40.919
+John Talburt: And he developed this idea of Rule of 10. It costs 10 times as much to complete a unit of work
+
+582
+01:06:41.019 --> 01:06:45.499
+John Talburt: When the input data are defective, as it does when the input data are perfect.
+
+583
+01:06:46.079 --> 01:06:50.379
+John Talburt: In other words, data quality really slows down by order of magnitude.
+
+584
+01:06:50.559 --> 01:06:51.649
+John Talburt: the process.
+
+585
+01:06:52.369 --> 01:06:59.489
+John Talburt: And this idea of information change, how information moves, along in,
+
+586
+01:06:59.909 --> 01:07:07.919
+John Talburt: Through a process, and how oftentimes this is sort of opposite to the way the company thinks about things.
+
+587
+01:07:08.219 --> 01:07:08.919
+John Talburt: Ruh.
+
+588
+01:07:09.209 --> 01:07:13.229
+John Talburt: So, data passes from department to department.
+
+589
+01:07:13.649 --> 01:07:28.959
+John Talburt: And we don't have… and people understand the data when it gets to them and what they need to do with it, but we don't have… many organizations don't have a good understanding of how that data flows and the overall flow of the data.
+
+590
+01:07:29.819 --> 01:07:35.399
+John Talburt: How it affects the organization, and is affected by the organization.
+
+591
+01:07:35.959 --> 01:07:42.019
+John Talburt: And he's written several books, I need to bring this up today. Getting in Front on Data, data-driven.
+
+592
+01:07:42.619 --> 01:07:45.489
+John Talburt: Data quality for the information age.
+
+593
+01:07:45.619 --> 01:07:47.629
+John Talburt: Data quality, the field guide.
+
+594
+01:07:48.229 --> 01:07:53.519
+John Talburt: And he's actually written a couple more since I need to update these slides.
+
+595
+01:07:54.829 --> 01:07:58.669
+John Talburt: Then another is, Danette McGilvery.
+
+596
+01:07:59.249 --> 01:08:01.539
+John Talburt: The author and consultant.
+
+597
+01:08:01.649 --> 01:08:13.919
+John Talburt: And she's definitely most influential in a book that she wrote a few years ago, and it's since updated to a new edition, called Executing Data Quality Projects.
+
+598
+01:08:14.159 --> 01:08:25.159
+John Talburt: 10 Steps to Data Quality and Trusted Performance. And we use that book a lot in our course on project and change management, because it's very project-oriented.
+
+599
+01:08:26.539 --> 01:08:29.519
+John Talburt: and so we use it in that class.
+
+600
+01:08:30.319 --> 01:08:39.039
+John Talburt: And she's developed some very important things, one of them being this idea of the framework for information quality.
+
+601
+01:08:39.599 --> 01:08:43.559
+John Talburt: And if you take that course, we'll go over this in great detail.
+
+602
+01:08:43.989 --> 01:08:51.699
+John Talburt: And it, helps understand how to… how to think about any data problem.
+
+603
+01:08:52.249 --> 01:08:55.349
+John Talburt: And all on one page.
+
+604
+01:08:55.509 --> 01:08:59.129
+John Talburt: It's a very, very powerful, consulting tool.
+
+605
+01:08:59.769 --> 01:09:07.379
+John Talburt: And, this is the 10 steps, and again, it's not…
+
+606
+01:09:07.549 --> 01:09:12.349
+John Talburt: totally linear. There are some places where you have
+
+607
+01:09:12.629 --> 01:09:16.379
+John Talburt: Multiple paths, and then a cross-cutting.
+
+608
+01:09:16.509 --> 01:09:19.309
+John Talburt: There's communication, actions, and results.
+
+609
+01:09:19.969 --> 01:09:25.519
+John Talburt: And again, we go over this in great detail in the course on project and change management.
+
+610
+01:09:26.109 --> 01:09:29.259
+John Talburt: And then I finally mentioned Laura Sebastian Coleman.
+
+611
+01:09:29.619 --> 01:09:32.299
+John Talburt: As a data quality practitioner.
+
+612
+01:09:32.729 --> 01:09:40.509
+John Talburt: And she has some very important books. The one that we have used in the past, Measuring Data Quality for Ongoing Improvement.
+
+613
+01:09:40.929 --> 01:09:45.879
+John Talburt: That gives you a way of sort of managing data overall through measurements.
+
+614
+01:09:46.379 --> 01:09:49.209
+John Talburt: And meeting the challenges of data quality.
+
+615
+01:09:50.949 --> 01:10:06.129
+John Talburt: And then finally, Dave Lotion, has shifted a little bit. He originally was on… in data quality, but he's kind of moved over now more to master data management. But still, his contributions have been very important.
+
+616
+01:10:06.469 --> 01:10:13.489
+John Talburt: Big data analytics, and the… User information to develop a culture of customer centricity.
+
+617
+01:10:13.989 --> 01:10:17.209
+John Talburt: And a Practitioner's Guide to Data Quality Improvement.
+
+618
+01:10:17.609 --> 01:10:21.599
+John Talburt: And then more recently, and some of the books on master data management.
+
+619
+01:10:23.729 --> 01:10:27.539
+John Talburt: So I think that gets us pretty close to time here.
+
+620
+01:10:27.799 --> 01:10:33.299
+John Talburt: Any questions or comments, any of these people that you know about, or want to comment about?
+
+621
+01:10:36.979 --> 01:10:44.739
+John Talburt: Well, we'll pick up from here, and we'll talk more about some of the environment and culture, and we'll start doing more of these exercises using data.
+
+622
+01:10:45.589 --> 01:10:50.139
+John Talburt: So if you have any questions or anything, please send me an email.
+
+623
+01:10:50.319 --> 01:10:51.049
+John Talburt: Good.
+
+624
+01:10:51.450 --> 01:10:52.100
+Dela Vanlare: Thank you.
+
+625
+01:10:52.720 --> 01:10:55.610
+John Talburt: Alright, with that, I'm going to close the class.
+
+626
+01:10:56.430 --> 01:10:57.290
+Sabiha Aman: Thank you.
+
+627
+01:11:01.470 --> 01:11:02.820
+John Talburt: Up the recording.
+

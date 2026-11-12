@@ -1,0 +1,2142 @@
+WEBVTT
+
+1
+00:00:03.130 --> 00:00:11.279
+Ningning Wu: So, I think the… probably the first thing for this class, let's just quickly, go over the…
+
+2
+00:00:11.730 --> 00:00:14.670
+Ningning Wu: the core share of the Blackboard. So…
+
+3
+00:00:15.130 --> 00:00:28.709
+Ningning Wu: Basically, we have the syllabus, and also we have the e-books folder. So, for this class, you do not need to buy any textbook. I think, luckily, we do have the electronic copies.
+
+4
+00:00:28.770 --> 00:00:39.490
+Ningning Wu: of several books we recommend you to read. So the first one, the most important one, is from Randy Kuma. It's about research methodology step.
+
+5
+00:00:39.790 --> 00:00:47.950
+Ningning Wu: And, then the second book, sometimes we need it. If you're actually interested, or you're in the computer science.
+
+6
+00:00:47.980 --> 00:01:03.490
+Ningning Wu: Engineering background, and if your research is mainly, centered around the computer science or computer engineering, then this book might be useful for you to study the research methodologies.
+
+7
+00:01:03.490 --> 00:01:10.839
+Ningning Wu: Specifically tailored for the, computer science And computer engineering, major.
+
+8
+00:01:11.260 --> 00:01:25.210
+Ningning Wu: The… another book is about the art of discovery by Oliver. So, this book is very interesting to read, and also very, very good one. So, basically means that although there are so many researchers.
+
+9
+00:01:25.290 --> 00:01:30.920
+Ningning Wu: You may find that some researchers always have some brilliant idea, and always kind of a…
+
+10
+00:01:30.970 --> 00:01:47.119
+Ningning Wu: doing a very significant research. So, for those researchers, they are by no means smarter than others. They just have made, I think, the best strategies to identify the most significant, topic.
+
+11
+00:01:47.240 --> 00:01:54.550
+Ningning Wu: or direction in the research. So this, this kind of book is pretty much talking about those kind of strategies.
+
+12
+00:01:55.090 --> 00:02:00.670
+Ningning Wu: And then we also, have some… I think this is a link. Let's go to this link.
+
+13
+00:02:02.040 --> 00:02:04.250
+Ningning Wu: This is kind of online textbook.
+
+14
+00:02:04.490 --> 00:02:13.159
+Ningning Wu: It's answering questions with data, so introductory statistics for the psychology students.
+
+15
+00:02:13.280 --> 00:02:17.619
+Ningning Wu: So, although it's for the psychology students, excuse me.
+
+16
+00:02:18.000 --> 00:02:24.919
+Ningning Wu: But, it discussed a lot of, important statistical methods that
+
+17
+00:02:24.920 --> 00:02:42.110
+Ningning Wu: very helpful in our data science study, or in a data governance study. So whenever you have a need to analyze data, and then I think there's several ways you can use, you can analyze data. One is use
+
+18
+00:02:42.320 --> 00:03:01.320
+Ningning Wu: is using statistical method. The other one may be using data science approach, like the machine learning, deep learning, and so on. So this one is solely on the statistics methodologies that you can use in the data analysis and research. So this is a very good one.
+
+19
+00:03:03.020 --> 00:03:11.190
+Ningning Wu: And, there's another one. This one is kind of starter guide to AI Finals, so I think this kind of discuss
+
+20
+00:03:11.670 --> 00:03:15.260
+Ningning Wu: Some guidance on the appropriate use
+
+21
+00:03:15.460 --> 00:03:25.510
+Ningning Wu: of AI tools. So I think, basically, AI tools provide a lot of opportunities, and also, for us to use.
+
+22
+00:03:25.610 --> 00:03:37.730
+Ningning Wu: to conduct research more efficiently, but we have to always bear in mind that AI tools, they are not, reliable, unfortunately.
+
+23
+00:03:37.800 --> 00:03:54.820
+Ningning Wu: So, hallucination is one of the, properties of the AI, for example, for example, large language model. So, whenever you, for example, you're doing the research, you're trying to find a research topic, and, you use AI tools, then you can
+
+24
+00:03:55.660 --> 00:04:04.850
+Ningning Wu: there is 100% trust on whatever result you get from AI. So we really need to go over
+
+25
+00:04:05.000 --> 00:04:09.669
+Ningning Wu: If you want to reference or study kind of a related work.
+
+26
+00:04:09.800 --> 00:04:23.000
+Ningning Wu: then you have to go over the most important things you're interested in to make sure that they are authentic, they are not fake. Okay, that's the kind of thing you need to, you need to be aware of that when you're using AI.
+
+27
+00:04:24.200 --> 00:04:31.250
+Ningning Wu: So let's first look at the, I think the… Come on.
+
+28
+00:04:31.430 --> 00:04:32.670
+Ningning Wu: the syllabus.
+
+29
+00:04:34.030 --> 00:04:47.529
+Ningning Wu: So I think the main goal of this class is to teach the strategy, the ways, methodologies of conducting research, and also for writing a good research proposal.
+
+30
+00:04:47.810 --> 00:04:54.019
+Ningning Wu: I think, I will mainly focus on how to write,
+
+31
+00:04:54.130 --> 00:05:03.599
+Ningning Wu: research project proposal, and a dissertation proposal. But I think research proposal is not limited to your study.
+
+32
+00:05:03.670 --> 00:05:20.450
+Ningning Wu: like, go over, I mean, pursue your master's degree or your doctorate degree. I think research proposal, maybe you're going to use it in your work. For example, at your work, you may find some kind of,
+
+33
+00:05:20.540 --> 00:05:34.460
+Ningning Wu: issues, or problems in your organization, or in your workspace, or in the tools you use, or in the kind of system you use. You want to tackle those problems so that make
+
+34
+00:05:34.600 --> 00:05:38.049
+Ningning Wu: The whole system working more efficiently.
+
+35
+00:05:38.220 --> 00:05:46.909
+Ningning Wu: Then, you probably need to write a research proposal to present your ideas to your employer
+
+36
+00:05:46.910 --> 00:05:59.289
+Ningning Wu: employers, your managers, or your colleagues to convince them this, proposal or this research problem is worth of investigating, or is worth of
+
+37
+00:05:59.380 --> 00:06:12.730
+Ningning Wu: finding a solution so that, it can, lead a big impact to your, organization or institution. So in this case, you still need to write a solid,
+
+38
+00:06:13.320 --> 00:06:21.679
+Ningning Wu: proposal, so that you can convince your sponsors, your employers, so you can, undertake that work. Okay.
+
+39
+00:06:21.930 --> 00:06:30.270
+Ningning Wu: So, basically, I think the objective of this class will be that after the class, you're able to identify
+
+40
+00:06:30.400 --> 00:06:42.729
+Ningning Wu: characterize and state important problems in information quality, technologies, and related disciplines. So we are not solely focused on information quality. I think
+
+41
+00:06:42.790 --> 00:06:50.829
+Ningning Wu: All the things we studied and discussed in this class can be applied to any field, okay, regarding to the research.
+
+42
+00:06:51.160 --> 00:06:59.690
+Ningning Wu: And then you're able to formulate and justify research questions based on the potential impact, knowledge gaps.
+
+43
+00:06:59.690 --> 00:07:13.680
+Ningning Wu: and the theoretical foundations, and the prior work, so you're able to evaluate your own work, and also you're able to evaluate other research. Maybe you read from publication, you read from online documents, and so on.
+
+44
+00:07:14.090 --> 00:07:22.760
+Ningning Wu: And also, you're able to identify, synthesize, and critically evaluate literature relevant 2…
+
+45
+00:07:22.900 --> 00:07:25.939
+Ningning Wu: a field that you're interested in. Okay.
+
+46
+00:07:26.600 --> 00:07:28.750
+Ningning Wu: And then you're able to describe.
+
+47
+00:07:28.870 --> 00:07:35.339
+Ningning Wu: And select appropriate research design and methods for the research question.
+
+48
+00:07:35.700 --> 00:07:49.770
+Ningning Wu: And also, very importantly, you're going to be able to write a research proposal for study, including appropriate methods to collect, analyze, manage, and report data.
+
+49
+00:07:50.580 --> 00:07:56.370
+Ningning Wu: And then you also, learn how to communicate research plans and results.
+
+50
+00:07:56.580 --> 00:08:05.669
+Ningning Wu: Verbally, visually, and in writing. So this is also very important. So every research is worth of…
+
+51
+00:08:05.940 --> 00:08:17.030
+Ningning Wu: the exposure. So, I think our research, if the good research, it does have significance and impacts to the field. So, one of the,
+
+52
+00:08:17.100 --> 00:08:32.009
+Ningning Wu: obligation of the researcher is trying to publish your work so that it can be, so it can be benefit your, your colleagues in the same field, so they can
+
+53
+00:08:32.080 --> 00:08:45.349
+Ningning Wu: Pretty much get your research results, so can guide them to, for example, to go deeper in that field, or to use your research results to apply to their own problems.
+
+54
+00:08:46.770 --> 00:08:55.649
+Ningning Wu: And then, formulate dissemination plans for research products. So, I think most likely, I think the best revenue for
+
+55
+00:08:55.880 --> 00:09:07.949
+Ningning Wu: Research dissemination will be through the publication in a conference, or in a journal, or even you may want to have, write some kind of a
+
+56
+00:09:08.130 --> 00:09:11.690
+Ningning Wu: the blogs and articles I'm published on the internet.
+
+57
+00:09:13.890 --> 00:09:31.949
+Ningning Wu: So, the last one is to engage in critical reflection of one's strengths and professional development needs in relation to design, conduct, and reporting of research. So, this is kind of main objective of this research.
+
+58
+00:09:32.030 --> 00:09:34.379
+Ningning Wu: So, this list all the textbooks.
+
+59
+00:09:34.720 --> 00:09:38.320
+Ningning Wu: Not required, but, recommended.
+
+60
+00:09:38.950 --> 00:09:50.759
+Ningning Wu: And also for successfully complete this course, you need the access to the internet, and also a device to, kind of,
+
+61
+00:09:51.840 --> 00:10:02.670
+Ningning Wu: to rate the related materials, course materials, and also work on your assignments. So I think this is pretty, normal today, so I don't think you have any problem with that.
+
+62
+00:10:03.210 --> 00:10:13.170
+Ningning Wu: And then for the class, I think in this, class, we… total, we have 14 weeks in this semester.
+
+63
+00:10:13.310 --> 00:10:20.439
+Ningning Wu: I think the first 4 weeks, actually, the total lectures, you spend the first 8 weeks.
+
+64
+00:10:20.610 --> 00:10:22.850
+Ningning Wu: So, I view…
+
+65
+00:10:23.500 --> 00:10:32.570
+Ningning Wu: be leading the first four weeks' lectures, and then Dr. Daktash will cover the remaining, 4 weeks.
+
+66
+00:10:32.730 --> 00:10:38.049
+Ningning Wu: So then, from the week 9 to the week 14, I think there's 6 weeks.
+
+67
+00:10:38.380 --> 00:10:43.990
+Ningning Wu: My… we're already in, initial plan is that
+
+68
+00:10:45.000 --> 00:10:52.250
+Ningning Wu: We're gonna reserve 3 weeks for you to develop your research, question and research proposal.
+
+69
+00:10:52.490 --> 00:11:05.969
+Ningning Wu: And then the last three weeks, we're going to have you, each one of you, present your research proposal, so that we can give you suggestive or contractive ideas, if there's any
+
+70
+00:11:05.970 --> 00:11:12.570
+Ningning Wu: thing you need to revise to make it better. So that's the main purpose for the, for the…
+
+71
+00:11:12.610 --> 00:11:15.689
+Ningning Wu: Representation… For the presentation, okay?
+
+72
+00:11:16.090 --> 00:11:27.869
+Ningning Wu: And, what else? So, yeah, for the assignments, pretty much each week, you have assignments. So, I think, in total, you have between 7 to 8 assignments for this semester.
+
+73
+00:11:28.020 --> 00:11:30.310
+Ningning Wu: And usually, you have one week.
+
+74
+00:11:30.600 --> 00:11:40.900
+Ningning Wu: for, to work on your assignment. For example, for week 1, we do have assignment one, and it will be due on next Monday.
+
+75
+00:11:42.380 --> 00:11:49.229
+Ningning Wu: And then, you also need to write a good research proposal by the end of this semester.
+
+76
+00:11:49.410 --> 00:11:59.690
+Ningning Wu: So, assignments account 50% of your final grade, and research proposal will account another 50% of your final grade.
+
+77
+00:11:59.890 --> 00:12:05.679
+Ningning Wu: So that's why I think, although, we reserve from the week 9 to week
+
+78
+00:12:06.220 --> 00:12:16.659
+Ningning Wu: 11 for you to write your proposal. You're strongly encouraged to start it early, so maybe during the first 2 or 3 weeks.
+
+79
+00:12:17.030 --> 00:12:21.820
+Ningning Wu: You may start to work, consider, or think about your research topic.
+
+80
+00:12:22.120 --> 00:12:24.790
+Ningning Wu: I think some of you may have already…
+
+81
+00:12:25.140 --> 00:12:34.100
+Ningning Wu: have your research topic, then I think you can, do more, like, those… Looking for the literatures.
+
+82
+00:12:34.600 --> 00:12:51.679
+Ningning Wu: talking about related work, and think about your research methodologies, and think about which, research type you're going to utilize to conduct your research. And also, you're going to think about the expected timeline of
+
+83
+00:12:51.750 --> 00:12:58.080
+Ningning Wu: Your research, and the potential limitation of your research, and so on.
+
+84
+00:13:00.440 --> 00:13:12.090
+Ningning Wu: And, what else? I think that's pretty much, the… about homework. So, I think there's some expectation of this class, because we don't have any, exam.
+
+85
+00:13:12.270 --> 00:13:24.200
+Ningning Wu: No quiz, no exam, so… because it seems more like the seminar-based class. So that's why, we expect you to spend more time outside of class.
+
+86
+00:13:24.690 --> 00:13:31.709
+Ningning Wu: To read materials assigned to you, and also to think about your, research topic.
+
+87
+00:13:31.840 --> 00:13:35.590
+Ningning Wu: And do some, work related to your research topic.
+
+88
+00:13:35.980 --> 00:13:43.669
+Ningning Wu: And that's why you're expected to spend, actually, between 5 to 10 hours each week for this class.
+
+89
+00:13:45.180 --> 00:13:59.440
+Ningning Wu: And what else? Okay, for the communication. So, Yori, I think, although you do have my telephone number and email address, I think email will be the most effective way for reaching me and communicating with me.
+
+90
+00:13:59.440 --> 00:14:07.259
+Ningning Wu: So, usually, I check email almost every day, even during the night. So, if you send me email, so I think…
+
+91
+00:14:07.410 --> 00:14:24.529
+Ningning Wu: you look for, like, a, get my response within 24 hours, okay? So, after 24 hours, if you still didn't get my response, so feel free to send me reminders, because I have many students.
+
+92
+00:14:24.900 --> 00:14:35.280
+Ningning Wu: and colleagues, collaborators, and a lot of emails every day. So, sometimes I do have to prioritize the urgency.
+
+93
+00:14:35.870 --> 00:14:39.810
+Ningning Wu: of the email to reply to them, so maybe I may…
+
+94
+00:14:39.910 --> 00:14:44.649
+Ningning Wu: I accidentally skip your email without knowing that I need to respond.
+
+95
+00:14:44.760 --> 00:14:49.089
+Ningning Wu: So, anyway, so there's no hurt, no offense, so if you…
+
+96
+00:14:49.640 --> 00:14:54.719
+Ningning Wu: Don't get my email within the first 24 hours, please send me a reminder.
+
+97
+00:14:55.180 --> 00:14:59.310
+Ningning Wu: For the weekend, so I tried to steal.
+
+98
+00:14:59.410 --> 00:15:12.630
+Ningning Wu: keep answering your email within 24-hour frame, time frame, but during the weekend, sometimes it may take 48 hours, so it really depends on my schedule. But anyway, so…
+
+99
+00:15:12.780 --> 00:15:28.180
+Ningning Wu: It's always good for you to send me reminder, but still, I consider email will be the best, way to reach me and communicate with me, especially if you have urgent, urgent stuff.
+
+100
+00:15:28.590 --> 00:15:34.930
+Ningning Wu: For the telephone number, I think, the rhythm is not reliable, because I have a lot of meetings, and I also have
+
+101
+00:15:35.190 --> 00:15:36.630
+Ningning Wu: to other classes.
+
+102
+00:15:36.710 --> 00:15:55.619
+Ningning Wu: So sometimes you… I may not get my call. That's why I strongly encourage you to use email as the main communication channel to reach me and ask questions, okay? And also, since the lectures contains two parts, so the first four weeks.
+
+103
+00:15:55.860 --> 00:16:13.450
+Ningning Wu: I will be the leading, professor, so if you have any questions regarding to the subjects that we cover in the first 4 weeks, please feel free to contact me. Then, for the week 5 to week, 8,
+
+104
+00:16:14.250 --> 00:16:27.280
+Ningning Wu: So, those lectures will be covered by Dr. Daktash. So, any question regarding to those lectures, you can, you can send email to Dr. Daktash.
+
+105
+00:16:27.410 --> 00:16:40.709
+Ningning Wu: Then, regarding to the general questions regarding, about your research topic, your research ideas, and your research proposal, I think you can contact either one of us, or both of us.
+
+106
+00:16:41.060 --> 00:16:51.280
+Ningning Wu: And that's kind of the plan for this class. But anyway, so you can always contact both of us, so I think at least one of us will reply to you.
+
+107
+00:16:52.090 --> 00:16:54.679
+Ningning Wu: So that's pretty much about the…
+
+108
+00:16:55.070 --> 00:16:58.660
+Ningning Wu: key things in the Cedibus. Any questions?
+
+109
+00:17:05.060 --> 00:17:08.849
+Ningning Wu: Okay, so if no… That's,
+
+110
+00:17:09.890 --> 00:17:14.130
+Ningning Wu: I think go to the first week, folder.
+
+111
+00:17:16.810 --> 00:17:27.530
+Ningning Wu: So, for the… Let's go over, probably, the… The reading list first, okay?
+
+112
+00:17:29.040 --> 00:17:35.170
+Ningning Wu: So, this, this list, lists.
+
+113
+00:17:35.320 --> 00:17:38.590
+Ningning Wu: The chapters of,
+
+114
+00:17:38.840 --> 00:17:51.710
+Ningning Wu: two different books, and also some online documents that you need to read. So, for the Renji Kumas book, you're required to read Chapter 1, Chapter 2, and Chapter 18.
+
+115
+00:17:52.360 --> 00:18:01.090
+Ningning Wu: And then you're going to read Chapter 1, from the Oliver's The Incomplete Guide to the Art of Discovery.
+
+116
+00:18:01.460 --> 00:18:11.760
+Ningning Wu: Then there are four online articles, very nice articles about information quality. So, one about the brief history of the data quality.
+
+117
+00:18:12.120 --> 00:18:16.480
+Ningning Wu: One is about a cultural device in the age of AI.
+
+118
+00:18:16.730 --> 00:18:25.379
+Ningning Wu: Regarding to the data qualities. Then, it's also… we also have the one about the absolution of data quality.
+
+119
+00:18:25.560 --> 00:18:35.690
+Ningning Wu: from the archives to the New Age. And the last one is History, Evolution, and the Future Data Quality. I think all those four articles is very easy.
+
+120
+00:18:35.820 --> 00:18:45.739
+Ningning Wu: rate to rate, and also gave you a lot of information about the future and the future work in the, information quality. So those are the…
+
+121
+00:18:46.030 --> 00:18:49.649
+Ningning Wu: Reading list, so you can do it outside of class.
+
+122
+00:18:51.400 --> 00:18:55.360
+Ningning Wu: And then, for the course materials, So…
+
+123
+00:18:57.280 --> 00:19:03.830
+Ningning Wu: Now, I need to… just give me one minute, I need to download… I have motion control problems when I…
+
+124
+00:19:04.390 --> 00:19:09.929
+Ningning Wu: change my computer, so I need to find the most recent version.
+
+125
+00:19:10.270 --> 00:19:11.610
+Ningning Wu: Of my slides.
+
+126
+00:19:11.710 --> 00:19:14.159
+Ningning Wu: So, just gave me one second.
+
+127
+00:19:42.140 --> 00:19:50.320
+Ningning Wu: It's so… Okay, so I may need, to explain you.
+
+128
+00:19:52.480 --> 00:19:57.980
+Ningning Wu: I think I have version control, so my current computer does not have the most,
+
+129
+00:19:59.570 --> 00:20:06.560
+Ningning Wu: Most, update version of the slide, so let me… Back to my slides.
+
+130
+00:20:51.120 --> 00:20:54.429
+Ningning Wu: Yeah, just give me one second so I'm,
+
+131
+00:21:32.680 --> 00:21:33.440
+Ningning Wu: Good.
+
+132
+00:22:09.930 --> 00:22:12.320
+Ningning Wu: Good, so let me,
+
+133
+00:22:15.030 --> 00:22:21.149
+Ningning Wu: Okay, I think this, also you can find the PDF file, under the class materials.
+
+134
+00:22:21.310 --> 00:22:27.970
+Ningning Wu: So, I just compiled this very short, kind of a slide.
+
+135
+00:22:28.170 --> 00:22:29.659
+Ningning Wu: to discuss
+
+136
+00:22:29.830 --> 00:22:44.369
+Ningning Wu: I think mainly focus on how to formulate a research topic. So we're going to discuss what is research, so the definition of the research, and also different types of research. And also, I mean, I gave you some examples.
+
+137
+00:22:44.450 --> 00:23:03.509
+Ningning Wu: Of those different types of research. Then, we are going to study how to formulate a research topic. And finally, we're going to give a brief discussion about the key component of a research proposal. Okay, so let's start.
+
+138
+00:23:09.480 --> 00:23:17.149
+Ningning Wu: So, what is research? Actually, if you Google the internet, there are so many different definitions of the research.
+
+139
+00:23:17.370 --> 00:23:25.630
+Ningning Wu: So, in essence, research is considered a systematic and methodical process of inquiry.
+
+140
+00:23:25.790 --> 00:23:34.669
+Ningning Wu: Aim at exploring, analyzing, and interpreting information to answer specific questions or solve problems.
+
+141
+00:23:34.950 --> 00:23:45.599
+Ningning Wu: So, by establishing research methodologies, Researchers can collect reliable data, Draw meaningful conclusions.
+
+142
+00:23:45.720 --> 00:23:50.080
+Ningning Wu: And contribute to the existing body of knowledge.
+
+143
+00:23:50.180 --> 00:23:55.989
+Ningning Wu: So, in essence, research definition emphasizes structured inquiry.
+
+144
+00:23:56.310 --> 00:24:02.789
+Ningning Wu: Objectivity and evidence-based reasoning and understanding.
+
+145
+00:24:03.240 --> 00:24:21.370
+Ningning Wu: So, this just shows one of so many different types of research definition. So, in this case, in this definition, research is considered as a careful, systematic, and objective investigation conducted to obtain valid
+
+146
+00:24:21.480 --> 00:24:31.310
+Ningning Wu: Facts, draw conclusions, and establish principles regarding an identifiable problem in some field of knowledge, okay?
+
+147
+00:24:34.310 --> 00:24:48.290
+Ningning Wu: Then, there are many characteristics of research. I think this slide and the next slide simply just discuss some key characteristics of research. The fourth one is called systematic approach.
+
+148
+00:24:48.370 --> 00:24:59.090
+Ningning Wu: So that means that research must follow organized steps to ensure logic, data collection, analysis, and interpretation.
+
+149
+00:24:59.440 --> 00:25:13.219
+Ningning Wu: Then the next one is objective and embarrassed, so it means that all the conclusions drawn by the research must be based on the evidence, rather than the personal opinions.
+
+150
+00:25:13.480 --> 00:25:20.570
+Ningning Wu: or preferences. So, research conclusion must be objective, not subjective.
+
+151
+00:25:21.120 --> 00:25:31.350
+Ningning Wu: The next one is empirical evidence, means that the research findings must be based on the observation, experiments.
+
+152
+00:25:31.540 --> 00:25:35.969
+Ningning Wu: Or survey, so those… the objective data.
+
+153
+00:25:36.510 --> 00:25:41.279
+Ningning Wu: That through, form the findings of the research.
+
+154
+00:25:41.710 --> 00:25:49.770
+Ningning Wu: than the clear research question. So this is very important. So every research must have a very clear,
+
+155
+00:25:50.380 --> 00:25:52.249
+Ningning Wu: Research question.
+
+156
+00:25:52.430 --> 00:25:59.459
+Ningning Wu: Based on this research question, we may have a clear research objective, and then we also can,
+
+157
+00:25:59.530 --> 00:26:13.099
+Ningning Wu: Family will, consider appropriate research methodology so that the outcome of this research can meet the research goal or objective.
+
+158
+00:26:13.800 --> 00:26:17.780
+Ningning Wu: Then the next one is replicability.
+
+159
+00:26:18.200 --> 00:26:35.119
+Ningning Wu: So, replicability means that other researchers should be able to reproduce the study and achieve similar results. For example, if we designed a credit card fraud detection method for Bank A,
+
+160
+00:26:35.360 --> 00:26:41.339
+Ningning Wu: That produce very good result, then the same method should be…
+
+161
+00:26:41.630 --> 00:26:49.780
+Ningning Wu: should be able to produce similar results using another bank's data. Okay, so that's called replicability.
+
+162
+00:26:51.370 --> 00:27:04.489
+Ningning Wu: Transparency and ethics, that usually applies to the research that involves human participants, so it requires researchers
+
+163
+00:27:04.520 --> 00:27:16.430
+Ningning Wu: To adhere to ethical standards, and also ensure informed consent and confidentiality of the human participants' data.
+
+164
+00:27:19.730 --> 00:27:36.529
+Ningning Wu: Then the generalizability, it means that findings from a specific study can be applied to a larger population, different settings, or other times beyond the original group of participants.
+
+165
+00:27:36.610 --> 00:27:42.010
+Ningning Wu: So it shows if the results hold true in the real world.
+
+166
+00:27:42.750 --> 00:27:46.089
+Ningning Wu: Then critical and logical thinking.
+
+167
+00:27:46.380 --> 00:27:53.019
+Ningning Wu: So that means that every step of a study follows valid
+
+168
+00:27:53.200 --> 00:27:59.030
+Ningning Wu: Sound rules of reasoning, and involves strict
+
+169
+00:27:59.290 --> 00:28:07.969
+Ningning Wu: Useful evaluation of evidence, rather than relying on guesswork, barriers, or personal opinions.
+
+170
+00:28:09.930 --> 00:28:15.640
+Ningning Wu: Then, I think another feature of the research is that it must be unique, novel.
+
+171
+00:28:15.810 --> 00:28:18.169
+Ningning Wu: And have a great impact.
+
+172
+00:28:18.450 --> 00:28:31.129
+Ningning Wu: So, contribution to knowledge is one of the impact of the research, so it means that research will advance understanding, challenge theories, or propose new ideas.
+
+173
+00:28:31.980 --> 00:28:43.739
+Ningning Wu: then peer review and publications. So, I think that's kind of one goal of the… our research. So, research should be… should have significance, or,
+
+174
+00:28:44.310 --> 00:28:59.920
+Ningning Wu: contribution to the field. So then, one of the duty or responsibility of the researcher is to publish their research results, so that the results can be disseminated to,
+
+175
+00:29:00.170 --> 00:29:02.109
+Ningning Wu: To different researchers.
+
+176
+00:29:02.240 --> 00:29:05.010
+Ningning Wu: And can benefit the research.
+
+177
+00:29:06.530 --> 00:29:23.310
+Ningning Wu: Usually, a good, publication process will involve the expert. So the expert will validate your research, study, and the results. So, and then it can be published in the conference or journal.
+
+178
+00:29:24.110 --> 00:29:31.650
+Ningning Wu: Iterative process means that research often leads to new questions and further studies. So…
+
+179
+00:29:31.930 --> 00:29:42.749
+Ningning Wu: Research may open the doors to a new proper areas, or to a new problem that's worth of investigating, in the future.
+
+180
+00:29:43.640 --> 00:29:54.100
+Ningning Wu: The practical application, that means that a lot of research will actually, have practical application. For example, they may inform policy.
+
+181
+00:29:54.850 --> 00:29:58.750
+Ningning Wu: Improve practice, or solve the real-world problems.
+
+182
+00:29:58.960 --> 00:30:03.630
+Ningning Wu: So, those are the key characteristics of research.
+
+183
+00:30:04.000 --> 00:30:15.690
+Ningning Wu: So, next one, we're going to, kind of study different types of research. So, regarding to research types, there are so many, research types, and here, I just…
+
+184
+00:30:15.900 --> 00:30:24.439
+Ningning Wu: list the… research type may be most useful, to our field. Okay.
+
+185
+00:30:25.880 --> 00:30:32.759
+Ningning Wu: So, there are various established methods used in the research to investigate a problem.
+
+186
+00:30:33.070 --> 00:30:47.509
+Ningning Wu: or research inquiry. So, as a researcher, if a good understanding and a knowledge about the types of research can help us to better plan our research project.
+
+187
+00:30:47.580 --> 00:30:53.090
+Ningning Wu: By utilizing the most appropriate methodologies and techniques.
+
+188
+00:30:53.560 --> 00:31:09.289
+Ningning Wu: So, here, I list some of them. For example, quantitative research versus qualitative research. So, quantitative research usually, focus on the phenomenon or events that can be mirrored
+
+189
+00:31:09.550 --> 00:31:11.939
+Ningning Wu: by Marius, okay?
+
+190
+00:31:12.090 --> 00:31:19.920
+Ningning Wu: Qualitative… qualitative research, those research… Actually, investigate the phenomenon.
+
+191
+00:31:20.230 --> 00:31:24.519
+Ningning Wu: That cannot be quantified, mathematically.
+
+192
+00:31:24.640 --> 00:31:28.549
+Ningning Wu: Then we also have applied research versus basic research.
+
+193
+00:31:28.880 --> 00:31:36.229
+Ningning Wu: And correlation research means that we're going to analyze correlation among two variables, or more variables.
+
+194
+00:31:36.580 --> 00:31:40.920
+Ningning Wu: Descript… Descriptive research, this type of research.
+
+195
+00:31:41.280 --> 00:31:47.259
+Ningning Wu: Simply use… most likely use the statistical method to describe
+
+196
+00:31:47.370 --> 00:31:52.140
+Ningning Wu: The profiles of events, the data of phenomenon.
+
+197
+00:31:52.970 --> 00:32:03.900
+Ningning Wu: And experimental research, sometimes also called case and control research, so this pretty much mainly, used in the social studies, psychology, and health field.
+
+198
+00:32:04.220 --> 00:32:10.860
+Ningning Wu: So we have, studied the, the differences between the control group and the target group.
+
+199
+00:32:11.670 --> 00:32:19.729
+Ningning Wu: Explore… exploratory research. I think this type of research is mainly used to…
+
+200
+00:32:20.060 --> 00:32:33.910
+Ningning Wu: further define a research problem. So, it means that in the beginning, we are not, very clear about the research problem, then we can do some exploratory analysis.
+
+201
+00:32:34.000 --> 00:32:42.379
+Ningning Wu: To kind of understand the data or problem better, so that we can further refine.
+
+202
+00:32:42.550 --> 00:32:45.079
+Ningning Wu: The research question.
+
+203
+00:32:46.510 --> 00:32:52.480
+Ningning Wu: Ethnographic research is mainly used in a social study to study human society.
+
+204
+00:32:52.820 --> 00:33:00.899
+Ningning Wu: to study a specific culture, and so on. Then the mixed Methods research usually means that we combine both
+
+205
+00:33:00.970 --> 00:33:13.919
+Ningning Wu: Quantitative research and qualitative research, to kind of, we can utilize the quantitative, analysis method, and also can, again,
+
+206
+00:33:13.990 --> 00:33:25.280
+Ningning Wu: can take advantage of the insights obtained from the qualitative research. So I have seen in the past, I have seen a lot of,
+
+207
+00:33:25.470 --> 00:33:32.540
+Ningning Wu: dissertation utilized, the mixed method, so that's considered one of the ways
+
+208
+00:33:32.730 --> 00:33:38.380
+Ningning Wu: For doing the research in the data quality field and the data science field.
+
+209
+00:33:38.840 --> 00:33:43.829
+Ningning Wu: So let's study each one of them, and also discuss some examples.
+
+210
+00:33:45.440 --> 00:33:55.910
+Ningning Wu: The first one is the quantitative research. So this type of research is often used to mirror variables, identify patterns.
+
+211
+00:33:56.250 --> 00:33:59.819
+Ningning Wu: And establish causal relationship.
+
+212
+00:34:00.240 --> 00:34:04.459
+Ningning Wu: So, some example can be the experimental research.
+
+213
+00:34:04.700 --> 00:34:11.810
+Ningning Wu: For example, we're testing a new medicine by giving it to one group, and placebo to another group.
+
+214
+00:34:12.610 --> 00:34:24.030
+Ningning Wu: And we can also apply it to the correlation, analyze correlation. For example, we can track the number of hours students exercise, and…
+
+215
+00:34:24.190 --> 00:34:31.360
+Ningning Wu: Also record their test scores to see if there's a relationship between the two.
+
+216
+00:34:32.330 --> 00:34:42.200
+Ningning Wu: And also, we can use quantitative research to, describe the properties Of the… our resource target.
+
+217
+00:34:42.300 --> 00:34:49.660
+Ningning Wu: For example, we can count in the average daily income of families giving in a specific city.
+
+218
+00:34:52.010 --> 00:34:54.219
+Ningning Wu: Then the qualitative research.
+
+219
+00:34:54.690 --> 00:35:04.570
+Ningning Wu: So, mainly focused on the understanding the intricacies of human experiences, belief, and social phenomena.
+
+220
+00:35:05.220 --> 00:35:11.940
+Ningning Wu: Which are difficult or, impossible to quantify mathematically.
+
+221
+00:35:12.850 --> 00:35:19.080
+Ningning Wu: And, for example, the interviews can be considered as a qualitative, research.
+
+222
+00:35:19.860 --> 00:35:38.090
+Ningning Wu: One, example may be that we want to investigate how retail managers use in customer analytics dashboard. So then we can conduct interviews, with store managers about how dashboard
+
+223
+00:35:38.280 --> 00:35:42.110
+Ningning Wu: Metrics change their daily choices.
+
+224
+00:35:42.890 --> 00:35:50.870
+Ningning Wu: And the focus group is another type of quantitative example of the qualitative, I'm sorry, research.
+
+225
+00:35:51.280 --> 00:35:59.840
+Ningning Wu: So, for example, we may want to investigate the enterprise big data governance.
+
+226
+00:36:00.150 --> 00:36:03.060
+Ningning Wu: Then we can form a focus group.
+
+227
+00:36:03.500 --> 00:36:07.020
+Ningning Wu: By recruiting the data professionals.
+
+228
+00:36:07.860 --> 00:36:12.449
+Ningning Wu: And then evaluate organizational data governance policy.
+
+229
+00:36:13.090 --> 00:36:24.479
+Ningning Wu: And so that we can assess how teams handle data quality, compliances, And the cross-departmental sharing barriers.
+
+230
+00:36:25.160 --> 00:36:34.150
+Ningning Wu: And for the observation, it's also one type of the qualitative research. One example can be a sociologist.
+
+231
+00:36:34.580 --> 00:36:40.810
+Ningning Wu: Sitting in a coffee shop to record how people work.
+
+232
+00:36:41.020 --> 00:36:48.290
+Ningning Wu: or talk in public spaces. So those are the examples of the qualitative, research.
+
+233
+00:36:51.880 --> 00:37:04.670
+Ningning Wu: Applied research actually tried to find answers or solutions to everyday problems, such as cured units, developing innovative technologies, and so on.
+
+234
+00:37:04.950 --> 00:37:12.290
+Ningning Wu: For example, we can, use medical… Image analysis.
+
+235
+00:37:13.080 --> 00:37:18.150
+Ningning Wu: I think medical image analysis is one example of applied research.
+
+236
+00:37:18.450 --> 00:37:30.040
+Ningning Wu: We can train the deep learning networks on MRI and X-ray datasets to automatically detect early signs of tumors.
+
+237
+00:37:30.820 --> 00:37:37.120
+Ningning Wu: And also, we can apply the… the dynamic pricing algorithms.
+
+238
+00:37:37.520 --> 00:37:41.890
+Ningning Wu: I think this archery strategy has…
+
+239
+00:37:42.160 --> 00:37:47.140
+Ningning Wu: Has been widely used, by the, online e-commerce.
+
+240
+00:37:48.660 --> 00:37:53.670
+Ningning Wu: So, the online e-commerce, Hello.
+
+241
+00:37:54.590 --> 00:37:59.150
+Ningning Wu: They kind of… they can analyze the competitor's pricing.
+
+242
+00:37:59.460 --> 00:38:01.660
+Ningning Wu: geographic data.
+
+243
+00:38:01.760 --> 00:38:05.030
+Ningning Wu: And then, then, like, consumer demand.
+
+244
+00:38:05.190 --> 00:38:12.670
+Ningning Wu: to optimize the e-commercing price online, or on the fly. I think a lot of airline
+
+245
+00:38:13.080 --> 00:38:22.230
+Ningning Wu: companies, they actually, implement these dynamic pricing algorithms. So, their price, I mean, the flat…
+
+246
+00:38:22.980 --> 00:38:31.810
+Ningning Wu: Airplane tickets, the price can fluctuate, widely, really depending on the competitor's price.
+
+247
+00:38:31.940 --> 00:38:35.750
+Ningning Wu: The demand and geographic, data.
+
+248
+00:38:36.760 --> 00:38:49.000
+Ningning Wu: Another example of supply research would be the supply chain demand forecasting. So in this example, a researcher can apply the time series models to the historical
+
+249
+00:38:49.040 --> 00:38:57.500
+Ningning Wu: Sales, and weather patterns to predict inventory needs and prevent shortages.
+
+250
+00:39:00.620 --> 00:39:14.869
+Ningning Wu: Next one is the basic research. So, I think the goal of the basic research is to expand the human's knowledge. So, this type of research is not going to create or invent anything new.
+
+251
+00:39:14.990 --> 00:39:19.549
+Ningning Wu: Instead, it is based on a basic science investigation.
+
+252
+00:39:19.830 --> 00:39:26.160
+Ningning Wu: For example, we may want to investigate how Did universe begin?
+
+253
+00:39:26.470 --> 00:39:38.410
+Ningning Wu: And also, we can also investigate new machine learning optimization techniques. So those are considered the basic research. So basic research usually develops the series.
+
+254
+00:39:38.650 --> 00:39:47.519
+Ningning Wu: That can be, used to in… can I… Explain, or…
+
+255
+00:39:48.530 --> 00:39:51.550
+Ningning Wu: I think it explains some kind of a…
+
+256
+00:39:51.700 --> 00:40:06.700
+Ningning Wu: natural events, or can be used to, for the experimental research or applied research. So, Minx series can be used in solving the problems, in the daily life.
+
+257
+00:40:10.150 --> 00:40:13.049
+Ningning Wu: Sorry. Then the correlational research.
+
+258
+00:40:13.380 --> 00:40:19.160
+Ningning Wu: So, this research aims to study relationship amount to more variables.
+
+259
+00:40:19.600 --> 00:40:29.310
+Ningning Wu: And those relationships can be chiral relationship, the causal relationship, or can be a simple, negative, positive relationship.
+
+260
+00:40:29.540 --> 00:40:30.460
+Ningning Wu: Okay.
+
+261
+00:40:30.710 --> 00:40:35.259
+Ningning Wu: So, causal relationship pretty much examine the causal effect.
+
+262
+00:40:36.050 --> 00:40:44.040
+Ningning Wu: And the example of the correlation research can be, we are trying to study the correlation between screen time and
+
+263
+00:40:44.320 --> 00:40:50.830
+Ningning Wu: Sleep quality, so… Probably, screen time will affect the
+
+264
+00:40:51.260 --> 00:41:04.459
+Ningning Wu: The deep stage sleeping. So, means that if you're on the, kind of tablet, the phones, or social media for a long time, your brain may get excited, so you may not get a good sleep.
+
+265
+00:41:04.950 --> 00:41:10.210
+Ningning Wu: Another example is that study correlation between music and brain reaction time.
+
+266
+00:41:10.610 --> 00:41:16.739
+Ningning Wu: So, this is actually an example coming from my daughter's science project.
+
+267
+00:41:17.010 --> 00:41:21.559
+Ningning Wu: I don't know if maybe some of you have teenager, children.
+
+268
+00:41:21.700 --> 00:41:30.469
+Ningning Wu: So I think the young generation, at least my observation, the younger generations, they are very good at multitasking.
+
+269
+00:41:30.850 --> 00:41:39.349
+Ningning Wu: So, a lot of times, I heard a lot of parents complain that, their kids tend to listen into music when they do their homework.
+
+270
+00:41:39.640 --> 00:41:48.890
+Ningning Wu: So, my daughter does the same thing. So, it surely concerns me, because my understanding is that if you…
+
+271
+00:41:49.660 --> 00:42:08.229
+Ningning Wu: If you need to do a work that requires critical thinking, I think you need to focus and concentration. So listening to music can potentially distract you. But my daughter always said, okay, music can make her more focused and can keep her sharp.
+
+272
+00:42:08.390 --> 00:42:15.619
+Ningning Wu: So I don't believe her, but I have no, how do I say, no fear to kind of,
+
+273
+00:42:16.090 --> 00:42:18.809
+Ningning Wu: Let her know that this is not right.
+
+274
+00:42:19.120 --> 00:42:27.020
+Ningning Wu: Since both my husband and I, we are both kind of concerned about her habits of listening to music while doing her homework.
+
+275
+00:42:27.370 --> 00:42:42.819
+Ningning Wu: So then we start thinking about how can we prove that she's wrong? Luckily, my husband, he's an electrical engineer, so we teamed together to design and implement, actually develop an instrument.
+
+276
+00:42:43.270 --> 00:42:47.860
+Ningning Wu: So this instrument, actually is cunning, I mean…
+
+277
+00:42:48.210 --> 00:42:53.460
+Ningning Wu: It's more like a hardware-based instrument, so it does not use computer.
+
+278
+00:42:53.640 --> 00:42:59.700
+Ningning Wu: So this instrument, basically, just is, design,
+
+279
+00:43:00.160 --> 00:43:07.749
+Ningning Wu: Actually, implement a very simple example to really test the brain reaction time and the music.
+
+280
+00:43:08.200 --> 00:43:15.949
+Ningning Wu: So, you know, we don't want to do too complex, because there are a lot of, study.
+
+281
+00:43:16.860 --> 00:43:25.879
+Ningning Wu: I mean, on how to measure the brain reaction time, so there are a lot of complex kind of devices and methods that
+
+282
+00:43:25.970 --> 00:43:44.190
+Ningning Wu: I mean, put a lot of sensors on a human, kind of, skull in order to mirror the very weak brain signal to examine the brain reaction. We don't want to do that. So we designed a very simple experiment. So basically, this instrument
+
+283
+00:43:44.240 --> 00:43:52.320
+Ningning Wu: will randomly generate two integers from 0 to 99, so on the two LED screen, okay?
+
+284
+00:43:52.510 --> 00:43:56.219
+Ningning Wu: Then, it… we also have two, kind of a…
+
+285
+00:43:56.800 --> 00:44:00.030
+Ningning Wu: Button connecting to each, number.
+
+286
+00:44:00.150 --> 00:44:15.130
+Ningning Wu: So, for the tester, you… whenever you see these two numbers, you need to compare these two numbers, and then find the bigger number. Then you're going to press the button corresponding to that bigger number, okay?
+
+287
+00:44:15.420 --> 00:44:29.900
+Ningning Wu: Because we implement everything in hardware, so in this case, the response time can be mirrored in the nanosecond, so it's very precise, okay? And then, when a tester
+
+288
+00:44:30.020 --> 00:44:31.540
+Ningning Wu: perform this test.
+
+289
+00:44:31.560 --> 00:44:51.129
+Ningning Wu: So, the two numbers are random generated at random intervals, so you cannot predict when the numbers will appear. So, when the number appears, then the timer will start to count. So, it will kind of record the time lapse between the numbers generated, generated
+
+290
+00:44:51.160 --> 00:44:54.620
+Ningning Wu: to the button is pressed, okay?
+
+291
+00:44:54.740 --> 00:45:07.269
+Ningning Wu: So we designed this, instrument, and then my daughter used it as a science project to mirror, try to study the, relationship between the music and the brain reaction time.
+
+292
+00:45:07.480 --> 00:45:21.410
+Ningning Wu: So, we have, actually, this project, is kind of an ongoing project. It has been done 2 years already. So, first year, we just recruit, she recruits her friends, so they do these kind of experiments.
+
+293
+00:45:21.770 --> 00:45:34.299
+Ningning Wu: So then we realized that there's no very clear relationship between the music and the brain reaction time among the population, means that initially we thought.
+
+294
+00:45:34.510 --> 00:45:39.850
+Ningning Wu: Music should be… have the negative impact on the brain reaction time.
+
+295
+00:45:39.920 --> 00:45:51.480
+Ningning Wu: Then we realized that it's not true. I think this probably happened to the new generation. So some kids really, I think we compare that brain reaction time with music.
+
+296
+00:45:51.540 --> 00:46:04.830
+Ningning Wu: and the brain reaction time without music. So, usually, we run these tests several rounds, so each round contains about 10 trials, and then we collect the response time.
+
+297
+00:46:05.240 --> 00:46:12.750
+Ningning Wu: for each trial, I think roughly for each, participant, we can collect about 30, 30 trials.
+
+298
+00:46:13.240 --> 00:46:21.210
+Ningning Wu: for, of brain reaction time, and music, and without music, okay? So then we,
+
+299
+00:46:21.340 --> 00:46:38.399
+Ningning Wu: we have a hypothesis that the average response time with music and average response time without music should be different. So then we run the rigorous, t-test to examine if the average time are significantly different.
+
+300
+00:46:38.550 --> 00:46:46.290
+Ningning Wu: I think in our first, trial, I think, we've given… I think we have about 30, participants.
+
+301
+00:46:46.450 --> 00:46:54.200
+Ningning Wu: We got about 10 participants, really, kind of, their, Reaction time and music.
+
+302
+00:46:54.370 --> 00:46:58.340
+Ningning Wu: It's, significantly shorter.
+
+303
+00:46:58.670 --> 00:47:02.250
+Ningning Wu: Then the reaction time, and then no music.
+
+304
+00:47:02.620 --> 00:47:12.129
+Ningning Wu: But then the rest 20, they don't have statistically significant differences, but they do have differences. Some have more, and the music.
+
+305
+00:47:12.130 --> 00:47:23.549
+Ningning Wu: the reaction time is longer. Some participants and music, their reaction time is, shorter, but this short and longer do not have, significant
+
+306
+00:47:23.640 --> 00:47:31.650
+Ningning Wu: How admins do not have statistically Are not statistically significant.
+
+307
+00:47:33.190 --> 00:47:46.190
+Ningning Wu: So, I think this basically, them is realized that although there's no clear relationship in the population, but we do be able to mirror the relationship
+
+308
+00:47:46.190 --> 00:47:55.649
+Ningning Wu: for each individual. So in this case, the instrument can be used to examine or test each participant's, like, a music type.
+
+309
+00:47:55.910 --> 00:47:58.790
+Ningning Wu: We can hear that weather music.
+
+310
+00:47:58.980 --> 00:48:02.330
+Ningning Wu: Will increase the risk.
+
+311
+00:48:02.520 --> 00:48:06.709
+Ningning Wu: Brain response time, or slow their brain,
+
+312
+00:48:06.890 --> 00:48:11.349
+Ningning Wu: Functioning, or can, increase their brain functioning.
+
+313
+00:48:11.360 --> 00:48:14.980
+Ningning Wu: So, this is more like the research.
+
+314
+00:48:14.980 --> 00:48:18.530
+Ningning Wu: evolution, so they start with the original research question.
+
+315
+00:48:18.530 --> 00:48:35.820
+Ningning Wu: we found the results, then we can further refine our research question and perform another round of research. So, this is basically… shows a very, kind of a typical example of how to conduct research. Okay, so that's also corresponding to the
+
+316
+00:48:35.820 --> 00:48:41.660
+Ningning Wu: Research, one of the characteristics of the research means that open Quarter means that
+
+317
+00:48:42.550 --> 00:48:55.340
+Ningning Wu: research, the… may gather results. The outcome of research may open a new field, or may, lead to the new research questions that we
+
+318
+00:48:55.460 --> 00:48:58.319
+Ningning Wu: They probably want to investigate, okay?
+
+319
+00:49:00.140 --> 00:49:12.410
+Ningning Wu: So, the next one is descriptive research. So, this research aims to provide a clear and accurate profile of a person, event, group.
+
+320
+00:49:12.640 --> 00:49:15.320
+Ningning Wu: It's also called statistical research.
+
+321
+00:49:15.500 --> 00:49:28.790
+Ningning Wu: Example of descriptive research can be, we can perform a survey marrying how many hours college students spend studying during the final week.
+
+322
+00:49:30.100 --> 00:49:43.960
+Ningning Wu: And also, we can apply the descriptive research to generate a medical case report detailing the unique symptoms and the progress of a single patient with a rare condition.
+
+323
+00:49:44.240 --> 00:49:47.830
+Ningning Wu: Also, we can apply the descriptive research.
+
+324
+00:49:48.300 --> 00:49:57.420
+Ningning Wu: In a census study to track the age, for example, job status, and housing types of people living in a specific setting.
+
+325
+00:49:59.350 --> 00:50:08.019
+Ningning Wu: So, I think descriptive research simply just provides, analyzed the statistical property of the data.
+
+326
+00:50:14.620 --> 00:50:31.960
+Ningning Wu: Experimental research. So this research involves objective, systematic, controlled investigation for the purpose of predicting and controlling the phenomena. So it's also called case, control research.
+
+327
+00:50:34.230 --> 00:50:41.659
+Ningning Wu: So, advantage of this experimental research is that it's best in establishing the cause and effect relationship.
+
+328
+00:50:42.430 --> 00:51:00.769
+Ningning Wu: The disadvantage can be feasibility. So, I mean, we may have able to recruit a small group of people, and this small group of people may not reflect the property of the whole population. So that can be the one limitation of the experimental research.
+
+329
+00:51:01.000 --> 00:51:20.229
+Ningning Wu: So examples of the experimental research can be the drug trials. So we gave them one patient group a new blood pressure medicine, for example, and gave the placebo to another group. Then we studied the effectiveness of the blood pressure medicine.
+
+330
+00:51:20.680 --> 00:51:33.560
+Ningning Wu: Another example would be the website layout. So, for example, you want to show half of web visitors a blue checkout button, and the other half a red checkout button.
+
+331
+00:51:33.680 --> 00:51:39.140
+Ningning Wu: Then we're going to count which color gets more clicks, so it's maybe the color.
+
+332
+00:51:39.350 --> 00:51:48.670
+Ningning Wu: May have a psychological impact on the user's or visitors' final decision, whether they want to click the button or not.
+
+333
+00:51:52.260 --> 00:52:00.709
+Ningning Wu: So, exploratory research, this research conducted for a problem that has not been clearly defined.
+
+334
+00:52:01.000 --> 00:52:10.470
+Ningning Wu: And then this research helps to determine the best research design, data collection method, and the selection of subjects.
+
+335
+00:52:12.890 --> 00:52:13.950
+Ningning Wu: So…
+
+336
+00:52:14.370 --> 00:52:32.280
+Ningning Wu: One type of the exploratory research can be the customer segmentation study. For example, we can group and label e-commerce buyer data using clustering tools to see what natural
+
+337
+00:52:32.360 --> 00:52:40.979
+Ningning Wu: personas emerge. So once we identify different, persona, type, then we can…
+
+338
+00:52:41.400 --> 00:53:01.330
+Ningning Wu: Go further, for example, to study the buyers, for example, their interests, their personality, their spending patterns, and their preferences, so that we can better, for example, serve the customers of different types.
+
+339
+00:53:02.060 --> 00:53:10.209
+Ningning Wu: Another example is anomaly detection in logs, so we can inspect, for example, web server traffic data.
+
+340
+00:53:10.460 --> 00:53:21.770
+Ningning Wu: And produce the traffic histogram and scatterplot to find weird spikes or system errors before defining a fixed alert rules.
+
+341
+00:53:22.040 --> 00:53:28.049
+Ningning Wu: So, explore… exploratory research, I think, is a very, useful tool. So…
+
+342
+00:53:28.090 --> 00:53:44.379
+Ningning Wu: A lot for our research, we probably have to apply the exploratory research first, then understand the data or the events or phenomena better, then we can further identify
+
+343
+00:53:44.480 --> 00:53:50.160
+Ningning Wu: The research… the most important research topic we want to work on.
+
+344
+00:53:53.650 --> 00:54:03.600
+Ningning Wu: So in this case, exploratory research can be serving as a preliminary, Step, for a research.
+
+345
+00:54:09.100 --> 00:54:24.120
+Ningning Wu: The next one is, ethnographic research. So this is mainly, used in the social science. So it involves investigation of a culture through an in-depth study of members of culture.
+
+346
+00:54:26.080 --> 00:54:33.009
+Ningning Wu: So, for example, we can use this research to study people, ethnic group.
+
+347
+00:54:33.270 --> 00:54:37.519
+Ningning Wu: Ethnic formation, and the social verifier characteristics.
+
+348
+00:54:40.410 --> 00:54:46.959
+Ningning Wu: The last one will be the mixed Methods research. So, it means that
+
+349
+00:54:47.040 --> 00:55:03.519
+Ningning Wu: We're going to combine both qualitative and quantitative approach to gain a deeper insight into complex problems. So these methods allows us to benefit from both numerical data
+
+350
+00:55:03.520 --> 00:55:07.729
+Ningning Wu: and the narrative insights. And here, give you one example.
+
+351
+00:55:08.000 --> 00:55:16.189
+Ningning Wu: For example, in this research, we're trying to, study or evaluate recommending rec…
+
+352
+00:55:16.630 --> 00:55:19.720
+Ningning Wu: Recommending systems and user experiences.
+
+353
+00:55:19.880 --> 00:55:24.250
+Ningning Wu: So, we can use mixed methods.
+
+354
+00:55:24.840 --> 00:55:44.780
+Ningning Wu: mixed methods. So, in the quantitative phase, we analyze, for example, parabytes of clickstream data, and it was time to track users' engagement trends with collaborative filtering methods. So, that's the one method for the recommendation system.
+
+355
+00:55:45.400 --> 00:56:05.130
+Ningning Wu: Then we can conduct the qualitative phase. So in this phase, we run the user interviews to see how people feel about recommendation, and why certain algorithms feel creepy or useful. So finally, we can tune the quantitative recommendation system, or engine.
+
+356
+00:56:05.200 --> 00:56:10.150
+Ningning Wu: To factor in humans' feedback on privacy and processes.
+
+357
+00:56:10.270 --> 00:56:14.049
+Ningning Wu: So, this is a typical mixed-method research.
+
+358
+00:56:16.780 --> 00:56:21.740
+Ningning Wu: Okay, so next one, we're talking about formulate a dissertation topic.
+
+359
+00:56:22.040 --> 00:56:34.269
+Ningning Wu: So, the first goal is that to find your focus. You want to pick a broad field, choose a subject or class thing you enjoy, and also you're interested in.
+
+360
+00:56:34.340 --> 00:56:46.539
+Ningning Wu: And also, you also need to assess your own knowledge expertise, so that you know that you have acquired the appropriate knowledge.
+
+361
+00:56:46.700 --> 00:57:02.279
+Ningning Wu: to work on the field you're interested in. For example, if you are in the data science background, although you're very interested in astronomy or quantum physics, maybe,
+
+362
+00:57:02.980 --> 00:57:05.580
+Ningning Wu: Pursuing a research in those fields.
+
+363
+00:57:05.920 --> 00:57:13.880
+Ningning Wu: It's not a good idea, because you may lack a lot of knowledges for performing the research, okay?
+
+364
+00:57:14.020 --> 00:57:17.330
+Ningning Wu: The second one, you're going to review current literature.
+
+365
+00:57:17.520 --> 00:57:20.960
+Ningning Wu: So you're going to read a recent journal, conference paper.
+
+366
+00:57:21.430 --> 00:57:29.800
+Ningning Wu: And try to check the future work, the section called the future work, or future direction, or future research.
+
+367
+00:57:30.060 --> 00:57:35.670
+Ningning Wu: Or the research limitations section, because those sections really discuss
+
+368
+00:57:35.810 --> 00:57:45.280
+Ningning Wu: the research gaps and solved problems or open questions in the field, so that those, give you a clue that
+
+369
+00:57:45.390 --> 00:57:52.500
+Ningning Wu: Which problems or which direction your research should be focused on, because
+
+370
+00:57:52.970 --> 00:58:04.169
+Ningning Wu: In your research, you don't want to replicate others' existing work, so research has to be unique, novel, and different, okay?
+
+371
+00:58:04.370 --> 00:58:13.770
+Ningning Wu: then identify a gap. So I think checking those, sections of research paper can help you to identify a gap. Okay.
+
+372
+00:58:14.320 --> 00:58:31.999
+Ningning Wu: Then check the PIC approach. So, PIC stands for people, like the target group, or the people who can benefit your research, issues, the core problems that you want to focus on, and the context that's regarding the setting and the environment of the problem. So…
+
+373
+00:58:32.770 --> 00:58:36.699
+Ningning Wu: The next one you're going to test for feasibility.
+
+374
+00:58:36.910 --> 00:58:52.820
+Ningning Wu: For example, a lot of researchers need to have access to the data. The data can be the real-world data. It's hard to acquire, or can be the synthetic data. It's easier to acquire compared to the real-world data.
+
+375
+00:58:52.850 --> 00:59:00.009
+Ningning Wu: But for the synthetic data, you may risk off that synthetic data will not represent.
+
+376
+00:59:00.020 --> 00:59:19.100
+Ningning Wu: the real data. So, means that some properties in the real-world data may not be, be found in the synthetic data, okay? So then whatever, conclusion results you get from the synthetic data may not be, fully convinced.
+
+377
+00:59:19.490 --> 00:59:22.260
+Ningning Wu: By the other people.
+
+378
+00:59:23.120 --> 00:59:29.730
+Ningning Wu: Then you also… so, then the data access is very important. You need to know whether you're able to get the data you need.
+
+379
+00:59:29.890 --> 00:59:38.059
+Ningning Wu: And whether data is of good quality, and whether data is trustworthy, whether data is real or synthetic.
+
+380
+00:59:38.610 --> 00:59:51.619
+Ningning Wu: The next one is the date limits. So, if you're working on your master project or dissertation, research, you do have time limits. Usually, you don't want to do it forever, although it can be your life.
+
+381
+00:59:51.880 --> 00:59:54.490
+Ningning Wu: Lifelong kind of passion.
+
+382
+00:59:54.730 --> 01:00:06.260
+Ningning Wu: Working on a specific question or field, but, dissertation, yearly, you need to probably finish the dissertation work between 2 to 5 years.
+
+383
+01:00:07.590 --> 01:00:26.569
+Ningning Wu: So that's why you have to consider the time limit. So you're going to pick the right scope of the problem so that you can finish within the time limits. Then the ethic approval, so if you are researching involved human subjects, then you probably have to go through the, the kind of IRB,
+
+384
+01:00:26.840 --> 01:00:32.609
+Ningning Wu: Application, so… Need to get approval before you can start the research.
+
+385
+01:00:33.100 --> 01:00:37.799
+Ningning Wu: Then the interest level, so you're going to pick a topic that can keep you curious.
+
+386
+01:00:38.690 --> 01:00:57.899
+Ningning Wu: And so, can keep you going moving forward. So you… you may have multiple topics, then you pick the one that interests… interests you the most, and also the one that you have, sufficient background knowledge to conduct the research. So that's very important.
+
+387
+01:01:00.010 --> 01:01:05.590
+Ningning Wu: Finally, refine the pool. So you're going to draft a research query.
+
+388
+01:01:05.800 --> 01:01:17.990
+Ningning Wu: turn your idea into a clear research question, and also you have… also need to think about the methodology. You think about the potential contribution and impact of your research. Then you can ask for
+
+389
+01:01:18.030 --> 01:01:26.959
+Ningning Wu: feedback. You can share your draft title with your advisor or mentor to get the official approval, so that's kind of a…
+
+390
+01:01:27.200 --> 01:01:34.260
+Ningning Wu: the… Main things when you formulate, your research topic.
+
+391
+01:01:35.480 --> 01:01:41.650
+Ningning Wu: And the last slide is about the… Research proposal key components.
+
+392
+01:01:42.400 --> 01:01:53.009
+Ningning Wu: So, yearly, I think this… Contains the most, important components of a research proposal.
+
+393
+01:01:53.230 --> 01:02:00.189
+Ningning Wu: So you should have the introduction section. So, this section should clearly define the research problem.
+
+394
+01:02:00.440 --> 01:02:11.669
+Ningning Wu: And then with the research statement, identify the gaps in the literature. So sometimes you can combine the introduction and the problem statement into one section.
+
+395
+01:02:12.110 --> 01:02:19.499
+Ningning Wu: then you need to have the literature review. So, literature review is very important. It shows
+
+396
+01:02:19.620 --> 01:02:30.699
+Ningning Wu: At least your advisor, or your committee, or your sponsor, that you have done the, extensive, literature review.
+
+397
+01:02:30.790 --> 01:02:46.149
+Ningning Wu: You understand the state of art in the field. You understand the related research in the field. You also understand the differences of your approach with the existing approach. So you probably have to do the comparison and contrast.
+
+398
+01:02:46.180 --> 01:02:53.860
+Ningning Wu: So you need to highlight the differences between your approach and others, so that it can further,
+
+399
+01:02:54.200 --> 01:03:00.689
+Ningning Wu: Demonstrate the significance and uniqueness of your research, okay?
+
+400
+01:03:01.960 --> 01:03:03.929
+Ningning Wu: Then you're going to,
+
+401
+01:03:04.440 --> 01:03:15.630
+Ningning Wu: discuss the research methodology. So, research methodology usually contain two parts. First part, discuss the data you can use, how you
+
+402
+01:03:15.810 --> 01:03:18.480
+Ningning Wu: Collect or access data, okay?
+
+403
+01:03:18.600 --> 01:03:25.629
+Ningning Wu: Then the second one is about the, methods you're going to use to analyze data.
+
+404
+01:03:27.030 --> 01:03:33.719
+Ningning Wu: Then, in your proposal, this can be, you can also discuss the expected outcome.
+
+405
+01:03:33.830 --> 01:03:40.170
+Ningning Wu: So that you can, kind of highlight the potential contribution of your research.
+
+406
+01:03:40.450 --> 01:03:49.530
+Ningning Wu: work, if it is successful, and also the limitation of your research. I think, like, methodologies or data limitation.
+
+407
+01:03:50.160 --> 01:03:54.760
+Ningning Wu: Then, if this is for the dissertation proposal, you may also
+
+408
+01:03:54.780 --> 01:04:10.890
+Ningning Wu: I think it's a good idea. It's not necessary, but it's a good idea. You can include the expected timeline so that committee knows that roughly how long you're going to finish your dissertation work.
+
+409
+01:04:11.040 --> 01:04:14.770
+Ningning Wu: Then, most importantly, you're going to list all the references
+
+410
+01:04:14.880 --> 01:04:23.970
+Ningning Wu: that you need, I mean, you, cite in the introduction, problem statement, and literature review, okay?
+
+411
+01:04:25.280 --> 01:04:27.930
+Ningning Wu: So, let me see what house.
+
+412
+01:04:28.200 --> 01:04:30.860
+Ningning Wu: I think that's pretty much,
+
+413
+01:04:33.650 --> 01:04:38.130
+Ningning Wu: I also, yeah, I think pretty much for the… this, slide.
+
+414
+01:04:38.390 --> 01:04:43.820
+Ningning Wu: So I think for the methodology, it's considered… I think you have to…
+
+415
+01:04:44.350 --> 01:04:51.830
+Ningning Wu: Pay more attention to the methodology, because this section is a critical component of the research proposal.
+
+416
+01:04:52.310 --> 01:04:58.830
+Ningning Wu: It's also serving as a roadmap for how the study will be conducted.
+
+417
+01:05:00.260 --> 01:05:07.390
+Ningning Wu: And also, your methodology must align with research questions and objectives. So…
+
+418
+01:05:07.670 --> 01:05:17.559
+Ningning Wu: In a research methodology, you have to ensure that the chosen methods are appropriate for addressing the core aims of your study.
+
+419
+01:05:17.770 --> 01:05:23.110
+Ningning Wu: And also, you need to justify how component you contribute.
+
+420
+01:05:23.780 --> 01:05:26.940
+Ningning Wu: To answering the research questions.
+
+421
+01:05:27.550 --> 01:05:33.990
+Ningning Wu: And you also need to outline whether the study will utilize quantitative
+
+422
+01:05:34.220 --> 01:05:42.509
+Ningning Wu: qualitative or mixed methods. For example, if you want to, use surveys, you also need to discuss,
+
+423
+01:05:42.980 --> 01:05:46.660
+Ningning Wu: The purpose of surveys, the potential questions.
+
+424
+01:05:46.810 --> 01:05:52.919
+Ningning Wu: Of the service, and also the potential, how do you, recruit?
+
+425
+01:05:53.160 --> 01:05:58.079
+Ningning Wu: the people to take surveys. So there are a lot of things you need to discuss.
+
+426
+01:05:58.200 --> 01:06:11.049
+Ningning Wu: But overall, I think if you write a good problem statement, very clear, and conduct a very good literature review to, present the state of art.
+
+427
+01:06:11.340 --> 01:06:22.730
+Ningning Wu: Of the techniques in the current field, and the limitations, open questions, and solved problems in the current, research, environment.
+
+428
+01:06:22.960 --> 01:06:28.389
+Ningning Wu: Then, you can convince the committee that, or your sponsor that.
+
+429
+01:06:28.660 --> 01:06:47.990
+Ningning Wu: the research you propose is worth investigating, and the outcome will benefit, I mean, the fields, or may apply to the real-world problems, solve the real-world problems. Then the research methodology will further convince your sponsor or
+
+430
+01:06:48.330 --> 01:06:57.750
+Ningning Wu: Your committee members, that you understand, the data you're going to deal with, and also you
+
+431
+01:06:58.200 --> 01:07:05.659
+Ningning Wu: Able to identify the most appropriate methods that are used to tackle the problems and reach
+
+432
+01:07:05.980 --> 01:07:08.709
+Ningning Wu: Your research goals, okay?
+
+433
+01:07:09.400 --> 01:07:13.920
+Ningning Wu: So those are very important components in your research proposals.
+
+434
+01:07:14.100 --> 01:07:17.070
+Ningning Wu: So that's pretty much it. So, any questions?
+
+435
+01:07:32.220 --> 01:07:33.480
+Oluwakemi Temitope Olayinka: Hi, Doctor.
+
+436
+01:07:33.710 --> 01:07:34.390
+Ningning Wu: Yes.
+
+437
+01:07:35.480 --> 01:07:42.039
+Oluwakemi Temitope Olayinka: So I'm curious, in terms of the research timeline.
+
+438
+01:07:42.780 --> 01:07:50.560
+Oluwakemi Temitope Olayinka: Is a realistic timeline that… You know, that we can actually, like, pull in your research that
+
+439
+01:07:50.680 --> 01:07:58.120
+Oluwakemi Temitope Olayinka: Because I know that sometimes timelines can change. So what is, like, a realistic timeline that can be added into a research proposal?
+
+440
+01:07:58.650 --> 01:08:00.929
+Ningning Wu: Okay, that's a good question. So,
+
+441
+01:08:01.380 --> 01:08:09.669
+Ningning Wu: I think if you're working on your, master project, usually you only have, kind of, one year, right? To finish master project.
+
+442
+01:08:10.130 --> 01:08:25.469
+Ningning Wu: So, I think then you'll probably… I think this is a very good question. So, when we consider timeline, we also need to consider the scope of your work. So, when you design your timeline, you need to very objectively, analyze
+
+443
+01:08:25.560 --> 01:08:35.250
+Ningning Wu: How much data you need to analyze, what are the potential work? For example, you're going to use some existing tools, or you're going to design your own tools, methods.
+
+444
+01:08:35.359 --> 01:08:45.690
+Ningning Wu: So, you're going to evaluate the amount of work you need to, perform, okay? Then, it gave you a better idea that,
+
+445
+01:08:46.590 --> 01:08:54.109
+Ningning Wu: For example, the time that you need to… you need to, devote.
+
+446
+01:08:54.240 --> 01:09:00.199
+Ningning Wu: In order to finish each… Kind of each step of you,
+
+447
+01:09:00.310 --> 01:09:04.750
+Ningning Wu: Of your research, or each, task of your research.
+
+448
+01:09:04.930 --> 01:09:08.279
+Ningning Wu: So, for the master project, I think, mmm…
+
+449
+01:09:09.069 --> 01:09:19.999
+Ningning Wu: When you think about timeline, it also helps you to think about, your scope. So you don't want to have a very big scope that you won't be able to finish in one year.
+
+450
+01:09:20.620 --> 01:09:29.580
+Ningning Wu: For the dissertation, I think, this is also a good question. So, you may start with very broad, then you're going to refine it.
+
+451
+01:09:29.670 --> 01:09:40.729
+Ningning Wu: And then you can discuss with your advisor or your committee members. I think they are able to guide you to see if your topic's too broad.
+
+452
+01:09:40.859 --> 01:09:56.359
+Ningning Wu: then you won't be able to finish in 5 years, so they may want to narrow down. When you narrow down, and then you're going to… they're going to help you to evaluate the amount of work that, of your dissertation. So, you cannot have very little work.
+
+453
+01:09:56.730 --> 01:10:01.900
+Ningning Wu: for the dissertation, for the dissertation research. But you cannot have…
+
+454
+01:10:02.200 --> 01:10:09.929
+Ningning Wu: unrealistic, large amount of work that you won't be able to finish in 5 years. So, maximum 5 years.
+
+455
+01:10:09.930 --> 01:10:29.560
+Ningning Wu: So, in the past, I think if you're a doctoral student, when you develop your dissertation proposal, I think you're going to work closely with your, advisor, okay? So, I know each advisor may have different styles. For me, I think I would give students more freedom to
+
+456
+01:10:29.560 --> 01:10:34.960
+Ningning Wu: explore more, then they may have already to,
+
+457
+01:10:35.000 --> 01:10:42.819
+Ningning Wu: consult with me. They may have the proposal ready, or draft ready, or the proposal
+
+458
+01:10:43.510 --> 01:10:49.210
+Ningning Wu: outline writing. Then I can help, usually I will help my student
+
+459
+01:10:49.260 --> 01:11:04.729
+Ningning Wu: And to ask him questions, and to understand what he tried to achieve, and then I will evaluate whether the work is sufficient for the dissertation, or is too much for a dissertation, or too little for the dissertation.
+
+460
+01:11:04.980 --> 01:11:08.789
+Ningning Wu: So, I think the timeline…
+
+461
+01:11:09.300 --> 01:11:24.389
+Ningning Wu: It's pretty much when you define a timeline, you pretty much have a good idea of what you plan to do, and how much effort you're gonna put on each task, and how long each task will, will take.
+
+462
+01:11:24.740 --> 01:11:28.080
+Ningning Wu: Okay, so, I think if you haven't…
+
+463
+01:11:28.320 --> 01:11:41.770
+Ningning Wu: if you're in the early stage of the proposal development, I think you do not need to worry too much about the timeline. So, until you have agreement.
+
+464
+01:11:41.770 --> 01:11:50.410
+Ningning Wu: you and your advisor have agreement on what you're going to do. I think you can trust your advisor, I think, regarding the
+
+465
+01:11:50.550 --> 01:11:54.420
+Ningning Wu: Quantity, or the, the scope of your work.
+
+466
+01:11:54.550 --> 01:11:57.749
+Ningning Wu: So, I think they will have better experience.
+
+467
+01:11:58.080 --> 01:12:15.030
+Ningning Wu: Helping you to either narrow down or scale up a little bit of your topic so that your quality… the quality of your research will, meet the standard of master project, or…
+
+468
+01:12:15.400 --> 01:12:16.600
+Ningning Wu: dissertation.
+
+469
+01:12:16.800 --> 01:12:17.600
+Ningning Wu: Okay.
+
+470
+01:12:18.770 --> 01:12:19.650
+Oluwakemi Temitope Olayinka: Thank you.
+
+471
+01:12:20.610 --> 01:12:21.520
+Ningning Wu: Okay, good.
+
+472
+01:12:23.960 --> 01:12:42.189
+Ningning Wu: Okay, another question from, amsi. So, can we use synthetic data, or it needs to be real data? I think it's a good question. So, basically, if you can have access, obtain the real data, your data will be better. Why? Because whatever
+
+473
+01:12:42.210 --> 01:13:00.790
+Ningning Wu: results you get from real data will be very convincing. People will not say, oh, your data is not right, or your data is not trustworthy. So, that's why I strongly encourage you to work with real data if you're able to get the real data, okay?
+
+474
+01:13:00.890 --> 01:13:10.540
+Ningning Wu: So, if… getting or access to the real data is impossible, or, I mean, you have to pay.
+
+475
+01:13:10.540 --> 01:13:28.429
+Ningning Wu: I mean, it's too expensive, then you can use the synthetic data. However, if you use synthetic data, I strongly recommend you to use the synthetic data that has been widely accepted in the field, okay?
+
+476
+01:13:28.470 --> 01:13:48.190
+Ningning Wu: So you… usually, you don't want to create synthetic data by yourself. Why? If you create synthetic data by yourself, you work on your synthetic data, then you get the results, then usually the results will not convincing the other researchers, because they think, who knows how do you
+
+477
+01:13:48.190 --> 01:13:57.359
+Ningning Wu: structure will create using sector data. Maybe the creation of using sector data is biased
+
+478
+01:13:57.450 --> 01:14:04.050
+Ningning Wu: Or it's tailored so that you can get the results you want.
+
+479
+01:14:04.530 --> 01:14:16.829
+Ningning Wu: So that's why I always, suggest my students, if you have to use Sync data, then you have to use the Sync data that has been widely used
+
+480
+01:14:17.420 --> 01:14:19.540
+Ningning Wu: Or accepted in the field.
+
+481
+01:14:20.050 --> 01:14:25.439
+Ningning Wu: And you should never have synthetic data, create synthetic data.
+
+482
+01:14:25.620 --> 01:14:33.030
+Ningning Wu: For yourself, because that will really beacon your research results and outcomes.
+
+483
+01:14:33.400 --> 01:14:35.350
+Ningning Wu: Good. Any other questions?
+
+484
+01:14:39.090 --> 01:14:40.930
+Ningning Wu: Okay, good, so…
+
+485
+01:14:41.930 --> 01:14:59.349
+Ningning Wu: Sorry, because of the late start, and then, so we can almost run out of time, but I think that's fine, because I think my plan is that usually I'm not a very talkative person, you know? So, I try to… each week, I'm trying to discuss the key
+
+486
+01:14:59.560 --> 01:15:06.480
+Ningning Wu: subjects, I think, very important for you to know. And if we…
+
+487
+01:15:06.830 --> 01:15:16.569
+Ningning Wu: If the lecture will not cover the two and a half hours, that's fine, so I think remaining class time can be reserved for you to, read.
+
+488
+01:15:16.780 --> 01:15:31.759
+Ningning Wu: the reading materials, so I think it's pretty flexible. And also, I strongly encourage you to ask questions, to discuss some kind of ideas, the concerns or confusions you have, because it's more like a seminar.
+
+489
+01:15:31.920 --> 01:15:39.019
+Ningning Wu: My kind of understanding of writing a research proposal is more like,
+
+490
+01:15:39.240 --> 01:15:46.400
+Ningning Wu: needs a practice. So you can read other people's, proposal or dissertation
+
+491
+01:15:46.400 --> 01:16:01.979
+Ningning Wu: Or research papers, so that you can have an idea that what's the common way for people to represent their research ideas, to convince the audience, and to discuss their research methodologies.
+
+492
+01:16:01.980 --> 01:16:09.899
+Ningning Wu: So, I think you're going to learn from other people's, writing, either proposal, research paper, and so on, to use…
+
+493
+01:16:09.970 --> 01:16:17.919
+Ningning Wu: I trust your judgment, I think you're going to have a better idea of what makes a good proposal or research paper.
+
+494
+01:16:19.210 --> 01:16:26.220
+Ningning Wu: And, I think… We do have some… excuse me, time.
+
+495
+01:16:26.600 --> 01:16:28.109
+Ningning Wu: I really want to.
+
+496
+01:16:28.300 --> 01:16:32.620
+Ningning Wu: discuss. I think we don't have time to cover all of them.
+
+497
+01:16:32.780 --> 01:16:37.229
+Ningning Wu: But I wanted to, for example, to,
+
+498
+01:16:38.810 --> 01:16:44.970
+Ningning Wu: Go through these kind of websites about the selecting, research topic.
+
+499
+01:16:45.260 --> 01:17:00.619
+Ningning Wu: So I think most… one of the ways that, for selecting research topics, you first have a field or area you want to work on, then you scan academic journals or conference papers for the research trends.
+
+500
+01:17:00.790 --> 01:17:02.140
+Ningning Wu: And then…
+
+501
+01:17:02.470 --> 01:17:17.060
+Ningning Wu: You'll probably not be able to monitor profession… if you're able, then you go to the professional blogs and the listservs for the hot topics, and also you can attend conferences to learn about the current research trends.
+
+502
+01:17:17.130 --> 01:17:18.910
+Ningning Wu: And also, you can talk to
+
+503
+01:17:18.940 --> 01:17:38.520
+Ningning Wu: classmates, your colleagues, or talk to your committees, or your advisors to refine the ideas, to discuss, ideas. For example, I do have several doctoral students, so sometimes they may have several different ideas, they all, I mean, they're interested in.
+
+504
+01:17:38.690 --> 01:17:55.050
+Ningning Wu: And they come to me for the discussion so we can refine, to the one topic that I believe is more appropriate, and also can have potential to produce the significant, research results. So…
+
+505
+01:17:55.320 --> 01:18:00.090
+Ningning Wu: And then… Also, refine your topic, that's another one.
+
+506
+01:18:00.400 --> 01:18:10.070
+Ningning Wu: I think there's some other, topics that's related to how to write research proposals, so we can… I think we can go over some of them in the later, lectures.
+
+507
+01:18:10.250 --> 01:18:17.320
+Ningning Wu: And another thing I really want you to watch is finding research gap. Okay, so in… this is the video.
+
+508
+01:18:18.170 --> 01:18:21.189
+Ningning Wu: YouTube video talking about how to…
+
+509
+01:18:22.450 --> 01:18:25.670
+Ningning Wu: How to, find the research gap.
+
+510
+01:18:27.290 --> 01:18:44.610
+Ningning Wu: Okay, let me stop. So, the basic idea is that you go to Google Scholar. So, for example, if you're interested in the misinformation bars and errors in the large language model, you can type the keywords in the Google Scholar. Then it will
+
+511
+01:18:44.710 --> 01:18:56.470
+Ningning Wu: kind of return found a lot, I think more than you can read the papers. Okay, so then, regarding to this, these strategies.
+
+512
+01:18:56.490 --> 01:19:13.969
+Ningning Wu: I do have, this kind of link, like, top conferences and journals, because you may, given more than 100 different papers, so how do you identify the most important papers, that you're going to study first? I think
+
+513
+01:19:14.100 --> 01:19:25.459
+Ningning Wu: There's several ways you can… criteria you can identify. I think this is kind of a… for example, this is from the Google Scholar. So then you, of course, can pick the…
+
+514
+01:19:25.690 --> 01:19:41.579
+Ningning Wu: the main categories, for example, I'm picking engineer and Computer Science, then they do have subcategories. You can tell that there's so many about computer graphics, robotics, and a lot more, so you can pick
+
+515
+01:19:41.710 --> 01:19:55.410
+Ningning Wu: like, security, cryptography, you can pick, special subcategories. Let's say, what we want, so… maybe…
+
+516
+01:19:56.270 --> 01:20:06.569
+Ningning Wu: We want to do the, for example, data mining analysis, okay. Then it shows, unfortunately, only top 20, top journals and conferences.
+
+517
+01:20:06.570 --> 01:20:20.880
+Ningning Wu: So then I think, there are several criterias. You can find the top, the most important papers. So paper published in the top journals, conferences, is one criteria. The second criteria is… will be the…
+
+518
+01:20:21.450 --> 01:20:32.160
+Ningning Wu: Thus, citations. If the paper has many citations, means that it has broad impact to the field. A lot of people are aware of that. So I think these are two major,
+
+519
+01:20:32.170 --> 01:20:46.230
+Ningning Wu: kind of criteria that you can pick the most important papers. And also, the time is also important. You don't want to pick a paper that published, like, 30 years ago, because the field has changed.
+
+520
+01:20:46.330 --> 01:21:01.030
+Ningning Wu: drastically in the last 30 years. So you may want to pick the most recent paper published on the top journals, conferences, and have large citations. So then pick those papers, then you can look at
+
+521
+01:21:01.150 --> 01:21:16.260
+Ningning Wu: go to their future work, future direction, and the open, questions, or the limitations. So those sections will cover some open, questions in the field that
+
+522
+01:21:16.410 --> 01:21:29.460
+Ningning Wu: worth of the investigation. So, that's the kind of thing I want you to be aware of that, okay? So, I think that's pretty much, I think the remaining content, what else we can…
+
+523
+01:21:29.650 --> 01:21:30.990
+Ningning Wu: cover… I think…
+
+524
+01:21:36.120 --> 01:21:39.859
+Ningning Wu: This is also very good articles. Okay, so…
+
+525
+01:21:40.390 --> 01:21:46.539
+Ningning Wu: journal articles. I think I can discuss this a little bit in the next class. So, pretty much, I think.
+
+526
+01:21:47.070 --> 01:21:57.229
+Ningning Wu: The whole class is centered around how to, doing the research, how to write a research paper, how to write a research proposal.
+
+527
+01:21:57.430 --> 01:22:10.549
+Ningning Wu: And this kind of what are the methodologies, tools that we can use to do the research. I think this mainly centered around these, those, focus. So I think we can…
+
+528
+01:22:10.930 --> 01:22:22.699
+Ningning Wu: kind of discuss, maybe cross-references, the class materials from different classes. So the final goal is that I want you to understand
+
+529
+01:22:23.150 --> 01:22:26.989
+Ningning Wu: What's the key components of a research proposal?
+
+530
+01:22:27.130 --> 01:22:41.589
+Ningning Wu: And how to write a research, how to present your research topic, presenting research questions, and how to pick the right methodologies, and discuss your methodologies in your research paper or proposal.
+
+531
+01:22:41.750 --> 01:22:47.440
+Ningning Wu: And also how to write the literature review, so those kind of the key things.
+
+532
+01:22:47.660 --> 01:22:52.480
+Ningning Wu: That apply to both the proposals and the research papers.
+
+533
+01:22:52.880 --> 01:22:57.599
+Ningning Wu: Okay, so good. I think that's pretty much, for today. So, any questions?
+
+534
+01:23:05.760 --> 01:23:09.959
+Ningning Wu: Okay, good! So, if you don't have any questions.
+
+535
+01:23:10.060 --> 01:23:16.380
+Ningning Wu: Then, we're done for today. Thank you, and I hope to see you on next class.
+

@@ -1,0 +1,1679 @@
+WEBVTT
+
+00:00:04.000 --> 00:00:10.000
+All right. Well, thanks for joining. We spent a lot of time last Tuesday talking about
+
+00:00:10.000 --> 00:00:17.000
+The course itself and about the information quality program, I thought that was important.
+
+00:00:17.000 --> 00:00:23.000
+So today, we're actually going to start on the content and really talk a little bit about information quality.
+
+00:00:23.000 --> 00:00:26.000
+And we
+
+00:00:26.000 --> 00:00:29.000
+started this course, like, 20 years ago
+
+00:00:29.000 --> 00:00:38.000
+And we thought about, and we needed some course that was a foundations course, and so we decided to call it Principles
+
+00:00:38.000 --> 00:00:49.000
+And then I quickly learned that there weren't any really real established principles. So we decided we would design some
+
+00:00:49.000 --> 00:00:59.000
+So today I want to go over what I think are some seven underlying principles of the information quality discipline.
+
+00:00:59.000 --> 00:01:01.000
+So, let me get
+
+00:01:01.000 --> 00:01:09.000
+Slides going. And some of this we talked a little bit about when we talked about the program. We talked about this, what is information quality?
+
+00:01:09.000 --> 00:01:19.000
+And again, there's a lot of different ways people describe it. Again, the most common is if you ask somebody what it is just off the street
+
+00:01:19.000 --> 00:01:24.000
+If they have any answer at all, it'll probably be accuracy that the data are accurate
+
+00:01:24.000 --> 00:01:28.000
+But that's a little bit problematic. We'll talk more about that
+
+00:01:28.000 --> 00:01:36.000
+Then, you know, there are other attributes, and we'll talk about this as well. So how do we describe the quality of data
+
+00:01:36.000 --> 00:01:42.000
+And that leads us to something we'll talk about in the history of this topic
+
+00:01:42.000 --> 00:01:44.000
+is this idea of
+
+00:01:44.000 --> 00:01:51.000
+dimensions or characteristics of data. So a couple of these are completeness and timeliness
+
+00:01:51.000 --> 00:01:55.000
+The idea that it's free of defects
+
+00:01:55.000 --> 00:01:57.000
+This is a good one
+
+00:01:57.000 --> 00:02:07.000
+This one we talked about before is really quite accurate in that the way this entire topic evolved is
+
+00:02:07.000 --> 00:02:14.000
+We borrowed from total quality management from manufacturing and started deploying it to information systems
+
+00:02:14.000 --> 00:02:20.000
+So there's many ways that people describe. Probably one of the most
+
+00:02:20.000 --> 00:02:27.000
+Commonly, common ones that you hear is fitness for use or fitness for purpose
+
+00:02:27.000 --> 00:02:37.000
+And it's a good one. It actually comes from Joseph Duran, who was one of the gurus of the total quality management in manufacturing
+
+00:02:37.000 --> 00:02:44.000
+But again, this is kind of where we reach dichotomy
+
+00:02:44.000 --> 00:02:50.000
+When he said that, when Duran said that, he was talking about the finished product
+
+00:02:50.000 --> 00:03:07.000
+He says, is this product what you really need? Does it fit your needs? Does it fit for use if they're building a car or toaster or whatever, is this thing that we built. So even there we get the idea that we're talking about
+
+00:03:07.000 --> 00:03:10.000
+a product
+
+00:03:10.000 --> 00:03:22.000
+And so again, a lot of people, when they use that and they say, well, data quality is fit for use or fitness, data that's fit for use, they're talking about
+
+00:03:22.000 --> 00:03:28.000
+The source data, they're talking about the data coming in the door
+
+00:03:28.000 --> 00:03:43.000
+And you can… you can say that about that data, but that data has not been made into a product or a service yet. And so, it begs the question, what do I need to do with this raw data that's coming in
+
+00:03:43.000 --> 00:03:52.000
+What quality does it need in order, when I put it all together into a product, that the product has quality
+
+00:03:52.000 --> 00:03:59.000
+So it's a little bit of a debate, and we can talk about that as we go along
+
+00:03:59.000 --> 00:04:09.000
+But so anyway, what we decided to do is just come up with our own definition of it. And we talked about this earlier. So there's two main parts
+
+00:04:09.000 --> 00:04:20.000
+Maximizing the value and minimizing the risk of an organization's information assets. So this is sort of an internal view. I'm in an organization, or I own an organization
+
+00:04:20.000 --> 00:04:32.000
+Or maybe it's just me and I have data and so part of this is how do I make the most use or get the most value out of that data
+
+00:04:32.000 --> 00:04:40.000
+But then looking at it from the external side is, okay, I'm producing some kind of product or service
+
+00:04:40.000 --> 00:04:51.000
+Then it should create value or be valuable to the… to the people or systems that consume that data, whatever, whether it's a person or a system consuming that data
+
+00:04:51.000 --> 00:05:06.000
+So there's, again, there's always this dichotomy. There's two sides to the coin, as they say. So, information quality is about how it creates value for the organization that has that information or data
+
+00:05:06.000 --> 00:05:19.000
+And also, is it producing in sort of the manufacturing sense, an information product or service that's creating value for the consumers or the users? It's valuable to them
+
+00:05:19.000 --> 00:05:22.000
+Or as Duran would say, it's fit for use
+
+00:05:22.000 --> 00:05:27.000
+It's very interesting. I just was on the phone today with another
+
+00:05:27.000 --> 00:05:38.000
+A very notable person in the area of data quality that you may have heard of before is Danette McGilvery. Danette has been in
+
+00:05:38.000 --> 00:05:46.000
+The data quality, I've been a consultant practitioner for many, many years, and has written a couple of books
+
+00:05:46.000 --> 00:05:55.000
+And she has developed what's called a 10-step method for executing data quality projects. She's very knowledgeable
+
+00:05:55.000 --> 00:06:05.000
+We were just talking about this today. It's interesting, though, that in her definition of information quality
+
+00:06:05.000 --> 00:06:13.000
+Her emphasis is on the trust. So as a matter of fact, that's the name of her book is
+
+00:06:13.000 --> 00:06:19.000
+of executing data quality projects to produce trusted data
+
+00:06:19.000 --> 00:06:27.000
+So however you want to look at it is the main thing in our definition is value in hers is trust
+
+00:06:27.000 --> 00:06:34.000
+And I think they're quite similar to each other. Now, when we talk about value, though
+
+00:06:34.000 --> 00:06:40.000
+I also want to be a little more explicit about that in
+
+00:06:40.000 --> 00:06:50.000
+The way I see it, there are three primary value propositions. When we talk about maximizing value for an organization, we immediately think of
+
+00:06:50.000 --> 00:07:01.000
+a business, and the value, of course, and being an asset would be something we measure in dollars or currency, depending on what country we're in
+
+00:07:01.000 --> 00:07:09.000
+And that definitely is one. Value could be… the value proposition could be making a profit
+
+00:07:09.000 --> 00:07:18.000
+But there are a lot of other organizations that are engaged in other ways, and a couple of other ways, I think the two other main categories
+
+00:07:18.000 --> 00:07:22.000
+One is quality of life
+
+00:07:22.000 --> 00:07:34.000
+that the value prop… they're trying to improve the quality of life, and of course that immediately brings us to medically related hospitals, things like that, physicians
+
+00:07:34.000 --> 00:07:44.000
+And so, even though, obviously, they do make money, and they need money to go on, their primary value that they're trying to bring is they're trying to bring
+
+00:07:44.000 --> 00:07:47.000
+better quality of life by
+
+00:07:47.000 --> 00:07:50.000
+curing diseases and
+
+00:07:50.000 --> 00:07:56.000
+developing medicines and things that make life better for people
+
+00:07:56.000 --> 00:07:59.000
+And yet another
+
+00:07:59.000 --> 00:08:15.000
+or the nonprofits that have as their value proposition, they have missions to accomplishments. So value for them is accomplishing their mission. And this is a case where dollars don't seem to count
+
+00:08:15.000 --> 00:08:20.000
+Because, for example, the military is willing to spend whatever money it needs
+
+00:08:20.000 --> 00:08:26.000
+to accomplish particular missions that it's on. We're right in the middle of that right now
+
+00:08:26.000 --> 00:08:43.000
+So not all, when we talk about value and creating value from or maximizing value from information, it's not just helping people make money, it's also can help improve the quality of life
+
+00:08:43.000 --> 00:08:47.000
+help organizations accomplish their missions
+
+00:08:47.000 --> 00:08:54.000
+I think this covers most of the value propositions, but if you can think of another one, let me know
+
+00:08:54.000 --> 00:09:01.000
+So a little bit of history of information quality
+
+00:09:01.000 --> 00:09:12.000
+There's some people, Jan Lee who was the first author in this book that you have called Journey to Data Quality
+
+00:09:12.000 --> 00:09:18.000
+I heard a lecture by her one time, and she went all the way back to
+
+00:09:18.000 --> 00:09:22.000
+to historical times in the
+
+00:09:22.000 --> 00:09:25.000
+And the
+
+00:09:25.000 --> 00:09:28.000
+This very famous
+
+00:09:28.000 --> 00:09:33.000
+Rosetta Stone that Napoleon's troops found in Egypt
+
+00:09:33.000 --> 00:09:46.000
+Talked about how that solves some data quality problems. But I won't go that far back. To me, the problem as we know it, the problem, the recognition of poor information quality
+
+00:09:46.000 --> 00:09:53.000
+I call that the data cleansing phase, and that happened
+
+00:09:53.000 --> 00:09:56.000
+When
+
+00:09:56.000 --> 00:10:01.000
+People started trying to build data warehouses, and this is back in the 80s
+
+00:10:01.000 --> 00:10:07.000
+So all of you are probably so young, you think there's always been data warehouses, but actually
+
+00:10:07.000 --> 00:10:13.000
+Back in the early days of computing, there wasn't a concept of a data warehouse
+
+00:10:13.000 --> 00:10:29.000
+And when that came along, everybody really embraced that idea, yeah, we should take all of our data from all of our different departments, put it together for like a year and analyze it and see if we can do better in our business. That'll give us tremendous
+
+00:10:29.000 --> 00:10:35.000
+business information or business intelligence as they call it, BI.
+
+00:10:35.000 --> 00:10:50.000
+And so that was a really new idea, and everybody immediately said, yeah, that's great. So everybody started doing that, and what they really discovered when they tried to do that was that because all of these departments in the business
+
+00:10:50.000 --> 00:11:08.000
+were doing their own computing. They often had their own computer systems, they had their own data architects and people designing things and, you know, things were not quite as well organized in the early days. When they tried to put the data together, it was almost impossible, and they had a huge failure rate
+
+00:11:08.000 --> 00:11:11.000
+And projects to build data warehouses
+
+00:11:11.000 --> 00:11:14.000
+And out of that
+
+00:11:14.000 --> 00:11:17.000
+emerged a business
+
+00:11:17.000 --> 00:11:22.000
+Information International
+
+00:11:22.000 --> 00:11:30.000
+that started had huge success by going around and
+
+00:11:30.000 --> 00:11:43.000
+Helping companies straighten out their data warehouses. And so these really information quality started not in academia, but it really started in business
+
+00:11:43.000 --> 00:11:50.000
+by consultants, primarily, and which turned out to be a little bit of a problem in the beginning
+
+00:11:50.000 --> 00:12:01.000
+Because consultants always want to distinguish themselves, so they kept using different terminology about describing data and information quality problems
+
+00:12:01.000 --> 00:12:06.000
+But the guy who started Information Impact International
+
+00:12:06.000 --> 00:12:15.000
+guy named Larry English really he wrote a couple of books about data quality and warehouses or information quality in warehouses
+
+00:12:15.000 --> 00:12:24.000
+And made a great contribution. Unfortunately, he passed away a couple of years ago. He's a great guy. I got to know him very well
+
+00:12:24.000 --> 00:12:32.000
+But anyway, this is the beginning. The real beginning from an information system standpoint, if you want to
+
+00:12:32.000 --> 00:12:35.000
+Not worry about the Rosetta Stone
+
+00:12:35.000 --> 00:12:41.000
+happened in the data warehousing movement back in the 1980s
+
+00:12:41.000 --> 00:12:44.000
+And so here is
+
+00:12:44.000 --> 00:13:00.000
+where they began to recognize that you really needed to pay attention to the quality of data. And then the main problem they were having, of course, with data warehousing is a problem that still persists that we call inconsistent representation.
+
+00:13:00.000 --> 00:13:02.000
+you know
+
+00:13:02.000 --> 00:13:17.000
+One department was using AR for… to represent Arkansas, and another department was using ARK. So they were inconsistently representing the data. And so when they tried to put it all together into one
+
+00:13:17.000 --> 00:13:24.000
+data warehouse in order to examine it, then that's where they began to see all the problems
+
+00:13:24.000 --> 00:13:26.000
+So
+
+00:13:26.000 --> 00:13:37.000
+What was lucky for Larry, and the reason he made so much money in the early days, is that he just focused on this. They would have all these problems and he would come in
+
+00:13:37.000 --> 00:13:44.000
+And with his team and with his knowledge, and he would straighten out the warehouse, right?
+
+00:13:44.000 --> 00:13:48.000
+And so, I guess to his own benefit.
+
+00:13:48.000 --> 00:13:54.000
+It took a while to get to the next phase, which was
+
+00:13:54.000 --> 00:13:59.000
+To say, okay, well, we're having problems, what's the root cause of this
+
+00:13:59.000 --> 00:14:05.000
+The root cause is that the sources of data that are coming out of these different departments and business units
+
+00:14:05.000 --> 00:14:19.000
+They're inconsistent in the way they're representing things, and they're not structuring things the same way. So, it's all this inconsistency. And so that was the root cause of most of the problems with the data warehouse
+
+00:14:19.000 --> 00:14:25.000
+And so, in order to solve that, you have to add another phase called the prevention phase
+
+00:14:25.000 --> 00:14:37.000
+And that's when people start realizing you needed to address the root causes of these problems, and not just try to fix the problems after they occur.
+
+00:14:37.000 --> 00:14:41.000
+And so this is the beginning, again, following along with
+
+00:14:41.000 --> 00:14:46.000
+Some of the main ideas of quality management that we find in manufacturing
+
+00:14:46.000 --> 00:14:55.000
+People like Deming and Duran and Shuhart and people like that, that were gurus, if you will, of quality
+
+00:14:55.000 --> 00:15:08.000
+They had already discovered this, that you need to have a feedback loop. You need to learn from your mistakes and go back and try to fix the things that were causing them, so that you got continual improvement.
+
+00:15:08.000 --> 00:15:21.000
+So this is sort of the second wave of information quality is where you needed to go back and do root cause analysis. Again, that's something that occurs in total policy management
+
+00:15:21.000 --> 00:15:34.000
+And then it took a little while, but the next phase in the history was, and this was now, even though most of all this was happening on the industry side, business side
+
+00:15:34.000 --> 00:15:46.000
+This is kind of where academia steps in. So one of the greatest contributions from academia, which the institution most involved at this time
+
+00:15:46.000 --> 00:15:50.000
+was MIT in Cambridge, Massachusetts
+
+00:15:50.000 --> 00:15:52.000
+And Dr. Rich Wong and his
+
+00:15:52.000 --> 00:15:56.000
+a major professor there
+
+00:15:56.000 --> 00:16:01.000
+We're very much into this idea of analogizing
+
+00:16:01.000 --> 00:16:16.000
+Information quality management with total quality management and manufacturing. And again, in manufacturing, going back to Duran, the primary focus was on the end product. You start with the end in mind
+
+00:16:16.000 --> 00:16:25.000
+So this was then added to information quality to say, well, we need to manage information as a product
+
+00:16:25.000 --> 00:16:30.000
+Not just look at the data sources and the individual files
+
+00:16:30.000 --> 00:16:39.000
+If you just spend all your time cleaning that, it doesn't guarantee, you know, there's perhaps one of the most famous
+
+00:16:39.000 --> 00:16:47.000
+quote is GIGO. You're probably familiar with the Gigo, which is garbage in equals garbage out
+
+00:16:47.000 --> 00:16:59.000
+And some people kind of misapplied the logic of that and said, well, if it's garbage in, you get garbage out. If you put clean in, or good in, you're going to get good out
+
+00:16:59.000 --> 00:17:02.000
+Of course, that doesn't logically follow
+
+00:17:02.000 --> 00:17:17.000
+But some people kind of subscribe to that. And so there's a certain school of thought that says, well, if I just clean up the sources and make them very consistent, make them accurate, make them timely, all the good things that we want
+
+00:17:17.000 --> 00:17:23.000
+And I put them into my system, I'm guaranteed that I'll get a good information product
+
+00:17:23.000 --> 00:17:28.000
+But certainly that's not true
+
+00:17:28.000 --> 00:17:36.000
+even if you look at manufacturing, that's certainly not the way they look at it there, right? You could take
+
+00:17:36.000 --> 00:17:39.000
+Building a car
+
+00:17:39.000 --> 00:17:44.000
+You know, you could take and gold plate all of the
+
+00:17:44.000 --> 00:17:57.000
+axles and bearings and everything to… and make them much better, make them out of titanium or whatever. But that wouldn't guarantee that the car you're building is any better
+
+00:17:57.000 --> 00:18:04.000
+And it still could be the wrong car. I'm a big fan of the El Camino. They don't make them anymore
+
+00:18:04.000 --> 00:18:09.000
+Because people were not buying, it's not what people really wanted
+
+00:18:09.000 --> 00:18:21.000
+So again, just because you have good clean source data doesn't mean when you put it into your system and get an information product out, it'll be a good, it'll be a high quality information product
+
+00:18:21.000 --> 00:18:24.000
+So you really need to start with what
+
+00:18:24.000 --> 00:18:28.000
+I like a quote. There's another
+
+00:18:28.000 --> 00:18:39.000
+very famous person in this field, a guy named Tom Redmond, Dr. Tom Redmond, who started off his career at AT&T and got into data quality
+
+00:18:39.000 --> 00:18:43.000
+He's called the data doc actually he calls himself
+
+00:18:43.000 --> 00:18:45.000
+And
+
+00:18:45.000 --> 00:18:56.000
+He said, you have to really ask two questions. One question is the data right, which is that is the data kind of correct
+
+00:18:56.000 --> 00:19:07.000
+But is the other question, is it the right data and do I have the right data to build a product that I'm trying to produce? And we're going to look at an example of that here shortly
+
+00:19:07.000 --> 00:19:21.000
+So again, in the third phase, kind of the history of information quality is this realization that you really needed to start from the product side. You really need to manage information as product
+
+00:19:21.000 --> 00:19:35.000
+The next realization or the next phase comes in when people realize that a lot of the problems that they were having, they're still having problems even though they're taking this product perspective
+
+00:19:35.000 --> 00:19:41.000
+Their cleaning data, they're trying to continuously improve their processes
+
+00:19:41.000 --> 00:19:55.000
+That sometimes the problem, the root cause lies in the actual information architecture, the way you structured the data. And of course, most of this happened in the old days was around
+
+00:19:55.000 --> 00:20:04.000
+relational databases and of course in a relational database, you always start with a model
+
+00:20:04.000 --> 00:20:16.000
+a schema. And invariably that you start building or designing that schema before you put any data into the database
+
+00:20:16.000 --> 00:20:25.000
+And so that you have to imagine at the very beginning, all of the things that you want to do with the data and try to accommodate that into your schema
+
+00:20:25.000 --> 00:20:35.000
+Which is impossible to do. Things change. Everything changes. The sources of data change, the kinds of data, everything changes. And so
+
+00:20:35.000 --> 00:20:41.000
+There's a famous quote by
+
+00:20:41.000 --> 00:20:52.000
+Oh, gosh, I forgot the guy's name. But anyway, he said all models are wrong, but some are useful. And that's actually quite true.
+
+00:20:52.000 --> 00:21:02.000
+It's very useful to start off with some kind of model, but you're… but it's always going to be wrong. There's always going to be something you didn't anticipate, or you left out
+
+00:21:02.000 --> 00:21:06.000
+No matter how many -oh columns that you put in your schema
+
+00:21:06.000 --> 00:21:17.000
+So, this was the realization that to really have good quality information products and services, you needed a good information architecture that supported it
+
+00:21:17.000 --> 00:21:28.000
+So that brings in this idea, and the dotted line here represents the difference between the implementation of an information system
+
+00:21:28.000 --> 00:21:33.000
+And it's designed in what we call an enterprise architecture
+
+00:21:33.000 --> 00:21:43.000
+And of course, there are different views of what an enterprise architecture is, but what we're using is that it has four main components
+
+00:21:43.000 --> 00:21:54.000
+The business architecture, what it is I'm trying to do in my business, the information architecture, what information do I need to accomplish that business
+
+00:21:54.000 --> 00:22:04.000
+And once I know what the information is, how do I build a solution to use that information? And then finally, what technical architecture do I need to support it
+
+00:22:04.000 --> 00:22:06.000
+So this is
+
+00:22:06.000 --> 00:22:21.000
+intended to be a way to look at how you start a business or any kind of an enterprise. And so, here we've moved away from just the implementation of the system in the lower part
+
+00:22:21.000 --> 00:22:28.000
+to the first idea that we need to look at design, in this case, the design is the information architecture.
+
+00:22:28.000 --> 00:22:32.000
+And of course, then that tells us where we're going next
+
+00:22:32.000 --> 00:22:43.000
+Is that, all right, if we really need to look at the information architecture, we really need to look at the whole business architecture, the whole enterprise architecture
+
+00:22:43.000 --> 00:22:52.000
+Because now, in this phase, or the history is where we're beginning to look at information as an enterprise asset
+
+00:22:52.000 --> 00:22:58.000
+And this brings a lot of other things into the picture besides just data quality.
+
+00:22:58.000 --> 00:23:12.000
+We're going to have to have data governance. If it's going to be an asset, we need to control it. We need to have some kind of program that we call data governance that gives us guidelines for how we make rules
+
+00:23:12.000 --> 00:23:15.000
+about what we do with the data
+
+00:23:15.000 --> 00:23:26.000
+And so data governance comes into the picture. The idea of a chief data officer comes into the picture, someone who's thinking or looking about
+
+00:23:26.000 --> 00:23:32.000
+The information and data across the entire enterprise
+
+00:23:32.000 --> 00:23:44.000
+data quality, of course, information quality, data integration, integrating data, master data management and data analytics. So there's a lot of things involved when we take an enterprise view.
+
+00:23:44.000 --> 00:23:51.000
+So the fourth is an enterprise view
+
+00:23:51.000 --> 00:23:53.000
+So what's next?
+
+00:23:53.000 --> 00:23:56.000
+What I'm seeing
+
+00:23:56.000 --> 00:23:58.000
+is
+
+00:23:58.000 --> 00:24:02.000
+And we'll talk a little bit about standards for this
+
+00:24:02.000 --> 00:24:19.000
+Is the whole idea of interoperability. Everything that we've talked about in the first four phases of the development of information quality have been around one implementation that is one enterprise that's using it and how it sort of evolved
+
+00:24:19.000 --> 00:24:33.000
+Discovering problems with the data warehouse to continuous improvement, to managing information as product, to looking at the information architecture to now looking at the
+
+00:24:33.000 --> 00:24:43.000
+enterprise architecture and viewing information as an asset. So all this is around one enterprise, or around one implementation
+
+00:24:43.000 --> 00:24:49.000
+So I think what's next and what we're seeing is that we need to collaborate
+
+00:24:49.000 --> 00:24:53.000
+And so
+
+00:24:53.000 --> 00:24:56.000
+Some of the pioneers in this area
+
+00:24:56.000 --> 00:24:59.000
+In the medical field because
+
+00:24:59.000 --> 00:25:11.000
+In medicine, we have for a long time had an entire ecosystem, right? So we have multiple hospitals and clinics. We have multiple providers
+
+00:25:11.000 --> 00:25:26.000
+The doctors, we support nurses. And then, of course, we have the payers, we have the insurance companies and they're all sharing this information. It's not all just we don't need it to be well we need it to be, but
+
+00:25:26.000 --> 00:25:38.000
+It's not necessarily just that it has to be consistent within one enterprise. We want it to somehow be consistent across multiple enterprises. And so
+
+00:25:38.000 --> 00:25:41.000
+Again, healthcare has kind of been a primary
+
+00:25:41.000 --> 00:25:52.000
+a leader in this, and because they've needed to share information about the same patients and the same providers and the same payers
+
+00:25:52.000 --> 00:26:00.000
+And so this idea of how do we share information and we'll talk later about some standards around this
+
+00:26:00.000 --> 00:26:07.000
+And another area that's very important, and that is in supply chains for enterprise.
+
+00:26:07.000 --> 00:26:13.000
+especially large enterprises may have hundreds, maybe even thousands of suppliers
+
+00:26:13.000 --> 00:26:19.000
+And so they need to be able to somehow exchange or interoperate with their data
+
+00:26:19.000 --> 00:26:25.000
+So this is where the next frontier is in data and information quality, I believe
+
+00:26:25.000 --> 00:26:29.000
+Now, one that I haven't added a slide on this
+
+00:26:29.000 --> 00:26:39.000
+is that, but we will talk about this later, is what does AI have to do with it? And so I've got a whole lecture we'll talk about
+
+00:26:39.000 --> 00:26:45.000
+AI is not so much about what we're talking about here, about the interoperability of data
+
+00:26:45.000 --> 00:26:58.000
+But it certainly is important because the new large language model that are dominating are just data really. So they are big data
+
+00:26:58.000 --> 00:27:10.000
+repositories huge. We talked about billions all getting up into trillions, I guess, of parameters. And the parameter is nothing but a conditional probability
+
+00:27:10.000 --> 00:27:18.000
+So, given this word or token, what's the probability that the next token will be this?
+
+00:27:18.000 --> 00:27:27.000
+If I have X, what's the probability it'll be followed by Y? So, that's a parameter, and so obviously
+
+00:27:27.000 --> 00:27:40.000
+There' many, many ways, many ways that one token could follow another, and that's the reason that there are so many of these parameters, so many billions of the parameters, so many ways that we can say things
+
+00:27:40.000 --> 00:27:45.000
+So, but anyway, the point is that that is all data
+
+00:27:45.000 --> 00:27:53.000
+And so data quality is very important, but in a couple of ways. One is that
+
+00:27:53.000 --> 00:28:01.000
+We need good data to build the models, and that's kind of where the focus is right now, but now there's a new focus starting
+
+00:28:01.000 --> 00:28:17.000
+that we're working on, and that is the idea, if we have an AI model, can it help us improve data? So it's sort of a virtuous cycle. Good data builds good models and good models can help make good data
+
+00:28:17.000 --> 00:28:26.000
+We'll talk more about that. But here, I think what we're talking about in the next phase of information quality is
+
+00:28:26.000 --> 00:28:28.000
+Where we have shared standards
+
+00:28:28.000 --> 00:28:41.000
+that help us with data interoperability and data portability, being able to move data from system to system and not get locked in where we start using a system
+
+00:28:41.000 --> 00:28:55.000
+And we want to change systems, but all of our data is in the initial system, and we're not allowed, or there's not feasible to take that data out and put it into another system. It's not portable for us
+
+00:28:55.000 --> 00:29:00.000
+So there's a lot of emerging topics here
+
+00:29:00.000 --> 00:29:09.000
+So there's the data quality standards from ISO, we'll talk about those
+
+00:29:09.000 --> 00:29:19.000
+There's data management for streaming. Most of the time we've been talking about data quality management for large batches, large files of data, but streaming or real-time data
+
+00:29:19.000 --> 00:29:25.000
+Data quality for unstructured data. And again, this is evolving as well
+
+00:29:25.000 --> 00:29:41.000
+Right now, people are saying that, well, I have a lot of data, some people use the Pareto 2080 and say 80% of my data is really in unstructured formats of documents and drawings and audio and video
+
+00:29:41.000 --> 00:29:55.000
+The move initially now has been to how do we structure what's unstructured? But I think beyond that, we're going to be thinking about how we do semantic computing
+
+00:29:55.000 --> 00:30:08.000
+Where we don't have to go through that transition phase of unstructured to structured, we simply introduce the unstructured data into the systems
+
+00:30:08.000 --> 00:30:14.000
+then the data quality, there's the Internet of Things, machine learning
+
+00:30:14.000 --> 00:30:21.000
+And AI systems, especially now the new language model systems that I just talked about
+
+00:30:21.000 --> 00:30:32.000
+Automation of data quality assessment and cleansing. We've been working on a project here called the data washing machine to research on that
+
+00:30:32.000 --> 00:30:45.000
+The automation of data governance, data literacy, data democratization, data monetization, and economics. So these are new topics that are coming out of the information quality world
+
+00:30:45.000 --> 00:30:51.000
+So we'll be talking about some of these as we go through the course
+
+00:30:51.000 --> 00:31:00.000
+So with that, I'd like to get started. If any questions, feel free to interrupt at any time or any comments
+
+00:31:00.000 --> 00:31:12.000
+So, we talk about this course as being principled, so I've developed seven principles. They might not all be comprehensive of everything, but it's a good start with it.
+
+00:31:12.000 --> 00:31:15.000
+So principle number one
+
+00:31:15.000 --> 00:31:22.000
+And I think most people now recognize this, that data is a resource which
+
+00:31:22.000 --> 00:31:34.000
+you… you can produce information products for the purpose of creating value. So we want to think about data and information from a value standpoint, like our definition
+
+00:31:34.000 --> 00:31:46.000
+And data collected and processed and formatted to a particular use is what we call an information product. And I should add, and I probably will go back and revise some of
+
+00:31:46.000 --> 00:31:53.000
+It's not always just a product, a static product, could be an information service as well.
+
+00:31:53.000 --> 00:32:05.000
+And of course, whenever you take a resource like data and you create value from it, then that means that that thing becomes an asset, right?
+
+00:32:05.000 --> 00:32:10.000
+So now there's a recognition that information is an organizational asset
+
+00:32:10.000 --> 00:32:28.000
+So data is the resource. We bring it, produce, use it to produce an information product or service. And by doing that, if we create value by doing that, now data and information become an asset
+
+00:32:28.000 --> 00:32:40.000
+So value, just to be sure that we all comprehend, I think we do. It's very simple in terms of a formula, although it's sometimes hard to figure out what goes into the formula
+
+00:32:40.000 --> 00:32:44.000
+We create value whenever the benefits
+
+00:32:44.000 --> 00:32:48.000
+outweigh or larger than
+
+00:32:48.000 --> 00:32:54.000
+the investment that it takes to get that benefit.
+
+00:32:54.000 --> 00:32:58.000
+So we always want to have positive value
+
+00:32:58.000 --> 00:33:07.000
+We want that number to be positive. We want the benefits of what we're doing to outweigh the cost of doing them
+
+00:33:07.000 --> 00:33:16.000
+And so, it's really, you know, creating value should be the reason that we do things. Whatever it is that we do in life
+
+00:33:16.000 --> 00:33:23.000
+should be valued. The benefit of doing it should outweigh the cost of doing it, or otherwise, why would we do it
+
+00:33:23.000 --> 00:33:26.000
+And as I mentioned earlier.
+
+00:33:26.000 --> 00:33:31.000
+We can measure value in three basic ways. Monetary
+
+00:33:31.000 --> 00:33:34.000
+Quality of life
+
+00:33:34.000 --> 00:33:36.000
+Our mission accomplishment
+
+00:33:36.000 --> 00:33:50.000
+I think that covers pretty much all of the value proposition. So we don't want to just think in terms of money. There are other things that create value as well, different types of value
+
+00:33:50.000 --> 00:33:59.000
+And another problem we have, and this is one that I've suffered with a lot, especially when I was just mostly a technician, started off as a programmer
+
+00:33:59.000 --> 00:34:07.000
+is that we often confuse results with value
+
+00:34:07.000 --> 00:34:13.000
+And what do I mean by that? So we expand an effort to do something, right?
+
+00:34:13.000 --> 00:34:15.000
+And we
+
+00:34:15.000 --> 00:34:23.000
+Go in and we say, well, we expanded this effort, and here are the results. Here's what we got out of it
+
+00:34:23.000 --> 00:34:27.000
+And oftentimes we just stop there. For example
+
+00:34:27.000 --> 00:34:33.000
+I ran into this when I was working at Axiom Corporation, and I would say, well
+
+00:34:33.000 --> 00:34:40.000
+I was working in a project, and we were trying to integrate information
+
+00:34:40.000 --> 00:34:56.000
+And we measure that in terms of precision and recall of how well, how accurately we integrated data together. And so I was working on a project and the manager of the project or the project leader
+
+00:34:56.000 --> 00:35:12.000
+was making the presentation, he said, look, we spent three months working on this, and we tried X, and we tried Y, and we tried Z, and we finally had success, and look, we have increased the precision of our integration process
+
+00:35:12.000 --> 00:35:22.000
+We increased it from 88% to 92% and the recall has increased from 70% to 80%.
+
+00:35:22.000 --> 00:35:28.000
+And he just stopped right there and looked at everyone as though they're going to really
+
+00:35:28.000 --> 00:35:41.000
+do wow, you know, and applaud, because that seemed to him, and to me, I was on the team, a huge success, right? Because those results, we improved the results dramatically.
+
+00:35:41.000 --> 00:35:46.000
+for that kind of an operation may not seem like a lot, but
+
+00:35:46.000 --> 00:35:55.000
+In data integration, master data management, moving precision and recall by just a few percentage points can be a real challenge
+
+00:35:55.000 --> 00:36:05.000
+So, if you just stop there, then, you know, the business managers and the CEO and the CMO and the CEO
+
+00:36:05.000 --> 00:36:08.000
+If they're standing in the room when you make that
+
+00:36:08.000 --> 00:36:24.000
+You know, their eyes roll. I mean, so, okay, so what does that mean? And that's where we often drop the ball. We say, okay, expend an effort, we make results, we get some kind of big improvement that we measure, but what is the value of that
+
+00:36:24.000 --> 00:36:39.000
+Okay, so what difference does it make that I've moved the precision of our process from 88 to 92%? Does that mean we're going to retain more customers? Does that mean we lose less customers? Is it going to be cheaper to
+
+00:36:39.000 --> 00:36:50.000
+service our customers is going to mean we can expand our market by 20% or, you know, give me some numbers that represent value, not technical
+
+00:36:50.000 --> 00:36:53.000
+statistics and percentages
+
+00:36:53.000 --> 00:36:58.000
+So the way to tell the difference between results and value typically is that
+
+00:36:58.000 --> 00:37:05.000
+We talk about them in different ways, right? Results, we talk about statistics, as percentages
+
+00:37:05.000 --> 00:37:13.000
+But value is, we talked about in terms of increase in revenue or lower cost or lowering mortality
+
+00:37:13.000 --> 00:37:19.000
+In medical or higher success rates and mission accomplishment or whatever
+
+00:37:19.000 --> 00:37:24.000
+Well, how do we measure it in terms of what we're trying to… the value that we're trying to create
+
+00:37:24.000 --> 00:37:29.000
+So this was a valuable lesson to me
+
+00:37:29.000 --> 00:37:39.000
+I learned that this to complete this value chain, you have to go from results to value. You can't just say, here's better results
+
+00:37:39.000 --> 00:37:45.000
+You need to think about, okay, do the better results then give me more value
+
+00:37:45.000 --> 00:37:54.000
+We oftentimes just leave that unstated and we assume that people understand. So going back to my example about the
+
+00:37:54.000 --> 00:37:57.000
+the integration system that we were improving
+
+00:37:57.000 --> 00:38:03.000
+All of the members of the team were just overjoyed that we went from 88% to 92%.
+
+00:38:03.000 --> 00:38:06.000
+precision, we knew that that was a huge lift
+
+00:38:06.000 --> 00:38:14.000
+And we were rejoicing about it, but anyone from the outside that didn't understand all the technical details, it was meaningless to them.
+
+00:38:14.000 --> 00:38:25.000
+Because we assume they understood, yeah, now this system's better, it's going to mean better for the business, but we never said how. How is it going to be better for the business?
+
+00:38:25.000 --> 00:38:36.000
+So, completing the value chain, don't confuse just stating results with stating what is the value
+
+00:38:36.000 --> 00:38:42.000
+Simple example here is that we have five, because some of these projects are really big
+
+00:38:42.000 --> 00:38:50.000
+A five-man year system development with a million dollars of direct cost and $500,000 of indirect costs
+
+00:38:50.000 --> 00:38:56.000
+The result, a new customer recognition system, 15% more accurate than the legacy system
+
+00:38:56.000 --> 00:38:58.000
+Wow
+
+00:38:58.000 --> 00:39:09.000
+15%. If we just leave it there, and we say, well, people understand, well, it's 15% better, better is better, right? But look, we spent $1.5 million doing this
+
+00:39:09.000 --> 00:39:19.000
+So to get to better results that we can interpret, survey shows, well, after doing this, the customer satisfaction is up 20
+
+00:39:19.000 --> 00:39:21.000
+Another result
+
+00:39:21.000 --> 00:39:26.000
+Keep going with the chain, analysis shows customer retention is up by 8
+
+00:39:26.000 --> 00:39:34.000
+Now we can get to a value. The difference between customer acquisition cost and customer maintenance cost
+
+00:39:34.000 --> 00:39:35.000
+project
+
+00:39:35.000 --> 00:39:44.000
+Projects a net revenue increase over five years of $20 million, which more than makes up for the cost of it.
+
+00:39:44.000 --> 00:39:57.000
+But we know in our business, most businesses know that it costs less to maintain a customer than to go out and market and get a new customer. And if you take that number
+
+00:39:57.000 --> 00:40:10.000
+and project it by the smaller or the greater retention, the smaller loss rate of customers, you can turn that into a value, a number, in this case, $20 million.
+
+00:40:10.000 --> 00:40:20.000
+So, we need to keep going with the value chain until we get from results to a value
+
+00:40:20.000 --> 00:40:35.000
+So, again, I spent a lot of time, but that's a very important principle of information quality, is it needs to be based on value. We don't want to think about information quality as just cleaning up dirty data.
+
+00:40:35.000 --> 00:40:45.000
+Nobody's excited about that. It's just like thinking we build a new building. Yeah, we got to have janitors. We know the floor is going to get dirty. We got to keep
+
+00:40:45.000 --> 00:40:48.000
+cleaning them, but you know what good is that
+
+00:40:48.000 --> 00:40:54.000
+Other than just having clean floors. So, we want to have a bigger picture, bigger thought
+
+00:40:54.000 --> 00:40:59.000
+And it's not it's understanding what customers need, what kind of
+
+00:40:59.000 --> 00:41:18.000
+Information products and services do they need and want that they will pay for? How do we make it a quality product or service? And then we can work backwards and see what data, what condition does the data need to be in to build that quality product or service
+
+00:41:18.000 --> 00:41:23.000
+So, value is the first principle. The second principle is
+
+00:41:23.000 --> 00:41:30.000
+As we already mentioned in the history is the recognition that, okay, if we're making money
+
+00:41:30.000 --> 00:41:38.000
+Or, you know, improving the quality of life or accomplishing our mission with better data and information
+
+00:41:38.000 --> 00:41:44.000
+then it's an organizational asset. We need to control it
+
+00:41:44.000 --> 00:41:50.000
+And controlling data as an asset is called data governance
+
+00:41:50.000 --> 00:41:55.000
+The way I like to think about data governance is this
+
+00:41:55.000 --> 00:41:59.000
+Data governance is not data management
+
+00:41:59.000 --> 00:42:05.000
+What we do with data is data management. We decide what we're going to do with data
+
+00:42:05.000 --> 00:42:07.000
+Data governance
+
+00:42:07.000 --> 00:42:12.000
+It's the set of rules for making the decisions about what we do with it.
+
+00:42:12.000 --> 00:42:20.000
+So it's sort of a meta level. If data management is the decisions about what to do with data
+
+00:42:20.000 --> 00:42:24.000
+Data governance is the guidelines for making those decisions.
+
+00:42:24.000 --> 00:42:31.000
+So it's very important, right? I mean, if something's important to you, I mean.
+
+00:42:31.000 --> 00:42:37.000
+There's a famous story about a guy going in to make
+
+00:42:37.000 --> 00:42:40.000
+a pitch about data governance
+
+00:42:40.000 --> 00:42:50.000
+The executive just kind of, you know, poohooing everything that he said and just said, you know, what you're doing is not important. We don't need
+
+00:42:50.000 --> 00:42:52.000
+to control all that data
+
+00:42:52.000 --> 00:42:57.000
+And as he was leaving the meeting, he just stopped in the restroom, and he noticed that
+
+00:42:57.000 --> 00:43:09.000
+All the urinals had inventory numbers on them. So it was a company that was wanting to really take control of their assets by numbering all the urinals in the bathroom, but they didn't want to
+
+00:43:09.000 --> 00:43:15.000
+to engage in data governance, to take care of the data that they were using day to day
+
+00:43:15.000 --> 00:43:21.000
+So, however, it's now one of the fastest growing areas of information quality
+
+00:43:21.000 --> 00:43:24.000
+Because
+
+00:43:24.000 --> 00:43:36.000
+Everyone is interested in how they govern data, not only to create more value out of it, but to remember in our definition, it's not only to maximize value, but to minimize risk
+
+00:43:36.000 --> 00:43:44.000
+And so there's huge risk with information. You can talk to Meta about that today, I guess
+
+00:43:44.000 --> 00:43:53.000
+But there's a lot of regulation, a lot of oversight, especially in the financial services area and other regulated areas
+
+00:43:53.000 --> 00:44:02.000
+That if you're not careful with how you use data and what you use it for, how you release data, how you protect data
+
+00:44:02.000 --> 00:44:05.000
+You can have huge liabilities
+
+00:44:05.000 --> 00:44:13.000
+So data governance is both sides. It's building, it's helping to have a plan for
+
+00:44:13.000 --> 00:44:19.000
+building the right things, but also doing the right things with your data.
+
+00:44:19.000 --> 00:44:24.000
+So, in the same way that every business has an accounting function
+
+00:44:24.000 --> 00:44:26.000
+And
+
+00:44:26.000 --> 00:44:30.000
+Their technology, we typically have a CIO
+
+00:44:30.000 --> 00:44:36.000
+Then this has really taken off since I did these slides
+
+00:44:36.000 --> 00:44:44.000
+Of course, the federal government now has passed the regulation that every federal agency should have a chief data officer.
+
+00:44:44.000 --> 00:44:49.000
+And
+
+00:44:49.000 --> 00:45:02.000
+So if we're really going to manage information as an asset, somebody needs to be the gatekeeper or caretaker. And that generally falls as the role of the chief data officer
+
+00:45:02.000 --> 00:45:05.000
+They should be in charge of the strategy
+
+00:45:05.000 --> 00:45:11.000
+what information products and services are we going to bill for our customers
+
+00:45:11.000 --> 00:45:18.000
+How do we get that information? How do we manage it? How do we govern it
+
+00:45:18.000 --> 00:45:21.000
+Somebody needs to be in charge of that.
+
+00:45:21.000 --> 00:45:26.000
+So, we talked about value, we talked about governance
+
+00:45:26.000 --> 00:45:32.000
+Then we need to talk about some of the fundamentals, and this one, gotten a little bit of a
+
+00:45:32.000 --> 00:45:38.000
+argument with Doug Laney about this, but I think I'm okay
+
+00:45:38.000 --> 00:45:43.000
+Information can only produce value when it's used for some purpose
+
+00:45:43.000 --> 00:45:48.000
+And
+
+00:45:48.000 --> 00:45:57.000
+The argument that we had over it is he made the statement that he disliked it when people say that information only has value when it's used
+
+00:45:57.000 --> 00:46:03.000
+And I agree with him that's not true. It's not
+
+00:46:03.000 --> 00:46:22.000
+have value, but does it produce value? So it only produces the value when it's used. If you have data and you're not using it, it has potential value, just like something, a weight on a shelf has a potential energy when it falls off and expends that energy.
+
+00:46:22.000 --> 00:46:35.000
+The same thing is true with data, so there's sort of a misunderstanding in terminology. I never said that information only has value when it's used. It only produces value when it's used
+
+00:46:35.000 --> 00:46:38.000
+Certainly, it has potential value
+
+00:46:38.000 --> 00:46:41.000
+So
+
+00:46:41.000 --> 00:46:49.000
+Transforming data into a form for use, again, is back to this product idea
+
+00:46:49.000 --> 00:47:01.000
+And the quality of an information product is measured in terms of the value. So again, we're seeing this, we're going to see this divide and I'll make it a little clearer later
+
+00:47:01.000 --> 00:47:05.000
+That I make anyway of course I'm the teacher so I can do this
+
+00:47:05.000 --> 00:47:10.000
+between data quality and information quality.
+
+00:47:10.000 --> 00:47:21.000
+So information quality of our definition is based on value. It's based on producing value, maximizing value or minimizing risk
+
+00:47:21.000 --> 00:47:28.000
+of our information assets
+
+00:47:28.000 --> 00:47:30.000
+So principle number four
+
+00:47:30.000 --> 00:47:40.000
+And then, as we just mentioned in the previous slide, if we're building this product, then really information should be managed as product
+
+00:47:40.000 --> 00:47:44.000
+The product of an information system
+
+00:47:44.000 --> 00:47:46.000
+Not a byproduct
+
+00:47:46.000 --> 00:47:53.000
+The reason that we invest in all these computers, the reason we invest in all these cloud services and servers
+
+00:47:53.000 --> 00:47:56.000
+is not
+
+00:47:56.000 --> 00:48:08.000
+is to produce some kind of a product or information product or service. It's not just happens to be something that comes out of the system. That's why we got them in the first place.
+
+00:48:08.000 --> 00:48:15.000
+So managing information as a byproduct of computing is just not, doesn't make sense.
+
+00:48:15.000 --> 00:48:25.000
+But often you see that, and that's the reason that we've seen the shift. Most organizations for many years have had a chief information officer
+
+00:48:25.000 --> 00:48:38.000
+So the question was, well then why do we need a chief data officer if we're already managing? But the problem is, even though chief information officers have that title, that's not what they do
+
+00:48:38.000 --> 00:48:54.000
+CIOs focus on systems, software, and hardware. They're wanting to be sure that the system uptime is maximized, that they have the latest versions of the software, and it's all a technical focus, and it's not focused on the data
+
+00:48:54.000 --> 00:49:04.000
+And that's the reason that we've needed a chief data officer, even though we already have a chief information officer, even though the names
+
+00:49:04.000 --> 00:49:08.000
+The names are not aligned with what they actually do
+
+00:49:08.000 --> 00:49:10.000
+And
+
+00:49:10.000 --> 00:49:12.000
+So
+
+00:49:12.000 --> 00:49:27.000
+And I've seen this so many times in organizations that the means becomes the end. And what's really tragic is that many have kind of caught on to this idea, well, sure, okay, now there's a trend, we need to get a chief data officer
+
+00:49:27.000 --> 00:49:35.000
+And what they do is they create a chief data officer position, but they put it under the CIO
+
+00:49:35.000 --> 00:49:52.000
+And that usually means that it's not going to be very successful. The chief data officer and the chief information officer should be peers. They should be at the same level reporting up to higher levels, like the chief operations officer or the
+
+00:49:52.000 --> 00:49:55.000
+Marketing officer or even the CEO
+
+00:49:55.000 --> 00:50:04.000
+Because really, if you don't have a balance between your data and your technology
+
+00:50:04.000 --> 00:50:16.000
+Yeah, and you're have a higher priority for the technology. You're never going to get the full value out of the data that you have
+
+00:50:16.000 --> 00:50:23.000
+So how do you successfully manage products, I'm sorry, successful product management
+
+00:50:23.000 --> 00:50:27.000
+And we've known that for a long time. And again, most of this comes from TQM
+
+00:50:27.000 --> 00:50:30.000
+There's four main principles
+
+00:50:30.000 --> 00:50:35.000
+Number one, understand the information customer needs.
+
+00:50:35.000 --> 00:50:49.000
+What information do your customers really need? And what do they want? Whether it's information or anything, a car or whatever, what is it that customers want? You need to understand that.
+
+00:50:49.000 --> 00:50:55.000
+And then manage information is the product of a well-defined production process.
+
+00:50:55.000 --> 00:50:59.000
+And again, unfortunately
+
+00:50:59.000 --> 00:51:09.000
+When we build products, of course, as soon as it's built, we have this beautiful set of documentation and everybody understands what's going on
+
+00:51:09.000 --> 00:51:15.000
+But as time goes on, we start patching and fixing, and it goes undocumented
+
+00:51:15.000 --> 00:51:27.000
+And oftentimes in several years, there's one person in the company that knows how a particular process works. And if he retires, then you have to abandon the system
+
+00:51:27.000 --> 00:51:32.000
+So, we really need well-defined, well-documented production processes.
+
+00:51:32.000 --> 00:51:38.000
+And then the other is I mentioned earlier about really liking the
+
+00:51:38.000 --> 00:51:43.000
+El Camino, but you can't really buy them anymore except on the aftermarket
+
+00:51:43.000 --> 00:51:53.000
+And the reason is that, you know, there was… there's been shifts in the automotive market. We've gone through a huge cycle now of
+
+00:51:53.000 --> 00:52:12.000
+SUVs we used to have station wagons. No, not anymore. We have SUVs, we have pickup truck. So all products have a life cycle. You initiate the project, product, it grows, it reaches maturity, it's useful, but at some point it retires
+
+00:52:12.000 --> 00:52:24.000
+It's like a plant or an animal has a life cycle, products have a life cycle. So understanding where you are in the life cycle is very important in managing a product.
+
+00:52:24.000 --> 00:52:36.000
+And then this was one that we really need in the information quality area. And I see this happening more and more in businesses is the appointment of product managers
+
+00:52:36.000 --> 00:52:42.000
+And the purpose of a product manager and manufacturing has understood this for a long time
+
+00:52:42.000 --> 00:52:51.000
+is you need someone that's the liaison between the consumer of the product and the producer of the product
+
+00:52:51.000 --> 00:53:02.000
+If you just leave it to the producers to imagine what they want to build, they often end up building things that are just not useful or not sellable to their consumers.
+
+00:53:02.000 --> 00:53:11.000
+So, it's very important to listen to the consumer, what they want, translate that back into the production so that you meet consumer needs
+
+00:53:11.000 --> 00:53:21.000
+And we've done that a lot in software development. Software development has had product managers for a long time
+
+00:53:21.000 --> 00:53:32.000
+So people that sell software, they go out and they talk, what features do you want? What other things do you want in the software? They take it back, software developers implement those things
+
+00:53:32.000 --> 00:53:40.000
+Not so much until lately for information products and services, but I do see that happening. I worked with a company
+
+00:53:40.000 --> 00:53:55.000
+for several years doing some consulting and I think it was two years ago, they implemented an information product manager group. So they identified what are the information products that we're producing
+
+00:53:55.000 --> 00:54:04.000
+And who's the assigned manager for that? Who's the liaison between the users of this product and the producers of the product
+
+00:54:04.000 --> 00:54:09.000
+So those are the four principles of successful product management
+
+00:54:09.000 --> 00:54:13.000
+Number five
+
+00:54:13.000 --> 00:54:19.000
+And this is what I talked about earlier. Now we talked a little bit about the difference between information quality and data quality
+
+00:54:19.000 --> 00:54:24.000
+And they're certainly related, but they're different in their focus.
+
+00:54:24.000 --> 00:54:26.000
+Information quality
+
+00:54:26.000 --> 00:54:31.000
+Applies to information products, including their governance and use
+
+00:54:31.000 --> 00:54:41.000
+It's measured in value units, like money or quality of life, you know, success rates of drugs, or mission achievement
+
+00:54:41.000 --> 00:54:50.000
+And that's the information quality is the overall process of going from raw information or draw data
+
+00:54:50.000 --> 00:54:52.000
+processing
+
+00:54:52.000 --> 00:55:01.000
+producing information products, the loopback of improvement, the governance of it, all of this infrastructure, our ecosystem
+
+00:55:01.000 --> 00:55:04.000
+to me is information quality
+
+00:55:04.000 --> 00:55:11.000
+Data quality is a big part of that, but it applies to operational data internal to the organization
+
+00:55:11.000 --> 00:55:17.000
+And it's measured in percentages, the degrees to which data requirements are met
+
+00:55:17.000 --> 00:55:23.000
+So those of you who are very familiar, some of you, with the idea of
+
+00:55:23.000 --> 00:55:28.000
+of ISO, the International Organization of Standardization
+
+00:55:28.000 --> 00:55:32.000
+The quality
+
+00:55:32.000 --> 00:55:36.000
+The definition of quality is meeting requirements
+
+00:55:36.000 --> 00:55:40.000
+So, data quality is meeting data requirements. So
+
+00:55:40.000 --> 00:55:45.000
+We have a requirement, for example, completeness of the data
+
+00:55:45.000 --> 00:55:51.000
+We have a data set of customer addresses and we say, well
+
+00:55:51.000 --> 00:56:09.000
+You know, we're missing a lot of zip codes for our addresses. We need those zip codes to get the mail to the right place. So let's measure how complete are the zip codes. And they say, well, they're only 80% complete. And we can set a goal, and we say, well, okay, we want to get those to 90%, right?
+
+00:56:09.000 --> 00:56:15.000
+So we measure, we have a metric, a completeness metric
+
+00:56:15.000 --> 00:56:19.000
+And we can measure that, we can count how many
+
+00:56:19.000 --> 00:56:34.000
+How many missing values that we have, and we can strive to reduce that. And so that's improving the data quality. So data quality is measured in terms of some metric around… we usually have a numerical value for that's
+
+00:56:34.000 --> 00:56:41.000
+a degree to which we're meeting the requirement. How far are we from the 90% goal that we want to get to?
+
+00:56:41.000 --> 00:56:51.000
+So that's data quality. Information quality is the much bigger picture of value production from information products and services.
+
+00:56:51.000 --> 00:57:06.000
+So again, information is a lot of squabbling about this sometimes and a lot of disagreement. People say, well, these terms are just interchangeable, and we do sometimes. Even I will not necessarily make a big distinction
+
+00:57:06.000 --> 00:57:12.000
+But I like to think again of this two sides of the coin where
+
+00:57:12.000 --> 00:57:15.000
+The data quality has an inward focus
+
+00:57:15.000 --> 00:57:27.000
+Because it's dealing with the condition of the data. It's measured in conformance to data requirements, right? Data quality is the degree to which data meets data requirements
+
+00:57:27.000 --> 00:57:33.000
+And we measured in counts, percentages, proportions, ratios, things like that.
+
+00:57:33.000 --> 00:57:40.000
+Information quality has an outward focus. It's about creating value from information
+
+00:57:40.000 --> 00:57:54.000
+about meeting the user requirements and expectations, which are not always measured as completeness, in other words, they have other types of evaluations of how useful something is to them.
+
+00:57:54.000 --> 00:58:07.000
+And information quality measures are in these fields of value. If it's monetary, it could be monetary, could be treatment outcomes if we're talking about medical and so forth
+
+00:58:07.000 --> 00:58:09.000
+So
+
+00:58:09.000 --> 00:58:20.000
+The focus is different, and it's like the engineering dilemma. Are you building the thing right, or are you building the right thing?
+
+00:58:20.000 --> 00:58:22.000
+And this is very
+
+00:58:22.000 --> 00:58:25.000
+Similar to Tom Redmond's
+
+00:58:25.000 --> 00:58:33.000
+saw that similar to this. He says, is the data right or do you have the right data
+
+00:58:33.000 --> 00:58:37.000
+And you really want both, right? So this is saying the same thing
+
+00:58:37.000 --> 00:58:43.000
+So data quality is building the thing right
+
+00:58:43.000 --> 00:59:00.000
+In other words, are you cleaning up the data? Are you getting the data like in the data warehouse? Are you getting it to be consistent representation? All of these attributes of the data you try to get those right. But again, no matter how right those
+
+00:59:00.000 --> 00:59:10.000
+The data are, when you put it together into a product, if it's a product that nobody wants or doesn't sell well, or is defective
+
+00:59:10.000 --> 00:59:19.000
+You're not building the right thing. So you really need to start off and say, am I building the right thing? I'm going to build a building on this lot
+
+00:59:19.000 --> 00:59:26.000
+But if I build a building on this lot and the type of building that I build, say it's an apartment building
+
+00:59:26.000 --> 00:59:43.000
+Is that is that the right thing to do? Is it really going to sell or rent if I build this apartment in this particular location? If the answer is yes, then I want to be sure that when I build that apartment, I build it correctly, I build it according to the blueprints and the plans
+
+00:59:43.000 --> 00:59:49.000
+If I just go out and say, oh, here's a piece of land I'm going to build this building because I like it
+
+00:59:49.000 --> 00:59:59.000
+And I build it, and I can build that building right, I can build it according to the blueprint, but if I build it in the wrong place, or it's the wrong type of building for that location.
+
+00:59:59.000 --> 01:00:12.000
+It's not the right thing. And so you need to align both of these things. So as Tom said, you need the right data and you need the data to be right.
+
+01:00:12.000 --> 01:00:17.000
+So, data quality is assuring data conform to specifications like building it right
+
+01:00:17.000 --> 01:00:26.000
+And information quality is building an information product that creates value for the user, and that's building the right thing.
+
+01:00:26.000 --> 01:00:31.000
+Our goal is to do both
+
+01:00:31.000 --> 01:00:37.000
+So that leads us to what I call the information quality gap
+
+01:00:37.000 --> 01:00:47.000
+And what I mean by that is that we have a process where we're building an information product. We've got data coming in, we have a process
+
+01:00:47.000 --> 01:00:59.000
+And we were doing the right things. We got continuous improvement. We keep improving the information product, and we meet the data requirements internally
+
+01:00:59.000 --> 01:01:04.000
+However, that's the internal view, that's data quality management.
+
+01:01:04.000 --> 01:01:17.000
+But we're delivering this information product to some user. It could be within our own organization or outside of our organization, but there's somebody using this information product or service.
+
+01:01:17.000 --> 01:01:22.000
+And they have a they're using it for something.
+
+01:01:22.000 --> 01:01:26.000
+They have an application that they're using it for.
+
+01:01:26.000 --> 01:01:27.000
+So
+
+01:01:27.000 --> 01:01:34.000
+That information product, that's what creates the value for the user, is it doing the right thing for them?
+
+01:01:34.000 --> 01:01:41.000
+And so, if we don't communicate this back, and this is where we need the idea of a product manager
+
+01:01:41.000 --> 01:01:52.000
+then these happen in isolation, and we can end up over here on the left-hand side building things that are pretty gold-plated
+
+01:01:52.000 --> 01:01:58.000
+But they're not the things that people ask for that they really want when they use it.
+
+01:01:58.000 --> 01:02:10.000
+So, we need that communication about what's really creating value for the user, so that we can be sure we incorporate that into the building process of the information product or service.
+
+01:02:10.000 --> 01:02:30.000
+So what we want is this. We don't want that gap. We want another feedback loop. Not just a feedback loop of defects in the product, but a feedback loop that says, what are the features that are going to make that information product more useful to the user?
+
+01:02:30.000 --> 01:02:33.000
+Principle number six
+
+01:02:33.000 --> 01:02:37.000
+And this helps make the distinction
+
+01:02:37.000 --> 01:02:39.000
+is that
+
+01:02:39.000 --> 01:02:43.000
+Information quality
+
+01:02:43.000 --> 01:02:44.000
+I'm sorry.
+
+01:02:44.000 --> 01:02:47.000
+I have that got out of order
+
+01:02:47.000 --> 01:03:02.000
+Information quality is contextual, that is situational, it's not absolute. The same data can have different information quality when used in different information products for different purposes. The same data with the same set of data requirements
+
+01:03:02.000 --> 01:03:09.000
+has a fixed data quality. In other words, you set requirements, it's either meeting those requirements or it's not
+
+01:03:09.000 --> 01:03:15.000
+So the data quality changes when either the data or the data requirements change
+
+01:03:15.000 --> 01:03:21.000
+However, changes in the use of information products can change the data requirements.
+
+01:03:21.000 --> 01:03:25.000
+So what do I mean by that? Look at a very simple example
+
+01:03:25.000 --> 01:03:30.000
+I've got a file of name and address, right? So here's some examples
+
+01:03:30.000 --> 01:03:34.000
+I've got the Doe family on 123 Oak
+
+01:03:34.000 --> 01:03:36.000
+With a certain phone number
+
+01:03:36.000 --> 01:03:44.000
+The John Doe family on Pine Street. I don't have a number. I've got occupant on 789 Maple
+
+01:03:44.000 --> 01:03:46.000
+I don't have a phone number.
+
+01:03:46.000 --> 01:03:53.000
+And so forth and so on. So what the bottom line is that I have poor name quality
+
+01:03:53.000 --> 01:03:56.000
+have good address quality
+
+01:03:56.000 --> 01:04:02.000
+But I have also a lot of missing telephone numbers. So from a data quality standpoint
+
+01:04:02.000 --> 01:04:13.000
+I can measure these. I can measure how good my names are, how good my addresses are, how good my telephone numbers are. And I can see that I've got
+
+01:04:13.000 --> 01:04:29.000
+fairly low, poor name quality, and I've got poor telephone number quality, because I have a lot of missing numbers, but I have pretty good address quality. So now, how am I going to use this data? Suppose the first use is I'm going to mail coupons out for
+
+01:04:29.000 --> 01:04:38.000
+Free pizza. There's a new pizza store opening, and they want to give the customer… you bring in the coupon, you'll get one free pizza.
+
+01:04:38.000 --> 01:04:52.000
+And it turns out that the use of this data for that is very high. It's a high quality product, even though the data has a lot of low quality features, the main feature that it needs is it needs to be mailable
+
+01:04:52.000 --> 01:04:57.000
+Doesn't matter if it mails it to occupants, somebody's going to get it at that house
+
+01:04:57.000 --> 01:05:04.000
+And they're going to get that coupon, and then they'll go down to Joe's Pizza, and he's got his customer prospect coming in
+
+01:05:04.000 --> 01:05:10.000
+So, the fact that it has poor name quality, and they're not calling them or mailing them
+
+01:05:10.000 --> 01:05:16.000
+So it actually this idea of a direct mail list out of this
+
+01:05:16.000 --> 01:05:30.000
+There's a high quality information product, has high value. It's reaching the customers or potential customers. However, if we take that same data and we're going to make an online lookup of address
+
+01:05:30.000 --> 01:05:44.000
+And phone by name, in other words, you put in the name and you're going to try to find an address and a phone number is not going to work very well, because the name quality is very poor, so there'll be a lot of names I won't be able to look up because they're not there.
+
+01:05:44.000 --> 01:05:54.000
+And even if I looked them up, I could get an address, but I don't want to always get a phone, because there's a lot of missing phone days. So building that product out of this data
+
+01:05:54.000 --> 01:05:56.000
+is very low quality
+
+01:05:56.000 --> 01:06:03.000
+It's a very low quality product. The name lookup
+
+01:06:03.000 --> 01:06:15.000
+So here's an example where we have the same set of data and it creates a high quality product for one use and a low quality product for another use
+
+01:06:15.000 --> 01:06:22.000
+Same data quality, but different information quality.
+
+01:06:22.000 --> 01:06:32.000
+The final principle is that, and we've been talking about this, is that data can have many characteristics that we like to call dimensions
+
+01:06:32.000 --> 01:06:37.000
+that can be used to express data requirements. So this is important for data quality
+
+01:06:37.000 --> 01:06:43.000
+And the one that we like to use, and here's an unfortunate thing
+
+01:06:43.000 --> 01:06:55.000
+And it goes back to a statement that I made earlier is that the beginnings of information quality started with consultants, people like Larry English and Tom Redmond and others
+
+01:06:55.000 --> 01:07:01.000
+that went out, and of course, when you're a consultant, you want to distinguish yourself
+
+01:07:01.000 --> 01:07:05.000
+And so you don't want to look like somebody else. You definitely want to be different
+
+01:07:05.000 --> 01:07:14.000
+So what happened is in the beginning, we had many, many different types or descriptions of data quality dimensions
+
+01:07:14.000 --> 01:07:22.000
+So there are many of them floating out there. They're all quite similar, but they're all different in some ways.
+
+01:07:22.000 --> 01:07:28.000
+And the reason I like this one, this Wongstrong framework came out of
+
+01:07:28.000 --> 01:07:33.000
+University work at MIT, and it has research backing behind it
+
+01:07:33.000 --> 01:07:39.000
+So they came up with 16 dimensions or features of data
+
+01:07:39.000 --> 01:07:48.000
+And they categorized them into four categories, intrinsic dimensions, contextual dimensions, representational dimensions, and accessibility dimensions
+
+01:07:48.000 --> 01:07:57.000
+And you can see them here, intrinsic are the data accurate, believable, objective, reputation
+
+01:07:57.000 --> 01:08:09.000
+contextual, does it add value? Is it relevant, timely, complete? Is it the right amount of data? Representational, is it interpretable, understandable
+
+01:08:09.000 --> 01:08:14.000
+Is it consistent? That's what we talked about early, representational consistency
+
+01:08:14.000 --> 01:08:18.000
+Concise in representation isn't manipulable
+
+01:08:18.000 --> 01:08:23.000
+And then accessibility, can I get to it and is it secure?
+
+01:08:23.000 --> 01:08:28.000
+And those two kind of fight against each other
+
+01:08:28.000 --> 01:08:31.000
+So these
+
+01:08:31.000 --> 01:08:40.000
+Again, there are many other sets of dimensions. Most practitioners have their own set of dimensions, but they tend to agree on certain things like
+
+01:08:40.000 --> 01:08:45.000
+accuracy or timeliness, or completeness, or representation.
+
+01:08:45.000 --> 01:08:52.000
+On others, they might disagree on things like manipulability or representation or
+
+01:08:52.000 --> 01:08:56.000
+several other types of
+
+01:08:56.000 --> 01:09:00.000
+features that other people come up with
+
+01:09:00.000 --> 01:09:11.000
+But this is the one that we typically work with again because there's a very interesting paper. I don't know if I put it out in the resources yet, but there's a good paper about how this was developed
+
+01:09:11.000 --> 01:09:20.000
+And so we'll mostly be using this set of dimensions when we talk about dimensions
+
+01:09:20.000 --> 01:09:26.000
+And of course they're very important then for being able to measure data quality.
+
+01:09:26.000 --> 01:09:39.000
+So I mentioned this earlier and I'll mention it again, the work that the International Association for Information and Data Quality did a job analysis in preparation for a certification
+
+01:09:39.000 --> 01:09:40.000
+a certified
+
+01:09:40.000 --> 01:09:45.000
+Data quality professional
+
+01:09:45.000 --> 01:09:49.000
+I'm sorry, certified information quality professional
+
+01:09:49.000 --> 01:09:50.000
+And
+
+01:09:50.000 --> 01:09:53.000
+Again, the six domains are
+
+01:09:53.000 --> 01:10:02.000
+Information quality value and business impact. Information quality strategy and governance. Information Quality Environment and Culture
+
+01:10:02.000 --> 01:10:06.000
+information quality measurement improvement
+
+01:10:06.000 --> 01:10:11.000
+And sustaining information quality and information architecture quality
+
+01:10:11.000 --> 01:10:18.000
+So, they divided up the knowledge and practice that you need to be a professional into these six areas.
+
+01:10:18.000 --> 01:10:22.000
+We'll talk more about those later.
+
+01:10:22.000 --> 01:10:24.000
+So
+
+01:10:24.000 --> 01:10:29.000
+What are some of the roles that our graduates get?
+
+01:10:29.000 --> 01:10:37.000
+They often become data quality analysts, data governance stewards or directors
+
+01:10:37.000 --> 01:10:46.000
+solution developers, depending on their background, data developers. And we've had several now that have become chief data officers.
+
+01:10:46.000 --> 01:10:52.000
+and many that are now data analysts and data risk data analysts as well
+
+01:10:52.000 --> 01:10:57.000
+And a lot of our graduates are now into data governance.
+
+01:10:57.000 --> 01:11:08.000
+So I think we're running up against time. I don't know if there's any quick questions or comments from anyone still online.
+
+01:11:08.000 --> 01:11:12.000
+If not.
+
+01:11:12.000 --> 01:11:19.000
+Now I'm going to stop the recording
+

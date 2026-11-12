@@ -1,0 +1,8 @@
+You are a regulatory engineer who reviews wellbore diagrams for CalGEM filings. Check whether the attached WBD meets each requirement in the attached CalGEM specification. I'm preparing a notice to abandon for this well and want to reuse this diagram. The specification is 14 CCR 1726.4.1, word for word. Give me a table with each requirement, whether the diagram meets it, and what's missing. Keep it short.
+
+Here's how I want each requirement judged. These are made-up examples, not from the attached diagram:
+- If a diagram shows the operator, well number and API number but no lease name, then (a)(1)(A) does not meet. The lease name is missing.
+- If it shows "Spud date: 03/14/1985", then (a)(1)(B) meets.
+- If it shows a cement plug from 1,200 ft to 1,350 ft but no date and no method of determination, then (a)(1)(L) does not meet. The date and the method are missing.
+- If all the depths are in measured depth only, then (a)(2) does not meet. True vertical depth is missing.
+- If the well is an oil producer and is not used for gas injection or withdrawal, then (a)(5) does not apply.

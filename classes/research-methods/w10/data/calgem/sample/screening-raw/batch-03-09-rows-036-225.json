@@ -1,0 +1,1918 @@
+{
+ "0408302248": {
+  "api": "0408302248",
+  "detail": "/Well/Well/Detail/197337",
+  "status": "Idle",
+  "nDocs": 21,
+  "wbd": [
+   {
+    "up": "12/27/2024",
+    "rel": "02/09/2024",
+    "desc": "2024-02-08 NL 86 Current WBD",
+    "file": "2024-02-08 NL 86 Current WBD.pdf",
+    "id": "1128481"
+   },
+   {
+    "up": "12/27/2024",
+    "rel": "02/09/2024",
+    "desc": "2024-02-08 NL 86 Proposed WBD",
+    "file": "2024-02-08 NL 86 Proposed WBD.pdf",
+    "id": "1128482"
+   }
+  ]
+ },
+ "0403040808": {
+  "api": "0403040808",
+  "detail": "/Well/Well/Detail/188807",
+  "status": "Active",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0403003121": {
+  "api": "0403003121",
+  "detail": "/Well/Well/Detail/180331",
+  "status": "Idle",
+  "nDocs": 9,
+  "wbd": []
+ },
+ "0403029604": {
+  "api": "0403029604",
+  "detail": "/Well/Well/Detail/203019",
+  "status": "Active",
+  "nDocs": 18,
+  "wbd": [
+   {
+    "up": "02/14/2023",
+    "rel": "02/08/2023",
+    "desc": "Wellbore Diagram",
+    "file": "Desert Glow 24 ST Wellbore Diagram.pdf",
+    "id": "777807"
+   }
+  ]
+ },
+ "0407920412": {
+  "api": "0407920412",
+  "detail": "/Well/Well/Detail/16653",
+  "status": "Plugged",
+  "nDocs": 18,
+  "wbd": [
+   {
+    "up": "07/24/2024",
+    "rel": "06/08/2023",
+    "desc": "Wellbore Diagram",
+    "file": "Signal 130 WBD.pdf",
+    "id": "1039708"
+   }
+  ]
+ },
+ "0405902941": {
+  "api": "0405902941",
+  "detail": "/Well/Well/Detail/100670",
+  "status": "Idle",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0402928448": {
+  "api": "0402928448",
+  "detail": "/Well/Well/Detail/126659",
+  "status": "Plugged",
+  "nDocs": 16,
+  "wbd": [
+   {
+    "up": "09/24/2025",
+    "rel": "08/20/2025",
+    "desc": "Diagram",
+    "file": "Kern 68 0402928448.jpg",
+    "id": "1302810"
+   }
+  ]
+ },
+ "0408301018": {
+  "api": "0408301018",
+  "detail": "/Well/Well/Detail/76961",
+  "status": "Active",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0408320537": {
+  "api": "0408320537",
+  "detail": "/Well/Well/Detail/215645",
+  "status": "Idle",
+  "nDocs": 10,
+  "wbd": []
+ },
+ "0403023103": {
+  "api": "0403023103",
+  "detail": "/Well/Well/Detail/92938",
+  "status": "Idle",
+  "nDocs": 15,
+  "wbd": []
+ },
+ "0402976993": {
+  "api": "0402976993",
+  "detail": "/Well/Well/Detail/39100",
+  "status": "Active",
+  "nDocs": 20,
+  "wbd": [
+   {
+    "up": "09/03/2020",
+    "rel": "08/18/2020",
+    "desc": "wellbore diag",
+    "file": "377K-20 WH Rplct.pdf",
+    "id": "358311"
+   }
+  ]
+ },
+ "0403041952": {
+  "api": "0403041952",
+  "detail": "/Well/Well/Detail/25378",
+  "status": "Active",
+  "nDocs": 45,
+  "wbd": [
+   {
+    "up": "02/07/2025",
+    "rel": "10/09/2024",
+    "desc": "Wellbore Diagram 00",
+    "file": "558ZR3-34 Wellbore Diagram 00.pdf",
+    "id": "1154012"
+   },
+   {
+    "up": "02/07/2025",
+    "rel": "10/09/2024",
+    "desc": "Wellbore Diagram 01",
+    "file": "558ZR3-34 Wellbore Diagram 01.pdf",
+    "id": "1154013"
+   },
+   {
+    "up": "08/12/2022",
+    "rel": "07/27/2022",
+    "desc": "WBD",
+    "file": "558ZR3-34 Current WBD.pdf",
+    "id": "680629"
+   }
+  ]
+ },
+ "0403027286": {
+  "api": "0403027286",
+  "detail": "/Well/Well/Detail/29535",
+  "status": "Idle",
+  "nDocs": 16,
+  "wbd": [
+   {
+    "up": "10/10/2023",
+    "rel": "10/04/2023",
+    "desc": "Wellbore Diagram",
+    "file": "ST CLAIR 3152-2 Schematic.pdf",
+    "id": "906782"
+   }
+  ]
+ },
+ "0402977353": {
+  "api": "0402977353",
+  "detail": "/Well/Well/Detail/111965",
+  "status": "Plugged",
+  "nDocs": 24,
+  "wbd": []
+ },
+ "0403700277": {
+  "api": "0403700277",
+  "detail": "/Well/Well/Detail/132768",
+  "status": "Plugged",
+  "nDocs": 18,
+  "wbd": []
+ },
+ "0403047411": {
+  "api": "0403047411",
+  "detail": "/Well/Well/Detail/200253",
+  "status": "Active",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0402910005": {
+  "api": "0402910005",
+  "detail": "/Well/Well/Detail/106599",
+  "status": "Plugged",
+  "nDocs": 15,
+  "wbd": []
+ },
+ "0403702823": {
+  "api": "0403702823",
+  "detail": "/Well/Well/Detail/236429",
+  "status": "Active",
+  "nDocs": 14,
+  "wbd": []
+ },
+ "0403036700": {
+  "api": "0403036700",
+  "detail": "/Well/Well/Detail/187843",
+  "status": "Active",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0403033367": {
+  "api": "0403033367",
+  "detail": "/Well/Well/Detail/94702",
+  "status": "Active",
+  "nDocs": 4,
+  "wbd": []
+ },
+ "0403026434": {
+  "api": "0403026434",
+  "detail": "/Well/Well/Detail/193078",
+  "status": "Idle",
+  "nDocs": 7,
+  "wbd": []
+ },
+ "0403722460": {
+  "api": "0403722460",
+  "detail": "/Well/Well/Detail/136504",
+  "status": "Active",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0402913592": {
+  "api": "0402913592",
+  "detail": "/Well/Well/Detail/17851",
+  "status": "Idle",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0403036942": {
+  "api": "0403036942",
+  "detail": "/Well/Well/Detail/94459",
+  "status": "Plugged",
+  "nDocs": 30,
+  "wbd": []
+ },
+ "0403050556": {
+  "api": "0403050556",
+  "detail": "/Well/Well/Detail/52843",
+  "status": "Active",
+  "nDocs": 17,
+  "wbd": []
+ },
+ "0402950529": {
+  "api": "0402950529",
+  "detail": "/Well/Well/Detail/91195",
+  "status": "Idle",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0401922353": {
+  "api": "0401922353",
+  "detail": "/Well/Well/Detail/71548",
+  "status": "Plugged",
+  "nDocs": 29,
+  "wbd": [
+   {
+    "up": "10/02/2022",
+    "rel": "08/02/2022",
+    "desc": "Wellbore Diagram",
+    "file": "AZTEC S10-5 Schematic.pdf",
+    "id": "710340"
+   }
+  ]
+ },
+ "0402983283": {
+  "api": "0402983283",
+  "detail": "/Well/Well/Detail/38069",
+  "status": "Plugged",
+  "nDocs": 13,
+  "wbd": [
+   {
+    "up": "07/14/2020",
+    "rel": "06/25/2020",
+    "desc": "Wellbore Diagram",
+    "file": "58SR-33 Schematic.pdf",
+    "id": "338727"
+   }
+  ]
+ },
+ "0402907049": {
+  "api": "0402907049",
+  "detail": "/Well/Well/Detail/158551",
+  "status": "Active",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0403030005": {
+  "api": "0403030005",
+  "detail": "/Well/Well/Detail/185656",
+  "status": "Idle",
+  "nDocs": 8,
+  "wbd": [
+   {
+    "up": "05/31/2022",
+    "rel": "04/05/2022",
+    "desc": "WBD",
+    "file": "Ethel D DC-16 WBD.pdf",
+    "id": "636915"
+   }
+  ]
+ },
+ "0403044849": {
+  "api": "0403044849",
+  "detail": "/Well/Well/Detail/110142",
+  "status": "Active",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0403035771": {
+  "api": "0403035771",
+  "detail": "/Well/Well/Detail/94531",
+  "status": "Active",
+  "nDocs": 12,
+  "wbd": [
+   {
+    "up": "07/25/2018",
+    "rel": "07/05/2018",
+    "desc": "WBD",
+    "file": "a474aabd-b5c1-4e22-be57-fb8588883a70_73SW-2G WBD pdf.pdf",
+    "id": "25141"
+   }
+  ]
+ },
+ "0402908255": {
+  "api": "0402908255",
+  "detail": "/Well/Well/Detail/96619",
+  "status": "Plugged",
+  "nDocs": 21,
+  "wbd": [
+   {
+    "up": "03/12/2025",
+    "rel": "12/20/2024",
+    "desc": "K.C.L D85 - WBD & Program",
+    "file": "K.C.L D85 - WBD & Program.pdf",
+    "id": "1173496"
+   },
+   {
+    "up": "07/09/2024",
+    "rel": "07/04/2024",
+    "desc": "State Abandonment P&A- WBD & Program",
+    "file": "K.C.L D85 - WBD & Program.xlsx",
+    "id": "1032646"
+   }
+  ]
+ },
+ "0403044448": {
+  "api": "0403044448",
+  "detail": "/Well/Well/Detail/64051",
+  "status": "Active",
+  "nDocs": 10,
+  "wbd": []
+ },
+ "0403056549": {
+  "api": "0403056549",
+  "detail": "/Well/Well/Detail/56444",
+  "status": "Active",
+  "nDocs": 21,
+  "wbd": []
+ },
+ "0408302212": {
+  "api": "0408302212",
+  "detail": "/Well/Well/Detail/197097",
+  "status": "Active",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0402975381": {
+  "api": "0402975381",
+  "detail": "/Well/Well/Detail/183879",
+  "status": "Plugged",
+  "nDocs": 16,
+  "wbd": [
+   {
+    "up": "02/02/2022",
+    "rel": "01/14/2022",
+    "desc": "Wellbore Diagram",
+    "file": "GORE B 6-70P Schematic.pdf",
+    "id": "566293"
+   }
+  ]
+ },
+ "0403003306": {
+  "api": "0403003306",
+  "detail": "/Well/Well/Detail/42607",
+  "status": "Active",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0403031954": {
+  "api": "0403031954",
+  "detail": "/Well/Well/Detail/146938",
+  "status": "Active",
+  "nDocs": 25,
+  "wbd": []
+ },
+ "0402972686": {
+  "api": "0402972686",
+  "detail": "/Well/Well/Detail/124289",
+  "status": "Idle",
+  "nDocs": 7,
+  "wbd": []
+ },
+ "0403047436": {
+  "api": "0403047436",
+  "detail": "/Well/Well/Detail/200278",
+  "status": "Idle",
+  "nDocs": 7,
+  "wbd": [
+   {
+    "up": "06/09/2020",
+    "rel": "05/27/2020",
+    "desc": "0403047436 Section 5 11-5Xi WBD",
+    "file": "0403047436 2020-03-13 Section 5 11-5XI WBD.pdf",
+    "id": "322930"
+   }
+  ]
+ },
+ "0403715340": {
+  "api": "0403715340",
+  "detail": "/Well/Well/Detail/214034",
+  "status": "Active",
+  "nDocs": 22,
+  "wbd": [
+   {
+    "up": "11/03/2020",
+    "rel": "10/13/2020",
+    "desc": "Sansinena 8B-23RD1 Current Wellbore Diagram",
+    "file": "Sansinena 8B-23RD1 Current Wellbore Diagram UPDATED FOR PERMITS 10-2020.pdf",
+    "id": "375374"
+   },
+   {
+    "up": "11/03/2020",
+    "rel": "10/13/2020",
+    "desc": "Sansinena 8B-23RD1 Proposed Wellbore Diagram",
+    "file": "Sansinena 8B-23RD1 Proposed Wellbore Diagram .pdf",
+    "id": "375375"
+   },
+   {
+    "up": "02/14/2020",
+    "rel": "01/24/2020",
+    "desc": "Sansinena 8B-23RD1 Current Wellbore Diagram",
+    "file": "140d63b8-9ce6-4257-9947-bd14d7ddf947_Sansinena 8B-23RD1 Current Wellbore Diagram 1-23-12.pdf",
+    "id": "266629"
+   }
+  ]
+ },
+ "0403025439": {
+  "api": "0403025439",
+  "detail": "/Well/Well/Detail/31020",
+  "status": "Active",
+  "nDocs": 15,
+  "wbd": [
+   {
+    "up": "04/26/2024",
+    "rel": "02/01/2024",
+    "desc": "WBD",
+    "file": "562C3-33 - 01 - 01 - 2_15_2022.pdf",
+    "id": "999995"
+   }
+  ]
+ },
+ "0403008526": {
+  "api": "0403008526",
+  "detail": "/Well/Well/Detail/177847",
+  "status": "Idle",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0408303152": {
+  "api": "0408303152",
+  "detail": "/Well/Well/Detail/76803",
+  "status": "Active",
+  "nDocs": 4,
+  "wbd": []
+ },
+ "0402985229": {
+  "api": "0402985229",
+  "detail": "/Well/Well/Detail/182600",
+  "status": "Idle",
+  "nDocs": 23,
+  "wbd": []
+ },
+ "0402952405": {
+  "api": "0402952405",
+  "detail": "/Well/Well/Detail/105821",
+  "status": "Idle",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0403057738": {
+  "api": "0403057738",
+  "detail": "/Well/Well/Detail/139643",
+  "status": "Active",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0402974283": {
+  "api": "0402974283",
+  "detail": "/Well/Well/Detail/39546",
+  "status": "Plugged",
+  "nDocs": 14,
+  "wbd": [
+   {
+    "up": "05/17/2022",
+    "rel": "02/23/2022",
+    "desc": "Wellbore Diagram",
+    "file": "444-18 Schematic.pdf",
+    "id": "627258"
+   }
+  ]
+ },
+ "0402903193": {
+  "api": "0402903193",
+  "detail": "/Well/Well/Detail/77734",
+  "status": "Active",
+  "nDocs": 21,
+  "wbd": []
+ },
+ "0423723769": {
+  "api": "0423723769",
+  "detail": "/Well/Well/Detail/235662",
+  "status": "Active",
+  "nDocs": 14,
+  "wbd": []
+ },
+ "0402989377": {
+  "api": "0402989377",
+  "detail": "/Well/Well/Detail/40110",
+  "status": "Plugged",
+  "nDocs": 19,
+  "wbd": [
+   {
+    "up": "07/12/2024",
+    "rel": "07/05/2022",
+    "desc": "Hill 423CW Wellbore Diagram",
+    "file": "WBD.pdf",
+    "id": "1034395"
+   },
+   {
+    "up": "08/09/2021",
+    "rel": "06/03/2021",
+    "desc": "WBD",
+    "file": "Hill 423 CW WBD.pdf",
+    "id": "481955"
+   }
+  ]
+ },
+ "0405901979": {
+  "api": "0405901979",
+  "detail": "/Well/Well/Detail/101793",
+  "status": "Active",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0402979037": {
+  "api": "0402979037",
+  "detail": "/Well/Well/Detail/184996",
+  "status": "Idle",
+  "nDocs": 9,
+  "wbd": []
+ },
+ "0410120766": {
+  "api": "0410120766",
+  "detail": "/Well/Well/Detail/97941",
+  "status": "Plugged",
+  "nDocs": 21,
+  "wbd": [
+   {
+    "up": "03/12/2024",
+    "rel": "02/19/2024",
+    "desc": "0410120766_Cameron Unit 27-28-12_WBD",
+    "file": "0410120766_Cameron Unit 27-28-12_WBD_ABA.pdf",
+    "id": "976142"
+   }
+  ]
+ },
+ "0402968601": {
+  "api": "0402968601",
+  "detail": "/Well/Well/Detail/125090",
+  "status": "Active",
+  "nDocs": 4,
+  "wbd": []
+ },
+ "0402953753": {
+  "api": "0402953753",
+  "detail": "/Well/Well/Detail/91846",
+  "status": "Active",
+  "nDocs": 6,
+  "wbd": []
+ },
+ "0403000741": {
+  "api": "0403000741",
+  "detail": "/Well/Well/Detail/179538",
+  "status": "Active",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0403712569": {
+  "api": "0403712569",
+  "detail": "/Well/Well/Detail/190520",
+  "status": "Idle",
+  "nDocs": 9,
+  "wbd": []
+ },
+ "0428320270": {
+  "api": "0428320270",
+  "detail": "/Well/Well/Detail/95723",
+  "status": "Plugged",
+  "nDocs": 20,
+  "wbd": [
+   {
+    "up": "06/02/2025",
+    "rel": "11/26/2024",
+    "desc": "Final WBD",
+    "file": "28320270_AMES 3120-9_WBD.pdf",
+    "id": "1233995"
+   }
+  ]
+ },
+ "0401923460": {
+  "api": "0401923460",
+  "detail": "/Well/Well/Detail/69189",
+  "status": "Active",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0408300171": {
+  "api": "0408300171",
+  "detail": "/Well/Well/Detail/63773",
+  "status": "Idle",
+  "nDocs": 21,
+  "wbd": [
+   {
+    "up": "02/15/2022",
+    "rel": "03/26/2021",
+    "desc": "wbd",
+    "file": "WH-RF 51A - WBD- 3-26-2021.pdf",
+    "id": "574038"
+   },
+   {
+    "up": "02/15/2022",
+    "rel": "03/26/2021",
+    "desc": "wbd",
+    "file": "WH-RF 51A - WBD- 3-26-2021.pdf",
+    "id": "574038"
+   },
+   {
+    "up": "02/15/2022",
+    "rel": "03/26/2021",
+    "desc": "wbd",
+    "file": "WH-RF 51A - WBD- 3-26-2021.pdf",
+    "id": "574038"
+   }
+  ]
+ },
+ "0403032201": {
+  "api": "0403032201",
+  "detail": "/Well/Well/Detail/185944",
+  "status": "Active",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0402974095": {
+  "api": "0402974095",
+  "detail": "/Well/Well/Detail/81653",
+  "status": "Idle",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0402926438": {
+  "api": "0402926438",
+  "detail": "/Well/Well/Detail/127649",
+  "status": "Plugged",
+  "nDocs": 11,
+  "wbd": [
+   {
+    "up": "09/05/2024",
+    "rel": "07/10/2024",
+    "desc": "wellbore Diagram",
+    "file": "Potomac 12 WELLBORE_DIAGRAM.pdf",
+    "id": "1061111"
+   }
+  ]
+ },
+ "0403024145": {
+  "api": "0403024145",
+  "detail": "/Well/Well/Detail/114650",
+  "status": "Idle",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0402929371": {
+  "api": "0402929371",
+  "detail": "/Well/Well/Detail/74759",
+  "status": "Idle",
+  "nDocs": 7,
+  "wbd": []
+ },
+ "0403017489": {
+  "api": "0403017489",
+  "detail": "/Well/Well/Detail/20540",
+  "status": "Active",
+  "nDocs": 21,
+  "wbd": []
+ },
+ "0402906006": {
+  "api": "0402906006",
+  "detail": "/Well/Well/Detail/88110",
+  "status": "Active",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0403041139": {
+  "api": "0403041139",
+  "detail": "/Well/Well/Detail/148037",
+  "status": "Idle",
+  "nDocs": 16,
+  "wbd": []
+ },
+ "0402984016": {
+  "api": "0402984016",
+  "detail": "/Well/Well/Detail/37911",
+  "status": "Active",
+  "nDocs": 4,
+  "wbd": []
+ },
+ "0403019304": {
+  "api": "0403019304",
+  "detail": "/Well/Well/Detail/32513",
+  "status": "Plugged",
+  "nDocs": 15,
+  "wbd": [
+   {
+    "up": "05/10/2023",
+    "rel": "12/14/2022",
+    "desc": "Wellbore Diagram",
+    "file": "383CC-34 Schematic.pdf",
+    "id": "828504"
+   }
+  ]
+ },
+ "0403062485": {
+  "api": "0403062485",
+  "detail": "/Well/Well/Detail/110993",
+  "status": "Idle",
+  "nDocs": 14,
+  "wbd": []
+ },
+ "0403029121": {
+  "api": "0403029121",
+  "detail": "/Well/Well/Detail/186475",
+  "status": "Active",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0403058245": {
+  "api": "0403058245",
+  "detail": "/Well/Well/Detail/25030",
+  "status": "Idle",
+  "nDocs": 56,
+  "wbd": [
+   {
+    "up": "07/15/2022",
+    "rel": "05/16/2022",
+    "desc": "WBD",
+    "file": "WBD_943RR-29 - 00 - 00 - 5_16_2022.pdf",
+    "id": "663738"
+   },
+   {
+    "up": "05/30/2019",
+    "rel": "05/24/2019",
+    "desc": "Wellbore Diagram",
+    "file": "5699672f-fe1d-42cd-ae21-6780cefec3b7_951RR2-33_403052361_WellboreDiagram.pdf",
+    "id": "149419"
+   }
+  ]
+ },
+ "0411103416": {
+  "api": "0411103416",
+  "detail": "/Well/Well/Detail/219844",
+  "status": "Idle",
+  "nDocs": 28,
+  "wbd": [
+   {
+    "up": "10/19/2020",
+    "rel": "09/28/2020",
+    "desc": "111-03416_SPF 1_WBD_CURRENT_V3.2",
+    "file": "111-03416_SPF 1_WBD_Current_V3.2.pdf",
+    "id": "371083"
+   },
+   {
+    "up": "10/19/2020",
+    "rel": "09/28/2020",
+    "desc": "111-03416_SPF 1_WBD_PROPOSED_V3.3",
+    "file": "111-03416_SPF 1_WBD_Proposed_V3.3.pdf",
+    "id": "371084"
+   }
+  ]
+ },
+ "0402908682": {
+  "api": "0402908682",
+  "detail": "/Well/Well/Detail/105738",
+  "status": "Idle",
+  "nDocs": 3,
+  "wbd": []
+ },
+ "0403054645": {
+  "api": "0403054645",
+  "detail": "/Well/Well/Detail/110443",
+  "status": "Active",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0403002293": {
+  "api": "0403002293",
+  "detail": "/Well/Well/Detail/41965",
+  "status": "Active",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0403057250": {
+  "api": "0403057250",
+  "detail": "/Well/Well/Detail/138855",
+  "status": "Active",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0403009431": {
+  "api": "0403009431",
+  "detail": "/Well/Well/Detail/36355",
+  "status": "Idle",
+  "nDocs": 14,
+  "wbd": []
+ },
+ "0402982345": {
+  "api": "0402982345",
+  "detail": "/Well/Well/Detail/37816",
+  "status": "Active",
+  "nDocs": 19,
+  "wbd": [
+   {
+    "up": "02/07/2025",
+    "rel": "01/09/2025",
+    "desc": "Wellbore Diagram",
+    "file": "13-7R-30 Wellbore diagram.pdf",
+    "id": "1153962"
+   }
+  ]
+ },
+ "0402951576": {
+  "api": "0402951576",
+  "detail": "/Well/Well/Detail/119519",
+  "status": "Plugged",
+  "nDocs": 33,
+  "wbd": []
+ },
+ "0402927547": {
+  "api": "0402927547",
+  "detail": "/Well/Well/Detail/90674",
+  "status": "Active",
+  "nDocs": 20,
+  "wbd": []
+ },
+ "0403029002": {
+  "api": "0403029002",
+  "detail": "/Well/Well/Detail/193463",
+  "status": "Active",
+  "nDocs": 10,
+  "wbd": []
+ },
+ "0403029320": {
+  "api": "0403029320",
+  "detail": "/Well/Well/Detail/186487",
+  "status": "Active",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0402989002": {
+  "api": "0402989002",
+  "detail": "/Well/Well/Detail/40325",
+  "status": "Idle",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0403040450": {
+  "api": "0403040450",
+  "detail": "/Well/Well/Detail/188906",
+  "status": "Active",
+  "nDocs": 12,
+  "wbd": []
+ },
+ "0403053089": {
+  "api": "0403053089",
+  "detail": "/Well/Well/Detail/89899",
+  "status": "Active",
+  "nDocs": 5,
+  "wbd": []
+ },
+ "0402948914": {
+  "api": "0402948914",
+  "detail": "/Well/Well/Detail/119944",
+  "status": "Plugged",
+  "nDocs": 12,
+  "wbd": []
+ },
+ "0402971399": {
+  "api": "0402971399",
+  "detail": "/Well/Well/Detail/172030",
+  "status": "Idle",
+  "nDocs": 5,
+  "wbd": []
+ },
+ "0403065197": {
+  "api": "0403065197",
+  "detail": "/Well/Well/Detail/242842",
+  "status": "Active",
+  "nDocs": 44,
+  "wbd": [
+   {
+    "up": "07/14/2022",
+    "rel": "03/29/2022",
+    "desc": "WBD",
+    "file": "WBD_954KR-33 - 00 - 00 - 3_29_2022.pdf",
+    "id": "662955"
+   }
+  ]
+ },
+ "0403029942": {
+  "api": "0403029942",
+  "detail": "/Well/Well/Detail/185685",
+  "status": "Active",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0403039987": {
+  "api": "0403039987",
+  "detail": "/Well/Well/Detail/188670",
+  "status": "Plugged",
+  "nDocs": 14,
+  "wbd": [
+   {
+    "up": "02/11/2026",
+    "rel": "01/28/2026",
+    "desc": "wellbore Diagram",
+    "file": "G-5724_WellboreDiagram.pdf",
+    "id": "1375678"
+   }
+  ]
+ },
+ "0402939298": {
+  "api": "0402939298",
+  "detail": "/Well/Well/Detail/78214",
+  "status": "Idle",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0403059045": {
+  "api": "0403059045",
+  "detail": "/Well/Well/Detail/25218",
+  "status": "Active",
+  "nDocs": 4,
+  "wbd": []
+ },
+ "0402987295": {
+  "api": "0402987295",
+  "detail": "/Well/Well/Detail/41018",
+  "status": "Active",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0401920524": {
+  "api": "0401920524",
+  "detail": "/Well/Well/Detail/67902",
+  "status": "Active",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0405904979": {
+  "api": "0405904979",
+  "detail": "/Well/Well/Detail/75864",
+  "status": "Active",
+  "nDocs": 9,
+  "wbd": [
+   {
+    "up": "03/06/2023",
+    "rel": "11/29/2022",
+    "desc": "Wellbore Diagram",
+    "file": "Hualde Fee 28 Wellbore Diagram.pdf",
+    "id": "788425"
+   }
+  ]
+ },
+ "0403027721": {
+  "api": "0403027721",
+  "detail": "/Well/Well/Detail/186167",
+  "status": "Active",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0403063654": {
+  "api": "0403063654",
+  "detail": "/Well/Well/Detail/240091",
+  "status": "Idle",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0403048194": {
+  "api": "0403048194",
+  "detail": "/Well/Well/Detail/138438",
+  "status": "Active",
+  "nDocs": 11,
+  "wbd": []
+ },
+ "0401900883": {
+  "api": "0401900883",
+  "detail": "/Well/Well/Detail/70401",
+  "status": "Idle",
+  "nDocs": 4,
+  "wbd": []
+ },
+ "0403041634": {
+  "api": "0403041634",
+  "detail": "/Well/Well/Detail/25281",
+  "status": "Idle",
+  "nDocs": 19,
+  "wbd": [
+   {
+    "up": "06/21/2023",
+    "rel": "03/21/2023",
+    "desc": "WBD",
+    "file": "Hill 641A_WBD.pdf",
+    "id": "850314"
+   }
+  ]
+ },
+ "0403730171": {
+  "api": "0403730171",
+  "detail": "/Well/Well/Detail/235139",
+  "status": "Active",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0403055907": {
+  "api": "0403055907",
+  "detail": "/Well/Well/Detail/96256",
+  "status": "Active",
+  "nDocs": 6,
+  "wbd": []
+ },
+ "0403702286": {
+  "api": "0403702286",
+  "detail": "/Well/Well/Detail/236039",
+  "status": "Active",
+  "nDocs": 27,
+  "wbd": [
+   {
+    "up": "07/31/2025",
+    "rel": "03/03/2025",
+    "desc": "Current Wellbore Diagram",
+    "file": "040370228600 FJ-030_0.pdf",
+    "id": "1271924"
+   },
+   {
+    "up": "07/31/2025",
+    "rel": "03/03/2025",
+    "desc": "Proposed Wellbore Diagram",
+    "file": "040370228600 FJ-030_0 Proposed.pdf",
+    "id": "1271925"
+   }
+  ]
+ },
+ "0403726483": {
+  "api": "0403726483",
+  "detail": "/Well/Well/Detail/104764",
+  "status": "Active",
+  "nDocs": 12,
+  "wbd": []
+ },
+ "0423720304": {
+  "api": "0423720304",
+  "detail": "/Well/Well/Detail/236748",
+  "status": "Idle",
+  "nDocs": 11,
+  "wbd": []
+ },
+ "0403013979": {
+  "api": "0403013979",
+  "detail": "/Well/Well/Detail/176245",
+  "status": "Plugged",
+  "nDocs": 10,
+  "wbd": [
+   {
+    "up": "09/02/2022",
+    "rel": "08/16/2022",
+    "desc": "Wellbore Diagram",
+    "file": "FINLEY-HAUSEN-I 301 Schematic.pdf",
+    "id": "693091"
+   }
+  ]
+ },
+ "0403006346": {
+  "api": "0403006346",
+  "detail": "/Well/Well/Detail/144653",
+  "status": "Plugged",
+  "nDocs": 16,
+  "wbd": [
+   {
+    "up": "07/24/2025",
+    "rel": "04/29/2025",
+    "desc": "WBD",
+    "file": "3-11R P&A'd schematic.pdf",
+    "id": "1266649"
+   },
+   {
+    "up": "04/02/2024",
+    "rel": "03/21/2024",
+    "desc": "Wellbore Diagram",
+    "file": "3-11R_Schematic.pdf",
+    "id": "983833"
+   }
+  ]
+ },
+ "0403030600": {
+  "api": "0403030600",
+  "detail": "/Well/Well/Detail/202964",
+  "status": "Idle",
+  "nDocs": 17,
+  "wbd": []
+ },
+ "0403005362": {
+  "api": "0403005362",
+  "detail": "/Well/Well/Detail/179266",
+  "status": "Idle",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0403725300": {
+  "api": "0403725300",
+  "detail": "/Well/Well/Detail/190820",
+  "status": "Plugged",
+  "nDocs": 18,
+  "wbd": [
+   {
+    "up": "07/14/2021",
+    "rel": "02/22/2019",
+    "desc": "0403725300_2019-02-22_Wellbore Diagram",
+    "file": "a26195d7-5ed8-4578-a8cd-65c8e7d1e7c6_03725300_2019-02-22_Wellbore Diagram.pdf",
+    "id": "471690"
+   },
+   {
+    "up": "02/13/2020",
+    "rel": "02/05/2020",
+    "desc": "Baldwin 250 well diagram 2/5/2020",
+    "file": "b739bb91-a9d0-4329-ac32-5a3fecc937ec_03725300_2020-02-05_WBD.pdf",
+    "id": "266058"
+   }
+  ]
+ },
+ "0403043673": {
+  "api": "0403043673",
+  "detail": "/Well/Well/Detail/95044",
+  "status": "Active",
+  "nDocs": 6,
+  "wbd": []
+ },
+ "0408301506": {
+  "api": "0408301506",
+  "detail": "/Well/Well/Detail/61852",
+  "status": "Idle",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0402928541": {
+  "api": "0402928541",
+  "detail": "/Well/Well/Detail/126752",
+  "status": "Idle",
+  "nDocs": 13,
+  "wbd": []
+ },
+ "0423727291": {
+  "api": "0423727291",
+  "detail": "/Well/Well/Detail/237957",
+  "status": "Active",
+  "nDocs": 17,
+  "wbd": []
+ },
+ "0411101514": {
+  "api": "0411101514",
+  "detail": "/Well/Well/Detail/204357",
+  "status": "Idle",
+  "nDocs": 7,
+  "wbd": []
+ },
+ "0403007862": {
+  "api": "0403007862",
+  "detail": "/Well/Well/Detail/82427",
+  "status": "Active",
+  "nDocs": 3,
+  "wbd": []
+ },
+ "0402914811": {
+  "api": "0402914811",
+  "detail": "/Well/Well/Detail/202421",
+  "status": "Active",
+  "nDocs": 15,
+  "wbd": []
+ },
+ "0403010707": {
+  "api": "0403010707",
+  "detail": "/Well/Well/Detail/34741",
+  "status": "Idle",
+  "nDocs": 19,
+  "wbd": []
+ },
+ "0403120398": {
+  "api": "0403120398",
+  "detail": "/Well/Well/Detail/203681",
+  "status": "Active",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0411120164": {
+  "api": "0411120164",
+  "detail": "/Well/Well/Detail/218430",
+  "status": "Idle",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0403056405": {
+  "api": "0403056405",
+  "detail": "/Well/Well/Detail/88969",
+  "status": "Active",
+  "nDocs": 4,
+  "wbd": []
+ },
+ "0403029049": {
+  "api": "0403029049",
+  "detail": "/Well/Well/Detail/29867",
+  "status": "Active",
+  "nDocs": 16,
+  "wbd": []
+ },
+ "0402909646": {
+  "api": "0402909646",
+  "detail": "/Well/Well/Detail/58820",
+  "status": "Idle",
+  "nDocs": 40,
+  "wbd": [
+   {
+    "up": "03/28/2025",
+    "rel": "08/10/2023",
+    "desc": "363-1C Abandonment WBD",
+    "file": "363-1C Abandonment WBD.pdf",
+    "id": "1186076"
+   },
+   {
+    "up": "03/28/2025",
+    "rel": "08/10/2023",
+    "desc": "363-1C Current WBD",
+    "file": "363-1C Current WBD.pdf",
+    "id": "1186077"
+   },
+   {
+    "up": "03/28/2025",
+    "rel": "08/10/2023",
+    "desc": "363-1C Sidetrack WBD",
+    "file": "363-1C Sidetrack WBD.pdf",
+    "id": "1186078"
+   }
+  ]
+ },
+ "0402987235": {
+  "api": "0402987235",
+  "detail": "/Well/Well/Detail/80731",
+  "status": "Active",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0402978025": {
+  "api": "0402978025",
+  "detail": "/Well/Well/Detail/109254",
+  "status": "Plugged",
+  "nDocs": 15,
+  "wbd": []
+ },
+ "0403051545": {
+  "api": "0403051545",
+  "detail": "/Well/Well/Detail/77237",
+  "status": "Plugged",
+  "nDocs": 19,
+  "wbd": [
+   {
+    "up": "01/03/2020",
+    "rel": "12/16/2019",
+    "desc": "WBD",
+    "file": "4b12a62b-46aa-4d85-acd2-4513f3a9c3cf_1Y 1008B WBD.pdf",
+    "id": "249904"
+   }
+  ]
+ },
+ "0403707750": {
+  "api": "0403707750",
+  "detail": "/Well/Well/Detail/103930",
+  "status": "Active",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0403017921": {
+  "api": "0403017921",
+  "detail": "/Well/Well/Detail/146229",
+  "status": "Active",
+  "nDocs": 18,
+  "wbd": []
+ },
+ "0408300305": {
+  "api": "0408300305",
+  "detail": "/Well/Well/Detail/76963",
+  "status": "Idle",
+  "nDocs": 4,
+  "wbd": []
+ },
+ "0403027371": {
+  "api": "0403027371",
+  "detail": "/Well/Well/Detail/147109",
+  "status": "Idle",
+  "nDocs": 26,
+  "wbd": [
+   {
+    "up": "12/12/2022",
+    "rel": "10/11/2022",
+    "desc": "WBD",
+    "file": "32G 9-7P WBD.pdf",
+    "id": "749883"
+   },
+   {
+    "up": "07/06/2022",
+    "rel": "03/28/2022",
+    "desc": "Wellbore Diagram",
+    "file": "32G 9-7P WBD.pdf",
+    "id": "657152"
+   }
+  ]
+ },
+ "0403712057": {
+  "api": "0403712057",
+  "detail": "/Well/Well/Detail/190252",
+  "status": "Plugged",
+  "nDocs": 20,
+  "wbd": [
+   {
+    "up": "07/27/2021",
+    "rel": "06/07/2019",
+    "desc": "0403712057_2019-06-07_Wellbore Diagram",
+    "file": "1d5ca5db-d7dc-4bf1-9d92-7fbda2f0b18b_03712057_2019-06-07_Wellbore Diagram.pdf",
+    "id": "477125"
+   }
+  ]
+ },
+ "0403037005": {
+  "api": "0403037005",
+  "detail": "/Well/Well/Detail/80329",
+  "status": "Idle",
+  "nDocs": 3,
+  "wbd": []
+ },
+ "0402962893": {
+  "api": "0402962893",
+  "detail": "/Well/Well/Detail/171669",
+  "status": "Plugged",
+  "nDocs": 21,
+  "wbd": [
+   {
+    "up": "10/18/2024",
+    "rel": "11/15/2022",
+    "desc": "USL 12-25 Wellbore Diagram",
+    "file": "WBD.pdf",
+    "id": "1087512"
+   },
+   {
+    "up": "08/12/2021",
+    "rel": "07/08/2021",
+    "desc": "WBD",
+    "file": "USL 12-25 WBD.pdf",
+    "id": "485014"
+   }
+  ]
+ },
+ "0403050875": {
+  "api": "0403050875",
+  "detail": "/Well/Well/Detail/130745",
+  "status": "Idle",
+  "nDocs": 4,
+  "wbd": []
+ },
+ "0403020726": {
+  "api": "0403020726",
+  "detail": "/Well/Well/Detail/92691",
+  "status": "Active",
+  "nDocs": 11,
+  "wbd": []
+ },
+ "0403052912": {
+  "api": "0403052912",
+  "detail": "/Well/Well/Detail/149638",
+  "status": "Active",
+  "nDocs": 9,
+  "wbd": []
+ },
+ "0402900276": {
+  "api": "0402900276",
+  "detail": "/Well/Well/Detail/130989",
+  "status": "Idle",
+  "nDocs": 13,
+  "wbd": []
+ },
+ "0403064980": {
+  "api": "0403064980",
+  "detail": "/Well/Well/Detail/242607",
+  "status": "Active",
+  "nDocs": 40,
+  "wbd": []
+ },
+ "0403051891": {
+  "api": "0403051891",
+  "detail": "/Well/Well/Detail/84432",
+  "status": "Idle",
+  "nDocs": 25,
+  "wbd": [
+   {
+    "up": "02/11/2021",
+    "rel": "01/26/2021",
+    "desc": "McKittrick Front 6150 WBD",
+    "file": "McKittrick Front 6150 WBD.pdf",
+    "id": "408760"
+   }
+  ]
+ },
+ "0403050980": {
+  "api": "0403050980",
+  "detail": "/Well/Well/Detail/130731",
+  "status": "Active",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0402972886": {
+  "api": "0402972886",
+  "detail": "/Well/Well/Detail/124399",
+  "status": "Idle",
+  "nDocs": 9,
+  "wbd": []
+ },
+ "0403020023": {
+  "api": "0403020023",
+  "detail": "/Well/Well/Detail/146450",
+  "status": "Active",
+  "nDocs": 24,
+  "wbd": []
+ },
+ "0403032072": {
+  "api": "0403032072",
+  "detail": "/Well/Well/Detail/94101",
+  "status": "Idle",
+  "nDocs": 18,
+  "wbd": []
+ },
+ "0402960629": {
+  "api": "0402960629",
+  "detail": "/Well/Well/Detail/92180",
+  "status": "Idle",
+  "nDocs": 11,
+  "wbd": []
+ },
+ "0402951895": {
+  "api": "0402951895",
+  "detail": "/Well/Well/Detail/123026",
+  "status": "Idle",
+  "nDocs": 6,
+  "wbd": []
+ },
+ "0401924037": {
+  "api": "0401924037",
+  "detail": "/Well/Well/Detail/67717",
+  "status": "Plugged",
+  "nDocs": 12,
+  "wbd": [
+   {
+    "up": "03/13/2025",
+    "rel": "04/23/2024",
+    "desc": "wellbore Diagram",
+    "file": "36D 127B WELLBORE_DIAGRAM.pdf",
+    "id": "1174353"
+   }
+  ]
+ },
+ "0403018690": {
+  "api": "0403018690",
+  "detail": "/Well/Well/Detail/92881",
+  "status": "Active",
+  "nDocs": 8,
+  "wbd": []
+ },
+ "0403712382": {
+  "api": "0403712382",
+  "detail": "/Well/Well/Detail/136276",
+  "status": "Idle",
+  "nDocs": 5,
+  "wbd": [
+   {
+    "up": "03/20/2024",
+    "rel": "03/19/2024",
+    "desc": "SHWU A-37 MIT Pressure Test 2024_1_8 Wellbore Diagram",
+    "file": "SHWU_A-37 Wellbore Diagram.pdf",
+    "id": "979058"
+   },
+   {
+    "up": "03/13/2024",
+    "rel": "03/12/2024",
+    "desc": "SHWU A-37 MIT Clean Out Tag 2024_01_05 Wellbore Diagram",
+    "file": "SHWU_A-37 Wellbore Diagram.pdf",
+    "id": "976486"
+   }
+  ]
+ },
+ "0402982033": {
+  "api": "0402982033",
+  "detail": "/Well/Well/Detail/184758",
+  "status": "Plugged",
+  "nDocs": 22,
+  "wbd": [
+   {
+    "up": "06/26/2024",
+    "rel": "03/22/2024",
+    "desc": "Wellbore Diagram",
+    "file": "MOCO 34 T-178 Schematic.pdf",
+    "id": "1026840"
+   }
+  ]
+ },
+ "0403023480": {
+  "api": "0403023480",
+  "detail": "/Well/Well/Detail/175568",
+  "status": "Active",
+  "nDocs": 22,
+  "wbd": []
+ },
+ "0403019340": {
+  "api": "0403019340",
+  "detail": "/Well/Well/Detail/92550",
+  "status": "Idle",
+  "nDocs": 6,
+  "wbd": []
+ },
+ "0405907192": {
+  "api": "0405907192",
+  "detail": "/Well/Well/Detail/56013",
+  "status": "Idle",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0403001711": {
+  "api": "0403001711",
+  "detail": "/Well/Well/Detail/113260",
+  "status": "Idle",
+  "nDocs": 3,
+  "wbd": []
+ },
+ "0405301494": {
+  "api": "0405301494",
+  "detail": "/Well/Well/Detail/198368",
+  "status": "Idle",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0411320019": {
+  "api": "0411320019",
+  "detail": "/Well/Well/Detail/223872",
+  "status": "Active",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0402935047": {
+  "api": "0402935047",
+  "detail": "/Well/Well/Detail/18992",
+  "status": "Active",
+  "nDocs": 3,
+  "wbd": []
+ },
+ "0403013013": {
+  "api": "0403013013",
+  "detail": "/Well/Well/Detail/115088",
+  "status": "Active",
+  "nDocs": 2,
+  "wbd": []
+ },
+ "0403055668": {
+  "api": "0403055668",
+  "detail": "/Well/Well/Detail/155003",
+  "status": "Active",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0408301105": {
+  "api": "0408301105",
+  "detail": "/Well/Well/Detail/76980",
+  "status": "Idle",
+  "nDocs": 6,
+  "wbd": []
+ },
+ "0402956601": {
+  "api": "0402956601",
+  "detail": "/Well/Well/Detail/91734",
+  "status": "Active",
+  "nDocs": 20,
+  "wbd": []
+ },
+ "0403000559": {
+  "api": "0403000559",
+  "detail": "/Well/Well/Detail/143005",
+  "status": "Plugged",
+  "nDocs": 13,
+  "wbd": [
+   {
+    "up": "05/31/2022",
+    "rel": "10/20/2021",
+    "desc": "Wellbore Diagram",
+    "file": "TO 6-12A Schematic.pdf",
+    "id": "636265"
+   }
+  ]
+ },
+ "0402959798": {
+  "api": "0402959798",
+  "detail": "/Well/Well/Detail/123594",
+  "status": "Plugged",
+  "nDocs": 24,
+  "wbd": [
+   {
+    "up": "12/19/2024",
+    "rel": "03/21/2024",
+    "desc": "Wellbore Diagram",
+    "file": "American Crude 12 WELLBORE_DIAGRAM.pdf",
+    "id": "1124751"
+   }
+  ]
+ },
+ "0403028748": {
+  "api": "0403028748",
+  "detail": "/Well/Well/Detail/29718",
+  "status": "Plugged",
+  "nDocs": 16,
+  "wbd": [
+   {
+    "up": "04/08/2022",
+    "rel": "01/18/2022",
+    "desc": "Wellbore Diagram",
+    "file": "MARINA 3462-11 Schematic.pdf",
+    "id": "604666"
+   }
+  ]
+ },
+ "0411104247": {
+  "api": "0411104247",
+  "detail": "/Well/Well/Detail/228020",
+  "status": "Idle",
+  "nDocs": 5,
+  "wbd": []
+ },
+ "0403034803": {
+  "api": "0403034803",
+  "detail": "/Well/Well/Detail/27432",
+  "status": "Active",
+  "nDocs": 12,
+  "wbd": []
+ },
+ "0403030078": {
+  "api": "0403030078",
+  "detail": "/Well/Well/Detail/21123",
+  "status": "Idle",
+  "nDocs": 18,
+  "wbd": []
+ },
+ "0403015168": {
+  "api": "0403015168",
+  "detail": "/Well/Well/Detail/145185",
+  "status": "Idle",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0402916871": {
+  "api": "0402916871",
+  "detail": "/Well/Well/Detail/208101",
+  "status": "Active",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0403044575": {
+  "api": "0403044575",
+  "detail": "/Well/Well/Detail/138170",
+  "status": "Plugged",
+  "nDocs": 13,
+  "wbd": [
+   {
+    "up": "08/25/2022",
+    "rel": "06/29/2022",
+    "desc": "Wellbore Diagram",
+    "file": "2337A Schematic.pdf",
+    "id": "687457"
+   }
+  ]
+ },
+ "0403048164": {
+  "api": "0403048164",
+  "detail": "/Well/Well/Detail/153996",
+  "status": "Active",
+  "nDocs": 21,
+  "wbd": [
+   {
+    "up": "05/15/2024",
+    "rel": "04/08/2024",
+    "desc": "FA GD-3 WBD",
+    "file": "WBD.pdf",
+    "id": "1008843"
+   }
+  ]
+ },
+ "0411104666": {
+  "api": "0411104666",
+  "detail": "/Well/Well/Detail/227082",
+  "status": "Active",
+  "nDocs": 24,
+  "wbd": [
+   {
+    "up": "11/19/2018",
+    "rel": "11/05/2018",
+    "desc": "WBD",
+    "file": "6059a584-34ff-4cf7-b9ff-70cdad88de0e_11104666 00_HTM047.pdf",
+    "id": "56392"
+   }
+  ]
+ },
+ "0403063635": {
+  "api": "0403063635",
+  "detail": "/Well/Well/Detail/240060",
+  "status": "Active",
+  "nDocs": 20,
+  "wbd": [
+   {
+    "up": "12/30/2025",
+    "rel": "04/09/2025",
+    "desc": "WBD",
+    "file": "1Y 1505F WBD.pdf",
+    "id": "1356184"
+   }
+  ]
+ },
+ "0403047625": {
+  "api": "0403047625",
+  "detail": "/Well/Well/Detail/149430",
+  "status": "Idle",
+  "nDocs": 1,
+  "wbd": []
+ },
+ "0403007013": {
+  "api": "0403007013",
+  "detail": "/Well/Well/Detail/115725",
+  "status": "Plugged",
+  "nDocs": 21,
+  "wbd": []
+ },
+ "0403065492": {
+  "api": "0403065492",
+  "detail": "/Well/Well/Detail/243178",
+  "status": "Active",
+  "nDocs": 21,
+  "wbd": []
+ },
+ "0403060252": {
+  "api": "0403060252",
+  "detail": "/Well/Well/Detail/200429",
+  "status": "Active",
+  "nDocs": 9,
+  "wbd": []
+ },
+ "0403018114": {
+  "api": "0403018114",
+  "detail": "/Well/Well/Detail/20477",
+  "status": "Plugged",
+  "nDocs": 25,
+  "wbd": [
+   {
+    "up": "05/11/2020",
+    "rel": "04/27/2020",
+    "desc": "Wellbore Diagram",
+    "file": "532E1-35 Schematic.pdf",
+    "id": "310986"
+   }
+  ]
+ },
+ "0403020556": {
+  "api": "0403020556",
+  "detail": "/Well/Well/Detail/218715",
+  "status": "Active",
+  "nDocs": 32,
+  "wbd": []
+ },
+ "0403031509": {
+  "api": "0403031509",
+  "detail": "/Well/Well/Detail/88524",
+  "status": "Plugged",
+  "nDocs": 20,
+  "wbd": [
+   {
+    "up": "03/25/2021",
+    "rel": "01/06/2021",
+    "desc": "Wellbore Diagram",
+    "file": "Young Fee 98 - V2 - P&A.pdf",
+    "id": "428251"
+   },
+   {
+    "up": "12/15/2020",
+    "rel": "10/28/2020",
+    "desc": "Wellbore Diagram",
+    "file": "Young Fee 98 - V1 - Original.pdf",
+    "id": "385937"
+   }
+  ]
+ },
+ "0403049511": {
+  "api": "0403049511",
+  "detail": "/Well/Well/Detail/52730",
+  "status": "Active",
+  "nDocs": 28,
+  "wbd": [
+   {
+    "up": "03/17/2021",
+    "rel": "02/12/2021",
+    "desc": "wellbore diag",
+    "file": "4124A-11 Add Pay.pdf",
+    "id": "424233"
+   }
+  ]
+ },
+ "0401924756": {
+  "api": "0401924756",
+  "detail": "/Well/Well/Detail/105500",
+  "status": "Active",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0403039617": {
+  "api": "0403039617",
+  "detail": "/Well/Well/Detail/26050",
+  "status": "Active",
+  "nDocs": 18,
+  "wbd": []
+ },
+ "0403050834": {
+  "api": "0403050834",
+  "detail": "/Well/Well/Detail/52208",
+  "status": "Active",
+  "nDocs": 20,
+  "wbd": []
+ },
+ "0403020458": {
+  "api": "0403020458",
+  "detail": "/Well/Well/Detail/146530",
+  "status": "Active",
+  "rechecked": true,
+  "nDocs": 0,
+  "wbd": []
+ },
+ "0401924387": {
+  "api": "0401924387",
+  "detail": "/Well/Well/Detail/72025",
+  "status": "Active",
+  "nDocs": 3,
+  "wbd": []
+ },
+ "0402900328": {
+  "api": "0402900328",
+  "detail": "/Well/Well/Detail/60251",
+  "status": "Active",
+  "nDocs": 14,
+  "wbd": []
+ },
+ "0402984009": {
+  "api": "0402984009",
+  "detail": "/Well/Well/Detail/144351",
+  "status": "Active",
+  "nDocs": 2,
+  "wbd": []
+ }
+}

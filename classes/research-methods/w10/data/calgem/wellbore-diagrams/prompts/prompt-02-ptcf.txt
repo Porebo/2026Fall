@@ -1,0 +1,39 @@
+PROMPT 02 - STRUCTURED ZERO-SHOT (PERSONA-TASK-CONTEXT-FORMAT)
+Version 1.0, November 11, 2026
+
+Scenario: the same worker and task as prompt 01 (../scenario-business-need.txt).
+The worker now writes the request using the four elements taught in Google's
+Gemini prompting guide: persona, task, context, and format. No examples and no
+reasoning instructions are given (zero-shot).
+
+Attachments sent with the prompt:
+  1. one wellbore diagram   diagrams/Wnn.pdf, original file, unchanged
+  2. the requirements       casing-diagram-specification.txt (14 CCR 1726.4.1,
+                            verbatim)
+
+Copy-and-paste file: ../../2-ptcf-prompt/ptcf-copy-and-paste.txt
+The text sent is the four sentences below without the labels in brackets.
+
+Labeled version (labels are NOT sent to the AI):
+----------------------------------------------------------------------------------
+[Persona] You are a regulatory engineer who reviews wellbore diagrams for CalGEM
+          filings.
+[Task]    Check whether the attached WBD meets each requirement in the attached
+          CalGEM specification.
+[Context] I'm preparing a notice to abandon for this well and want to reuse this
+          diagram. The specification is 14 CCR 1726.4.1, word for word.
+[Format]  Give me a table with each requirement, whether the diagram meets it,
+          and what's missing. Keep it short.
+----------------------------------------------------------------------------------
+
+What changes from prompt 01: a persona is assigned; the task names the
+requirements as the unit of review ("each requirement"); the context states the
+purpose and identifies the specification; the format asks for a table and for
+brevity.
+
+What is still absent (added at later levels or not at all): rating
+definitions, an evidence requirement, a restriction to the attached files,
+worked examples (level 3), and reasoning instructions (level 4).
+
+Change log:
+1.0  November 11, 2026   Adopted by the researcher.

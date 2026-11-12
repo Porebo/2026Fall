@@ -1,0 +1,47 @@
+Lester Carcamo
+INFQ 72203 - Research Methods
+8/30/2026
+
+Week 1 Assignment: Understanding the Research Process
+
+1. There are many definitions for research. In a sentence or two, how would you explain to someone what is the meaning and purpose of research?
+
+Research is an activity that we may engage in without even thinking about it, or it may be motivated by a need for information. Curiosity and the need for information often drive us to ask questions, explore ideas, and seek details about specific scenarios. The purpose of research is to gain new knowledge, expand on existing knowledge, or validate what is already known.
+
+2. There are many ways to characterize the different steps in the research process. Use the Internet, such as searching for “research process steps” and reviewing the images, to find a research process diagram that helps you understand the steps in conducting research.
+
+I reviewed a research process diagram from the following source:
+
+Source URL: https://www.questionpro.com/blog/research-process-steps/
+
+This diagram presents the research process as a sequence beginning with identifying a problem or question, then reviewing existing literature, defining the purpose of the study, selecting a method, collecting data, analyzing the data, interpreting the results, and finally presenting conclusions. The diagram helped me understand that research is not simply about gathering information, but about following a structured process to answer a question in a valid and credible way. Research moves from uncertainty or curiosity toward a more informed understanding based on evidence.
+
+3. What is your desired career goal?
+
+My primary goal is to complete my master’s degree in Information Science while continuing to work full time and learning through both academic study and practical experience. I want to become a stronger professional by improving my ability to deliver real value to my employer and coworkers. I am deeply concerned with producing work that has meaningful value, and I make a deliberate effort to grow academically and through hands-on learning. I see my work as an expression of my dignity, and in that sense, it gives me purpose and motivates me to continue moving forward.
+
+After completing my master’s degree, I hope to pursue a PhD in Information Quality. In that program, I want to formalize my skills and produce original research that contributes to human well-being and advances the field of information quality. I believe academic work is a way to improve the world by creating knowledge that helps people solve meaningful problems and make better decisions.
+
+Ultimately, when I retire from my work in the oil industry, I want to teach at the college level. I hope to share the practical skills I have developed in working with data and information, passing that knowledge on to the next generation of students.
+
+4. How will research help you to achieve that career goal?
+
+Research will help me achieve this goal by teaching me how to identify meaningful problems, evaluate existing knowledge, and make decisions based on evidence instead of assumptions. In my experience, I have met too many people who sell fake or false products and spread misinformation. I do not want to be seen as one of them. I want to distinguish myself by being grounded in formal research, disciplined thinking, and work that can withstand peer review at any moment. Research gives me the tools to produce credible conclusions, improve the quality of my work, and contribute knowledge that is trustworthy, useful, and defensible.
+
+5. What area, topic, issue, problem, or challenge are you interested in exploring or investigating this semester? Use the method discussed in “Finding Research Gap” to identify at least two research gaps in the area or topic you selected.
+
+I am interested in exploring the topic of information quality in upstream oil and gas operations, especially how poor data quality affects operational decisions, predictive modeling, and production performance. In upstream environments, data comes from heterogeneous subsurface, production, and operational systems, making it difficult to maintain trustworthiness across legacy and digital platforms.
+
+Using the “Finding Research Gap” method, I identified the following research gaps:
+
+- Gap 1: Few studies examine AI-ready data quality frameworks specifically designed for upstream operations, and limited work addresses how poor historical data propagates into biased or inaccurate models.
+- Gap 2: There is still a need for integrated quality assessment methods that evaluate data trustworthiness across heterogeneous subsurface and production data sources.
+- Gap 3 (most important): Research is limited on governance mechanisms that support sustained data quality in hybrid legacy-plus-digital operating environments.
+
+These gaps suggest that more research is needed to understand how organizations can maintain reliable, trustworthy data in complex operational settings while also preparing those data assets for AI and advanced analytics.
+
+AI use acknowledgment:
+This assignment was completed with the assistance of AI for brainstorming, language refinement, and organization of ideas. All information, claims, and references were reviewed and verified manually before submission.
+
+---
+End of assignment.
