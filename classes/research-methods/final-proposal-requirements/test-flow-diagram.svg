@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930 324" width="930" height="324" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+  <title>Procedure for testing one wellbore diagram with the four prompt types</title>
+  <desc>Six steps make one run. The run is repeated in a new chat for each of the four prompt types; only the prompt changes. After four runs, the next wellbore diagram is tested.</desc>
+  <rect x="0" y="0" width="930" height="324" fill="#ffffff"/>
+  <rect x="1" y="1" width="290" height="116" rx="12" fill="#ffffff" stroke="#5b6470" stroke-width="2"/>
+  <circle cx="31" cy="33" r="16" fill="#2b2f36"/>
+  <text x="31" y="39" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">1</text>
+  <text x="57" y="40" font-size="19" fill="#1a1a1a" font-weight="700">Open the AI model</text>
+  <text x="21" y="73" font-size="16" fill="#3a4250">Start a new chat so no</text>
+  <text x="21" y="94" font-size="16" fill="#3a4250">memory is carried over</text>
+  <rect x="320" y="1" width="290" height="116" rx="12" fill="#f1f3f5" stroke="#5b6470" stroke-width="2"/>
+  <circle cx="350" cy="33" r="16" fill="#2b2f36"/>
+  <text x="350" y="39" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">2</text>
+  <text x="376" y="40" font-size="19" fill="#1a1a1a" font-weight="700">Drop in two files</text>
+  <text x="340" y="73" font-size="16" fill="#3a4250">The wellbore diagram and</text>
+  <text x="340" y="94" font-size="16" fill="#3a4250">the regulation text</text>
+  <rect x="639" y="1" width="290" height="116" rx="12" fill="#e8f1fb" stroke="#1f5fa8" stroke-width="2"/>
+  <circle cx="669" cy="33" r="16" fill="#2b2f36"/>
+  <text x="669" y="39" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">3</text>
+  <text x="695" y="40" font-size="19" fill="#1a1a1a" font-weight="700">Paste the prompt</text>
+  <text x="659" y="73" font-size="16" fill="#3a4250">Copy one of the four</text>
+  <text x="659" y="94" font-size="16" fill="#3a4250">prompt types and paste it</text>
+  <rect x="639" y="207" width="290" height="116" rx="12" fill="#ffffff" stroke="#5b6470" stroke-width="2"/>
+  <circle cx="669" cy="239" r="16" fill="#2b2f36"/>
+  <text x="669" y="245" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">4</text>
+  <text x="695" y="246" font-size="19" fill="#1a1a1a" font-weight="700">Press Enter</text>
+  <text x="659" y="279" font-size="16" fill="#3a4250">Wait for the answer</text>
+  <rect x="320" y="207" width="290" height="116" rx="12" fill="#ffffff" stroke="#5b6470" stroke-width="2"/>
+  <circle cx="350" cy="239" r="16" fill="#2b2f36"/>
+  <text x="350" y="245" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">5</text>
+  <text x="376" y="246" font-size="19" fill="#1a1a1a" font-weight="700">Copy the answer</text>
+  <text x="340" y="279" font-size="16" fill="#3a4250">Save the AI model&#8217;s answer</text>
+  <rect x="1" y="207" width="290" height="116" rx="12" fill="#f1ecf9" stroke="#6b4fa0" stroke-width="2"/>
+  <circle cx="31" cy="239" r="16" fill="#2b2f36"/>
+  <text x="31" y="245" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">6</text>
+  <text x="57" y="246" font-size="19" fill="#1a1a1a" font-weight="700">Evaluate and tabulate</text>
+  <text x="21" y="279" font-size="16" fill="#3a4250">Score the answer against the</text>
+  <text x="21" y="300" font-size="16" fill="#3a4250">gold standard and record it</text>
+  <path d="M291 59 L 307.0 59.0" fill="none" stroke="#2b2f36" stroke-width="2.4"/>
+  <polygon points="319,59 307.0,64.5 307.0,53.5" fill="#2b2f36"/>
+  <path d="M610 59 L 626.0 59.0" fill="none" stroke="#2b2f36" stroke-width="2.4"/>
+  <polygon points="638,59 626.0,64.5 626.0,53.5" fill="#2b2f36"/>
+  <path d="M784 117 L 784.0 194.0" fill="none" stroke="#2b2f36" stroke-width="2.4"/>
+  <polygon points="784,206 778.5,194.0 789.5,194.0" fill="#2b2f36"/>
+  <path d="M639 265 L 624.0 265.0" fill="none" stroke="#2b2f36" stroke-width="2.4"/>
+  <polygon points="612,265 624.0,259.5 624.0,270.5" fill="#2b2f36"/>
+  <path d="M320 265 L 305.0 265.0" fill="none" stroke="#2b2f36" stroke-width="2.4"/>
+  <polygon points="293,265 305.0,259.5 305.0,270.5" fill="#2b2f36"/>
+  <path d="M146 207 L 146.0 131.0" fill="none" stroke="#2b2f36" stroke-width="2.4" stroke-dasharray="7 5"/>
+  <polygon points="146,119 151.5,131.0 140.5,131.0" fill="#2b2f36"/>
+  <text x="166" y="146" font-size="16" fill="#1a1a1a" font-weight="700">Repeat for the next prompt type</text>
+  <text x="166" y="168" font-size="16" fill="#3a4250">New chat. Only the prompt changes; the two files stay the same.</text>
+  <text x="166" y="190" font-size="16" fill="#3a4250">After four runs, go to the next wellbore diagram.</text>
+</svg>

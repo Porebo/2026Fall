@@ -24,6 +24,17 @@ Source: Blackboard › Weeks 9–14 Student Research Project Proposals › Final
 | 7 | Reference list | One citation style (APA, MLA, IEEE), applied consistently. Every reference is cited in the text and carries a link to the article. | [ ] |
 | 8 | AI tools acknowledgement | Name any AI tools used to brainstorm, find sources, draft content, or format and edit | [ ] |
 
+### Progress on section 5 (drafted in `3. Research Design and Methods.md`)
+
+- [ ] 3.1 Data to Be Collected
+- [x] 3.2.1 Data Quality Dimension: Completeness (drafted and APA pass done November 12, 2026)
+- [ ] 3.2.2 Design Type and Variables
+- [ ] 3.2.3 Sample Selection
+- [ ] 3.3 Data Analysis
+- [ ] 3.4 Ethical Considerations
+- [ ] 3.5 Tentative Research Schedule
+- [ ] 3.6 Limitations and Risks
+
 ## 2. Format
 
 - [ ] Body of about 8 to 10 pages
@@ -59,7 +70,7 @@ Note: the instructions name "Dr. Pierce and Dr. Wu" in one place and "Dr. Wu and
 | 4 | Navigating the Dissertation Process | [archive copy](../archive/files/week-04/Navigating%20the%20Dissertation%20Process.pdf) |
 | 8 | Dissertation Proposal Samples | https://www.researchprospect.com/category/dissertation-proposal-samples/ |
 | 8 | Dissertation Examples (ProQuest, UALR login) | https://www.proquest.com/pqdtlocal1009983/advanced/dissertations/fromDatabasesLayer?_oafollow=false&accountid=14482 |
-| 8 | Kumar, Ch. 13 How to write a research proposal; Ch. 17 Writing a research report | [full e-book](../../Books/Ranjit_Kumar_Research_Methodology_A_Step.pdf) |
+| 8 | Kumar, Ch. 13 How to write a research proposal; Ch. 17 Writing a research report | [full e-book](../../Books/Kumar,%202011,%20Research%20Methodology%20-%20A%20Step-by-Step%20Guide%20for%20Beginners,%20SAGE.pdf) |
 | 8 | UALR Graduate School thesis and dissertation information | https://ualr.edu/gradschool/gradschool/thesis-and-dissertation-information/ |
 
 ## 6. Folder contents
