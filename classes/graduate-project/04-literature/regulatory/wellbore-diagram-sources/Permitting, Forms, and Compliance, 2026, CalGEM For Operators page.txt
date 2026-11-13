@@ -1,0 +1,416 @@
+CalGEM, "Permitting, Forms, and Compliance" (For Operators page).
+Source: California Department of Conservation, Geologic Energy Management Division, https://www.conservation.ca.gov/calgem/for_operators
+Retrieved: November 12, 2026, via the browser. Full page text, including collapsed sections; copied verbatim, only whitespace differs.
+Relevant passages: sections "Plugging and Abandonment" (wellbore schematic diagram required with the OG106 Notice of Intention),
+"Rework" (wellbore schematic diagram as an attachment), and "Drilling" (proposed wellbore schematic).
+==============================================================================
+
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+ theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+ if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+ theForm.__EVENTTARGET.value = eventTarget;
+ theForm.__EVENTARGUMENT.value = eventArgument;
+ theForm.submit();
+ }
+}
+//]]>
+
+//<![CDATA[
+var MSOWebPartPageFormName = 'aspnetForm';
+var g_presenceEnabled = false;
+var g_wsaEnabled = false;
+
+var g_correlationId = '975e4ea2-702a-1065-e15f-10d773ee47be';
+var g_wsaQoSEnabled = false;
+var g_wsaQoSDataPoints = [];
+var g_wsaRUMEnabled = false;
+var g_wsaLCID = 1033;
+var g_wsaListTemplateId = 850;
+var g_wsaSiteTemplateId = 'CMSPUBLISHING#0';
+var _spPageContextInfo={"webServerRelativeUrl":"/calgem/for_operators","webAbsoluteUrl":"https://www.conservation.ca.gov/calgem/for_operators","viewId":"","listId":"{b0165bad-a3a0-4e3d-b87a-9aca18fe6e84}","listPermsMask":{"High":0,"Low":196673},"listUrl":"/calgem/for_operators/Pages","listTitle":"Pages","listBaseTemplate":850,"viewOnlyExperienceEnabled":false,"blockDownloadsExperienceEnabled":false,"idleSessionSignOutEnabled":false,"cdnPrefix":"","siteAbsoluteUrl":"https://www.conservation.ca.gov","siteId":"{428e517a-d687-4073-9606-17c66f5fc7b7}","showNGSCDialogForSyncOnTS":false,"supportPoundStorePath":true,"supportPercentStorePath":true,"siteSubscriptionId":null,"CustomMarkupInCalculatedFieldDisabled":true,"AllowCustomMarkupInCalculatedField":false,"isSPO":false,"farmLabel":null,"serverRequestPath":"/calgem/for_operators/Pages/OilGas-ForOperators.aspx","layoutsUrl":"_layouts/15","webId":"{473608d3-f0b9-45dc-a0b7-0e591232c069}","webTitle":"For Operators","webTemplate":"39","webTemplateConfiguration":"CMSPUBLISHING#0","webDescription":"For_Operators","tenantAppVersion":"0","isAppWeb":false,"webLogoUrl":"/_catalogs/masterpage/DOC/images/logo-sml.png","webLanguage":1033,"currentLanguage":1033,"currentUICultureName":"en-US","currentCultureName":"en-US","currentCultureLCID":1033,"spDocIntelligence":{"isEnabled":false,"isDocSummarizeEnabled":false,"isDocTranslateEnabled":false},"env":null,"nid":0,"fid":0,"serverTime":"2026-11-13T07:08:35.4759778Z","siteClientTag":"21602$$16.0.19725.20210","crossDomainPhotosEnabled":false,"openInClient":true,"Has2019Era":true,"webUIVersion":15,"webPermMasks":{"High":0,"Low":196673},"pageListId":"{b0165bad-a3a0-4e3d-b87a-9aca18fe6e84}","pageItemId":10,"pagePermsMask":{"High":0,"Low":196673},"pagePersonalizationScope":1,"userEmail":"","userId":0,"userLoginName":null,"userDisplayName":null,"isAnonymousUser":true,"isAnonymousGuestUser":false,"isEmailAuthenticationGuestUser":false,"isExternalGuestUser":false,"sideBysideToken":"","systemUserKey":null,"alertsEnabled":true,"siteServerRelativeUrl":"/","allowSilverlightPrompt":"True","themeCacheToken":"/calgem/for_operators::1:","themedCssFolderUrl":null,"themedImageFileNames":null,"modernThemingEnabled":true,"isSiteAdmin":false,"ExpFeatures":[480216468,1884350801,1158731092,62197791,538521105,335811073,4194306,34614301,268500996,-1946025984,28445328,-2147475455,134291456,65544,288,950272,1282,808326148,134217873,0,0,-1073217536,545285252,18350656,-467402752,6291457,-2147483644,1074794496,-1728053184,1845537108,622628,4102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"IsHybridEnabled":false,"SPOnPremFlights":[1635110,1608625,1615140,1554278,1536594,1451530,1437361,1293572,1281075,1266854,1262861,1263396,1245315,1242554,1241972,1232868,1227765,1225014,1220075,1218539,1175952,1174945,1165662,1159162,1149960,1149522,1113916,1111397,1101858,1099085,1086764,1080816,1079075,1075954,1073830,1073759,95255,1062921,1055593,1052809,1043614,1041859,1040063,1039112,1036486,1035189,1033993,1030381,1030382,1030364,1030362,1029854,1029586,1029565,1029556,1029555,1028671,1025113,1021288,1021275,1021274,1021272,1020637,1020043,1018275,1018016,1012433,1011886,1010592,1009740,1009585,1008744,1007603,1004459,1003886,1002806,1001164,116041,114176,114166,112973,108499,108186,107054,100994,100425,99885,99722,96075,94920],"InternalValidAuthorities":["authoring.consrv.ca.gov","www.conservation.ca.gov","authoring.consrv.ca.gov","www.conservation.ca.gov"],"CorrelationId":"975e4ea2-702a-1065-e15f-10d773ee47be","hasManageWebPermissions":false,"isNoScriptEnabled":false,"groupId":null,"groupHasHomepage":true,"groupHasQuickLaunchConversationsLink":false,"departmentId":null,"hubSiteId":null,"hasPendingWebTemplateExtension":false,"isHubSite":false,"isWebWelcomePage":true,"siteClassification":"","hideSyncButtonOnODB":false,"showNGSCDialogForSyncOnODB":false,"sitePagesEnabled":false,"sitePagesFeatureVersion":0,"suiteNavInfo":{"suiteBarBackground":null,"suiteBarText":null,"suiteNavAccentColor":null,"suiteNavAllowCustom":false,"suiteNavAllowOverwrite":false,"suiteNavBrandingLogoNavigationUrl":null,"suiteNavBrandingLogoTitle":null,"suiteNavBrandingLogoUrl":null,"suiteNavBrandingText":null},"DesignPackageId":"00000000-0000-0000-0000-000000000000","groupType":null,"groupColor":"#da3b01","siteColor":"#da3b01","headerEmphasis":0,"navigationInfo":null,"guestsEnabled":false,"MenuData":{"SignInUrl":"/calgem/for_operators/_layouts/15/Authenticate.aspx?Source=%2Fcalgem%2Ffor%5Foperators"},"RecycleBinItemCount":-1,"PublishingFeatureOn":true,"PreviewFeaturesEnabled":false,"disableAppViews":false,"disableFlows":false,"serverRedirectedUrl":null,"formDigestValue":"0x5860F25E68EC9CDBF0A07118F41B03A8327DAD8533252FA46E9E865A6B2527CD1388C956D081720B80E209B4D95A3A58941F48C3FCC486ADC9F546AD3D4FC373,13 Nov 2026 07:08:35 -0000","maximumFileSize":250,"formDigestTimeoutSeconds":1800,"canUserCreateMicrosoftForm":false,"canUserCreateVisioDrawing":true,"readOnlyState":null,"isTenantDevSite":false,"preferUserTimeZone":false,"userTimeZoneData":null,"userTime24":false,"userFirstDayOfWeek":null,"webTimeZoneData":null,"webTime24":false,"webFirstDayOfWeek":null,"isSelfServiceSiteCreationEnabled":null,"alternateWebAppHost":"","aadTenantId":"","aadUserId":"","aadInstanceUrl":"","msGraphEndpointUrl":"https://","allowInfectedDownload":false};_spPageContextInfo.updateFormDigestPageLoaded=new Date();_spPageContextInfo.clientServerTimeDelta=new Date(_spPageContextInfo.serverTime)-new Date();if(typeof(define)=='function'){define('SPPageContextInfo',[],function(){return _spPageContextInfo;});}var L_Menu_BaseUrl="/calgem/for_operators";
+var L_Menu_LCID="1033";
+var L_Menu_SiteTheme="null";
+document.onreadystatechange=fnRemoveAllStatus; function fnRemoveAllStatus(){removeAllStatus(true)};
+function _spNavigateHierarchy(nodeDiv, dataSourceId, dataPath, url, listInContext, type) {
+
+ CoreInvoke('ProcessDefaultNavigateHierarchy', nodeDiv, dataSourceId, dataPath, url, listInContext, type, document.forms.aspnetForm, "", "\u002fcalgem\u002ffor_operators");
+
+}
+Flighting.ExpFeatures = [480216468,1884350801,1158731092,62197791,538521105,335811073,4194306,34614301,268500996,-1946025984,28445328,-2147475455,134291456,65544,288,950272,1282,808326148,134217873,0,0,-1073217536,545285252,18350656,-467402752,6291457,-2147483644,1074794496,-1728053184,1845537108,622628,4102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];//]]>
+
+//<![CDATA[
+window.SPThemeUtils && SPThemeUtils.RegisterCssReferences([{"Url":"\u002f_layouts\u002f15\u002f1033\u002fstyles\u002fThemable\u002fcorev15.css?rev=mDUzGfgO2aHnLoh30SeNyw\u00253D\u00253DTAG0","OriginalUrl":"\u002f_layouts\u002f15\u002f1033\u002fstyles\u002fThemable\u002fcorev15.css?rev=mDUzGfgO2aHnLoh30SeNyw\u00253D\u00253DTAG0","Id":"CssLink-b3f96e7dd918450897b5a3c7983da159","ConditionalExpression":"","After":"","RevealToNonIE":"false"},{"Url":"\u002f_catalogs\u002fmasterpage\u002fDOC\u002fcss\u002fcagov.core.min.css?v=190620","OriginalUrl":"\u002f_catalogs\u002fmasterpage\u002fDOC\u002fcss\u002fcagov.core.min.css?v=190620","Id":"CssLink-2803d5cd48c6431cbbb54b2b13a9bc25","ConditionalExpression":"","After":"System.String[]","RevealToNonIE":"false"},{"Url":"\u002f_catalogs\u002fmasterpage\u002fDOC\u002fcss\u002fcolorscheme-doc.min.css?v=190620","OriginalUrl":"\u002f_catalogs\u002fmasterpage\u002fDOC\u002fcss\u002fcolorscheme-doc.min.css?v=190620","Id":"CssLink-715c25be573144a4b933528e0eaa4276","ConditionalExpression":"","After":"System.String[]","RevealToNonIE":"false"},{"Url":"\u002f_catalogs\u002fmasterpage\u002fDOC\u002fcss\u002fdoc_core.min.css?v=190620","OriginalUrl":"\u002f_catalogs\u002fmasterpage\u002fDOC\u002fcss\u002fdoc_core.min.css?v=190620","Id":"CssLink-234e711ab6c44166bf653982859ba1cc","ConditionalExpression":"","After":"System.String[]","RevealToNonIE":"false"}]);
+if (typeof(DeferWebFormInitCallback) == 'function') DeferWebFormInitCallback();function WebForm_OnSubmit() {
+UpdateFormDigest('\u002fcalgem\u002ffor_operators', 1440000);if (typeof(_spFormOnSubmitWrapper) != 'undefined') {return _spFormOnSubmitWrapper();} else {return true;};
+return true;
+}
+//]]>
+
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager', 'aspnetForm', [], [], [], 90, 'ctl00');
+//]]>
+
+ Turn on more accessible mode
+
+ Turn off more accessible mode
+
+ Skip to Main Content
+
+ //<![CDATA[
+ ExecuteOrDelayUntilScriptLoaded(showSiteAlerts, "sp.js");
+ function showSiteAlerts() {
+ DOC.siteAlerts.init();
+ }
+
+ //]]>
+
+ x
+
+ Default
+
+ High Contrast
+
+ Reset
+
+ Increase Font Size
+
+ Font 
+
+ Decrease Font Size
+
+ Font 
+
+ CA.gov
+
+ Facebook
+
+ Twitter
+
+ instagram
+
+ YouTube
+
+ LinkedIn
+
+ About DOC
+
+ Jobs
+
+ Contact Us
+
+ Blog
+
+ Settings
+
+ Search
+
+ Select Language​▼
+ //<![CDATA[
+
+ function googleTranslateElementInit() {
+ new google.translate.TranslateElement({
+ pageLanguage: 'en',
+ includedLanguages: 'en,es,ja,ko,ru,tl,vi,zh-CN,zh-TW',
+ layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+ gaTrack: true,
+ gaId: 'UA-34494709-1'
+ }, 'google_translate_element');
+ }
+
+ //]]>
+ //<![CDATA[
+
+ //]]>
+
+ Search
+
+ Menu
+
+ <div id="ctl00_SmallSearchInputBox1_noscript">It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.</div>
+
+ Close Search
+
+ Information ForExpand dropdown
+ Compliance & Risk ManagementFunding, Grants & EasementsGovernment & Partner AgenciesPartnerships & EngagementProposition 4 - Climate BondsTribal Affairs
+ DivisionsExpand dropdown
+ CalGEM: Oil, Gas & GeothermalCGS: GeologyDLRP: Land Resource ProtectionDMR: MinesState Mining & Geology Board
+ Maps & DataExpand dropdown
+ All Maps & Data ResourcesWell FinderCGS Info WarehouseCalGEM Data ToolsDLRP Mapping ResourcesMines Online
+
+ Search
+
+ About DOC
+
+ Jobs
+
+ Contact Us
+
+ Blog
+
+ Facebook
+
+ Twitter
+
+ Instagram
+
+ YouTube
+
+ LinkedIn
+
+ Feedback
+
+ Skip Navigation LinksHome
+ CalGEM
+ For Operators
+
+ Permitting, Forms, and Compliance
+
+ Page Image
+
+ Page Content​​​​​​​​​​​​​The Geologic Energy Management Division's (CalGEM's) mission is to regulate California's oil, gas, and geothermal industries with a focus on public health, safety, and environmental protection through science and sound engineering, supporting the state's energy needs and climate commitments.  CalGEM administers regulations and procedures pertaining to all 
+ oil and gas wells on public and private land and offshore within three nautical miles of the California coastline. Operators must obtain permits for a variety of activities, including drilling, reworking, and permanently sealing and closing–also known as plugging and abandoning–wells. Production wells, and injection wells for enhanced recovery, disposal, and natural gas storage are some kinds of wells. (Geothermal Well Permitting, Requirements, and Forms)Oil and Gas Requirements and FormsWell Permit Information 
+
+ Drill New Wells 
+
+ Before an operator can drill a new well in California, the operator must:
+ Designate an agent who resides in California and serves as the company contact for all correspondence, including well permits, and the service and acceptance of orders, notices, and processes of the State Supervisor of Oil and Gas or any court of law. The agent must be an individual not a company, and have a physical address within the state. An individual may appoint himself or herself as agent. If an operator desires, more than one agent may be appointed, each for a designated area of the state. A separate form must be filed for each agent. Forms must be submitted to the 
+ CalGEM district office where the well is to be located. 
+
+ OG150 - 
+ Oil and Gas Agent Designation and Organization Information Change (OG150 is a new form replacing OG134A, OG134B, OGD42D)Furthermore, operators must complete and submit a Contact Questionnaire form with the appropriate Designation of Agent form to the CalGEM​ district office where the well is to be located. Besides the name of the agent, the Contact Questionnaire must include the name of a company representative that can answer technical questions related to proposed operations. 
+
+ OGD7 - 
+ Contact Questionnaire 
+ Submit a completed permit request form entitled Notice of Intention (OG106) to the CalGEM district office where the well is located. The form must be filed, in duplicate, with the appropriate district office. 
+
+ OG106 -  Notice of Intention (OG106 is a new form replacing OG105, OG107, OG108, and OG123) Proposals to drill a new well should be consistent with requirements outlined in CalGEM 
+ Field Rules. Any deviation from Field Rules should be explained by the permit applicant and a justification provided. All the information specified on the form should be filled in completely and, where needed, attachments must be provided. Attachments may include a complete drilling program, lease map or plat, lease description and proposed wellbore schematic. The name of an individual to contact regarding technical questions must be provided by the operator as well as an email address (this information is required on all the forms, not just on the Notice of Intention). If operations have not commenced within 24 months of receipt of the Notice of Intention, the Notice shall be deemed canceled, the Notice shall not be extended, and the cancellation shall be noted in CalGEM's records.Should an operator receive a Well Status Inquiry letter from CalGEM, the operator may use it as a request for extension of permit approval prior to the expiration of the permit. Extensions are granted for one additional year from the original permit expiration date. 
+ Comply with the requirements of the California Environmental Quality Act (CEQA) prior to submitting the Notice of Intention. Usually this involves obtaining the necessary permits from a local land-use agency. A copy of the local jurisdiction's Notice of Determination or Notice of Exemption must be attached to and submitted with the Notice of Intention to Drill. 
+ Submit an individual indemnity or cash bond with the Notice of Intention to Drill, unless a blanket bond has been filed previously. Individual bond amounts are based on well depth.
+
+ OG160 - 
+ Oil and Gas Bond (OG160 replaces all previous bond forms including the blanket or individual bond, onshore/offshore bond, indemnity or cash, etc.) 
+ Receive CalGEM approval, a Permit to Conduct Well Operations, before drilling can begin (e.g. set of conductor). The Notice and Permit to Drill (P-Report) must be posted at the drill site at all times. The permit lists all mandatory tests and inspections that CalGEM​ inspectors must witness and approve. 
+ To request Confidential Status, see below under “Request for Confidential Status” in the 
+ Other Well Permitting Information section. 
+ For all New Wells, approval of proposed operations is subject to the following: 
+ Protection of all hydrocarbon zones and all surface and subsurface fresh waters through adequate casing and cementing practices, and proper drilling procedures; Adequate blowout prevention equipment (see 
+ MO7); and Proper well spacing (Section 1721-1721.9 CCR) 
+
+ Rework/Redrills 
+
+ Operators proposing to deepen or permanently alter the casing in a well must submit a Notice of Intention to Rework / Redrill Well (OG107) and receive a Permit to Rework / Redrill Well(P- report) from the CalGEM district office prior to commencing operations. All operations other than drilling new wells and abandoning existing wells are under the general classification “Rework”.According to §1720 (b), "rework" means any operation subsequent to drilling that involves deepening, redrilling, plugging, or permanently altering in any manner the casing of a well or its function. 
+ Submit a completed permit request form entitled Notice of Intention (OG 106). The form must be filed, in duplicate, with the 
+ DOGGR district office where the well is located. 
+
+ OG106 -- 
+ Notice of Intention (OG106 is a new form replacing OG105, OG107, OG108, and OG123) Fill in all the information specified on the form completely. Include any attachments needed, such as a wellbore schematic diagram and a copy of the CEQA document, if CEQA was required by the local jurisdictional agency. In addition to noting any changes in the completion zone, include any anticipated changes to the Field and/or Area for proposed recompletions, redrills, or deepenings. 
+ The Notice and Permit to Rework / Redrill (P-report) must be posted at the well site at all times. The permit lists all mandatory tests and inspections that CalGEM's inspectors must witness and approve.    
+ Adequate blowout prevention equipment (BOPE) (see 
+ MO7). Section 3219 of the PRC specifies that operators must be able to maintain control of a well during any well operation, whether or not a permit is required. All operations in urban areas require the use of BOPE. 
+
+ Plugging and Abandonment
+
+ Prior to plugging and abandoning any oil and gas well, or any other well under CalGEM's jurisdiction, operators must: 
+ Submit a Notice of Intention (OG106). 
+
+ OG106 – 
+ Notice of Intention (OG106 is a new form replacing OG105, OG107, OG108, and OG123) Fill in all the information specified on the form completely. Include any attachments needed, such as a wellbore schematic diagram. The diagram must include casing intervals and sizes, perforation locations, cement plug depths inside casing, and the location of the cement outside casing. 
+ Note: Form OG106, in addition to being used by an operator proposing the plug and abandon a well, must be used when proposing to reenter a well for the purpose of replacing cement plugs and re-abandoning the well. The Supplementary Notice (Form OG123) has also been replaced by OG106. Once a conductor has been set, if it is not to be used (as in the case when a permit is cancelled), it must be properly secured or covered at the surface to prevent someone or something from falling into an open conductor. CalGEM must be contacted to provide plugging requirements to minimize the potential for subsurface contamination and hazardous surface conditions. 
+
+ Special Plugging Requirements: Radioactive Sources
+
+ Plugging Radioactive Sources (CCR section 1722(j)): The loss of radioactive materials in a well, with the exception of radioactive tracers used in injection surveys, shall be promptly reported to the Department of Health Services and to the appropriate CalGEM district office. For the California Department of Health Services, call (916) 327-5106 or the OES 24-hour Emergency Assistance phone at 1 (800) 852-7550. CalGEM's​ district office will provide special instructions for the plugging and abandonment of the well, which are included in CCR section 1723(g).
+
+ Injection Well/Project Approval 
+
+ Approval to inject into a well is granted through CalGEM's Underground Injection Control (UIC) program for Class II wells. CalGEM authority for the UIC program is granted through a delegation of primacy from the U.S. Environmental Protection Agency. Prior to injection into a well regulated by CalGEM, an operator must submit a complete project application, which includes data listed in CCR section 1724.7 for onshore projects, and section 1748.2 for offshore projects. Project plans should be signed by the owner, agent, or officer of the company.Individual well Notices of Intent for wells included in the injection project proposal must also be submitted and permits received before injection can begin.Please go to 
+ For Operators - UIC, Application for Injection Approval to apply for the following types of injection operations:- Enhanced Recovery- Commercial and Non-Commercial Water DisposalOther Operational Requirements 
+
+ Changes to Approved Drilling, Redrilling, and Abandonment Program 
+
+ A Supplementary Notice (OG123) has been discontinued and replaced by OG106.
+ OG106 – 
+ Notice of Intention (OG106 is a new form replacing OG105, OG107, OG108, and OG123) 
+
+ Request for Confidential Status 
+
+ Operators may request Confidential Status when submitting the Notice of Intention to Drill or at the time the drilling history is submitted to CalGEM after completion of drilling activities. The request must be in writing and include a justification for confidential status. All requests must be submitted to the CalGEM district office where the well in located. See 
+ Sample Letter Request for Confidential Status. Refer to Section 3234 of the PRC and Section 1997.1 of the CCR for requirements of Confidential Well records. 
+
+ Time Limitation 
+
+ An approved Notice of Intention is only valid for 24 months from the date that CalGEM initially received the notice from the operator. If operations have not commenced within 24 months of receipt of the notice, then the notice is deemed to be canceled and may not be extended.(See Pub. Resources Code, § 3203, subd. (a).) 
+
+ Notification of Well or Facility Disposition/Transfer 
+
+ Operators who sell, transfer, or otherwise exchange the right to operate a well, and the land (owned or leased) where the well is located, must notify CalGEM no later than the date the sale, transfer, conveyance, exchange, or other disposition, becomes final.Notification is also required from persons acquiring ownership or operation of any well – whether by purchase, transfer, or another method – no later than the date the sale, transfer, conveyance, exchange, or other disposition, becomes final.To notify CalGEM​ of a sale, complete a Notification of Well and/or Facility Disposition (OG30A) and submit it to the appropriate district office. 
+
+ OG30A – 
+ Notification of Well and/or Facility Disposition 
+
+ Well Bonding 
+
+ Specific bond questions may be directed to the appropriate CalGEM district office or the headquarters office in Sacramento. 
+
+ Well Maintenance ReportingGuidelines
+
+ Field Rules
+
+ Field Rules
+ Coiled Tubing Plugging Guidelines
+ Bentonite Plugging GuidelinesRelated Information
+ Well Stimulation Treatment
+ Water Use Data Reporting
+ Well Instruction Manuals 
+ Assessment Process and Fees Operator Online Payments- Electronic Funds Transfer Option for Oil and Gas Assessments, Civil Penalties, Geothermal, Underground Gas Storage and Idle Well Fees​  
+
+Other Information 
+
+ Operator logon to the WellSTAR database
+ WellSTAR page 
+ Notice to Operators (NTO) 
+ New Operator Information 
+ Pipelines and Facilities  
+Questions? Please contact the appropriate 
+ CalGEM district office.
+ Related Governmental AgenciesComplianceCalifornia laws and CalGEM regulations aim to prevent harm to people and the environment. To fulfill that, many of the regulations have been or are being updated and expanded to strengthen operational safety. Additionally, there are Memoranda of Understanding/Agreements between CalGEM​ and various state and local agencies to define each entity’s authority and responsibility with the respect to the laws, regulations, and DOGGR programs. 
+ NEW (2019) Regulations for Idle Well Testing and Management (PDF)
+ NEW (2019) Regulations for Underground Injection Control (PDF)​ 
+ (2018) Regulations for Underground Gas Storage Projects (PDF)​
+ (2018) Regulations for Oil and Gas Pipelines (PDF)
+ Statutes and Regulations Active Rulemaking
+ Memoranda of Understanding/Agreement (MOUs/MOAs) 
+
+     ​
+
+ Popular LinksOil and Gas PermitsCalGEM FAQsWellSTARWell FinderWell Search By APIFile RequestPermitting, Forms, ComplianceReports, PublicationsAquifer ExemptionsGIS Mapping
+ //<![CDATA[
+
+ var inDesignMode = document.forms[MSOWebPartPageFormName].MSOLayout_InDesignMode.value;
+ if (inDesignMode == "1")
+ {
+ // page is in edit mode
+ // console.log('editing mode');
+ $('#enablePopularLinks').show();
+ }
+ else
+ {
+ // page is in browse mode
+ //console.log('display mode');
+ }
+
+ ExecuteOrDelayUntilScriptLoaded(popularLinksOnDemandStart, "sp.js");
+ function popularLinksOnDemandStart() {
+ DOC.popularLinksOnDemand.init();
+ }
+
+ //]]>
+
+ For Operators Menu
+
+ HomeCurrently selectedDistricts/In Case of EmergencyOil and Gas - All PagesExpand dropdown
+ Oil & Gas - General InfoProject PlugState Oil & Gas Well Plug and AbandonmentsWellSTARWell Finder (Map Tool)Well Record Search by APIWell Stimulation/Hydraulic FracturingUnderground Injection ControlIdle WellsWell MaintenancePipelines and FacilitiesPermitting, Forms, & ComplianceOil & Gas Public Transparency
+ GeothermalUnderground Gas StorageCarbon Capture & SequestrationLaws & RegulationsExpand dropdown
+ CalGEM Laws and RulemakingCEQASenate Bill 1137Senate Bill 237
+ EnforcementOnline Data Tools & FAQsExpand dropdown
+ Online Data Tools HomepageGIS MappingFile Request ServerCalGEM FAQsOil/Gas/Geothermal Publications
+ Sitemap
+
+ About DOCSign Up For Our NewsletterMeet DOC LeadershipAbout UsContact UsAccessibilityData & InformationPublic Records Act RequestsWellSTARProposition 4 - Climate BondsFarmland Mapping and MonitoringFor Small Businesses & VeteransMapsEarthquake Zone App (EQ Zapp)CGS Regulatory MapsWell FinderGeologic Map of CaliforniaFault Activity Map of CaliforniaSite ResourcesConditions of UsePrivacy PolicySitemapDisclaimer and CopyrightRegister to Vote
+
+ CA.gov
+
+ Copyright © 2026 State of California 
+
+ //<![CDATA[
+ (function() {
+ var ga = document.createElement('script');
+ ga.type = 'text/javascript';
+ ga.async = true;
+ ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-N4MB98DBXY';
+ var s = document.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(ga, s);
+ })();
+ window.dataLayer = window.dataLayer || [];
+ function gtag() { dataLayer.push(arguments); }
+ gtag('js', new Date());
+ gtag('config', 'G-69TD0KNT0F'); // statewide GA4 Property ID
+ gtag('config', 'G-N4MB98DBXY'); // CA DOC
+ var _gaq = [];
+
+ if ($('.dynamic.pm-active').length > 0)
+ {
+ $('.dynamic.pm-active').removeAttr('aria-hidden');
+ }
+ $(".list-overstated.accordion-list").find("a.add_side_padding").remove();
+ $(`a.toggle[aria-expanded="false"]`).removeAttr("aria-expanded");
+
+ //]]>
+
+//<![CDATA[
+ var formDigestElement = document.getElementsByName('__REQUESTDIGEST')[0];
+ if (!((formDigestElement == null) || (formDigestElement.tagName.toLowerCase() != 'input') || (formDigestElement.type.toLowerCase() != 'hidden') ||
+ (formDigestElement.value == null) || (formDigestElement.value.length <= 0)))
+ {
+ formDigestElement.value = '0x5860F25E68EC9CDBF0A07118F41B03A8327DAD8533252FA46E9E865A6B2527CD1388C956D081720B80E209B4D95A3A58941F48C3FCC486ADC9F546AD3D4FC373,13 Nov 2026 07:08:35 -0000';_spPageContextInfo.updateFormDigestPageLoaded = new Date();
+ }
+ //]]>
+
+//<![CDATA[
+var _spFormDigestRefreshInterval = 1440000;window.SPThemeUtils && SPThemeUtils.ApplyCurrentTheme(true);var _fV4UI = true;
+function _RegisterWebPartPageCUI()
+{
+ var initInfo = {editable: false,isEditMode: false,allowWebPartAdder: false,listId: "{b0165bad-a3a0-4e3d-b87a-9aca18fe6e84}",itemId: 10,recycleBinEnabled: true,enableMinorVersioning: true,enableModeration: true,forceCheckout: true,rootFolderUrl: "\u002fcalgem\u002ffor_operators\u002fPages",itemPermissions:{High:0,Low:196673}};
+ SP.Ribbon.WebPartComponent.registerWithPageManager(initInfo);
+ var wpcomp = SP.Ribbon.WebPartComponent.get_instance();
+ var hid;
+ hid = document.getElementById("_wpSelected");
+ if (hid != null)
+ {
+ var wpid = hid.value;
+ if (wpid.length > 0)
+ {
+ var zc = document.getElementById(wpid);
+ if (zc != null)
+ wpcomp.selectWebPart(zc, false);
+ }
+ }
+ hid = document.getElementById("_wzSelected");
+ if (hid != null)
+ {
+ var wzid = hid.value;
+ if (wzid.length > 0)
+ {
+ wpcomp.selectWebPartZone(null, wzid);
+ }
+ }
+};
+function __RegisterWebPartPageCUI() {
+ExecuteOrDelayUntilScriptLoaded(_RegisterWebPartPageCUI, "sp.ribbon.js");}
+_spBodyOnLoadFunctionNames.push("__RegisterWebPartPageCUI");var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part. It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed. To close this Web Part, click OK. To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part. Are you sure you want to do this? To delete this Web Part, click OK. To keep this Web Part, click Cancel.';g_spPreFetchKeys.push('sp.core.js');
+ ExecuteOrDelayUntilScriptLoaded(
+ function() 
+ { 
+ Srch.ScriptApplicationManager.get_current().states = {"webUILanguageName":"en-US","webDefaultLanguageName":"en-US","QueryDateTimeCulture":1033,"timeZoneOffsetInHours":-8,"contextUrl":"https://www.conservation.ca.gov/calgem/for_operators","contextTitle":"For Operators","supportedLanguages":[{"id":1025,"label":"Arabic"},{"id":1093,"label":"Bangla"},{"id":1026,"label":"Bulgarian"},{"id":1027,"label":"Catalan"},{"id":2052,"label":"Chinese (Simplified)"},{"id":1028,"label":"Chinese (Traditional)"},{"id":1050,"label":"Croatian"},{"id":1029,"label":"Czech"},{"id":1030,"label":"Danish"},{"id":1043,"label":"Dutch"},{"id":1033,"label":"English"},{"id":1035,"label":"Finnish"},{"id":1036,"label":"French"},{"id":1031,"label":"German"},{"id":1032,"label":"Greek"},{"id":1095,"label":"Gujarati"},{"id":1037,"label":"Hebrew"},{"id":1081,"label":"Hindi"},{"id":1038,"label":"Hungarian"},{"id":1039,"label":"Icelandic"},{"id":1057,"label":"Indonesian"},{"id":1040,"label":"Italian"},{"id":1041,"label":"Japanese"},{"id":1099,"label":"Kannada"},{"id":1042,"label":"Korean"},{"id":1062,"label":"Latvian"},{"id":1063,"label":"Lithuanian"},{"id":1086,"label":"Malay"},{"id":1100,"label":"Malayalam"},{"id":1102,"label":"Marathi"},{"id":1044,"label":"Norwegian"},{"id":1045,"label":"Polish"},{"id":1046,"label":"Portuguese (Brazil)"},{"id":2070,"label":"Portuguese (Portugal)"},{"id":1094,"label":"Punjabi"},{"id":1048,"label":"Romanian"},{"id":1049,"label":"Russian"},{"id":3098,"label":"Serbian (Cyrillic)"},{"id":2074,"label":"Serbian (Latin)"},{"id":1051,"label":"Slovak"},{"id":1060,"label":"Slovenian"},{"id":3082,"label":"Spanish (Spain)"},{"id":2058,"label":"Spanish (Mexico)"},{"id":1053,"label":"Swedish"},{"id":1097,"label":"Tamil"},{"id":1098,"label":"Telugu"},{"id":1054,"label":"Thai"},{"id":1055,"label":"Turkish"},{"id":1058,"label":"Ukrainian"},{"id":1056,"label":"Urdu"},{"id":1066,"label":"Vietnamese"}],"navigationNodes":[{"id":1001,"name":"Everything","url":"{searchcenterurl}/results.aspx","promptString":"Search everything"},{"id":1002,"name":"People","url":"{searchcenterurl}/peopleresults.aspx","promptString":"Search people"},{"id":1003,"name":"Conversations","url":"{searchcenterurl}/conversationresults.aspx","promptString":"Search conversations"},{"id":0,"name":"This Site","url":"~site/_layouts/15/osssearchresults.aspx?u={contexturl}","promptString":"Search this site"}],"webUILanguageDirectory":"en-US","showAdminDetails":false,"defaultPagesListName":"Pages","isSPFSKU":false,"defaultQueryProperties":{"culture":1033,"uiLanguage":1033,"summaryLength":180,"desiredSnippetLength":90,"enableStemming":true,"enablePhonetic":false,"enableNicknames":false,"trimDuplicates":true,"bypassResultTypes":false,"enableInterleaving":true,"enableQueryRules":true,"processBestBets":true,"enableOrderingHitHighlightedProperty":false,"hitHighlightedMultivaluePropertyLimit":-1,"processPersonalFavorites":true}};
+ Srch.U.trace(null, 'SerializeToClient', 'ScriptApplicationManager state initialized.');
+ }, 'Search.ClientControls.js');var g_clientIdDeltaPlaceHolderMain = "DeltaPlaceHolderMain";
+var g_clientIdDeltaPlaceHolderUtilityContent = "DeltaPlaceHolderUtilityContent";
+
+ ExecuteOrDelayUntilScriptLoaded(
+ function() 
+ {
+ if ($isNull($find('ctl00_SmallSearchInputBox1_csr')))
+ {
+ var sb = $create(Srch.SearchBox, {"delayLoadTemplateScripts":true,"messages":[],"queryGroupNames":["MasterPage"],"renderTemplateId":"~sitecollection/_catalogs/masterpage/Display Templates/Search/Control_SearchBox_Compact.js","resultsPageAddress":"/search/Pages/results.aspx","serverInitialRender":true,"showDataErrors":true,"states":{},"tryInplaceQuery":false}, null, null, $get("ctl00_SmallSearchInputBox1_csr"));
+ sb.activate('Search...', 'ctl00_SmallSearchInputBox1_csr_sbox', 'ctl00_SmallSearchInputBox1_csr_sboxdiv', 'ctl00_SmallSearchInputBox1_csr_NavButton', 'ctl00_SmallSearchInputBox1_csr_AutoCompList', 'ctl00_SmallSearchInputBox1_csr_NavDropdownList', 'ctl00_SmallSearchInputBox1_csr_SearchLink', 'ms-srch-sbprogress', 'ms-srch-sb-prompt ms-helperText');
+ }
+ }, 'Search.ClientControls.js');g_QuickLaunchControlIds.push("zz1_TopNavigationMenu");_spBodyOnLoadFunctionNames.push('QuickLaunchInitDroppable'); var g_zz1_TopNavigationMenu = null; function init_zz1_TopNavigationMenu() { if (g_zz1_TopNavigationMenu == null) g_zz1_TopNavigationMenu = $create(SP.UI.AspMenu, null, null, null, $get('zz1_TopNavigationMenu')); } if(g_spPreFetchKeys) {{ g_spPreFetchKeys.push('SP.Core.js');}}EnsureScriptFunc('SP.Core.js', 'SP.UI.AspMenu', init_zz1_TopNavigationMenu);
+g_QuickLaunchControlIds.push("zz3_V4QuickLaunchMenu");_spBodyOnLoadFunctionNames.push('QuickLaunchInitDroppable'); var g_zz3_V4QuickLaunchMenu = null; function init_zz3_V4QuickLaunchMenu() { if (g_zz3_V4QuickLaunchMenu == null) g_zz3_V4QuickLaunchMenu = $create(SP.UI.AspMenu, null, null, null, $get('zz3_V4QuickLaunchMenu')); } if(g_spPreFetchKeys) {{ g_spPreFetchKeys.push('SP.Core.js');}}EnsureScriptFunc('SP.Core.js', 'SP.UI.AspMenu', init_zz3_V4QuickLaunchMenu);
+//]]>
+
+Original textRate this translationYour feedback will be used to help improve Google Translate

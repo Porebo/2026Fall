@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930 552" width="930" height="552" font-family="Segoe UI, Arial, Helvetica, sans-serif">
   <title>Relationship among the variables of the study</title>
-  <desc>The prompt type (independent variable, the treatment) and the control variables (the regulation and the wellbore diagram, which is the subject) go into the AI model. The correctness of the judgments of the AI model is the dependent variable, which the gold standard scores.</desc>
+  <desc>The prompt type (independent variable, the treatment) and the control variables (the regulation and the casing diagram, which is the subject) go into the AI model. The correctness of the judgments of the AI model is the dependent variable, which the gold standard scores.</desc>
   <rect x="0" y="0" width="930" height="552" fill="#ffffff"/>
   <rect x="1" y="1" width="339" height="281" rx="12" fill="#e8f1fb" stroke="#1f5fa8" stroke-width="2"/>
   <text x="18" y="28" font-size="16" fill="#1f5fa8" font-weight="700" letter-spacing="0.5">INDEPENDENT VARIABLE</text>
@@ -19,15 +19,15 @@
   <text x="18" y="354" font-size="16" fill="#3a4250">Held the same for all four prompt types:</text>
   <rect x="16" y="368" width="309" height="66" rx="8" fill="#ffffff" stroke="#5b6470" stroke-width="1.5"/>
   <text x="30" y="395" font-size="19" fill="#1a1a1a" font-weight="700">The regulation</text>
-  <text x="30" y="419" font-size="16" fill="#3a4250">18 required items</text>
+  <text x="30" y="419" font-size="16" fill="#3a4250">15 required items</text>
   <rect x="16" y="444" width="309" height="92" rx="8" fill="#d3efd9" stroke="#2f7d4f" stroke-width="3"/>
-  <text x="30" y="471" font-size="19" fill="#1a1a1a" font-weight="700">The wellbore diagram</text>
+  <text x="30" y="471" font-size="19" fill="#1a1a1a" font-weight="700">The casing diagram</text>
   <text x="30" y="495" font-size="16" fill="#1f6a3d" font-weight="700">This is the subject</text>
   <text x="30" y="519" font-size="16" fill="#2f3b33">The same file for all four prompt types</text>
   <rect x="384" y="180" width="176" height="134" rx="67" fill="#ffffff" stroke="#2b2f36" stroke-width="2"/>
   <text x="472" y="238" font-size="21" fill="#1a1a1a" font-weight="700" text-anchor="middle">AI model</text>
   <text x="472" y="263" font-size="16" fill="#3a4250" text-anchor="middle">judges each of the</text>
-  <text x="472" y="284" font-size="16" fill="#3a4250" text-anchor="middle">18 required items</text>
+  <text x="472" y="284" font-size="16" fill="#3a4250" text-anchor="middle">15 required items</text>
   <rect x="620" y="110" width="309" height="264" rx="12" fill="#fff1e0" stroke="#b45309" stroke-width="2"/>
   <text x="638" y="138" font-size="16" fill="#9a4a06" font-weight="700" letter-spacing="0.5">DEPENDENT VARIABLE</text>
   <text x="638" y="170" font-size="20" fill="#1a1a1a" font-weight="700">Correctness of the</text>
@@ -38,7 +38,7 @@
   <text x="638" y="297" font-size="17" fill="#1a1a1a">Not addressed</text>
   <line x1="638" y1="312" x2="911" y2="312" stroke="#b45309" stroke-width="1" opacity="0.45"/>
   <text x="638" y="336" font-size="16" fill="#9a4a06" font-weight="700">Score: correct judgments</text>
-  <text x="638" y="357" font-size="16" fill="#9a4a06" font-weight="700">out of 18</text>
+  <text x="638" y="357" font-size="16" fill="#9a4a06" font-weight="700">out of 15</text>
   <rect x="620" y="420" width="309" height="130" rx="12" fill="#f1ecf9" stroke="#6b4fa0" stroke-width="2"/>
   <text x="638" y="448" font-size="16" fill="#5a3f8f" font-weight="700" letter-spacing="0.5">MEASURING INSTRUMENT</text>
   <text x="638" y="478" font-size="20" fill="#1a1a1a" font-weight="700">Gold standard</text>

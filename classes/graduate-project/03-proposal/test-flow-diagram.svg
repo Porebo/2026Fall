@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930 324" width="930" height="324" font-family="Segoe UI, Arial, Helvetica, sans-serif">
-  <title>Procedure for testing one wellbore diagram with the four prompt types</title>
-  <desc>Six steps make one run. The run is repeated in a new chat for each of the four prompt types; only the prompt changes. After four runs, the next wellbore diagram is tested.</desc>
+  <title>Procedure for testing one casing diagram with the four prompt types</title>
+  <desc>Six steps make one run. The run is repeated in a new chat for each of the four prompt types; only the prompt changes. After four runs, the next casing diagram is tested.</desc>
   <rect x="0" y="0" width="930" height="324" fill="#ffffff"/>
   <rect x="1" y="1" width="290" height="116" rx="12" fill="#ffffff" stroke="#5b6470" stroke-width="2"/>
   <circle cx="31" cy="33" r="16" fill="#2b2f36"/>
@@ -12,7 +12,7 @@
   <circle cx="350" cy="33" r="16" fill="#2b2f36"/>
   <text x="350" y="39" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">2</text>
   <text x="376" y="40" font-size="19" fill="#1a1a1a" font-weight="700">Drop in two files</text>
-  <text x="340" y="73" font-size="16" fill="#3a4250">The wellbore diagram and</text>
+  <text x="340" y="73" font-size="16" fill="#3a4250">The casing diagram and</text>
   <text x="340" y="94" font-size="16" fill="#3a4250">the regulation text</text>
   <rect x="639" y="1" width="290" height="116" rx="12" fill="#e8f1fb" stroke="#1f5fa8" stroke-width="2"/>
   <circle cx="669" cy="33" r="16" fill="#2b2f36"/>
@@ -50,5 +50,5 @@
   <polygon points="146,119 151.5,131.0 140.5,131.0" fill="#2b2f36"/>
   <text x="166" y="146" font-size="16" fill="#1a1a1a" font-weight="700">Repeat for the next prompt type</text>
   <text x="166" y="168" font-size="16" fill="#3a4250">New chat. Only the prompt changes; the two files stay the same.</text>
-  <text x="166" y="190" font-size="16" fill="#3a4250">After four runs, go to the next wellbore diagram.</text>
+  <text x="166" y="190" font-size="16" fill="#3a4250">After four runs, go to the next casing diagram.</text>
 </svg>

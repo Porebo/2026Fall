@@ -1,5 +1,7 @@
 PROMPT 04 - CHAIN-OF-THOUGHT
-Version 1.1, November 11, 2026
+Version 1.3, November 13, 2026
+Change in 1.3: standard changed from 14 CCR 1772.1.3 (idle wells) to 14 CCR 1724.7.1 (underground injection control), which has the same 15 items: it sits in the Onshore Well Regulations, governs every well in an injection project's area of review that penetrates the injection zone, producers included, and is the section CalGEM enforced in Order 1517. Its item (15) lacks the "if applicable" of 1772.1.3; the injection-zone clause is treated as not applicable to wells outside an injection project.
+Change in 1.2: standard changed from 14 CCR 1726.4.1 (underground gas storage wells, 18 items) to 14 CCR 1772.1.3 (idle wells, 15 items; the same items as 14 CCR 1724.7.1 for injection project wells), the closer fit for the sampled oil and gas wells. The dry runs of November 11, 2026, used the earlier standard and prompt wording.
 
 Level 4 is the level 3 prompt, unchanged, followed by one paragraph asking the
 AI to reason through the requirements step by step before answering. Nothing

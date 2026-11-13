@@ -1,0 +1,36 @@
+California Code of Regulations, Title 14, Section 1784. Well Stimulation Treatment Area Analysis and Design.
+Source: Westlaw, California Code of Regulations (official publication of the Office of Administrative Law),
+  https://govt.westlaw.com/calregs/Document/I52C64E235B4D11EC976B000D3A7C4BC3
+Retrieved: November 12, 2026, via the browser. The database states it is current through 10/30/26, Register 2026, No. 44.
+Text copied verbatim from the page; only line breaks may differ.
+==============================================================================
+
+§ 1784. Well Stimulation Treatment Area Analysis and Design.
+Currentness
+(a) As part of an application for a permit to conduct well stimulation, the operator shall conduct a well stimulation treatment area analysis to ensure the geologic and hydrologic isolation of the oil and gas formation during and following well stimulation treatment.
+(1) The operator shall utilize modelling, or other analysis, approved by the Division that will effectively estimate the ADSA. The operator shall submit the ADSA and information supporting the modeling or analysis to the Division.
+(2) The well stimulation treatment area analysis shall include identification and review of all well bores located completely or partially within two times the ADSA to ensure the geologic and hydrologic isolation of the oil and gas formation during and following well stimulation. The Division may allow modification of the review area based on modeling and analysis provided by the operator that demonstrates geologic and hydrologic isolation of the oil and gas formation during and following well stimulation treatment. For each well bore within the review area the well stimulation treatment area analysis shall include the following information:
+(A) Casing diagrams clearly indicating:
+(i) Sizes and weights of casing;
+(ii) Depths of shoes, stubs, and liner tops;
+(iii) Depths of perforation intervals, water shutoff holes, cement port, cavity shots, cuts, casing damage, and top of junk or fish left in well;
+(iv) Diameter and depth of hole;
+(v) Cement plugs inside casings, including top and bottom of cement plug, with indication of method of determining;
+(vi) Cement fill behind casings, including top and bottom of cement fill, with indication of method of determining;
+(vii) Type and weight (density) of fluid between cement plugs;
+(viii) Depths and names of the formations, zones, and sand markers penetrated by the well, including the top and bottom of the zone where well stimulation treatment will occur;
+(ix) All steps of cement yield and cement calculations performed;
+(x) All information used to calculate the cement slurry (volume, density, yield), including but not limited to, cement type and additives, for each cement job completed in each well; and(xi) All of the information listed in this paragraph for all previous redrilled or sidetracked well bores.
+(B) For directionally drilled wells, a wellbore path giving both inclination and azimuth measurements.
+(3) The well stimulation treatment area analysis shall include a review of all geologic features, including known faults (active or inactive), within five times the ADSA to ensure the geologic and hydrologic isolation of the oil and gas formation during and following well stimulation. For all such geologic features, the operator shall provide:
+(A) An evaluation of whether the geologic feature may act as a migration pathway for injected fluids or displaced formation fluids; and(B) An assessment of the risk that the well stimulation treatment will communicate with the geologic feature.
+(4) If five times the ADSA extends beyond the productive horizon being evaluated for possible well stimulation treatment, then the well stimulation treatment area analysis shall include a review of the geological formations adjacent to the productive horizon. The operator shall assess the mechanical rock properties, including permeability, relative hardness (using Young's Modulus), relative elasticity (using Poisson's Ratio), and other relevant characteristics of the geological formations to determine whether the geological formations will ensure the geologic and hydrologic isolation of the oil and gas formation during and following well stimulation.
+(5) The well stimulation treatment area analysis shall include identification of all water within two times the ADSA.
+(b) Utilizing the well stimulation treatment area analysis conducted pursuant to subdivision (a), the operator shall design the well stimulation treatment so as to ensure that the well stimulation treatment fluids or hydrocarbons do not migrate and remain geologically and hydrologically isolated to the hydrocarbon formation. A well stimulation treatment shall not be designed to employ pressure exceeding 80% of the API rated minimum internal yield on any casing string in communication with the well stimulation treatment.
+
+Credits
+Note: Authority cited: Sections 3013 and 3160, Public Resources Code. Reference: Sections 3106 and 3160, Public Resources Code.
+
+History 
+1. New section filed 12-30-2014; operative 7-1-2015 pursuant to Public Resources Code section 3161(a), as amended by SB 4, Stats. 2014, c. 313 (Register 2015, No. 1).
+2. Editorial correction of History 1 (Register 2017, No. 24).This database is current through 10/30/26 Register 2026, No. 44.Cal. Admin. Code tit. 14, § 1784, 14 CA ADC § 1784

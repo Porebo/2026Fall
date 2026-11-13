@@ -1,4 +1,4 @@
-# Graduate Project: AI Review of Wellbore Diagrams
+# Graduate Project: AI Review of Casing Diagrams
 
 MS Information Science master's project, Lester S. Carcamo. Advisor: Dr. Ningning Wu.
 
@@ -19,7 +19,7 @@ MS Information Science master's project, Lester S. Carcamo. Advisor: Dr. Ningnin
 | `04-literature/papers/` | Peer-reviewed and other papers, named `FirstAuthor, Year, Title, Journal.pdf` |
 | `04-literature/regulatory/` | CalGEM rules, notices, and reports: `wellbore-diagram-sources/`, `nov-sources/` |
 | `05-data/calgem/` | CalGEM 2021 wells and production CSVs, code definitions, 436 enforcement orders, and `PROVENANCE.md` (sources, checksums, how to reproduce) |
-| `06-study/design/` | Business scenario, the casing diagram rule (14 CCR § 1726.4.1, verbatim), and `prompts/`: the four prompts, their copy-and-paste texts, and the methods draft |
+| `06-study/design/` | Business scenario, the casing diagram rule (14 CCR § 1724.7.1, verbatim; earlier versions based on §§ 1726.4.1 and 1772.1.3 are in `superseded/`), and `prompts/`: the four prompts, their copy-and-paste texts, and the methods draft |
 | `06-study/sample/` | Sampling plan, screening log, input quality profile, and the 30 sampled diagrams `diagrams/W01.pdf` to `W30.pdf` |
 | `06-study/runs/` | Dry-run responses, one folder per prompt level |
 | `06-study/pilot-ventura/` | The earlier 14 diagrams from 10 Ventura field wells (before the random sample) |

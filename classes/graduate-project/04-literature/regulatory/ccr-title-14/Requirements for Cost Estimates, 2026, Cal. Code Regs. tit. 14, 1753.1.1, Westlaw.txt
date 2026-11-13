@@ -1,0 +1,34 @@
+California Code of Regulations, Title 14, Section 1753.1.1. Requirements for Cost Estimates.
+Source: Westlaw, California Code of Regulations (official publication of the Office of Administrative Law),
+  https://govt.westlaw.com/calregs/Document/I37633640391511EFB74DF6A3333EC5A1
+Retrieved: November 12, 2026, via the browser. The database states it is current through 10/30/26, Register 2026, No. 44.
+Text copied verbatim from the page; only line breaks may differ.
+==============================================================================
+
+§ 1753.1.1. Requirements for Cost Estimates.
+Currentness
+(a) When submitting a Well Abandonment Cost Estimate using Method 1 or Method 2, as specified in sections 1753.2 and 1753.3, a Production Facility Decommissioning Cost Estimate, as specified in sections 1753.2.1 and 1753.3.1, or a Site Remediation Cost Estimate, as specified in sections 1753.2.2 and 1753.3.2, upon written request by the Division, the operator shall submit documentation to verify that the number, location, and relevant conditions of the wells, production facilities and sites associated with those wells and production facilities are accurate and up-to-date. Such documentation might include, but is not limited to, photographs, plot maps, and casing diagrams.
+(b) When submitting a Well Abandonment Cost Estimate using Method 2, as specified in section 1753.3, a Production Facility Decommissioning Cost Estimate, as specified in section 1753.3.1, or a Site Remediation Cost Estimate, as specified in section 1753.3.2, the operator shall:
+(1) Have the cost estimate reflect in current dollars the estimated contracting cost the State would pay a contractor to perform the required work, excluding savings or efficiencies specific to the operator;
+(2) Provide documentation, not otherwise available in the Division's records, supporting the validity of the values used to calculate the cost estimate including documentation of the cost the State would pay a contractor to complete the work. Acceptable documentation of these costs includes, but is not limited to:
+(A) Data supporting the reported condition of the well, production facility, or site, if those conditions differ from what is available in the Division's records;
+(B) Well status reports;
+(C) Documented costs expended for work on comparable wells, including cost information from recent contracts for state abandonment;
+(D) Published vendor price lists available to the public;
+(E) Estimates and quotes from contractors and service professionals;
+(F) Rig rate reports;
+(G) End of well reports from abandonment of comparable wells; and(H) Other verifiable documentation of applicable costs; and(3) Not reduce the cost estimate by the estimated salvage, resale, or recycling value of equipment or materials or any value associated with a potential increase in real estate value.
+(c) For operators using Method 2 when submitting a Well Abandonment Cost Estimate, as specified in section 1753.3, a Production Facility Cost Estimate, as specified in section 1753.3.1, or a Site Remediation Cost Estimate, as specified in section 1753.3.2, the operator may report the repurposing of wells, production facilities, or the associated well site or production facility site to the appropriate mineral rights owner or surface rights owner and reduce the cost estimates to reflect that repurposing. The operator shall provide documentation, not otherwise available in the Division's records, supporting the validity of the values used to calculate the reduction in the cost estimate and provide signed documentation from the mineral rights or surface rights owner describing the intended repurposing.
+(d) An operator asserting any information within the Cost Estimate Report is subject to confidential treatment under any statute or regulation shall still submit all information believed to be as such to the Division as required under this Article.
+(1) To support the assertion the information is confidential, the operator shall submit:
+(A) Identification of those portions of the information which are believed to qualify as confidential;
+(B) Identification of the statute or regulation authorizing the information be treated as confidential and the factual explanation of how the information qualifies as confidential;
+(C) The length of time this information should be treated as confidential; and(D) A version of the Cost Estimate Report with those portions of the information which are believed to qualify as confidential redacted.
+(2) If the Division determines that information designated as confidential by the operator qualifies as such, the Division will notify the operator in writing, and the information will be held as confidential.
+(3) If the Division determines that information designated by the operator as confidential does not qualify as such, the Division shall notify the operator in writing of this determination and make the information publicly available 20 days after mailing that notice to the operator.
+
+Credits
+Note: Authority cited: Sections 3013 and 3205.7, Public Resources Code. Reference: Sections 3011, 3106 and 3205.7, Public Resources Code.
+
+History 
+1. New section filed 6-24-2024; operative 10-1-2024 (Register 2024, No. 26). This database is current through 10/30/26 Register 2026, No. 44.Cal. Admin. Code tit. 14, § 1753.1.1, 14 CA ADC § 1753.1.1

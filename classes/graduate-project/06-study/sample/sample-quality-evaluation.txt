@@ -1,6 +1,9 @@
 SAMPLE QUALITY EVALUATION
-Input quality of the 30 sampled wellbore diagrams, and why none is excluded
-Version 1.0, November 11, 2026
+Input quality of the 30 sampled casing diagrams, and why none is excluded
+Version 1.3, November 13, 2026
+Change in 1.3: standard changed from 14 CCR 1772.1.3 (idle wells) to 14 CCR 1724.7.1 (underground injection control), which has the same 15 items: it sits in the Onshore Well Regulations, governs every well in an injection project's area of review that penetrates the injection zone, producers included, and is the section CalGEM enforced in Order 1517. Its item (15) lacks the "if applicable" of 1772.1.3; the injection-zone clause is treated as not applicable to wells outside an injection project.
+Change in 1.2: standard changed from 14 CCR 1726.4.1 (underground gas storage wells, 18 items) to 14 CCR 1772.1.3 (idle wells, 15 items; the same items as 14 CCR 1724.7.1 for injection project wells), the closer fit for the sampled oil and gas wells.
+Change in 1.1: terminology: "casing diagram," the term used in Title 14 of the California Code of Regulations, replaces "wellbore diagram"; quotations and WellSTAR labels are unchanged.
 
 Companion to sampling-plan.txt (version 1.2). Measurements are in
 pdf-quality-profile.csv, produced by ../../scripts/profile_pdf_quality.py.
@@ -10,7 +13,7 @@ pdf-quality-profile.csv, produced by ../../scripts/profile_pdf_quality.py.
 ==========
 
 The study gives each diagram, as a PDF file, to an AI and asks whether the
-diagram contains the data required by 14 CCR section 1726.4.1. What the AI can
+diagram contains the data required by 14 CCR section 1724.7.1. What the AI can
 read depends on the file: whether it carries a text layer, the resolution of
 any scanned image, the size of the printed text, the size and orientation of
 the page. A diagram can contain a required item that the AI cannot read.

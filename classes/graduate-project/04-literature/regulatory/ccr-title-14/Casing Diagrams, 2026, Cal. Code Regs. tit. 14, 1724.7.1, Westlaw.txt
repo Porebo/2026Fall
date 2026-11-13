@@ -1,0 +1,36 @@
+California Code of Regulations, Title 14, Section 1724.7.1. Casing Diagrams.
+Source: Westlaw, California Code of Regulations (official publication of the Office of Administrative Law),
+  https://govt.westlaw.com/calregs/Document/I4F5E6B0F5B4D11EC976B000D3A7C4BC3
+Retrieved: November 12, 2026, via the browser. The database states it is current through 10/30/26, Register 2026, No. 44.
+Text copied verbatim from the page; only line breaks may differ.
+==============================================================================
+
+§ 1724.7.1. Casing Diagrams.
+Currentness
+(a) Casing diagrams submitted under the requirements of this article shall include all of the following data:
+(1) Operator name, lease name, well number, and API number of the well;
+(2) Date the well was spudded;
+(3) Ground elevation from sea level;
+(4) Reference elevation (i.e., rig floor or Kelly bushing);
+(5) Base of freshwater;
+(6) Base of the lowermost USDW penetrated by the well;
+(7) Sizes, grades, connection type, and weights of casing;
+(8) Depths of shoes, stubs, and liner tops;
+(9) Depths of perforations and perforation intervals, open-hole completions, water shutoff holes, cement ports, cavity shots, cuts, type and extent of casing damage, type and extent of junk or fish, and any other feature that influences flow in the well or may compromise the mechanical integrity of the well;
+(10) Information regarding equipment in the well such as subsurface safety valves, packers, and gas lift mandrels;
+(11) Diameter and depth of hole for all drilled intervals;
+(12) Identification of cement plugs inside casings, including locations of the top and bottom of cement plugs;
+(13) Identification of cement fill behind casings, including locations of the top and bottom of cement fill;
+(14) Type and weight (density) of fluid between cement plugs; and(15) Depths and names of the formations, zones, and markers penetrated by the well, including the top and bottom of both the injection zone and confining layer(s) for the underground injection project(s).
+(b) Each casing diagram submitted to the Division shall be accompanied by documentation of the following:
+(1) All steps of cement yield and cement calculations performed;
+(2) All information used to calculate the cement slurry (volume, density, yield), including but not limited to, cement type and additives, for each cement job completed in each well; and(3) The wellbore path, providing measured depth and both inclination and azimuth measurements.
+(c) When multiple boreholes are drilled in a well, all of the information listed in this section is required for both the original hole and for any subsequent redrilled or sidetracked wellbores.
+(d) Measured depth and true vertical depth shall be provided for all depths required under subdivision (a).
+(e) Operators may satisfy the requirements of section 1724.7(a)(1)(C)(iii) by submitting graphical casing diagrams or a flat-file data set containing all of the information described in this section.
+
+Credits
+Note: Authority cited: Sections 3013 and 3106, Public Resources Code. Reference: Section 3106, Public Resources Code.
+
+History 
+1. New section filed 2-6-2019; operative 4-1-2019 (Register 2019, No. 6).This database is current through 10/30/26 Register 2026, No. 44.Cal. Admin. Code tit. 14, § 1724.7.1, 14 CA ADC § 1724.7.1

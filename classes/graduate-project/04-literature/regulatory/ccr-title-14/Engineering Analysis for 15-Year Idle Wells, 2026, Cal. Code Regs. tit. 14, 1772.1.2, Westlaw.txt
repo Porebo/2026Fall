@@ -1,0 +1,30 @@
+California Code of Regulations, Title 14, Section 1772.1.2. Engineering Analysis for 15-Year Idle Wells.
+Source: Westlaw, California Code of Regulations (official publication of the Office of Administrative Law),
+  https://govt.westlaw.com/calregs/Document/I519BB0D35B4D11EC976B000D3A7C4BC3
+Retrieved: November 12, 2026, via the browser. The database states it is current through 10/30/26, Register 2026, No. 44.
+Text copied verbatim from the page; only line breaks may differ.
+==============================================================================
+
+§ 1772.1.2. Engineering Analysis for 15-Year Idle Wells.
+Currentness
+(a) By the end of the month in which an idle well has been idle for 15 years, the operator shall provide the Division with an engineering analysis demonstrating to the Division's satisfaction that it is viable to return the well to operation in the future. The engineering analysis shall document that the well could be used to access potential oil and gas reserves and that it has mechanical integrity as demonstrated by pressure testing and a clean out tag as required under Section 1772.1(a)(2) and (a)(3).
+(b) The engineering analysis required under subdivision (a) shall include the following information for the purpose of demonstrating the well could be used to access potential oil and gas reserves:
+(1) API number and name of the idle well.
+(2) Statement of the potential future use for the idle well.
+(3) Identification of each reservoir unit that might be accessed and the reservoir characteristics of each of the identified reservoir units.
+(4) A representative electric log to a depth below the deepest producing zone, identifying all geologic units, formations, USDWs, freshwater aquifers, oil or gas zones, and each reservoir unit to be utilized.
+(5) Structural contour map drawn on a geologic marker at or near the top of each reservoir unit to be utilized indicating faults, other lateral containment features, and areal extent of the productive zone.
+(c) The engineering analysis required under subdivision (a) shall include all data specified in Section 1772.1.3, provided in the form of a graphical casing diagram or flat file data sets.
+(d) The Division may require the operator to include additional data in the engineering analysis required under subdivision (a) on a case-by-case basis if the Division deems it necessary for the evaluation of whether it is viable to return the well to operation in the future.
+(e) If the operator submits information to the Division under subdivision (b) that is demonstrated to be applicable to multiple wells in the same field subject to the requirements of this section, then the operator may reference the applicable information in subsequent engineering analyses and is not required to submit duplicate information.
+(f) All data required under this section shall be submitted to the Division in a digital format. All maps, diagrams, and exhibits shall be clearly labeled, such as to scale and purpose, and shall clearly identify wells, boundaries, zones, contacts, and other relevant data. Unless requested by the Division, information that has already been provided to the Division is not required to be resubmitted.
+(g) Where it is infeasible to supply the data specified in subdivisions (b) and (c), the Division may accept alternative data, provided that the alternative data demonstrate to the Division's satisfaction that it is viable to return the well to operation in the future.
+(h) If the Division determines upon initial review of an engineering analysis required under subdivision (a) that it is not viable to return the well to operation in the future, then the Division will inform the operator of the basis of that determination and allow the operator at least 30 days to provide additional information to substantiate that the well is viable to return to operation in the future. If the Division determines upon final review of the engineering analysis and any additional information provided by the operator that it is not viable to return a well to operation in the future, then the Division will provide a notice of final determination to the operator. The operator shall either plug and abandon the well in accordance with Public Resources Code section 3208 within 12 months of receiving the notice of final determination, or schedule the well for plugging and abandonment under an approved Idle Well Management Plan or an approved Testing Waiver Plan.
+(i) For wells that as of April 1, 2019, have met the definition of an idle well for nine years or more, the operator shall provide the engineering analysis described in this section to the Division by the later of the following:
+(A) Within 60 days after the date pressure testing on the idle well is scheduled in the operator's Testing Compliance Work Plan under Section 1772.1.4; or(B) By the end of the month in which the idle well has been idle for 15 years.
+
+Credits
+Note: Authority cited: Sections 3013, 3106 and 3206.1. Reference: Sections 3106 and 3206.1.
+
+History 
+1. New section filed 3-20-2019; operative 4-1-2019 pursuant to Government Code section 11343.4(b)(3) (Register 2019, No. 12).This database is current through 10/30/26 Register 2026, No. 44.Cal. Admin. Code tit. 14, § 1772.1.2, 14 CA ADC § 1772.1.2

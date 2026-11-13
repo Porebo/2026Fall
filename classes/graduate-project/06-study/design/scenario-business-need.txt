@@ -1,6 +1,9 @@
 SCENARIO AND BUSINESS NEED
-Validating an Existing Wellbore Diagram Before a Well Abandonment Filing
-Version 1.0, November 11, 2026
+Validating an Existing Casing Diagram Before a Well Abandonment Filing
+Version 1.3, November 13, 2026
+Change in 1.3: standard changed from 14 CCR 1772.1.3 (idle wells) to 14 CCR 1724.7.1 (underground injection control), which has the same 15 items: it sits in the Onshore Well Regulations, governs every well in an injection project's area of review that penetrates the injection zone, producers included, and is the section CalGEM enforced in Order 1517. Its item (15) lacks the "if applicable" of 1772.1.3; the injection-zone clause is treated as not applicable to wells outside an injection project.
+Change in 1.2: standard changed from 14 CCR 1726.4.1 (underground gas storage wells, 18 items) to 14 CCR 1772.1.3 (idle wells, 15 items; the same items as 14 CCR 1724.7.1 for injection project wells), the closer fit for the sampled oil and gas wells.
+Change in 1.1: terminology: "casing diagram," the term used in Title 14 of the California Code of Regulations, replaces "wellbore diagram"; quotations and WellSTAR labels are unchanged.
 
 Every statement of fact below is drawn from a source listed in Section 7. Where the
 sources do not establish a point, this document says so.
@@ -10,7 +13,7 @@ sources do not establish a point, this document says so.
 ==========
 
 This document describes a real, recurring task in California oil and gas
-operations: checking whether a wellbore diagram already on file with the State
+operations: checking whether a casing diagram already on file with the State
 meets the State's content requirements before it is reused in a new filing. It
 explains why the task exists, why it is done by a person today, and why it cannot
 simply be skipped. It is the business context for the study of whether an AI
@@ -26,29 +29,34 @@ Trigger:   the operator plans to plug and abandon a well and must file a Notice
            of Intention to Abandon (Form OG 108) with the California Geologic
            Energy Management Division (CalGEM) through WellSTAR, CalGEM's online
            system. The notice must be filed at least ten days before work begins,
-           and the notice must include wellbore diagrams showing the well's
+           and the notice must include casing diagrams showing the well's
            current and proposed condition. [Source 4]
 
-Starting   the worker retrieves the most recent wellbore diagram already
+Starting   the worker retrieves the most recent casing diagram already
 point:     submitted for the well. Diagrams are stored in WellSTAR as document
            attachments to individual well records; CalGEM publishes no dataset of
            their contents. [Sources 5, 8]
 
 Task:      before relying on that diagram, the worker confirms that it contains
            every item of data the State requires of a casing diagram, as set out
-           in Title 14, California Code of Regulations, section 1726.4.1.
+           in Title 14, California Code of Regulations, section 1724.7.1.
            [Source 1]
 
 Output:    a determination, item by item, of which required data the diagram
            contains and which it lacks, so that missing data can be found and the
            diagram corrected before filing.
 
-Standard:  section 1726.4.1, reproduced verbatim in casing-diagram-specification.txt.
-           Section 1726.4.1 governs underground gas storage wells. Substantially
-           similar casing diagram requirements apply to injection project wells
-           (section 1724.7.1) and idle wells (section 1772.1.3). [Source 8]
-           Section 1726.4.1 is used here as the most recently reaffirmed statement
-           of what a complete casing diagram contains. [Source 2]
+Standard:  section 1724.7.1, reproduced verbatim in casing-diagram-specification.txt.
+           Section 1724.7.1 sets the content of casing diagrams for wells in
+           underground injection projects, including every well in a project's
+           area of review that penetrates the injection zone [Source 1];
+           section 1772.1.3 requires the same fifteen items, in the same words,
+           of idle wells [Source 12]. Section 1724.7.1 is used because it is in
+           the Onshore Well Regulations, reaches producing wells as well as
+           injectors, and is the section CalGEM has enforced against deficient
+           diagrams. Section 1726.4.1 sets a longer list of eighteen items
+           for underground gas storage wells [Source 11], which are not in the
+           sample.
 
 
 3. WHY THE DIAGRAM MUST BE VALIDATED
@@ -80,9 +88,9 @@ Standard:  section 1726.4.1, reproduced verbatim in casing-diagram-specification
     the Well Summary." [Source 6]
 
 3.5 An old diagram may not describe the well as it is now.
-    A diagram on file reflects the well when it was drawn. Section 1726.4.1
-    requires data such as the location of packers and other equipment, casing
-    damage, and cement plugs with the dates they were placed [Source 1], all of
+    A diagram on file reflects the well when it was drawn. Section 1724.7.1
+    requires data such as packers and other equipment in the well, the type and
+    extent of casing damage, and the top and bottom of cement plugs [Source 1], all of
     which change with later well work. A diagram that was complete when filed can
     therefore be incomplete or out of date when reused.
 
@@ -119,9 +127,10 @@ Standard:  section 1726.4.1, reproduced verbatim in casing-diagram-specification
 
 4.3 The requirement is written in legal language that calls for judgment.
     Several requirements bundle multiple facts into one item; for example, item
-    (G) covers the sizes, weights, grades, and connection types of both casing
-    and tubing [Source 1]. Others apply only in some wells, such as data for
-    sidetracked well bores (item (Q)) or directional surveys (paragraph (3)).
+    (7) covers the sizes, grades, connection type, and weights of casing
+    [Source 1]. Others apply only in some wells, such as data for redrilled or
+    sidetracked wellbores (subdivision (c)) or the injection zone of an
+    underground injection project (item (15)).
     Deciding whether an item is satisfied, partly satisfied, or does not apply
     requires reading the diagram against the rule, item by item.
 
@@ -142,13 +151,13 @@ Standard:  section 1726.4.1, reproduced verbatim in casing-diagram-specification
     CalGEM's 2021 well records list 67,693 active and 40,259 idle wells,
     107,952 unplugged wells in all, among 197,169 distinct wells [Source 7].
     Each unplugged well will eventually require an abandonment notice with
-    wellbore diagrams. The check described in Section 2 recurs for each one.
+    casing diagrams. The check described in Section 2 recurs for each one.
 
 
 5. CONCLUSION: THE CHECK CANNOT BE SKIPPED
 ==========================================
 
-The abandonment notice requires wellbore diagrams [Sources 4, 5]. The State has
+The abandonment notice requires casing diagrams [Sources 4, 5]. The State has
 found that submitted diagrams are inconsistent [Source 2], reviews their content
 [Source 3], and can order an operator to correct them [Source 6]. The diagrams on
 file are drawings in no common layout [Sources 8, 9], measured against a requirement
@@ -165,7 +174,7 @@ reducing the care taken over it.
 6. WHAT THE SOURCES DO NOT ESTABLISH
 ====================================
 
-- No source reviewed states that a wellbore diagram must accompany every type of
+- No source reviewed states that a casing diagram must accompany every type of
   Notice of Intention. The sources establish it for abandonment notices
   [Source 4] and list current and proposed diagrams among notice documents
   generally [Source 5].
@@ -173,8 +182,8 @@ reducing the care taken over it.
   rate at which submitted diagrams are found deficient, or the cost of a
   rejected filing. These would have to be measured or obtained from operators.
 - The seventeen items in the abandonment contract template [Source 4] and the
-  eighteen items in section 1726.4.1 [Source 1] overlap but are not identical.
-  This study uses section 1726.4.1 as its standard.
+  fifteen items in section 1724.7.1 [Source 1] overlap but are not identical.
+  This study uses section 1724.7.1 as its standard.
 
 
 7. SOURCES
@@ -186,8 +195,9 @@ All files are in ../../04-literature/regulatory/wellbore-diagram-sources/ or
 project folder was reorganized; the fourteen pilot diagrams are now in
 ../pilot-ventura/.)
 
- 1. California Code of Regulations, title 14, section 1726.4.1, "Casing
-    Diagrams." Verbatim copy: casing-diagram-specification.txt (this folder).
+ 1. California Code of Regulations, title 14, section 1724.7.1, "Casing
+    Diagrams." Verbatim copy: casing-diagram-specification.txt (this folder);
+    official text in ../../04-literature/regulatory/ccr-title-14/.
  2. CalGEM, Notice to Underground Gas Storage Operators, "Casing Diagram
     Submission Requirements," December 5, 2025.
     File: Casing Diagram Submission_UGS NTO_Dec 2025.pdf
@@ -209,3 +219,12 @@ project folder was reorganized; the fourteen pilot diagrams are now in
     text extracted from each PDF and searched for years, the labels "BFW" and
     "USDW", measured and true vertical depth markers, and the word "spud." A
     search hit shows a term appears; it does not show the requirement is met.
+10. California Code of Regulations, title 14, section 1724.7, "Project Data
+    Requirements," subdivision (a)(1)(C)(iii). File:
+    ../../04-literature/regulatory/ccr-title-14/
+11. California Code of Regulations, title 14, section 1726.4.1, "Casing
+    Diagrams." File: ../../04-literature/regulatory/ccr-title-14/; the earlier
+    specification based on it is in superseded/.
+12. California Code of Regulations, title 14, section 1772.1.3, "Casing
+    Diagrams." File: ../../04-literature/regulatory/ccr-title-14/; the
+    specification based on it is in superseded/.

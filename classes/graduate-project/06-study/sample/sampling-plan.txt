@@ -1,6 +1,6 @@
 SAMPLING PLAN
-Wellbore Diagram Pilot Study
-Version 1.2, November 11, 2026
+Casing Diagram Pilot Study
+Version 1.5, November 13, 2026
 
 This plan was fixed, and the random order of wells was generated, before any
 well was screened. Any later change to the plan is recorded in Section 10.
@@ -10,7 +10,7 @@ well was screened. Any later change to the plan is recorded in Section 10.
 =======================
 
 Target population: unplugged California oil and gas wells (status Active or
-Idle) that have at least one wellbore diagram on file in WellSTAR, CalGEM's
+Idle) that have at least one casing diagram on file in WellSTAR, CalGEM's
 public well database. These are the wells for which a worker could retrieve an
 existing diagram before an abandonment filing (see
 ../design/scenario-business-need.txt).
@@ -22,7 +22,7 @@ rows (one per producing pool), the first row in file order is used.
 
     Frame size, N = 107,952 wells (67,693 Active; 40,259 Idle).
 
-Sampling unit: one well. Unit of analysis: that well's wellbore diagram
+Sampling unit: one well. Unit of analysis: that well's casing diagram
 (Section 5).
 
 Variables NOT used in selection: operator, field, district, county, well type,
@@ -103,8 +103,8 @@ diagrams is 1.96 x sqrt(p(1 - p) / n).
     p = 0.90  ->  +/- 0.11
 
 At the item level, each diagram contributes one judgment per required data item
-of 14 CCR 1726.4.1 (about 20 items), roughly 600 judgments in all. If those
-judgments were independent, the half-width at p = 0.50 would be about +/- 0.04.
+of 14 CCR 1724.7.1 (15 items), 450 judgments in all. If those
+judgments were independent, the half-width at p = 0.50 would be about +/- 0.05.
 Items within one diagram are not independent, so the true interval is wider; the
 pilot will estimate that within-diagram correlation.
 
@@ -141,7 +141,7 @@ outcome code, entered in the log with the date checked:
   INCLUDED          Eligible; diagram downloaded (Document ID recorded)
   NOT_FOUND         API not found in WellSTAR                        (rule a)
   STATUS_CHANGED    WellSTAR now shows the well plugged               (rule b)
-  NO_DIAGRAM        No wellbore diagram on file                      (rule c)
+  NO_DIAGRAM        No casing diagram on file                      (rule c)
   PROPOSED_ONLY     Only diagrams described as proposed              (rule c)
   DOWNLOAD_FAILED   Diagram listed but file could not be downloaded  (rule d)
   UNREADABLE        File downloaded but empty or illegible          (rule d)
@@ -231,6 +231,23 @@ identifies the order as it stood before screening.
      download. No file excluded, replaced, or altered; reasons and the
      handling of quality in the analysis are in sample-quality-evaluation.txt.
      Measurements in pdf-quality-profile.csv.
+
+
+1.3  November 12, 2026   Wording only; no rule, code, or result changed:
+     terminology: "casing diagram," the term used in Title 14 of the California Code of Regulations, replaces "wellbore diagram".
+     Quotations and WellSTAR labels are unchanged.
+
+
+1.4  November 12, 2026   Section 4 only: standard changed from 14 CCR 1726.4.1 (underground gas storage wells, 18 items) to 14 CCR 1772.1.3 (idle wells, 15 items; the same items as 14 CCR 1724.7.1 for injection project wells), the closer fit for the sampled oil and gas wells.
+     The item-level count becomes 15 items x 30 diagrams = 450 judgments, and
+     the independent-judgment half-width at p = 0.50 becomes about +/- 0.05
+     (was about 20 items, 600 judgments, +/- 0.04). No sampling rule, code, or
+     screening result changed.
+
+
+1.5  November 13, 2026   Section 4 only, wording: the standard is now
+     14 CCR 1724.7.1, which has the same 15 items as 1772.1.3. No count,
+     rule, code, or result changed.
 
 
 11. RESULTS OF SCREENING

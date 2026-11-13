@@ -1,5 +1,8 @@
 PROMPT 02 - STRUCTURED ZERO-SHOT (PERSONA-TASK-CONTEXT-FORMAT)
-Version 1.0, November 11, 2026
+Version 1.3, November 13, 2026
+Change in 1.3: standard changed from 14 CCR 1772.1.3 (idle wells) to 14 CCR 1724.7.1 (underground injection control), which has the same 15 items: it sits in the Onshore Well Regulations, governs every well in an injection project's area of review that penetrates the injection zone, producers included, and is the section CalGEM enforced in Order 1517. Its item (15) lacks the "if applicable" of 1772.1.3; the injection-zone clause is treated as not applicable to wells outside an injection project.
+Change in 1.2: standard changed from 14 CCR 1726.4.1 (underground gas storage wells, 18 items) to 14 CCR 1772.1.3 (idle wells, 15 items; the same items as 14 CCR 1724.7.1 for injection project wells), the closer fit for the sampled oil and gas wells. The dry runs of November 11, 2026, used the earlier standard and prompt wording.
+Change in 1.1: terminology: "casing diagram," the term used in Title 14 of the California Code of Regulations, replaces "wellbore diagram"; quotations and WellSTAR labels are unchanged.
 
 Scenario: the same worker and task as prompt 01 (../scenario-business-need.txt).
 The worker now writes the request using the four elements taught in Google's
@@ -7,8 +10,8 @@ Gemini prompting guide: persona, task, context, and format. No examples and no
 reasoning instructions are given (zero-shot).
 
 Attachments sent with the prompt:
-  1. one wellbore diagram   ../../sample/diagrams/Wnn.pdf, original file, unchanged
-  2. the requirements       casing-diagram-specification.txt (14 CCR 1726.4.1,
+  1. one casing diagram   ../../sample/diagrams/Wnn.pdf, original file, unchanged
+  2. the requirements       casing-diagram-specification.txt (14 CCR 1724.7.1,
                             verbatim)
 
 Copy-and-paste file: ptcf-copy-and-paste.txt (this folder)
@@ -21,7 +24,7 @@ Labeled version (labels are NOT sent to the AI):
 [Task]    Check whether the attached WBD meets each requirement in the attached
           CalGEM specification.
 [Context] I'm preparing a notice to abandon for this well and want to reuse this
-          diagram. The specification is 14 CCR 1726.4.1, word for word.
+          diagram. The specification is 14 CCR 1724.7.1, word for word.
 [Format]  Give me a table with each requirement, whether the diagram meets it,
           and what's missing. Keep it short.
 ----------------------------------------------------------------------------------

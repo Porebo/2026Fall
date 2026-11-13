@@ -1,8 +1,11 @@
 PROMPT 01 - NAIVE (BASELINE)
-Version 1.1, November 11, 2026
+Version 1.4, November 13, 2026
+Change in 1.4: standard changed from 14 CCR 1772.1.3 (idle wells) to 14 CCR 1724.7.1 (underground injection control), which has the same 15 items: it sits in the Onshore Well Regulations, governs every well in an injection project's area of review that penetrates the injection zone, producers included, and is the section CalGEM enforced in Order 1517. Its item (15) lacks the "if applicable" of 1772.1.3; the injection-zone clause is treated as not applicable to wells outside an injection project.
+Change in 1.3: standard changed from 14 CCR 1726.4.1 (underground gas storage wells, 18 items) to 14 CCR 1772.1.3 (idle wells, 15 items; the same items as 14 CCR 1724.7.1 for injection project wells), the closer fit for the sampled oil and gas wells. The dry runs of November 11, 2026, used the earlier standard and prompt wording.
+Change in 1.2: terminology: "casing diagram," the term used in Title 14 of the California Code of Regulations, replaces "wellbore diagram"; quotations and WellSTAR labels are unchanged.
 
 Scenario: a regulatory or engineering staff member at an oil and gas operator
-has retrieved the wellbore diagram already on file in WellSTAR for a well the
+has retrieved the casing diagram already on file in WellSTAR for a well the
 operator plans to plug and abandon. Before reusing the diagram in the Notice of
 Intention to Abandon, the worker asks an AI whether it meets CalGEM's
 requirements. The worker types the request the way it would be written on the
@@ -10,10 +13,10 @@ job: plain language and industry shorthand, with no rating rules, definitions,
 item list, or output format. See ../scenario-business-need.txt.
 
 Attachments sent with the prompt:
-  1. one wellbore diagram   ../../sample/diagrams/Wnn.pdf, the original file as
+  1. one casing diagram   ../../sample/diagrams/Wnn.pdf, the original file as
                             downloaded from WellSTAR (unchanged)
   2. the requirements       ../casing-diagram-specification.txt (14 CCR
-                            1726.4.1, verbatim)
+                            1724.7.1, verbatim)
 
 Everything between the two lines below is sent to the AI exactly as written.
 ----------------------------------------------------------------------------------
@@ -28,7 +31,7 @@ Design notes (not sent to the AI):
 - The prompt asks for a verdict and for gaps. It does not ask for an
   item-by-item review, a pass/fail list, evidence, or a format. Those are added
   in later prompts.
-- Responses are scored against each requirement of 14 CCR 1726.4.1 as
+- Responses are scored against each requirement of 14 CCR 1724.7.1 as
   correctly judged, wrongly judged, or not addressed (the AI did not mention
   the item). An item not mentioned is not counted as a pass.
 

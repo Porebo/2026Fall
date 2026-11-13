@@ -7,7 +7,7 @@
 
 **Principle:** the body comes first. A strong argument and a complete method can be dressed in any format later. Format, length, and citation style are handled last.
 
-**Updated November 12, 2026.** The study design changed on November 11. The earlier design injected errors into CalGEM well and production tables and asked AI to fix them. The current design gives an AI assistant one real wellbore diagram and the state's casing diagram rule, and asks whether the diagram meets the rule. Section 2 records which decisions this settled. Paths are relative to `classes/graduate-project/`.
+**Updated November 12, 2026.** The study design changed on November 11. The earlier design injected errors into CalGEM well and production tables and asked AI to fix them. The current design gives an AI assistant one real casing diagram and the state's casing diagram rule, and asks whether the diagram meets the rule. Section 2 records which decisions this settled. Paths are relative to `classes/graduate-project/`.
 
 ---
 
@@ -28,8 +28,8 @@
 ### Settled on November 11
 
 - [x] **Prompt types.** Four levels, each adding one technique: (1) unstructured zero-shot ("naive"), (2) structured zero-shot (persona, task, context, format: PTCF), (3) few-shot, (4) chain-of-thought. Source: `06-study/design/prompts/prompt-design-methods.txt`.
-- [x] **Task and scenario.** A regulatory or engineering staff member checks whether an existing wellbore diagram meets the State's requirements before reusing it in a Notice of Intention to Abandon. Source: `06-study/design/scenario-business-need.txt`.
-- [x] **Standard that defines an error.** California Code of Regulations, title 14, § 1726.4.1 (casing diagrams). A requirement is Present, Absent, or Illegible on the diagram. Verbatim text: `06-study/design/casing-diagram-specification.txt`.
+- [x] **Task and scenario.** A regulatory or engineering staff member checks whether an existing casing diagram meets the State's requirements before reusing it in a Notice of Intention to Abandon. Source: `06-study/design/scenario-business-need.txt`.
+- [x] **Standard that defines an error.** California Code of Regulations, title 14, § 1724.7.1 (casing diagrams for underground injection control; the same 15 items as § 1772.1.3 for idle wells). Changed Nov 12 from § 1726.4.1 (gas storage wells, 18 items), because none of the 30 sampled wells is a gas storage well; changed Nov 13 from § 1772.1.3 to § 1724.7.1 (Onshore Well Regulations; covers producers in a project's area of review; enforced in Order 1517). A requirement is Present, Absent, or Illegible on the diagram. Verbatim text: `06-study/design/casing-diagram-specification.txt`.
 - [x] **Dataset and sample.** Frame: every Active or Idle well in CalGEM's 2021 wells file (N = 107,952). Random order (seed 20261111), screened until 30 wells had a usable diagram in WellSTAR: W01 to W30. Source: `06-study/sample/sampling-plan.txt` (v1.2), data in `05-data/calgem/`.
 - [x] **Sample size.** n = 30 as a pilot, justified by Lancaster (2004), Julious (2005), and Hertzog (2008).
 - [x] **Input quality.** The 30 PDFs are profiled as Native, Mixed, or Scanned, and results will be reported by type. Source: `06-study/sample/sample-quality-evaluation.txt`.
@@ -49,6 +49,7 @@
 - [ ] **AI service.** On the free ChatGPT tier, the attachment limit stopped the level 4 dry run after three runs (`06-study/runs/4-chain-of-thought-prompt/W01-chatgpt-free-NOT-RUN.txt`). Level 4 was then run on Gemini, which breaks the same-service control. Choose one service and tier for the study, or the rule for using two.
 - [ ] **Reference answers.** Who prepares them, and whether a second person checks a subset.
 - [ ] **Use of the 10-well Ventura pilot set** (`06-study/pilot-ventura/`). Keep it as background in the proposal, or leave it out.
+- [ ] **Exclusion rule for gas storage and offshore wells** (added Nov 13). Section 3.2.4 says the study excludes gas storage and offshore wells, but the sampling plan has no such rule: the frame holds 415 type GS wells and 2,420 wells in offshore counties ("Los Angeles Offshore" and similar), and none was drawn only by chance. Decide whether to add an eligibility rule (a GS or offshore well is coded excluded and the next well in order is used) as change 1.5 in `06-study/sample/sampling-plan.txt`. The current 30 wells would not change.
 
 ---
 
@@ -57,7 +58,7 @@
 - [ ] **Does the introduction still lead to the study?** Paragraph 2 (`03-proposal/draft-introduction-paragraphs.txt`) leads to data cleaning of tables and "a training dataset." It needs to lead to checking documents against a regulation.
 - [ ] **The committee email describes the old design.** It mentions injected errors in production data, and corrections. Decide whether the professors need a short note or summary that describes the current design.
 - [ ] **Does the opening hold together?** Orlikowski (1992) to global reach (Liu & Wang, 2026) to organizations to for-profit fit.
-- [ ] **Source linking data quality to profit or cost.** Candidate to verify: Redman (1998), *Communications of the ACM*. Order 1517 (Sentinel Peak, $1,500 penalty for deficient wellbore diagrams) gives a concrete cost of the specific problem (`05-data/calgem/enforcement-orders/`).
+- [ ] **Source linking data quality to profit or cost.** Candidate to verify: Redman (1998), *Communications of the ACM*. Order 1517 (Sentinel Peak, $1,500 penalty for deficient casing diagrams) gives a concrete cost of the specific problem (`05-data/calgem/enforcement-orders/`).
 - [ ] **Sources for the four prompt types.** Kojima et al. (2022) covers chain-of-thought. PTCF and few-shot still need a citation.
 - [ ] **Source for 2026 adoption figures.** Liu & Wang's data ends March 2024. Candidate to verify: Stanford AI Index 2026.
 - [ ] **Do the three research questions from the Week 5 draft still fit?** They were written for the old design (`classes/research-methods/w05/study-design-draft.md`).

@@ -1,0 +1,52 @@
+California Code of Regulations, Title 14, Section 1726.4. Underground Gas Storage Project Data Requirements.
+Source: Westlaw, California Code of Regulations (official publication of the Office of Administrative Law),
+  https://govt.westlaw.com/calregs/Document/I500A14545B4D11EC976B000D3A7C4BC3
+Retrieved: November 12, 2026, via the browser. The database states it is current through 10/30/26, Register 2026, No. 44.
+Text copied verbatim from the page; only line breaks may differ.
+==============================================================================
+
+§ 1726.4. Underground Gas Storage Project Data Requirements.
+Currentness
+(a) For all underground gas storage projects, the operator shall provide the Division with data, analysis, and interpretation that demonstrate that stored gas will be confined to the approved zone(s) of injection and that the underground gas storage project will not cause damage to life, health, property, the environment, or natural resources. The operator shall provide the data specified in this section and any data that, in the judgment of the Division on a case-by-case basis, are pertinent and necessary for the proper evaluation of the project. The operator shall ensure that required data is complete, current, and accurate, regardless of the date of approval of the gas storage project. The data submitted to the Division shall include at least the following:
+(1) Oil and gas reserves of all storage zones prior to start of injection, including calculations, to indicate the storage capacity of the reservoir being considered for gas storage.
+(2) Description of existing surface and subsurface safety devices, tests, and precautions to be taken to ensure safety of the project.
+(3) Produced water disposal method.
+(4) Maximum and minimum reservoir pressure for the underground gas storage project and the data and calculations supporting the bases for the pressure limits. The pressure limits shall account for the following:
+(A) The pressure required to inject fluids, particularly at total inventory, shall not exceed the design pressure limits of the wells, well heads, pipelines, or other associated facilities; or the fracture pressure of the reservoir or confining strata.
+(B) The minimum reservoir pressure shall take into account the historic minimum operating pressure and reservoir geomechanical competency. The impacts of intended minimum reservoir pressure shall be accounted for as it relates to geomechanical stress and liquid influx.
+(5) An engineering and geological study demonstrating that injected gas will not migrate out of the approved zone or zones, such as through another well, geologic structure, faults, fractures or fissures, or holes in casing. The study shall include, but is not limited to:
+(A) Statement of primary purpose of the project.
+(B) Reservoir characteristics of each storage zone, such as porosity, permeability, average thickness, areal extent, fracture gradient, original and present temperature and pressure, and original and residual oil, gas, and water saturations.
+(C) A comprehensive geologic characterization of the gas storage project including lithology of the storage zone or zones and sealing mechanisms as well as all formations encountered from surface to the deepest well in the project. The geologic characterization shall include any information that may be required to ensure injected or withdrawn gas and other reservoir fluids do not have an adverse effect on the project or pose a threat to life, health, property, the environment, or natural resources. The geologic characterization shall include potential pathways for fluid migration and areas or formations where potential entrapment of migrated fluid could occur. Information to accompany the geologic characterization shall include, but is not limited to:
+(i) Structure contour maps drawn on a geologic marker at or near the top of each gas storage zone in the project area, indicating faults and other lateral containment features.
+(ii) Isopach map of each gas storage reservoir or subzone and the confining strata in the project area.
+(iii) At least two geologic cross sections, one on strike and one on dip, through at least four gas storage wells in the project area and the areas immediately adjacent.
+(iv) A representative geophysical log to a depth below the deepest gas storage zone identifying all geologic units, formations, groundwater that has 10,000 or less milligrams per liter of total dissolved solids content, groundwater that has 3,000 or less milligrams per liter of total dissolved solids content, oil or gas zones, and gas storage reservoirs.
+(v) Additional information may be requested by the Division on a case-by-case basis, and may include, but is not limited to: additional isopach maps, three-dimensional modeling, oil-water, gas-water, or oil-gas contact maps of the project, or other information which would delineate known features such as faults and fractures within the area of review for the underground gas storage project.
+(D) Reservoir fluid data for each gas storage zone, such as oil gravity and viscosity, water quality, presence and concentrations of non-hydrocarbon components in the associated gas (e.g. hydrogen sulfide, helium, etc.), and specific gravity of gas.
+(E) A map of the area of review showing the location and status of all wells within and adjacent to the boundary of the area of review. The wellbore path of directionally drilled wells shall be shown, with indication of the interval penetrating the gas storage zone(s) of the underground gas storage project.
+(F) All data specified in Section 1726.4.1, provided in the form of graphical casing diagrams or flat file data sets, for all wells that are within the area of review and that are in the same or a deeper zone as the gas storage reservoir, including directionally drilled wells that intersect the area of review in the same or deeper zone.
+(G) Identification of all wells associated with oil and gas production that are within the area of review but that are not in the same or a deeper zone as the underground gas storage project, including description of the total depth of the well and the estimated top of the gas storage reservoir below the well.
+(H) Wells completed in or penetrating through the intended gas storage reservoir shall be identified and evaluated for containment assurance for the design of gas storage operation volumes, pressures, and flow rates. The operator shall identify, and the Division confirm, wells which may require integrity testing or well logging in order to meet the integrity demonstration. The Division may select plugged and abandoned wells to be re-entered, examined, re-plugged and abandoned, or monitored to manage identified containment assurance issues prior to approval of gas storage operations.
+(I) The planned or estimated well drilling and plugging and abandonment program to complete the project, showing all gas storage wells, plugged and abandoned wells, other wells related to the project, and the boundaries of the underground gas storage project.
+(J) Maps of the locations of injection wells and zones, mining, and other subsurface industrial activities not associated with oil and gas production or gas storage operations within the area of review, to the extent it is publicly available.
+(6) A gas storage injection and withdrawal plan that includes at least the following:
+(A) Maximum anticipated surface injection pressure and maximum anticipated daily rate of injection, by well.
+(B) Monitoring system or method to be utilized to ensure the gas injected is confined to the intended approved zone(s) of injection.
+(C) A wellhead monitoring system for the detection of leaks.
+(D) A list of cathodic protection measures where employed.
+(E) Analysis of the gas injected, submitted to the Division on an annual basis.
+(7) The name and API number of all gas storage wells and other wells that are part of the underground gas storage project.
+(8) Any data that, in the judgment of the Division on a case-by-case basis, are pertinent and necessary for the proper evaluation of the underground gas storage project.
+(b) Updated data shall be provided to the Division if there are changes in operating conditions, such as gas plant or compressor changes, or if more accurate data become available, such as updated cross sections, new reservoir characteristics data, or new pressure flow modeling.
+(c) All data filed with the Division under this section shall be submitted electronically. All maps, diagrams, and exhibits shall be clearly labeled as to scale, north arrow, coordinate system, and purpose, and shall clearly identify wells, boundaries, zones, contacts, and other relevant data.
+(d) Where it is infeasible to supply the data specified in subdivision (a), the Division may accept alternative data that demonstrate that injected gas will be confined to the approved reservoir or reservoirs of injection and that the underground gas storage project will not cause damage to life, health, property, the environment, or natural resources.
+(e) The operator shall consult with the Division if the operator believes that there is a basis under state or federal law for confidential treatment of any data submitted to the Division. If the Division agrees that there is a basis for confidential treatment of data submitted, then the Division will take appropriate steps to maintain the confidentiality of that data.
+(f) The Division will make all data received under this section available to the California Public Utilities Commission upon request. If the requested records are subject to confidential treatment, then the Division will only provide the records if the California Public Utilities Commission has agreed to treat the records as confidential.
+(g) For underground gas storage projects in existence at the time that this section goes into effect, the operator shall submit revised and updated project data in accordance with the requirements of this section within 180 days of the effective date of this section.
+
+Credits
+Note: Authority cited: Sections 3013, 3106 and 3180, Public Resources Code. Reference: Sections 3106, 3180, 3181, 3220 and 3403.5, Public Resources Code.
+
+History 
+1. New section filed 6-28-2018; operative 10-1-2018 (Register 2018, No. 26).This database is current through 10/30/26 Register 2026, No. 44.Cal. Admin. Code tit. 14, § 1726.4, 14 CA ADC § 1726.4

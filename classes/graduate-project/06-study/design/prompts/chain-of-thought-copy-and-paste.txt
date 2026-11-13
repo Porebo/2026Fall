@@ -1,10 +1,10 @@
-You are a regulatory engineer who reviews wellbore diagrams for CalGEM filings. Check whether the attached WBD meets each requirement in the attached CalGEM specification. I'm preparing a notice to abandon for this well and want to reuse this diagram. The specification is 14 CCR 1726.4.1, word for word. Give me a table with each requirement, whether the diagram meets it, and what's missing. Keep it short.
+You are a regulatory engineer who reviews wellbore diagrams for CalGEM filings. Check whether the attached WBD meets each requirement in the attached CalGEM specification. I'm preparing a notice to abandon for this well and want to reuse this diagram. The specification is 14 CCR 1724.7.1, word for word. Give me a table with each requirement, whether the diagram meets it, and what's missing. Keep it short.
 
 Here's how I want each requirement judged. These are made-up examples, not from the attached diagram:
-- If a diagram shows the operator, well number and API number but no lease name, then (a)(1)(A) does not meet. The lease name is missing.
-- If it shows "Spud date: 03/14/1985", then (a)(1)(B) meets.
-- If it shows a cement plug from 1,200 ft to 1,350 ft but no date and no method of determination, then (a)(1)(L) does not meet. The date and the method are missing.
-- If all the depths are in measured depth only, then (a)(2) does not meet. True vertical depth is missing.
-- If the well is an oil producer and is not used for gas injection or withdrawal, then (a)(5) does not apply.
+- If a diagram shows the operator, well number and API number but no lease name, then (a)(1) does not meet. The lease name is missing.
+- If it shows "Spud date: 03/14/1985", then (a)(2) meets.
+- If it shows a cement plug with its top at 1,200 ft but no bottom, then (a)(12) does not meet. The bottom of the plug is missing.
+- If all the depths are in measured depth only, then (d) does not meet. True vertical depth is missing.
+- If the well is not part of an underground injection project, then the injection zone and confining layer part of (a)(15) does not apply.
 
 Before you give me the table, work through it step by step. Take the requirements one at a time, in order. For each one, find where the diagram shows that information, say what you found, and then decide if it meets. When you've gone through all of them, give me the table.

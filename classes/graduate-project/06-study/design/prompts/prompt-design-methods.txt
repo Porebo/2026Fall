@@ -1,18 +1,21 @@
 PROMPT DESIGN
 Methods section draft for the research proposal
-Version 1.0, November 11, 2026
+Version 1.3, November 13, 2026
+Change in 1.3: standard changed from 14 CCR 1772.1.3 (idle wells) to 14 CCR 1724.7.1 (underground injection control), which has the same 15 items: it sits in the Onshore Well Regulations, governs every well in an injection project's area of review that penetrates the injection zone, producers included, and is the section CalGEM enforced in Order 1517. Its item (15) lacks the "if applicable" of 1772.1.3; the injection-zone clause is treated as not applicable to wells outside an injection project.
+Change in 1.2: standard changed from 14 CCR 1726.4.1 (underground gas storage wells, 18 items) to 14 CCR 1772.1.3 (idle wells, 15 items; the same items as 14 CCR 1724.7.1 for injection project wells), the closer fit for the sampled oil and gas wells. The dry runs of November 11, 2026, used the earlier standard and prompt wording.
+Change in 1.1: terminology: "casing diagram," the term used in Title 14 of the California Code of Regulations, replaces "wellbore diagram"; quotations and WellSTAR labels are unchanged.
 
 
 1. Overview
 
 The study compares four prompts of increasing structure, each given to a
 general-purpose AI assistant together with the same two attachments: one
-wellbore diagram from the random sample and the verbatim text of California
-Code of Regulations, title 14, section 1726.4.1 (casing-diagram-specification.txt).
+casing diagram from the random sample and the verbatim text of California
+Code of Regulations, title 14, section 1724.7.1 (casing-diagram-specification.txt).
 Each prompt represents a level of prompting skill that a worker might bring to
 the task described in the business scenario (scenario-business-need.txt): a
 regulatory or engineering staff member who wants to know whether an existing
-wellbore diagram meets the State's casing diagram requirements before reusing
+casing diagram meets the State's casing diagram requirements before reusing
 it in a Notice of Intention to Abandon.
 
 Each level after the first adds one established prompting technique, cited
@@ -89,7 +92,7 @@ context, and format (Google, 2024).
     Task     Check whether the attached WBD meets each requirement in the
              attached CalGEM specification.
     Context  I'm preparing a notice to abandon for this well and want to reuse
-             this diagram. The specification is 14 CCR 1726.4.1, word for word.
+             this diagram. The specification is 14 CCR 1724.7.1, word for word.
     Format   Give me a table with each requirement, whether the diagram meets
              it, and what's missing. Keep it short.
 
@@ -117,22 +120,23 @@ The examples are derived from the wording of the regulation, not from any
 diagram. Each describes a made-up diagram with invented values and applies one
 requirement's wording to it:
 
-    (a)(1)(A)  a requirement listing several items ("Operator, lease name, well
-               number, and API number") is met only when every item is shown;
-    (a)(1)(B)  a single required item that is shown is met;
-    (a)(1)(L)  showing part of a requirement (plug depths) without the rest
-               (date emplaced, method of determination) is not met;
-    (a)(2)     "measured depth and true vertical depth" requires both;
-    (a)(5)     a requirement the regulation limits to certain wells ("wells to
-               be used for gas injection and/or withdrawal") does not apply to
-               other wells.
+    (a)(1)     a requirement listing several items ("Operator name, lease name,
+               well number, and API number") is met only when every item is
+               shown;
+    (a)(2)     a single required item that is shown is met;
+    (a)(12)    showing part of a requirement (the top of a cement plug) without
+               the rest (its bottom) is not met;
+    (d)        "measured depth and true vertical depth" requires both;
+    (a)(15)    a clause about the injection project ("the injection zone and
+               confining layer(s) for the underground injection project(s)")
+               does not apply to a well outside such a project.
 
 Because no example is taken from a real diagram, the examples cannot reveal
 answers for the sampled diagrams, nor favor diagrams drawn on a particular
 operator's template. The judgments shown, Meets, Does not meet, and Not
 applicable, follow from the regulation's own structure: data the diagram "shall
-at a minimum include," and paragraphs limited to certain wells ((a)(3), (a)(5),
-(a)(6)). An earlier draft that took example rows from a real diagram outside
+include all of the following data," and provisions limited to certain wells
+(the injection project clause of (a)(15), and (c)). An earlier draft that took example rows from a real diagram outside
 the sample was rejected for these reasons.
 
 
@@ -186,7 +190,7 @@ every prompt file.
 
 Accuracy. Each response is scored against reference answers prepared by the
 researcher for the same diagram, one judgment per requirement of section
-1726.4.1, coded Present, Absent, or Illegible. Each requirement in the response
+1724.7.1, coded Present, Absent, or Illegible. Each requirement in the response
 is classed as correctly judged, wrongly judged, or not addressed. A requirement
 the response does not mention is not counted as met.
 
