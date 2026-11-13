@@ -17,6 +17,8 @@ classes/master-thesis/jarvis/stmt*.csv
 
 # large CalGEM data files (kept local only; see classes/graduate-project/05-data/calgem/PROVENANCE.md)
 classes/graduate-project/05-data/calgem/*.csv
+classes/graduate-project/05-data/calgem/all-wells-*/*.csv
+classes/graduate-project/05-data/calgem/all-wells-*/*.zip
 classes/graduate-project/05-data/calgem/enforcement-orders/*.pdf
 
 # Research Methods lecture recordings (video/audio kept local only; transcripts tracked)

@@ -358,3 +358,24 @@ Usage: `python download_enforcement_orders.py <folder for PDFs> <file for text s
 - The two CSV files (about 134 MB together) and the 436 enforcement order PDFs (about 253 MB) are kept on local disk only and are excluded from the git repository by `.gitignore`. The checksums in section 3 let anyone confirm that a copy is identical.
 - The four documentation files (one `.xls` and three `.pdf`), the eight files in `wellbore-diagram-sources/`, the 14 diagrams in `wellbore-diagrams/` (about 3.2 MB; now `06-study/pilot-ventura/`), the 11 files in `nov-sources/` (about 15 MB), `enforcement-orders/_index.csv`, the three scripts in section 10, and this record are kept in the repository.
 - A future copy obtained from CalGEM may differ, because the publisher may update or remove files without notice.
+
+## 12. Current all-wells file (subfolder `all-wells-2026-11-13/`)
+
+**Source:** CalGEM GIS Mapping page (https://www.conservation.ca.gov/calgem/maps/Pages/GISMapping2.aspx), entry "All Wells," CSV link. The link opens the ArcGIS portal item "Oil and Gas Wells Table, California" (https://gis.conservation.ca.gov/portal/home/item.html?id=0d30c4d9ac8f4f84a53a145e7d68eb6b), owner DOCGIS, described as "A zipped csv with all oil and gas wells for California. Updated nightly following workdays." The item page showed "Item updated: Nov 13, 2026."
+
+**Downloaded:** November 13, 2026, from https://gis.conservation.ca.gov/portal/sharing/rest/content/items/0d30c4d9ac8f4f84a53a145e7d68eb6b/data. No account or login was used. The zip was extracted in place; no file was renamed or edited.
+
+| File | Bytes | SHA-256 |
+|---|---|---|
+| `AllWells.zip` (as delivered) | 7,784,474 | `A1D0380A152D51DCCCD02989964846A8257C4B2AA38B0529A4FA6C8FD84DE6D6` |
+| `AllWells_20261113.csv` (in the zip, dated Nov 13, 2026, 2:51 AM) | 58,860,639 | `159CA7EEAB9989240508F8DED3652175669FB31B09F5FB7A0B6F7B73B4245A6E` |
+| `TableMetadata.htm` (in the zip, dated Jul 11, 2024) | 179,266 | `5EBE5853B2B5BB221B468FDAEAB447432221249E21285171A9DB7968B01695F7` |
+
+**Contents:** 242,631 rows and 27 columns, one row per well; 242,631 distinct 10-digit API numbers. Counts by `WellStatus`: Plugged 147,333; Active 53,761; Idle 29,806; Canceled 9,944; New 1,638; PluggedOnly 68; Unknown 59; NotCalGEMJurisdiction 22. Counted November 13, 2026.
+
+**Candidate wells for the proposal (section 3.2.3):** of the 83,567 Active or Idle wells, 1,562 are offshore (`CountyName` ends in "Offshore," for example "Los Angeles Offshore") and 280 are gas storage wells (`WellType` = `GS`); no well is both. Excluding them leaves 81,725 onshore, non-gas-storage wells that are active or idle. The proposal (as revised November 13, 2026) excludes only the gas storage wells: 83,567 − 280 = 83,287 candidate wells. Plugged wells counted for the proposal are Plugged plus PluggedOnly (147,401).
+
+**Difference from the 2021 wells file:** the 2021 file came with the production and injection reports and lists wells by producing pool (12-digit API), so it covers 197,169 well bores. This file is CalGEM's full well list at the 10-digit API level and includes many more plugged wells.
+
+**Storage:** the zip and the CSV are kept on local disk only and excluded from git by `.gitignore`; `TableMetadata.htm` and this record are kept in the repository.
+
