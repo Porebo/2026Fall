@@ -17,3 +17,10 @@ near-duplicates/
   Liu, 2024, A Systematic Review on How Educators Teach AI in K-12 Education, ... .docx
     A Word version of a PDF in 04-literature/papers/. Another copy is in
     classes/research-methods/w03/.
+
+unrelated/
+  Stanciu, 2025, Unraveling Risk Determinants in Avascular Necrosis - A
+  Cross-Sectional Analysis, Balneo and PRM Research Journal.pdf
+    Moved November 12, 2026 from research-papers/. A medical paper not related
+    to the wellbore diagram study. research-papers/ keeps its README and
+    research_papers.db, which the research-papers MCP server uses.

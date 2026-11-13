@@ -178,7 +178,7 @@
       "submissionSize": "1.3 MB",
       "confirmationNumber": "0ea4129d49ec476f82ffc8e5bedc708d",
       "grade": "Not graded",
-      "url": "classes/graduate-project/01-admin/research-proposal-planning-assignment.html"
+      "url": "classes/research-methods/w10/research-proposal-planning-assignment.html"
     },
     {
       "id": "rm-read-w01-kumar",
@@ -523,6 +523,46 @@
       "date": "2026-12-18",
       "type": "event",
       "title": "Paycheck from CRC"
+    },
+    {
+      "id": "gp-proposal-body",
+      "date": "2026-11-14",
+      "course": "graduate-project",
+      "type": "homework",
+      "workType": "hard",
+      "title": "Proposal body complete, citations verified",
+      "assignmentNumber": "GP-01",
+      "assignmentName": "Proposal body complete, citations verified",
+      "assignedDate": "2026-11-10",
+      "description": "Every section of the proposal body written and every citation checked against its paper (proposal plan, steps 1 and 2).",
+      "points": null,
+      "status": "In Progress",
+      "grade": "Not applicable",
+      "url": "classes/graduate-project/02-plan/proposal-plan.md"
+    },
+    {
+      "id": "gp-committee-delivery",
+      "date": "2026-11-16",
+      "course": "graduate-project",
+      "type": "homework",
+      "workType": "hard",
+      "title": "Deliver proposal and approval form to the committee",
+      "assignmentNumber": "GP-02",
+      "assignmentName": "Deliver proposal and approval form to the committee",
+      "assignedDate": "2026-11-10",
+      "description": "Send the finished proposal and the Project Proposal Approval Form to each committee member who accepted.",
+      "points": null,
+      "status": "Assigned",
+      "grade": "Not applicable",
+      "url": "classes/graduate-project/01-admin/Proposal-Approval-Form-Carcamo-DRAFT.pdf"
+    },
+    {
+      "id": "gp-committee-reply-deadline",
+      "date": "2026-11-20",
+      "course": "graduate-project",
+      "type": "admin",
+      "title": "Committee reply deadline (from the request email)",
+      "url": "classes/graduate-project/01-admin/committee-member-outreach.html"
     }
   ]
 }

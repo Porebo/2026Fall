@@ -79,3 +79,9 @@ The paths above are relative to classes/research-methods/ and show the first mov
 
 November 12, 2026: W03/Waqas, 2026, Hallucination detection, verification, and correction in generative AI - A comprehensive survey.txt
   ->  04-literature/papers/Waqas, 2026, Hallucination Detection Verification and Correction in Generative AI - A Comprehensive Survey, Natural Language Processing Journal.txt
+
+November 12, 2026: 01-admin/research-proposal-planning-assignment.html
+  ->  classes/research-methods/w10/research-proposal-planning-assignment.html (Research Methods assignment)
+
+November 12, 2026: research-papers/Stanciu, 2025, ... Balneo and PRM Research Journal.pdf
+  ->  _to-review/unrelated/ (not related to the study)

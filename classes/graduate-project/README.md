@@ -13,7 +13,7 @@ MS Information Science master's project, Lester S. Carcamo. Advisor: Dr. Ningnin
 
 | Folder | Contents |
 |---|---|
-| `01-admin/` | Proposal approval form (blank and draft), committee email and outreach page, Week 10 planning assignment |
+| `01-admin/` | Proposal approval form (blank and draft), committee email and outreach page |
 | `02-plan/` | `proposal-plan.md` (decisions, schedule, risks); `prompt_working.md` (notes from the Nov 10 session) |
 | `03-proposal/` | The proposal draft (`Lester Work.docx`), draft of section 3 (`3. Research Design and Methods.md` and its diagrams), course requirements, draft introduction text, slides, `samples/` of UT proposals |
 | `04-literature/papers/` | Peer-reviewed and other papers, named `FirstAuthor, Year, Title, Journal.pdf` |
