@@ -440,9 +440,11 @@
     detail.innerHTML = "<p class=\"calendar-detail__hint\">Select a marked day to see linked items, or click a colored marker to open its page directly.</p>";
     container.appendChild(detail);
 
-    var agendaHost = document.getElementById("term-calendar-agenda") || container;
-    agendaHost.innerHTML = "";
-    renderCalendarAgenda(agendaHost, deadlines, courses);
+    var agendaHost = document.getElementById("term-calendar-agenda");
+    if (agendaHost) {
+      agendaHost.innerHTML = "";
+      renderCalendarAgenda(agendaHost, deadlines, courses);
+    }
   }
 
   function renderCalendarAgenda(container, deadlines, courses) {
