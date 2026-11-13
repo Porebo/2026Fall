@@ -76,3 +76,6 @@ w10/data/calgem/wellbore-diagrams  ->  graduate-project/05-data/calgem/
 SECOND MOVE, November 12, 2026: the whole project folder moved
 from classes/research-methods/graduate-project/ to classes/graduate-project/.
 The paths above are relative to classes/research-methods/ and show the first move.
+
+November 12, 2026: W03/Waqas, 2026, Hallucination detection, verification, and correction in generative AI - A comprehensive survey.txt
+  ->  04-literature/papers/Waqas, 2026, Hallucination Detection Verification and Correction in Generative AI - A Comprehensive Survey, Natural Language Processing Journal.txt
