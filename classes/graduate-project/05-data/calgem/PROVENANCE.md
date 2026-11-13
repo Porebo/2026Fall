@@ -1,11 +1,11 @@
 # Data Provenance: CalGEM Oil and Gas Well Data
 
 **Project:** MS Information Science master's project, research proposal (Lester S. Carcamo)
-**Folder:** `classes/research-methods/graduate-project/05-data/calgem/` (was `classes/research-methods/w10/data/calgem/` until November 12, 2026)
+**Folder:** `classes/graduate-project/05-data/calgem/` (was `classes/research-methods/w10/data/calgem/` until November 12, 2026)
 **Record created:** November 10, 2026
 **Times:** Pacific Standard Time (UTC−8)
 
-**Relocation, November 12, 2026.** The project folder was reorganized. Files were moved, never edited (checksums below are unchanged). Where this record says "this folder" or names a subfolder, read it as the new location below. Paths are relative to `graduate-project/`.
+**Relocation, November 12, 2026.** The project folder was reorganized. Files were moved, never edited (checksums below are unchanged). Where this record says "this folder" or names a subfolder, read it as the new location below. Paths are relative to `classes/graduate-project/`.
 
 | Was (under `w10/data/calgem/`) | Now |
 |---|---|

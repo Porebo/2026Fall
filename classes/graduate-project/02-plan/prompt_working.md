@@ -2,9 +2,9 @@
 
 **Purpose of this file:** carry the work of one long conversation into a new Claude Code session. Read this file and `proposal-plan.md` (same folder) before continuing.
 
-**How to resume:** tell Claude: "Read `classes/research-methods/graduate-project/02-plan/prompt_working.md` and `proposal-plan.md`, then continue from 'Next steps'."
+**How to resume:** tell Claude: "Read `classes/graduate-project/02-plan/prompt_working.md` and `proposal-plan.md`, then continue from 'Next steps'."
 
-**Note, November 12, 2026.** The project folder was reorganized from `w10/` into `graduate-project/` (map in `graduate-project/README.md`; every move in `graduate-project/_reorg-log.txt`). Paths below were updated. The study design in section 7 was replaced on November 11 by the wellbore diagram design; `proposal-plan.md` is the current record of decisions. This file is kept as the history of the November 10 session.
+**Note, November 12, 2026.** The project folder was reorganized from `w10/` into `classes/graduate-project/` (map in `README.md` there; every move in `_reorg-log.txt`). Paths below were updated. The study design in section 7 was replaced on November 11 by the wellbore diagram design; `proposal-plan.md` is the current record of decisions. This file is kept as the history of the November 10 session.
 
 ---
 

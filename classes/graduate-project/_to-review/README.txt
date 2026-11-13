@@ -16,4 +16,4 @@ near-duplicates/
     (different checksums), so check which version to keep before citing.
   Liu, 2024, A Systematic Review on How Educators Teach AI in K-12 Education, ... .docx
     A Word version of a PDF in 04-literature/papers/. Another copy is in
-    ../w03/.
+    classes/research-methods/w03/.

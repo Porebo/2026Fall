@@ -64,13 +64,13 @@ Note: the instructions name "Dr. Pierce and Dr. Wu" in one place and "Dr. Wu and
 
 | Week | Item | Where |
 |---|---|---|
-| 1 | The Dissertation Research Proposal Process | [archive copy](../../archive/files/week-01/TheDissertationResearchProposalProcess.pdf) |
-| 1 | Formulating Research Topic (Research Types) | [archive copy](../../archive/files/week-01/ResearchTypes.pdf) |
+| 1 | The Dissertation Research Proposal Process | [archive copy](../../research-methods/archive/files/week-01/TheDissertationResearchProposalProcess.pdf) |
+| 1 | Formulating Research Topic (Research Types) | [archive copy](../../research-methods/archive/files/week-01/ResearchTypes.pdf) |
 | 2 | Some Proposal Samples (UT Austin) | https://www.ut-ie.com/s/sample_diss.html; five saved in [samples/](samples/) |
-| 4 | Navigating the Dissertation Process | [archive copy](../../archive/files/week-04/Navigating%20the%20Dissertation%20Process.pdf) |
+| 4 | Navigating the Dissertation Process | [archive copy](../../research-methods/archive/files/week-04/Navigating%20the%20Dissertation%20Process.pdf) |
 | 8 | Dissertation Proposal Samples | https://www.researchprospect.com/category/dissertation-proposal-samples/ |
 | 8 | Dissertation Examples (ProQuest, UALR login) | https://www.proquest.com/pqdtlocal1009983/advanced/dissertations/fromDatabasesLayer?_oafollow=false&accountid=14482 |
-| 8 | Kumar, Ch. 13 How to write a research proposal; Ch. 17 Writing a research report | [full e-book](../../../Books/Kumar,%202011,%20Research%20Methodology%20-%20A%20Step-by-Step%20Guide%20for%20Beginners,%20SAGE.pdf) |
+| 8 | Kumar, Ch. 13 How to write a research proposal; Ch. 17 Writing a research report | [full e-book](../../Books/Kumar,%202011,%20Research%20Methodology%20-%20A%20Step-by-Step%20Guide%20for%20Beginners,%20SAGE.pdf) |
 | 8 | UALR Graduate School thesis and dissertation information | https://ualr.edu/gradschool/gradschool/thesis-and-dissertation-information/ |
 
 ## 6. Folder contents
@@ -80,5 +80,5 @@ Note: the instructions name "Dr. Pierce and Dr. Wu" in one place and "Dr. Wu and
 - `draft-introduction-paragraphs.txt`: introduction paragraphs drafted November 10
 - `Research Proposal Lester S Carcamo.pptx`: the proposal slides
 - `3. Research Design and Methods.md`: draft of section 5, with `variables-diagram.svg` and `test-flow-diagram.svg`
-- Course PDFs on proposals live in the [Research Methods course archive](../../archive/index.html)
+- Course PDFs on proposals live in the [Research Methods course archive](../../research-methods/archive/index.html)
 - `samples/`: sample dissertation proposals to compare against

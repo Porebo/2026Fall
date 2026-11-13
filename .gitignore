@@ -15,9 +15,9 @@ scripts/accounting.js
 classes/master-thesis/jarvis/paymentsImportanDates.html
 classes/master-thesis/jarvis/stmt*.csv
 
-# large CalGEM data files (kept local only; see graduate-project/05-data/calgem/PROVENANCE.md)
-classes/research-methods/graduate-project/05-data/calgem/*.csv
-classes/research-methods/graduate-project/05-data/calgem/enforcement-orders/*.pdf
+# large CalGEM data files (kept local only; see classes/graduate-project/05-data/calgem/PROVENANCE.md)
+classes/graduate-project/05-data/calgem/*.csv
+classes/graduate-project/05-data/calgem/enforcement-orders/*.pdf
 
 # Research Methods lecture recordings (video/audio kept local only; transcripts tracked)
 classes/research-methods/archive/recordings/**/*.mp4

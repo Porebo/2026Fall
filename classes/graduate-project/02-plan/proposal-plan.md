@@ -7,7 +7,7 @@
 
 **Principle:** the body comes first. A strong argument and a complete method can be dressed in any format later. Format, length, and citation style are handled last.
 
-**Updated November 12, 2026.** The study design changed on November 11. The earlier design injected errors into CalGEM well and production tables and asked AI to fix them. The current design gives an AI assistant one real wellbore diagram and the state's casing diagram rule, and asks whether the diagram meets the rule. Section 2 records which decisions this settled. Paths are relative to `graduate-project/`.
+**Updated November 12, 2026.** The study design changed on November 11. The earlier design injected errors into CalGEM well and production tables and asked AI to fix them. The current design gives an AI assistant one real wellbore diagram and the state's casing diagram rule, and asks whether the diagram meets the rule. Section 2 records which decisions this settled. Paths are relative to `classes/graduate-project/`.
 
 ---
 
@@ -60,7 +60,7 @@
 - [ ] **Source linking data quality to profit or cost.** Candidate to verify: Redman (1998), *Communications of the ACM*. Order 1517 (Sentinel Peak, $1,500 penalty for deficient wellbore diagrams) gives a concrete cost of the specific problem (`05-data/calgem/enforcement-orders/`).
 - [ ] **Sources for the four prompt types.** Kojima et al. (2022) covers chain-of-thought. PTCF and few-shot still need a citation.
 - [ ] **Source for 2026 adoption figures.** Liu & Wang's data ends March 2024. Candidate to verify: Stanford AI Index 2026.
-- [ ] **Do the three research questions from the Week 5 draft still fit?** They were written for the old design (`../w05/study-design-draft.md`).
+- [ ] **Do the three research questions from the Week 5 draft still fit?** They were written for the old design (`classes/research-methods/w05/study-design-draft.md`).
 
 ---
 

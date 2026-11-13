@@ -72,3 +72,7 @@ w10/data/calgem/enforcement-orders  ->  graduate-project/05-data/calgem/
 w10/data/calgem/prod & inj reporting codes.pdf  ->  graduate-project/05-data/calgem/
 w10/data/calgem/status and type codes.pdf  ->  graduate-project/05-data/calgem/
 w10/data/calgem/wellbore-diagrams  ->  graduate-project/05-data/calgem/
+
+SECOND MOVE, November 12, 2026: the whole project folder moved
+from classes/research-methods/graduate-project/ to classes/graduate-project/.
+The paths above are relative to classes/research-methods/ and show the first move.
