@@ -68,8 +68,8 @@
 
 - [ ] **Introduction.** Have: paragraph 1 approved and paragraph 2 drafted (`03-proposal/draft-introduction-paragraphs.txt`); the business scenario (`06-study/design/scenario-business-need.txt`). Needs: paragraph 2 rewritten for the new design.
 - [ ] **Research objectives and questions.** Have: three research questions in the Week 5 draft (old design). Needs: rewrite.
-- [ ] **Literature review.** Have: 22 papers in `04-literature/papers/`, rules documents in `04-literature/regulatory/`, slides in `03-proposal/Research Proposal Lester S Carcamo.pptx`. Course rule: at least 20 cited in the body.
-- [ ] **Method.** Have: prompt design and evaluation (`06-study/design/prompts/prompt-design-methods.txt`), the sampling plan and its results (`06-study/sample/sampling-plan.txt`), input quality (`06-study/sample/sample-quality-evaluation.txt`), and data provenance (`05-data/calgem/PROVENANCE.md`). Missing: the open items in section 2.
+- [ ] **Literature review.** Have: 25 papers and regulation texts in `04-literature/papers/`, rules documents in `04-literature/regulatory/`, slides in `03-proposal/Research Proposal Lester S Carcamo.pptx`. Course rule: at least 20 cited in the body.
+- [ ] **Method.** Have: draft section 3 (`03-proposal/3. Research Design and Methods.md`; 3.2.1 done), prompt design and evaluation (`06-study/design/prompts/prompt-design-methods.txt`), the sampling plan and its results (`06-study/sample/sampling-plan.txt`), input quality (`06-study/sample/sample-quality-evaluation.txt`), and data provenance (`05-data/calgem/PROVENANCE.md`). Missing: the open items in section 2.
 - [ ] **Significance.** Have: the committee email (who benefits) and the scenario (why the task exists).
 - [ ] **Limitations and ethics.** Have: `prompt-design-methods.txt`, section 9; the free-tier attachment limit. Add: no human subjects, no employer data, public records only.
 - [ ] **Timeline.** Have: the email promises analysis and defense in spring.
