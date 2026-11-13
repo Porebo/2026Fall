@@ -1,0 +1,53 @@
+PROMPT 04 - CHAIN-OF-THOUGHT
+Version 1.1, November 11, 2026
+
+Level 4 is the level 3 prompt, unchanged, followed by one paragraph asking the
+AI to reason through the requirements step by step before answering. Nothing
+else differs from level 3.
+
+Copy-and-paste file: chain-of-thought-copy-and-paste.txt (this folder)
+Attachments: the same two files as levels 1 to 3 (one diagram, unchanged; the
+verbatim specification).
+
+The added paragraph (sent to the AI exactly as written):
+
+    Before you give me the table, work through it step by step. Take the
+    requirements one at a time, in order. For each one, find where the diagram
+    shows that information, say what you found, and then decide if it meets.
+    When you've gone through all of them, give me the table.
+
+How the paragraph was written
+-----------------------------
+The technique is zero-shot chain-of-thought: an instruction to reason step by
+step before answering, with no worked reasoning examples. Kojima et al. (2022)
+showed that "LLMs are decent zero-shot reasoners by simply adding 'Let's think
+step by step' before each answer" (p. 1), and that the method "does not need
+any examples" (p. 2). The core idea is to "add Let's think step by step, or a
+similar text (see Table 4), to extract step-by-step reasoning" (p. 3).
+
+Table 4 (p. 8) compares sixteen wordings of the instruction. Among them is
+"Let's solve this problem by splitting it into steps" (72.2%), alongside
+"Let's think step by step" (78.7%). The paragraph used here is of that kind:
+it keeps "step by step" and states, in the words a worker would use, how the
+task splits into steps: take the requirements one at a time, in order; find
+the information on the diagram; say what was found; then decide. Reasoning is
+placed before the answer ("Before you give me the table ... When you've gone
+through all of them, give me the table"), as the technique requires.
+
+The level 2 request "Keep it short" is left unchanged. A worker may ask for
+both a careful step-by-step check and a short answer; how the AI handles the
+two is part of what level 4 shows.
+
+Source PDF, with these passages highlighted:
+../../../04-literature/papers/Kojima, 2022, Large Language Models are Zero-Shot
+Reasoners, Advances in Neural Information Processing Systems.pdf
+
+Change log:
+1.0  November 11, 2026   Level 2 prompt plus one sentence: "Before you give me
+     the table, think it through step by step."
+1.1  November 11, 2026   Replaced. The one-sentence version was judged very
+     weak: current chat models already reason before answering, so the
+     sentence changed little; it did not say what the steps were; and, built
+     on level 2, it dropped the examples added at level 3. Level 4 now builds
+     on level 3 (cumulative design), and the instruction names the steps a
+     careful worker would take.

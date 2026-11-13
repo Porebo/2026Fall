@@ -1,0 +1,270 @@
+SAMPLING PLAN
+Wellbore Diagram Pilot Study
+Version 1.2, November 11, 2026
+
+This plan was fixed, and the random order of wells was generated, before any
+well was screened. Any later change to the plan is recorded in Section 10.
+
+
+1. POPULATION AND FRAME
+=======================
+
+Target population: unplugged California oil and gas wells (status Active or
+Idle) that have at least one wellbore diagram on file in WellSTAR, CalGEM's
+public well database. These are the wells for which a worker could retrieve an
+existing diagram before an abandonment filing (see
+../design/scenario-business-need.txt).
+
+Sampling frame: every distinct well (12-digit API number) with status Active or
+Idle in CalGEM's 2021 California Oil and Gas Wells file
+(../../05-data/calgem/2021CaliforniaOilAndGasWells.csv). Where an API number appears in several
+rows (one per producing pool), the first row in file order is used.
+
+    Frame size, N = 107,952 wells (67,693 Active; 40,259 Idle).
+
+Sampling unit: one well. Unit of analysis: that well's wellbore diagram
+(Section 5).
+
+Variables NOT used in selection: operator, field, district, county, well type,
+and every other attribute. Selection is by random order alone. Operator columns
+are not copied into the screening log.
+
+The frame does not show which wells have a diagram on file. That is learned only
+by screening each well in WellSTAR (Section 6).
+
+
+2. SAMPLING METHOD
+==================
+
+Simple random sampling without replacement, carried out by screening a random
+ordering of the frame:
+
+  1. Sort the frame by API number (a fixed starting order).
+  2. Shuffle it once with Python's random.Random(20261111).shuffle.
+  3. Screen wells strictly in that order. Each well that meets the eligibility
+     rules (Section 5) is included, until 30 are included.
+
+Rows 1-30 of the order are the primary sample. Rows 31 onward are the
+replacement queue. A replacement is always the next unscreened row; no well is
+chosen or skipped by judgment.
+
+Why this is a simple random sample of the target population: in a uniformly
+random ordering of the frame, the first n wells that meet a fixed eligibility
+rule are a simple random sample, without replacement, of all eligible wells.
+Every eligible well has the same chance of selection, and the rule is applied
+without knowledge of any other well's result.
+
+
+3. SAMPLE SIZE
+==============
+
+n = 30 diagrams, justified as a pilot sample. The study's aims at this stage are
+to test the method, estimate the AI's agreement rate, measure how often a
+diagram is available, and time the human review; these are the purposes of a
+pilot study.
+
+Supporting sources (PDFs in ../../04-literature/papers/, with the cited passages
+highlighted):
+
+  Lancaster, G. A., Dodd, S., & Williamson, P. R. (2004). Design and analysis
+  of pilot studies: Recommendations for good practice. Journal of Evaluation in
+  Clinical Practice, 10(2), 307-312. Page 308:
+    "A general rule of thumb is to take 30 patients or greater to estimate a
+    parameter (Browne 1995)."
+  (Browne, 1995, is cited through Lancaster et al.; its full text was not
+  available through the UALR library.)
+
+  Julious, S. A. (2005). Sample size of 12 per group rule of thumb for a pilot
+  study. Pharmaceutical Statistics, 4(4), 287-291. Page 287:
+    "For such pilot studies the recommendation is a sample size of 12 per
+    group."
+  The study's n = 30 exceeds this minimum.
+
+  Hertzog, M. A. (2008). Considerations in determining sample size for pilot
+  studies. Research in Nursing & Health, 31(2), 180-191. Pages 180, 181, and
+  190: pilot sample sizes of 10 to 40 are evaluated by the precision of the
+  confidence intervals they yield, including intervals for a proportion. Page
+  190 also states: "Specific sample size recommendations for feasibility aims
+  are not made." The study therefore relies on Hertzog for the confidence
+  interval method (Section 4), not for the number 30.
+
+Each figure above should be checked against the highlighted PDF before the
+proposal is submitted.
+
+
+4. PRECISION AT n = 30
+======================
+
+The 95% confidence interval half-width for a proportion p estimated from n
+diagrams is 1.96 x sqrt(p(1 - p) / n).
+
+    p = 0.50  ->  +/- 0.18   (worst case)
+    p = 0.80  ->  +/- 0.14
+    p = 0.90  ->  +/- 0.11
+
+At the item level, each diagram contributes one judgment per required data item
+of 14 CCR 1726.4.1 (about 20 items), roughly 600 judgments in all. If those
+judgments were independent, the half-width at p = 0.50 would be about +/- 0.04.
+Items within one diagram are not independent, so the true interval is wider; the
+pilot will estimate that within-diagram correlation.
+
+
+5. ELIGIBILITY AND WHICH DIAGRAM IS USED
+========================================
+
+A screened well is INCLUDED when all of the following hold:
+
+  a. The 10-digit API is found in WellSTAR.
+  b. WellSTAR does not now show the well as plugged. (The frame is from 2021;
+     a well plugged since then is no longer in the target population.)
+  c. The well has at least one document of type "Wellbore Diagram" that shows
+     the well's existing condition, that is, one not described as "proposed."
+  d. That document downloads and is legible.
+
+When a well has several eligible diagrams, the one with the latest Relevant
+Date in WellSTAR is used. Ties are broken by the highest Document ID.
+
+Clarification added in version 1.1 (Section 10): a description or file name
+that names planned work (for example "Proposed," "Abandonment," or "Sidetrack"
+on a well that is not plugged) is treated as proposed under rule c. Among
+diagrams with the same Relevant Date, one whose description names it "Current"
+is used.
+
+
+6. SCREENING PROCEDURE AND OUTCOME CODES
+========================================
+
+Wells are screened in the order of screening-log.csv, using the WellSTAR
+steps in ../../05-data/calgem/PROVENANCE.md, section 7.4. Every screened well receives exactly one
+outcome code, entered in the log with the date checked:
+
+  INCLUDED          Eligible; diagram downloaded (Document ID recorded)
+  NOT_FOUND         API not found in WellSTAR                        (rule a)
+  STATUS_CHANGED    WellSTAR now shows the well plugged               (rule b)
+  NO_DIAGRAM        No wellbore diagram on file                      (rule c)
+  PROPOSED_ONLY     Only diagrams described as proposed              (rule c)
+  DOWNLOAD_FAILED   Diagram listed but file could not be downloaded  (rule d)
+  UNREADABLE        File downloaded but empty or illegible          (rule d)
+
+Unscreened rows keep a blank outcome. Screening stops at the 30th INCLUDED
+well.
+
+Stop rule: if 300 wells have been screened without reaching 30 INCLUDED, stop
+and report the number reached and the availability rate, rather than changing
+the method.
+
+Expected effort: in an earlier screen of one field, about 3 in 10 wells had a
+diagram (../../05-data/calgem/PROVENANCE.md, section 7.1), so about 100 wells are expected to be
+screened.
+
+
+7. WHAT IS REPORTED
+===================
+
+- The number of wells screened and the count of each outcome code.
+- Diagram availability = INCLUDED / (wells screened - NOT_FOUND -
+  STATUS_CHANGED), with its 95% confidence interval.
+- The included wells' districts and statuses, as a description of the sample.
+  These are reported, not controlled.
+- Wells are identified in reports by sample order number (W01-W30), not by
+  well or operator name.
+
+
+8. FULL STUDY SIZE
+==================
+
+The pilot's estimate of the AI's agreement rate, p-hat, sets the size of any
+full study through Cochran's formula with the finite population correction:
+
+    n0 = z^2 * p-hat * (1 - p-hat) / e^2
+    n  = n0 / (1 + (n0 - 1) / N)
+
+with z = 1.96 for 95% confidence, e the chosen margin of error, and N the
+number of eligible wells, estimated from the frame size times the pilot's
+availability rate.
+
+
+9. REPRODUCIBILITY
+==================
+
+Script:  ../../scripts/select_sample.py   (Python 3, standard library only)
+Command: python select_sample.py 2021CaliforniaOilAndGasWells.csv
+Seed:    20261111
+
+SHA-256 of the input file 2021CaliforniaOilAndGasWells.csv:
+  ADCDEFD1B3659FC08E3472DF77AE458EF246C01334B560FF1128FCF4CE4804A2
+SHA-256 of the script as run:
+  9AD5C95F35E40E59579C994744313B915B504189B14942FA08CEE45524F59BB1
+SHA-256 of screening-log.csv as generated, before screening began:
+  90A09266D81CFBB821371FC90C0CAD6CE411F4140900E01BA764F374AB0F8755
+
+Running the script again on the same input reproduces the same order. The log
+is then filled in during screening, so its checksum will change; the value above
+identifies the order as it stood before screening.
+
+
+10. CHANGE LOG
+==============
+
+1.0  November 11, 2026   Plan fixed; random order generated; no well screened.
+
+1.1  November 11, 2026   Recorded during screening, before any diagram was
+     downloaded:
+     - Rule 5(c) clarified (Section 5). Prompted by row 161, which has three
+       diagrams with the same date described "Abandonment WBD," "Current WBD,"
+       and "Sidetrack WBD." The literal tie-break would have chosen the
+       Sidetrack diagram, which describes planned work. The Current diagram
+       was used. No other row was affected.
+     - A well that WellSTAR's search did not return on the first attempt was
+       searched again before being coded NOT_FOUND. One well (row 33) was
+       found on the second search; no well was finally coded NOT_FOUND.
+     - A documents list that loaded empty was read again after a longer wait
+       before the well was coded NO_DIAGRAM.
+     - A download that returned a web page instead of the file was retried
+       once (rows 66 and 168; both succeeded).
+     - Rows 219-225 were screened in the same batch as row 218, the 30th
+       eligible well. Their outcomes are recorded in the log but they are not
+       part of the sample.
+
+
+1.2  November 11, 2026   Input quality of the 30 files evaluated after
+     download. No file excluded, replaced, or altered; reasons and the
+     handling of quality in the analysis are in sample-quality-evaluation.txt.
+     Measurements in pdf-quality-profile.csv.
+
+
+11. RESULTS OF SCREENING
+========================
+
+Screened, November 11, 2026: rows 1-218 of the random order (218 wells), within
+the 300-well stop rule.
+
+  INCLUDED          30
+  STATUS_CHANGED    43   (plugged since the 2021 frame)
+  NO_DIAGRAM       145
+  NOT_FOUND          0
+  PROPOSED_ONLY      0
+  DOWNLOAD_FAILED    0
+  UNREADABLE         0
+
+Diagram availability among wells still unplugged:
+  30 / (218 - 43) = 30 / 175 = 17.1%   (95% CI 11.6% to 22.7%)
+
+This is lower than the 30% assumed in Section 6, which came from a single
+field; screening took 218 wells rather than the expected 100.
+
+Description of the sample (reported, not controlled):
+  District:       Inland 22, Coastal 4, Southern 4, Northern 0
+  2021 status:    Active 21, Idle 9
+  Status now:     Active 16, Idle 14 (WellSTAR, November 11, 2026)
+  Fields:         16 distinct
+  Diagram dates:  2018 to 2026 (WellSTAR Relevant Date)
+
+The 30 diagrams are in diagrams/ as W01 to W30, in sample order. For each,
+screening-log.csv records the row, API, Document ID, Relevant Date, WellSTAR
+description, original file name, and SHA-256 checksum. Raw screening results
+are in screening-raw/.
+
+Three diagrams are scanned images with no text layer (W06, W11, W25); all three
+are legible. W11 is rotated (landscape). W15 covers three boreholes, including
+abandoned earlier holes and the current redrilled hole.

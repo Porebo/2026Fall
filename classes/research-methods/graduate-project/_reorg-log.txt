@@ -1,0 +1,74 @@
+w10/Information-Science-fillable-form_Project-Proposal-or-Thesis-Proposal-Approval-Form-student-students-advisor-1 (1).pdf  ->  graduate-project/01-admin/
+w10/Proposal-Approval-Form-Carcamo-DRAFT.pdf  ->  graduate-project/01-admin/
+w10/committee-member-outreach.html  ->  graduate-project/01-admin/
+w10/committee-request-email-final.txt  ->  graduate-project/01-admin/
+w10/research-proposal-planning-assignment.html  ->  graduate-project/01-admin/
+w10/plan/proposal-plan.md  ->  graduate-project/02-plan/
+w10/plan/prompt_working.md  ->  graduate-project/02-plan/
+final-proposal-requirements/REQUIREMENTS.md  ->  graduate-project/03-proposal/
+final-proposal-requirements/Lester Work.docx  ->  graduate-project/03-proposal/
+final-proposal-requirements/samples  ->  graduate-project/03-proposal/samples
+w10/plan/Technology is both a product and a.txt  ->  graduate-project/03-proposal/draft-introduction-paragraphs.txt
+w10/Research Proposal Lester S Carcamo.pptx  ->  graduate-project/03-proposal/
+w10/literature/Waqas, 2026, Hallucination Detection Verification and Correction in Generative AI - A Comprehensive Survey, Natural Language Processing Journal (2).pdf  ->  graduate-project/_to-review/near-duplicates/
+w10/literature/Liu, 2024, A Systematic Review on How Educators Teach AI in K-12 Education, Educational Research Review.docx  ->  graduate-project/_to-review/near-duplicates/
+w10/literature  ->  graduate-project/04-literature/papers
+w10/data/calgem/nov-sources  ->  graduate-project/04-literature/regulatory/nov-sources
+w10/data/calgem/wellbore-diagram-sources  ->  graduate-project/04-literature/regulatory/wellbore-diagram-sources
+w10/data/calgem/wellbore-diagrams/scenario-business-need.txt  ->  graduate-project/06-study/design/
+w10/data/calgem/wellbore-diagrams/casing-diagram-specification.txt  ->  graduate-project/06-study/design/
+w10/data/calgem/wellbore-diagrams/prompts/naive-copy-and-paste.txt  ->  graduate-project/_backup/06-study/design/prompts/
+w10/data/calgem/wellbore-diagrams/prompts/prompt-01-naive.txt  ->  graduate-project/06-study/design/prompts/
+w10/data/calgem/wellbore-diagrams/prompts/prompt-02-ptcf.txt  ->  graduate-project/06-study/design/prompts/
+w10/data/calgem/wellbore-diagrams/prompts/prompt-03-few-shot.txt  ->  graduate-project/06-study/design/prompts/
+w10/data/calgem/wellbore-diagrams/prompts/prompt-04-chain-of-thought.txt  ->  graduate-project/06-study/design/prompts/
+w10/data/calgem/wellbore-diagrams/prompts/prompt-design-methods.txt  ->  graduate-project/06-study/design/prompts/
+w10/data/calgem/1-naive-prompt/naive-copy-and-paste.txt  ->  graduate-project/06-study/design/prompts/
+w10/data/calgem/2-ptcf-prompt/ptcf-copy-and-paste.txt  ->  graduate-project/06-study/design/prompts/
+w10/data/calgem/3-few-shot-prompt/few-shot-copy-and-paste.txt  ->  graduate-project/06-study/design/prompts/
+w10/data/calgem/4-chain-of-thought-prompt/chain-of-thought-copy-and-paste.txt  ->  graduate-project/06-study/design/prompts/
+w10/data/calgem/wellbore-diagrams/Hartman 5 - As P&A.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/Hartman 5 - Current.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/Hartman 5 - Proposed.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/Hartman East 73.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/Lloyd 265.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/Lloyd Corp. 75.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/McGonigle 21.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/RBU L. Hartmann 2.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/Taylor 154 - As P&A.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/Taylor 154 - Current.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/Taylor 154 - Proposed.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/Taylor 420.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/Taylor 711 - As P&A.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/wellbore-diagrams/V.L. & W. 118.pdf  ->  graduate-project/06-study/pilot-ventura/
+w10/data/calgem/sample  ->  graduate-project/06-study/sample
+w10/data/calgem/1-naive-prompt/diagrams  ->  graduate-project/_backup/06-study/sample/diagrams
+w10/data/calgem/1-naive-prompt/casing-diagram-specification.txt  ->  graduate-project/_backup/06-study/design/
+w10/data/calgem/2-ptcf-prompt/diagrams  ->  graduate-project/_to-review/identical-copies/2-ptcf-prompt/diagrams
+w10/data/calgem/2-ptcf-prompt/casing-diagram-specification.txt  ->  graduate-project/_to-review/identical-copies/2-ptcf-prompt/
+w10/data/calgem/3-few-shot-prompt/diagrams  ->  graduate-project/_to-review/identical-copies/3-few-shot-prompt/diagrams
+w10/data/calgem/3-few-shot-prompt/casing-diagram-specification.txt  ->  graduate-project/_to-review/identical-copies/3-few-shot-prompt/
+w10/data/calgem/4-chain-of-thought-prompt/diagrams  ->  graduate-project/_to-review/identical-copies/4-chain-of-thought-prompt/diagrams
+w10/data/calgem/4-chain-of-thought-prompt/casing-diagram-specification.txt  ->  graduate-project/_to-review/identical-copies/4-chain-of-thought-prompt/
+w10/data/calgem/1-naive-prompt/runs  ->  graduate-project/06-study/runs/1-naive-prompt
+w10/data/calgem/2-ptcf-prompt/runs  ->  graduate-project/06-study/runs/2-ptcf-prompt
+w10/data/calgem/3-few-shot-prompt/runs  ->  graduate-project/06-study/runs/3-few-shot-prompt
+w10/data/calgem/4-chain-of-thought-prompt/runs  ->  graduate-project/06-study/runs/4-chain-of-thought-prompt
+w10/data/calgem/download_enforcement_orders.py  ->  graduate-project/scripts/
+w10/data/calgem/profile_pdf_quality.py  ->  graduate-project/scripts/
+w10/data/calgem/select_sample.py  ->  graduate-project/scripts/
+w10/data/calgem/select_ventura_wells.py  ->  graduate-project/scripts/
+w10/data/calgem/wellstar_wellbore_diagrams.js  ->  graduate-project/scripts/
+w10/data/calgem/1-naive-prompt  ->  graduate-project/05-data/calgem/
+w10/data/calgem/2-ptcf-prompt  ->  graduate-project/05-data/calgem/
+w10/data/calgem/2021CaliforniaOilAndGasWellMonthlyProduction.csv  ->  graduate-project/05-data/calgem/
+w10/data/calgem/2021CaliforniaOilAndGasWells.csv  ->  graduate-project/05-data/calgem/
+w10/data/calgem/3-few-shot-prompt  ->  graduate-project/05-data/calgem/
+w10/data/calgem/4-chain-of-thought-prompt  ->  graduate-project/05-data/calgem/
+w10/data/calgem/GIS-metadata-ReadMe.pdf  ->  graduate-project/05-data/calgem/
+w10/data/calgem/PROVENANCE.md  ->  graduate-project/05-data/calgem/
+w10/data/calgem/Report File Definition.xls  ->  graduate-project/05-data/calgem/
+w10/data/calgem/enforcement-orders  ->  graduate-project/05-data/calgem/
+w10/data/calgem/prod & inj reporting codes.pdf  ->  graduate-project/05-data/calgem/
+w10/data/calgem/status and type codes.pdf  ->  graduate-project/05-data/calgem/
+w10/data/calgem/wellbore-diagrams  ->  graduate-project/05-data/calgem/

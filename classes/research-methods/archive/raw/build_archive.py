@@ -71,9 +71,9 @@ ATTACH = {
 DEDUPE = {
     "files/week-01/An Overview of Information Quality Research.pdf": "../w01/An Overview of Information Quality Research.pdf",
     "files/week-02/Fifteen Years of Data and Information Quality Literature.pdf": "../w02/15YearsOfIQ_JISV25N1_20011.pdf",
-    "files/week-02/A Framework for Analysis of Data Quality Research.pdf": "../w10/literature/Wang, 1995, A Framework for Analysis of Data Quality Research, IEEE TKDE.pdf",
-    "files/week-02/A Short Review of the Literature on Automatic Data Quality.pdf": "../w10/literature/Chandran, 2022, A Short Review of the Literature on Automatic Data Quality, Journal of Computer and Communications.pdf",
-    "files/assignment-files/Literature Review Assignment - Systematic Review on How Educators Teach AI in K-12 Education.pdf": "../w10/literature/Liu, 2024, A Systematic Review on How Educators Teach AI in K-12 Education, Educational Research Review.pdf",
+    "files/week-02/A Framework for Analysis of Data Quality Research.pdf": "../graduate-project/04-literature/papers/Wang, 1995, A Framework for Analysis of Data Quality Research, IEEE TKDE.pdf",
+    "files/week-02/A Short Review of the Literature on Automatic Data Quality.pdf": "../graduate-project/04-literature/papers/Chandran, 2022, A Short Review of the Literature on Automatic Data Quality, Journal of Computer and Communications.pdf",
+    "files/assignment-files/Literature Review Assignment - Systematic Review on How Educators Teach AI in K-12 Education.pdf": "../graduate-project/04-literature/papers/Liu, 2024, A Systematic Review on How Educators Teach AI in K-12 Education, Educational Research Review.pdf",
     "files/my-submissions/Humanities Responsible Conduct of Research.pdf": "../CITI/Humanities Responsible Conduct of Research.pdf",
     "files/my-submissions/Research Security A Basic Course.pdf": "../CITI/Research Security A Basic Course.pdf",
     "files/my-submissions/Social and Behavioral Responsible Conduct of Research.pdf": "../CITI/Social and Behavioral Responsible Conduct of Research.pdf",

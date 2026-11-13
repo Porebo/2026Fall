@@ -6,10 +6,10 @@ Source: Blackboard, `Week 2 Formulating a Research Problem`, collected September
 
 | Blackboard title | Local file |
 | --- | --- |
-| A Framework for Analysis of Data Quality Research | `../w10/literature/Wang, 1995, A Framework for Analysis of Data Quality Research, IEEE TKDE.pdf` |
+| A Framework for Analysis of Data Quality Research | `../graduate-project/04-literature/papers/Wang, 1995, A Framework for Analysis of Data Quality Research, IEEE TKDE.pdf` |
 | Fifteen Years of Data and Information Quality Literature | `15YearsOfIQ_JISV25N1_20011.pdf` |
-| A Short Review of the Literature on Automatic Data Quality | `../w10/literature/Chandran, 2022, A Short Review of the Literature on Automatic Data Quality, Journal of Computer and Communications.pdf` |
-| Student Guide for AI Use | `../w10/literature/Bickerstaff, 2024, A Guide for Students - Should I Use AI, AI for Education.pdf` |
+| A Short Review of the Literature on Automatic Data Quality | `../graduate-project/04-literature/papers/Chandran, 2022, A Short Review of the Literature on Automatic Data Quality, Journal of Computer and Communications.pdf` |
+| Student Guide for AI Use | `../graduate-project/04-literature/papers/Bickerstaff, 2024, A Guide for Students - Should I Use AI, AI for Education.pdf` |
 
 ## Week 2 Class Materials
 
@@ -33,7 +33,7 @@ Source: Blackboard, `Week 2 Formulating a Research Problem`, collected September
 | Citation Styles | Compares MLA, Chicago, and APA citation systems and illustrates their in-text and bibliography formats. | None offered. |
 | How to Avoid Plagiarism in the Literature Review | Advises reading fully, writing from understanding rather than copying, restructuring paraphrases, citing every borrowed idea, and synthesizing sources by theme. | None offered. |
 | AI Based Literature Review Tools | Surveys AI-assisted search, summarization, citation-mapping, and review tools, including Semantic Scholar, Elicit, Connected Papers, Research Rabbit, Litmaps, and Scite. It emphasizes independently checking tool outputs. | None offered. |
-| Student Guide for AI Use | Provides guidance for responsible student use of generative AI, including using AI to support rather than replace thinking and documenting AI use. | `../w10/literature/Bickerstaff, 2024, A Guide for Students - Should I Use AI, AI for Education.pdf` |
+| Student Guide for AI Use | Provides guidance for responsible student use of generative AI, including using AI to support rather than replace thinking and documenting AI use. | `../graduate-project/04-literature/papers/Bickerstaff, 2024, A Guide for Students - Should I Use AI, AI for Education.pdf` |
 | Zotero | Free reference-management software for collecting, organizing, annotating, citing, synchronizing, and sharing research sources. | A software installer is available from Zotero, but it was not saved as course material. |
 | How to Use Zotero | Video: *How To Use Zotero (A Complete Beginner's Guide)* by Steven Bradburn. | No downloadable course material found. |
 | How to Choose a Research Topic for A Dissertation or Thesis (7 Steps) | Video: *How To Choose A Research Topic For A Dissertation Or Thesis (7 Step Method + Examples)* by Grad Coach. | No downloadable course material found. |
