@@ -1,3 +1,5 @@
+SUPERSEDED November 13, 2026: few-shot was dropped when the study was reduced to three prompt types (naive, informed, chain-of-thought). Kept for the record.
+
 PROMPT 03 - FEW-SHOT
 Version 1.3, November 13, 2026
 Change in 1.3: standard changed from 14 CCR 1772.1.3 (idle wells) to 14 CCR 1724.7.1 (underground injection control), which has the same 15 items: it sits in the Onshore Well Regulations, governs every well in an injection project's area of review that penetrates the injection zone, producers included, and is the section CalGEM enforced in Order 1517. Its item (15) lacks the "if applicable" of 1772.1.3; the injection-zone clause is treated as not applicable to wells outside an injection project.

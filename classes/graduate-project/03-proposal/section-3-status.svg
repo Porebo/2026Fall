@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="800" viewBox="0 0 920 800" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="800" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="40" y="40" font-size="20" font-weight="700" fill="#1f2937">Section 3, Research Design and Methods: status</text>
+  <text x="40" y="62" font-size="12.5" fill="#6b7280">Status as of November 13, 2026. Column A: what the proposal must contain. Column B: the draft subsections that cover it.</text>
+
+  <!-- Column headers -->
+  <text x="40" y="96" font-size="14" font-weight="700" fill="#374151">A · Required design</text>
+  <text x="490" y="96" font-size="14" font-weight="700" fill="#374151">B · Drafted so far</text>
+
+  <!-- Connectors (colored by status of the B block) -->
+  <g fill="none" stroke-width="2.5">
+    <path d="M340,139 L490,139" stroke="#f59e0b"/>
+    <path d="M340,314 C415,314 415,209 490,209" stroke="#16a34a"/>
+    <path d="M340,314 C415,314 415,279 490,279" stroke="#f59e0b"/>
+    <path d="M340,314 C415,314 415,349 490,349" stroke="#16a34a"/>
+    <path d="M340,314 C415,314 415,419 490,419" stroke="#f59e0b"/>
+    <path d="M340,489 L490,489" stroke="#dc2626"/>
+    <path d="M340,559 L490,559" stroke="#dc2626"/>
+    <path d="M340,629 L490,629" stroke="#dc2626"/>
+    <path d="M340,699 L490,699" stroke="#dc2626"/>
+  </g>
+
+  <!-- Column A -->
+  <g>
+    <rect x="40" y="110" width="300" height="58" rx="8" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+    <text x="56" y="134" font-size="14.5" font-weight="700" fill="#1e1b4b">Data to collect</text>
+    <text x="56" y="154" font-size="11.5" fill="#4b5563">Required by the assignment</text>
+
+    <rect x="40" y="180" width="300" height="268" rx="8" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+    <text x="56" y="306" font-size="14.5" font-weight="700" fill="#1e1b4b">Research design</text>
+    <text x="56" y="326" font-size="11.5" fill="#4b5563">Required by the assignment</text>
+
+    <rect x="40" y="460" width="300" height="58" rx="8" fill="#f5f3ff" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <text x="56" y="484" font-size="14.5" font-weight="700" fill="#1e1b4b">Data analysis</text>
+    <text x="56" y="504" font-size="11.5" fill="#4b5563">Expected by the proposal guides</text>
+
+    <rect x="40" y="530" width="300" height="58" rx="8" fill="#f5f3ff" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <text x="56" y="554" font-size="14.5" font-weight="700" fill="#1e1b4b">Ethical considerations</text>
+    <text x="56" y="574" font-size="11.5" fill="#4b5563">Expected by the proposal guides</text>
+
+    <rect x="40" y="600" width="300" height="58" rx="8" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+    <text x="56" y="624" font-size="14.5" font-weight="700" fill="#1e1b4b">Tentative schedule</text>
+    <text x="56" y="644" font-size="11.5" fill="#4b5563">Required by the assignment</text>
+
+    <rect x="40" y="670" width="300" height="58" rx="8" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+    <text x="56" y="694" font-size="14.5" font-weight="700" fill="#1e1b4b">Limitations and risks</text>
+    <text x="56" y="714" font-size="11.5" fill="#4b5563">Required, with how each is handled</text>
+  </g>
+
+  <!-- Column B -->
+  <g>
+    <!-- 3.1 partial -->
+    <rect x="490" y="110" width="400" height="58" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="506" y="134" font-size="14" font-weight="700" fill="#1f2937">3.1 Data to Be Collected</text>
+    <text x="876" y="134" font-size="11.5" font-weight="700" fill="#b45309" text-anchor="end">PARTIAL</text>
+    <text x="506" y="154" font-size="11.5" fill="#4b5563">1 paragraph; needs source, fields, sample size, how obtained</text>
+
+    <!-- 3.2.1 done -->
+    <rect x="490" y="180" width="400" height="58" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="506" y="204" font-size="14" font-weight="700" fill="#1f2937">3.2.1 Completeness</text>
+    <text x="876" y="204" font-size="11.5" font-weight="700" fill="#15803d" text-anchor="end">DONE</text>
+    <text x="506" y="224" font-size="11.5" fill="#4b5563">Drafted; APA pass November 12</text>
+
+    <!-- 3.2.2 partial -->
+    <rect x="490" y="250" width="400" height="58" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="506" y="274" font-size="14" font-weight="700" fill="#1f2937">3.2.2 Design Type and Variables</text>
+    <text x="876" y="274" font-size="11.5" font-weight="700" fill="#b45309" text-anchor="end">MOSTLY DONE</text>
+    <text x="506" y="294" font-size="11.5" fill="#4b5563">Needs step-by-step procedure; variable notes to prose</text>
+
+    <!-- 3.2.3 done -->
+    <rect x="490" y="320" width="400" height="58" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="506" y="344" font-size="14" font-weight="700" fill="#1f2937">3.2.3 Sample Selection</text>
+    <text x="876" y="344" font-size="11.5" font-weight="700" fill="#15803d" text-anchor="end">DONE</text>
+    <text x="506" y="364" font-size="11.5" fill="#4b5563">Drafted, APA review, numbers checked November 13</text>
+
+    <!-- 3.2.4 partial -->
+    <rect x="490" y="390" width="400" height="58" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="506" y="414" font-size="14" font-weight="700" fill="#1f2937">3.2.4 Data Specifications</text>
+    <text x="876" y="414" font-size="11.5" font-weight="700" fill="#b45309" text-anchor="end">HALF</text>
+    <text x="506" y="434" font-size="11.5" fill="#4b5563">Needs when required/updated, the 15 items, how judged</text>
+
+    <!-- 3.3 barely started -->
+    <rect x="490" y="460" width="400" height="58" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="506" y="484" font-size="14" font-weight="700" fill="#1f2937">3.3 Data Analysis</text>
+    <text x="876" y="484" font-size="11.5" font-weight="700" fill="#b91c1c" text-anchor="end">1 PARAGRAPH</text>
+    <text x="506" y="504" font-size="11.5" fill="#4b5563">Needs measures, statistical tests, tools</text>
+
+    <!-- 3.4 empty -->
+    <rect x="490" y="530" width="400" height="58" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="506" y="554" font-size="14" font-weight="700" fill="#1f2937">3.4 Ethical Considerations</text>
+    <text x="876" y="554" font-size="11.5" font-weight="700" fill="#b91c1c" text-anchor="end">EMPTY</text>
+    <text x="506" y="574" font-size="11.5" fill="#4b5563">Needs IRB need, data privacy, CITI training</text>
+
+    <!-- 3.5 empty -->
+    <rect x="490" y="600" width="400" height="58" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="506" y="624" font-size="14" font-weight="700" fill="#1f2937">3.5 Tentative Research Schedule</text>
+    <text x="876" y="624" font-size="11.5" font-weight="700" fill="#b91c1c" text-anchor="end">EMPTY</text>
+    <text x="506" y="644" font-size="11.5" fill="#4b5563">Table has placeholders only</text>
+
+    <!-- 3.6 notes only -->
+    <rect x="490" y="670" width="400" height="58" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="506" y="694" font-size="14" font-weight="700" fill="#1f2937">3.6 Limitations and Risks</text>
+    <text x="876" y="694" font-size="11.5" font-weight="700" fill="#b91c1c" text-anchor="end">NOTES ONLY</text>
+    <text x="506" y="714" font-size="11.5" fill="#4b5563">8 limitations listed as notes; risk table empty</text>
+  </g>
+
+  <!-- Legend -->
+  <g font-size="12" fill="#374151">
+    <rect x="40" y="755" width="16" height="16" rx="3" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="64" y="768">Done (2)</text>
+    <rect x="150" y="755" width="16" height="16" rx="3" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="174" y="768">Partly done (3)</text>
+    <rect x="300" y="755" width="16" height="16" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="324" y="768">Missing or notes only (4)</text>
+    <rect x="510" y="755" width="16" height="16" rx="3" fill="#f5f3ff" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4 2"/>
+    <text x="534" y="768">Not named in the assignment, but expected</text>
+  </g>
+</svg>
