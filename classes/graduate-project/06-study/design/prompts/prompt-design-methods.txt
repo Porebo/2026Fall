@@ -159,10 +159,11 @@ every prompt file.
 8. How the responses will be evaluated
 
 Accuracy. Each response is scored against reference answers prepared by the
-researcher for the same diagram, one judgment per requirement of section
-1724.7.1, coded Present, Absent, or Illegible. Each requirement in the response
-is classed as correctly judged, wrongly judged, or not addressed. A requirement
-the response does not mention is not counted as met.
+researcher for the same diagram. For each applicable requirement of section
+1724.7.1, the key records Present or Not Present; requirements that do not
+apply are excluded from that diagram's accuracy score. Each applicable
+requirement in the response is classed as correctly judged, wrongly judged, or
+not addressed. A requirement the response does not mention counts as incorrect.
 
 Cost to the worker. The dry run of level 1 produced a long response in which a
 large share addressed matters other than the task: advice on preparing a
