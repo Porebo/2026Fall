@@ -1,0 +1,20 @@
+California Code of Regulations, Title 14, Section 1724.8. Evaluation of Wells Within the Area of Review.
+Source: Legal Information Institute (Cornell Law School), State Regulations, California Code of Regulations,
+  https://www.law.cornell.edu/regulations/california/14-CCR-1724.8
+Retrieved: November 18, 2026, by HTTP download of the page; text extracted from the page HTML.
+Text verbatim; only line breaks and spacing differ. LII does not print a currency date on the page; the History notes
+below are LII's. Check against Westlaw (official OAL publisher) before quoting in the proposal.
+==============================================================================
+
+§ 1724.8. Evaluation of Wells Within the Area of Review.
+(a) An underground injection project shall not cause or contribute to the migration of fluid outside the approved injection zone, or otherwise have an adverse effect on the underground injection project or cause damage to life, health, property, or natural resources. The following requirements apply, at minimum and subject to augmentation by the Division on a project-specific basis, to ensure that wells within the area of review will not be a potential conduit for fluid migration outside the approved injection zone:
+(1) All wells within the area of review that penetrate the injection zone for the underground injection project or a deeper zone, including directionally drilled wells that intersect the area of review in the injection zone or a deeper zone, shall be evaluated for the potential to allow fluid to migrate outside of the approved injection zone. The Division's evaluation for the potential for a well to allow fluid migration will include evaluation of the cementing records. Where cementing records are inadequate or unreliable, the Division may require a cement evaluation log. The operator should identify, and the Division confirm, wells which may require integrity testing, well logging, or monitoring in order to provide the requisite assurances that such wells will not act as conduits for fluid migration. The Division may require wells be examined, remediated, plugged and abandoned, or monitored as a condition of approval for an underground injection project if the Division is concerned that the well has the potential to allow fluid to migrate outside of the approved injection zone.
+(2) Plugged and abandoned wells within the area of review shall have cement as specified in Section 1723.1. The Division may require plugged and abandoned wells be re-entered, examined, re-plugged and abandoned, or monitored as a condition of approval for an underground injection project if the Division is concerned that the well has the potential to allow fluid to migrate outside of the approved injection zone.
+(3) If a plugged and abandoned well within the area of review does not meet the plugging specifications of subdivision
+(a)(2), the Division may approve an alternative demonstration that the well will not be a potential conduit for fluid migration outside the approved injection zone. The Division's approval of such an alternative demonstration shall be supported by written findings by the Division that identify each plugged and abandoned well in the area of review that does not meet the cement specification of subdivision (a)(2), specify how the well(s) do not meet the requirements of subdivision (a)(2), and identify the bases for the Division's approval of the alternative demonstration.
+Notes Cal. Code Regs. Tit. 14, § 1724.8
+1. New section filed 2-17-78; effective thirtieth day thereafter (Register 78, No. 7).
+2. Amendment filed 12-28-84; effective thirtieth day thereafter (Register 84, No. 52).
+3. Change without regulatory effect amending section filed 12-26-2006 pursuant to section 100, title 1, California Code of Regulations (Register 2006, No. 52).
+4. Repealer and new section filed 2-6-2019; operative 4-1-2019 (Register 2019, No. 6).
+Note: Authority cited: Sections 3013 and 3106, Public Resources Code. Reference: Section 3106, Public Resources Code.

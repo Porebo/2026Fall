@@ -1,0 +1,7 @@
+{
+ "0403033302": {"note": "Description says 'Rework WBD'; the diagram is marked Current (existing condition), so it is not treated as proposed."},
+ "0403047484": {"note": "File named 'WWD10-27 Install Inner Csg'; the schematic shows the existing completion and is not labeled proposed."},
+ "0408321273": {"note": "Two pages: page 1 'Redrill - 02' (current), page 2 'Proposed - 02'. The document is not described as proposed; kept whole and unaltered."},
+ "0403065482": {"note": "Same-date 'ST WBD' (Doc 1360210) set aside under the sidetrack-wording rule; the 'Original WBD' used shows both the original hole and the sidetrack."},
+ "0403064028": {"note": "All three diagrams are titled 'Sidetrack Permit 7037494' (OH, ST1-PB, ST2): treated as planned work under rule c; not downloaded."}
+}

@@ -165,6 +165,8 @@ The primary contribution is a 77-point presence-only instrument derived from the
 
 Findings will be communicated through the completed research proposal, thesis talk, final project or thesis manuscript, and final submission to the university library. Reproducibility materials will include the prompt files, 77-point checklist, scoring rules, human-review workbook, run log, SQLite schema, de-identified result dataset, and analysis documentation. Any publication will distinguish human-reference judgments from AI-generated output and will not represent the findings as CalGEM endorsement or as an engineering validation of the underlying well data.
 
+A further question for future work is whether the amount of non-required content on a casing diagram, which a lean analysis of a compliance document would treat as overproduction waste, or *muda* (Ubarana et al., 2021), is associated with reviewer or AI error. Answering it would require a separate, human-coded inventory of the labeled data elements on each diagram.
+
 ## 5. References
 
 {chr(10).join(references)}

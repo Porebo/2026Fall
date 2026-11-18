@@ -25,6 +25,8 @@ VISUAL_NOTES = {
     "W11": "Page content is printed sideways (landscape layout); readable after rotating.",
     "W15": "Two pages covering three boreholes (two abandoned, one current).",
     "W17": "Template title reads 'Proposed Diagram'; sheet stamped CURRENT.",
+    "U21": "Two pages; one diagram covers the original hole and the 2025 sidetrack.",
+    "U23": "Two pages: page 1 'Redrill - 02' (current); page 2 'Proposed - 02'.",
 }
 
 
@@ -79,17 +81,23 @@ def profile(path):
     }
 
 
-def main():
-    rows = [profile(p) for p in sorted(DIAGRAMS.glob("W*.pdf"))]
-    with open(OUT, "w", encoding="utf-8", newline="") as handle:
+def main(sample=SAMPLE, prefix="W"):
+    diagrams, out = sample / "diagrams", sample / "pdf-quality-profile.csv"
+    rows = [profile(p) for p in sorted(diagrams.glob(f"{prefix}*.pdf"))]
+    with open(out, "w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
         writer.writeheader()
         writer.writerows(rows)
     for kind in ("Native", "Mixed", "Scanned"):
         codes = [r["SampleCode"] for r in rows if r["InputType"] == kind]
         print(f"{kind:8} {len(codes):2}  {' '.join(codes)}")
-    print(f"Wrote {OUT}")
+    print(f"Wrote {out}")
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    # Optional: python profile_pdf_quality.py ../06-study/sample-uic U
+    if len(sys.argv) > 2:
+        main(Path(sys.argv[1]).resolve(), sys.argv[2])
+    else:
+        main()

@@ -1,0 +1,16 @@
+California Code of Regulations, Title 14, Section 1724.1. Records to be Filed with the Division.
+Source: Legal Information Institute (Cornell Law School), State Regulations, California Code of Regulations,
+  https://www.law.cornell.edu/regulations/california/14-CCR-1724.1
+Retrieved: November 18, 2026, by HTTP download of the page; text extracted from the page HTML.
+Text verbatim; only line breaks and spacing differ. LII does not print a currency date on the page; the History notes
+below are LII's. Check against Westlaw (official OAL publisher) before quoting in the proposal.
+==============================================================================
+
+§ 1724.1. Records to be Filed with the Division.
+Two true and reproducible copies of the well summary, core record, and history, and all electrical, physical and chemical logs, tests and surveys run, including mud logs shall be filed with the Division within 60 days after the completion, plugging and abandonment, or suspension of operations of a well. Dipmeter surveys shall be submitted in a form indicating the computed direction and amount of dip.
+Notes Cal. Code Regs. Tit. 14, § 1724.1
+1. New section filed 2-17-78; effective thirtieth day thereafter (Register 78, No. 7).
+2. Amendment filed 12-28-84; effective thirtieth day thereafter (Register 84, No. 52).
+3. Change without regulatory effect amending section filed 9-3-96 pursuant to section 100, title 1, California Code of Regulations (Register 96, No. 36).
+4. Change without regulatory effect amending section filed 12-26-2006 pursuant to section 100, title 1, California Code of Regulations (Register 2006, No. 52).
+Note: Authority cited: Sections 3013, 3106 and 3107, Public Resources Code. Reference: Sections 3107, 3215 and 3216, Public Resources Code.

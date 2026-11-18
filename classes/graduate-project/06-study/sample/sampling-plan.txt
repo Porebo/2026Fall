@@ -1,3 +1,59 @@
+REVISION, November 18, 2026
+Superseded by UIC-only sample (06-study/sample-uic/)
+==============================================================================
+
+This plan (version 1.5) and the 30 diagrams it produced are SUPERSEDED. They
+are kept below, unchanged, for the record. The study now uses the sample in
+../sample-uic/, which has its own sampling plan and screening log.
+
+New definition (summary; the authoritative plan is in ../sample-uic/):
+
+  Population: onshore California wells that are injection wells in a
+    CalGEM-approved underground injection control (UIC, Class II) project,
+    such as waterflood, steamflood, and water-disposal injection wells; status
+    Active or Idle; with a casing diagram in WellSTAR dated on or after
+    April 1, 2019, the operative date of 14 CCR 1724.7.1, and is a legible PDF.
+  Frame: CalGEM AllWells_20261118.csv (GIS portal, retrieved November 18,
+    2026). 242,636 wells -> Active or Idle 83,498 -> injection well types
+    23,013 -> minus 410 offshore -> N = 22,603 (Active 15,231; Idle 7,372).
+  Injection codes included: SC, SF, WF, WD, PM, GD, INJ, AI (cyclic steam per
+    14 CCR 1720.1(b), (p)). Excluded: GS, WS, OB, producers, Multi, UNK, and
+    other non-injection codes.
+  Excluded: underground gas storage wells (governed by 14 CCR 1726.4 and
+    1726.4.1), offshore wells, and plugged and abandoned wells.
+  Project membership: WellSTAR "Current Associated Projects" lists the well
+    as Injector in a UIC project with status Active or Suspended.
+  Selection: frame sorted by API, shuffled once with seed 20261118, screened
+    sequentially in WellSTAR until 30 eligible diagrams were included.
+    The 30th was reached at row 132. Not included among rows 1-132 (102):
+    NO_DIAGRAM 73, NOT_UIC_INJECTOR 26, PRE_RULE_ONLY 2, PROPOSED_ONLY 1.
+    Rows 133-135 were screened in the same batch and are not in the sample.
+  Every one of the 30 diagrams belongs to this group, and selection is random
+    within it.
+
+Reason for the change: the specification for the study is 14 CCR 1724.7.1.
+Under 14 CCR 1724.7(a)(1)(C)(iii), the data filed for an underground injection
+project must include all data specified in Section 1724.7.1 for wells in the
+area of review that are completed in or penetrate the injection zone or a
+deeper zone; an injection well in an approved project is in that class. This
+plan's frame (every Active or Idle well, well type not used) produced 22
+producing wells, 7 injection wells (W05, W07, W08, W12, W27, W29, W30), and
+1 observation well (W02). Section 1724.7.1 applied directly only to the 7
+injectors; for the others it applied only if the well lay in a UIC project's
+area of review and penetrated the injection zone or deeper, which was not
+verified per well. Two diagrams (W11, 07/05/2018; W28, 11/05/2018) pre-date
+April 1, 2019, when Section 1724.7.1 became operative. The specification
+therefore did not apply uniformly to this sample. See
+../../02-plan/casing-diagram-requirements-crosswalk.md, Section 2.
+
+The new sample is labeled U01-U30. The labels W01-W30, the files in
+diagrams/, and screening-log.csv in this folder refer to the superseded
+sample only. No well is in both samples.
+
+==============================================================================
+ORIGINAL PLAN, VERSION 1.5 (SUPERSEDED; RETAINED FOR THE RECORD)
+==============================================================================
+
 SAMPLING PLAN
 Casing Diagram Pilot Study
 Version 1.5, November 13, 2026

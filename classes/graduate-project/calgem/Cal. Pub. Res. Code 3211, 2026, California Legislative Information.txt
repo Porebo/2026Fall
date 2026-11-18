@@ -1,0 +1,10 @@
+California Public Resources Code, Section 3211.
+Source: California Legislative Information (official), https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PRC&sectionNum=3211.
+Retrieved: November 18, 2026, via the browser (Article 4 full-text display, codes_displayText.xhtml?lawCode=PRC&division=3.&chapter=1.&article=4.). Text copied verbatim; only line breaks may differ.
+==============================================================================
+
+Public Resources Code - PRC DIVISION 3. OIL AND GAS [3000 - 3865] ( Division 3 enacted by Stats. 1939, Ch. 93. ) CHAPTER 1. Oil and Gas Conservation [3000 - 3473] ( Chapter 1 enacted by Stats. 1939, Ch. 93. ) ARTICLE 4. Regulation of Operations [3200 - 3238] ( Article 4 enacted by Stats. 1939, Ch. 93. )
+
+3211.
+The log shall show the character and depth of the formation passed through or encountered in the drilling of the well. The log shall show completely the amounts, kinds, and size of casing used, the depth at which oil-bearing or gas-bearing strata are encountered, the depth and character of the strata, and whether all water overlying and underlying the oil-bearing or gas-bearing strata was successfully and permanently shut off so as to prevent the percolation or penetration of water into the oil-bearing or gas-bearing strata; and whether strata bearing water that might be suitable for irrigation or domestic purposes are properly protected from the infiltration or addition of detrimental substances from the well.
+(Amended by Stats. 1984, Ch. 278, Sec. 6.)

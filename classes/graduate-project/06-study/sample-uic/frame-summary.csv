@@ -1,0 +1,19 @@
+Group,Value,Wells
+Filter step,all,242636
+Filter step,active_idle,83498
+Filter step,injection_type,23013
+Filter step,offshore_excluded,410
+Filter step,frame,22603
+WellType,SC,9824
+WellType,SF,5812
+WellType,WF,5309
+WellType,WD,1443
+WellType,PM,112
+WellType,GD,82
+WellType,INJ,16
+WellType,AI,5
+WellStatus,Active,15231
+WellStatus,Idle,7372
+District,Central,19585
+District,Northern,1865
+District,Southern,1153

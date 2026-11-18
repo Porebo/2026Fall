@@ -1,0 +1,11 @@
+California Public Resources Code, Section 3213.
+Source: California Legislative Information (official), https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PRC&sectionNum=3213.
+Retrieved: November 18, 2026, via the browser (Article 4 full-text display, codes_displayText.xhtml?lawCode=PRC&division=3.&chapter=1.&article=4.). Text copied verbatim; only line breaks may differ.
+==============================================================================
+
+Public Resources Code - PRC DIVISION 3. OIL AND GAS [3000 - 3865] ( Division 3 enacted by Stats. 1939, Ch. 93. ) CHAPTER 1. Oil and Gas Conservation [3000 - 3473] ( Chapter 1 enacted by Stats. 1939, Ch. 93. ) ARTICLE 4. Regulation of Operations [3200 - 3238] ( Article 4 enacted by Stats. 1939, Ch. 93. )
+
+3213.
+(a) The history shall show the location and amount of sidetracked casings, tools, or other material, the depth and quantity of cement in cement plugs, the shots of dynamite or other explosives, all acid treatment data of any amount, and the results of production and other tests during drilling operations. All data on well stimulation treatments pursuant to Section 3160 shall be recorded in the history.
+(b) Acid treatment data reported in a well history where the acid treatment occurred before December 31, 2021, and that complies with the requirements of Section 1777.4 of Title 14 of the California Code of Regulations, as it read on December 31, 2021, satisfies the well history acid treatment data reporting requirement in subdivision (a).
+(Amended by Stats. 2021, Ch. 727, Sec. 6. (SB 406) Effective January 1, 2022.)

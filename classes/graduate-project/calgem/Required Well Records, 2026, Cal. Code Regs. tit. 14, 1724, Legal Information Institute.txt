@@ -1,0 +1,32 @@
+California Code of Regulations, Title 14, Section 1724. Required Well Records.
+Source: Legal Information Institute (Cornell Law School), State Regulations, California Code of Regulations,
+  https://www.law.cornell.edu/regulations/california/14-CCR-1724
+Retrieved: November 18, 2026, by HTTP download of the page; text extracted from the page HTML.
+Text verbatim; only line breaks and spacing differ. LII does not print a currency date on the page; the History notes
+below are LII's. Check against Westlaw (official OAL publisher) before quoting in the proposal.
+==============================================================================
+
+§ 1724. Required Well Records.
+The operator of any well drilled, redrilled, deepened, or reworked shall keep, or cause to be kept, an accurate record of each operation on each well including, but not limited to, the following, when applicable:
+(a) Log and history showing chronologically the following data:
+(1) Character and depth of all formations, water-bearing strata, oil- and gas-bearing zones, lost circulation zones, and abnormal pressure zones encountered.
+(2) Casing size, weight, grade, type, condition (new or used), top, bottom, and perforations; and any equipment attached to the casing.
+(3) Tubing size and depth, type and location of packers, safety devices, and other tubing equipment.
+(4) Casing pressure tests and pressure tests of the casing-tubing annulus, including date, duration, pressure, and percent bleed-off.
+(5) Hole sizes.
+(6) Cementing and plugging operations, including date, depth, slurry volume and composition, fluid displacement, pressures, calculated or actual fill, and downhole equipment.
+(7) Drill-stem, leak-off, or other formation tests, including date, duration, depth, pressures, and recovery (volume and description).
+(8) BOPE installation, inspections, and pressure tests.
+(9) Water shutoff and lap tests of casing, including date, duration, depth, and results.
+(10) Sidetracked casing, tools or other material, collapsed or bad casing, holes in casing, and stuck drill pipe, tubing, or other junk in casing or open hole.
+(11) Depth and type of all electrical, physical, or chemical logs, tests, or surveys made.
+(12) Production or injection method and equipment.
+(b) Core record showing the depth, character, and fluid content, so far as determined, of all cores, including sidewall samples.
+(c) Such other information as the Supervisor may require for the performance of his or her statutory duties.
+Notes Cal. Code Regs. Tit. 14, § 1724
+1. New section filed 2-17-78; effective thirtieth day thereafter (Register 78, No. 7). For history of former section, see Register 76, No. 39.
+2. Amendment filed 12-28-84; effective thirtieth day thereafter (Register 84, No. 52).
+3. New subsection (a)(4), subsection relettering, and amendment of newly designated subsections (a)(6)-(7) and (a)(9)-(10) and NOTE filed 8-4-95; operative 9-3-95 (Register 95, No. 31).
+4. Change without regulatory effect amending subsection (c) filed 9-3-96 pursuant to section 100, title 1, California Code of Regulations (Register 96, No. 36).
+5. Change without regulatory effect amending subsection (c) filed 12-26-2006 pursuant to section 100, title 1, California Code of Regulations (Register 2006, No. 52).
+Note: Authority cited: Sections 3013 and 3107, Public Resources Code. Reference: Sections 3106, 3107, 3203, 3210 and 3214, Public Resources Code.
