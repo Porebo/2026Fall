@@ -1,0 +1,64 @@
+PROMPT ENGINEERING PROTOCOL
+Version 2.0
+
+PURPOSE
+
+This protocol defines three prompt conditions for testing whether AI assistants
+can determine the presence or absence of the 51 atomic data points derived from
+14 CCR § 1724.7.1(a). It replaces the earlier 15-group prompt protocol.
+
+MEASUREMENT TASK
+
+The human reviewer and every AI condition make only a presence decision.
+
+MET: the diagram supplies an answer, including a value, "none", "N/A", or
+another explicit entry.
+
+MISSING: the diagram supplies no answer.
+
+The model must not judge truth, quality, plausibility, engineering validity, or
+regulatory adequacy. Any such judgment is outside the measured construct.
+
+COMMON INPUTS
+
+Every run receives:
+
+1. One original casing diagram, Wnn.pdf
+2. The verbatim Section 1724.7.1 specification
+3. The 51-point atomic checklist
+
+Every condition requests the same output fields and exactly 51 rows:
+
+Point ID | Specification Code | Displayed Answer | Status
+
+PROMPT CONDITIONS
+
+Level 1, naive:
+Minimal natural-language request specifying the common presence-only task and
+the fixed 51-row output.
+
+Level 2, informed:
+The Level 1 task is framed with persona, task, context, and format. The
+measurement rule and output structure remain unchanged. The added information
+is explicitly identified in the prompt.
+
+Level 3, chain-of-thought:
+The Level 2 prompt is retained and one sequential, step-by-step instruction is
+added. The measurement rule and output structure remain unchanged.
+
+SCORING
+
+Each of the 51 AI rows is compared with the frozen human-reference row for the
+same point. The result is:
+
+- Correctly judged
+- Wrongly judged
+- Not addressed
+
+Run accuracy is the number of correctly judged points divided by 51.
+
+CONTROL CHECK
+
+The three prompt texts, attachment checksums, and run metadata must be archived.
+The old dry-run files based on the 15-group protocol are exploratory records and
+must not be included as observations in the final study.

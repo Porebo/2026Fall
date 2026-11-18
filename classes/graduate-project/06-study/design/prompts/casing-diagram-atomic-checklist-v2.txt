@@ -1,0 +1,66 @@
+CASING DIAGRAM ATOMIC CHECKLIST
+Cal. Code Regs. tit. 14, § 1724.7.1(a)
+Version 2.0
+
+DECISION RULE
+
+For each point, report MET when the diagram supplies an answer, including a
+value, "none", "N/A", or another explicit entry. Report MISSING only when no
+answer is supplied. Do not judge truth, quality, plausibility, engineering
+validity, or regulatory adequacy.
+
+Return one row for every point below. Repeated structures must be represented:
+when a casing, interval, job, borehole, formation, or feature appears more than
+once, use the Displayed Answer cell to list every represented instance.
+
+01 | (a)(1).operator_name | Operator name
+02 | (a)(1).lease_name | Lease name
+03 | (a)(1).well_number | Well number
+04 | (a)(1).api_number | API number
+05 | (a)(2).spud_date | Spud date
+06 | (a)(3).ground_elevation | Ground elevation
+07 | (a)(4).reference_elevation | Reference elevation
+08 | (a)(5).freshwater_base | Base of freshwater
+09 | (a)(6).usdw_base | Base of lowermost USDW
+10 | (a)(7).casing_size | Casing size
+11 | (a)(7).casing_grade | Casing grade
+12 | (a)(7).connection_type | Casing connection type
+13 | (a)(7).casing_weight | Casing weight
+14 | (a)(8).shoe_depth | Shoe depth
+15 | (a)(8).stub_depth | Stub depth
+16 | (a)(8).liner_top_depth | Liner-top depth
+17 | (a)(9).perforation_depths | Perforation depths
+18 | (a)(9).perforation_intervals | Perforation intervals
+19 | (a)(9).open_hole_completions | Open-hole completions
+20 | (a)(9).water_shutoff_holes | Water-shutoff holes
+21 | (a)(9).cement_ports | Cement ports
+22 | (a)(9).cavity_shots | Cavity shots
+23 | (a)(9).cuts | Cuts
+24 | (a)(9).casing_damage_type | Casing-damage type
+25 | (a)(9).casing_damage_extent | Casing-damage extent
+26 | (a)(9).junk_or_fish_type | Junk/fish type
+27 | (a)(9).junk_or_fish_extent | Junk/fish extent
+28 | (a)(9).other_integrity_feature | Other flow/integrity feature
+29 | (a)(10).subsurface_safety_valves | Subsurface safety valves
+30 | (a)(10).packers | Packers
+31 | (a)(10).gas_lift_mandrels | Gas-lift mandrels
+32 | (a)(11).hole_diameter | Hole diameter
+33 | (a)(11).hole_depth | Hole depth
+34 | (a)(12).cement_plug_identification | Cement-plug identification
+35 | (a)(12).cement_plug_top | Cement-plug top
+36 | (a)(12).cement_plug_bottom | Cement-plug bottom
+37 | (a)(13).cement_fill_identification | Cement-fill identification
+38 | (a)(13).cement_fill_top | Cement-fill top
+39 | (a)(13).cement_fill_bottom | Cement-fill bottom
+40 | (a)(14).fluid_type | Fluid type between plugs
+41 | (a)(14).fluid_density | Fluid density between plugs
+42 | (a)(15).formation_names | Formation names
+43 | (a)(15).formation_depths | Formation depths
+44 | (a)(15).zone_names | Zone names
+45 | (a)(15).zone_depths | Zone depths
+46 | (a)(15).marker_names | Marker names
+47 | (a)(15).marker_depths | Marker depths
+48 | (a)(15).injection_zone_top | Injection-zone top
+49 | (a)(15).injection_zone_bottom | Injection-zone bottom
+50 | (a)(15).confining_layer_top | Confining-layer top
+51 | (a)(15).confining_layer_bottom | Confining-layer bottom

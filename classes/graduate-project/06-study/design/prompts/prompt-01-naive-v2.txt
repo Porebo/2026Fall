@@ -1,0 +1,11 @@
+PROMPT 01 - NAIVE (PRESENCE-ONLY BASELINE)
+Version 2.0
+
+Attachments:
+1. Wnn.pdf
+2. casing-diagram-specification.txt
+3. casing-diagram-atomic-checklist-v2.txt
+
+Everything below the line is sent to the AI.
+--------------------------------------------------------------------------------
+Review the attached casing diagram using the attached 51-point checklist from CalGEM's 14 CCR § 1724.7.1 requirements. Make only a presence decision for each point: mark `MET` when the diagram supplies an answer, including a value, “none,” or “N/A,” and mark `MISSING` when no answer is supplied. Do not judge whether the answer is true, plausible, complete as engineering data, or valid. Return exactly 51 rows, one for each checklist point, with these columns: Point ID, Specification Code, Displayed Answer, and Status.
