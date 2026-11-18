@@ -62,7 +62,9 @@ CREATE TABLE wells (
     reference_elevation_ft REAL,
     reference_elevation_type TEXT,
     base_freshwater_md_ft REAL,
-    base_usdw_md_ft REAL
+    base_freshwater_tvd_ft REAL,
+    base_usdw_md_ft REAL,
+    base_usdw_tvd_ft REAL
 );
 
 CREATE TABLE wellbores (
@@ -82,7 +84,9 @@ CREATE TABLE drilled_intervals (
     wellbore_id INTEGER NOT NULL REFERENCES wellbores(wellbore_id),
     hole_diameter_in REAL NOT NULL,
     top_md_ft REAL NOT NULL,
-    bottom_md_ft REAL NOT NULL
+    bottom_md_ft REAL NOT NULL,
+    top_tvd_ft REAL,
+    bottom_tvd_ft REAL
 );
 
 CREATE TABLE casing_intervals (
@@ -94,6 +98,8 @@ CREATE TABLE casing_intervals (
     connection_type TEXT,
     top_md_ft REAL NOT NULL,
     bottom_md_ft REAL NOT NULL,
+    top_tvd_ft REAL,
+    bottom_tvd_ft REAL,
     terminal_feature TEXT CHECK (terminal_feature IN ('SHOE', 'STUB', 'LINER_TOP', 'OTHER')),
     notes TEXT
 );
@@ -106,6 +112,8 @@ CREATE TABLE cement_jobs (
     job_date TEXT,
     top_md_ft REAL,
     bottom_md_ft REAL,
+    top_tvd_ft REAL,
+    bottom_tvd_ft REAL,
     sacks REAL,
     density_ppg REAL,
     yield_cf_per_sack REAL,
@@ -131,6 +139,8 @@ CREATE TABLE cement_placements (
     cement_job_id INTEGER REFERENCES cement_jobs(cement_job_id),
     top_md_ft REAL,
     bottom_md_ft REAL,
+    top_tvd_ft REAL,
+    bottom_tvd_ft REAL,
     determination_method TEXT
 );
 
@@ -139,6 +149,8 @@ CREATE TABLE perforation_intervals (
     wellbore_id INTEGER NOT NULL REFERENCES wellbores(wellbore_id),
     top_md_ft REAL NOT NULL,
     bottom_md_ft REAL NOT NULL,
+    top_tvd_ft REAL,
+    bottom_tvd_ft REAL,
     shots_per_ft REAL
 );
 
@@ -148,7 +160,9 @@ CREATE TABLE geological_features (
     feature_class TEXT NOT NULL CHECK (feature_class IN ('FORMATION', 'ZONE', 'MARKER', 'INJECTION_ZONE', 'CONFINING_LAYER')),
     feature_name TEXT NOT NULL,
     top_md_ft REAL,
-    bottom_md_ft REAL
+    bottom_md_ft REAL,
+    top_tvd_ft REAL,
+    bottom_tvd_ft REAL
 );
 
 CREATE TABLE downhole_assemblies (
@@ -163,6 +177,8 @@ CREATE TABLE downhole_components (
     component_type TEXT NOT NULL,
     top_md_ft REAL,
     bottom_md_ft REAL,
+    top_tvd_ft REAL,
+    bottom_tvd_ft REAL,
     notes TEXT
 );
 
@@ -179,6 +195,8 @@ CREATE TABLE well_features (
     ),
     top_md_ft REAL,
     bottom_md_ft REAL,
+    top_tvd_ft REAL,
+    bottom_tvd_ft REAL,
     description TEXT
 );
 
@@ -246,12 +264,12 @@ END;
 CREATE VIEW casing_final_score AS
 SELECT
     d.diagram_number,
-    51 AS scoring_items,
+    77 AS scoring_items,
     COUNT(CASE WHEN r.status = 'MET' THEN 1 END) AS complete_items,
     COUNT(CASE WHEN r.status = 'MISSING' THEN 1 END) AS missing_items,
     ROUND(
         100.0 * COUNT(CASE WHEN r.status = 'MET' THEN 1 END)
-        / 51.0,
+        / 77.0,
         1
     ) AS completeness_percentage
 FROM diagrams AS d
@@ -358,6 +376,39 @@ INSERT INTO spec_requirements (
     (59, 2, '(b)(3).wellbore_path_md', 'Wellbore-path measured depth', 'Measured depths along the wellbore path.', 'WELLBORE', 0),
     (60, 2, '(b)(3).inclination', 'Wellbore inclination', 'Inclination measurements for the wellbore path.', 'WELLBORE', 0),
     (61, 2, '(b)(3).azimuth', 'Wellbore azimuth', 'Azimuth measurements for the wellbore path.', 'WELLBORE', 0);
+
+UPDATE spec_requirements SET requirement_code = requirement_code || '.md', requirement_name = requirement_name || ' (MD)' WHERE requirement_id IN (8, 9, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 27, 33, 35, 36, 38, 39, 43, 45, 47, 48, 49, 50, 51);
+
+INSERT INTO spec_requirements (
+    requirement_id, section_id, requirement_code, requirement_name,
+    requirement_text, scope_type, is_conditional
+) VALUES
+    (62, 1, '(a)(5).freshwater_base.tvd', 'Base of freshwater (TVD)', 'True vertical depth of the base of freshwater.', 'WELL', 0),
+    (63, 1, '(a)(6).usdw_base.tvd', 'Base of lowermost USDW (TVD)', 'True vertical depth of the lowermost USDW base.', 'WELL', 0),
+    (64, 1, '(a)(8).shoe_depth.tvd', 'Shoe depth (TVD)', 'True vertical depth of each casing shoe.', 'INTERVAL', 0),
+    (65, 1, '(a)(8).stub_depth.tvd', 'Stub depth (TVD)', 'True vertical depth of each casing stub.', 'INTERVAL', 1),
+    (66, 1, '(a)(8).liner_top_depth.tvd', 'Liner-top depth (TVD)', 'True vertical depth of each liner top.', 'INTERVAL', 1),
+    (67, 1, '(a)(9).perforation_depths.tvd', 'Perforation depths (TVD)', 'True vertical depths of perforations.', 'INTERVAL', 1),
+    (68, 1, '(a)(9).perforation_intervals.tvd', 'Perforation intervals (TVD)', 'True vertical depths for perforation interval boundaries.', 'INTERVAL', 1),
+    (69, 1, '(a)(9).open_hole_completions.tvd', 'Open-hole completions (TVD)', 'True vertical depths of open-hole completions.', 'INTERVAL', 1),
+    (70, 1, '(a)(9).water_shutoff_holes.tvd', 'Water-shutoff holes (TVD)', 'True vertical depths of water-shutoff holes.', 'INTERVAL', 1),
+    (71, 1, '(a)(9).cement_ports.tvd', 'Cement ports (TVD)', 'True vertical depths of cement ports.', 'INTERVAL', 1),
+    (72, 1, '(a)(9).cavity_shots.tvd', 'Cavity shots (TVD)', 'True vertical depths of cavity shots.', 'INTERVAL', 1),
+    (73, 1, '(a)(9).cuts.tvd', 'Cuts (TVD)', 'True vertical depths of casing cuts.', 'INTERVAL', 1),
+    (74, 1, '(a)(9).casing_damage_extent.tvd', 'Casing-damage extent (TVD)', 'True vertical depth extent of casing damage.', 'INTERVAL', 1),
+    (75, 1, '(a)(9).junk_or_fish_extent.tvd', 'Junk/fish extent (TVD)', 'True vertical depth extent of junk or fish.', 'INTERVAL', 1),
+    (76, 1, '(a)(11).hole_depth.tvd', 'Hole depth (TVD)', 'True vertical depth for every drilled interval.', 'INTERVAL', 0),
+    (77, 1, '(a)(12).cement_plug_top.tvd', 'Cement-plug top (TVD)', 'True vertical depth of each cement-plug top.', 'INTERVAL', 1),
+    (78, 1, '(a)(12).cement_plug_bottom.tvd', 'Cement-plug bottom (TVD)', 'True vertical depth of each cement-plug bottom.', 'INTERVAL', 1),
+    (79, 1, '(a)(13).cement_fill_top.tvd', 'Cement-fill top (TVD)', 'True vertical depth of cement-fill tops.', 'INTERVAL', 0),
+    (80, 1, '(a)(13).cement_fill_bottom.tvd', 'Cement-fill bottom (TVD)', 'True vertical depth of cement-fill bottoms.', 'INTERVAL', 0),
+    (81, 1, '(a)(15).formation_depths.tvd', 'Formation depths (TVD)', 'True vertical depths of formations.', 'INTERVAL', 0),
+    (82, 1, '(a)(15).zone_depths.tvd', 'Zone depths (TVD)', 'True vertical depths of zones.', 'INTERVAL', 1),
+    (83, 1, '(a)(15).marker_depths.tvd', 'Marker depths (TVD)', 'True vertical depths of markers.', 'INTERVAL', 0),
+    (84, 1, '(a)(15).injection_zone_top.tvd', 'Injection-zone top (TVD)', 'True vertical depth of the injection-zone top.', 'INTERVAL', 1),
+    (85, 1, '(a)(15).injection_zone_bottom.tvd', 'Injection-zone bottom (TVD)', 'True vertical depth of the injection-zone bottom.', 'INTERVAL', 1),
+    (86, 1, '(a)(15).confining_layer_top.tvd', 'Confining-layer top (TVD)', 'True vertical depth of each confining-layer top.', 'INTERVAL', 1),
+    (87, 1, '(a)(15).confining_layer_bottom.tvd', 'Confining-layer bottom (TVD)', 'True vertical depth of each confining-layer bottom.', 'INTERVAL', 1);
 
 INSERT INTO spec_validation_rules (rule_id, regulation_id, rule_code, rule_name, rule_text) VALUES
     (1, 1, '(c).all_boreholes', 'All-borehole coverage', 'Apply all requirements separately to original, redrilled, and sidetracked boreholes.'),

@@ -11,8 +11,8 @@ from openpyxl.worksheet.datavalidation import DataValidation
 
 ROOT = Path(__file__).resolve().parent
 DB_PATH = ROOT / "casing_specs.db"
-MARKDOWN_PATH = ROOT / "W01-human-review-questions.md"
-OUTPUT_PATH = ROOT / "W01-human-review-51point-score.xlsx"
+OUTPUT_PATH = ROOT / "W01-human-review-77point-score.xlsx"
+QUESTIONNAIRE_PATH = ROOT / "W01-human-review-questions.md"
 
 DESTINATIONS = {
     1: "operators.operator_name",
@@ -76,6 +76,32 @@ DESTINATIONS = {
     59: "borehole_surveys.md_ft",
     60: "borehole_surveys.inclination_deg",
     61: "borehole_surveys.azimuth_deg",
+    62: "wells.base_freshwater_tvd_ft",
+    63: "wells.base_usdw_tvd_ft",
+    64: "casing_intervals.bottom_tvd_ft",
+    65: "casing_intervals.bottom_tvd_ft",
+    66: "casing_intervals.top_tvd_ft",
+    67: "perforation_intervals.top_tvd_ft; bottom_tvd_ft",
+    68: "perforation_intervals.top_tvd_ft; bottom_tvd_ft",
+    69: "well_features.top_tvd_ft; bottom_tvd_ft",
+    70: "well_features.top_tvd_ft; bottom_tvd_ft",
+    71: "well_features.top_tvd_ft; bottom_tvd_ft",
+    72: "well_features.top_tvd_ft; bottom_tvd_ft",
+    73: "well_features.top_tvd_ft; bottom_tvd_ft",
+    74: "well_features.top_tvd_ft; bottom_tvd_ft",
+    75: "well_features.top_tvd_ft; bottom_tvd_ft",
+    76: "drilled_intervals.bottom_tvd_ft",
+    77: "cement_placements.top_tvd_ft",
+    78: "cement_placements.bottom_tvd_ft",
+    79: "cement_placements.top_tvd_ft",
+    80: "cement_placements.bottom_tvd_ft",
+    81: "geological_features.top_tvd_ft; bottom_tvd_ft (FORMATION)",
+    82: "geological_features.top_tvd_ft; bottom_tvd_ft (ZONE)",
+    83: "geological_features.top_tvd_ft; bottom_tvd_ft (MARKER)",
+    84: "geological_features.top_tvd_ft (INJECTION_ZONE)",
+    85: "geological_features.bottom_tvd_ft (INJECTION_ZONE)",
+    86: "geological_features.top_tvd_ft (CONFINING_LAYER)",
+    87: "geological_features.bottom_tvd_ft (CONFINING_LAYER)",
 }
 
 
@@ -86,19 +112,16 @@ def load_requirements():
             SELECT requirement_id, requirement_code, requirement_name,
                    requirement_text, scope_type, is_conditional
             FROM spec_requirements
-            ORDER BY requirement_id
+            ORDER BY CASE section_id WHEN 1 THEN 0 ELSE 1 END, requirement_id
             """
         ).fetchall()
 
 
 def load_questions():
-    markdown = MARKDOWN_PATH.read_text(encoding="utf-8")
-    matches = re.findall(
-        r"^(\d+)\. \*\*(.+?)\*\*\s*$",
-        markdown,
-        flags=re.MULTILINE,
-    )
-    return {int(number): question for number, question in matches}
+    return {
+        row[0]: f"What answer is supplied for {row[2]}?"
+        for row in load_requirements()
+    }
 
 
 def style_review_sheet(sheet, row_count):
@@ -165,11 +188,11 @@ def style_review_sheet(sheet, row_count):
 def build_workbook():
     questions = load_questions()
     requirements = load_requirements()
-    expected_ids = set(range(1, 62))
+    expected_ids = set(range(1, 88))
     if set(questions) != expected_ids:
-        raise RuntimeError("The Markdown questions are not numbered exactly 1 through 61.")
+        raise RuntimeError("The generated questions do not cover all 87 requirements.")
     if {row[0] for row in requirements} != expected_ids:
-        raise RuntimeError("The database requirements are not numbered exactly 1 through 61.")
+        raise RuntimeError("The database requirements are not numbered exactly 1 through 87.")
 
     workbook = Workbook()
     review = workbook.active
@@ -192,15 +215,18 @@ def build_workbook():
             "MD / TVD Note",
         ]
     )
-    for row_id, code, name, _, _, conditional in requirements:
+    for point_id, (row_id, code, name, _, _, conditional) in enumerate(requirements, 1):
         review.append(
             [
-                row_id,
+                point_id,
                 code,
                 name,
                 questions[row_id],
                 "Yes" if conditional else "No",
-                DESTINATIONS[row_id],
+                DESTINATIONS.get(
+                    row_id,
+                    "TVD counterpart of the corresponding subdivision-(a) depth field",
+                ),
                 "",
                 "",
                 "",
@@ -208,7 +234,7 @@ def build_workbook():
                 "",
             ]
         )
-    style_review_sheet(review, 62)
+    style_review_sheet(review, 88)
 
     summary.sheet_view.showGridLines = False
     summary["A1"] = "W01 HUMAN REVIEW SUMMARY"
@@ -221,12 +247,12 @@ def build_workbook():
         cell.fill = PatternFill("solid", fgColor="1F6D78")
         cell.font = Font(color="FFFFFF", bold=True)
     summary_rows = [
-        ("Stored specification requirements", "=COUNTA('Review W01'!A2:A62)"),
-        ("Diagram-scoring requirements", "=COUNTA('Review W01'!A2:A52)"),
-        ("Scoring rows completed", "=COUNTA('Review W01'!G2:G52)"),
-        ("MET", '=COUNTIF(\'Review W01\'!G2:G52,"MET")'),
-        ("MISSING", '=COUNTIF(\'Review W01\'!G2:G52,"MISSING")'),
-        ("Scoring denominator", "=B5"),
+        ("Stored specification requirements", "=COUNTA('Review W01'!A2:A88)"),
+        ("Diagram-scoring requirements", "=COUNTA('Review W01'!A2:A78)"),
+        ("Scoring rows completed", "=COUNTA('Review W01'!G2:G78)"),
+        ("MET", '=COUNTIF(\'Review W01\'!G2:G78,"MET")'),
+        ("MISSING", '=COUNTIF(\'Review W01\'!G2:G78,"MISSING")'),
+        ("Scoring denominator", "=77"),
         ("Completeness %", "=IFERROR(B7/(B7+B8),0)"),
     ]
     for label, formula in summary_rows:
@@ -239,7 +265,7 @@ def build_workbook():
     instruction_lines = [
         ("W01 HUMAN REVIEW WORKBOOK", "17365D"),
         ("Purpose", "1F6D78"),
-        ("Open this workbook beside W01.pdf. Answer one row for each of the 61 atomic specification requirements.", None),
+        ("Open this workbook beside W01.pdf. Answer the 77 diagram rows and retain the 10 supporting-documentation rows.", None),
         ("Recommended workflow", "1F6D78"),
         ("1. Read the Human Question.", None),
         ("2. Select MET or MISSING in Status.", None),
@@ -273,13 +299,62 @@ def build_workbook():
 
     workbook.save(OUTPUT_PATH)
 
+    scored_requirements = requirements[:77]
+    supporting_requirements = requirements[77:]
+    questionnaire = [
+        "# W01 Human Review Questions",
+        "",
+        "This checklist contains 77 scored diagram questions and 10 supporting-documentation records.",
+        "",
+        "The reviewer makes only a presence decision. Record `MET` when an answer is",
+        "supplied, including N/A, none, or an unusual value. Record `MISSING` when no",
+        "answer is supplied. Do not judge truth, quality, plausibility, or validity.",
+        "",
+        "For every depth-bearing point, evaluate MD and TVD separately.",
+        "",
+        "## Scored diagram questions",
+        "",
+    ]
+    for point_id, (_, code, name, _, _, _) in enumerate(scored_requirements, 1):
+        questionnaire.extend(
+            [
+                f"{point_id}. **What answer is supplied for {name}?**",
+                f"   - Specification code: `{code}`",
+                "   - Status: MET / MISSING",
+                "   - Displayed answer: __________________",
+                "   - Diagram location: __________________",
+                "",
+            ]
+        )
+    questionnaire.extend(
+        [
+            "## Supporting-documentation records",
+            "",
+            "These records are retained in the database but are not part of the 77-point",
+            "visual casing-diagram completeness score.",
+            "",
+        ]
+    )
+    for point_id, (_, code, name, _, _, _) in enumerate(
+        supporting_requirements, 78
+    ):
+        questionnaire.extend(
+            [
+                f"{point_id}. **What supporting information is available for {name}?**",
+                f"   - Specification code: `{code}`",
+                "   - Evidence/reference: __________________",
+                "",
+            ]
+        )
+    QUESTIONNAIRE_PATH.write_text("\n".join(questionnaire) + "\n", encoding="utf-8")
+
     verified = load_workbook(OUTPUT_PATH, data_only=False)
     review_check = verified["Review W01"]
-    if review_check.max_row != 62 or review_check.max_column != 11:
-        raise RuntimeError("Workbook dimensions do not match the expected 61-row checklist.")
-    if review_check["A2"].value != 1 or review_check["A62"].value != 61:
+    if review_check.max_row != 88 or review_check.max_column != 11:
+        raise RuntimeError("Workbook dimensions do not match the expected 87-row checklist.")
+    if review_check["A2"].value != 1 or review_check["A88"].value != 87:
         raise RuntimeError("Workbook requirement numbering is incomplete.")
-    print(f"Created {OUTPUT_PATH.name}: 61 rows, 11 columns, {OUTPUT_PATH.stat().st_size} bytes")
+    print(f"Created {OUTPUT_PATH.name}: 87 rows, 11 columns, {OUTPUT_PATH.stat().st_size} bytes")
 
 
 if __name__ == "__main__":

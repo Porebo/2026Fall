@@ -15,25 +15,27 @@ Source: Blackboard › Weeks 9–14 Student Research Project Proposals › Final
 
 | # | Section | Requirement | Done |
 |---|---|---|---|
-| 1 | Title page | Follow a dissertation title page model (papertrue.com/blog/dissertation-title-page) | [ ] |
-| 2 | Table of contents | Optional | [ ] |
-| 3 | Introduction | Follow Scribbr's research proposal guide | [ ] |
-| 4 | Literature review | At least 20 articles cited in the body; most peer reviewed. Read 40–60 to choose the strongest 20. | [ ] |
-| 5 | Data, research design, and schedule | The data to collect, the research design, a tentative schedule, and the expected limitations and risks with how each is handled | [ ] |
-| 6 | Closing remarks | Contributions to the field, and how the findings will be communicated | [ ] |
-| 7 | Reference list | One citation style (APA, MLA, IEEE), applied consistently. Every reference is cited in the text and carries a link to the article. | [ ] |
-| 8 | AI tools acknowledgement | Name any AI tools used to brainstorm, find sources, draft content, or format and edit | [ ] |
+| 1 | Title page | Follow a dissertation title page model (papertrue.com/blog/dissertation-title-page) | [x] Drafted in `Final Research Proposal Draft.md` |
+| 2 | Table of contents | Optional | [x] Included |
+| 3 | Introduction | Follow Scribbr's research proposal guide | [x] Included |
+| 4 | Literature review | At least 20 articles cited in the body; most peer reviewed. Read 40–60 to choose the strongest 20. | [x] Included; verify final citation count and source folder |
+| 5 | Data, research design, and schedule | The data to collect, the research design, a tentative schedule, and the expected limitations and risks with how each is handled | [x] Included |
+| 6 | Closing remarks | Contributions to the field, and how the findings will be communicated | [x] Drafted |
+| 7 | Reference list | One citation style (APA, MLA, IEEE), applied consistently. Every reference is cited in the text and carries a link to the article. | [x] Consolidated APA-style draft; final audit remains |
+| 8 | AI tools acknowledgement | Name any AI tools used to brainstorm, find sources, draft content, or format and edit | [x] Drafted |
 
 ### Progress on section 5 (drafted in `3. Research Design and Methods.md`)
 
-- [ ] 3.1 Data to Be Collected
+- [x] 3.1 Data to Be Collected
 - [x] 3.2.1 Data Quality Dimension: Completeness (drafted and APA pass done November 12, 2026)
-- [ ] 3.2.2 Design Type and Variables
-- [ ] 3.2.3 Sample Selection
-- [ ] 3.3 Data Analysis
-- [ ] 3.4 Ethical Considerations
-- [ ] 3.5 Tentative Research Schedule
-- [ ] 3.6 Limitations and Risks
+- [x] 3.2.2 Design Type and Variables
+- [x] 3.2.3 Prompt Engineering and Experimental Conditions
+- [x] 3.2.4 Sample Selection
+- [x] 3.2.5 Data Specifications
+- [x] 3.3 Data Analysis
+- [x] 3.4 Ethical Considerations
+- [x] 3.5 Tentative Research Schedule
+- [x] 3.6 Limitations and Risks (working matrix still requires filled rows)
 
 ## 2. Format
 
@@ -80,5 +82,7 @@ Note: the instructions name "Dr. Pierce and Dr. Wu" in one place and "Dr. Wu and
 - `draft-introduction-paragraphs.txt`: introduction paragraphs drafted November 10
 - `Research Proposal Lester S Carcamo.pptx`: the proposal slides
 - `3. Research Design and Methods.md`: draft of section 5, with `variables-diagram.svg` and `test-flow-diagram.svg`
+- `Final Research Proposal Draft.md`: consolidated draft in the assignment's required section order
+- `build_final_proposal.py`: rebuilds the consolidated draft from the three working section files
 - Course PDFs on proposals live in the [Research Methods course archive](../../research-methods/archive/index.html)
 - `samples/`: sample dissertation proposals to compare against

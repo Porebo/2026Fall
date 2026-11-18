@@ -4,8 +4,10 @@ Version 2.0
 PURPOSE
 
 This protocol defines three prompt conditions for testing whether AI assistants
-can determine the presence or absence of the 51 atomic data points derived from
-14 CCR § 1724.7.1(a). It replaces the earlier 15-group prompt protocol.
+can determine the presence or absence of the 77 atomic data points derived from
+14 CCR § 1724.7.1. The set combines the subdivision-(a) content with the
+subdivision-(d) requirement for separate MD and TVD representations. It
+replaces the earlier 15-group prompt protocol.
 
 MEASUREMENT TASK
 
@@ -25,9 +27,10 @@ Every run receives:
 
 1. One original casing diagram, Wnn.pdf
 2. The verbatim Section 1724.7.1 specification
-3. The 51-point atomic checklist
+3. The 77-point atomic checklist, including separate MD and TVD rows
 
-Every condition requests the same output fields and exactly 51 rows:
+Every depth-bearing requirement has separate MD and TVD points. Every condition
+requests the same output fields and exactly 77 rows:
 
 Point ID | Specification Code | Displayed Answer | Status
 
@@ -35,7 +38,7 @@ PROMPT CONDITIONS
 
 Level 1, naive:
 Minimal natural-language request specifying the common presence-only task and
-the fixed 51-row output.
+the fixed 77-row output.
 
 Level 2, informed:
 The Level 1 task is framed with persona, task, context, and format. The
@@ -46,6 +49,25 @@ Level 3, chain-of-thought:
 The Level 2 prompt is retained and one sequential, step-by-step instruction is
 added. The measurement rule and output structure remain unchanged.
 
+ETHICAL EXECUTION CONDITIONS
+
+All runs are performed manually through ordinary consumer interfaces. Do not use
+bots, browser automation, scraping, scripts, API substitution, or programmatic
+extraction of model responses. The researcher opens a new conversation, uploads
+the approved public inputs, pastes the exact prompt, and manually copies the
+first response into the designated file.
+
+The run log records the service, account type, prompt version, diagram
+identifier, attachment set, date, displayed model version when available,
+assigned prompt order, privacy/training setting, and output filename. Prompt
+order is counterbalanced across diagram-service pairs. Only the public casing
+diagram, verbatim regulation, atomic checklist, and approved prompt may be
+uploaded.
+
+These controls preserve direct account control and avoid assuming permission to
+automate consumer services. The exact applicable terms and privacy settings
+must be rechecked before data collection.
+
 SCORING
 
 Each of the 51 AI rows is compared with the frozen human-reference row for the
@@ -55,7 +77,7 @@ same point. The result is:
 - Wrongly judged
 - Not addressed
 
-Run accuracy is the number of correctly judged points divided by 51.
+Run accuracy is the number of correctly judged points divided by 77.
 
 CONTROL CHECK
 

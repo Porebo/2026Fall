@@ -20,47 +20,73 @@ once, use the Displayed Answer cell to list every represented instance.
 05 | (a)(2).spud_date | Spud date
 06 | (a)(3).ground_elevation | Ground elevation
 07 | (a)(4).reference_elevation | Reference elevation
-08 | (a)(5).freshwater_base | Base of freshwater
-09 | (a)(6).usdw_base | Base of lowermost USDW
+08 | (a)(5).freshwater_base.md | Base of freshwater (MD)
+09 | (a)(6).usdw_base.md | Base of lowermost USDW (MD)
 10 | (a)(7).casing_size | Casing size
 11 | (a)(7).casing_grade | Casing grade
 12 | (a)(7).connection_type | Casing connection type
 13 | (a)(7).casing_weight | Casing weight
-14 | (a)(8).shoe_depth | Shoe depth
-15 | (a)(8).stub_depth | Stub depth
-16 | (a)(8).liner_top_depth | Liner-top depth
-17 | (a)(9).perforation_depths | Perforation depths
-18 | (a)(9).perforation_intervals | Perforation intervals
-19 | (a)(9).open_hole_completions | Open-hole completions
-20 | (a)(9).water_shutoff_holes | Water-shutoff holes
-21 | (a)(9).cement_ports | Cement ports
-22 | (a)(9).cavity_shots | Cavity shots
-23 | (a)(9).cuts | Cuts
+14 | (a)(8).shoe_depth.md | Shoe depth (MD)
+15 | (a)(8).stub_depth.md | Stub depth (MD)
+16 | (a)(8).liner_top_depth.md | Liner-top depth (MD)
+17 | (a)(9).perforation_depths.md | Perforation depths (MD)
+18 | (a)(9).perforation_intervals.md | Perforation intervals (MD)
+19 | (a)(9).open_hole_completions.md | Open-hole completions (MD)
+20 | (a)(9).water_shutoff_holes.md | Water-shutoff holes (MD)
+21 | (a)(9).cement_ports.md | Cement ports (MD)
+22 | (a)(9).cavity_shots.md | Cavity shots (MD)
+23 | (a)(9).cuts.md | Cuts (MD)
 24 | (a)(9).casing_damage_type | Casing-damage type
-25 | (a)(9).casing_damage_extent | Casing-damage extent
+25 | (a)(9).casing_damage_extent.md | Casing-damage extent (MD)
 26 | (a)(9).junk_or_fish_type | Junk/fish type
-27 | (a)(9).junk_or_fish_extent | Junk/fish extent
+27 | (a)(9).junk_or_fish_extent.md | Junk/fish extent (MD)
 28 | (a)(9).other_integrity_feature | Other flow/integrity feature
 29 | (a)(10).subsurface_safety_valves | Subsurface safety valves
 30 | (a)(10).packers | Packers
 31 | (a)(10).gas_lift_mandrels | Gas-lift mandrels
 32 | (a)(11).hole_diameter | Hole diameter
-33 | (a)(11).hole_depth | Hole depth
+33 | (a)(11).hole_depth.md | Hole depth (MD)
 34 | (a)(12).cement_plug_identification | Cement-plug identification
-35 | (a)(12).cement_plug_top | Cement-plug top
-36 | (a)(12).cement_plug_bottom | Cement-plug bottom
+35 | (a)(12).cement_plug_top.md | Cement-plug top (MD)
+36 | (a)(12).cement_plug_bottom.md | Cement-plug bottom (MD)
 37 | (a)(13).cement_fill_identification | Cement-fill identification
-38 | (a)(13).cement_fill_top | Cement-fill top
-39 | (a)(13).cement_fill_bottom | Cement-fill bottom
+38 | (a)(13).cement_fill_top.md | Cement-fill top (MD)
+39 | (a)(13).cement_fill_bottom.md | Cement-fill bottom (MD)
 40 | (a)(14).fluid_type | Fluid type between plugs
 41 | (a)(14).fluid_density | Fluid density between plugs
 42 | (a)(15).formation_names | Formation names
-43 | (a)(15).formation_depths | Formation depths
+43 | (a)(15).formation_depths.md | Formation depths (MD)
 44 | (a)(15).zone_names | Zone names
-45 | (a)(15).zone_depths | Zone depths
+45 | (a)(15).zone_depths.md | Zone depths (MD)
 46 | (a)(15).marker_names | Marker names
-47 | (a)(15).marker_depths | Marker depths
-48 | (a)(15).injection_zone_top | Injection-zone top
-49 | (a)(15).injection_zone_bottom | Injection-zone bottom
-50 | (a)(15).confining_layer_top | Confining-layer top
-51 | (a)(15).confining_layer_bottom | Confining-layer bottom
+47 | (a)(15).marker_depths.md | Marker depths (MD)
+48 | (a)(15).injection_zone_top.md | Injection-zone top (MD)
+49 | (a)(15).injection_zone_bottom.md | Injection-zone bottom (MD)
+50 | (a)(15).confining_layer_top.md | Confining-layer top (MD)
+51 | (a)(15).confining_layer_bottom.md | Confining-layer bottom (MD)
+52 | (a)(5).freshwater_base.tvd | Base of freshwater (TVD)
+53 | (a)(6).usdw_base.tvd | Base of lowermost USDW (TVD)
+54 | (a)(8).shoe_depth.tvd | Shoe depth (TVD)
+55 | (a)(8).stub_depth.tvd | Stub depth (TVD)
+56 | (a)(8).liner_top_depth.tvd | Liner-top depth (TVD)
+57 | (a)(9).perforation_depths.tvd | Perforation depths (TVD)
+58 | (a)(9).perforation_intervals.tvd | Perforation intervals (TVD)
+59 | (a)(9).open_hole_completions.tvd | Open-hole completions (TVD)
+60 | (a)(9).water_shutoff_holes.tvd | Water-shutoff holes (TVD)
+61 | (a)(9).cement_ports.tvd | Cement ports (TVD)
+62 | (a)(9).cavity_shots.tvd | Cavity shots (TVD)
+63 | (a)(9).cuts.tvd | Cuts (TVD)
+64 | (a)(9).casing_damage_extent.tvd | Casing-damage extent (TVD)
+65 | (a)(9).junk_or_fish_extent.tvd | Junk/fish extent (TVD)
+66 | (a)(11).hole_depth.tvd | Hole depth (TVD)
+67 | (a)(12).cement_plug_top.tvd | Cement-plug top (TVD)
+68 | (a)(12).cement_plug_bottom.tvd | Cement-plug bottom (TVD)
+69 | (a)(13).cement_fill_top.tvd | Cement-fill top (TVD)
+70 | (a)(13).cement_fill_bottom.tvd | Cement-fill bottom (TVD)
+71 | (a)(15).formation_depths.tvd | Formation depths (TVD)
+72 | (a)(15).zone_depths.tvd | Zone depths (TVD)
+73 | (a)(15).marker_depths.tvd | Marker depths (TVD)
+74 | (a)(15).injection_zone_top.tvd | Injection-zone top (TVD)
+75 | (a)(15).injection_zone_bottom.tvd | Injection-zone bottom (TVD)
+76 | (a)(15).confining_layer_top.tvd | Confining-layer top (TVD)
+77 | (a)(15).confining_layer_bottom.tvd | Confining-layer bottom (TVD)

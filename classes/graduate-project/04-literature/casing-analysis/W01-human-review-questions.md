@@ -1,329 +1,519 @@
 # W01 Human Review Questions
 
-This checklist has **61 questions**, corresponding one-to-one with the 61 atomic
-requirements stored in `spec_requirements`.
-
-For every question, enter:
-
-1. The value shown on W01, or **Not present**, or **Not applicable**.
-2. The location on the diagram.
-3. A short note when “not applicable” is used.
-
-Repeat an interval-level answer for every occurrence in the diagram. Do not
-combine separate casing strings, cement jobs, formations, or well features.
-
-## (a) Casing-diagram data
-
-### (a)(1) Well identity
-
-1. **What operator name is shown?**  
-   Answer: `________________`  
-   Storage: `operators.operator_name`
-
-2. **What lease name is shown?**  
-   Answer: `________________`  
-   Storage: `wells.lease_name`
-
-3. **What well number is shown?**  
-   Answer: `________________`  
-   Storage: `wells.well_number`
-
-4. **What API number is shown?**  
-   Answer: `________________`  
-   Storage: `wells.api_number`
-
-### (a)(2) Spud date
-
-5. **What spud date is shown?**  
-   Answer: `________________`  
-   Storage: `wells.spud_date`
-
-### (a)(3) Ground elevation
-
-6. **What ground elevation from sea level is shown, including the unit?**  
-   Answer: `________________`  
-   Storage: `wells.ground_elevation_ft`
-
-### (a)(4) Reference elevation
-
-7. **What reference elevation is shown, and is the reference a rig floor or Kelly bushing?**  
-   Answer: `________________`  
-   Storage: `wells.reference_elevation_ft` and `wells.reference_elevation_type`
-
-### (a)(5)–(a)(6) Water-protection bases
-
-8. **What is the depth of the base of freshwater?**  
-   Answer: `________________`  
-   Storage: `wells.base_freshwater_md_ft`
-
-9. **What is the depth of the base of the lowermost USDW penetrated by the well?**  
-   Answer: `________________`  
-   Storage: `wells.base_usdw_md_ft`
-
-### (a)(7) Casing specifications
-
-For every casing string, answer questions 10–13:
-
-10. **What is the casing size or outside diameter?**  
-    Answers: `________________`  
-    Storage: `casing_intervals.casing_diameter_in`
-
-11. **What is the casing grade or schedule?**  
-    Answers: `________________`  
-    Storage: `casing_intervals.grade_or_schedule`
-
-12. **What is the casing connection type?**  
-    Answers: `________________`  
-    Storage: `casing_intervals.connection_type`
-
-13. **What is the casing weight, including the unit?**  
-    Answers: `________________`  
-    Storage: `casing_intervals.weight_ppf`
-
-### (a)(8) Casing-set depths
-
-14. **What depth is shown for each casing shoe?**  
-    Answers: `________________`  
-    Storage: `casing_intervals.bottom_md_ft` with `terminal_feature = 'SHOE'`
-
-15. **What depth is shown for each casing stub, if any?**  
-    Answers or applicability explanation: `________________`  
-    Storage: `casing_intervals.bottom_md_ft` with `terminal_feature = 'STUB'`
-
-16. **What depth is shown for each liner top, if any?**  
-    Answers or applicability explanation: `________________`  
-    Storage: `casing_intervals.top_md_ft` with `terminal_feature = 'LINER_TOP'`
-
-### (a)(9) Flow and mechanical-integrity features
-
-17. **What perforation depths are shown?**  
-    Answers: `________________`  
-    Storage: `perforation_intervals.top_md_ft` and `bottom_md_ft`
-
-18. **What is the top and bottom of each perforation interval?**  
-    Answers: `________________`  
-    Storage: `perforation_intervals.top_md_ft` and `bottom_md_ft`
-
-19. **Are open-hole completion intervals shown? Give the top and bottom of each.**  
-    Answers or applicability explanation: `________________`  
-    Storage: `well_features` with `feature_type = 'OPEN_HOLE_COMPLETION'`
-
-20. **Are water-shutoff holes shown? Give the depth of each.**  
-    Answers or applicability explanation: `________________`  
-    Storage: `well_features` with `feature_type = 'WATER_SHUTOFF_HOLE'`
-
-21. **Are cement ports shown? Give the depth of each.**  
-    Answers or applicability explanation: `________________`  
-    Storage: `well_features` with `feature_type = 'CEMENT_PORT'`
-
-22. **Are cavity shots shown? Give the depth of each.**  
-    Answers or applicability explanation: `________________`  
-    Storage: `well_features` with `feature_type = 'CAVITY_SHOT'`
-
-23. **Are casing cuts shown? Give the depth and extent of each.**  
-    Answers or applicability explanation: `________________`  
-    Storage: `well_features` with `feature_type = 'CUT'`
-
-24. **Is any type of casing damage shown or described? What type?**  
-    Answer or applicability explanation: `________________`  
-    Storage: `well_features.description` with `feature_type = 'CASING_DAMAGE'`
-
-25. **What is the extent of each identified casing-damage condition?**  
-    Answer or applicability explanation: `________________`  
-    Storage: `well_features.top_md_ft`, `bottom_md_ft`, and `description`
-
-26. **Is junk or fish shown or described? What type?**  
-    Answer or applicability explanation: `________________`  
-    Storage: `well_features.description` with `feature_type = 'JUNK_OR_FISH'`
-
-27. **What is the extent or depth range of each junk/fish condition?**  
-    Answer or applicability explanation: `________________`  
-    Storage: `well_features.top_md_ft`, `bottom_md_ft`, and `description`
-
-28. **Is there any other feature that affects flow or may compromise mechanical integrity?**  
-    Answer or applicability explanation: `________________`  
-    Storage: `well_features.description` with `feature_type = 'OTHER_FLOW_OR_INTEGRITY_FEATURE'`
-
-### (a)(10) Downhole equipment
-
-29. **What subsurface safety-valve information is shown?**  
-    Answer or applicability explanation: `________________`  
-    Storage: `well_features` with `feature_type = 'SUBSURFACE_SAFETY_VALVE'`
-
-30. **What packer information is shown?**  
-    Answer or applicability explanation: `________________`  
-    Storage: `well_features` with `feature_type = 'PACKER'`
-
-31. **What gas-lift-mandrel information is shown?**  
-    Answer or applicability explanation: `________________`  
-    Storage: `well_features` with `feature_type = 'GAS_LIFT_MANDREL'`
-
-### (a)(11) Drilled-hole intervals
-
-For every drilled interval:
-
-32. **What hole diameter is shown?**  
-    Answers: `________________`  
-    Storage: `drilled_intervals.hole_diameter_in`
-
-33. **What top and bottom depths are shown for the drilled interval?**  
-    Answers: `________________`  
-    Storage: `drilled_intervals.top_md_ft` and `bottom_md_ft`
-
-### (a)(12) Cement plugs inside casing
-
-34. **What cement plugs inside casing are identified?**  
-    Answers or applicability explanation: `________________`  
-    Storage: `cement_placements` with `placement_type = 'INSIDE_CASING'`
-
-35. **What is the top depth of each cement plug inside casing?**  
-    Answers or applicability explanation: `________________`  
-    Storage: `cement_placements.top_md_ft`
-
-36. **What is the bottom depth of each cement plug inside casing?**  
-    Answers or applicability explanation: `________________`  
-    Storage: `cement_placements.bottom_md_ft`
-
-### (a)(13) Cement behind casing
-
-37. **What cement fill behind casing is identified?**  
-    Answers: `________________`  
-    Storage: `cement_placements` with `placement_type = 'BEHIND_CASING'`
-
-38. **What is the top depth of each cement-fill interval?**  
-    Answers: `________________`  
-    Storage: `cement_placements.top_md_ft`
-
-39. **What is the bottom depth of each cement-fill interval?**  
-    Answers: `________________`  
-    Storage: `cement_placements.bottom_md_ft`
-
-### (a)(14) Fluid between cement plugs
-
-40. **What type of fluid is shown between cement plugs?**  
-    Answer or applicability explanation: `________________`  
-    **Schema gap:** no `fluid_type` column currently exists.
-
-41. **What is the density or weight of the fluid between plugs, including the unit?**  
-    Answer or applicability explanation: `________________`  
-    **Schema gap:** no `fluid_density` or `fluid_density_unit` columns currently exist.
-
-### (a)(15) Geological and injection intervals
-
-42. **What formation names are shown?**  
-    Answers or applicability explanation: `________________`  
-    Storage: `geological_features.feature_name` with `feature_class = 'FORMATION'`
-
-43. **What depth or top/bottom interval is shown for each formation?**  
-    Answers or applicability explanation: `________________`  
-    Storage: `geological_features.top_md_ft` and `bottom_md_ft`
-
-44. **What zone names are shown?**  
-    Answers or applicability explanation: `________________`  
-    Storage: `geological_features.feature_name` with `feature_class = 'ZONE'`
-
-45. **What depth or top/bottom interval is shown for each zone?**  
-    Answers or applicability explanation: `________________`  
-    Storage: `geological_features.top_md_ft` and `bottom_md_ft`
-
-46. **What geological marker names are shown?**  
-    Answers: `________________`  
-    Storage: `geological_features.feature_name` with `feature_class = 'MARKER'`
-
-47. **What depth or top/bottom interval is shown for each marker?**  
-    Answers: `________________`  
-    Storage: `geological_features.top_md_ft` and `bottom_md_ft`
-
-48. **What is the top of the underground-injection zone?**  
-    Answer or applicability explanation: `________________`  
-    Storage: `geological_features.top_md_ft` with `feature_class = 'INJECTION_ZONE'`
-
-49. **What is the bottom of the underground-injection zone?**  
-    Answer or applicability explanation: `________________`  
-    Storage: `geological_features.bottom_md_ft` with `feature_class = 'INJECTION_ZONE'`
-
-50. **What is the top of each confining layer?**  
-    Answers or applicability explanation: `________________`  
-    Storage: `geological_features.top_md_ft` with `feature_class = 'CONFINING_LAYER'`
-
-51. **What is the bottom of each confining layer?**  
-    Answers or applicability explanation: `________________`  
-    Storage: `geological_features.bottom_md_ft` with `feature_class = 'CONFINING_LAYER'`
-
-## (b) Supporting documentation
-
-### (b)(1) Cement calculations
-
-52. **What steps are shown for each cement-yield calculation?**  
-    Answers: `________________`  
-    **Schema gap:** `cement_jobs.calculation_steps` combines yield and other calculation steps; they cannot be distinguished one-to-one.
-
-53. **What steps are shown for each other cement calculation performed?**  
-    Answers: `________________`  
-    **Schema gap:** the same `cement_jobs.calculation_steps` field is currently reused.
-
-### (b)(2) Cement-slurry information
-
-54. **What inputs and supporting information are shown for calculating slurry volume for each cement job?**  
-    Answers: `________________`  
-    Storage: `cement_jobs.cement_volume_cf` for the result; supporting inputs are not separately structured.
-
-55. **What slurry density is shown for each cement job?**  
-    Answers: `________________`  
-    Storage: `cement_jobs.density_ppg`
-
-56. **What slurry yield is shown for each cement job?**  
-    Answers: `________________`  
-    Storage: `cement_jobs.yield_cf_per_sack`
-
-57. **What cement type is shown for each cement job?**  
-    Answers: `________________`  
-    Storage: `cement_components.component_name` for cement-type components, or `cement_jobs.remarks`
-
-58. **What additives, quantities, and units are shown for each cement job?**  
-    Answers: `________________`  
-    Storage: `cement_components.component_name`, `quantity`, and `unit`
-
-### (b)(3) Wellbore path
-
-59. **What measured depths are shown along the wellbore path?**  
-    Answers: `________________`  
-    Storage: `borehole_surveys.md_ft`
-
-60. **What inclination measurement is shown at each survey depth?**  
-    Answers: `________________`  
-    Storage: `borehole_surveys.inclination_deg`
-
-61. **What azimuth measurement is shown at each survey depth?**  
-    Answers: `________________`  
-    Storage: `borehole_surveys.azimuth_deg`
-
-## Cross-cutting checks
-
-These checks are legal application rules rather than additional atomic data items:
-
-- **(c)** Did the reviewer identify every original, redrilled, and sidetracked borehole?  
-  Answer: `________________`
-- **(d)** Does every required depth have both MD and TVD?  
-  Answer: `________________`  
-  **Schema gap:** only `borehole_surveys.tvd_ft` exists. The current interval tables do
-  not have separate TVD columns.
-- **(e)** Is W01 supplied as a graphical diagram or complete flat-file dataset?  
-  Answer: `________________`  
-  Storage: `diagrams.submission_format`
-
-## Storage-validation conclusion
-
-The current database can store the basic answers, but it is not yet
-one-to-one with every possible answer:
-
-1. Add `fluid_type` and fluid-density fields for `(a)(14)`.
-2. Separate yield-calculation steps from other cement-calculation steps for `(b)(1)`.
-3. Store slurry-calculation inputs separately from calculated volume.
-4. Add TVD fields to every table containing regulatory depths, including drilled
-   intervals, casing intervals, cement placements, perforations, geological
-   features, downhole components, and well features.
-5. Store explicit applicability reasons where “not applicable” differs from
-   “not shown.” These can currently be placed in
-   `diagram_requirement_results.explanation`.
+This checklist contains 77 scored diagram questions and 10 supporting-documentation records.
+
+The reviewer makes only a presence decision. Record `MET` when an answer is
+supplied, including N/A, none, or an unusual value. Record `MISSING` when no
+answer is supplied. Do not judge truth, quality, plausibility, or validity.
+
+For every depth-bearing point, evaluate MD and TVD separately.
+
+## Scored diagram questions
+
+1. **What answer is supplied for Operator name?**
+   - Specification code: `(a)(1).operator_name`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+2. **What answer is supplied for Lease name?**
+   - Specification code: `(a)(1).lease_name`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+3. **What answer is supplied for Well number?**
+   - Specification code: `(a)(1).well_number`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+4. **What answer is supplied for API number?**
+   - Specification code: `(a)(1).api_number`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+5. **What answer is supplied for Spud date?**
+   - Specification code: `(a)(2).spud_date`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+6. **What answer is supplied for Ground elevation?**
+   - Specification code: `(a)(3).ground_elevation`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+7. **What answer is supplied for Reference elevation?**
+   - Specification code: `(a)(4).reference_elevation`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+8. **What answer is supplied for Base of freshwater (MD)?**
+   - Specification code: `(a)(5).freshwater_base.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+9. **What answer is supplied for Base of lowermost USDW (MD)?**
+   - Specification code: `(a)(6).usdw_base.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+10. **What answer is supplied for Casing size?**
+   - Specification code: `(a)(7).casing_size`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+11. **What answer is supplied for Casing grade?**
+   - Specification code: `(a)(7).casing_grade`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+12. **What answer is supplied for Casing connection type?**
+   - Specification code: `(a)(7).connection_type`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+13. **What answer is supplied for Casing weight?**
+   - Specification code: `(a)(7).casing_weight`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+14. **What answer is supplied for Shoe depth (MD)?**
+   - Specification code: `(a)(8).shoe_depth.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+15. **What answer is supplied for Stub depth (MD)?**
+   - Specification code: `(a)(8).stub_depth.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+16. **What answer is supplied for Liner-top depth (MD)?**
+   - Specification code: `(a)(8).liner_top_depth.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+17. **What answer is supplied for Perforation depths (MD)?**
+   - Specification code: `(a)(9).perforation_depths.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+18. **What answer is supplied for Perforation intervals (MD)?**
+   - Specification code: `(a)(9).perforation_intervals.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+19. **What answer is supplied for Open-hole completions (MD)?**
+   - Specification code: `(a)(9).open_hole_completions.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+20. **What answer is supplied for Water-shutoff holes (MD)?**
+   - Specification code: `(a)(9).water_shutoff_holes.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+21. **What answer is supplied for Cement ports (MD)?**
+   - Specification code: `(a)(9).cement_ports.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+22. **What answer is supplied for Cavity shots (MD)?**
+   - Specification code: `(a)(9).cavity_shots.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+23. **What answer is supplied for Cuts (MD)?**
+   - Specification code: `(a)(9).cuts.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+24. **What answer is supplied for Casing-damage type?**
+   - Specification code: `(a)(9).casing_damage_type`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+25. **What answer is supplied for Casing-damage extent (MD)?**
+   - Specification code: `(a)(9).casing_damage_extent.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+26. **What answer is supplied for Junk/fish type?**
+   - Specification code: `(a)(9).junk_or_fish_type`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+27. **What answer is supplied for Junk/fish extent (MD)?**
+   - Specification code: `(a)(9).junk_or_fish_extent.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+28. **What answer is supplied for Other flow/integrity feature?**
+   - Specification code: `(a)(9).other_integrity_feature`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+29. **What answer is supplied for Subsurface safety valves?**
+   - Specification code: `(a)(10).subsurface_safety_valves`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+30. **What answer is supplied for Packers?**
+   - Specification code: `(a)(10).packers`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+31. **What answer is supplied for Gas-lift mandrels?**
+   - Specification code: `(a)(10).gas_lift_mandrels`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+32. **What answer is supplied for Hole diameter?**
+   - Specification code: `(a)(11).hole_diameter`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+33. **What answer is supplied for Hole depth (MD)?**
+   - Specification code: `(a)(11).hole_depth.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+34. **What answer is supplied for Cement-plug identification?**
+   - Specification code: `(a)(12).cement_plug_identification`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+35. **What answer is supplied for Cement-plug top (MD)?**
+   - Specification code: `(a)(12).cement_plug_top.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+36. **What answer is supplied for Cement-plug bottom (MD)?**
+   - Specification code: `(a)(12).cement_plug_bottom.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+37. **What answer is supplied for Cement-fill identification?**
+   - Specification code: `(a)(13).cement_fill_identification`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+38. **What answer is supplied for Cement-fill top (MD)?**
+   - Specification code: `(a)(13).cement_fill_top.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+39. **What answer is supplied for Cement-fill bottom (MD)?**
+   - Specification code: `(a)(13).cement_fill_bottom.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+40. **What answer is supplied for Fluid type between plugs?**
+   - Specification code: `(a)(14).fluid_type`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+41. **What answer is supplied for Fluid density between plugs?**
+   - Specification code: `(a)(14).fluid_density`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+42. **What answer is supplied for Formation names?**
+   - Specification code: `(a)(15).formation_names`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+43. **What answer is supplied for Formation depths (MD)?**
+   - Specification code: `(a)(15).formation_depths.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+44. **What answer is supplied for Zone names?**
+   - Specification code: `(a)(15).zone_names`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+45. **What answer is supplied for Zone depths (MD)?**
+   - Specification code: `(a)(15).zone_depths.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+46. **What answer is supplied for Marker names?**
+   - Specification code: `(a)(15).marker_names`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+47. **What answer is supplied for Marker depths (MD)?**
+   - Specification code: `(a)(15).marker_depths.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+48. **What answer is supplied for Injection-zone top (MD)?**
+   - Specification code: `(a)(15).injection_zone_top.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+49. **What answer is supplied for Injection-zone bottom (MD)?**
+   - Specification code: `(a)(15).injection_zone_bottom.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+50. **What answer is supplied for Confining-layer top (MD)?**
+   - Specification code: `(a)(15).confining_layer_top.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+51. **What answer is supplied for Confining-layer bottom (MD)?**
+   - Specification code: `(a)(15).confining_layer_bottom.md`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+52. **What answer is supplied for Base of freshwater (TVD)?**
+   - Specification code: `(a)(5).freshwater_base.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+53. **What answer is supplied for Base of lowermost USDW (TVD)?**
+   - Specification code: `(a)(6).usdw_base.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+54. **What answer is supplied for Shoe depth (TVD)?**
+   - Specification code: `(a)(8).shoe_depth.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+55. **What answer is supplied for Stub depth (TVD)?**
+   - Specification code: `(a)(8).stub_depth.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+56. **What answer is supplied for Liner-top depth (TVD)?**
+   - Specification code: `(a)(8).liner_top_depth.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+57. **What answer is supplied for Perforation depths (TVD)?**
+   - Specification code: `(a)(9).perforation_depths.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+58. **What answer is supplied for Perforation intervals (TVD)?**
+   - Specification code: `(a)(9).perforation_intervals.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+59. **What answer is supplied for Open-hole completions (TVD)?**
+   - Specification code: `(a)(9).open_hole_completions.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+60. **What answer is supplied for Water-shutoff holes (TVD)?**
+   - Specification code: `(a)(9).water_shutoff_holes.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+61. **What answer is supplied for Cement ports (TVD)?**
+   - Specification code: `(a)(9).cement_ports.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+62. **What answer is supplied for Cavity shots (TVD)?**
+   - Specification code: `(a)(9).cavity_shots.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+63. **What answer is supplied for Cuts (TVD)?**
+   - Specification code: `(a)(9).cuts.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+64. **What answer is supplied for Casing-damage extent (TVD)?**
+   - Specification code: `(a)(9).casing_damage_extent.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+65. **What answer is supplied for Junk/fish extent (TVD)?**
+   - Specification code: `(a)(9).junk_or_fish_extent.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+66. **What answer is supplied for Hole depth (TVD)?**
+   - Specification code: `(a)(11).hole_depth.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+67. **What answer is supplied for Cement-plug top (TVD)?**
+   - Specification code: `(a)(12).cement_plug_top.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+68. **What answer is supplied for Cement-plug bottom (TVD)?**
+   - Specification code: `(a)(12).cement_plug_bottom.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+69. **What answer is supplied for Cement-fill top (TVD)?**
+   - Specification code: `(a)(13).cement_fill_top.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+70. **What answer is supplied for Cement-fill bottom (TVD)?**
+   - Specification code: `(a)(13).cement_fill_bottom.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+71. **What answer is supplied for Formation depths (TVD)?**
+   - Specification code: `(a)(15).formation_depths.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+72. **What answer is supplied for Zone depths (TVD)?**
+   - Specification code: `(a)(15).zone_depths.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+73. **What answer is supplied for Marker depths (TVD)?**
+   - Specification code: `(a)(15).marker_depths.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+74. **What answer is supplied for Injection-zone top (TVD)?**
+   - Specification code: `(a)(15).injection_zone_top.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+75. **What answer is supplied for Injection-zone bottom (TVD)?**
+   - Specification code: `(a)(15).injection_zone_bottom.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+76. **What answer is supplied for Confining-layer top (TVD)?**
+   - Specification code: `(a)(15).confining_layer_top.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+77. **What answer is supplied for Confining-layer bottom (TVD)?**
+   - Specification code: `(a)(15).confining_layer_bottom.tvd`
+   - Status: MET / MISSING
+   - Displayed answer: __________________
+   - Diagram location: __________________
+
+## Supporting-documentation records
+
+These records are retained in the database but are not part of the 77-point
+visual casing-diagram completeness score.
+
+78. **What supporting information is available for Cement yield calculation steps?**
+   - Specification code: `(b)(1).yield_calculation_steps`
+   - Evidence/reference: __________________
+
+79. **What supporting information is available for Cement calculation steps?**
+   - Specification code: `(b)(1).cement_calculation_steps`
+   - Evidence/reference: __________________
+
+80. **What supporting information is available for Slurry volume inputs?**
+   - Specification code: `(b)(2).slurry_volume`
+   - Evidence/reference: __________________
+
+81. **What supporting information is available for Slurry density?**
+   - Specification code: `(b)(2).slurry_density`
+   - Evidence/reference: __________________
+
+82. **What supporting information is available for Slurry yield?**
+   - Specification code: `(b)(2).slurry_yield`
+   - Evidence/reference: __________________
+
+83. **What supporting information is available for Cement type?**
+   - Specification code: `(b)(2).cement_type`
+   - Evidence/reference: __________________
+
+84. **What supporting information is available for Cement additives?**
+   - Specification code: `(b)(2).cement_additives`
+   - Evidence/reference: __________________
+
+85. **What supporting information is available for Wellbore-path measured depth?**
+   - Specification code: `(b)(3).wellbore_path_md`
+   - Evidence/reference: __________________
+
+86. **What supporting information is available for Wellbore inclination?**
+   - Specification code: `(b)(3).inclination`
+   - Evidence/reference: __________________
+
+87. **What supporting information is available for Wellbore azimuth?**
+   - Specification code: `(b)(3).azimuth`
+   - Evidence/reference: __________________
 
