@@ -284,38 +284,6 @@ In this study, the subject is a fixed diagram–service pair. The diagram itself
 
 Every diagram–service pair will be tested under all three prompt types. If a run fails or its response is lost, the run will be repeated in the same service and condition or the diagram–service block will be excluded with the reason documented. A complete block therefore contains one score for each prompt type. Each run produces results for all 77 atomic points; points judged wrongly are counted separately from points not addressed. The three prompt scores within a block are related measurements, compared with tests for related samples (see Section 3.3). Prompt effects will be evaluated within each AI service, rather than pooling the three service blocks for one independence-assuming test. A diagram that is hard to read is equally represented across the three prompt conditions within each service. New chats and counterbalanced run order address conversational carry-over and order effects. Section 3.6 returns to these risks.
 
-> **Variables Analysis** (working notes, not proposal text)
->
-> **Control Variables (constant):**
->
-> 1. The regulation. The same text is given to the AI model in every run of the study.
-> 2. The casing diagram. For any one well, each of the three prompts sees exactly the same casing diagram.
-> 3. The 77-point checklist, presence-only rule, output structure, human-reference record, and manual execution procedure.
->
-> **Independent Variable:**
->
-> The prompt type. It is the one thing the study changes on purpose from run to run, and it has three levels:
->
-> 1. Naive
-> 2. Informed (persona, task, context, format)
-> 3. Chain-of-thought
->
-> **Blocking and Grouping Factor:**
->
-> The AI service: ChatGPT, Claude, or Gemini. Prompt effects will be described and tested within each service. The displayed model version, when available, will be recorded as a contextual variable because providers may change their consumer models during the study.
->
-> **Dependent Variable:**
->
-> The primary dependent variable is AI point-level presence-judgment accuracy: the proportion of 77 atomic data points correctly classified as `MET` or `MISSING`. Each point is classified as correctly judged, wrongly judged, or not addressed; not addressed counts as incorrect in the primary score. Secondary outcomes include the count of wrong judgments, the count of points not addressed, the number of rows returned, and response length. Equation 1 states the diagram's completeness; Equation 2 states how accurately the AI identified that reference status.
->
-> **Repeated-Measures Structure:**
->
-> The block is the diagram–AI service pair. Each block produces one score under each of the three prompt conditions, producing 90 blocks and 270 runs.
->
-> **Measuring Instrument:**
->
-> The human-reference record. It is created through the 77 scoring rows of an 87-row specification checklist and stored in SQLite. The record scores each atomic data point as met or missing based only on the presence of a supplied answer. The AI service never sees the record. The same record scores all prompt types and services for that diagram.
-
 #### 3.2.2.1 Reference-Scoring Procedure for Each Diagram
 
 1. **Make only a presence decision, not a truth, quality, or plausibility judgment.**
@@ -331,7 +299,6 @@ Every diagram–service pair will be tested under all three prompt types. If a r
 11. Freeze the reference result before evaluating any AI response for that diagram.
 12. Score every AI response against the frozen record at the same atomic level.
 
-This is a comprehensive working procedure for the draft. Later publication versions may condense the database and scoring explanation while retaining the 77-point basis and the formulas.
 
 ### 3.2.3 Prompt Engineering and Experimental Conditions
 
@@ -482,15 +449,6 @@ The sample is 30 casing diagrams, a size used to estimate a parameter in a pilot
 
 ### 3.2.5 Data Specifications
 
-> **Working outline** (not proposal text):
->
-> 1. What the standard is — *drafted below*
-> 2. When a casing diagram is required (14 CCR triggers; abandonment notice under PRC §§ 3229–3230 and CalGEM guidance)
-> 3. When a casing diagram must be updated
-> 4. Which of the three lists, and why § 1724.7.1 (done: paragraphs 2 and 3 below)
-> 5. The 15 items: number, the regulation's words, applies to every well or only some
-> 6. How each item will be judged (presence only, as described in 3.2.1)
-
 The data specification is CalGEM's casing-diagram rule, published in the California Code of Regulations (CalGEM, n.d.-a). The requirements bind California operators. Federal agencies and other states set their own standards. CalGEM publishes two sets. An underground gas storage well must include 18 items (Casing Diagrams, 2026c). A well in an underground injection project, and an idle well, must include 15 (Casing Diagrams, 2026a, 2026b). This study uses the 15 items in Section 1724.7.1 of Title 14 (Casing Diagrams, 2026a), decomposed into 77 atomic diagram-data points after separately scoring MD and TVD. Offshore wells and gas-storage wells are outside the study.
 
 CalGEM enforces the requirement. In 2025 it ordered an operator to correct the casing diagrams for two underground injection projects and to pay a civil penalty of $1,500 because the submissions contained multiple deficiencies under Sections 1724.7 and 1724.7.1. The cited deficiencies included missing spud dates, formation locations, and accurate true vertical depths at all depths, as required by subdivision (d), as well as undocumented casing modifications (CalGEM, 2025b, Order No. 1517). The penalty was not imposed for TVD alone; however, the order is an enforcement example that demonstrates the practical importance of TVD as a separately required representation rather than an optional companion to MD. It also provides the rationale for explicit MD/TVD rows in the study checklist and prompts. This study adopts only the presence aspect of that requirement and does not determine whether a reported TVD is accurate. A 2025 notice to underground gas storage operators likewise stated that CalGEM "has observed inconsistencies in the submission of updated casing diagrams" and that the data must be "complete, current, and accurate" (CalGEM, 2025a, "Casing Diagram Submission Requirements," pp. 1–2). Section 1724.7.1 provides that casing diagrams "shall include all of the following data" (Casing Diagrams, 2026a, subd. (a)). Under the statute CalGEM administers, "'Shall' is mandatory and 'may' is permissive" (Cal. Pub. Res. Code § 15, 1939), and "the operator is responsible for ensuring that the data are current and accurately reflect the project setting and operation throughout the operating life of the project" (Project Data Requirements, 2026, subd. (a)). In Order No. 1517, CalGEM found that the failure to submit the data was a violation, ordered payment and submission within 30 days, and stated that "daily violations and penalties will continue to accrue" if the operator did not comply (CalGEM, 2025b, pp. 2, 5).
@@ -500,21 +458,6 @@ CalGEM enforces the requirement. In 2025 it ordered an operator to correct the c
 The three accuracy scores within each diagram–service pair are related measurements, so statistical tests for independent groups do not apply. Prompt effects will be evaluated separately within ChatGPT, Claude, and Gemini. For each service, the 30 diagram blocks will be tested with the Friedman test to determine whether the distribution of point-level accuracy differs across the three prompt types. If a Friedman test is significant, Wilcoxon signed-rank tests will compare prompt types in pairs within the same service, with the Holm correction for multiple comparisons [source needed]. A separate Page trend test may evaluate the ordered hypothesis naive < informed < chain-of-thought within each service [source needed].
 
 The primary measure is the proportion of the 77 atomic data points correctly classified as `MET` or `MISSING`. Secondary outcomes—wrong judgments, unaddressed points, returned-row count, and response length—will be summarized descriptively and, where appropriate, analyzed with the same repeated-block structure. The study will report service-specific prompt estimates and confidence intervals rather than treat the 90 diagram–service blocks as independent observations. Diagram difficulty is controlled by repeated comparison, and a sensitivity analysis will examine input quality (native, mixed, or scanned) and recorded prompt order. These tests do not assume normally distributed scores.
-
-> **Research questions mapped to analysis** (working draft)
->
-> | Question | Null hypothesis | Test |
-> |---|---|---|
-> | RQ1: How accurately do the AI assistants judge the 77 atomic data points? | No null hypothesis is required for the descriptive accuracy estimate. | Per-service and pooled descriptive proportions, with uncertainty summaries |
-> | RQ2: Does prompt type affect correctness? | Within each AI service, the per-diagram accuracy distributions have the same distribution under all three prompt types. | Service-specific Friedman tests |
-> | RQ2a: Does correctness rise from naive to informed to chain-of-thought? | There is no ordered increase across the three levels. | Page's trend test |
-> | RQ2b: Which technique adds something? | Adjacent levels do not differ: informed vs. naive, chain-of-thought vs. informed. | Wilcoxon signed-rank test, with Holm correction |
->
-> Each level adds one prompting technique: the informing elements (persona, task, context, and format) or step-by-step reasoning. Service-specific comparisons and counterbalanced order support interpretation of those additions while limiting confounding by service and sequence.
->
-> To do: find a citable source for the statistical tests.
-
-[Placeholder: the measures, the statistical tests or scoring, and the tools]
 
 ## 3.4 Ethical Considerations
 
@@ -550,25 +493,11 @@ Data collection and analysis will begin Tuesday, January 19, 2027, the first day
 
 ## 3.6 Limitations and Risks
 
-> Ideas from 3.2.1 to repeat here (working list, not proposal text):
->
-> - **One dimension only.** The model is asked to qualify completeness. It is not asked to qualify accuracy, consistency, believability, appropriate amount of data, timeliness, or accessibility.
-> - **One kind of completeness only.** The qualification uses column completeness. Schema completeness and population completeness are not examined.
-> - **No access to private records.** The operators' internal records are private; access is not available for this study and will not be sought.
-> - **Values are not validated.** The study will not examine whether the values shown on a casing diagram are correct, current, or consistent with other records for the well. An item that is shown counts as present even if its value is wrong.
-> - **The operator is not audited.** The study examines the published casing diagram, not the operator's records or practices.
-> - **Only the published product is seen.** The data come from the public website, WellSTAR, at the end of a long information product line (operator's records, preparing the casing diagram, submission to CalGEM, publication). The earlier steps are not observed.
-> - **Completeness and accuracy use a fixed 77-point denominator.** Equations 1 and 2 cover the 77 atomic data points decomposed from subdivision (a) and the subdivision-(d) MD/TVD requirement. A point is met when an answer is supplied and missing when no answer is supplied. The reviewer does not remove points based on an applicability judgment.
-> - **Prompt effects are grouped by AI service.** ChatGPT, Claude, and Gemini are separate services that may expose different model versions or update on different schedules. Pooling them without accounting for service could conceal or confound prompt effects.
-> - **Run order is controlled and recorded.** New chats address conversational carry-over, but prompt order can still affect performance through time or researcher familiarity. Prompt order will be counterbalanced and recorded.
-> - **A single human inspection creates the reference.** This pilot does not use a multi-reviewer consensus panel. Reviewer error is possible, especially when a diagram is crowded or poorly legible. The stable 77-point checklist, point-level evidence fields, retained source file, and SQLite audit trail make each decision inspectable, but they do not eliminate human error.
-> - **Presence-only measurement.** The human reviewer and AI responses distinguish met from missing. The reviewer records `MET` whenever an answer is supplied and `MISSING` whenever no answer is supplied. Truth, quality, plausibility, and engineering validity are outside the study's scope.
+The study is limited to column completeness at the point of visual inspection. It does not test factual accuracy, consistency, timeliness, believability, appropriate amount of data, or accessibility. Values are recorded as supplied without validation against nonpublic operator records.
 
-| Limitation or Risk | Likelihood / Impact | How It Will Be Handled |
-|---|---|---|
-| [Risk] | [Low/Med/High] | [Contingency] |
-| [Risk] | [Low/Med/High] | [Contingency] |
-| [Risk] | [Low/Med/High] | [Contingency] |
+A fixed 77-point denominator is used for every diagram. Because one reviewer prepares the reference, judgment error and diagram-legibility effects remain possible. The checklist, source location, retained diagram, and SQLite audit trail make decisions inspectable, but they do not eliminate reviewer error.
+
+Prompt results are also limited to the available consumer-service conditions. Model versions may change, prompt order can affect performance, and only public diagrams can be examined. Counterbalanced order, new chats, recorded model/service metadata, and sensitivity checks are used to limit these risks.
 
 ## 4. Closing Remarks
 

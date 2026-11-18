@@ -6,6 +6,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt
+from docx.enum.table import WD_CELL_VERTICAL_ALIGNMENT, WD_ROW_HEIGHT_RULE, WD_TABLE_ALIGNMENT
 
 
 ROOT = Path(__file__).resolve().parent
@@ -59,15 +60,35 @@ def add_table(document: Document, rows: list[list[str]]) -> None:
     column_count = len(rows[0])
     table = document.add_table(rows=len(rows), cols=column_count)
     table.style = "Table Grid"
+    table.alignment = WD_TABLE_ALIGNMENT.CENTER
+    table.autofit = False
+    widths = [Inches(0.9)] + [Inches(1.45)] * max(column_count - 1, 0)
+    if column_count == 2:
+        widths = [Inches(2.0), Inches(4.4)]
+    elif column_count == 3:
+        widths = [Inches(0.65), Inches(2.05), Inches(3.7)]
+    elif column_count >= 4:
+        widths = [Inches(1.0)] + [Inches((5.4 - 1.0) / (column_count - 1))] * (column_count - 1)
+    header = table.rows[0]
+    repeat = OxmlElement("w:tblHeader")
+    repeat.set(qn("w:val"), "true")
+    header._tr.get_or_add_trPr().append(repeat)
     for row_index, values in enumerate(rows):
+        table.rows[row_index].height_rule = WD_ROW_HEIGHT_RULE.AT_LEAST
+        cant_split = OxmlElement("w:cantSplit")
+        table.rows[row_index]._tr.get_or_add_trPr().append(cant_split)
         for column_index, value in enumerate(values):
             cell = table.cell(row_index, column_index)
+            cell.width = widths[column_index]
+            cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
             cell.text = ""
             add_inline_markdown(cell.paragraphs[0], value.strip())
             if row_index == 0:
                 for run in cell.paragraphs[0].runs:
                     run.bold = True
-            cell.vertical_alignment = 1
+            for paragraph in cell.paragraphs:
+                paragraph.paragraph_format.space_after = Pt(0)
+                paragraph.paragraph_format.line_spacing = 1.0
     document.add_paragraph()
 
 
@@ -162,6 +183,13 @@ def build_document() -> None:
                 index += 1
             if table_rows:
                 add_table(document, table_rows)
+            continue
+        elif stripped.startswith(">"):
+            index += 1
+            while index < len(lines) and (
+                lines[index].startswith(">") or not lines[index].strip()
+            ):
+                index += 1
             continue
         elif stripped.startswith("- **") or stripped.startswith("- "):
             paragraph = document.add_paragraph(style="List Bullet")

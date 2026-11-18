@@ -39,9 +39,9 @@ Source: Blackboard › Weeks 9–14 Student Research Project Proposals › Final
 
 ## 2. Format
 
-- [ ] Body of about 8 to 10 pages
-- [ ] Single spaced
-- [ ] 10 to 12 point font
+- [x] Body of about 8 to 10 pages (course version targets 10 body pages)
+- [x] Single spaced in generated Word documents
+- [x] 11-point Times New Roman body text; 1-inch margins
 
 ## 3. Source verification folder (Google Drive)
 

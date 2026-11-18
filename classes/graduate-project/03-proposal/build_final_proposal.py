@@ -22,6 +22,51 @@ def text_before_references(path: Path) -> str:
     raise RuntimeError(f"No references marker found in {path.name}")
 
 
+def remove_working_only_text(text: str, source_name: str) -> str:
+    if source_name != METHODS.name:
+        return text
+
+    lines = text.splitlines()
+    cleaned: list[str] = []
+    index = 0
+    while index < len(lines):
+        line = lines[index]
+        if line.startswith("> **Variables Analysis**"):
+            while index < len(lines) and not lines[index].startswith("#### 3.2.2.1"):
+                index += 1
+            continue
+        if line.startswith("> **Working outline**"):
+            while index < len(lines) and not lines[index].startswith("The data specification is"):
+                index += 1
+            continue
+        if line.startswith("> **Research questions mapped to analysis**"):
+            while index < len(lines) and not lines[index].startswith("## 3.4"):
+                index += 1
+            continue
+        if line.startswith("[Placeholder:"):
+            index += 1
+            continue
+        if line.startswith("> Ideas from 3.2.1"):
+            cleaned.extend(
+                [
+                    "The study is limited to column completeness at the point of visual inspection. It does not test factual accuracy, consistency, timeliness, believability, appropriate amount of data, or accessibility. Values are recorded as supplied without validation against nonpublic operator records.",
+                    "",
+                    "A fixed 77-point denominator is used for every diagram. Because one reviewer prepares the reference, judgment error and diagram-legibility effects remain possible. The checklist, source location, retained diagram, and SQLite audit trail make decisions inspectable, but they do not eliminate reviewer error.",
+                    "",
+                    "Prompt results are also limited to the available consumer-service conditions. Model versions may change, prompt order can affect performance, and only public diagrams can be examined. Counterbalanced order, new chats, recorded model/service metadata, and sensitivity checks are used to limit these risks.",
+                ]
+            )
+            while index < len(lines) and not lines[index].startswith("## References cited"):
+                index += 1
+            continue
+        if line.startswith("This is a comprehensive working procedure"):
+            index += 1
+            continue
+        cleaned.append(line)
+        index += 1
+    return "\n".join(cleaned).strip()
+
+
 def reference_entries(path: Path) -> list[str]:
     lines = path.read_text(encoding="utf-8").splitlines()
     entries: list[str] = []
@@ -57,7 +102,8 @@ def renumber_body(text: str, level: int) -> str:
 def main() -> None:
     introduction = renumber_body(text_before_references(INTRODUCTION), 2)
     literature_review = renumber_body(text_before_references(LITERATURE_REVIEW), 2)
-    methods = renumber_body(text_before_references(METHODS), 2)
+    methods_body = remove_working_only_text(text_before_references(METHODS), METHODS.name)
+    methods = renumber_body(methods_body, 2)
 
     references = sorted(
         {
