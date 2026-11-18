@@ -5,14 +5,14 @@ Change in 1.3: standard changed from 14 CCR 1772.1.3 (idle wells) to 14 CCR 1724
 Change in 1.2: standard changed from 14 CCR 1726.4.1 (underground gas storage wells, 18 items) to 14 CCR 1772.1.3 (idle wells, 15 items; the same items as 14 CCR 1724.7.1 for injection project wells), the closer fit for the sampled oil and gas wells. The dry runs of November 11, 2026, used the earlier standard and prompt wording.
 Change in 1.1: terminology: "casing diagram," the term used in Title 14 of the California Code of Regulations, replaces "wellbore diagram"; quotations and WellSTAR labels are unchanged.
 
-Scenario: the same worker and task as prompt 01 (../scenario-business-need.txt).
+Scenario: the same worker and task as prompt 01 (../../../calgem/scenario-business-need.txt).
 The worker now writes the request using the four elements taught in Google's
 Gemini prompting guide: persona, task, context, and format. No examples and no
 reasoning instructions are given (zero-shot).
 
 Attachments sent with the prompt:
   1. one casing diagram   ../../sample/diagrams/Wnn.pdf, original file, unchanged
-  2. the requirements       casing-diagram-specification.txt (14 CCR 1724.7.1,
+  2. the requirements       ../../../calgem/casing-diagram-specification.txt (14 CCR 1724.7.1,
                             verbatim)
 
 Copy-and-paste file: ptcf-copy-and-paste.txt (this folder)

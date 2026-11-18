@@ -1,5 +1,7 @@
 # Data Provenance
 
+**Data files:** remain in [the Principles of Information Quality data folder](../../principles-of-iq/w10/dataSample/). This note moved to the graduate project's `calgem/` documentation folder on November 17, 2026; the datasets did not move.
+
 ## Source
 
 - **Publisher:** California Geologic Energy Management Division (CalGEM), California Department of Conservation

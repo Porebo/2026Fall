@@ -85,3 +85,85 @@ November 12, 2026: 01-admin/research-proposal-planning-assignment.html
 
 November 12, 2026: research-papers/Stanciu, 2025, ... Balneo and PRM Research Journal.pdf
   ->  _to-review/unrelated/ (not related to the study)
+
+November 17, 2026: consolidated 74 supporting documents and notes directly in
+classes/graduate-project/calgem/, without category subfolders. Paths below
+are relative to classes/graduate-project/. Filenames and source-document bytes
+were preserved. Only path references and location documentation were updated.
+Datasets, casing-diagram PDFs, databases/schema, study runs, superseded files,
+backups, and general proposal plans stayed in place. No duplicates were deleted.
+
+04-literature/calgem-casing-diagram-origin-research.md  ->  calgem/
+04-literature/casing-analysis/casing-diagrams-2026a-cal-code-regs-tit-14-1724-7-1.html  ->  calgem/
+04-literature/papers/Cal. Pub. Res. Code 15, 1939, California Legislative Information.pdf  ->  calgem/
+04-literature/papers/California Department of Conservation, 2011, California Code of Regulations Title 14 Oil and Gas Regulations (Publication PRC04) - Excerpt.pdf  ->  calgem/
+04-literature/papers/California Department of Conservation, 2016, Underground Gas Storage Regulations - Standardized Regulatory Impact Assessment.pdf  ->  calgem/
+04-literature/papers/California Department of Conservation, 2017, Requirements for California Underground Gas Storage Projects - Initial Statement of Reasons.pdf  ->  calgem/
+04-literature/papers/California Department of Conservation, 2018a, Requirements for Idle Well Testing and Management - Standardized Regulatory Impact Assessment.pdf  ->  calgem/
+04-literature/papers/California Department of Conservation, 2018b, Updated Underground Injection Control Regulations - Standardized Regulatory Impact Assessment.pdf  ->  calgem/
+04-literature/papers/California Department of Conservation, 2019a, Requirements for Idle Well Testing and Management - Final Text of Regulations.pdf  ->  calgem/
+04-literature/papers/California Department of Conservation, 2019b, Updated Underground Injection Control Regulations - Final Statement of Reasons.pdf  ->  calgem/
+04-literature/papers/California Department of Conservation, 2019c, Updated Underground Injection Control Regulations - Final Text of Regulations.pdf  ->  calgem/
+04-literature/papers/California Geologic Energy Management Division, 2025a, Casing Diagram Submission Requirements, Notice to Underground Gas Storage Operators.pdf  ->  calgem/
+04-literature/papers/California Geologic Energy Management Division, 2025b, Order No. 1517 to Perform Remedial Work and Pay Civil Penalties - Complete Packet.pdf  ->  calgem/
+04-literature/papers/California Geologic Energy Management Division, 2025b, Order No. 1517 to Perform Remedial Work and Pay Civil Penalties.pdf  ->  calgem/
+04-literature/papers/California Geologic Energy Management Division, 2026c, Notice to Operators 2026-02 - Updated UIC Project Approval Process.pdf  ->  calgem/
+04-literature/papers/Casing Diagrams, 2025, Cal. Code Regs. tit. 14, 1726.4.1 - Final Text of UGS Regulations, CalGEM.pdf  ->  calgem/
+04-literature/papers/Casing Diagrams, 2026a, Cal. Code Regs. tit. 14, 1724.7.1, Legal Information Institute.pdf  ->  calgem/
+04-literature/papers/Casing Diagrams, 2026b, Cal. Code Regs. tit. 14, 1772.1.3, Legal Information Institute.pdf  ->  calgem/
+04-literature/papers/Casing Diagrams, 2026c, Cal. Code Regs. tit. 14, 1726.4.1, Legal Information Institute.pdf  ->  calgem/
+04-literature/papers/Code of Federal Regulations, 2025, 40 CFR 146.24 Information to Be Considered by the Director (Class II).pdf  ->  calgem/
+04-literature/papers/Colorado Oil and Gas Conservation Commission, n.d., Suggested Wellbore Diagram Guidelines.pdf  ->  calgem/
+04-literature/papers/New Mexico Oil Conservation Division, n.d., C-103F NOI to Plug and Abandon - Operator Guidance.pdf  ->  calgem/
+04-literature/papers/Ohio Administrative Code, 2022, Rule 1501-9-3-05 Class II Disposal Well Permit Application.pdf  ->  calgem/
+04-literature/papers/Project Data Requirements, 2026, Cal. Code Regs. tit. 14, 1724.7, Legal Information Institute.pdf  ->  calgem/
+04-literature/papers/Texas Administrative Code, 2026, 16 TAC 3.46 Fluid Injection into Productive Reservoirs (Cornell LII).pdf  ->  calgem/
+04-literature/papers/US Environmental Protection Agency, 2019a, Class II Permit Application Form 7520-6 Instructions.pdf  ->  calgem/
+04-literature/papers/US Environmental Protection Agency, 2019b, Class II Administrative Review Checklist (Draft Final).pdf  ->  calgem/
+04-literature/regulatory/California Geologic Energy Management Division Statutes and Regulations, n.d., CalGEM website.txt  ->  calgem/
+04-literature/regulatory/ccr-title-14/Casing Diagrams, 2026, Cal. Code Regs. tit. 14, 1724.7.1, Westlaw.txt  ->  calgem/
+04-literature/regulatory/ccr-title-14/Casing Diagrams, 2026, Cal. Code Regs. tit. 14, 1726.4.1, Westlaw.txt  ->  calgem/
+04-literature/regulatory/ccr-title-14/Casing Diagrams, 2026, Cal. Code Regs. tit. 14, 1772.1.3, Westlaw.txt  ->  calgem/
+04-literature/regulatory/ccr-title-14/Engineering Analysis for 15-Year Idle Wells, 2026, Cal. Code Regs. tit. 14, 1772.1.2, Westlaw.txt  ->  calgem/
+04-literature/regulatory/ccr-title-14/Project Data Requirements, 2026, Cal. Code Regs. tit. 14, 1724.7, Westlaw.txt  ->  calgem/
+04-literature/regulatory/ccr-title-14/Requirements for Cost Estimates, 2026, Cal. Code Regs. tit. 14, 1753.1.1, Westlaw.txt  ->  calgem/
+04-literature/regulatory/ccr-title-14/Underground Gas Storage Project Data Requirements, 2026, Cal. Code Regs. tit. 14, 1726.4, Westlaw.txt  ->  calgem/
+04-literature/regulatory/ccr-title-14/Well Stimulation Treatment Area Analysis and Design, 2026, Cal. Code Regs. tit. 14, 1784, Westlaw.txt  ->  calgem/
+04-literature/regulatory/nov-sources/2021 CalGEM Supervisor Annual Report.pdf  ->  calgem/
+04-literature/regulatory/nov-sources/NOV V19-0037 Sentinel Peak Midway Sunset Reardon Surface Expression May 16 2019 (1).pdf  ->  calgem/
+04-literature/regulatory/nov-sources/NOV_19_0033_CVX_McPhee_36W_SE_21Aug19.pdf  ->  calgem/
+04-literature/regulatory/nov-sources/NOV_V19_0032_GS5_23Aug19.pdf  ->  calgem/
+04-literature/regulatory/nov-sources/NOV_V20_0231 Berry Midway Sunset Southwestern Surface_Expression_August 15 2020.pdf  ->  calgem/
+04-literature/regulatory/nov-sources/NOV-V20-0039-Sentinel-Peak-Cymric-Star-Fee-Surface-Expression-Rev.5-29-20.pdf  ->  calgem/
+04-literature/regulatory/nov-sources/NTO 2024-03 Enhanced Field Enforcement Final.pdf  ->  calgem/
+04-literature/regulatory/nov-sources/R4-Compliance-UG.pdf  ->  calgem/
+04-literature/regulatory/nov-sources/SB 406 Implementation Report 2023.pdf  ->  calgem/
+04-literature/regulatory/nov-sources/SB 406 Implementation Report 2023-24.pdf  ->  calgem/
+04-literature/regulatory/nov-sources/SB 406 Implementation Report 2024-2025.pdf  ->  calgem/
+04-literature/regulatory/public-resources-code/Cal. Pub. Res. Code 15, 2026, California Legislative Information.txt  ->  calgem/
+04-literature/regulatory/public-resources-code/Cal. Pub. Res. Code 3203, 2026, California Legislative Information.txt  ->  calgem/
+04-literature/regulatory/public-resources-code/Cal. Pub. Res. Code 3215, 2026, California Legislative Information.txt  ->  calgem/
+04-literature/regulatory/public-resources-code/Cal. Pub. Res. Code 3216, 2026, California Legislative Information.txt  ->  calgem/
+04-literature/regulatory/public-resources-code/Cal. Pub. Res. Code 3229, 2026, California Legislative Information.txt  ->  calgem/
+04-literature/regulatory/public-resources-code/Cal. Pub. Res. Code 3230, 2026, California Legislative Information.txt  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/14 CCR 1726.4.1 Casing Diagrams.md  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/1422 PA Order Temple Resources_ADA.pdf  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/2026-02 UIC Approval Process Update.pdf  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/Casing Diagram Submission_UGS NTO_Dec 2025.pdf  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/Final Text of the UIC Regulations (Clean).pdf  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/Guidance_for_NOI_and_Permit_Search_Draft 1 1.pdf  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/IW Final Text of Regulations (Marked).pdf  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/MOA UIC Checklist_2026.03.xlsx  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/Notice of Intention Instructions EICD013 v3.11 2020-07-22.pdf  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/Permitting, Forms, and Compliance, 2026, CalGEM For Operators page.txt  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/Public Works Well Abandonment Contract Template Labor Code.pdf  ->  calgem/
+04-literature/regulatory/wellbore-diagram-sources/UGS 2nd Revised Text of the Regulations.pdf  ->  calgem/
+05-data/calgem/all-wells-2026-11-13/TableMetadata.htm  ->  calgem/
+05-data/calgem/GIS-metadata-ReadMe.pdf  ->  calgem/
+05-data/calgem/prod & inj reporting codes.pdf  ->  calgem/
+05-data/calgem/PROVENANCE.md  ->  calgem/
+05-data/calgem/Report File Definition.xls  ->  calgem/
+05-data/calgem/status and type codes.pdf  ->  calgem/
+06-study/design/casing-diagram-specification.txt  ->  calgem/
+06-study/design/scenario-business-need.txt  ->  calgem/
+../principles-of-iq/w10/dataSample/data-provenance.md  ->  calgem/

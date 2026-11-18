@@ -274,13 +274,13 @@ Source: `01-admin/committee-request-email-final.txt`.
 
 ## 11a. Session of November 10–11, 2026 (late): CalGEM data gathered
 
-Everything was gathered in `w10/data/calgem/` (now spread across `04-literature/regulatory/`, `05-data/calgem/`, `06-study/`, and `scripts/`), documented in `05-data/calgem/PROVENANCE.md` (sources, dates, checksums, how to reproduce). Nothing committed.
+Everything was gathered in `w10/data/calgem/`. As of November 17, supporting documents and notes are together in `calgem/`; datasets remain in `05-data/calgem/`, study inputs and runs in `06-study/`, and scripts in `scripts/`. Sources, dates, checksums, and reproduction steps are in `calgem/PROVENANCE.md`. Nothing committed.
 
 - 2021 wells and monthly production CSVs, with spec files; GIS well metadata PDF.
-- Wellbore diagram spec: 14 CCR § 1724.7.1 (15 required elements; MD and TVD; flat-file option) and § 1772.1.3; sources in `04-literature/regulatory/wellbore-diagram-sources/`.
+- Wellbore diagram spec: 14 CCR § 1724.7.1 (15 required elements; MD and TVD; flat-file option) and § 1772.1.3; sources in `calgem/`.
 - 14 real wellbore diagrams for 10 Ventura field wells, now in `06-study/pilot-ventura/` (text PDFs, renamed to well names).
 - 436 enforcement orders in `enforcement-orders/` (PDFs git-ignored; `_index.csv` tracked).
-- NOV sources in `04-literature/regulatory/nov-sources/`: 2021 annual report (1,789 NOVs vs 43 orders), SB 406 reports (NOVs only searchable per well in WellSTAR), NTO 2024-03.
+- NOV sources in `calgem/`: 2021 annual report (1,789 NOVs vs 43 orders), SB 406 reports (NOVs only searchable per well in WellSTAR), NTO 2024-03.
 - **Key source for the problem statement:** Order 1517 (Sentinel Peak, Inglewood), $1,500 penalty for wellbore diagrams failing § 1724.7.1: missing TVD and spud date, undocumented kickoff points, inaccurate data, graphic diagrams not matching flat-file data.
 - Scripts kept (Lester's rule: data-collection scripts are deliverables): `select_ventura_wells.py`, `wellstar_wellbore_diagrams.js`, `download_enforcement_orders.py` (now in `scripts/`).
 - Open offer: collect WellSTAR Violations grids for Ventura wells to count regulation sections cited.

@@ -10,7 +10,9 @@ Build the server once after cloning or changing its source:
 dotnet build mcp/research-papers-sqlite/ResearchPapersSqliteMcp.csproj
 ```
 
-Then start `research-papers-sqlite` from the VS Code MCP view. Its configuration in `.vscode/mcp.json` provides the absolute database path automatically.
+Then start `research-papers-sqlite` from the Copilot MCP view. The root `.mcp.json` uses paths relative to the workspace root, so it works from any checkout location.
+
+Use this MCP server's tools instead of the deprecated `@dbclient` chat participant. The extension participant itself is not automatically migrated; use a publisher-provided replacement or disable it after confirming this server covers your database workflow.
 
 ## Tools
 

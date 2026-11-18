@@ -189,15 +189,14 @@ reducing the care taken over it.
 7. SOURCES
 ==========
 
-All files are in ../../04-literature/regulatory/wellbore-diagram-sources/ or
-../../05-data/calgem/, and are described with their origin and checksums in
-../../05-data/calgem/PROVENANCE.md. (Paths updated November 12, 2026, when the
-project folder was reorganized; the fourteen pilot diagrams are now in
-../pilot-ventura/.)
+Regulations, guidance, and PROVENANCE.md are together in this folder.
+Datasets remain in ../05-data/calgem/ and the fourteen pilot diagrams remain
+in ../06-study/pilot-ventura/. Paths updated November 17, 2026, when the
+supporting documents were consolidated in calgem/.
 
  1. California Code of Regulations, title 14, section 1724.7.1, "Casing
     Diagrams." Verbatim copy: casing-diagram-specification.txt (this folder);
-    official text in ../../04-literature/regulatory/ccr-title-14/.
+    official text: Casing Diagrams, 2026, Cal. Code Regs. tit. 14, 1724.7.1, Westlaw.txt.
  2. CalGEM, Notice to Underground Gas Storage Operators, "Casing Diagram
     Submission Requirements," December 5, 2025.
     File: Casing Diagram Submission_UGS NTO_Dec 2025.pdf
@@ -212,19 +211,19 @@ project folder was reorganized; the fourteen pilot diagrams are now in
     File: 1422 PA Order Temple Resources_ADA.pdf
  7. CalGEM, 2021 California Oil and Gas Wells data file, counted November 11,
     2026, by distinct API number and well status.
-    File: ../../05-data/calgem/2021CaliforniaOilAndGasWells.csv
+    File: ../05-data/calgem/2021CaliforniaOilAndGasWells.csv
  8. Study provenance record, sections 6 and 7 (wellbore diagram sources and the
-    fourteen collected diagrams). File: ../../05-data/calgem/PROVENANCE.md
- 9. Text survey of the fourteen diagrams in ../pilot-ventura/, November 11, 2026:
+    fourteen collected diagrams). File: PROVENANCE.md
+ 9. Text survey of the fourteen diagrams in ../06-study/pilot-ventura/, November 11, 2026:
     text extracted from each PDF and searched for years, the labels "BFW" and
     "USDW", measured and true vertical depth markers, and the word "spud." A
     search hit shows a term appears; it does not show the requirement is met.
 10. California Code of Regulations, title 14, section 1724.7, "Project Data
     Requirements," subdivision (a)(1)(C)(iii). File:
-    ../../04-literature/regulatory/ccr-title-14/
+    Project Data Requirements, 2026, Cal. Code Regs. tit. 14, 1724.7, Westlaw.txt
 11. California Code of Regulations, title 14, section 1726.4.1, "Casing
-    Diagrams." File: ../../04-literature/regulatory/ccr-title-14/; the earlier
-    specification based on it is in superseded/.
+    Diagrams." File: Casing Diagrams, 2026, Cal. Code Regs. tit. 14, 1726.4.1, Westlaw.txt;
+    the earlier specification based on it is in ../06-study/design/superseded/.
 12. California Code of Regulations, title 14, section 1772.1.3, "Casing
-    Diagrams." File: ../../04-literature/regulatory/ccr-title-14/; the
-    specification based on it is in superseded/.
+    Diagrams." File: Casing Diagrams, 2026, Cal. Code Regs. tit. 14, 1772.1.3, Westlaw.txt;
+    the specification based on it is in ../06-study/design/superseded/.

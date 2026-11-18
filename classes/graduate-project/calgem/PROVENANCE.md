@@ -1,26 +1,28 @@
 # Data Provenance: CalGEM Oil and Gas Well Data
 
 **Project:** MS Information Science master's project, research proposal (Lester S. Carcamo)
-**Folder:** `classes/graduate-project/05-data/calgem/` (was `classes/research-methods/w10/data/calgem/` until November 12, 2026)
+**Documentation folder:** `classes/graduate-project/calgem/`
+**Data folder:** `classes/graduate-project/05-data/calgem/`
 **Record created:** November 10, 2026
 **Times:** Pacific Standard Time (UTC−8)
 
-**Relocation, November 12, 2026.** The project folder was reorganized. Files were moved, never edited (checksums below are unchanged). Where this record says "this folder" or names a subfolder, read it as the new location below. Paths are relative to `classes/graduate-project/`.
+**Relocations, November 12 and 17, 2026.** The project folder was reorganized on November 12. On November 17, supporting documents and notes were consolidated in `calgem/`; datasets and diagram PDFs stayed in place. Source documents were moved without changing their contents (checksums below are unchanged). The table gives current locations, relative to `classes/graduate-project/`.
 
 | Was (under `w10/data/calgem/`) | Now |
 |---|---|
-| CSV, `.xls`, code PDFs, GIS readme, this record | `05-data/calgem/` |
+| Well and production CSVs | `05-data/calgem/` |
+| `Report File Definition.xls`, code PDFs, GIS readme, this record | `calgem/` |
 | `enforcement-orders/` | `05-data/calgem/enforcement-orders/` |
-| `wellbore-diagram-sources/` | `04-literature/regulatory/wellbore-diagram-sources/` |
-| `nov-sources/` | `04-literature/regulatory/nov-sources/` |
+| Supporting documents in `wellbore-diagram-sources/` | `calgem/` (the raw well-record PDF `11104373_DATA_03-11-2008.pdf` remains in `04-literature/regulatory/wellbore-diagram-sources/`) |
+| `nov-sources/` | `calgem/` |
 | `wellbore-diagrams/*.pdf` (10 Ventura wells) | `06-study/pilot-ventura/` |
-| `wellbore-diagrams/scenario-business-need.txt`, `casing-diagram-specification.txt` | `06-study/design/` |
+| `wellbore-diagrams/scenario-business-need.txt`, `casing-diagram-specification.txt` | `calgem/` |
 | `wellbore-diagrams/prompts/` and the four `*-copy-and-paste.txt` files | `06-study/design/prompts/` |
 | `sample/` | `06-study/sample/` |
 | `N-*-prompt/runs/` | `06-study/runs/N-*-prompt/` |
 | `*.py`, `*.js` | `scripts/` |
 
-The full move list is in `graduate-project/_reorg-log.txt`.
+The full move list is in [../_reorg-log.txt](../_reorg-log.txt). The separate Principles of Information Quality download record is now [data-provenance.md](data-provenance.md); its data files remain in that course's data folder.
 
 ---
 
@@ -64,7 +66,7 @@ The File Request system identified the requested files with these internal IDs: 
 
 ### Group A: downloaded directly
 
-| File in this folder | Source URL | Bytes | SHA-256 |
+| File in `calgem/` | Source URL | Bytes | SHA-256 |
 |---|---|---|---|
 | `GIS-metadata-ReadMe.pdf` | https://www.conservation.ca.gov/calgem/maps/Documents/GIS-metadata-ReadMe.pdf | 142,984 | `41E1C4CE54A81C1E42BE010C9CA27E388EE1C1BDCCBC50FBA604621CDB6BF725` |
 
@@ -72,7 +74,7 @@ The File Request system identified the requested files with these internal IDs: 
 
 ### Group B: requested through the File Request system
 
-| File in this folder | Bytes | SHA-256 |
+| File (CSVs in `05-data/calgem/`; documentation in `calgem/`) | Bytes | SHA-256 |
 |---|---|---|
 | `2021CaliforniaOilAndGasWells.csv` | 41,347,512 | `ADCDEFD1B3659FC08E3472DF77AE458EF246C01334B560FF1128FCF4CE4804A2` |
 | `2021CaliforniaOilAndGasWellMonthlyProduction.csv` | 92,571,772 | `2826F0743408BF177A037BC062C90CF30EA773CDF7393C02400E59D361348B7A` |
@@ -96,7 +98,7 @@ The row and column counts above include no header rows. They were counted on Nov
 
 The contents of every file are unchanged from what CalGEM delivered. Only names and locations changed.
 
-| Original name | Name in this folder | Reason |
+| Original name | Current file name | Reason |
 |---|---|---|
 | `2021CaliforniaOilAndGasWells.xls` (saved by the browser as `2021CaliforniaOilAndGasWells (1).xls`) | `2021CaliforniaOilAndGasWells.csv` | The file is comma-separated text, not an Excel workbook. The extension was corrected and the browser's duplicate marker "(1)" was removed |
 | `gis-metadata.pdf` (temporary download name) | `GIS-metadata-ReadMe.pdf` | Restored the publisher's file name from the source URL |
@@ -119,7 +121,7 @@ These were observed in the original files before any errors were introduced for 
 
 ---
 
-## 6. Wellbore diagram sources (now `04-literature/regulatory/wellbore-diagram-sources/`)
+## 6. Wellbore diagram sources (now `calgem/`)
 
 **Purpose:** documents that state what a wellbore (casing) diagram must contain or show how CalGEM uses diagrams.
 
@@ -211,7 +213,7 @@ Wells 3, 4, 6, 8, and 9 are replacements (section 7.1). Hartman 5 and Taylor 711
 
 Files were renamed to the well name on November 10, 2026; where a well has more than one diagram, the name adds "Current," "Proposed," or "As P&A." The original WellSTAR file name is kept in the table. Contents are unchanged, so the checksums match the files as delivered. All are PDFs with extractable text (not scanned images).
 
-| Doc ID | File in this folder | Original WellSTAR file name | Pages | Bytes | SHA-256 |
+| Doc ID | File in `06-study/pilot-ventura/` | Original WellSTAR file name | Pages | Bytes | SHA-256 |
 |---|---|---|---|---|---|
 | 485119 | `V.L. & W. 118.pdf` | `WBD_VLW118 - 01 - 02 - 5_11_2021.pdf` | 1 | 311,078 | `D692831ED2C1F22E669109307D6A9AA3F7DF03D4326D94703899A605F4D6C95A` |
 | 545690 | `Hartman East 73.pdf` | `WBD_HTM073 - 00 - HTM073 - 12_3_2021.pdf` | 1 | 717,160 | `7786F2B2AEA1B2F3B803319933641B2F92CDA38EC3C2C95266C68F1427219229` |
@@ -230,10 +232,10 @@ Files were renamed to the well name on November 10, 2026; where a well has more 
 
 ### 7.4 How to reproduce the selection and download
 
-**Step 1. Selection.** Run the script, now kept in `graduate-project/scripts/` (Python 3, standard library only), from this folder:
+**Step 1. Selection.** Run the script in `graduate-project/scripts/` (Python 3, standard library only), from the documentation folder `graduate-project/calgem/`:
 
 ```
-python ../../scripts/select_ventura_wells.py 2021CaliforniaOilAndGasWells.csv
+python ..\scripts\select_ventura_wells.py ..\05-data\calgem\2021CaliforniaOilAndGasWells.csv
 ```
 
 It prints the first draw and the ordered replacement candidates for each stratum. Rules the script implements:
@@ -258,7 +260,7 @@ Rules applied by hand while checking candidates:
 4. Open the drop-down at the right of the well name (it shows "Summary") and choose "Documents."
 5. In the documents grid, find rows whose Type is "Wellbore Diagram." Note each row's Document ID.
 
-**Step 3. Download each diagram.** The grid on the Well Detail page has no working download link for public users; CalGEM's own guidance (`wellbore-diagram-sources/Guidance_for_NOI_and_Permit_Search_Draft 1 1.pdf`, pages 4–5) describes this workaround:
+**Step 3. Download each diagram.** The grid on the Well Detail page has no working download link for public users; CalGEM's own guidance (`Guidance_for_NOI_and_Permit_Search_Draft 1 1.pdf` in this folder, pages 4–5) describes this workaround:
 
 1. Go to Explore Data → Documents (https://wellstar-public.conservation.ca.gov/General/DocumentSearch/Index).
 2. Type the Document ID in the "Document ID" field and click Search.
@@ -275,7 +277,7 @@ Rules applied by hand while checking candidates:
 
 ---
 
-## 8. Enforcement orders (subfolder `enforcement-orders/`, unchanged)
+## 8. Enforcement orders (`05-data/calgem/enforcement-orders/`, unchanged)
 
 **Purpose:** the published record of CalGEM enforcement, to learn which violations lead to orders and whether wellbore diagrams are among them.
 
@@ -290,7 +292,7 @@ Rules applied by hand while checking candidates:
 - One link was broken on CalGEM's site: Order 1197 to Tunnel Oil Company, dated May 19, 2021 (HTTP 404, Not Found).
 - Total size: about 253 MB.
 
-**Index:** `enforcement-orders/_index.csv` lists, for each link, its position on the page, the link text, file name, URL, download time, size in bytes, page count, characters of extractable text, and SHA-256 checksum, or the error.
+**Index:** [../05-data/calgem/enforcement-orders/_index.csv](../05-data/calgem/enforcement-orders/_index.csv) lists, for each link, its position on the page, the link text, file name, URL, download time, size in bytes, page count, characters of extractable text, and SHA-256 checksum, or the error.
 
 **Storage:** the PDFs are kept on local disk only and are excluded from git by `.gitignore`. The index is kept in the repository, so the set can be re-downloaded and verified.
 
@@ -305,7 +307,7 @@ Other orders mentioning casing diagrams (Orders 1268, 1270, 1273, 1274, 1282) qu
 
 ---
 
-## 9. Notice of Violation sources (now `04-literature/regulatory/nov-sources/`)
+## 9. Notice of Violation sources (now `calgem/`)
 
 **Purpose:** documents that explain what a Notice of Violation (NOV) is, how many are issued, and where they are published.
 
@@ -355,11 +357,12 @@ Usage: `python download_enforcement_orders.py <folder for PDFs> <file for text s
 
 ## 11. Storage
 
-- The two CSV files (about 134 MB together) and the 436 enforcement order PDFs (about 253 MB) are kept on local disk only and are excluded from the git repository by `.gitignore`. The checksums in section 3 let anyone confirm that a copy is identical.
-- The four documentation files (one `.xls` and three `.pdf`), the eight files in `wellbore-diagram-sources/`, the 14 diagrams in `wellbore-diagrams/` (about 3.2 MB; now `06-study/pilot-ventura/`), the 11 files in `nov-sources/` (about 15 MB), `enforcement-orders/_index.csv`, the three scripts in section 10, and this record are kept in the repository.
+- The two CSV files (about 134 MB together) and the 436 enforcement order PDFs (about 253 MB) belong under `05-data/calgem/` and are excluded from the git repository by `.gitignore`. The checksums in section 3 let anyone confirm that a copy is identical.
+- The documentation files, regulatory sources, NOV sources, and this record are in `calgem/`. The 14 pilot diagrams remain in `06-study/pilot-ventura/`, the enforcement index in `05-data/calgem/enforcement-orders/_index.csv`, and the five scripts in section 10 in `scripts/`; these are kept in the repository.
+- Local check, November 17, 2026: the 2021 wells CSV was restored from the byte-identical `.xls` in the Principles of Information Quality data folder and its SHA-256 was verified. The monthly production CSV, AllWells zip/CSV, and the 436 enforcement PDFs still need to be restored locally. The AllWells archive has a Google Drive copy (section 12).
 - A future copy obtained from CalGEM may differ, because the publisher may update or remove files without notice.
 
-## 12. Current all-wells file (subfolder `all-wells-2026-11-13/`)
+## 12. Current all-wells file (data location: `05-data/calgem/all-wells-2026-11-13/`)
 
 **Source:** CalGEM GIS Mapping page (https://www.conservation.ca.gov/calgem/maps/Pages/GISMapping2.aspx), entry "All Wells," CSV link. The link opens the ArcGIS portal item "Oil and Gas Wells Table, California" (https://gis.conservation.ca.gov/portal/home/item.html?id=0d30c4d9ac8f4f84a53a145e7d68eb6b), owner DOCGIS, described as "A zipped csv with all oil and gas wells for California. Updated nightly following workdays." The item page showed "Item updated: Nov 13, 2026."
 
@@ -377,5 +380,5 @@ Usage: `python download_enforcement_orders.py <folder for PDFs> <file for text s
 
 **Difference from the 2021 wells file:** the 2021 file came with the production and injection reports and lists wells by producing pool (12-digit API), so it covers 197,169 well bores. This file is CalGEM's full well list at the 10-digit API level and includes many more plugged wells.
 
-**Storage:** the zip and the CSV are kept on local disk only and excluded from git by `.gitignore`; `TableMetadata.htm` and this record are kept in the repository.
+**Storage:** the zip and the CSV belong in `05-data/calgem/all-wells-2026-11-13/` and are excluded from git by `.gitignore`. A copy of `AllWells.zip` is also in the "Research Proposal" folder in Google Drive (uploaded November 13, 2026; see the Google Drive source folder tracker in `03-proposal/3. Research Design and Methods.md`). `TableMetadata.htm` and this record are kept together in `calgem/` in the repository.
 

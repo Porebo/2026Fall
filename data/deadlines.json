@@ -181,6 +181,25 @@
       "url": "classes/research-methods/w10/research-proposal-planning-assignment.html"
     },
     {
+      "id": "rm-final-research-proposal",
+      "date": "2026-12-04",
+      "timeDisplay": "9:59 PM PST",
+      "course": "research-methods",
+      "type": "homework",
+      "workType": "hard",
+      "title": "Final Research Proposal",
+      "assignmentNumber": "Final Research Proposal",
+      "assignmentName": "Final Research Proposal",
+      "assignedDate": "2026-08-16",
+      "description": "Submit the 8-10 page research proposal, including the required sections, reference list, AI-tools acknowledgement, and shared Google Drive folder of verified sources.",
+      "submissionLocation": "Blackboard",
+      "points": 50,
+      "attemptsRemaining": 2,
+      "status": "Assigned",
+      "grade": "Not graded",
+      "url": "classes/graduate-project/03-proposal/REQUIREMENTS.md"
+    },
+    {
       "id": "rm-read-w01-kumar",
       "date": "2026-08-31",
       "timeDisplay": "4:00 PM PDT",

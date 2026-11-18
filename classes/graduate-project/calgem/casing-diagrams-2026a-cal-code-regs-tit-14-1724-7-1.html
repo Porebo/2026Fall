@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Interactive hierarchy of California Code of Regulations, Title 14, section 1724.7.1, Casing Diagrams.">
+  <title>Casing Diagrams | 14 CCR § 1724.7.1</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #142631;
+      --muted: #5b6c75;
+      --paper: #f2f0e8;
+      --surface: #fffef9;
+      --navy: #123f5a;
+      --teal: #14736f;
+      --gold: #c58a2a;
+      --line: #d5dcd9;
+      --major: #e6eff2;
+      --section: #e8f3ef;
+      --subsection: #faf0dc;
+      --shadow: 0 18px 50px rgba(20, 38, 49, 0.09);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      overflow: hidden;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 80% 8%, rgba(197, 138, 42, 0.12), transparent 24rem),
+        var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    button,
+    a {
+      font: inherit;
+    }
+
+    button {
+      color: inherit;
+    }
+
+    .page-header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2rem;
+      align-items: center;
+      height: 7.25rem;
+      padding: 1.15rem 3rem;
+      border-bottom: 1px solid rgba(18, 63, 90, 0.18);
+    }
+
+    .title-row {
+      display: flex;
+      gap: 1.1rem;
+      align-items: center;
+    }
+
+    .brand {
+      display: grid;
+      width: 3.35rem;
+      height: 3.35rem;
+      flex: 0 0 auto;
+      place-items: center;
+      color: var(--surface);
+      background: var(--navy);
+      border-radius: 50%;
+      font: 700 0.72rem/1 Arial, sans-serif;
+      letter-spacing: 0.07em;
+    }
+
+    .eyebrow {
+      margin: 0 0 0.25rem;
+      color: var(--teal);
+      font: 700 0.65rem/1.2 Arial, sans-serif;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 400;
+      letter-spacing: -0.025em;
+      line-height: 1.08;
+    }
+
+    .subtitle {
+      margin: 0.3rem 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .source-link {
+      padding: 0.7rem 0.9rem;
+      color: var(--navy);
+      border: 1px solid rgba(18, 63, 90, 0.35);
+      border-radius: 0.3rem;
+      font: 700 0.7rem/1 Arial, sans-serif;
+      letter-spacing: 0.06em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .source-link:hover,
+    .source-link:focus-visible {
+      color: var(--surface);
+      background: var(--navy);
+    }
+
+    .workspace {
+      position: relative;
+      display: grid;
+      grid-template-columns: 0.72fr 0.82fr 1fr 1.18fr;
+      gap: 3.25rem;
+      height: calc(100vh - 7.25rem);
+      padding: 1.6rem 2.5rem 2rem;
+    }
+
+    .connectors {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+      pointer-events: none;
+    }
+
+    .connector {
+      fill: none;
+      stroke: var(--navy);
+      stroke-width: 2;
+      opacity: 0.58;
+      stroke-linecap: round;
+      animation: draw 650ms ease both;
+    }
+
+    .connector--detail {
+      stroke: var(--teal);
+      opacity: 0.38;
+    }
+
+    @keyframes draw {
+      from {
+        stroke-dashoffset: 40;
+        opacity: 0;
+      }
+    }
+
+    .hierarchy-panel {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      min-width: 0;
+      overflow: hidden;
+      flex-direction: column;
+      background: rgba(255, 254, 249, 0.97);
+      border: 1px solid var(--line);
+      border-radius: 0.85rem;
+      box-shadow: var(--shadow);
+    }
+
+    .hierarchy-panel[hidden] {
+      display: none;
+    }
+
+    .panel-heading {
+      padding: 1.15rem 1.25rem 1rem;
+      color: var(--surface);
+      background: var(--navy);
+    }
+
+    .panel-heading--sections {
+      background: var(--teal);
+    }
+
+    .panel-heading--requirements {
+      color: var(--ink);
+      background: var(--gold);
+    }
+
+    .panel-heading--elements {
+      color: var(--ink);
+      background: #dfb35f;
+    }
+
+    .panel-kicker {
+      margin: 0 0 0.22rem;
+      font: 700 0.62rem/1.2 Arial, sans-serif;
+      letter-spacing: 0.14em;
+      opacity: 0.8;
+      text-transform: uppercase;
+    }
+
+    .panel-heading h2 {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+
+    .panel-list {
+      min-height: 0;
+      overflow-y: auto;
+      padding: 0.7rem;
+      scrollbar-color: #9caaa9 transparent;
+      scrollbar-width: thin;
+    }
+
+    .node {
+      margin: 0 0 0.55rem;
+      overflow: hidden;
+      border: 1px solid rgba(18, 63, 90, 0.18);
+      border-radius: 0.55rem;
+      background: var(--surface);
+      transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+    }
+
+    .node:last-child {
+      margin-bottom: 0;
+    }
+
+    .node-button {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 0.55rem;
+      align-items: start;
+      width: 100%;
+      padding: 0.72rem;
+      text-align: left;
+      background: transparent;
+      border: 0;
+      cursor: pointer;
+    }
+
+    .node-button:hover {
+      background: rgba(18, 63, 90, 0.035);
+    }
+
+    .node-code {
+      display: grid;
+      min-width: 2rem;
+      min-height: 2rem;
+      place-items: center;
+      color: var(--navy);
+      background: var(--major);
+      border-radius: 0.35rem;
+      font: 700 0.76rem/1 Arial, sans-serif;
+    }
+
+    .subsection-node .node-code {
+      color: #0b5f5b;
+      background: var(--section);
+    }
+
+    .requirement-node .node-code,
+    .element-node .node-code {
+      min-width: 2rem;
+      min-height: 2rem;
+      color: #795116;
+      background: var(--subsection);
+    }
+
+    .node-title {
+      display: block;
+      margin: 0.05rem 0 0.18rem;
+      font-size: 0.92rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    .node-summary {
+      display: none;
+    }
+
+    .node-toggle {
+      display: grid;
+      width: 1.5rem;
+      height: 1.5rem;
+      place-items: center;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      font: 700 0.9rem/1 Arial, sans-serif;
+      transition: transform 180ms ease;
+    }
+
+    .node-detail {
+      display: none;
+      padding: 0 0.8rem 0.8rem 3.25rem;
+      color: var(--muted);
+      font-size: 0.82rem;
+      line-height: 1.5;
+    }
+
+    .node.is-expanded .node-detail,
+    .node.is-selected .node-detail {
+      display: block;
+    }
+
+    .node.is-expanded .node-toggle,
+    .node.is-selected .node-toggle {
+      transform: rotate(45deg);
+    }
+
+    .node.is-selected {
+      border-color: var(--teal);
+      box-shadow: 0 8px 24px rgba(20, 115, 111, 0.12);
+      transform: translateY(-1px);
+    }
+
+    .regulation-node.is-selected,
+    .subsection-node.is-selected {
+      border-color: var(--navy);
+    }
+
+    .requirement-node.is-selected,
+    .element-node.is-expanded {
+      border-color: var(--gold);
+    }
+
+    .path-label {
+      margin: 0;
+      padding: 0.8rem 1rem;
+      color: var(--muted);
+      background: #f7f6f0;
+      border-bottom: 1px solid var(--line);
+      font: 0.72rem/1.45 Arial, sans-serif;
+    }
+
+    .path-label strong {
+      color: var(--navy);
+    }
+
+    .empty-detail {
+      padding: 2rem 1rem;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    button:focus-visible,
+    a:focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 3px;
+    }
+
+    .reset-button {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      z-index: 20;
+      padding: 0.72rem 0.9rem;
+      color: var(--surface);
+      background: var(--navy);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 0.4rem;
+      box-shadow: 0 8px 24px rgba(18, 63, 90, 0.2);
+      font: 700 0.68rem/1 Arial, sans-serif;
+      letter-spacing: 0.07em;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+
+    .reset-button:hover {
+      background: var(--teal);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .connector {
+        animation: none;
+      }
+
+      .node,
+      .node-toggle {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="page-header">
+    <div class="title-row">
+      <div class="brand" aria-hidden="true">14 CCR</div>
+      <div>
+        <p class="eyebrow">Interactive regulatory hierarchy</p>
+        <h1>Casing Diagrams</h1>
+        <p class="subtitle">Regulation → Subsection → Requirement → Data element</p>
+      </div>
+    </div>
+    <a class="source-link" href="Casing%20Diagrams%2C%202026a%2C%20Cal.%20Code%20Regs.%20tit.%2014%2C%201724.7.1%2C%20Legal%20Information%20Institute.pdf" target="_blank" rel="noopener">Open source PDF</a>
+  </header>
+
+  <main class="workspace" aria-label="Casing diagram requirements hierarchy">
+    <svg class="connectors" aria-hidden="true">
+      <g id="connector-paths"></g>
+    </svg>
+
+    <section class="hierarchy-panel" aria-labelledby="regulation-heading">
+      <header class="panel-heading">
+        <p class="panel-kicker">Level 1</p>
+        <h2 id="regulation-heading">Regulation</h2>
+      </header>
+      <div class="panel-list" id="regulation-list"></div>
+    </section>
+
+    <section class="hierarchy-panel" aria-labelledby="subsections-heading">
+      <header class="panel-heading panel-heading--sections">
+        <p class="panel-kicker">Level 2</p>
+        <h2 id="subsections-heading">Subsections</h2>
+      </header>
+      <p class="path-label" id="subsection-path"></p>
+      <div class="panel-list" id="subsection-list"></div>
+    </section>
+
+    <section class="hierarchy-panel" aria-labelledby="requirements-heading">
+      <header class="panel-heading panel-heading--requirements">
+        <p class="panel-kicker">Level 3</p>
+        <h2 id="requirements-heading">Requirements</h2>
+      </header>
+      <p class="path-label" id="requirement-path"></p>
+      <div class="panel-list" id="requirement-list"></div>
+    </section>
+
+    <section class="hierarchy-panel" aria-labelledby="elements-heading">
+      <header class="panel-heading panel-heading--elements">
+        <p class="panel-kicker">Level 4</p>
+        <h2 id="elements-heading">Data elements</h2>
+      </header>
+      <p class="path-label" id="element-path"></p>
+      <div class="panel-list" id="element-list"></div>
+    </section>
+  </main>
+  <button class="reset-button" id="reset-view" type="button" title="Reset to the initial hierarchy">Reset view</button>
+
+  <script>
+    const regulation = [
+      {
+        id: "a",
+        code: "(a)",
+        title: "Casing diagram data",
+        summary: "Fifteen information groups required in every submitted diagram.",
+        detail: "This major section establishes the complete set of well, depth, casing, cement, equipment, formation, and integrity information.",
+        sections: [
+          {
+            id: "a1", code: "(a)(1)", title: "Well identity",
+            summary: "Operator, lease, well, and API identification.",
+            detail: "Each diagram must identify the operator, lease, well, and API number.",
+            subsections: [
+              ["Operator name", "Name of the operator submitting the well information."],
+              ["Lease name", "Name of the lease associated with the well."],
+              ["Well number", "The assigned well number."],
+              ["API number", "The API well identifier."]
+            ]
+          },
+          {
+            id: "a2", code: "(a)(2)", title: "Spud date",
+            summary: "Date the well was spudded.",
+            detail: "The diagram must state the date on which drilling of the well was initiated.",
+            subsections: [["Spud date", "Date the well was spudded."]]
+          },
+          {
+            id: "a3", code: "(a)(3)", title: "Ground elevation",
+            summary: "Ground elevation above sea level.",
+            detail: "The diagram must identify the ground elevation referenced to sea level.",
+            subsections: [["Elevation datum", "Ground elevation from sea level."]]
+          },
+          {
+            id: "a4", code: "(a)(4)", title: "Reference elevation",
+            summary: "Rig-floor or Kelly-bushing reference elevation.",
+            detail: "The diagram must state the elevation reference used for its depth measurements.",
+            subsections: [
+              ["Reference elevation", "The elevation reference used for depth measurements."],
+              ["Permitted examples", "For example, the rig floor or Kelly bushing."]
+            ]
+          },
+          {
+            id: "a5", code: "(a)(5)", title: "Base of freshwater",
+            summary: "Depth of the freshwater base.",
+            detail: "The diagram must show the base of freshwater penetrated by the well.",
+            subsections: [["Freshwater base", "Base of freshwater."]]
+          },
+          {
+            id: "a6", code: "(a)(6)", title: "Lowermost USDW",
+            summary: "Base of the lowermost drinking-water source.",
+            detail: "The diagram must show the base of the lowermost USDW penetrated by the well.",
+            subsections: [["USDW base", "Base of the lowermost underground source of drinking water penetrated by the well."]]
+          },
+          {
+            id: "a7", code: "(a)(7)", title: "Casing specifications",
+            summary: "Size, grade, connection, and weight.",
+            detail: "These specifications are required for all casing strings represented on the diagram.",
+            subsections: [
+              ["Casing sizes", "Outside diameter and applicable size designation."],
+              ["Casing grades", "Grade or material strength designation."],
+              ["Connection type", "Connection type used for the casing."],
+              ["Casing weight", "Weight of the casing."]
+            ]
+          },
+          {
+            id: "a8", code: "(a)(8)", title: "Casing-set depths",
+            summary: "Shoes, stubs, and liner tops.",
+            detail: "The diagram must identify these casing-setting and transition depths.",
+            subsections: [
+              ["Shoe depths", "Depth of each casing shoe."],
+              ["Stub depths", "Depths of casing stubs."],
+              ["Liner-top depths", "Depth of each liner top."]
+            ]
+          },
+          {
+            id: "a9", code: "(a)(9)", title: "Flow and integrity features",
+            summary: "Openings, damage, obstructions, and other features affecting the well.",
+            detail: "The diagram must identify every listed feature that affects flow or may compromise mechanical integrity.",
+            subsections: [
+              ["Perforations", "Depths of perforations and perforation intervals."],
+              ["Open-hole completions", "Depth and extent of open-hole completion intervals."],
+              ["Water-shutoff holes", "Depths of water-shutoff holes."],
+              ["Cement ports", "Depths of cement ports."],
+              ["Cavity shots", "Depths of cavity shots."],
+              ["Cuts", "Depths and extent of casing cuts."],
+              ["Casing damage", "Type and extent of casing damage."],
+              ["Junk or fish", "Type and extent of junk or fish."],
+              ["Other integrity features", "Any other feature that influences flow or may compromise mechanical integrity."]
+            ]
+          },
+          {
+            id: "a10", code: "(a)(10)", title: "Downhole equipment",
+            summary: "Safety valves, packers, and gas-lift mandrels.",
+            detail: "Equipment information must describe relevant systems installed in the well.",
+            subsections: [
+              ["Subsurface safety valves", "Information about subsurface safety valves in the well."],
+              ["Packers", "Information about packers in the well."],
+              ["Gas-lift mandrels", "Information about gas-lift mandrels in the well."]
+            ]
+          },
+          {
+            id: "a11", code: "(a)(11)", title: "Drilled-hole intervals",
+            summary: "Diameter and depth for every drilled interval.",
+            detail: "Every drilled interval must be characterized by both size and depth.",
+            subsections: [
+              ["Hole diameter", "Diameter of the hole for each drilled interval."],
+              ["Hole depth", "Depth of the hole for each drilled interval."]
+            ]
+          },
+          {
+            id: "a12", code: "(a)(12)", title: "Cement plugs inside casing",
+            summary: "Plug identity, top, and bottom.",
+            detail: "All cement plugs inside casing strings must be identified and located.",
+            subsections: [
+              ["Plug identification", "Identify each cement plug inside casing."],
+              ["Top location", "Location of the top of each plug."],
+              ["Bottom location", "Location of the bottom of each plug."]
+            ]
+          },
+          {
+            id: "a13", code: "(a)(13)", title: "Cement behind casing",
+            summary: "Cement-fill interval top and bottom.",
+            detail: "Cement fill in the annular space behind casing must be identified and located.",
+            subsections: [
+              ["Cement-fill identification", "Identify cement fill behind casings."],
+              ["Top location", "Location of the top of the cement fill."],
+              ["Bottom location", "Location of the bottom of the cement fill."]
+            ]
+          },
+          {
+            id: "a14", code: "(a)(14)", title: "Fluid between plugs",
+            summary: "Fluid type and weight or density.",
+            detail: "The fluid separating cement plugs must be characterized.",
+            subsections: [
+              ["Fluid type", "Type of fluid between cement plugs."],
+              ["Fluid weight or density", "Weight, expressed as density, of the fluid between cement plugs."]
+            ]
+          },
+          {
+            id: "a15", code: "(a)(15)", title: "Formations and injection intervals",
+            summary: "Named formations, markers, injection zone, and confining layers.",
+            detail: "The diagram must locate named geologic features and the project-specific injection and confinement intervals.",
+            subsections: [
+              ["Formation names and depths", "Depths and names of formations penetrated by the well."],
+              ["Zone names and depths", "Depths and names of zones penetrated by the well."],
+              ["Marker names and depths", "Depths and names of markers penetrated by the well."],
+              ["Injection-zone boundaries", "Top and bottom of the injection zone for underground injection projects."],
+              ["Confining-layer boundaries", "Top and bottom of each confining layer for underground injection projects."]
+            ]
+          }
+        ]
+      },
+      {
+        id: "b",
+        code: "(b)",
+        title: "Supporting documentation",
+        summary: "Cement calculations, slurry inputs, and wellbore path records.",
+        detail: "These documents must accompany every casing diagram submitted to the Division.",
+        sections: [
+          {
+            id: "b1", code: "(b)(1)", title: "Cement calculation steps",
+            summary: "All steps of yield and cement calculations.",
+            detail: "Submission records must preserve the full calculation process.",
+            subsections: [
+              ["Yield-calculation steps", "All steps used to calculate cement yield."],
+              ["Cement-calculation steps", "All steps of every cement calculation performed."]
+            ]
+          },
+          {
+            id: "b2", code: "(b)(2)", title: "Slurry calculation information",
+            summary: "Volume, density, yield, cement type, and additives.",
+            detail: "Provide every input used to calculate the cement slurry for each completed cement job.",
+            subsections: [
+              ["Slurry volume", "Information used to calculate slurry volume."],
+              ["Slurry density", "Information used to calculate slurry density."],
+              ["Slurry yield", "Information used to calculate slurry yield."],
+              ["Cement type", "Cement type used for each cement job."],
+              ["Cement additives", "All additives used for each cement job."],
+              ["Coverage", "Include this information for every cement job completed in each well."]
+            ]
+          },
+          {
+            id: "b3", code: "(b)(3)", title: "Wellbore path",
+            summary: "Measured depth, inclination, and azimuth.",
+            detail: "The documentation must describe the physical trajectory of the wellbore.",
+            subsections: [
+              ["Measured depth", "Measured depth along the wellbore path."],
+              ["Inclination", "Inclination measurements for the wellbore path."],
+              ["Azimuth", "Azimuth measurements for the wellbore path."]
+            ]
+          }
+        ]
+      },
+      {
+        id: "c",
+        code: "(c)",
+        title: "Multiple boreholes",
+        summary: "Full records for original, redrilled, and sidetracked paths.",
+        detail: "The requirements apply separately to every borehole drilled in a well.",
+        sections: [
+          {
+            id: "c1", code: "(c)", title: "Coverage of all boreholes",
+            summary: "Every borehole receives all required information.",
+            detail: "When a well contains multiple boreholes, none may be omitted from the required record.",
+            subsections: [
+              ["Original hole", "All information listed in the section is required for the original hole."],
+              ["Subsequent redrilled boreholes", "All required information is repeated for every subsequent redrilled wellbore."],
+              ["Sidetracked boreholes", "All required information is repeated for every sidetracked wellbore."]
+            ]
+          }
+        ]
+      },
+      {
+        id: "d",
+        code: "(d)",
+        title: "Depth conventions",
+        summary: "Every required depth uses MD and TVD.",
+        detail: "This requirement applies to every depth required under subdivision (a).",
+        sections: [
+          {
+            id: "d1", code: "(d)", title: "Two depth references",
+            summary: "Measured depth and true vertical depth must both be supplied.",
+            detail: "Both systems must be provided for every required depth, not only selected intervals.",
+            subsections: [
+              ["Measured depth (MD)", "Provide measured depth for every depth required under subdivision (a)."],
+              ["True vertical depth (TVD)", "Provide true vertical depth for every depth required under subdivision (a)."],
+              ["Complete coverage", "Apply both depth systems to all required subdivision (a) depths."]
+            ]
+          }
+        ]
+      },
+      {
+        id: "e",
+        code: "(e)",
+        title: "Submission format",
+        summary: "Graphical diagram or complete flat-file dataset.",
+        detail: "Either accepted format may satisfy section 1724.7(a)(1)(C)(iii).",
+        sections: [
+          {
+            id: "e1", code: "(e)", title: "Two accepted forms",
+            summary: "Submit a graph or a complete structured dataset.",
+            detail: "Both formats must contain all information described in section 1724.7.1.",
+            subsections: [
+              ["Graphical casing diagram", "Operators may submit a graphical casing diagram."],
+              ["Flat-file dataset", "Operators may instead submit a flat-file data set."],
+              ["Required content", "Whichever form is used, it must contain all information described in this section."],
+              ["Applicable requirement", "The submission satisfies the requirements of section 1724.7(a)(1)(C)(iii)."]
+            ]
+          }
+        ]
+      }
+    ];
+
+    const regulationList = document.querySelector("#regulation-list");
+    const subsectionList = document.querySelector("#subsection-list");
+    const requirementList = document.querySelector("#requirement-list");
+    const elementList = document.querySelector("#element-list");
+    const subsectionPath = document.querySelector("#subsection-path");
+    const requirementPath = document.querySelector("#requirement-path");
+    const elementPath = document.querySelector("#element-path");
+    const connectorPaths = document.querySelector("#connector-paths");
+    const workspace = document.querySelector(".workspace");
+
+    let subsectionsVisible = false;
+    let activeSubsection = null;
+    let activeRequirement = null;
+    let expandedElements = new Set();
+
+    function createNode({ kind, code, title, summary, detail, selected, expanded, index, action }) {
+      const article = document.createElement("article");
+      article.className = `node ${kind}-node${selected ? " is-selected" : ""}${expanded ? " is-expanded" : ""}`;
+      article.dataset.index = index;
+
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "node-button";
+      button.setAttribute("aria-expanded", String(selected || expanded));
+      button.innerHTML = `
+        <span class="node-code">${code}</span>
+        <span>
+          <span class="node-title">${title}</span>
+        </span>
+        <span class="node-toggle" aria-hidden="true">+</span>
+      `;
+      button.addEventListener("click", action);
+
+      const detailBox = document.createElement("div");
+      detailBox.className = "node-detail";
+      detailBox.textContent = detail;
+
+      article.append(button, detailBox);
+      return article;
+    }
+
+    function render() {
+      regulationList.replaceChildren(createNode({
+        kind: "regulation",
+        code: "§",
+        title: "14 CCR § 1724.7.1",
+        summary: "",
+        detail: "Casing Diagrams — California Code of Regulations, Title 14.",
+        selected: false,
+        expanded: subsectionsVisible,
+        index: 0,
+        action: showSubsections
+      }));
+
+      subsectionList.replaceChildren();
+      if (subsectionsVisible) {
+        regulation.forEach((subsection, index) => {
+          subsectionList.append(createNode({
+            kind: "subsection",
+            code: subsection.code,
+            title: subsection.title,
+            summary: subsection.summary,
+            detail: subsection.detail,
+            selected: subsection.id === activeSubsection?.id,
+            expanded: false,
+            index,
+            action: () => selectSubsection(subsection)
+          }));
+        });
+      }
+
+      subsectionPath.innerHTML = subsectionsVisible
+        ? "<strong>§ 1724.7.1</strong> · choose a subsection"
+        : "Select the regulation to reveal subsections";
+      requirementPath.innerHTML = activeSubsection
+        ? `<strong>${activeSubsection.code}</strong> · choose a requirement`
+        : "No subsection selected";
+      requirementList.replaceChildren();
+      if (activeSubsection) {
+        activeSubsection.sections.forEach((requirement, index) => {
+          requirementList.append(createNode({
+            kind: "requirement",
+            code: requirement.code,
+            title: requirement.title,
+            summary: requirement.summary,
+            detail: requirement.detail,
+            selected: requirement.id === activeRequirement?.id,
+            expanded: false,
+            index,
+            action: () => selectRequirement(requirement)
+          }));
+        });
+      }
+
+      elementPath.innerHTML = activeRequirement
+        ? `<strong>${activeRequirement.code}</strong> · expand data elements`
+        : "No requirement selected";
+      elementList.replaceChildren();
+      if (activeRequirement) {
+        activeRequirement.subsections.forEach(([title, detail], index) => {
+          elementList.append(createNode({
+            kind: "element",
+            code: String(index + 1).padStart(2, "0"),
+            title,
+            summary: "",
+            detail,
+            selected: false,
+            expanded: expandedElements.has(index),
+            index,
+            action: () => toggleElement(index)
+          }));
+        });
+      }
+
+      subsectionPath.closest(".hierarchy-panel").hidden = !subsectionsVisible;
+      requirementPath.closest(".hierarchy-panel").hidden = !activeSubsection;
+      elementPath.closest(".hierarchy-panel").hidden = !activeRequirement;
+      requestAnimationFrame(drawConnectors);
+    }
+
+    function showSubsections() {
+      subsectionsVisible = true;
+      activeSubsection = null;
+      activeRequirement = null;
+      expandedElements = new Set();
+      render();
+    }
+
+    function selectSubsection(subsection) {
+      activeSubsection = subsection;
+      activeRequirement = null;
+      expandedElements = new Set();
+      render();
+    }
+
+    function selectRequirement(requirement) {
+      activeRequirement = requirement;
+      expandedElements = new Set();
+      render();
+    }
+
+    function toggleElement(index) {
+      if (expandedElements.has(index)) {
+        expandedElements.delete(index);
+      } else {
+        expandedElements.add(index);
+      }
+      render();
+      elementList.children[index]?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+
+    function resetView() {
+      subsectionsVisible = false;
+      activeSubsection = null;
+      activeRequirement = null;
+      expandedElements = new Set();
+      subsectionList.scrollTop = 0;
+      requirementList.scrollTop = 0;
+      elementList.scrollTop = 0;
+      render();
+    }
+
+    function relativeRect(element) {
+      const parent = workspace.getBoundingClientRect();
+      const rect = element.getBoundingClientRect();
+      return {
+        left: rect.left - parent.left,
+        top: rect.top - parent.top,
+        right: rect.right - parent.left,
+        bottom: rect.bottom - parent.top,
+        width: rect.width,
+        height: rect.height
+      };
+    }
+
+    function addCurve(source, target, className) {
+      const a = relativeRect(source);
+      const b = relativeRect(target);
+      const startX = a.right - 1;
+      const startY = a.top + a.height / 2;
+      const endX = b.left + 1;
+      const endY = b.top + b.height / 2;
+      const bend = Math.max(36, (endX - startX) * 0.52);
+      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      path.setAttribute("d", `M ${startX} ${startY} C ${startX + bend} ${startY}, ${endX - bend} ${endY}, ${endX} ${endY}`);
+      path.setAttribute("class", `connector ${className || ""}`);
+      connectorPaths.append(path);
+    }
+
+    function drawConnectors() {
+      connectorPaths.replaceChildren();
+      const root = regulationList.querySelector(".regulation-node");
+      const subsections = subsectionList.querySelectorAll(".subsection-node");
+      const selectedSubsection = subsectionList.querySelector(".is-selected");
+      const requirements = requirementList.querySelectorAll(".requirement-node");
+      const selectedRequirement = requirementList.querySelector(".is-selected");
+      const elements = elementList.querySelectorAll(".element-node");
+
+      if (root && subsectionsVisible) {
+        subsections.forEach(subsection => addCurve(root, subsection));
+      }
+      if (selectedSubsection) {
+        requirements.forEach(requirement => addCurve(selectedSubsection, requirement));
+      }
+      if (selectedRequirement) {
+        elements.forEach(element => addCurve(selectedRequirement, element, "connector--detail"));
+      }
+    }
+
+    const observer = new ResizeObserver(() => requestAnimationFrame(drawConnectors));
+    observer.observe(workspace);
+    [regulationList, subsectionList, requirementList, elementList].forEach(list => {
+      list.addEventListener("scroll", () => requestAnimationFrame(drawConnectors), { passive: true });
+    });
+    window.addEventListener("resize", drawConnectors);
+    document.querySelector("#reset-view").addEventListener("click", resetView);
+    workspace.addEventListener("dblclick", event => {
+      if (!event.target.closest("button, a")) {
+        resetView();
+      }
+    });
+
+    render();
+  </script>
+</body>
+</html>

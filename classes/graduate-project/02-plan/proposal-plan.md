@@ -28,8 +28,8 @@
 ### Settled on November 11
 
 - [x] **Prompt types.** Three levels since November 13, 2026, each adding one technique: (1) naive, (2) informed (persona, task, context, format: PTCF), (3) chain-of-thought (zero-shot). Few-shot was dropped. AI models: ChatGPT, Claude, and Gemini, free tiers. Source: `06-study/design/prompts/prompt-design-methods.txt`.
-- [x] **Task and scenario.** A regulatory or engineering staff member checks whether an existing casing diagram meets the State's requirements before reusing it in a Notice of Intention to Abandon. Source: `06-study/design/scenario-business-need.txt`.
-- [x] **Standard that defines an error.** California Code of Regulations, title 14, § 1724.7.1 (casing diagrams for underground injection control; the same 15 items as § 1772.1.3 for idle wells). Changed Nov 12 from § 1726.4.1 (gas storage wells, 18 items), because none of the 30 sampled wells is a gas storage well; changed Nov 13 from § 1772.1.3 to § 1724.7.1 (Onshore Well Regulations; covers producers in a project's area of review; enforced in Order 1517). A requirement is Present, Absent, or Illegible on the diagram. Verbatim text: `06-study/design/casing-diagram-specification.txt`.
+- [x] **Task and scenario.** A regulatory or engineering staff member checks whether an existing casing diagram meets the State's requirements before reusing it in a Notice of Intention to Abandon. Source: `calgem/scenario-business-need.txt`.
+- [x] **Standard that defines an error.** California Code of Regulations, title 14, § 1724.7.1 (casing diagrams for underground injection control; the same 15 items as § 1772.1.3 for idle wells). Changed Nov 12 from § 1726.4.1 (gas storage wells, 18 items), because none of the 30 sampled wells is a gas storage well; changed Nov 13 from § 1772.1.3 to § 1724.7.1 (Onshore Well Regulations; covers producers in a project's area of review; enforced in Order 1517). A requirement is Present, Absent, or Illegible on the diagram. Verbatim text: `calgem/casing-diagram-specification.txt`.
 - [x] **Dataset and sample.** Frame: every Active or Idle well in CalGEM's 2021 wells file (N = 107,952). Random order (seed 20261111), screened until 30 wells had a usable diagram in WellSTAR: W01 to W30. Source: `06-study/sample/sampling-plan.txt` (v1.2), data in `05-data/calgem/`.
 - [x] **Sample size.** n = 30 as a pilot, justified by Lancaster (2004), Julious (2005), and Hertzog (2008).
 - [x] **Input quality.** The 30 PDFs are profiled as Native, Mixed, or Scanned, and results will be reported by type. Source: `06-study/sample/sample-quality-evaluation.txt`.
@@ -68,10 +68,10 @@
 
 ## 4. Sections of the body and what already exists
 
-- [ ] **Introduction.** Have: paragraph 1 approved and paragraph 2 drafted (`03-proposal/draft-introduction-paragraphs.txt`); the business scenario (`06-study/design/scenario-business-need.txt`). Needs: paragraph 2 rewritten for the new design.
+- [ ] **Introduction.** Have: paragraph 1 approved and paragraph 2 drafted (`03-proposal/draft-introduction-paragraphs.txt`); the business scenario (`calgem/scenario-business-need.txt`). Needs: paragraph 2 rewritten for the new design.
 - [ ] **Research objectives and questions.** Have: three research questions in the Week 5 draft (old design). Needs: rewrite.
-- [ ] **Literature review.** Have: 25 papers and regulation texts in `04-literature/papers/`, rules documents in `04-literature/regulatory/`, slides in `03-proposal/Research Proposal Lester S Carcamo.pptx`. Course rule: at least 20 cited in the body.
-- [ ] **Method.** Have: draft section 3 (`03-proposal/3. Research Design and Methods.md`; 3.2.1 done), prompt design and evaluation (`06-study/design/prompts/prompt-design-methods.txt`), the sampling plan and its results (`06-study/sample/sampling-plan.txt`), input quality (`06-study/sample/sample-quality-evaluation.txt`), and data provenance (`05-data/calgem/PROVENANCE.md`). Missing: the open items in section 2.
+- [ ] **Literature review.** Have: papers in `04-literature/papers/`, regulation texts and supporting documents in `calgem/`, slides in `03-proposal/Research Proposal Lester S Carcamo.pptx`. Course rule: at least 20 cited in the body.
+- [ ] **Method.** Have: draft section 3 (`03-proposal/3. Research Design and Methods.md`; 3.2.1 done), prompt design and evaluation (`06-study/design/prompts/prompt-design-methods.txt`), the sampling plan and its results (`06-study/sample/sampling-plan.txt`), input quality (`06-study/sample/sample-quality-evaluation.txt`), and data provenance (`calgem/PROVENANCE.md`). Missing: the open items in section 2.
 - [ ] **Significance.** Have: the committee email (who benefits) and the scenario (why the task exists).
 - [ ] **Limitations and ethics.** Have: `prompt-design-methods.txt`, section 9; the free-tier attachment limit. Add: no human subjects, no employer data, public records only.
 - [ ] **Timeline.** Have: the email promises analysis and defense in spring.

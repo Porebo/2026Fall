@@ -12,9 +12,10 @@ Change in 1.1: terminology: "casing diagram," the term used in Title 14 of the C
 The study compares three prompts of increasing structure, each given to a
 general-purpose AI assistant together with the same two attachments: one
 casing diagram from the random sample and the verbatim text of California
-Code of Regulations, title 14, section 1724.7.1 (casing-diagram-specification.txt).
+Code of Regulations, title 14, section 1724.7.1
+(../../../calgem/casing-diagram-specification.txt).
 Each prompt represents a level of prompting skill that a worker might bring to
-the task described in the business scenario (scenario-business-need.txt): a
+the task described in the business scenario (../../../calgem/scenario-business-need.txt): a
 regulatory or engineering staff member who wants to know whether an existing
 casing diagram meets the State's casing diagram requirements before reusing
 it in a Notice of Intention to Abandon.

@@ -10,12 +10,12 @@ operator plans to plug and abandon. Before reusing the diagram in the Notice of
 Intention to Abandon, the worker asks an AI whether it meets CalGEM's
 requirements. The worker types the request the way it would be written on the
 job: plain language and industry shorthand, with no rating rules, definitions,
-item list, or output format. See ../scenario-business-need.txt.
+item list, or output format. See ../../../calgem/scenario-business-need.txt.
 
 Attachments sent with the prompt:
   1. one casing diagram   ../../sample/diagrams/Wnn.pdf, the original file as
                             downloaded from WellSTAR (unchanged)
-  2. the requirements       ../casing-diagram-specification.txt (14 CCR
+  2. the requirements       ../../../calgem/casing-diagram-specification.txt (14 CCR
                             1724.7.1, verbatim)
 
 Everything between the two lines below is sent to the AI exactly as written.

@@ -13,7 +13,7 @@ Target population: unplugged California oil and gas wells (status Active or
 Idle) that have at least one casing diagram on file in WellSTAR, CalGEM's
 public well database. These are the wells for which a worker could retrieve an
 existing diagram before an abandonment filing (see
-../design/scenario-business-need.txt).
+../../calgem/scenario-business-need.txt).
 
 Sampling frame: every distinct well (12-digit API number) with status Active or
 Idle in CalGEM's 2021 California Oil and Gas Wells file
@@ -135,7 +135,7 @@ is used.
 ========================================
 
 Wells are screened in the order of screening-log.csv, using the WellSTAR
-steps in ../../05-data/calgem/PROVENANCE.md, section 7.4. Every screened well receives exactly one
+steps in ../../calgem/PROVENANCE.md, section 7.4. Every screened well receives exactly one
 outcome code, entered in the log with the date checked:
 
   INCLUDED          Eligible; diagram downloaded (Document ID recorded)
@@ -154,7 +154,7 @@ and report the number reached and the availability rate, rather than changing
 the method.
 
 Expected effort: in an earlier screen of one field, about 3 in 10 wells had a
-diagram (../../05-data/calgem/PROVENANCE.md, section 7.1), so about 100 wells are expected to be
+diagram (../../calgem/PROVENANCE.md, section 7.1), so about 100 wells are expected to be
 screened.
 
 

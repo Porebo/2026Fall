@@ -120,7 +120,7 @@ of its file. All 30 remain in the sample exactly as downloaded.
 
 6.3 The files are what the worker actually receives.
     The scenario is a worker retrieving the diagram already on file and
-    checking it before reuse (../design/scenario-business-need.txt,
+    checking it before reuse (../../calgem/scenario-business-need.txt,
     section 2). The worker cannot choose a better-scanned copy; the file in
     WellSTAR is the record. A method that works only on clean files does not
     solve the worker's problem.
