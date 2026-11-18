@@ -1,0 +1,130 @@
+PROMPT ENGINEERING PROTOCOL
+Version 4.0
+
+CHANGE NOTE (2026-11-18, v3.0 -> v4.0): Uses casing-diagram-atomic-checklist-v4.txt,
+which adds points 79-89 from 14 CCR § 1724.7.1(b) (cement calculation steps,
+cement-slurry information for each cement job, and the wellbore path) and (c)
+(borehole designation). Until v3 this content was recorded as supporting another
+requirement and was not scored. Point and row counts change from 78 to 89
+(63 MD/non-depth, 26 TVD). Because (b) requires documentation that
+"accompanies" the diagram, a (b) point is MET when the information appears
+on the diagram file or the diagram states or shows that it accompanies the
+diagram separately (e.g., "see directional survey"); documentation filed
+separately is not itself observed.
+Each prompt adds one sentence telling the model to judge points 79-89 only
+from the attached diagram file. The diagram placeholder is Unn.pdf (the U01-U30
+study sample).
+
+Point 89 ((c).borehole_designation) is conditional (student decision,
+2026-11-18): when the diagram shows a single borehole it is NOT_APPLICABLE
+and is removed from that diagram's denominator (89 -> 88). The allowed
+statuses are MET and MISSING, plus NOT_APPLICABLE for point 89 only. The
+row count stays 89.
+
+EARLIER CHANGE NOTE (2026-11-18, v2.0 -> v3.0): Uses casing-diagram-atomic-checklist-v3.txt,
+which adds point 32, (a)(10).other_equipment, because the (a)(10) equipment list
+is illustrative ("such as"). Point and row counts change from 77 to 78. The v2
+SCORING line "Each of the 51 AI rows" (a leftover from an earlier count) is
+corrected to 78.
+
+PURPOSE
+
+This protocol defines three prompt conditions for testing whether AI assistants
+can determine the presence or absence of the 89 atomic data points derived from
+14 CCR § 1724.7.1. The set combines the subdivision-(a) content with the
+subdivision-(d) requirement for separate MD and TVD representations and the
+subdivision-(b) and (c) content (points 79-89). It
+replaces the earlier 15-group prompt protocol.
+
+MEASUREMENT TASK
+
+The human reviewer and every AI condition make only a presence decision.
+
+MET: the diagram supplies an answer, including a value, "none", "N/A", or
+another explicit entry.
+
+MISSING: the diagram supplies no answer.
+
+Points 79-89 (subdivisions (b) and (c)) follow the same rule. Subdivision (b)
+requires documentation that accompanies the diagram; only the published diagram
+file is observed, so a (b) point is MET when the information appears on that
+file or when the diagram states or shows that the information for that point
+accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report").
+It is MISSING when the diagram neither shows nor references the information.
+
+NOT_APPLICABLE (point 89 only): the diagram shows a single borehole, so
+§ 1724.7.1(c) ("when multiple boreholes are drilled") does not apply. When
+more than one borehole is shown, point 89 is MET when each bore is
+identified and the required information is given for each bore, and
+MISSING otherwise. No other point may be NOT_APPLICABLE.
+
+The model must not judge truth, quality, plausibility, engineering validity, or
+regulatory adequacy. Any such judgment is outside the measured construct.
+
+COMMON INPUTS
+
+Every run receives:
+
+1. One original casing diagram, Unn.pdf
+2. The verbatim Section 1724.7.1 specification
+3. The 89-point atomic checklist, including separate MD and TVD rows
+
+Every subdivision-(a) depth-bearing requirement has separate MD and TVD points. Every condition
+requests the same output fields and exactly 89 rows:
+
+Point ID | Specification Code | Displayed Answer | Status
+
+PROMPT CONDITIONS
+
+Level 1, naive:
+Minimal natural-language request specifying the common presence-only task and
+the fixed 89-row output.
+
+Level 2, informed:
+The Level 1 task is framed with persona, task, context, and format. The
+measurement rule and output structure remain unchanged. The added information
+is explicitly identified in the prompt.
+
+Level 3, chain-of-thought:
+The Level 2 prompt is retained and one sequential, step-by-step instruction is
+added. The measurement rule and output structure remain unchanged.
+
+ETHICAL EXECUTION CONDITIONS
+
+All runs are performed manually through ordinary consumer interfaces. Do not use
+bots, browser automation, scraping, scripts, API substitution, or programmatic
+extraction of model responses. The researcher opens a new conversation, uploads
+the approved public inputs, pastes the exact prompt, and manually copies the
+first response into the designated file.
+
+The run log records the service, account type, prompt version, diagram
+identifier, attachment set, date, displayed model version when available,
+assigned prompt order, privacy/training setting, and output filename. Prompt
+order is counterbalanced across diagram-service pairs. Only the public casing
+diagram, verbatim regulation, atomic checklist, and approved prompt may be
+uploaded.
+
+These controls preserve direct account control and avoid assuming permission to
+automate consumer services. The exact applicable terms and privacy settings
+must be rechecked before data collection.
+
+SCORING
+
+Each of the 89 AI rows is compared with the frozen human-reference row for the
+same point. The result is:
+
+- Correctly judged
+- Wrongly judged
+- Not addressed
+
+Run accuracy is the number of correctly judged points divided by the number
+of applicable points: 89, or 88 when the human reference marks point 89
+NOT_APPLICABLE (single borehole). When the reference marks point 89
+NOT_APPLICABLE, the AI row for point 89 is not scored. When the reference
+marks it MET or MISSING, an AI NOT_APPLICABLE is wrongly judged.
+
+CONTROL CHECK
+
+The three prompt texts, attachment checksums, and run metadata must be archived.
+The old dry-run files based on the 15-group protocol are exploratory records and
+must not be included as observations in the final study.

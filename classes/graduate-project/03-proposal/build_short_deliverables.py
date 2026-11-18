@@ -167,18 +167,18 @@ def course_document() -> None:
     )
     add_paragraph(
         document,
-        "Section 1724.7.1(a) presents 15 numbered groups, but several groups contain multiple fields. Subdivision (d) separately requires both measured depth (MD) and true vertical depth (TVD) for each required depth. The 15 groups therefore become 77 atomic scoring points: 25 non-depth points, 26 MD points, and 26 TVD points. This atomization prevents a grouped requirement from receiving credit when only part is present.",
+        "Section 1724.7.1(a) presents 15 numbered groups, but several groups contain multiple fields. Subdivision (d) separately requires both measured depth (MD) and true vertical depth (TVD) for each depth required under subdivision (a); subdivision (b) requires documentation of the cement calculations, cement slurry, and wellbore path to accompany the diagram; and subdivision (c) extends the requirements to redrilled and sidetracked boreholes. Together these become 89 atomic scoring points: 78 from subdivisions (a) and (d) (52 MD/non-depth and 26 TVD points) and 11 from subdivisions (b) and (c). This atomization prevents a grouped requirement from receiving credit when only part is present.",
     )
     add_paragraph(
         document,
-        "The study measures presence only. A point is MET when the diagram supplies any explicit answer, including a value, “none,” or “N/A.” It is MISSING when no answer is supplied. Truth, plausibility, and engineering accuracy are outside scope. In 2025, CalGEM cited multiple deficiencies in an order, including failure to provide accurate TVD at all depths (CalGEM, 2025b). The order was not based on TVD alone, but it demonstrates the regulatory importance of treating TVD as a separately required representation.",
+        "The study measures presence only. A point is MET when the diagram supplies any explicit answer, including a value, “none,” or “N/A.” It is MISSING when no answer is supplied. For a subdivision-(b) point, a statement on the diagram that the information accompanies it separately is also MET. Point 89, borehole designation, is NOT_APPLICABLE when only one borehole is shown, so the denominator is 89 or 88. Truth, plausibility, and engineering accuracy are outside scope. In 2025, CalGEM cited multiple deficiencies in an order, including failure to provide accurate TVD at all depths (CalGEM, 2025b). The order was not based on TVD alone, but it demonstrates the regulatory importance of treating TVD as a separately required representation.",
     )
     add_course_heading(document, "1.2 Purpose and Research Questions", 2)
-    add_paragraph(document, "The purpose is to measure how accurately ChatGPT, Claude, and Gemini detect the presence of the 77 required data points and whether prompt type affects accuracy.")
+    add_paragraph(document, "The purpose is to measure how accurately ChatGPT, Claude, and Gemini detect the presence of the 89 required data points and whether prompt type affects accuracy.")
     add_bullets(
         document,
         [
-            "RQ1. How accurately do the three AI services classify the 77 points as MET or MISSING?",
+            "RQ1. How accurately do the three AI services classify the 89 points as MET or MISSING?",
             "RQ2. Does point-level accuracy differ among naive, informed, and chain-of-thought prompts?",
             "RQ2a. Does accuracy increase across the ordered prompt conditions?",
             "RQ2b. What change occurs between adjacent prompt conditions?",
@@ -239,7 +239,7 @@ def course_document() -> None:
     add_course_heading(document, "3.1 Data", 2)
     add_paragraph(
         document,
-        "The sample contains 30 publicly available casing diagrams, labeled W01–W30. Each diagram is reviewed against 77 atomic data points. The human-reference record stores MET or MISSING for each point, the displayed answer, location, and a note when useful. The full AI dataset contains 270 observations: 30 diagrams × 3 services × 3 prompts.",
+        "The sample contains 30 publicly available casing diagrams of injection wells in CalGEM-approved underground injection control (UIC) projects, labeled U01–U30 and dated on or after April 1, 2019. Each diagram is reviewed against 89 atomic data points. The human-reference record stores MET or MISSING (or NOT_APPLICABLE, for point 89 only) for each point, the displayed answer, location, and a note when useful. The full AI dataset contains 270 observations: 30 diagrams × 3 services × 3 prompts.",
     )
     add_course_heading(document, "3.2 Research Design and Variables", 2)
     add_paragraph(
@@ -248,12 +248,12 @@ def course_document() -> None:
     )
     add_paragraph(
         document,
-        "The primary dependent variable is point-level presence-judgment accuracy: correctly classified points divided by 77. Secondary outcomes are wrong judgments, unaddressed points, number of rows returned, and response length. Controls are the diagram, regulation, 77-point checklist, reference record, account type, attachment set, presence-only rule, and manual execution procedure.",
+        "The primary dependent variable is point-level presence-judgment accuracy: correctly classified points divided by the applicable points (89, or 88 when only one borehole is shown). Secondary outcomes are wrong judgments, unaddressed points, number of rows returned, and response length. Controls are the diagram, regulation, 89-point checklist, reference record, account type, attachment set, presence-only rule, and manual execution procedure.",
     )
     add_course_heading(document, "3.3 Completeness Measure", 2)
     add_paragraph(
         document,
-        "Diagram completeness equals the number of MET points divided by 77. AI judgment accuracy equals the number of correctly classified points divided by 77. These measures are different: the first describes the diagram; the second describes how well the AI matched the human reference. NOT APPLICABLE and INVALID are not study statuses.",
+        "Diagram completeness equals the number of MET points divided by the applicable points (89, or 88 when only one borehole is shown). AI judgment accuracy equals the number of correctly classified points divided by the same denominator. These measures are different: the first describes the diagram; the second describes how well the AI matched the human reference. NOT_APPLICABLE is allowed only for point 89; INVALID is not a study status.",
     )
     document.add_page_break()
 
@@ -261,24 +261,24 @@ def course_document() -> None:
     add_course_heading(document, "3.4 Human Reference and Instrument", 2)
     add_paragraph(
         document,
-        "One human reviewer visually inspects each diagram with a structured 77-row Excel checklist. For repeated structures, a point is MET only if every represented instance has an answer for the requested field or depth representation. MD and TVD are separate points. The reviewer records the visible text and location but does not decide whether the text is true, plausible, or engineering-valid.",
+        "One human reviewer visually inspects each diagram with a structured 89-row Excel checklist. For repeated structures, a point is MET only if every represented instance has an answer for the requested field or depth representation. MD and TVD are separate points. The reviewer records the visible text and location but does not decide whether the text is true, plausible, or engineering-valid.",
     )
     add_paragraph(
         document,
-        "The completed review is loaded into a SQLite database whose parent entity is the diagram identifier. The database stores specification requirements, W01–W30 records, point-level statuses, and completeness infractions. A score view calculates MET/77. The reference is frozen before any AI response is scored.",
+        "The completed review is loaded into a SQLite database whose parent entity is the diagram identifier. The database stores specification requirements, U01–U30 records, point-level statuses, and completeness infractions. A score view calculates MET divided by the applicable points (89 or 88). The reference is frozen before any AI response is scored.",
     )
     add_course_heading(document, "3.5 Prompt Conditions", 2)
     add_numbered(
         document,
         [
-            "Naive: a minimal request for exactly 77 presence decisions.",
+            "Naive: a minimal request for exactly 89 presence decisions.",
             "Informed: the same task framed by persona, task, context, and output format.",
             "Chain-of-thought: the informed prompt unchanged plus a step-by-step review instruction.",
         ],
     )
     add_paragraph(
         document,
-        "All prompts receive the same three attachments: the original diagram, verbatim Section 1724.7.1, and the 77-point checklist. All prompt outputs require Point ID, Specification Code, Displayed Answer, and MET/MISSING Status. Explicit values, “none,” or “N/A” count as supplied answers. Prompts prohibit engineering-validity or correctness judgments.",
+        "All prompts receive the same three attachments: the original diagram, verbatim Section 1724.7.1, and the 89-point checklist. All prompt outputs require Point ID, Specification Code, Displayed Answer, and MET/MISSING Status (NOT_APPLICABLE for point 89 only). Explicit values, “none,” or “N/A” count as supplied answers. Prompts prohibit engineering-validity or correctness judgments.",
     )
     document.add_page_break()
 
@@ -286,7 +286,7 @@ def course_document() -> None:
     add_course_heading(document, "3.6 Sampling and Analysis", 2)
     add_paragraph(
         document,
-        "The 30 diagrams are selected from public WellSTAR records through a simple-random order. A well is included when it is not plugged, has a legible existing-well diagram, and can be evaluated from the downloaded file. If multiple qualifying diagrams exist, the latest is retained. The pilot-sized sample supports repeated prompt comparison while remaining feasible for 270 manual runs.",
+        "The 30 diagrams come from injection wells in CalGEM-approved UIC projects, to which Section 1724.7.1 applies through Section 1724.7. The 22,603 onshore Active or Idle injection-type wells in CalGEM's wells table were placed in a seeded simple random order and screened in WellSTAR. A well is included when it is a current injector in an Active or Suspended UIC project and has a legible PDF diagram of the existing well dated on or after April 1, 2019, when Section 1724.7.1 became operative. If multiple qualifying diagrams exist, the latest is retained. The pilot-sized sample supports repeated prompt comparison while remaining feasible for 270 manual runs.",
     )
     add_paragraph(
         document,
@@ -342,11 +342,11 @@ def course_document() -> None:
     add_course_heading(document, "4. Closing Remarks")
     add_paragraph(
         document,
-        "This proposal provides a controlled test of a narrow AI application: recognizing whether required information is supplied on a regulatory casing diagram. The framework separates diagram completeness from AI judgment accuracy, decomposes grouped requirements into 77 traceable points, and explicitly scores MD and TVD. It also preserves the distinction between presence and truth so that the study does not make unsupported engineering claims.",
+        "This proposal provides a controlled test of a narrow AI application: recognizing whether required information is supplied on a regulatory casing diagram. The framework separates diagram completeness from AI judgment accuracy, decomposes grouped requirements into 89 traceable points, explicitly scores MD and TVD, and scores the subdivision-(b) and (c) documentation and borehole points. It also preserves the distinction between presence and truth so that the study does not make unsupported engineering claims.",
     )
     add_paragraph(
         document,
-        "The study is expected to yield service-specific evidence about prompt structure and practical failure patterns such as wrong presence calls, missed requirements, and incomplete 77-row responses. The deliverables will include a de-identified dataset, human-reference records, scoring logic, prompts, run logs, analytical summaries, and reproducible documentation.",
+        "The study is expected to yield service-specific evidence about prompt structure and practical failure patterns such as wrong presence calls, missed requirements, and incomplete 89-row responses. The deliverables will include a de-identified dataset, human-reference records, scoring logic, prompts, run logs, analytical summaries, and reproducible documentation.",
     )
     add_paragraph(
         document,
@@ -434,9 +434,9 @@ def sponsor_document() -> None:
     add_bullets(
         document,
         [
-            "30 public casing diagrams from WellSTAR",
+            "30 public casing diagrams of UIC injection wells from WellSTAR, dated on or after April 1, 2019",
             "Diagrams are selected through a documented random-selection process from the public CalGEM record across multiple operators, including Aera, Berry, CRC, and others; the sample is not selected to represent any one employer",
-            "77 traceable data points derived from California requirements, including separate measured-depth and true-vertical-depth checks",
+            "89 traceable data points derived from California requirements, including separate measured-depth and true-vertical-depth checks",
             "Three AI services and three prompt designs: naive, informed, and step-by-step",
             "270 manual runs using ordinary consumer interfaces",
             "One human-reference review per diagram for controlled comparison",
@@ -471,7 +471,7 @@ def sponsor_document() -> None:
     add_bullets(
         document,
         [
-            "A reusable 77-point regulatory completeness checklist",
+            "A reusable 89-point regulatory completeness checklist",
             "A SQLite data model that links each result to its source diagram and requirement",
             "An Excel human-review instrument and reporting view",
             "A prompt-engineering protocol and complete run log",

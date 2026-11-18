@@ -4,7 +4,7 @@
 
 **How to resume:** tell Claude: "Read `classes/graduate-project/02-plan/prompt_working.md` and `proposal-plan.md`, then continue from 'Next steps'."
 
-**Note, November 12, 2026.** The project folder was reorganized from `w10/` into `classes/graduate-project/` (map in `README.md` there; every move in `_reorg-log.txt`). Paths below were updated. The study design in section 7 was replaced on November 11 by the wellbore diagram design; `proposal-plan.md` is the current record of decisions. This file is kept as the history of the November 10 session.
+**Note, November 12, 2026.** The project folder was reorganized from `w10/` into `classes/graduate-project/` (map in `README.md` there; move list in the git history). Paths below were updated. The study design in section 7 was replaced on November 11 by the wellbore diagram design; `proposal-plan.md` is the current record of decisions. This file is kept as the history of the November 10 session.
 
 ---
 

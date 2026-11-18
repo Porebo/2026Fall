@@ -22,7 +22,7 @@
 | `N-*-prompt/runs/` | `06-study/runs/N-*-prompt/` |
 | `*.py`, `*.js` | `scripts/` |
 
-The full move list is in [../_reorg-log.txt](../_reorg-log.txt). The separate Principles of Information Quality download record is now [data-provenance.md](data-provenance.md); its data files remain in that course's data folder.
+The full move list (formerly `_reorg-log.txt`) is in the git history. The separate Principles of Information Quality download record is now [data-provenance.md](data-provenance.md); its data files remain in that course's data folder.
 
 ---
 

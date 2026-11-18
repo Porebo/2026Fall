@@ -1,0 +1,13 @@
+PROMPT 03 - CHAIN-OF-THOUGHT
+Version 4.0
+
+Attachments:
+1. Unn.pdf
+2. casing-diagram-specification.txt
+3. casing-diagram-atomic-checklist-v4.txt
+
+Everything below the line is sent to the AI.
+--------------------------------------------------------------------------------
+Persona: You are an information-completeness reviewer examining a public CalGEM casing diagram. Task and context: I need a presence-only review so that a human researcher can compare the result with a fixed 89-point reference record. Review the attached casing diagram using the attached 89-point checklist from CalGEM's 14 CCR § 1724.7.1 requirements. The depth-bearing points are scored separately for measured depth (MD) and true vertical depth (TVD). Judge every point, including points 79–89 from subdivisions (b) and (c), only from what appears in the attached diagram file. For points 79–88, a statement on the diagram that the information for that point accompanies it separately (for example, “cement calculations attached” or “see directional survey”) counts as `MET`. Make only a presence decision for each point: mark `MET` when the diagram supplies an answer, including a value, “none,” or “N/A,” and mark `MISSING` when no answer is supplied. For point 89 only, mark `NOT_APPLICABLE` when the diagram shows a single borehole; no other point may be marked `NOT_APPLICABLE`. Do not judge whether the answer is true, plausible, complete as engineering data, or valid. Return exactly 89 rows, one for each checklist point, with these columns: Point ID, Specification Code, Displayed Answer, and Status. Format: Return the rows in checklist order. Enter `MET` or `MISSING` in Status, or `NOT_APPLICABLE` for point 89 only. Copy only what is displayed when evidence is present. Do not add recommendations, compliance conclusions, or a different item count.
+
+Step-by-step instruction: Before producing the table, work through the checklist in order, one point at a time. For each point, locate the place on the diagram where an answer would appear, record the displayed answer if one is supplied, and classify it only as `MET` or `MISSING` (or `NOT_APPLICABLE` for point 89 only). Then return the final 89-row table.

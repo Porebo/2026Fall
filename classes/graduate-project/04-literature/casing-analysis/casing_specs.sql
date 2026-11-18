@@ -213,7 +213,10 @@ CREATE TABLE diagram_requirement_results (
     result_id INTEGER PRIMARY KEY,
     diagram_number TEXT NOT NULL REFERENCES diagrams(diagram_number),
     requirement_id INTEGER NOT NULL REFERENCES spec_requirements(requirement_id),
-    status TEXT NOT NULL CHECK (status IN ('MET', 'MISSING')),
+    status TEXT NOT NULL CHECK (
+        status IN ('MET', 'MISSING')
+        OR (status = 'NOT_APPLICABLE' AND requirement_id = 89)
+    ),
     evidence TEXT,
     explanation TEXT,
     evaluated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -261,22 +264,51 @@ BEGIN
     WHERE result_id = NEW.result_id;
 END;
 
+CREATE TRIGGER not_applicable_completeness_infraction
+AFTER UPDATE OF status ON diagram_requirement_results
+WHEN NEW.status = 'NOT_APPLICABLE'
+BEGIN
+    UPDATE completeness_infractions
+    SET resolution_status = 'NOT_APPLICABLE'
+    WHERE result_id = NEW.result_id;
+END;
+
 CREATE VIEW casing_final_score AS
 SELECT
     d.diagram_number,
-    77 AS scoring_items,
+    89 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END) AS scoring_items,
     COUNT(CASE WHEN r.status = 'MET' THEN 1 END) AS complete_items,
     COUNT(CASE WHEN r.status = 'MISSING' THEN 1 END) AS missing_items,
+    COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END) AS not_applicable_items,
     ROUND(
         100.0 * COUNT(CASE WHEN r.status = 'MET' THEN 1 END)
-        / 77.0,
+        / (89 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END)),
         1
     ) AS completeness_percentage
 FROM diagrams AS d
 JOIN diagram_requirement_results AS r USING (diagram_number)
 JOIN spec_requirements AS q USING (requirement_id)
 JOIN spec_sections AS s USING (section_id)
-WHERE s.section_code = '(a)'
+WHERE s.section_code IN ('(a)', '(b)', '(c)')
+GROUP BY d.diagram_number;
+
+CREATE VIEW casing_bc_subtotal AS
+SELECT
+    d.diagram_number,
+    11 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END) AS scoring_items,
+    COUNT(CASE WHEN r.status = 'MET' THEN 1 END) AS complete_items,
+    COUNT(CASE WHEN r.status = 'MISSING' THEN 1 END) AS missing_items,
+    COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END) AS not_applicable_items,
+    ROUND(
+        100.0 * COUNT(CASE WHEN r.status = 'MET' THEN 1 END)
+        / (11 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END)),
+        1
+    ) AS completeness_percentage
+FROM diagrams AS d
+JOIN diagram_requirement_results AS r USING (diagram_number)
+JOIN spec_requirements AS q USING (requirement_id)
+JOIN spec_sections AS s USING (section_id)
+WHERE s.section_code IN ('(b)', '(c)')
 GROUP BY d.diagram_number;
 
 CREATE VIEW casing_missing_items AS
@@ -306,7 +338,7 @@ INSERT INTO spec_regulations (
 
 INSERT INTO spec_sections (section_id, regulation_id, section_code, title, section_text) VALUES
     (1, 1, '(a)', 'Casing diagram data', 'Casing diagrams submitted under this article shall include all listed data.'),
-    (2, 1, '(b)', 'Supporting documentation', 'Each casing diagram shall be accompanied by the listed documentation.'),
+    (2, 1, '(b)', 'Supporting documentation', 'Each casing diagram shall be accompanied by the listed documentation. Scored from checklist v4 (points 79-88): MET when the published diagram shows the information or states that it accompanies the diagram separately; MISSING when it neither shows nor references it.'),
     (3, 1, '(c)', 'Multiple boreholes', 'All information is required for original, redrilled, and sidetracked wellbores.'),
     (4, 1, '(d)', 'Depth conventions', 'Measured depth and true vertical depth are required for all depths under subdivision (a).'),
     (5, 1, '(e)', 'Submission format', 'A graphical diagram or flat-file data set may be submitted if complete.');
@@ -366,16 +398,16 @@ INSERT INTO spec_requirements (
     (49, 1, '(a)(15).injection_zone_bottom', 'Injection-zone bottom', 'Bottom of the underground-injection zone.', 'INTERVAL', 1),
     (50, 1, '(a)(15).confining_layer_top', 'Confining-layer top', 'Top of each confining layer.', 'INTERVAL', 1),
     (51, 1, '(a)(15).confining_layer_bottom', 'Confining-layer bottom', 'Bottom of each confining layer.', 'INTERVAL', 1),
-    (52, 2, '(b)(1).yield_calculation_steps', 'Cement yield calculation steps', 'All steps used in cement-yield calculations.', 'CEMENT_JOB', 0),
-    (53, 2, '(b)(1).cement_calculation_steps', 'Cement calculation steps', 'All steps of every cement calculation performed.', 'CEMENT_JOB', 0),
-    (54, 2, '(b)(2).slurry_volume', 'Slurry volume inputs', 'All information used to calculate slurry volume.', 'CEMENT_JOB', 0),
-    (55, 2, '(b)(2).slurry_density', 'Slurry density', 'All information used to calculate slurry density.', 'CEMENT_JOB', 0),
-    (56, 2, '(b)(2).slurry_yield', 'Slurry yield', 'All information used to calculate slurry yield.', 'CEMENT_JOB', 0),
-    (57, 2, '(b)(2).cement_type', 'Cement type', 'Cement type for every completed cement job.', 'CEMENT_JOB', 0),
-    (58, 2, '(b)(2).cement_additives', 'Cement additives', 'Additives for every completed cement job.', 'CEMENT_JOB', 0),
-    (59, 2, '(b)(3).wellbore_path_md', 'Wellbore-path measured depth', 'Measured depths along the wellbore path.', 'WELLBORE', 0),
-    (60, 2, '(b)(3).inclination', 'Wellbore inclination', 'Inclination measurements for the wellbore path.', 'WELLBORE', 0),
-    (61, 2, '(b)(3).azimuth', 'Wellbore azimuth', 'Azimuth measurements for the wellbore path.', 'WELLBORE', 0);
+    (52, 2, '(b)(1).yield_calculation_steps', 'Cement-yield calculation steps', 'Steps of the cement-yield calculation for each cement job (inputs and computation). A yield value alone is (b)(2).slurry_yield. Also MET when the diagram states or shows that this information accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report"); MISSING when the diagram neither shows nor references it.', 'CEMENT_JOB', 0),
+    (53, 2, '(b)(1).cement_calculation_steps', 'Cement calculation steps', 'Steps of any other cement calculation performed for each cement job (e.g., annular volume, excess, sacks required). A result alone is not the steps. Also MET when the diagram states or shows that this information accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report"); MISSING when the diagram neither shows nor references it.', 'CEMENT_JOB', 0),
+    (54, 2, '(b)(2).slurry_volume', 'Slurry volume (or sacks) for each cement job', 'Slurry volume, or the quantity used to calculate it (e.g., sacks, cubic feet, barrels), for each cement job. Also MET when the diagram states or shows that this information accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report"); MISSING when the diagram neither shows nor references it.', 'CEMENT_JOB', 0),
+    (55, 2, '(b)(2).slurry_density', 'Slurry density for each cement job', 'Slurry density or weight (e.g., ppg) for each cement job. Also MET when the diagram states or shows that this information accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report"); MISSING when the diagram neither shows nor references it.', 'CEMENT_JOB', 0),
+    (56, 2, '(b)(2).slurry_yield', 'Slurry yield for each cement job', 'Slurry yield (e.g., cu ft/sk) for each cement job. Also MET when the diagram states or shows that this information accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report"); MISSING when the diagram neither shows nor references it.', 'CEMENT_JOB', 0),
+    (57, 2, '(b)(2).cement_type', 'Cement type for each cement job', 'Cement type or class (e.g., Class G) for each cement job. Also MET when the diagram states or shows that this information accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report"); MISSING when the diagram neither shows nor references it.', 'CEMENT_JOB', 0),
+    (58, 2, '(b)(2).cement_additives', 'Cement additives for each cement job', 'Additives for each cement job, or an explicit statement of none (e.g., neat). Also MET when the diagram states or shows that this information accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report"); MISSING when the diagram neither shows nor references it.', 'CEMENT_JOB', 0),
+    (59, 2, '(b)(3).wellbore_path_md', 'Wellbore path: measured depth (MD)', 'Measured depths of the wellbore-path (survey) stations for each borehole. An explicit vertical/straight-hole statement or N/A is an answer. No TVD pair: subdivision (d) covers only subdivision-(a) depths. Also MET when the diagram states or shows that this information accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report"); MISSING when the diagram neither shows nor references it.', 'WELLBORE', 0),
+    (60, 2, '(b)(3).inclination', 'Wellbore path: inclination', 'Inclination along the wellbore path for each borehole. An explicit vertical/straight-hole statement or N/A is an answer; a deviation statement or range (e.g., "Deviated (15 to 30 deg)") also answers this point. Also MET when the diagram states or shows that this information accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report"); MISSING when the diagram neither shows nor references it.', 'WELLBORE', 0),
+    (61, 2, '(b)(3).azimuth', 'Wellbore path: azimuth', 'Azimuth along the wellbore path for each borehole. An explicit vertical/straight-hole statement or N/A is an answer; a deviation range without azimuth is not. Also MET when the diagram states or shows that this information accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report"); MISSING when the diagram neither shows nor references it.', 'WELLBORE', 0);
 
 UPDATE spec_requirements SET requirement_code = requirement_code || '.md', requirement_name = requirement_name || ' (MD)' WHERE requirement_id IN (8, 9, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 27, 33, 35, 36, 38, 39, 43, 45, 47, 48, 49, 50, 51);
 
@@ -409,6 +441,16 @@ INSERT INTO spec_requirements (
     (85, 1, '(a)(15).injection_zone_bottom.tvd', 'Injection-zone bottom (TVD)', 'True vertical depth of the injection-zone bottom.', 'INTERVAL', 1),
     (86, 1, '(a)(15).confining_layer_top.tvd', 'Confining-layer top (TVD)', 'True vertical depth of each confining-layer top.', 'INTERVAL', 1),
     (87, 1, '(a)(15).confining_layer_bottom.tvd', 'Confining-layer bottom (TVD)', 'True vertical depth of each confining-layer bottom.', 'INTERVAL', 1);
+
+-- Added 2026-11-18 (checklist v3; see migrate_add_other_equipment.sql):
+-- (a)(10) lists equipment "such as" SSSVs, packers, and gas-lift mandrels; the
+-- list is illustrative, so one non-depth point covers other in-well equipment.
+-- Appended as id 88 so existing ids and result references stay stable.
+INSERT INTO spec_requirements (
+    requirement_id, section_id, requirement_code, requirement_name,
+    requirement_text, scope_type, is_conditional
+) VALUES
+    (88, 1, '(a)(10).other_equipment', 'Other equipment in the well (e.g., tubing, pumps, rods)', 'Information regarding equipment in the well other than subsurface safety valves, packers, and gas-lift mandrels; the regulation''s list is illustrative ("such as").', 'WELLBORE', 1);
 
 INSERT INTO spec_validation_rules (rule_id, regulation_id, rule_code, rule_name, rule_text) VALUES
     (1, 1, '(c).all_boreholes', 'All-borehole coverage', 'Apply all requirements separately to original, redrilled, and sidetracked boreholes.'),
@@ -599,6 +641,20 @@ SET status = 'MISSING',
     evidence = NULL,
     explanation = 'No answer is visibly supplied on W01.'
 WHERE requirement_id IN (40, 41, 48, 49, 50, 51);
+
+-- Added 2026-11-18 (checklist v4; see migrate_v4_subdivisions_b_c.sql):
+-- Subdivisions (b) and (c) are scored from v4. The (b) records 52-61 above
+-- (names and texts aligned with v4) are checklist points 79-88; the (c)
+-- record 89 is checklist point 89. No TVD pairs: (d) covers only (a) depths.
+-- Placed after the W01 seed block so that no W01 result row is created for
+-- id 89 (W diagrams are out of study). Point 89 is conditional (see
+-- migrate_v4b_point89_conditional.sql): NOT_APPLICABLE is allowed for id 89
+-- only, and casing_final_score drops it from the denominator.
+INSERT INTO spec_requirements (
+    requirement_id, section_id, requirement_code, requirement_name,
+    requirement_text, scope_type, is_conditional
+) VALUES
+    (89, 3, '(c).borehole_designation', 'Borehole designation (original hole, redrill, or sidetrack; conditional: multiple boreholes only)', 'Conditional on more than one borehole being shown (14 CCR 1724.7.1(c), "when multiple boreholes are drilled"). Multiple boreholes: MET when each bore is identified and the required information is given for each bore, otherwise MISSING. Single borehole: NOT_APPLICABLE, removed from the denominator (89 -> 88). No label is required for a single bore.', 'WELLBORE', 1);
 
 CREATE INDEX idx_wellbores_diagram ON wellbores(diagram_number);
 CREATE INDEX idx_results_diagram_status ON diagram_requirement_results(diagram_number, status);

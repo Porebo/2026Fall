@@ -43,8 +43,8 @@ The CSV files and enforcement order PDFs in `05-data/calgem/` are kept on local 
 
 The 74 supporting documents and notes are now directly in [calgem/](calgem/), without category subfolders. This includes the CalGEM provenance note formerly in the Principles of Information Quality data folder. Original filenames, annotated PDFs, and raw versions were preserved; no duplicates were deleted.
 
-Datasets, casing-diagram PDFs, analysis databases, study runs, superseded files, backups, and general proposal plans remain in their existing locations. The move list is in [_reorg-log.txt](_reorg-log.txt).
+Datasets, casing-diagram PDFs, analysis databases, study runs, superseded files, backups, and general proposal plans remain in their existing locations. The move list (formerly `_reorg-log.txt`) is in the git history.
 
 ## Reorganization of November 12, 2026
 
-This folder replaces `classes/research-methods/w10/` and `classes/research-methods/final-proposal-requirements/`. The files first went to `classes/research-methods/graduate-project/` and were moved here, to `classes/graduate-project/`, the same day. Files were moved, not edited, except for path references inside the study documents, `PROVENANCE.md`, the plan, and the scripts. Every move is listed in [_reorg-log.txt](_reorg-log.txt). No file was deleted.
+This folder replaces `classes/research-methods/w10/` and `classes/research-methods/final-proposal-requirements/`. The files first went to `classes/research-methods/graduate-project/` and were moved here, to `classes/graduate-project/`, the same day. Files were moved, not edited, except for path references inside the study documents, `PROVENANCE.md`, the plan, and the scripts. The move list (formerly `_reorg-log.txt`) is in the git history. No file was deleted.

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930 552" width="930" height="552" font-family="Segoe UI, Arial, Helvetica, sans-serif">
   <title>Relationship among the variables of the study</title>
-  <desc>Prompt type is the treatment. The regulation, diagram, 77-point checklist, and human-reference record are controlled within each diagram-service pair. ChatGPT, Claude, and Gemini form the service factor. Point-level presence-judgment accuracy is the dependent variable. Prompt order is counterbalanced.</desc>
+  <desc>Prompt type is the treatment. The regulation, diagram, 89-point checklist, and human-reference record are controlled within each diagram-service pair. ChatGPT, Claude, and Gemini form the service factor. Point-level presence-judgment accuracy is the dependent variable. Prompt order is counterbalanced.</desc>
   <rect x="0" y="0" width="930" height="552" fill="#ffffff"/>
   <rect x="1" y="1" width="339" height="281" rx="12" fill="#e8f1fb" stroke="#1f5fa8" stroke-width="2"/>
   <text x="18" y="28" font-size="16" fill="#1f5fa8" font-weight="700" letter-spacing="0.5">INDEPENDENT VARIABLE</text>
@@ -18,7 +18,7 @@
   <text x="18" y="354" font-size="16" fill="#3a4250">Held the same for all three prompt types:</text>
   <rect x="16" y="368" width="309" height="66" rx="8" fill="#ffffff" stroke="#5b6470" stroke-width="1.5"/>
   <text x="30" y="395" font-size="19" fill="#1a1a1a" font-weight="700">The regulation</text>
-  <text x="30" y="419" font-size="16" fill="#3a4250">77 atomic data points</text>
+  <text x="30" y="419" font-size="16" fill="#3a4250">89 atomic data points</text>
   <rect x="16" y="444" width="309" height="92" rx="8" fill="#d3efd9" stroke="#2f7d4f" stroke-width="3"/>
   <text x="30" y="471" font-size="19" fill="#1a1a1a" font-weight="700">The casing diagram</text>
   <text x="30" y="495" font-size="16" fill="#1f6a3d" font-weight="700">One component of each block</text>
@@ -26,7 +26,7 @@
   <rect x="384" y="180" width="176" height="134" rx="67" fill="#ffffff" stroke="#2b2f36" stroke-width="2"/>
   <text x="472" y="238" font-size="21" fill="#1a1a1a" font-weight="700" text-anchor="middle">AI service</text>
   <text x="472" y="263" font-size="16" fill="#3a4250" text-anchor="middle">judges each</text>
-  <text x="472" y="284" font-size="16" fill="#3a4250" text-anchor="middle">of 77 points</text>
+  <text x="472" y="284" font-size="16" fill="#3a4250" text-anchor="middle">of 89 points</text>
   <text x="472" y="330" font-size="14" fill="#3a4250" text-anchor="middle">ChatGPT · Claude · Gemini</text>
   <text x="472" y="350" font-size="14" fill="#3a4250" text-anchor="middle">service factor</text>
   <rect x="620" y="110" width="309" height="264" rx="12" fill="#fff1e0" stroke="#b45309" stroke-width="2"/>
@@ -39,11 +39,11 @@
   <text x="638" y="297" font-size="17" fill="#1a1a1a">Not addressed</text>
   <line x1="638" y1="312" x2="911" y2="312" stroke="#b45309" stroke-width="1" opacity="0.45"/>
   <text x="638" y="336" font-size="16" fill="#9a4a06" font-weight="700">Accuracy: correct judgments</text>
-  <text x="638" y="357" font-size="16" fill="#9a4a06" font-weight="700">over 77 atomic points</text>
+  <text x="638" y="357" font-size="16" fill="#9a4a06" font-weight="700">over 89 (or 88) atomic points</text>
   <rect x="620" y="420" width="309" height="130" rx="12" fill="#f1ecf9" stroke="#6b4fa0" stroke-width="2"/>
   <text x="638" y="448" font-size="16" fill="#5a3f8f" font-weight="700" letter-spacing="0.5">MEASURING INSTRUMENT</text>
   <text x="638" y="478" font-size="20" fill="#1a1a1a" font-weight="700">Human-reference record</text>
-  <text x="638" y="504" font-size="16" fill="#3a4250">77 presence decisions,</text>
+  <text x="638" y="504" font-size="16" fill="#3a4250">89 presence decisions,</text>
   <text x="638" y="525" font-size="16" fill="#3a4250">never seen by the AI service</text>
   <path d="M340 141 C 366 141, 352 220, 372.8 227.8" fill="none" stroke="#2b2f36" stroke-width="2.4"/>
   <polygon points="384,232 370.8,232.9 374.7,222.6" fill="#2b2f36"/>
