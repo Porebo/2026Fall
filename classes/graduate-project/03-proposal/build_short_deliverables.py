@@ -248,7 +248,7 @@ def course_document() -> None:
     )
     add_paragraph(
         document,
-        "The primary dependent variable is point-level presence-judgment accuracy: correctly classified points divided by the applicable points (90, or 89 when only one borehole is shown). Secondary outcomes are wrong judgments, unaddressed points, number of rows returned, and response length. Controls are the diagram, regulation, 90-point checklist, reference record, account type, attachment set, presence-only rule, and manual execution procedure.",
+        "The primary dependent variable is point-level presence-judgment accuracy: correctly classified points divided by the applicable points (90, or 89 when only one borehole is shown). Secondary outcomes are wrong judgments, CANNOT_DETERMINE answers (rate per service and prompt), unaddressed points, number of rows returned, and response length. Controls are the diagram, regulation, 90-point checklist, reference record, account type, attachment set, presence-only rule, and manual execution procedure.",
     )
     add_course_heading(document, "3.3 Completeness Measure", 2)
     add_paragraph(
@@ -278,7 +278,7 @@ def course_document() -> None:
     )
     add_paragraph(
         document,
-        "All prompts receive the same three attachments: the original diagram, verbatim Section 1724.7.1, and the 90-point checklist. All prompt outputs require Point ID, Specification Code, Displayed Answer, and MET/MISSING Status (NOT_APPLICABLE for point 90 only). Explicit values, “none,” or “N/A” count as supplied answers. Prompts prohibit engineering-validity or correctness judgments.",
+        "All prompts receive the same three attachments: the original diagram, verbatim Section 1724.7.1, and the 90-point checklist. All prompt outputs require Point ID, Specification Code, Displayed Answer, and MET/MISSING Status (NOT_APPLICABLE for point 90 only). The AI may also answer CANNOT_DETERMINE when the diagram does not let it decide; it is told not to guess, and a CANNOT_DETERMINE answer counts in the denominator but never as correct. This third verdict was added after review of the prompts by a wellbore-diagram subject-matter expert (C. Castro, personal communication, November 18, 2026). The human reference uses only MET, MISSING, and NOT_APPLICABLE. Explicit values, “none,” or “N/A” count as supplied answers. Prompts prohibit engineering-validity or correctness judgments.",
     )
     document.add_page_break()
 

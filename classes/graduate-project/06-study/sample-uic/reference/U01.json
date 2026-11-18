@@ -1,0 +1,1398 @@
+{
+  "diagram_id": "U01",
+  "source_pdf": "06-study/sample-uic/diagrams/U01.pdf",
+  "page_scored": 1,
+  "well": {
+    "well_name": "Hill 44MW",
+    "lease_name": "Hill",
+    "well_number": "44MW",
+    "api": "0403050708",
+    "operator": "Berry (bry logo; no text name)",
+    "field": "Belridge, South",
+    "county": "Kern",
+    "district": "Central",
+    "well_type": "SF Steamflood",
+    "well_status": "Active",
+    "uic_project": "UIC Steamflood 05200014 (Active, Injector)",
+    "diagram_printed_date": "10/31/2023",
+    "wellstar_document_id": "954420",
+    "wellstar_document_date": "11/02/2023",
+    "wellstar_file_name": "44MW WBD_v1.pdf",
+    "sha256": "D1B9C2E71DDFC1F30DB17015895BCF9AEA4DF2933C2D4C5C55DD575652D728EE"
+  },
+  "checklist_version": "v4.2",
+  "reviewer": "Lester S. Carcamo",
+  "review_date": "2026-11-18",
+  "score": {
+    "met": 27,
+    "applicable": 89,
+    "not_applicable": 1,
+    "missing": 62,
+    "percent": 30.3,
+    "subdivisions_a_d": {
+      "met": 25,
+      "of": 78,
+      "md_non_depth_met": 25,
+      "md_non_depth_of": 52,
+      "tvd_met": 0,
+      "tvd_of": 26
+    },
+    "subdivisions_b_c": {
+      "met": 2,
+      "applicable": 11
+    }
+  },
+  "points": [
+    {
+      "number": 1,
+      "code": "(a)(1).operator_name",
+      "label": "Operator name",
+      "status": "MET",
+      "displayed_answer": "bry (logo image)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            36.0,
+            18.7,
+            91.4,
+            39.6
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "code": "(a)(1).lease_name",
+      "label": "Lease name",
+      "status": "MET",
+      "displayed_answer": "Hill",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            92.0,
+            48.4,
+            106.9,
+            59.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "code": "(a)(1).well_number",
+      "label": "Well number",
+      "status": "MET",
+      "displayed_answer": "44MW",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            109.6,
+            48.4,
+            137.2,
+            59.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "code": "(a)(1).api_number",
+      "label": "API number",
+      "status": "MET",
+      "displayed_answer": "0403050708",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            32.9,
+            77.0,
+            75.4,
+            85.6
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "code": "(a)(2).spud_date",
+      "label": "Spud date",
+      "status": "MET",
+      "displayed_answer": "8/10/2013",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            202.1,
+            94.3,
+            236.2,
+            102.8
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "code": "(a)(3).ground_elevation",
+      "label": "Ground elevation",
+      "status": "MET",
+      "displayed_answer": "598.90",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            32.9,
+            94.3,
+            56.3,
+            102.8
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "code": "(a)(4).reference_elevation",
+      "label": "Reference elevation",
+      "status": "MET",
+      "displayed_answer": "608.90",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            93.4,
+            94.3,
+            116.8,
+            102.8
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "code": "(a)(5).freshwater_base.md",
+      "label": "Base of freshwater (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 9,
+      "code": "(a)(6).usdw_base.md",
+      "label": "Base of lowermost USDW (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 10,
+      "code": "(a)(7).casing_size",
+      "label": "Casing size",
+      "status": "MET",
+      "displayed_answer": "13 3/8 5 1/2",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            374.0,
+            131.8,
+            395.3,
+            151.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "code": "(a)(7).casing_grade",
+      "label": "Casing grade",
+      "status": "MET",
+      "displayed_answer": "K-55 J-55",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            447.5,
+            131.8,
+            463.7,
+            151.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "code": "(a)(7).connection_type",
+      "label": "Casing connection type",
+      "status": "MET",
+      "displayed_answer": "BTC LTC",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            495.0,
+            131.8,
+            510.4,
+            151.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "code": "(a)(7).casing_weight",
+      "label": "Casing weight",
+      "status": "MET",
+      "displayed_answer": "61.00 15.50",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            423.6,
+            131.8,
+            442.8,
+            151.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "code": "(a)(8).shoe_depth.md",
+      "label": "Shoe depth (MD)",
+      "status": "MET",
+      "displayed_answer": "90.0 1,064.0",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            564.0,
+            131.8,
+            589.7,
+            151.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "code": "(a)(8).stub_depth.md",
+      "label": "Stub depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 16,
+      "code": "(a)(8).liner_top_depth.md",
+      "label": "Liner-top depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 17,
+      "code": "(a)(9).perforation_depths.md",
+      "label": "Perforation depths (MD)",
+      "status": "MET",
+      "displayed_answer": "750.0 786.0 869.0 905.0 914.0 938.0 958.0",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            368.9,
+            201.5,
+            388.1,
+            275.0
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "code": "(a)(9).perforation_intervals.md",
+      "label": "Perforation intervals (MD)",
+      "status": "MET",
+      "displayed_answer": "750.0 786.0 869.0 905.0 914.0 938.0 958.0",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            436.6,
+            201.5,
+            455.8,
+            275.0
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "code": "(a)(9).open_hole_completions.md",
+      "label": "Open-hole completions (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 20,
+      "code": "(a)(9).water_shutoff_holes.md",
+      "label": "Water-shutoff holes (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 21,
+      "code": "(a)(9).cement_ports.md",
+      "label": "Cement ports (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 22,
+      "code": "(a)(9).cavity_shots.md",
+      "label": "Cavity shots (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 23,
+      "code": "(a)(9).cuts.md",
+      "label": "Cuts (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 24,
+      "code": "(a)(9).casing_damage_type",
+      "label": "Casing-damage type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 25,
+      "code": "(a)(9).casing_damage_extent.md",
+      "label": "Casing-damage extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 26,
+      "code": "(a)(9).junk_or_fish_type",
+      "label": "Junk/fish type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 27,
+      "code": "(a)(9).junk_or_fish_extent.md",
+      "label": "Junk/fish extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 28,
+      "code": "(a)(9).other_integrity_feature",
+      "label": "Other flow/integrity feature",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 29,
+      "code": "(a)(10).subsurface_safety_valves",
+      "label": "Subsurface safety valves",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 30,
+      "code": "(a)(10).packers",
+      "label": "Packers",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 31,
+      "code": "(a)(10).gas_lift_mandrels",
+      "label": "Gas-lift mandrels",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 32,
+      "code": "(a)(10).other_equipment",
+      "label": "Other equipment in the well (e.g., tubing, pumps, rods)",
+      "status": "MET",
+      "displayed_answer": "Tubing Strings Tubing Injection set at 732.1ftKB on 3/18/2021 15:00 Tubing Description Tubing Injection Run Date 3/18/2021 String Length (ft) 722.14 Set Depth (ftKB) 732.1 Item Des Jts Model OD (in) Wt (lb/ft) Grade Len (ft) Btm (ftKB) Tubing Hanger 1 2.875 0.58 10.6 Fatigue Nipple 1 2.875 0.65 11.2 Tubing 1 T&C Non- Upset 2.875 6.40 J-55 32.10 43.3 Tubing Pup Joint 1 2.875 4.14 47.5 Expansion Joint 2-7/8\" x 4\" x 17' 1 2.875 11.52 59.0 Expansion Open 1 2.875 4.71 63.7 Tubing 21 T&C Non- Upset 2.875 6.40 J-55 662.24 725.9 A1XS garfoil seals 1 4.880 5.76 731.7 Wireline Guide 1 4.000 0.44 732.1",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            257.3,
+            338.4,
+            589.8,
+            508.3
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "code": "(a)(11).hole_diameter",
+      "label": "Hole diameter",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 34,
+      "code": "(a)(11).hole_depth.md",
+      "label": "Hole depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 35,
+      "code": "(a)(12).cement_plug_identification",
+      "label": "Cement-plug identification",
+      "status": "MET",
+      "displayed_answer": "Production Casing Cement (plug);",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            169.6,
+            650.2,
+            240.6,
+            665.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "code": "(a)(12).cement_plug_top.md",
+      "label": "Cement-plug top (MD)",
+      "status": "MET",
+      "displayed_answer": "980.0",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            189.2,
+            657.8,
+            204.1,
+            665.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "code": "(a)(12).cement_plug_bottom.md",
+      "label": "Cement-plug bottom (MD)",
+      "status": "MET",
+      "displayed_answer": "1,078.0",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            206.3,
+            657.8,
+            226.1,
+            665.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "code": "(a)(13).cement_fill_identification",
+      "label": "Cement-fill identification",
+      "status": "MET",
+      "displayed_answer": "Production Casing Cement;",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            169.6,
+            431.3,
+            242.4,
+            438.6
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "code": "(a)(13).cement_fill_top.md",
+      "label": "Cement-fill top (MD)",
+      "status": "MET",
+      "displayed_answer": "10.0",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            169.6,
+            438.8,
+            181.1,
+            446.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "code": "(a)(13).cement_fill_bottom.md",
+      "label": "Cement-fill bottom (MD)",
+      "status": "MET",
+      "displayed_answer": "1,078.0",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            183.3,
+            438.8,
+            203.1,
+            446.1
+          ]
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "code": "(a)(14).fluid_type",
+      "label": "Fluid type between plugs",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 42,
+      "code": "(a)(14).fluid_density",
+      "label": "Fluid density between plugs",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 43,
+      "code": "(a)(15).formation_names",
+      "label": "Formation names",
+      "status": "MET",
+      "displayed_answer": "Tulare",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            55.1,
+            392.3,
+            72.4,
+            399.6
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "code": "(a)(15).formation_depths.md",
+      "label": "Formation depths (MD)",
+      "status": "MET",
+      "displayed_answer": "359.6",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            38.0,
+            394.6,
+            46.9,
+            399.0
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "code": "(a)(15).zone_names",
+      "label": "Zone names",
+      "status": "MET",
+      "displayed_answer": "San …",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            55.1,
+            607.7,
+            71.9,
+            615.0
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "code": "(a)(15).zone_depths.md",
+      "label": "Zone depths (MD)",
+      "status": "MET",
+      "displayed_answer": "934.4",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            38.0,
+            609.9,
+            46.9,
+            614.2
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "code": "(a)(15).marker_names",
+      "label": "Marker names",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 48,
+      "code": "(a)(15).marker_depths.md",
+      "label": "Marker depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 49,
+      "code": "(a)(15).injection_zone_top.md",
+      "label": "Injection-zone top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 50,
+      "code": "(a)(15).injection_zone_bottom.md",
+      "label": "Injection-zone bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 51,
+      "code": "(a)(15).confining_layer_top.md",
+      "label": "Confining-layer top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 52,
+      "code": "(a)(15).confining_layer_bottom.md",
+      "label": "Confining-layer bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 53,
+      "code": "(a)(5).freshwater_base.tvd",
+      "label": "Base of freshwater (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 54,
+      "code": "(a)(6).usdw_base.tvd",
+      "label": "Base of lowermost USDW (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 55,
+      "code": "(a)(8).shoe_depth.tvd",
+      "label": "Shoe depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 56,
+      "code": "(a)(8).stub_depth.tvd",
+      "label": "Stub depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 57,
+      "code": "(a)(8).liner_top_depth.tvd",
+      "label": "Liner-top depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 58,
+      "code": "(a)(9).perforation_depths.tvd",
+      "label": "Perforation depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 59,
+      "code": "(a)(9).perforation_intervals.tvd",
+      "label": "Perforation intervals (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 60,
+      "code": "(a)(9).open_hole_completions.tvd",
+      "label": "Open-hole completions (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 61,
+      "code": "(a)(9).water_shutoff_holes.tvd",
+      "label": "Water-shutoff holes (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 62,
+      "code": "(a)(9).cement_ports.tvd",
+      "label": "Cement ports (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 63,
+      "code": "(a)(9).cavity_shots.tvd",
+      "label": "Cavity shots (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 64,
+      "code": "(a)(9).cuts.tvd",
+      "label": "Cuts (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 65,
+      "code": "(a)(9).casing_damage_extent.tvd",
+      "label": "Casing-damage extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 66,
+      "code": "(a)(9).junk_or_fish_extent.tvd",
+      "label": "Junk/fish extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 67,
+      "code": "(a)(11).hole_depth.tvd",
+      "label": "Hole depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 68,
+      "code": "(a)(12).cement_plug_top.tvd",
+      "label": "Cement-plug top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 69,
+      "code": "(a)(12).cement_plug_bottom.tvd",
+      "label": "Cement-plug bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 70,
+      "code": "(a)(13).cement_fill_top.tvd",
+      "label": "Cement-fill top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 71,
+      "code": "(a)(13).cement_fill_bottom.tvd",
+      "label": "Cement-fill bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 72,
+      "code": "(a)(15).formation_depths.tvd",
+      "label": "Formation depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 73,
+      "code": "(a)(15).zone_depths.tvd",
+      "label": "Zone depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 74,
+      "code": "(a)(15).marker_depths.tvd",
+      "label": "Marker depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 75,
+      "code": "(a)(15).injection_zone_top.tvd",
+      "label": "Injection-zone top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 76,
+      "code": "(a)(15).injection_zone_bottom.tvd",
+      "label": "Injection-zone bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 77,
+      "code": "(a)(15).confining_layer_top.tvd",
+      "label": "Confining-layer top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 78,
+      "code": "(a)(15).confining_layer_bottom.tvd",
+      "label": "Confining-layer bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 79,
+      "code": "(b)(1).yield_calculation_steps",
+      "label": "Cement-yield calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 80,
+      "code": "(b)(1).cement_calculation_steps",
+      "label": "Cement calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 81,
+      "code": "(b)(2).cement_job_identification",
+      "label": "Cement job identification (date or stage)",
+      "status": "MET",
+      "displayed_answer": "8/1/2013 | 8/11/2013 | 8/11/2013",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            184.6,
+            305.7,
+            208.1,
+            313.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            206.1,
+            438.2,
+            233.8,
+            446.7
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            169.0,
+            664.7,
+            196.7,
+            673.2
+          ]
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "code": "(b)(2).slurry_volume",
+      "label": "Slurry volume (or sacks) for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 83,
+      "code": "(b)(2).slurry_density",
+      "label": "Slurry density for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 84,
+      "code": "(b)(2).slurry_yield",
+      "label": "Slurry yield for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 85,
+      "code": "(b)(2).cement_type",
+      "label": "Cement type for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 86,
+      "code": "(b)(2).cement_additives",
+      "label": "Cement additives for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 87,
+      "code": "(b)(3).wellbore_path_md",
+      "label": "Wellbore path: measured depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 88,
+      "code": "(b)(3).inclination",
+      "label": "Wellbore path: inclination",
+      "status": "MET",
+      "displayed_answer": "Deviated (15° to 30°),",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            59.3,
+            184.2,
+            117.9,
+            191.5
+          ]
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "code": "(b)(3).azimuth",
+      "label": "Wellbore path: azimuth",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 90,
+      "code": "(c).borehole_designation",
+      "label": "Borehole designation (original hole, redrill, or sidetrack; conditional: multiple boreholes only)",
+      "status": "NOT_APPLICABLE",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Wellbore designation \"Original Hole\": point 90 is NOT_APPLICABLE: the diagram shows one borehole only"
+    }
+  ],
+  "excess_data": [
+    {
+      "type": "E1",
+      "label": "Well location (field, county, PLSS, lat/long)",
+      "count": 9,
+      "instances": [
+        {
+          "text": "SOUTH BELRIDGE",
+          "item": "Location: Field name",
+          "reason": "well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template)",
+          "page": 1,
+          "bbox_pt": [
+            118.6,
+            76.3,
+            187.6,
+            86.3
+          ]
+        },
+        {
+          "text": "Kern 030",
+          "item": "Location: County",
+          "reason": "well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template)",
+          "page": 1,
+          "bbox_pt": [
+            205.0,
+            76.3,
+            237.5,
+            86.3
+          ]
+        },
+        {
+          "text": "CA",
+          "item": "Location: State",
+          "reason": "well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template)",
+          "page": 1,
+          "bbox_pt": [
+            297.9,
+            76.3,
+            310.0,
+            86.3
+          ]
+        },
+        {
+          "text": "19",
+          "item": "Location: Section",
+          "reason": "well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template)",
+          "page": 1,
+          "bbox_pt": [
+            341.1,
+            76.3,
+            351.0,
+            86.3
+          ]
+        },
+        {
+          "text": "28S",
+          "item": "Location: Township",
+          "reason": "well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template)",
+          "page": 1,
+          "bbox_pt": [
+            372.1,
+            76.3,
+            387.1,
+            86.3
+          ]
+        },
+        {
+          "text": "21E",
+          "item": "Location: Range",
+          "reason": "well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template)",
+          "page": 1,
+          "bbox_pt": [
+            421.8,
+            76.3,
+            436.7,
+            86.3
+          ]
+        },
+        {
+          "text": "NW Corner",
+          "item": "Location: Survey",
+          "reason": "well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template)",
+          "page": 1,
+          "bbox_pt": [
+            471.4,
+            76.3,
+            511.4,
+            86.3
+          ]
+        },
+        {
+          "text": "35.4782753000",
+          "item": "Location: Latitude",
+          "reason": "well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template)",
+          "page": 1,
+          "bbox_pt": [
+            382.9,
+            93.6,
+            437.4,
+            103.5
+          ]
+        },
+        {
+          "text": "-119.7516403200",
+          "item": "Location: Longitude",
+          "reason": "well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template)",
+          "page": 1,
+          "bbox_pt": [
+            473.6,
+            93.6,
+            535.0,
+            103.5
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E2",
+      "label": "KB-ground height",
+      "count": 1,
+      "instances": [
+        {
+          "text": "10.00",
+          "item": "KB-ground height \"10.00\"",
+          "reason": "derived from the two required elevations; not itself listed in (a)",
+          "page": 1,
+          "bbox_pt": [
+            153.2,
+            93.6,
+            173.7,
+            103.5
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E3",
+      "label": "Rig-release and TD dates",
+      "count": 2,
+      "instances": [
+        {
+          "text": "8/11/2013",
+          "item": "Rig release date \"8/11/2013\"",
+          "reason": "rig-release date is not listed in (a)",
+          "page": 1,
+          "bbox_pt": [
+            261.9,
+            93.6,
+            297.4,
+            103.5
+          ]
+        },
+        {
+          "text": "8/11/2013",
+          "item": "TD date \"8/11/2013\"",
+          "reason": "TD date is not listed in (a)",
+          "page": 1,
+          "bbox_pt": [
+            322.4,
+            93.6,
+            357.9,
+            103.5
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E4",
+      "label": "\"Operated?\" flag",
+      "count": 1,
+      "instances": [
+        {
+          "text": "Yes",
+          "item": "Operated? \"Yes\"",
+          "reason": "operated flag is not listed in (a)",
+          "page": 1,
+          "bbox_pt": [
+            564.3,
+            93.6,
+            578.8,
+            103.5
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E5",
+      "label": "Perforation dates",
+      "count": 7,
+      "instances": [
+        {
+          "text": "3/18/2021",
+          "item": "Perforation date \"3/18/2021\"",
+          "reason": "perforation dates are not listed in (a)(9)",
+          "page": 1,
+          "bbox_pt": [
+            256.9,
+            200.8,
+            292.4,
+            210.8
+          ]
+        },
+        {
+          "text": "3/18/2021",
+          "item": "Perforation date \"3/18/2021\"",
+          "reason": "perforation dates are not listed in (a)(9)",
+          "page": 1,
+          "bbox_pt": [
+            256.9,
+            211.7,
+            292.4,
+            221.7
+          ]
+        },
+        {
+          "text": "3/18/2021",
+          "item": "Perforation date \"3/18/2021\"",
+          "reason": "perforation dates are not listed in (a)(9)",
+          "page": 1,
+          "bbox_pt": [
+            256.9,
+            222.5,
+            292.4,
+            232.5
+          ]
+        },
+        {
+          "text": "3/18/2021",
+          "item": "Perforation date \"3/18/2021\"",
+          "reason": "perforation dates are not listed in (a)(9)",
+          "page": 1,
+          "bbox_pt": [
+            256.9,
+            233.3,
+            292.4,
+            243.3
+          ]
+        },
+        {
+          "text": "10/13/2017",
+          "item": "Perforation date \"10/13/2017\"",
+          "reason": "perforation dates are not listed in (a)(9)",
+          "page": 1,
+          "bbox_pt": [
+            256.9,
+            244.1,
+            296.6,
+            254.1
+          ]
+        },
+        {
+          "text": "10/13/2017",
+          "item": "Perforation date \"10/13/2017\"",
+          "reason": "perforation dates are not listed in (a)(9)",
+          "page": 1,
+          "bbox_pt": [
+            256.9,
+            254.9,
+            296.6,
+            264.9
+          ]
+        },
+        {
+          "text": "10/13/2017",
+          "item": "Perforation date \"10/13/2017\"",
+          "reason": "perforation dates are not listed in (a)(9)",
+          "page": 1,
+          "bbox_pt": [
+            256.9,
+            265.7,
+            296.6,
+            275.7
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "item": "Profile timestamp \"10/31/2023 1:57:05 PM\"",
+      "text": "10/31/2023 1:57:05 PM",
+      "page": 1,
+      "bbox_pt": [
+        158.7,
+        183.4,
+        223.4,
+        192.3
+      ]
+    },
+    {
+      "item": "Report source \"www.peloton.com\"",
+      "text": "www.peloton.com",
+      "page": 1,
+      "bbox_pt": [
+        31.4,
+        760.4,
+        99.5,
+        770.6
+      ]
+    },
+    {
+      "item": "Page number \"Page 1/1\"",
+      "text": "Page 1/1",
+      "page": 1,
+      "bbox_pt": [
+        294.3,
+        760.4,
+        329.1,
+        770.6
+      ]
+    },
+    {
+      "item": "Report printed \"Report Printed: 10/31/2023\"",
+      "text": "Report Printed: 10/31/2023",
+      "page": 1,
+      "bbox_pt": [
+        485.3,
+        760.4,
+        587.6,
+        770.6
+      ]
+    }
+  ],
+  "supporting_another_requirement": [],
+  "not_applicable_evidence": [
+    {
+      "point": 90,
+      "item": "Wellbore designation \"Original Hole\"",
+      "text": "Original Hole,",
+      "page": 1,
+      "bbox_pt": [
+        119.6,
+        183.4,
+        158.6,
+        192.3
+      ]
+    }
+  ],
+  "excess_total": {
+    "instances": 20,
+    "types": 5
+  }
+}

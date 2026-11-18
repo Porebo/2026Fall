@@ -167,6 +167,8 @@ Findings will be communicated through the completed research proposal, thesis ta
 
 A further question for future work is whether the amount of non-required content on a casing diagram, which a lean analysis of a compliance document would treat as overproduction waste, or *muda* (Ubarana et al., 2021), is associated with reviewer or AI error. Answering it would require a separate, human-coded inventory of the labeled data elements on each diagram.
 
+The third AI verdict, CANNOT_DETERMINE, which lets a model report that the diagram does not allow a decision instead of guessing, was added after review of the prompts by a wellbore-diagram subject-matter expert (C. Castro, personal communication, November 18, 2026).
+
 ## 5. References
 
 {chr(10).join(references)}

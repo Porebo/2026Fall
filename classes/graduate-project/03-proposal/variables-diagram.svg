@@ -34,12 +34,13 @@
   <text x="638" y="170" font-size="20" fill="#1a1a1a" font-weight="700">Point-level presence-</text>
   <text x="638" y="195" font-size="20" fill="#1a1a1a" font-weight="700">judgment accuracy</text>
   <text x="638" y="223" font-size="16" fill="#3a4250">Each atomic point is scored as:</text>
-  <text x="638" y="249" font-size="17" fill="#1a1a1a">Correctly judged</text>
-  <text x="638" y="273" font-size="17" fill="#1a1a1a">Wrongly judged</text>
-  <text x="638" y="297" font-size="17" fill="#1a1a1a">Not addressed</text>
-  <line x1="638" y1="312" x2="911" y2="312" stroke="#b45309" stroke-width="1" opacity="0.45"/>
-  <text x="638" y="336" font-size="16" fill="#9a4a06" font-weight="700">Accuracy: correct judgments</text>
-  <text x="638" y="357" font-size="16" fill="#9a4a06" font-weight="700">over 90 (or 89) atomic points</text>
+  <text x="638" y="245" font-size="17" fill="#1a1a1a">Correctly judged</text>
+  <text x="638" y="266" font-size="17" fill="#1a1a1a">Wrongly judged</text>
+  <text x="638" y="287" font-size="17" fill="#1a1a1a">Cannot determine (AI only)</text>
+  <text x="638" y="308" font-size="17" fill="#1a1a1a">Not addressed</text>
+  <line x1="638" y1="320" x2="911" y2="320" stroke="#b45309" stroke-width="1" opacity="0.45"/>
+  <text x="638" y="341" font-size="16" fill="#9a4a06" font-weight="700">Accuracy: correct judgments</text>
+  <text x="638" y="362" font-size="16" fill="#9a4a06" font-weight="700">over 90 (or 89) atomic points</text>
   <rect x="620" y="420" width="309" height="130" rx="12" fill="#f1ecf9" stroke="#6b4fa0" stroke-width="2"/>
   <text x="638" y="448" font-size="16" fill="#5a3f8f" font-weight="700" letter-spacing="0.5">MEASURING INSTRUMENT</text>
   <text x="638" y="478" font-size="20" fill="#1a1a1a" font-weight="700">Human-reference record</text>

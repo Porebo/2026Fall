@@ -1,0 +1,243 @@
+CASING DIAGRAM ATOMIC CHECKLIST
+Cal. Code Regs. tit. 14, § 1724.7.1(a), (b), (c), and (d)
+Version 4.2
+
+CHANGE NOTE (2026-11-18, v4.1 -> v4.2)
+
+After review of the prompts by a wellbore-diagram subject-matter expert
+(C. Castro, personal communication, November 18, 2026), the AI may return a
+third verdict, CANNOT_DETERMINE ("cannot determine from the diagram"), so
+that it does not guess. Allowed AI statuses: MET, MISSING, CANNOT_DETERMINE
+(any point), and NOT_APPLICABLE (point 90 only). The human reference stays
+MET or MISSING (plus NOT_APPLICABLE for point 90); the human reviewer must
+decide and never uses CANNOT_DETERMINE. Points, codes, labels, and the
+90-point count are unchanged from v4.1. In scoring, an AI CANNOT_DETERMINE is
+not a correct judgment: it counts in the denominator but not the numerator,
+and it is tabulated as its own category.
+
+EARLIER CHANGE NOTE (2026-11-18, v4.0 -> v4.1)
+
+Student decision: § 1724.7.1(b)(2) requires the slurry information "for each
+cement job completed in each well," so v4.1 adds a scored point for cement
+job identification: the date, stage number, or job name that identifies each
+cement job (e.g., U01 shows "8/1/2013" and "8/11/2013" on its cement
+entries). It is inserted as the first (b)(2) point, new point 81, "Cement job
+identification (date or stage)". It is non-depth and has no TVD pair. Former
+points 81-89 are renumbered 82-90; points 1-80 are unchanged. Total points:
+90 (78 from subdivisions (a) and (d), 12 from (b) and (c)); 64 MD/non-depth
+(37 non-depth, 27 MD) and 26 TVD. The conditional borehole point is now
+point 90, so the denominator is 90, or 89 when only one borehole is shown.
+The wellbore-path MD point (now 87) is still the only MD point without a TVD
+pair. Database: requirement_id 90, (b)(2).cement_job_identification; see
+migrate_v41_cement_job_identification.sql. Point numbers in the v4.0 note
+below are v4.0 numbers.
+
+EARLIER CHANGE NOTE (2026-11-18, v3.0 -> v4.0)
+
+v4 adds 11 presence-only points, 79-89, from § 1724.7.1(b) and (c), in a new
+section "Subdivisions (b) and (c)" after point 78. Points 1-78 are unchanged
+in number, code, and label. Until v3 the (b) and (c) content was recorded only
+as supporting another requirement and was not scored; from v4 it is scored.
+Total points: 89 (63 MD/non-depth, 26 TVD). The 63 are 36 non-depth points
+and 27 MD points; point 86 is the only MD point without a TVD pair, because
+§ 1724.7.1(d) requires TVD only for depths required under subdivision (a).
+The (b) codes reuse the 10 supporting-documentation requirement records
+already in casing_specs.db (requirement_id 52-61); point 89 is new
+(requirement_id 89). See migrate_v4_subdivisions_b_c.sql.
+
+Point 89 is conditional (student decision, 2026-11-18). § 1724.7.1(c)
+applies only "when multiple boreholes are drilled in a well" and does not
+require a label. Point 89 is the only point that may take the status
+NOT_APPLICABLE: when the diagram shows a single borehole, point 89 is
+NOT_APPLICABLE and is removed from that diagram's denominator, which is
+then 88; otherwise the denominator is 89. The row count stays 89. See
+migrate_v4b_point89_conditional.sql.
+
+CHANGE NOTE (2026-11-18, v2.0 -> v3.0)
+
+§ 1724.7.1(a)(10) requires "information regarding equipment in the well such
+as subsurface safety valves, packers, and gas lift mandrels." Because "such as"
+is illustrative, not exhaustive, v3 adds point 32, (a)(10).other_equipment,
+for any other in-well equipment (e.g., tubing, pumps, rods). It is a non-depth,
+presence-only point (no TVD pair), handled like point 28. Former points 32-77
+are renumbered 33-78. Total points: 78 (52 MD/non-depth, 26 TVD). Point 32 is
+MET when the diagram supplies information on in-well equipment other than
+SSSVs, packers, and gas-lift mandrels, including an explicit "none" or "N/A";
+a blank label is MISSING. Specification codes are unchanged for all other
+points.
+
+DECISION RULE
+
+For each point, report MET when the diagram supplies an answer, including a
+value, "none", "N/A", or another explicit entry. Report MISSING only when no
+answer is supplied. Do not judge truth, quality, plausibility, engineering
+validity, or regulatory adequacy. The single exception is point 90, which is
+NOT_APPLICABLE when the diagram shows only one borehole (see Subdivisions (b)
+and (c)). No other point may be marked NOT_APPLICABLE.
+
+AI responses only: report CANNOT_DETERMINE when the diagram does not let you
+decide between MET and MISSING (for example, you cannot find or read the area
+where the answer would appear). Do not guess. CANNOT_DETERMINE may be used for
+any point. The human reference never uses CANNOT_DETERMINE.
+
+Return one row for every point below. Repeated structures must be represented:
+when a casing, interval, job, borehole, formation, or feature appears more than
+once, use the Displayed Answer cell to list every represented instance.
+
+SUBDIVISIONS (a) AND (d)
+
+01 | (a)(1).operator_name | Operator name
+02 | (a)(1).lease_name | Lease name
+03 | (a)(1).well_number | Well number
+04 | (a)(1).api_number | API number
+05 | (a)(2).spud_date | Spud date
+06 | (a)(3).ground_elevation | Ground elevation
+07 | (a)(4).reference_elevation | Reference elevation
+08 | (a)(5).freshwater_base.md | Base of freshwater (MD)
+09 | (a)(6).usdw_base.md | Base of lowermost USDW (MD)
+10 | (a)(7).casing_size | Casing size
+11 | (a)(7).casing_grade | Casing grade
+12 | (a)(7).connection_type | Casing connection type
+13 | (a)(7).casing_weight | Casing weight
+14 | (a)(8).shoe_depth.md | Shoe depth (MD)
+15 | (a)(8).stub_depth.md | Stub depth (MD)
+16 | (a)(8).liner_top_depth.md | Liner-top depth (MD)
+17 | (a)(9).perforation_depths.md | Perforation depths (MD)
+18 | (a)(9).perforation_intervals.md | Perforation intervals (MD)
+19 | (a)(9).open_hole_completions.md | Open-hole completions (MD)
+20 | (a)(9).water_shutoff_holes.md | Water-shutoff holes (MD)
+21 | (a)(9).cement_ports.md | Cement ports (MD)
+22 | (a)(9).cavity_shots.md | Cavity shots (MD)
+23 | (a)(9).cuts.md | Cuts (MD)
+24 | (a)(9).casing_damage_type | Casing-damage type
+25 | (a)(9).casing_damage_extent.md | Casing-damage extent (MD)
+26 | (a)(9).junk_or_fish_type | Junk/fish type
+27 | (a)(9).junk_or_fish_extent.md | Junk/fish extent (MD)
+28 | (a)(9).other_integrity_feature | Other flow/integrity feature
+29 | (a)(10).subsurface_safety_valves | Subsurface safety valves
+30 | (a)(10).packers | Packers
+31 | (a)(10).gas_lift_mandrels | Gas-lift mandrels
+32 | (a)(10).other_equipment | Other equipment in the well (e.g., tubing, pumps, rods)
+33 | (a)(11).hole_diameter | Hole diameter
+34 | (a)(11).hole_depth.md | Hole depth (MD)
+35 | (a)(12).cement_plug_identification | Cement-plug identification
+36 | (a)(12).cement_plug_top.md | Cement-plug top (MD)
+37 | (a)(12).cement_plug_bottom.md | Cement-plug bottom (MD)
+38 | (a)(13).cement_fill_identification | Cement-fill identification
+39 | (a)(13).cement_fill_top.md | Cement-fill top (MD)
+40 | (a)(13).cement_fill_bottom.md | Cement-fill bottom (MD)
+41 | (a)(14).fluid_type | Fluid type between plugs
+42 | (a)(14).fluid_density | Fluid density between plugs
+43 | (a)(15).formation_names | Formation names
+44 | (a)(15).formation_depths.md | Formation depths (MD)
+45 | (a)(15).zone_names | Zone names
+46 | (a)(15).zone_depths.md | Zone depths (MD)
+47 | (a)(15).marker_names | Marker names
+48 | (a)(15).marker_depths.md | Marker depths (MD)
+49 | (a)(15).injection_zone_top.md | Injection-zone top (MD)
+50 | (a)(15).injection_zone_bottom.md | Injection-zone bottom (MD)
+51 | (a)(15).confining_layer_top.md | Confining-layer top (MD)
+52 | (a)(15).confining_layer_bottom.md | Confining-layer bottom (MD)
+53 | (a)(5).freshwater_base.tvd | Base of freshwater (TVD)
+54 | (a)(6).usdw_base.tvd | Base of lowermost USDW (TVD)
+55 | (a)(8).shoe_depth.tvd | Shoe depth (TVD)
+56 | (a)(8).stub_depth.tvd | Stub depth (TVD)
+57 | (a)(8).liner_top_depth.tvd | Liner-top depth (TVD)
+58 | (a)(9).perforation_depths.tvd | Perforation depths (TVD)
+59 | (a)(9).perforation_intervals.tvd | Perforation intervals (TVD)
+60 | (a)(9).open_hole_completions.tvd | Open-hole completions (TVD)
+61 | (a)(9).water_shutoff_holes.tvd | Water-shutoff holes (TVD)
+62 | (a)(9).cement_ports.tvd | Cement ports (TVD)
+63 | (a)(9).cavity_shots.tvd | Cavity shots (TVD)
+64 | (a)(9).cuts.tvd | Cuts (TVD)
+65 | (a)(9).casing_damage_extent.tvd | Casing-damage extent (TVD)
+66 | (a)(9).junk_or_fish_extent.tvd | Junk/fish extent (TVD)
+67 | (a)(11).hole_depth.tvd | Hole depth (TVD)
+68 | (a)(12).cement_plug_top.tvd | Cement-plug top (TVD)
+69 | (a)(12).cement_plug_bottom.tvd | Cement-plug bottom (TVD)
+70 | (a)(13).cement_fill_top.tvd | Cement-fill top (TVD)
+71 | (a)(13).cement_fill_bottom.tvd | Cement-fill bottom (TVD)
+72 | (a)(15).formation_depths.tvd | Formation depths (TVD)
+73 | (a)(15).zone_depths.tvd | Zone depths (TVD)
+74 | (a)(15).marker_depths.tvd | Marker depths (TVD)
+75 | (a)(15).injection_zone_top.tvd | Injection-zone top (TVD)
+76 | (a)(15).injection_zone_bottom.tvd | Injection-zone bottom (TVD)
+77 | (a)(15).confining_layer_top.tvd | Confining-layer top (TVD)
+78 | (a)(15).confining_layer_bottom.tvd | Confining-layer bottom (TVD)
+
+SUBDIVISIONS (b) AND (c)
+
+Presence rule and limitation for (b). Subdivision (b) requires each casing
+diagram to be "accompanied by documentation" of cement calculations, cement
+slurry information, and the wellbore path. The study observes only the
+published casing-diagram file being scored; documentation filed separately
+with CalGEM is not seen. A (b) point (79-89) is MET if the information
+appears on the scored diagram file, including "none", "N/A", or another
+explicit entry, or if the diagram states or shows that the information for
+that point accompanies it separately (e.g., "cement calculations attached",
+"see directional survey", "slurry details in cement report"; student
+decision, 2026-11-18). It is MISSING when the diagram neither shows nor
+references the information. A MISSING (b) point therefore means "neither
+shown nor referenced on the published diagram", not that the operator failed
+to file the documentation.
+
+Repeated instances. Points 79-86 apply to every cement job represented on the
+diagram (each cement fill behind casing, each cement plug, or any other
+cement-job entry). Points 87-90 apply to every borehole represented (original
+hole, redrill, or sidetrack). Each point is MET only when every represented
+instance has an answer; list every instance in Displayed Answer.
+
+Point rules. For every point 79-89, any indication of the item is MET,
+including "none" or "N/A"; a blank label or no mention is MISSING. The rules
+below say only which point an indication answers.
+79: MET when the steps of a cement-yield calculation are shown (inputs and
+    the computation leading to the yield). A yield value alone is point 84,
+    not point 79.
+80: MET when the steps of any other cement calculation are shown (e.g.,
+    annular volume, excess, sacks required). A result alone is not the steps.
+81: MET when every cement job shown is identified by a date, stage number,
+    or job name (e.g., "8/1/2013", "Stage 1", "Primary", "Squeeze"),
+    including "N/A"; blank or not mentioned is MISSING (student decision,
+    2026-11-18).
+82: MET when a slurry volume or the quantity used to calculate it (e.g.,
+    sacks, cubic feet, barrels) is shown for the job. A sack count alone
+    is MET (student decision, 2026-11-18).
+83: MET when a slurry density or weight (e.g., ppg, lb/cu ft) is shown.
+84: MET when a slurry yield (e.g., cu ft/sk) is shown.
+85: MET when a cement type or class (e.g., "Class G", "Class H") is shown.
+86: MET when additives are listed or the slurry is stated to have none
+    (e.g., "neat", "no additives").
+87-89: MET when the wellbore path supplies the quantity: survey or path
+    stations in measured depth (87), inclination (88), azimuth (89). An
+    explicit statement that the hole is vertical or straight, or "N/A",
+    answers all three. A deviation statement or range without stations
+    (e.g., "Deviated (15° to 30°)") answers point 88 only; points 87 and 89
+    are MISSING unless shown elsewhere.
+90: Conditional. § 1724.7.1(c) applies only "when multiple boreholes are
+    drilled in a well."
+    - Diagram shows more than one borehole (original hole plus a redrill or
+      sidetrack): point 90 is scored. MET when each bore is identified
+      (e.g., "Original hole", "OH", "RD1", "ST01", wellbore "00"/"01") and
+      the required information is given for each bore; otherwise MISSING.
+    - Diagram shows a single borehole: NOT_APPLICABLE. No label is required.
+      The point is removed from this diagram's denominator (90 -> 89).
+    NOT_APPLICABLE is a status, not a displayed answer; an "N/A" written on
+    the diagram is a displayed answer and does not by itself make point 90
+    NOT_APPLICABLE. Subdivision (c) also applies every other point to each
+    borehole, under the repeated-instance rule.
+
+No TVD rows are added for points 79-90: § 1724.7.1(d) requires TVD only for
+depths required under subdivision (a).
+
+79 | (b)(1).yield_calculation_steps | Cement-yield calculation steps
+80 | (b)(1).cement_calculation_steps | Cement calculation steps
+81 | (b)(2).cement_job_identification | Cement job identification (date or stage)
+82 | (b)(2).slurry_volume | Slurry volume (or sacks) for each cement job
+83 | (b)(2).slurry_density | Slurry density for each cement job
+84 | (b)(2).slurry_yield | Slurry yield for each cement job
+85 | (b)(2).cement_type | Cement type for each cement job
+86 | (b)(2).cement_additives | Cement additives for each cement job
+87 | (b)(3).wellbore_path_md | Wellbore path: measured depth (MD)
+88 | (b)(3).inclination | Wellbore path: inclination
+89 | (b)(3).azimuth | Wellbore path: azimuth
+90 | (c).borehole_designation | Borehole designation (original hole, redrill, or sidetrack; conditional: multiple boreholes only)
