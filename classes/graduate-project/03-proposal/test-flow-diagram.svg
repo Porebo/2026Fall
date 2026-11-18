@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930 324" width="930" height="324" font-family="Segoe UI, Arial, Helvetica, sans-serif">
   <title>Procedure for testing one casing diagram with the three prompt types</title>
-  <desc>Six manual steps make one run. Each diagram-service pair receives all three prompt types in counterbalanced order through new chats. The response is scored against the frozen 89-point human-reference record.</desc>
+  <desc>Six manual steps make one run. Each diagram-service pair receives all three prompt types in counterbalanced order through new chats. The response is scored against the frozen 90-point human-reference record.</desc>
   <rect x="0" y="0" width="930" height="324" fill="#ffffff"/>
   <rect x="1" y="1" width="290" height="116" rx="12" fill="#ffffff" stroke="#5b6470" stroke-width="2"/>
   <circle cx="31" cy="33" r="16" fill="#2b2f36"/>
@@ -13,7 +13,7 @@
   <text x="350" y="39" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">2</text>
   <text x="376" y="40" font-size="19" fill="#1a1a1a" font-weight="700">Upload three files</text>
   <text x="340" y="73" font-size="16" fill="#3a4250">Diagram, regulation,</text>
-  <text x="340" y="94" font-size="16" fill="#3a4250">and 89-point checklist</text>
+  <text x="340" y="94" font-size="16" fill="#3a4250">and 90-point checklist</text>
   <rect x="639" y="1" width="290" height="116" rx="12" fill="#e8f1fb" stroke="#1f5fa8" stroke-width="2"/>
   <circle cx="669" cy="33" r="16" fill="#2b2f36"/>
   <text x="669" y="39" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">3</text>

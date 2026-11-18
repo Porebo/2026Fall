@@ -1,5 +1,7 @@
 # Casing diagram requirements: sources and crosswalk to the 77-point instrument
 
+> **Note (2026-11-18):** Superseded counts: instrument adopted as checklist v4 (89 points) on 2026-11-18.
+
 Prepared November 18, 2026. Research only; no existing file was changed. New source copies are in `../calgem/` (listed in Section 1.3).
 
 **Scope.** This note lists every California statute, regulation, and official CalGEM document found that (a) requires a casing diagram or wellbore schematic, (b) says what one must contain or what must go with it, or (c) governs the same well data in another document. It then maps each required data element to the current 77-point checklist (`../06-study/design/prompts/casing-diagram-atomic-checklist-v2.txt`).

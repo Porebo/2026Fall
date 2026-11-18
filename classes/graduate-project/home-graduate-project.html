@@ -110,7 +110,7 @@
     <section class="card" aria-labelledby="gp-study-heading">
       <p class="eyebrow">Method</p>
       <h2 id="gp-study-heading">Study Design, Sample, and Runs</h2>
-      <p>Three prompts (naive, informed, chain-of-thought) ask ChatGPT, Claude, and Gemini whether a casing diagram meets 14 CCR &sect; 1724.7.1.</p>
+      <p>Three prompts (naive, informed, chain-of-thought) ask ChatGPT, Claude, and Gemini whether a casing diagram meets 14 CCR &sect; 1724.7.1. The instrument is checklist v4.1: 90 presence-only points, 78 from subdivisions (a) and (d) and 12 from (b) and (c); a diagram's denominator is 90, or 89 when only one borehole is shown. The sample is 30 UIC injector diagrams, U01&ndash;U30, dated on or after April 1, 2019.</p>
           <h3>Design</h3>
           <ul class="link-list">
             <li><a href="calgem/scenario-business-need.txt">Scenario and business need</a></li>
@@ -139,12 +139,26 @@
             <li><a href="06-study/design/prompts/prompt-02-informed-v4.txt">prompt-02-informed-v4.txt</a></li>
             <li><a href="06-study/design/prompts/prompt-03-chain-of-thought-v4.txt">prompt-03-chain-of-thought-v4.txt</a></li>
             <li><a href="06-study/design/prompts/prompt-design-methods-v4.txt">prompt-design-methods-v4.txt</a></li>
+            <li><a href="06-study/design/prompts/casing-diagram-atomic-checklist-v4.1.txt">casing-diagram-atomic-checklist-v4.1.txt</a></li>
+            <li><a href="06-study/design/prompts/prompt-01-naive-v4.1.txt">prompt-01-naive-v4.1.txt</a></li>
+            <li><a href="06-study/design/prompts/prompt-02-informed-v4.1.txt">prompt-02-informed-v4.1.txt</a></li>
+            <li><a href="06-study/design/prompts/prompt-03-chain-of-thought-v4.1.txt">prompt-03-chain-of-thought-v4.1.txt</a></li>
+            <li><a href="06-study/design/prompts/prompt-design-methods-v4.1.txt">prompt-design-methods-v4.1.txt</a></li>
             <li><a href="07-out-of-study/w-diagrams/W01.svg">W01 atomic-point map (figure)</a></li>
             <li><a href="07-out-of-study/w-diagrams/W01.png">W01 atomic-point map (figure, PNG)</a></li>
             <li><a href="06-study/design/superseded/prompt-03-few-shot.txt">Few-shot prompt (dropped Nov 13, superseded)</a></li>
             <li><a href="06-study/design/superseded/few-shot-copy-and-paste.txt">Few-shot copy-and-paste prompt (dropped Nov 13, superseded)</a></li>
           </ul>
-          <h3>Sample</h3>
+          <h3>Study sample (U01&ndash;U30, UIC injectors)</h3>
+          <ul class="link-list">
+            <li><a href="06-study/sample-uic/README.txt">UIC sampling plan and screening record</a></li>
+            <li><a href="06-study/sample-uic/screening-log.csv">Screening log</a></li>
+            <li><a href="06-study/sample-uic/frame-summary.csv">Frame summary</a></li>
+            <li><a href="06-study/sample-uic/pdf-quality-profile.csv">PDF quality profile</a></li>
+          </ul>
+          <h3>Study sample diagrams</h3>
+          <p><a href="06-study/sample-uic/diagrams/U01.pdf">U01</a> <a href="06-study/sample-uic/diagrams/U02.pdf">U02</a> <a href="06-study/sample-uic/diagrams/U03.pdf">U03</a> <a href="06-study/sample-uic/diagrams/U04.pdf">U04</a> <a href="06-study/sample-uic/diagrams/U05.pdf">U05</a> <a href="06-study/sample-uic/diagrams/U06.pdf">U06</a> <a href="06-study/sample-uic/diagrams/U07.pdf">U07</a> <a href="06-study/sample-uic/diagrams/U08.pdf">U08</a> <a href="06-study/sample-uic/diagrams/U09.pdf">U09</a> <a href="06-study/sample-uic/diagrams/U10.pdf">U10</a> <a href="06-study/sample-uic/diagrams/U11.pdf">U11</a> <a href="06-study/sample-uic/diagrams/U12.pdf">U12</a> <a href="06-study/sample-uic/diagrams/U13.pdf">U13</a> <a href="06-study/sample-uic/diagrams/U14.pdf">U14</a> <a href="06-study/sample-uic/diagrams/U15.pdf">U15</a> <a href="06-study/sample-uic/diagrams/U16.pdf">U16</a> <a href="06-study/sample-uic/diagrams/U17.pdf">U17</a> <a href="06-study/sample-uic/diagrams/U18.pdf">U18</a> <a href="06-study/sample-uic/diagrams/U19.pdf">U19</a> <a href="06-study/sample-uic/diagrams/U20.pdf">U20</a> <a href="06-study/sample-uic/diagrams/U21.pdf">U21</a> <a href="06-study/sample-uic/diagrams/U22.pdf">U22</a> <a href="06-study/sample-uic/diagrams/U23.pdf">U23</a> <a href="06-study/sample-uic/diagrams/U24.pdf">U24</a> <a href="06-study/sample-uic/diagrams/U25.pdf">U25</a> <a href="06-study/sample-uic/diagrams/U26.pdf">U26</a> <a href="06-study/sample-uic/diagrams/U27.pdf">U27</a> <a href="06-study/sample-uic/diagrams/U28.pdf">U28</a> <a href="06-study/sample-uic/diagrams/U29.pdf">U29</a> <a href="06-study/sample-uic/diagrams/U30.pdf">U30</a></p>
+          <h3>Earlier sample (W01&ndash;W30, out of study)</h3>
           <ul class="link-list">
             <li><a href="06-study/sample/sampling-plan.txt">Sampling plan</a></li>
             <li><a href="06-study/sample/sample-quality-evaluation.txt">Input quality evaluation</a></li>
@@ -154,7 +168,7 @@
             <li><a href="06-study/sample/screening-raw/batch-02-rows-016-035.json">Raw screening batch: batch-02-rows-016-035.json</a></li>
             <li><a href="06-study/sample/screening-raw/batch-03-09-rows-036-225.json">Raw screening batch: batch-03-09-rows-036-225.json</a></li>
           </ul>
-          <h3>Sample diagrams</h3>
+          <h3>Earlier sample diagrams (W01&ndash;W30, out of study)</h3>
           <p><a href="07-out-of-study/w-diagrams/W01.pdf">W01</a> <a href="07-out-of-study/w-diagrams/W02.pdf">W02</a> <a href="07-out-of-study/w-diagrams/W03.pdf">W03</a> <a href="07-out-of-study/w-diagrams/W04.pdf">W04</a> <a href="07-out-of-study/w-diagrams/W05.pdf">W05</a> <a href="07-out-of-study/w-diagrams/W06.pdf">W06</a> <a href="07-out-of-study/w-diagrams/W07.pdf">W07</a> <a href="07-out-of-study/w-diagrams/W08.pdf">W08</a> <a href="07-out-of-study/w-diagrams/W09.pdf">W09</a> <a href="07-out-of-study/w-diagrams/W10.pdf">W10</a> <a href="07-out-of-study/w-diagrams/W11.pdf">W11</a> <a href="07-out-of-study/w-diagrams/W12.pdf">W12</a> <a href="07-out-of-study/w-diagrams/W13.pdf">W13</a> <a href="07-out-of-study/w-diagrams/W14.pdf">W14</a> <a href="07-out-of-study/w-diagrams/W15.pdf">W15</a> <a href="07-out-of-study/w-diagrams/W16.pdf">W16</a> <a href="07-out-of-study/w-diagrams/W17.pdf">W17</a> <a href="07-out-of-study/w-diagrams/W18.pdf">W18</a> <a href="07-out-of-study/w-diagrams/W19.pdf">W19</a> <a href="07-out-of-study/w-diagrams/W20.pdf">W20</a> <a href="07-out-of-study/w-diagrams/W21.pdf">W21</a> <a href="07-out-of-study/w-diagrams/W22.pdf">W22</a> <a href="07-out-of-study/w-diagrams/W23.pdf">W23</a> <a href="07-out-of-study/w-diagrams/W24.pdf">W24</a> <a href="07-out-of-study/w-diagrams/W25.pdf">W25</a> <a href="07-out-of-study/w-diagrams/W26.pdf">W26</a> <a href="07-out-of-study/w-diagrams/W27.pdf">W27</a> <a href="07-out-of-study/w-diagrams/W28.pdf">W28</a> <a href="07-out-of-study/w-diagrams/W29.pdf">W29</a> <a href="07-out-of-study/w-diagrams/W30.pdf">W30</a></p>
           <h3>Dry runs</h3>
           <ul class="link-list">

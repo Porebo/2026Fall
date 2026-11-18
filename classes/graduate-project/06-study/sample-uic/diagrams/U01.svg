@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8.5in" height="11in" viewBox="0 0 816 1056" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif">
 <title>U01 atomic data-point map</title>
 <rect width="816" height="1056" fill="#ffffff"/>
-<text x="48" y="61" font-size="14.7" font-weight="bold" fill="#111">Casing diagram U01: 89 atomic data points (checklist v4), 14 CCR § 1724.7.1 · PROVISIONAL</text>
-<text x="48" y="75" font-size="9.3" fill="#444">Provisional — Claude's review, not the frozen human reference · 26 MET · 62 MISSING · 1 N/A · completeness 29.5% · Hill 44MW, API 0403050708 (Berry, South Belridge)</text>
+<text x="48" y="61" font-size="14.7" font-weight="bold" fill="#111">Casing diagram U01: 90 atomic data points (checklist v4), 14 CCR § 1724.7.1 · PROVISIONAL</text>
+<text x="48" y="75" font-size="9.3" fill="#444">Provisional — Claude's review, not the frozen human reference · 27 MET · 62 MISSING · 1 N/A · completeness 30.3% · Hill 44MW, API 0403050708 (Berry, South Belridge)</text>
 <text x="51.0" y="98.5" font-size="8.7" font-weight="bold" fill="#333">MD / non-depth</text>
 <text x="189.0" y="98.5" font-size="8.7" font-weight="bold" fill="#333" text-anchor="middle">TVD</text>
 <line x1="48" y1="100.5" x2="197.39999999999998" y2="100.5" stroke="#999" stroke-width="0.5"/>
@@ -30,16 +30,8 @@
 <rect x="449.70" y="320.72" width="37.76" height="9.47" rx="0.8"><title>Perforation date "10/13/2017": perforation dates are not listed in (a)(9)</title></rect>
 <rect x="449.70" y="330.98" width="37.76" height="9.47" rx="0.8"><title>Perforation date "10/13/2017": perforation dates are not listed in (a)(9)</title></rect>
 </g>
-<rect x="380.40" y="368.30" width="23.67" height="8.27" rx="0.8" fill="none" stroke="#44546A" stroke-width="0.9" stroke-dasharray="2 1.2"><title>Conductor cement job date "8/1/2013": supports § 1724.7.1(b)(2): cement-slurry information is required for each cement job completed; the date identifies the job; not a scored point</title></rect>
-<line x1="404.06" y1="368.30" x2="449.06" y2="368.30" stroke="#44546A" stroke-width="0.7" stroke-dasharray="1.5 1"/>
-<rect x="449.06" y="360.93" width="60.12" height="9.0" rx="1.5" fill="#44546A" stroke="#fff" stroke-width="0.4"/><text x="479.12" y="368.48" font-size="8.7" fill="#fff" text-anchor="middle">§1724.7.1(b)(2)</text>
-<rect x="401.35" y="496.80" width="26.54" height="6.23" rx="0.8" fill="none" stroke="#44546A" stroke-width="0.9" stroke-dasharray="2 1.2"><title>Production casing cement job date "8/11/2013": supports § 1724.7.1(b)(2): cement-slurry information is required for each cement job completed; the date identifies the job; not a scored point</title></rect>
-<line x1="401.35" y1="503.03" x2="401.35" y2="516.95" stroke="#44546A" stroke-width="0.7" stroke-dasharray="1.5 1"/>
-<rect x="369.07" y="516.95" width="60.12" height="9.0" rx="1.5" fill="#44546A" stroke="#fff" stroke-width="0.4"/><text x="399.14" y="524.50" font-size="8.7" fill="#fff" text-anchor="middle">§1724.7.1(b)(2)</text>
-<rect x="366.09" y="711.93" width="26.52" height="6.23" rx="0.8" fill="none" stroke="#44546A" stroke-width="0.9" stroke-dasharray="2 1.2"><title>Production casing cement (plug) job date "8/11/2013": supports § 1724.7.1(b)(2): cement-slurry information is required for each cement job completed; the date identifies the job; not a scored point</title></rect>
-<rect x="369.07" y="719.73" width="60.12" height="9.0" rx="1.5" fill="#44546A" stroke="#fff" stroke-width="0.4"/><text x="399.14" y="727.28" font-size="8.7" fill="#fff" text-anchor="middle">§1724.7.1(b)(2)</text>
-<rect x="319.31" y="252.80" width="37.03" height="8.46" fill="none" stroke="#6b6b6b" stroke-width="0.9" stroke-dasharray="2.2 1.4"><title>Wellbore designation "Original Hole": point 89 is NOT_APPLICABLE: the diagram shows one borehole only</title></rect>
-<rect x="320.26" y="242.73" width="31.07" height="9" rx="1.5" fill="#ffffff" stroke="#6b6b6b" stroke-width="0.7" stroke-dasharray="2.2 1.4"/><text x="335.80" y="250.23" font-size="8.7" font-weight="bold" fill="#6b6b6b" text-anchor="middle">89 N/A</text>
+<rect x="319.31" y="252.80" width="37.03" height="8.46" fill="none" stroke="#6b6b6b" stroke-width="0.9" stroke-dasharray="2.2 1.4"><title>Wellbore designation "Original Hole": point 90 is NOT_APPLICABLE: the diagram shows one borehole only</title></rect>
+<rect x="320.26" y="242.73" width="31.07" height="9" rx="1.5" fill="#ffffff" stroke="#6b6b6b" stroke-width="0.7" stroke-dasharray="2.2 1.4"/><text x="335.80" y="250.23" font-size="8.7" font-weight="bold" fill="#6b6b6b" text-anchor="middle">90 N/A</text>
 <rect x="356.42" y="252.80" width="61.44" height="8.46" fill="none" stroke="#111111" stroke-width="1.0" stroke-dasharray="0.1 1.6" stroke-linecap="round"><title>Profile timestamp "10/31/2023 1:57:05 PM": document provenance; not required, not scored</title></rect>
 <rect x="235.55" y="800.88" width="64.66" height="9.66" fill="none" stroke="#111111" stroke-width="1.0" stroke-dasharray="0.1 1.6" stroke-linecap="round"><title>Report source "www.peloton.com": document provenance; not required, not scored</title></rect>
 <rect x="485.28" y="800.88" width="33.04" height="9.66" fill="none" stroke="#111111" stroke-width="1.0" stroke-dasharray="0.1 1.6" stroke-linecap="round"><title>Page number "Page 1/1": document provenance; not required, not scored</title></rect>
@@ -51,32 +43,33 @@
 <rect x="546.63" y="167.71" width="14.64" height="9.0" rx="1.5" fill="#d62728" stroke="#fff" stroke-width="0.4"/><text x="553.95" y="175.21" font-size="8.7" font-weight="bold" fill="#fff" text-anchor="middle">E3</text>
 <rect x="724.57" y="171.71" width="14.64" height="9.0" rx="1.5" fill="#d62728" stroke="#fff" stroke-width="0.4"/><text x="731.89" y="179.21" font-size="8.7" font-weight="bold" fill="#fff" text-anchor="middle">E4</text>
 <rect x="486.85" y="270.09" width="14.64" height="9.0" rx="1.5" fill="#d62728" stroke="#fff" stroke-width="0.4"/><text x="494.17" y="277.59" font-size="8.7" font-weight="bold" fill="#fff" text-anchor="middle">E5</text>
-<polyline points="178.20,106.50 220.40,106.50 220.40,106.29 237.71,106.29 237.71,106.29" fill="none" stroke="#0072B2" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,116.50 225.40,116.50 225.40,126.13 290.93,126.13 290.93,129.69" fill="none" stroke="#0072B2" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,126.50 214.40,126.50 214.40,126.13 307.58,126.13 307.58,129.69" fill="none" stroke="#0072B2" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,136.50 224.40,136.50 224.40,155.86 234.81,155.86 234.81,155.86" fill="none" stroke="#0072B2" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,146.50 218.40,146.50 218.40,168.89 395.46,168.89 395.46,172.21" fill="none" stroke="#E69F00" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,156.50 204.40,156.50 204.40,172.21 234.81,172.21 234.81,172.21" fill="none" stroke="#E69F00" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,166.50 203.40,166.50 203.40,175.06 292.25,175.06 292.25,172.21" fill="none" stroke="#E69F00" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,196.50 216.40,196.50 216.40,211.30 558.77,211.30 558.77,212.96" fill="none" stroke="#009E73" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,206.50 202.40,206.50 202.40,212.96 628.54,212.96 628.54,212.96" fill="none" stroke="#009E73" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,216.50 213.40,216.50 213.40,212.96 673.72,212.96 673.72,212.96" fill="none" stroke="#009E73" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,226.50 219.40,226.50 219.40,211.30 605.90,211.30 605.90,212.96" fill="none" stroke="#009E73" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,236.50 227.40,236.50 227.40,225.07 739.20,225.07 739.20,212.96" fill="none" stroke="#009E73" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,266.50 217.40,266.50 217.40,307.76 553.94,307.76 553.94,304.91" fill="none" stroke="#CC79A7" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,276.50 209.40,276.50 209.40,307.76 618.19,307.76 618.19,304.91" fill="none" stroke="#CC79A7" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,416.50 222.40,416.50 222.40,480.70 447.89,480.70 447.89,480.70" fill="none" stroke="#8C564B" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,446.50 208.40,446.50 208.40,705.36 364.57,705.36 364.57,703.23" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,456.50 207.40,456.50 207.40,704.23 383.24,704.23 383.24,706.85" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,466.50 205.40,466.50 205.40,704.23 399.47,704.23 399.47,706.85" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,476.50 215.40,476.50 215.40,491.95 364.57,491.95 364.57,491.71" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,486.50 210.40,486.50 210.40,498.18 364.57,498.18 364.57,498.89" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,496.50 211.40,496.50 211.40,494.86 377.64,494.86 377.64,498.89" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,526.50 206.40,526.50 206.40,453.78 255.84,453.78 255.84,454.73" fill="none" stroke="#999933" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,536.50 212.40,536.50 212.40,455.46 239.65,455.46 239.65,455.46" fill="none" stroke="#999933" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,546.50 223.40,546.50 223.40,658.31 255.84,658.31 255.84,659.26" fill="none" stroke="#999933" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,556.50 221.40,556.50 221.40,659.93 239.65,659.93 239.65,659.93" fill="none" stroke="#999933" stroke-width="0.85" stroke-linejoin="round"/>
-<polyline points="178.20,716.50 226.40,716.50 226.40,257.03 259.88,257.03 259.88,257.03" fill="none" stroke="#56B4E9" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,106.50 217.78,106.50 217.78,106.29 237.71,106.29 237.71,106.29" fill="none" stroke="#0072B2" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,116.50 203.36,116.50 203.36,126.13 290.93,126.13 290.93,129.69" fill="none" stroke="#0072B2" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,126.50 216.82,126.50 216.82,126.13 307.58,126.13 307.58,129.69" fill="none" stroke="#0072B2" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,136.50 224.52,136.50 224.52,155.86 234.81,155.86 234.81,155.86" fill="none" stroke="#0072B2" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,146.50 220.67,146.50 220.67,168.89 395.46,168.89 395.46,172.21" fill="none" stroke="#E69F00" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,156.50 215.86,156.50 215.86,172.21 234.81,172.21 234.81,172.21" fill="none" stroke="#E69F00" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,166.50 211.05,166.50 211.05,175.06 292.25,175.06 292.25,172.21" fill="none" stroke="#E69F00" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,196.50 227.40,196.50 227.40,211.30 558.77,211.30 558.77,212.96" fill="none" stroke="#009E73" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,206.50 222.59,206.50 222.59,212.96 628.54,212.96 628.54,212.96" fill="none" stroke="#009E73" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,216.50 221.63,216.50 221.63,212.96 673.72,212.96 673.72,212.96" fill="none" stroke="#009E73" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,226.50 204.32,226.50 204.32,211.30 605.90,211.30 605.90,212.96" fill="none" stroke="#009E73" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,236.50 212.02,236.50 212.02,225.07 739.20,225.07 739.20,212.96" fill="none" stroke="#009E73" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,266.50 226.44,266.50 226.44,307.76 553.94,307.76 553.94,304.91" fill="none" stroke="#CC79A7" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,276.50 225.48,276.50 225.48,307.76 618.19,307.76 618.19,304.91" fill="none" stroke="#CC79A7" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,416.50 223.55,416.50 223.55,480.70 447.89,480.70 447.89,480.70" fill="none" stroke="#8C564B" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,446.50 208.17,446.50 208.17,705.36 364.57,705.36 364.57,703.23" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,456.50 213.94,456.50 213.94,704.23 383.24,704.23 383.24,706.85" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,466.50 207.21,466.50 207.21,704.23 399.47,704.23 399.47,706.85" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,476.50 219.71,476.50 219.71,491.95 364.57,491.95 364.57,491.71" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,486.50 202.40,486.50 202.40,498.18 364.57,498.18 364.57,498.89" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,496.50 209.13,496.50 209.13,494.86 377.64,494.86 377.64,498.89" fill="none" stroke="#332288" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,526.50 212.98,526.50 212.98,453.78 255.84,453.78 255.84,454.73" fill="none" stroke="#999933" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,536.50 214.90,536.50 214.90,455.46 239.65,455.46 239.65,455.46" fill="none" stroke="#999933" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,546.50 218.75,546.50 218.75,658.31 255.84,658.31 255.84,659.26" fill="none" stroke="#999933" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,556.50 210.09,556.50 210.09,659.93 239.65,659.93 239.65,659.93" fill="none" stroke="#999933" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,656.50 206.25,656.50 206.25,375.04 378.88,375.04 378.88,372.43" fill="none" stroke="#56B4E9" stroke-width="0.85" stroke-linejoin="round"/>
+<polyline points="178.20,726.50 205.28,726.50 205.28,257.03 259.88,257.03 259.88,257.03" fill="none" stroke="#56B4E9" stroke-width="0.85" stroke-linejoin="round"/>
 <rect x="239.14" y="95.60" width="54.14" height="21.37" rx="0.8" fill="none" stroke="#0072B2" stroke-width="0.9"><title>01 (a)(1).operator_name</title></rect>
 <circle cx="237.71" cy="106.29" r="1.5" fill="#0072B2" stroke="#fff" stroke-width="0.4"/>
 <rect x="294.28" y="101.59" width="13.27" height="9.4" rx="2" fill="#0072B2" stroke="#fff" stroke-width="0.4"/><text x="300.92" y="109.34" font-size="8.7" font-weight="bold" fill="#ffffff" text-anchor="middle">01</text>
@@ -152,9 +145,16 @@
 <rect x="241.08" y="657.09" width="9.95" height="5.68" rx="0.8" fill="none" stroke="#999933" stroke-width="0.9"><title>46 (a)(15).zone_depths.md</title></rect>
 <circle cx="239.65" cy="659.93" r="1.5" fill="#999933" stroke="#fff" stroke-width="0.4"/>
 <rect x="237.76" y="646.89" width="13.27" height="9.4" rx="2" fill="#999933" stroke="#fff" stroke-width="0.4"/><text x="244.39" y="654.64" font-size="8.7" font-weight="bold" fill="#111111" text-anchor="middle">46</text>
-<rect x="261.31" y="252.80" width="57.15" height="8.46" rx="0.8" fill="none" stroke="#56B4E9" stroke-width="0.9"><title>87 (b)(3).inclination</title></rect>
+<rect x="380.30" y="368.20" width="23.86" height="8.46" rx="0.8" fill="none" stroke="#56B4E9" stroke-width="0.9"><title>81 (b)(2).cement_job_identification</title></rect>
+<circle cx="378.88" cy="372.43" r="1.5" fill="#56B4E9" stroke="#fff" stroke-width="0.4"/>
+<rect x="405.16" y="367.73" width="13.27" height="9.4" rx="2" fill="#56B4E9" stroke="#fff" stroke-width="0.4"/><text x="411.79" y="375.48" font-size="8.7" font-weight="bold" fill="#111111" text-anchor="middle">81</text>
+<rect x="401.44" y="494.85" width="26.35" height="8.08" rx="0.8" fill="none" stroke="#56B4E9" stroke-width="0.9"><title>81 (b)(2).cement_job_identification (instance 2)</title></rect>
+<line x1="375.71" y1="516.95" x2="375.71" y2="502.93" stroke="#56B4E9" stroke-width="0.7"/><rect x="369.07" y="516.95" width="13.27" height="9.4" rx="2" fill="#56B4E9" stroke="#fff" stroke-width="0.4"/><text x="375.71" y="524.70" font-size="8.7" font-weight="bold" fill="#111111" text-anchor="middle">81</text>
+<rect x="366.19" y="709.99" width="26.33" height="8.08" rx="0.8" fill="none" stroke="#56B4E9" stroke-width="0.9"><title>81 (b)(2).cement_job_identification (instance 3)</title></rect>
+<line x1="375.71" y1="719.73" x2="375.71" y2="718.07" stroke="#56B4E9" stroke-width="0.7"/><rect x="369.07" y="719.73" width="13.27" height="9.4" rx="2" fill="#56B4E9" stroke="#fff" stroke-width="0.4"/><text x="375.71" y="727.48" font-size="8.7" font-weight="bold" fill="#111111" text-anchor="middle">81</text>
+<rect x="261.31" y="252.80" width="57.15" height="8.46" rx="0.8" fill="none" stroke="#56B4E9" stroke-width="0.9"><title>88 (b)(3).inclination</title></rect>
 <circle cx="259.88" cy="257.03" r="1.5" fill="#56B4E9" stroke="#fff" stroke-width="0.4"/>
-<rect x="244.03" y="252.33" width="13.27" height="9.4" rx="2" fill="#56B4E9" stroke="#fff" stroke-width="0.4"/><text x="250.67" y="260.08" font-size="8.7" font-weight="bold" fill="#111111" text-anchor="middle">87</text>
+<rect x="244.03" y="252.33" width="13.27" height="9.4" rx="2" fill="#56B4E9" stroke="#fff" stroke-width="0.4"/><text x="250.67" y="260.08" font-size="8.7" font-weight="bold" fill="#111111" text-anchor="middle">88</text>
 <rect x="48" y="102.00" width="130.2" height="9.0" rx="4.5" fill="#0072B2" stroke="#0072B2" stroke-width="0.7"/><rect x="49.40" y="103.00" width="12.87" height="7.00" rx="3.50" fill="#ffffff"/><text x="55.84" y="109.50" font-size="8.7" font-weight="bold" fill="#0072B2" text-anchor="middle">01</text><text x="65.27" y="109.50" font-size="8.7" fill="#ffffff">Operator name</text>
 <rect x="48" y="112.00" width="130.2" height="9.0" rx="4.5" fill="#0072B2" stroke="#0072B2" stroke-width="0.7"/><rect x="49.40" y="113.00" width="12.87" height="7.00" rx="3.50" fill="#ffffff"/><text x="55.84" y="119.50" font-size="8.7" font-weight="bold" fill="#0072B2" text-anchor="middle">02</text><text x="65.27" y="119.50" font-size="8.7" fill="#ffffff">Lease name</text>
 <rect x="48" y="122.00" width="130.2" height="9.0" rx="4.5" fill="#0072B2" stroke="#0072B2" stroke-width="0.7"/><rect x="49.40" y="123.00" width="12.87" height="7.00" rx="3.50" fill="#ffffff"/><text x="55.84" y="129.50" font-size="8.7" font-weight="bold" fill="#0072B2" text-anchor="middle">03</text><text x="65.27" y="129.50" font-size="8.7" fill="#ffffff">Well number</text>
@@ -236,63 +236,60 @@
 <text x="51.0" y="629.50" font-size="8.7" font-weight="bold" fill="#333">§ 1724.7.1(b)–(c) (no TVD pair)</text>
 <rect x="48" y="632.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="639.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">79</text><text x="65.27" y="639.50" font-size="8.7" fill="#9b9b9b">Cement-yield calc. steps</text>
 <rect x="48" y="642.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="649.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">80</text><text x="65.27" y="649.50" font-size="8.7" fill="#9b9b9b">Cement calculation steps</text>
-<rect x="48" y="652.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="659.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">81</text><text x="65.27" y="659.50" font-size="8.7" fill="#9b9b9b">Slurry volume (or sacks)</text>
-<rect x="48" y="662.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="669.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">82</text><text x="65.27" y="669.50" font-size="8.7" fill="#9b9b9b">Slurry density</text>
-<rect x="48" y="672.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="679.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">83</text><text x="65.27" y="679.50" font-size="8.7" fill="#9b9b9b">Slurry yield</text>
-<rect x="48" y="682.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="689.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">84</text><text x="65.27" y="689.50" font-size="8.7" fill="#9b9b9b">Cement type</text>
-<rect x="48" y="692.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="699.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">85</text><text x="65.27" y="699.50" font-size="8.7" fill="#9b9b9b">Cement additives</text>
-<rect x="48" y="702.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="709.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">86</text><text x="65.27" y="709.50" font-size="8.7" fill="#9b9b9b">Wellbore path: MD</text>
-<rect x="48" y="712.00" width="130.2" height="9.0" rx="4.5" fill="#56B4E9" stroke="#56B4E9" stroke-width="0.7"/><rect x="49.40" y="713.00" width="12.87" height="7.00" rx="3.50" fill="#ffffff"/><text x="55.84" y="719.50" font-size="8.7" font-weight="bold" fill="#111" text-anchor="middle">87</text><text x="65.27" y="719.50" font-size="8.7" fill="#111111">Wellbore path: inclination</text>
-<rect x="48" y="722.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="729.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">88</text><text x="65.27" y="729.50" font-size="8.7" fill="#9b9b9b">Wellbore path: azimuth</text>
-<rect x="48" y="732.00" width="130.2" height="9.0" rx="4.5" fill="#ffffff" stroke="#6b6b6b" stroke-width="0.7" stroke-dasharray="2.2 1.4"/><text x="55.84" y="739.50" font-size="8.7" font-weight="bold" fill="#6b6b6b" text-anchor="middle">89</text><text x="65.27" y="739.50" font-size="8.7" fill="#6b6b6b">Borehole designation: N/A</text>
-<text x="48.0" y="755.0" font-size="9.3" fill="#111" font-weight="bold">Key: MET, by requirement group</text>
-<rect x="48" y="759.6" width="16" height="9.0" rx="4.5" fill="#0072B2"/>
-<text x="69.0" y="767.0" font-size="8.7" fill="#333">(a)(1) Well identification</text>
-<rect x="48" y="769.8000000000001" width="16" height="9.0" rx="4.5" fill="#E69F00"/>
-<text x="69.0" y="777.2" font-size="8.7" fill="#333">(a)(2)–(4) Spud, elevations</text>
-<rect x="48" y="780.0000000000001" width="16" height="9.0" rx="4.5" fill="#56B4E9"/>
-<text x="69.0" y="787.4" font-size="8.7" fill="#333">(b)–(c) Cement data, wellbore path</text>
-<rect x="48" y="790.2000000000002" width="16" height="9.0" rx="4.5" fill="#009E73"/>
-<text x="69.0" y="797.6" font-size="8.7" fill="#333">(a)(7)–(8) Casing and shoe</text>
-<rect x="48" y="800.4000000000002" width="16" height="9.0" rx="4.5" fill="#CC79A7"/>
-<text x="69.0" y="807.8" font-size="8.7" fill="#333">(a)(9) Perforations</text>
-<rect x="48" y="810.6000000000003" width="16" height="9.0" rx="4.5" fill="#8C564B"/>
-<text x="69.0" y="818.0" font-size="8.7" fill="#333">(a)(10)–(11) Other equipment; hole</text>
-<rect x="48" y="820.8000000000003" width="16" height="9.0" rx="4.5" fill="#332288"/>
-<text x="69.0" y="828.2" font-size="8.7" fill="#333">(a)(12)–(13) Cement plugs, fill</text>
-<rect x="48" y="831.0000000000003" width="16" height="9.0" rx="4.5" fill="#999933"/>
-<text x="69.0" y="838.4" font-size="8.7" fill="#333">(a)(15) Formations, markers</text>
-<rect x="48" y="842.2000000000004" width="16" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.55"/>
-<text x="69.0" y="849.6" font-size="8.7" fill="#333">MISSING: no answer in U01, no line</text>
-<rect x="48.5" y="855.0000000000003" width="15" height="9" fill="none" stroke="#0072B2" stroke-width="0.9" rx="0.8"/><rect x="66" y="855.0000000000003" width="0" height="0"/>
-<text x="69.0" y="862.6" font-size="8.7" fill="#333">Coloured frame + badge = the answer</text>
-<rect x="48.5" y="868.6000000000004" width="15" height="9" fill="none" stroke="#d62728" stroke-width="0.7" rx="0.8"/>
-<text x="69.0" y="876.2" font-size="8.7" fill="#333">Red frame: Excess data — present, not</text>
-<text x="69.0" y="886.6" font-size="8.7" fill="#333">required by the specification; not scored</text>
-<text x="69.0" y="897.0" font-size="8.7" fill="#333">(overproduction; Ubarana et al., 2021)</text>
-<rect x="48" y="902.6000000000004" width="16" height="9.0" rx="4.5" fill="#ffffff" stroke="#6b6b6b" stroke-width="0.7" stroke-dasharray="2.2 1.4"/>
-<text x="69.0" y="910.0" font-size="8.7" fill="#333">Dashed grey: not applicable to U01</text>
-<text x="69.0" y="920.4" font-size="8.7" fill="#333">(89: only one borehole shown); not in</text>
-<text x="69.0" y="930.8" font-size="8.7" fill="#333">the denominator</text>
-<rect x="48.5" y="936.2000000000003" width="15" height="9" fill="none" stroke="#44546A" stroke-width="0.9" stroke-dasharray="2 1.2" rx="0.8"/>
-<text x="69.0" y="943.8" font-size="8.7" fill="#333">Dashed slate + tag: supports another</text>
-<text x="69.0" y="954.2" font-size="8.7" fill="#333">requirement; not scored (cement job</text>
-<text x="69.0" y="964.6" font-size="8.7" fill="#333">dates ×3, §1724.7.1(b)(2))</text>
-<rect x="48.5" y="970.0000000000002" width="15" height="9" fill="none" stroke="#111111" stroke-width="1.0" stroke-dasharray="0.1 1.6" stroke-linecap="round"/>
-<text x="69.0" y="977.6" font-size="8.7" fill="#333">Dotted: document provenance (source,</text>
-<text x="69.0" y="988.0" font-size="8.7" fill="#333">print/run time, page); not required</text>
+<rect x="48" y="652.00" width="130.2" height="9.0" rx="4.5" fill="#56B4E9" stroke="#56B4E9" stroke-width="0.7"/><rect x="49.40" y="653.00" width="12.87" height="7.00" rx="3.50" fill="#ffffff"/><text x="55.84" y="659.50" font-size="8.7" font-weight="bold" fill="#111" text-anchor="middle">81</text><text x="65.27" y="659.50" font-size="8.7" fill="#111111">Cement job identification</text>
+<rect x="48" y="662.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="669.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">82</text><text x="65.27" y="669.50" font-size="8.7" fill="#9b9b9b">Slurry volume (or sacks)</text>
+<rect x="48" y="672.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="679.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">83</text><text x="65.27" y="679.50" font-size="8.7" fill="#9b9b9b">Slurry density</text>
+<rect x="48" y="682.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="689.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">84</text><text x="65.27" y="689.50" font-size="8.7" fill="#9b9b9b">Slurry yield</text>
+<rect x="48" y="692.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="699.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">85</text><text x="65.27" y="699.50" font-size="8.7" fill="#9b9b9b">Cement type</text>
+<rect x="48" y="702.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="709.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">86</text><text x="65.27" y="709.50" font-size="8.7" fill="#9b9b9b">Cement additives</text>
+<rect x="48" y="712.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="719.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">87</text><text x="65.27" y="719.50" font-size="8.7" fill="#9b9b9b">Wellbore path: MD</text>
+<rect x="48" y="722.00" width="130.2" height="9.0" rx="4.5" fill="#56B4E9" stroke="#56B4E9" stroke-width="0.7"/><rect x="49.40" y="723.00" width="12.87" height="7.00" rx="3.50" fill="#ffffff"/><text x="55.84" y="729.50" font-size="8.7" font-weight="bold" fill="#111" text-anchor="middle">88</text><text x="65.27" y="729.50" font-size="8.7" fill="#111111">Wellbore path: inclination</text>
+<rect x="48" y="732.00" width="130.2" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.7"/><text x="55.84" y="739.50" font-size="8.7" font-weight="bold" fill="#9b9b9b" text-anchor="middle">89</text><text x="65.27" y="739.50" font-size="8.7" fill="#9b9b9b">Wellbore path: azimuth</text>
+<rect x="48" y="742.00" width="130.2" height="9.0" rx="4.5" fill="#ffffff" stroke="#6b6b6b" stroke-width="0.7" stroke-dasharray="2.2 1.4"/><text x="55.84" y="749.50" font-size="8.7" font-weight="bold" fill="#6b6b6b" text-anchor="middle">90</text><text x="65.27" y="749.50" font-size="8.7" fill="#6b6b6b">Borehole designation: N/A</text>
+<text x="48.0" y="765.0" font-size="9.3" fill="#111" font-weight="bold">Key: MET, by requirement group</text>
+<rect x="48" y="769.6" width="16" height="9.0" rx="4.5" fill="#0072B2"/>
+<text x="69.0" y="777.0" font-size="8.7" fill="#333">(a)(1) Well identification</text>
+<rect x="48" y="779.8000000000001" width="16" height="9.0" rx="4.5" fill="#E69F00"/>
+<text x="69.0" y="787.2" font-size="8.7" fill="#333">(a)(2)–(4) Spud, elevations</text>
+<rect x="48" y="790.0000000000001" width="16" height="9.0" rx="4.5" fill="#009E73"/>
+<text x="69.0" y="797.4" font-size="8.7" fill="#333">(a)(7)–(8) Casing and shoe</text>
+<rect x="48" y="800.2000000000002" width="16" height="9.0" rx="4.5" fill="#CC79A7"/>
+<text x="69.0" y="807.6" font-size="8.7" fill="#333">(a)(9) Perforations</text>
+<rect x="48" y="810.4000000000002" width="16" height="9.0" rx="4.5" fill="#8C564B"/>
+<text x="69.0" y="817.8" font-size="8.7" fill="#333">(a)(10)–(11) Other equipment; hole</text>
+<rect x="48" y="820.6000000000003" width="16" height="9.0" rx="4.5" fill="#332288"/>
+<text x="69.0" y="828.0" font-size="8.7" fill="#333">(a)(12)–(13) Cement plugs, fill</text>
+<rect x="48" y="830.8000000000003" width="16" height="9.0" rx="4.5" fill="#999933"/>
+<text x="69.0" y="838.2" font-size="8.7" fill="#333">(a)(15) Formations, markers</text>
+<rect x="48" y="841.0000000000003" width="16" height="9.0" rx="4.5" fill="#56B4E9"/>
+<text x="69.0" y="848.4" font-size="8.7" fill="#333">(b)–(c) Cement data, wellbore path</text>
+<rect x="48" y="852.2000000000004" width="16" height="9.0" rx="4.5" fill="#f0f0f0" stroke="#cfcfcf" stroke-width="0.55"/>
+<text x="69.0" y="859.6" font-size="8.7" fill="#333">MISSING: no answer in U01, no line</text>
+<rect x="48.5" y="865.0000000000003" width="15" height="9" fill="none" stroke="#0072B2" stroke-width="0.9" rx="0.8"/><rect x="66" y="865.0000000000003" width="0" height="0"/>
+<text x="69.0" y="872.6" font-size="8.7" fill="#333">Coloured frame + badge = the answer</text>
+<rect x="48.5" y="878.6000000000004" width="15" height="9" fill="none" stroke="#d62728" stroke-width="0.7" rx="0.8"/>
+<text x="69.0" y="886.2" font-size="8.7" fill="#333">Red frame: Excess data — present, not</text>
+<text x="69.0" y="896.6" font-size="8.7" fill="#333">required by the specification; not scored</text>
+<text x="69.0" y="907.0" font-size="8.7" fill="#333">(overproduction; Ubarana et al., 2021)</text>
+<rect x="48" y="912.6000000000004" width="16" height="9.0" rx="4.5" fill="#ffffff" stroke="#6b6b6b" stroke-width="0.7" stroke-dasharray="2.2 1.4"/>
+<text x="69.0" y="920.0" font-size="8.7" fill="#333">Dashed grey: not applicable to U01</text>
+<text x="69.0" y="930.4" font-size="8.7" fill="#333">(90: only one borehole shown); not in</text>
+<text x="69.0" y="940.8" font-size="8.7" fill="#333">the denominator</text>
+<rect x="48.5" y="946.2000000000003" width="15" height="9" fill="none" stroke="#111111" stroke-width="1.0" stroke-dasharray="0.1 1.6" stroke-linecap="round"/>
+<text x="69.0" y="953.8" font-size="8.7" fill="#333">Dotted: document provenance (source,</text>
+<text x="69.0" y="964.2" font-size="8.7" fill="#333">print/run time, page); not required</text>
 <text x="230.4" y="827.9" font-size="9.3" fill="#111" font-weight="bold">Completeness score (Equation 1) — provisional</text>
 <text x="230.4" y="840.9" font-size="8.7" fill="#111" font-weight="bold">Completeness = points marked MET ÷ applicable points</text>
 <text x="238.4" y="852.4" font-size="8.7" fill="#333">(a), (d) MET: 25 of 78 (MD/non-depth 25 of 52; TVD 0 of 26)</text>
-<text x="238.4" y="862.8" font-size="8.7" fill="#333">(b), (c) MET: 1 of 10 applicable (89 N/A: one borehole)</text>
-<text x="238.4" y="873.2" font-size="8.7" fill="#333">Total MET: 25 + 1 = 26; applicable: 78 + 10 = 88</text>
-<text x="238.4" y="884.6" font-size="10.0" fill="#111" font-weight="bold">Completeness(U01) = 26 ÷ 88 = 0.295 → 29.5%</text>
+<text x="238.4" y="862.8" font-size="8.7" fill="#333">(b), (c) MET: 2 of 11 applicable (90 N/A: one borehole)</text>
+<text x="238.4" y="873.2" font-size="8.7" fill="#333">Total MET: 25 + 2 = 27; applicable: 78 + 11 = 89</text>
+<text x="238.4" y="884.6" font-size="10.0" fill="#111" font-weight="bold">Completeness(U01) = 27 ÷ 89 = 0.303 → 30.3%</text>
 <text x="230.4" y="899.6" font-size="8.7" fill="#444"><tspan font-weight="bold">MD vs TVD.</tspan> MD (measured depth) runs along the borehole; TVD (true</text>
 <text x="230.4" y="910.0" font-size="8.7" fill="#444">vertical depth) is the vertical depth of the same point. A row's MD and TVD</text>
 <text x="230.4" y="920.4" font-size="8.7" fill="#444">cells are one datum scored as two points; (b)–(c) points have no TVD pair.</text>
 <text x="230.4" y="930.8" font-size="8.7" fill="#444">U01 is deviated (15° to 30°) but reports MD only, so every TVD point is</text>
 <text x="230.4" y="941.2" font-size="8.7" fill="#444">MISSING. Repeated data are framed once.</text>
-<text x="230.4" y="951.6" font-size="8.7" fill="#444"><tspan font-weight="bold">Sources.</tspan> casing-diagram-atomic-checklist-v4.txt (89 points); U01.pdf</text>
+<text x="230.4" y="951.6" font-size="8.7" fill="#444"><tspan font-weight="bold">Sources.</tspan> casing-diagram-atomic-checklist-v4.1.txt (90 points); U01.pdf</text>
 <text x="230.4" y="962.0" font-size="8.7" fill="#444">(sample-uic). MET/MISSING/N/A: Claude's provisional review; no human</text>
 <text x="230.4" y="972.4" font-size="8.7" fill="#444">reference exists. Frames from PDF text boxes.</text>
 <text x="536.4" y="827.9" font-size="9.3" fill="#111" font-weight="bold">Excess data found in U01</text>

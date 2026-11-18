@@ -276,13 +276,13 @@ END;
 CREATE VIEW casing_final_score AS
 SELECT
     d.diagram_number,
-    89 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END) AS scoring_items,
+    90 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END) AS scoring_items,
     COUNT(CASE WHEN r.status = 'MET' THEN 1 END) AS complete_items,
     COUNT(CASE WHEN r.status = 'MISSING' THEN 1 END) AS missing_items,
     COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END) AS not_applicable_items,
     ROUND(
         100.0 * COUNT(CASE WHEN r.status = 'MET' THEN 1 END)
-        / (89 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END)),
+        / (90 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END)),
         1
     ) AS completeness_percentage
 FROM diagrams AS d
@@ -295,13 +295,13 @@ GROUP BY d.diagram_number;
 CREATE VIEW casing_bc_subtotal AS
 SELECT
     d.diagram_number,
-    11 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END) AS scoring_items,
+    12 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END) AS scoring_items,
     COUNT(CASE WHEN r.status = 'MET' THEN 1 END) AS complete_items,
     COUNT(CASE WHEN r.status = 'MISSING' THEN 1 END) AS missing_items,
     COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END) AS not_applicable_items,
     ROUND(
         100.0 * COUNT(CASE WHEN r.status = 'MET' THEN 1 END)
-        / (11 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END)),
+        / (12 - COUNT(CASE WHEN r.status = 'NOT_APPLICABLE' THEN 1 END)),
         1
     ) AS completeness_percentage
 FROM diagrams AS d
@@ -338,7 +338,7 @@ INSERT INTO spec_regulations (
 
 INSERT INTO spec_sections (section_id, regulation_id, section_code, title, section_text) VALUES
     (1, 1, '(a)', 'Casing diagram data', 'Casing diagrams submitted under this article shall include all listed data.'),
-    (2, 1, '(b)', 'Supporting documentation', 'Each casing diagram shall be accompanied by the listed documentation. Scored from checklist v4 (points 79-88): MET when the published diagram shows the information or states that it accompanies the diagram separately; MISSING when it neither shows nor references it.'),
+    (2, 1, '(b)', 'Supporting documentation', 'Each casing diagram shall be accompanied by the listed documentation. Scored from checklist v4.1 (points 79-89): MET when the published diagram shows the information or states that it accompanies the diagram separately; MISSING when it neither shows nor references it.'),
     (3, 1, '(c)', 'Multiple boreholes', 'All information is required for original, redrilled, and sidetracked wellbores.'),
     (4, 1, '(d)', 'Depth conventions', 'Measured depth and true vertical depth are required for all depths under subdivision (a).'),
     (5, 1, '(e)', 'Submission format', 'A graphical diagram or flat-file data set may be submitted if complete.');
@@ -654,7 +654,15 @@ INSERT INTO spec_requirements (
     requirement_id, section_id, requirement_code, requirement_name,
     requirement_text, scope_type, is_conditional
 ) VALUES
-    (89, 3, '(c).borehole_designation', 'Borehole designation (original hole, redrill, or sidetrack; conditional: multiple boreholes only)', 'Conditional on more than one borehole being shown (14 CCR 1724.7.1(c), "when multiple boreholes are drilled"). Multiple boreholes: MET when each bore is identified and the required information is given for each bore, otherwise MISSING. Single borehole: NOT_APPLICABLE, removed from the denominator (89 -> 88). No label is required for a single bore.', 'WELLBORE', 1);
+    (89, 3, '(c).borehole_designation', 'Borehole designation (original hole, redrill, or sidetrack; conditional: multiple boreholes only)', 'Conditional on more than one borehole being shown (14 CCR 1724.7.1(c), "when multiple boreholes are drilled"). Multiple boreholes: MET when each bore is identified and the required information is given for each bore, otherwise MISSING. Single borehole: NOT_APPLICABLE, removed from the denominator (90 -> 89). No label is required for a single bore.', 'WELLBORE', 1);
+
+-- Added 2026-11-18 (checklist v4.1; see migrate_v41_cement_job_identification.sql):
+-- cement job identification, checklist point 81, appended as id 90.
+INSERT INTO spec_requirements (
+    requirement_id, section_id, requirement_code, requirement_name,
+    requirement_text, scope_type, is_conditional
+) VALUES
+    (90, 2, '(b)(2).cement_job_identification', 'Cement job identification (date or stage)', 'Date, stage number, or job name identifying each cement job (e.g., 8/1/2013, Stage 1, Primary, Squeeze). MET when every cement job shown is identified, including N/A; blank or not mentioned is MISSING. Also MET when the diagram states or shows that this information accompanies it separately (e.g., "cement calculations attached", "see directional survey", "slurry details in cement report"). Non-depth; no TVD pair.', 'CEMENT_JOB', 0);
 
 CREATE INDEX idx_wellbores_diagram ON wellbores(diagram_number);
 CREATE INDEX idx_results_diagram_status ON diagram_requirement_results(diagram_number, status);
