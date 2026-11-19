@@ -18,23 +18,28 @@ SUBTITLE = "A Repeated-Measures Comparison of ChatGPT, Claude, and Gemini"
 
 
 def add_field(paragraph, instruction: str, placeholder: str) -> None:
-    run = paragraph.add_run()
+    begin_run = paragraph.add_run()
     begin = OxmlElement("w:fldChar")
     begin.set(qn("w:fldCharType"), "begin")
+    begin_run._r.append(begin)
+
+    instruction_run = paragraph.add_run()
     instruction_node = OxmlElement("w:instrText")
     instruction_node.set(qn("xml:space"), "preserve")
     instruction_node.text = instruction
-    separate = OxmlElement("w:fldChar")
-    separate.set(qn("w:fldCharType"), "separate")
-    text_node = OxmlElement("w:t")
-    text_node.text = placeholder
+    instruction_run._r.append(instruction_node)
+
+    separator_run = paragraph.add_run()
+    separator = OxmlElement("w:fldChar")
+    separator.set(qn("w:fldCharType"), "separate")
+    separator_run._r.append(separator)
+
+    paragraph.add_run(placeholder)
+
+    end_run = paragraph.add_run()
     end = OxmlElement("w:fldChar")
     end.set(qn("w:fldCharType"), "end")
-    run._r.append(begin)
-    run._r.append(instruction_node)
-    run._r.append(separate)
-    paragraph._p.append(text_node)
-    paragraph._p.append(end)
+    end_run._r.append(end)
 
 
 def set_update_fields(document: Document) -> None:

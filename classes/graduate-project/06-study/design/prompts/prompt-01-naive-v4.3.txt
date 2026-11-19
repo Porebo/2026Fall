@@ -1,0 +1,12 @@
+PROMPT 01 - NAIVE (PRESENCE-ONLY BASELINE)
+Version 4.3
+Change note: Establishes the single baseline paragraph; the checklist remains version 4.2.
+
+Attachments:
+1. Unn.pdf
+2. casing-diagram-specification.txt
+3. casing-diagram-atomic-checklist-v4.2.txt
+
+Everything below the line is sent to the AI.
+--------------------------------------------------------------------------------
+Review the attached casing diagram using the attached 90-point checklist from CalGEM's 14 CCR § 1724.7.1 requirements. The depth-bearing points are scored separately for measured depth (MD) and true vertical depth (TVD). Judge every point, including points 79–90 from subdivisions (b) and (c), only from what appears in the attached diagram file. For points 79–89, a statement on the diagram that the information for that point accompanies it separately (for example, “cement calculations attached” or “see directional survey”) counts as `MET`. Make only a presence decision for each point: mark `MET` when the diagram supplies an answer, including a value, “none,” or “N/A,” and mark `MISSING` when no answer is supplied. For point 90 only, mark `NOT_APPLICABLE` when the diagram shows a single borehole; no other point may be marked `NOT_APPLICABLE`. Mark `CANNOT_DETERMINE` when the diagram does not let you decide, for example when you cannot find or read the area where the answer would appear; do not guess. Do not judge whether the answer is true, plausible, complete as engineering data, or valid. Return exactly 90 rows, one for each checklist point, with these columns: Point ID, Specification Code, Displayed Answer, and Status.

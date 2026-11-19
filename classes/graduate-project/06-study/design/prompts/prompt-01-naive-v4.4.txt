@@ -1,0 +1,11 @@
+PROMPT 01 - NAIVE (BASELINE)
+Version 4.4
+Change note: Short baseline written as a hurried, inexperienced user would write it. It tells the AI to use the two attachments and to follow the checklist's rules; it does not restate those rules. The checklist remains version 4.2.
+
+Attachments:
+1. Unn.pdf
+2. casing-diagram-atomic-checklist-v4.2.txt
+
+Everything below the line is sent to the AI.
+--------------------------------------------------------------------------------
+Use only the two attached files: the casing diagram (PDF) and the 90-point checklist (text file). Do not use web search or any other source. Check the casing diagram against every point in the checklist, following the checklist's rules, and mark each point `MET`, `MISSING`, `CANNOT_DETERMINE`, or `NOT_APPLICABLE`. Return a table with 90 rows, one for each checklist point in checklist order, with these columns: Point ID | Specification Code | Displayed Answer | Status.

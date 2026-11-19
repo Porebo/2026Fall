@@ -1,0 +1,69 @@
+PROMPT ENGINEERING PROTOCOL ADDENDUM
+Version 4.4
+
+CHANGE NOTE (2026-11-19, v4.3 -> v4.4): The three prompts are rewritten as
+additive levels of guidance. The measurement task, the 90-point checklist
+(casing-diagram-atomic-checklist-v4.2.txt), the allowed statuses, the ethical
+execution conditions, and the scoring rules remain as specified in
+prompt-design-methods-v4.2.txt, except where this addendum says otherwise.
+Version 4.3 is kept as a record and is not used for data collection.
+
+DESIGN
+
+The three prompts represent increasing prompting effort by the user.
+
+Prompt 01 (naive) is one short paragraph, written as a user with little time
+and little experience with AI would write it. It tells the AI to use only the
+two attachments, to follow the checklist's rules, to use the four status
+labels, and to return a 90-row table. It does not restate the rules.
+
+Prompt 02 (informed) repeats Prompt 01 verbatim and adds one block. The block
+gives the AI a role and the context, and states the decision rules and the
+output format in the prompt itself.
+
+Prompt 03 (chain-of-thought) repeats Prompt 02 verbatim and adds one block.
+The block makes the AI work through each point in three steps (locate,
+extract, decide) and write the located evidence in a new table column before
+it writes the status.
+
+Each later prompt only adds to or narrows the earlier text; it never
+contradicts it.
+
+CHANGES FROM VERSIONS 4.2 AND 4.3
+
+1. Attachments. Every run receives two files: the casing diagram (Unn.pdf)
+   and casing-diagram-atomic-checklist-v4.2.txt. The verbatim Section 1724.7.1
+   specification file is no longer attached. The prompts refer to the
+   attachments by description ("the casing diagram (PDF)", "the 90-point
+   checklist (text file)"), so the prompt text is identical for U01-U30.
+
+2. Where the decision rules are stated. The attached checklist contains the
+   decision rule and the point rules. Prompt 01 gives the AI those rules only
+   by pointing to the checklist. Prompts 02 and 03 also state the main rules
+   in the prompt. All three conditions are therefore scored against rules the
+   AI was given.
+
+3. Output structure. Prompts 01 and 02 request the four standard columns:
+   Point ID | Specification Code | Displayed Answer | Status. Prompt 03 adds a
+   fifth column, Diagram Location and Evidence, placed before Displayed
+   Answer. Only Status is scored. The added column is kept in the saved
+   response and is not scored.
+
+4. Displayed Answer. From Prompt 02 on, the AI enters [NONE] in Displayed
+   Answer when the Status is not MET.
+
+INTERPRETATION
+
+The levels are cumulative, and each level adds several instructions at once.
+A difference between two prompts therefore shows the effect of the added
+guidance as a whole, not the effect of any single instruction. Prompt 03 adds
+both a search instruction (check every part of the diagram) and a reasoning
+instruction (locate, extract, decide).
+
+The expectation that Prompt 02 reduces errors relative to Prompt 01, and that
+Prompt 03 reduces them further, is the hypothesis under test. It is not
+assumed.
+
+Prompt 03 produces a longer response. If a service cuts the table off before
+row 90, the missing rows are scored as Not addressed under the existing
+scoring rules, and the truncation is recorded in the run log.

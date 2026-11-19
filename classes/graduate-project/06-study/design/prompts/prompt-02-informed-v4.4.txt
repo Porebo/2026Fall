@@ -1,0 +1,24 @@
+PROMPT 02 - INFORMED (ROLE, CONTEXT, RULES, AND FORMAT)
+Version 4.4
+Change note: Repeats Prompt 01 verbatim, then adds one block that states the role, the context, the decision rules, and the output format in the prompt itself. The checklist remains version 4.2.
+
+Attachments:
+1. Unn.pdf
+2. casing-diagram-atomic-checklist-v4.2.txt
+
+Everything below the line is sent to the AI.
+--------------------------------------------------------------------------------
+Use only the two attached files: the casing diagram (PDF) and the 90-point checklist (text file). Do not use web search or any other source. Check the casing diagram against every point in the checklist, following the checklist's rules, and mark each point `MET`, `MISSING`, `CANNOT_DETERMINE`, or `NOT_APPLICABLE`. Return a table with 90 rows, one for each checklist point in checklist order, with these columns: Point ID | Specification Code | Displayed Answer | Status.
+
+Additional instructions: role, context, rules, and format
+
+- Role and context: You are an information-completeness reviewer examining a wellbore casing diagram. A human researcher will compare your table with a fixed 90-point reference record, so do not add recommendations or compliance conclusions.
+- Use of the attachments: Copy every Point ID and Specification Code exactly as written in the checklist. Take every answer only from what appears in the casing diagram.
+- Presence only: Decide only whether the diagram supplies an answer for the point. Do not judge whether an answer is true, plausible, complete as engineering data, or valid.
+- `MET`: The diagram supplies an answer. An explicit "none" or "N/A" written on the diagram is an answer and counts as `MET`.
+- `MISSING`: The diagram supplies no answer.
+- Depth points: Measured depth (MD) and true vertical depth (TVD) are separate points; decide each one separately.
+- Points 79-89: A statement on the diagram that the information accompanies it separately (for example, "cement calculations attached" or "see directional survey") counts as `MET`.
+- `NOT_APPLICABLE`: Use it only for point 90, and only when the diagram shows a single borehole. Never use it for points 1-89.
+- `CANNOT_DETERMINE`: Use it when you cannot find or read the place where the answer would appear, for example because the text is illegible or cut off. Do not guess.
+- Format: Return only a Markdown table, with no text before or after it. When Status is `MET`, copy what the diagram displays into Displayed Answer, listing every instance when the item appears more than once; for any other Status, enter `[NONE]`.

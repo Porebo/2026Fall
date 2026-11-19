@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8.5in" height="11in" viewBox="0 0 816 1056" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#000000">
+<title>SQLite data model and scoring flow</title>
+<desc>Entity-relationship diagram in Crow's Foot notation. Solid boxes are tables, dashed boxes are views, solid lines are foreign-key relationships labeled with the join column, and dashed arrows show the data each view reads.</desc>
+<rect x="0" y="0" width="816" height="1056" fill="#ffffff"/>
+<g id="relationships">
+<path d="M175 68 L339 68" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M182 74.5 L182 61.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M188 74.5 L188 61.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M339 61 L325 68 L339 75" fill="none" stroke="#000000" stroke-width="1.25"/>
+<circle cx="319.5" cy="68" r="4.5" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<path d="M466 68 L612 68" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M473 74.5 L473 61.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M479 74.5 L479 61.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M612 61 L598 68 L612 75" fill="none" stroke="#000000" stroke-width="1.25"/>
+<circle cx="592.5" cy="68" r="4.5" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<path d="M648 142 L648 188 L504 188 L504 234" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M641.5 149 L654.5 149" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M641.5 155 L654.5 155" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M511 234 L504 220 L497 234" fill="none" stroke="#000000" stroke-width="1.25"/>
+<circle cx="504" cy="214.5" r="4.5" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<path d="M190 291 L357 291" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M197 297.5 L197 284.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M203 297.5 L203 284.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M357 284 L343 291 L357 298" fill="none" stroke="#000000" stroke-width="1.25"/>
+<circle cx="337.5" cy="291" r="4.5" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<path d="M575 268 L684 268 L684 440" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M582 274.5 L582 261.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M588 274.5 L588 261.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M690.5 433 L677.5 433" fill="none" stroke="#000000" stroke-width="1.25"/>
+<circle cx="684" cy="423" r="4.5" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<path d="M114 348 L114 440" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M107.5 355 L120.5 355" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M107.5 361 L120.5 361" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M120.5 433 L107.5 433" fill="none" stroke="#000000" stroke-width="1.25"/>
+<circle cx="114" cy="423" r="4.5" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<path d="M38 291 L14 291 L14 777.5 L161 777.5 L161 832" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M31 284.5 L31 297.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M25 284.5 L25 297.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M168 832 L161 818 L154 832" fill="none" stroke="#000000" stroke-width="1.25"/>
+<circle cx="161" cy="812.5" r="4.5" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<path d="M190 889 L428 889" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M197 895.5 L197 882.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M203 895.5 L203 882.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M428 882 L414 889 L428 896" fill="none" stroke="#000000" stroke-width="1.25"/>
+<circle cx="408.5" cy="889" r="4.5" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<path d="M776 85 L802 85 L802 889 L585 889" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M783 91.5 L783 78.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M789 91.5 L789 78.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M585 896 L599 889 L585 882" fill="none" stroke="#000000" stroke-width="1.25"/>
+<circle cx="604.5" cy="889" r="4.5" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<path d="M450 348 L450 431" fill="none" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<path d="M450 440 L454.5 430 L445.5 430 Z" fill="#000000"/>
+<path d="M563 348 L563 617" fill="none" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<path d="M563 626 L567.5 616 L558.5 616 Z" fill="#000000"/>
+<path d="M126.5 554 L126.5 617" fill="none" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<path d="M126.5 626 L131 616 L122 616 Z" fill="#000000"/>
+<path d="M397 537 L397 674.5 L224 674.5" fill="none" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<path d="M215 674.5 L225 679 L225 670 Z" fill="#000000"/>
+<path d="M506 832 L506 749" fill="none" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<path d="M506 740 L501.5 750 L510.5 750 Z" fill="#000000"/>
+<path d="M588 674.5 L641 674.5" fill="none" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<path d="M650 674.5 L640 670 L640 679 Z" fill="#000000"/>
+</g>
+<g id="entities">
+<rect x="38" y="28" width="137" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="106.5" y="45" font-weight="700" text-anchor="middle">spec_regulations</text>
+<text x="47" y="65">PK</text>
+<text x="72" y="65">regulation_id</text>
+<text x="72" y="82">citation</text>
+<text x="72" y="99">title</text>
+<rect x="339" y="28" width="127" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="402.5" y="45" font-weight="700" text-anchor="middle">spec_sections</text>
+<text x="348" y="65">PK</text>
+<text x="373" y="65">section_id</text>
+<text x="348" y="82">FK</text>
+<text x="373" y="82">regulation_id</text>
+<text x="373" y="99">section_code</text>
+<rect x="612" y="28" width="164" height="114" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="694" y="45" font-weight="700" text-anchor="middle">spec_requirements</text>
+<text x="621" y="65">PK</text>
+<text x="646" y="65">requirement_id</text>
+<text x="621" y="82">FK</text>
+<text x="646" y="82">section_id</text>
+<text x="646" y="99">requirement_code</text>
+<text x="646" y="116">requirement_name</text>
+<text x="646" y="133">scope_type</text>
+<rect x="38" y="234" width="152" height="114" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="114" y="251" font-weight="700" text-anchor="middle">diagrams</text>
+<text x="47" y="271">PK</text>
+<text x="72" y="271">diagram_number</text>
+<text x="72" y="288">source_file</text>
+<text x="72" y="305">document_title</text>
+<text x="72" y="322">diagram_date</text>
+<text x="72" y="339">sample</text>
+<rect x="357" y="234" width="218" height="114" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="466" y="251" font-weight="700" text-anchor="middle">diagram_requirement_results</text>
+<text x="366" y="271">PK</text>
+<text x="391" y="271">result_id</text>
+<text x="366" y="288">FK</text>
+<text x="391" y="288">diagram_number</text>
+<text x="366" y="305">FK</text>
+<text x="391" y="305">requirement_id</text>
+<text x="391" y="322">status</text>
+<text x="391" y="339">evidence</text>
+<rect x="586" y="440" width="196" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="684" y="457" font-weight="700" text-anchor="middle">completeness_infractions</text>
+<text x="595" y="477">PK</text>
+<text x="620" y="477">infraction_id</text>
+<text x="595" y="494">FK</text>
+<text x="620" y="494">result_id</text>
+<text x="620" y="511">severity</text>
+<rect x="38" y="440" width="178" height="114" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="127" y="457" font-weight="700" text-anchor="middle">reference_reviews</text>
+<text x="47" y="477">PK, FK</text>
+<text x="98" y="477">diagram_number</text>
+<text x="98" y="494">checklist_version</text>
+<text x="98" y="511">met_items</text>
+<text x="98" y="528">missing_items</text>
+<text x="98" y="545">applicable_items</text>
+<rect x="38" y="832" width="152" height="114" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="114" y="849" font-weight="700" text-anchor="middle">ai_runs</text>
+<text x="47" y="869">PK</text>
+<text x="72" y="869">run_id</text>
+<text x="47" y="886">FK</text>
+<text x="72" y="886">diagram_number</text>
+<text x="72" y="903">ai_service</text>
+<text x="72" y="920">prompt_type</text>
+<text x="72" y="937">prompt_version</text>
+<rect x="428" y="832" width="157" height="114" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="506.5" y="849" font-weight="700" text-anchor="middle">ai_point_judgments</text>
+<text x="437" y="869">PK</text>
+<text x="462" y="869">judgment_id</text>
+<text x="437" y="886">FK</text>
+<text x="462" y="886">run_id</text>
+<text x="437" y="903">FK</text>
+<text x="462" y="903">requirement_id</text>
+<text x="462" y="920">ai_status</text>
+<text x="462" y="937">displayed_answer</text>
+<rect x="357" y="440" width="186" height="97" fill="#ffffff" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<text x="450" y="457" font-weight="700" text-anchor="middle">casing_final_score</text>
+<text x="366" y="477">diagram_number</text>
+<text x="366" y="494">scoring_items</text>
+<text x="366" y="511">complete_items</text>
+<text x="366" y="528">completeness_percentage</text>
+<rect x="38" y="626" width="177" height="97" fill="#ffffff" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<text x="126.5" y="643" font-weight="700" text-anchor="middle">reference_score_check</text>
+<text x="47" y="663">diagram_number</text>
+<text x="47" y="680">review_percentage</text>
+<text x="47" y="697">db_percentage</text>
+<text x="47" y="714">check_result</text>
+<rect x="448" y="626" width="140" height="114" fill="#ffffff" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<text x="518" y="643" font-weight="700" text-anchor="middle">ai_point_scoring</text>
+<text x="457" y="663">run_id</text>
+<text x="457" y="680">requirement_id</text>
+<text x="457" y="697">reference_status</text>
+<text x="457" y="714">ai_status</text>
+<text x="457" y="731">judgment_category</text>
+<rect x="650" y="626" width="131" height="97" fill="#ffffff" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<text x="715.5" y="643" font-weight="700" text-anchor="middle">ai_run_accuracy</text>
+<text x="659" y="663">run_id</text>
+<text x="659" y="680">applicable_points</text>
+<text x="659" y="697">correct</text>
+<text x="659" y="714">accuracy</text>
+</g>
+<g id="join-labels">
+<rect x="207" y="59" width="90" height="18" fill="#ffffff"/>
+<text x="252" y="73" text-anchor="middle">regulation_id</text>
+<rect x="498" y="59" width="72" height="18" fill="#ffffff"/>
+<text x="534" y="73" text-anchor="middle">section_id</text>
+<rect x="524" y="179" width="104" height="18" fill="#ffffff"/>
+<text x="576" y="193" text-anchor="middle">requirement_id</text>
+<rect x="210" y="282" width="117" height="18" fill="#ffffff"/>
+<text x="268.5" y="296" text-anchor="middle">diagram_number</text>
+<rect x="605.5" y="259" width="62" height="18" fill="#ffffff"/>
+<text x="636.5" y="273" text-anchor="middle">result_id</text>
+<rect x="55.5" y="381" width="117" height="18" fill="#ffffff"/>
+<text x="114" y="395" text-anchor="middle">diagram_number</text>
+<rect x="29" y="768.5" width="117" height="18" fill="#ffffff"/>
+<text x="87.5" y="782.5" text-anchor="middle">diagram_number</text>
+<rect x="280" y="880" width="48" height="18" fill="#ffffff"/>
+<text x="304" y="894" text-anchor="middle">run_id</text>
+<rect x="653.5" y="880" width="104" height="18" fill="#ffffff"/>
+<text x="705.5" y="894" text-anchor="middle">requirement_id</text>
+</g>
+<g id="legend">
+<rect x="38" y="981" width="32" height="18" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="79" y="995">Table</text>
+<rect x="148.98" y="981" width="32" height="18" fill="#ffffff" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<text x="189.98" y="995">View</text>
+<path d="M253.98 990 L288.98 990" fill="none" stroke="#000000" stroke-width="1.25" stroke-dasharray="5 3"/>
+<path d="M297.98 990 L287.98 985.5 L287.98 994.5 Z" fill="#000000"/>
+<text x="306.98" y="995">Data read by view</text>
+<path d="M38 1020 L82 1020" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M75 1013.5 L75 1026.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M69 1013.5 L69 1026.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<text x="94" y="1025">Exactly one</text>
+<path d="M201 1020 L245 1020" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M238 1013.5 L238 1026.5" fill="none" stroke="#000000" stroke-width="1.25"/>
+<circle cx="228" cy="1020" r="4.5" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="257" y="1025">Zero or one</text>
+<path d="M366 1020 L410 1020" fill="none" stroke="#000000" stroke-width="1.25"/>
+<path d="M410 1013 L396 1020 L410 1027" fill="none" stroke="#000000" stroke-width="1.25"/>
+<circle cx="390.5" cy="1020" r="4.5" fill="#ffffff" stroke="#000000" stroke-width="1.25"/>
+<text x="422" y="1025">Zero or many</text>
+</g>
+</svg>
