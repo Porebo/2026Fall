@@ -1,0 +1,2026 @@
+{
+  "diagram_id": "U13",
+  "source_pdf": "06-study/sample-uic/diagrams/U13.pdf",
+  "page_scored": 1,
+  "well": {
+    "well_name": "McVan WDW 2",
+    "lease_name": "McVan",
+    "well_number": "WDW 2",
+    "api": "0403032462",
+    "operator": "Not explicitly stated (bry logo)",
+    "field": "Poso Creek",
+    "county": "Kern",
+    "district": "Central",
+    "well_type": "WD Water Disposal",
+    "well_status": "Active",
+    "uic_project": "UIC Water Disposal 56606009 (Active, Injector)",
+    "wellstar_document_id": "867639",
+    "wellstar_document_date": "06/22/2023",
+    "wellstar_file_name": "WBD.pdf",
+    "sha256": "24D4AC6E7779899A3655FB5A861C3CC9F3017BA49B531073E0074D7C7FA52724",
+    "diagram_printed_date": "2023-06-22"
+  },
+  "checklist_version": "v4.2",
+  "reviewer": "Lester S. Carcamo",
+  "review_date": "2026-11-18",
+  "score": {
+    "met": 29,
+    "applicable": 89,
+    "not_applicable": 1,
+    "missing": 60,
+    "percent": 32.6,
+    "subdivisions_a_d": {
+      "met": 25,
+      "of": 78,
+      "md_non_depth_met": 25,
+      "md_non_depth_of": 52,
+      "tvd_met": 0,
+      "tvd_of": 26
+    },
+    "subdivisions_b_c": {
+      "met": 4,
+      "applicable": 11
+    }
+  },
+  "points": [
+    {
+      "number": 1,
+      "code": "(a)(1).operator_name",
+      "label": "Operator name",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The page displays a bry logo but no explicitly labelled operator name; the draft does not infer the operator from branding."
+    },
+    {
+      "number": 2,
+      "code": "(a)(1).lease_name",
+      "label": "Lease name",
+      "status": "MET",
+      "displayed_answer": "MCV (in well name MCV WD 2)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            320.1,
+            48.5,
+            347.0,
+            60.3
+          ]
+        }
+      ],
+      "note": "MCV is treated as the lease abbreviation and 2 as the well number within MCV WD 2. Screening lists McVan / WDW 2; confirm the source identity without substituting the screening values. The location header labels the latitude/longitude NAD 27 while the datum field says NAD 83. Confirm the new excess categories casing-component lengths, run dates, and cement-return details."
+    },
+    {
+      "number": 3,
+      "code": "(a)(1).well_number",
+      "label": "Well number",
+      "status": "MET",
+      "displayed_answer": "2",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            365.3,
+            48.5,
+            373.1,
+            60.3
+          ]
+        }
+      ],
+      "note": "MCV is treated as the lease abbreviation and 2 as the well number within MCV WD 2. Screening lists McVan / WDW 2; confirm the source identity without substituting the screening values."
+    },
+    {
+      "number": 4,
+      "code": "(a)(1).api_number",
+      "label": "API number",
+      "status": "MET",
+      "displayed_answer": "0403032462",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            422.28,
+            48.54,
+            480.9,
+            60.3
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "code": "(a)(2).spud_date",
+      "label": "Spud date",
+      "status": "MET",
+      "displayed_answer": "5/29/2007",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            418.92,
+            113.06,
+            453.33,
+            121.62
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "code": "(a)(3).ground_elevation",
+      "label": "Ground elevation",
+      "status": "MET",
+      "displayed_answer": "Ground elevation 792.10 ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.12,
+            113.06,
+            341.76,
+            121.62
+          ]
+        }
+      ],
+      "note": "Ground elevation is explicit, but the page gives only KB–ground height, not a separately stated absolute reference elevation."
+    },
+    {
+      "number": 7,
+      "code": "(a)(4).reference_elevation",
+      "label": "Reference elevation",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Ground elevation is explicit, but the page gives only KB–ground height, not a separately stated absolute reference elevation."
+    },
+    {
+      "number": 8,
+      "code": "(a)(5).freshwater_base.md",
+      "label": "Base of freshwater (MD)",
+      "status": "MET",
+      "displayed_answer": "BFW/USDW 1,003.0 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            459.24,
+            198.02,
+            485.11,
+            206.58
+          ]
+        }
+      ],
+      "note": "The BFW/USDW zone at 1,003 ft is used for both freshwater and lowermost-USDW base; confirm that combined label answers both points."
+    },
+    {
+      "number": 9,
+      "code": "(a)(6).usdw_base.md",
+      "label": "Base of lowermost USDW (MD)",
+      "status": "MET",
+      "displayed_answer": "BFW/USDW 1,003.0 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            459.24,
+            198.02,
+            485.11,
+            206.58
+          ]
+        }
+      ],
+      "note": "The BFW/USDW zone at 1,003 ft is used for both freshwater and lowermost-USDW base; confirm that combined label answers both points."
+    },
+    {
+      "number": 10,
+      "code": "(a)(7).casing_size",
+      "label": "Casing size",
+      "status": "MET",
+      "displayed_answer": "Conductor 10 3/4 in; scab liner 5 1/2 in; production 7 in",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            371.4,
+            322.58,
+            392.92,
+            331.14
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            371.4,
+            370.1,
+            388.63,
+            378.66
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            371.4,
+            450.0,
+            375.7,
+            458.6
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "code": "(a)(7).casing_grade",
+      "label": "Casing grade",
+      "status": "MET",
+      "displayed_answer": "Conductor H-40; scab liner J-55; production K-55",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            434.76,
+            322.58,
+            451.37,
+            331.14
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            434.76,
+            370.1,
+            449.67,
+            378.66
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            434.76,
+            450.02,
+            450.95,
+            458.58
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "code": "(a)(7).connection_type",
+      "label": "Casing connection type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 13,
+      "code": "(a)(7).casing_weight",
+      "label": "Casing weight",
+      "status": "MET",
+      "displayed_answer": "Conductor 40.50; scab liner 17.00; production 23.00 lb/ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            477.24,
+            322.58,
+            496.63,
+            331.14
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            477.24,
+            370.1,
+            496.63,
+            378.66
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            477.24,
+            450.02,
+            496.63,
+            458.58
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "code": "(a)(8).shoe_depth.md",
+      "label": "Shoe depth (MD)",
+      "status": "MET",
+      "displayed_answer": "Conductor 93.0; scab liner 1,431.0; production 1,856.0 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            552.12,
+            322.58,
+            567.14,
+            331.14
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            552.12,
+            370.1,
+            577.99,
+            378.66
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            552.12,
+            450.02,
+            577.99,
+            458.58
+          ]
+        }
+      ],
+      "note": "Casing set depths are treated as shoe depths. The table explicitly calls the 5 1/2-in string a scab liner even though its top is 13.5 ft, so that depth is counted as a liner top; confirm."
+    },
+    {
+      "number": 15,
+      "code": "(a)(8).stub_depth.md",
+      "label": "Stub depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 16,
+      "code": "(a)(8).liner_top_depth.md",
+      "label": "Liner-top depth (MD)",
+      "status": "MET",
+      "displayed_answer": "Scab liner top 13.5 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            514.7,
+            370.1,
+            529.7,
+            378.7
+          ]
+        }
+      ],
+      "note": "Casing set depths are treated as shoe depths. The table explicitly calls the 5 1/2-in string a scab liner even though its top is 13.5 ft, so that depth is counted as a liner top; confirm."
+    },
+    {
+      "number": 17,
+      "code": "(a)(9).perforation_depths.md",
+      "label": "Perforation depths (MD)",
+      "status": "MET",
+      "displayed_answer": "Perforation top 1,440.0 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            398.76,
+            612.74,
+            424.63,
+            621.3
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "code": "(a)(9).perforation_intervals.md",
+      "label": "Perforation intervals (MD)",
+      "status": "MET",
+      "displayed_answer": "Perforated 1,440.0–1,605.0 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            398.76,
+            612.74,
+            424.63,
+            621.3
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            439.08,
+            612.74,
+            464.95,
+            621.3
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "code": "(a)(9).open_hole_completions.md",
+      "label": "Open-hole completions (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The two entries are labelled Openhole in wellbore sections; they answer hole diameter and depths, but do not by themselves establish an open-hole completion."
+    },
+    {
+      "number": 20,
+      "code": "(a)(9).water_shutoff_holes.md",
+      "label": "Water-shutoff holes (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 21,
+      "code": "(a)(9).cement_ports.md",
+      "label": "Cement ports (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 22,
+      "code": "(a)(9).cavity_shots.md",
+      "label": "Cavity shots (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 23,
+      "code": "(a)(9).cuts.md",
+      "label": "Cuts (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 24,
+      "code": "(a)(9).casing_damage_type",
+      "label": "Casing-damage type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 25,
+      "code": "(a)(9).casing_damage_extent.md",
+      "label": "Casing-damage extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 26,
+      "code": "(a)(9).junk_or_fish_type",
+      "label": "Junk/fish type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 27,
+      "code": "(a)(9).junk_or_fish_extent.md",
+      "label": "Junk/fish extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 28,
+      "code": "(a)(9).other_integrity_feature",
+      "label": "Other flow/integrity feature",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 29,
+      "code": "(a)(10).subsurface_safety_valves",
+      "label": "Subsurface safety valves",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 30,
+      "code": "(a)(10).packers",
+      "label": "Packers",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The named Arrow 1XS is listed as other equipment; the diagram does not explicitly identify it as a packer, so the packer point is MISSING."
+    },
+    {
+      "number": 31,
+      "code": "(a)(10).gas_lift_mandrels",
+      "label": "Gas-lift mandrels",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 32,
+      "code": "(a)(10).other_equipment",
+      "label": "Other equipment in the well (e.g., tubing, pumps, rods)",
+      "status": "MET",
+      "displayed_answer": "Tubing hanger, fatigue nipple, tubing, Arrow 1XS, and wireline guide",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            239.4,
+            128.16,
+            257.75,
+            135.11
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            239.4,
+            150.48,
+            279.01,
+            157.43
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            239.4,
+            195.84,
+            257.75,
+            202.79
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            257.0,
+            450.72,
+            286.46,
+            457.67
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            239.4,
+            480.96,
+            280.03,
+            487.91
+          ]
+        }
+      ],
+      "note": "The named Arrow 1XS is listed as other equipment; the diagram does not explicitly identify it as a packer, so the packer point is MISSING."
+    },
+    {
+      "number": 33,
+      "code": "(a)(11).hole_diameter",
+      "label": "Hole diameter",
+      "status": "MET",
+      "displayed_answer": "Openhole sections 20 and 9 7/8 in",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            491.8,
+            159.1,
+            500.5,
+            167.7
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            483.33,
+            169.94,
+            500.56,
+            178.5
+          ]
+        }
+      ],
+      "note": "The two entries are labelled Openhole in wellbore sections; they answer hole diameter and depths, but do not by themselves establish an open-hole completion."
+    },
+    {
+      "number": 34,
+      "code": "(a)(11).hole_depth.md",
+      "label": "Hole depth (MD)",
+      "status": "MET",
+      "displayed_answer": "Openhole sections 13.5–93.0 and 93.0–1,857.0 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            532.2,
+            159.1,
+            594.0,
+            167.7
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            532.2,
+            169.9,
+            593.9,
+            178.5
+          ]
+        }
+      ],
+      "note": "The two entries are labelled Openhole in wellbore sections; they answer hole diameter and depths, but do not by themselves establish an open-hole completion."
+    },
+    {
+      "number": 35,
+      "code": "(a)(12).cement_plug_identification",
+      "label": "Cement-plug identification",
+      "status": "MET",
+      "displayed_answer": "Production Casing Cement (plug)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            239.4,
+            575.3,
+            313.2,
+            589.4
+          ]
+        }
+      ],
+      "note": "The production cement is shown as both a fill and a plug, with one job date and shared slurry narrative. Its fill bottom is 1,857 ft, while the production casing set depth is 1,856 ft; the draft records the displayed values without reconciling them."
+    },
+    {
+      "number": 36,
+      "code": "(a)(12).cement_plug_top.md",
+      "label": "Cement-plug top (MD)",
+      "status": "MET",
+      "displayed_answer": "Production cement plug top 1,816.0 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            258.26,
+            582.36,
+            301.71,
+            589.31
+          ]
+        }
+      ],
+      "note": "The production cement is shown as both a fill and a plug, with one job date and shared slurry narrative. Its fill bottom is 1,857 ft, while the production casing set depth is 1,856 ft; the draft records the displayed values without reconciling them."
+    },
+    {
+      "number": 37,
+      "code": "(a)(12).cement_plug_bottom.md",
+      "label": "Cement-plug bottom (MD)",
+      "status": "MET",
+      "displayed_answer": "Production cement plug bottom 1,857.0 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            258.26,
+            582.36,
+            301.71,
+            589.31
+          ]
+        }
+      ],
+      "note": "The production cement is shown as both a fill and a plug, with one job date and shared slurry narrative. Its fill bottom is 1,857 ft, while the production casing set depth is 1,856 ft; the draft records the displayed values without reconciling them."
+    },
+    {
+      "number": 38,
+      "code": "(a)(13).cement_fill_identification",
+      "label": "Cement-fill identification",
+      "status": "MET",
+      "displayed_answer": "Conductor, production casing, and scab liner cement",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.12,
+            529.22,
+            383.05,
+            537.78
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            239.4,
+            303.72,
+            261.15,
+            310.67
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.12,
+            585.38,
+            384.33,
+            593.94
+          ]
+        }
+      ],
+      "note": "The production cement is shown as both a fill and a plug, with one job date and shared slurry narrative. Its fill bottom is 1,857 ft, while the production casing set depth is 1,856 ft; the draft records the displayed values without reconciling them. The location header labels the latitude/longitude NAD 27 while the datum field says NAD 83. Confirm the new excess categories casing-component lengths, run dates, and cement-return details."
+    },
+    {
+      "number": 39,
+      "code": "(a)(13).cement_fill_top.md",
+      "label": "Cement-fill top (MD)",
+      "status": "MET",
+      "displayed_answer": "Cement fill tops 13.5 ft MD for conductor, production, and scab liner",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            491.6,
+            529.2,
+            506.7,
+            537.8
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            491.6,
+            557.3,
+            506.7,
+            565.9
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            491.6,
+            585.4,
+            506.7,
+            594.0
+          ]
+        }
+      ],
+      "note": "The production cement is shown as both a fill and a plug, with one job date and shared slurry narrative. Its fill bottom is 1,857 ft, while the production casing set depth is 1,856 ft; the draft records the displayed values without reconciling them."
+    },
+    {
+      "number": 40,
+      "code": "(a)(13).cement_fill_bottom.md",
+      "label": "Cement-fill bottom (MD)",
+      "status": "MET",
+      "displayed_answer": "Cement fill bottoms: conductor 93.0; production 1,857.0; scab liner 1,431.0 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            520.4,
+            529.2,
+            535.5,
+            537.8
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            520.4,
+            557.1,
+            546.3,
+            565.9
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            520.4,
+            585.1,
+            546.3,
+            593.9
+          ]
+        }
+      ],
+      "note": "The production cement is shown as both a fill and a plug, with one job date and shared slurry narrative. Its fill bottom is 1,857 ft, while the production casing set depth is 1,856 ft; the draft records the displayed values without reconciling them."
+    },
+    {
+      "number": 41,
+      "code": "(a)(14).fluid_type",
+      "label": "Fluid type between plugs",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 42,
+      "code": "(a)(14).fluid_density",
+      "label": "Fluid density between plugs",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 43,
+      "code": "(a)(15).formation_names",
+      "label": "Formation names",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The names and depths appear in the Zones table. The draft scores them as zones, including BFW/USDW, but does not infer separate formation or marker classifications from the names."
+    },
+    {
+      "number": 44,
+      "code": "(a)(15).formation_depths.md",
+      "label": "Formation depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The names and depths appear in the Zones table. The draft scores them as zones, including BFW/USDW, but does not infer separate formation or marker classifications from the names."
+    },
+    {
+      "number": 45,
+      "code": "(a)(15).zone_names",
+      "label": "Zone names",
+      "status": "MET",
+      "displayed_answer": "Zones: BFW/USDW, Basal Etchegoin, Chanac, Chanac Silt, Santa Margarita, Round Moun. Silt",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            388.68,
+            198.02,
+            431.75,
+            206.58
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            388.68,
+            215.3,
+            444.5,
+            223.86
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            388.68,
+            232.58,
+            415.31,
+            241.14
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            388.68,
+            249.86,
+            428.09,
+            258.42
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            388.68,
+            267.14,
+            443.48,
+            275.7
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            388.68,
+            284.42,
+            447.89,
+            292.98
+          ]
+        }
+      ],
+      "note": "The names and depths appear in the Zones table. The draft scores them as zones, including BFW/USDW, but does not infer separate formation or marker classifications from the names."
+    },
+    {
+      "number": 46,
+      "code": "(a)(15).zone_depths.md",
+      "label": "Zone depths (MD)",
+      "status": "MET",
+      "displayed_answer": "Zone tops 1,003.0; 1,062.0; 1,189.0; 1,292.0; 1,425.0; 1,714.0 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            459.24,
+            198.02,
+            485.11,
+            206.58
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            459.24,
+            215.3,
+            485.11,
+            223.86
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            459.24,
+            232.58,
+            485.11,
+            241.14
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            459.24,
+            249.86,
+            485.11,
+            258.42
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            459.24,
+            267.14,
+            485.11,
+            275.7
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            459.24,
+            284.42,
+            485.11,
+            292.98
+          ]
+        }
+      ],
+      "note": "The names and depths appear in the Zones table. The draft scores them as zones, including BFW/USDW, but does not infer separate formation or marker classifications from the names."
+    },
+    {
+      "number": 47,
+      "code": "(a)(15).marker_names",
+      "label": "Marker names",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The names and depths appear in the Zones table. The draft scores them as zones, including BFW/USDW, but does not infer separate formation or marker classifications from the names."
+    },
+    {
+      "number": 48,
+      "code": "(a)(15).marker_depths.md",
+      "label": "Marker depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The names and depths appear in the Zones table. The draft scores them as zones, including BFW/USDW, but does not infer separate formation or marker classifications from the names."
+    },
+    {
+      "number": 49,
+      "code": "(a)(15).injection_zone_top.md",
+      "label": "Injection-zone top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 50,
+      "code": "(a)(15).injection_zone_bottom.md",
+      "label": "Injection-zone bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 51,
+      "code": "(a)(15).confining_layer_top.md",
+      "label": "Confining-layer top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 52,
+      "code": "(a)(15).confining_layer_bottom.md",
+      "label": "Confining-layer bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 53,
+      "code": "(a)(5).freshwater_base.tvd",
+      "label": "Base of freshwater (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 54,
+      "code": "(a)(6).usdw_base.tvd",
+      "label": "Base of lowermost USDW (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 55,
+      "code": "(a)(8).shoe_depth.tvd",
+      "label": "Shoe depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 56,
+      "code": "(a)(8).stub_depth.tvd",
+      "label": "Stub depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 57,
+      "code": "(a)(8).liner_top_depth.tvd",
+      "label": "Liner-top depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 58,
+      "code": "(a)(9).perforation_depths.tvd",
+      "label": "Perforation depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 59,
+      "code": "(a)(9).perforation_intervals.tvd",
+      "label": "Perforation intervals (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 60,
+      "code": "(a)(9).open_hole_completions.tvd",
+      "label": "Open-hole completions (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 61,
+      "code": "(a)(9).water_shutoff_holes.tvd",
+      "label": "Water-shutoff holes (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 62,
+      "code": "(a)(9).cement_ports.tvd",
+      "label": "Cement ports (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 63,
+      "code": "(a)(9).cavity_shots.tvd",
+      "label": "Cavity shots (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 64,
+      "code": "(a)(9).cuts.tvd",
+      "label": "Cuts (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 65,
+      "code": "(a)(9).casing_damage_extent.tvd",
+      "label": "Casing-damage extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 66,
+      "code": "(a)(9).junk_or_fish_extent.tvd",
+      "label": "Junk/fish extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 67,
+      "code": "(a)(11).hole_depth.tvd",
+      "label": "Hole depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 68,
+      "code": "(a)(12).cement_plug_top.tvd",
+      "label": "Cement-plug top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 69,
+      "code": "(a)(12).cement_plug_bottom.tvd",
+      "label": "Cement-plug bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 70,
+      "code": "(a)(13).cement_fill_top.tvd",
+      "label": "Cement-fill top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 71,
+      "code": "(a)(13).cement_fill_bottom.tvd",
+      "label": "Cement-fill bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 72,
+      "code": "(a)(15).formation_depths.tvd",
+      "label": "Formation depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 73,
+      "code": "(a)(15).zone_depths.tvd",
+      "label": "Zone depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 74,
+      "code": "(a)(15).marker_depths.tvd",
+      "label": "Marker depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 75,
+      "code": "(a)(15).injection_zone_top.tvd",
+      "label": "Injection-zone top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 76,
+      "code": "(a)(15).injection_zone_bottom.tvd",
+      "label": "Injection-zone bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 77,
+      "code": "(a)(15).confining_layer_top.tvd",
+      "label": "Confining-layer top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 78,
+      "code": "(a)(15).confining_layer_bottom.tvd",
+      "label": "Confining-layer bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 79,
+      "code": "(b)(1).yield_calculation_steps",
+      "label": "Cement-yield calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 80,
+      "code": "(b)(1).cement_calculation_steps",
+      "label": "Cement calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 81,
+      "code": "(b)(2).cement_job_identification",
+      "label": "Cement job identification (date or stage)",
+      "status": "MET",
+      "displayed_answer": "Conductor 5/28/2007; production 5/31/2007; scab liner 10/24/2017",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            268.39,
+            172.68,
+            296.05,
+            179.63
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            259.16,
+            381.96,
+            286.82,
+            388.91
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            239.4,
+            288.6,
+            270.52,
+            295.55
+          ]
+        }
+      ],
+      "note": "The production cement is shown as both a fill and a plug, with one job date and shared slurry narrative. Its fill bottom is 1,857 ft, while the production casing set depth is 1,856 ft; the draft records the displayed values without reconciling them."
+    },
+    {
+      "number": 82,
+      "code": "(b)(2).slurry_volume",
+      "label": "Slurry volume (or sacks) for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Slurry details are shown for production and scab-liner cement, but no corresponding conductor slurry amounts or properties are shown; all repeated-job points are MISSING. The cement-table volume values appear to describe returns rather than slurry quantities."
+    },
+    {
+      "number": 83,
+      "code": "(b)(2).slurry_density",
+      "label": "Slurry density for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Slurry details are shown for production and scab-liner cement, but no corresponding conductor slurry amounts or properties are shown; all repeated-job points are MISSING. The cement-table volume values appear to describe returns rather than slurry quantities."
+    },
+    {
+      "number": 84,
+      "code": "(b)(2).slurry_yield",
+      "label": "Slurry yield for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Slurry details are shown for production and scab-liner cement, but no corresponding conductor slurry amounts or properties are shown; all repeated-job points are MISSING. The cement-table volume values appear to describe returns rather than slurry quantities."
+    },
+    {
+      "number": 85,
+      "code": "(b)(2).cement_type",
+      "label": "Cement type for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Slurry details are shown for production and scab-liner cement, but no corresponding conductor slurry amounts or properties are shown; all repeated-job points are MISSING. The cement-table volume values appear to describe returns rather than slurry quantities."
+    },
+    {
+      "number": 86,
+      "code": "(b)(2).cement_additives",
+      "label": "Cement additives for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Slurry details are shown for production and scab-liner cement, but no corresponding conductor slurry amounts or properties are shown; all repeated-job points are MISSING. The cement-table volume values appear to describe returns rather than slurry quantities."
+    },
+    {
+      "number": 87,
+      "code": "(b)(3).wellbore_path_md",
+      "label": "Wellbore path: measured depth (MD)",
+      "status": "MET",
+      "displayed_answer": "Vertical",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            105.36,
+            80.52,
+            126.02,
+            87.47
+          ]
+        }
+      ],
+      "note": "The header explicitly says Vertical. Checklist v4.2 treats an explicit vertical-hole statement as answering all three path points, even without individual survey stations or azimuth values."
+    },
+    {
+      "number": 88,
+      "code": "(b)(3).inclination",
+      "label": "Wellbore path: inclination",
+      "status": "MET",
+      "displayed_answer": "Vertical",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            105.36,
+            80.52,
+            126.02,
+            87.47
+          ]
+        }
+      ],
+      "note": "The header explicitly says Vertical. Checklist v4.2 treats an explicit vertical-hole statement as answering all three path points, even without individual survey stations or azimuth values."
+    },
+    {
+      "number": 89,
+      "code": "(b)(3).azimuth",
+      "label": "Wellbore path: azimuth",
+      "status": "MET",
+      "displayed_answer": "Vertical",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            105.36,
+            80.52,
+            126.02,
+            87.47
+          ]
+        }
+      ],
+      "note": "The header explicitly says Vertical. Checklist v4.2 treats an explicit vertical-hole statement as answering all three path points, even without individual survey stations or azimuth values."
+    },
+    {
+      "number": 90,
+      "code": "(c).borehole_designation",
+      "label": "Borehole designation (original hole, redrill, or sidetrack; conditional: multiple boreholes only)",
+      "status": "NOT_APPLICABLE",
+      "displayed_answer": null,
+      "locations": []
+    }
+  ],
+  "excess_data": [
+    {
+      "type": "E1",
+      "label": "Well location",
+      "count": 8,
+      "instances": [
+        {
+          "item": "field",
+          "text": "Poso Creek",
+          "reason": "Field location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            383.64,
+            95.78,
+            423.89,
+            104.34
+          ]
+        },
+        {
+          "item": "section",
+          "text": "14",
+          "reason": "PLSS location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            318.1,
+            130.3,
+            326.6,
+            138.9
+          ]
+        },
+        {
+          "item": "township",
+          "text": "27S",
+          "reason": "PLSS location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            344.0,
+            130.3,
+            357.8,
+            138.9
+          ]
+        },
+        {
+          "item": "range",
+          "text": "27E",
+          "reason": "PLSS location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            376.4,
+            130.3,
+            390.2,
+            138.9
+          ]
+        },
+        {
+          "item": "meridian",
+          "text": "MD",
+          "reason": "PLSS location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            402.4,
+            130.3,
+            414.3,
+            138.9
+          ]
+        },
+        {
+          "item": "latitude",
+          "text": "35.5805640000",
+          "reason": "Location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            434.76,
+            130.34,
+            488.68,
+            138.9
+          ]
+        },
+        {
+          "item": "longitude",
+          "text": "-119.0440880000",
+          "reason": "Location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            500.28,
+            130.34,
+            561.02,
+            138.9
+          ]
+        },
+        {
+          "item": "datum",
+          "text": "NAD 83",
+          "reason": "Location datum is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            565.8,
+            130.3,
+            592.7,
+            138.9
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E2",
+      "label": "KB–ground height",
+      "count": 1,
+      "instances": [
+        {
+          "item": "KB–ground height",
+          "text": "13.50 ft",
+          "reason": "Height is not an absolute elevation.",
+          "page": 1,
+          "bbox_pt": [
+            368.52,
+            113.06,
+            387.91,
+            121.62
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E3",
+      "label": "Rig-release date",
+      "count": 1,
+      "instances": [
+        {
+          "item": "rig release",
+          "text": "6/1/2007",
+          "reason": "Rig-release date is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            469.32,
+            113.06,
+            499.45,
+            121.62
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E4",
+      "label": "Casing inside diameters",
+      "count": 3,
+      "instances": [
+        {
+          "item": "conductor",
+          "text": "10.05 in",
+          "reason": "Inside diameter is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            403.1,
+            322.6,
+            422.5,
+            331.2
+          ]
+        },
+        {
+          "item": "scab liner",
+          "text": "4.89 in",
+          "reason": "Inside diameter is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            403.1,
+            370.1,
+            418.1,
+            378.7
+          ]
+        },
+        {
+          "item": "production",
+          "text": "6.37 in",
+          "reason": "Inside diameter is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            403.1,
+            450.0,
+            418.1,
+            458.6
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E5",
+      "label": "Casing run dates",
+      "count": 3,
+      "instances": [
+        {
+          "item": "conductor",
+          "text": "5/28/2007",
+          "reason": "Casing run date is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            318.12,
+            322.58,
+            352.53,
+            331.14
+          ]
+        },
+        {
+          "item": "scab liner",
+          "text": "10/24/2017",
+          "reason": "Casing run date is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            318.12,
+            370.1,
+            356.9,
+            378.66
+          ]
+        },
+        {
+          "item": "production",
+          "text": "5/31/2007",
+          "reason": "Casing run date is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            318.12,
+            450.02,
+            352.53,
+            458.58
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E6",
+      "label": "Intermediate casing-joint bottoms",
+      "count": 5,
+      "instances": [
+        {
+          "item": "scab casing joints",
+          "text": "1,322.5 ft",
+          "reason": "A joint bottom inside a string is not a string shoe.",
+          "page": 1,
+          "bbox_pt": [
+            568.0,
+            388.8,
+            593.9,
+            397.4
+          ]
+        },
+        {
+          "item": "scab pup joint 1",
+          "text": "1,332.5 ft",
+          "reason": "A joint bottom inside a string is not a string shoe.",
+          "page": 1,
+          "bbox_pt": [
+            568.0,
+            399.6,
+            593.9,
+            408.2
+          ]
+        },
+        {
+          "item": "scab pup joint 2",
+          "text": "1,352.5 ft",
+          "reason": "A joint bottom inside a string is not a string shoe.",
+          "page": 1,
+          "bbox_pt": [
+            568.0,
+            410.4,
+            593.9,
+            419.0
+          ]
+        },
+        {
+          "item": "production casing joints",
+          "text": "1,816.0 ft",
+          "reason": "A joint bottom inside a string is not a string shoe.",
+          "page": 1,
+          "bbox_pt": [
+            568.0,
+            468.7,
+            593.9,
+            477.3
+          ]
+        },
+        {
+          "item": "production insert",
+          "text": "1,817.0 ft",
+          "reason": "A joint bottom inside a string is not a string shoe.",
+          "page": 1,
+          "bbox_pt": [
+            568.0,
+            479.5,
+            593.9,
+            488.1
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E7",
+      "label": "Casing-component lengths",
+      "count": 7,
+      "instances": [
+        {
+          "item": "scab casing joints",
+          "text": "1,309 ft",
+          "reason": "Component length is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            443.0,
+            388.8,
+            473.1,
+            397.4
+          ]
+        },
+        {
+          "item": "scab pup joint 1",
+          "text": "10 ft",
+          "reason": "Component length is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            443.0,
+            399.6,
+            473.1,
+            408.2
+          ]
+        },
+        {
+          "item": "scab pup joint 2",
+          "text": "20 ft",
+          "reason": "Component length is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            443.0,
+            410.4,
+            473.1,
+            419.0
+          ]
+        },
+        {
+          "item": "scab bottom joints",
+          "text": "78.5 ft",
+          "reason": "Component length is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            443.0,
+            421.2,
+            473.1,
+            429.8
+          ]
+        },
+        {
+          "item": "production joints",
+          "text": "1,802.5 ft",
+          "reason": "Component length is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            443.0,
+            468.7,
+            473.1,
+            477.3
+          ]
+        },
+        {
+          "item": "insert",
+          "text": "1 ft",
+          "reason": "Component length is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            443.0,
+            479.5,
+            473.1,
+            488.1
+          ]
+        },
+        {
+          "item": "shoe track",
+          "text": "39 ft",
+          "reason": "Component length is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            443.0,
+            490.3,
+            473.1,
+            498.9
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E8",
+      "label": "Perforation date and shot details",
+      "count": 3,
+      "instances": [
+        {
+          "item": "date",
+          "text": "6/18/2007",
+          "reason": "Perforation date is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            318.12,
+            612.74,
+            352.53,
+            621.3
+          ]
+        },
+        {
+          "item": "calculated shots",
+          "text": "661",
+          "reason": "Shot count is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            519.72,
+            612.74,
+            532.61,
+            621.3
+          ]
+        },
+        {
+          "item": "shot density",
+          "text": "4 - 1/2\" JHPF",
+          "reason": "Shot details are not scored.",
+          "page": 1,
+          "bbox_pt": [
+            560.0,
+            612.7,
+            584.7,
+            630.2
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E9",
+      "label": "Cement-return details",
+      "count": 3,
+      "instances": [
+        {
+          "item": "conductor",
+          "text": "No, 0.0",
+          "reason": "Return information is not a cement slurry amount.",
+          "page": 1,
+          "bbox_pt": [
+            549.2,
+            529.2,
+            593.2,
+            537.8
+          ]
+        },
+        {
+          "item": "production",
+          "text": "Yes, 20.0",
+          "reason": "Return information is not a cement slurry amount.",
+          "page": 1,
+          "bbox_pt": [
+            549.2,
+            557.3,
+            593.2,
+            565.9
+          ]
+        },
+        {
+          "item": "scab liner",
+          "text": "No, 0.0",
+          "reason": "Return information is not a cement slurry amount.",
+          "page": 1,
+          "bbox_pt": [
+            549.2,
+            585.4,
+            593.2,
+            594.0
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "item": "Drawing timestamp",
+      "text": "6/22/2023 10:48:03 AM",
+      "page": 1,
+      "bbox_pt": [
+        168.18,
+        80.52,
+        232.82,
+        87.47
+      ]
+    },
+    {
+      "item": "Report software",
+      "text": "www.peloton.com",
+      "page": 1,
+      "bbox_pt": [
+        19.32,
+        761.3,
+        85.51,
+        769.86
+      ]
+    },
+    {
+      "item": "Page number",
+      "text": "Page 1/1",
+      "page": 1,
+      "bbox_pt": [
+        299.28,
+        761.3,
+        332.81,
+        769.86
+      ]
+    },
+    {
+      "item": "Print date",
+      "text": "6/22/2023",
+      "page": 1,
+      "bbox_pt": [
+        560.86,
+        761.3,
+        595.39,
+        769.86
+      ]
+    }
+  ],
+  "supporting_another_requirement": [],
+  "not_applicable_evidence": [
+    {
+      "point": 90,
+      "item": "Original Hole",
+      "text": "Original Hole",
+      "page": 1,
+      "bbox_pt": [
+        129.31,
+        80.52,
+        164.81,
+        87.47
+      ]
+    }
+  ],
+  "excess_total": {
+    "instances": 34,
+    "types": 9
+  },
+  "uncertain_calls": [
+    {
+      "points": [
+        1
+      ],
+      "reason": "The page displays a bry logo but no explicitly labelled operator name; the draft does not infer the operator from branding."
+    },
+    {
+      "points": [
+        2,
+        3
+      ],
+      "reason": "MCV is treated as the lease abbreviation and 2 as the well number within MCV WD 2. Screening lists McVan / WDW 2; confirm the source identity without substituting the screening values."
+    },
+    {
+      "points": [
+        6,
+        7
+      ],
+      "reason": "Ground elevation is explicit, but the page gives only KB–ground height, not a separately stated absolute reference elevation."
+    },
+    {
+      "points": [
+        8,
+        9
+      ],
+      "reason": "The BFW/USDW zone at 1,003 ft is used for both freshwater and lowermost-USDW base; confirm that combined label answers both points."
+    },
+    {
+      "points": [
+        14,
+        16
+      ],
+      "reason": "Casing set depths are treated as shoe depths. The table explicitly calls the 5 1/2-in string a scab liner even though its top is 13.5 ft, so that depth is counted as a liner top; confirm."
+    },
+    {
+      "points": [
+        19,
+        33,
+        34
+      ],
+      "reason": "The two entries are labelled Openhole in wellbore sections; they answer hole diameter and depths, but do not by themselves establish an open-hole completion."
+    },
+    {
+      "points": [
+        30,
+        32
+      ],
+      "reason": "The named Arrow 1XS is listed as other equipment; the diagram does not explicitly identify it as a packer, so the packer point is MISSING."
+    },
+    {
+      "points": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        81
+      ],
+      "reason": "The production cement is shown as both a fill and a plug, with one job date and shared slurry narrative. Its fill bottom is 1,857 ft, while the production casing set depth is 1,856 ft; the draft records the displayed values without reconciling them."
+    },
+    {
+      "points": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "reason": "The names and depths appear in the Zones table. The draft scores them as zones, including BFW/USDW, but does not infer separate formation or marker classifications from the names."
+    },
+    {
+      "points": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "reason": "Slurry details are shown for production and scab-liner cement, but no corresponding conductor slurry amounts or properties are shown; all repeated-job points are MISSING. The cement-table volume values appear to describe returns rather than slurry quantities."
+    },
+    {
+      "points": [
+        87,
+        88,
+        89
+      ],
+      "reason": "The header explicitly says Vertical. Checklist v4.2 treats an explicit vertical-hole statement as answering all three path points, even without individual survey stations or azimuth values."
+    },
+    {
+      "points": [
+        2,
+        38
+      ],
+      "reason": "The location header labels the latitude/longitude NAD 27 while the datum field says NAD 83. Confirm the new excess categories casing-component lengths, run dates, and cement-return details."
+    }
+  ]
+}

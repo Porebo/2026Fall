@@ -1,0 +1,2046 @@
+U01–U30 CASING-DIAGRAM SCORING REVIEW
+Checklist v4.2 — draft decisions for Lester S. Carcamo to verify.
+This is a snapshot of the decision records; regenerate after changes.
+From the graduate-project folder, run: python scripts\build_scoring_review.py
+Catalog identity can differ from what the source diagram explicitly states.
+
+SUMMARY: score; subdivisions (a)/(d); subdivisions (b)/(c); excess instances/types
+U01 | Hill 44MW | 27/89 (30.3%) | 25/78 | 2/11 | 20/5
+U02 | Southwestern 54-59 | 24/89 (27.0%) | 22/78 | 2/11 | 17/5
+U03 | McKittrick 409 | 25/89 (28.1%) | 23/78 | 2/11 | 25/9
+U04 | Blackwell TI-7X | 22/89 (24.7%) | 21/78 | 1/11 | 23/9
+U05 | McKittrick Unit 1 I-36 | 20/89 (22.5%) | 17/78 | 3/11 | 34/12
+U06 | Unspecified 566S6-1 | 30/89 (33.7%) | 23/78 | 7/11 | 27/9
+U07 | Belridge IV WD26-2 | 33/89 (37.1%) | 27/78 | 6/11 | 8/7
+U08 | Santa Fe 811-B | 44/89 (49.4%) | 44/78 | 0/11 | 17/6
+U09 | Belridge V WD38-2 | 30/89 (33.7%) | 24/78 | 6/11 | 7/7
+U10 | Unspecified 232X | 28/89 (31.5%) | 26/78 | 2/11 | 15/8
+U11 | Welport 150 | 22/89 (24.7%) | 19/78 | 3/11 | 29/11
+U12 | Star Fee H40-1 | 25/89 (28.1%) | 22/78 | 3/11 | 28/12
+U13 | McVan WDW 2 | 29/89 (32.6%) | 25/78 | 4/11 | 34/9
+U14 | Penn-Zier 2-IR | 26/89 (29.2%) | 22/78 | 4/11 | 10/5
+U15 | Unspecified 3783 | 23/89 (25.8%) | 22/78 | 1/11 | 27/9
+U16 | Unspecified WWD10-27 | 29/89 (32.6%) | 20/78 | 9/11 | 10/6
+U17 | Dome 228 | 25/89 (28.1%) | 23/78 | 2/11 | 23/11
+U18 | Unspecified C-19 | 20/89 (22.5%) | 16/78 | 4/11 | 24/10
+U19 | Unspecified 251SI-7 | 26/89 (29.2%) | 22/78 | 4/11 | 34/8
+U20 | Unspecified 6-10UWR | 29/89 (32.6%) | 27/78 | 2/11 | 31/10
+U21 | Fairfield 52-69 | 22/90 (24.4%) | 20/78 | 2/12 | 45/10
+U22 | Fairfield R | 30/89 (33.7%) | 26/78 | 4/11 | 24/7
+U23 | G.W.P. 848-24 | 27/90 (30.0%) | 26/78 | 1/12 | 9/5
+U24 | Ellis 2-6ZR3-19 | 23/89 (25.8%) | 19/78 | 4/11 | 19/6
+U25 | Belridge I 8298C-2 | 25/89 (28.1%) | 23/78 | 2/11 | 18/6
+U26 | 1Y 2008V | 28/89 (31.5%) | 26/78 | 2/11 | 19/7
+U27 | McDonald 505 | 24/89 (27.0%) | 22/78 | 2/11 | 27/7
+U28 | GPM 32 | 24/89 (27.0%) | 23/78 | 1/11 | 27/9
+U29 | Unspecified 10-15UW | 30/89 (33.7%) | 28/78 | 2/11 | 29/9
+U30 | Racetrack 336 | 21/89 (23.6%) | 19/78 | 2/11 | 21/9
+
+========================================================================
+U01: Hill 44MW
+Catalog API: 0403050708; operator: Berry (bry logo; no text name)
+Source PDF: ..\diagrams\U01.pdf
+Annotated PDF: ..\..\design\figures\U01-atomic-map.pdf
+Decision record: U01.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — bry (logo image)
+  02 Lease name: MET — Hill
+  03 Well number: MET — 44MW
+  04 API number: MET — 0403050708
+
+SCORE: 27/89 (30.3%)
+  MET 27; MISSING 62; NOT APPLICABLE 1
+  (a)/(d): 25/78; MD/non-depth 25/52; TVD 0/26
+  (b)/(c): 2/11
+  Point 90 N/A: Wellbore designation "Original Hole" — Original Hole, (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (field, county, PLSS, lat/long) (9)
+    - Location: Field name: SOUTH BELRIDGE (page 1; well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template))
+    - Location: County: Kern 030 (page 1; well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template))
+    - Location: State: CA (page 1; well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template))
+    - Location: Section: 19 (page 1; well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template))
+    - Location: Township: 28S (page 1; well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template))
+    - Location: Range: 21E (page 1; well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template))
+    - Location: Survey: NW Corner (page 1; well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template))
+    - Location: Latitude: 35.4782753000 (page 1; well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template))
+    - Location: Longitude: -119.7516403200 (page 1; well location data is not listed in § 1724.7.1(a) (lat/long appears only in the DOC state-contract template))
+  E2 KB-ground height (1)
+    - KB-ground height "10.00": 10.00 (page 1; derived from the two required elevations; not itself listed in (a))
+  E3 Rig-release and TD dates (2)
+    - Rig release date "8/11/2013": 8/11/2013 (page 1; rig-release date is not listed in (a))
+    - TD date "8/11/2013": 8/11/2013 (page 1; TD date is not listed in (a))
+  E4 "Operated?" flag (1)
+    - Operated? "Yes": Yes (page 1; operated flag is not listed in (a))
+  E5 Perforation dates (7)
+    - Perforation date "3/18/2021": 3/18/2021 (page 1; perforation dates are not listed in (a)(9))
+    - Perforation date "3/18/2021": 3/18/2021 (page 1; perforation dates are not listed in (a)(9))
+    - Perforation date "3/18/2021": 3/18/2021 (page 1; perforation dates are not listed in (a)(9))
+    - Perforation date "3/18/2021": 3/18/2021 (page 1; perforation dates are not listed in (a)(9))
+    - Perforation date "10/13/2017": 10/13/2017 (page 1; perforation dates are not listed in (a)(9))
+    - Perforation date "10/13/2017": 10/13/2017 (page 1; perforation dates are not listed in (a)(9))
+    - Perforation date "10/13/2017": 10/13/2017 (page 1; perforation dates are not listed in (a)(9))
+
+UNCERTAIN CALLS FOR REVIEW
+  No separate uncertain calls recorded.
+  Additional point 90 note: Wellbore designation "Original Hole": point 90 is NOT_APPLICABLE: the diagram shows one borehole only
+
+DOCUMENT PROVENANCE (not excess data)
+  - Profile timestamp "10/31/2023 1:57:05 PM": 10/31/2023 1:57:05 PM (page 1)
+  - Report source "www.peloton.com": www.peloton.com (page 1)
+  - Page number "Page 1/1": Page 1/1 (page 1)
+  - Report printed "Report Printed: 10/31/2023": Report Printed: 10/31/2023 (page 1)
+
+========================================================================
+U02: Southwestern 54-59
+Catalog API: 0403066117; operator: Berry (bry logo; no text name)
+Source PDF: ..\diagrams\U02.pdf
+Annotated PDF: ..\..\design\figures\U02-atomic-map.pdf
+Decision record: U02.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — bry logo
+  02 Lease name: MET — SW
+  03 Well number: MET — 54-59
+  04 API number: MET — 0403066117
+
+SCORE: 24/89 (27.0%)
+  MET 24; MISSING 65; NOT APPLICABLE 1
+  (a)/(d): 22/78; MD/non-depth 22/52; TVD 0/26
+  (b)/(c): 2/11
+  Point 90 N/A: Wellbore designation "Original Hole" — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (field, county, PLSS, lat/long) (9)
+    - Field name: MNDI RPT (page 1; Well location is not listed in § 1724.7.1(a).)
+    - County: Kern 030 (page 1; Well location is not listed in § 1724.7.1(a).)
+    - State: CA (page 1; Well location is not listed in § 1724.7.1(a).)
+    - Section: 2 (page 1; Well location is not listed in § 1724.7.1(a).)
+    - Township: 31S (page 1; Well location is not listed in § 1724.7.1(a).)
+    - Range: 22E (page 1; Well location is not listed in § 1724.7.1(a).)
+    - Survey: SE Corner (page 1; Well location is not listed in § 1724.7.1(a).)
+    - Latitude: 35.2536760000 (page 1; Well location is not listed in § 1724.7.1(a).)
+    - Longitude: -119.5802220000 (page 1; Well location is not listed in § 1724.7.1(a).)
+  E2 KB-ground height (1)
+    - KB-ground height: 14.00 (page 1; Not itself listed in (a).)
+  E3 Rig-release and TD dates (2)
+    - Rig release date: 9/21/2019 (page 1; These dates are not listed in (a).)
+    - TD date: 9/20/2019 (page 1; These dates are not listed in (a).)
+  E4 "Operated?" flag (1)
+    - Operated?: Yes (page 1; The operated flag is not listed in (a).)
+  E5 Perforation dates (4)
+    - Perforation date 1: 1/20/2020 (page 1; Perforation dates are not listed in (a)(9).)
+    - Perforation date 2: 1/20/2020 (page 1; Perforation dates are not listed in (a)(9).)
+    - Perforation date 3: 1/20/2020 (page 1; Perforation dates are not listed in (a)(9).)
+    - Perforation date 4: 1/20/2020 (page 1; Perforation dates are not listed in (a)(9).)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 02: The diagram displays "SW"; the screening record expands the lease name to Southwestern. The draft accepts the abbreviation as the displayed answer.
+  Points 12: The production casing shows "Liberty" but the conductor casing connection is blank; the repeated-instance rule makes the draft result MISSING.
+  Points 38, 39, 40, 81: The conductor and production casing cement labels are treated as two fills; the production cement plug is recorded separately as shown.
+  Points 45, 46: Zone labels and zone-depth cells are visibly truncated. The draft treats the displayed names as answers but marks zone depths MISSING because the UC… value is cut off at '1,'; the tiny MD-axis values cannot be reliably transcribed.
+  Additional point 90 note: One borehole shown: Original Hole.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Profile timestamp: 8/11/2022 12:32:07 PM (page 1)
+  - Report source: www.peloton.com (page 1)
+  - Page number: Page 1/1 (page 1)
+  - Report printed: Report Printed: 8/11/2022 (page 1)
+
+========================================================================
+U03: McKittrick 409
+Catalog API: 0403033302; operator: Sentinel Peak Resources California LLC
+Source PDF: ..\diagrams\U03.pdf
+Annotated PDF: ..\..\design\figures\U03-atomic-map.pdf
+Decision record: U03.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — SENTINEL PEAK RESOURCES CALIFORNIA LLC
+  02 Lease name: MET — MCKITTRICK FEE
+  03 Well number: MET — 409
+  04 API number: MET — 0403033302
+
+SCORE: 25/89 (28.1%)
+  MET 25; MISSING 64; NOT APPLICABLE 1
+  (a)/(d): 23/78; MD/non-depth 23/52; TVD 0/26
+  (b)/(c): 2/11
+  Point 90 N/A: Wellbore designation "Original Hole" — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (field and PLSS) (2)
+    - Field name: CYMRIC (page 1; Present on the diagram but not a scored point.)
+    - PLSS locator: Sec. 6, T. 30S, R. 22E, MD B&M (page 1; Present on the diagram but not a scored point.)
+  E2 KB-ground height (1)
+    - Datum / KB-ground height: 10.00 ft (page 1; Present on the diagram but not a scored point.)
+  E3 Rig-release and completion dates (2)
+    - Rig release date: 8/4/2007 (page 1; Present on the diagram but not a scored point.)
+    - Completion date: 10/12/2007 (page 1; Present on the diagram but not a scored point.)
+  E4 Perforation dates (4)
+    - Perforation date 1: 10/11/2007 (page 1; Present on the diagram but not a scored point.)
+    - Perforation date 2: 6/7/2022 (page 1; Present on the diagram but not a scored point.)
+    - Perforation date 3: 10/11/2007 (page 1; Present on the diagram but not a scored point.)
+    - Perforation date 4: 10/10/2007 (page 1; Present on the diagram but not a scored point.)
+  E5 Perforation shot density (4)
+    - Shot density 1: 4.0 shots/ft (page 1; Present on the diagram but not a scored point.)
+    - Shot density 2: 4.0 shots/ft (page 1; Present on the diagram but not a scored point.)
+    - Shot density 3: 4.0 shots/ft (page 1; Present on the diagram but not a scored point.)
+    - Shot density 4: 4.0 shots/ft (page 1; Present on the diagram but not a scored point.)
+  E6 Perforation gun size / comment (2)
+    - Gun size: 3 1/8 in (page 1; Present on the diagram but not a scored point.)
+    - Gun comment: 4 JHPF (page 1; Present on the diagram but not a scored point.)
+  E7 Perforation status (4)
+    - Perforation status 1: Closed / abandoned (page 1; Present on the diagram but not a scored point.)
+    - Perforation status 2: Open (page 1; Present on the diagram but not a scored point.)
+    - Perforation status 3: Closed / abandoned (page 1; Present on the diagram but not a scored point.)
+    - Perforation status 4: Closed / abandoned (page 1; Present on the diagram but not a scored point.)
+  E8 Plug-back depth and date (2)
+    - Plug-back depth: 2,103 ft (page 1; Present on the diagram but not a scored point.)
+    - Plug-back/tag date: 3/9/2022 (page 1; Present on the diagram but not a scored point.)
+  E9 Casing inside diameters (4)
+    - Conductor ID: 15.25 in (page 1; Present on the diagram but not a scored point.)
+    - Surface casing ID: 10.05 in (page 1; Present on the diagram but not a scored point.)
+    - Inner casing ID: 4.89 in (page 1; Present on the diagram but not a scored point.)
+    - Production casing ID: 6.37 in (page 1; Present on the diagram but not a scored point.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 06, 07: The header gives KB 904.00 ft and Datum 10.00 ft, but no separate ground-elevation label. The draft treats 904.00 as the reference elevation and leaves ground elevation missing.
+  Points 13: Three casing weights are listed, but the conductor row has no weight; the repeated-instance rule makes the point MISSING.
+  Points 28: The diagram describes squeeze cement through perforations. The draft counts this as an other flow/integrity feature; Lester should confirm that classification.
+  Points 34: TD 2,230 ftKB is shown. The draft treats this as the hole-depth answer; it is not separately labeled 'hole depth'.
+  Points 38, 39, 40: The draft treats the squeeze-cement entry as a cement fill in addition to the conductor, surface, inner-casing, and production fills.
+  Points 43, 45, 46, 47, 48: The page 2 table is titled 'Zones and Sand Markers'; all six names and tops appear under 'Zone Name', while the 'Geological Marker' column is blank. The draft scores zone names/depths only, not formations or markers.
+  Points 82, 83, 84, 85, 86: Cement data is present for several jobs, but not all entries. The conductor mix/volume is labeled unknown, and the two plug rows refer to earlier casing-cement jobs without repeating slurry data. The draft applies the repeated-job rule and marks each point MISSING.
+  Points 87, 88, 89: The diagram has a Directional heading and MD stations, but no inclination or azimuth values. The draft scores the MD path only.
+  Points 90: The document is labeled Original Hole and shows one borehole, so point 90 is NOT_APPLICABLE.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Directional-profile timestamp: 8/3/2022 2:04:37 PM (page 1)
+  - Repeated directional-profile timestamp: 8/3/2022 2:04:37 PM (page 2)
+
+========================================================================
+U04: Blackwell TI-7X
+Catalog API: 0403066895; operator: Seneca Resources
+Source PDF: ..\diagrams\U04.pdf
+Annotated PDF: ..\..\design\figures\U04-atomic-map.pdf
+Decision record: U04.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Seneca Resources
+  02 Lease name: MET — BLACKWELL
+  03 Well number: MET — TI-7X
+  04 API number: MET — 03066895
+
+SCORE: 22/89 (24.7%)
+  MET 22; MISSING 67; NOT APPLICABLE 1
+  (a)/(d): 21/78; MD/non-depth 21/52; TVD 0/26
+  (b)/(c): 1/11
+  Point 90 N/A: Original Hole — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (field and PLSS) (2)
+    - field: North Lost Hills (page 1; Location is not among the scored points.)
+    - surface legal location: SEC24/T26S/R20E (page 1; Location is not among the scored points.)
+  E2 KB-ground height (1)
+    - KB-ground distance: 13 ft (page 1; A reference-to-ground distance is not an absolute reference elevation.)
+  E3 Casing inside diameters (2)
+    - conductor ID: 12.00 in (page 1; The checklist requests casing size, not inside diameter.)
+    - injection ID: 4.89 in (page 1; The checklist requests casing size, not inside diameter.)
+  E4 Casing string lengths (2)
+    - conductor length: 80.00 ft (page 1; Full-string length is not a scored point.)
+    - injection string length: 312.00 ft (page 1; Full-string length is not a scored point.)
+  E5 Intermediate casing-joint bottoms (2)
+    - casing joint bottom: 283 ftKB (page 1; This intermediate joint bottom is not a casing shoe, stub, or liner top.)
+    - casing joint bottom: 324 ftKB (page 1; This intermediate joint bottom is not a casing shoe, stub, or liner top.)
+  E6 Cement-top measurement methods (2)
+    - conductor top method: Returns to Surface (page 1; Measurement method is not itself a scored point.)
+    - injection top method: Volume Calculations (page 1; The method name is not calculation steps or an attached calculation.)
+  E7 Perforation hole diameters (4)
+    - perforation at 176 ftKB: 0.250 in (page 1; Perforation hole diameter is not a scored point.)
+    - perforation at 182 ftKB: 0.250 in (page 1; Perforation hole diameter is not a scored point.)
+    - perforation at 206 ftKB: 0.250 in (page 1; Perforation hole diameter is not a scored point.)
+    - perforation at 209 ftKB: 0.250 in (page 1; Perforation hole diameter is not a scored point.)
+  E8 Perforation shot totals (4)
+    - perforation at 176 ftKB: 1 shot (page 1; Shot count is not a scored point.)
+    - perforation at 182 ftKB: 1 shot (page 1; Shot count is not a scored point.)
+    - perforation at 206 ftKB: 1 shot (page 1; Shot count is not a scored point.)
+    - perforation at 209 ftKB: 1 shot (page 1; Shot count is not a scored point.)
+  E9 Perforation shot density (4)
+    - perforation at 176 ftKB: 1.0 shots/ft (page 1; Shot density is not a scored point.)
+    - perforation at 182 ftKB: 1.0 shots/ft (page 1; Shot density is not a scored point.)
+    - perforation at 206 ftKB: 1.0 shots/ft (page 1; Shot density is not a scored point.)
+    - perforation at 209 ftKB: 1.0 shots/ft (page 1; Shot density is not a scored point.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 04: The visible source API is 03066895; the screening log uses 0403066895. The point is scored from the displayed value; reconcile the mismatch.
+  Points 07: The source gives 432 ft ground elevation and a 13 ft KB-to-ground distance, but no explicit absolute KB/reference elevation. Do not infer the sum.
+  Points 14: The casing table labels these values as set depths, used here as shoe depths.
+  Points 17, 18: Each perforation has identical displayed top and bottom; both the depth and interval points are counted as present under the presence-only rule.
+  Points 32: Pup joints, expansion joint, and bell collar are counted as other in-well equipment in addition to the tubing.
+  Points 38, 81: Both cement entries have distinct string-specific descriptions. Confirm that these descriptions count as job names for point 81.
+  Points 79, 80: The phrase 'Volume Calculations' describes a top-measurement method; calculation steps or an accompanying calculation document are not shown.
+  Points 82, 84, 85: The injection cement lists 25.0 bbl/47 sacks, yield 3.02, and Type III, but the conductor cement does not give these answers; repeated-job points are MISSING. These partial answers are not classified as excess.
+  Points 87, 88, 89: 'Vertical schematic (actual)' describes the drawing and is not treated as an explicit statement of the borehole trajectory.
+  Points 33, 38: Confirm the new excess categories: casing string length, cement-top measurement method, perforation hole diameter, and shot total.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing timestamp: 9/25/2020 1:12:50 PM (page 1)
+  - Software website: www.natfuel.com/seneca (page 1)
+  - Page: 1/1 (page 1)
+  - Report printed: 9/25/2020 (page 1)
+
+========================================================================
+U05: McKittrick Unit 1 I-36
+Catalog API: 0403069246; operator: Sentinel Peak Resources California LLC
+Source PDF: ..\diagrams\U05.pdf
+Annotated PDF: ..\..\design\figures\U05-atomic-map.pdf
+Decision record: U05.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — SENTINEL PEAK RESOURCES CALIFORNIA LLC
+  02 Lease name: MET — MCKITTRICK UNIT 1
+  03 Well number: MET — I-36
+  04 API number: MET — 0403069246
+
+SCORE: 20/89 (22.5%)
+  MET 20; MISSING 69; NOT APPLICABLE 1
+  (a)/(d): 17/78; MD/non-depth 17/52; TVD 0/26
+  (b)/(c): 3/11
+  Point 90 N/A: Original Hole — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (field and PLSS) (2)
+    - field: Cymric (page 1; Location is not among the scored points.)
+    - PLSS: Sec. 6, T. 30S, R. 22E (page 1; Location is not among the scored points.)
+  E2 Well type (1)
+    - type: Injector (page 1; Well type is not among the 90 scored points.)
+  E3 KB-ground / datum height (1)
+    - datum height: 14 ft (page 1; Height from ground or datum to KB is not an absolute ground elevation.)
+  E4 Completion date (1)
+    - completion date: 10/25/2021 (page 1; Completion date is not a scored point.)
+  E5 Perforation dates (3)
+    - interval 975–985: 10/21/2021 (page 1; Perforation date is not a scored point.)
+    - interval 1173–1183: 10/21/2021 (page 1; Perforation date is not a scored point.)
+    - interval 1330–1340: 10/21/2021 (page 1; Perforation date is not a scored point.)
+  E6 Perforation shot density (3)
+    - interval 975–985: 4.0 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1173–1183: 4.0 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1330–1340: 4.0 shots/ft (page 1; Shot density is not a scored point.)
+  E7 Perforation gun size / comment (6)
+    - interval 975–985 gun size: 4 in (page 1; Gun size is not a scored point.)
+    - interval 975–985 comment: 4 JHPF (page 1; Gun comment is not a scored point.)
+    - interval 1173–1183 gun size: 4 in (page 1; Gun size is not a scored point.)
+    - interval 1173–1183 comment: 4 JHPF (page 1; Gun comment is not a scored point.)
+    - interval 1330–1340 gun size: 4 in (page 1; Gun size is not a scored point.)
+    - interval 1330–1340 comment: 4 JHPF (page 1; Gun comment is not a scored point.)
+  E8 Perforation status (3)
+    - interval 975–985: Open (975–985 ftKB) (page 1; Perforation status is not a scored point.)
+    - interval 1173–1183: Open (1173–1183 ftKB) (page 1; Perforation status is not a scored point.)
+    - interval 1330–1340: Open (1330–1340 ftKB) (page 1; Perforation status is not a scored point.)
+  E9 Plug-back depth / tag details (4)
+    - plug-back date: 10/21/2021 (page 1; Plug-back date is not a scored point.)
+    - plug-back depth: 1,558 ft MD (page 1; Plug-back depth is not a cement-plug endpoint.)
+    - tag method: Tagged (page 1; Tagging method is not a scored point.)
+    - plug-back type: Insert (page 1; The type is not identified as a cement plug.)
+  E10 Tubing run date (1)
+    - tubing run: 10/22/2021 (page 1; Equipment run date is not a scored point.)
+  E11 Cement-top measurement methods (2)
+    - conductor method: Unknown Volumes (page 1; Top-measurement method is not a scored point.)
+    - production method: Visual (page 1; Top-measurement method is not a scored point.)
+  E12 Cementing operational details (7)
+    - fresh-water preflush: 2 BBLS (page 1; The operation's fluid, pressure, or returns is not a scored point.)
+    - SAP water: 28 BBLS (page 1; The operation's fluid, pressure, or returns is not a scored point.)
+    - displacement water: 58 BBLS (page 1; The operation's fluid, pressure, or returns is not a scored point.)
+    - test pressure: 2500 PSI (page 1; The operation's fluid, pressure, or returns is not a scored point.)
+    - displacement pressure: 482 PSI (page 1; The operation's fluid, pressure, or returns is not a scored point.)
+    - bump pressure: 940 PSI (page 1; The operation's fluid, pressure, or returns is not a scored point.)
+    - cement returns: 40 bbls (page 1; The operation's fluid, pressure, or returns is not a scored point.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 06, 07: KB elevation is explicit, but the 14 ft datum/height is not an explicit ground elevation; the draft does not calculate one.
+  Points 08: The source explicitly states BFW N/A, which is an answer under the presence-only rule, not NOT_APPLICABLE.
+  Points 11: Production casing grade K-55 is given but the conductor grade cell is blank, so the repeated-casing point is MISSING.
+  Points 14: The casing table labels these values as set depths, used here as shoe depths.
+  Points 17: The depth point uses the top of each perforation interval; the distinct interval point records both endpoints.
+  Points 30, 32: The source lists up/down cups and tubing but does not explicitly call them packers. They are counted as other equipment, not inferred as packers.
+  Points 34: TD 1,599 ftKB is treated as hole depth, as in the U03 draft, although the header does not separately label it 'hole depth'.
+  Points 35, 36, 37: The cement-job narrative mentions top and bottom wiper plugs, and the plug-back record says Insert; neither is explicitly a cement plug.
+  Points 39: The conductor cement table gives top 14 ftKB while its comment says 'TOC Not Reported'; the displayed value is counted without judging consistency.
+  Points 82: The conductor cement explicitly says 'Unknown Mix/Volume'. Under the rule accepting any explicit entry, the draft counts this as an answer; Lester should confirm whether 'unknown' qualifies.
+  Points 88: 'Directional' is treated as an explicit deviation statement, answering inclination only; no survey stations or azimuth are shown.
+  Points 10: The schematic separately shows 13.50 in and 6.37 in, but does not label their role. They are not assumed to be casing inside diameters.
+  Points 32, 38: Confirm the new excess categories well type, tag details, tubing run date, cement-top methods, and cementing operational details.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing timestamp: 12/28/2021 10:39:54 AM (page 1)
+
+========================================================================
+U06: Unspecified 566S6-1
+Catalog API: 0403066227; operator: Aera Energy LLC
+Source PDF: ..\diagrams\U06.pdf
+Annotated PDF: ..\..\design\figures\U06-atomic-map.pdf
+Decision record: U06.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Aera Energy LLC
+  02 Lease name: MISSING
+  03 Well number: MET — 566S6-1N
+  04 API number: MET — 0403066227
+
+SCORE: 30/89 (33.7%)
+  MET 30; MISSING 59; NOT APPLICABLE 1
+  (a)/(d): 23/78; MD/non-depth 23/52; TVD 0/26
+  (b)/(c): 7/11
+  Point 90 N/A: Wellbore: 00 — Wellbore: 00 (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well type (1)
+    - type: Injector (page 1; Well type is not among the scored points.)
+  E2 Plug-back depth (1)
+    - PBMD: 2,255.37 ft (page 1; Plug-back depth is not a cement-plug endpoint.)
+  E3 Completion date (1)
+    - completion date: 08/12/2019 (page 1; Completion date is not a scored point.)
+  E4 Casing schedule (1)
+    - 14 in casing schedule: SCH 10 (page 1; Schedule is not a casing grade or a separately scored point.)
+  E5 Flag joint (1)
+    - flag joint: 1,782 ft (page 1; Flag-joint position is not a casing shoe, stub, or liner top.)
+  E6 Intermediate casing-joint bottoms (2)
+    - 5.5 in joint bottom: 1,781.76 ft (page 1; An intermediate joint bottom is not a complete-string shoe.)
+    - 5.5 in joint bottom: 2,255.37 ft (page 1; An intermediate joint bottom is not a complete-string shoe.)
+  E7 Perforation shot density (17)
+    - interval 1,760–1,761 ft: 2 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1,780–1,781 ft: 2 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1,800–1,801 ft: 2 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1,820–1,821 ft: 4 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1,840–1,841 ft: 4 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1,860–1,861 ft: 4 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1,880–1,881 ft: 4 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1,900–1,901 ft: 4 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1,920–1,921 ft: 4 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1,970–1,971 ft: 2 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 1,990–1,991 ft: 2 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 2,010–2,011 ft: 2 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 2,035–2,036 ft: 4 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 2,055–2,056 ft: 4 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 2,075–2,076 ft: 4 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 2,095–2,096 ft: 4 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 2,115–2,116 ft: 4 shots/ft (page 1; Shot density is not a scored point.)
+  E8 Cement return volumes (2)
+    - 9.625 in job returns: 15 bbls (page 1; Return volume is not the slurry-volume point.)
+    - 5.500 in job returns: 10 bbls (page 1; Return volume is not the slurry-volume point.)
+  E9 Abandonment tag depth (1)
+    - abandonment tag depth: N/A (page 1; An abandonment tag depth is not among the scored points.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 02, 03: The source identifies the well as 566S6-1N but does not state a lease name. The screening log says lease Unspecified and well 566S6-1; reconcile the trailing N against the source rather than silently changing the evidence.
+  Points 09: The explicit USDW MD entry is N/A; under the presence rule it is MET. The TVD cell is not separately answered.
+  Points 11: K-55 is shown for the two smaller casings, but the 14 in string shows SCH 10, a schedule rather than an explicitly stated material grade; the repeated-casing grade point is MISSING.
+  Points 14: The casing table reports the 5.5 in base as 2,280.7 ft MD, while a component line ends at 2,280.21 ft. Both are present; confirm the shoe interpretation.
+  Points 17, 18: The first number of each of the 17 displayed perforation intervals is used for the depth point; the interval point lists both endpoints.
+  Points 24, 25, 65: 'No casing damage' is an explicit answer about damage type. The draft leaves both MD and TVD damage extent MISSING because no extent entry is separately given; confirm how explicit absence applies to extent.
+  Points 30, 35, 36, 37: PLUG DETAILS contains a Permanent Packer, not a cement plug; it is counted as a packer only.
+  Points 43, 44, 47, 48: The three named geologic units appear under MARKER DETAILS; the draft counts their names and depths both as markers and formations. Confirm this classification and whether each is a formation.
+  Points 88: 'Directional' is treated as an explicit deviation statement, answering inclination only; no survey stations or azimuth are shown.
+  Points 86: Both cement remarks list silica flour; the additive amount spans a line break, but the named additive is explicit for each job.
+  Points 11, 38: Confirm the new excess categories well type, casing schedule, cement return volumes, and the explicit N/A abandonment-tag entry.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Preparer initials: KB (page 1)
+  - Preparation date: 3/10/2020 (page 1)
+
+========================================================================
+U07: Belridge IV WD26-2
+Catalog API: 0403069394; operator: Aera Energy LLC
+Source PDF: ..\diagrams\U07.pdf
+Annotated PDF: ..\..\design\figures\U07-atomic-map.pdf
+Decision record: U07.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — AERA ENERGY LLC
+  02 Lease name: MET — Belridge IV
+  03 Well number: MET — WD26-2
+  04 API number: MET — 0403069394
+
+SCORE: 33/89 (37.1%)
+  MET 33; MISSING 56; NOT APPLICABLE 1
+  (a)/(d): 27/78; MD/non-depth 25/52; TVD 2/26
+  (b)/(c): 6/11
+  Point 90 N/A: ORIG HOLE — ORIG HOLE (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well type (1)
+    - well type: WATER DISPOSAL INJ (page 1; Well type is not among the scored points.)
+  E2 Plug-back depth (1)
+    - PBMD: 546.00 ft (page 1; Plug-back depth is not a cement-plug endpoint.)
+  E3 Casing schedule (1)
+    - 14 in casing schedule: SCH 10 (page 1; Casing schedule is not an explicitly named grade.)
+  E4 Intermediate casing-joint bottom (1)
+    - 7 in intermediate joint: 335.55 ft (page 1; Intermediate joint bottom is not a complete-string shoe.)
+  E5 Slot width (1)
+    - slot width: 0.0400 in (page 1; The dimension is not one of the scored points.)
+  E6 Cement returns and fallback (2)
+    - cement returns: 21 bbls (page 1; Return volume is not slurry volume.)
+    - cement fallback: 22.5 ft (page 1; Cement fallback is not a separately scored point.)
+  E7 Abandonment tag depth (1)
+    - abandonment tag depth: N/A (page 1; An abandonment tag depth is not among the scored points.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 08, 09: Freshwater and USDW MD fields explicitly state N/A, which counts as MET; no corresponding TVD entry is shown.
+  Points 11, 12, 13: The 5 in lower string lacks displayed grade, thread, and weight; SCH 10 is a casing schedule, not an explicit grade. All three repeated-string points are MISSING despite information on the other strings.
+  Points 14, 16, 55, 57: The lower 5 in casing starts at 392 ft and is represented below the upper strings, so the draft treats it as a liner. Confirm that interpretation and the use of casing base as shoe. The adjacent unlabelled component values are not assumed to be TVD answers.
+  Points 17, 18, 28: SLOTS at 398.96–544.70 ft are counted as an other flow/integrity feature, not automatically as perforations or perforation intervals. Confirm this distinction.
+  Points 19, 35, 36, 37: The source describes an open hole plugged at 547–970 ft; the draft scores the cement plug and its endpoints, not an open-hole completion interval.
+  Points 39: The stage table gives a 36 ft top while the remark gives 36.5 ft; the table value is used without judging accuracy.
+  Points 43, 44, 47, 48, 72, 74: Tulare is listed under MARKER DETAILS; the draft counts it as both a formation and a marker, with explicitly labeled MD and TVD values. Confirm the formation classification.
+  Points 67: TD TVD 969.98 ft is shown, but TVD bottoms for the other two hole sections are not; the repeated-section TVD hole-depth point is MISSING.
+  Points 87, 88, 89: The orientation field says TULARE UNIT, not a directional survey, inclination, azimuth, or an explicit vertical-hole statement.
+  Points 28, 38: Confirm the new excess categories well type, casing schedule, slot width, cement returns/fallback, and the explicit N/A abandonment-tag entry.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Preparer initials: BU238287 (page 1)
+  - Preparation date: 11/12/2025 (page 1)
+
+========================================================================
+U08: Santa Fe 811-B
+Catalog API: 0403716710; operator: BreitBurn Operating, LP
+Source PDF: ..\diagrams\U08.pdf
+Annotated PDF: ..\..\design\figures\U08-atomic-map.pdf
+Decision record: U08.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — BreitBurn Operating, LP
+  02 Lease name: MET — Santa Fe Springs Unit
+  03 Well number: MET — 811B
+  04 API number: MET — 040371671000
+
+SCORE: 44/89 (49.4%)
+  MET 44; MISSING 45; NOT APPLICABLE 1
+  (a)/(d): 44/78; MD/non-depth 31/52; TVD 13/26
+  (b)/(c): 0/11
+  Point 90 N/A: One borehole is depicted — One borehole is depicted (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well status (1)
+    - status: Injecting (page 1; Well status is not one of the scored points.)
+  E2 Perforation shot density (4)
+    - perforation 1: 4 SPF (page 1; Shot density is not a scored point.)
+    - perforation 2: 4 SPF (page 1; Shot density is not a scored point.)
+    - perforation 3: 4 SPF (page 1; Shot density is not a scored point.)
+    - perforation 4: 4 SPF (page 1; Shot density is not a scored point.)
+  E3 Test-hole shot counts (2)
+    - test holes at 3,803 ft: 4 holes (page 1; Shot count is not a scored point.)
+    - test holes at 3,947–3,951 ft: 8 holes (page 1; Shot count is not a scored point.)
+  E4 Inactive-slot dates (3)
+    - 5.5 in slots: 12/30/1949–2/7/1955 (page 1; Slot active dates are not scored.)
+    - 5.5 in slots: 12/30/1949–6/9/1951 (page 1; Slot active dates are not scored.)
+    - 4 in slots: 6/10/1951–2/7/1955 (page 1; Slot active dates are not scored.)
+  E5 Regulatory approvals (4)
+    - approval 1: approved by DOGGR (page 1; An approval statement is not a scored data point.)
+    - approval 2: approved by DOGGR (page 1; An approval statement is not a scored data point.)
+    - approval 3: approved by DOGGR (page 1; An approval statement is not a scored data point.)
+    - approval 4: approved by DOGGR (page 1; An approval statement is not a scored data point.)
+  E6 Mud types outside explicit plug gaps (3)
+    - heavy mud entry 1: Heavy Mud (page 1; The entry is not explicitly identified as fluid between plugs.)
+    - heavy mud entry 2: Heavy Mud (page 1; The entry is not explicitly identified as fluid between plugs.)
+    - heavy mud entry 3: Heavy Mud (page 1; The entry is not explicitly identified as fluid between plugs.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 02, 03, 04: The source says Santa Fe Springs Unit, 811B, and API 040371671000; the screening log says Santa Fe, 811-B, and API 0403716710. The displayed source values are recorded; reconcile the formatting and identity differences.
+  Points 13: The 7 in string lists 23 without an explicit unit; it is treated as the string weight from its position between size and grade. Confirm.
+  Points 17, 18, 28, 58, 59: Only four lines labelled Perfs are counted as perforations. Test holes, inactive slots, and WSO are instead classified as other flow/integrity features; confirm this distinction.
+  Points 20, 61: WSO is shown at 4,343 ft, but the entry does not explicitly say water-shutoff holes. The dedicated hole points are MISSING; confirm.
+  Points 33, 34, 67: The 10.625 in hole is also described as scraped to 11 in from 4,343 to 4,402 ft. Both the section and the altered interval are listed.
+  Points 38, 39, 40, 70, 71, 81, 82: The two adjacent 10.625 in cement entries are treated as separate represented fills. The 4,343–4,402 ft entry lacks a job date/stage/name and sack count, so points 81 and 82 are MISSING. Confirm whether it belongs to the preceding 500-sack job. A separate Mud entry also says it was cemented with 85 sacks; confirm whether it represents an additional cement job rather than a mud entry.
+  Points 41, 42: Heavy mud is labelled in intervals that overlap cement-plug intervals; no fluid is explicitly identified as between plugs. These points are MISSING pending review, without judging the diagram's accuracy.
+  Points 43, 44, 47, 48, 72, 74: MEYER SHALE is counted as a formation; the UHZ, FOIX, BELL, and MEYER entries are counted as markers. Confirm which other named markers also qualify as formations or zones.
+  Points 45, 46, 49, 50, 73, 75, 76: The four perforation labels say Bell INJ, but do not explicitly label a zone name and separate injection-zone top/bottom entries. Those zone points are MISSING pending review.
+  Points 53, 54, 55, 57, 58, 59, 67, 68, 69, 70, 71, 72, 74: The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule.
+  Points 87, 88, 89: MD=TVD is not an explicit vertical/straight statement or a directional survey, so wellbore-path MD, inclination, and azimuth remain MISSING. Confirm.
+  Points 28, 38, 41: Confirm the new excess categories well status, test-hole shot counts, slot dates, approvals, and mud entries outside explicit plug gaps.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Preparer/reviewer: LWillbanks (page 1)
+  - Review date: 3/3/2015 (page 1)
+
+========================================================================
+U09: Belridge V WD38-2
+Catalog API: 0403069404; operator: Aera Energy LLC
+Source PDF: ..\diagrams\U09.pdf
+Annotated PDF: ..\..\design\figures\U09-atomic-map.pdf
+Decision record: U09.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — AERA ENERGY LLC
+  02 Lease name: MET — Belridge V
+  03 Well number: MET — WD38-2
+  04 API number: MET — 0403069404
+
+SCORE: 30/89 (33.7%)
+  MET 30; MISSING 59; NOT APPLICABLE 1
+  (a)/(d): 24/78; MD/non-depth 22/52; TVD 2/26
+  (b)/(c): 6/11
+  Point 90 N/A: ORIG HOLE — ORIG HOLE (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well type (1)
+    - well type: WATER DISPOSAL INJ (page 1; Well type is not among the scored points.)
+  E2 Plug-back depth (1)
+    - PBMD: 565.00 ft (page 1; Plug-back depth is not a cement-plug endpoint.)
+  E3 Casing schedule (1)
+    - 14 in casing schedule: SCH 10 (page 1; Casing schedule is not an explicitly named grade.)
+  E4 Intermediate casing-joint bottom (1)
+    - 7 in intermediate joint: 343.72 ft (page 1; Intermediate joint bottom is not a complete-string shoe.)
+  E5 Slot width (1)
+    - slot width: 0.0400 in (page 1; The dimension is not one of the scored points.)
+  E6 Cement returns (1)
+    - cement returns: 19.5 bbls (page 1; Return volume is not slurry volume.)
+  E7 Abandonment tag depth (1)
+    - abandonment tag depth: N/A (page 1; An abandonment tag depth is not among the scored points.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 08, 09: Freshwater and USDW MD fields explicitly state N/A, which counts as MET; no corresponding TVD entry is shown.
+  Points 11, 12, 13: The 5 in lower string lacks displayed grade, thread, and weight; SCH 10 is a casing schedule, not an explicit grade. All three repeated-string points are MISSING despite information on the other strings.
+  Points 14, 16, 55, 57: The lower 5 in casing starts at 390 ft and is represented below the upper strings, so the draft treats it as a liner. Confirm that interpretation and the use of casing base as shoe. The adjacent unlabelled component values are not assumed to be TVD answers.
+  Points 17, 18, 28: SLOTS at 397.14–563.70 ft are counted as an other flow/integrity feature, not automatically as perforations or perforation intervals. Confirm this distinction.
+  Points 40: The cement-stage table gives a 422 ft bottom and the remark says 421.75 ft; the table value is used without judging accuracy.
+  Points 43, 44, 47, 48, 72, 74: Tulare is listed under MARKER DETAILS; the draft counts it as both a formation and a marker, with explicitly labeled MD and TVD values. Confirm the formation classification.
+  Points 67: TD TVD 566 ft is shown, but TVD bottoms for the other two hole sections are not; the repeated-section TVD hole-depth point is MISSING.
+  Points 87, 88, 89: The orientation field says TULARE UNIT, not a directional survey, inclination, azimuth, or an explicit vertical-hole statement.
+  Points 28, 38: Confirm the excess categories well type, casing schedule, slot width, cement returns, and the explicit N/A abandonment-tag entry.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Preparer initials: BU238287 (page 1)
+  - Preparation date: 11/12/2025 (page 1)
+
+========================================================================
+U10: Unspecified 232X
+Catalog API: 0403064787; operator: Seneca Resources
+Source PDF: ..\diagrams\U10.pdf
+Annotated PDF: ..\..\design\figures\U10-atomic-map.pdf
+Decision record: U10.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — SENECA RESOURCES (logo)
+  02 Lease name: MISSING
+  03 Well number: MET — 232X (in well name SUNSET 232X)
+  04 API number: MET — 03064787
+
+SCORE: 28/89 (31.5%)
+  MET 28; MISSING 61; NOT APPLICABLE 1
+  (a)/(d): 26/78; MD/non-depth 19/52; TVD 7/26
+  (b)/(c): 2/11
+  Point 90 N/A: Original Hole — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (2)
+    - field: Midway Sunset South (page 1; Field location is not a scored point.)
+    - surface legal location: SEC20/T11N/R23W (page 1; Location is not a scored point.)
+  E2 Well status (1)
+    - status: Producing - Rod Pump (page 1; Well status is not a scored point.)
+  E3 KB-ground height (1)
+    - KB-ground distance: 14 ft (page 1; Height is not an absolute reference elevation.)
+  E4 Casing inside diameter (3)
+    - conductor: 13.50 in (page 1; Casing ID is not nominal OD.)
+    - surface: 6.37 in (page 1; Casing ID is not nominal OD.)
+    - liner: 4.89 in (page 1; Casing ID is not nominal OD.)
+  E5 Casing string lengths (3)
+    - conductor: 80.00 ft (page 1; String length is not a scored point.)
+    - surface: 416.00 ft (page 1; String length is not a scored point.)
+    - liner: 188.26 ft (page 1; String length is not a scored point.)
+  E6 Intermediate casing-joint bottoms (2)
+    - 7 in joint: 404 ft (page 1; An intermediate joint bottom is not a complete-string shoe.)
+    - 7 in joint: 429 ft (page 1; An intermediate joint bottom is not a complete-string shoe.)
+  E7 Slot specifications (2)
+    - slot row 1: 0.030 in; 2.00 in; 6.00 ft; 32 perforation rows (page 1; Slot dimensions and row count are not separate scored points.)
+    - slot row 2: 0.030 in; 2.00 in; 6.00 ft; 64 perforation rows (page 1; Slot dimensions and row count are not separate scored points.)
+  E8 Cement-top method (1)
+    - surface cement: Returns to Surface (page 1; Top-measurement method is not a scored point.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 01, 02, 03, 04: The operator appears in a Seneca Resources logo; the source says well name SUNSET 232X but has no separately labelled lease. It prints API 03064787 while the screening log uses 0403064787. Confirm the logo and identity interpretation without replacing the displayed source values.
+  Points 06, 07: Ground elevation is 914 ft and KB-ground distance is 14 ft, but the source does not separately state absolute KB elevation. It is not calculated.
+  Points 17, 18, 28, 58, 59: One slotted section is labelled Semi Perf; both slots rows have a Perf Rows column. The draft treats both intervals as perforation intervals and records the slotted liner as another flow/integrity feature. Confirm this classification.
+  Points 19, 33, 34, 67: Underreamed is a named wellbore section, not an explicit open-hole completion. Both surface and underreamed sections end at 581 ft MD.
+  Points 55, 57, 58, 59, 67, 70, 71: TVD values are read from the paired MD/TVD axis at the corresponding depicted features. The casing and cement tables round MD values to whole feet: 94 aligns with 94.2 on the axis, 430 with 430.1, 393 with 392.7, and 14 with 14.1. Confirm these associations; no TVD is assumed merely from MD.
+  Points 81, 82, 83, 84, 85, 86: Both cement fills have distinguishing names. The surface job lists volumes, sack counts, yields, and Class C, but the conductor job has no corresponding entries, so the repeated-job points remain MISSING. A yield value alone is not calculation steps.
+  Points 87, 88, 89: Deviated is treated as an explicit deviation statement answering inclination only. Vertical schematic describes the drawing, not a separate assertion that the deviated borehole is vertical.
+  Points 10, 28, 38: Confirm the new excess categories well status, casing inside diameters and string lengths, slot specifications, and cement-top method.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing timestamp: 7/17/2019 2:57:03 PM (page 1)
+  - Report printed: 7/17/2019 (page 1)
+  - Software website: www.natfuel.com/seneca (page 1)
+  - Page number: 1/1 (page 1)
+
+========================================================================
+U11: Welport 150
+Catalog API: 0403069152; operator: Sentinel Peak Resources California LLC
+Source PDF: ..\diagrams\U11.pdf
+Annotated PDF: ..\..\design\figures\U11-atomic-map.pdf
+Decision record: U11.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — SENTINEL PEAK RESOURCES CALIFORNIA LLC
+  02 Lease name: MET — WELPORT
+  03 Well number: MET — 150
+  04 API number: MET — 0403069152
+
+SCORE: 22/89 (24.7%)
+  MET 22; MISSING 67; NOT APPLICABLE 1
+  (a)/(d): 19/78; MD/non-depth 19/52; TVD 0/26
+  (b)/(c): 3/11
+  Point 90 N/A: Original Hole — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (2)
+    - field: CYMRIC (page 1; Field location is not a scored point.)
+    - PLSS: Sec. 36, T. 29S, R. 21E (page 1; Location is not a scored point.)
+  E2 Well type (1)
+    - type: Producer (page 1; Well type is not a scored point.)
+  E3 Datum height (1)
+    - datum: 14 ft (page 1; Datum height is not an explicit absolute ground elevation.)
+  E4 Completion date (1)
+    - completion date: 9/7/2021 (page 1; Completion date is not scored.)
+  E5 Perforation and slot dates (4)
+    - interval 838–848: 8/7/2021 (page 1; Perforation or slot date is not a scored point.)
+    - interval 848–1,789: 8/7/2021 (page 1; Perforation or slot date is not a scored point.)
+    - interval 850–890: 8/7/2021 (page 1; Perforation or slot date is not a scored point.)
+    - interval 870–890: 8/7/2021 (page 1; Perforation or slot date is not a scored point.)
+  E6 Perforation shot density (2)
+    - interval 850–890: 4.0 shots/ft (page 1; Shot density is not a scored point.)
+    - interval 870–890: 4.0 shots/ft (page 1; Shot density is not a scored point.)
+  E7 Slot specifications (2)
+    - semi-perf slots: 32R, 2"S, 6"C, 25M (page 1; Slot details are not separate scored points.)
+    - full-perf slots: 64R, 2"S, 6"C, 25M (page 1; Slot details are not separate scored points.)
+  E8 Perforation status (4)
+    - interval 838–848: Open (page 1; Open status is not a scored point.)
+    - interval 848–1,789: Open (page 1; Open status is not a scored point.)
+    - interval 850–890: Open (page 1; Open status is not a scored point.)
+    - interval 870–890: Open (page 1; Open status is not a scored point.)
+  E9 Plug-back / tag details (4)
+    - plug-back date: 8/7/2021 (page 1; Plug-back date is not a scored point.)
+    - plug-back depth: 1,792 ft MD (page 1; Plug-back depth is not a cement-plug endpoint.)
+    - tag method: Tagged (page 1; Tagging method is not a scored point.)
+    - tag type: Liner Shoe (page 1; The tag type is not identified as a cement plug.)
+  E10 Cement-top measurement methods (2)
+    - conductor: Unknown Volumes (page 1; Top-measurement method is not a scored point.)
+    - surface: Visual (page 1; Top-measurement method is not a scored point.)
+  E11 Cementing operational details (6)
+    - fresh-water preflush: 2 bbls (page 1; The operation's fluid, pressure, or returns is not scored.)
+    - test pressure: 2500 psi (page 1; The operation's fluid, pressure, or returns is not scored.)
+    - displacement water: 49.6 bbls (page 1; The operation's fluid, pressure, or returns is not scored.)
+    - displacement pressure: 260 psi (page 1; The operation's fluid, pressure, or returns is not scored.)
+    - bump pressure: 570 psi (page 1; The operation's fluid, pressure, or returns is not scored.)
+    - cement returns: 40 bbls (page 1; The operation's fluid, pressure, or returns is not scored.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 06, 07: The KB elevation is shown, but the datum height of 14 ft is not an explicit ground elevation. The draft does not calculate one.
+  Points 08: The explicit BFW N/A is an answer under the presence rule; it does not make the freshwater point NOT_APPLICABLE.
+  Points 11, 13: The conductor grade explicitly says Unknown Grade and is counted as an entry; its weight cell is blank, so repeated-string weight is MISSING. Confirm that Unknown Grade satisfies the explicit-entry rule.
+  Points 14, 16: The casing table's set depths are treated as shoe depths and its production-liner top as the liner top.
+  Points 17, 18, 28: The two slotted-liner intervals are explicitly described as Semi-Perf and Full-Perf, so they are included with the two lines labelled perf and reperf. The gravel pack is counted as another flow/integrity feature. Confirm both classifications.
+  Points 28, 32: Gravel Pack is treated as an other flow/integrity feature, not automatically as in-well equipment; no tubing or other equipment is explicitly listed as remaining in the well.
+  Points 35, 36, 37: The plug-back record specifies a liner shoe and the cement narrative mentions wiper plugs; neither is identified as a cement plug.
+  Points 81, 82, 83, 84, 85, 86: Conductor Cement and Surface Cement are used as job names. Conductor Unknown Mix/Volume is counted for slurry volume, but does not explicitly state density, yield, cement class, or additives; the corresponding repeated-job points are MISSING. Confirm.
+  Points 88: Directional is treated as an explicit deviation statement answering inclination only; there are no path stations or azimuth.
+  Points 28, 38: Confirm the new excess categories well type, slot specifications, tag details, cement-top methods, and cementing operational details.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing timestamp: 12/8/2021 1:56:28 PM (page 1)
+
+========================================================================
+U12: Star Fee H40-1
+Catalog API: 0403066907; operator: Sentinel Peak Resources California LLC
+Source PDF: ..\diagrams\U12.pdf
+Annotated PDF: ..\..\design\figures\U12-atomic-map.pdf
+Decision record: U12.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — SENTINEL PEAK RESOURCES CALIFORNIA LLC
+  02 Lease name: MET — STAR FEE
+  03 Well number: MET — H40-1
+  04 API number: MET — 0403066907
+
+SCORE: 25/89 (28.1%)
+  MET 25; MISSING 64; NOT APPLICABLE 1
+  (a)/(d): 22/78; MD/non-depth 22/52; TVD 0/26
+  (b)/(c): 3/11
+  Point 90 N/A: Original Hole — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (2)
+    - field: CYMRIC (page 1; Field location is not a scored point.)
+    - PLSS: Sec. 7, T. 30S, R. 22E (page 1; Location is not a scored point.)
+  E2 Well type (1)
+    - type: Producer (page 1; Well type is not a scored point.)
+  E3 Datum height (1)
+    - datum: 14 ft (page 1; Datum height is not an explicit absolute ground elevation.)
+  E4 Rig release and completion dates (2)
+    - rig release: 3/29/2020 (page 1; Rig release date is not a scored point.)
+    - completion: 4/30/2020 (page 1; Completion date is not a scored point.)
+  E5 Perforation dates (4)
+    - 1,430–1,450 ft: 4/29/2022 (page 1; Perforation date is not a scored point.)
+    - 1,560–1,580 ft schematic: 4/27/2022 (page 1; Perforation date is not a scored point.)
+    - 1,560–1,580 ft table: 4/30/2020 (page 1; Perforation date is not a scored point.)
+    - 1,690–1,710 ft: 4/27/2022 (page 1; Perforation date is not a scored point.)
+  E6 Perforation shot density (2)
+    - 1,430–1,450 ft: 6.0 shots/ft (page 1; Shot density is not scored.)
+    - 1,560–1,580 ft: 4.0 shots/ft (page 1; Shot density is not scored.)
+  E7 Perforation gun size (2)
+    - 1,430–1,450 ft: 2 in (page 1; Gun size is not a scored point.)
+    - 1,560–1,580 ft: 3.3858 in (page 1; Gun size is not a scored point.)
+  E8 Perforation status (2)
+    - 1,430–1,450 ft: Open (page 1; Status is not a scored point.)
+    - 1,560–1,580 ft: Abandoned (page 1; Status is not a scored point.)
+  E9 Equipment run dates (2)
+    - packer: 3/28/2020 (page 1; Equipment run date is not a scored point.)
+    - tubing: 2/18/2022 (page 1; Equipment run date is not a scored point.)
+  E10 Plug-back tag details (2)
+    - tag date: 4/28/2022 (page 1; Tag date is not a scored point.)
+    - tag method: Tagged (page 1; Tagging method is not a scored point.)
+  E11 Cement-top measurement methods (4)
+    - conductor: Visual (page 1; Top-measurement method is not a scored point.)
+    - surface: Visual (page 1; Top-measurement method is not a scored point.)
+    - intermediate: Visual (page 1; Top-measurement method is not a scored point.)
+    - production: Visual (page 1; Top-measurement method is not a scored point.)
+  E12 Cementing operational details (4)
+    - surface returns: 25 bbl (page 1; Return volume is not slurry volume.)
+    - intermediate returns: No Traces of Cement Returns (page 1; Return information is not a scored point.)
+    - production returns: 42 bbl (page 1; Return volume is not slurry volume.)
+    - kill mud: 14.5# mud (page 1; Mud is not cement-slurry density.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 06, 07, 08: KB elevation is explicit, but the datum height does not explicitly state ground elevation. BFW N/A counts as an answer under the presence rule.
+  Points 11, 13: The conductor grade and weight cells are blank; values for the other three strings do not satisfy the repeated-string points.
+  Points 14, 34: Set depths are treated as shoe depths and the header TD as hole depth. No explicitly labelled hole diameters are given.
+  Points 17, 18: All three intervals shown on the schematic are included, including 1,690–1,710 ft, which does not appear in the visible perforation table. For 1,560–1,580 ft, the schematic date differs from the table date.
+  Points 26, 27, 32: The Other in Hole table says a cup assembly broke off and describes tubing at 1,590–1,680 ft. It is counted as a fish and as other equipment; confirm the intended interpretation and extent.
+  Points 35, 36, 37, 38, 39, 40: The plug-back type is Cement, and the 4/28/2022 squeeze entry shows 1,460–1,483 ft on the same date as the 1,460-ft tag. The draft links those entries as the cement plug and also lists the squeeze among cement records; confirm that association and whether other squeeze entries represent additional plugs.
+  Points 81, 82, 83, 84, 85, 86: Six cement records have dates. The conductor explicitly says Unknown Mix/Volume, counted for volume; the other five give volumes. Conductor and/or squeeze entries lack separate slurry density, yield, class, or additives, so those repeated-job points are MISSING. The 14.5# mud is not treated as cement-slurry density.
+  Points 88: Directional is treated as an explicit deviation statement answering inclination only; no path stations or azimuth are shown.
+  Points 26, 38: Confirm the new excess categories well type, equipment run dates, tag method, cement-top methods, and cementing operational details.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing timestamp: 7/12/2022 10:39:21 AM (page 1)
+
+========================================================================
+U13: McVan WDW 2
+Catalog API: 0403032462; operator: Not explicitly stated (bry logo)
+Source PDF: ..\diagrams\U13.pdf
+Annotated PDF: ..\..\design\figures\U13-atomic-map.pdf
+Decision record: U13.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MISSING
+  02 Lease name: MET — MCV (in well name MCV WD 2)
+  03 Well number: MET — 2
+  04 API number: MET — 0403032462
+
+SCORE: 29/89 (32.6%)
+  MET 29; MISSING 60; NOT APPLICABLE 1
+  (a)/(d): 25/78; MD/non-depth 25/52; TVD 0/26
+  (b)/(c): 4/11
+  Point 90 N/A: Original Hole — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (8)
+    - field: Poso Creek (page 1; Field location is not scored.)
+    - section: 14 (page 1; PLSS location is not scored.)
+    - township: 27S (page 1; PLSS location is not scored.)
+    - range: 27E (page 1; PLSS location is not scored.)
+    - meridian: MD (page 1; PLSS location is not scored.)
+    - latitude: 35.5805640000 (page 1; Location is not scored.)
+    - longitude: -119.0440880000 (page 1; Location is not scored.)
+    - datum: NAD 83 (page 1; Location datum is not scored.)
+  E2 KB–ground height (1)
+    - KB–ground height: 13.50 ft (page 1; Height is not an absolute elevation.)
+  E3 Rig-release date (1)
+    - rig release: 6/1/2007 (page 1; Rig-release date is not scored.)
+  E4 Casing inside diameters (3)
+    - conductor: 10.05 in (page 1; Inside diameter is not scored.)
+    - scab liner: 4.89 in (page 1; Inside diameter is not scored.)
+    - production: 6.37 in (page 1; Inside diameter is not scored.)
+  E5 Casing run dates (3)
+    - conductor: 5/28/2007 (page 1; Casing run date is not scored.)
+    - scab liner: 10/24/2017 (page 1; Casing run date is not scored.)
+    - production: 5/31/2007 (page 1; Casing run date is not scored.)
+  E6 Intermediate casing-joint bottoms (5)
+    - scab casing joints: 1,322.5 ft (page 1; A joint bottom inside a string is not a string shoe.)
+    - scab pup joint 1: 1,332.5 ft (page 1; A joint bottom inside a string is not a string shoe.)
+    - scab pup joint 2: 1,352.5 ft (page 1; A joint bottom inside a string is not a string shoe.)
+    - production casing joints: 1,816.0 ft (page 1; A joint bottom inside a string is not a string shoe.)
+    - production insert: 1,817.0 ft (page 1; A joint bottom inside a string is not a string shoe.)
+  E7 Casing-component lengths (7)
+    - scab casing joints: 1,309 ft (page 1; Component length is not a scored point.)
+    - scab pup joint 1: 10 ft (page 1; Component length is not a scored point.)
+    - scab pup joint 2: 20 ft (page 1; Component length is not a scored point.)
+    - scab bottom joints: 78.5 ft (page 1; Component length is not a scored point.)
+    - production joints: 1,802.5 ft (page 1; Component length is not a scored point.)
+    - insert: 1 ft (page 1; Component length is not a scored point.)
+    - shoe track: 39 ft (page 1; Component length is not a scored point.)
+  E8 Perforation date and shot details (3)
+    - date: 6/18/2007 (page 1; Perforation date is not scored.)
+    - calculated shots: 661 (page 1; Shot count is not scored.)
+    - shot density: 4 - 1/2" JHPF (page 1; Shot details are not scored.)
+  E9 Cement-return details (3)
+    - conductor: No, 0.0 (page 1; Return information is not a cement slurry amount.)
+    - production: Yes, 20.0 (page 1; Return information is not a cement slurry amount.)
+    - scab liner: No, 0.0 (page 1; Return information is not a cement slurry amount.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 01: The page displays a bry logo but no explicitly labelled operator name; the draft does not infer the operator from branding.
+  Points 02, 03: MCV is treated as the lease abbreviation and 2 as the well number within MCV WD 2. Screening lists McVan / WDW 2; confirm the source identity without substituting the screening values.
+  Points 06, 07: Ground elevation is explicit, but the page gives only KB–ground height, not a separately stated absolute reference elevation.
+  Points 08, 09: The BFW/USDW zone at 1,003 ft is used for both freshwater and lowermost-USDW base; confirm that combined label answers both points.
+  Points 14, 16: Casing set depths are treated as shoe depths. The table explicitly calls the 5 1/2-in string a scab liner even though its top is 13.5 ft, so that depth is counted as a liner top; confirm.
+  Points 19, 33, 34: The two entries are labelled Openhole in wellbore sections; they answer hole diameter and depths, but do not by themselves establish an open-hole completion.
+  Points 30, 32: The named Arrow 1XS is listed as other equipment; the diagram does not explicitly identify it as a packer, so the packer point is MISSING.
+  Points 35, 36, 37, 38, 39, 40, 81: The production cement is shown as both a fill and a plug, with one job date and shared slurry narrative. Its fill bottom is 1,857 ft, while the production casing set depth is 1,856 ft; the draft records the displayed values without reconciling them.
+  Points 43, 44, 45, 46, 47, 48: The names and depths appear in the Zones table. The draft scores them as zones, including BFW/USDW, but does not infer separate formation or marker classifications from the names.
+  Points 82, 83, 84, 85, 86: Slurry details are shown for production and scab-liner cement, but no corresponding conductor slurry amounts or properties are shown; all repeated-job points are MISSING. The cement-table volume values appear to describe returns rather than slurry quantities.
+  Points 87, 88, 89: The header explicitly says Vertical. Checklist v4.2 treats an explicit vertical-hole statement as answering all three path points, even without individual survey stations or azimuth values.
+  Points 02, 38: The location header labels the latitude/longitude NAD 27 while the datum field says NAD 83. Confirm the new excess categories casing-component lengths, run dates, and cement-return details.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing timestamp: 6/22/2023 10:48:03 AM (page 1)
+  - Report software: www.peloton.com (page 1)
+  - Page number: Page 1/1 (page 1)
+  - Print date: 6/22/2023 (page 1)
+
+========================================================================
+U14: Penn-Zier 2-IR
+Catalog API: 0401924187; operator: Aera Energy LLC
+Source PDF: ..\diagrams\U14.pdf
+Annotated PDF: ..\..\design\figures\U14-atomic-map.pdf
+Decision record: U14.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Aera Energy LLC
+  02 Lease name: MET — S1-PZ (within S1-PZ-2IR)
+  03 Well number: MET — 2IR
+  04 API number: MET — 0401924187
+
+SCORE: 26/89 (29.2%)
+  MET 26; MISSING 63; NOT APPLICABLE 1
+  (a)/(d): 22/78; MD/non-depth 22/52; TVD 0/26
+  (b)/(c): 4/11
+  Point 90 N/A: Wellbore 00 — Wellbore 00 (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well type (1)
+    - well type: Producer (page 1; Well type is not scored.)
+  E2 Plug-back depth (1)
+    - PBMD: 824.0 ft (page 1; Plug-back depth is not a cement-plug endpoint.)
+  E3 Casing schedule (1)
+    - 12.5-in string: Sch20 (page 1; Schedule is not an explicit casing grade.)
+  E4 Intermediate casing-joint bottoms (5)
+    - 7-in joint 1: 52.5 ft (page 1; A joint bottom is not the full string shoe.)
+    - 7-in joint 2: 72.5 ft (page 1; A joint bottom is not the full string shoe.)
+    - 7-in joint 3: 92.6 ft (page 1; A joint bottom is not the full string shoe.)
+    - 7-in joint 4: 440.5 ft (page 1; A joint bottom is not the full string shoe.)
+    - 5.5-in joint 1: 476.4 ft (page 1; A joint bottom is not the full string shoe.)
+  E5 Slot specifications (2)
+    - slot interval 1: 0.030, 2.000 in, 6.000 (page 1; Slot dimensions are not separately scored.)
+    - slot interval 2: 0.030, 2.000 in, 6.000 (page 1; Slot dimensions are not separately scored.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 02, 03: S1-PZ-2IR is split into S1-PZ and 2IR for the draft, whereas screening lists Penn-Zier / 2-IR. Confirm whether the well name explicitly answers the separate lease and well-number points.
+  Points 09: The base-of-USDW field explicitly says N/A, which counts as an answer.
+  Points 11, 12, 13, 14, 16: The 12.5-in string has Sch20 but no explicit grade, so repeated-string grade is MISSING. Plain End is counted as a connection entry. Casing bases are treated as shoes, and the 5.5-in lower string as a liner even though the source calls it casing.
+  Points 17, 18, 28: Both SLOTS entries are treated as other flow/integrity features rather than explicit perforations; confirm the classification.
+  Points 30, 32, 35: The PLUG DETAILS table lists a kill-string assembly, tubing and a casing isolation cup tool, not an explicitly identified cement plug or packer. They are counted as other equipment.
+  Points 33, 34: Hole depths are labelled to 0, 482, 824, and 841 ft; only 8.75 in is stated, so repeated-hole diameter is MISSING. Confirm whether the zero-ft label is intended as a separate hole section.
+  Points 43, 44, 47, 48: Etchegoin and Temblor appear under MARKER DETAILS; the draft treats them as both formation names and markers. Confirm the formation classification.
+  Points 81, 82, 83, 84, 85, 86: The single primary job is linked to the Lilly Blend remarks for production casing, supplying cement class and additives but no explicit slurry quantity, density, or yield.
+  Points 88: Directional is treated as an explicit deviation statement answering inclination only; no path stations or azimuth are shown.
+  Points 28, 38: Confirm the new excess categories well type, casing schedule, and slot specifications.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Preparer initials: xyz (page 1)
+  - Preparation date: 5/8/2019 (page 1)
+
+========================================================================
+U15: Unspecified 3783
+Catalog API: 0402970840; operator: Chevron U.S.A. Inc.
+Source PDF: ..\diagrams\U15.pdf
+Annotated PDF: ..\..\design\figures\U15-atomic-map.pdf
+Decision record: U15.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Chevron U.S.A. Inc.
+  02 Lease name: MET — Fee
+  03 Well number: MET — 3783
+  04 API number: MET — 0402970840
+
+SCORE: 23/89 (25.8%)
+  MET 23; MISSING 66; NOT APPLICABLE 1
+  (a)/(d): 22/78; MD/non-depth 22/52; TVD 0/26
+  (b)/(c): 1/11
+  Point 90 N/A: One borehole shown — One borehole shown (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (7)
+    - field: Kern River (page 1; Field location is not scored.)
+    - county: Kern (1) (page 1; County is not scored.)
+    - state: California (page 1; State is not scored.)
+    - section: 3 (page 1; PLSS location is not scored.)
+    - township: 29S (page 1; PLSS location is not scored.)
+    - range: 28E (page 1; PLSS location is not scored.)
+    - meridian: MD (page 1; PLSS location is not scored.)
+  E2 API12 (1)
+    - API12: 040297084000 (page 1; The 12-digit API is not the API10 point.)
+  E3 Datum correction factor (1)
+    - correction factor: 8.00 ft (page 1; Datum height is not a scored point.)
+  E4 Completion date (1)
+    - completion date: 7/5/1984 (page 1; Completion date is not scored.)
+  E5 Perforation status (12)
+    - 180–210 ft: Open (page 1; Status is not a scored point.)
+    - 210–283 ft: Open (page 1; Status is not a scored point.)
+    - 286–310 ft: Open (page 1; Status is not a scored point.)
+    - 310–323 ft: Open (page 1; Status is not a scored point.)
+    - 322–367 ft: Open (page 1; Status is not a scored point.)
+    - 380–408 ft: Open (page 1; Status is not a scored point.)
+    - 530–565 ft: Open (page 1; Status is not a scored point.)
+    - 567–570 ft: Open (page 1; Status is not a scored point.)
+    - 590–604 ft: Open (page 1; Status is not a scored point.)
+    - 606–608 ft: Open (page 1; Status is not a scored point.)
+    - 618–726 ft: Open (page 1; Status is not a scored point.)
+    - 730–753 ft: Open (page 1; Status is not a scored point.)
+  E6 Estimated oil limits (2)
+    - top oil: 28 ft, estimated (page 1; Not explicitly an injection zone.)
+    - base oil: 893 ft, estimated (page 1; Not explicitly an injection zone.)
+  E7 Noncement plug information (1)
+    - fill plug: 904–923 ft MD (page 1; The fill plug is not identified as a cement plug.)
+  E8 Cement bond-log operation (1)
+    - CBL: 6/02/1984 on 7-in casing at 8–888 ft (page 1; A bond-log operation is not a scored point.)
+  E9 Cement returns (1)
+    - production cement returns: 120 CF (page 1; Returns are not slurry volume.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 02: The source Fee/Lease field explicitly says Fee; screening lists the lease as Unspecified. The draft uses the source entry for scoring.
+  Points 11, 12, 13, 14: The conductor explicitly says Unknown Grade/Thread/Weight, counted as entries for grade and weight; the production casing's connection is not stated, so connection remains MISSING. The conductor bottom and production float-shoe bottom are treated as shoe depths.
+  Points 17, 18: All 12 labelled perforation intervals are included, even where intervals overlap or are adjacent; every line is a separate displayed instance.
+  Points 32: The equipment call groups the shown tubing, rods, pump, tools, float collar, and shoe; the raster source requires manual localization.
+  Points 33, 34: The conductor hole size is explicitly 'not reported', counted as an entry under the presence-only rule; the second hole has size 9.875 in. Confirm that interpretation.
+  Points 35, 36, 37, 38, 39, 40, 81, 82, 83, 84, 85, 86: The source separately labels a cement plug at 923–962 ft and cement behind casing at 8–962 ft, but does not explicitly say whether they are the same cement job. Both are identified; the draft leaves repeated-job slurry properties MISSING because no slurry details are explicitly linked to the plug. The conductor says no record of cement; that explicit statement is not treated as an additional job.
+  Points 43, 44, 45, 46, 47, 48, 49, 50: Estimated top and base of oil are shown but are not explicitly labelled formations, zones, markers, or an injection zone; the draft does not infer those classifications.
+  Points 87, 88, 89: Well Profile: N/A is a general profile entry, not an explicit MD survey, inclination, or azimuth; none of those points is inferred.
+  Points 90: Only one borehole is drawn; there is no explicit original-hole label.
+  Points 28, 38: Confirm the new excess categories API12, estimated oil limits, noncement plug information, and cement-bond-log operation.
+
+========================================================================
+U16: Unspecified WWD10-27
+Catalog API: 0403047484; operator: Aera Energy LLC
+Source PDF: ..\diagrams\U16.pdf
+Annotated PDF: ..\..\design\figures\U16-atomic-map.pdf
+Decision record: U16.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Aera Energy LLC
+  02 Lease name: MISSING
+  03 Well number: MET — WWD10-27
+  04 API number: MET — 0403047484
+
+SCORE: 29/89 (32.6%)
+  MET 29; MISSING 60; NOT APPLICABLE 1
+  (a)/(d): 20/78; MD/non-depth 20/52; TVD 0/26
+  (b)/(c): 9/11
+  Point 90 N/A: Wellbore 00 — Wellbore 00 (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well type (1)
+    - well type: Injector (page 1; Well type is not scored.)
+  E2 Plug-back depth (1)
+    - PBMD: 1,209.73 ft (page 1; Plug-back depth is not a cement plug.)
+  E3 Casing schedule (1)
+    - 20-in casing: Sch20 (page 1; Schedule is not an explicit grade.)
+  E4 Intermediate casing-joint bottoms (5)
+    - 9.625-in upper: 942.33 ft (page 1; A joint endpoint is not the full-string shoe.)
+    - 13.375-in first: 969.50 ft (page 1; A joint endpoint is not the full-string shoe.)
+    - 13.375-in second: 999.20 ft (page 1; A joint endpoint is not the full-string shoe.)
+    - 9.625-in lower: 990.34 ft (page 1; A joint endpoint is not the full-string shoe.)
+    - 9.625-in bottom: 1,209.76 ft (page 1; A joint endpoint is not the full-string shoe.)
+  E5 Slot specifications (1)
+    - slots: 0.050, 2.000 in, 72, 6.000 (page 1; Slot dimensions are not separately scored.)
+  E6 Cement returns (1)
+    - returns: 35 bbls (page 1; Return volume is not slurry volume.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 02, 03: WWD10-27 is the entire stated well number; neither the diagram nor screening supplies a separate lease name.
+  Points 10, 11, 12, 13, 14, 16: The table has four casing rows, including two 9.625-in sections with separate shoes. The second is treated as a lower liner with top 944 ft. Sch20 is not an explicit grade, and connection fields are blank, so repeated-string grade and connection are MISSING. Confirm the 36.00-ppf entries apply to both 9.625-in rows.
+  Points 17, 18, 28: The labelled SLOTS interval is treated as another flow/integrity feature, not as explicitly named perforations.
+  Points 32: Insert Valve is treated as other in-well equipment; it is not automatically classified as a subsurface safety valve.
+  Points 43, 44, 47, 48: Tulare appears under MARKER DETAILS; the draft counts it as both a formation and a marker, and its displayed MD as both depths.
+  Points 81, 82, 83, 84, 85, 86: One primary cement stage is shown. Its remarks supply the quantity and slurry properties; 35 bbls of returns is not treated as slurry volume.
+  Points 87, 88, 89: The orientation is explicitly Vertical. Checklist v4.2 treats an explicit vertical-hole statement as answering all three path points, even without individual survey stations or azimuth values.
+  Points 28, 38: Confirm the new excess categories well type, casing schedule, slot specifications, and cement returns.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Preparer initials: xyz (page 1)
+
+========================================================================
+U17: Dome 228
+Catalog API: 0403063692; operator: Sentinel Peak Resources California, LLC
+Source PDF: ..\diagrams\U17.pdf
+Annotated PDF: ..\..\design\figures\U17-atomic-map.pdf
+Decision record: U17.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Sentinel Peak Resources California, LLC
+  02 Lease name: MET — Dome
+  03 Well number: MET — 228
+  04 API number: MET — 0403063692
+
+SCORE: 25/89 (28.1%)
+  MET 25; MISSING 64; NOT APPLICABLE 1
+  (a)/(d): 23/78; MD/non-depth 23/52; TVD 0/26
+  (b)/(c): 2/11
+  Point 90 N/A: Original Hole — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (2)
+    - field: Midway Sunset (page 1; Field location is not scored.)
+    - PLSS: Sec. 23, T. 31S, R. 22E, MD B&M (page 1; Location is not scored.)
+  E2 Well type (1)
+    - type: Producer (page 1; Well type is not scored.)
+  E3 Datum height (1)
+    - datum: 10.00 ft (page 1; Height is not an explicit absolute ground elevation.)
+  E4 Completion date (1)
+    - completion: 5/5/2018 (page 1; Completion date is not a scored point.)
+  E5 Perforation and slot dates (2)
+    - semi-perf: 5/5/2018 (page 1; Date is not a scored point.)
+    - full-perf: 5/5/2018 (page 1; Date is not a scored point.)
+  E6 Perforation status (2)
+    - semi-perf: Open (page 1; Status is not a scored point.)
+    - full-perf: Open (page 1; Status is not a scored point.)
+  E7 Slot specifications (1)
+    - full-perf: 0.040", 2"L, 6"C, 36R (page 1; Slot specifications are not separately scored.)
+  E8 Gravel-pack details (5)
+    - first run date: 5/5/2018 (page 1; Run date is not scored.)
+    - second run date: 5/5/2018 (page 1; Run date is not scored.)
+    - first OD: 6.32 in (page 1; Pack OD is not scored.)
+    - second OD: 13 in (page 1; Pack OD is not scored.)
+    - gravel quantity: 189 cu ft of 8/16 gravel (page 1; Gravel quantity is not a scored point.)
+  E9 Plug-back / tag details (4)
+    - date: 5/5/2018 (page 1; Tag date is not scored.)
+    - PBTD: 1,756 ft (page 1; PBTD is not a cement-plug endpoint.)
+    - method: Liner Shoe (page 1; Tag method is not scored.)
+    - type: Casing Shoe (page 1; Tag type is not scored.)
+  E10 Cement-top measurement methods (3)
+    - conductor: Visual (page 1; Top method is not scored.)
+    - production: Visual (page 1; Top method is not scored.)
+    - OH plug: Tagged (page 1; Top method is not scored.)
+  E11 Cement returns (1)
+    - production: 15 bbls cement to surface (page 1; Return volume is not slurry volume.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 06, 07, 08: The KB elevation is explicit, but the datum height is not an absolute ground elevation. BFW N/A counts as an answer.
+  Points 14, 16: The casing table's set depths are treated as shoe depths, and the explicitly named production-liner top is 1,572 ft.
+  Points 17, 18, 28: The two slotted-liner intervals are explicitly described as Semi Perfs and Full Perfs, so the draft counts them as perforations. Both gravel packs are counted as other flow/integrity features; confirm.
+  Points 33, 34: The diagram shows three overlapping or adjacent wellbore sections with diameters 20, 9 7/8, and 13 in; all displayed values are retained.
+  Points 81, 82, 83, 84, 85, 86: Three jobs are identified by their names, though the conductor date is blank. Production and open-hole plug volumes are given, but conductor slurry details are blank; all repeated-job slurry points are MISSING. Cement returns are not treated as slurry volume.
+  Points 88: Directional is treated as an explicit deviation statement answering inclination only; the schematic does not provide a directional survey.
+  Points 01, 10, 17, 33, 81: The source page is scanned; evidence boxes and readings were checked visually. Confirm the manual transcription.
+  Points 28, 38: Confirm the new excess categories well type, slot specifications, gravel-pack details, tag details, and cement-top measurement methods.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing timestamp: 1/9/2019 2:43:30 PM (page 1)
+
+========================================================================
+U18: Unspecified C-19
+Catalog API: 0403068616; operator: Not stated
+Source PDF: ..\diagrams\U18.pdf
+Annotated PDF: ..\..\design\figures\U18-atomic-map.pdf
+Decision record: U18.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MISSING
+  02 Lease name: MET — 21Z (in well name 21Z C-19)
+  03 Well number: MET — C-19
+  04 API number: MET — 0403068616
+
+SCORE: 20/89 (22.5%)
+  MET 20; MISSING 69; NOT APPLICABLE 1
+  (a)/(d): 16/78; MD/non-depth 16/52; TVD 0/26
+  (b)/(c): 4/11
+  Point 90 N/A: Original Hole — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (1)
+    - PLSS: SEC21, T30S, R22E MDBM (page 1; Location is not a scored point.)
+  E2 KB–ground height (1)
+    - KB–ground: 11.00 ft (page 1; Height is not an absolute ground elevation.)
+  E3 Rig-release date (1)
+    - rig release: 7/11/2021 12:00 (page 1; Date is not scored.)
+  E4 Vertical-section direction (1)
+    - VS Dir: 341.28° (page 1; Vertical-section direction is not an explicit wellbore azimuth.)
+  E5 Plug-back / tag details (3)
+    - date: 7/11/2021 (page 1; Tag date is not scored.)
+    - depth: 791.0 ft (page 1; Top of shoe is not a cement plug.)
+    - type: Top of shoe (page 1; Tag type is not scored.)
+  E6 Casing inside diameters (3)
+    - conductor: 13.500 in (page 1; Inside diameter is not scored.)
+    - production: 6.366 in (page 1; Inside diameter is not scored.)
+    - liner: 4.892 in (page 1; Inside diameter is not scored.)
+  E7 Casing run dates (3)
+    - conductor: 4/13/2021 (page 1; Casing run date is not scored.)
+    - production: 7/10/2021 (page 1; Casing run date is not scored.)
+    - liner: 7/11/2021 (page 1; Casing run date is not scored.)
+  E8 Intermediate casing-joint bottoms (8)
+    - production joints: 528.0 ft (page 1; Component bottom is not a string shoe.)
+    - production float: 528.0 ft (page 1; Component bottom is not a string shoe.)
+    - production joints 2: 549.0 ft (page 1; Component bottom is not a string shoe.)
+    - liner SSA: 516.0 ft (page 1; Component bottom is not a string shoe.)
+    - liner landing nipple: 518.0 ft (page 1; Component bottom is not a string shoe.)
+    - blank liner: 538.0 ft (page 1; Component bottom is not a string shoe.)
+    - semi slots: 548.0 ft (page 1; Component bottom is not a string shoe.)
+    - full slots: 791.0 ft (page 1; Component bottom is not a string shoe.)
+  E9 Gravel-pack run details (2)
+    - first run: 7/11/2021, 5.50 in ID (page 1; Run date and ID are not separate scored points.)
+    - second run: 7/11/2021, 5.50 in ID (page 1; Run date and ID are not separate scored points.)
+  E10 Cement returns (1)
+    - production: 8.0 bbl (page 1; Return volume is not slurry volume.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 01, 02, 03: No operator is explicitly stated. The draft treats 21Z as a lease identifier and C-19 as the well number within 21Z C-19; screening lists the lease as Unspecified. Confirm the split.
+  Points 06, 07: KB datum elevation and KB–ground height are shown, but no absolute ground elevation is stated; the draft does not calculate one.
+  Points 11, 12, 13, 14, 16: The conductor grade is blank and no casing connections are shown. Casing set depths are treated as shoes; the slotted-liner top is taken from its first SSA component at 515 ft. Confirm that interpretation.
+  Points 17, 18, 28: The slotted-liner rows say Semi Slots and Full Slots, while the perforation table is blank. The draft classifies the slots and gravel packs as other flow/integrity features, not as explicit perforations.
+  Points 32, 33, 34: The schematic shows tubing and a pump; the three Openhole wellbore sections provide diameters and MD depths but are not automatically treated as open-hole completions.
+  Points 35, 36, 37: Plug-back type says Top of shoe, not cement; no cement plug is identified.
+  Points 81, 82, 83, 84, 85, 86: Both cement jobs have names, but their slurry amounts and properties are not shown. The 8-bbl figure is explicitly cement returns and does not answer slurry volume.
+  Points 87, 88, 89: The header says Vertical (0° to 15°). Checklist v4.2 treats an explicit vertical-hole statement as answering all three path points, although no survey is shown. VS Dir 341.28° is a vertical-section direction, not itself an explicitly identified survey azimuth. Confirm the combined vertical label and 0°–15° range.
+  Points 01, 10, 28, 33, 38: The source page is scanned; evidence boxes and transcriptions were checked visually.
+  Points 28, 38: Confirm the new excess categories vertical-section direction, plug-back details, casing and gravel-pack run details, and cement returns.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing timestamp: 9/9/2021 11:58:09 AM (page 1)
+
+========================================================================
+U19: Unspecified 251SI-7
+Catalog API: 0403062255; operator: Seneca Resources
+Source PDF: ..\diagrams\U19.pdf
+Annotated PDF: ..\..\design\figures\U19-atomic-map.pdf
+Decision record: U19.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Seneca Resources
+  02 Lease name: MET — SEC 19
+  03 Well number: MET — SUNSET 251SI-7
+  04 API number: MET — 03062255
+
+SCORE: 26/89 (29.2%)
+  MET 26; MISSING 63; NOT APPLICABLE 1
+  (a)/(d): 22/78; MD/non-depth 22/52; TVD 0/26
+  (b)/(c): 4/11
+  Point 90 N/A: Original Hole — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (2)
+    - field: Midway Sunset South (page 1; Location is not scored.)
+    - PLSS: SEC19/T11N/R23W (page 1; Location is not scored.)
+  E2 Well type (1)
+    - status: Steam Injector (page 1; Well type is not scored.)
+  E3 KB–ground height (1)
+    - KB–ground: 8 ft (page 1; Height is not an absolute reference elevation.)
+  E4 Casing details (8)
+    - conductor ID: 12.00 in (page 1; Inside diameter is not scored.)
+    - injection ID: 2.99 in (page 1; Inside diameter is not scored.)
+    - conductor length: 80.00 ft (page 1; String length is not scored.)
+    - injection length: 660.21 ft (page 1; String length is not scored.)
+    - pup-joint bottom: 16 ft (page 1; Intermediate joint bottom is not a string shoe.)
+    - joint bottom: 636 ft (page 1; Intermediate joint bottom is not a string shoe.)
+    - pup-joint bottom 2: 637 ft (page 1; Intermediate joint bottom is not a string shoe.)
+    - joint bottom 2: 667 ft (page 1; Intermediate joint bottom is not a string shoe.)
+  E5 Perforation details (5)
+    - date: 2/9/2018 (page 1; Perforation date is not scored.)
+    - hole diameter: 0.290 in (page 1; Perforation hole diameter is not scored.)
+    - shot total: 40 (page 1; Shot count is not scored.)
+    - shot density: 1.0 shots/ft (page 1; Shot density is not scored.)
+    - status: Open - Flowing (page 1; Status is not scored.)
+  E6 Cement-top measurement methods (2)
+    - conductor: Cement to Surface (page 1; Method is not scored.)
+    - injection: Volume Calculations (page 1; A method name is not the calculation steps.)
+  E7 Cement operational details (7)
+    - test pressure: 2300 psi (page 1; Pressure-test details are not scored.)
+    - water ahead: 10 bbl (page 1; Pump details are not scored.)
+    - excess: 50% (page 1; A result is not a calculation's steps.)
+    - displacement water: 5.5 bbl (page 1; Displacement details are not scored.)
+    - returns: NO RETURNS (page 1; Return status is not slurry volume.)
+    - plug pressure: 1074 psi (page 1; Bump pressure is not scored.)
+    - CIP time: 18:24 (page 1; Operation time is not scored.)
+  E8 Survey offsets, DLS, method and company (8)
+    - page 1 offsets: VS, NS and EW stations (page 1; Survey offsets are not separate scored points.)
+    - page 2 offsets: VS, NS and EW stations (page 2; Survey offsets are not separate scored points.)
+    - page 1 dogleg severity: DLS stations (page 1; Dogleg severity is not a scored point.)
+    - page 2 dogleg severity: DLS stations (page 2; Dogleg severity is not a scored point.)
+    - page 1 method: MWD (page 1; Survey method is not scored.)
+    - page 2 method: MWD (page 2; Survey method is not scored.)
+    - page 1 company: Geo Guidance (page 1; Survey company is not scored.)
+    - page 2 company: Geo Guidance (page 2; Survey company is not scored.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 01, 02, 03, 04: The visible Seneca Resources logo is treated as the operator. SEC 19 is the labelled lease, and SUNSET 251SI-7 is the displayed well name. The visible API is 03062255; reconcile it with the screening-log API.
+  Points 06, 07: The visible header states ground elevation 1,017 ft and KB–ground distance 8 ft, but no visible absolute reference elevation; do not calculate it. The PDF text layer also contains 1,025 beneath the visible header, so the draft does not count that hidden text.
+  Points 14, 32: Set depths are treated as shoes; the landing joint, pup joints and float shoe are treated as other in-well equipment. Confirm that classification.
+  Points 33, 34: The 12-in and 6 3/4-in entries are wellbore sections; values are recorded as printed without judging engineering plausibility.
+  Points 43, 44, 47, 48: The Formations table names top/base boundaries. The draft counts the named formations and those same boundaries as markers; confirm.
+  Points 55, 58, 59, 67, 70, 71, 72, 74: Survey and schematic TVDs are present, but do not explicitly match every corresponding MD endpoint; no interpolation or rounding between near values is used.
+  Points 81, 82, 83, 84, 85, 86: Conductor and injection cement have distinct names. The injection job has slurry details, but the conductor entry lacks them, so all repeated-job slurry points are MISSING. Its lead and tail amounts are partial answers, not excess data.
+  Points 87, 88, 89, 90: Both pages were reviewed: page 2 continues the original hole survey and repeats the schematic; it does not add a second borehole.
+  Points 32, 87: Confirm the new excess categories cement operational details and survey offsets, dogleg severity, method, and company. Survey-column entries are grouped by page rather than counting every station as a separate item.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing timestamp: 3/10/2022 11:08:41 AM (page 1)
+  - Page number: Page 1/2 (page 1)
+  - Report printed: 3/10/2022 (page 1)
+  - Report website: www.natfuel.com/seneca (page 1)
+
+========================================================================
+U20: Unspecified 6-10UWR
+Catalog API: 0403041412; operator: Not stated
+Source PDF: ..\diagrams\U20.pdf
+Annotated PDF: ..\..\design\figures\U20-atomic-map.pdf
+Decision record: U20.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MISSING
+  02 Lease name: MET — 32
+  03 Well number: MET — 6-10UWR
+  04 API number: MET — 0403041412
+
+SCORE: 29/89 (32.6%)
+  MET 29; MISSING 60; NOT APPLICABLE 1
+  (a)/(d): 27/78; MD/non-depth 27/52; TVD 0/26
+  (b)/(c): 2/11
+  Point 90 N/A: One borehole shown — One borehole shown (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (7)
+    - field: Lost Hills (page 1; Location is not scored.)
+    - county: Kern (2) (page 1; Location is not scored.)
+    - state: California (page 1; Location is not scored.)
+    - section: 32 (page 1; PLSS location is not scored.)
+    - township: 26S (page 1; PLSS location is not scored.)
+    - range: 21E (page 1; PLSS location is not scored.)
+    - meridian: MD (page 1; PLSS location is not scored.)
+  E2 API12 (1)
+    - API12: 040304141200 (page 1; The 12-digit API is not the API10 point.)
+  E3 Datum correction factor (1)
+    - correction factor: 12.00 ft (page 1; Datum height is not a scored point.)
+  E4 Completion date (1)
+    - completion date: 5/16/2011 (page 1; Completion date is not scored.)
+  E5 Casing IDs and drift (3)
+    - 13.375-in: 12.615-in ID; 12.459-in drift (page 1; Casing ID and drift are not separately scored.)
+    - 8.625-in: 7.921-in ID; 7.796-in drift (page 1; Casing ID and drift are not separately scored.)
+    - 5.500-in: 4.892-in ID; 4.767-in drift (page 1; Casing ID and drift are not separately scored.)
+  E6 Tubing specifications (3)
+    - upper tubing: 2.375-in OD; 4.70 lb/ft; 1.995-in ID; 1.901-in drift (page 1; Tubing dimensions are not separately scored.)
+    - middle tubing: 3.500-in OD; 10.20 lb/ft; 2.992-in ID; 2.797-in drift (page 1; Tubing dimensions are not separately scored.)
+    - lower tubing: 2.375-in OD; 4.70 lb/ft; 1.995-in ID; 1.901-in drift (page 1; Tubing dimensions are not separately scored.)
+  E7 Intermediate casing-component depths (4)
+    - float collar: 304 ft (page 1; Collar depth is not a shoe.)
+    - upper component: 346 ft (page 1; Intermediate component bottom is not a shoe.)
+    - lower float collar: 2,141 ft (page 1; Collar depth is not a shoe.)
+    - lower component: 2,186 ft (page 1; Intermediate component bottom is not a shoe.)
+  E8 Perforation status (7)
+    - tubing 1: Open (page 1; Perforation status is not a scored point.)
+    - casing 1: Isolated (page 1; Perforation status is not a scored point.)
+    - tubing 2: Open (page 1; Perforation status is not a scored point.)
+    - casing 2: Open (page 1; Perforation status is not a scored point.)
+    - casing 3: Open (page 1; Perforation status is not a scored point.)
+    - casing 4: Open (page 1; Perforation status is not a scored point.)
+    - casing 5: Open (page 1; Perforation status is not a scored point.)
+  E9 Cement returns (3)
+    - upper fill: Unknown (page 1; Return volume is not slurry volume.)
+    - middle fill: 10 bbl (page 1; Return volume is not slurry volume.)
+    - lower fill: 65 bbl (page 1; Return volume is not slurry volume.)
+  E10 Producing interval (1)
+    - completion: 1,030–1,955 ft (page 1; A producing interval is not explicitly an injection zone.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 01, 02, 03: No operator is stated. The diagram explicitly labels lease 32 and CalGEM well number 6-10UWR, while the displayed well name is 32G 6-10UWRL; confirm the distinction.
+  Points 10, 11, 13, 14: Three casing strings are distinguished from tubing. The 13.375-in casing bottom is treated as a shoe; guide shoes are explicitly labelled for the other two. Confirm the manual raster transcription.
+  Points 17, 18: The five casing perforations and two explicitly labelled tubing perforations are all included as repeated instances; confirm whether tubing perforations belong in the same point.
+  Points 28, 30, 31, 32: Restricted ID is counted as another flow/integrity feature. A packer is explicit; steam-cup and packer mandrels are treated as other equipment, not automatically as gas-lift mandrels.
+  Points 35, 36, 37, 38, 39, 40, 81, 82, 83, 84, 85, 86: Three cement-behind-casing entries and a cement plug are shown. It is not explicit whether the 2,141–2,187 ft plug is the same job as the production-casing cement. Each entry is treated as identified by its displayed description; slurry points are MISSING because no slurry details are explicitly linked to the plug. The first fill explicitly says Unknown Mix/Volume.
+  Points 43, 44, 47, 48: The named Tulare, Etchegoin-Diatomite and Reef Ridge tops are treated as both formation tops and markers; L Marker is a marker only. All four depths are expressly estimated.
+  Points 45, 46, 49, 50: Producing Interval (Completion) 1,030–1,955 ft is not explicitly identified as a named zone or an injection zone.
+  Points 87, 88, 89: Directional states inclination only; no MD survey or azimuth is shown.
+  Points 90: Only one borehole is drawn; there is no explicit original-hole label.
+  Points 10, 17, 30, 33, 38: The schematic labels are rasterized and were transcribed and positioned manually; confirm the readings.
+  Points 28, 38, 45: Confirm the new excess categories tubing specifications, cement returns, and producing interval.
+
+========================================================================
+U21: Fairfield 52-69
+Catalog API: 0403065482; operator: Not explicitly stated (bry logo)
+Source PDF: ..\diagrams\U21.pdf
+Annotated PDF: ..\..\design\figures\U21-atomic-map.pdf
+Decision record: U21.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MISSING
+  02 Lease name: MET — FA (in well name FA 52-69)
+  03 Well number: MET — 52-69
+  04 API number: MET — 0403065482
+
+SCORE: 22/90 (24.4%)
+  MET 22; MISSING 68; NOT APPLICABLE 0
+  (a)/(d): 20/78; MD/non-depth 20/52; TVD 0/26
+  (b)/(c): 2/12
+
+EXCESS DATA (present but not scored)
+  E1 Well location (8)
+    - field: Midway Sunset MN RPT (page 1; Location is not scored.)
+    - section: 11 (page 1; PLSS location is not scored.)
+    - township: 31S (page 1; PLSS location is not scored.)
+    - range: 22E (page 1; PLSS location is not scored.)
+    - meridian: MD (page 1; PLSS location is not scored.)
+    - latitude: 35.2513150000 (page 1; Location is not scored.)
+    - longitude: -119.5800220000 (page 1; Location is not scored.)
+    - datum: NAD 83 (page 1; Location datum is not scored.)
+  E2 KB–ground height (1)
+    - KB–ground: 13.00 ft (page 1; Height is not an absolute reference elevation.)
+  E3 Rig-release date (1)
+    - rig release: 6/1/2019 (page 1; Date is not scored.)
+  E4 Plug-back depths (2)
+    - original: 1,714.0 ft (page 1; PBTD is not a cement-plug depth.)
+    - sidetrack: 1,688.0 ft (page 1; PBTD is not a cement-plug depth.)
+  E5 Casing inside diameters (4)
+    - conductor: 13.50 (page 1; Inside diameter is not scored.)
+    - ST surface: 8.92 (page 1; Inside diameter is not scored.)
+    - ST production: 4.89 (page 1; Inside diameter is not scored.)
+    - production: 4.89 (page 1; Inside diameter is not scored.)
+  E6 Casing run dates (3)
+    - conductor: 4/30/2019 (page 1; Run date is not scored.)
+    - ST surface: 2/25/2025 (page 1; Run date is not scored.)
+    - production: 6/1/2019 (page 1; Run date is not scored.)
+  E7 Intermediate casing-component bottoms (13)
+    - component 1: 1,092.9 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 2: 1,093.0 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 3: 1,133.0 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 4: 1,322.5 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 5: 1,366.0 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 6: 1,668.1 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 7: 1,688.0 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 8: 1,689.2 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 9: 1,731.0 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 10: 1,072.0 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 11: 1,092.0 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 12: 1,714.0 (page 1; Intermediate component bottom is not a string shoe.)
+    - component 13: 1,715.0 (page 1; Intermediate component bottom is not a string shoe.)
+  E8 Flag joint (1)
+    - flag joint: 1,072–1,092 ft (page 1; Flag joint is not a scored point.)
+  E9 Perforation details (8)
+    - date 1: 12/11/2019 (page 2; Perforation date is not scored.)
+    - date 2: 3/17/2025 (page 2; Perforation date is not scored.)
+    - date 3: 3/17/2025 (page 2; Perforation date is not scored.)
+    - date 4: 3/17/2025 (page 2; Perforation date is not scored.)
+    - shots and comment 1: 80, 80; 4 JHPF, 3/8 in (page 2; Shot counts, density and hole size are not scored.)
+    - shots and comment 2: 80, 80; 4 JHPF, 3/8 in (page 2; Shot counts, density and hole size are not scored.)
+    - shots and comment 3: 64, 64; 4 JHPF, 3/8 in (page 2; Shot counts, density and hole size are not scored.)
+    - shots and comment 4: 16, 16; 4 JHPF, 3/8 in (page 2; Shot counts, density and hole size are not scored.)
+  E10 Cement returns (4)
+    - conductor: 0.0 (page 1; Returns are not slurry volume.)
+    - original production: 18.0 (page 1; Returns are not slurry volume.)
+    - sidetrack surface: 45.0 (page 2; Returns are not slurry volume.)
+    - sidetrack production: 0.0 (page 2; Returns are not slurry volume.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 01, 02, 03: A bry logo is visible but no operator name is explicitly labelled. FA is provisionally treated as the lease abbreviation and 52-69 as the well number within FA 52-69; confirm both calls.
+  Points 07: KB–ground height is stated, but an absolute reference elevation is not.
+  Points 10, 11, 13, 14: All four casing rows are retained, including the two separate 5 1/2-in production strings. Their set depths are treated as shoes.
+  Points 17, 18: All four perforation-table rows are included. The table does not explicitly associate each row with a borehole; do not infer that from dates.
+  Points 32: The explicitly listed casing insert and float collars are treated as other in-well equipment; confirm that classification.
+  Points 33, 34: Two original-hole sections give diameters and MD depths, but no separate sidetrack hole diameter or final hole depth is shown. Under the repeated-borehole rule the draft leaves these points MISSING.
+  Points 35, 36, 37, 38, 39, 40, 81: The production-cement plug is displayed in the schematic and may share its job with the original production fill. The tables also list six abandonment-plug entries, including two distinct rows both displayed as 1,395–1,395 ft, plus one KO plug and four casing fills. All displayed instances and endpoints are retained without deduplication.
+  Points 45, 46, 43, 44, 47, 48: The four names and depths are in a Zones table for the original hole; the draft does not infer separate formation or marker classifications or a sidetrack zone list.
+  Points 81, 82, 83, 84, 85, 86: Descriptions identify the displayed fills and plugs. Slurry details for several entries are present, but not for every conductor, sidetrack, and zero-length plug entry, so repeated-job slurry points are MISSING. Confirm whether any entries share a job.
+  Points 87, 88, 89, 90: Both Original Hole and Sidetrack are explicitly designated, so point 90 is applicable and MET. Deviated (15° to 30°) is explicitly tied to Original Hole only; the sidetrack has no separate MD path, inclination, or azimuth, so the three repeated-borehole path points are MISSING.
+  Points 32, 38, 90: Confirm the new excess categories flag joint and grouped perforation details; cement-return fields are distinguished from slurry amounts.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing timestamp: 6/18/2025 4:53:15 PM (page 1)
+  - Report printed: 6/18/2025 (page 1)
+  - Report website: www.peloton.com (page 1)
+
+========================================================================
+U22: Fairfield R
+Catalog API: 0403055314; operator: Berry Corporation
+Source PDF: ..\diagrams\U22.pdf
+Annotated PDF: ..\..\design\figures\U22-atomic-map.pdf
+Decision record: U22.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Berry Corporation
+  02 Lease name: MET — FAIRFIELD
+  03 Well number: MET — R
+  04 API number: MET — 0403055314
+
+SCORE: 30/89 (33.7%)
+  MET 30; MISSING 59; NOT APPLICABLE 1
+  (a)/(d): 26/78; MD/non-depth 24/52; TVD 2/26
+  (b)/(c): 4/11
+  Point 90 N/A: Original Hole — Original Hole (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (12)
+    - area: NSFL - MID NORTH (page 1; Location is not scored.)
+    - county: Kern 030 (page 1; Location is not scored.)
+    - state: CA (page 1; Location is not scored.)
+    - section: 11 (page 1; PLSS location is not scored.)
+    - township: 31S (page 1; PLSS location is not scored.)
+    - range: 22E (page 1; PLSS location is not scored.)
+    - latitude: 35.2388763400 (page 1; Location is not scored.)
+    - longitude: -119.5885620100 (page 1; Location is not scored.)
+    - north distance: 194.0 ft N (page 1; Location is not scored.)
+    - east distance: 291.0 ft E (page 1; Location is not scored.)
+    - survey: SW Corner (page 1; Survey reference is not scored.)
+    - datum: NAD 83 (page 1; Location datum is not scored.)
+  E2 Well status (1)
+    - status: Steam Injector (page 1; Well status is not a checklist point.)
+  E3 Total depth (1)
+    - total depth: 1,830.0 ft (page 1; Header total depth is not a separate scored point.)
+  E4 Flag joint (1)
+    - flag joint: 1,360.0–1,370.0 ft (page 1; Flag joint is not a scored point.)
+  E5 Intermediate casing-component endpoints (6)
+    - upper joints: 1,360.0 ft (page 1; Intermediate endpoint is not a string shoe.)
+    - flag joint: 1,370.0 ft (page 1; Intermediate endpoint is not a string shoe.)
+    - middle joints: 1,786.0 ft (page 1; Intermediate endpoint is not a string shoe.)
+    - baffle: 1,787.0 ft (page 1; Intermediate endpoint is not a string shoe.)
+    - lower joints: 1,818.0 ft (page 1; Intermediate endpoint is not a string shoe.)
+    - float collar: 1,819.0 ft (page 1; Intermediate endpoint is not a string shoe.)
+  E6 Perforation details (2)
+    - shot density and size: 1 JHPF; 1/4 in (page 1; Shot density and hole size are not scored.)
+    - date: 9/18/2014 (page 1; Perforation date is not scored.)
+  E7 Cement operation details (1)
+    - production job: wash pumps and lines; displacement and pressure test (page 1; Operational details are not scored.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 02, 03: FAIRFIELD R is split into lease FAIRFIELD and well number R; confirm the split against the source rather than relying on screening.
+  Points 10, 11, 13, 14: The production string is represented by several components. The shoe-track bottom, 1,825.0 ft, is treated as its shoe; the conductor bottom is 90.0 ft.
+  Points 17, 18, 58, 59: The 1,625.0–1,665.0 ft label is interpreted as a perforation because it points to the red completion marks and gives JHPF. The survey table has corresponding MD endpoint rows with TVD 1,617.7 and 1,657.7 ft. The scanned station values are small; confirm the match.
+  Points 32, 33, 34: Latch-in baffle, float collar and shoe track are treated as other in-well equipment; both openhole sections are recorded as hole diameters and depths, not automatically as open-hole completions.
+  Points 35, 36, 37, 38, 39, 40, 81: The production cement plug is separately labelled but repeats the production-fill slurry narrative and date; it may share a cement job with the fill. The draft records the displayed fill and plug and their stated MD endpoints without deduplicating the evidence.
+  Points 55, 67, 68, 69, 70, 71, 73: The survey station MDs do not exactly match all represented shoe, hole, plug, fill, or zone depths: for example the Etchegoin zone top is 1,267.3 ft but its nearby station is 1,267.4 ft. No interpolation or rounding is used, so those TVD points remain MISSING.
+  Points 82, 83, 84, 85, 86: The production-fill and plug narratives give slurry details, but the conductor-cement entry gives only a name, interval and date. Repeated-job slurry points therefore remain MISSING.
+  Points 87, 88, 89: The header says Deviated (15° to 30°); all three path points are credited from the displayed MD/inclination/azimuth table, not from that deviation range alone.
+  Points 01, 14, 17, 46, 58, 59: The source is scanned. All text and evidence coordinates were reviewed visually; confirm the small survey numerals.
+  Points 32, 38: Confirm the new excess categories well status and grouped cement-operation details; no inferred elevation difference is counted.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing timestamp: 10/27/2022 1:51:57 PM (page 1)
+  - Last modified: 10/27/2022 (page 1)
+
+========================================================================
+U23: G.W.P. 848-24
+Catalog API: 0408321273; operator: Cat Canyon Resources (logo)
+Source PDF: ..\diagrams\U23.pdf
+Annotated PDF: ..\..\design\figures\U23-atomic-map.pdf
+Decision record: U23.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Cat Canyon Resources (letterhead)
+  02 Lease name: MET — G.W.P.
+  03 Well number: MET — 848-24
+  04 API number: MET — 083-21273-02
+
+SCORE: 27/90 (30.0%)
+  MET 27; MISSING 63; NOT APPLICABLE 0
+  (a)/(d): 26/78; MD/non-depth 22/52; TVD 4/26
+  (b)/(c): 1/12
+
+EXCESS DATA (present but not scored)
+  E1 Well location (1)
+    - county: Santa Barbara (page 1; County is not a scored point.)
+  E2 Historical operation dates (5)
+    - liner replacement 00: 3/27/1984 (page 1; Operation date is not a scored point.)
+    - abandonment 00: 10/9/2016 (page 1; Operation date is not a scored point.)
+    - redrill 01: 11/8/2016 (page 1; Operation date is not a scored point.)
+    - abandonment 01: 6/18/2020 (page 1; Operation date is not a scored point.)
+    - redrill 02: 10/30/2020 (page 1; Operation date is not a scored point.)
+  E3 Cement returns (1)
+    - current casing: 80 bbl returned to surface (page 1; Returns are not a separate scored point.)
+  E4 Slotted-liner details (1)
+    - slot description: 64R-25M-2"S-6"C (page 1; Slot configuration is not a separate scored point.)
+  E5 Gravel-pack details (1)
+    - gravel: 350 CF 12x20 HOT gravel (page 1; Gravel quantity and size are not scored points.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 01, 02, 03, 04: The named Cat Canyon Resources letterhead is treated as the operator. The source API is 083-21273-02, while screening uses 0408321273; the source value is not silently normalized.
+  Points 07: The header says Kelly Bushing 13 ft, without explicitly calling it an elevation or a height above ground. The draft credits the stated reference value; verify whether it is instead a KB–ground height.
+  Points 10, 11, 12, 13, 14, 16, 55, 57: Page 1 describes current 02, historical 00 and 01, and page 2 explicitly adds a proposed 3.5-in liner to 02. The draft includes every represented casing and liner, including the proposed one, without treating it as completed. The current slotted-liner diameter and conductor grade, connection and weight are not stated; historical shoe depths and the old replacement liner top are not explicitly given. Proposed liner top 2,500 ft has no TVD. Thus the repeated-string points remain MISSING.
+  Points 28, 32: Slots and gravel pack are treated as other flow/integrity features. The torch-cut holes are in the cement basket, not explicitly casing cuts, and no MD is provided for them. The guide shoe and cement baskets are treated as other equipment.
+  Points 33, 34, 67: The surface-hole diameter is explicitly 'unknown', an answer under the presence-only rule. Historical hole intervals are included in addition to the current table; no complete corresponding TVD intervals are shown.
+  Points 35, 36, 37, 38, 39, 40, 41, 81: All three cement intervals in Abandonment 00 and all four in Abandonment 01 are retained as plugs; mud is explicitly listed between plugs in both histories. Current 02 casing is described as cemented, but the casing interval and cement returns do not explicitly give the fill endpoints. The abandonment headings identify those work stages, while the current casing-cement entry has no explicitly identified cement-job name, stage, or date, so point 81 remains MISSING. Confirm whether the adjacent Redrill 02 date identifies that cement job.
+  Points 43, 44, 45, 46, 72, 73: The six S1A–S6 rows appear under Producing Zones in a column labelled Formation, so the draft credits both formation and zone points and records all MD and TVD ranges as printed. Sisquoc is a separate formation top. The S6 TVD bottom is printed as 2,990 ft; no plausibility correction is made.
+  Points 82, 83, 84, 85, 86: Current 02 casing cement gives volume, density, yield, type and additives, but the seven displayed historical cement intervals do not; repeated-job slurry points are MISSING.
+  Points 87, 88, 89, 90: The file identifies original 00 and redrills 01 and 02. Page 2's proposed liner belongs to 02 and is not counted as a fourth borehole. No MD/inclination/azimuth path is supplied for all three boreholes. Explicit vertical statements are absent.
+  Points 28, 32, 38: Confirm the new excess categories operation dates, slotted-liner configuration and gravel-pack details.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Drawing scale: Not to scale (page 1)
+
+========================================================================
+U24: Ellis 2-6ZR3-19
+Catalog API: 0403040671; operator: Aera Energy LLC
+Source PDF: ..\diagrams\U24.pdf
+Annotated PDF: ..\..\design\figures\U24-atomic-map.pdf
+Decision record: U24.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Aera Energy LLC
+  02 Lease name: MISSING
+  03 Well number: MET — 2-6ZR3-19
+  04 API number: MET — 0403040671
+
+SCORE: 23/89 (25.8%)
+  MET 23; MISSING 66; NOT APPLICABLE 1
+  (a)/(d): 19/78; MD/non-depth 19/52; TVD 0/26
+  (b)/(c): 4/11
+  Point 90 N/A: Wellbore 00 — Wellbore 00 (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well type (1)
+    - type: Injector (page 1; Well type is not a checklist point.)
+  E2 Plug-back depth (1)
+    - PBMD: 1,180.99 ft (page 1; Plug-back MD is not an identified cement plug.)
+  E3 Total depth (1)
+    - TD MD: 1,200 ft (page 1; Header total depth is not a separate point.)
+  E4 Flag joint (1)
+    - flag joint: 514 ft (page 1; Flag joint is not a scored point.)
+  E5 Intermediate casing-component endpoints (2)
+    - upper production: 513.73 ft (page 1; Intermediate component endpoint is not a string shoe.)
+    - middle production: 1,180.99 ft (page 1; Intermediate component endpoint is not a string shoe.)
+  E6 Perforation shot density (13)
+    - interval 1: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 2: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 3: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 4: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 5: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 6: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 7: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 8: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 9: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 10: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 11: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 12: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 13: 1.000 shot/ft (page 1; Shot density is not scored.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 02, 03: The diagram states well 2-6ZR3-19 but no lease name. The screening-log lease Ellis is not substituted for missing diagram evidence.
+  Points 08, 09, 53, 54: Freshwater and USDW boxes explicitly say N/A for Base MD, so MD points are MET. No TVD answer is stated.
+  Points 10, 11, 12, 13, 14: The 12.5-in casing has a size, weight and base but blank grade and connection fields. The 3.5-in assembly has J-55 and EUE 8rd. The casing-table base 1,196.0 ft is treated as the shoe, although the lower schematic component ends at 1,195.97 ft.
+  Points 17, 18: All 13 displayed perforation rows are included, including duplicate 840, 1,014 and 1,055 ft entries. They are not deduplicated.
+  Points 33, 34: Two entries show 7.88-in holes, but another displayed row says only 'hole to 0.00ft' with no diameter. Hole size remains MISSING under the repeated-section rule; all three displayed MD depths are kept. Confirm whether the blank zero-depth row should represent a section.
+  Points 35, 38, 39, 40, 81: PLUG DETAILS is empty. The dated Primary cement stage identifies one fill with top and bottom MD; it is not a cement plug.
+  Points 43, 44, 45, 46, 47, 48: Tulare and San Joaquin/Etchegoin are explicitly listed under MARKER DETAILS, so they are recorded as markers rather than inferred formation or zone entries.
+  Points 87, 88, 89: The explicit Orientation: Vertical statement answers all three path points under checklist v4.2.
+  Points 34: Confirm the new excess category well type; hole and cement fields are not counted as excess when they answer scored points.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Preparer initials: xyz (page 1)
+  - Drawing date: 2/13/2023 (page 1)
+
+========================================================================
+U25: Belridge I 8298C-2
+Catalog API: 0403064628; operator: Aera Energy LLC
+Source PDF: ..\diagrams\U25.pdf
+Annotated PDF: ..\..\design\figures\U25-atomic-map.pdf
+Decision record: U25.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Aera Energy LLC
+  02 Lease name: MISSING
+  03 Well number: MET — 8298C-2
+  04 API number: MET — 0403064628
+
+SCORE: 25/89 (28.1%)
+  MET 25; MISSING 64; NOT APPLICABLE 1
+  (a)/(d): 23/78; MD/non-depth 23/52; TVD 0/26
+  (b)/(c): 2/11
+  Point 90 N/A: Wellbore 00 — Wellbore 00 (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well type (1)
+    - type: Injector (page 1; Well type is not a checklist point.)
+  E2 Plug-back depth (1)
+    - PBMD: 2,030.16 ft (page 1; Plug-back MD is not an identified cement plug.)
+  E3 Total depth (1)
+    - TD MD: 2,065 ft (page 1; Header total depth is not a separate point.)
+  E4 Flag joint (1)
+    - flag joint: 1,059 ft (page 1; Flag joint is not a scored point.)
+  E5 Intermediate casing-component endpoints (2)
+    - upper production: 1,059.33 ft (page 1; Intermediate component endpoint is not a string shoe.)
+    - middle production: 2,030.16 ft (page 1; Intermediate component endpoint is not a string shoe.)
+  E6 Perforation shot density (12)
+    - interval 1: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 2: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 3: 4.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 4: 4.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 5: 4.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 6: 4.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 7: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 8: 1.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 9: 4.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 10: 4.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 11: 4.000 shot/ft (page 1; Shot density is not scored.)
+    - interval 12: 4.000 shot/ft (page 1; Shot density is not scored.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 02, 03: Well 8298C-2 is stated, but no lease name is shown; the screening-log lease Belridge I is not substituted for diagram evidence.
+  Points 08, 09, 53, 54: Freshwater and USDW boxes explicitly say N/A for Base MD, so MD points are MET. No TVD answer is stated.
+  Points 10, 11, 12, 13, 14: All three casing strings provide sizes, connection types and weights. SCH 10 is treated as pipe schedule, not a stated conductor steel grade, so grade is MISSING. Casing-table base 2,055.4 ft is used as the production shoe, although the final schematic component ends at 2,054.92 ft.
+  Points 30, 32, 35, 36, 37: PLUG DETAILS contains a tubing assembly and permanent packer, not cement plugs. The listed component MD ranges support the equipment calls rather than separate plug-depth points.
+  Points 33, 34: Hole details give 24.00, 12.25 and 8.75 in. Both cement stages separately print hole size 8.7500 in, including the 9.625-in casing stage. The draft retains the source values without judging them.
+  Points 38, 39, 40, 81, 82, 83, 84, 85, 86: Both Primary cement stages are dated and have MD endpoints, but neither shows slurry volume, density, yield, type, or additives.
+  Points 43, 44, 45, 46, 47, 48: The three names are explicitly listed under MARKER DETAILS; formation and zone classifications are not inferred.
+  Points 87, 88, 89: Directional is treated as an explicit deviation statement answering inclination only. No path MD stations or azimuth are stated; confirm that categorical interpretation.
+  Points 30, 32: Confirm the new excess category well type and whether the equipment depth ranges should be separately counted as excess data.
+
+DOCUMENT PROVENANCE (not excess data)
+  - Preparer initials: xyz (page 1)
+  - Drawing date: 7/24/2023 (page 1)
+
+========================================================================
+U26: 1Y 2008V
+Catalog API: 0403064453; operator: Chevron U.S.A. Inc.
+Source PDF: ..\diagrams\U26.pdf
+Annotated PDF: ..\..\design\figures\U26-atomic-map.pdf
+Decision record: U26.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Chevron U.S.A. Inc.
+  02 Lease name: MET — 1Y (in well name 1Y 2008V)
+  03 Well number: MET — 2008V
+  04 API number: MET — 0403064453
+
+SCORE: 28/89 (31.5%)
+  MET 28; MISSING 61; NOT APPLICABLE 1
+  (a)/(d): 26/78; MD/non-depth 26/52; TVD 0/26
+  (b)/(c): 2/11
+  Point 90 N/A: One borehole shown — One borehole shown (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (7)
+    - field: Cymric (page 1; Location is not scored.)
+    - county: Kern (2) (page 1; Location is not scored.)
+    - state: California (page 1; Location is not scored.)
+    - section: 1 (page 1; PLSS location is not scored.)
+    - township: 30S (page 1; PLSS location is not scored.)
+    - range: 21E (page 1; PLSS location is not scored.)
+    - meridian: MD (page 1; PLSS location is not scored.)
+  E2 Lease tenure (1)
+    - Fee/Lease: Fee (page 1; Tenure is not a scored point.)
+  E3 API12 (1)
+    - API12: 040306445300 (page 1; API12 is not the API10 point.)
+  E4 Datum correction factor (1)
+    - correction factor: 13.50 ft (page 1; Datum height is not scored.)
+  E5 Completion date (1)
+    - completion date: 12/14/2018 (page 1; Completion date is not scored.)
+  E6 Casing IDs and drift (4)
+    - 18-in: 17.194-in ID; 17.007-in drift (page 1; Casing ID and drift are not separately scored.)
+    - 13.375-in: 12.615-in ID; 12.459-in drift (page 1; Casing ID and drift are not separately scored.)
+    - 9.625-in: 8.835-in ID; 8.679-in drift (page 1; Casing ID and drift are not separately scored.)
+    - 5.5-in: 4.892-in ID; 4.767-in drift (page 1; Casing ID and drift are not separately scored.)
+  E7 Cement returns (4)
+    - 18-in: Unknown returns (page 1; Returns are not slurry volume.)
+    - 13.375-in: 32 bbl returned (page 1; Returns are not a separate scored point.)
+    - 9.625-in: No Returns (page 1; Returns are not a separate scored point.)
+    - 5.5-in: No Returns (page 1; Returns are not a separate scored point.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 02, 03: 1Y is provisionally treated as the lease identifier in well name 1Y 2008V; Fee is shown under Fee/Lease but appears to describe tenure rather than the lease name. Confirm the split.
+  Points 10, 11, 13, 14: Four casing strings are distinguished from tubing. The 18-in component bottom is treated as its shoe; the other three shoes are explicitly labelled. The 5.5-in string has K-55 and K-40 segments. Confirm the manually transcribed raster labels.
+  Points 17, 18: The one explicitly open perforation interval is 1,300–1,330 ft MD.
+  Points 32, 35, 36, 37: The cast-iron bridge plug is treated as other equipment, not a cement plug. The separately labelled Plug - Cement is credited with its printed MD endpoints.
+  Points 35, 38, 39, 40, 81: Four physical cement-behind-casing intervals, two Top Jobs within the 9.625-in and 5.5-in narratives, and one cement plug are retained. The plug may share a job with the 5.5-in fill; the Top Jobs have no separate fill interval and are not assumed to be additional physical fills. Confirm grouping and job identification.
+  Points 43, 44, 47, 48: The two estimated named tops are treated as both formation tops and markers; no accuracy judgment is made.
+  Points 82, 83, 84, 85, 86: The 18-in fill explicitly says Unknown Mix/Volume; unknown volume counts as an answer. Its density, yield, cement class and additives are not separately stated, and no separate slurry details are linked to the cement plug. Repeated-job slurry points remain MISSING.
+  Points 87, 88, 89: Directional is treated as an explicit deviation statement answering inclination only; no path MD stations or azimuth are shown.
+  Points 90: Only one borehole is drawn; no separate original-hole label is visible.
+  Points 10, 17, 32, 33, 38: The schematic labels are rasterized and were transcribed and positioned manually; confirm the readings.
+  Points 02, 38: Confirm the new excess category lease tenure and grouped cement-return readings.
+
+========================================================================
+U27: McDonald 505
+Catalog API: 0403013228; operator: Not stated
+Source PDF: ..\diagrams\U27.pdf
+Annotated PDF: ..\..\design\figures\U27-atomic-map.pdf
+Decision record: U27.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MISSING
+  02 Lease name: MET — McDonald
+  03 Well number: MET — 505
+  04 API number: MET — 0403013228
+
+SCORE: 24/89 (27.0%)
+  MET 24; MISSING 65; NOT APPLICABLE 1
+  (a)/(d): 22/78; MD/non-depth 22/52; TVD 0/26
+  (b)/(c): 2/11
+  Point 90 N/A: One borehole shown — One borehole shown (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (7)
+    - field: Midway (page 1; Location is not scored.)
+    - county: Kern (2) (page 1; Location is not scored.)
+    - state: California (page 1; Location is not scored.)
+    - section: 26 (page 1; PLSS location is not scored.)
+    - township: 31S (page 1; PLSS location is not scored.)
+    - range: 22E (page 1; PLSS location is not scored.)
+    - meridian: MD (page 1; PLSS location is not scored.)
+  E2 API12 (1)
+    - API12: 040301322800 (page 1; API12 is not the API10 point.)
+  E3 Datum correction factor (1)
+    - correction factor: 10.00 ft (page 1; Datum height is not scored.)
+  E4 Completion date (1)
+    - completion date: 10/29/1999 (page 1; Completion date is not scored.)
+  E5 Perforation status (8)
+    - interval 1: Closed-Squeezed (page 1; Perforation status is not a separate scored point.)
+    - interval 2: Closed-Squeezed (page 1; Perforation status is not a separate scored point.)
+    - interval 3: Closed-Squeezed (page 1; Perforation status is not a separate scored point.)
+    - interval 4: Closed (page 1; Perforation status is not a separate scored point.)
+    - interval 5: Closed (page 1; Perforation status is not a separate scored point.)
+    - interval 6: Closed (page 1; Perforation status is not a separate scored point.)
+    - interval 7: Closed (page 1; Perforation status is not a separate scored point.)
+    - interval 8: Closed (page 1; Perforation status is not a separate scored point.)
+  E6 Cement returns (2)
+    - surface casing: Unknown Returns (page 1; Returns are not slurry volume.)
+    - production casing: 25 bbl returns (page 1; Returns are not a separate scored point.)
+  E7 Well-operation events (7)
+    - site restoration: 4/18/2023 (page 1; Event date is not scored.)
+    - TOC witness: 4/17/2023 (page 1; Event date is not scored.)
+    - casing cut-off: 4/12/2023 (page 1; Event date is not scored.)
+    - TOC tag 408: 1/13/2023 (page 1; Tag date is not scored.)
+    - TOC tag 1276: 1/12/2023 (page 1; Tag date is not scored.)
+    - cleanout tag: 1/12/2023 (page 1; Tag date is not scored.)
+    - cement bond log: 10/05/1999 (page 1; Log date is not scored.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 01, 02, 03: No operator is explicitly stated. McDonald and 505 are explicitly labelled as CalGEM lease and well number.
+  Points 10, 11, 13, 14: Both casing strings provide size, grade and weight. The 12.750-in bottom is treated as its shoe and the production guide shoe is explicitly labelled 1,799–1,800 ft. Confirm the raster readings.
+  Points 17, 18: All eight perforation rows are included: three Closed-Squeezed intervals and five Closed zero-length intervals. Status does not remove a displayed perforation from the presence-only score.
+  Points 23, 28, 32, 35: The casing is said to be cut off 5 ft below ground, but an MD cut depth is not stated. Plug - Fill is treated as an other integrity feature, not automatically a cement plug or fluid. Float collar and guide shoe are treated as other equipment.
+  Points 35, 36, 37, 38, 39, 40, 81: Four explicit cement plugs and two cement-behind-casing intervals are recorded. The lowermost cement plug may share a job with the 5.5-in fill; the draft identifies each displayed entry by its description without deduplicating. Confirm the grouping.
+  Points 82, 83, 84, 85, 86: Several entries give slurry quantities and properties, but the lowermost cement plug has no separate slurry details; the first casing fill also says Unknown Mix. The repeated-job slurry points remain MISSING.
+  Points 87, 88, 89: Directional is treated as an explicit deviation statement answering inclination only; no path MD stations or azimuth are shown.
+  Points 90: Only one borehole is drawn; no separate original-hole label is visible.
+  Points 10, 17, 28, 33, 35, 38: The schematic labels are rasterized and were transcribed and positioned manually; confirm the readings.
+  Points 17, 18, 23: Confirm the new excess categories perforation status and well-operation events; the cut-off distance is not converted to MD.
+
+========================================================================
+U28: GPM 32
+Catalog API: 0403713943; operator: Linn Energy
+Source PDF: ..\diagrams\U28.pdf
+Annotated PDF: ..\..\design\figures\U28-atomic-map.pdf
+Decision record: U28.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Linn Energy (logo)
+  02 Lease name: MET — GPM
+  03 Well number: MET — 32
+  04 API number: MET — 037-13943
+
+SCORE: 24/89 (27.0%)
+  MET 24; MISSING 65; NOT APPLICABLE 1
+  (a)/(d): 23/78; MD/non-depth 23/52; TVD 0/26
+  (b)/(c): 1/11
+  Point 90 N/A: One borehole shown — One borehole shown (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (9)
+    - section: SEC 31 (page 1; PLSS location is not scored.)
+    - township: T4N (page 1; PLSS location is not scored.)
+    - range: R15W (page 1; PLSS location is not scored.)
+    - meridian: S.B. B&M (page 1; PLSS location is not scored.)
+    - north offset: 2548 ft N (page 1; Location is not scored.)
+    - east offset: 1669 ft E (page 1; Location is not scored.)
+    - coordinate datum: NAD 83 (page 1; Location is not scored.)
+    - latitude: 34.386351 (page 1; Location is not scored.)
+    - longitude: -118.495965 (page 1; Location is not scored.)
+  E2 Datum height (1)
+    - KB height: 8 ft (page 1; Datum height is not a scored point.)
+  E3 Well status and type (2)
+    - status: ACTIVE (page 1; Well status is not a checklist point.)
+    - type: Temperature observation (page 1; Well type is not a checklist point.)
+  E4 Well UID (1)
+    - well UID: 14003 (page 1; The internal UID is not the API number.)
+  E5 Plug-back depth (2)
+    - PBTD: 1,938 ft (page 1; PBTD is not a separate point.)
+    - historical PB: 1,895–1,951 ft (page 1; PB is not explicitly identified as cement.)
+  E6 Perforation specifications (2)
+    - slots: 140M/16R/2½”S/6”C (page 1; Slot details are not separate scored points.)
+    - testing holes: Four ½-in holes (page 1; Hole count and size are not separate scored points.)
+  E7 Cement returns (1)
+    - tubing cement: Returns to surface (page 1; Returns are not a separate scored point.)
+  E8 Workover dates (4)
+    - plugback: 5/26/51 (page 1; Workover date is not a scored point.)
+    - injection conversion: 8/22/60 (page 1; Workover date is not a scored point.)
+    - production conversion: 2/9/84 (page 1; Workover date is not a scored point.)
+    - temperature observation conversion: 5/10/86 (page 1; Workover date is not a scored point.)
+  E9 Workover materials and measurements (5)
+    - sand: Filled hole with sand to 1,865 ft (page 1; Historical fill material is not a fluid between plugs.)
+    - LCM: 20 sacks LCM, tagged at 1,180 ft (page 1; LCM and its tag are not cement-plug identification.)
+    - mud: Filled hole with mud (page 1; No between-plugs fluid is identified.)
+    - displacement: Lease water (page 1; Displacement water is not a scored point.)
+    - pressure: 1,500 psi on tubing (page 1; Test pressure is not a scored point.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 01, 04: Linn Energy appears as a logo, not an operator-labelled field. The diagram prints API 037-13943; the state prefix in the screening record is not substituted into the diagram evidence.
+  Points 08, 09, 53, 54: Freshwater and USDW base depths are printed without an explicit TVD indication; only their MD points are credited.
+  Points 10, 11, 12, 13, 14: The 12-in conductor and 6-5/8-in casing are both displayed. Their bottoms are used for shoe depth; the conductor has no stated grade, connection, or weight, and the 6-5/8-in casing has no stated connection. The 3-1/2-in component is tubing.
+  Points 17, 18, 20: The PERFORATIONS DETAIL identifies slots at 1,580–1,950 and four testing holes at 1,565 ft. The workover history identifies the latter as WSO holes. Both instances have depths, but the four holes do not have a printed interval, so point 18 is MISSING.
+  Points 26, 27, 32: Two cement retainers are described as falling down the hole; the draft counts these historical fallen tools as junk and as equipment, without assuming how far they fell. The later history says a cement retainer was drilled out. Confirm this classification.
+  Points 33, 34: One 10-5/8-in hole is labelled on the schematic and the diagram states total depth 1,951 ft. Confirm the association.
+  Points 35, 36, 37: The history says PB with 10 sacks from 1,951 to 1,895 ft but does not explicitly identify the material as cement; the later TOC at 1,938 inside tubing is not explicitly called a cement plug. The cement-plug points remain MISSING pending review.
+  Points 38, 39, 40: The conductor, casing and tubing are described as cemented. An estimated TTOC of about 811 ft is supplied for the 6-5/8-in casing, but fill tops and bottoms are not explicitly given for every cemented component. Returns to surface and casing depth are not assumed to be complete fill endpoints.
+  Points 43, 44, 47, 48: The explicitly named Shepard, Upper Kraft and Lower Kraft tops are treated as both formation tops and markers.
+  Points 81, 82, 83, 84, 85, 86: The cemented conductor and production casing are treated as job-identifying descriptions; the top job is named and the workover cement operations are dated. The conductor has no stated slurry quantity. Other entries include 225 sacks through ports, a 25-sack top job, repeated 1- and 3-sack retainer operations, a 30-sack Class A squeeze, and 384 cu ft of Class G with 40% silica for tubing. These partial details do not answer the slurry points for every job.
+  Points 87, 88, 89: The vertical drawing is not an explicit vertical/straight statement; no wellbore path is stated.
+  Points 90: Only one borehole is drawn; no separate original-hole label is visible.
+  Points 26, 35, 38: Confirm the new excess categories well UID and workover materials/measurements, including the classification of the historical PB.
+
+DOCUMENT PROVENANCE (not excess data)
+  - revision date: 10/31/2014 (page 1)
+  - initials: DC (page 1)
+
+========================================================================
+U29: Unspecified 10-15UW
+Catalog API: 0403023871; operator: Not stated
+Source PDF: ..\diagrams\U29.pdf
+Annotated PDF: ..\..\design\figures\U29-atomic-map.pdf
+Decision record: U29.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MISSING
+  02 Lease name: MET — Lease Name: N/A
+  03 Well number: MET — 10-15UW
+  04 API number: MET — 0403023871
+
+SCORE: 30/89 (33.7%)
+  MET 30; MISSING 59; NOT APPLICABLE 1
+  (a)/(d): 28/78; MD/non-depth 28/52; TVD 0/26
+  (b)/(c): 2/11
+  Point 90 N/A: One borehole shown — One borehole shown (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (7)
+    - field: LOST HILLS (page 1; Location is not scored.)
+    - county: Kern (2) (page 1; Location is not scored.)
+    - state: California (page 1; Location is not scored.)
+    - section: 32 (page 1; PLSS location is not scored.)
+    - township: 26S (page 1; PLSS location is not scored.)
+    - range: 21E (page 1; PLSS location is not scored.)
+    - meridian: MD (page 1; PLSS location is not scored.)
+  E2 API12 (1)
+    - API12: 040302387100 (page 1; API12 is not the API10 point.)
+  E3 Datum correction factor (1)
+    - correction factor: 12.0000 ft (page 1; Datum height is not scored.)
+  E4 Completion date (1)
+    - completion date: 5/5/2004 (page 1; Completion date is not scored.)
+  E5 Casing IDs and drift (2)
+    - 10.75-in: 10.050-in ID; 9.894-in drift (page 1; Casing ID and drift are not separately scored.)
+    - 7-in: 6.388-in ID; 6.241-in drift (page 1; Casing ID and drift are not separately scored.)
+  E6 Tubing specifications (7)
+    - upper tubing: 2.375-in OD; 4.70 lb/ft; 13–34 ft (page 1; Tubing dimensions are not separately scored.)
+    - upper run: 2.375-in OD; 4.70 lb/ft; 34–1,365 ft (page 1; Tubing dimensions are not separately scored.)
+    - upper pup: 2.375-in OD; 4.70 lb/ft; 1,372–1,382 ft (page 1; Tubing dimensions are not separately scored.)
+    - coated tubing: 3.500-in OD; 9.30 lb/ft; 1,382–1,562 ft (page 1; Tubing dimensions are not separately scored.)
+    - pup: 2.375-in OD; 4.70 lb/ft; 1,386–1,390 ft (page 1; Tubing dimensions are not separately scored.)
+    - middle tubing: 2.375-in OD; 4.70 lb/ft; 1,390–1,570 ft (page 1; Tubing dimensions are not separately scored.)
+    - lower tubing: 2.375-in OD; 4.70 lb/ft; 1,574–1,765 ft (page 1; Tubing dimensions are not separately scored.)
+  E7 Perforation status (6)
+    - tubing 1: Open (page 1; Perforation status is not a scored point.)
+    - casing 1: Open (page 1; Perforation status is not a scored point.)
+    - tubing 2: Open (page 1; Perforation status is not a scored point.)
+    - casing 2: Open (page 1; Perforation status is not a scored point.)
+    - casing 3: Open (page 1; Perforation status is not a scored point.)
+    - casing 4: Open (page 1; Perforation status is not a scored point.)
+  E8 Cement returns (3)
+    - conductor: Unknown returns (page 1; Returns are not slurry volume.)
+    - 10.75-in: 20 bbl returns (page 1; Returns are not a separate scored point.)
+    - 7-in: 10 bbl returns (page 1; Returns are not a separate scored point.)
+  E9 Producing interval (1)
+    - completion: 1,389–2,119 ft (page 1; A producing interval is not explicitly an injection zone.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 01, 02, 03: No operator is stated. Lease Name explicitly says N/A, which is an answer under the presence rule. The CalGEM well number is 10-15UW; the well-name field also contains 32G and a trailing L.
+  Points 08, 53: No Base of Fresh Water is treated as an explicit MD answer, not a TVD value. Confirm whether the unqualified statement should also answer the TVD point.
+  Points 10, 11, 12, 13, 14: The conductor explicitly says Unknown Grade/Thread/Weight, so its grade and weight are answers. The other casing connections are not stated, leaving connection MISSING. The conductor bottom and the two labelled shoes are used for point 14.
+  Points 17, 18: The four casing perforations and two explicitly labelled tubing perforations are all included; confirm whether tubing perforations belong in the same point.
+  Points 28, 30, 32: Restricted ID is counted as another flow/integrity feature. The two Arrowset lines describe one packer; the listed tubing, subs, collars and shoe are treated as other equipment.
+  Points 33, 34: The conductor hole size is explicitly 'not reported', treated as an answer rather than a blank. All three printed hole section MD ranges are retained.
+  Points 35, 38, 39, 40, 81, 82, 83, 84, 85, 86: Three cement fills and one cement plug are recorded as separately identified entries. Unknown volume/mix is an explicit volume answer for the conductor; the two other fills list slurry quantities. No separate slurry details are linked to the plug, which may share the production cement job. The repeated-job slurry points remain MISSING.
+  Points 43, 44, 47, 48: Named estimated formation tops are also treated as markers; the L Marker is not inferred to be a formation.
+  Points 45, 46, 49, 50: Producing Interval (Completion) 1,389–2,119 ft is not explicitly named as a zone or an injection zone.
+  Points 87, 88, 89: Directional states inclination only; no MD survey or azimuth is shown.
+  Points 90: Only one borehole is drawn; no original-hole label is visible.
+  Points 08, 10, 17, 30, 33, 38, 43: The schematic labels are rasterized and were transcribed and positioned manually; confirm the readings.
+  Points 28, 38, 45: Confirm the new excess categories tubing specifications, cement returns, and producing interval.
+
+========================================================================
+U30: Racetrack 336
+Catalog API: 0403064261; operator: Naftex Operating Company
+Source PDF: ..\diagrams\U30.pdf
+Annotated PDF: ..\..\design\figures\U30-atomic-map.pdf
+Decision record: U30.json
+
+SOURCE IDENTITY (checklist points 01–04)
+  01 Operator name: MET — Naftex Operating Company
+  02 Lease name: MET — Racetrack
+  03 Well number: MET — 336
+  04 API number: MET — 0403064261
+
+SCORE: 21/89 (23.6%)
+  MET 21; MISSING 68; NOT APPLICABLE 1
+  (a)/(d): 19/78; MD/non-depth 19/52; TVD 0/26
+  (b)/(c): 2/11
+  Point 90 N/A: One borehole shown — One borehole shown (page 1)
+
+EXCESS DATA (present but not scored)
+  E1 Well location (11)
+    - field: Edison (page 1; Location is not scored.)
+    - section: Sec 27 (page 1; PLSS location is not scored.)
+    - township: T29S (page 1; PLSS location is not scored.)
+    - range: R29E (page 1; PLSS location is not scored.)
+    - meridian: MD B&M (page 1; PLSS location is not scored.)
+    - south offset: 532S (page 1; Location is not scored.)
+    - east offset: 941E (page 1; Location is not scored.)
+    - surface X: 1744538 (page 1; Location is not scored.)
+    - surface Y: 683450 (page 1; Location is not scored.)
+    - bottom-hole north offset: 201 ft N (page 1; Location is not a path inclination.)
+    - bottom-hole east offset: 16 ft E (page 1; Location is not a path azimuth.)
+  E2 Well status and type (2)
+    - status: SF (page 1; Status is not a checklist point.)
+    - type: New Injector (page 1; Well type is not a checklist point.)
+  E3 Datum height (1)
+    - KB: 13 ft (page 1; Datum height is not a scored point.)
+  E4 Completion date (1)
+    - completion date: 9/24/18 (page 1; Completion date is not a scored point.)
+  E5 Casing lengths (2)
+    - conductor: 40 ft (page 1; Component length is not a separate scored point.)
+    - production casing: 1,128 ft (page 1; Component length is not a separate scored point.)
+  E6 Perforation specification (1)
+    - HPF detail: 1-1/2-in JHP2F (page 1; Shot specification is not a separate scored point.)
+  E7 Perforation status (1)
+    - status: Open (page 1; Status is not a separate scored point.)
+  E8 Perforation date (1)
+    - date: 9/24/2018 (page 1; Perforation date is not scored.)
+  E9 Cement returns (1)
+    - returns: 24 bbl to surface (page 1; Returns are not slurry volume.)
+
+UNCERTAIN CALLS FOR REVIEW
+  Points 06, 07: Kelly Bushing elevation is 734 ft and KB height is 13 ft; ground elevation is not explicitly printed and is not calculated.
+  Points 10, 11, 12, 13, 14: Both the 12.75-in conductor and 7-in production casing are shown, but the conductor has no grade, connection or weight. The 53-ft conductor bottom and the labelled 1,141-ft production shoe are used as shoe depths.
+  Points 17, 18: The one displayed perforation interval is 741–751 ft MD.
+  Points 26, 30, 32, 35, 36, 37: Fish explicitly says none. Thermal Packer and float shoe are equipment; the Bridge Plugs and Cmt Plugs headings have no entries and are not treated as explicit none or cement plugs.
+  Points 33, 34: Both hole sizes and depths are printed. The 24-in hole is stated to 53 ft and the 9-7/8-in hole from 53 to 1,143 ft.
+  Points 38, 39, 40, 81, 82: The production-casing cement is treated as an identified cement job with 488 cu ft and TTOC at surface. The fill bottom is not explicitly stated and is not inferred from casing depth. No separate conductor cement job is identified.
+  Points 43, 44, 47, 48: The four labels under Tops are treated as formation names and top markers. Only 1st Chanac at 641 ft and Santa Margarita at 1,049 ft have printed depths; 2nd and 3rd Chanac have blank depth entries, so both repeated-depth points remain MISSING.
+  Points 87, 88, 89: The drawing is not explicitly called vertical/straight. The bottom-hole location offset does not state an inclination, path station or azimuth.
+  Points 90: Only one borehole is drawn; no original-hole label is visible.
+  Points 10, 17, 38: Confirm the new excess categories casing lengths, perforation specifications, and cement returns.
+
+DOCUMENT PROVENANCE (not excess data)
+  - drawing date: 9/24/18 (page 1)

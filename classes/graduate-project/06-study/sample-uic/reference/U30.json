@@ -1,0 +1,1548 @@
+{
+  "diagram_id": "U30",
+  "source_pdf": "06-study/sample-uic/diagrams/U30.pdf",
+  "page_scored": 1,
+  "well": {
+    "well_name": "Racetrack 336",
+    "lease_name": "Racetrack",
+    "well_number": "336",
+    "api": "0403064261",
+    "operator": "Naftex Operating Company",
+    "field": "Edison",
+    "county": "Kern",
+    "district": "Central",
+    "well_type": "SC Cyclic Steam",
+    "well_status": "Active",
+    "uic_project": "UIC Steamflood and Cyclic Steam 22215032 (Active, Injector)",
+    "wellstar_document_id": "650652",
+    "wellstar_document_date": "05/26/2022",
+    "wellstar_file_name": "RT 336 WBD.pdf",
+    "sha256": "06061A65BEF65EA3354F2B735189DA6079CB5EF7463C01D4926765872D34A00E"
+  },
+  "checklist_version": "v4.2",
+  "reviewer": "Lester S. Carcamo",
+  "review_date": "2026-11-18",
+  "score": {
+    "met": 21,
+    "applicable": 89,
+    "not_applicable": 1,
+    "missing": 68,
+    "percent": 23.6,
+    "subdivisions_a_d": {
+      "met": 19,
+      "of": 78,
+      "md_non_depth_met": 19,
+      "md_non_depth_of": 52,
+      "tvd_met": 0,
+      "tvd_of": 26
+    },
+    "subdivisions_b_c": {
+      "met": 2,
+      "applicable": 11
+    }
+  },
+  "points": [
+    {
+      "number": 1,
+      "code": "(a)(1).operator_name",
+      "label": "Operator name",
+      "status": "MET",
+      "displayed_answer": "Naftex Operating Company",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            231.48,
+            55.29,
+            380.07,
+            65.98
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "code": "(a)(1).lease_name",
+      "label": "Lease name",
+      "status": "MET",
+      "displayed_answer": "Racetrack",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            130.68,
+            79.33,
+            185.34,
+            89.08
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "code": "(a)(1).well_number",
+      "label": "Well number",
+      "status": "MET",
+      "displayed_answer": "336",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            130.68,
+            90.97,
+            145.39,
+            100.72
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "code": "(a)(1).api_number",
+      "label": "API number",
+      "status": "MET",
+      "displayed_answer": "0403064261",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            130.68,
+            102.61,
+            179.79,
+            112.36
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "code": "(a)(2).spud_date",
+      "label": "Spud date",
+      "status": "MET",
+      "displayed_answer": "8/14/2018",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            512.43,
+            79.98,
+            539.2,
+            88.93
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "code": "(a)(3).ground_elevation",
+      "label": "Ground elevation",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Kelly Bushing elevation is 734 ft and KB height is 13 ft; ground elevation is not explicitly printed and is not calculated."
+    },
+    {
+      "number": 7,
+      "code": "(a)(4).reference_elevation",
+      "label": "Reference elevation",
+      "status": "MET",
+      "displayed_answer": "Kelly Bushing elevation 734 ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            518.22,
+            126.54,
+            531.56,
+            135.49
+          ]
+        }
+      ],
+      "note": "Kelly Bushing elevation is 734 ft and KB height is 13 ft; ground elevation is not explicitly printed and is not calculated."
+    },
+    {
+      "number": 8,
+      "code": "(a)(5).freshwater_base.md",
+      "label": "Base of freshwater (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 9,
+      "code": "(a)(6).usdw_base.md",
+      "label": "Base of lowermost USDW (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 10,
+      "code": "(a)(7).casing_size",
+      "label": "Casing size",
+      "status": "MET",
+      "displayed_answer": "12.75-in conductor and 7-in production casing",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            372.0,
+            216.0,
+            453.0,
+            225.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            325.0,
+            293.0,
+            477.0,
+            302.0
+          ]
+        }
+      ],
+      "note": "Both the 12.75-in conductor and 7-in production casing are shown, but the conductor has no grade, connection or weight. The 53-ft conductor bottom and the labelled 1,141-ft production shoe are used as shoe depths. Confirm the new excess categories casing lengths, perforation specifications, and cement returns."
+    },
+    {
+      "number": 11,
+      "code": "(a)(7).casing_grade",
+      "label": "Casing grade",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Both the 12.75-in conductor and 7-in production casing are shown, but the conductor has no grade, connection or weight. The 53-ft conductor bottom and the labelled 1,141-ft production shoe are used as shoe depths."
+    },
+    {
+      "number": 12,
+      "code": "(a)(7).connection_type",
+      "label": "Casing connection type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Both the 12.75-in conductor and 7-in production casing are shown, but the conductor has no grade, connection or weight. The 53-ft conductor bottom and the labelled 1,141-ft production shoe are used as shoe depths."
+    },
+    {
+      "number": 13,
+      "code": "(a)(7).casing_weight",
+      "label": "Casing weight",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Both the 12.75-in conductor and 7-in production casing are shown, but the conductor has no grade, connection or weight. The 53-ft conductor bottom and the labelled 1,141-ft production shoe are used as shoe depths."
+    },
+    {
+      "number": 14,
+      "code": "(a)(8).shoe_depth.md",
+      "label": "Shoe depth (MD)",
+      "status": "MET",
+      "displayed_answer": "12.75-in conductor bottom 53; 7-in casing shoe 1,141 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            372.0,
+            216.0,
+            453.0,
+            225.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            330.0,
+            659.0,
+            390.0,
+            679.0
+          ]
+        }
+      ],
+      "note": "Both the 12.75-in conductor and 7-in production casing are shown, but the conductor has no grade, connection or weight. The 53-ft conductor bottom and the labelled 1,141-ft production shoe are used as shoe depths."
+    },
+    {
+      "number": 15,
+      "code": "(a)(8).stub_depth.md",
+      "label": "Stub depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 16,
+      "code": "(a)(8).liner_top_depth.md",
+      "label": "Liner-top depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 17,
+      "code": "(a)(9).perforation_depths.md",
+      "label": "Perforation depths (MD)",
+      "status": "MET",
+      "displayed_answer": "Perforation depths 741 and 751 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            332.0,
+            504.0,
+            361.0,
+            513.0
+          ]
+        }
+      ],
+      "note": "The one displayed perforation interval is 741–751 ft MD. Confirm the new excess categories casing lengths, perforation specifications, and cement returns."
+    },
+    {
+      "number": 18,
+      "code": "(a)(9).perforation_intervals.md",
+      "label": "Perforation intervals (MD)",
+      "status": "MET",
+      "displayed_answer": "Perforation interval 741–751 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            332.0,
+            504.0,
+            361.0,
+            513.0
+          ]
+        }
+      ],
+      "note": "The one displayed perforation interval is 741–751 ft MD."
+    },
+    {
+      "number": 19,
+      "code": "(a)(9).open_hole_completions.md",
+      "label": "Open-hole completions (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 20,
+      "code": "(a)(9).water_shutoff_holes.md",
+      "label": "Water-shutoff holes (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 21,
+      "code": "(a)(9).cement_ports.md",
+      "label": "Cement ports (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 22,
+      "code": "(a)(9).cavity_shots.md",
+      "label": "Cavity shots (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 23,
+      "code": "(a)(9).cuts.md",
+      "label": "Cuts (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 24,
+      "code": "(a)(9).casing_damage_type",
+      "label": "Casing-damage type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 25,
+      "code": "(a)(9).casing_damage_extent.md",
+      "label": "Casing-damage extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 26,
+      "code": "(a)(9).junk_or_fish_type",
+      "label": "Junk/fish type",
+      "status": "MET",
+      "displayed_answer": "Fish: none",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            81.72,
+            282.46,
+            99.02,
+            290.48
+          ]
+        }
+      ],
+      "note": "Fish explicitly says none. Thermal Packer and float shoe are equipment; the Bridge Plugs and Cmt Plugs headings have no entries and are not treated as explicit none or cement plugs."
+    },
+    {
+      "number": 27,
+      "code": "(a)(9).junk_or_fish_extent.md",
+      "label": "Junk/fish extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 28,
+      "code": "(a)(9).other_integrity_feature",
+      "label": "Other flow/integrity feature",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 29,
+      "code": "(a)(10).subsurface_safety_valves",
+      "label": "Subsurface safety valves",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 30,
+      "code": "(a)(10).packers",
+      "label": "Packers",
+      "status": "MET",
+      "displayed_answer": "Thermal Packer at 680 ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            60.0,
+            469.0,
+            165.0,
+            479.0
+          ]
+        }
+      ],
+      "note": "Fish explicitly says none. Thermal Packer and float shoe are equipment; the Bridge Plugs and Cmt Plugs headings have no entries and are not treated as explicit none or cement plugs."
+    },
+    {
+      "number": 31,
+      "code": "(a)(10).gas_lift_mandrels",
+      "label": "Gas-lift mandrels",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 32,
+      "code": "(a)(10).other_equipment",
+      "label": "Other equipment in the well (e.g., tubing, pumps, rods)",
+      "status": "MET",
+      "displayed_answer": "Float shoe",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            330.12,
+            659.62,
+            364.2,
+            667.64
+          ]
+        }
+      ],
+      "note": "Fish explicitly says none. Thermal Packer and float shoe are equipment; the Bridge Plugs and Cmt Plugs headings have no entries and are not treated as explicit none or cement plugs."
+    },
+    {
+      "number": 33,
+      "code": "(a)(11).hole_diameter",
+      "label": "Hole diameter",
+      "status": "MET",
+      "displayed_answer": "Hole diameters 24 and 9-7/8 in",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            372.0,
+            194.0,
+            416.0,
+            203.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            372.0,
+            260.0,
+            475.0,
+            269.0
+          ]
+        }
+      ],
+      "note": "Both hole sizes and depths are printed. The 24-in hole is stated to 53 ft and the 9-7/8-in hole from 53 to 1,143 ft."
+    },
+    {
+      "number": 34,
+      "code": "(a)(11).hole_depth.md",
+      "label": "Hole depth (MD)",
+      "status": "MET",
+      "displayed_answer": "24-in hole to 53; 9-7/8-in hole 53–1,143 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            372.0,
+            194.0,
+            416.0,
+            203.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            372.0,
+            260.0,
+            475.0,
+            269.0
+          ]
+        }
+      ],
+      "note": "Both hole sizes and depths are printed. The 24-in hole is stated to 53 ft and the 9-7/8-in hole from 53 to 1,143 ft."
+    },
+    {
+      "number": 35,
+      "code": "(a)(12).cement_plug_identification",
+      "label": "Cement-plug identification",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Fish explicitly says none. Thermal Packer and float shoe are equipment; the Bridge Plugs and Cmt Plugs headings have no entries and are not treated as explicit none or cement plugs."
+    },
+    {
+      "number": 36,
+      "code": "(a)(12).cement_plug_top.md",
+      "label": "Cement-plug top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Fish explicitly says none. Thermal Packer and float shoe are equipment; the Bridge Plugs and Cmt Plugs headings have no entries and are not treated as explicit none or cement plugs."
+    },
+    {
+      "number": 37,
+      "code": "(a)(12).cement_plug_bottom.md",
+      "label": "Cement-plug bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Fish explicitly says none. Thermal Packer and float shoe are equipment; the Bridge Plugs and Cmt Plugs headings have no entries and are not treated as explicit none or cement plugs."
+    },
+    {
+      "number": 38,
+      "code": "(a)(13).cement_fill_identification",
+      "label": "Cement-fill identification",
+      "status": "MET",
+      "displayed_answer": "Production-casing cement",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            325.0,
+            293.0,
+            477.0,
+            302.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            325.0,
+            315.0,
+            474.0,
+            346.0
+          ]
+        }
+      ],
+      "note": "The production-casing cement is treated as an identified cement job with 488 cu ft and TTOC at surface. The fill bottom is not explicitly stated and is not inferred from casing depth. No separate conductor cement job is identified. Confirm the new excess categories casing lengths, perforation specifications, and cement returns."
+    },
+    {
+      "number": 39,
+      "code": "(a)(13).cement_fill_top.md",
+      "label": "Cement-fill top (MD)",
+      "status": "MET",
+      "displayed_answer": "Production-casing TTOC: surface",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            447.45,
+            337.66,
+            472.94,
+            345.68
+          ]
+        }
+      ],
+      "note": "The production-casing cement is treated as an identified cement job with 488 cu ft and TTOC at surface. The fill bottom is not explicitly stated and is not inferred from casing depth. No separate conductor cement job is identified."
+    },
+    {
+      "number": 40,
+      "code": "(a)(13).cement_fill_bottom.md",
+      "label": "Cement-fill bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The production-casing cement is treated as an identified cement job with 488 cu ft and TTOC at surface. The fill bottom is not explicitly stated and is not inferred from casing depth. No separate conductor cement job is identified."
+    },
+    {
+      "number": 41,
+      "code": "(a)(14).fluid_type",
+      "label": "Fluid type between plugs",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 42,
+      "code": "(a)(14).fluid_density",
+      "label": "Fluid density between plugs",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 43,
+      "code": "(a)(15).formation_names",
+      "label": "Formation names",
+      "status": "MET",
+      "displayed_answer": "1st Chanac, 2nd Chanac, 3rd Chanac, and Santa Margarita",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            69.96,
+            436.26,
+            110.53,
+            445.21
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            68.76,
+            492.66,
+            111.84,
+            501.61
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            69.6,
+            558.9,
+            110.89,
+            567.85
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            52.56,
+            624.08,
+            109.22,
+            634.74
+          ]
+        }
+      ],
+      "note": "The four labels under Tops are treated as formation names and top markers. Only 1st Chanac at 641 ft and Santa Margarita at 1,049 ft have printed depths; 2nd and 3rd Chanac have blank depth entries, so both repeated-depth points remain MISSING."
+    },
+    {
+      "number": 44,
+      "code": "(a)(15).formation_depths.md",
+      "label": "Formation depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The four labels under Tops are treated as formation names and top markers. Only 1st Chanac at 641 ft and Santa Margarita at 1,049 ft have printed depths; 2nd and 3rd Chanac have blank depth entries, so both repeated-depth points remain MISSING."
+    },
+    {
+      "number": 45,
+      "code": "(a)(15).zone_names",
+      "label": "Zone names",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 46,
+      "code": "(a)(15).zone_depths.md",
+      "label": "Zone depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 47,
+      "code": "(a)(15).marker_names",
+      "label": "Marker names",
+      "status": "MET",
+      "displayed_answer": "1st Chanac, 2nd Chanac, 3rd Chanac, and Santa Margarita tops",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            69.96,
+            436.26,
+            110.53,
+            445.21
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            68.76,
+            492.66,
+            111.84,
+            501.61
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            69.6,
+            558.9,
+            110.89,
+            567.85
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            52.56,
+            624.08,
+            109.22,
+            634.74
+          ]
+        }
+      ],
+      "note": "The four labels under Tops are treated as formation names and top markers. Only 1st Chanac at 641 ft and Santa Margarita at 1,049 ft have printed depths; 2nd and 3rd Chanac have blank depth entries, so both repeated-depth points remain MISSING."
+    },
+    {
+      "number": 48,
+      "code": "(a)(15).marker_depths.md",
+      "label": "Marker depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The four labels under Tops are treated as formation names and top markers. Only 1st Chanac at 641 ft and Santa Margarita at 1,049 ft have printed depths; 2nd and 3rd Chanac have blank depth entries, so both repeated-depth points remain MISSING."
+    },
+    {
+      "number": 49,
+      "code": "(a)(15).injection_zone_top.md",
+      "label": "Injection-zone top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 50,
+      "code": "(a)(15).injection_zone_bottom.md",
+      "label": "Injection-zone bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 51,
+      "code": "(a)(15).confining_layer_top.md",
+      "label": "Confining-layer top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 52,
+      "code": "(a)(15).confining_layer_bottom.md",
+      "label": "Confining-layer bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 53,
+      "code": "(a)(5).freshwater_base.tvd",
+      "label": "Base of freshwater (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 54,
+      "code": "(a)(6).usdw_base.tvd",
+      "label": "Base of lowermost USDW (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 55,
+      "code": "(a)(8).shoe_depth.tvd",
+      "label": "Shoe depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 56,
+      "code": "(a)(8).stub_depth.tvd",
+      "label": "Stub depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 57,
+      "code": "(a)(8).liner_top_depth.tvd",
+      "label": "Liner-top depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 58,
+      "code": "(a)(9).perforation_depths.tvd",
+      "label": "Perforation depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 59,
+      "code": "(a)(9).perforation_intervals.tvd",
+      "label": "Perforation intervals (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 60,
+      "code": "(a)(9).open_hole_completions.tvd",
+      "label": "Open-hole completions (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 61,
+      "code": "(a)(9).water_shutoff_holes.tvd",
+      "label": "Water-shutoff holes (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 62,
+      "code": "(a)(9).cement_ports.tvd",
+      "label": "Cement ports (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 63,
+      "code": "(a)(9).cavity_shots.tvd",
+      "label": "Cavity shots (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 64,
+      "code": "(a)(9).cuts.tvd",
+      "label": "Cuts (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 65,
+      "code": "(a)(9).casing_damage_extent.tvd",
+      "label": "Casing-damage extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 66,
+      "code": "(a)(9).junk_or_fish_extent.tvd",
+      "label": "Junk/fish extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 67,
+      "code": "(a)(11).hole_depth.tvd",
+      "label": "Hole depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 68,
+      "code": "(a)(12).cement_plug_top.tvd",
+      "label": "Cement-plug top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 69,
+      "code": "(a)(12).cement_plug_bottom.tvd",
+      "label": "Cement-plug bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 70,
+      "code": "(a)(13).cement_fill_top.tvd",
+      "label": "Cement-fill top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 71,
+      "code": "(a)(13).cement_fill_bottom.tvd",
+      "label": "Cement-fill bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 72,
+      "code": "(a)(15).formation_depths.tvd",
+      "label": "Formation depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 73,
+      "code": "(a)(15).zone_depths.tvd",
+      "label": "Zone depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 74,
+      "code": "(a)(15).marker_depths.tvd",
+      "label": "Marker depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 75,
+      "code": "(a)(15).injection_zone_top.tvd",
+      "label": "Injection-zone top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 76,
+      "code": "(a)(15).injection_zone_bottom.tvd",
+      "label": "Injection-zone bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 77,
+      "code": "(a)(15).confining_layer_top.tvd",
+      "label": "Confining-layer top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 78,
+      "code": "(a)(15).confining_layer_bottom.tvd",
+      "label": "Confining-layer bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 79,
+      "code": "(b)(1).yield_calculation_steps",
+      "label": "Cement-yield calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 80,
+      "code": "(b)(1).cement_calculation_steps",
+      "label": "Cement calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 81,
+      "code": "(b)(2).cement_job_identification",
+      "label": "Cement job identification (date or stage)",
+      "status": "MET",
+      "displayed_answer": "Production-casing cement job",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            325.0,
+            293.0,
+            477.0,
+            302.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            325.0,
+            315.0,
+            474.0,
+            346.0
+          ]
+        }
+      ],
+      "note": "The production-casing cement is treated as an identified cement job with 488 cu ft and TTOC at surface. The fill bottom is not explicitly stated and is not inferred from casing depth. No separate conductor cement job is identified."
+    },
+    {
+      "number": 82,
+      "code": "(b)(2).slurry_volume",
+      "label": "Slurry volume (or sacks) for each cement job",
+      "status": "MET",
+      "displayed_answer": "Production-casing cement volume 488 cu ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            454.3,
+            315.58,
+            466.2,
+            323.6
+          ]
+        }
+      ],
+      "note": "The production-casing cement is treated as an identified cement job with 488 cu ft and TTOC at surface. The fill bottom is not explicitly stated and is not inferred from casing depth. No separate conductor cement job is identified."
+    },
+    {
+      "number": 83,
+      "code": "(b)(2).slurry_density",
+      "label": "Slurry density for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 84,
+      "code": "(b)(2).slurry_yield",
+      "label": "Slurry yield for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 85,
+      "code": "(b)(2).cement_type",
+      "label": "Cement type for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 86,
+      "code": "(b)(2).cement_additives",
+      "label": "Cement additives for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 87,
+      "code": "(b)(3).wellbore_path_md",
+      "label": "Wellbore path: measured depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The drawing is not explicitly called vertical/straight. The bottom-hole location offset does not state an inclination, path station or azimuth."
+    },
+    {
+      "number": 88,
+      "code": "(b)(3).inclination",
+      "label": "Wellbore path: inclination",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The drawing is not explicitly called vertical/straight. The bottom-hole location offset does not state an inclination, path station or azimuth."
+    },
+    {
+      "number": 89,
+      "code": "(b)(3).azimuth",
+      "label": "Wellbore path: azimuth",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The drawing is not explicitly called vertical/straight. The bottom-hole location offset does not state an inclination, path station or azimuth."
+    },
+    {
+      "number": 90,
+      "code": "(c).borehole_designation",
+      "label": "Borehole designation (original hole, redrill, or sidetrack; conditional: multiple boreholes only)",
+      "status": "NOT_APPLICABLE",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Only one borehole is drawn; no original-hole label is visible."
+    }
+  ],
+  "excess_data": [
+    {
+      "type": "E1",
+      "label": "Well location",
+      "count": 11,
+      "instances": [
+        {
+          "item": "field",
+          "text": "Edison",
+          "reason": "Location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            130.68,
+            67.69,
+            164.27,
+            77.44
+          ]
+        },
+        {
+          "item": "section",
+          "text": "Sec 27",
+          "reason": "PLSS location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            52.44,
+            115.66,
+            75.17,
+            123.68
+          ]
+        },
+        {
+          "item": "township",
+          "text": "T29S",
+          "reason": "PLSS location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            79.21,
+            115.66,
+            96.33,
+            123.68
+          ]
+        },
+        {
+          "item": "range",
+          "text": "R29E",
+          "reason": "PLSS location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            100.42,
+            115.66,
+            118.26,
+            123.68
+          ]
+        },
+        {
+          "item": "meridian",
+          "text": "MD B&M",
+          "reason": "PLSS location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            122.35,
+            115.66,
+            151.92,
+            123.68
+          ]
+        },
+        {
+          "item": "south offset",
+          "text": "532S",
+          "reason": "Location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            94.88,
+            127.3,
+            111.57,
+            135.32
+          ]
+        },
+        {
+          "item": "east offset",
+          "text": "941E",
+          "reason": "Location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            113.57,
+            127.3,
+            130.26,
+            135.32
+          ]
+        },
+        {
+          "item": "surface X",
+          "text": "1744538",
+          "reason": "Location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            159.12,
+            139.1,
+            183.53,
+            146.18
+          ]
+        },
+        {
+          "item": "surface Y",
+          "text": "683450",
+          "reason": "Location is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            193.32,
+            139.1,
+            214.24,
+            146.18
+          ]
+        },
+        {
+          "item": "bottom-hole north offset",
+          "text": "201 ft N",
+          "reason": "Location is not a path inclination.",
+          "page": 1,
+          "bbox_pt": [
+            225.84,
+            102.61,
+            240.55,
+            112.36
+          ]
+        },
+        {
+          "item": "bottom-hole east offset",
+          "text": "16 ft E",
+          "reason": "Location is not a path azimuth.",
+          "page": 1,
+          "bbox_pt": [
+            264.9,
+            102.61,
+            274.63,
+            112.36
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E2",
+      "label": "Well status and type",
+      "count": 2,
+      "instances": [
+        {
+          "item": "status",
+          "text": "SF",
+          "reason": "Status is not a checklist point.",
+          "page": 1,
+          "bbox_pt": [
+            456.12,
+            136.52,
+            464.07,
+            147.18
+          ]
+        },
+        {
+          "item": "type",
+          "text": "New Injector",
+          "reason": "Well type is not a checklist point.",
+          "page": 1,
+          "bbox_pt": [
+            502.08,
+            137.58,
+            549.83,
+            146.53
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E3",
+      "label": "Datum height",
+      "count": 1,
+      "instances": [
+        {
+          "item": "KB",
+          "text": "13 ft",
+          "reason": "Datum height is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            520.56,
+            114.9,
+            529.43,
+            123.85
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E4",
+      "label": "Completion date",
+      "count": 1,
+      "instances": [
+        {
+          "item": "completion date",
+          "text": "9/24/18",
+          "reason": "Completion date is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            512.41,
+            91.62,
+            539.19,
+            100.57
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E5",
+      "label": "Casing lengths",
+      "count": 2,
+      "instances": [
+        {
+          "item": "conductor",
+          "text": "40 ft",
+          "reason": "Component length is not a separate scored point.",
+          "page": 1,
+          "bbox_pt": [
+            172.0,
+            183.0,
+            186.0,
+            192.0
+          ]
+        },
+        {
+          "item": "production casing",
+          "text": "1,128 ft",
+          "reason": "Component length is not a separate scored point.",
+          "page": 1,
+          "bbox_pt": [
+            169.0,
+            194.0,
+            186.0,
+            203.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E6",
+      "label": "Perforation specification",
+      "count": 1,
+      "instances": [
+        {
+          "item": "HPF detail",
+          "text": "1-1/2-in JHP2F",
+          "reason": "Shot specification is not a separate scored point.",
+          "page": 1,
+          "bbox_pt": [
+            378.0,
+            504.0,
+            425.0,
+            513.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E7",
+      "label": "Perforation status",
+      "count": 1,
+      "instances": [
+        {
+          "item": "status",
+          "text": "Open",
+          "reason": "Status is not a separate scored point.",
+          "page": 1,
+          "bbox_pt": [
+            450.92,
+            504.46,
+            469.32,
+            512.48
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E8",
+      "label": "Perforation date",
+      "count": 1,
+      "instances": [
+        {
+          "item": "date",
+          "text": "9/24/2018",
+          "reason": "Perforation date is not scored.",
+          "page": 1,
+          "bbox_pt": [
+            509.92,
+            504.46,
+            541.76,
+            512.48
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E9",
+      "label": "Cement returns",
+      "count": 1,
+      "instances": [
+        {
+          "item": "returns",
+          "text": "24 bbl to surface",
+          "reason": "Returns are not slurry volume.",
+          "page": 1,
+          "bbox_pt": [
+            455.0,
+            326.0,
+            465.0,
+            335.0
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "item": "drawing date",
+      "text": "9/24/18",
+      "page": 1,
+      "bbox_pt": [
+        512.46,
+        68.34,
+        539.18,
+        77.29
+      ]
+    }
+  ],
+  "supporting_another_requirement": [],
+  "not_applicable_evidence": [
+    {
+      "point": 90,
+      "item": "One borehole shown",
+      "text": "One borehole shown",
+      "page": 1,
+      "bbox_pt": [
+        195.0,
+        170.0,
+        315.0,
+        684.0
+      ]
+    }
+  ],
+  "excess_total": {
+    "instances": 21,
+    "types": 9
+  },
+  "uncertain_calls": [
+    {
+      "points": [
+        6,
+        7
+      ],
+      "reason": "Kelly Bushing elevation is 734 ft and KB height is 13 ft; ground elevation is not explicitly printed and is not calculated."
+    },
+    {
+      "points": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "reason": "Both the 12.75-in conductor and 7-in production casing are shown, but the conductor has no grade, connection or weight. The 53-ft conductor bottom and the labelled 1,141-ft production shoe are used as shoe depths."
+    },
+    {
+      "points": [
+        17,
+        18
+      ],
+      "reason": "The one displayed perforation interval is 741–751 ft MD."
+    },
+    {
+      "points": [
+        26,
+        30,
+        32,
+        35,
+        36,
+        37
+      ],
+      "reason": "Fish explicitly says none. Thermal Packer and float shoe are equipment; the Bridge Plugs and Cmt Plugs headings have no entries and are not treated as explicit none or cement plugs."
+    },
+    {
+      "points": [
+        33,
+        34
+      ],
+      "reason": "Both hole sizes and depths are printed. The 24-in hole is stated to 53 ft and the 9-7/8-in hole from 53 to 1,143 ft."
+    },
+    {
+      "points": [
+        38,
+        39,
+        40,
+        81,
+        82
+      ],
+      "reason": "The production-casing cement is treated as an identified cement job with 488 cu ft and TTOC at surface. The fill bottom is not explicitly stated and is not inferred from casing depth. No separate conductor cement job is identified."
+    },
+    {
+      "points": [
+        43,
+        44,
+        47,
+        48
+      ],
+      "reason": "The four labels under Tops are treated as formation names and top markers. Only 1st Chanac at 641 ft and Santa Margarita at 1,049 ft have printed depths; 2nd and 3rd Chanac have blank depth entries, so both repeated-depth points remain MISSING."
+    },
+    {
+      "points": [
+        87,
+        88,
+        89
+      ],
+      "reason": "The drawing is not explicitly called vertical/straight. The bottom-hole location offset does not state an inclination, path station or azimuth."
+    },
+    {
+      "points": [
+        90
+      ],
+      "reason": "Only one borehole is drawn; no original-hole label is visible."
+    },
+    {
+      "points": [
+        10,
+        17,
+        38
+      ],
+      "reason": "Confirm the new excess categories casing lengths, perforation specifications, and cement returns."
+    }
+  ]
+}

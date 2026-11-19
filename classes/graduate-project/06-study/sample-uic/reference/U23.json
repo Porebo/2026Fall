@@ -1,0 +1,1661 @@
+{
+  "diagram_id": "U23",
+  "source_pdf": "06-study/sample-uic/diagrams/U23.pdf",
+  "page_scored": "1-2",
+  "well": {
+    "well_name": "G.W.P. 848-24",
+    "lease_name": "G.W.P.",
+    "well_number": "848-24",
+    "api": "0408321273",
+    "operator": "Cat Canyon Resources (logo)",
+    "field": "Cat Canyon",
+    "county": "Santa Barbara",
+    "district": "Northern",
+    "well_type": "SC Cyclic Steam",
+    "well_status": "Idle",
+    "uic_project": "UIC Cyclic Steam 12806014 (Active, Injector)",
+    "wellstar_document_id": "648598",
+    "wellstar_document_date": "03/28/2022",
+    "wellstar_file_name": "G.W.P. 848 -WBDs 3-28-2022.pdf",
+    "sha256": "642EE499A4C781BC1E3E5DE6E2BE8F8BA8EB567A4DCEB3EB13850409BA27E0F8"
+  },
+  "checklist_version": "v4.2",
+  "reviewer": "Lester S. Carcamo",
+  "review_date": "2026-11-18",
+  "score": {
+    "met": 27,
+    "applicable": 90,
+    "not_applicable": 0,
+    "missing": 63,
+    "percent": 30.0,
+    "subdivisions_a_d": {
+      "met": 26,
+      "of": 78,
+      "md_non_depth_met": 22,
+      "md_non_depth_of": 52,
+      "tvd_met": 4,
+      "tvd_of": 26
+    },
+    "subdivisions_b_c": {
+      "met": 1,
+      "applicable": 12
+    }
+  },
+  "points": [
+    {
+      "number": 1,
+      "code": "(a)(1).operator_name",
+      "label": "Operator name",
+      "status": "MET",
+      "displayed_answer": "Cat Canyon Resources (letterhead)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            23.0,
+            16.0,
+            275.0,
+            65.0
+          ]
+        }
+      ],
+      "note": "The named Cat Canyon Resources letterhead is treated as the operator. The source API is 083-21273-02, while screening uses 0408321273; the source value is not silently normalized."
+    },
+    {
+      "number": 2,
+      "code": "(a)(1).lease_name",
+      "label": "Lease name",
+      "status": "MET",
+      "displayed_answer": "G.W.P.",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            110.0,
+            88.0,
+            135.0,
+            98.0
+          ]
+        }
+      ],
+      "note": "The named Cat Canyon Resources letterhead is treated as the operator. The source API is 083-21273-02, while screening uses 0408321273; the source value is not silently normalized."
+    },
+    {
+      "number": 3,
+      "code": "(a)(1).well_number",
+      "label": "Well number",
+      "status": "MET",
+      "displayed_answer": "848-24",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            135.0,
+            70.0,
+            160.0,
+            79.0
+          ]
+        }
+      ],
+      "note": "The named Cat Canyon Resources letterhead is treated as the operator. The source API is 083-21273-02, while screening uses 0408321273; the source value is not silently normalized."
+    },
+    {
+      "number": 4,
+      "code": "(a)(1).api_number",
+      "label": "API number",
+      "status": "MET",
+      "displayed_answer": "083-21273-02",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            110.0,
+            79.0,
+            156.0,
+            88.0
+          ]
+        }
+      ],
+      "note": "The named Cat Canyon Resources letterhead is treated as the operator. The source API is 083-21273-02, while screening uses 0408321273; the source value is not silently normalized."
+    },
+    {
+      "number": 5,
+      "code": "(a)(2).spud_date",
+      "label": "Spud date",
+      "status": "MET",
+      "displayed_answer": "7/28/1979",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            110.0,
+            98.0,
+            144.0,
+            107.0
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "code": "(a)(3).ground_elevation",
+      "label": "Ground elevation",
+      "status": "MET",
+      "displayed_answer": "Ground elevation 556 ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            110.0,
+            125.0,
+            125.0,
+            135.0
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "code": "(a)(4).reference_elevation",
+      "label": "Reference elevation",
+      "status": "MET",
+      "displayed_answer": "Kelly Bushing 13 ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            110.0,
+            116.0,
+            121.0,
+            125.0
+          ]
+        }
+      ],
+      "note": "The header says Kelly Bushing 13 ft, without explicitly calling it an elevation or a height above ground. The draft credits the stated reference value; verify whether it is instead a KB–ground height."
+    },
+    {
+      "number": 8,
+      "code": "(a)(5).freshwater_base.md",
+      "label": "Base of freshwater (MD)",
+      "status": "MET",
+      "displayed_answer": "Base of fresh water 748 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            417.0,
+            346.0,
+            433.0,
+            355.0
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "code": "(a)(6).usdw_base.md",
+      "label": "Base of lowermost USDW (MD)",
+      "status": "MET",
+      "displayed_answer": "Base of USDW 1,932 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            417.0,
+            437.0,
+            436.0,
+            446.0
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "code": "(a)(7).casing_size",
+      "label": "Casing size",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Page 1 describes current 02, historical 00 and 01, and page 2 explicitly adds a proposed 3.5-in liner to 02. The draft includes every represented casing and liner, including the proposed one, without treating it as completed. The current slotted-liner diameter and conductor grade, connection and weight are not stated; historical shoe depths and the old replacement liner top are not explicitly given. Proposed liner top 2,500 ft has no TVD. Thus the repeated-string points remain MISSING."
+    },
+    {
+      "number": 11,
+      "code": "(a)(7).casing_grade",
+      "label": "Casing grade",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Page 1 describes current 02, historical 00 and 01, and page 2 explicitly adds a proposed 3.5-in liner to 02. The draft includes every represented casing and liner, including the proposed one, without treating it as completed. The current slotted-liner diameter and conductor grade, connection and weight are not stated; historical shoe depths and the old replacement liner top are not explicitly given. Proposed liner top 2,500 ft has no TVD. Thus the repeated-string points remain MISSING."
+    },
+    {
+      "number": 12,
+      "code": "(a)(7).connection_type",
+      "label": "Casing connection type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Page 1 describes current 02, historical 00 and 01, and page 2 explicitly adds a proposed 3.5-in liner to 02. The draft includes every represented casing and liner, including the proposed one, without treating it as completed. The current slotted-liner diameter and conductor grade, connection and weight are not stated; historical shoe depths and the old replacement liner top are not explicitly given. Proposed liner top 2,500 ft has no TVD. Thus the repeated-string points remain MISSING."
+    },
+    {
+      "number": 13,
+      "code": "(a)(7).casing_weight",
+      "label": "Casing weight",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Page 1 describes current 02, historical 00 and 01, and page 2 explicitly adds a proposed 3.5-in liner to 02. The draft includes every represented casing and liner, including the proposed one, without treating it as completed. The current slotted-liner diameter and conductor grade, connection and weight are not stated; historical shoe depths and the old replacement liner top are not explicitly given. Proposed liner top 2,500 ft has no TVD. Thus the repeated-string points remain MISSING."
+    },
+    {
+      "number": 14,
+      "code": "(a)(8).shoe_depth.md",
+      "label": "Shoe depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Page 1 describes current 02, historical 00 and 01, and page 2 explicitly adds a proposed 3.5-in liner to 02. The draft includes every represented casing and liner, including the proposed one, without treating it as completed. The current slotted-liner diameter and conductor grade, connection and weight are not stated; historical shoe depths and the old replacement liner top are not explicitly given. Proposed liner top 2,500 ft has no TVD. Thus the repeated-string points remain MISSING."
+    },
+    {
+      "number": 15,
+      "code": "(a)(8).stub_depth.md",
+      "label": "Stub depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 16,
+      "code": "(a)(8).liner_top_depth.md",
+      "label": "Liner-top depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Page 1 describes current 02, historical 00 and 01, and page 2 explicitly adds a proposed 3.5-in liner to 02. The draft includes every represented casing and liner, including the proposed one, without treating it as completed. The current slotted-liner diameter and conductor grade, connection and weight are not stated; historical shoe depths and the old replacement liner top are not explicitly given. Proposed liner top 2,500 ft has no TVD. Thus the repeated-string points remain MISSING."
+    },
+    {
+      "number": 17,
+      "code": "(a)(9).perforation_depths.md",
+      "label": "Perforation depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 18,
+      "code": "(a)(9).perforation_intervals.md",
+      "label": "Perforation intervals (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 19,
+      "code": "(a)(9).open_hole_completions.md",
+      "label": "Open-hole completions (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 20,
+      "code": "(a)(9).water_shutoff_holes.md",
+      "label": "Water-shutoff holes (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 21,
+      "code": "(a)(9).cement_ports.md",
+      "label": "Cement ports (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 22,
+      "code": "(a)(9).cavity_shots.md",
+      "label": "Cavity shots (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 23,
+      "code": "(a)(9).cuts.md",
+      "label": "Cuts (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 24,
+      "code": "(a)(9).casing_damage_type",
+      "label": "Casing-damage type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 25,
+      "code": "(a)(9).casing_damage_extent.md",
+      "label": "Casing-damage extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 26,
+      "code": "(a)(9).junk_or_fish_type",
+      "label": "Junk/fish type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 27,
+      "code": "(a)(9).junk_or_fish_extent.md",
+      "label": "Junk/fish extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 28,
+      "code": "(a)(9).other_integrity_feature",
+      "label": "Other flow/integrity feature",
+      "status": "MET",
+      "displayed_answer": "Four torch-cut holes in top cement basket; liner slots 2,528–2,988 ft MD; gravel pack",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            307.0,
+            50.0,
+            572.0,
+            68.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            350.0,
+            620.0,
+            476.0,
+            648.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            40.0,
+            720.0,
+            236.0,
+            730.0
+          ]
+        }
+      ],
+      "note": "Slots and gravel pack are treated as other flow/integrity features. The torch-cut holes are in the cement basket, not explicitly casing cuts, and no MD is provided for them. The guide shoe and cement baskets are treated as other equipment. Confirm the new excess categories operation dates, slotted-liner configuration and gravel-pack details."
+    },
+    {
+      "number": 29,
+      "code": "(a)(10).subsurface_safety_valves",
+      "label": "Subsurface safety valves",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 30,
+      "code": "(a)(10).packers",
+      "label": "Packers",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 31,
+      "code": "(a)(10).gas_lift_mandrels",
+      "label": "Gas-lift mandrels",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 32,
+      "code": "(a)(10).other_equipment",
+      "label": "Other equipment in the well (e.g., tubing, pumps, rods)",
+      "status": "MET",
+      "displayed_answer": "Bull-nose guide shoe and two cement baskets",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            307.0,
+            50.0,
+            519.0,
+            59.0
+          ]
+        }
+      ],
+      "note": "Slots and gravel pack are treated as other flow/integrity features. The torch-cut holes are in the cement basket, not explicitly casing cuts, and no MD is provided for them. The guide shoe and cement baskets are treated as other equipment. Confirm the new excess categories operation dates, slotted-liner configuration and gravel-pack details."
+    },
+    {
+      "number": 33,
+      "code": "(a)(11).hole_diameter",
+      "label": "Hole diameter",
+      "status": "MET",
+      "displayed_answer": "Current 02 holes: unknown, 9.875, 13 in; original 00: 9.875 and 12 in; replacement 00: 9.875 and 14 in; redrill 01: 9.875 and 13 in",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            350.0,
+            246.0,
+            400.0,
+            273.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            442.0,
+            80.0,
+            464.0,
+            88.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            443.0,
+            89.0,
+            455.0,
+            97.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            442.0,
+            108.0,
+            464.0,
+            116.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            443.0,
+            117.0,
+            455.0,
+            125.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            446.0,
+            163.0,
+            479.0,
+            180.0
+          ]
+        }
+      ],
+      "note": "The surface-hole diameter is explicitly 'unknown', an answer under the presence-only rule. Historical hole intervals are included in addition to the current table; no complete corresponding TVD intervals are shown."
+    },
+    {
+      "number": 34,
+      "code": "(a)(11).hole_depth.md",
+      "label": "Hole depth (MD)",
+      "status": "MET",
+      "displayed_answer": "Current 02: surface–50, 50–2,549, 2,549–2,990 ft; original and replacement 00: 50–2,215 and 2,215–2,369 ft; redrill 01: 50–2,542 and 2,542–2,976 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            435.0,
+            246.0,
+            474.0,
+            273.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            489.0,
+            80.0,
+            529.0,
+            97.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            489.0,
+            108.0,
+            529.0,
+            125.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            492.0,
+            163.0,
+            543.0,
+            180.0
+          ]
+        }
+      ],
+      "note": "The surface-hole diameter is explicitly 'unknown', an answer under the presence-only rule. Historical hole intervals are included in addition to the current table; no complete corresponding TVD intervals are shown."
+    },
+    {
+      "number": 35,
+      "code": "(a)(12).cement_plug_identification",
+      "label": "Cement-plug identification",
+      "status": "MET",
+      "displayed_answer": "Cement intervals in Abandonment 00 (three) and Abandonment 01 (four)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            308.0,
+            135.0,
+            362.0,
+            144.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            419.0,
+            135.0,
+            485.0,
+            144.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            420.0,
+            135.0,
+            570.0,
+            153.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            301.0,
+            191.0,
+            355.0,
+            199.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            407.0,
+            191.0,
+            470.0,
+            199.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            472.0,
+            191.0,
+            538.0,
+            199.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            418.0,
+            200.0,
+            482.0,
+            209.0
+          ]
+        }
+      ],
+      "note": "All three cement intervals in Abandonment 00 and all four in Abandonment 01 are retained as plugs; mud is explicitly listed between plugs in both histories. Current 02 casing is described as cemented, but the casing interval and cement returns do not explicitly give the fill endpoints. The abandonment headings identify those work stages, while the current casing-cement entry has no explicitly identified cement-job name, stage, or date, so point 81 remains MISSING. Confirm whether the adjacent Redrill 02 date identifies that cement job."
+    },
+    {
+      "number": 36,
+      "code": "(a)(12).cement_plug_top.md",
+      "label": "Cement-plug top (MD)",
+      "status": "MET",
+      "displayed_answer": "Abandonment 00 plug tops 20, 1,062, 1,903 ft; Abandonment 01 plug tops 20, 952, 1,076, 1,925 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            308.0,
+            135.0,
+            362.0,
+            144.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            419.0,
+            135.0,
+            485.0,
+            144.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            420.0,
+            135.0,
+            570.0,
+            153.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            301.0,
+            191.0,
+            355.0,
+            199.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            407.0,
+            191.0,
+            470.0,
+            199.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            472.0,
+            191.0,
+            538.0,
+            199.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            418.0,
+            200.0,
+            482.0,
+            209.0
+          ]
+        }
+      ],
+      "note": "All three cement intervals in Abandonment 00 and all four in Abandonment 01 are retained as plugs; mud is explicitly listed between plugs in both histories. Current 02 casing is described as cemented, but the casing interval and cement returns do not explicitly give the fill endpoints. The abandonment headings identify those work stages, while the current casing-cement entry has no explicitly identified cement-job name, stage, or date, so point 81 remains MISSING. Confirm whether the adjacent Redrill 02 date identifies that cement job."
+    },
+    {
+      "number": 37,
+      "code": "(a)(12).cement_plug_bottom.md",
+      "label": "Cement-plug bottom (MD)",
+      "status": "MET",
+      "displayed_answer": "Abandonment 00 plug bottoms 200, 1,363, 2,369 ft; Abandonment 01 plug bottoms 220, 1,076, 1,209, 2,976 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            308.0,
+            135.0,
+            362.0,
+            144.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            419.0,
+            135.0,
+            485.0,
+            144.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            420.0,
+            135.0,
+            570.0,
+            153.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            301.0,
+            191.0,
+            355.0,
+            199.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            407.0,
+            191.0,
+            470.0,
+            199.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            472.0,
+            191.0,
+            538.0,
+            199.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            418.0,
+            200.0,
+            482.0,
+            209.0
+          ]
+        }
+      ],
+      "note": "All three cement intervals in Abandonment 00 and all four in Abandonment 01 are retained as plugs; mud is explicitly listed between plugs in both histories. Current 02 casing is described as cemented, but the casing interval and cement returns do not explicitly give the fill endpoints. The abandonment headings identify those work stages, while the current casing-cement entry has no explicitly identified cement-job name, stage, or date, so point 81 remains MISSING. Confirm whether the adjacent Redrill 02 date identifies that cement job."
+    },
+    {
+      "number": 38,
+      "code": "(a)(13).cement_fill_identification",
+      "label": "Cement-fill identification",
+      "status": "MET",
+      "displayed_answer": "Redrill 02: 7-in casing cemented",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            23.0,
+            346.0,
+            261.0,
+            355.0
+          ]
+        }
+      ],
+      "note": "All three cement intervals in Abandonment 00 and all four in Abandonment 01 are retained as plugs; mud is explicitly listed between plugs in both histories. Current 02 casing is described as cemented, but the casing interval and cement returns do not explicitly give the fill endpoints. The abandonment headings identify those work stages, while the current casing-cement entry has no explicitly identified cement-job name, stage, or date, so point 81 remains MISSING. Confirm whether the adjacent Redrill 02 date identifies that cement job. Confirm the new excess categories operation dates, slotted-liner configuration and gravel-pack details."
+    },
+    {
+      "number": 39,
+      "code": "(a)(13).cement_fill_top.md",
+      "label": "Cement-fill top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "All three cement intervals in Abandonment 00 and all four in Abandonment 01 are retained as plugs; mud is explicitly listed between plugs in both histories. Current 02 casing is described as cemented, but the casing interval and cement returns do not explicitly give the fill endpoints. The abandonment headings identify those work stages, while the current casing-cement entry has no explicitly identified cement-job name, stage, or date, so point 81 remains MISSING. Confirm whether the adjacent Redrill 02 date identifies that cement job."
+    },
+    {
+      "number": 40,
+      "code": "(a)(13).cement_fill_bottom.md",
+      "label": "Cement-fill bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "All three cement intervals in Abandonment 00 and all four in Abandonment 01 are retained as plugs; mud is explicitly listed between plugs in both histories. Current 02 casing is described as cemented, but the casing interval and cement returns do not explicitly give the fill endpoints. The abandonment headings identify those work stages, while the current casing-cement entry has no explicitly identified cement-job name, stage, or date, so point 81 remains MISSING. Confirm whether the adjacent Redrill 02 date identifies that cement job."
+    },
+    {
+      "number": 41,
+      "code": "(a)(14).fluid_type",
+      "label": "Fluid type between plugs",
+      "status": "MET",
+      "displayed_answer": "Mud between cement intervals: 00 at 200–1,062 and 1,363–1,903 ft; 01 at 220–952 and 1,209–1,925 ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            364.0,
+            135.0,
+            417.0,
+            144.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            487.0,
+            135.0,
+            543.0,
+            144.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            357.0,
+            191.0,
+            405.0,
+            199.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            396.0,
+            191.0,
+            577.0,
+            209.0
+          ]
+        }
+      ],
+      "note": "All three cement intervals in Abandonment 00 and all four in Abandonment 01 are retained as plugs; mud is explicitly listed between plugs in both histories. Current 02 casing is described as cemented, but the casing interval and cement returns do not explicitly give the fill endpoints. The abandonment headings identify those work stages, while the current casing-cement entry has no explicitly identified cement-job name, stage, or date, so point 81 remains MISSING. Confirm whether the adjacent Redrill 02 date identifies that cement job."
+    },
+    {
+      "number": 42,
+      "code": "(a)(14).fluid_density",
+      "label": "Fluid density between plugs",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 43,
+      "code": "(a)(15).formation_names",
+      "label": "Formation names",
+      "status": "MET",
+      "displayed_answer": "Sisquoc; table labelled Formation: S1A, S2, S3, S4, S5, S6",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            337.0,
+            455.0,
+            392.0,
+            473.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            55.0,
+            656.0,
+            72.0,
+            711.0
+          ]
+        }
+      ],
+      "note": "The six S1A–S6 rows appear under Producing Zones in a column labelled Formation, so the draft credits both formation and zone points and records all MD and TVD ranges as printed. Sisquoc is a separate formation top. The S6 TVD bottom is printed as 2,990 ft; no plausibility correction is made."
+    },
+    {
+      "number": 44,
+      "code": "(a)(15).formation_depths.md",
+      "label": "Formation depths (MD)",
+      "status": "MET",
+      "displayed_answer": "Sisquoc top 1,932 ft; S1A–S6 ranges 2,494–2,552, 2,552–2,632, 2,632–2,754, 2,754–2,796, 2,796–2,894, and 2,894–2,990 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            417.0,
+            465.0,
+            436.0,
+            473.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            135.0,
+            656.0,
+            174.0,
+            711.0
+          ]
+        }
+      ],
+      "note": "The six S1A–S6 rows appear under Producing Zones in a column labelled Formation, so the draft credits both formation and zone points and records all MD and TVD ranges as printed. Sisquoc is a separate formation top. The S6 TVD bottom is printed as 2,990 ft; no plausibility correction is made."
+    },
+    {
+      "number": 45,
+      "code": "(a)(15).zone_names",
+      "label": "Zone names",
+      "status": "MET",
+      "displayed_answer": "Producing zones S1A, S2, S3, S4, S5, S6",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            55.0,
+            656.0,
+            72.0,
+            711.0
+          ]
+        }
+      ],
+      "note": "The six S1A–S6 rows appear under Producing Zones in a column labelled Formation, so the draft credits both formation and zone points and records all MD and TVD ranges as printed. Sisquoc is a separate formation top. The S6 TVD bottom is printed as 2,990 ft; no plausibility correction is made."
+    },
+    {
+      "number": 46,
+      "code": "(a)(15).zone_depths.md",
+      "label": "Zone depths (MD)",
+      "status": "MET",
+      "displayed_answer": "S1A–S6 ranges 2,494–2,552, 2,552–2,632, 2,632–2,754, 2,754–2,796, 2,796–2,894, and 2,894–2,990 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            135.0,
+            656.0,
+            174.0,
+            711.0
+          ]
+        }
+      ],
+      "note": "The six S1A–S6 rows appear under Producing Zones in a column labelled Formation, so the draft credits both formation and zone points and records all MD and TVD ranges as printed. Sisquoc is a separate formation top. The S6 TVD bottom is printed as 2,990 ft; no plausibility correction is made."
+    },
+    {
+      "number": 47,
+      "code": "(a)(15).marker_names",
+      "label": "Marker names",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 48,
+      "code": "(a)(15).marker_depths.md",
+      "label": "Marker depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 49,
+      "code": "(a)(15).injection_zone_top.md",
+      "label": "Injection-zone top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 50,
+      "code": "(a)(15).injection_zone_bottom.md",
+      "label": "Injection-zone bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 51,
+      "code": "(a)(15).confining_layer_top.md",
+      "label": "Confining-layer top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 52,
+      "code": "(a)(15).confining_layer_bottom.md",
+      "label": "Confining-layer bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 53,
+      "code": "(a)(5).freshwater_base.tvd",
+      "label": "Base of freshwater (TVD)",
+      "status": "MET",
+      "displayed_answer": "Base of fresh water 746 ft TVD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            417.0,
+            337.0,
+            433.0,
+            346.0
+          ]
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "code": "(a)(6).usdw_base.tvd",
+      "label": "Base of lowermost USDW (TVD)",
+      "status": "MET",
+      "displayed_answer": "Base of USDW 1,886 ft TVD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            417.0,
+            428.0,
+            436.0,
+            437.0
+          ]
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "code": "(a)(8).shoe_depth.tvd",
+      "label": "Shoe depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Page 1 describes current 02, historical 00 and 01, and page 2 explicitly adds a proposed 3.5-in liner to 02. The draft includes every represented casing and liner, including the proposed one, without treating it as completed. The current slotted-liner diameter and conductor grade, connection and weight are not stated; historical shoe depths and the old replacement liner top are not explicitly given. Proposed liner top 2,500 ft has no TVD. Thus the repeated-string points remain MISSING."
+    },
+    {
+      "number": 56,
+      "code": "(a)(8).stub_depth.tvd",
+      "label": "Stub depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 57,
+      "code": "(a)(8).liner_top_depth.tvd",
+      "label": "Liner-top depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Page 1 describes current 02, historical 00 and 01, and page 2 explicitly adds a proposed 3.5-in liner to 02. The draft includes every represented casing and liner, including the proposed one, without treating it as completed. The current slotted-liner diameter and conductor grade, connection and weight are not stated; historical shoe depths and the old replacement liner top are not explicitly given. Proposed liner top 2,500 ft has no TVD. Thus the repeated-string points remain MISSING."
+    },
+    {
+      "number": 58,
+      "code": "(a)(9).perforation_depths.tvd",
+      "label": "Perforation depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 59,
+      "code": "(a)(9).perforation_intervals.tvd",
+      "label": "Perforation intervals (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 60,
+      "code": "(a)(9).open_hole_completions.tvd",
+      "label": "Open-hole completions (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 61,
+      "code": "(a)(9).water_shutoff_holes.tvd",
+      "label": "Water-shutoff holes (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 62,
+      "code": "(a)(9).cement_ports.tvd",
+      "label": "Cement ports (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 63,
+      "code": "(a)(9).cavity_shots.tvd",
+      "label": "Cavity shots (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 64,
+      "code": "(a)(9).cuts.tvd",
+      "label": "Cuts (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 65,
+      "code": "(a)(9).casing_damage_extent.tvd",
+      "label": "Casing-damage extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 66,
+      "code": "(a)(9).junk_or_fish_extent.tvd",
+      "label": "Junk/fish extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 67,
+      "code": "(a)(11).hole_depth.tvd",
+      "label": "Hole depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The surface-hole diameter is explicitly 'unknown', an answer under the presence-only rule. Historical hole intervals are included in addition to the current table; no complete corresponding TVD intervals are shown."
+    },
+    {
+      "number": 68,
+      "code": "(a)(12).cement_plug_top.tvd",
+      "label": "Cement-plug top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 69,
+      "code": "(a)(12).cement_plug_bottom.tvd",
+      "label": "Cement-plug bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 70,
+      "code": "(a)(13).cement_fill_top.tvd",
+      "label": "Cement-fill top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 71,
+      "code": "(a)(13).cement_fill_bottom.tvd",
+      "label": "Cement-fill bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 72,
+      "code": "(a)(15).formation_depths.tvd",
+      "label": "Formation depths (TVD)",
+      "status": "MET",
+      "displayed_answer": "Sisquoc top 1,886 ft; S1A–S6 ranges 2,442–2,500, 2,500–2,580, 2,580–2,702, 2,702–2,744, 2,744–2,842, and 2,842–2,990 ft TVD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            417.0,
+            456.0,
+            436.0,
+            464.0
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            218.0,
+            656.0,
+            258.0,
+            711.0
+          ]
+        }
+      ],
+      "note": "The six S1A–S6 rows appear under Producing Zones in a column labelled Formation, so the draft credits both formation and zone points and records all MD and TVD ranges as printed. Sisquoc is a separate formation top. The S6 TVD bottom is printed as 2,990 ft; no plausibility correction is made."
+    },
+    {
+      "number": 73,
+      "code": "(a)(15).zone_depths.tvd",
+      "label": "Zone depths (TVD)",
+      "status": "MET",
+      "displayed_answer": "S1A–S6 ranges 2,442–2,500, 2,500–2,580, 2,580–2,702, 2,702–2,744, 2,744–2,842, and 2,842–2,990 ft TVD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            218.0,
+            656.0,
+            258.0,
+            711.0
+          ]
+        }
+      ],
+      "note": "The six S1A–S6 rows appear under Producing Zones in a column labelled Formation, so the draft credits both formation and zone points and records all MD and TVD ranges as printed. Sisquoc is a separate formation top. The S6 TVD bottom is printed as 2,990 ft; no plausibility correction is made."
+    },
+    {
+      "number": 74,
+      "code": "(a)(15).marker_depths.tvd",
+      "label": "Marker depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 75,
+      "code": "(a)(15).injection_zone_top.tvd",
+      "label": "Injection-zone top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 76,
+      "code": "(a)(15).injection_zone_bottom.tvd",
+      "label": "Injection-zone bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 77,
+      "code": "(a)(15).confining_layer_top.tvd",
+      "label": "Confining-layer top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 78,
+      "code": "(a)(15).confining_layer_bottom.tvd",
+      "label": "Confining-layer bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 79,
+      "code": "(b)(1).yield_calculation_steps",
+      "label": "Cement-yield calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 80,
+      "code": "(b)(1).cement_calculation_steps",
+      "label": "Cement calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 81,
+      "code": "(b)(2).cement_job_identification",
+      "label": "Cement job identification (date or stage)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "All three cement intervals in Abandonment 00 and all four in Abandonment 01 are retained as plugs; mud is explicitly listed between plugs in both histories. Current 02 casing is described as cemented, but the casing interval and cement returns do not explicitly give the fill endpoints. The abandonment headings identify those work stages, while the current casing-cement entry has no explicitly identified cement-job name, stage, or date, so point 81 remains MISSING. Confirm whether the adjacent Redrill 02 date identifies that cement job."
+    },
+    {
+      "number": 82,
+      "code": "(b)(2).slurry_volume",
+      "label": "Slurry volume (or sacks) for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Current 02 casing cement gives volume, density, yield, type and additives, but the seven displayed historical cement intervals do not; repeated-job slurry points are MISSING."
+    },
+    {
+      "number": 83,
+      "code": "(b)(2).slurry_density",
+      "label": "Slurry density for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Current 02 casing cement gives volume, density, yield, type and additives, but the seven displayed historical cement intervals do not; repeated-job slurry points are MISSING."
+    },
+    {
+      "number": 84,
+      "code": "(b)(2).slurry_yield",
+      "label": "Slurry yield for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Current 02 casing cement gives volume, density, yield, type and additives, but the seven displayed historical cement intervals do not; repeated-job slurry points are MISSING."
+    },
+    {
+      "number": 85,
+      "code": "(b)(2).cement_type",
+      "label": "Cement type for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Current 02 casing cement gives volume, density, yield, type and additives, but the seven displayed historical cement intervals do not; repeated-job slurry points are MISSING."
+    },
+    {
+      "number": 86,
+      "code": "(b)(2).cement_additives",
+      "label": "Cement additives for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Current 02 casing cement gives volume, density, yield, type and additives, but the seven displayed historical cement intervals do not; repeated-job slurry points are MISSING."
+    },
+    {
+      "number": 87,
+      "code": "(b)(3).wellbore_path_md",
+      "label": "Wellbore path: measured depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The file identifies original 00 and redrills 01 and 02. Page 2's proposed liner belongs to 02 and is not counted as a fourth borehole. No MD/inclination/azimuth path is supplied for all three boreholes. Explicit vertical statements are absent."
+    },
+    {
+      "number": 88,
+      "code": "(b)(3).inclination",
+      "label": "Wellbore path: inclination",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The file identifies original 00 and redrills 01 and 02. Page 2's proposed liner belongs to 02 and is not counted as a fourth borehole. No MD/inclination/azimuth path is supplied for all three boreholes. Explicit vertical statements are absent."
+    },
+    {
+      "number": 89,
+      "code": "(b)(3).azimuth",
+      "label": "Wellbore path: azimuth",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The file identifies original 00 and redrills 01 and 02. Page 2's proposed liner belongs to 02 and is not counted as a fourth borehole. No MD/inclination/azimuth path is supplied for all three boreholes. Explicit vertical statements are absent."
+    },
+    {
+      "number": 90,
+      "code": "(c).borehole_designation",
+      "label": "Borehole designation (original hole, redrill, or sidetrack; conditional: multiple boreholes only)",
+      "status": "MET",
+      "displayed_answer": "Original Completion 00; Redrill 01; Redrill 02",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            399.55,
+            70.31,
+            479.32,
+            78.6
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            421.51,
+            153.49,
+            457.4,
+            161.78
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            421.51,
+            21.11,
+            457.4,
+            29.4
+          ]
+        }
+      ],
+      "note": "The file identifies original 00 and redrills 01 and 02. Page 2's proposed liner belongs to 02 and is not counted as a fourth borehole. No MD/inclination/azimuth path is supplied for all three boreholes. Explicit vertical statements are absent."
+    }
+  ],
+  "excess_data": [
+    {
+      "type": "E1",
+      "label": "Well location",
+      "count": 1,
+      "instances": [
+        {
+          "item": "county",
+          "text": "Santa Barbara",
+          "reason": "County is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            110.0,
+            107.0,
+            160.0,
+            116.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E2",
+      "label": "Historical operation dates",
+      "count": 5,
+      "instances": [
+        {
+          "item": "liner replacement 00",
+          "text": "3/27/1984",
+          "reason": "Operation date is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            110.0,
+            135.0,
+            150.0,
+            144.0
+          ]
+        },
+        {
+          "item": "abandonment 00",
+          "text": "10/9/2016",
+          "reason": "Operation date is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            110.0,
+            144.0,
+            150.0,
+            153.0
+          ]
+        },
+        {
+          "item": "redrill 01",
+          "text": "11/8/2016",
+          "reason": "Operation date is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            110.0,
+            153.0,
+            150.0,
+            162.0
+          ]
+        },
+        {
+          "item": "abandonment 01",
+          "text": "6/18/2020",
+          "reason": "Operation date is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            110.0,
+            163.0,
+            150.0,
+            172.0
+          ]
+        },
+        {
+          "item": "redrill 02",
+          "text": "10/30/2020",
+          "reason": "Operation date is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            110.0,
+            172.0,
+            150.0,
+            181.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E3",
+      "label": "Cement returns",
+      "count": 1,
+      "instances": [
+        {
+          "item": "current casing",
+          "text": "80 bbl returned to surface",
+          "reason": "Returns are not a separate scored point.",
+          "page": 1,
+          "bbox_pt": [
+            101.0,
+            373.0,
+            270.0,
+            391.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E4",
+      "label": "Slotted-liner details",
+      "count": 1,
+      "instances": [
+        {
+          "item": "slot description",
+          "text": "64R-25M-2\"S-6\"C",
+          "reason": "Slot configuration is not a separate scored point.",
+          "page": 1,
+          "bbox_pt": [
+            417.0,
+            639.0,
+            476.0,
+            648.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E5",
+      "label": "Gravel-pack details",
+      "count": 1,
+      "instances": [
+        {
+          "item": "gravel",
+          "text": "350 CF 12x20 HOT gravel",
+          "reason": "Gravel quantity and size are not scored points.",
+          "page": 1,
+          "bbox_pt": [
+            150.0,
+            720.0,
+            236.0,
+            730.0
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "item": "Drawing scale",
+      "text": "Not to scale",
+      "page": 1,
+      "bbox_pt": [
+        290.81,
+        759.77,
+        313.62,
+        764.58
+      ]
+    }
+  ],
+  "supporting_another_requirement": [],
+  "not_applicable_evidence": [],
+  "excess_total": {
+    "instances": 9,
+    "types": 5
+  },
+  "uncertain_calls": [
+    {
+      "points": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "The named Cat Canyon Resources letterhead is treated as the operator. The source API is 083-21273-02, while screening uses 0408321273; the source value is not silently normalized."
+    },
+    {
+      "points": [
+        7
+      ],
+      "reason": "The header says Kelly Bushing 13 ft, without explicitly calling it an elevation or a height above ground. The draft credits the stated reference value; verify whether it is instead a KB–ground height."
+    },
+    {
+      "points": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        55,
+        57
+      ],
+      "reason": "Page 1 describes current 02, historical 00 and 01, and page 2 explicitly adds a proposed 3.5-in liner to 02. The draft includes every represented casing and liner, including the proposed one, without treating it as completed. The current slotted-liner diameter and conductor grade, connection and weight are not stated; historical shoe depths and the old replacement liner top are not explicitly given. Proposed liner top 2,500 ft has no TVD. Thus the repeated-string points remain MISSING."
+    },
+    {
+      "points": [
+        28,
+        32
+      ],
+      "reason": "Slots and gravel pack are treated as other flow/integrity features. The torch-cut holes are in the cement basket, not explicitly casing cuts, and no MD is provided for them. The guide shoe and cement baskets are treated as other equipment."
+    },
+    {
+      "points": [
+        33,
+        34,
+        67
+      ],
+      "reason": "The surface-hole diameter is explicitly 'unknown', an answer under the presence-only rule. Historical hole intervals are included in addition to the current table; no complete corresponding TVD intervals are shown."
+    },
+    {
+      "points": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        81
+      ],
+      "reason": "All three cement intervals in Abandonment 00 and all four in Abandonment 01 are retained as plugs; mud is explicitly listed between plugs in both histories. Current 02 casing is described as cemented, but the casing interval and cement returns do not explicitly give the fill endpoints. The abandonment headings identify those work stages, while the current casing-cement entry has no explicitly identified cement-job name, stage, or date, so point 81 remains MISSING. Confirm whether the adjacent Redrill 02 date identifies that cement job."
+    },
+    {
+      "points": [
+        43,
+        44,
+        45,
+        46,
+        72,
+        73
+      ],
+      "reason": "The six S1A–S6 rows appear under Producing Zones in a column labelled Formation, so the draft credits both formation and zone points and records all MD and TVD ranges as printed. Sisquoc is a separate formation top. The S6 TVD bottom is printed as 2,990 ft; no plausibility correction is made."
+    },
+    {
+      "points": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "reason": "Current 02 casing cement gives volume, density, yield, type and additives, but the seven displayed historical cement intervals do not; repeated-job slurry points are MISSING."
+    },
+    {
+      "points": [
+        87,
+        88,
+        89,
+        90
+      ],
+      "reason": "The file identifies original 00 and redrills 01 and 02. Page 2's proposed liner belongs to 02 and is not counted as a fourth borehole. No MD/inclination/azimuth path is supplied for all three boreholes. Explicit vertical statements are absent."
+    },
+    {
+      "points": [
+        28,
+        32,
+        38
+      ],
+      "reason": "Confirm the new excess categories operation dates, slotted-liner configuration and gravel-pack details."
+    }
+  ]
+}

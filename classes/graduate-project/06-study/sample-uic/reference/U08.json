@@ -1,0 +1,2271 @@
+{
+  "diagram_id": "U08",
+  "source_pdf": "06-study/sample-uic/diagrams/U08.pdf",
+  "page_scored": 1,
+  "well": {
+    "well_name": "Santa Fe 811-B",
+    "lease_name": "Santa Fe",
+    "well_number": "811-B",
+    "api": "0403716710",
+    "operator": "BreitBurn Operating, LP",
+    "field": "Santa Fe Springs",
+    "county": "Los Angeles",
+    "district": "Southern",
+    "well_type": "WF Waterflood",
+    "well_status": "Active",
+    "uic_project": "UIC Waterflood 66600012 (Active, Injector)",
+    "wellstar_document_id": "791114",
+    "wellstar_document_date": "12/04/2022",
+    "wellstar_file_name": "Santa Fe 811-B Wellbore Diagram_Current.pdf",
+    "sha256": "DCB2B7D7538D1EAD2549BD7F0D7C8D82752B73FB91A9C88BD451E7D7298969EA"
+  },
+  "checklist_version": "v4.2",
+  "reviewer": "Lester S. Carcamo",
+  "review_date": "2026-11-18",
+  "score": {
+    "met": 44,
+    "applicable": 89,
+    "not_applicable": 1,
+    "missing": 45,
+    "percent": 49.4,
+    "subdivisions_a_d": {
+      "met": 44,
+      "of": 78,
+      "md_non_depth_met": 31,
+      "md_non_depth_of": 52,
+      "tvd_met": 13,
+      "tvd_of": 26
+    },
+    "subdivisions_b_c": {
+      "met": 0,
+      "applicable": 11
+    }
+  },
+  "points": [
+    {
+      "number": 1,
+      "code": "(a)(1).operator_name",
+      "label": "Operator name",
+      "status": "MET",
+      "displayed_answer": "BreitBurn Operating, LP",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            285.92,
+            7.35,
+            491.82,
+            27.44
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "code": "(a)(1).lease_name",
+      "label": "Lease name",
+      "status": "MET",
+      "displayed_answer": "Santa Fe Springs Unit",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            294.79,
+            27.5,
+            402.19,
+            39.76
+          ]
+        }
+      ],
+      "note": "The source says Santa Fe Springs Unit, 811B, and API 040371671000; the screening log says Santa Fe, 811-B, and API 0403716710. The displayed source values are recorded; reconcile the formatting and identity differences."
+    },
+    {
+      "number": 3,
+      "code": "(a)(1).well_number",
+      "label": "Well number",
+      "status": "MET",
+      "displayed_answer": "811B",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            136.4,
+            7.35,
+            179.42,
+            27.44
+          ]
+        }
+      ],
+      "note": "The source says Santa Fe Springs Unit, 811B, and API 040371671000; the screening log says Santa Fe, 811-B, and API 0403716710. The displayed source values are recorded; reconcile the formatting and identity differences."
+    },
+    {
+      "number": 4,
+      "code": "(a)(1).api_number",
+      "label": "API number",
+      "status": "MET",
+      "displayed_answer": "040371671000",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            179.46,
+            27.5,
+            252.72,
+            39.76
+          ]
+        }
+      ],
+      "note": "The source says Santa Fe Springs Unit, 811B, and API 040371671000; the screening log says Santa Fe, 811-B, and API 0403716710. The displayed source values are recorded; reconcile the formatting and identity differences."
+    },
+    {
+      "number": 5,
+      "code": "(a)(2).spud_date",
+      "label": "Spud date",
+      "status": "MET",
+      "displayed_answer": "12/15/1949",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            393.3,
+            119.13,
+            423.51,
+            125.83
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "code": "(a)(3).ground_elevation",
+      "label": "Ground elevation",
+      "status": "MET",
+      "displayed_answer": "GL 156 ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            114.6,
+            128.25,
+            137.95,
+            134.95
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "code": "(a)(4).reference_elevation",
+      "label": "Reference elevation",
+      "status": "MET",
+      "displayed_answer": "KB 168 ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            114.6,
+            122.25,
+            137.95,
+            128.95
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "code": "(a)(5).freshwater_base.md",
+      "label": "Base of freshwater (MD)",
+      "status": "MET",
+      "displayed_answer": "BFW estimate 1,066 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            177.95,
+            264.33,
+            191.3,
+            271.03
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "code": "(a)(6).usdw_base.md",
+      "label": "Base of lowermost USDW (MD)",
+      "status": "MET",
+      "displayed_answer": "BASE_USDW 2,224 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            188.95,
+            414.81,
+            203.96,
+            421.51
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "code": "(a)(7).casing_size",
+      "label": "Casing size",
+      "status": "MET",
+      "displayed_answer": "7, 11.75, 5.5, and 4 in",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            131.49,
+            343.66,
+            138.19
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            143.85,
+            355.0,
+            150.55
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            631.17,
+            343.41,
+            637.87
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            711.51,
+            338.37,
+            718.21
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "code": "(a)(7).casing_grade",
+      "label": "Casing grade",
+      "status": "MET",
+      "displayed_answer": "7, 11.75, 5.5, and 4 in strings: J-55",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            357.58,
+            131.49,
+            369.27,
+            138.19
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            372.29,
+            143.85,
+            383.98,
+            150.55
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            360.7,
+            631.17,
+            372.38,
+            637.87
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            363.64,
+            711.51,
+            375.32,
+            718.21
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "code": "(a)(7).connection_type",
+      "label": "Casing connection type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 13,
+      "code": "(a)(7).casing_weight",
+      "label": "Casing weight",
+      "status": "MET",
+      "displayed_answer": "7 in: 23; 11.75 in: 47#; 5.5 in: 17#; 4 in: 11.34#",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            349.2,
+            131.49,
+            355.88,
+            138.19
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            360.54,
+            143.85,
+            370.58,
+            150.55
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            348.95,
+            631.17,
+            358.99,
+            637.87
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            343.91,
+            711.51,
+            361.93,
+            718.21
+          ]
+        }
+      ],
+      "note": "The 7 in string lists 23 without an explicit unit; it is treated as the string weight from its position between size and grade. Confirm."
+    },
+    {
+      "number": 14,
+      "code": "(a)(8).shoe_depth.md",
+      "label": "Shoe depth (MD)",
+      "status": "MET",
+      "displayed_answer": "7 in: 4,343 ft; 11.75 in: 892 ft; 5.5 in liner: 4,583 ft; 4 in liner: 4,610 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            370.98,
+            131.49,
+            393.11,
+            138.19
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            385.68,
+            143.85,
+            404.45,
+            150.55
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            374.1,
+            631.17,
+            406.31,
+            637.87
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            377.04,
+            711.51,
+            409.25,
+            718.21
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "code": "(a)(8).stub_depth.md",
+      "label": "Stub depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 16,
+      "code": "(a)(8).liner_top_depth.md",
+      "label": "Liner-top depth (MD)",
+      "status": "MET",
+      "displayed_answer": "5.5 in liner: 4,272 ft; 4 in liner: 4,554 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            374.1,
+            631.17,
+            406.31,
+            637.87
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            377.04,
+            711.51,
+            409.25,
+            718.21
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "code": "(a)(9).perforation_depths.md",
+      "label": "Perforation depths (MD)",
+      "status": "MET",
+      "displayed_answer": "Perforation tops: 3,830; 3,860; 3,870; 4,010 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            587.91,
+            434.45,
+            594.61
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            398.88,
+            594.09,
+            431.09,
+            600.79
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            600.27,
+            434.45,
+            606.97
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            612.63,
+            434.45,
+            619.33
+          ]
+        }
+      ],
+      "note": "Only four lines labelled Perfs are counted as perforations. Test holes, inactive slots, and WSO are instead classified as other flow/integrity features; confirm this distinction."
+    },
+    {
+      "number": 18,
+      "code": "(a)(9).perforation_intervals.md",
+      "label": "Perforation intervals (MD)",
+      "status": "MET",
+      "displayed_answer": "Perforations: 3,830–3,860; 3,860–3,875; 3,870–3,950; 4,010–4,050 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            587.91,
+            434.45,
+            594.61
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            398.88,
+            594.09,
+            431.09,
+            600.79
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            600.27,
+            434.45,
+            606.97
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            612.63,
+            434.45,
+            619.33
+          ]
+        }
+      ],
+      "note": "Only four lines labelled Perfs are counted as perforations. Test holes, inactive slots, and WSO are instead classified as other flow/integrity features; confirm this distinction."
+    },
+    {
+      "number": 19,
+      "code": "(a)(9).open_hole_completions.md",
+      "label": "Open-hole completions (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 20,
+      "code": "(a)(9).water_shutoff_holes.md",
+      "label": "Water-shutoff holes (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "WSO is shown at 4,343 ft, but the entry does not explicitly say water-shutoff holes. The dedicated hole points are MISSING; confirm."
+    },
+    {
+      "number": 21,
+      "code": "(a)(9).cement_ports.md",
+      "label": "Cement ports (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 22,
+      "code": "(a)(9).cavity_shots.md",
+      "label": "Cavity shots (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 23,
+      "code": "(a)(9).cuts.md",
+      "label": "Cuts (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 24,
+      "code": "(a)(9).casing_damage_type",
+      "label": "Casing-damage type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 25,
+      "code": "(a)(9).casing_damage_extent.md",
+      "label": "Casing-damage extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 26,
+      "code": "(a)(9).junk_or_fish_type",
+      "label": "Junk/fish type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 27,
+      "code": "(a)(9).junk_or_fish_extent.md",
+      "label": "Junk/fish extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 28,
+      "code": "(a)(9).other_integrity_feature",
+      "label": "Other flow/integrity feature",
+      "status": "MET",
+      "displayed_answer": "Test holes at 3,803 and 3,947–3,951 ft; WSO at 4,343 ft; inactive slots at 4,346–4,544, 4,551–4,581, and 4,554–4,610 ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            575.55,
+            348.16,
+            582.25
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            606.45,
+            348.13,
+            613.15
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            649.71,
+            334.61,
+            656.41
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            662.07,
+            355.77,
+            668.77
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            692.97,
+            355.77,
+            699.67
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            705.33,
+            355.76,
+            712.03
+          ]
+        }
+      ],
+      "note": "Only four lines labelled Perfs are counted as perforations. Test holes, inactive slots, and WSO are instead classified as other flow/integrity features; confirm this distinction. Confirm the new excess categories well status, test-hole shot counts, slot dates, approvals, and mud entries outside explicit plug gaps."
+    },
+    {
+      "number": 29,
+      "code": "(a)(10).subsurface_safety_valves",
+      "label": "Subsurface safety valves",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 30,
+      "code": "(a)(10).packers",
+      "label": "Packers",
+      "status": "MET",
+      "displayed_answer": "Halliburton PLT packer",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            357.67,
+            581.73,
+            408.67,
+            588.43
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "code": "(a)(10).gas_lift_mandrels",
+      "label": "Gas-lift mandrels",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 32,
+      "code": "(a)(10).other_equipment",
+      "label": "Other equipment in the well (e.g., tubing, pumps, rods)",
+      "status": "MET",
+      "displayed_answer": "Tubing; liner hanger; Baash-Ross adapter",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            125.31,
+            338.15,
+            132.01
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            643.53,
+            353.05,
+            650.23
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            686.79,
+            341.09,
+            693.49
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "code": "(a)(11).hole_diameter",
+      "label": "Hole diameter",
+      "status": "MET",
+      "displayed_answer": "15, 10.625, 6.125, and 4.625 in holes; wall scraped to 11 in",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            156.21,
+            366.71,
+            162.91
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            251.01,
+            484.55,
+            257.71
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            668.25,
+            388.55,
+            674.95
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            717.69,
+            388.55,
+            724.39
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            357.99,
+            251.01,
+            407.49,
+            257.71
+          ]
+        }
+      ],
+      "note": "The 10.625 in hole is also described as scraped to 11 in from 4,343 to 4,402 ft. Both the section and the altered interval are listed."
+    },
+    {
+      "number": 34,
+      "code": "(a)(11).hole_depth.md",
+      "label": "Hole depth (MD)",
+      "status": "MET",
+      "displayed_answer": "Hole sections: 0–892, 892–4,402, 4,402–4,584, and 4,584–4,610 ft MD; scraped section 4,343–4,402 ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            156.21,
+            366.71,
+            162.91
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            251.01,
+            484.55,
+            257.71
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            668.25,
+            388.55,
+            674.95
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            717.69,
+            388.55,
+            724.39
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            357.99,
+            251.01,
+            407.49,
+            257.71
+          ]
+        }
+      ],
+      "note": "The 10.625 in hole is also described as scraped to 11 in from 4,343 to 4,402 ft. Both the section and the altered interval are listed."
+    },
+    {
+      "number": 35,
+      "code": "(a)(12).cement_plug_identification",
+      "label": "Cement-plug identification",
+      "status": "MET",
+      "displayed_answer": "Three cement plugs",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            618.81,
+            354.77,
+            625.51
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            624.99,
+            354.77,
+            631.69
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            680.61,
+            354.77,
+            687.31
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "code": "(a)(12).cement_plug_top.md",
+      "label": "Cement-plug top (MD)",
+      "status": "MET",
+      "displayed_answer": "Cement plug tops: 4,203; 4,272; 4,544 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            618.81,
+            533.81,
+            625.51
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            624.99,
+            533.81,
+            631.69
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            680.61,
+            533.81,
+            687.31
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "code": "(a)(12).cement_plug_bottom.md",
+      "label": "Cement-plug bottom (MD)",
+      "status": "MET",
+      "displayed_answer": "Cement plug bottoms: 4,272; 4,544; 4,610 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            618.81,
+            533.81,
+            625.51
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            624.99,
+            533.81,
+            631.69
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            680.61,
+            533.81,
+            687.31
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "code": "(a)(13).cement_fill_identification",
+      "label": "Cement-fill identification",
+      "status": "MET",
+      "displayed_answer": "Three cement fill entries: 15 in, 10.625 in, and 10.625 in",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            162.39,
+            341.07,
+            169.09
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            358.83,
+            341.06,
+            365.53
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            655.89,
+            341.06,
+            662.59
+          ]
+        }
+      ],
+      "note": "The two adjacent 10.625 in cement entries are treated as separate represented fills. The 4,343–4,402 ft entry lacks a job date/stage/name and sack count, so points 81 and 82 are MISSING. Confirm whether it belongs to the preceding 500-sack job. A separate Mud entry also says it was cemented with 85 sacks; confirm whether it represents an additional cement job rather than a mud entry. Confirm the new excess categories well status, test-hole shot counts, slot dates, approvals, and mud entries outside explicit plug gaps."
+    },
+    {
+      "number": 39,
+      "code": "(a)(13).cement_fill_top.md",
+      "label": "Cement-fill top (MD)",
+      "status": "MET",
+      "displayed_answer": "Cement fill tops: 0; 1,746; 4,343 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            430.44,
+            162.39,
+            449.21,
+            169.09
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            414.0,
+            358.83,
+            446.21,
+            365.53
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            368.46,
+            655.89,
+            400.67,
+            662.59
+          ]
+        }
+      ],
+      "note": "The two adjacent 10.625 in cement entries are treated as separate represented fills. The 4,343–4,402 ft entry lacks a job date/stage/name and sack count, so points 81 and 82 are MISSING. Confirm whether it belongs to the preceding 500-sack job. A separate Mud entry also says it was cemented with 85 sacks; confirm whether it represents an additional cement job rather than a mud entry."
+    },
+    {
+      "number": 40,
+      "code": "(a)(13).cement_fill_bottom.md",
+      "label": "Cement-fill bottom (MD)",
+      "status": "MET",
+      "displayed_answer": "Cement fill bottoms: 892; 4,343; 4,402 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            430.44,
+            162.39,
+            449.21,
+            169.09
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            414.0,
+            358.83,
+            446.21,
+            365.53
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            368.46,
+            655.89,
+            400.67,
+            662.59
+          ]
+        }
+      ],
+      "note": "The two adjacent 10.625 in cement entries are treated as separate represented fills. The 4,343–4,402 ft entry lacks a job date/stage/name and sack count, so points 81 and 82 are MISSING. Confirm whether it belongs to the preceding 500-sack job. A separate Mud entry also says it was cemented with 85 sacks; confirm whether it represents an additional cement job rather than a mud entry."
+    },
+    {
+      "number": 41,
+      "code": "(a)(14).fluid_type",
+      "label": "Fluid type between plugs",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Heavy mud is labelled in intervals that overlap cement-plug intervals; no fluid is explicitly identified as between plugs. These points are MISSING pending review, without judging the diagram's accuracy. Confirm the new excess categories well status, test-hole shot counts, slot dates, approvals, and mud entries outside explicit plug gaps."
+    },
+    {
+      "number": 42,
+      "code": "(a)(14).fluid_density",
+      "label": "Fluid density between plugs",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Heavy mud is labelled in intervals that overlap cement-plug intervals; no fluid is explicitly identified as between plugs. These points are MISSING pending review, without judging the diagram's accuracy."
+    },
+    {
+      "number": 43,
+      "code": "(a)(15).formation_names",
+      "label": "Formation names",
+      "status": "MET",
+      "displayed_answer": "MEYER SHALE",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            114.6,
+            663.27,
+            157.28,
+            669.97
+          ]
+        }
+      ],
+      "note": "MEYER SHALE is counted as a formation; the UHZ, FOIX, BELL, and MEYER entries are counted as markers. Confirm which other named markers also qualify as formations or zones."
+    },
+    {
+      "number": 44,
+      "code": "(a)(15).formation_depths.md",
+      "label": "Formation depths (MD)",
+      "status": "MET",
+      "displayed_answer": "MEYER SHALE: 4,159 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            162.61,
+            663.27,
+            177.62,
+            669.97
+          ]
+        }
+      ],
+      "note": "MEYER SHALE is counted as a formation; the UHZ, FOIX, BELL, and MEYER entries are counted as markers. Confirm which other named markers also qualify as formations or zones."
+    },
+    {
+      "number": 45,
+      "code": "(a)(15).zone_names",
+      "label": "Zone names",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The four perforation labels say Bell INJ, but do not explicitly label a zone name and separate injection-zone top/bottom entries. Those zone points are MISSING pending review."
+    },
+    {
+      "number": 46,
+      "code": "(a)(15).zone_depths.md",
+      "label": "Zone depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The four perforation labels say Bell INJ, but do not explicitly label a zone name and separate injection-zone top/bottom entries. Those zone points are MISSING pending review."
+    },
+    {
+      "number": 47,
+      "code": "(a)(15).marker_names",
+      "label": "Marker names",
+      "status": "MET",
+      "displayed_answer": "UHZ_100–500; FOIX_100–200; BELL_100–300; MEYER SHALE; MEYER_100–300",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            114.0,
+            414.0,
+            205.0,
+            709.0
+          ]
+        }
+      ],
+      "note": "MEYER SHALE is counted as a formation; the UHZ, FOIX, BELL, and MEYER entries are counted as markers. Confirm which other named markers also qualify as formations or zones."
+    },
+    {
+      "number": 48,
+      "code": "(a)(15).marker_depths.md",
+      "label": "Marker depths (MD)",
+      "status": "MET",
+      "displayed_answer": "UHZ_100 2,224; UHZ_200 2,704; UHZ_300 2,991; UHZ_400 3,280; UHZ_500 3,449; FOIX_100 3,592; FOIX_200 3,663; BELL_100 3,742; BELL_200 3,816; BELL_300 3,971; MEYER SHALE 4,159; MEYER_100 4,162; MEYER_200 4,338; MEYER_300 4,433 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            114.0,
+            414.0,
+            205.0,
+            709.0
+          ]
+        }
+      ],
+      "note": "MEYER SHALE is counted as a formation; the UHZ, FOIX, BELL, and MEYER entries are counted as markers. Confirm which other named markers also qualify as formations or zones."
+    },
+    {
+      "number": 49,
+      "code": "(a)(15).injection_zone_top.md",
+      "label": "Injection-zone top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The four perforation labels say Bell INJ, but do not explicitly label a zone name and separate injection-zone top/bottom entries. Those zone points are MISSING pending review."
+    },
+    {
+      "number": 50,
+      "code": "(a)(15).injection_zone_bottom.md",
+      "label": "Injection-zone bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The four perforation labels say Bell INJ, but do not explicitly label a zone name and separate injection-zone top/bottom entries. Those zone points are MISSING pending review."
+    },
+    {
+      "number": 51,
+      "code": "(a)(15).confining_layer_top.md",
+      "label": "Confining-layer top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 52,
+      "code": "(a)(15).confining_layer_bottom.md",
+      "label": "Confining-layer bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 53,
+      "code": "(a)(5).freshwater_base.tvd",
+      "label": "Base of freshwater (TVD)",
+      "status": "MET",
+      "displayed_answer": "BFW estimate 1,066 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            177.95,
+            264.33,
+            191.3,
+            271.03
+          ]
+        }
+      ],
+      "note": "The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 54,
+      "code": "(a)(6).usdw_base.tvd",
+      "label": "Base of lowermost USDW (TVD)",
+      "status": "MET",
+      "displayed_answer": "BASE_USDW 2,224 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            188.95,
+            414.81,
+            203.96,
+            421.51
+          ]
+        }
+      ],
+      "note": "The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 55,
+      "code": "(a)(8).shoe_depth.tvd",
+      "label": "Shoe depth (TVD)",
+      "status": "MET",
+      "displayed_answer": "String shoes: 4,343; 892; 4,583; 4,610 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            370.98,
+            131.49,
+            393.11,
+            138.19
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            385.68,
+            143.85,
+            404.45,
+            150.55
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            374.1,
+            631.17,
+            406.31,
+            637.87
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            377.04,
+            711.51,
+            409.25,
+            718.21
+          ]
+        }
+      ],
+      "note": "The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 56,
+      "code": "(a)(8).stub_depth.tvd",
+      "label": "Stub depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 57,
+      "code": "(a)(8).liner_top_depth.tvd",
+      "label": "Liner-top depth (TVD)",
+      "status": "MET",
+      "displayed_answer": "Liner tops: 4,272 and 4,554 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            374.1,
+            631.17,
+            406.31,
+            637.87
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            377.04,
+            711.51,
+            409.25,
+            718.21
+          ]
+        }
+      ],
+      "note": "The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 58,
+      "code": "(a)(9).perforation_depths.tvd",
+      "label": "Perforation depths (TVD)",
+      "status": "MET",
+      "displayed_answer": "Perforation tops: 3,830; 3,860; 3,870; 4,010 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            587.91,
+            434.45,
+            594.61
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            398.88,
+            594.09,
+            431.09,
+            600.79
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            600.27,
+            434.45,
+            606.97
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            612.63,
+            434.45,
+            619.33
+          ]
+        }
+      ],
+      "note": "Only four lines labelled Perfs are counted as perforations. Test holes, inactive slots, and WSO are instead classified as other flow/integrity features; confirm this distinction. The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 59,
+      "code": "(a)(9).perforation_intervals.tvd",
+      "label": "Perforation intervals (TVD)",
+      "status": "MET",
+      "displayed_answer": "Perforations: 3,830–3,860; 3,860–3,875; 3,870–3,950; 4,010–4,050 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            587.91,
+            434.45,
+            594.61
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            398.88,
+            594.09,
+            431.09,
+            600.79
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            600.27,
+            434.45,
+            606.97
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            402.24,
+            612.63,
+            434.45,
+            619.33
+          ]
+        }
+      ],
+      "note": "Only four lines labelled Perfs are counted as perforations. Test holes, inactive slots, and WSO are instead classified as other flow/integrity features; confirm this distinction. The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 60,
+      "code": "(a)(9).open_hole_completions.tvd",
+      "label": "Open-hole completions (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 61,
+      "code": "(a)(9).water_shutoff_holes.tvd",
+      "label": "Water-shutoff holes (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "WSO is shown at 4,343 ft, but the entry does not explicitly say water-shutoff holes. The dedicated hole points are MISSING; confirm."
+    },
+    {
+      "number": 62,
+      "code": "(a)(9).cement_ports.tvd",
+      "label": "Cement ports (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 63,
+      "code": "(a)(9).cavity_shots.tvd",
+      "label": "Cavity shots (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 64,
+      "code": "(a)(9).cuts.tvd",
+      "label": "Cuts (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 65,
+      "code": "(a)(9).casing_damage_extent.tvd",
+      "label": "Casing-damage extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 66,
+      "code": "(a)(9).junk_or_fish_extent.tvd",
+      "label": "Junk/fish extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 67,
+      "code": "(a)(11).hole_depth.tvd",
+      "label": "Hole depth (TVD)",
+      "status": "MET",
+      "displayed_answer": "Hole sections: 0–892, 892–4,402, 4,402–4,584, and 4,584–4,610 ft TVD; scraped section 4,343–4,402 ft (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            156.21,
+            366.71,
+            162.91
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            251.01,
+            484.55,
+            257.71
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            668.25,
+            388.55,
+            674.95
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            318.3,
+            717.69,
+            388.55,
+            724.39
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            357.99,
+            251.01,
+            407.49,
+            257.71
+          ]
+        }
+      ],
+      "note": "The 10.625 in hole is also described as scraped to 11 in from 4,343 to 4,402 ft. Both the section and the altered interval are listed. The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 68,
+      "code": "(a)(12).cement_plug_top.tvd",
+      "label": "Cement-plug top (TVD)",
+      "status": "MET",
+      "displayed_answer": "Cement plug tops: 4,203; 4,272; 4,544 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            618.81,
+            533.81,
+            625.51
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            624.99,
+            533.81,
+            631.69
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            680.61,
+            533.81,
+            687.31
+          ]
+        }
+      ],
+      "note": "The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 69,
+      "code": "(a)(12).cement_plug_bottom.tvd",
+      "label": "Cement-plug bottom (TVD)",
+      "status": "MET",
+      "displayed_answer": "Cement plug bottoms: 4,272; 4,544; 4,610 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            618.81,
+            533.81,
+            625.51
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            624.99,
+            533.81,
+            631.69
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            501.6,
+            680.61,
+            533.81,
+            687.31
+          ]
+        }
+      ],
+      "note": "The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 70,
+      "code": "(a)(13).cement_fill_top.tvd",
+      "label": "Cement-fill top (TVD)",
+      "status": "MET",
+      "displayed_answer": "Cement fill tops: 0; 1,746; 4,343 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            430.44,
+            162.39,
+            449.21,
+            169.09
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            414.0,
+            358.83,
+            446.21,
+            365.53
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            368.46,
+            655.89,
+            400.67,
+            662.59
+          ]
+        }
+      ],
+      "note": "The two adjacent 10.625 in cement entries are treated as separate represented fills. The 4,343–4,402 ft entry lacks a job date/stage/name and sack count, so points 81 and 82 are MISSING. Confirm whether it belongs to the preceding 500-sack job. A separate Mud entry also says it was cemented with 85 sacks; confirm whether it represents an additional cement job rather than a mud entry. The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 71,
+      "code": "(a)(13).cement_fill_bottom.tvd",
+      "label": "Cement-fill bottom (TVD)",
+      "status": "MET",
+      "displayed_answer": "Cement fill bottoms: 892; 4,343; 4,402 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            430.44,
+            162.39,
+            449.21,
+            169.09
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            414.0,
+            358.83,
+            446.21,
+            365.53
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            368.46,
+            655.89,
+            400.67,
+            662.59
+          ]
+        }
+      ],
+      "note": "The two adjacent 10.625 in cement entries are treated as separate represented fills. The 4,343–4,402 ft entry lacks a job date/stage/name and sack count, so points 81 and 82 are MISSING. Confirm whether it belongs to the preceding 500-sack job. A separate Mud entry also says it was cemented with 85 sacks; confirm whether it represents an additional cement job rather than a mud entry. The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 72,
+      "code": "(a)(15).formation_depths.tvd",
+      "label": "Formation depths (TVD)",
+      "status": "MET",
+      "displayed_answer": "MEYER SHALE: 4,159 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            162.61,
+            663.27,
+            177.62,
+            669.97
+          ]
+        }
+      ],
+      "note": "MEYER SHALE is counted as a formation; the UHZ, FOIX, BELL, and MEYER entries are counted as markers. Confirm which other named markers also qualify as formations or zones. The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 73,
+      "code": "(a)(15).zone_depths.tvd",
+      "label": "Zone depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The four perforation labels say Bell INJ, but do not explicitly label a zone name and separate injection-zone top/bottom entries. Those zone points are MISSING pending review."
+    },
+    {
+      "number": 74,
+      "code": "(a)(15).marker_depths.tvd",
+      "label": "Marker depths (TVD)",
+      "status": "MET",
+      "displayed_answer": "UHZ_100 2,224; UHZ_200 2,704; UHZ_300 2,991; UHZ_400 3,280; UHZ_500 3,449; FOIX_100 3,592; FOIX_200 3,663; BELL_100 3,742; BELL_200 3,816; BELL_300 3,971; MEYER SHALE 4,159; MEYER_100 4,162; MEYER_200 4,338; MEYER_300 4,433 ft TVD (MD=TVD)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            114.0,
+            414.0,
+            205.0,
+            709.0
+          ]
+        }
+      ],
+      "note": "MEYER SHALE is counted as a formation; the UHZ, FOIX, BELL, and MEYER entries are counted as markers. Confirm which other named markers also qualify as formations or zones. The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "number": 75,
+      "code": "(a)(15).injection_zone_top.tvd",
+      "label": "Injection-zone top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The four perforation labels say Bell INJ, but do not explicitly label a zone name and separate injection-zone top/bottom entries. Those zone points are MISSING pending review."
+    },
+    {
+      "number": 76,
+      "code": "(a)(15).injection_zone_bottom.tvd",
+      "label": "Injection-zone bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The four perforation labels say Bell INJ, but do not explicitly label a zone name and separate injection-zone top/bottom entries. Those zone points are MISSING pending review."
+    },
+    {
+      "number": 77,
+      "code": "(a)(15).confining_layer_top.tvd",
+      "label": "Confining-layer top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 78,
+      "code": "(a)(15).confining_layer_bottom.tvd",
+      "label": "Confining-layer bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 79,
+      "code": "(b)(1).yield_calculation_steps",
+      "label": "Cement-yield calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 80,
+      "code": "(b)(1).cement_calculation_steps",
+      "label": "Cement calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 81,
+      "code": "(b)(2).cement_job_identification",
+      "label": "Cement job identification (date or stage)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The two adjacent 10.625 in cement entries are treated as separate represented fills. The 4,343–4,402 ft entry lacks a job date/stage/name and sack count, so points 81 and 82 are MISSING. Confirm whether it belongs to the preceding 500-sack job. A separate Mud entry also says it was cemented with 85 sacks; confirm whether it represents an additional cement job rather than a mud entry."
+    },
+    {
+      "number": 82,
+      "code": "(b)(2).slurry_volume",
+      "label": "Slurry volume (or sacks) for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The two adjacent 10.625 in cement entries are treated as separate represented fills. The 4,343–4,402 ft entry lacks a job date/stage/name and sack count, so points 81 and 82 are MISSING. Confirm whether it belongs to the preceding 500-sack job. A separate Mud entry also says it was cemented with 85 sacks; confirm whether it represents an additional cement job rather than a mud entry."
+    },
+    {
+      "number": 83,
+      "code": "(b)(2).slurry_density",
+      "label": "Slurry density for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 84,
+      "code": "(b)(2).slurry_yield",
+      "label": "Slurry yield for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 85,
+      "code": "(b)(2).cement_type",
+      "label": "Cement type for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 86,
+      "code": "(b)(2).cement_additives",
+      "label": "Cement additives for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 87,
+      "code": "(b)(3).wellbore_path_md",
+      "label": "Wellbore path: measured depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "MD=TVD is not an explicit vertical/straight statement or a directional survey, so wellbore-path MD, inclination, and azimuth remain MISSING. Confirm."
+    },
+    {
+      "number": 88,
+      "code": "(b)(3).inclination",
+      "label": "Wellbore path: inclination",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "MD=TVD is not an explicit vertical/straight statement or a directional survey, so wellbore-path MD, inclination, and azimuth remain MISSING. Confirm."
+    },
+    {
+      "number": 89,
+      "code": "(b)(3).azimuth",
+      "label": "Wellbore path: azimuth",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "MD=TVD is not an explicit vertical/straight statement or a directional survey, so wellbore-path MD, inclination, and azimuth remain MISSING. Confirm."
+    },
+    {
+      "number": 90,
+      "code": "(c).borehole_designation",
+      "label": "Borehole designation (original hole, redrill, or sidetrack; conditional: multiple boreholes only)",
+      "status": "NOT_APPLICABLE",
+      "displayed_answer": null,
+      "locations": []
+    }
+  ],
+  "excess_data": [
+    {
+      "type": "E1",
+      "label": "Well status",
+      "count": 1,
+      "instances": [
+        {
+          "item": "status",
+          "text": "Injecting",
+          "reason": "Well status is not one of the scored points.",
+          "page": 1,
+          "bbox_pt": [
+            405.25,
+            27.5,
+            483.37,
+            39.76
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E2",
+      "label": "Perforation shot density",
+      "count": 4,
+      "instances": [
+        {
+          "item": "perforation 1",
+          "text": "4 SPF",
+          "reason": "Shot density is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            383.8,
+            587.91,
+            400.54,
+            594.61
+          ]
+        },
+        {
+          "item": "perforation 2",
+          "text": "4 SPF",
+          "reason": "Shot density is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            380.47,
+            594.09,
+            397.19,
+            600.79
+          ]
+        },
+        {
+          "item": "perforation 3",
+          "text": "4 SPF",
+          "reason": "Shot density is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            383.8,
+            600.27,
+            400.54,
+            606.97
+          ]
+        },
+        {
+          "item": "perforation 4",
+          "text": "4 SPF",
+          "reason": "Shot density is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            383.8,
+            612.63,
+            400.54,
+            619.33
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E3",
+      "label": "Test-hole shot counts",
+      "count": 2,
+      "instances": [
+        {
+          "item": "test holes at 3,803 ft",
+          "text": "4 holes",
+          "reason": "Shot count is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            370.43,
+            575.55,
+            403.97,
+            582.25
+          ]
+        },
+        {
+          "item": "test holes at 3,947–3,951 ft",
+          "text": "8 holes",
+          "reason": "Shot count is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            373.81,
+            606.45,
+            407.33,
+            613.15
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E4",
+      "label": "Inactive-slot dates",
+      "count": 3,
+      "instances": [
+        {
+          "item": "5.5 in slots",
+          "text": "12/30/1949–2/7/1955",
+          "reason": "Slot active dates are not scored.",
+          "page": 1,
+          "bbox_pt": [
+            390.69,
+            662.07,
+            449.73,
+            668.77
+          ]
+        },
+        {
+          "item": "5.5 in slots",
+          "text": "12/30/1949–6/9/1951",
+          "reason": "Slot active dates are not scored.",
+          "page": 1,
+          "bbox_pt": [
+            390.69,
+            692.97,
+            449.73,
+            699.67
+          ]
+        },
+        {
+          "item": "4 in slots",
+          "text": "6/10/1951–2/7/1955",
+          "reason": "Slot active dates are not scored.",
+          "page": 1,
+          "bbox_pt": [
+            385.67,
+            705.33,
+            441.32,
+            712.03
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E5",
+      "label": "Regulatory approvals",
+      "count": 4,
+      "instances": [
+        {
+          "item": "approval 1",
+          "text": "approved by DOGGR",
+          "reason": "An approval statement is not a scored data point.",
+          "page": 1,
+          "bbox_pt": [
+            442.48,
+            618.81,
+            499.92,
+            625.51
+          ]
+        },
+        {
+          "item": "approval 2",
+          "text": "approved by DOGGR",
+          "reason": "An approval statement is not a scored data point.",
+          "page": 1,
+          "bbox_pt": [
+            442.48,
+            624.99,
+            499.92,
+            631.69
+          ]
+        },
+        {
+          "item": "approval 3",
+          "text": "approved by DOGGR",
+          "reason": "An approval statement is not a scored data point.",
+          "page": 1,
+          "bbox_pt": [
+            344.82,
+            649.71,
+            402.9,
+            656.41
+          ]
+        },
+        {
+          "item": "approval 4",
+          "text": "approved by DOGGR",
+          "reason": "An approval statement is not a scored data point.",
+          "page": 1,
+          "bbox_pt": [
+            442.48,
+            680.61,
+            499.92,
+            687.31
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E6",
+      "label": "Mud types outside explicit plug gaps",
+      "count": 3,
+      "instances": [
+        {
+          "item": "heavy mud entry 1",
+          "text": "Heavy Mud",
+          "reason": "The entry is not explicitly identified as fluid between plugs.",
+          "page": 1,
+          "bbox_pt": [
+            353.98,
+            637.35,
+            384.28,
+            644.05
+          ]
+        },
+        {
+          "item": "heavy mud entry 2",
+          "text": "Heavy Mud",
+          "reason": "The entry is not explicitly identified as fluid between plugs.",
+          "page": 1,
+          "bbox_pt": [
+            353.98,
+            674.43,
+            384.28,
+            681.13
+          ]
+        },
+        {
+          "item": "heavy mud entry 3",
+          "text": "Heavy Mud",
+          "reason": "The entry is not explicitly identified as fluid between plugs.",
+          "page": 1,
+          "bbox_pt": [
+            353.98,
+            723.87,
+            384.28,
+            730.57
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "item": "Preparer/reviewer",
+      "text": "LWillbanks",
+      "page": 1,
+      "bbox_pt": [
+        360.17,
+        150.03,
+        397.09,
+        156.73
+      ]
+    },
+    {
+      "item": "Review date",
+      "text": "3/3/2015",
+      "page": 1,
+      "bbox_pt": [
+        400.74,
+        150.03,
+        424.23,
+        156.73
+      ]
+    }
+  ],
+  "supporting_another_requirement": [],
+  "not_applicable_evidence": [
+    {
+      "point": 90,
+      "item": "One borehole is depicted",
+      "text": "One borehole is depicted",
+      "page": 1,
+      "bbox_pt": [
+        201.0,
+        120.0,
+        317.0,
+        735.0
+      ]
+    }
+  ],
+  "excess_total": {
+    "instances": 17,
+    "types": 6
+  },
+  "uncertain_calls": [
+    {
+      "points": [
+        2,
+        3,
+        4
+      ],
+      "reason": "The source says Santa Fe Springs Unit, 811B, and API 040371671000; the screening log says Santa Fe, 811-B, and API 0403716710. The displayed source values are recorded; reconcile the formatting and identity differences."
+    },
+    {
+      "points": [
+        13
+      ],
+      "reason": "The 7 in string lists 23 without an explicit unit; it is treated as the string weight from its position between size and grade. Confirm."
+    },
+    {
+      "points": [
+        17,
+        18,
+        28,
+        58,
+        59
+      ],
+      "reason": "Only four lines labelled Perfs are counted as perforations. Test holes, inactive slots, and WSO are instead classified as other flow/integrity features; confirm this distinction."
+    },
+    {
+      "points": [
+        20,
+        61
+      ],
+      "reason": "WSO is shown at 4,343 ft, but the entry does not explicitly say water-shutoff holes. The dedicated hole points are MISSING; confirm."
+    },
+    {
+      "points": [
+        33,
+        34,
+        67
+      ],
+      "reason": "The 10.625 in hole is also described as scraped to 11 in from 4,343 to 4,402 ft. Both the section and the altered interval are listed."
+    },
+    {
+      "points": [
+        38,
+        39,
+        40,
+        70,
+        71,
+        81,
+        82
+      ],
+      "reason": "The two adjacent 10.625 in cement entries are treated as separate represented fills. The 4,343–4,402 ft entry lacks a job date/stage/name and sack count, so points 81 and 82 are MISSING. Confirm whether it belongs to the preceding 500-sack job. A separate Mud entry also says it was cemented with 85 sacks; confirm whether it represents an additional cement job rather than a mud entry."
+    },
+    {
+      "points": [
+        41,
+        42
+      ],
+      "reason": "Heavy mud is labelled in intervals that overlap cement-plug intervals; no fluid is explicitly identified as between plugs. These points are MISSING pending review, without judging the diagram's accuracy."
+    },
+    {
+      "points": [
+        43,
+        44,
+        47,
+        48,
+        72,
+        74
+      ],
+      "reason": "MEYER SHALE is counted as a formation; the UHZ, FOIX, BELL, and MEYER entries are counted as markers. Confirm which other named markers also qualify as formations or zones."
+    },
+    {
+      "points": [
+        45,
+        46,
+        49,
+        50,
+        73,
+        75,
+        76
+      ],
+      "reason": "The four perforation labels say Bell INJ, but do not explicitly label a zone name and separate injection-zone top/bottom entries. Those zone points are MISSING pending review."
+    },
+    {
+      "points": [
+        53,
+        54,
+        55,
+        57,
+        58,
+        59,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        74
+      ],
+      "reason": "The source prominently states MD=TVD; each displayed depth is therefore also recorded for its separate TVD point. Confirm that this global equality satisfies the separate-TVD rule."
+    },
+    {
+      "points": [
+        87,
+        88,
+        89
+      ],
+      "reason": "MD=TVD is not an explicit vertical/straight statement or a directional survey, so wellbore-path MD, inclination, and azimuth remain MISSING. Confirm."
+    },
+    {
+      "points": [
+        28,
+        38,
+        41
+      ],
+      "reason": "Confirm the new excess categories well status, test-hole shot counts, slot dates, approvals, and mud entries outside explicit plug gaps."
+    }
+  ]
+}

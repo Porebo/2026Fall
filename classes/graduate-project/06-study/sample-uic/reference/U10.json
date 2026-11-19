@@ -1,0 +1,1734 @@
+{
+  "diagram_id": "U10",
+  "source_pdf": "06-study/sample-uic/diagrams/U10.pdf",
+  "page_scored": 1,
+  "well": {
+    "well_name": "Unspecified 232X",
+    "lease_name": "Unspecified",
+    "well_number": "232X",
+    "api": "0403064787",
+    "operator": "Seneca Resources",
+    "field": "Midway-Sunset",
+    "county": "Kern",
+    "district": "Central",
+    "well_type": "SC Cyclic Steam",
+    "well_status": "Active",
+    "uic_project": "UIC Steamflood 46400273 (Active, Injector)",
+    "wellstar_document_id": "258202",
+    "wellstar_document_date": "07/17/2019",
+    "wellstar_file_name": "b25fe3db-55af-4f42-8adf-7fb2340c7a79_232X WBD.pdf",
+    "sha256": "2071520D68BBB7F381E1C94E6F2EC04E2EF0AB90C61C911045EB1C93FA7AEA54"
+  },
+  "checklist_version": "v4.2",
+  "reviewer": "Lester S. Carcamo",
+  "review_date": "2026-11-18",
+  "score": {
+    "met": 28,
+    "applicable": 89,
+    "not_applicable": 1,
+    "missing": 61,
+    "percent": 31.5,
+    "subdivisions_a_d": {
+      "met": 26,
+      "of": 78,
+      "md_non_depth_met": 19,
+      "md_non_depth_of": 52,
+      "tvd_met": 7,
+      "tvd_of": 26
+    },
+    "subdivisions_b_c": {
+      "met": 2,
+      "applicable": 11
+    }
+  },
+  "points": [
+    {
+      "number": 1,
+      "code": "(a)(1).operator_name",
+      "label": "Operator name",
+      "status": "MET",
+      "displayed_answer": "SENECA RESOURCES (logo)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            33.0,
+            32.0,
+            158.0,
+            85.0
+          ]
+        }
+      ],
+      "note": "The operator appears in a Seneca Resources logo; the source says well name SUNSET 232X but has no separately labelled lease. It prints API 03064787 while the screening log uses 0403064787. Confirm the logo and identity interpretation without replacing the displayed source values."
+    },
+    {
+      "number": 2,
+      "code": "(a)(1).lease_name",
+      "label": "Lease name",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "The operator appears in a Seneca Resources logo; the source says well name SUNSET 232X but has no separately labelled lease. It prints API 03064787 while the screening log uses 0403064787. Confirm the logo and identity interpretation without replacing the displayed source values."
+    },
+    {
+      "number": 3,
+      "code": "(a)(1).well_number",
+      "label": "Well number",
+      "status": "MET",
+      "displayed_answer": "232X (in well name SUNSET 232X)",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            75.8,
+            109.4,
+            98.9,
+            120.2
+          ]
+        }
+      ],
+      "note": "The operator appears in a Seneca Resources logo; the source says well name SUNSET 232X but has no separately labelled lease. It prints API 03064787 while the screening log uses 0403064787. Confirm the logo and identity interpretation without replacing the displayed source values."
+    },
+    {
+      "number": 4,
+      "code": "(a)(1).api_number",
+      "label": "API number",
+      "status": "MET",
+      "displayed_answer": "03064787",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            218.42,
+            109.41,
+            262.5,
+            120.2
+          ]
+        }
+      ],
+      "note": "The operator appears in a Seneca Resources logo; the source says well name SUNSET 232X but has no separately labelled lease. It prints API 03064787 while the screening log uses 0403064787. Confirm the logo and identity interpretation without replacing the displayed source values."
+    },
+    {
+      "number": 5,
+      "code": "(a)(2).spud_date",
+      "label": "Spud date",
+      "status": "MET",
+      "displayed_answer": "1/24/2019",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            589.83,
+            132.04,
+            633.92,
+            142.83
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "code": "(a)(3).ground_elevation",
+      "label": "Ground elevation",
+      "status": "MET",
+      "displayed_answer": "Ground elevation 914 ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            218.42,
+            132.04,
+            234.85,
+            142.83
+          ]
+        }
+      ],
+      "note": "Ground elevation is 914 ft and KB-ground distance is 14 ft, but the source does not separately state absolute KB elevation. It is not calculated."
+    },
+    {
+      "number": 7,
+      "code": "(a)(4).reference_elevation",
+      "label": "Reference elevation",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Ground elevation is 914 ft and KB-ground distance is 14 ft, but the source does not separately state absolute KB elevation. It is not calculated."
+    },
+    {
+      "number": 8,
+      "code": "(a)(5).freshwater_base.md",
+      "label": "Base of freshwater (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 9,
+      "code": "(a)(6).usdw_base.md",
+      "label": "Base of lowermost USDW (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 10,
+      "code": "(a)(7).casing_size",
+      "label": "Casing size",
+      "status": "MET",
+      "displayed_answer": "Conductor 14 in; surface 7 in; liner 5 1/2 in",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            570.4,
+            266.9,
+            581.3,
+            277.7
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            573.2,
+            326.3,
+            578.6,
+            337.1
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            564.9,
+            385.8,
+            586.9,
+            396.5
+          ]
+        }
+      ],
+      "note": "Confirm the new excess categories well status, casing inside diameters and string lengths, slot specifications, and cement-top method."
+    },
+    {
+      "number": 11,
+      "code": "(a)(7).casing_grade",
+      "label": "Casing grade",
+      "status": "MET",
+      "displayed_answer": "Conductor, surface, and liner: K-55",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            730.9,
+            266.91,
+            751.76,
+            277.7
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            730.9,
+            326.33,
+            751.76,
+            337.12
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            730.9,
+            385.75,
+            751.76,
+            396.54
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "code": "(a)(7).connection_type",
+      "label": "Casing connection type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 13,
+      "code": "(a)(7).casing_weight",
+      "label": "Casing weight",
+      "status": "MET",
+      "displayed_answer": "Conductor 36.75; surface 23.00; liner 17.00 lb/ft",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            669.11,
+            266.91,
+            693.84,
+            277.7
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            669.11,
+            326.33,
+            693.84,
+            337.12
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            669.11,
+            385.75,
+            693.84,
+            396.54
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "code": "(a)(8).shoe_depth.md",
+      "label": "Shoe depth (MD)",
+      "status": "MET",
+      "displayed_answer": "Conductor 94 ft; surface 430 ft; liner 581 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            643.4,
+            289.5,
+            654.3,
+            300.3
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            637.9,
+            349.0,
+            654.3,
+            359.8
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            637.9,
+            408.4,
+            654.3,
+            419.2
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "code": "(a)(8).stub_depth.md",
+      "label": "Stub depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 16,
+      "code": "(a)(8).liner_top_depth.md",
+      "label": "Liner-top depth (MD)",
+      "status": "MET",
+      "displayed_answer": "Liner top 393 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            522.89,
+            408.39,
+            539.32,
+            419.17
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "code": "(a)(9).perforation_depths.md",
+      "label": "Perforation depths (MD)",
+      "status": "MET",
+      "displayed_answer": "Semi-perf and slotted-liner tops: 405.2 and 427.2 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            651.1,
+            454.6,
+            738.1,
+            465.4
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            651.1,
+            468.7,
+            738.1,
+            479.5
+          ]
+        }
+      ],
+      "note": "One slotted section is labelled Semi Perf; both slots rows have a Perf Rows column. The draft treats both intervals as perforation intervals and records the slotted liner as another flow/integrity feature. Confirm this classification."
+    },
+    {
+      "number": 18,
+      "code": "(a)(9).perforation_intervals.md",
+      "label": "Perforation intervals (MD)",
+      "status": "MET",
+      "displayed_answer": "Semi-perf 405.2–427.2 ft; slotted liner 427.2–578.7 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            651.1,
+            454.6,
+            738.1,
+            465.4
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            651.1,
+            468.7,
+            738.1,
+            479.5
+          ]
+        }
+      ],
+      "note": "One slotted section is labelled Semi Perf; both slots rows have a Perf Rows column. The draft treats both intervals as perforation intervals and records the slotted liner as another flow/integrity feature. Confirm this classification."
+    },
+    {
+      "number": 19,
+      "code": "(a)(9).open_hole_completions.md",
+      "label": "Open-hole completions (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Underreamed is a named wellbore section, not an explicit open-hole completion. Both surface and underreamed sections end at 581 ft MD."
+    },
+    {
+      "number": 20,
+      "code": "(a)(9).water_shutoff_holes.md",
+      "label": "Water-shutoff holes (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 21,
+      "code": "(a)(9).cement_ports.md",
+      "label": "Cement ports (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 22,
+      "code": "(a)(9).cavity_shots.md",
+      "label": "Cavity shots (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 23,
+      "code": "(a)(9).cuts.md",
+      "label": "Cuts (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 24,
+      "code": "(a)(9).casing_damage_type",
+      "label": "Casing-damage type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 25,
+      "code": "(a)(9).casing_damage_extent.md",
+      "label": "Casing-damage extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 26,
+      "code": "(a)(9).junk_or_fish_type",
+      "label": "Junk/fish type",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 27,
+      "code": "(a)(9).junk_or_fish_extent.md",
+      "label": "Junk/fish extent (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 28,
+      "code": "(a)(9).other_integrity_feature",
+      "label": "Other flow/integrity feature",
+      "status": "MET",
+      "displayed_answer": "Semi-perf and slotted-liner sections",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            262.46,
+            495.16,
+            347.52,
+            504.15
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            262.46,
+            667.75,
+            311.18,
+            676.74
+          ]
+        }
+      ],
+      "note": "One slotted section is labelled Semi Perf; both slots rows have a Perf Rows column. The draft treats both intervals as perforation intervals and records the slotted liner as another flow/integrity feature. Confirm this classification. Confirm the new excess categories well status, casing inside diameters and string lengths, slot specifications, and cement-top method."
+    },
+    {
+      "number": 29,
+      "code": "(a)(10).subsurface_safety_valves",
+      "label": "Subsurface safety valves",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 30,
+      "code": "(a)(10).packers",
+      "label": "Packers",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 31,
+      "code": "(a)(10).gas_lift_mandrels",
+      "label": "Gas-lift mandrels",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 32,
+      "code": "(a)(10).other_equipment",
+      "label": "Other equipment in the well (e.g., tubing, pumps, rods)",
+      "status": "MET",
+      "displayed_answer": "Fatigue nipple, tubing, steel seal adapter, guide shoe, pump barrel, and circulating shoe",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            262.46,
+            277.29,
+            318.08,
+            286.28
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            262.46,
+            387.64,
+            289.98,
+            396.63
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            262.46,
+            422.53,
+            333.74,
+            431.52
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            262.46,
+            567.78,
+            308.4,
+            576.77
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            262.46,
+            791.3,
+            310.71,
+            800.29
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            262.46,
+            929.95,
+            325.43,
+            938.94
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "code": "(a)(11).hole_diameter",
+      "label": "Hole diameter",
+      "status": "MET",
+      "displayed_answer": "Conductor section 14 in; surface 9 7/8 in; underreamed section 13 in",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            598.2,
+            171.7,
+            609.1,
+            182.4
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            592.72,
+            194.29,
+            614.7,
+            205.08
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            598.2,
+            216.9,
+            609.1,
+            227.7
+          ]
+        }
+      ],
+      "note": "Underreamed is a named wellbore section, not an explicit open-hole completion. Both surface and underreamed sections end at 581 ft MD."
+    },
+    {
+      "number": 34,
+      "code": "(a)(11).hole_depth.md",
+      "label": "Hole depth (MD)",
+      "status": "MET",
+      "displayed_answer": "Conductor bottom 94 ft; surface and underreamed bottoms 581 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            758.4,
+            171.7,
+            769.3,
+            182.4
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            752.9,
+            194.3,
+            769.3,
+            205.1
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            752.9,
+            216.9,
+            769.3,
+            227.7
+          ]
+        }
+      ],
+      "note": "Underreamed is a named wellbore section, not an explicit open-hole completion. Both surface and underreamed sections end at 581 ft MD."
+    },
+    {
+      "number": 35,
+      "code": "(a)(12).cement_plug_identification",
+      "label": "Cement-plug identification",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 36,
+      "code": "(a)(12).cement_plug_top.md",
+      "label": "Cement-plug top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 37,
+      "code": "(a)(12).cement_plug_bottom.md",
+      "label": "Cement-plug bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 38,
+      "code": "(a)(13).cement_fill_identification",
+      "label": "Cement-fill identification",
+      "status": "MET",
+      "displayed_answer": "Conductor String Cement; Surface String Cement",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            428.64,
+            505.53,
+            540.65,
+            516.32
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            428.64,
+            564.01,
+            529.04,
+            574.79
+          ]
+        }
+      ],
+      "note": "Confirm the new excess categories well status, casing inside diameters and string lengths, slot specifications, and cement-top method."
+    },
+    {
+      "number": 39,
+      "code": "(a)(13).cement_fill_top.md",
+      "label": "Cement-fill top (MD)",
+      "status": "MET",
+      "displayed_answer": "Conductor and surface cement tops 14 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            672.6,
+            505.5,
+            683.5,
+            516.3
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            591.6,
+            564.0,
+            602.5,
+            574.8
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "code": "(a)(13).cement_fill_bottom.md",
+      "label": "Cement-fill bottom (MD)",
+      "status": "MET",
+      "displayed_answer": "Conductor cement bottom 94 ft; surface cement bottom 430 ft MD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            758.4,
+            505.5,
+            769.3,
+            516.3
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            645.4,
+            564.0,
+            661.9,
+            574.8
+          ]
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "code": "(a)(14).fluid_type",
+      "label": "Fluid type between plugs",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 42,
+      "code": "(a)(14).fluid_density",
+      "label": "Fluid density between plugs",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 43,
+      "code": "(a)(15).formation_names",
+      "label": "Formation names",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 44,
+      "code": "(a)(15).formation_depths.md",
+      "label": "Formation depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 45,
+      "code": "(a)(15).zone_names",
+      "label": "Zone names",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 46,
+      "code": "(a)(15).zone_depths.md",
+      "label": "Zone depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 47,
+      "code": "(a)(15).marker_names",
+      "label": "Marker names",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 48,
+      "code": "(a)(15).marker_depths.md",
+      "label": "Marker depths (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 49,
+      "code": "(a)(15).injection_zone_top.md",
+      "label": "Injection-zone top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 50,
+      "code": "(a)(15).injection_zone_bottom.md",
+      "label": "Injection-zone bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 51,
+      "code": "(a)(15).confining_layer_top.md",
+      "label": "Confining-layer top (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 52,
+      "code": "(a)(15).confining_layer_bottom.md",
+      "label": "Confining-layer bottom (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 53,
+      "code": "(a)(5).freshwater_base.tvd",
+      "label": "Base of freshwater (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 54,
+      "code": "(a)(6).usdw_base.tvd",
+      "label": "Base of lowermost USDW (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 55,
+      "code": "(a)(8).shoe_depth.tvd",
+      "label": "Shoe depth (TVD)",
+      "status": "MET",
+      "displayed_answer": "Conductor 94.1 ft; surface 425.7 ft; liner 571.3 ft TVD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            72.12,
+            369.72,
+            85.21,
+            377.07
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            70.24,
+            583.81,
+            87.09,
+            591.16
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            70.24,
+            964.84,
+            87.09,
+            972.19
+          ]
+        }
+      ],
+      "note": "TVD values are read from the paired MD/TVD axis at the corresponding depicted features. The casing and cement tables round MD values to whole feet: 94 aligns with 94.2 on the axis, 430 with 430.1, 393 with 392.7, and 14 with 14.1. Confirm these associations; no TVD is assumed merely from MD."
+    },
+    {
+      "number": 56,
+      "code": "(a)(8).stub_depth.tvd",
+      "label": "Stub depth (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 57,
+      "code": "(a)(8).liner_top_depth.tvd",
+      "label": "Liner-top depth (TVD)",
+      "status": "MET",
+      "displayed_answer": "Liner top 389.5 ft TVD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            70.24,
+            416.87,
+            87.09,
+            424.22
+          ]
+        }
+      ],
+      "note": "TVD values are read from the paired MD/TVD axis at the corresponding depicted features. The casing and cement tables round MD values to whole feet: 94 aligns with 94.2 on the axis, 430 with 430.1, 393 with 392.7, and 14 with 14.1. Confirm these associations; no TVD is assumed merely from MD."
+    },
+    {
+      "number": 58,
+      "code": "(a)(9).perforation_depths.tvd",
+      "label": "Perforation depths (TVD)",
+      "status": "MET",
+      "displayed_answer": "Semi-perf and slotted-liner tops 401.6 and 422.8 ft TVD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            70.24,
+            488.55,
+            87.09,
+            495.9
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            70.24,
+            535.71,
+            87.09,
+            543.06
+          ]
+        }
+      ],
+      "note": "One slotted section is labelled Semi Perf; both slots rows have a Perf Rows column. The draft treats both intervals as perforation intervals and records the slotted liner as another flow/integrity feature. Confirm this classification. TVD values are read from the paired MD/TVD axis at the corresponding depicted features. The casing and cement tables round MD values to whole feet: 94 aligns with 94.2 on the axis, 430 with 430.1, 393 with 392.7, and 14 with 14.1. Confirm these associations; no TVD is assumed merely from MD."
+    },
+    {
+      "number": 59,
+      "code": "(a)(9).perforation_intervals.tvd",
+      "label": "Perforation intervals (TVD)",
+      "status": "MET",
+      "displayed_answer": "Semi-perf 401.6–422.8 ft; slotted liner 422.8–569.0 ft TVD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            70.24,
+            488.55,
+            87.09,
+            495.9
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            70.24,
+            535.71,
+            87.09,
+            543.06
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            70.24,
+            893.16,
+            87.09,
+            900.52
+          ]
+        }
+      ],
+      "note": "One slotted section is labelled Semi Perf; both slots rows have a Perf Rows column. The draft treats both intervals as perforation intervals and records the slotted liner as another flow/integrity feature. Confirm this classification. TVD values are read from the paired MD/TVD axis at the corresponding depicted features. The casing and cement tables round MD values to whole feet: 94 aligns with 94.2 on the axis, 430 with 430.1, 393 with 392.7, and 14 with 14.1. Confirm these associations; no TVD is assumed merely from MD."
+    },
+    {
+      "number": 60,
+      "code": "(a)(9).open_hole_completions.tvd",
+      "label": "Open-hole completions (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 61,
+      "code": "(a)(9).water_shutoff_holes.tvd",
+      "label": "Water-shutoff holes (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 62,
+      "code": "(a)(9).cement_ports.tvd",
+      "label": "Cement ports (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 63,
+      "code": "(a)(9).cavity_shots.tvd",
+      "label": "Cavity shots (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 64,
+      "code": "(a)(9).cuts.tvd",
+      "label": "Cuts (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 65,
+      "code": "(a)(9).casing_damage_extent.tvd",
+      "label": "Casing-damage extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 66,
+      "code": "(a)(9).junk_or_fish_extent.tvd",
+      "label": "Junk/fish extent (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 67,
+      "code": "(a)(11).hole_depth.tvd",
+      "label": "Hole depth (TVD)",
+      "status": "MET",
+      "displayed_answer": "Conductor section bottom 94.1 ft; surface and underreamed bottoms 571.3 ft TVD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            72.12,
+            369.72,
+            85.21,
+            377.07
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            70.24,
+            964.84,
+            87.09,
+            972.19
+          ]
+        }
+      ],
+      "note": "Underreamed is a named wellbore section, not an explicit open-hole completion. Both surface and underreamed sections end at 581 ft MD. TVD values are read from the paired MD/TVD axis at the corresponding depicted features. The casing and cement tables round MD values to whole feet: 94 aligns with 94.2 on the axis, 430 with 430.1, 393 with 392.7, and 14 with 14.1. Confirm these associations; no TVD is assumed merely from MD."
+    },
+    {
+      "number": 68,
+      "code": "(a)(12).cement_plug_top.tvd",
+      "label": "Cement-plug top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 69,
+      "code": "(a)(12).cement_plug_bottom.tvd",
+      "label": "Cement-plug bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 70,
+      "code": "(a)(13).cement_fill_top.tvd",
+      "label": "Cement-fill top (TVD)",
+      "status": "MET",
+      "displayed_answer": "Conductor and surface cement tops 14.1 ft TVD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            72.12,
+            249.94,
+            85.21,
+            257.29
+          ]
+        }
+      ],
+      "note": "TVD values are read from the paired MD/TVD axis at the corresponding depicted features. The casing and cement tables round MD values to whole feet: 94 aligns with 94.2 on the axis, 430 with 430.1, 393 with 392.7, and 14 with 14.1. Confirm these associations; no TVD is assumed merely from MD."
+    },
+    {
+      "number": 71,
+      "code": "(a)(13).cement_fill_bottom.tvd",
+      "label": "Cement-fill bottom (TVD)",
+      "status": "MET",
+      "displayed_answer": "Conductor cement bottom 94.1 ft; surface bottom 425.7 ft TVD",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            72.12,
+            369.72,
+            85.21,
+            377.07
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            70.24,
+            583.81,
+            87.09,
+            591.16
+          ]
+        }
+      ],
+      "note": "TVD values are read from the paired MD/TVD axis at the corresponding depicted features. The casing and cement tables round MD values to whole feet: 94 aligns with 94.2 on the axis, 430 with 430.1, 393 with 392.7, and 14 with 14.1. Confirm these associations; no TVD is assumed merely from MD."
+    },
+    {
+      "number": 72,
+      "code": "(a)(15).formation_depths.tvd",
+      "label": "Formation depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 73,
+      "code": "(a)(15).zone_depths.tvd",
+      "label": "Zone depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 74,
+      "code": "(a)(15).marker_depths.tvd",
+      "label": "Marker depths (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 75,
+      "code": "(a)(15).injection_zone_top.tvd",
+      "label": "Injection-zone top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 76,
+      "code": "(a)(15).injection_zone_bottom.tvd",
+      "label": "Injection-zone bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 77,
+      "code": "(a)(15).confining_layer_top.tvd",
+      "label": "Confining-layer top (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 78,
+      "code": "(a)(15).confining_layer_bottom.tvd",
+      "label": "Confining-layer bottom (TVD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 79,
+      "code": "(b)(1).yield_calculation_steps",
+      "label": "Cement-yield calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 80,
+      "code": "(b)(1).cement_calculation_steps",
+      "label": "Cement calculation steps",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": []
+    },
+    {
+      "number": 81,
+      "code": "(b)(2).cement_job_identification",
+      "label": "Cement job identification (date or stage)",
+      "status": "MET",
+      "displayed_answer": "Conductor String Cement; Surface String Cement",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            428.64,
+            505.53,
+            540.65,
+            516.32
+          ]
+        },
+        {
+          "page": 1,
+          "bbox_pt": [
+            428.64,
+            564.01,
+            529.04,
+            574.79
+          ]
+        }
+      ],
+      "note": "Both cement fills have distinguishing names. The surface job lists volumes, sack counts, yields, and Class C, but the conductor job has no corresponding entries, so the repeated-job points remain MISSING. A yield value alone is not calculation steps."
+    },
+    {
+      "number": 82,
+      "code": "(b)(2).slurry_volume",
+      "label": "Slurry volume (or sacks) for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Both cement fills have distinguishing names. The surface job lists volumes, sack counts, yields, and Class C, but the conductor job has no corresponding entries, so the repeated-job points remain MISSING. A yield value alone is not calculation steps."
+    },
+    {
+      "number": 83,
+      "code": "(b)(2).slurry_density",
+      "label": "Slurry density for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Both cement fills have distinguishing names. The surface job lists volumes, sack counts, yields, and Class C, but the conductor job has no corresponding entries, so the repeated-job points remain MISSING. A yield value alone is not calculation steps."
+    },
+    {
+      "number": 84,
+      "code": "(b)(2).slurry_yield",
+      "label": "Slurry yield for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Both cement fills have distinguishing names. The surface job lists volumes, sack counts, yields, and Class C, but the conductor job has no corresponding entries, so the repeated-job points remain MISSING. A yield value alone is not calculation steps."
+    },
+    {
+      "number": 85,
+      "code": "(b)(2).cement_type",
+      "label": "Cement type for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Both cement fills have distinguishing names. The surface job lists volumes, sack counts, yields, and Class C, but the conductor job has no corresponding entries, so the repeated-job points remain MISSING. A yield value alone is not calculation steps."
+    },
+    {
+      "number": 86,
+      "code": "(b)(2).cement_additives",
+      "label": "Cement additives for each cement job",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Both cement fills have distinguishing names. The surface job lists volumes, sack counts, yields, and Class C, but the conductor job has no corresponding entries, so the repeated-job points remain MISSING. A yield value alone is not calculation steps."
+    },
+    {
+      "number": 87,
+      "code": "(b)(3).wellbore_path_md",
+      "label": "Wellbore path: measured depth (MD)",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Deviated is treated as an explicit deviation statement answering inclination only. Vertical schematic describes the drawing, not a separate assertion that the deviated borehole is vertical."
+    },
+    {
+      "number": 88,
+      "code": "(b)(3).inclination",
+      "label": "Wellbore path: inclination",
+      "status": "MET",
+      "displayed_answer": "Deviated",
+      "locations": [
+        {
+          "page": 1,
+          "bbox_pt": [
+            142.46,
+            146.28,
+            175.0,
+            155.27
+          ]
+        }
+      ],
+      "note": "Deviated is treated as an explicit deviation statement answering inclination only. Vertical schematic describes the drawing, not a separate assertion that the deviated borehole is vertical."
+    },
+    {
+      "number": 89,
+      "code": "(b)(3).azimuth",
+      "label": "Wellbore path: azimuth",
+      "status": "MISSING",
+      "displayed_answer": null,
+      "locations": [],
+      "note": "Deviated is treated as an explicit deviation statement answering inclination only. Vertical schematic describes the drawing, not a separate assertion that the deviated borehole is vertical."
+    },
+    {
+      "number": 90,
+      "code": "(c).borehole_designation",
+      "label": "Borehole designation (original hole, redrill, or sidetrack; conditional: multiple boreholes only)",
+      "status": "NOT_APPLICABLE",
+      "displayed_answer": null,
+      "locations": []
+    }
+  ],
+  "excess_data": [
+    {
+      "type": "E1",
+      "label": "Well location",
+      "count": 2,
+      "instances": [
+        {
+          "item": "field",
+          "text": "Midway Sunset South",
+          "reason": "Field location is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            32.72,
+            132.04,
+            128.73,
+            142.83
+          ]
+        },
+        {
+          "item": "surface legal location",
+          "text": "SEC20/T11N/R23W",
+          "reason": "Location is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            589.83,
+            109.41,
+            678.62,
+            120.2
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E2",
+      "label": "Well status",
+      "count": 1,
+      "instances": [
+        {
+          "item": "status",
+          "text": "Producing - Rod Pump",
+          "reason": "Well status is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            404.13,
+            109.41,
+            504.52,
+            120.2
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E3",
+      "label": "KB-ground height",
+      "count": 1,
+      "instances": [
+        {
+          "item": "KB-ground distance",
+          "text": "14 ft",
+          "reason": "Height is not an absolute reference elevation.",
+          "page": 1,
+          "bbox_pt": [
+            404.1,
+            132.0,
+            415.0,
+            142.8
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E4",
+      "label": "Casing inside diameter",
+      "count": 3,
+      "instances": [
+        {
+          "item": "conductor",
+          "text": "13.50 in",
+          "reason": "Casing ID is not nominal OD.",
+          "page": 1,
+          "bbox_pt": [
+            616.32,
+            266.91,
+            641.05,
+            277.7
+          ]
+        },
+        {
+          "item": "surface",
+          "text": "6.37 in",
+          "reason": "Casing ID is not nominal OD.",
+          "page": 1,
+          "bbox_pt": [
+            619.08,
+            326.33,
+            638.29,
+            337.12
+          ]
+        },
+        {
+          "item": "liner",
+          "text": "4.89 in",
+          "reason": "Casing ID is not nominal OD.",
+          "page": 1,
+          "bbox_pt": [
+            619.08,
+            385.75,
+            638.29,
+            396.54
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E5",
+      "label": "Casing string lengths",
+      "count": 3,
+      "instances": [
+        {
+          "item": "conductor",
+          "text": "80.00 ft",
+          "reason": "String length is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            744.6,
+            289.5,
+            769.3,
+            300.3
+          ]
+        },
+        {
+          "item": "surface",
+          "text": "416.00 ft",
+          "reason": "String length is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            739.1,
+            349.0,
+            769.3,
+            359.8
+          ]
+        },
+        {
+          "item": "liner",
+          "text": "188.26 ft",
+          "reason": "String length is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            739.1,
+            408.4,
+            769.3,
+            419.2
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E6",
+      "label": "Intermediate casing-joint bottoms",
+      "count": 2,
+      "instances": [
+        {
+          "item": "7 in joint",
+          "text": "404 ft",
+          "reason": "An intermediate joint bottom is not a complete-string shoe.",
+          "page": 1,
+          "bbox_pt": [
+            316.8,
+            377.26,
+            342.43,
+            386.25
+          ]
+        },
+        {
+          "item": "7 in joint",
+          "text": "429 ft",
+          "reason": "An intermediate joint bottom is not a complete-string shoe.",
+          "page": 1,
+          "bbox_pt": [
+            316.8,
+            514.96,
+            347.04,
+            523.95
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E7",
+      "label": "Slot specifications",
+      "count": 2,
+      "instances": [
+        {
+          "item": "slot row 1",
+          "text": "0.030 in; 2.00 in; 6.00 ft; 32 perforation rows",
+          "reason": "Slot dimensions and row count are not separate scored points.",
+          "page": 1,
+          "bbox_pt": [
+            428.6,
+            454.6,
+            626.2,
+            465.4
+          ]
+        },
+        {
+          "item": "slot row 2",
+          "text": "0.030 in; 2.00 in; 6.00 ft; 64 perforation rows",
+          "reason": "Slot dimensions and row count are not separate scored points.",
+          "page": 1,
+          "bbox_pt": [
+            428.6,
+            468.7,
+            626.2,
+            479.5
+          ]
+        }
+      ]
+    },
+    {
+      "type": "E8",
+      "label": "Cement-top method",
+      "count": 1,
+      "instances": [
+        {
+          "item": "surface cement",
+          "text": "Returns to Surface",
+          "reason": "Top-measurement method is not a scored point.",
+          "page": 1,
+          "bbox_pt": [
+            686.6,
+            564.01,
+            769.35,
+            574.79
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "item": "Drawing timestamp",
+      "text": "7/17/2019 2:57:03 PM",
+      "page": 1,
+      "bbox_pt": [
+        232.3,
+        146.3,
+        307.0,
+        155.3
+      ]
+    },
+    {
+      "item": "Report printed",
+      "text": "7/17/2019",
+      "page": 1,
+      "bbox_pt": [
+        725.26,
+        997.85,
+        769.34,
+        1008.64
+      ]
+    },
+    {
+      "item": "Software website",
+      "text": "www.natfuel.com/seneca",
+      "page": 1,
+      "bbox_pt": [
+        43.09,
+        997.85,
+        161.17,
+        1008.64
+      ]
+    },
+    {
+      "item": "Page number",
+      "text": "1/1",
+      "page": 1,
+      "bbox_pt": [
+        385.68,
+        997.85,
+        428.65,
+        1008.64
+      ]
+    }
+  ],
+  "supporting_another_requirement": [],
+  "not_applicable_evidence": [
+    {
+      "point": 90,
+      "item": "Original Hole",
+      "text": "Original Hole",
+      "page": 1,
+      "bbox_pt": [
+        179.76,
+        146.28,
+        227.5,
+        155.27
+      ]
+    }
+  ],
+  "excess_total": {
+    "instances": 15,
+    "types": 8
+  },
+  "uncertain_calls": [
+    {
+      "points": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "The operator appears in a Seneca Resources logo; the source says well name SUNSET 232X but has no separately labelled lease. It prints API 03064787 while the screening log uses 0403064787. Confirm the logo and identity interpretation without replacing the displayed source values."
+    },
+    {
+      "points": [
+        6,
+        7
+      ],
+      "reason": "Ground elevation is 914 ft and KB-ground distance is 14 ft, but the source does not separately state absolute KB elevation. It is not calculated."
+    },
+    {
+      "points": [
+        17,
+        18,
+        28,
+        58,
+        59
+      ],
+      "reason": "One slotted section is labelled Semi Perf; both slots rows have a Perf Rows column. The draft treats both intervals as perforation intervals and records the slotted liner as another flow/integrity feature. Confirm this classification."
+    },
+    {
+      "points": [
+        19,
+        33,
+        34,
+        67
+      ],
+      "reason": "Underreamed is a named wellbore section, not an explicit open-hole completion. Both surface and underreamed sections end at 581 ft MD."
+    },
+    {
+      "points": [
+        55,
+        57,
+        58,
+        59,
+        67,
+        70,
+        71
+      ],
+      "reason": "TVD values are read from the paired MD/TVD axis at the corresponding depicted features. The casing and cement tables round MD values to whole feet: 94 aligns with 94.2 on the axis, 430 with 430.1, 393 with 392.7, and 14 with 14.1. Confirm these associations; no TVD is assumed merely from MD."
+    },
+    {
+      "points": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "reason": "Both cement fills have distinguishing names. The surface job lists volumes, sack counts, yields, and Class C, but the conductor job has no corresponding entries, so the repeated-job points remain MISSING. A yield value alone is not calculation steps."
+    },
+    {
+      "points": [
+        87,
+        88,
+        89
+      ],
+      "reason": "Deviated is treated as an explicit deviation statement answering inclination only. Vertical schematic describes the drawing, not a separate assertion that the deviated borehole is vertical."
+    },
+    {
+      "points": [
+        10,
+        28,
+        38
+      ],
+      "reason": "Confirm the new excess categories well status, casing inside diameters and string lengths, slot specifications, and cement-top method."
+    }
+  ]
+}
