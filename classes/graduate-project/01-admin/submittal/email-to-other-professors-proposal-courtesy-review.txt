@@ -1,0 +1,19 @@
+Sent: November 19, 2026, 12:51 PM PST (as replies to each professor's acceptance message; recipients are items 4-21 in professors-who-accepted.txt)
+
+Dear Professor,
+
+Thank you again for kindly agreeing to serve on my master's project committee. So many faculty members generously said yes that the committee filled quickly: Dr. Ningning Wu is the chair, and Dr. Nitin Agarwal and Dr. Daniel Berleant are the members. I am sorry that there is no longer a committee position open, and I am grateful for your support. As promised, I am glad to share the proposal with you.
+
+The proposal, "Prompt Structure and AI-Assisted Completeness Assessment of CalGEM Casing Diagrams: A Repeated-Measures Comparison of ChatGPT, Claude, and Gemini," tests whether three free consumer AI assistants can tell if the data required by California regulation (14 CCR § 1724.7.1) are present on casing diagrams. It uses 30 randomly selected diagrams from injection wells in approved underground injection control projects. Each diagram is reviewed against 90 atomic data points and compared with a frozen human-reference record. Three prompt conditions (naive, informed, and chain-of-thought) are tested in a repeated-measures design.
+
+The proposal is attached as "Research Proposal - Lester Carcamo.docx." The cited sources, with the supporting passages highlighted, are in this shared folder:
+https://drive.google.com/drive/folders/1SYkHtzikTV5-oRHMcYVa3kqGCQHy5aIf?usp=sharing
+
+No signature or formal action is needed. If you have time to read it, I would welcome any comments or suggestions, and I would value your perspective as the work moves forward.
+
+Thank you for your time and encouragement.
+
+Best regards,
+
+Lester S. Carcamo
+Master's Student, Information Science

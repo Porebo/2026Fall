@@ -1,0 +1,20 @@
+Sent: November 19, 2026, 12:21 PM PST
+Subject: Project proposal for your review
+
+Dear Dr. Agarwal and Dr. Berleant,
+
+Thank you for serving on my master's project committee. I am pleased to share my project proposal, "Prompt Structure and AI-Assisted Completeness Assessment of CalGEM Casing Diagrams: A Repeated-Measures Comparison of ChatGPT, Claude, and Gemini," for your review.
+
+The study tests whether three free consumer AI assistants can tell if the data required by California regulation (14 CCR § 1724.7.1) are present on casing diagrams. It uses 30 randomly selected diagrams from injection wells in approved underground injection control projects. Each diagram is reviewed against 90 atomic data points and compared with a frozen human-reference record. Three prompt conditions (naive, informed, and chain-of-thought) are tested in a repeated-measures design, and the analysis will be carried out in SQL in the study's SQLite database.
+
+The proposal is attached as "Research Proposal - Lester Carcamo.docx." The cited sources, with the supporting passages highlighted, are in this shared folder:
+https://drive.google.com/drive/folders/1SYkHtzikTV5-oRHMcYVa3kqGCQHy5aIf?usp=sharing
+
+The Proposal Approval Form is currently with Dr. Wu, my advisor and committee chair. To keep all signatures on a single form, I will send you the same copy once she has signed it. In the meantime, I would be grateful for any comments or suggestions you may have on the proposal, and I am happy to revise it or meet to discuss it at your convenience.
+
+Thank you for your time and guidance.
+
+Best regards,
+
+Lester S. Carcamo
+Master's Student, Information Science

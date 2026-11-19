@@ -1,0 +1,84 @@
+Sent: November 19, 2026, 12:15 PM PST
+Subject: Project proposal for your review and the Proposal Approval Form
+
+Dear Dr. Wu,
+
+I am pleased to share my master's project proposal, "Prompt Structure and AI-Assisted Completeness Assessment of CalGEM Casing Diagrams: A Repeated-Measures Comparison of ChatGPT, Claude, and Gemini," for your review as my advisor and committee chair.
+
+The study tests whether three free consumer AI assistants can tell if the data required by California regulation (14 CCR § 1724.7.1) are present on casing diagrams. It uses 30 randomly selected diagrams from injection wells in approved underground injection control projects. Each diagram is reviewed against 90 atomic data points and compared with a frozen human-reference record. Three prompt conditions (naive, informed, and chain-of-thought) are tested in a repeated-measures design, and the analysis will be carried out in SQL in the study's SQLite database. The proposal describes the data, design, measures, schedule, and the limitations and risks, each paired with a planned response.
+
+Attached are:
+1. Research Proposal - Lester Carcamo.docx
+2. Proposal-Approval-Form-Carcamo.pdf (signed by me)
+
+The cited sources, with the supporting passages highlighted, are in this shared folder:
+https://drive.google.com/drive/folders/1SYkHtzikTV5-oRHMcYVa3kqGCQHy5aIf?usp=sharing
+
+To keep all signatures on a single form, I would like to route it in sequence. If you approve the proposal, could you please sign the form and return it to me? I will then send the same signed copy to Dr. Nitin Agarwal and Dr. Daniel Berleant in turn, so that the final form carries all three signatures.
+
+I would be grateful for any comments on the proposal before you sign. I am happy to make revisions or meet to discuss it at your convenience.
+
+Thank you for your guidance throughout this work.
+
+Best regards,
+
+Lester S. Carcamo
+Master's Student, Information Science
+
+
+======================================================================
+Dr. Wu's response (received November 19, 2026; time not recorded)
+======================================================================
+
+Lester,
+It looks good to me. One comment: to avoid confusion from other committee members, make it as the master project proposal instead of "research proposal", and remove the text "INFQ 72203 Research Methods" on the first page.
+You can submit it as the research proposal assignment to the Research Method class.
+Let me know if you have any questions.
+Send me the revised version at your earliest convenience. If everything looks fine, you can submit it to the other committee members.
+Ningning Wu
+
+Note: she did not sign or return the approval form; she asked for the revised version first.
+
+
+======================================================================
+Actions taken
+======================================================================
+
+1. Title page: "A Research Proposal" changed to "Master's Project Proposal".
+2. Title page: "INFQ 72203 Research Methods" removed.
+3. Section 1.1: "This research proposal examines" changed to "This master's project proposal examines".
+4. Table 3, row 1: "Thesis talk and course proposal" changed to "Thesis talk and project proposal" (the activity cell still reads "submit the course proposal").
+5. Closing Remarks: "the course proposal" changed to "the project proposal".
+6. File renamed from "Research Proposal - Lester Carcamo.docx" to "Masters Project Proposal - Lester Carcamo.docx".
+
+
+======================================================================
+My reply
+======================================================================
+
+Sent: November 19, 2026, 1:13 PM PST
+
+Dear Dr. Wu,
+
+Thank you for your review and helpful comment. I have revised the document as you suggested: it is now titled a master's project proposal throughout, and "INFQ 72203 Research Methods" has been removed from the first page. The revised proposal is attached.
+
+I have also attached the Proposal Approval Form. If everything looks fine, could you please sign it and send it back to me? I will then forward the same form to Dr. Agarwal and Dr. Berleant for their signatures.
+
+Thank you again for your guidance.
+
+Best regards,
+Lester S. Carcamo
+
+Attached:
+1. Masters Project Proposal - Lester Carcamo.docx
+2. Proposal-Approval-Form-Carcamo.pdf (signed by me)
+
+
+======================================================================
+Dr. Wu's second response (received November 19, 2026, 1:29 PM PST)
+======================================================================
+
+Please send your proposal to the committee for comments.
+Attached is my signed form.
+
+Attachment: Proposal Approval Form signed by Dr. Wu.

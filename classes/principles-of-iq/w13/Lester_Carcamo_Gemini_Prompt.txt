@@ -1,0 +1,1 @@
+You are a data quality expert. Please evaluate the StudentGrades.csv file against the data quality requirements for this file given in the document Lester_Carcamo_HW03.docx. Express the evaluation results as a percentage of the values that comply with each requirement.
