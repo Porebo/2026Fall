@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Database Explorer | Graduate Project</title>
+  <link rel="stylesheet" href="../../../../activity-bar.css?v=3">
+  <link rel="stylesheet" href="explorer/explorer.css">
+</head>
+<body>
+  <header class="page-header"><h1>Database Explorer</h1></header>
+  <main>
+    <div id="status" class="status" role="status">Loading database...</div>
+    <div class="workspace" id="workspace">
+      <section class="panel diagram-panel" id="diagram-panel" aria-labelledby="diagram-title">
+        <div class="panel-header">
+          <h2 class="panel-title" id="diagram-title">Diagram</h2>
+          <button class="panel-toggle" type="button" data-panel="diagram" aria-controls="diagram-content" aria-expanded="true" aria-label="Collapse diagram panel" title="Collapse diagram panel">&minus;</button>
+        </div>
+        <div class="diagram-content" id="diagram-content">
+          <div class="canvas-tools">
+            <label for="table-picker">Add table</label>
+            <select id="table-picker" disabled></select>
+            <button id="add-table" type="button" disabled>Add</button>
+            <button id="show-all" type="button" disabled>Show all tables</button>
+            <button id="clear-tables" type="button" disabled>Clear tables</button>
+            <button id="reset-layout" type="button" disabled>Reset layout</button>
+            <div class="zoom-controls" role="group" aria-label="Diagram zoom">
+              <button id="zoom-out" class="zoom-button" type="button" aria-label="Zoom out" disabled>&minus;</button>
+              <output id="zoom-level" class="zoom-level" aria-live="polite">100%</output>
+              <button id="zoom-in" class="zoom-button" type="button" aria-label="Zoom in" disabled>+</button>
+            </div>
+          </div>
+          <p class="hint">Drag a table title or use its arrow keys to move it. Click a key to reveal related tables. Hover over a column for sample values; check its box to include it in the query.</p>
+          <div id="relationship-descriptions" class="sr-only" aria-live="polite"></div>
+          <div class="diagram-viewport" id="diagram-viewport">
+            <div class="board-sizer" id="board-sizer">
+              <div class="board" id="board">
+                <svg class="connectors" id="connectors" aria-hidden="true"></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="splitter splitter--vertical" id="diagram-splitter" role="separator" aria-label="Resize diagram panel" aria-controls="diagram-panel" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" tabindex="0"></div>
+      <div class="right-panels" id="right-panels">
+        <section class="panel query-panel" id="query-panel" aria-labelledby="query-title">
+          <div class="panel-header">
+            <h2 class="panel-title" id="query-title">Query</h2>
+            <button class="panel-toggle" type="button" data-panel="query" aria-controls="query-content" aria-expanded="true" aria-label="Collapse query panel" title="Collapse query panel">&minus;</button>
+          </div>
+          <div class="query-content" id="query-content">
+            <p id="query-status" role="status">Select columns to build a query.</p>
+            <div class="query-actions">
+              <button id="edit-sql" type="button" disabled>Edit SQL</button>
+              <button id="visual-sql" type="button" disabled>Use visual SQL</button>
+              <button id="run-query" type="button" disabled>Run query</button>
+              <button id="cancel-query" type="button" disabled>Cancel query</button>
+            </div>
+            <label for="sql-editor">SQL <span id="sql-mode">(visual mode)</span></label>
+            <textarea id="sql-editor" spellcheck="false" readonly></textarea>
+            <details id="join-details">
+              <summary>Choose join relationships</summary>
+              <p>Automatic joins prefer a direct key relationship. To choose another route, or if multiple paths remain, select the relationships to use, including intermediate tables.</p>
+              <div id="join-options" class="join-options"></div>
+              <button id="clear-joins" type="button">Clear relationship choices</button>
+            </details>
+            <label for="join-type">Join type</label>
+            <select id="join-type">
+              <option value="INNER JOIN">Inner join (matching rows)</option>
+              <option value="LEFT JOIN">Left join (keep rows from the first selected table)</option>
+            </select>
+            <p class="hint">Queries run locally against an in-memory, read-only copy. Results are limited to 500 rows; long-running queries can be cancelled.</p>
+          </div>
+        </section>
+        <div class="splitter splitter--horizontal" id="query-splitter" role="separator" aria-label="Resize query panel" aria-controls="query-panel" aria-orientation="horizontal" aria-valuemin="0" aria-valuemax="100" aria-valuenow="55" tabindex="0"></div>
+        <section class="panel results-panel" id="results-panel" aria-labelledby="results-title">
+          <div class="panel-header">
+            <h2 class="panel-title" id="results-title">Results</h2>
+            <button class="panel-toggle" type="button" data-panel="results" aria-controls="results-content" aria-expanded="true" aria-label="Collapse results panel" title="Collapse results panel">&minus;</button>
+          </div>
+          <div class="results-content" id="results-content">
+            <p id="result-status" role="status">No query has been run.</p>
+            <div class="results-viewport"><table id="results"></table></div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <div id="sample-tooltip" class="sample-tooltip" role="tooltip" hidden></div>
+  <script type="module" src="explorer/main.js"></script>
+  <script src="../../../../scripts/site-nav.js?v=activity-bar-6"></script>
+</body>
+</html>

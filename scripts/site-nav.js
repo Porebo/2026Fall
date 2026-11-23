@@ -2,7 +2,8 @@
   var siteRoot = new URL("../", document.currentScript.src).href;
   var CLASSES = [
     { label: "Graduate Project", slug: "graduate-project", home: "home-graduate-project.html",
-      icon: "<path d=\"M3 7h7l2 2h9v10H3z\"/><path d=\"m9 14 2 2 4-4\"/>" },
+      icon: "<path d=\"M3 7h7l2 2h9v10H3z\"/><path d=\"m9 14 2 2 4-4\"/>",
+      links: [{ label: "Database Explorer", path: "04-literature/casing-analysis/db_explorer.html" }] },
     { label: "Principles of IQ", slug: "principles-of-iq", home: "home-principles-of-iq.html",
       icon: "<path d=\"M12 3 20 6v5c0 5-3 8-8 10-5-2-8-5-8-10V6z\"/><path d=\"m8.5 12 2.5 2.5 4.5-5\"/>" },
     { label: "Research Methods", slug: "research-methods", home: "home-research-methods.html",
@@ -92,7 +93,36 @@
           link.setAttribute("aria-current", "page");
         }
       }
-      nav.appendChild(link);
+      if (course.links) {
+        var item = document.createElement("div");
+        item.className = "activity-bar__item";
+        item.appendChild(link);
+
+        var flyout = document.createElement("nav");
+        flyout.className = "activity-bar__flyout";
+        flyout.setAttribute("aria-label", course.label + " links");
+
+        var heading = document.createElement("span");
+        heading.className = "activity-bar__flyout-heading";
+        heading.textContent = course.label;
+        flyout.appendChild(heading);
+
+        course.links.forEach(function (destination) {
+          var destinationLink = document.createElement("a");
+          destinationLink.className = "activity-bar__flyout-link";
+          destinationLink.href = root + "classes/" + course.slug + "/" + destination.path;
+          destinationLink.textContent = destination.label;
+          if (destinationLink.pathname === window.location.pathname) {
+            destinationLink.setAttribute("aria-current", "page");
+          }
+          flyout.appendChild(destinationLink);
+        });
+
+        item.appendChild(flyout);
+        nav.appendChild(item);
+      } else {
+        nav.appendChild(link);
+      }
     });
 
     document.body.insertBefore(nav, document.body.firstChild);
