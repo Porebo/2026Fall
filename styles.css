@@ -1,3 +1,5 @@
+@import url("activity-bar.css?v=2");
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -18,6 +20,60 @@ a {
 
 .page--with-channel {
   max-width: 1200px;
+}
+
+.has-activity-bar .page--with-channel {
+  max-width: none;
+  margin: 0;
+}
+
+.has-activity-bar .site-header .class-nav {
+  display: none;
+}
+
+.has-activity-bar .site-header .breadcrumb {
+  margin-bottom: 0;
+}
+
+.has-activity-bar .class-content [id] {
+  scroll-margin-top: calc(var(--site-header-offset, 6rem) + 1rem);
+}
+
+.home-sidebar__group + .home-sidebar__group {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d9e2ec;
+}
+
+.home-sidebar__group summary {
+  color: #52606d;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.home-sidebar__links {
+  display: grid;
+  gap: 0.3rem;
+  margin-top: 0.75rem;
+}
+
+.home-sidebar__links a {
+  padding: 0.3rem 0.4rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.home-sidebar__links a:hover,
+.home-sidebar__links a:focus-visible {
+  background: #eef5ff;
+  text-decoration: underline;
+}
+
+.home-sidebar__group .deadline-legend {
+  margin-top: 0.75rem;
 }
 
 .site-header {
