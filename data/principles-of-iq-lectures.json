@@ -8,7 +8,7 @@
     "daysOfWeek": [2, 4],
     "startDate": "2026-08-25",
     "endDate": "2026-12-09",
-    "excludedDates": ["2026-09-07"],
+    "excludedDates": ["2026-09-07", "2026-10-01", "2026-10-08", "2026-11-19"],
     "excludedRanges": [
       { "start": "2026-11-23", "end": "2026-11-27" }
     ],
@@ -18,6 +18,43 @@
     "displayPacific": "11:40 AM PT (California)",
     "scheduleNote": "Section 9U1: online. Section 01: in person Tuesdays, online Thursdays."
   },
+  "scheduleNotes": [
+    {
+      "date": "2026-09-17",
+      "title": "Class held; recording failed. September 22 includes a recap.",
+      "url": "w05/2026-09-22.html#recording-heading"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Class canceled by instructor.",
+      "url": "archive/announcements.html#a0"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "No class; online midterm exam window.",
+      "url": "w06/2026-09-29.html#exam-logistics-heading"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Instructor traveling; prerecorded material and no live presentation were anticipated, but not confirmed.",
+      "url": "w12/2026-11-12.html#following-week"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Class canceled; assignment due December 1.",
+      "url": "archive/announcements.html#no-class-nov-19"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "No class: Thanksgiving week fall break.",
+      "url": "w01/2026-08-25.html#course-dates-heading"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "No class: Thanksgiving week fall break.",
+      "url": "w01/2026-08-25.html#course-dates-heading"
+    }
+  ],
   "lectures": [
     {
       "date": "2026-08-25",
@@ -50,6 +87,11 @@
       "url": "w03/2026-09-10.html"
     },
     {
+      "date": "2026-09-13",
+      "title": "September 10 lecture makeup recording",
+      "url": "w03/2026-09-10.html"
+    },
+    {
       "date": "2026-09-15",
       "title": "Data quality dimensions, missing values & data profiling",
       "url": "w04/2026-09-15.html"
@@ -73,6 +115,56 @@
       "date": "2026-10-06",
       "title": "Midterm review: data vs. information quality, the information quality gap & governing AI agents",
       "url": "w06/2026-10-06.html"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Sampling and descriptive statistics",
+      "url": "w08/2026-10-13.html"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "October 13 lecture makeup recording",
+      "url": "w08/2026-10-13.html"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Guest lecture: standards, data quality, and portability",
+      "url": "w08/2026-10-15.html"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Standard deviation, probability, and Bayes' theorem",
+      "url": "w09/2026-10-20.html"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Conditional probability and probability distributions",
+      "url": "w09/2026-10-22.html"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Normal distributions, regression, and the central limit theorem",
+      "url": "w10/2026-10-27.html"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Confidence intervals and hypothesis testing",
+      "url": "w10/2026-10-29.html"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Controlling information product quality",
+      "url": "w11/2026-11-05.html"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Data quality assessment and preparation",
+      "url": "w12/2026-11-10.html"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Information quality metrics and monitoring",
+      "url": "w12/2026-11-12.html"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "Browser SQLite dependency for the database explorer",
+  "scripts": {
+    "test": "node --test explorer/query-builder.test.js",
+    "vendor-sqlite": "node vendor-sqlite.cjs"
+  },
+  "dependencies": {
+    "sql.js": "1.13.0"
+  }
+}

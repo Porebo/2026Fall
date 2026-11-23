@@ -1,9 +1,15 @@
 (function () {
+  var siteRoot = new URL("../", document.currentScript.src).href;
   var CLASSES = [
-    { label: "Graduate Project", slug: "graduate-project", home: "home-graduate-project.html" },
-    { label: "Principles of IQ", slug: "principles-of-iq", home: "home-principles-of-iq.html" },
-    { label: "Research Methods", slug: "research-methods", home: "home-research-methods.html" },
-    { label: "Master Thesis", slug: "master-thesis", home: "home-master-thesis.html" }
+    { label: "Graduate Project", slug: "graduate-project", home: "home-graduate-project.html",
+      icon: "<path d=\"M3 7h7l2 2h9v10H3z\"/><path d=\"m9 14 2 2 4-4\"/>",
+      links: [{ label: "Database Explorer", path: "04-literature/casing-analysis/db_explorer.html" }] },
+    { label: "Principles of IQ", slug: "principles-of-iq", home: "home-principles-of-iq.html",
+      icon: "<path d=\"M12 3 20 6v5c0 5-3 8-8 10-5-2-8-5-8-10V6z\"/><path d=\"m8.5 12 2.5 2.5 4.5-5\"/>" },
+    { label: "Research Methods", slug: "research-methods", home: "home-research-methods.html",
+      icon: "<path d=\"m10 3 4 2-3 6-4-2zM9 10l-1 2M14 7a6 6 0 0 1-1 11H7M5 21h14M5 18h10\"/><circle cx=\"14\" cy=\"7\" r=\"1\"/>" },
+    { label: "Master Thesis", slug: "master-thesis", home: "home-master-thesis.html",
+      icon: "<path d=\"M12 6c-2-2-5-2-9-2v14c4 0 7 0 9 2 2-2 5-2 9-2V4c-4 0-7 0-9 2zM12 6v14\"/>" }
   ];
 
   function getRootPrefix() {
@@ -38,6 +44,124 @@
     });
 
     return nav;
+  }
+
+  function setActivityIconAndLabel(element, label, icon) {
+    element.setAttribute("aria-label", label);
+    element.innerHTML = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">" + icon + "</svg>";
+
+    var tooltip = document.createElement("span");
+    tooltip.className = "activity-bar__tooltip";
+    tooltip.setAttribute("aria-hidden", "true");
+    tooltip.textContent = label;
+    element.appendChild(tooltip);
+  }
+
+  function createActivityLink(label, href, icon) {
+    var link = document.createElement("a");
+    link.className = "activity-bar__link";
+    link.href = href;
+    setActivityIconAndLabel(link, label, icon);
+    return link;
+  }
+
+  function addActivityBar() {
+    var root = siteRoot;
+    var storageKey = "activity-bar-expanded:" + new URL(root).pathname;
+    var nav = document.createElement("nav");
+    nav.className = "activity-bar";
+    nav.setAttribute("aria-label", "Site navigation");
+
+    var toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "activity-bar__link activity-bar__toggle";
+    nav.appendChild(toggle);
+
+    var home = createActivityLink("Home", root + "index.html",
+      "<path d=\"M3 11.5 12 4l9 7.5M5.5 10v9h5v-5h3v5h5v-9\"/>");
+    if (home.pathname.replace(/\/index\.html$/, "/") === window.location.pathname.replace(/\/index\.html$/, "/")) {
+      home.classList.add("activity-bar__link--active");
+      home.setAttribute("aria-current", "page");
+    }
+    nav.appendChild(home);
+
+    CLASSES.forEach(function (course) {
+      var link = createActivityLink(course.label, root + "classes/" + course.slug + "/" + course.home, course.icon);
+      if (isCurrentClass(course.slug)) {
+        link.classList.add("activity-bar__link--active");
+        if (link.pathname === window.location.pathname) {
+          link.setAttribute("aria-current", "page");
+        }
+      }
+      if (course.links) {
+        var item = document.createElement("div");
+        item.className = "activity-bar__item";
+        item.appendChild(link);
+
+        var flyout = document.createElement("nav");
+        flyout.className = "activity-bar__flyout";
+        flyout.setAttribute("aria-label", course.label + " links");
+
+        var heading = document.createElement("span");
+        heading.className = "activity-bar__flyout-heading";
+        heading.textContent = course.label;
+        flyout.appendChild(heading);
+
+        course.links.forEach(function (destination) {
+          var destinationLink = document.createElement("a");
+          destinationLink.className = "activity-bar__flyout-link";
+          destinationLink.href = root + "classes/" + course.slug + "/" + destination.path;
+          destinationLink.textContent = destination.label;
+          if (destinationLink.pathname === window.location.pathname) {
+            destinationLink.setAttribute("aria-current", "page");
+          }
+          flyout.appendChild(destinationLink);
+        });
+
+        item.appendChild(flyout);
+        nav.appendChild(item);
+      } else {
+        nav.appendChild(link);
+      }
+    });
+
+    document.body.insertBefore(nav, document.body.firstChild);
+    document.body.classList.add("has-activity-bar");
+
+    function setExpanded(expanded) {
+      document.body.classList.toggle("has-activity-bar--expanded", expanded);
+      toggle.setAttribute("aria-expanded", String(expanded));
+      setActivityIconAndLabel(toggle, expanded ? "Collapse navigation" : "Expand navigation",
+        expanded ? "<path d=\"m15 5-7 7 7 7\"/>" : "<path d=\"m9 5 7 7-7 7\"/>");
+      updateHeaderOffset();
+    }
+
+    var saved = null;
+    try {
+      saved = window.localStorage.getItem(storageKey);
+    } catch (error) {
+      console.warn("Could not read the navigation preference:", error);
+    }
+    if (saved !== null && saved !== "true" && saved !== "false") {
+      console.warn("Invalid navigation preference:", saved);
+    }
+    setExpanded(saved === "true");
+
+    toggle.addEventListener("click", function () {
+      var expanded = toggle.getAttribute("aria-expanded") !== "true";
+      setExpanded(expanded);
+      try {
+        window.localStorage.setItem(storageKey, String(expanded));
+      } catch (error) {
+        console.warn("Could not save the navigation preference:", error);
+      }
+    });
+
+    window.addEventListener("storage", function (event) {
+      if (event.key === storageKey || event.key === null) {
+        setExpanded(event.newValue === "true");
+      }
+    });
   }
 
   function updateHeaderOffset() {
@@ -219,10 +343,13 @@
     });
   }
 
-  wrapSiteHeader();
-  addVisitCounter();
-  addCopyButtons();
-  addCollapsibleSubsections();
-  addCollapsibleCards();
+  addActivityBar();
+  if (document.querySelector(".breadcrumb")) {
+    wrapSiteHeader();
+    addVisitCounter();
+    addCopyButtons();
+    addCollapsibleSubsections();
+    addCollapsibleCards();
+  }
   window.addEventListener("resize", updateHeaderOffset);
 })();

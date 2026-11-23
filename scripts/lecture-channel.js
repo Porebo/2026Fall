@@ -94,7 +94,7 @@
     return map;
   }
 
-  function renderScheduleHeader(container, schedule) {
+  function renderScheduleHeader(container, schedule, scheduleNotes) {
     if (!schedule) {
       return;
     }
@@ -133,22 +133,29 @@
     legend.innerHTML =
       "<li><span class=\"lecture-channel__legend-box lecture-channel__legend-box--meeting\" aria-hidden=\"true\"></span> Class meeting</li>" +
       "<li><span class=\"lecture-channel__legend-box lecture-channel__legend-box--lecture\" aria-hidden=\"true\"></span> Notes posted</li>";
+    if (scheduleNotes.length) {
+      legend.innerHTML += "<li><span class=\"lecture-channel__legend-box lecture-channel__legend-box--schedule-note\" aria-hidden=\"true\"></span> Schedule or recording note</li>";
+    }
     block.appendChild(legend);
 
     container.appendChild(block);
   }
 
-  function createDayCell(dateKey, dayNumber, meetingDates, lectureMap) {
+  function createDayCell(dateKey, dayNumber, meetingDates, lectureMap, scheduleNoteMap) {
     var isMeeting = !!meetingDates[dateKey];
     var lecture = lectureMap[dateKey];
+    var scheduleNote = scheduleNoteMap[dateKey];
+    var entry = scheduleNote || lecture;
     var cell;
 
-    if (lecture && lecture.url) {
+    if (entry && entry.url) {
       cell = document.createElement("a");
-      cell.href = resolveUrl(lecture.url);
-      cell.title = lecture.title;
+      cell.href = resolveUrl(entry.url);
     } else {
       cell = document.createElement("span");
+    }
+    if (entry) {
+      cell.title = entry.title;
     }
 
     cell.className = "lecture-channel__day";
@@ -158,15 +165,20 @@
     if (lecture) {
       cell.classList.add("lecture-channel__day--lecture");
     }
+    if (scheduleNote) {
+      cell.classList.add("lecture-channel__day--schedule-note");
+    }
 
     cell.textContent = String(dayNumber);
 
-    if (isMeeting && lecture) {
+    if (scheduleNote) {
+      cell.setAttribute("aria-label", (isMeeting ? "Scheduled class meeting; " : "") + "day " + dayNumber + ": " + scheduleNote.title);
+    } else if (isMeeting && lecture) {
       cell.setAttribute("aria-label", "Class meeting with notes on day " + dayNumber);
     } else if (isMeeting) {
       cell.setAttribute("aria-label", "Class meeting on day " + dayNumber);
     } else if (lecture) {
-      cell.setAttribute("aria-label", "Lecture notes on day " + dayNumber);
+      cell.setAttribute("aria-label", "Notes on day " + dayNumber + ": " + lecture.title);
     } else {
       cell.setAttribute("aria-label", "Day " + dayNumber);
     }
@@ -174,7 +186,7 @@
     return cell;
   }
 
-  function renderMonthGrid(monthNumber, year, meetingDates, lectureMap) {
+  function renderMonthGrid(monthNumber, year, meetingDates, lectureMap, scheduleNoteMap) {
     var grid = document.createElement("div");
     grid.className = "lecture-channel__day-grid";
 
@@ -202,7 +214,7 @@
 
     for (var day = 1; day <= daysInMonth; day += 1) {
       var dateKey = year + "-" + pad(monthNumber) + "-" + pad(day);
-      daysWrap.appendChild(createDayCell(dateKey, day, meetingDates, lectureMap));
+      daysWrap.appendChild(createDayCell(dateKey, day, meetingDates, lectureMap, scheduleNoteMap));
     }
 
     grid.appendChild(daysWrap);
@@ -218,8 +230,10 @@
     var year = term.year || 2026;
     var months = term.months || [8, 9, 10, 11, 12];
     var lectures = data.lectures || [];
+    var scheduleNotes = data.scheduleNotes || [];
     var meetingDates = buildMeetingDates(data.meetingSchedule);
     var lectureMap = buildLectureMap(lectures);
+    var scheduleNoteMap = buildLectureMap(scheduleNotes);
 
     container.innerHTML = "";
 
@@ -228,7 +242,7 @@
     heading.textContent = "Lecture Calendar";
     container.appendChild(heading);
 
-    renderScheduleHeader(container, data.meetingSchedule);
+    renderScheduleHeader(container, data.meetingSchedule, scheduleNotes);
 
     months.forEach(function (monthNumber) {
       var monthKey = year + "-" + pad(monthNumber);
@@ -242,7 +256,7 @@
       monthHeading.textContent = MONTH_NAMES[monthNumber - 1] + " " + year;
       monthSection.appendChild(monthHeading);
 
-      monthSection.appendChild(renderMonthGrid(monthNumber, year, meetingDates, lectureMap));
+      monthSection.appendChild(renderMonthGrid(monthNumber, year, meetingDates, lectureMap, scheduleNoteMap));
 
       container.appendChild(monthSection);
     });

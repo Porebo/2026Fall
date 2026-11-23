@@ -1,0 +1,408 @@
+{
+  "version": 4,
+  "generatedAt": "2026-11-23T07:02:34.026Z",
+  "root": {
+    "name": "spec_regulations",
+    "columns": [
+      {
+        "cid": 0,
+        "name": "regulation_id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "citation",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "title",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "source_url",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "effective_note",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "foreignKeys": [],
+    "rowCount": 1,
+    "sample": [
+      {
+        "regulation_id": 1,
+        "citation": "Cal. Code Regs. tit. 14, § 1724.7.1",
+        "title": "Casing Diagrams",
+        "source_url": "https://www.law.cornell.edu/regulations/california/14-CCR-1724.7.1",
+        "effective_note": "Current regulation supplied for this database"
+      }
+    ]
+  },
+  "relatedTables": [
+    {
+      "name": "spec_sections",
+      "columns": [
+        {
+          "cid": 0,
+          "name": "section_id",
+          "type": "INTEGER",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "regulation_id",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "section_code",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "title",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "section_text",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "foreignKeys": [
+        {
+          "id": 0,
+          "seq": 0,
+          "table": "spec_regulations",
+          "from": "regulation_id",
+          "to": "regulation_id",
+          "on_update": "NO ACTION",
+          "on_delete": "NO ACTION",
+          "match": "NONE"
+        }
+      ],
+      "rowCount": 5,
+      "sample": [
+        {
+          "section_id": 1,
+          "regulation_id": 1,
+          "section_code": "(a)",
+          "title": "Casing diagram data",
+          "section_text": "Casing diagrams submitted under this article shall include all listed data."
+        },
+        {
+          "section_id": 2,
+          "regulation_id": 1,
+          "section_code": "(b)",
+          "title": "Supporting documentation",
+          "section_text": "Each casing diagram shall be accompanied by the listed documentation. Scored from checklist v4.1 (points 79-89): MET when the published diagram shows the information or states that it accompanies the diagram separately; MISSING when it neither shows nor references it."
+        },
+        {
+          "section_id": 3,
+          "regulation_id": 1,
+          "section_code": "(c)",
+          "title": "Multiple boreholes",
+          "section_text": "All information is required for original, redrilled, and sidetracked wellbores."
+        },
+        {
+          "section_id": 4,
+          "regulation_id": 1,
+          "section_code": "(d)",
+          "title": "Depth conventions",
+          "section_text": "Measured depth and true vertical depth are required for all depths under subdivision (a)."
+        },
+        {
+          "section_id": 5,
+          "regulation_id": 1,
+          "section_code": "(e)",
+          "title": "Submission format",
+          "section_text": "A graphical diagram or flat-file data set may be submitted if complete."
+        }
+      ],
+      "relationships": [
+        {
+          "from": "regulation_id",
+          "to": "regulation_id",
+          "parent": {
+            "min": 1,
+            "max": 1
+          },
+          "child": {
+            "min": 0,
+            "max": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "spec_validation_rules",
+      "columns": [
+        {
+          "cid": 0,
+          "name": "rule_id",
+          "type": "INTEGER",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "regulation_id",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "rule_code",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "rule_name",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "rule_text",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "foreignKeys": [
+        {
+          "id": 0,
+          "seq": 0,
+          "table": "spec_regulations",
+          "from": "regulation_id",
+          "to": "regulation_id",
+          "on_update": "NO ACTION",
+          "on_delete": "NO ACTION",
+          "match": "NONE"
+        }
+      ],
+      "rowCount": 4,
+      "sample": [
+        {
+          "rule_id": 1,
+          "regulation_id": 1,
+          "rule_code": "(c).all_boreholes",
+          "rule_name": "All-borehole coverage",
+          "rule_text": "Apply all requirements separately to original, redrilled, and sidetracked boreholes."
+        },
+        {
+          "rule_id": 2,
+          "regulation_id": 1,
+          "rule_code": "(d).md_required",
+          "rule_name": "Measured depth required",
+          "rule_text": "Provide measured depth for every depth required under subdivision (a)."
+        },
+        {
+          "rule_id": 3,
+          "regulation_id": 1,
+          "rule_code": "(d).tvd_required",
+          "rule_name": "True vertical depth required",
+          "rule_text": "Provide true vertical depth for every depth required under subdivision (a)."
+        },
+        {
+          "rule_id": 4,
+          "regulation_id": 1,
+          "rule_code": "(e).complete_format",
+          "rule_name": "Complete submission format",
+          "rule_text": "A graphical diagram or flat-file dataset must contain all information described in this section."
+        }
+      ],
+      "relationships": [
+        {
+          "from": "regulation_id",
+          "to": "regulation_id",
+          "parent": {
+            "min": 1,
+            "max": 1
+          },
+          "child": {
+            "min": 0,
+            "max": null
+          }
+        }
+      ]
+    }
+  ],
+  "requirementsTable": {
+    "name": "spec_requirements",
+    "columns": [
+      {
+        "cid": 0,
+        "name": "requirement_id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "section_id",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "requirement_code",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "requirement_name",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "requirement_text",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "scope_type",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "is_conditional",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": "0",
+        "pk": 0
+      }
+    ],
+    "foreignKeys": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "spec_sections",
+        "from": "section_id",
+        "to": "section_id",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      }
+    ],
+    "rowCount": 90,
+    "sample": [
+      {
+        "requirement_id": 1,
+        "section_id": 1,
+        "requirement_code": "(a)(1).operator_name",
+        "requirement_name": "Operator name",
+        "requirement_text": "Name of the well operator.",
+        "scope_type": "WELL",
+        "is_conditional": 0
+      },
+      {
+        "requirement_id": 2,
+        "section_id": 1,
+        "requirement_code": "(a)(1).lease_name",
+        "requirement_name": "Lease name",
+        "requirement_text": "Name of the lease associated with the well.",
+        "scope_type": "WELL",
+        "is_conditional": 0
+      },
+      {
+        "requirement_id": 3,
+        "section_id": 1,
+        "requirement_code": "(a)(1).well_number",
+        "requirement_name": "Well number",
+        "requirement_text": "Assigned number of the well.",
+        "scope_type": "WELL",
+        "is_conditional": 0
+      },
+      {
+        "requirement_id": 4,
+        "section_id": 1,
+        "requirement_code": "(a)(1).api_number",
+        "requirement_name": "API number",
+        "requirement_text": "API number of the well.",
+        "scope_type": "WELL",
+        "is_conditional": 0
+      },
+      {
+        "requirement_id": 5,
+        "section_id": 1,
+        "requirement_code": "(a)(2).spud_date",
+        "requirement_name": "Spud date",
+        "requirement_text": "Date the well was spudded.",
+        "scope_type": "WELL",
+        "is_conditional": 0
+      }
+    ],
+    "relationships": [
+      {
+        "from": "section_id",
+        "to": "section_id",
+        "parent": {
+          "min": 1,
+          "max": 1
+        },
+        "child": {
+          "min": 0,
+          "max": null
+        }
+      }
+    ]
+  }
+}

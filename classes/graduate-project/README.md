@@ -29,6 +29,14 @@ MS Information Science master's project, Lester S. Carcamo. Advisor: Dr. Ningnin
 | `_backup/` | One backup copy of the 30 sample diagrams, the casing diagram rule, and the naive prompt, in the same layout as `06-study/` |
 | `_to-review/` | Extra copies kept until you decide what to do with them (see the note inside) |
 
+## Database explorer
+
+The [database explorer](04-literature/casing-analysis/db_explorer.html) loads the SQLite database and a vendored `sql.js` WebAssembly runtime in the browser; serve the folder over HTTP. It reads the live database schema, displays its declared foreign keys, and generates SQL from checked columns. Each expanded table can select all or reset its own columns. **Clear tables** empties the diagram without changing the query; add tables again to see their selected columns. Automatic joins prefer a direct declared foreign-key relationship; choose relationships manually to use another route or resolve remaining ambiguity. Queries run in a cancellable worker against a read-only in-memory copy, with a 500-row display limit and a 15-second time limit. Selecting visual columns does not overwrite manual SQL; **Use visual SQL** replaces it with the current visual query.
+
+The diagram, query, and results panels scroll independently. Drag their dividers (or focus a divider and use the arrow keys) to resize them; use each panel's button to collapse or expand it without clearing its contents.
+
+The database and runtime are downloaded by the browser from the same site; they are not sent to a query service. Publishing the explorer also publishes `casing_specs.db`, so it must contain only data appropriate for the site's audience. The old snapshot generator is not used by the explorer. To update the vendored runtime after changing its dependency, run `npm install` and `npm run vendor-sqlite` in `04-literature/casing-analysis/`; commit the lockfile, generated vendor files, and license alongside the change.
+
 ## Related material outside this folder
 
 - Week 5 study design draft (earlier design): [../research-methods/w05/study-design-draft.md](../research-methods/w05/study-design-draft.md)
@@ -37,7 +45,7 @@ MS Information Science master's project, Lester S. Carcamo. Advisor: Dr. Ningnin
 
 ## Git
 
-The CSV files and enforcement order PDFs in `05-data/calgem/` are kept on local disk only (`.gitignore`). Everything else is tracked.
+The CSV files and enforcement order PDFs in `05-data/calgem/` are kept on local disk only (`.gitignore`). The explorer's `node_modules/` directory is also ignored; its browser runtime is vendored separately.
 
 ## CalGEM document consolidation, November 17, 2026
 

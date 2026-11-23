@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principles of IQ - 2026-11-10</title>
+  <link rel="stylesheet" href="../../../styles.css?v=activity-bar-6">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumb"><a href="../../../index.html">Home</a> / <a href="../home-principles-of-iq.html">Principles of IQ</a> / 2026-11-10</nav>
+    <header class="hero">
+      <p class="eyebrow">Class Meeting &mdash; November 10, 2026</p>
+      <h1 class="meeting-title">Data Quality Assessment and Preparation</h1>
+      <p class="lede">Profiling, missing values, patterns, relationships, and careful standardization for information products.</p>
+    </header>
+    <section class="card">
+      <h2>Recording and Source</h2>
+      <p>Notes from the November 10 transcript; timestamps are approximate.</p>
+      <p class="deadline-empty">Video and transcript: <code>F:\Principles of IQ - Fall 2026\2026-11-10-video.mp4</code> and <code>2026-11-10-transcript.vtt</code>.</p>
+    </section>
+    <section class="card">
+      <h2>Assessment in Context</h2>
+      <p>The class revisits data-quality requirements and measurement before discussing AI-assisted techniques. Data-quality assessment examines inputs; information quality asks whether the resulting product or service meets consumer requirements and creates value. <small>(~00:00&ndash;05:45)</small></p>
+    </section>
+    <section class="card">
+      <h2>Profiling and Missing Values</h2>
+      <p>Column profiles can expose unexpected values, such as a code outside an expected set. A non-null value is not necessarily a meaningful value: placeholders such as question marks and &ldquo;no middle name&rdquo; may conceal missing information. Numeric zero can also be ambiguous when a source uses it to represent missing data. <small>(~10:00&ndash;20:45)</small></p>
+      <p>Pattern profiling abstracts characters into classes, such as uppercase and lowercase letters, to reveal inconsistent formats. Sorting must respect data types: text sorting can place &ldquo;1000&rdquo; before &ldquo;99&rdquo;, unlike numeric sorting; dates stored as strings can likewise mislead. <small>(~25:00&ndash;30:45)</small></p>
+    </section>
+    <section class="card">
+      <h2>Relationships and Standardization</h2>
+      <p>Primary and foreign keys connect rows across tables. For example, a product ID in a sales record should refer to a corresponding product. Such relationships allow checks that cannot be made from one column alone. <small>(~35:00)</small></p>
+      <p>Standardization aims for consistent representations, but must preserve meaning. The lecture discusses date and address formats, aliases such as Bob and Robert, and accent marks that can change a word's meaning. AI can help structure documents or interpret variants, but its results still need quality assessment. <small>(~45:00&ndash;60:40)</small></p>
+    </section>
+  </main>
+  <script src="../../../scripts/site-nav.js?v=activity-bar-6"></script>
+</body>
+</html>
