@@ -1441,6 +1441,10 @@ a.calendar-marker:focus-visible {
   }
 }
 
+.vocabulary-entries dt:not(:first-child) {
+  margin-top: 0.8rem;
+}
+
 /* Course archive pages (classes/research-methods/archive) */
 .details-list {
   display: grid;
