@@ -134,6 +134,11 @@ a {
   background: #174ea6;
 }
 
+.lecture-channel__legend-box--schedule-note {
+  background: #ffe4a3;
+  border: 1px solid #875400;
+}
+
 .lecture-channel__day-grid {
   margin-bottom: 0.75rem;
 }
@@ -180,6 +185,11 @@ a {
 
 .lecture-channel__day--meeting.lecture-channel__day--lecture {
   box-shadow: inset 0 0 0 1px #fff;
+}
+
+.lecture-channel__day--schedule-note {
+  background: #ffe4a3;
+  color: #583700;
 }
 
 a.lecture-channel__day:hover,
